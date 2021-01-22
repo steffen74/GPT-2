@@ -1,0 +1,1500 @@
+Background
+Ensuring food security is one of the most pressing global development challenges
+(Godfray et al. 2010; World Bank 2008). Food prices are an important aspect of food
+security (Swinnen and Squicciarini 2012; Pinstrup-Andersen 2009) and especially for
+the poor (Dawe and Timmer 2012). The 2008 food price crisis re-awakened interest in
+the drivers of food prices and there is now a voluminous amount of literature on the
+drivers and consequences of food price volatility (see for example Abbott et al. 2009;
+Mitchell 2008; Ivanic and Martin 2008; Headey and Fan 2008; Kamgnia 2011; Ulimwengu
+and Ramadan 2009).
+The drivers of food prices have been variously reported as increased reliance on biofuels (Ajanovic 2011; Rosegrant 2008; Mitchell 2008), climate induced supply rigidities
+in some major agricultural countries (Baffes et al. 2015; Fischer et al. 1995; Rosenzweig
+and Parry 1994); and increasing demand pressure due to an expanding global population (Dyson 1996), among others. However, our understanding of the drivers of food
+prices especially in the developing world is still limited.
+In Uganda discussions have majorly concentrated on the consequences of the
+high food prices (Benson et al. 2008; Matovu and Twimukye 2009; Ulimwengu and
+Ramadan 2009). Only a scanty amount of literature has focused on the drivers of
+food prices in Uganda (see for example Dillon and Barrett 2013; Haggblade and
+Dewina 2010). This paper, therefore, contributes to a better understanding of the
+drivers of food prices in Uganda. In particular, the paper offers novel insights into
+© 2016 Mawejje. Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International
+License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium,
+provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and
+indicate if changes were made.
+
+the role of energy and climatic shocks in Ugandan food price processes using a formal approach and in a single empirical framework.
+Uganda presents an interesting case study for the examination of the drivers of food
+prices in developing agrarian economies. First, agriculture is the dominant sector but
+majority of poor households are net buyers of food (Simler 2010; Benson et al. 2008).
+Therefore food prices have important welfare effects for the people (Simler 2010;
+Wodon and Zaman 2010; Ulimwengu and Ramadan 2009). Second, agricultural sector
+is still predominantly dependant on the vagaries of the weather and therefore climatic
+shocks are likely to play a major role in the performance of the agricultural sector
+(Mwaura and Okoboi 2014) with implications for food prices. Third, historical trends
+suggest that global food prices follow international oil prices with possible pass through
+effects to domestic prices (Fig. 1).
+Literature has identified three channels through which energy price shocks affect
+food prices: first, energy prices affect the cost of farm inputs including inorganic
+fertilizer and fuel for farm machinery (Gilbert 2010; Dillon and Barrett 2013); second,
+the increased production of bio-fuels may have implications for food production and
+prices due to reallocation of agricultural resources to fuel production (de Gorter et al.
+2013; Dillon and Barrett 2013; Mitchell 2008; Rosegrant 2008); third, energy prices can
+drive up transport costs, which in turn affect the costs of food transportation and distribution (Dillon and Barrett 2013; Gilbert 2010; Badiane and Shively 1998; Mitchell
+2008; Benson et al. 2008).
+Against this background, this paper investigates the drivers of food prices in Uganda,
+highlighting the importance of climate and energy shocks. The unique feature of this
+paper is threefold: first; we estimate three vector error correction models – two for the
+food markets (domestic and external) and one for the energy sector; second we account
+for climatic shocks and seasonality effects; third we examine these issues in a single
+equation framework that exploits cointergration techniques and general-to-specific
+modelling.
+Results indicate that energy prices are important food price drivers in the long run.
+In addition, temperature shocks have a bigger short run effects on food prices than
+
+Fig. 1 The evolution of world and domestic food and energy rainfall shocks. Other important drivers of food prices include exchange rates, international food prices and demand factors. These findings contribute to a growing strand
+of literature that offers deeper insights into the national level drivers of food prices.
+The remainder of the paper is organised as follows: Section two presents the theoretical framework; section three presents the estimation strategy and data; section four
+provides the results; finally section five concludes.
+
+Theoretical framework
+We model food prices in the context of a small open economy, where the general food
+ 
+ 
+
+
+f
+fT
+f NT
+and non-tradable Pt
+food
+price Pt level is a weighted average of tradable P t
+prices. Tradable foods are subject to international competition while non-tradable
+foods are not. As such while the price of tradable food is determined in the international/regional market non-tradable food prices are determined in the domestic market. Both tradable and non-tradable food prices are affected by energy price shocks
+À eÁ
+pt ; while climate shocks (ct) only affect prices in non-traded food market, such that:
+
+
+f
+fT
+f NT
+pt ¼ f pt ; pt ; pe ; ct
+t
+
+ð1Þ
+
+In our model energy shocks affect the prices of both traded and non-traded food
+prices through their effects on the prices of farm inputs and transportation costs.
+The tradable food sector
+
+The traded food prices are determined in the international market through the interfÃ
+
+action of the exchange rate, (et), and the international food prices, pt ; assuming purchasing power parity (PPP), where Uganda is a price taker, such that,
+
+
+fT
+fÃ
+P t ¼ f p t ; et
+ð2Þ
+We expect both international food prices and exchange rate depreciation to positively
+affect the prices of traded food.
+The non-traded food sector
+
+The non-traded food prices are determined in the domestic food market through agricultural production and real national income. Following Mawejje and Lwanga (2015)
+
+
+f NT
+the price of non-traded food commodities P t
+is determined through real incomes
+(Yt) and agricultural supply (At) as expressed in equation 3. We expect food prices to
+increase in real income and to decrease in agricultural production.
+f NT
+
+Pt
+
+¼ f ðY t ; A t Þ
+
+ð3Þ
+
+The Uganda Bureau of Statistics collects two types of food indices. The ‘food price
+index’ (FOOD) is a composite index that includes both domestic and imported food
+prices. The ‘food crop price index’ (FCROP) includes only the domestic non-traded and
+perishable food prices. We used the non-traded food crop price index in the domestic
+food price equation. Please see Appendix 5 for a detailed breakdown of the CPI and its
+components.
+
+The energy sector
+
+Equilibrium in the energy markets is determined in the international markets. Domestic
+À Á
+energy prices pe are determined through the interactions of exchange rate movet
+À Á
+ments (et) and international oil prices peÃ such that:
+
+
+
+Climate shocks
+
+We identify climate shocks as the deviations of monthly temperature and rainfall realisations from their respective long term means (see for example Maystadt and Ecker
+2014; Mwaura and Okoboi 2014) following the expressions in equation 5.
+Ct ¼
+
+xt −
+x
+σ
+
+ð5Þ
+
+x
+With xt denoting climatic realisations;  the long term monthly mean; and δ the
+standard deviation.
+Substituting equations 2), 3), 4), and 5) into 1) yields the following general food price
+model in equation 6.
+
+
+f
+fÃ
+pt ¼ f pt ; et ; pe ; Y t; At ; C t
+ð6Þ
+t
+
+Estimation strategy and data
+The vector error correction models
+
+We develop three vector error correction models, as a first step, for the three markets
+namely: the domestic food market, the external food market, and the energy market.
+The estimated models take the general form:
+0
+
+Δxit ¼ π i þ αi βi xit−1 þ
+
+Xk
+j¼1
+
+∅i Δxit−j þ εit
+
+ð7Þ
+
+Where; i = {1, 2, 3} represents the domestic food market, external food market, and
+the energy market; xi are vectors of variables that are integrated either of order 1 order;
+αi are the adjustment parameters, βi are matrices of long-run coefficients, ∅ i are the
+0
+
+short run coefficients, πi are vectors of constants. It then follows that αi βi xit−1 represent
+the stationary error correction terms, which define the deviations from long run equilibrium in the markets.
+We obtain the long run equilibrium relationships for the three markets following
+the sequence below: 1) in the first step we estimate the vector auto regressive models
+and obtain the optimal lag lengths. 2) The second step involves determining the num0
+
+ber of co-integrating relationships in the long run matrices αi βi xit−1 following the
+Johansen procedure. 3) The third step involves estimation of the unrestricted cointegrating relations in the vector error correction models (based on equation 7) and
+tests of hypotheses (or imposition of implied restrictions) to determine the long run
+equilibrium relationship. 4) The fourth step involves checking for model stability and
+residual analysis to check for normality, autocorrelation and heteroskedasticity of the
+residual process.
+
+The single equation model
+
+The food price model is estimated as a single equation that includes lagged vector error
+correction terms from the external (traded) food market, domestic (non-traded) food
+market, energy market, lagged climate anomalies, as well as monthly dummy variables
+to control for seasonality in the food price processes. In addition, the model includes
+all short run variables used in the vector error correction models up to their 12th lags.
+The single equation error correction food price model, therefore, takes the form in
+equation 8.
+f
+
+Δpt ¼ β0 þ
+þ
+
+12
+X
+
+j¼1
+f
+α3 E t−1
+
+f
+
+β1j Δpt−j þ
+
+12
+2
+11
+X
+X
+X
+j
+βi2j Δxt þ
+β3j C t−1 þ
+θ j d t þ α1 E e þ α2 E d
+t−1
+t−1
+j¼1
+
+j¼1
+
+j¼1
+
+þ εt
+
+ð8Þ
+f
+
+j
+
+where Δ is the difference operator, pt is the food price index, ct−1 are lagged climate
+variables (rainfall and temperature anomalies), xt is a vector of control variables inf
+
+cluded in the model, dt is a vector of dummy variables, E e ; E d ; and E t−1 are error
+t−1
+t−1
+correction terms from the external food market, domestic food market and energy markets respectively, included in their lagged forms. β1j ; βi2j ; and β3j, are short run parameters to be estimated; θj are dummy variable coefficients, and α1, α2 and α3 are
+adjustment parameters.
+In estimating the food price model in equation 8 above we followed the general-tospecific approach; starting with twelve lags in the full model, to arrive at a parsimonious
+representation of the food price model for Uganda, where only the significant parameters
+are retained.
+The data
+
+We use monthly data spanning a 12 year period (2000–2011) that gives rise to a fairly
+long time series with 144 data points for each variable. The Uganda specific data were
+obtained from the Bank of Uganda (BOU) and the Uganda Bureau of Statistics (UBOS),
+and the international food price data was obtained from the Food and Agricultural
+Organization of the United Nations (FAO). The FAO compiles a monthly international
+food price index as a weighted average of meat, dairy, cereal, edible oils and sugar
+prices. For purposes of this paper, we use the international cereal price index given that
+cereals are the more traded food items for Uganda.
+The Uganda Bureau of Statistics provides two food price indices: The Food crop price
+index (FCROP) which includes the (non-traded) perishables such as stable foods, fruits
+and vegetables and the food price index (FOOD) which is a combination of the (traded)
+processed and the perishables food prices. Unfortunately the Bureau does not provide a
+stand-alone price index for the traded food sector and we could not extract out the
+traded component because we lacked the necessary information to do so. For this reason our results should be interpreted with caution. However, this shortcoming notwithstanding, we believe the results provide useful insights into the roles of the domestic
+and external food markets in local food price processes.
+Other variables used in the analysis include: nominal exchange rate (XRATE); international cereal price index (CEREAL), real output (GDP), rainfall (RAINAN) and
+temperature (TEMPAN) anomalies, international oil prices (CRUDE) and domestic oil prices (AGO). Table 1 shows the descriptive statistics of the data. Where appropriate,
+the data were transformed and presented in their natural logarithm forms. Transformed series are preceded with the letter “l”. Where applicable, all data is presented in
+constant or real terms unless otherwise stated.
+The climate data is generated as the averages of 13 weather stations in the following
+areas: Makerere, Entebbe, Soroti, Namulonge, Kasese, Lira, Gulu, Kabale, Mbarara,
+Masindi, Arua, Kitgum, and Jinja. These weather stations span all ecological zones in
+Uganda.
+The graphical data expositions are provided in Appendix 1. We tested for the presence of unit roots (Table 2) following the procedures provided by Phillips and Perron
+(1988) hereafter P-P; and Dickey and Fuller (1979) hereafter D-F. Test results show that
+rainfall and temperature shocks are stationary in levels i.e. I(0), while the rest of the
+variables are stationary in first differences i.e. I(1).
+
+Results and discussions
+The external food market
+
+The long run co-integrating external food market is expressed in equation 9, assuming
+that domestic food prices adjust to exchange rate and movements in international food
+prices:
+lfood t ¼ β0 þ β1 lxratet þ β2 lcereal t þ εt
+
+ð9Þ
+
+Where lfood is the natural logarithm of the food price index; lxrate is the natural
+logarithm of the nominal exchange rate, and lcereal is the natural logarithm of the
+international cereal price index. The various lag selection criteria including the LR,
+FPE, AIC, HQIC and SBIC indicate an optimal lag length of 2 as shown in Table 3.
+The Johansen co-integration procedure (Table 4) does not reject the null hypothesis
+of one cointegrating vector.
+Cointegration analysis in the external food market shows that there is a long-run relationship between prices in the traded food sector, international food prices and nominal exchange rates. This relationship is expressed in Table 5.
+Results from the external food market (Table 5) indicate that in the long run, a one
+percentage depreciation of the nominal exchange rate results into a 1.6 % increase in
+the food price index, and a one percent increase in international cereal price index
+Table 1 descriptive statistics
+Variable
+
+Obs
+
+LFOOD
+
+144
+
+Mean
+4.819
+
+Std. Dev.
+0.239
+
+Min
+4.545
+
+Max
+5.498
+
+LFCROP
+
+144
+
+4.552
+
+0.440
+
+3.721
+
+5.399
+
+LXRATE
+
+144
+
+7.539
+
+0.124
+
+7.322
+
+7.942
+
+LCEREAL
+
+144
+
+4.881
+
+0.381
+
+4.361
+
+5.613
+
+LGDP
+
+144
+
+28.975
+
+0.254
+
+28.547
+
+29.354
+
+LAGRIC
+
+144
+
+27.621
+
+0.198
+
+27.136
+
+27.893
+
+LAGO
+
+144
+
+7.481
+
+0.301
+
+6.972
+
+8.229
+
+LCRUDE
+
+144
+
+3.906
+
+0.539
+
+2.929
+
+4.888
+
+RAINAN
+
+144
+
+-0.071
+
+1.040
+
+-2.562
+
+2.725
+
+TEMPAN
+
+144
+
+-0.469
+
+1.329
+
+-4.875
+
+2.524
+
+Table 2 Stationarity tests
+Variable
+
+Unit roost test static in levels
+
+LFOOD
+
+Unit roost test static in first difference
+
+D - F test
+
+D - F Test
+
+P - P test
+
+2.035
+
+1.669
+
+Order of integration
+
+P – P test
+
+-8.675***
+
+-8.597***
+
+I (1)
+
+LFCROP
+
+-1.124
+
+-1.186
+
+-9.141***
+
+-8.910***
+
+I (1)
+
+LXRATE
+
+-0.850
+
+-1.310
+
+-7.622***
+
+-7.546***
+
+I (1)
+
+LCEREAL
+
+-0.479
+
+-0.886
+
+-7.207***
+
+-7.323***
+
+I (1)
+
+LGDP
+
+-0.806
+
+-0.884
+
+-14.132***
+
+-14.754***
+
+I (1)
+
+LAGRIC
+
+-1.741
+
+-1.892
+
+-8.753***
+
+-8.570***
+
+I (1)
+
+LAGO
+
+-0.067
+
+-0.273
+
+-8.896***
+
+-8.683***
+
+I (1)
+
+-1.141
+
+-9.844***
+
+-9.892***
+
+LCRUDE
+
+-0.916
+
+RAINAN
+
+-8.922***
+
+-8.833***
+
+I (0)
+
+I (1)
+
+TEMPAN
+
+-8.710***
+
+-8.591***
+
+I (0)
+
+*=significant at the 10 % level
+
+leads to a 0.2 increase in the food price index. Thus international pass-through from
+international food prices is weaker. In addition, the error correction term indicates that
+4 % of all deviations from equilbirum in the current month are corrected in the following month.
+The LM test indicates no autocorrelation in the model residuals at two lags. However,
+the Jacque-Bera test for normality rejects the null hypothesis of normality of the error
+structure. The inverse roots of the characteristic polynomial indicate that the model is
+stable given that all roots locate within the unit circle (Appendix 2).
+The domestic food market
+
+Following Mawejje and Lwanga (2015), we assume that non-traded food prices are determined in the domestic market through agricultural production (supply) and real
+non-agricultural national income (demand). We interpolate quarterly data for agricultural production and real national income to arrive at the monthly series that we use in
+the model. Domestic food prices would be driven by other inputs such as wages and inputs. However such data are not available given the extent of subsistence/informal
+farming in Uganda (Gollin & Rogerson 2014) and the limited use of modern technologies (Kasirye 2013). The estimated vector error correction model for the agricultural
+sector takes the form expressed in equation 10.
+lfcropt ¼ β0 þ β1 lagrict þ β2 lgdpt þ εt
+
+ð10Þ
+
+Where lfcrop is the natural logarithm of the food crop price index; lagric is the natural logarithm of agricultural production, and lgdp is the natural logarithm of real
+Table 3 Lag length selection criteria for the external food market
+Lag
+
+LL
+
+0
+
+172.772
+
+LR
+
+df
+
+1
+
+895.329
+
+1445.1
+
+9
+
+2
+
+933.586
+
+76.515*
+
+9
+
+3
+
+937.345
+
+7.5182
+
+4
+
+944.746
+
+14.802
+
+P
+
+FPE
+
+AIC
+
+HQIC
+
+SBIC
+
+0.000
+
+-2.425
+
+-2.3997
+
+-2.362
+
+0.000
+
+0.000
+
+-12.619
+
+-12.5165
+
+-12.367
+
+0.000
+
+0.000*
+
+-13.037*
+
+-12.8576*
+
+-12.596*
+
+9
+
+0.583
+
+0.000
+
+-12.9621
+
+-12.7059
+
+-12.332
+
+9
+
+0.097
+
+0.000
+
+-12.9392
+
+-12.6062
+
+-12.112
+
+* = Optimal lag length for given selection criterion
+
+Table 4 The Johansen tests for cointergration in the external food market
+Maximum rank
+
+Number of parameters
+
+LL
+
+0
+
+12
+
+931.484
+
+Eigen value
+
+Trace statistic
+
+5 % critical value
+
+34.602
+
+29.68
+
+1
+
+17
+
+942.186
+
+2
+
+20
+
+948.514
+
+0.134
+
+13.197*
+
+15.41
+
+0.085
+
+0.542
+
+3.76
+
+3
+
+21
+
+948.785
+
+0.004
+
+* = Trace statistic indicates 1 cointegrating equation
+
+national output. The various lag selection criteria including the AIC and FPE indicate
+an optimal lag length of 4 as shown in Table 6.
+The Johansen co-integration procedure indicates the existence of one cointegrating
+vector (Table 7) that explains the long-run equilibrium in the Uganda domestic food
+market.
+Cointegration analysis in the domestic food market confirms the existence of a longrun relationship between domestic food prices, real per capita GDP, and rainfall anomalies. This relationship is expressed in Table 8.
+Results from the domestic food price model indicate that in the long run, a one percentage increase in real national output increases the domestic food crop price index
+by 1.89 percentage points. In addition a one percentage increase in agricultural production reduces the food crop index by 0.49 percent. These results suggest that demand
+pressures have a stronger effect on food crop prices than supply shocks. The error correction coefficient indicates that 21 % of all deviations in the domestic food market are
+corrected within a month’s period.
+The LM test fails to reject the null hypothesis of no autocorrelation indicating that
+our model suffers no autocorrelation. The Jacque-Bera test for normality, which is a
+joint test for skewness and kurtosis, rejects the null hypothesis of normality of the error
+structure. This is not a cause for worry, however, given the large sample properties of
+our estimation approach. The inverse roots of the characteristic polynomial indicate
+that the model is stable seeing that all roots locate within the unit circle (Appendix 3).
+The energy sector
+
+Although Uganda discovered commercially viable oil resources in 2006 (Mawejje &
+Bategeka 2013) the country is still heavily dependent on imported petroleum products
+to meet its domestic energy demand (Lee 2013). Therefore shocks in the energy markets are channelled through international prices of oil products and the exchange rate.
+We estimate the long run equilibrium in the domestic energy markets, using vector
+Table 5 Long-run equilibrium in the external food market
+Standard Error
+
+Z value
+
+1.55***
+
+0.22
+
+-7.08
+
+0.23***
+
+0.07
+
+-3.18
+
+0.02
+
+-2.28
+
+Variable names
+
+Coefficient
+
+LFOOD
+
+1
+
+LXRATE
+LCEREAL
+Constant
+
+8.05
+
+Error correction
+
+-0.04**
+
+LM test for autocorrelation at lag 2
+
+8.81 (0.45)
+
+Jacque-Bera
+
+121.38 (0.00)
+
+** =significant at the 5 % level; *** =significant at the 1 % level
+
+Table 6 Lag length selection criteria for the domestic food market
+Lag
+
+LL
+
+0
+
+193.43
+
+LR
+
+Df
+
+P
+
+FPE
+
+1
+
+805.97
+
+1225.10
+
+9
+
+0.00
+
+2.4e-09
+
+-11.34
+
+-11.24
+
+-11.09
+
+2
+
+829.87
+
+47.82
+
+9
+
+0.00
+
+1.9e-09
+
+-11.55
+
+-11.37*
+
+-11.11*
+
+3
+
+833.80
+
+7.85
+
+9
+
+0.55
+
+2.1e-09
+
+-11.48
+
+-11.23
+
+-10.85
+
+4
+
+851.89
+
+36.18*
+
+9
+
+0.00
+
+1.8e-09*
+
+-11.61*
+
+-11.28
+
+-10.79
+
+0.00
+
+AIC
+-2.72
+
+HQIC
+-2.693
+
+SBIC
+-2.66
+
+* = Optimal lag length for given selection criterion
+
+error correction techniques, where the domestic prices adjust to international price
+movements through the exchange rate as expressed in equation 11.
+lagot ¼ β0 þ β1l lcrudet þ β2 lxratet þ εt
+
+ð11Þ
+
+Where lago is the natural logarithm of domestic pump price for a litre of diesel;
+lcrude is the natural logarithm of international price for a barrel of crude oil, and lxrate
+is the natural logarithm of the nominal exchange rate. The various lag selection criteria
+including the LR, FPE, and AIC indicate that the optimal lag length for the energy market is 2 as shown in Table 9.
+The Johansen co-integration procedure as applied to the energy sector does not reject
+the null hypothesis of one cointegrating vector (Table 10). We are therefore confident
+that at least one cointegrating vector explaining the long-run equilibrium in the domestic agricultural sector exists.
+Cointegration analysis in the energy market shows that there is a long-run relationship between domestic fuel prices, international prices, and nominal exchange rates.
+This relationship is expressed in Table 11.
+This model indicates that in the long run, a one percentage increase in international fuel
+prices results into a 0.5 % increase in domestic fuel prices, and a one percent depreciation
+of the nominal exchange rate leads to a 0.7 % increase in the domestic fuel prices. These
+results suggest that exchange rate movements matter more for domestic fuel prices than
+for international oil prices. The error correction term indicates that 25 % of all deviations
+in the domestic energy markets are corrected in the following month.
+The LM test indicates no autocorrelation in the model residuals at two lags. However,
+the Jacque-Bera test for normality rejects the null hypothesis of normality of the error
+structure. The inverse roots of the characteristic polynomial indicate that the model is
+stable given that all roots locate within the unit circle (Appendix 4).
+The single equation food price model
+
+Results of the parsimonious single equation model in Table 12 indicate that disequilibrium in the domestic food and energy markets are important long-run drivers of food
+Table 7 The Johansen tests for cointergration in the domestic food market
+Maximum rank
+
+Number of parameters
+
+LL
+
+0
+
+39
+
+530.293
+
+1
+
+44
+
+553.713
+
+Eigen value
+
+Trace statistic
+
+5 % critical value
+
+49.025
+
+29.797
+
+0.219
+
+14.808*
+
+15.495
+
+0.574
+
+3.842
+
+2
+
+47
+
+559.035
+
+0.098
+
+3
+
+48
+
+559.252
+
+0.004
+
+* = Trace statistic indicates 1 cointegrating equation
+
+Table 8 Long-run equilibrium in the domestic food market
+Standard Error
+
+Z value
+
+1.89***
+
+0.19
+
+-9.58
+
+- 0.49*
+
+0.26
+
+1.86
+
+0.05
+
+-3.99
+
+Variable names
+
+Coefficient
+
+LFCROP
+
+1
+
+LGDP
+LAGRIC
+Constant
+
+36.66
+
+Error correction
+
+-0.21
+
+LM test for autocorrelation at lag 4
+
+3.97 (0.91)
+
+Jacque-Bera
+
+543.77 (0.00)
+
+*** = Significant at the 1 % level; * = significant at the 10 % level
+
+prices in Uganda. The adjustment coefficients for the domestic food and energy markets are -0.085 and -0.040 implying that 8.5 and 4.0 % of all disequilibrium in the domestic food market and energy sectors are corrected in the following month
+respectively.
+Results indicate significant food price inertia in the short run. Lagged food prices enters the short-run model with significant coefficients in the first, second, fifth and sixth
+lags. The search for a parsimonious model rejected disequilibrium in the external food
+sector as an important source of food inflation. This suggests that transmission of
+world food prices to the domestic market is low and is consistent with, among others:
+Baffes et al (2015); Benson et al (2008); and Minot (2011).
+Results indicate that temperature shocks are more important predictors of food
+prices than rainfall shocks in Uganda. Rainfall shocks were not significant and therefore
+dropped from the parsimonious model. These results are consistent with earlier research that showed temperature shocks have more devastating effects on food consumption Lazzaroni and Bedi (2014) and economic growth (Alagidede et al 2014;
+Lanzafame 2014).
+The nominal exchange rate variable enters the food price model positively in the first
+month suggesting quick adjustment of domestic food prices to exchange rate movements. A one percent depreciation of the nominal exchange rate increases the food
+price index by 0.21 % within the first month.
+The international food prices influence the domestic food prices in the short run.
+The international cereal price index enters the short run food price model positively
+and is significant in the fifth month. The coefficient of the fifth lag of international
+cereal prices is 0.088 indicating that a one percent increase in international cereal
+prices corroborates 0.088 % increase in the domestic food prices with a five month lag.
+This confirms our earlier assertions that international food price movements are transmitted into the domestic food prices more slowly.
+Table 9 Lag length selection criteria for the energy
+Lag
+
+LL
+
+0
+
+132.756
+
+LR
+
+df
+
+P
+
+1
+
+706.074
+
+1146.6
+
+9
+
+0.000
+
+2
+
+728.71
+
+45.27*
+
+9
+
+0.000
+
+3
+
+735.606
+
+13.793
+
+9
+
+4
+
+739.987
+
+8.7609
+
+9
+
+FPE
+
+HQIC
+
+SBIC
+
+-1.853
+
+-1.828
+
+-1.791
+
+9.9e-09
+
+-9.915
+
+-9.813
+
+-9.663
+
+8.2e-09*
+
+-10.110*
+
+9.931*
+
+-9.669*
+
+0.130
+
+8.4e-09
+
+-10.080
+
+-9.824
+
+-9.449
+
+0.460
+
+9.0e-09
+
+-10.014
+
+-9.681
+
+-9.195
+
+0.000
+
+* = Optimal lag length for given selection criterion
+
+AIC
+
+Table 10 The Johansen tests for cointergration in the domestic energy sector
+Maximum rank
+
+Number of parameters
+
+LL
+
+0
+
+12
+
+719.087
+
+Eigen value
+
+Trace statistic
+
+5 % critical value
+
+39.135
+
+29.68
+
+1
+
+17
+
+735.062
+
+2
+
+20
+
+738.444
+
+0.201
+
+7.184*
+
+15.41
+
+0.046
+
+0.422
+
+3.76
+
+3
+
+21
+
+738.654
+
+0.003
+
+* = Trace statistic indicates 1 cointegrating equation
+
+Further, results indicate that demand pressures, captured by real national income
+positively affect food prices, and supply factors captured by total agricultural output depress food prices. The short run coefficients for national income and agricultural output are 0.640 and -0.168 respectively indicating that a one percentage point increase in
+national income increases the food price index by 0.64 % and a one percent increase in
+agricultural output depresses the food price index by 0.168 percentage points.
+Domestic fuel prices enter the food price model positively and significant in the first
+month. A one percent increase in the domestic fuel prices results in a 0.07 increase in
+the food price index within one month. These results suggest that short run energy
+movements are transmitted through to food prices.
+Finally, the results highlight the importance of seasonal factors in the Uganda food
+price processes. Taking the month of December as the reference period, the monthly
+(seasonal) dummy variables are significant during the months of February, March, May,
+June, July, and October.
+After estimating the single equation model for food prices, we carried out some diagnostics tests to establish the suitability of the statistical properties of the model. Test
+results (Table 13) indicate that the short run single equation model is well specified.
+
+Conclusions and policy recommendations
+Food prices are an important aspect of food security. Therefore, a deeper understanding of food security issues requires an in-depth understanding of the drivers of prices.
+Uganda presents an interesting case for an in-depth understanding of food prices. Agriculture is the dominant sector but majority of poor households are net buyers of food.
+This implies that food prices have important welfare effects for the people. However,
+technology adoption in Ugandan agriculture is low and the sector is still predominantly
+dependant on the vagaries of the weather. In addition, trends in the data suggest that
+that food prices follow international oil prices with possible pass through effects to domestic prices
+Table 11 Long-run equilibrium in the external food market
+Standard Error
+
+Z value
+
+0.472***
+
+0.028
+
+-16.91
+
+0.731***
+
+0.122
+
+-5.98
+
+0.043
+
+-5.82
+
+Variable names
+
+Coefficient
+
+LAGO
+
+1
+
+LCRUDE
+LXRATE
+Constant
+
+-0.151
+
+Error correction
+
+-0.250***
+
+LM test for autocorrelation at lag 2
+
+10.442 (0.316)
+
+Jacque-Bera
+
+58.578 (0.000)
+
+*** =significant at the 1 % level
+
+Table 12 The Uganda food price model
+Dependent Variable: differenced natural logarithm of the Food CPI
+Coefficient
+
+Standard error
+
+p-value
+
+Δ LFOOD (t-1)
+
+0.252a
+
+0.069
+
+0.000
+
+Δ LFOOD (t-2)
+
+0.284a
+
+0.077
+
+0.000
+
+Δ LFOOD (t-5)
+
+a
+
+0.233
+
+0.072
+
+0.002
+
+Δ LFOOD (t-6)
+
+0.301a
+
+0.071
+
+0.000
+
+0.210a
+
+0.072
+
+0.004
+
+0.088 b
+
+0.043
+
+0.045
+
+0.640a
+
+0.121
+
+0.000
+
+-0.168a
+
+0.042
+
+0.000
+
+0.071b
+
+0.035
+
+0.042
+
+-0.003c
+
+0.002
+
+0.062
+
+0.006
+
+0.001
+
+Independent variables
+Food price inertia
+
+Nominal exchange rate
+Δ LXRATE (t-1)
+International cereal prices
+Δ LCEREAL (t-5)
+Real national income
+Δ LGDP (t-5)
+Agricultural output
+Δ LAGRIC (t-1)
+Domestic fuel prices
+LAGO (t-1)
+Temperature ANOMALY
+TEMPAN (t-1)
+Monthly dummy variables
+February
+
+yes
+-0.020a
+a
+
+March
+
+0.018
+
+0.006
+
+0.004
+
+May
+
+-0.016a
+
+0.006
+
+0.009
+
+June
+
+a
+
+-0.025
+
+0.008
+
+0.003
+
+July
+
+-0.020a
+
+0.006
+
+0.002
+
+b
+
+-0.014
+
+0.005
+
+0.015
+
+EC – Domestic food market
+
+-0.085a
+
+0.017
+
+0.000
+
+EC – External energy market
+
+-0.040c
+
+0.021
+
+0.052
+
+Constant
+
+0.001
+
+0.003
+
+0.691
+
+R-Squared
+
+0.769
+
+Adjusted R-Squared
+
+0.655
+
+October
+Error correction terms
+
+a,b,c
+
+indicate significance at the 1, 5 and 10 % respectively
+
+This paper set out to examine the importance of energy and climate shocks in
+Uganda’s food price processes. The unique features of this paper are threefold: first,
+we identified climate shocks and their implications for food prices. Second, we incorporated the complementary role of energy prices in food price processes. Third,
+we examined these issues in a single equation model exploiting cointegration techniques
+and general-to-specific methods. Results indicate that energy prices have a long
+run cointegrating relationship with food prices. In addition, temperature shocks are
+more important than rainfall shocks in explaining food price variability. However, international pass-through of international prices to domestic prices was shown to be limited.
+These findings have important implications for policy in Uganda. In the short run,
+policies geared towards mitigating the effects of weather variability, such as investment in small scale irrigation technologies, post harvest storage facilities, and drought

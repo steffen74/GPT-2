@@ -1,0 +1,336 @@
+Introduction
+In recent years the issues of energy security and energy dependence have been subject to heated
+debates due to their importance for the normal development and functioning of national economies.
+It is an undeniable fact that in the twenty-first century the energy sec-tor affects both the everyday
+lives of the ordinary people and the industry to such an extent that economies cannot exist without
+such a sector. The importance of the energy sector makes all countries consider the issues of their
+energy security and the reliability of their energy supply.
+Bulgaria does not have significant sources of oil or natural gas in its territory. This is why it has
+to meet its energy needs by importing energy from other countries. The continual import spins the
+country in the spiral of energy dependence on the import of oil products, which negatively affects its
+economy. The high dependence levels affect the overall economic stability of the country as well.
+This research aims to determine the effects of the import of oil products and the degree of
+diversification of energy supplies and suppliers for Bulgaria’s national economy by analysing the
+factors that have negative effects on the energy security of the country.
+
+Bulgaria’s energy security in the context of energy dependence on the import of oil products
+The structure of the research paper follows the logic which would reveal most completely
+Bulgaria’s position in terms of the country’s energy dependence and security. To do this the author
+had set the following goals:
+
+
+To define the term “energy security” (in Section 2);
+
+
+
+To define the methods that shall be used in this research (in Section 3);
+
+
+
+To survey the primary production (PP), the gross internal energy consumption (GIEC), the
+export and the import of oil products (in Section 4);
+
+
+
+To analyse the empirical results from the survey (in Section 5);
+
+
+
+To provide specific concluding remarks based on the research results.
+
+1. Literature review
+1.1. Energy security context
+The topic of national energy security has been the focus of attention of many scholars for quite
+a while. Numerous research studies in this field have shown that it is a topical and complex issue of
+indisputable importance. The importance of energy security for each country is different and depends
+on the role of the state in the trade process (Müller-Kraenner, 2007). Exporting countries consider
+their energy security in terms of exporting their products on markets with good prices and minimal
+risk exposures. Importing countries consider their energy security in terms of reliable supplies at
+reasonable prices.
+In his research Alhajji (5 November 2007) notes that governments often consider the energy
+security concept only in terms of oil products. This fact is not surprising, because oil products are a
+key resource for energy importers. This is why oil products have been a priority factor in defining
+energy security policies for a long time. Besides, most of the energy security literature is concerned
+exclusively with oil products (Fried and Trezise 1993; Stringer, 2008) since these products play the
+most important role in the global economy and trade (Noreng, 2002).
+1.2. Import dependence context
+Energy dependence is usually considered the main factor that defines the level of risk for a
+country’s energy security. Many authors relate energy security to energy dependence due to the
+effect of this type of dependence on the security of the national economy. The research studies in this field were carried out using various research methods. Such an ex-ample is the research of
+Nicholas M. Odhiambo (2014), who studied energy security in the context of developing
+countries’ energy dependence using an Autoregressive Distributed-lag (ARDL) - bounds Testing
+Approach. Kamonphorn Kanchanaa, Benjamin C. McLellan and Hironobu Unesak (2016)
+analysed the international dimension of energy security by com-piling a composite energy
+dependence indicator.
+The core of this research is based on the model adopted by the International Energy Agency
+(International Energy Agency, 2011) to evaluate energy security risks using a wide range of
+indicators. Indicators of key importance are the energy dependence and the diversity of suppliers,
+which is calculated using Herfindahl-Hirschman index, which is a measure of the concentration of
+supply. Our research is based on the same methodology for calculating these two indicators in order
+to determine their effect for Bulgaria’s energy security.
+2. Research methodology
+This research is focused mainly on Bulgaria’s dependence on the import of oil products and its
+effect on the energy security of the country. The empirical analysis comprises two distinct stages - an
+analysis of Bulgaria’s dependence on the import of oil products, followed by a study of the
+diversification of suppliers and supplies. It aims to determine the degree of the country’s energy
+dependence and import structure and their effect on Bulgaria’s energy dependence over a period of
+ten years from 2005 to 2015.
+Methods for evaluation of the energy dependency
+Energy dependency is evaluated using the methodology adopted by Eurostat. It is based on the
+ratio of the import of oil products to the gross inland consumption. This ratio shows the country’s
+degree of dependency on imports to meet its inland consumption. The result is expressed as a
+percentage that shows the share of import in the inland consumption and is calculated using the
+following equation:
+ID = (𝐼𝑚𝑝𝑜𝑟𝑡/𝐺𝐼𝐸𝐶) × 100
+(1)
+where:
+ID is import dependence
+
+
+Bulgaria’s energy security in the context of energy dependence on the import of oil products
+Imports – the volume of imported oil products
+GIEC- Gross Inland Energy Consumption of Oil Products
+Diversification index – methodology
+In this part of the study we analysed the structure of import in terms of the existing
+diversification of suppliers and supplies. The diversity of suppliers is calculated based on the number
+of suppliers for the corresponding year. The diversity of supplies is calculated using the Herfindahl–
+Hirschman index. This methodology is used by the International Energy Agency and is described in
+a brochure for the MOSES model (InternatIonal Energy Agency 2011). The Herfindahl–Hirschman
+index is a measure of the concentration of supply and the existence of monopolistic markets.
+N
+
+HHI = ∑ si2
+i=1
+
+(2)
+This index is calculated by squaring the market share of the import of each firm competing in
+a market, and then summing the resulting numbers. Equation (2) can be expressed as:
+HHI = s12 + s22 + s32 + ⋯ + sn2
+(3)
+where s is the market share of each firm.
+There are two methods for calculating the market share and, respectively, for evaluating the
+index. The first method calculates the market share of the companies as a whole number (a percentage
+of the total market volume) and the squared percentage points are summed. When this method is used,
+HHI may reach a maximum of 10 000 units. All values below 1000 units mean that the market is
+highly diversified and a value of 10 000 means that there is a monopolistic market.
+The second method uses market shares expressed as decimal fractions (rather than percentages)
+and the index is the sum of their squares. In this case the index ranges between 0 and 1 (0< n <1),
+where a value of 0 mean that the market is highly diversified and a value of 1 means that there is a
+monopolistic market. The IEA categorizes the diversity of supplies based on the Herfindahl–
+Hirschman index into three ranges: high diversity; medium diversity and low diversity (International
+Energy Agency, 2011). According to this scale, all markets within the range of n<0.3 have high diversity of supplies; those within the range of 0.3< n <0.8 have medium diversity of supplies and
+those with indices exceeding 0.8 have low diversity of supplies.
+For our research we used the second method for calculating the Herfindahl–Hirschman index,
+which calculates the index using squared decimal fractions. Diversification is assessed using the scale
+adopted by the International Energy Agency (IEA). The results from the analyses of the import
+dependence, the number of suppliers and the Herfindahl–Hirschman’s index show the effect of these
+factors on Bulgaria’s energy security.
+3. Characteristics of Bulgaria’s Primary Production, Gross Inland Energy Consumption,
+Import and Export of Oil Products
+This section provides a review of the organization of the oil market and the four main indicators
+related to Bulgaria’s production, consumption, import, and export of oil products. The aim of this
+review is to give us a general idea of the importance of oil products as an element of Bulgaria’s energy
+mix. The indicators are reviewed in the following order: (1) primary production (PP) of oil products;
+(2) gross inland energy consumption (GIEC); (3) import; (4) export. First, however, we should
+consider the specific characteristics of the market for crude oil and oil products in Bulgaria.
+Unlike the natural gas and electricity markets, the crude oil market in the country is fully
+liberalized. The companies operating on it are not owned or controlled by the state-owned Bulgarian
+Energy Holding (BEH).1 Note that one of the biggest refineries on the Balkan Peninsula is located in
+Bulgaria. According to information2 from the Ministry of Energy it is controlled with a majority stake
+by the Russian company Lukoil (Ministry of Energy 2015).
+LUKOIL Bulgaria EOOD and LUKOIL Neftohim Burgas AD also operate on the territory of
+the country. Both companies are owned by the Russian company Lukoil. LUKOIL Bulgaria EOOD,
+which owns the Rosenets port terminal and a refinery, is the biggest company in Bulgaria. According
+to information published by the company itself, its contribution to the state budget is ¼ of the total
+state budget revenue. The company is a major supplier and leader in the distribution of the fuels and
+petrochemicals produced by LUKOIL Neftohim Burgas AD. The latter owns of a large chain of gas
+
+1
+
+Bulgarian Energy Holding EAD is a holding company that owns companies specialized in production and transmission
+of electricity; transmission, transit and storage of natural gas, and lignite extraction. The Holding Group of BEH EAD
+holds a key position on the natural gas and electricity market in Bulgaria as well as in the region due to its export of
+electricity. The company is 100% owned by the Bulgarian state and is the largest state-owned company in the country in
+terms of own assets. Its ownership rights are vested in the Minister of Energy.
+2
+This information is part of the Annual Bulletin on the Status and Development of the Energy of the Republic of Bulgaria.
+It is an official document disclosed pursuant to Art. 4, para. 2, item 17 of the Energy Act, which provides for the annual
+publication of this Bulletin.
+
+Bulgaria’s energy security in the context of energy dependence on the import of oil products
+stations on the territory of Bulgaria and has a large share of the market for fuels, petroleum products
+and polymers both in Bulgaria and in the Central and Eastern European countries.
+Other companies that operate on the oil and oil products market are:
+
+
+PETROL AD - a private company, which is the leader in the distribution of fuels in the country.
+It owns more than 500 gas stations, 80 oil bases and three port terminals for petroleum products.
+
+
+
+PRISTA OIL AD - Bulgaria - the company is part of PRISTA OIL Group, which owns
+subsidiaries all over Europe and deals with production, distribution, sale and marketing of oils,
+greases, brake fluids and other oil products.
+
+
+
+NIS PETROL EOOD, owned by Neftena Industria Serbia (NIS) - one of the largest oil companies
+in Southeastern Europe. Note that its majority shareholder (with a majority stake of 56.6% of its
+equity) is the Russian company Gazprom Neft. In Bulgaria the company operates under the brand
+"Gazprom" and owns a number of gas stations under the same brand (Ministy of Energy, 2016).
+The market structure described above leads to the conclusion that the Russian Lukoil and its
+
+affiliated companies are leaders on the oil market in Bulgaria. Russia is the country’s main supplier
+of crude oil because of the technological characteristics of the existing refinery in Bulgaria and the
+characteristics of the oil it processes. Note that the physical properties and the exact chemical
+composition of the crude oil vary depending on the location of the deposits. Therefore, oil refiners
+are adapted to a certain type of oil and must undergo certain technological modification in order to
+process other types of oil.
+The output of Bulgaria’s only refinery is essential for the energy security and stability of the
+country because of its market orientation. Despite the relatively small quantities of oil extracted on
+its territory, the country’s market orientation is towards export of processed oil products. The
+uninterrupted supply of oil from Russia is essential for Bulgaria and its energy security. Its importance
+for the country’s oil industry is analysed in the following sections.
+3.1. Primary production of oil products
+Bulgaria’s deposits of oil and natural gas are insignificant and this is why the volume of its
+primary production of oil products is extremely low and cannot meet the demand for such products
+(see Figure 1).
+
+Figure 1. Primary production of oil products in Bulgaria in the period 2005-2015 (in
+thousand tonnes of oil equivalent (Ktoe))
+
+
+During the period (2005 – 2015) there was a steady downward trend in the production of oil
+products until 2011, followed in 2012 and 2013 by an increase that may be defined as insignificant,
+because the total volume of production increased only to 27.3 Ktoe.
+3.2. Gross inland energy consumption
+Bulgaria’s inland consumption of oil products consists mainly of consumption of fuels. This is
+why GIEC3 remained high, fluctuating between 3 669 Ktoe and 4 956.3 Ktoe (see Figure 2) between
+2005 and 2015. Consumption was decreasing until 2013, and then started to increase quite rapidly to
+reach 3 879.5 Ktoe in 2014 and 4 200.8 Ktoe in 2015.
+Figure 2. Gross Inland consumption of oil products in Bulgaria in the period 2005-2015. (in
+thousand tonnes of oil equivalent (Ktoe))
+
+
+3
+
+GIEC – Gross Inland Energy Consumption
+
+Bulgaria’s energy security in the context of energy dependence on the import of oil products
+The comparative analysis of GIEC and PP4 for each year shows that the country relies heavily
+on the import of oil products. The extremely low volumes of PP and the high levels of consumption
+show extremely high levels of import dependence and corresponding levels of risk for the energy
+security of the country.
+3.3. Export
+Export data show that the country exports large volumes of processed oil products (see Figure
+3). Despite the low levels of primary production, the country specializes in the export of processed
+oil products (mainly fuels). The difference between the PP volumes and the export volumes is
+compensated with import of crude oil.
+Figure 3. Bulgaria’s export of oil products in the period 2005-2015 (in thousand tonnes of
+oil equivalent (Ktoe))
+
+
+The export trend shows an increase in the exported quantities of oil products. The highest
+volume was being reached in 2015 (4 481,2 Ktoe) and the lowest volume in the export values was
+reported in 2005 (2605 Ktoe) and 2009 (3167.4 Ktoe). Despite this decline the trend remains growing.
+The increasing in the export values in the case of Bulgaria is a prerequisite for increasing in the
+quantities of the imports of oil products due to the low oil reserves.
+3.4. Import
+Taking into account the data for the PP, the GIEC and the export volumes, the volumes of import
+are predictably high because they have to cover the difference between the PP on the one hand, and the
+GIEC and the export of oil product, on the other. Imports peaked in 2015 at 8 732.3 Ktoe (see Figure 4).
+4
+
+Figure 4. Bulgaria’s import of oil products in the period 2005-2015 (in thousand tonnes of
+oil equivalent (Ktoe))
+
+According to the reported data, imports declined in two of the years within the analysed period
+– in 2005 (7548.1 Ktoe) and in 2011 (7 219.6 Ktoe.) The highest volume of imported oil products
+(8 732.3 Ktoe) was reported in 2015. The analysis of the import volumes shows that there is a trend
+of their increasing steadily over the period. Although rate of increase is categorized as moderate, the
+level of import volumes poses a risk for the energy security of the country.
+4. Empirical research results
+This section presents the results from the empirical study. The analysis shows an interesting trend
+in terms of the percentile import dependence and the directly proportional relation between the number
+of suppliers of oil products and the diversification index. The results are shown in Table 1 below.
+Table 1. Bulgaria’s Import Dependence, Number of Suppliers and Herfindahl–Hirschman’s
+index for the period 2005-2015
+Year
+
+Bulgaria’s energy security in the context of energy dependence on the import of oil products
+The results in the above table show that Bulgaria is highly dependent on its import of oil
+products with dependence levels reaching values of over 235% over the consumption in 2013. On the
+surface such large volumes of import may seem illogical and unjustified. However, they are justified
+by Bulgaria’s orientation on the market of oil products. Despite its limited sources of oil, the country
+imports large volumes of crude oil products which are processed and exported as fuels.
+The curve of the import of oil products peaked in 2013 and then went down again (Figure 5.)
+The increase of import dependence while the consumption is decreasing (Figure 5) is due to the
+increase of the exported volumes of processed fuels.
+Figure 5. Bulgaria’s dependence on the import of oil products (2005-2015)
+
+Although import dependence itself poses a risk for Bulgaria’s energy security, this risk can be
+mitigated to levels that do not jeopardize the country’s economy by means of diversification of its
+suppliers and supply. Note that these two terms are markedly different. From a theoretical point of
+view, in the presence of a large number of suppliers, there will be an almost symmetrical distribution
+of supply, which indicates a high diversity of supply. In this case, the risk has values that assign our
+country to the group of the countries with low dependency on supplier countries.
+There is another scenario as well, in which the number of suppliers is also large, but the bulk
+of the import is concentrated in one or a few large importers and the other suppliers import
+insignificant or supplementary volumes. In this scenario, the risk for the country's energy security
+increases significantly. Depending on the degree of concentration of imports, the country can be
+placed in a situation that makes it highly vulnerable to suppliers of oil products.
+The result of the research show that the number of Bulgaria’s suppliers of oil products varies
+between 24 (in 2012) and 32 (in 2015.) This means that the level of diversification of suppliers of oil
+products is good. Therefore, the country’s risk exposure should be defined by analysing its import concentration, i.e. the diversification of supply. Bulgaria’s Herfindahl–Hirschman index varies
+between 0.367 (in 2007) and 0.647 (in 2012.). According to the rating scale of the International
+Energy Agency (InternatIonal Energy Agency 2011) these values rank as medium import
+diversification. The closer to 1 are the values if the index, the greater is the exposure to energy security
+risk of the country that imports the product. A high risk exposure means a higher dependence of the
+country on its suppliers. In this respect Bulgaria’s risk exposure is relatively high, since about 77%
+of its oil products are imported by one supplier - Russia.
+The high concentration of supply in terms of a single major supplier is a prerequisite for
+increasing both the energy and the economic risk for Bulgaria. Given the degree of energy dependence
+on Russia and the fact that it is a major supplier of oil to the Bulgarian refinery, we may conclude
+that our energy sector is highly vulnerable to external factors. Given the small quantities of oil
+extracted in the country, the disruption of supply would have a negative impact on consumption as
+well as the country's export of processed oil products. Accordingly, this would have a serious negative
+impact on the country's economic stability.
+The high dependence on imported oil increases Bulgaria's susceptibility to foreign political and
+geopolitical pressure. The low degree of external resistance to such pressure poses serious risks for
+the country and all sectors of its economy in terms of pressure for adoptions of policies that are not
+in the best interest of the state. The pursuit of a policy contrary to the interests of the state is likely to
+generate negative effects on the sustainable development of the country's economy.
+The above analysis shows that energy dependence is one of the key factors for determining the
+country's energy security and economic stability because the conditions of the energy sector affects
+all other sectors of our economy. At high levels of energy dependence, the risk can be mitigated to
+levels that do not jeopardize the country's energy security through diversification. Note that in order
+to mitigate the energy risk we need not only diversification of the suppliers, but also diversification
+of supplies. In some cases, as is the case with Bulgaria, the level of diversification of suppliers may
+satisfactory, but the supply of a certain commodity may be concentrated in one or a few major
+suppliers while the rest import insignificant or complementary quantities. Diversification of suppliers
+is a misleading indicator because it may inadvertently conceal the presence of concentration of
+supplies. This in turn generates a hidden risk for the country. Due to the fact that the latter may remain
+covert, it may have a strong negative impact on the country's economy and its degree and importance
+may prove to be serious.
+
+Bulgaria’s energy security in the context of energy dependence on the import of oil products
+Conclusions
+The research analysed the effects of energy dependence and import structure on Bulgaria’s
+energy security. The dependence was determined by calculating the ratio of energy dependence on
+the import of oil products to the consumption of such products in the period 2005 - 2015. Import
+structure was analysed using the number of suppliers and the degree of diversification in terms of the
+Herfindahl–Hirschman’s index.
+The results of this research show that Bulgaria is heavily dependent on imports of oil products,
+with the percentage of its dependence reaching levels that are twice as high as its consumption of
+such products. There are two reasons for this situation – the lack of significant oil deposits on the
+territory of the country and the fact that Bulgaria exports large amounts of the imported oil product
+as processed fuels.
+The analysis of the diversification of suppliers and the diversification of supply shows that
+despite the large number of suppliers of oil products, the import structure is not diversified
+sufficiently. This means that import is concentrated in one or a few large importers while the other
+suppliers import insignificant or supplementary volumes of oil products. This import structure places
+Bulgaria in a vulnerable position as it depends on just one main supplier, which poses a significant
+risk for the energy security of the country. Taking into account the degree of dependence on the
+import of oil products as well, we may conclude that Bulgaria is exposed to a significant energy
+security risk in terms of its import of oil products – a situation that calls for a careful risk management
+and re-considering of the import structure.

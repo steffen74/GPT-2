@@ -1,0 +1,1696 @@
+Executive Summary
+This paper presents the first prototype of a model of wellbeing. This model
+is designed to support policy development and decisions in New Zealand by
+providing a tool for thinking about changes in aspects of wellbeing including tradeoffs and synergies for policies. It does this by modelling the linkages between the
+eleven aspects of wellbeing used by the OECD in their How’s Life? framework, in
+combination with a small general equilibrium model and stock-and-flow equations.
+A model of this nature is a new addition to the policy modelling toolkit.
+It is clear that this model, perhaps more than most, has many flaws and unrealistic
+assumptions. However, it is the first attempt at such a model, and its existence
+has several uses. Firstly, it shows that such a model is possible, and with a level of
+complexity that, if not low, is low enough to be manageable and no higher than
+many CGE (computable general equilibirum) models used for policy purposes.
+Secondly, it provides a basis for criticism and improvement. Third, despite its flaws,
+it is useful for policy analysis as it provides a tool for thinking about the trade-offs
+and synergies between different aspects of wellbeing and policy that currently
+does not exist.
+Given the prototype nature of the model described in this paper, there is clearly
+room for significant further work. The model and the results it gives should undergo
+serious critical analysis to understand how the model behaves, what assumptions
+are critical, and where the model gives unrealistic and unhelpful results. These
+results will help inform improvements to the model and where they will be most
+important. Data will also be a challenge for this model, as it requires a large
+number of parameters and initial values. Much of the data is available (with varying
+quality), but sensitivity analysis will be an important part of using the model.
+There is also much to learn about policy by applying the model. Without a model
+of this type, higher order effects (particularly those in different policy areas to
+the original) are very difficult to anticipate. This model allows those effects to be
+recognised, as well as obtain some understanding of how significant they are. For
+example, consider an increase in health spending by government. The model
+results indicate a small negative effect on the natural environment. Tracing through
+the model shows this is not spurious: more health spending results in better health
+which results in higher productivity, higher productivity results in more consumption
+and production which results in more pollution and therefore a poorer natural
+environment. This is a chain of impacts that is too long for most people to perform
+mentally without the aid of a model, but the consequences could be important.
+The model can be used for both single policies and for policy packages. In the
+case of policy packages, it can be used to see how the effects of different policies
+balance each other out, and which policies should be included in a package. It
+provides a consistent framework for policies from different fields, e.g. education
+and health, to be compared with each other and in a broader way than tools such
+as cost-benefit analysis allow. As well, policies can be chosen on their ability to
+mitigate some of the undesirable trade-offs inherent in the choice of policies that
+are the cornerstones of a package.
+
+Introduction
+
+How do we understand the synergies and trade-offs of a given policy on area
+beyond that policy, such as the effect of housing on health and on income?
+How do we choose between policies in completely different areas, such as an
+education policy and a health policy? How do wellbeing outcomes change if the
+government focusses on wellbeing rather than GDP? Treasury’s Living Standards
+Framework provides one possible starting point, but it provides little assistance
+tracing the many dependencies between policy areas. A model that includes those
+dependencies could help.
+The first prototype of the Living Standards Analysis Model (LSAM) described in this
+paper is designed to do this. This model includes all eleven aspects of wellbeing
+as described by the OECD’s How’s Life? framework and linkages between the
+different aspects for a small open economy. Most models for studying wellbeing
+only include one or two aspects, missing the rich set of interactions that can occur
+with greater coverage. As an early prototype, this version of the model does have
+many flaws and requires significant further development, but it forms a basis for
+creating an improved model as well as providing some qualitatively useful results.
+
+1.1 What is Wellbeing?
+There are several different ways the term “wellbeing” is used. Often it is used
+to refer to subjective wellbeing, which in turn can refer to positive and negative
+affect1 , life evaluation (commonly measured as life satisfaction), or eudaimonia2 .
+Sometimes is it used primarily in relation to health and particularly mental health.
+It is also used in a more holistic way to cover the breadth of both objective and
+subjective conditions that lead to what might be described as “the good life”. It is
+in this last sense that wellbeing is used in this paper.
+Traditionally, GDP has been used as a measure of wellbeing when comparing
+countries, partially due to its standardised measurement and single value, and
+partially due to the belief that income level is a good proxy for wellbeing. There
+have been many challenges to the use of GDP for this purpose (for example
+1
+
+2
+
+Positive and negative affect refers to experiences of (respectively) pleasant emotional states
+such as joy or peace; and unpleasant emotional states such as fear or sadness
+Eudaimonia relates to the sense of purpose or value in one’s life
+
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+1
+
+Nordhaus and Tobin, 1972; Waring and Steinem, 1988; and see Bergh, 2009 for a
+brief review of the literature). In the last decade or so, the belief in income as a
+good proxy for wellbeing has been increasingly challenged by a variety of authors,
+and perhaps most prominently by Stiglitz, Sen, and Fitoussi in their 2009 report to
+the French president.
+At an individual level, wellbeing encompasses the things an individual values as
+contributing to their quality of life. This includes their material conditions such as
+their financial wealth and their consumption, but it also includes things money can’t
+always buy, such as good health, clean air, and quality friendships. Individuals will
+value these things differently according to their preferences, which then makes it
+difficult to come up with a single value-neutral number representing wellbeing.
+It is also useful to think about the distinction between utility and capability. Both
+are important. Utility can be described as the value we get from outcomes—how
+much we can consume, how healthy we are, how many quality friendships we
+have etc. The capability approach (as described by Sen in his body of work such
+as (Sen, 1999) and (Sen, 2009)), is more about the process and choices available
+to us, such as the freedom good health gives us to choose to earn more income
+or to further our education. The capability approach highlights the importance of
+the linkages between different aspects of wellbeing. The greater our capability, the
+more opportunity we have to make choices that maximise our utility even if we
+change our preferences.
+At the societal level, we face the additional challenge of aggregation when attempting to understand wellbeing, and this, like combining different aspects of
+well-being, is not value-neutral. Do we follow Rawls (1971), and take the wellbeing
+of the worst-off member of the society as the representative wellbeing; or Bentham
+(1789) considering the (additive) total of wellbeing of all members of society; or
+something in-between (which can be described mathematically by the isoelastic
+formulation); or something else altogether?
+If wellbeing is considered in the sphere of public policy, it is also important to consider the role of government—another value judgement. Is the role of government
+and public policy to “improve people’s lives, now and into the future” as suggested
+by Karacaoglu (2015, p. 1)? Or is it much narrower, limited to the minimal state
+providing basic protections against fraud, theft, and violence as described by
+Nozick (1974)? In a democracy such as New Zealand, the answers to these
+questions are determined by those in power with the consent of the population.
+
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+2
+
+1.2 Frameworks, Measurements, and Models
+Much of the current effort studying wellbeing is in developing frameworks and
+defining and measuring wellbeing. This has led to a proliferation of indexes,
+many covering a similar set of aspects of wellbeing, but dividing it into different
+categories and using different measures and weights. Each index is designed with
+a different purpose in mind and makes different value judgement. No one measure
+or framework is dominant yet.
+Prominent frameworks by intergovernmental organisations include the OECD’s
+How’s Life? framework and related Better Life Index (OECD, 2011; OECD, 2017),
+the UNDP’s Human Development Index (UNDP, 1990), and measurements against
+the UN’s Sustainable Development Goals (UN, 2015). The World Bank uses
+Genuine Savings (Hamilton, 2000, also known as Adjusted Net Savings), which
+emphasises sustainability through measuring changes to capital stocks. Some
+for-profit and many non-governmental organisations have developed their own
+measures, including the Legatum Institute’s Prosperity Index (The Legatum Institute, 2016) and the New Economics Foundation’s Happy Planet Index (Abdallah
+et al., 2009). There are also regular reports ranking the “best” cities to live in, such
+as the Global Liveability Ranking (The Economist Intelligence Unit, 2016), and in
+New Zealand The Treasury have used their Living Standards Framework (Gleisner,
+Llewellyn-Fowler, and McAlister, 2011) as a qualitative tool for policy analysis.
+There has also been significant econometric work looking at the interaction between (typically) two aspects of wellbeing at a time. This could be the interaction
+between health and income (Karanikolos et al., 2016), or subjective wellbeing
+and income (Layard, 2005), or education and social connection (Helliwell and
+Putnam, 2007), for example. This type of work is highly important for identifying
+the factors that contribute to different aspects of wellbeing and finding some of the
+connections between those different aspects.
+But measurement (and to a lesser degree regression) doesn’t let us experiment
+with different settings and understand their interaction, and there is much less
+literature on creating a model of wellbeing. Most of the current and historical
+work is theoretical and only brings one or two aspects of wellbeing together, most
+commonly growth or income and the environment. This includes applying viability
+theory to explore the boundaries of sustainable satisficing in fisheries (Krawczyk
+et al., 2013), Arrow et al’s work on “comprehensive consumption” (Arrow et al.,
+2012; Arrow et al., 2013), “clean” and “dirty” technologies (Acemoglu et al., 2016),
+and adapting growth theory to include the environment (Dasgupta and Heal, 1974).
+In health economics, the Grossman model (Grossman, 1972) describes some of
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+3
+
+the interaction between health and income. Karacaoglu (2015) pulls together some
+of these theoretical strands of work to create a more comprehensive theoretical
+model appropriate for a small open economy such as New Zealand; but this model
+has not been implemented (and is not designed to be implemented) as a practical
+tool for answering policy questions.
+
+1.3 The Prototype Living Standards Framework Model
+
+The prototype model described in this paper is unique, both in the holistic treatment
+of wellbeing, and in its applied nature. It includes all eleven of the OECD’s How’s
+Life? framework aspects of wellbeing; and is intended for implementation in a
+computational form for use in policy analysis. As this prototype was developed
+before the current version of the Treasurys Living Standards Framework, it does
+not include a culture aspect of wellbeing, but this will be considered for future
+versions of the model.
+The purpose of this model is to support policy development and decisions in New
+Zealand by providing a tool for thinking about changes in aspects of wellbeing
+including trade-offs and synergies for policies. This means it must be able to
+answer practical policy questions in a suitable timeframe. As a tool for thinking
+it need not provide the “right answer”, but it should raise new questions, make
+implicit assumptions explicit, allow the anticipation of otherwise unanticipated
+consequences, and break down silos between different policy areas. As the
+model is focussed on the trade-offs and synergies between the different aspects
+of wellbeing, it must cover a significant breadth of subjects. To remain tractable
+and simple enough to be useful, this breadth must come at the sacrifice of depth
+and detail in any given area. As the model is intended for use in New Zealand, it
+models a developed country that is geographically isolated and has a small, open
+economy. The How’s Life? framework has been chosen for its full coverage of
+all aspects of wellbeing and as an internationally-used measure that focusses on
+wellbeing in developed countries.
+In The Idea of Justice, Amartya Sen said “It is possible to be at once deeply
+appreciative and seriously critical of a theory” (2009, p.58). This paper describes a
+model that, as a prototype, has many flaws but provides a framework for improvement. One of the purposes of creating a prototype model is to discover flaws, and
+to learn which are important. Another purpose is to provide something concrete
+that can be criticised, and then use that criticism to improve future prototypes.
+This paper is written in that spirit, and the author would appreciate constructive
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+4
+
+feedback on this prototype model.
+
+1.4 Model Overview
+The model described in this paper is a top-down stock-and-flow model including a
+basic general equilibrium open economy. Households experience eleven aspects
+of wellbeing (corresponding to those in the OECD’s How’s Life? framework), and
+there are multiple household types. Households can produce goods and services
+at home, have them supplied by the government, or purchase them from firms.
+Firms buy labour and capital from households for use in production, and can import
+and export goods. The government taxes income and consumption, and uses
+those funds to provide goods and services to households, pay interest on debt,
+and invest in physical infrastructure.
+This is a complex model. It aims to incorporate the major links between all aspects
+of wellbeing, as well as the significant drivers of those aspects. As can be seen in
+Figure 1, not every aspect of wellbeing is directly linked to every other aspect, but
+they are far from independent from each other.
+
+Many of the interactions between different aspects of wellbeing occur in the
+“investment” equations of the model. These investment equations describe how
+the stocks (also called capitals) in the model change from one time period to the
+next, typically in response to changes in the stocks that relate to other aspects of
+wellbeing. Everything else in the model happens within a time period or refers back
+to previous time periods—only the changes in the stocks move the calculations
+forward to the next time period. A time period could, in theory, be any length
+provided the parameter values were chosen appropriately, but in practise one time
+period is likely to be a year long, with the model running for decades (i.e. tens of
+time periods). This is limited by if the model reaches limits such as negative wealth
+(sometimes caused by insufficient feedback loops in the model), or by when the
+time elapsed makes the projection meaningless—after about 50 years it could
+easily be argued that technology and society will have changed more than the
+model can sensibly accommodate.
+As well as labelling the model equations as “stock” and “investment (flow)” equations, the model equations could also be labelled as “accounting” and “behaviour”
+equations. In this description, accounting equations must hold by definition—for
+example, the sum of the time taken for all activities during the day must add to
+24hrs—but behaviour equations describe choices by households, firms, and others.
+Behaviour equations encode our assumptions about how the world works, but
+there is also a trade-off with model complexity, and they are the equations most
+likely to be changed in future versions of the model. Currently, most behaviour in
+the model is assumed to either optimise narrowly-defined utility functions, or to be
+constant (and exogenous) over time; this need not be the case in future versions
+of the model, nor need behaviour be fixed to just one option. The model results
+are the logical implications of the assumptions that go into the model including the
+constraints that the accounting equations imply.
+The value of this model is in understanding how changes in one aspect of wellbeing
+flow through to other aspects of wellbeing. This requires the inclusion of many
+aspects of wellbeing and the links between them, which makes the model complex.
+All other modelling decisions must then be made to avoid adding further complexity
+without compromising this aim. As such, this model is not optimised across time
+(it is myopic), nor is it fully optimised within a time period. This may also partially
+reflect reality. Economics traditionally assumes that all agents optimise their utility,
+which in this case is equivalent to their wellbeing (either lifetime or in a given time
+period). While it is likely the case that agents optimise more of their wellbeing than
+is modelled here, it is also likely (based on results from behavioural economics)
+that for at least some aspects of wellbeing they use heuristics or satisficing rules
+rather than optimisation.
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+The relationships between different variables in this model are primarily identified
+based on face validity, with some input from those who are experts or familiar
+with the literature for each aspect of wellbeing. This has allowed the model to be
+developed relatively quickly, albeit at the cost of empirical rigour. The expectation
+is that future versions of the model will include much more rigourous evidence from
+the literature and empirical research, which may change some of the relationships
+included in this version of the model. Where relationships that turn out to be weak
+have been included, this is usually easy to deal with in this version of the model
+by setting the associated parameter to a low value (or, in some cases, to zero).
+Where important relationships have not been included, this requires changing the
+equations and represents a more significant limitation of this version of the model.
+A frequent question that arises when measuring wellbeing is that of how (or
+whether) the different aspects of wellbeing can be directly compared or combined
+into a single value. In this model, an indexation and aggregation approach is
+proposed, but it is not essential to the model and should be downplayed. Much
+more important is the results for each aspect of wellbeing, and how they are
+caused by and relate to the other aspects of wellbeing. These are best measured
+in the natural units of the variable. A single measure of wellbeing is generally of
+little use in policy settings as any changes in that value can only be understood in
+the context of the cause of those changes.
+This paper describes the design and equations of the model (applications of the
+model including calibration, validation, results, and sensitivity analyses will be
+presented in future papers). The next sections describe the modelling of the
+different aspects of wellbeing, then the modelling of the supporting elements
+such as the production sector. The paper concludes with a description of the
+anticipated uses of the model and plans for future improvements. Additionally, the
+appendices have a list of all the mathematical notation used in this paper with
+precise definitions, a list of the equations in the order they are solved in, and
+selected derivations of those equations.
+
+2
+
+The Eleven A s p e c t s o f We l l b e i n g
+
+The OECD How’s Life? framework describes eleven aspects of wellbeing that provide near-complete coverage of what many people considers makes up wellbeing,
+as described earlier. These eleven aspects and the interactions between them
+form the basis of this model.
+
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+7
+
+2.1 Civic Engagement
+
+Civic engagement is the term used to describe how engaged people in the society
+are with how they are governed. A society with high civic engagement will have
+high voter turnout, good stakeholder consultation by government, and a sense that
+members of the society can influence the behaviour of government. With good
+civic engagement, governments are held to account and so government spending
+may be more effective. It is also easier for governments to implement policies that
+the affected people have been involved in creating. Note that civic engagement
+does not always make government spending more effective if it takes the form of
+lobbying for policies that benefit a small group (for example, Federated Farmers,
+Greypower) rather than everyone.
+In this model, civic engagement is treated as a stock akin to social connection that
+changes as other aspects of society change (in contrast, the OECD treats this as
+a flow, due to the importance people attach to procedural utility). As such, it obeys
+the standard stock evolution equation:
+KCG,h,t+1 = (1 − δCG,h ) KCG,h,t + ICG,h,t
+
+∀h, t
+
+(1)
+
+where δCG,h is the “natural” decline in civic engagement in the absence of any other
+changes in society and ICG,h,t is the aggregate of the flow during the time period
+t. The “natural” decline could be taken to reflect the cohort effect that is being
+observed in a number of countries, where younger people are less likely to vote
+than older people, and remain less likely to vote even as they age (Konzelmann,
+Wagner, and Rattinger, 2012). Note that different household types may have
+different levels of civic engagement, which reflects the fact that some sections
+of society can be disengaged or unable to engage in a two-way manner with
+government; it also reflects the fact that the children of civically-engaged parents
+have a higher level of civic engagement.
+The civic engagement aspect of wellbeing is represented solely by the stock of
+civic engagement:
+ˆ CG,h ,t = K
+ˆ CG,h ,t
+W
+∀hS , t
+(2)
+S
+S
+The level of civic engagement in a society is affected by the level of education,
+the net income, the social connection, the level of immigration, and the level of
+unemployment. It is also affected by the level of leisure time available, without
+which people may not have the time to engage with government even if they have
+both the desire and the ability. Thus, the change in the level of civic engagement
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+2.2 Economic (Income & Wealth)
+Economic wellbeing is an important part of providing ourselves with the necessities
+of life and material pleasures, and it is an aspect of wellbeing that has been heavily
+focussed on by governments and economists around the world. A lack of economic
+wellbeing particularly impacts health, and can also negatively impact many other
+aspects of wellbeing.
+To have good economic wellbeing, a household must have money. This may be
+in the form of financial wealth, inherited or accumulated over time; or it may be
+from income from investments or from working in the labour market. This money
+can then be spent on consumption. Consumption goods and services can also
+be created by home production, so a low income need not force a low level of
+consumption if the household has the time and skill to make what they need for
+themselves.
+Economic wellbeing is defined as the simple average of the indexes of the three
+economic indicators—net income, total consumption, and financial wealth:
+
+This follows the method used by the OECD Better Life Index (2017), where the
+indicators, after conversion to indexes, are combined using a simple arithmetic
+averages to get the indexes for each aspect of wellbeing.
+Although these three indicators heavily overlap and are highly interrelated, they
+do cover different concepts. Consumption is often smoother than income, as
+wealth acts as a buffer. Changes in wealth are dependent on the difference
+between income and consumption, but the level of wealth (and to a lesser extent,
+income) is heavily influenced by the initial level of wealth. They also match with
+the first recommendation of the Stiglitz Report (Stiglitz, Sen, and Fitoussi, 2009):
+“When evaluating material wellbeing, look at income and consumption rather than
+production” and the third recommendation “Consider income and consumption
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+
+This choice simplifies the model and represents the strong habit persistence
+that can occur in the proportion of time spent working. However, it means that
+households cannot choose to change their hours of work to increase their income
+or their leisure time. It is common in static CGE (computable general equilibirum)
+models for the total amount of labour to be fixed—it is part of the “closure” for such
+models.
+The total labour supply (per household) for production is adjusted for the productivity of the workers from health and education:
+
+However, gross income is not the income that affects wellbeing. Households must
+pay taxes on their income, and may receive transfers from the government. Net
+income, the income after transfers (including benefit payments) and taxes, is a
+better measure of economic wellbeing as it represents the money available for
+households to save or spend on consumption. Net income is given by:
+yh,t = (1 − τY,h ) Yh,t + ΓJ (JST,h,t + JLT,h,t )
++ γN W,h ΓN W JN W,h,t + γτ,h Γτ,t KN,S,t −1
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+2.2.2 Consumption
+Households consume goods produced by the market and created by home production. However, not all consumption is desirable—consumption of goods and
+services such as transport and personal safety are more about negating problems
+rather than being attractive for consumption in their own right. Thus, the total
+consumption defined here for use in calculating wellbeing excludes undesirable
+consumption:
+
+The processes for creating market goods and home production is described later,
+in sections 3.1 and 3.3 respectively. However, the purchasing decisions for market
+goods and services are made by the household, according to behavioural rules.
+In this version of the model, two simple rules are used. First, the amount of money
+the household spends on consumption remains constant:
+Bh,t = Bh,t=0
+
+
+This is a very simple choice, and suggests a very strong level of habit persistence
+in the consumption behaviour of households. However, it is not very realistic as it
+assumes income and wealth have no effect on prices. It is also more likely that
+level of consumption, rather than budget of consumption, is the subject of habit
+persistence.
+Secondly, the household gets “utility” from consumption that they try to maximise.
+This utility is given by a Cobb-Douglas function:
+UC,h,t =
+
+
+Note that transport consumption is excluded from this calculation as it is obtained
+in the housing section 2.6 from time spent travelling (e.g. commuting), but it
+includes all other types of consumption, essential and non-essential, desirable
+and undesirable. This is solely for modelling reasons, i.e. not calcuating the same
+variable twice.
+A Cobb-Douglas utility function implies that although we get less value from each
+additional unit of consumption, more consumption always gives greater utility.
+This is certainly realistic up to a point, but it is not clear that it holds for all levels
+of consumption. In principle, households should get utility from all aspects of
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+wellbeing and optimise their behaviour across this. However, this substantially
+complicates the problem for both households and the modeller. Using the method
+described here allows the allocation of consumption across different categories,
+without commenting on choices around other aspects of wellbeing.
+In maximising their utility, households face a budget constraint given by:
+Bh,t =
+
+Changes in wealth are due to inflation δIW,h and the difference between net income
+and spending:
+IIW,h,t = yh,t − Bh,t
+∀h, t
+(16)
+This assumes all household wealth is held in (or can be liquidised to) financial
+forms rather than in physical forms such as housing. While not particularly realistic,
+it matches with the treatment of housing in the current version of the model.
+
+2.3 Education
+Many people value education, knowledge, and skills for their own sake. Learning
+new skills and knowledge often creates a sense of achievement and satisfies our
+curiosity, as well as increasing employability, making labour more productive, and
+improving our ability to look after our health, the environment, and participate in
+civic issues.
+However, it takes a significant investment of both time and money to obtain a
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+good education and reasonable level of skills. People spend an average of 17.5
+years in formal education in OECD countries (OECD, 2017) mostly before entering
+the workforce. They then continue to develop skills on the job (and elsewhere)
+throughout their working career and sometimes beyond. Typically, the government
+will pay most of the cost of primary and secondary education, but a much smaller
+proportion of tertiary education.
+In this model, we will consider two types of education-related human capital—skills
+and formal education. Formal education occurs outside the workplace, typically
+(but not exclusively) at a school, university, or polytechnic. It takes time away
+from other activities a household may perform (including earning an income), and
+must be paid for either by the government or the household. It often leads to a
+qualification.
+Skills are defined as the result of on-the-job training and experience and are harder
+to measure. They are effectively paid for by producers, who must lose productive
+time from their employees to invest in their skills. However, producers benefit from
+the increase in skills through improved productivity. As much of this training is
+provided on-the-job or as experience, there are no direct costs to be paid.
+Both skills and formal education evolve over time according to the standard stock
+equation:
+
+where δESF,h and δESS,h are the rates at which we forget what we’ve learnt (or our
+knowledge becomes irrelevant), and IESF,h,t and IESS,h,t are the results of the effort
+put into increasing formal education and skills respectively. These two stocks are
+the indicators for the education aspect of wellbeing, and are combined into the
+wellbeing index using a simple average of the indexes of the two stocks:
+
+2.3.1 Formal Education
+The quantity of formal education demanded is determined in this model by the
+supply of education. Education can be supplied by the government, by the market,
+and by home production:
+QESF,h,t =
+
+
+This supply of formal education is converted to an increase in formal education
+level with an efficiency that depends on the existing education level:
+IESF,h,t = AESF,h KESF,h,t ηESF,h QESF,h,t
+
+Formal study also requires time that cannot then be used for leisure, work, or other
+purposes. We estimate the (health-adjusted) amount of time spent studying based
+on the investment in formal education:
+T˜ES,h,t = AES,T,h IESF,h,t
+
+
+Removing the health adjustment means the time required to consume these
+education services is given by:
+TES,h,t = AHS,ES,h KHS,h,t −ηHS,ES,h T˜ES,h,t
+
+
+
+2.3.2 Skills
+Training for skills are provided by producers to the labour they employ. This means
+that, of the time they pay wages for, a proportion will be dedicated to skills training,
+and the remainder to production:
+
+
+The efficiency with which this can be done (incorporating current education, skill,
+and health levels) is already incorporated in the time allowed.
+
+2.4 Environment
+The quality of the environment we live in affects our wellbeing in several different
+ways. High levels of pollution negatively impact physical health. Lack of green
+spaces negatively affects mental health. Production depends on accessing natural
+resources and being able to emit pollution to natural sinks. Biodiversity contributes
+to technological progress (for example, biomining for new drugs; biomimicry
+in engineering). A natural, unpolluted environment also provides a variety of
+recreational opportunities and its existence is valued for its own sake by many
+people who may never visit an untouched habitat.
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+14
+
+In this model, three aspects of the environment are considered: resources, pollution, and biodiversity. The level of resources is important for production, but does
+not directly impact on the environment aspect of wellbeing. However, the pollution
+level and the biodiversity level are both used as indicators for the environment
+aspect of wellbeing:
+
+
+2.4.1 Resources
+Resources are defined as goods provided by the natural environment that are
+valued for their use in production. In this model, two types of resources are
+recognised: stock resources and flow resources. A flow resource is always
+renewable and is generally difficult to store—sunlight being an excellent example.
+Use of a flow resource for production is constrained by the cost of extracting it
+and the rate of flow; and it is not affected by the level of use in the previous time
+period. For notational purposes it is still necessary to define the stock level of flow
+resource, and so (using the standard evolution equation) it is given as:
+
+and this defines an upper bound on the amount of flow resource that can be
+extracted, given by:
+
+A stock resource, such as fish or coal, may or may not be renewable, but is
+characterised by being able to be stored. We assume the stocks do not deteriorate
+or decline with storage. However, this stored resource may run out if it is used
+faster than it regenerates (in the case of a renewable resource) or within a finite
+time period (in the case of a non-renewable resource). The level of the stock
+resource is also given by the standard evolution equation:
+
+
+where δEQ,j=EQS = 0 for non-renewable stocks, and δEQ,j=EQS < 0 is the regeneration rate for renewable stocks. Note that this means renewable stocks grow
+exponentially without limit if they are not used, which is clearly unrealistic. However,
+WP18/05 Living Standards Analysis Model: The First Prototype
+we assume that the range of values that Kj=EQS,t take remain in a realistic range
+over the timeframe the model is run for.
+The “investment” in the level of the stock resource is simply the reduction due to
+the extraction of the resource:
+
+
+These equations define the resources as they are before human intervention. They
+must then be extracted (as described in the production section 3.1) for use in
+production where they become valuable for human wellbeing.
+
+2.4.2 Pollution
+Pollution is emitted into the natural environment by production. The environment
+can absorb and neutralise some pollution, but pollution flows in excess of this
+level build up in the environment, damaging biodiversity and creating health risks.
+Most types of pollution form geographic concentrations, often in the area they are
+emitted, but sometimes elsewhere such as polluted streams emptying into a lake.
+A few forms of pollution do not become geographically concentrated, but have
+global impacts, such as carbon dioxide.
+The total level of pollution experienced by a society is governed by the standard
+evolution equation:
+KΨ,S,t+1 = (1 − δΨ,S ) KΨ,S,t + IΨ,S,t
+
+where δΨ,S > 0 is the rate the natural environment can neutralise pollution. Note
+that this assumes the more pollution there is, the more pollution can be neutralised.
+This assumption is appropriate for low levels of pollution, but the converse is
+much more likely to be true in highly polluted environments which may become
+overloaded.
+Apart from natural absorption, there are two factors that change the level of
+pollution: the level of pollution emitted by production in each time period, and the
+spending (and effectiveness of that spending) by government primarily on clean-up.
+This gives the “investment” in the pollution level:
+
+
+As this model does not contain geographic information, it is assumed that all
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+
+households experience the same (societal) level of pollution, which is given by:
+
+
+(34)
+
+2.4.3 Biodiversity
+Biodiversity is also an environmental stock. It is valuable as an enabler for production and for health, as well as in its own right. As a stock, it is governed by the
+standard evolution equation:
+
+
+Like a renewable stock resource, it is assumed that biodiversity stocks can regenerate themselves (i.e. δEQ,S < 0), although in the absence of other effects
+that reduce biodiversity this again results in unlimited exponential growth. In this
+model other effects come in two types: spending by government on increasing
+biodiversity, and the negative effects of pollution on biodiversity. This results in the
+additional “investment” in biodiversity given by:
+
+
+It is also assumed that all households experience the same level of biodiversity,
+which is given by:
+
+(37)
+This is a more realistic assumption than for pollution, as the location of biodiversity
+relative to households has much less impact on different household types than the
+geographic distribution of pollution.
+
+2.5 Health
+Good health is a crucial part of wellbeing. Without it, we feel uncomfortable at
+best, and it also prevents us improving other aspects of our wellbeing. In the worst
+case scenario, poor health leads to (early) death.
+It also has large impacts on how we can spend our time. Poor health effectively
+reduces our ability to use our time well, reducing the intensity with which we can
+work, play, and study, and increasing the time needed for personal care including
+resting and receiving medical treatments and monitoring. This applies both to
+physical and to mental health.
+Our health level is affected by many factors, some of which also relate to other
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+17
+
+aspects of our wellbeing. There is a strong degree of continuity, with people who
+currently have good health likely to continue to have good health in the future, and
+those who do not continuing to have poor health. When we do get sick, the level
+of healthcare we have access to (relative to the level we need) determines how
+quickly (or whether) we get better. Wealth, education, leisure, social connections,
+and housing can all improve health for the better, as can life satisfaction and
+personal safety. Unemployment, pollution, and a degraded natural environment
+can make it worse.
+The average level of health is modelled here as a stock, and evolves over time
+according to the standard stock equation:
+
+
+(38)
+
+where δHS,h is the natural decline in health over time in the absence of healthcare
+provision or any other drivers of health change. This value should vary depending
+on the age of the people in the household. All other changes in health (both
+improvements and declines) are incorporated into the health investment term
+IHS,h,t . This health level is the only indicator used for the health aspect of wellbeing:
+
+
+(39)
+
+The health investment term—change in health level—is determined by adding
+the change in each of the factors that affect health, multiplied by an effectiveness
+parameter for that factor. This assumes that each of these factors act independently
+and linearly on health. These factors that affect health are the excess of demand for
+health services above supply, the level of biodiversity, the wealth, formal education
+level, unemployment level of the household type, life satisfaction, social connection,
+and personal safety of the household. Note that for a few variables, i.e. level of
+pollution, housing quality and quantity, and health-adjusted leisure, health changes
+are due to the level of these variables, and not the change as for other factors that
+affect health:
+
+
+Most of these values are determined in other parts of the model, demand for and
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+
+supply of healthcare being the exception. Demand for healthcare is modelled as
+a function of current health, with healthier people requiring less healthcare than
+those in poorer health:
+CHS,h,t = AHS,h KHS,h,t −ηHS,h
+
+
+This way of modelling healthcare assumes that demand for healthcare increases
+rapidly as health levels decline. Note that it does not take account of the increase
+in demand for healthcare services due to greater wealth or income which can
+create higher expectations. Healthcare supply, on the other hand, is given by
+the total of home production (e.g. carers), market purchases of healthcare, and
+government supply:
+
+
+Thus, supply and demand of healthcare services do not necessarily match, and if
+demand for healthcare services exceeds supply, this will have a negative impact
+on health. Note that health is modelled in an analogous way to personal safety.
+
+2.6 Housing
+The need for shelter is one of the basic necessities of life, and the quality of that
+shelter can have a large impact on wellbeing. In the New Zealand climate, good
+quality housing is warm and dry and should not have the drafts, damp, and mould
+that can cause or exacerbate health problems such as asthma. The location
+of the housing is important—if it is not close to friends and families, schools,
+workplaces, and amenities, too much time and money must be spent on transport
+or alternatively social connections, education, and income will suffer. This is also
+dependent on the type of transport available, as it is much easier to travel 10km to
+work each day if you can take a train or drive on an uncongested road than if you
+are constrained to walking.
+Good quality housing also has enough room for its occupants. Overcrowding
+increases the risk of infectious diseases and can also be stressful and unpleasant
+for the occupants. The quantity of housing is also closely linked to the price of
+housing—the cheaper housing is, the less likely it will be overcrowded to save
+money. The price of housing is also important in its own right. Because housing
+is a necessity, it is usually a high priority in a household’s budget, and expensive
+housing reduces the amount of money available for other consumption including
+food, healthcare, and education.
+WP18/05 Living Standards Analysis Model: The First Prototype
+The indexes of these four indicators—quality, quantity, price, and location (proxied
+by transport time)—are used to calculate the housing aspect of wellbeing:
+
+
+In this version of the model, households spend a constant proportion of their time
+travelling:
+THO,h,t = THO,h,t=0
+∀h, t
+(44)
+While a useful simplification for modelling purposes, this is quite restrictive. It
+does not allow for many things that can change transport time for households
+including moving to a better location (possibly increasing housing costs to decrease
+transport time and costs), changing transport mode (such as from walking to public
+transport), or environmental changes such as an increase in congestion.
+As well as using time, most transport methods cost money. This is modelled by
+assuming that the consumption of the specific final transport good is proportional
+to the time spent travelling:
+
+
+Note that home production of transport could include active modes like walking
+or cycling, which would have a positive impact on health. This link has not been
+included in this version of the model.
+Housing itself is supplied by the production of two specific final goods—good
+quality housing and bad quality housing. These are produced and sold in the
+same way as any other final good. This simplifies the modelling considerably, but
+ignores the fact that housing is a durable good and so misses many important
+aspects of the housing market that can have large effects on the price of housing.
+It does however have the advantage of automatically including running costs (e.g.
+heating) in the housing price naturally and without any further adjustments.
+Distinguishing good quality housing (HOG) from bad quality housing (HOB)
+allows the calculation of a quality indicator, defined as the proportion of good
+quality housing to total housing:
+
+
+The meaning of “good quality housing” does not affect these equations, and can
+be chosen to fit the data and needs of the user. However, it will generally be used
+WP18/05 Living Standards Analysis Model: The First Prototype
+to here to mean housing that does not have a major problem with damp, cold, or
+mould, as these are major problems with the quality of some New Zealand homes.
+The quantity of housing is important for indicating overcrowding, and as such it is
+measured as the number of rooms per person in the household:
+
+
+The number of people per household is assumed to be constant:
+nh,t = nh,t=0
+
+
+Finally, for the purposes of the housing aspect of wellbeing, it is the price of
+housing as a proportion of (net) income that is important. Thus the price of
+housing indicator is given by:
+PHO,h,t = yh,t −1 (PC,k=HOB,t Ch,k=HOB,t + PC,k=HOG,t Ch,k=HOG,t )
+
+
+
+2.7 Jobs
+While many people bemoan the need to have a job, it is generally recognised that
+the benefits of having a good-quality job extend beyond the income it provides. A
+good-quality job can provides people with meaning and purpose, independence,
+social connections, stability, status, and skills development; as well as the means
+to provide for their economic wellbeing. Being unemployed, i.e. willing to work but
+not having a job, is generally considered bad for one’s wellbeing, creating financial
+stress, boredom, and negatively affecting self-esteem.
+Not all jobs are good quality, and for some people the disadvantages of having
+even a good-quality job outweigh the advantages. These people may also be
+able to achieve fulfilment and the other benefits of jobs by other means, and
+are considered “not in the workforce”. This includes people unable to work due
+to health or disability, parents of young children and other carers, children and
+full-time students, and retired people.
+A good-quality job is one that is well-matched to the worker’s skills, pays well,
+is respected, and contributes meaningfully to society. The hours of work are
+reasonable (neither too few nor too many, and at an appropriate time of day), the
+tenure secure (so little or no concern of being fired or made redundant), and the
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+
+workplace pleasant and no more dangerous that strictly necessary. A poor quality
+job will be missing many of these attributes. Highly skilled or educated people
+are better able to obtain good quality jobs, but the number of jobs available is
+determined primarily by the state of the economy.
+All people in the society fit into one of three categories—employed (including
+part-time), unemployed, or not in the workforce. The unemployed can be further
+divided into short-term unemployed, who have been unemployed for less than
+a year, and long-term unemployed. While short-term unemployed people can
+often find a job on their own in a short time if the general economic conditions are
+good enough, long-term unemployed people are more likely to suffer from complex
+issues that make them less employable. Thus, the short-term unemployment rate
+can be related to the business cycle, but the level of long-term unemployment
+reflects longer-term issues.
+Using these ideas, the proportion of people that are short-term unemployed,
+long-term unemployed, and not-in-the-workforce can be related to the level of
+employment in the society. First, if short-term unemployment is determined by the
+business cycle, then it can be modelled by assuming it is connected to employment
+by a constant elasticity of substitution:
+JST,h,t = AJ,ST,h JE,h,t −1/ηST,h
+
+
+This assumes that most of the changes in employment due to the business cycle
+are absorbed by changes in short-term unemployment. The rest of any changes
+in employment must be absorbed by the long-term unemployed, and those notin-the-workforce. Both of these groups can be difficult to get into work (for very
+different reasons), but we assume that the people in these two groups enter or
+leave the workforce in a fixed ratio φJ,h . This means the long-term unemployment
+rate is given by:
+JLT,h,t = (1 + φJ,h )−1 (AJ,LT,h − JE,h,t − JST,h,t )
+
+
+
+
+This assumption is often implicitly made in static CGE models that hold labour
+supply fixed as part of their closure. Later versions of the model will need to link
+the employment rate to the demand for labour for production.
+The employment rate and the long-term unemployment rate comprise two of the
+indicators for the jobs aspect of wellbeing. The other two indicators are wage rates
+and a measure of job security. Thus, the index for the jobs aspect of wellbeing is
+given by:
+
+
+While the wage rate is important for determining household income, it is also
+important in its own right as an indicator of job status and quality—both of which
+typically (but not always) correspond with the wages paid for the work.
+
+2.8 Personal Safety
+Personal safety is primarily an indication of the crime (particularly violent crime)
+level in the society—the lower the level of crime, the greater the level of personal
+safety. Obviously, personal safety will also be negatively affected for countries
+involved in war on their territory, but this is a rare event in New Zealand and some
+other OECD countries. Levels of corruption and white-collar crime have less effect
+on personal safety than violent crime and some forms of property crime.
+People who have a lack of personal safety will usually be living their lives in fear.
+This has effects on their physical and mental health. It may restrict their activities,
+indirectly affecting their ability to earn an income, get educated, and generally
+enjoy life. Trust is reduced, impacting negatively on communities and business.
+The average level of personal safety is modelled here as a stock that can change
+over time:
+KP S,h,t+1 = (1 − δP S,h ) KP S,h,t + IP S,h,t
+∀h, t
+(57)
+where δP S,h is included for consistency with the other captial evolution equations
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+23
+
+and could be interpreted as the natural decline in personal safety in the absence
+of any policing or other drivers of change in personal safety. Note that this ignores
+the distinction between the true level of crime, and the reported level of crime. As
+most crime is under-reported, but to varying extents, a change in the measured
+level in crime may reflect a change in the true level and/or a change in reporting
+patterns. All other changes in personal safety (both improvements and declines)
+are incorporated into the personal safety investment term IP S,h,t .
+This personal safety level is the only indicator used for the personal safety aspect
+of wellbeing:
+
+The personal safety investment—change in personal safety—is determined by
+adding the change in each of the factors that affect personal safety, multiplied
+by an effectiveness parameter for that factor. This assumes that each of these
+factors act independently and linearly on personal safety. These factors that affect
+personal safety are the excess need for policing and other crime prevention above
+the supply of policing and crime prevention services, social connection, net income
+of households, and the level of formal education. Poor mental health and long-term
+unemployment increase the risk of crime and therefore decrease personal safety.
+It is less clear whether short-term unemployment and inequality also decrease
+personal safety. This results in:
+
+Most of these values are determined elsewhere in the model, demand and supply
+for crime prevention being the exception. Demand for crime prevention is modelled
+as a function of current personal safety, with safer societies requiring less crime
+prevention than those that are more dangerous:
+CP S,h,t = AP S,h KP S,h,t −ηP S,h
+
+
+This way of modelling crime prevention assumes that demand for crime prevention
+increases rapidly as personal safety levels decline. Note that it does not take
+account of the increase in demand for crime prevention due to greater wealth or
+income which can create higher expectations.
+
+WP18/05 Living Standards Analysis Model: The First Prototype
+Supply of policing and security, on the other hand, is given by the total of home
+production (e.g. good parenting, escorting family members at night), market
+purchases of security and prevention, and government supply of crime prevention
+services including policing, rehabilitation, and prevention:
+
+
+Thus, supply and demand of crime prevention services do not necessarily match,
+and if demand for crime prevention services exceeds supply, this will have a
+negative effect on personal safety. Note that personal safety is modelled in an
+analogous way to health.
+
+2.9 Social Connection (Community)
+Humans are a social species, and as such good social connections are extremely
+important to our wellbeing. The quality of family and other relationships are one of
+the most important factors affecting subjective wellbeing. Good social connections
+can improve our health, increase our resilience, and increase the likelihood of
+finding a good quality job. Poor social connection leads to isolation and loneliness
+as well as making it much harder to get things done.
+Like many of the other aspects of wellbeing in this model, social connection is
+modelled as a stock that can be invested in for improvement (or decline):
+KSC,h,t+1 = (1 − δSC,h ) KSC,h,t + ISC,h,t
+
+
+where δSC,h is included for consistency with the other captial evolution equations
+and could be interpreted as the natural rate of decline in social connection. The
+social connection aspect of wellbeing is then given by the level of social connection:
+
+
+While levels of social connection are significantly affected by factors outside this
+model, such as friendships, there are also a number of factors included in the
+model which can also improve or worsen the chances of good social connections.
+A change in any of these can cause a proportional change in social connection.
+These factors include health-adjusted leisure time, volunteering, employment,
+formal education, personal safety, health, and civic engagement. A high population,
+high immigration levels, or high level of wealth inequality can decrease social
+WP18/05 Living Standards Analysis Model: The First Prototype
+connection:
+
+
+
+Volunteering is defined here as the home production done for others. This is easy
+to detect in the model if it is done for different household types, but we also assume
+that some proportion of home production is for different households of the same
+type, and thus is considered volunteering:
+
+
+2.10 Subjective Wellbeing
+Subjective wellbeing is measured by life satisfaction. It is broader than happiness,
+and includes how people feel about their lives as a whole rather than their current
+emotional state. It is commonly measured on a 0–10 scale, where people are
+asked to rate their life as a whole where zero represents the worst possible life for
+them and ten represents the best possible life for them.
+Subjective measures can be difficult to model, as they can be heavily influenced
+by random events and differences between personalities. In particular, the level
+of life satisfaction can be difficult to predict, especially from objective information.
+In addition, as this is a wellbeing model, the most obvious way to model life
+satisfaction would be to model wellbeing. If life satisfaction is an aspect of wellbeing,
+this becomes circular.
+However, it has been shown that positive and negative shocks have ongoing effects
+on life satisfaction, with negative shocks having a larger effect than the equivalent
+positive shock. This suggests a way of modelling the change in life satisfaction
+that is distinct from modelling wellbeing as a whole.
+Start by assuming that the current level of life satisfaction is a “neutral” level,
+determined by culture and temperament, but unaffected by shocks from the past.
+Then changes from this level can be modelled by the effect of shocks, discounted
+by how long ago they occurred, and weighted differently based on whether they
+WP18/05 Living Standards Analysis Model: The First Prototype
+caused a loss or a gain. This last aspect allows us to take account of loss aversion,
+where a decrease in income (for example) has a larger effect than an equivalent
+increase in income.
+There are many aspects of life that affect life satisfaction and are included in this
+wellbeing model. It could be argued that all other aspects of wellbeing should be
+included, although this could reduce the tractability of the model. As such, given the
+approach taken to modelling life satisfcation described above, the equation looks
+for variables that might have a persistent affect (a change in the past continues
+to affect you today, even if you have returned to your pre-change level), or a
+strong difference between positive and negative shocks. Health, net income, social
+connection, formal education level, job security, personal safety, and altruism
+(measured as time spent volunteering) all improve life satisfaction. Unemployment,
+time spent commuting, pollution, and whether you are less financially wealthy than
+your neighbours can decrease life satisfaction. This means the investment in life
+satisfaction is given by:
+s≤t
+
+
+2.11 Work-Life Balance
+We all only have twenty-four hours in a day, but we can choose to use that time
+in many different ways. Some of that time is spent in activities that are directly
+pleasurable, and some is spent doing things that are necessary for improving our
+wellbeing such as working. Work-life balance describes the trade-off between
+two aspects of modern life—the time desired for leisure and personal care on the
+one hand, and the time that must be spent working (both paid work and home
+WP18/05 Living Standards Analysis Model: The First Prototype
+production), on transportation, and on education in order to live and improve other
+aspects of wellbeing on the other hand.
+Time spent working in a paid job TIW,h,t is determined by the job and the need for
+income to provide for the economic needs of the household. Time spent on home
+production TQ,h1 ,h2 ,k,t is determined by what needs to be done around the house as
+well as unpaid work for others. Time spent on education TES,h,t leads to improved
+skills and qualifications. Time spent on transportation THO,h,t is determined by the
+location of the home relative to the place of work and other activities. (Note that
+time spent on transportation and home production are given exogenously in this
+prototype model). All these uses of time have limited flexibility, and may cause
+a “time crunch”, where the time left over for leisure and personal care (including
+sleeping) feels insufficient.
+In this model, the time available for leisure and personal care is defined as the time
+left over after the other activities listed above have taken place, as a proportion of
+time:
+
+
+As in the rest of the model, these values are averaged across a household, and so
+we do not distinguish individuals from households.
+However, equation (69) takes no account of the ability of individuals to take
+advantage of that time. Health and social connection, in particular, affect the
+quality of time available to a person both in their ability to enjoy and make the
+most of that time, and in the amount of time they must dedicate to personal care
+and rest. Therefore, we apply adjustments for health and social connection to the
+amount of leisure time a household has available:
+
+
+Suppor ting E l e m e n t s o f t h e M o d e l
+
+The eleven aspects of wellbeing described in the previous section do not form
+a complete model by themselves. There are a number of supporting elements
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+required to complete the model and to allow for a variety of policy and other
+experiments within the model. This includes a production sector and a government
+sector, and interactions with the rest of the world.
+
+3.1 The Production Sector
+The production sector is an important supporting element of wellbeing for households and general society. The production sector provides the jobs that enable
+job-related wellbeing. Those jobs, and the use of capital, provide the income
+for the economic aspect of wellbeing. They also provide most of the goods and
+services for consumption (again contributing to the economic aspect of wellbeing).
+Housing, healthcare, transportation, policing and security, and education services
+are provided by the production sector. Production also affects the environment.
+Production is the process that converts a certain set of inputs into a different set
+of outputs. At the highly abstract level required in this model, the inputs include
+capital and labour, and production is enabled by technology, personal safety,
+infrastructure, social connections, and the natural environment. Traditionally, many
+of these enablers are included in multi-factor productivity, but they are made explicit
+in this model. It then outputs the desirable consumption goods and services, as
+well as undesired pollution.
+In this model, production is treated similarly to how it would be treated in a static
+CGE model. In fact, the production sector in combination with the household
+consumption choices form a simple CGE model, with closure provided by a
+combination of variables exogenous to the whole model and variables calculated
+using the other parts of the model, particularly the stock and flow equations.
+There are several different divisions in the way production is modelled here. First,
+goods and services are divided into extracted goods that do not have any intermediate inputs and are not available as consumption goods; and produced
+(final) goods that use extracted goods as intermediate inputs and are available
+for consumption. Second, goods and services can be produced in different ways,
+based on the environmental friendliness of the method of production. Finally, many
+of the produced goods are important for aspects of wellbeing beyond the economic
+aspect, such as for housing or healthcare, and these are produced by specific
+production sectors.
+
+3.1.1 Extraction
+Extraction goods are used for intermediate consumption by final production sectors, but are not available for final consumption by households or government.
+WP18/05 Living Standards Analysis Model: The First Prototype
+Conceptually, they include primary production goods like coal, fish, water, and
+sunlight that are available “for free” from the environment, but must be extracted
+using labour and capital in the form of machinery. For modelling purposes, we
+assume that no intermediate inputs from other industries are required to produce
+extraction goods. Production of extraction goods are enabled by levels of social
+connection, personal safety, biodiversity, and government-provided infrastructure
+such as roading. They are also enabled (unlike final goods) by the level of resource
+available, as the more resource there is, the easier it is to extract. These enablers
+of production are things that are necessary for production, but are neither used up
+nor directly paid for by extraction producers. This is illustrated in Figure 2.
+Two generic extraction goods are modelled—a flow resource and a stock resource.
+These are described in more detail in the environment sector above, as both
+require natural resources and impact on the level of those resources.
+
+
+
+3.1.2 Final Production
+Final production goods are all other (i.e. excluding extraction) goods and services.
+They are sold directly to the final consumer, which may be the government or
+households. They require extraction goods as well as factors of production such as
+capital and labour for their production. They also require most of the same enablers
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+30
+
+as extraction production, namely social connection, personal safety, biodiversity,
+and government-provided infrastructure. This is illustrated in Figure 3.
+
+Figure 3
+
+Production process for final goods
+
+The final goods production has a number of sectors, several of which are used for
+specific purposes for other parts of the model. Education, healthcare services,
+transport, policing and security, and good and bad quality housing are all included
+as final production sectors and described further in the appropriate aspect of
+wellbeing above. In addition, there is an “other” sector for all other types of goods
+and services produced for consumption in the economy.
+
+3.1.3 Clean and Dirty Processes
+The environmental friendliness of the production process is modelled using “clean”
+and “dirty” production processes. Any given production process for any particular
+good sits somewhere on a continuum between “clean”, which is low-polluting and
+generally environmentally friendly (it could even have a positive impact on the
+environment), and “dirty”, which is not. In this model, a dividing line is placed on
+this continuum, roughly halfway between the two extremes, and all processes on
+the clean side are grouped as “clean”, and all others (on the dirty side) grouped
+as “dirty”. Clean and dirty processes are modelled using the same equations, but
+the parameters in those equation can take different values, which will be averages
+of all the different processes in the group. Note that although the dividing line is
+placed halfway between “clean” and “dirty”, this does not necessarily mean that
+half of production is clean and half is dirty.
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+
+Clean processes will produce less pollution per unit of production than dirty
+processes, but the modelling method is the same for both. Note that a final goods
+producer could reduce their level of pollution by reducing this parameter (e.g.
+switching to a cleaner process), but also by reducing the proportion of extraction
+goods required in production.
+The technology used in each production process is assumed to be constant in this
+version of the model:
+
+(77)
+
+This assumption will hold true when perfect competition exists, but will understate
+prices if the situation is closer to a monopoly.
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+32
+
+However, goods and services are demanded for consumption, rather than production processes. Thus, the results of clean and dirty production must be combined
+into a single product for consumption (final production goods) or use in production
+(extraction goods). As we assume the goods and services created by each production process are imperfect substitutes for each other, a CES (constant elasticity
+of substitution) function is used to combine them:
+
+
+We have determined the economic environment producers operate in by requiring
+profits to be zero. The behaviour of the producer within that environment must also
+be determined. As profits are required to be zero, producers cannot maximise profit.
+Instead, we assume they maximise production (subject to the profit constraint).
+This allows us to calculate the demand for both the factors of production and the
+extraction goods (derivation in Appendix C):
+
+
+3.1.5 Market Clearing Conditions
+This model also assumes that all markets—both for factors of production and
+for goods and services—clear. Thus demand equals supply for all factors of
+production and goods and services, and this is used to determine the price of the
+factors of production and the quantity of each good or service.
+The demand (and therefore supply) for final production goods and services is
+given by the total consumption demand from households and government:
+
+The price for factors of production can be divided into two groups based on whether
+the price for the factor of production depends on the process of production. In
+this version of the model, the price of capital does not depend on the process of
+production. However, the effective price PL,Q,h,e,q,t
+paid by producers for labour
+˜
+varies by sector and production process, based on what proportion of time the
+labour spends developing their skills (as described earlier). These prices can be
+related to the generic price for labour as follows:
+
+The effective price of capital is the same as the user price of capital for all sectors
+and production processes:
+
+
+3.2 Interactions with the Rest of the World
+
+This model is for a small open economy, and thus interactions with the rest of
+the world are important. These interactions may take the form of imports and
+exports of goods and services (both extraction and final), of capital, and of people
+(migration). There are also other interactions with the rest of the world, most
+notably the interchange of ideas, that aren’t included in this model.
+As this model is for a small economy, it is assumed that this economy does not
+have an effect on international prices (in international currency) or international
+levels of personal safety etc., and so they are exogenous. For simplicity, they are
+also chosen to be constant over time:
+
+
+Note that prices paid for imports of goods and capital and prices received for
+exports of goods and capital need not be the same. However, “exports” and
+“imports” for wages paid by the rest of the world are not distinguished from each
+other in this model. The exchange rate is also chosen for simplicity to be exogenous
+and constant:
+RROW,t = RROW,t=0
+∀t
+(93)
+This is in contrast to the floating exchange rate that New Zealand and many other
+economies use.
+The exchange rate can then be used to convert the international prices for imports
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+
+
+Note that there are no tariffs included in the import prices (or subsidies for exports),
+as these are minimal in New Zealand.
+
+3.2.1 Imports and Exports of Goods
+When an economy produces goods and services (both extraction and final), those
+goods can either be sold on the domestic market, or exported overseas. Similarly,
+local consumers can either buy goods produced domestically, or imports. This is
+shown diagrammatically in Figure 4.
+
+Figure 4
+
+Imports and Exports of Goods and Services
+
+
+
+subject to the constant elasticity of transformation (CET) functions:
+
+The level of exports is then given by:
+
+
+Domestically-consumed goods can be sourced from imports or non-exported
+domestic production, at cost:
+PC,q,t QC,q,t = PM,q,t QM,q,t + PD,q,t QD,q,t
+
+
+Assume imports and domestically-produced goods are imperfect substitutes (the
+Armington assumption). The total goods available for consumption are therefore
+given by the constant elasticity of substitution (CES) function:
+
+
+Minimising the cost (104) subject to the total goods available (105), the level of
+
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+
+
+The full derivation of these equations is given in Appendix C.
+
+3.2.2 Imports and Exports of Financial Capital
+Imports and export of financial capital are treated in a similar way to the import
+and export of production goods and services. As with goods, the domestic supply
+of capital can be used by domestic firms or invested overseas. Capital demanded
+for government debt or production can either be supplied from local sources, or
+received as investment from overseas. This is shown diagrammatically in Figure 5.
+To determine the level of exports of capital, maximise the revenue of the suppliers
+of capital:
+
+
+The full derivation of these equations is given in Appendix C.
+
+3.2.3 Migration
+Migration is treated somewhat differently to imports and exports of capital and
+goods, as the decisions for migration are rarely made on purely economic grounds,
+and it can take some time for households to move between countries.
+There are many reasons why a household may wish to move from one country to
+another. These include higher wages or better job opportunities, better lifestyle,
+educational opportunities, and reuniting with family. New Zealand traditionally
+has an advantage in lifestyle, and a disadvantage (relative to other developed
+countries) in wages and job opportunities. As such, people tend to leave New
+Zealand for job opportunities (the traditional OE (Overseas Experience) being a
+partial exception), and people tend to come (or return) to New Zealand for greater
+personal safety, a higher quality natural environment, education, work-life balance,
+and general subjective wellbeing.
+Emigration can therefore be modelled as proportional to the difference between
+wages overseas and in New Zealand:
+
+
+
+While it is generally expected that international wages will be higher than New
+Zealand wages, if this is not the case, negative emigration (i.e. immigration) may
+occur, particularly with New Zealanders returning home.
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+Again, it is assumed that New Zealand will be better than the rest of the world in
+these aspects of wellbeing, but if this is no longer the case negative immigration
+(i.e. emigration) may occur.
+The change in the number of households of any given type is therefore given by
+the level of net migration:
+IN,h,t = NM,h,t − NX,h,t
+
+
+3.3 Home Production
+Not all production is done by firms, or is part of the formal economy. There are
+many tasks that households routinely perform for themselves, that would not be
+described as leisure. Instead, they contribute to the household’s standard of living
+and can substitute for consumption of market goods and services. Cooking, cleaning, childcare, and many other household tasks that were traditionally the domain
+of housewives fit into this category; as does gardening and home maintenance
+work not purchased as market services.
+Recipients of home production can be divided into two groups—those in the same
+household as the producer, and those in a different household to the producer.
+In both cases, this adds to the wellbeing of the recipient household. In the case
+where the recipient is in a different household to the producer, it also strengthens
+communities and improves the life satisfaction of the producer through a sense of
+altruism.
+The main inputs into home production are time and skill. Some materials may
+also be needed, for example food for cooking, but these are assumed to be
+part of the household’s market consumption. Coming out of home production
+are consumption goods and services that are substitutes for market goods and
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+41
+
+services. Home production is modelled using a simple one-input Cobb-Douglas
+production function:
+
+
+Health- and education-adjusted time input into home production activities T˜Q,h1 ,h2 ,k,t
+is the main factor determining the level of home production output Qh1 ,h2 ,k,t , and
+the only factor that can change over time. The effect on home production of putting
+in more time is given by the elasticity of home production with respect to time
+ηQ,T,h1 ,k . This is likely to be close to one, as typically putting more time into say
+cooking will result in a proportional increase in cooked meals. Skill Ah1 ,k defines
+how many cooked meals can be made in a given amount of time and is assumed
+to be constant over time, but could be different for different household types.
+Time put into home production activities is adjusted for health, as people in good
+health can generally perform home production tasks more efficiently than those
+in poor health, who may for example need to pause during the activity to rest. It
+is also adjusted for education and skill levels (as a proxy for intellect or ability to
+learn), as again people with high education and skills are more likely to be able to
+perform home production tasks more efficiently, just as their labour productivity is
+higher. These adjustments are modelled as follows:
+
+
+(123)
+
+In order to calculate home production, we therefore need to know how much time
+is dedicated to home production of each type of production good k by household
+h1 for household h2 (which may or may not be the same as h1 ) in each time period
+t. This is a behavioural choice for the household, and for modelling simplicity it is
+treated as exogenous and constant:
+
+
+
+
+In a future version of the model, skills could also be developed through home
+production, in a similar way to the development of skills in market production.
+
+3.4 Government
+The government makes up a large component of the economy, and it has the
+ability to influence much of the rest of the economy and society more broadly. It
+is also tasked with running the country. In a democracy, governments that do a
+better job of running the country well—presumably by at least maintaining the
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+
+wellbeing of its citizens—are more likely to be re-elected. Thus, governments are
+motivated to improve the wellbeing of their citizens, and have a number of tools
+to achieve this. This means that including a government sector in this wellbeing
+model is highly important, and even more so as the model is intended for use in
+policy analysis by government officials!
+
+3.4.1 Fiscal Policy
+The main role of the government in the model is to raise income through taxes
+for spending and redistribution. Three types of taxes are collected in the model:
+income tax, consumption tax, and pollution tax:
+Note that this does not include any form of company or production tax. The
+government uses this income for spending, investing, and providing transfers back
+to households. It must also pay interest on any debt it owes. However, it need not
+maintain a balanced budget and in any given year it can lend or borrow to make
+up the difference between income and expenditure.
+For the purposes of this model, the government requires government debt to be
+maintained at a fixed ratio of GDP:
+
+This is a rigid version of the previous government’s aspiration to have net debt
+at about 20% of GDP in 2020 (Treasury, 2017). It means total expenditure, on
+spending, investment, interest, and transfers, must be given by:
+EG,t = YG,t + (DG,t+1 − DG,t )
+
+∀t
+
+(128)
+
+3.4.2 Spending
+The government spends money for a variety of different purposes, and part of the
+government budget process is deciding how to divide the available funds. In this
+version of the model, the government can spend money on decreasing pollution,
+increasing biodiversity, increasing personal safety, on providing healthcare and
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+43
+
+formal education services, and on other consumption goods and services. These
+are decided exogenously, and are kept constant. Most of these are decided at the
+societal level:
+SG,a,t = SG,a,t=0
+∀a, t
+(129)
+However, education, health, and personal safety spending is broken down by the
+household type that receives the services:
+3.4.3 Government Wealth
+The government holds a significant level of wealth, and this is assumed to be
+physical wealth in the form of infrastructure, which is an enabler of production.
+As with other stocks in the model, infrastructure levels change according to the
+standard evolution equation:
+
+
+There are many different choices governments could make for investment in
+infrastructure. Here, we assume that infrastructure investment occurs at a rate
+that counteracts depreciation and allows for population growth:
+
+
+This essentially keeps the level of infrastructure constant relative to population.
+This provides for a baseline level of maintenance, but does not take into account
+common variations around this that are typically due to more ad-hoc decisions by
+the government. Equation (134) could easily be replaced if a different policy for
+infrastructure investment were to be modelled.
+
+3.4.4 Transfers
+Transfers are the cash and in-kind payments made to households usually to
+redistribute wealth within a society or to alleviate poverty. These are modelled in
+WP18/05 Living Standards Analysis Model: The First Prototype
+two groups. First are the transfers that could be defined as social welfare payments
+that vary according to the conditions in the economy and society. They include
+unemployment benefits (paid to all who are unemployed), and other benefits such
+as government-provided superannuation and benefits to people who cannot work:
+The remaining transfers are calculated as a residual so that the government can
+meet its fiscal policy:
+
+
+They could be thought of as spending in other categories not included above that
+act like a cash payment to households.
+
+3.4.5 Consumption
+
+When the government spends money on investment or providing services, it is
+essentially purchasing consumption goods. The spending is first modified by
+its effectiveness, due to civic engagement and other (unspecified but constant)
+reasons:
+S˜G,a,t = AG,a KCG,S,t ηCG,a SG,a,t
+∀a, t
+(137)
+Note that spending directed at different household types may have different levels
+of effectiveness due, for example, to lobbying:
+
+
+The amount of consumption is defined by the effectiveness-adjusted amount of
+spending on that final good or service and the price of it. Adjusted spending on
+each type of consumption good is given by:
+
+For investment, it is assumed the government gets “utility” from this investment
+that they try to maximise. This utility is given by a Cobb-Douglas function:
+
+In maximising utility, the government faces a budget constraint based on the overall
+level of investment:
+
+3.5 Aggregation for Society
+While most variables in this model are intended primarily for use at a household
+level, there are a number of situation where it is necessary or desirable to aggregate to an all-of-society level. This includes when households interact with
+production or the government; when studying inequality and other interactions
+between household types; and when looking at wellbeing for society as a whole.
+
+3.5.1 General Aggregation
+Most societal variables are defined as the weighted average of the value for each
+household type:
+
+3.5.2 Inequality
+
+As this model has multiple household types, it is also possible to study the changes
+in inequality between household types. The household types that are modelled are
+determined by the modeller and the data they have available. In principle, each
+household in the country could be modelled as a separate household type in this
+framework. In practise, the data and computational power required for this degree
+of disaggregation is not readily available. More likely, the modeller would choose a
+small number of household types (say 5), divided along a dimension of interest.
+This could be a demographic dimension like ethnicity or family structure; or it could
+be a wellbeing dimension such as education level or income level. Note that if
+households within a household type are not identical (and this will always be the
+case if there are a small number of household types), the overall inequality will be
+under-represented when just looking at the inequality between household types.
+It is then necessary to decide what inequality should be considered. Commonly,
+income inequality (and particularly gross income inequality) is studied, as the relevant statistical data is easiest to collect. Wealth inequality is also often considered
+when appropriate data is available. Less frequently considered is inequality based
+on other measures such as wellbeing, partly because there is little or no data available that can be used for this purpose. However, income, wealth, and wellbeing
+inequality are all relevant in understanding the wellbeing and living standards of
+a population. As such, the model calculates inequality measures for gross and
+net income, household wealth, and wellbeing by default. It can also calculate
+inequality based on any other variable that has different values for each household
+type.
+There are many different ways of measuring inequality, and each show different
+things and take into account different values. Thus, it is useful to use more than
+one measure. Some measures, however, cannot generally be calculated in the
+model, such as the 80/20 ratio and other measures dependent on knowing value
+at certain population percentiles. Measures that incorporate the whole population
+can be calculated in this model, with the caveat that it only represents the inequality
+between household types and ignores the inequality within household types. This
+problem reduces as the number of household types increases, but increasing the
+number of household types causes other problems, particularly around data and
+computational complexity.
+Perhaps the most famous whole-of-population measure is the Gini coefficient,
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+The Atkinson measure includes a parameter Υ that indicates aversion to inequality,
+with larger values of Υ indicating a greater aversion to inequality.
+
+3.6 Calculation of Indexes
+In this model, variables are kept in their “natural units”. These are the units that
+they are usually measured in, for example, New Zealand dollars for income, timeproportion for time (convertible to hours per day by multiplying by 24; or days per
+year by multiplying by 365), and proportion for level of employment. This means
+that each variable in the model has its own units, which may or may not be shared
+with other variables.
+Using natural units makes it easier to interpret the results, and it avoids problems
+such as finding shadow prices to express all variables in dollar terms. Most of the
+results in this model, including the most meaningful results, are calculated using
+natural units. However, (although not important for the core model) we are left with
+the challenge of how we compare different aspects of wellbeing in a meaningful
+way. Which is bigger, if income has increased by $1,000 per year and leisure time
+by 1 hour per day?
+To get around this problem, all variables that are used as indicators of wellbeing
+are calculated both in their natural units and as an index. The indexes can then be
+compared to one another and used in calculations that combine them. This then
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+creates the next problem: How should the indexes be calculated?
+There are many different ways indexes can be calculated, some of which are
+discussed in an OECD handbook (OECD, 2008). For the purposes of this model,
+there are some particular features that it would be desirable for the indexes to
+exhibit, and some that are unimportant. The important features are as follows:
+
+• Shows changes consistently over time: The variables in this model evolve
+over time, and it is important to be able to tell how things are changing in
+time.
+• Shows differences between household types consistently: Different types of
+households may respond to changes in different ways, and this needs to be
+visible to compare the effects of wellbeing on the different household types.
+• Both good and bad effects move in the same direction: Indexes are easier
+to combine and interpret if up always means better. However, for some
+variables such as pollution, an increase is a bad thing. For such variables,
+the index should increase if the value of the variable decreases.
+• Relative changes should only appear if there are also absolute changes:
+This means the relative values should be calculated by comparing to fixed
+values.
+• Uses only data available in the model: Data from external sources can be
+hard to come by for this model.
+
+International comparability is unimportant for this model, as the results in this
+model are only applied to one country, and no other country is calculating the
+same thing. To calculate the indexes in this model, they are calculated as the
+percentage improvement from a particular base value. Mathematically, this is
+represented by:
+
+The base VB is given by the societal value of that variable at time t = 0. In
+the usual situation where the results of the model are given as the difference
+between a business-as-usual case and a scenario, the base value will always be
+the business-as-usual value at time t = 0. Using this method, an index value of
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+1 means the variable is the same as the base. An index value of 1.1 means the
+variable is 10% better (not necessarily larger!) than the base; and an index value
+of 0.9 means it is 10% worse than the base.
+As a single base is used for all time periods, this method shows changes consistently over time. By using the same base for different household types, the
+differences between them can be distinguished and are treated consistently. Because the inverse calculation is used for variables where an increase is bad for
+wellbeing, an increase in the index always represents an increase in wellbeing.
+The choice of a fixed base means changes in the index will only appear if the value
+of the underlying variable changes. Finally, the choice of base described here is
+calculated as a fundamental part of the model. Thus this method satisfies the
+important features required for an index in this model.
+It is worth noting however that using this method, all declines in wellbeing (relative
+to the base) will result in an index between 0 and 1, while improvements in
+wellbeing will have an index greater than 1 but not necessary smaller than 2, or 10,
+or 100 or more. An index representing something that is half as good as the base
+will have a value of 0.5, whereas something twice as good will have an index of 2.
+This runs the risk that improvements in wellbeing appear overstated compared to
+declines in wellbeing when using indexes, and is another reason why natural units
+should be emphasised over index values. However, as the indexes are not used in
+the core calculations of the model, this issues does not invalidate the model.
+This method does have another significant weakness. No account is taken of the
+level of variability in the value of the variable. Some variables have a large amount
+of room to move and change, often with open-ended values e.g. income. Others
+are more constrained, such as the percentage of good quality housing, and as well
+as only being able to move between theoretical limits (e.g. 0% and 100%) may in
+practise be even more constrained. This could be improved by including standard
+deviation or some other measure of spread into the index calculation method, but
+this would require data not available in the model, violating one of the important
+criteria above.
+
+3.7 Calculation of Wellbeing
+Wellbeing is a heterogeneous concept, made up of many different aspects. Any
+person or household will put a unique weighting on each aspect that may change
+over time. Thus, many different indexes for wellbeing have been proposed (as
+described in the introduction), but there is no “best” index for all people, or even a
+large group of people. All such indexes require value judgements unique to any
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+individual. For this reason, the emphasis on the model results should be on the
+indexes for each aspect of wellbeing and the values that are used to calculate
+them.
+However, there is some value in calculating an overall value for wellbeing. In
+particular, it can provide a consistent way for assessing different policies which
+contain different trade-offs, provided the results are taken as approximate and the
+reasons for the results understood.
+The choice of mathematical form for combining the aspects of wellbeing is in many
+respects arbitrary. However, it is desirable that it had diminishing increases in
+wellbeing from increases in an aspect of wellbeing, and that any aspect reaching
+zero is catastrophically bad. While a number of equational forms might meet these
+criteria, we will chose a weighted geometric mean (a standard Cobb-Douglas-style
+equation) for period wellbeing:
+
+
+In addition to the overall wellbeing calculated for each time period, an intergenerational wellbeing value (i.e. wellbeing aggregated over time) can be calculated
+to aid comparisons. People may be willing to sacrifice some wellbeing now for
+greater wellbeing in the future, and consider their overall wellbeing throughout their
+life to be greater for that sacrifice. Note however that intergenerational wellbeing
+is even less meaningful than the overall period wellbeing calculated for equation
+(151), as it retains all the problems of that value, then adds in the problems of time
+discounting, which are also driven by value judgements unique to any individual.
+Typically, good things in the future are rated less highly than good things now for a
+number of reasons including the future is uncertain. This implies that the future is
+discounted, and we assume it is discounted at a constant rate. We assume that
+we can write intergenerational wellbeing as the discounted sum of the wellbeing in
+each period. However, this does imply that the wellbeing of people in the distant
+future is discounted to almost zero and therefore unimportant relative to now—
+sometimes known as the dictatorship of the present. Chichilnisky (1997) proposes
+a modification to the standard discount equation that corrects for this effect, by
+adding a non-zero term in the limit t → ∞. Using this, the intergenerational
+wellbeing (in terms of period wellbeing) is given by:
+
+An alternative method that prevents the dictatorship of the present and may bear a
+WP18/05 Living Standards Analysis Model: The First Prototype
+
+
+closer relationship to reality is hyperbolic discounting, where the discount rate βhS
+is not constant over time but instead depends on how far away a given time period
+is from the current time period.
+
+
+
+Conclusions
+
+In summary, this paper presents the first prototype of a model of wellbeing. This
+model is designed to support policy development and decisions in New Zealand by
+providing a tool for thinking about changes in aspects of wellbeing including tradeoffs and synergies for policies. It does this by modelling the linkages between the
+eleven aspects of wellbeing used by the OECD in their How’s Life? framework, in
+combination with a small general equilibrium model and stock-and-flow equations.
+A model of this nature is a new addition to the policy modelling toolkit.
+It is clear that this model, perhaps more than most, has many flaws and unrealistic
+assumptions. However, it is the first attempt at such a model, and its existence
+has several uses. Firstly, it shows that such a model is possible, and with a level of
+complexity that, if not low, is low enough to be manageable and no higher than
+many CGE (computable general equilibrium) models used for policy purposes.
+Secondly, it provides a basis for criticism and improvement. It is far easier to
+criticise that which exists, than build a model from scratch; and from constructive
+criticism the model can evolve into one that is much better than the current model or
+another built from scratch. Third, despite its flaws, it is useful for policy analysis as
+it provides a tool for thinking about the trade-offs and synergies between different
+aspects of wellbeing and policy that currently does not exist.
+Given the prototype nature of the model described in this paper, there is clearly
+room for significant further work. The model and the results it gives should undergo
+serious critical analysis to understand how the model behaves, what assumptions
+are critical, and where the model gives unrealistic and unhelpful results. These
+results will help inform where (and how) improvements to the model can be made
+and where they will be most important.
+Some improvements and extensions to the model can easily be identified now. To
+bring the model into alignment with the current version of the Living Standards
+Framework a culture aspect of wellbeing will need to be added. Both employment and household consumption are exogenous in this version of the model, but
+in reality are driven largely by factors inside the model, such as income levels.
+Housing is treated as a consumption good, but house prices (particularly pertinent
+for Auckland) and the housing aspect of wellbeing in general will be better represented if it is treated as a durable good. Including demographics in the model will
+WP18/05 Living Standards Analysis Model: The First Prototype enlarge the range of policies it can be used for and allow a better understanding of
+sustainability in all its forms. Other improvements and extensions will be identified
+through disseminating this work widely and further study of the literature in the
+fields represented by each aspect of wellbeing and supporting parts of the model.
+Data will be a challenge for this model, as it requires a large number of parameters
+and initial values. Many of these (especially the standard economic values) are
+available from Stats NZ and other appropriate sources; or can be calibrated from
+such data. Others may need to be proxied from international data, and some will
+be unavailable from reliable sources. All will need to be tested with sensitivity
+analyses, and for those that are completely unavailable this will be crucial. Note
+that as results will often be given qualitatively and relative to a baseline, the results
+might not be as sensitive to the parameters as might be expected at first. However,
+these data challenges need to be explored further before we can have confidence
+that we can use a computable version of the model.
+As with all models, this model can be used and it can be abused. Models (and
+especially this one) are used well when they are used as a tool for thinking and
+for testing assumptions. They are abused when the results of a single model are
+used with spurious precision to produce the “right” answer without regard to the
+assumptions in the model. More specifically, if this model is used to create a chain
+of logic to explore the aspects of wellbeing that will be affected by a policy, it will be
+used appropriately. If it is used to make a precise numerical prediction of the effect
+on wellbeing of a given policy, it will be being abused. However, calculating values
+to represent the complex interactions between the different aspects of wellbeing
+makes it easier to determine the qualitative results of the model, and so are an
+important part of the process.
+There is also much to learn about policy by applying the model. Without a model
+of this type, the second and third and higher order effects (particularly those in
+different policy areas to the original) are very difficult to anticipate or attribute to
+their original cause. This model allows all those effects to be recognised, as well as
+obtain some understanding of how significant they are. For example, if an increase
+in health spending by the government is modelled, the model results indicate
+a small negative effect on the natural environment could occur. This is not an
+intuitively obvious result, but tracing through the model logic and results shows it is
+not a spurious result: more health spending results in better health, better health
+results in higher productivity, higher productivity results in more consumption and
+production, more production results (all else equal) in more pollution and therefore
+a poorer natural environment. This is a chain of impacts that is too long for most
+people to perform mentally without the aid of a model, but the consequences could be important. Any of the parameters and exogenous variables in the model
+can be shocked by a policy change. Shocks can also be added to many other
+variables, especially the investment variables (for example, the destruction of
+government-owned physical capital by the 2016 Kaikoura earthquake).
+The model can be used for both single policies and for policy packages. In the
+case of policy packages, it can be used to see how the effects of different policies
+balance each other out. It can also be used to help determine which policies
+should be included in a package. It helps this in two ways. Firstly, it provides a
+consistent framework for policies from different fields, e.g. education and health, to
+be compared with each other and in a broader way than tools such as cost-benefit
+analysis allow. Secondly, policies can be chosen on their ability to mitigate some of
+the undesirable trade-offs (such as the negative environmental effects of a health
+policy) inherent in the choice of policies that are the cornerstones of a package.
+As mentioned at the beginning of this paper, Sen said “It is possible to be at once
+deeply appreciative and seriously critical of a theory” (2009, p.58). This paper
+describes a model that, as a prototype, has many flaws but provides a framework
+for improvement. The author expects, and invites, serious criticism of this model;
+but also hopes that the step forward it represents can be appreciated and is useful.

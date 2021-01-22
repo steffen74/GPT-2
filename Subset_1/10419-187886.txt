@@ -1,0 +1,398 @@
+1. Introduction
+The enormous greenhouse gases (GHG) emission, especially
+carbon dioxide (CO2 ), produced by human activities and their influence on climate conditions became a major ecological and political challenge. Concentration of GHG in atmosphere increased
+quickly over the past decades. For example, CO2 concentration had
+risen to 380 ppm in 2006 compared to 280 ppm in 1700 (IPCC,
+2007). If the increasing trend of GHG emission continues, there
+is the possibility of huge climate changes in the future (Timmermann et al., 1999). Although, details of predictions are a subject
+for argue, due to uncertainty in climate projections, most scientific societies agree that increasing of temperature has considerable negative impacts on human developments and natural and
+agricultural ecosystems (Fischlin and Midgeley, 2007). Nevertheless, it is believed that these occurrences can be avoided with significant decreases in GHG emission (Meinshausen et al., 2009). It is
+therefore important to realize GHG emissions from various actions and resources in production systems to recognize potential areas
+for emissions reductions.
+Climate change and air pollution are major environmental concerns related to use of fossil fuel energy. Furthermore, considering
+that fossil fuel energy is a limited resource, it has to be conserved
+for future generations by efficient use in energy. Agricultural production systems and energy consumption have very closed relation. Agriculture is an energy user and energy supplier (Alam
+et al., 2005). Energy use in agricultural production systems has elevated in response to increasing human population, limited supply
+of arable land and desire in improving standards of living (Banaeian
+et al., 2011). Agriculture practices are a considerable contributor to
+rising GHG level (Jones et al., 2012). The role of these practices is
+about 20% of total anthropogenic GHG emission (IPCC, 2001). However, a pretty low percentage of agricultural emissions (13%) are
+as CO2 while it contributed to about 60% of global anthropogenic
+nitrous oxide (N2 O) emissions and 50% of global anthropogenic
+methane (CH4 ) emissions (Smith et al., 2007). Production, formulation, storage, distribution of agricultural inputs and application
+with tractorized equipment lead to consumption different source
+of energy such as diesel fuel, which emits GHG into atmosphere.
+Therefore, a reasonable first step for GHG emission reductions in agroecosystems is quantify amount of emissions from specific
+sources in production processes and identify the most economically sensible options for reduction of GHG emission (Jones et al.,
+2012). To achieve these purposes, creation of available information related to energy use in operations farm, and their exchange
+to GHG equivalents and finally expressing energy use in terms of
+GHG emission as kg carbon equivalent is very essential (Lal, 2004).
+In Iran, the energy consumption in agricultural sector has been
+recently questioned due to raise energy demand, costs and more
+mechanized in various agricultural operations (Mohammadi et al.,
+2014). Although, many studies have been conducted on the energy
+consumption in different crops including wheat (Ghorbani et al.,
+2011), sugar beet (Asgharipour et al., 2012), cotton and grain
+corn (Zahedi et al., 2014, 2015), tomato (Rezvani-Moghaddam
+et al., 2011), been, lintel, and chickpea (Koocheki et al., 2011) but,
+few numbers of them have focused on GHG emission (e.g. sugar
+beet Yousefi et al., 2014 and wheat Khoshnevisan et al., 2013b).
+Whereas, the agricultural sector of Iran was done in various
+climatic regions and soil environments, hence, it is very essential to
+quantify energy consumption and GHG emission for each climatic
+region.
+One of the most crop in Iran is wheat which produced approximately 12.4 million tons from a total area of 6.4 million ha (about
+3.9 million ha of dryland wheat agroecosystem and 2.5 million
+ha of irrigated wheat agroecosystem) in 2013 (MAJ, 2013). The
+wheat production system is a major income source and an important source of employment for many rural families. Therefore, the
+objectives of present study were (i) to assess the total energy consumed and the share of each energy sources, (ii) to evaluate energy
+use efficiency and energy productivity, and finally (iii) to quantify
+GHG emission according to energy inputs for irrigated and dryland
+wheat agroecosystems in different climatic regions.
+2. Materials and methods
+2.1. Study location
+The present study was conducted in Kermanshah province,
+in the west of Iran, is located between the latitudes 33°42′ N
+and 35°17′ N and the longitudes 45°25′ E and 48°60′ E. The average annual temperature and precipitation were 16.5 °C and
+
+403 mm, respectively. In 2013, the wheat cultivating area in Kermanshah province was almost 547 000 ha, including about 340 000
+and 207 000 ha dryland and irrigated farms, respectively. In this
+province, wheat production occurs with a range of different growing conditions. Therefore, based on information collected from
+central meteorological station, different locations of Kermanshah
+province were classified in five climatic regions based on De Martonne method (Fig. 1).
+The details of the cultivated area for irrigated and dryland
+wheat agroecosystems in each climatic region were collected
+from Ministry of Jihad-E-Agriculture of Iran (MAJ, 2013). After
+data collection, all agricultural activities such as land preparation,
+seeding rate, irrigation water, chemical fertilizers, pesticides and
+human labour needed in irrigated and dryland wheat farms were
+separately determined.
+2.2. Energy input and output
+To quantify the relationship between irrigated and dryland
+wheat yields and there energy consumptions and GHG emission,
+data were collected from growers in each climatic region using
+a face-to-face questionnaire during 2013. The sample size was
+calculated according to Neyman method (Eq. (1)) (Yamane, 1967):
+n=
+
+N × S2
+2
+(N − 1)SX + S 2
+
+(1)
+
+where n is the required sample size, N is the population volume,
+2
+S is the standard deviation, SX Sh is the standard deviation of the
+sample mean (SX = d/z), d is the permissible error in the sample
+size, was defined to be 10% of the mean for a 95% confidence
+interval, and z is the reliability coefficient (1.96, which represents
+a 95% reliability). Based on above calculations, the sample size was
+386 (186 and 200 for irrigated and dryland wheat agroecosystems,
+respectively).
+The data obtained from the questionnaires averaged and generalized to 1 ha. In order to estimate the energy inputs consumed
+in wheat farms, human labour, machinery, diesel fuel, seeds,
+farmyard manure (FYM), chemical fertilizers (nitrogen, phosphate,
+potassium and micro fertilizers), pesticides and herbicides (kg or
+liter) amounts were multiplied by their energy equivalents (Table 1).
+
+The energy outputs in wheat agroecosystems were grain and
+straw yields. The grain yield usually was collected by harvesting
+machines. The straw yield commonly was collected by packing machines and residues were returned to soil. In order to estimate the
+energy outputs, the grain and straw yields were multiplied by energy equivalent (Table 1). In this study amount of input and output
+energies were reported in terms of (MJ) that its value is equal to 106
+joules. Then energy indicators such as energy use efficiency, energy
+productivity, specific energy and net energy were computed by the
+following equations (Ghorbani et al., 2011; Demircan et al., 2006):
+Energy-use efficiency =
+
+Energy productivity =
+
+Specific Energy =
+
+Energy output (MJ ha−1 )
+Energy input (MJ ha−1 )
+
+crops output (Kg ha−1 )
+Energy input (MJ ha−1 )
+
+Energy input (MJ ha−1 )
+crops output (t ha−1 )
+
+(2)
+
+3. Results and discussion
+3.1. Energy input in irrigated and dryland wheat agroecosystems
+
+(3)
+
+(4)
+
+Net Energy = Energy Output (MJ ha−1 )
+
+− Energy Input (MJ ha−1 ).
+
+using a common unit (Jones et al., 2012). The CO2 emission
+coefficients were used to estimate amounts of GHG emission from
+inputs in irrigated and dryland wheat agroecosystems for each
+climatic region (Table 3). The application of machinery (MJ), diesel
+fuel (Liter), FYM (kg), chemical fertilizers (kg), biocides (kg) and
+electricity (kWh) amounts were multiplied by their corresponding
+emission coefficients. In addition, GHG emission per unit area (kg
+CO2 equivalent per hectare), per unit weight (kg CO2 equivalent
+per ton of wheat), per unit input and output energies (kg CO2
+equivalent per MJ) were separately calculated.
+
+(5)
+
+Classification of consumed energy in agroecosystems can be
+performed into two ways; 1: direct and indirect energies, and 2:
+renewable and non-renewable energies. Each component of these
+energy forms is given in Table 2 (Mohammadi et al., 2014). Surely,
+the share of renewable energy in farming systems increases, the
+system will enjoy the greater sustainability, on the other, raising
+the share of energy supply from the internal system and declining
+the relying on external energy will be high in the efficiency of
+system (Kizilaslan, 2009).
+2.3. Greenhouse gases emission
+Emissions were expressed as CO2 equivalents (CO2-eq ), which
+considers the global warming potential of various emission forms
+
+The results indicated that average of total energy consumed
+in various production processes in irrigated and dryland wheat
+agroecosystems, regardless of climatic regions, were 53 082.9 and
+15 603.3 MJ ha−1 , respectively. Among all the production practices
+in irrigated wheat, diesel fuels consumed was the most energy
+consuming input (51.2%), followed by chemical fertilizers (14.9%),
+electricity (10%), seed (9%), and water for irrigation (7.3%) (Table 4
+and Fig. 2). In dryland wheat agroecosystem, diesel fuel (48.9%)
+consumed the most energy of total energy input, followed by
+seed (23.8%), chemical fertilizer (17.6%) and machinery (7.1%)
+(Table 5 and Fig. 2). It seems that higher energy consumption in
+irrigated wheat agroecosystem than dryland wheat agroecosystem
+was due to more use of diesel fuels and electricity for water
+pumping process and more machinery utilization for land
+preparation. Moreover, more seeds and nutrients consumption
+due to higher plant density were other reasons. The results
+also showed that irrigated wheat agroecosystem require more
+human labour than dryland wheat agroecosystem (Tables 4 and
+5). This is probably because of more operations during irrigated
+wheat agroecosystem compare to dryland wheat agroecosystem.
+Ghorbani et al. (2011) reported that total energy input for irrigated
+Fig. 2. The share of important energy inputs from total energy input for irrigated and dryland wheat agroecosystems.
+
+and dryland production systems in Northern Khorasan province of
+Iran were 45 367 and 9354 MJ ha−1 , respectively. They indicated
+that in irrigated wheat farms diesel fuel, chemical fertilizers and
+electricity inputs were 10 950.2, 16 843.1 and 4320.0 MJ ha−1 ,
+respectively. Similar results were reported on another studies such
+as sugar beet (Asgharipour et al., 2012) and irrigated and dryland
+chickpea production systems (Koocheki et al., 2011).
+
+The results also revealed that the highest and the lowest energy input in irrigated wheat agroecosystem were 60 549.9 and
+48 449.9 MJ ha−1 for arid–warm and wet–moderate climatic regions, respectively (Table 4). From Table 4 it is evident that
+the most energy-consuming input in the arid–warm climatic region compare to other climatic regions was water for irrigation (33 316.1 MJ ha−1 ) and diesel fuel (4632.1 MJ ha−1 ). High
+
+temperature and low precipitation in the arid–warm region cased
+to farmers use greater water for irrigation operation, followed by
+higher diesel fuel consumption for water pumping process.
+In dryland agroecosystem, the highest and the lowest energy
+input were 16 280.0 and 15 214.2 MJ ha−1 for wet–cold and semiarid–cold climatic regions, respectively (Table 5). There is a direct
+relation between precipitation and chemical fertilizer utilization in
+the dryland agroecosystem. It could be the main reason for higher
+chemical fertilizers consumption and finally diesel fuel usage for
+fertilizers distribution by machine in the wet–cold climatic region
+compare to other climatic regions (Table 5).
+3.2. Energy output in irrigated and dryland wheat agroecosystems
+Regardless of climatic regions, average of grain and straw yields
+were 4957.1 and 6707.4 kg ha−1 in irrigated wheat agroecosystem while in dryland wheat agroecosystem were 1538.2 and
+3001.3 kg ha−1 , respectively. The average of total energy output
+in irrigated and dryland wheat agroecosystems were calculated
+as 156 707.0 and 60 127.7 MJ ha−1 , respectively (Tables 4 and 5).
+Because of more energy consumption in irrigated wheat agroecosystem, total energy output was about 61.6% higher than dryland
+wheat agroecosystem. In all climatic regions, the share of straw energy output was more than the share of grain energy output.
+The results also revealed that the highest and the lowest energy
+output in irrigated wheat agroecosystem were 174 289.2 MJ ha−1
+(48.7% of grain energy and 51.3% of straw energy) and
+114 940.0 MJ ha−1 (40.9% of grain energy and 59.1% of straw energy) in semiarid–cold and arid–warm climatic regions, respectively (Table 4). In dryland wheat agroecosystem the highest and
+the lowest energy output were 70 805.9 MJ ha−1 (36.7% of grain
+energy and 63.2% of energy straw) and 36 954.9 MJ ha−1 (37.2% of
+grain energy and 62.8% of straw energy) for semiarid–warm and
+arid–warm climatic regions, respectively (Table 5).
+3.3. Energy indices in irrigated and dryland wheat agroecosystems
+Regardless of climatic regions, average of energy use efficiency
+of 3.00 and 3.85 observed in this research showed that 3.00
+and 3.85 times energy were produced per each unit of energy
+
+used in irrigated and dryland wheat agroecosystems, respectively
+(Table 6). In energy balances, the energy ratio is frequently used
+as an index to evaluate energy efficiency in crop production
+systems (Kuesters and Lammel, 1999). The average of energy use
+efficiency in dryland wheat agroecosystem was nearly 22.1% more
+than irrigated wheat agroecosystem that showed dryland wheat
+agroecosystem had produced higher output. On the other hands,
+lower energy use efficiency in irrigated wheat agroecosystem may
+be due to higher energy consumption. In other researches, energy
+ratio was studied on different crops (e.g. 3.4 for dryland wheat
+production system and 1.4 for irrigated wheat production system
+Ghorbani et al., 2011), 1.2 for irrigated chickpea production system
+and 2.9 for dryland chickpea production system (Koocheki et al.,
+2011) and 13.4 for sugar beet (Asgharipour et al., 2012). The
+results also indicted that in irrigated wheat agroecosystem, the
+highest and the lowest energy use efficiency were 3.48 and 1.89 for
+wet–cold and arid–warm climatic regions, respectively (Table 6).
+In wet–cold climatic region compare to arid–warm climatic
+region, total energy output was higher, and total energy input
+was lower. Therefore, it could conclude that choose appropriate
+environments for wheat production is very useful in sustainable
+energy consumption.
+The results of this study showed that average energy productivity in irrigated and dryland wheat agroecosystems were 0.098 and
+0.092, respectively (Table 6). This means that 0.098 and 0.092 outputs were obtained per unit energy in irrigated and dryland wheat
+agroecosystems, respectively (Table 6). Energy productivity in irrigated wheat agroecosystem under different climatic regions was
+diverse. So that, the highest and the lowest energy productivity
+were observed 0.11 and 0.05 in wet–cold and in arid–warm climatic regions, respectively. In dryland wheat agroecosystem the
+highest energy productivity (0.12) belonged to semiarid–cold climate region and the lowest (0.06) belonged to arid–warm climate region (Table 6). Energy productivity is a very important indicator to evaluate crop production systems in terms of energy
+consumption and energy output. High energy productivity indicates more sustainable and lower energy consumption and consequently higher security in agricultural production systems. Several
+authors also obtained energy productivity for agricultural crops
+production (e.g. Rezvani-Moghaddam et al., 2011; Koocheki et al.,
+2011; Ghorbani et al., 2011).
+
+Fig. 3. The share of direct and indirect energy inputs and renewable and non-renewable energy inputs from total energy input in irrigated and dryland wheat agroecosystems.
+
+Total energy input as direct, indirect, renewable, and nonrenewable forms is also revealed in Table 6. In all climatic regions, the share of direct energy in irrigated wheat agroecosystem was higher than dryland wheat agroecosystem (Table 6 and
+Fig. 3). The share of direct energy in irrigated wheat agroecosystem was about 68.7% (36 478.9 MJ ha−1 ) while it was about 48.5%
+(7470.5 MJ ha−1 ) in dryland wheat agroecosystem (Fig. 3). These
+findings may be due to do not use some energy resources such as
+FYM, water of irrigation and electricity in dryland wheat agroecosystem. Therefore, it seems that dryland wheat agroecosystem
+compare to irrigated wheat farms were more sustainable agricultural production systems.
+Our finding also indicated that the share of renewable energy was higher in dryland wheat agroecosystem than irrigated
+wheat agroecosystem (Table 6). Average of renewable and nonrenewable energies in irrigated wheat agroecosystem were 9343.5
+and 43 746.5 MJ ha−1 , respectively, while they were 3745.0 and
+11 859.5 MJ ha−1 in dryland wheat agroecosystem, respectively.
+The share of renewable energy in dryland and irrigated wheat
+agroecosystems were 24.0% and 17.6% of total energy input (Fig. 3).
+The excessive consumption of diesel fuel and electricity were the
+main reason for higher level of non-renewable and direct energies than renewable and indirect energies in irrigated wheat agroecosystem. Mohammadi et al. (2014) reported that total input energy in wheat farms of Golestan province was 26.2 GJ ha−1 , of
+which the share of direct and indirect energies were 58.8% and
+41.2%, respectively, and the share of non-renewable and renewable energies were 82.1% and 17.9%, respectively.
+
+3.4. Greenhouse gases emission in irrigated and dryland wheat
+agroecosystems
+The results of GHG emission of surveyed irrigated and dryland
+wheat agroecosystems in all climatic regions are presented in
+Tables 7 and 8. The average of CO2 emission for irrigated wheat
+agroecosystem was 3184.4 kg CO2-eq ha−1 and 680.4 kg CO2-eq t−1
+whereas it was 553.1 kg CO2-eq ha−1 and 381.3 kg CO2-eq t−1
+for dryland wheat agroecosystem. It seems that higher energy
+consumption in irrigated wheat farms compare to dryland wheat
+agroecosystem was the main reason of more CO2 emission. Among
+all energy resources in irrigated wheat agroecosystem, diesel
+fuels had the highest emission (46.9%), followed by electricity
+(36.2%), FYM (7.5%), machinery (4.6%), chemical fertilizers (4.0%)
+and biocides (0.8%) (Fig. 4). In dryland wheat agroecosystem, the
+highest share of GHG emission belonged to diesel fuels (75.8%),
+followed by machinery (14.2%), chemical fertilizers (8.5%) and
+biocides (1.5%) (Fig. 5).
+It can conclude that diesel fuel was the most important factor in increasing GHG emission in irrigated wheat agroecosystem. Among various operations in irrigated wheat agroecosystem, tillage operations are the largest contribute to using of diesel
+fuel. Therefore, suitable methods such as removal or reduction of
+summer fallow (a method of weed management), modify conventional tillage system to minimum or no-tillage systems, tillage operations when soil moisture content is in an appropriate state,
+and finally chisel plow instead of conventional plow should be
+taken to decrease diesel fuel consumption in wheat agroecosystems (Dayer and Desjandins, 2003). The important of fossil energy
+
+Fig. 4. The share of GHG emitted from total GHG emission due to diverse energy inputs consumed in irrigated wheat agroecosystem.
+
+use has been reported as the main contributors to GHG emission
+by other researchers. Mohammadi et al. (2014) reported that diesel
+fuel and nitrogen fertilizer consumption were the largest contributor to GHG emission, followed by electricity, chemical fertilizers
+and pesticides in the Golestan province. They showed that the total GHG produced was calculated 1171.1 kg CO2-eq ha−1 . Khoshnevisan et al. (2013a) concluded that electricity was the largest
+share (74%) in GHG emission, followed by nitrogen (11.7%), diesel
+fuels (7.5%), machinery (4.5%), phosphate (1.1%), potassium (0.9%)
+and pesticides (0.3%). Pathak and Wassmann (2007) reported that
+GHG emission produced by wheat agroecosystem in India was between 1038 and 1624 kg CO2-eq ha−1 . Yousefi et al. (2014) revealed
+that electricity with 73% had the highest GHG share of emissions in
+sugar beet production system, followed by nitrogen fertilizer (15%)
+and diesel fuels (7%). Zafiriou et al. (2012) also demonstrated that
+among agricultural production systems, low input systems such
+
+as organic farming reduced energy inputs and GHG emission in
+Greece.
+The results also revealed that the most GHG emission
+in irrigated wheat agroecosystem were 3561.8, 3458.0 and
+3076.2 kg CO2-eq ha−1 which were observed for arid–warm,
+semiarid–cold and semiarid–warm climatic regions, respectively
+(Tables 7 and 8 and Fig. 4). The lowest GHG emission in irrigated wheat agroecosystem was 2832.6 kg CO2-eq ha−1 for
+wet–moderate climatic region that was consumed the lowest
+energy inputs (48 450 MJ ha−1 ). In dryland wheat agroecosystem, the highest GHG emission was 584.2 kg CO2-eq ha−1 for
+wet–cold climatic region which was consumed the most energy
+inputs (16 280.0 MJ ha−1 ) and the lowest GHG emission was
+523.1 kg CO2-eq ha−1 for semiarid–cold climatic region that was
+consumed the lowest energy inputs (15 214.2 MJ ha−1 ) (Tables 7
+and 8 and Fig. 5). Khakbazan et al., 2009 reported that GHG
+
+Fig. 5. The share of GHG emitted from total GHG emission due to diverse energy inputs consumed in dryland wheat agroecosystem.
+
+emission in wheat production system was 410–1130 kg CO2-eq ha−1
+in Canada. Soltani et al. (2013) also reported that GHG emission in
+wheat farms was 1137 kg CO2-eq ha−1 and 291.3 kg CO2-eq t−1 in
+north of Iran. These results were different with our results. It seems
+that appropriate environmental conditions especially more precipitation and lower temperature in north of Iran and Canada compare
+to Kermanshah province was the main reason of higher GHG emission in wheat agroecosystems.
+4. Conclusion
+This study attempted to analyze relationship between greenhouse gases emission and energy consumption of inputs in irrigation and dryland wheat agroecosystems in different climatic
+regions of Kermanshah province, northwest Iran. Data were collected from 386 farms (186 and 200 for irrigated and dryland
+wheat agroecosystems, respectively) selected using the random
+sampling method. Our results showed that, regardless of climatic
+regions, irrigated and dryland wheat agroecosystems consume a
+total energy of 53 082.9 and 15 603.3 MJ ha−1 , respectively, which
+were mainly because of diesel fuel (51.2% and 48.9% of total energy inputs in irrigated and dryland wheat agroecosystems, respectively). The highest and the lowest energy input in irrigated wheat
+agroecosystem were 60 549.9 and 48 449.9 MJ ha−1 for arid–warm
+and wet–moderate climatic regions, respectively, while in dryland wheat agroecosystem, the highest and the lowest energy input were 16 280.0 and 15 214.2 MJ ha−1 for wet–cold and semiarid–cold climatic regions, respectively. In all climatic regions,
+the share of direct energy and non-renewable energy in irrigated
+wheat agroecosystem was higher than dryland wheat agroecosystem, which were due to did not use FYM, water of irrigation and
+electricity in dryland wheat agroecosystem. Therefore, it could
+conclude that dryland wheat agroecosystem was more sustainable
+agricultural production systems. It seems that decrease in the use
+of fertilizers (particularly nitrogen), chemicals, and diesel fuel are
+essential for improved energy management. Saving diesel fuel by
+improving tillage operations might be possible (Asgharipour et al.,
+2012).
+The average of CO2 emission for irrigated wheat agroecosystem
+was 3184.4 kg CO2-eq ha−1 and 680.4 kg CO2-eq t−1 while it
+was 553.1 kg CO2-eq ha−1 and 381.3 kg CO2-eq t−1 for dryland
+wheat agroecosystem. The major reason of more CO2 emission in
+
+irrigated wheat agroecosystem was higher energy use. Among all
+energy resources in irrigated wheat agroecosystem, diesel fuels
+had the highest emission (46.9%), followed by electricity, FYM,
+machinery, chemical fertilizers. In dryland wheat agroecosystem,
+the highest share of GHG emission belonged to diesel fuels
+(75.8%), followed by machinery, chemical fertilizers. The highest
+GHG emission in the irrigated wheat agroecosystem were 3561.8,
+3458.0 and 3076.2 kg CO2-eq ha−1 for arid–warm, semiarid–cold
+and semiarid–warm climatic regions, respectively, while the
+lowest GHG emission in irrigated wheat agroecosystem was
+2832.6 kg CO2-eq ha−1 for wet–moderate climatic region. In the
+dryland wheat agroecosystem, the highest GHG emission was
+584.2 kg CO2-eq ha−1 for wet–cold climatic region and the lowest
+GHG emission was 523.1 kg CO2-eq ha−1 for semiarid–cold climatic
+region.
+According to these findings, dryland wheat agroecosystem
+compare to irrigated wheat agroecosystem was consumed lower
+energy inputs and thereby emitted very lower GHG. Moreover,
+wheat cultivation in suitable climatic regions leaded to reduce
+energy consumption and GHG emission thereby decrease global
+warming potential and atmospheric pollutions. Thus, it can conclude wheat production in dryland agroecosystem compare to irrigated agroecosystem is a cleaner agricultural production system in
+terms of energy consumption and GHG emission. Despite of higher
+grain and straw yields in irrigated wheat agroecosystem than dryland wheat agroecosystem, but GHG emission also was greater.
+Nonetheless, it can recommend suitable strategies such as solar
+energy for water pumping, biopesticides for pest management,
+biofertilizers for soil fertility, which are very effective in reduce energy consumption. Subsequently, these strategies can reduce GHG
+emission in irrigated wheat farms especially in climatic regions
+that are located in warm and arid environments. Moreover, in order to reduce GHG emission in irrigated wheat agroecosystems, it is
+suggested that utilize the sustainable agricultural approaches such
+as decrease water for irrigation through modify planting date in
+agreement with rainfall occurrence, improvement of soil fertility
+by select suitable crop rotations, decrease of diesel fuels consumption and machinery usage via utilize conservation tillage systems.
+Acknowledgments
+The authors would like to acknowledge from Ministry of JihadE-Agriculture of Iran (MAJ) and, also, 360 of farmers in Kermanshah
+province whose information has made this research possible.

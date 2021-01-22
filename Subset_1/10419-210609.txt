@@ -1,0 +1,592 @@
+A new technological revolution is unfolding in the world. Numerous and impressive scientific and
+technological advances and the massive marketing of radically new, innovative products provide
+ample evidence of that. These changes cannot help but affect the energy sector, because only new
+energy technologies and carriers will allow one to meet the growing demand. Developing them requires
+significant resources, so anticipating forthcoming changes in the economic and social fields, along with
+the future requirements for the energy industry becomes a particularly relevant task.
+Forecasting has always been based upon analyzing previous experience, in this case – previous
+technological revolutions and their impact upon the energy industry. Numerous attempts were made to
+scientifically explain technological revolutions and conceptualize technological development. Some of the
+proposed concepts include the wave principle, technological structures, innovation waves, technological
+ages, technological cycles, and so on [van Gelderen, 1913; Šmihula, 2011; Zvorykin et al., 1962; Kondratiev,
+1989; Glaziev, 1993]. Researchers tried to explain the high rate of scientific and technological progress
+(STP) [Šmihula, 2011; Kurzweil, 2005; Vinge, 1993] by increased access to education and scientific
+information as well as economic demand for innovations [Koh, Leung, 2003]. The results of the above
+studies help create visions of the possible future economy and society.
+At the same time the currently observed S&T transformations are so rapid and profound, analyzing
+their consequences for the global and Russian energy industries requires additional effort. A deeper
+understanding of these processes would help reduce uncertainty associated with the industry’s
+technological development and successfully deal with the so-called “black swan” challenges, unexpected
+events leading to significant consequences [Taleb, 2007]. Events of this kind cannot be ruled out even in
+such a highly inertial industry as energy. Regular monitoring, careful analysis of S&T advances including
+thoses in related areas, and the development of technological foresight techniques specifically for the
+energy industry [Filippov, Dilman, 2018] would help identify black swans. System analysis methods also
+remain relevant and are successfully applied to accomplish various research objectives [Kaganovich et
+al., 1989], along with physical, technical, and at a later stage, feasibility analyses. The development of
+these approaches may benefit from the application of procedures for the timely detection of emerging
+technologies through ongoing scanning of the R&D sector using advanced analytical techniques such as
+big data analysis.
+The technological revolution in question is particularly important for the Russian energy industry,
+as a major exporter of energy resources (about a half of the total domestic output). Accordingly, we
+are primarily interested in how the new technological revolution affects global energy demand and
+international fuel markets, though it does not make estimating possible changes in domestic demand
+irrelevant either.
+Power generation plays key role in the technological development of the energy industry as the world’s
+biggest fossil fuel consumer. In Russia, its share amounts to about 40% of natural gas and 50% of coal.
+Fuel industries also have to take into account development in the electric power industry. The transport
+sector is the main consumer of oil-based motor fuels, but in the foreseeable future it could experience
+a fundamental transformation. Therefore, the roles of electricity and motor fuels in the future economy
+deserve special attention.
+
+Technological Revolutions: Previous Experience
+
+Over the course of the previous three centuries, the world has experienced several technological
+revolutions that have affected various areas of human activities and led to various other, industry-specific
+revolutions: in industrial production, energy, transport, agriculture, and others. The massive application
+of revolutionary innovations resulted in the rapid development of relevant industries, explosive growth
+of productivity, and energy intensity. In most cases technological revolutions led to the emergence
+of new technological structures in relevant industries, which were usually defined as sets of closely
+interconnected, in physical and functional terms, technologies and relevant control systems.
+Technological and industrial revolutions are frequently seen as one and the same, despite the fact that
+quite different interpretations exist, based on chronology, technological content, and actual results
+[Toffler, 1970; Toffler, Toffler, 2006; Bell, 1973]. And, of course, all industrial revolutions were radically
+different in terms of their energy component.
+The first industrial revolution (the first half of the 17th to early 19th centuries) amounted to moving from
+manual labor to machine production. It was based on the wide application of steam and steam engines
+in industry; the substitution of charcoal with coal coke in metallurgy; and the conversion of rail and
+marine transport to steam engines. It allowed for mechanizing basic technological processes, sharply
+increasing labor productivity, cutting production and transportation costs, and stepping up product
+exchanges. Underground mining and marketing of high-calorific coal eliminated limitations on where
+major production facilities could be located. Coal became the basic fuel.
+The second industrial revolution (the second half of the 19th to early 20th centuries) involved the emergence
+of conveyor belt production, leading to the mass manufacture of affordable products. This created
+strong demand for “high-density” energy carriers (electricity and oil-based fuels) and new powerful
+2018
+
+Strategies
+engine types (electric motors and internal combustion engines (ICE)), and promoted the development
+of high-tonnage organic chemistry, first of all coal-based. Electric motors allowed for achieving high
+labor productivity even at small-capacity facilities. ICEs promoted the further development of rail
+and water transport and the emergence of new transport modes including road-based and aviation.
+As a consequence, the geography of raw material supplies and product sales greatly expanded, while
+population mobility increased. Advances in chemistry allowed one to significantly extend the range
+of available materials for industrial production and everyday use, and led to the “green revolution” in
+agriculture due to application of mineral fertilisers and weed and pest killers. Thus, basic industries of the
+present-day economy emerged – industrial production, transport, and agriculture.
+The third industrial revolution (the mid-20th to early 21st centuries) is associated with flourishing mass
+production, the mass application of electronics, the automation of technological processes, computer
+equipment, information and communication technologies (ICT), the emergence of the internet, and
+the beginning of the digital revolution [Toffler, Toffler, 2006]. ICT permeated all spheres of production
+activities and everyday life. Their application allowed one to radically improve production processes,
+cut costs, increase end products’ quality, change work conditions and organization. Large corporations
+gained competitive advantages, international division of labor became more efficient, leading to the
+globalization of production and the emergence of global product and service markets, including those for
+energy resources, power engineering equipment, oil services, and so on [Toffler, Toffler, 2006; Bell, 1973].
+Colossal changes happened in the social sphere. Urbanization, mobility, and motorization have all
+accelerated. The concentration of industrial production fuelled the growth of cities, leading to the
+emergence of megacities. Standards and quality of life greatly improved and lifestyles have radically
+changed. The service sector grew by an unprecedented amount, with medicine, education, and
+entertainment becoming the key industries of the modern economy. The most important attribute of the
+consumer society [Baudrillard, 1998] that emerged due to the above factors was the unbridled growth in
+demand for energy, primarily in deeply processed forms such as motor fuels and electricity.
+The response to the exponential growth of energy consumption and concentration of industry was the
+construction of powerful generating facilities, the concentration of energy production at large companies
+(mining, processing, and generating ones), the construction of major electrical grids and pipeline
+networks, and the development of a radically new energy source – the fission of heavy unstable uranium
+nuclei, i.e., nuclear energy.
+
+The New Technological Revolution and its Specific Features
+
+The next technological revolution will again be based upon new management and control systems,
+materials, production and transportation technologies, frequently closely interconnected, and thus
+creating significant synergies when applied together. Technological innovations affect all industries of
+the economy, among other things by changing demand for energy and requirements for energy carriers
+and thus ultimately changing the very vector of the energy industry’s development.
+Scientific Advances and their Possible Consequences
+In any technological revolution, the development of new technologies and materials is based upon
+scientific advances, first of all in basic research. When a new technological structure is emerging, the
+trend towards the accelerated creation of new knowledge and its commercialization, is likely to remain in
+place. Mathematics, material science, robotics, and especially life sciences (physics, chemistry, molecular
+and cellular biology, neurobiology, bionics, etc.) will play a major role here. Advances in genomics may
+lead to the creation of synthetic life [Richardson et al., 2017] and the development of neuroinformatics
+will help to speed up the creation of neural networks and neurocomputers [Gorban, 1998]. Hopes
+associated with the further development of ICT and information security systems are based upon the
+creation of quantum computers and the development of quantum cryptography techniques [Ladd, 2010].
+The hypothesis concerning the approaching era of technological singularity is quite popular in the
+literature: a relatively short period of time will see an extremely high rate of scientific and technological
+development [Kurzweil, 2005; Vinge, 1993]. Humans and machines are expected to merge together at
+that time, through the integration of machine technologies and human biological “shell”, thus blending
+people’s mental abilities with the potential of artificial intelligence, leading to the emergence of cybernetic
+organisms (cyborgs) and their communities. Further advances in life sciences may lead to the creation
+of androids – synthetic humanoid live organisms, or humanoid robots. High-quality chemical energy
+carriers that will serve as power sources for them, among other things for energy-intensive components
+such as artificial muscles which will make androids mobile and enable them to do useful work. Glucose
+could be suitable for this purpose – the most universal energy source for metabolic processes of all live
+organisms including humans. Glucose is a high-energy substance (about 15.7 MJ/kg) and is efficiently
+produced from readily available raw materials (hydrolysis of starch or cellulose), or from CO2 using
+photosynthesis, as it occurs naturally. However, it is difficult to fully appreciate the real prospects of
+creating (and the risks associated with the mass introduction of) such innovations today and their impact
+upon the subsequent development of human civilization, economy, society and, in particular, the energy
+industry.
+
+New control systems (commonly referred to as cyber-physical ones) are expected to blend the physical
+and digital worlds into a virtual reality using smart network technologies and sensors [Lee, 2008; Khaitan,
+McCally, 2014]. Embedded systems should play the key role in this process, controlling a large number
+of various objects in real time on the basis of high-performance algorithms, microprocessor equipment,
+micro- and nano-size electric and biomechanical actuators, smart meters, and (bio)sensors embedded
+into the controlled objects [Heath, 2003; Elk, 2016]. This will make management and control smarter, i.e.,
+minimize the need for human involvement due to AI-based analytical, prognostic, and decision-making
+functionality.
+Communications based on next-generation mobile networks with data transfer rates measured in tens
+of gigabits per second will play a major role, making device-to-device (D2D) communication universally
+available. Smart machine-to-machine (M2M) interfaces and automated identification technologies, in
+particular radio frequency identification (RFID), will be widely applied. Extended RFID functionality
+due to integrated sensors will allow one to manufacture smart products. Increased computational power
+and data storage capacity, combined with more efficient algorithms for processing large volumes of
+diverse data and ensuring its security (such as blockchain technology, etc.) will also be among the major
+accomplishments of the digital revolution.
+Embedded systems can monitor the state of various objects (products) in real time, predict their key
+characteristics such as the remaining service life, determine the optimal mode of interaction with the
+environment, and decide whether to continue using the object, develop (upgrade), or decommission it.
+In the latter case, the object will be automatically sent for processing or disposal at the right time, with
+its valuable components (metals, plastics, etc.) recycled in the most efficient way possible to minimize
+the consumption of non-renewable natural resources (including energy), and any other negative
+environmental impact.
+Ensuring the adequate level of cybersecurity may turn out to be a real problem with the mass application
+of new control systems. The conventional objective of data protection in this case is supplemented with
+a new, an order of magnitude more complex one: protecting the very control systems. Unauthorized
+covert penetration (which would not involve significant energy or financial costs) would be fraught with
+colossal damage, all the way down to complete destruction of the facility; an example is the destruction
+of centrifuges at the Iranian uranium enrichment plant.
+The new (fourth) industrial revolution based on embedded systems (it is occasionally referred to as
+Industry 4.0 [Hermann et al., 2015]) is expected to dramatically increase productivity and reduce the
+need for natural resources, including energy. New industry will emerge on the basis of numerous new
+technologies, mainly “nature-like” ones, i.e., environment- and climate-friendly – though this term
+should not be taken literally. A wide range of conditions apply in nature, from “soft” (the evolution of
+living organisms, mineralization, leaching, etc.) to extreme ones (such as mineral formation at ultrahigh
+temperatures and pressure, etc.), along with numerous impacts (mechanical, physical-chemical, electrophysical, etc.).
+Prospective production technologies include the following:
+•	 bioengineering (“live production systems”)
+•	 machine-free shaping and forming techniques based on additive technologies, and surface
+engineering by subjecting substances to a variety of high-energy impacts (radiation in various
+frequency ranges, high-intensity electric and magnetic fields, high-energy ions, etc.), leading to
+radically improved product quality, increased productivity, and resource efficiency;
+•	 smart industrial (bio)robots for the final assembly of components in unmanned production cycles;
+•	 high-performance separation of gaseous and liquid media;
+•	 highly sensitive sensors for comprehensive 4D control of physical fields’ parameters, properties, and
+chemical composition of various media and biological objects (“technical vision”, “electronic nose”,
+etc.);
+•	 micro- and nano-size electromechanical systems and miniature power sources for them,
+“biochemically powered” biomechanical devices (“artificial muscle”), etc.
+“Smart” factories and “lights out” production facilities are expected to emerge on the basis of the above
+technologies, i.e., not requiring human involvement (and therefore not needing lighting either), fully
+automated and robotic, which allows one to manufacture products by individual orders at low costs.
+This will cut down on the unnecessary use of natural resources (which is typical of the present-day mass
+production: much of the output remains unsold and subsequently is just recycled). Smart factories
+and products will allow one to fully control the entire production cycle, from product development to
+disposal. In a more distant future, it would become possible to create “self-replicating machines” (Freitas,
+Merkle, 2004), “growing” the necessary components, and assembling them “on site” using advanced
+biotechnologies.
+Revolutionary changes are also expected in the scope of the agricultural technology platform.
+Robotization of tillage, improved cropland monitoring systems (among other things, using drones and
+
+Strategies
+spacecraft), the development of new sensor types to monitor the state of soil and crops, all these advances
+fit into the precision agriculture concept [Zhang et al., 2002; McBratney et al., 2005; Balabanov et al., 2013;
+Yakushev, 2016]. Robots, adjustable-spectrum lighting systems, and transparent structures with high
+thermal resistance open new opportunities for round-the-year hothouse farming. Precision agriculture
+combined with robotized animal farming make up the smart farming concept. In the longer term, the
+mass application of technologies for producing high-quality natural protein-rich foods (such as milk,
+meat, etc.) from vegetable matter using artificial organisms can be expected, including the functional
+elements of farm animals. Relevant technologies are already being actively developed.
+New production technologies will lead to a significant shift in the energy mix towards electricity and the
+introduction of stricter requirements for quality and reliability of energy supply.
+
+Scientific advances combined with new production technologies will contribute to the emergence
+of a whole range of innovative structural and functional materials with unique properties. Due to
+the widespread adoption of stricter environmental legislation, they would have to comply with new
+requirements such as “nature imitation” (i.e., being environmentally friendly), biocompatibility, and
+biosafety if subjected to prolonged exposure to the elements (i.e. (bio)degrading into safe components
+(waste) in a relatively short period of time). This should create very high demand for biomaterials and
+their precursors (biological raw materials for subsequent industrial processing into manufactured goods,
+food, pharmaceuticals, etc.). “Smart” materials have a high potential (with properties changing under
+external impact, i.e. “chameleon materials”) to adapt to environmental conditions.
+The energy industry has a dire need for various innovative materials. Heat-resistant alloys and thermal
+barrier coatings currently being developed will allow for bringing gas temperature at gas turbine inlets
+to 1,700-1,900 °C, which will increase the efficiency of combined-cycle plants to 66-68%, and steam
+temperature at the steam turbine inlets to 720-750 °C. The result will be an increase in steam turbines’
+efficiency to 53-55%. The application of 3D printing in power engineering requires dispersed narrow
+fractional composition materials, including refractory ones (nanopowders, nanoink, etc.).
+The electric power industry has demand for materials of extremely high conductivity to make new classes
+of conductors, including “warm superconductors”, that is, materials with superconducting properties
+at room temperature. Their use will help reduce the loss of electricity in grids. There is demand for
+semiconductor and optical materials for photoconverters and power electronics, electrocatalysts to
+increase electrochemical generators’ efficiency and battery capacity, and highly porous materials for
+more effective thermal insulation.
+Mining hard-to-recover hydrocarbons requires new materials for the construction of wells (to reduce
+viscosity of fluids and increase porosity of host rocks). “Slippery” plastics and ceramics (materials with high
+hydrophobicity, low coarseness, and strong adhesion to structural materials) will allow for significantly
+reducing the hydraulic resistance of pipelines and therefore energy consumption for pumping oil and
+other liquids through them. In oil and gas chemistry there will be demand for new high-performance
+catalysts for all basic processing operations and for membrane materials with adjustable characteristics
+for the highly selective separation of liquid and gas media.
+Increasing the safety of nuclear technologies and achieving thermonuclear fusion requires new
+radiation-resistant materials. Here there are high expectations of alloys based upon the adjusted isotopic
+composition of the initial components.
+The development of new structural materials raises hopes for achieving radically higher levels of energy
+saving. For example, next-generation composite materials based on synthetic biopolymers, very durable
+and lightweight, promise a revolution in the automotive and aircraft industries, leading to significantly
+reduced energy consumption by vehicles. An example is “biosteel” currently being developed by the
+AmSilk company – a biopolymer, a synthetic analogue of spider silk. The advantage of such materials is
+that they are biodegradable and environmentally friendly, synthesized by genetically modified bacteria in
+a bioreactor with a nutrient medium at a temperature of about 37 °C [Sadowy, 2018].
+The development of most of the new materials involves the active application of electrophysical and
+electrochemical processes, leading to increased demand for electricity. Large-scale production of various
+carbon-based plastics and other carbon-containing materials requires powerful sources of carbon. It can
+be obtained from fossil organic fuels (coal, natural gas, oil), and from biomass of natural or artificial
+origin. Using complex biomass bio-molecules as precursors of industrial biomaterials allows one to save
+energy on synthesizing them from simple components.
+
+New Transportation Technologies
+
+The main trends associated with the new technological revolution in transportation include the following:
+•	 increased transportation volumes and speed, for people and cargo alike;
+•	 wide dissemination of electric and hybrid vehicles, primarily in cities, to reduce anthropogenic
+pressure on the environment;
+
+Filippov S., pp. 20–33
+•	 rapidly increasing number of “light” personal electric vehicles such as electric scooters, etc.
+•	 active use of air space by personal (air cars), light public (air taxis), and low-tonnage cargo (drones)
+transport vehicles;
+•	 increased use of unmanned vehicles.
+These trends become stronger the more new transport technologies and traffic control systems become
+available, including for unmanned vehicles in a 4D environment (in real road and air traffic conditions
+in real time) [OECD, IEA, 2017]. The world’s leading car manufacturers have already started a new
+technology race [Toyota, 2017], focused on developing fully electric (with externally rechargeable
+batteries) and hybrid (with electricity generated in situ using hydrogen fuel cells) cars. Similar power
+supply schemes are suggested for light passenger and cargo aircraft. While the development of new diesel
+engines for passenger cars is being phased out, the use of traditional urban electric transport is expanding
+(underground and ground vehicles alike), which makes the issue of finding the optimal balance between
+public and private transport ever more relevant.
+The emergence of smart products and the further development of online trade combined with robotic
+delivery vehicles can fundamentally alter logistics schemes, in industrial production and other domains.
+Smart products provide more opportunities for tracking their dissemination in time and space, which
+radically changes production and sales planning, collection and recycling of used products, and waste
+management, leading to increased resource saving and more efficient environment protection. The mass
+application of smart logistics would lead to the transformation of existing, and the emergence of new
+markets.
+The further development of conventional urban electric transport, mass production of electric cars
+and personal light vehicles will lead to increased electricity consumption in cities and require a radical
+transformation of the urban electric grid infrastructure. The mass construction of expensive “rapid
+charging stations” will be in order (based on direct high-amperage current, powerful batteries, and
+power electronics), along with strengthening urban power grids and increasing their reliability; greatly
+increasing cities’ electricity generation capacities; and applying new technologies for managing complex
+power modes.
+
+Post-Industrial Society
+
+The role of industrial production in the economy is steadily falling against the background of the
+overwhelming growth of the service sector, especially healthcare, education, beauty, and entertainment
+industries. These trends allow one to call the future society a post-industrial one [Bell, 1973]; numerous
+synonymous terms are also used, such as post-industrial economy, knowledge-based economy, and
+knowledge society.
+Technologies such as the internet of things (IoT) or services (IoS) are transforming the entire service
+and household appliances landscape. Robots may gradually replace people even in the yet hard-toalgorythmize “manual” labor niche, such as nursing, childcare (nannies, junior kindergarten personnel),
+social care (various kinds of social workers), etc. Further robotization of everyday life and homes can be
+expected, the nature of services changing with the emergence of smart products ultimately transforming
+our entire way of life. People will have more free time, their mobility will increase, and as a consequence,
+so will demand for transportation services.
+Improved living standards associated with better housing, the wider application of electrical household
+appliances, lighting, and climate control technology providing a comfortable environment regardless
+of the season and geographical location will lead to increased demand for electricity, affecting the
+seasonal dynamics of energy consumption. Thus, new technologies can once again radically transform
+the anthropogenic environment, making it more friendly – which is a primary, albeit quite difficult,
+task. At the same time, the mass robotization of services and everyday life, the introduction of smart
+home systems, and remotely controlled household appliances make the cybersecurity issue increasingly
+relevant; the concept of a “smart and safe city” may provide an answer.
+A prominent trend of a post-industrial society’s development is the mass application of all sorts of
+portable gadgets (for information, communication, entertainment, and other purposes), whose market
+has reached a colossal size. In 2016, about 5 billion mobile phones were in active use globally, i.e., more
+than 68% of the world’s population had them [Ahonen, 2016]. About half of these phones were smart
+ones and their share is steadily growing. Global smartphone sales in 2017 amounted to 1.46 billion units,
+and the revenues exceeded $300 billion. About $60 billion more consumers have spent on applications.
+By 2020, the number of actively used smartphones is expected to reach 6 billion, or 76% of the world’s
+population will have them. In addition to mobile phones, people are using more than 1 billion notebook
+computers, and 230 million tablets. In 2017, global notebook sales exceeded 162 million units [T-Adviser,
+2018a].
+Russia is also following these global trends. In 2017, about 28.5 million smartphones were sold in the
+country, for a total amount of $3.6 billion [T-Adviser, 2018b]. The number of actively used phones exceeds
+100 million. Notebook sales in 2017 amounted to 2.5 million units at 79.9 billion rubles [T-Adviser, 2018a].
+
+Strategies
+Taken together, portable gadgets’ batteries consume huge amounts of electricity, making up the backbone
+of the so-called portable energy industry. They promote the growth of mobile traffic, which requires the
+further development of mobile networks and, accordingly, energy supply systems for them.
+
+Energy Industry in the Post-Industrial Period and Conditions for its
+Development
+
+Important consequences of the new technological revolution for the energy industry include a) continued
+electrification of the production sector, transport, and everyday life and b) increased segmentation of
+demand for energy by different strata, with different growth rates and structures. In turn, the technological
+structure of the energy sector will be subjected to further segmentation in order to meet future demand
+as efficiently as possible. This trend will be most obvious in the electric power industry, which can be
+divided into portable and mobile energy, distributed generation, and centralized power supply. Clearly,
+these segments will need completely different technologies.
+
+Electrification of the Economy and Society
+
+A key indicator of countries’ economic development and standard of living is per capita electricity
+consumption, especially by the end use sector and its “constituents”, i.e., households. In these terms,
+Russia significantly (1.5-2.5 times) lags behind the more developed countries (Table 1), which means
+demand for electricity has significant growth potential.
+The significant spread of the values under consideration in various Russian regions is worthy of note
+(Table 2). Russia has a powerful fuel and energy sector (FES) with traditionally high energy consumption.
+Various FES industries, first of all oil production, use about a third of all electricity generated in the
+country, while in the Urals Federal District the relevant figure is more than 50%.
+In most of the leading countries, demand for electricity grows at a higher rate compared with secondary
+energy carriers. Russia is no exception either, but due to the active automobilization, demand for motor
+fuels also displays a quite high growth rate (Fig. 1).
+A traditional feature of the Russian energy industry is a significant level of centralized heat supply. Heat
+energy prevails in secondary energy carriers’ consumption structure: its share exceeds 42%, though it
+is steadily decreasing (in 2000, it was more than 53%). The planned active housing construction may
+reverse the trend of falling demand for centralized heat supply, since households are its main consumers
+(their share is about 37%).
+Further development of the Russian energy sector directly depends upon correctly identifying the
+prospects for cogeneration and the requirements for new cogeneration plants, which in turn depend
+upon the balance of demand for electric and heat energy. The trend of this balance shifting in favor of
+electricity can be expected to remain in place: since 1990, the ratio of these two values grew 80% (Fig. 2).
+New cogeneration technologies should provide not only a higher fuel utilization factor, but also higher
+electrical efficiency.
+
+The growth of electricity consumption in the post-industrial period will be primarily determined by
+the increased number of portable devices, electrification of everyday life and transport, increased
+use of electrophysical and electrochemical processes in industry, and increased electrical intensity of
+agriculture. Increased electricity consumption and its wider use in the scope of the “electric world”
+concept formulated a quarter of a century ago implies that humanity’s basic energy needs will be met
+specifically with electricity [Kaganovich et al., 1989].
+
+Portable Energy
+
+The current portable energy boom is a consequence of the mass proliferation of various devices,
+monitoring and security systems, ICT, and mobile communications. Portable devices can be stationary
+or wearable. Their power sources should meet the relevant requirements; originally chemical batteries
+were used for these purposes, but subsequently in many cases they were replaced by electrochemical ones.
+The total global battery capacity of the more popular portable devices types (mobile phones and notebook
+computers) is almost equally divided between these two groups: 50 and 40-50 GWh, respectively. Charging
+them takes about 10 and 15 TWh of electricity per year, respectively. The replacement of previousgeneration mobile phones with large-screen smartphones increases the requirements for battery capacity
+and power consumption. In Russia, the battery capacity of mobile phones in active use is approximately
+1 GWh, and of notebook computers – 0.8 GWh, which in annual terms amounts to about 0.2 and 0.25
+TWh, respectively.
+The introduction of new control systems with their numerous smart sensors and actuators will provide
+additional powerful momentum to the development of portable energy, along with the growing
+entertainment industry which implies the use of all sorts of electronic devices.
+Portable energy takes the lower segment in the generating capacities’ power ranking, varying between
+fractions of and hundreds of watts (Fig. 3). Technologically, it is based upon next-generation chemical
+power sources, electrochemical batteries, supercondensers, low-temperature hydrogen fuel cells which
+hold hydrogen in a bound state (in intermetals, carbon nanomaterials, etc.), or under high pressure in
+cylinders. Methanol fuel cells are also being actively developed.
+
+Mobile (Transport) Energy
+
+The mass use of electric cars, light personal and industrial electric vehicles, and industrial and household
+robots give grounds to speak about the emergence of “mobile” (transport) energy. Technologically, it
+will be based upon electrochemical batteries, low-temperature fuel cells, and supercondensers, while
+energy-wise it will be based on electricity (clean cars) and hydrogen (hybrid vehicles). Hydrogen may
+be supplied externally or produced “onboard” from hydrocarbons, spirits, ethers, or other hydrogencontaining energy carriers. The required capacity of mobile energy generating plants ranges between hundreds of watts (personal electric vehicles, “light” robots, etc.) to hundreds of kilowatts (electric cars,
+industrial transportation vehicles, “heavy” robots).
+The growth of mobile energy generation implies the development of relevant energy infrastructure such
+as electric and hydrogen charging/filling stations, hydrogen logistics, etc. New types of electrical devices,
+power electronics (current and voltage converters, communication equipment, etc.), and control systems
+for them will be needed. The future role of hydrogen remains uncertain due to problems with ensuring
+adequate safety if it becomes widely used. This provides impetus for the search for alternative hydrogencontaining energy carriers for mass application in transport.
+Over time, mobile energy can surpass “big” power generation in terms of total electric power, and start
+playing a significant role in its development and operations. Today, total engine power of passenger cars
+in Russia exceeds 5 TW, while total electric power of all power plants in the country is about 0.27 TW.
+Thus, if only 5-10% of passenger cars are replaced with electric ones, and the latter are connected to
+the power grid in reverse mode, they will become a significant factor in power system management
+(in economic terms, too). Electric vehicle batteries can be charged with cheaper electricity at night, or
+during periods of surplus generation from renewable energy sources (RES), returning electricity back
+into the grid during peak load times (when the price goes up). Thus, electric cars can effectively combine
+the functions of consumer regulators and peak generators, creating a unique niche in the electric power
+system. Smoothing the grid load curve with their help will favorably affect the operations of thermal and
+nuclear power plants.
+Connecting a large number of electric vehicles to the electric power system may also require radically
+changing the power generation structure and grid configuration, and not just technologically but also
+spatially. Most of the vehicles will be concentrated in cities, where the power management issue is already
+extremely dire.
+
+Mobile energy development is fraught with dramatic changes on the oil and motor fuel markets. The
+latter will be gradually replaced by electricity and hydrogen, given the large-scale adoption of electric
+vehicles, leading to sharply reduced demand with disastrous consequences for the global oil market.
+Many of the projects currently being actively promoted in Russia may lose their relevance – such as the
+production and processing of heavy oil or development of the hydrocarbon reserves of the Arctic shelf,
+which is extremely capital-intensive and questionable in terms of economic feasibility.
+
+Distributed Generation
+
+Generally, distributed generation means all kinds of power plants of 25 MW or less capacity, which:
+•	 work autonomously (decentralized power supply);
+•	 are integrated into electricity generation systems (EGS) (vertical power management);
+•	 operate in the “island” mode, i.e., autonomously, but are connected to EGS in order to provide
+backup capacity, meet peak loads by using the grid, or return their surplus output to it;
+•	 operate as part of microgrids (horizontal power management).
+Electric accumulators, both “network” (integrated into the grid complex and designed for accomplishing
+system objectives), and “consumer” ones (uninterruptible power sources, backup capacities, electric
+cars, etc.) also act as a kind of distributed generation facilities. Sometimes autonomous and distributed
+generation are also distinguished from one another.
+In Russia, about 18 GW of electric power is concentrated in the “decentralized zone”. Significant
+distributed generation capacities are integrated into the centralized power supply system: approximately
+7 GW come from gas turbines and 3 GW more from low-power steam turbines [Filippov et al., 2015]. The
+so-called grey zone includes low-power diesel and gas piston power plants, which are poorly reflected
+in statistics and are mostly used as backup and peak load power sources. Just between 2001-2007, about
+13.4 GW of such generators were installed in the country, compared with 9.7 GW of “big energy industry”
+capacities installed during the same period [Filippov, 2009].
+The following factors favorably affect the development of distributed generation:
+•	 increased economic activity in sparsely populated areas with correspondingly low demand for
+electricity;
+•	 infrastructural limitations in areas with centralized energy supplies (lack of technological potential
+to connect new consumers);
+•	 the need to improve the quality and reliability of electricity supply (uninterrupted power, backup
+capacities, etc.)
+•	 the development of renewable energy generation based on universally available sources such as sun,
+wind, and biomass;
+•	 reduced energy costs due to the exclusion of the so-called “network” component and more efficient
+generation;
+•	 the economic development of new areas with no transport and energy infrastructure.
+Huge parts of Russian territory meet these criteria, with low population density and power consumption
+compared with many leading foreign countries (see Table 1 above). Eastern regions in particular stand out in this respect (see Table 2 above). About two-thirds of the country’s territory do not have a centralized
+power supply, and three quarters lack a centralized (pipeline) gas supply. Building large power grids there
+is economically unfeasible and would involve large energy losses.
+The decentralization of industrial production and the growth of agriculture would also promote
+distributed generation. In particular, having large reserves of mineral and other resources, as well as
+significant generating capacities opens wide opportunities for Russia for developing the high-technology
+production of new, high value added, research-intensive materials. The country has a chance to become
+a world leader in this field. The development of small-scale production does not require building huge
+factories, so it may become an attractive area for implementing distributed generation technologies.
+Distributed generation allows for cutting energy costs in centralized energy supply zones due to more
+efficient production and the elimination of the so-called “network” component.
+Mobile communications and big data processing are turning into new, rapidly growing sectors of the
+economy which also looks attractive for distributed generation. The deployment of fourth-generation
+mobile internet networks created conditions for the rapid growth of mobile traffic, primarily due to
+multimedia content. Mobile traffic tripled in Russia in 2015-2017, almost reaching the Western European
+levels [T-Adviser, 2018b]. The commissioning of much more productive, but also more energy-intensive,
+5G networks is not far off. The further development of mobile communications will promote demand
+for low power autonomous power sources (less than 100 kW) and more stringent requirements for their
+working life and reliability.
+Growing demand for remote (“cloud”) data storage, entertainment, computing, and other resources led
+to a surge in the number of data processing centers, along with the amount of electricity they consume.
+According to EvoSwitch, in 2015 data centers’ electricity consumption reached 416 TWh, or approximately
+3% of the overall global consumption [Lebedev, 2018]. Due to the rapidly growing volumes of “heavy”
+data (streaming entertainment videos, the internet of things, security systems, monitoring of industrial
+facilities, etc.), data centers’ demand for electricity (apart from everything else, they are burdened with
+very strict reliability and quality requirements) is expected to triple in the next decade. Having backup
+power sources (electric generators and/or electricity storage devices) and air-conditioning systems
+becomes necessary for them. All these tasks require the development of power electronics, electrical
+equipment, and energy storage facilities.
+Serious global restrictions concerning greenhouse gases emissions exacerbate the uncertainty of the
+energy industry’s technological future. Forthcoming changes may affect the mix of primary energy
+resources and accelerate the transition from large-scale generation based on organic fuels to distributed
+generation based on carbon-free RES.
+
+Centralized Energy Supply
+
+Centralized power supply systems form the basis of modern power industry and are operated by almost
+all developed countries. In present-day Russia, about 93% of the power generating capacities (249 GW)
+is concentrated in the centralized zone, 88% (236 GW) of which are integrated into the Unified Electric
+Power System.
+The expected decentralization of energy demand and the active development of distributed generation
+will not lead to abandoning centralized power supply in the foreseeable future. Demand for it will
+primarily come from large-scale industry and major urban agglomerations, i.e., areas with a high-density
+energy load where centralized supply remains favorable for economic and environmental reasons.
+A significant proportion of today’s large-scale industrial enterprises (metallurgical, mechanical
+engineering, chemical and petrochemical, pulp-and-paper, etc.) are likely to remain in business, and
+stay competitive for a long time to come. Currently this sector accounts for about 20% of electricity
+consumption in Russia, though this group of consumers is extremely price-sensitive and, given sufficient
+financial resources, often start their own (distributed) power generation.
+The ongoing global urbanization can make a significant contribution to preserving centralized power
+supply. No noticeable increase in population is expected in Russia, which cannot be said about the small
+settlement residents’ tendency to move into major metropolitan areas and megacities. Power density
+in Moscow and St. Petersburg exceeds 20,000 kWh/km2 per year (Table 2). In industrialized regions
+adjacent to megacities or incorporated into them (the Moscow Region) it decreases to 1,000 kWh/
+km2 per year and in areas with a high population density, to 150-200 kWh/km2 per year. Meanwhile
+in, for example, the Far Eastern Federal District this value does not even reach 10 kWh/km2 per year.
+Generating significant amounts of “clean” energy in megacities along with electric power and developing
+electric transport can provide a radical solution for the environmental problem – apart from a specific
+aspect, namely an acceptable level of electromagnetic pollution and the electromagnetic compatibility of
+relevant instruments and devices, which requires a separate effort.
+Distributed generation provides realistic technological alternatives to centralized power supply in large
+cities and metropolitan areas, associated with the development and mass application of environmentally
+friendly fuel cells on natural gas and electrochemical batteries [Bredikhin, 2017]. The greatest effect can
+be achieved by using cogeneration plants integrated into intelligent microgrids. But first of all, the most complicated S&T problem must be solved, namely radically reducing the costs of the relevant equipment
+and extending its working life.
+The need for centralized power supply may increase with the emergence of large volumes of highly
+efficient renewable energy resources in the energy balance, located far away from consumption centers.
+Modern RES-based installations do have sufficient unit capacity, while network solutions make it possible
+to efficiently transmit electricity over long distances (in particular, using ultrahigh voltage alternatingand direct-current power lines ranging between 800-1,000 kV and more). Accordingly, powerful (tens
+and hundreds of megawatts) “wind farms” and “solar fields” are now being set up in areas with a high
+concentration of high-potential RES, for integration into centralized electric power systems. Such
+“network” installations currently account for the bulk of RES-based generation growth.
+The possible introduction of stringent, legally binding international restrictions on greenhouse gas
+emissions will require the accelerated decarbonization of the global energy industry and the Russian
+industry as well as a part of it. Achieving this would require switching to carbon-free natural energy
+sources, namely nuclear fusion and RES. Thermonuclear power plants are unlikely to find commercial
+applications in the coming decades, as well as generation technologies based on organic fuels with CO2
+capture, since no effective methods for reliable and long-term (on a geological scale) utilization of the
+huge amounts of carbon dioxide have yet been proposed. The situation is further complicated by the
+bad reputation nuclear power has in many countries, so the talk about its “renaissance” has to be seen as
+somewhat premature. Replacing organic fuels by renewable energy sources on a comparable scale, in turn,
+requires developing deserts and large coastal water areas, which implies creating a global electric power
+system and developing regional centralized energy systems. Providing 1,500 kV voltage and putting in
+place appropriate submarine cables would be a technological challenge.
+The development of the electric grid complex leads to increased network losses in the course of
+transmission and transformation of electricity. Developed countries with high power density have
+managed to reduce such losses to 4-6% (see Table 1 above). In Russia this figure is about twice as high
+(about 10%) and varies greatly across the country (see Table 2 above).
+The operation and development of an electric grid complex involves significant costs, whose share in the
+price of electricity end users pay today often exceeds 50–60%. Hopes for a significant reduction in such
+costs due to the elimination of the “network” component of electricity prices are associated only with
+certain technologies. A breakthrough can be expected from the mass application of low-cost “warm”
+superconductors (operating at room temperature), though the development of the necessary materials is
+progressing very slowly.
+
+Conclusions
+
+All technological revolutions radically affected the energy industry, both directly (the emergence of new
+energy technologies) and indirectly, by shaping energy demand including its volume, structure, and
+requirements regarding energy carriers’ quality. The new technological revolution will be no exception:
+together with the post-industrial economy and society emerging on its basis, it will place new demands
+upon the energy sector. First of all, we mean significantly increased demand for electricity and stricter
+requirements for the quality and reliability of its supply.
+The further segmentation of the energy sector’s technological structure should be expected in order to
+meet future demand for energy as efficiently as possible. This trend will be most obvious in the electric
+power industry, which can be divided into portable and mobile energy, distributed generation, and
+centralized power supply. The growth of direct current (DC) generation and consumption in the first
+three segments and the creation of powerful backbone DC networks in the latter can revive interest in
+DC power supply systems.
+Demand for centralized energy supply may be associated with concentrated energy loads by large-scale
+industry, urbanization, and the emergence of megacities. The further development of centralized energy
+may be promoted by the requirements for the decarbonization of the energy industry. In this case, it will
+become necessary to develop RES in remote locations such as deserts and coastal waters of distant seas,
+and possibly step up the development of nuclear energy.
+Decentralization, economic activities in regions with low energy density, economic development
+of new territories, and the widespread application of available RES will promote the development of
+distributed generation. The expected mass proliferation of electric cars, light personal electric vehicles,
+and autonomous robots of various functionalities can lead to an explosive growth of mobile energy.
+Integrating millions of electric vehicles into electric power systems will strongly affect the development
+of the “big” energy industry, since it will require a substantial adjustment of its technological and spatial
+structure. Increased use of various gadgets and other low-power autonomous devices will promote the
+development of portable energy, and subsequently the production of electrochemical batteries, which in
+turn is fraught with causing a shortage of certain materials and a jump in their prices. The digitization
+of the energy industry will exacerbate the issue of ensuring the cybersecurity of energy facilities and
+systems. Russia’s specific features, such as the structure of its energy demand, harsh climate, and vast territory,
+impose additional requirements on the technological development of the country’s energy industry.
+In particular, centralized power supply systems will remain in demand, but demand for distributed
+generation technologies, including those based on renewable energy sources, will also grow. Developing
+cogeneration on the basis of electrochemical generators, smart grid technologies, and so on remains
+among the most important objectives.
+The current structure of the Russian fuel and energy complex is extremely vulnerable to the large-scale
+electrification of transport and decarbonization of the global energy industry. The wide proliferation of
+electric vehicles, broad use of RES across the world, and the resulting decrease in demand for oil may
+have a devastating effect on the global hydrocarbon market, which will have a negative impact upon the
+country’s energy sector and the entire economy.

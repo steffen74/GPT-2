@@ -1,0 +1,1055 @@
+Introduction
+This paper focuses on the analysis of crude oil future and spot prices with the aim of understanding
+what has been learnt regarding the lead–lag relationship between these oil prices during periods of
+signiﬁcant uncertainty in the oil market. The purpose is to assess and evaluate existing literature, with
+a focus on theoretical and empirical ﬁndings that underpin interlinkages and dynamics in crude oil
+markets around the lead–lag relationship during times of severe market uncertainty. The interest in
+oil market dynamics has grown since the establishment of futures markets in 1865 in the Chicago
+Board of Trade (CBOT)—the largest futures exchange in the world—where oil futures became the
+most traded futures contracts worldwide (CBOT 2006; Lambert 2010; CME 2018). The WTI (West
+Texas Intermediate) started trading on the CBOT in 1983 and Brent followed in 1988. Since then,
+existing studies have offered different views regarding the lead–lag relationship between spot and
+futures oil prices, volatility patterns and their implications for price forecasting and market efﬁciency.
+This is an area of study that is signiﬁcant, as these studies offer a rich theoretical research framework
+underpinning oil market research and are fundamental to understand oil price dynamics and their
+implications for the real economy. Over past decades, oil prices have been subject to signiﬁcant levels
+of variability that have been translated into numerous price hikes and signiﬁcant drops over the years.
+This is a situation that calls for an evaluation of existing research in the ﬁeld to understand what the
+major contributions are, and in particular, to look at how periods of severe uncertainty have been
+considered by researchers, and the kind of outcomes that have been reported regarding oil prices
+dynamics. This type of study is signiﬁcant, as around periods of crises the dynamics between crude
+oil spot and futures prices can be affected considerably and bearing in mind that oil is still the major
+energy resource worldwide, its economic implications require further analysis and understanding.
+The main motivation of this analysis is to offer a rich research background to scholars, investors
+and oil market participants as they seek to assess the evolution and changing nature of oil price
+dynamics. Understanding oil price behaviour and insights from the ﬁeld are very important for
+oil-dependent economies, as they are tightly connected to the economic performance of industries
+reliant on oil, because crude oil has been identiﬁed as a major cost factor for businesses. A key
+contribution of this study is the critical assessment of existing research that considers how highly
+volatile crude oil markets can impact economic dynamics due to increasing levels of uncertainty and
+unexpected oil price jumps. Researchers have offered evidence on how oil price jumps and ambiguity
+signiﬁcantly disturb markets with ramiﬁcations to the real economy (Bekiros and Diks 2008; Charles
+and Darné 2009; Salisu and Fasanya 2013; Hamilton 2014; Robe and Wallen 2016) but surprisingly,
+the analysis of the lead–lag relationship in the context of economic and ﬁnancial crises is an area of
+research that has not received sufﬁcient attention. Thus, this literature review seeks to identify the main
+contributions from the existing body of knowledge by considering four main themes: (1) The long term
+and short term relationship between spot and futures oil prices; (2) the analysis of structural breaks and
+their signiﬁcance to the oil market; (3) oil prices volatility and market implications; and ﬁnally (4) oil
+prices and their behaviour in the context of the Efﬁcient Market Hypothesis of Malkiel and Fama (1970).
+A sample of the main studies done over the past 15 years (see Table 1 below), representing the main
+topics considered by crude oil markets researchers is provided in order to have an overview of the
+main areas of concern among researchers, and to identify in which way the lead–lag relationship
+between spot and futures prices in the oil market has been approached.
+Table 1. Existing Literature.
+Theme
+
+Article
+Bekiros and Diks (2008)
+Huang et al. (2009)
+
+Relationship
+and dynamics
+
+Tonn et al. (2010)
+Wang and Wu (2013)
+Mehrara and Hamldar (2014)
+Ding et al. (2014)
+Alzahrani et al. (2014)
+Chang and Lee (2015)
+Polanco-Martínez and Abadie (2016)
+
+Issue Covered
+Long and short term relationship between spot and futures oil
+prices of West Texas Intermediate (WTI)
+Dynamics of nonlinear relationship using a multivariate
+threshold regression approach
+Wavelet domain correlation between oil and gas futures
+Long term relationship between WTI spot and futures prices
+Long and short term relationship between Brent spot and
+futures prices
+Short term relationship of WTI
+Linear and nonlinear Granger causality between oil spot and
+futures prices
+Oil causal relationship using wavelet coherency approach
+Oil spot price dynamics and long term futures prices using
+wavelet approach
+
+Structural breaks
+
+Lee et al. (2010)
+Salisu and Fasanya (2013)
+Charles and Darné (2014)
+Mensi et al. (2014)
+Charfeddine (2016)
+
+Evidence of structural breaks in crude oil markets
+Structural breaks in oil time series
+Numerous structural breaks affecting oil series
+Importance of structural breaks in oil markets
+Breaks or long range dependence in oil futures
+
+Volatility analysis
+
+Fong and See (2002)
+Sadorsky (2006)
+Arouri et al. (2012)
+Wang and Wu (2012)
+Salisu and Fasanya (2013)
+Charles and Darné (2014)
+Wang et al. (2016)
+
+Markov switching model of conditional volatility
+Oil price ﬂuctuations
+Long memory and structural breaks in oil volatility
+GARCH modelling in energy markets volatility
+Volatility analysis with structural breaks
+Volatility persistence in crude oil markets
+Forecasting oil market volatility
+
+Serletis and Andreadis (2004)
+Lim et al. (2008)
+Charles and Darné (2009)
+Khediri and Charfeddine (2015)
+Gu and Zhang (2016)
+
+WTI price efﬁciency
+Impact of OPEC on oil efﬁciency
+Crude oil markets efﬁciency
+WTI market efﬁciency
+WTI efﬁciency
+
+Efﬁciency
+
+The paper structure is organised as follows: Section 2 presents the research context and basic
+background. Section 3 discusses core studies looking at oil spot and futures prices. Section 4 deals
+speciﬁcally with the lead–lag relationship. Section 5 highlights major shocks within the oil market, while Section 6 deals with oil volatility. Section 7 discusses oil market efﬁciency and Section 8 concludes
+the study.
+2. Crude Oil Background
+The crude oil market has experienced numerous ﬂuctuations over time, and is considered to be
+one of the most volatile commodity markets (Oil Price 2018). There are various triggers impacting crude
+oil prices, with the most inﬂuential being supply and demand shocks, business cycles, speculative
+activities, and economic, ﬁnancial and political instabilities (Hamilton 2014; Robe and Wallen 2016).
+For example, the ﬁrst and second Gulf Wars were caused by political unrests that led to signiﬁcant oil
+supply disruptions. On the other hand, during the Asian Financial Crisis and the Global Financial
+Crisis, oil price ﬂuctuations appeared to be mainly caused by inefﬁciencies in ﬁnancial markets that
+were transmitted to the oil market due to high levels of uncertainty and lower demand. As such, it is
+essential for oil market participants to identify the main reasons for oil price jumps and the degree
+of such oil price changes when faced with speciﬁc triggers. For example, when there is an oil supply
+shock caused by political unrest, it would be expected that oil prices would experience a sharp increase
+over the period, and as such, investors can integrate this kind of behaviour as part of their portfolio
+management strategies (Kilian 2006; Morales and Andreosso-O’Callaghan 2014).
+The existing literature deals with the lead–lag relationship, where for example, the studies of
+Bekiros and Diks (2008), Wang and Wu (2013) and Ding et al. (2014) analyse the long and short-term
+relationship in the context of crude oil. The importance of structural breaks in crude oil modelling was
+identiﬁed for example by Lee et al. (2010), Salisu and Fasanya (2013), Charles and Darné (2014) and
+Mensi et al. (2014). They all found that the omission of structural changes in the oil price modelling
+can lead to spurious results. Also, volatility research and forecasting conducted by Sadorsky (2006),
+Salisu and Fasanya (2013), Charles and Darné (2014) and Wang et al. (2016) analysing crude oil
+markets, point to the need to understand volatility jumps and volatility persistence during shock
+events. Volatility dynamics are of vital importance as they help to recognise the behaviour and patterns
+exhibited by oil prices during such occasions, and they need to be considered by investors when trying
+to predict and adjust investment and planning strategies. Similarly, efﬁciency analysis conducted by
+researchers such as Serletis and Andreadis (2004), Charles and Darné (2009) and Gu and Zhang (2016)
+provide results for the efﬁciency of the main oil benchmarks, usually WTI or Brent, using different
+time periods and data frequencies in their examination. The analysis of market efﬁciencies is relevant
+as it has many implications for investors and policy makers. If oil markets are not efﬁcient, it means
+that there is potential for arbitrage opportunities for investors, who could expect abnormal returns
+for their investments. On the other hand, if oil prices are efﬁcient and oil prices reﬂect all available
+information, it brings about trust in the market together with oil price stability and more investors are
+willing to include crude oil in their investment portfolios.
+Table 1 below identiﬁes some of the literature concentrating on the lead–lag relationship between
+crude oil spot and futures prices, where the focal point is to examine core contributions in this area of
+study, highlight the topics and research data used by the authors and outline the core aspects of the
+leading relationship.
+It is evident that the number of unstable periods in crude oil price history goes in hand with
+regional and global uncertainty affecting oil-importing economies. Figure 1 presents crude oil spot
+and futures prices over the last thirty years. It highlights key episodes of oil market uncertainty and
+the behaviour of oil prices during these episodes. It is evident that market shocks have a signiﬁcant
+impact on oil market behaviour and thus are very important in the oil market analysis.
+Analysing the literature, therefore, provides a useful perspective for investors and interested
+parties who wish to predict future dynamics and behaviour of oil prices in such events. This will
+help to speed up investment and business decisions reducing costs and uncertainty to businesses and
+governments whose activities are heavily exposed to the oil sector.
+
+It is evident that the number of unstable periods in crude oil price history goes in hand with
+regional and global uncertainty affecting oil-importing economies. Figure 1 presents crude oil spot
+and futures prices over the last thirty years. It highlights key episodes of oil market uncertainty and
+the behaviour of oil prices during these episodes. It is evident that market shocks have a significant
+Int. J. Financial Stud. 2018, 6, 89
+4 of 22
+impact on oil market behaviour and thus are very important in the oil market analysis.
+
+Figure 1. Spot and Futures Prices.
+Figure 1. Spot and Futures Prices.
+
+3. Spot and Futures Prices
+Analysing the literature, therefore, provides a useful perspective for investors and interested
+The role of crude oil spot prices is primarily addressed through prices in such events. This will
+parties who wish to predict future dynamics and behaviour of oilforward contracts in commodity
+markets.speedbehaviour of spot prices givesdecisions reducing costs and uncertainty to businesses
+help to The up investment and business the indication of oil price levels for oil importing and
+exporting countries. Spot prices appear to be mainly inﬂuenced oil sector. and demand and the level of
+and governments whose activities are heavily exposed to the by supply
+economic activity in oil dependent countries. The interest in crude oil futures prices emerged with the
+3. Spot and futures Prices
+formation of Futuresmarkets through futures contracts, which are contracts to buy or sell a commodity
+in the future. The ﬁrst modern futures exchange was established in Osaka, Japan in 1710 trading
+The role of crude oil spot prices is primarily addressed through forward contracts in
+rice. The largest commodity futures market in the world is the CBOT founded in 1848 by trading
+commodity markets. The behaviour of spot prices gives the indication of oil price levels for oil
+grain forward contracts and in 1865 it started trading grain futures. The ﬁrst Brent crude oil contract
+importing and exporting countries. Spot prices appear to be mainly influenced by supply and
+was developed in 1988. From 1995, the oil futures markets became the most traded futures contracts
+demand and the level of economic activity in oil dependent countries. The interest in crude oil
+worldwide as crude oil is the main globally used energy resource. Soon after the establishment of the
+futures prices emerged with the formation of futures markets through futures contracts, which are
+crude oil futures markets, researchers started to analyse futures prices by comparing them to spot
+contracts to buy or sell a commodity in the future. The first modern futures exchange was
+prices. The main interest was to examine the importance of futures prices with respect to spot prices
+established in Osaka, Japan in 1710 trading rice. The largest commodity futures market in the world
+and the impact of oil price levels on investors’ decisions and the creation of arbitrage opportunities
+is the CBOT founded in 1848 by trading grain forward contracts and in 1865 it started trading grain
+for speculators. One of the ﬁrst researchers looking at futures prices as a spot price predictor were
+futures. The first Brent crude oil contract was developed in 1988. From 1995, the oil futures markets
+Garbade and Silber (1983) who presented a model analysing the price discovery effect of futures prices
+became the most traded futures contracts worldwide as crude oil is the main globally used energy
+for feeder cattle. Later on, Schwarz and Szakmary (1994) and Silvapulle and Moosa (1999) similarly
+resource. Soon after the establishment of the crude oil futures markets, researchers started to
+examined crude oil markets, whereas Crowder and Hamed (1993) and Sadorsky (2000) studied crude
+analyse futures prices by comparing them to spot prices. The main interest was to examine the
+oil price efﬁciency and arbitrage opportunities for oil futures. These appear to be the main areas of
+importance of futures prices with respect to spot prices and the impact of oil price levels on
+concern among researchers when analysing crude oil prices as an indicator of oil prices behaviour and
+investors’ decisions and the creation of arbitrage opportunities for speculators. One of the first
+their trends over time. This is even more important during times of instability as the uncertainty in oil
+researchers looking at futures prices as a spot price predictor were Garbade and Silber (1983) who
+markets magniﬁes oil price risk. Unexpected ﬂuctuations also inﬂuence the economic performance
+presented a model analysing the price discovery effect of futures prices for feeder cattle. Later on,
+of oil dependent countries, and as such the literature in the ﬁeld is relatively new. Table 2 presents a
+Schwarz and Szakmary (1994) and Silvapulle and Moosa (1999) similarly examined crude oil
+sample of the main existing research that has been carried out analysing crude oil markets. The table
+markets, whereas Crowder and Hamed (1993) and Sadorsky (2000) studied crude oil price
+offers insights into the type of research methodologies and data applied in the oil market literature,
+efficiency and arbitrage opportunities for oil futures. These appear to be the main areas of concern
+which are needed to understand oil prices behaviour. The information presented helps to identify
+research gaps when analysing speciﬁc oil benchmarks and time periods, where surprisingly there is
+a clear lack of attention to studies focused on the analysis of crises periods and implications for oil
+prices dynamics.
+
+Table 2. Extract of Literature Review.
+Researchers
+
+Period
+
+Data
+
+Methodology
+
+Empirical Findings
+
+COINTEGRATION AND CAUSALITY
+Bekiros and Diks (2008)
+
+October 1991 to October 1999
+and November 1999 to
+October 2007
+
+WTI spot and futures prices,
+daily data
+
+Granger causality, VECM,
+GARCH-BEKK
+
+Neither market leads or lags the other
+consistently, and the pattern changes over time
+
+Wang and Wu (2013)
+
+January 1986 to February 2011
+
+WTI spot and futures prices,
+weekly data
+
+TVECM
+
+Different relationship in the long run and short
+run, futures prices dominate in the short run
+
+Mehrara and Hamldar (2014)
+
+August 1990 to November 2014
+
+Brent spot and futures prices,
+daily data
+
+Johansen cointegration,
+Granger causality, VECM
+
+Bidirectional long and short run relationship
+
+Ding et al. (2014)
+
+1996 to 2003 and 2004 to 2012
+
+WTI spot prices and net long
+ﬁnancial positions, weekly data
+
+Granger non-causality test
+in quantiles
+
+Some causal relationship between crude oil
+and ﬁnancial positions
+
+STRUCTURAL BREAKS AND MOVING WINDOWS
+Lee et al. (2010)
+
+January 1990 to December 2007
+
+WTI spot and futures prices,
+daily data
+
+Bai–Perron test
+
+Evidence of four structural breaks
+
+Salisu and Fasanya (2013)
+
+January 2000 to March 2012
+
+WTI and Brent spot prices,
+daily data
+
+NP procedure
+
+Two structural breaks, one in 1990 and second
+in 2008
+
+Charles and Darné (2014)
+
+January 1985 to June 2011
+
+Brent, WTI and OPEC
+
+Outliers clustering
+
+Mensi et al. (2014)
+
+May 1987 to December 2012
+
+Brent and WTI, daily data
+
+Bai–Perron test
+
+Khediri and Charfeddine (2015)
+
+January 1986 to January 2014
+
+Crude oil, gasoline and heating
+oil spot and futures prices,
+daily data
+
+Moving Window
+
+Numerous structural breaks
+Evidence of ﬁve break points in WTI market
+and six break points in Brent market
+Two year moving windows shows mean
+reversion towards markets efﬁciency
+
+VOLATILITY
+Sadorsky (1999)
+
+January 1947 to April 1996
+
+Oil price index, monthly data
+
+GARCH (1,1)
+
+Evidence of asymmetric effects of oil price
+volatility shocks
+
+Wang and Wu (2012)
+
+July 1992 to August 2011
+
+WTI spot prices, weekly data
+
+Uni and Multi-GARCH
+
+Uni-variate models show greater accuracy
+
+Salisu and Fasanya (2013)
+
+January 2000 to March 2012
+
+WTI and Brent spot prices,
+daily data
+
+GARCH models
+
+Evidence of persistence and leverage effects
+
+Charles and Darné (2014)
+
+January 1985 to June 2011
+
+Brent, WTI and OPEC
+
+GARCH models
+
+Various GARCH-type models showed
+different parameter estimates
+
+Wang et al. (2016)
+
+January 1993 to September 2013
+
+WTI and Brent spot prices,
+daily data
+
+GARCH models and Markov
+switching model
+
+MSM model captures volatility forecast better
+than GARCH models
+
+
+Table 2. Cont.
+Researchers
+
+Period
+
+Data
+
+Methodology
+
+Empirical Findings
+
+EFFICIENCY
+Serletis and Andreadis (2004)
+
+January 1990 to February 2001
+
+WTI and Henry Hub natural
+gas, daily data
+
+Hurst test
+
+Charles and Darné (2009)
+
+1982 to 2008
+
+Brent and WTI spot prices,
+daily data
+
+VR tests and
+wild-bootstrapping
+
+Khediri and Charfeddine (2015)
+
+1986 to 2014
+
+WTI, Gasoline and Heating oil
+spot and futures prices,
+daily data
+
+VR tests, Run test, R/S statistic
+and DFA
+
+Crude oil and gasoline prices show highest
+degree of efﬁciency
+
+Gu and Zhang (2016)
+
+1986 to 2012
+
+WTI spot prices, daily data
+
+Multifractality, Granger
+non-causality
+
+Evidence of nonlinear relationship between
+crude oil market inefﬁciency and
+multifractality
+
+Evidence of multifractal turbulent structure
+Brent is efﬁcient, WTI is not efﬁcient between
+1994 to 2008 period
+
+
+The examined literature shows the changing nature of oil markets as being impacted by wars,
+crises, economic cycles and natural disasters, providing evidence on the importance of understanding
+different market shocks, their origins and implications for oil markets dynamics. These research
+ﬁndings have particular implications when trying to understand and deﬁne the lead–lag relationship
+between spot and future prices. Numerous econometric models have been applied by researchers when
+supporting their studies, but quite remarkably, the Johansen cointegration test seems to be the most
+common approach to test for long term relationships between oil prices. The Granger causality test
+and the VECM (Vector Error Correction Model) models are the most popular ones when examining the
+short-term relationship. Also, more recently, the wavelet approach is applied in linear and nonlinear
+causality testing (Tonn et al. 2010; Alzahrani et al. 2014; Polanco-Martínez and Abadie 2016) to study
+the short run relationship between crude oil prices. This technique uses cross-correlations to measure
+similarity between two signals at different scales. The importance of structural break analysis and the
+moving windows technique are emphasised by researchers as they help to offer more accurate outcomes
+through eliminating the biases of econometric results by considering implications for performance
+of models during times of severe market uncertainty. Studies looking at volatility appear to be
+dominated by the well-known GARCH (Generalised Autoregressive Conditional Heterokedastic) type
+models and also by the Markov Switching Regime Models. The variance ratio tests, Multifractality,
+Granger non-causality and Hurst test are identiﬁed as widely used approaches in the context of
+market efﬁciency.
+Existing research includes studies examining either spot or futures prices, though some
+studies investigate both spot and futures prices for speciﬁc oil benchmarks (Sadorsky 1999;
+Bekiros and Diks 2008; Mehrara and Hamldar 2014). Therefore, the relationship between spot and
+futures prices during crises and stable periods should be assessed, as it helps with decision making
+processes during uncertain times. The literature shows a dearth of research analysing crises periods,
+a very important area of study that needs to be furthered explored to understand the changing aspects
+of the oil market due to the changes in market dynamics that are associated with episodes of sustained
+distress and implications for estimation of models.
+4. Lead–Lag Relationship
+The lead–lag relationship is a widely studied topic, as it can help investors to decide which
+price should be followed during decision-making processes. It can also help in discovering potential
+arbitrage opportunities between spot and futures prices. A study conducted by Kim (2015) suggests
+that the lead–lag relationship between crude oil spot and futures prices is changing over time
+depending on macroeconomic events. However, the details for particular periods are needed,
+as these dynamics would be affected by the nature of the speciﬁc event and also by market stability,
+as pinpointed by some researchers (Charles and Darné 2014; Bouri 2015). It will help to detect which
+price leads in stable and crises periods bringing valuable information to oil market participants.
+Likewise, the level of oil prices is very important. If oil prices are too high, oil importing
+countries could experience a decline in growth rates as the cost of energy will put downward
+pressure on the proﬁts of oil intensive industries (Priog 2005). Equally, Wang (2013) noted that
+oil price shocks and raising oil prices seem to slow down economic activity. On the other hand,
+other researchers argue that current and future supply and demand levels play an important role
+(Zhang and Wang 2013; Forni et al. 2015). These authors noted that it is not an easy task to estimate
+future demand and supply levels when market conditions are uncertain and affected by frequent
+oil price changes. Moreover, Ozdemir et al. (2013) pointed out that crude oil markets are affected
+by many economic and non-economic factors such as supply and demand shocks, local and global
+events, and geopolitical threats. Spot and futures prices are impacted by different events that can
+lead towards abnormal rises and drops in prices that could generate spillover effects to the real
+economy. Also “ﬁnancialisation” is a well discussed topic in relation to oil prices, where trading oil
+futures could impact futures price levels through speculation, net positions of traders and hedge funds.
+
+For example, Büyük¸ ahin and Robe (2011) noted that increasing participation of hedge funds in oil
+s
+futures could raise oil prices. Similarly, Tang and Xiong (2012) described the increased inﬂuence of
+ﬁnancial markets and ﬁnancial institutions on economic policy and economic outcomes such as oil
+and stock price returns. Moreover, there are concerns that ﬁnancialisation can impact business cycles
+through prolonged stagnation (Palley 2013). Epstein (2005) also noted the increasing importance of
+ﬁnancial markets and institutions on the world economy.
+Furthermore, the “Masters Hypothesis” needs to be considered in the context of this study. It is
+considered a major driver of the 2007–2008 spike in commodity futures prices, and mainly in energy
+futures prices, through long-only index investments (Irwin and Sanders 2012). This theory relating
+to long-only commodity index funds has three basic tenets: (1) they are directly responsible for
+driving up futures prices; (2) they are a source of deviation from fundamental value; and (3) they have
+pervasive impact across commodity futures markets. However, Irwin and Sanders (2012) results do
+not support this hypothesis and ﬁnd no evidence of index positions inﬂuencing returns or volatility in
+19 commodity futures markets. Sanders and Irwin (2017) reviewed this theory in a later study covering
+two periods (2007–2008 and 2011–2012) and using updated data and new empirical approaches.
+Nevertheless, they found it difﬁcult to draw connections between their ﬁndings and the tenets of
+the Masters Hypothesis. They noted that the lack of supporting evidence is due to the low-power
+of time series tests, market efﬁciency issues and lack of conditioning variables within the models
+(Sanders and Irwin 2017).
+The dynamics of spot and futures oil prices and their relationship brings questions about between
+which of the two prices has a leading position. For example, Zhang and Wang (2013) claim that oil
+futures prices are better crude oil price indicators than spot prices. They argue that crude oil futures
+are traded worldwide since 1983 making it the largest and most traded futures market, which helps
+economic growth and international ﬁnancial stability. This is consistent with Alquist and Kilian (2010)
+who point out that low transaction costs and the wide use of short-selling mechanisms help the
+futures market to react quicker to new information than the spot market, thus making futures prices
+more efﬁcient. In contrast, Pindyck (2001) examined the effects of futures trading on spot prices and
+found that the existence of futures markets improved the quality of information ﬂowing to the spot
+market, and spot prices reﬂected these changes faster. Therefore, he found no evidence of one price
+dominating the other and concluded that both prices are important and sensitive to outside factors.
+This stream of research indicates that there is a need to introduce further analysis to carefully examine
+the lead–lag relationship between oil spot and futures prices during periods of distress, crises and
+shocks in the market.
+4.1. Long Term Relationship
+Numerous authors have tested the relationship between oil spot and futures prices
+(Schwarz and Szakmary 1994; Bekiros and Diks 2008; Wang and Wu 2013; Mehrara and Hamldar 2014;
+Ding et al. 2014) in the long term. In an early study, Kahneman and Tversky (1979) considered the
+decision-making process under risk with their core ﬁndings supporting evidence of the existence of
+a strong relationship between spot and futures prices during downturn periods, but not as strong
+during periods of oil price increases. This study offers the initial foundations to start analysing
+the relationship between oil spot and futures prices. Wang and Wu (2013) reviewed the long term
+relationship between crude oil spot and futures prices using monthly and quarterly data for the WTI
+market. They applied the Johansen cointegration test and VECM models from 1986 to 2011. Their
+ﬁndings show signiﬁcant evidence of a bi-directional cointegration relationship, which suggests that
+both prices should be monitored during decision making processes. On the other hand, they found
+that for higher frequency data, such as weekly, futures prices can drive the spot price. Strong evidence
+of spot and futures price cointegration was found by Mamatzakis and Remoundos (2011) using daily
+data from 1990 until 2009, showing that long run relationship can be used as a crude oil behavioural
+indicator. Zhang and Wang (2013) found similar results using daily data from 2005 to 2011, which established a long run relationship between prices. More speciﬁcally, they examined the price discovery
+process and risk transfer between spot and futures prices and measured any arbitrage risk and
+opportunities between the crude oil and gasoline markets. Their ﬁnding suggests that crude oil
+futures prices are a better risk price indicator than gasoline futures when compared to their spot prices.
+Also, their ﬁndings suggest that during their testing period which includes the Global Financial Crisis
+in late 2000s, the price discovery and price risk transfer processes were not signiﬁcantly inﬂuenced.
+After considering these ﬁndings, there is still a need to examine the lead–lag relationship between oil
+spot and futures prices during the Global Financial Crisis period as it could establish if there was a
+leading oil price indicator for the duration of this event.
+Furthermore, early research conducted by Schwarz and Szakmary (1994) indicated that futures
+markets may dominate spot markets in the oil discovery process. Their ﬁnding was conﬁrmed by
+Gülen (1998) who analysed the crash in 1986 with the help of the Perron (1989) structural break test.
+He stated that futures prices are used as a benchmark worldwide and therefore they are important for
+decision-making processes. The long term relationship between crude oil spot and futures prices was
+analysed more recently by Lee and Zeng (2011) and Chen et al. (2014). Their analysis encompasses the
+period from 1986 to 2012, where the Johansen cointegration test showed that spot and futures prices for
+WTI are cointegrated. The need to apply structural breaks is highlighted due to high volatility changes
+in the oil markets as any signiﬁcant structural changes in the series could affect the econometric
+outcomes. By applying the structural break tests, the time series are split according to identiﬁed break
+dates, which are then tested separately to avoid spurious results.
+The evidence from the long run relationship studies shows that in most cases there is cointegration
+present between crude oil spot and futures prices. However, when applying higher frequency data,
+such as weekly or daily, Wang and Wu (2013) noted that there could be a leading price at some points
+in time. The literature also suggests that for higher frequency data futures prices may lead the spot
+prices in the long run. Views on the beneﬁts of applying structural break analysis seem to outweigh the
+risks of not including such analysis. Moreover, there is a need to include additional analysis looking at
+core episodes of market disruptions, as the reviewed literature tends to focus on few events only.
+4.2. Short Term Relationship
+The short run relationship between crude oil spot and futures prices goes in hand with the long
+term analysis. It has the ability to capture the lead–lag relationship from the short term perspective.
+This has been analysed by authors such as Bekiros and Diks (2008), Candelon et al. (2013) and
+Ding et al. (2014). The aim of Bekiros and Diks (2008) study was to test if one price leads the other
+price in the short run. In their analysis they have two data samples. The ﬁrst sample starts in
+October 1991 up to October 1999 and the second sample runs from November 1999 to October 2007.
+Their ﬁndings show that neither of the prices leads or lags consistently over time. Therefore, both prices
+should be monitored at the same time and neither of them can be taken as the oil price indicator.
+Furthermore, Candelon et al. (2013) examined the short term relationship between spot and futures oil
+prices using weekly data during rises and declines in the market applying the Granger causality test.
+Their study involved a number of crude oil markets, 32 altogether. They found that Brent and WTI
+are the main benchmarks, where WTI is found to be dominant in situations where extreme oil price
+rises are experienced. They came to the same ﬁnding as Bekiros and Diks (2008) in that both prices
+are important price setters during turbulent times. A wavelet approach is another method used to
+study the short run lead–lag relationship. For example, Polanco-Martínez and Abadie (2016) applied
+this technique to test the short term relationship between WTI spot and futures prices for the period
+between February 2006 and April 2016. Their ﬁndings suggest the existence of a bi-directional lead–lag
+relationship in the short run between spot and futures prices for this period, which indicates that
+the two prices react simultaneously to new information. Similarly, Alzahrani et al. (2014) analysed
+WTI spot and futures prices using the linear and non-linear Granger causality models with help of
+wavelet approach from February 2003 until April 2011. The outcomes of this study give evidence of bi-directional causality between oil spot and futures prices at different time periods. Additionally,
+the results revealed a bi-directional causal relationship during the recent ﬁnancial crisis highlighting
+the importance of monitoring both prices.
+On the other hand, a more recent study conducted by Ding et al. (2014) suggests that at some
+points in time futures prices may work as the underlying mechanism of spot prices, especially in times
+with higher oil returns. The explanation for that can be that higher returns increase speculation in
+the futures markets, which as a result, increases future prices. The spot price then follows the futures
+markets price levels and spot prices rise accordingly. They conducted their research with WTI weekly
+data from 1996 to 2012, noting that oil prices started to increase in 2003 and reached a peak during the
+summer of 2008. Ding et al. (2014) also argued that an increase in futures oil markets speculation is
+the reason for upward trends in oil markets. This is consistent with Singleton (2013) who also claims
+that speculation in futures markets increases oil spot prices. This would mean that futures prices
+would lead the spot prices and will have a larger impact on the formation of oil prices. However,
+Hamilton (2009, 2014) disagrees with the outlined argument and he believes that crude oil supply and
+demand should be considered as the main oil price setter.
+Even though many researchers agree on futures prices to be an oil price setter, it is a substantial
+point to test during different crises periods, as prices behaviour have been identiﬁed to be dynamic
+and situations of high market uncertainty can impact on prices patterns. It is also important to note
+that data frequency seems to affect the econometric outcomes signiﬁcantly.
+5. Major Shocks in the Oil Markets and Structural Breaks
+The uncertainty in the oil market caused by repeated price jumps is a major area of concern, as it
+considerably increases the costs to businesses due to price uncertainty, which makes the cost planning
+process very difﬁcult. Some critical events were identiﬁed to examine in which way the lead lag
+relationship has been considered by researchers to date. For example, the First Gulf war in 1990–1991,
+the Asian Financial crisis in 1997–1998, the US Terrorist attack in 2001, and the Global Financial crisis
+in 2008–2009. Crude oil as a commodity is not only impacted by supply and demand shocks, but also
+by business cycles and by the world’s economic and ﬁnancial situation. The discussion that follows is
+structured around a selection of events that have been considered as major economic and ﬁnancial
+breakpoints and that have been associated with dramatic behaviour in the oil market.
+A typical feature of oil markets is frequent oil price volatility. At times of shocks, political
+instabilities and economic cycles, oil prices commonly exhibit signiﬁcant ﬂuctuations that can advance
+into structural breaks. Structural break, or a structural change, is an unexpected shift in a time series
+that can lead to huge forecasting errors and unreliability of the model in general (Gujarati 2009).
+Therefore, researchers try to avoid the impact of the structural changes on econometric testing by
+including structural break analysis (Charles and Darné 2014) or by dividing the tested period into
+sub-periods according to shocks or crises (Bouri 2015). Many researchers seem to agree on the
+importance that breakpoints have in econometric modelling (Lee et al. 2010; Salisu and Fasanya 2013;
+Charles and Darné 2014; Mensi et al. 2014). Controversially, some researchers (Park and Ratti 2008;
+Kilian and Park 2009) analysing crude oil prices and the US stock markets during shock periods
+do not apply the structural break approach to support their studies. The structural break issue is
+another area of research that is subject to signiﬁcant controversies, and therefore care is needed when
+looking at oil markets dynamics. However, most of the reviewed studies seem to be concerned about
+the implications of breakpoints, and as such they tend to apply structural break techniques in their
+econometric testing. For example, Charles and Darné (2014) analysed volatility persistence between
+1985 and 2011 focusing on shocks during this time. They found that oil price forecasting is affected
+by structural breaks, and these breaks should be included in the analysis to improve econometric
+testing. Likewise, Lee et al. (2006) and Narayan and Narayan (2007) were some of the ﬁrst authors
+to ﬁnd structural breaks to be an important factor in volatility testing adding the need to split data
+samples according to the breakpoints. Morales and Andreosso-O’Callaghan (2017) further pointed out the necessity of structural break inclusion using the Bai–Perron structural break test. Ma et al. (2017)
+applied the rolling window approach to capture and reduce the impact of structural breaks. They found
+this approach to be a better forecasting predictor than data analysis looking at the whole tested period
+at once, as the results for long periods could omit or distort the signiﬁcant impact of speciﬁc events.
+Therefore, it is important to divide the tested period according to structural breaks or to carefully select
+window sizes for moving/rolling window approaches.
+Another approach on how to deal with signiﬁcant changes in oil time series was conducted
+by Ahmadi et al. (2016) who investigated oil price shocks and volatility using the structural vector
+autoregressive (SVAR) model from 1983 until 2014. The discussion includes oil speciﬁc shocks together
+with the macroeconomic situation, where they split the data sample into two sub periods. The ﬁrst
+sub period includes data from 1983 until May 2006 and the second sub period starts from May 2006
+until 2014. The reasoning behind their selection is subject to dividing the sample into a period prior
+to the Global Financial Crisis and a period including the Global Financial Crisis. Their main ﬁnding
+shows that various shocks inﬂuence the volatility outcomes by a different magnitude, which relates to
+both chosen sub periods. Moreover, their research includes the impact of oil price shocks and volatility
+on agricultural and metal commodities. The results suggest that oil price shocks inﬂuence the other
+commodity markets during shocks, which is even more evident after the Global Financial Crisis in
+2008. However, each commodity market must be analysed separately to see the magnitude of speciﬁc
+oil price shocks and how they affect the market.
+Some researchers point to the need to understand price dynamics during times of distress, shocks
+and crises and the importance of identifying structural breaks that will help to split the data sample to
+consider speciﬁc periods of turmoil. Researchers looking at this line of study seem to argue for the
+need to carefully consider breakpoints as they show different dynamics between oil spot and futures
+prices. For example, the First Gulf War in 1990–1991 caused oil prices to increase by 100 percent from
+$20 to $40 per barrel due to supply disruption initiated by Iraq entering Kuwaiti territory. The Asian
+Financial Crisis in 1997–1998 affected oil price levels by a reduction in oil consumption in Asia, mainly
+China as the major oil consumer, reducing prices from $20 to $13 per barrel. The US terrorist attack
+in September 2001 likewise had a negative impact on oil prices affecting air travel worldwide for a
+short period of time. Similarly, the Global Financial Crisis in late 2000s generated a rapid increase and
+then sudden drop in oil prices caused by oil demand decline, mainly in construction and transport
+sectors, where oil prices reached the historical high of $150 per barrel followed by a rapid drop to $40
+per barrel.
+5.1. The First Gulf War
+During the First Gulf war in 1990–1991, Iraq entered Kuwait, which caused oil supply disruption.
+The affected area accounted for nearly 9 percent of the world oil production and both countries suffered
+ﬁnancial losses. This caused their government revenues to decline and the world oil price to rise
+from $20 to $40 per barrel. This shock in the oil market lasted only for a short period and prices
+returned to their pre-shock levels quickly, as the excess capacity of Saudi Arabia helped to restore oil
+production levels (Hamilton 2013). A number of researchers studying oil markets dynamics have tried
+to identify structural breaks, which would help them highlight periods of extraordinary behaviour
+during this period. For example, Park and Ratti (2008) studied oil price shocks and stock markets
+between 1986 and 2005 and found signiﬁcant oil price changes in 1990–1991, which corresponds to
+the First Gulf war period. However, they did not apply any structural break analysis in their study.
+Salisu and Fasanya (2013) examined Brent and WTI oil prices from 1986 to 2012 and identiﬁed two
+structural breaks, the ﬁrst break was identiﬁed the year 1990 and the second in the year 2008. Likewise,
+Morales and Gassie-Falzone (2014) found multiple structural breaks in oil markets using the Bai–Perron
+test. Similarly, Charles and Darné (2014) examined oil prices between 1985 and 2011 and found periods
+with high price changes in 1990. The ﬁndings suggest that the level of uncertainty was very high
+during this period, which could have a major impact on econometric testing and estimated results.
+
+The reviewed literature does not seem to be looking at the lead lag relationship over this period,
+highlighting the need to develop further studies that help evaluate oil prices behaviour to identify if
+there is a leading price for this shock period and the implications for oil markets players.
+5.2. The Asian Financial Crisis
+The Asian ﬁnancial crisis in 1997–1998 started in the currency market, where the collapse of
+Thai baht nearly drove the country to bankruptcy. The economic slowdown in Thailand impacted
+other Asian countries and together with China (the main oil consumer in Asia) caused lower demand
+followed by decrease in oil price from $20 to $13 per barrel. This corresponds to Hamilton (2003)
+ﬁndings where he suggests that during the Asian ﬁnancial crisis oil prices dropped by 50 percent during
+1997 and 1998. This regional crisis had an impact on oil prices for a short period and prices returned to
+pre-1997 levels by 1999. Ozdemir et al. (2013) studied Brent spot and futures prices from 1990 and 2010
+and found many minor structural breaks together with some major breaks. They pointed out that the
+Asian Financial Crisis period affected the oil market and the global economy, noting that from the year
+1998 the oil market became more volatile. Also, Wang and Wu (2012) and Wang et al. (2016) suggested
+that, during the Asian crisis, oil prices were impacted by lower oil demand. Similarly, between 1993
+and 2009, Morales and Morales and Andreosso-O’Callaghan (2017) identiﬁed the Asian Financial
+Crisis as a signiﬁcant period in the Brent and WTI oil markets affecting prices and bringing uncertainty
+to the market. Their ﬁndings show that uncertainty during shocks may impact government decisions
+concerning energy policies.
+The analysed studies identiﬁed the Asian Financial crisis as a signiﬁcant blow to the oil market,
+but they did not consider the lead–lag relationship between spot and futures prices in this period.
+Consequently, it seems that studies looking at crises events are not noticeably concerned about the
+lead–lag relationship.
+5.3. The US Terrorist Attack
+In September 2001 the US terrorist attack (known as 9/11) on the World Trade Centre in New York
+caused a signiﬁcant decline in oil prices. The Islamic terrorist group Al-Qaeda used two American
+Airlines planes, which crashed into the Twin towers, and a third plane crashed into the Pentagon
+in Virginia. A fourth plane was directed to Washington DC, but ended up crashing in a ﬁeld in
+Pennsylvania. This incident caused great panic and fear of air travel, which decreased oil demand and
+oil prices fell by 35 percent by November 2001, however the OPEC (Organisation Petroleum Exporting
+Countries) decision to cut oil production quotas in 2002 pushed the prices up again. Fernandez (2004)
+analysed the effects of the 9/11 2001 attack on oil prices and found a break point corresponding to the
+attack. Sadorsky (2012) study on oil price volatility between 2001 and 2010 revealed large volatility
+spikes during September and November 2001. This ﬁnding is consistent with Wang and Wu (2012) and
+Morales and Andreosso-O’Callaghan (2014). Wang et al. (2016) also found substantial oil price changes
+during this period followed by a quick recovery driven by strong economic activity and OPEC’s
+decision to cut production. The oil price decrease of 35 percent was signiﬁcant and above normal.
+This episode strongly impacted the oil markets for a short period of time; however, the extant
+studies do not seem to look at the lead–lag relationship between crude oil spot and futures prices
+during this period.
+5.4. The Global Financial Crisis
+In late 2000s, the world economy suffered a major disruption, due to the unfolding of the Global
+Financial Crisis whose origins can be found in the US subprime mortgage market. This episode was
+surrounded by substantial instability affecting major ﬁnancial markets with ramiﬁcations to the real
+economy and spillover effects to the oil market. Oil prices had increased to $150 per barrel by July 2008
+and fell to below $40 by the end of 2008. This was due to stagnant oil supply and increasing demand
+from emerging economies. Salisu and Fasanya (2013) and Charles and Darné (2014) found high oil price changes with structural breaks during December 2008 and January 2009 matching the Global
+Financial Crisis period. Equally, Liu et al. (2013) identiﬁed presence of spikes in the series in late 2008
+triggered by the crisis. Ozdemir et al. (2013) recognised structural breaks in November 2008 for Brent
+spot and futures prices and suggested that the break should be incorporated in econometric testing as
+the outcomes can be considerably different. Furthermore, Zhang and Wang (2013), Zhang and Li (2016)
+and Zhang et al. (2015) found shocks in oil prices in late 2008, which affected spot and futures oil
+prices. This suggests that the era of the Global Financial Crisis should be monitored and carefully
+analysed for forecasting purposes.
+The studied literature agrees on the importance of the Global Financial Crisis and highlights
+its impact on oil market spot and futures prices. The examination of crude oil markets during
+shock periods could go into more detail on the issue of identifying the leading price for this period.
+This would help investors and oil market participants to quickly follow and adjust their strategies in
+the event of a similar occurrence.
+The four major crises discussed in this section highlight the signiﬁcance of shock periods and their
+implications and effects on crude oil markets, which have a major impact on oil dependent countries
+with knock on effects on oil producing economies. However, there is also a need to explore the lead–lag
+relationship between crude oil spot and futures prices, which could point to the dominant price in
+times of uncertainty and help with investment and decision-making strategies.
+6. Oil Volatility and Forecasting
+Oil price ﬂuctuations and changes in volatility depend on supply and demand levels, business
+cycles, level of speculation, political activities such as wars, and economic and ﬁnancial crises.
+Investment and strategic decisions are heavily dependent on oil price levels and volatility phases.
+Increased levels of volatility and uncertainty lead to higher price risk in the oil market. Ferderer (1996)
+analysed volatility in the oil market and found that shocks have an asymmetric impact on oil prices
+and the economy. That means that increased oil volatility has a negative impact on the economy
+as there is higher uncertainty in the oil market. This is consistent with an earlier study conducted
+by Mork et al. (1994) who also found signiﬁcant asymmetries between oil price volatility and the
+macroeconomy affecting the GDP of seven OECD countries. Sadorsky (1999) also suggest that
+oil price ﬂuctuations affect economic activity, but there is little impact of economic activity on oil
+price levels. In times of greater oil price volatility investors tend to hedge more against this risk
+to be able to plan their operations and help them with decision making processes (Sadorsky 2006;
+Salisu and Fasanya 2013; Morales and Andreosso-O’Callaghan 2014). Events impacting crude oil
+volatility make it hard to predict oil prices, which increases uncertainty. Crude oil volatility has
+been studied by a number of researchers seeking to understand its behaviour (Agnolucci 2009;
+Oberndorfer 2009; Nomikos and Pouliasis 2011; Aloui and Mabrouk 2010; Zhang and Wang 2013;
+Charfeddine 2014; Charles and Darné 2014, Chkili et al. 2014; Klein and Walther 2016; Wang et al. 2016;
+Nguyen and Walther 2018). Similarly, Ozdemir et al. (2013) examined Brent crude oil spot and
+futures prices from 1991 until 2011 and found that volatility persistence was very high for both prices.
+They also pointed out that spot and futures prices can behave unpredictably in the long run indicating
+no arbitrage opportunity with little possibility for speculation.
+Morales and Andreosso-O’Callaghan (2017) analysed oil markets during the Asian and Global
+Financial Crises using the T-GARCH (1,1) volatility model and Bai–Perron structural break test.
+They applied the econometric models to daily data from 1993 until 2009. They found that during
+the Global Financial Crisis volatility persistence had a bigger impact on oil markets than during the
+Asian crisis. They explain that this is due to the higher magnitude of the effect on the world economy
+than the regional impact of the Asian Financial Crisis. This research ﬁnding suggests that not only
+the triggers of the crises, but also their geographic location, play a big part in analysing oil markets
+behaviour. Likewise, signiﬁcant structural changes were evident in both cases. Bagchi (2017) conducted a volatility analysis for multiple crude oil markets, for BRIC (Brazil,
+Russia, India and China) countries. The methodology adopted in this research includes the Asymmetric
+Power Autoregressive Conditional Heterokedasctic (APARCH) model. This approach considers the
+issues of long memory behaviour, speed of market information and leverage effects. The author
+applied this method to weekly closing prices from 2009 to 2016. The data excludes the Global Financial
+Crisis period and looks at post-crisis period only as the “post global recession period” is considered as
+the standard benchmark by the Business Cycle Dating Committee of US National Bureau of Economic
+Research (NBER), which is the focus of this research. The ﬁnding shows that there are evident
+asymmetries between good and bad news in the market. This essentially means that negative shocks
+will create greater volatility in the oil markets than positive shocks.
+Other recent studies examining oil market shocks with connection to ﬁnancial markets are
+Broadstock et al. (2016), Ftiti et al. (2016), Sanusi and Ahmad (2016) and Öztek and Öcal (2017).
+Broadstock et al. (2016) point out that oil shocks affect the ﬁnancial sector as inﬂation rises increasing
+the costs for businesses, which puts signiﬁcant pressure on many ﬁrms and industries. Therefore,
+high volatility increases the level of uncertainty in the oil market, generating signiﬁcant pressures
+on the economy and ﬁnancial markets. Phan et al. (2015) also discuss energy price shocks and their
+negative effects on rising inﬂation. They indicate that there are trade-offs between risk and return with
+the possibility to hedge spot and futures contracts in times of instability.
+Another interesting study by Andriosopoulos et al. (2017) investigated oil markets with a
+connection to ﬁnancial markets in ‘troubled’ European countries including Greece, Portugal and
+Ireland. The volatility part of this research examined the nature and effects of energy price volatility.
+GARCH models were applied to data starting in 2004 and ending in 2014. The evidence shows that
+there are apparent changes of energy volatility during the ﬁnancial crisis for the named European
+countries, which was established by splitting the sample into three sub periods- pre-crisis, crisis
+and post-crisis.
+In line with recent studies, Ma et al. (2017) analysed oil futures volatility, where they tried to put
+forward a new modelling approach, which included a signiﬁcant jump component in a heterogeneous
+autoregressive model of realised range-based volatility (HAR-RRV). The research shows that their
+methodology to assess oil price volatility improves the econometric testing signiﬁcantly as it includes
+a jump component, which is required when analysing oil prices. Moreover, their new approach
+using 5-min high frequency data for one-month futures highlighted the strength of GARCH-type
+components, which showed the most accurate volatility forecast in the oil futures markets.
+Haugom and Ray (2017) also examined crude oil volatility for futures markets using high
+frequency data for Brent crude futures oil market traded on the Intercontinental Exchange (ICE).
+The sample period starts in 2006 and ends in 2016 giving over 2500 trading days. The main focus of
+their attention was on volatility, liquidity, speculation and hedging activities. The outcomes showed
+that speculators and hedgers have a very different effect on oil volatility and return distributions.
+Speculation activity and speculative trading go in hand with high oil price volatility. On the other
+hand, hedgers and hedging activities have a reverse effect, where the volatility is reduced when
+more hedgers enter the oil market. This is even more evident in shock periods affecting oil volatility.
+Chang et al. (2011) used dynamic multivariate GARCH models to examine hedging strategies for
+Brent and WTI to ﬁnd an optimal hedge ratio. Their ﬁndings show different strategies are applied for
+the two benchmarks.
+It is evident that volatility in the oil markets goes in hand with oil market uncertainty due to
+numerous oil price jumps. There is a vast number of studies dealing with this issue as understanding
+oil price volatility affects investments and planning strategies. However, this line of research does
+not seem to consider the lead lag relationship. This is an aspect that could be analysed even further
+by looking at the volatility of spot and futures prices separately. In this way, it would be possible to
+identify which market is exhibiting higher levels of volatility and signal to the market which is being affected more by shocks. This would offer relevant information to market players when trying to cope
+with the effects of turbulent times on the oil market.
+7. Market Efﬁciency
+Over the past decade, there have been major controversies around the Efﬁcient Market Hypothesis
+(EMH) theory introduced by Fama (1965) and its application to market behaviour. EMH is based on
+the principle that future prices cannot be predicted by past prices, which means that prices follow a
+random walk and no information based on past price behaviour can be used to predict future trends.
+In other words, excess price returns are not based on past price movements. This assertion has a
+number of implications, mainly for academics when analysing ﬁnancial theories, but also for policy
+makers, investors and their strategies. When looking at the relationship between oil spot and futures
+prices, it is essential to test and identify if and when oil markets are found to efﬁcient or inefﬁcient.
+Efﬁciency analysis could highlight periods of potential need to change strategies in order to maximise
+proﬁts and reduce oil price risk uncertainty.
+The reason for testing this theory became more relevant with increased speculation in the markets
+and the increasing belief that markets are inefﬁcient as suggested by the behavioural ﬁnance stream
+of research. The founder of the EMH, Eugene Fama, won the Nobel prize for economics in 2013
+together with Robert Shiller. Schiller, a ﬁnancial behaviourist, postulates that the EMH is only a
+half-truth and that the markets show behavioural signs over time. The analysis of crude oil prices
+over time show that there have been numerous uncertainty events in the oil market, which had great
+impact on oil prices. Davidson (2008) and Kaufmann and Ullman (2009) pointed out how events,
+such as political unrest, natural disasters, OPEC decisions and ﬁnancial distress, contributed to the
+instability of oil markets and triggered some of the main jumps in oil prices behaviour. Instability
+in the oil markets increases uncertainty, which is followed by higher oil price volatility and lower
+conﬁdence in the oil market. Higher volatility also increases risk and makes it harder to predict future
+oil behaviour. Kaufmann (2011) added that increasing speculation is another cause of instability in
+oil markets together with the fundamentals of supply and demand levels, which justiﬁes the need to
+understand the lead–lag relationship between oil prices during these times.
+Charles and Darné (2009) studied Brent and WTI efﬁciency for daily spot prices between 1982
+and 2008 using variance ratio tests. Their main results suggest that the Brent market is following the
+random walk hypothesis, while WTI market is inefﬁcient between 1994 and 2008. They explain that
+this may be due to the deregulation process, which took place in 1994. Similar ﬁndings were presented
+by Serletis and Andreadis (2004). Controversially, Tabak and Cajueiro (2007) found the WTI market
+to be more efﬁcient than Brent between 1983 and 2003 using the rescaled range Hurst analysis. Also,
+Gu et al. (2010) analysed the WTI and Brent between 1987 and 2008 implementing the multifractal
+de-trended ﬂuctuations method and found that both markets became more efﬁcient in the long run.
+On the other hand, Wang and Wu (2013) suggested that futures oil markets are inefﬁcient, where
+inefﬁciency is more evident in the long run than in the short run. Furthermore, Ozdemir et al. (2013)
+suggested that Brent spot and futures prices are unpredictable, which means that there is no arbitrage
+opportunity. This supports the random walk hypothesis under EMH. They used Brent spot and futures
+monthly price data in their analysis, which suggests that the results might be dependent on data
+frequency as lower frequency data do not include daily jumps in the series. These inconsistencies
+indicate the need to examine spot and futures markets for different shock time periods to establish the
+efﬁciency of the leading and lagging prices. Likewise, the EMH together with the Behavioural Finance
+stream of literature can contribute to understanding lead–lag relationship dynamics. Speciﬁcally, if the
+markets are found to be efﬁcient then there would not be major insights in terms of one price that
+dominates the other as they would be random, which would indicate no correlation, cointegration and
+other relationships between two prices. However, the literature suggests that during times of market
+distress there are changes in dynamics, which indicates issues to be considered regarding controversies
+on EMH and the impact on oil markets dynamics and the lead–lag relationship. Lean et al. (2010) examined daily spot and futures oil prices for WTI from 1989 to 2008 using
+the mean-variance and stochastic dominance approach. They found that with increasing oil price
+ﬂuctuations, investors tend to rely more on derivatives markets. Their ﬁnding suggests that speculation
+in oil futures stabilises the oil market. Similarly, Kim (2015) pointed out that oil futures prices have a
+positive impact on past price changes, which means that futures markets should improve the oil price
+efﬁciency over time. This is in contrast with Hamilton (2009), Fattouh et al. (2013) and Hamilton (2014)
+who believe that speculation through futures markets has no impact on oil prices. A more recent study
+by Gu and Zhang (2016) analysed the efﬁciency of the WTI crude oil market using multifractional
+methods. They include supply and demand levels, geopolitical events, natural disasters and economic
+activities in their testing as some of the main indicators of oil markets behaviour. They also considered
+speculation as an inﬂuential player in oil price settings. They argue that speculation can stimulate
+oil prices in two ways. Firstly, speculators can invest in the spot market with the real commodity by
+buying oil at low prices and selling it at high prices. Secondly, speculators can speculate in the futures
+markets, which is a more common activity. In this way speculators can contribute to market efﬁciency
+and by making frequent trades in derivatives markets through oil futures, it may be possible that
+futures prices become a leading indicator over spot prices.
+Jiang et al. (2014) also studied the efﬁciency of crude oil markets. They examined daily WTI
+futures prices from 1983 to 2012 applying the Hurst index and bootstrapping techniques to test the
+weak form of market efﬁciency. They examined the whole dataset (from 1983 to 2012) and also two
+and three sub-samples (two sub-samples period is divided according to the North American Free
+Trade Agreement in 1994, and the three sub-samples period have splits in 1992 and 2003). The ﬁndings
+for the whole period show that the WTI futures market is efﬁcient, but when they split the sample
+into three sub-periods based on the Gulf war and the Iraq war, market efﬁciency was reduced during
+the Gulf war. The two sub-periods split based on the North American Free Trade Agreement in 1994
+showed that the market is inefﬁcient. These ﬁndings suggest that increased volatility has an impact
+on oil price efﬁciency as these periods change the dynamics of econometric testing. The presented
+studies considered only a few events impacting oil prices efﬁciency. As a result, further analysis of the
+lead–lag relationship between spot and futures prices regarding oil market efﬁciency could offer an
+improved view on oil market efﬁciency dynamics during times of distress.
+8. What Have We Learned about the Lead–Lag Relationship?
+The analysis of the behaviour and relationship between crude oil spot and futures prices offered
+some interesting outcomes. There is no doubt that both prices are very important for investment and
+strategic planning through forward and futures contracts. Even though, the futures markets started
+to operate after the spot markets, they quickly grew in importance for investment, speculation and
+hedging activities.
+A key contribution of the conducted literature review is in revealing the dominance of futures oil
+prices for speciﬁc time periods. In general, most researchers found that in some points in time, futures
+markets dominate the spot markets, mainly due to high volumes of speculation in derivatives markets.
+This would suggest that futures prices are leading the spot prices and as such they should be taken as
+the oil price indicator. However, this ﬁnding does not hold for all time periods and depends on data
+frequency, sampled periods and modelling techniques. It also shows diverse results in cases where the
+period includes episodes of signiﬁcant shocks in the market.
+The majority of the ﬁndings from the literature for the long run relationship revealed the existence
+of a bidirectional relationship between crude oil spot and futures prices, which suggests that both
+markets co-move over time. On the other hand, the outcomes for the short run relationship brought
+some controversies as most researchers did not ﬁnd evidence of any short run relationship or in some
+cases the ﬁndings suggested that futures prices lead at some points in time, but not continuously.
+Table 3 offers a summary of existing research examining the lead–lag relationship where it is possible to observe how futures prices are playing a dominant role. The selection offers a general overview of
+research studies from earlier papers to more recent analysis.
+Table 3. Brief Summary of Leading Variable.
+Existing Research
+Schwarz and Szakmary (1994)
+Gülen (1998)
+Pindyck (2001)
+Alquist and Kilian (2010)
+Wang and Wu (2013)
+Zhang and Wang (2013)
+Kim (2015)
+
+Direction of Leading Price
+Futures
+Futures
+Futures
+Futures
+Futures
+Futures
+Futures
+
+→
+→
+↔
+→
+→
+→
+↔
+
+Spot
+Spot
+Spot
+Spot
+Spot
+Spot
+Spot
+
+Note: → means the direction of the relationship running from futures to spot prices, ↔ means that both prices
+inﬂuence each other.
+
+The main research outcomes suggest that both prices should be considered when examining oil
+price behaviour. If we look at the existing research outcomes for the volatility analysis, we clearly
+note that oil prices are greatly impacted by economic and ﬁnancial shocks, but there is not enough
+evidence of volatility analysis in connection with the lead–lag relationship. Similarly, the outcomes
+from research studies looking at market efﬁciencies showed that oil prices appear to be more efﬁcient
+over speciﬁc time periods. Thus, more research studies looking at major crisis events are needed to
+understand the lead–lag relationship between crude oil spot and futures prices. In this way, future
+research should aim to offer further insights in the ﬁeld by helping to establish the dominant crude oil
+price indicator during times of signiﬁcant market turbulence. This will assist with decision-making
+and investment strategies in the course of shock periods as they are likely to happen again, due to the
+fact that crises events are considered as economic and ﬁnancial corrector mechanisms and as such are
+inherent part of the business cycle.
+9. Conclusions
+The aim of this literature review was to offer insights on the analysis of crude oil spot and
+futures prices when considering their lead–lag relationship, as this is an area of study subject to
+signiﬁcant controversies and it highlights a lack of research during times of severe market uncertainty.
+Understanding spot and futures prices dynamics could help to offer insights into relationship dynamics
+during times of shocks that would be of help to major economic players when looking at the impact
+of oil prices on the functioning of their businesses and the economy as a whole. The long term and
+short term dynamics, during major shocks such as the ﬁrst Gulf war, the Asian Financial Crisis in
+1997/98, the 2001 US terrorist attack and the Global Financial Crisis, could highlight changing trends
+in this relationship.
+The conducted study has led to the identiﬁcation of numerous controversies about the leading
+price, as for example, Pindyck (2001) found no evidence of dominance between spot and futures prices,
+compared to Alquist and Kilian (2010) and Zhang and Wang (2013) who suggest that futures prices are a
+better oil market price indicator. There is a substantial number of studies (Schwarz and Szakmary 1994;
+Gülen 1998; Alquist and Kilian 2010; Wang and Wu 2013; Zhang and Wang 2013) suggesting that
+futures prices may be the leading price, especially due to signiﬁcant levels of speculation in derivatives
+markets. However, this outcome seems to be connected to data frequency and the chosen time periods
+under analysis, which highlights the need for further research in this area as the lead–lag relationship
+could exhibit different patterns over time depending on the macroeconomic situation. Establishing
+the triggers of crises is of major importance, as the causes of a shock can play a large role in oil prices
+behaviour. The extant analysis of existing literature examining crude oil spot and futures, adds value
+by stressing the core ﬁndings, which is beneﬁcial for investors and policy-makers as it offers a clearer picture on crude oil markets. It also helps with investment decisions applied through hedging and risk
+minimising strategies during crises.
+Understanding the lead–lag relationship between crude oil spot and futures prices could also help
+with hedging strategies during situations of economic and ﬁnancial distress, mainly for oil dependent
+industries. To decrease the uncertainty and oil price risk, the use of hedging through futures markets
+is applied. The existing ﬁndings in the literature show some interesting results, such as that hedging
+does not decrease oil price risk exposure (Berghöfer and Lucey 2014). However, the data sample and
+frequency are very important issues to bear in mind, as a less volatile sample period could exhibit
+different outcomes than in times of shocks or crises, where hedging could decrease the uncertainty in
+the market and be more effective.
+The reviewed literature offers important insights into crude oil markets; however, there is a lack
+of studies considering issues such as volatility, market efﬁciencies and implications for the lead–lag
+relationship in the context of economic and ﬁnancial crises. Therefore, there is a need to further explore
+these issues as the literature shows a lack of research and conﬂicting ﬁndings that require clariﬁcations
+in the context of the lead–lag relationship between crude oil markets during times of distress. This could
+be managed by applying other methods to test the relationship such as Multivariate Threshold
+regression, which is a dynamic nonlinear technique applied by Huang et al. (2009) or Multivariate
+density forecast, which can be applied during unstable periods as it accounts for structural breaks in
+the series. Also, the copula approach as applied by Reboredo (2011) could offer interesting insights into
+co-movements in oil prices. In addition, more attention should be paid to unexpected oil ﬂuctuations
+as they inﬂuence the economic performance of oil dependent countries, which is a relatively new area
+of research in the ﬁeld.

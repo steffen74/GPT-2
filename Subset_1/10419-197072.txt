@@ -1,0 +1,700 @@
+Introduction
+In 2015, the United Nations General Assembly adopted the Sustainable Development Goals
+(SDGs) (UN 2015), which define an ambitious development agenda to be achieved by 2030. Comprised
+of 17 goals and 169 associated targets, the SDGs provide quantitative and qualitative specifications
+of the economic, social and environmental dimensions of sustainable development. While the SDGs
+should be pursued in a comprehensive and integrative manner, there exist currently no integrated
+development pathways that achieve the 17 SDGs. Proving the feasibility of sustainable pathways that
+meet all SDGs can provide helpful guidance to the global community during the SDG implementation
+process. The key question is: how can all 17 SDGs be achieved together?
+The potential for diverse trade-offs and synergies across SDGs has been recognized
+(Griggs et al. 2014; ICSU and ISSC 2015; McCollum et al. 2017; Nilsson et al. 2016). It has been shown, for example, that through tackling multiple goals, such as climate mitigation, air pollution control
+and energy access, at the same time, overall costs can be lowered substantially (McCollum et al. 2011).
+Technological innovation, efficiency gains and transformation of behavior can help resolve some of
+the trade-offs, which are currently observed or expected across social, economic and environmental
+policy objectives. Hence, trade-offs should not necessarily be viewed as permanent, but rather as an
+indication of transformation needs.
+With the Shared Socio-economic Pathways (SSPs) (Riahi et al. 2017) the global change research
+communities have developed scenarios for integrated assessments, which are used for example by
+the Intergovernmental Panel on Climate Change (IPCC) and which already cover several of the SDG
+targets (e.g., SDG13). However, the SSPs do not comprehensively cover all SDGs, which illustrates the
+need to develop novel integrated pathways.
+In this paper, we provide a starting point for a more comprehensive assessment of sustainable
+development pathways by describing the sustainability and knowledge gaps within the SSPs. We show
+that even the most optimistic pathway currently used by scientific community falls short of several
+dimensions of sustainable development. To support the UN 2030 agenda scientifically and prove the
+SDG’s feasibility, we call on the research community to expand existing pathways and methodological
+approaches to systematically assess what is required to achieve the SDGs and sustainable development
+for all thereafter. This analysis is intended as a contribution to The World in 2050 (TWI2050) initiative1 ,
+which seeks to scientifically assess the feasibility of achieving the SDGs in unison and which will build
+parts of its analysis on our work.
+Section 2 provides background on the methodology. Section 3 introduces the results. Section 4
+provides a discussion and concluding remarks.
+2. Methodology
+2.1. Applying the Sustainable Development Goals (SDGs) in the Long-Run
+The SDGs constitute the foundation of our analysis, as they define the politically agreed social,
+economic and environmental aspirations of the international community (UN 2015). The majority of
+the SDGs have 2030 as their running period, but some of the targets should be realized already by
+2025 or even 2020. While the SDGs provide a first reference point, assessments of the sustainability
+of development pathways require longer time horizon. This applies especially when looking at
+earth-system processes where changes might only materialize over decades (or even centuries). Climate
+change is such an example, where a long-term challenge of stabilizing temperature increase has
+implications for near term decisions concerning for example energy and transportation systems and
+the fulfilment of several other SDGs and vice versa (Sperling et al. 2016).
+To reflect this, Table 1 is categorizing the possible evolution of the numeric SDG targets
+(Appendix A) beyond 2030.2 This is a preliminary assessment of how the targets relate to long-term
+sustainability. Several SDG targets do not come with absolute target values but provide only an
+indication whether the related indicator value should increase or decrease, thereby requiring further
+interpretation. Many SDG targets cover multiple issues and indicators, which poses a challenge when
+classifying them. We identify three categories of SDG targets:
+
+(A) SDG targets where the level of progress reached by 2030 (or before) should be sustained
+indefinitely thereafter (e.g., universal access to services meeting basic human needs such as food,
+water, energy, education, and health services).
+
+The World in 2050 (TWI2050) initiative: www.twi2050.org.
+For each SDGs several numeric targets are provided. These are complemented by targets on ‘means of implication’, denoted
+in alphabetical order. Out of the total 169 SDG targets, we assess the 126 numeric targets, which define the quantitative or
+qualitative characteristics of the SDGs, and ignore the 43 targets dealing with means of implementation.
+
+B) SDG targets that constitute not a complete achievement by 2030, requiring further increases in
+ambition thereafter, as they are (B1) not ambitious enough considering current best practices (e.g.,
+protecting cultural heritage); (B2) do not consider possible future improvements (e.g., efficiency);
+or (B3) do not consider planetary boundaries (e.g., environmental targets).
+(C) SDG targets, which will have to be revisited post 2030 as they may not apply in the long run.
+Table 1. Sustaining and strengthening Sustainable Development Goal (SDG) targets beyond 2030.
+SDG Target
+Classification
+beyond 2030
+A. Sustain 2030 SDG
+target levels
+
+B. Increase ambition to
+close sustainability gap
+
+C. 2030 SDG targets
+might not apply
+
+Rationale
+
+SDG Targets
+
+A. Future efforts have to focus on sustaining the
+SDG target levels. Most of these targets relate
+to universal access to services (e.g., health) or
+eradicating adverse conditions (e.g., illnesses).
+
+1.1, 2.1, 2.2, 3.3, 3.8, 4.1,
+5.1, 6.1, 6.2, 7.1, 8.7, 9.1,
+10.3, 11.1, 11.2, 12.2, 14.4,
+15.2, 16.2, 17.1 *
+
+B1. Further effort required to close remaining
+gap (e.g., protect cultural heritage).
+B2. Dynamic update required to ensure
+progress along target dimensions (e.g.,
+maternal mortality, efficiencies).
+B3. Further effort required to stay within
+Planetary Boundaries (environmental & earth
+systems) (e.g., pollution).
+
+1.2, 4.4 , 8.6, 9.3, 10.2, 10.3,
+11.3, 11.4, 15.6, 16.1, 16.4
+1.5, 2.3, 3.1, 3.2, 3.4, 3.5,
+3.6, 3.9, 7.3, 10.6, 11.5,
+13.1, 13.2, 13.3, 16.5, 16.8
+6.3, 6.4, 7.2 , 8.4, 9.4, 11.4,
+11.6, 12.3, 12.4, 12.5, 12.6,
+12.7, 14.1, 14.2, 14.3, 14.5
+
+C. Reevaluation required to decide on ambition
+level beyond 2030.
+
+8.1, 8.2, 9.2, 10.1,
+
+* All targets that are not listed in rows B and C fall within A.
+
+Several targets and suggested indicators are not directly suitable for operational research and
+hence require further interpretation. Furthermore, the SDGs are very broad in scope. This poses
+a challenge for research groups, which need to arrive at a concise set of indicators representing
+sustainable development in 2030 and 2050 and beyond in their work. It will require reducing the
+complexity of the full set of SDG targets, while minimizing information loss. Targets selected need to
+be suited for scientific analysis, enable inter-comparison of results, while also being recognizable to
+decision-makers as representative of the SDGs.
+2.2. Identifying Sustainability and Knowledge Gaps in Shared Socio-economic Pathways (SSPs)
+Scenarios and pathways provide alternative futures and can be used to evaluate different policy
+options (Gea 2012; Nakicenovic et al. 2000). The SSPs (Riahi et al. 2017) are one example of such
+a framework. The research community developed the SSPs originally to inform climate change
+research for the assessments of the Intergovernmental Panel on Climate Change (IPCC). The SSP
+framework represents a suitable starting point for building more comprehensive analyses of sustainable
+development pathways, as it has undergone rigorous review, has been developed by a diverse research
+community, is known to policy makers and has been applied by modeling teams globally. The SSP
+framework provides five broad development trajectories that describe alternative futures. These differ
+in population development, economic growth, degree of cooperation, environmental awareness and
+several other characteristics.
+We take SSP1: Sustainability—taking the green road (O’Neill et al. 2017) as a starting point. By doing
+so, we chose a transition to a low-emissions future with a narrative that comes closest to the intention
+of the SDGs: “The world shifts gradually, but pervasively, toward a more sustainable path, emphasizing more
+inclusive development that respects perceived environmental boundaries. Increasing evidence of and accounting
+for the social, cultural, and economic costs of environmental degradation and inequality drive this shift. [ . . . ]”
+(full narrative in Appendix B). SSP1 describes a world that is quite different from the past development trajectory and political trends the world is currently experiencing. In SSP1 the global community
+works together to fulfill development targets. In more detail, scenario runs of SSP1 that meet the
+Paris Climate Agreement goal of holding warming to approximately 2 ◦ C (above pre-industrial levels)
+through limiting anthropogenic forcing of the climate system to 2.6 W/m2 by 2100 are followed
+(van Vuuren et al. 2011, 2017). We will refer to these runs as “SSP1-2.6”. SSP1-2.6 runs were chosen
+as they already meet the challenge of mitigating climate change and as it is the most ambitious and
+sustainable possible future within the SSP framework.
+We will match SSP1/1-2.6 with the 126 numeric of the 169 SDG targets to see which SDG targets
+are met by SSP1/1-2.6 and where sustainability and knowledge gaps remain. We compare SDG
+targets with quantifications and model outputs based on SSP1/1-2.6. The SSP Public Database
+(Version 1.1 (IIASA 2016)), the Wittgenstein Centre Data Explorer (Lutz et al. 2014) and literature
+using the SSP framework provide the data for this assessment. Model runs available in the
+database have been contributed by the following model frameworks: AIMES/CGE, GCAM4, Image,
+MESSAGE-GLOBIOM, REMIND-MAGPIE and WITCH-GLOBIOM3 . Depending on the model, some
+of the SSP data we assess are exogenous (e.g., population and education projections), others are model
+outputs (e.g., share of renewable energies).
+We initially scanned the numeric SDG targets and SSP database and literature to identify where
+matching information was available. Many SDG targets cover several topics that need more than one
+indicator or dimension to be represented appropriately. SDG targets can also be indicators themselves.
+In some cases these are the same or similar to the indicators suggested by Inter-Agency and Expert Group
+(IAEG) on Sustainable Development Indicators (United Nations Economic and Social Council 2017).
+We chose to focus on the SDG targets as closely as possible as they were also adopted together with
+the UN 2030 agenda. The closest matching indicator available from the SSP database or literature was
+used. Where target values are missing, it is a judgement call if a target has been achieved (e.g., SDG
+target 7.2 “By 2030, increase substantially the share of renewable energy in the global energy mix,”).
+In general, the SDG targets leave ample room for interpretation. Appendix C gives an overview of the
+selected indicators and for which SDG target we used them as a proxy.
+A sustainability gap shows that the select indicator within SSP1/1-2.6 does not meet a specific
+SDG target or indicator by 2030. A knowledge gap indicates that no quantitative information is
+available within the SSPs to provide information on an SDG target. As noted above, classifying
+and assessing SDG targets in this context poses several challenges. The classification provided in
+Section 3 has to be viewed as an approximation. The following sections provide detail on the individual
+indicators assessed.
+3. Results
+Figure 1 shows how SSP1/1-2.6 aligns with the SDGs and their targets. It shows which SDG
+targets are reached by SSP1/1-2.6 (category I) in time. It shows the sustainability gaps (e.g., addressing
+hunger or education) (category II) that remain in 2030 and in some cases even by 2050 or 2100 within
+SSP1/1-2.6. Figure 1 also introduces the knowledge gaps (category III) in the SSP framework, which
+does not quantitatively cover the majority of SDG targets (e.g., access to water or gender equality)
+or which only implies them within its narratives. This provides an indication of where future work
+is needed for research groups developing pathways and tools, going beyond a climate-only focus,
+to capture all SDG dimensions. In many cases, this will not be possible via quantitative indicators only.
+Narratives can be used to cover qualitative elements such as governance, cooperation, or behaviors.
+
+health coverage. Possible future trajectories of these individual causes of death can be translated to
+aggregate mortality trends where achievement of the SDG targets can be well represented by a general
+low mortality trajectory (Abel et al. 2016). SSP1 represents an overall low-mortality pathway, which
+is seen through increases in life expectancy globally, covering close enough SDG targets related to
+decreasing mortality (3.1–3.6, 3.9). Fertility is low in SSP1 (Kc and Lutz 2017), which is connected to
+the targets on sexual and reproductive health-care service (3.7) and (5.6). SDG 3 is also closely linked
+to SDG 5 on gender equality and SDG4 on education. Lutz et al. (2014) show that higher educational
+attainment of women leads to lower fertility rates.
+3.1.2. SDG Targets 7.2 and 7.3 on Renewable Energy and Energy Efficiency
+SSP1-2.6 runs mostly meet the energy efficiency (7.3) and the renewable energy targets (7.2).
+The latter does not provide a concrete target value quantification but calls for a “substantial increase”
+(UN 2015). The share of renewable energy in secondary energy increases twofold in most SSP1-2.6
+runs, to 17.6% to 28.4% in 2030 (IIASA 2016), where the majority of runs is above the 2015 level of
+around 18% (UN 2016). Annual energy intensity falls from 5.7 MJ/US$2005 in 2012 (UN 2016) to 3 to 4
+MJ/US$2005 in 2030 in SSP1-2.6 runs (IIASA 2016). In the long run, improvements in energy intensity
+outpace historic rates (van Vuuren et al. 2016).
+3.1.3. SDG Targets 8.1, 8.2, 8.5 on Economic Growth and Unemployment
+SSP1 follows a contraction and convergence approach: income levels of less developed countries
+will increase faster than those of more developed economies (Dellink et al. 2017). The growth rate of
+per capita GDP in least developed countries in SSP1 is 7.3% in 2030 (IIASA 2016), which meets the
+7% limit of SDG target 8.1. If one however considers a longer-term average, i.e., 2025 to 2035, the per
+capita growth rate is 6.5% in LDCs. The global growth rate of 3.9% per capita (IIASA 2016) indicates
+higher levels of economic productivity (8.2). Unemployment is close to 2% in the long run in SSP1
+(Dellink et al. 2017), which partly covers 8.5 on work for all, yet fails to cover the quality of work.
+3.2. SDG Target 9.4 on CO2 Intensity
+SSP1-2.6 achieves SDG target 9.4 on more sustainable industries in terms of a decrease in CO2
+intensities. From around 0.45 MtCO2 /year/billion US$2005 in 2015 (UN 2016) SSP1-2.6 runs reach
+0.12–0.22 MtCO2 /year/billion US$2005 in 2030 (IIASA 2016). However, no indicator beyond CO2
+intensities, such as recycling rates or circular economy that could characterize sustainable industries is
+available in the SSPs.
+3.2.1. SDG Target 10.1 on Income Inequality
+SSP1 provides information on income inequality across countries. The income Gini across
+countries falls from 0.66 in 2015 to 0.43 in 2030 (Dellink et al. 2017; IIASA 2016), as the income
+per capita of poorer economies grows stronger than that of more industrialized countries. SSP1
+projections on income inequality within countries also see declining Gini coefficients in all countries
+(Gidden et al. n.d.).
+3.2.2. SDG Target 11.6 on Air Quality in Cities
+SSP1-2.6. includes data on population living in areas affected by dangerous air pollution, partly
+covering target 3.9 on reducing the number of deaths and illnesses from pollution and contamination
+and 11.6 on air quality in cities. SSP1 accounts for significant improvements of air quality based on
+“faster rate of pollution control technology development, with greater effectiveness as compared to
+current technologies” (Rao et al. 2017). In addition, medium- and low income countries will quickly
+adapt best available technologies and experience strong enforcement of environmental laws. Despite
+large improvements in climate mitigation policy and energy access in SSP1-2.6, parts of the population are still exposed to levels of pollution above WHO recommended levels of PM 2.5 in 2030, especially
+in Asia (13% of population exposed to PM2.5 levels of above 35 µg/m3 ), the Middle East and Africa
+(8% above 35 µg/m3 ) (Rao et al. 2017). Details on urban pollution levels alone are not available.
+We conclude that the reduction in people affected by air pollution in general will result in improved
+air quality in cities and reduced deaths from air pollution, meeting part of the targets 11.6 and 3.9.
+3.2.3. SDG Target 15.2 on Halting Deforestation
+SSP1-2.6 runs perform well in terms of land-use change and meeting global aspirations under the
+SDGs. In most runs deforestation comes to a halt, in some forest cover increases slightly (start value in
+2015: ~4000 million ha. SSP1-2.6 range for 2030: 3881–4135 million ha) (IIASA 2016). However, while
+halting deforestation is an explicit target, this leaves considerable room for interpretation. Given that
+the SDGs are global goals, should this target only be applied at the global level or also at regional or
+national levels? How should the ambition level with regards to conserving and managing natural
+resources change between 2030 and 2050 to ensure long-term environmental sustainability? In this
+context, further consideration may be given to assessing changes by forest types or biomes and where
+such changes occur. This will also be important with regards to assessing progress towards other
+environmentally relevant SDG targets, such as halting biodiversity loss (target 15.5). There is the
+need to combine the quantitative analysis with additional qualitative considerations. The recently
+launched Forests, Agriculture, Biodiversity, Land, and Energy Project: Pathways for Sustainable Land
+Use (FABLE) (IIASA 2017) will further help in assessing interlinkages between development and
+environmental objectives in the land-use context across scales.
+3.2.4. SDG 13 on Climate Change
+The SDGs need to be achieved while limiting global warming and ensuring resilience to
+climatic change, which poses an additional constraint when assessing potential synergies and
+trade-offs between the various goals (Sperling et al. 2016). SDG 13 specifically refers to the United
+Nations Framework Convention on Climate Change (UNFCCC) as primary decision-making body on
+international climate change policy (UN 2015). The Paris Agreement reached in 2015 set the objective
+of limiting global warming to well below 2 ◦ C above pre-industrial levels, while also encouraging
+efforts to further confine the warming to only 1.5 ◦ C (UNFCCC 2015). SSP1-2.6 runs generally show a
+high probability of staying below 2 ◦ C, but a scenario with a more stringent carbon budget would be
+needed to meet the additional ambition level. The targets under SDG 13 on education, resilience and
+policies fall under category III of our assessment.
+3.3. Category II Where SSP1/1-2.6 Runs Do Not Meet SDG Targets in 2030 (or Later) (Sustainability Gaps)
+3.3.1. SDG Targets 1.1 and 1.2 on Absolute and Relative Poverty
+Assuming a log-normal distribution of income and its relation to poverty (Lopez and Servén 2006),
+national GDP (IIASA 2016) and population projections of SSP1 (Lutz et al. 2014), household
+consumptions shares of GDP (which were held constant) (World Bank 2017a) together with national
+income inequality projections (Gidden et al. n.d.) were used to calculate the share of population living
+in absolute and relative poverty, respectively. The absolute poverty threshold of 1.90 $2011/person/day
+(World Bank 2015) was also assumed for 2030. The number of people living in absolute poverty then
+falls from around 700 million (9.6% of global population) in 2015 (PovcalNet 2015) to around 350 million
+(4%) in 2030 in SSP1, missing the SDG target of ending absolute poverty.
+Relative national poverty is based on nationally defined threshold values. For illustrative purposes
+we apply the widely used poverty measure of proportion of people living below 60% of their country’s
+median income (Eurostat 2017). In countries where this would correspond to below 1.9 USD per day,
+the absolute poverty line represents the minimum. The population living in relative poverty according
+to this measure increases in SSP1 from around 1.8 billion in 2015 (26% of global population) to 2 billion in 2030 (25% of global population). Thus applying such a threshold value would result in missing the
+SDG target of halving the proportion of population living in relative poverty in 2015 by 2030, which
+would correspond to 13% or around 1 billion people. SSP1 achieves both poverty targets only in the
+second half of the 21st century.
+3.3.2. SDG Target 2.1 on Undernourishment
+SSP1-2.6 runs do reduce the people living at the risk of hunger by 2030, yet around 180 million
+people remain undernourished (Hasegawa et al. 2015), failing the SDG target 2.1. By 2050 though,
+hunger is eradicated in SSP1.2-6. With increasing economic prosperity within SSP1, malnourishment
+should also be regarded in terms of the risk of obesity. This needs to be further assessed within the
+context of the SSPs, including the quality of the food intake, beyond caloric value, such as micronutrients.
+3.3.3. SDG Target 4.1 on Universal Secondary Education
+SDG 4 focuses on “ensuring inclusive and equitable quality education and promote lifelong
+learning opportunities for all” and is split into ten targets. Target 4.1 on primary and secondary
+education for all by 2030 is the most prominent and specific one. It also covers content of other targets
+(e.g., 4.5 on equal access, 4.6 on literacy). Higher educational attainment is linked with several benefits
+of human development, from higher productivity, income and health to stronger political agency,
+environmental awareness, risk resilience and gender equality (Lutz et al. 2014).
+The population projections of SSP1 rely on high levels of investments in education across all
+countries which accelerates the demographic transition (Kc and Lutz 2017). In the rapid development
+case of SSP1, these investments result in high advances in education rates which are based on a
+combination of the medium future trajectory for progression rates rooted in the experiences of the
+past four decades of all countries and the assumption that educational advances are accelerating with
+South Korea, which experienced the most rapid expansion recently, severing as a benchmark.
+In 2010, more than 1.1 billion adults (17% of the population) had no education at all or had not
+completed primary school (Lutz et al. 2014). With 57% of global population with primary, 44% with
+lower and 27% with upper secondary education in 2010 (Lutz et al. 2014), target 4.1 cannot be fulfilled
+anymore in time as too many cohorts have fallen out of the education system already to catch up in
+15 years, independent of interpreting “secondary education” as completing lower or upper secondary
+education. Also, enrollment and graduation rates do not provide any insights on quality of education.
+The World Bank (2017b) estimates that about 250 million children in the world cannot read or write
+despite having attended primary school for three years or more.
+According to SSP1 (Kc and Lutz 2017; Lutz et al. 2014) in 2030, 71% of global population will finish
+primary education, 60% lower secondary and 44% upper secondary education, leaving 10% with no or
+incomplete primary education and another 11% with primary only. By 2100, the SSP1 comes very close
+to achieving target 4.1 with 91% finishing primary education, 87% lower secondary and 81% upper
+secondary education and 52% post-secondary, leaving only 1% without any education or incomplete
+primary (the remainder 8% are children and youth below 15 years). SSP1 is more comprehensive
+in terms of education than SDG 4 as it presents also high shares of tertiary education, including for
+women, which is not covered quantitatively by SDG 4.
+3.3.4. SDG Targets 4.3 and 4.5 on Education and Gender
+Education is the only area of the SSPs where implications on gender equality are included.
+It has been shown that higher educational attainment of women has a direct effect on fertility rates
+(Lutz et al. 2014). This is reflected in SSP1. The trickle-down effect via fertility and mortality on
+population growth will impact several other SDGs, especially concerning basic human needs (access
+to food, water and energy) and human impacts on the earth systems. Within SSP1, the gender gap in
+the number of mean years of schooling among the whole adult population is decreasing from 0.78 in
+2015 to 0.5 years in 2030 (Kc and Lutz 2017; Lutz et al. 2014).
+
+3.4. Category III Wherenot Enough Quantitative Information is Available within the SSPs (Knowledge Gaps)
+The SSP framework or related analyses do not cover all of the SDG targets quantitatively. Instead
+several SDG targets (Category III) are qualitatively described in the SSP-narrative (e.g., technological
+innovation, cooperation, environmental awareness, access to services, see Appendix B). Some targets
+can be assumed implicitly included in the framework as they are closely related to other indicators.
+One example would be 3.8 on universal health coverage. The low mortality rates and increasing
+life expectancy within SSP1 provides an indication that health coverage and health services will
+improve. In the narrative increasing health investments are also mentioned. Yet no clear indicator is
+available within the SSPs to assess the degree of coverage of health services. In other cases, there is
+no information on an entire SDG in the SSPs. This is for example the case with regard to global goals
+dealing with gender (SDG 5) or the marine environment (SDG 14).
+4. Discussion
+The UN 2030 Agenda frames an ambitious global development agenda with a holistic view of
+sustainability and calls for policy coherence. Scientific assessments can provide guidance to the SDG
+implementation process, helping to identify options for mitigating potential trade-offs and maximizing
+synergies between the multiple social, economic and environmental objectives. However, current
+analytical and quantitative modeling capabilities fall short of being able to capture all 17 SDGs and
+their targets. In addition, long-term sustainability concerns need to be considered beyond the 2030
+time-horizon of the SDGs.
+IAMs implementing the SSPs are especially strong in certain environmental and resource use
+areas and are weak in governance and human systems as can be seen in our assessment. But the SSPs
+are well positioned to serve as the basis for a comprehensive framework that allows different research
+fields to work together and increase interactions and linkages across disciplines where they are being
+adapted to the respective needs and capabilities of the models (see for example Hegre et al. (2016) who
+use the SSPs to forecast conflicts). Yet, we believe it is timely that the following aspects are also being
+considered in any further enhancement of IAMs and their scenario framework of the SSPs, so that the
+work remains relevant for policy makers and provides scientific findings supporting policy coherence
+across the SDG domains.
+We have explored here the requirements for more comprehensively evaluating the sustainability
+of development pathways, guided by holistic interpretation of the SDGs to enable an assessment of
+the potential embedded synergies and trade-offs between the economic, social and environmental
+objectives. We have shown that sustainability and knowledge gaps persist in the pathways currently
+used by the global change community. Examining the overlap of SSPs and SDGs benefits the research
+community currently using the SSPs. The SSPs consist of narratives that guide quantitative scenarios of
+future socio-economic development, foremost scenarios on population and economic development that
+are then used by models, especially IAMs, to provide estimates of future development in areas such as
+the energy or land-use sectors. Despite SSP1/SSP1-2.6 being a very ambitious and optimistic scenario
+for future global socio-economic development, the pathway does not meet several SDG targets.
+The long list of SDG targets, which cannot be assessed by the current SSPs provides us with a
+diverse research agenda. For research and modeling purposes, the SDG targets can serve as a basis
+but need to be operationalized to reduce complexity. We see this as call for action for science to work
+on filling the knowledge gaps. Research is needed to develop integrated sustainable development
+pathways to include as many SDG dimensions as possible and to test policy options that achieve
+them. Without adequate consideration of potential trade-offs, mitigation policies, for example, may
+lead to undesired outcomes, such as threatening lower income groups by constraining energy access
+(Cameron et al. 2016). The UN 2030 agenda requires going well beyond the climate policy focus of the
+SSPs. Both the models used for quantitative assessments applying the SSPs as well as the scope of the
+SSP narratives would benefit from broadening.
+
+First, we propose broadening the SSP narratives to cover more domains relevant to the SDGs. This
+already means a big step forward, going beyond a climate change focus. Advances can be reached by
+more systematically developing the interfaces, where quantitative and qualitative analyses can talk to
+each other. Yet, broadening the narratives alone will not be sufficient in analyzing them quantitatively,
+if these domains are not reflected in models using the SSPs.
+Second, we are also suggesting that the capabilities of the models used for the quantitative
+assessment, foremost IAMs, need to be enhanced. The current generation of IAMs can be regarded
+as ‘best compromise’ between different desirable properties in the model based analysis of system(s)
+transformation. On the one hand, they describe technological options and other sectoral characteristics
+in sufficient detail to be able to assess substantially different technological futures over the long
+run. On the other hand, their system boundaries are broad enough to capture endogenously most
+to all relevant effects of interest and interactions at the system level. For instance, IAMs typically
+cover all sources of emissions at global level. Partial coverage only (ignoring regions or emission
+sources) would not be sufficient to assess climate change outcomes. However, new challenges require
+these models to be further enhanced in the future—regarding both the level of detail and the system
+boundaries. Capturing more SDG dimensions in a modeling framework requires to expand the
+system boundaries of the models significantly compared to the status quo, since these sectors—e.g.,
+health—typically are not yet covered by IAMs. Some SDG sectors require the development of new
+concepts that can be translated into mathematical equations to become accessible for modeling, such
+as concepts for theories for societal change, analogous to concepts of technological change that are
+already incorporated in IAMs.
+Moreover, IAMs need to improve on the representation of sectorial structures that affect decision
+making in reality. Traditionally rooted in energy system planning IAMs classically have adopted a
+central planner logic, which may not accurately represent current market structures and decision
+making in the energy and other sectors. In order to enhance the degree of market realism, models
+may need to operate for example with a higher time resolution or better reflect the economic incentive
+structure by different actors. These often also depend on policy frameworks, which may also imply a
+higher regional resolution.
+Trade-offs also arise from computational constraints, i.e., having too large and/or too detailed
+models with too many variables at some point is not anymore computationally feasible, but also causes
+too high complexities for the modeling analyst, i.e., managing the modeling workflow gets overly
+complex and interpreting the model behavior difficult. Including a plethora of indicators presents the
+risk of adding noise to the analysis. Endogenizing everything will not be possible and is also not our
+objective. Ideally, IAMs can provide some information for possible future developments for each of
+the SDGs based on a set of representative indicators.
+So what could be a suitable way forward? A framework that can integrate both sectorial details
+with cross-sectorial linkages and macroeconomic completeness is known as top-down-bottom-up
+hybrid modeling (Holz et al. 2016; Hourcade et al. 2006). However, even if advances in computational
+power and solver algorithms would allow to build a single hybrid model that captures everything
+this may not be desirable due to the other mentioned drawbacks. Instead one could implement all
+the needed details in the models, but keep them at a manageable size and link them to each other as
+separate modules within a top-down-bottom-up hybrid framework, where the top level model(s)—e.g.,
+a computable general equilibrium model—acts both as an accounting framework and reference model
+for the identification of equilibrium outcomes. The linkage would not have to be done manually,
+but could be controlled by some learning algorithm. Recent development in IAM modeling with the
+development of modeling frameworks rather than single models, are already a step in this direction.
+The objective is neither to arrive at one single model that covers all SDG targets nor that all
+models should be expanded to cover all SDG areas. Different IAMs provide valuable details in
+different sectors and at different levels of granularity (e.g., global versus national models, sectoral
+versus macroeconomic models), crucial information that should not be lost. While the SDGs will have to be implemented by nation states, there is benefit in linking and comparing regional, national
+and global level assessments in order to capture potential knock-on effects across scales and review
+implications for sustainability. We do not imply that all 126 (numeric) SDG targets (or even all
+suggested indicators) should be covered by either models or policy makers in their work.
+At the same time, policy makers are urged to implement the 2030 Agenda to close the sustainability
+gaps that emerge from our analysis, as even within an optimistic case several dimensions are not
+achieved in time. Our analysis underlines the importance of the SDG notion of “leaving no SDG
+behind”.
+This analysis is a contribution to the TWI2050’s objectives of framing the solution space for
+sustainable development pathways. We anticipate that such integrative analyses put forth by initiatives
+such as TWI2050 and the IAM community will inform the implementation of the UN 2030 Agenda.
+Together with regional and national level assessments, this can strengthen the foundation for strategic
+policy decisions, which integrate sustainability concerns across spatial and temporal scales.
+Acknowledgments: All authors’ work was supported by the International Institute for Applied Systems Analysis
+(IIASA) within the World in 2050 (TWI2050) initiative.
+Author Contributions: All authors designed the research and analyzed the data. Caroline Zimm wrote the paper
+with inputs from all authors. All authors contributed to the discussion and interpretation of the results.
+Conflicts of Interest: The authors declare no conflicts of interest.
+
+Appendix A. SDG Targets (Numeric)
+Source: United Nations (2015): A/RES/70/1, Transforming Our World: The 2030 Agenda for
+Sustainable Development.
+Appendix A.1. SDG 1 End Poverty in All its Forms Everywhere
+1.1 By 2030, eradicate extreme poverty for all people everywhere, currently measured as people
+living on less than $1.25 a day;
+1.2 By 2030, reduce at least by half the proportion of men, women and children of all ages living
+in poverty in all its dimensions according to national definitions;
+1.3 Implement nationally appropriate social protection systems and measures for all, including
+floors, and by 2030 achieve substantial coverage of the poor and the vulnerable;
+1.4 By 2030, ensure that all men and women, in particular the poor and the vulnerable, have
+equal rights to economic resources, as well as access to basic services, ownership and control over land
+and other forms of property, inheritance, natural resources, appropriate new technology and financial
+services, including microfinance;
+1.5 By 2030, build the resilience of the poor and those in vulnerable situations and reduce
+their exposure and vulnerability to climate-related extreme events and other economic, social and
+environmental shocks and disasters.
+Appendix A.2. SDG 2 End Hunger, Achieve Food Security and Improved Nutrition and Promote
+Sustainable Agriculture
+2.1 By 2030, end hunger and ensure access by all people, in particular the poor and people in
+vulnerable situations, including infants, to safe, nutritious and sufficient food all year round;
+2.2 By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally agreed
+targets on stunting and wasting in children under 5 years of age, and address the nutritional needs of
+adolescent girls, pregnant and lactating women and older persons;
+2.3 By 2030, double the agricultural productivity and incomes of small-scale food producers, in
+particular women, indigenous peoples, family farmers, pastoralists and fishers, including through
+secure and equal access to land, other productive resources and inputs, knowledge, financial services,
+markets and opportunities for value addition and non-farm employment;
+
+
+2.4 By 2030, ensure sustainable food production systems and implement resilient agricultural
+practices that increase productivity and production, that help maintain ecosystems, that strengthen
+capacity for adaptation to climate change, extreme weather, drought, flooding and other disasters and
+that progressively improve land and soil quality;
+2.5 By 2020, maintain the genetic diversity of seeds, cultivated plants and farmed and domesticated
+animals and their related wild species, including through soundly managed and diversified seed
+and plant banks at the national, regional and international levels, and promote access to and fair and
+equitable sharing of benefits arising from the utilization of genetic resources and associated traditional
+knowledge, as internationally agreed.
+Appendix A.3. SDG 3 Ensure Healthy Lives and Promote Well-Being for All at All Ages
+3.1 By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births;
+3.2 By 2030, end preventable deaths of newborns and children under 5 years of age, with all
+countries aiming to reduce neonatal mortality to at least as low as 12 per 1000 live births and under-5
+mortality to at least as low as 25 per 1000 live births;
+3.3 By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and
+combat hepatitis, water-borne diseases and other communicable diseases;
+3.4 By 2030, reduce by one third premature mortality from non-communicable diseases through
+prevention and treatment and promote mental health and well-being;
+3.5 Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse
+and harmful use of alcohol;
+3.6 By 2020, halve the number of global deaths and injuries from road traffic accidents;
+3.7 By 2030, ensure universal access to sexual and reproductive health-care services, including for
+family planning, information and education, and the integration of reproductive health into national
+strategies and programmes;
+3.8 Achieve universal health coverage, including financial risk protection, access to quality
+essential health-care services and access to safe, effective, quality and affordable essential medicines
+and vaccines for all;
+3.9 By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals
+and air, water and soil pollution and contamination.
+Appendix A.4. SDG 4 Ensure Inclusive and Equitable Quality Education and Promote lifelong Learning
+Opportunities for All
+4.1 By 2030, ensure that all girls and boys complete free, equitable and quality primary and
+secondary education leading to relevant and effective learning outcomes;
+4.2 By 2030, ensure that all girls and boys have access to quality early childhood development,
+care and pre-primary education so that they are ready for primary education;
+4.3 By 2030, ensure equal access for all women and men to affordable and quality technical,
+vocational and tertiary education, including university;
+4.4 By 2030, substantially increase the number of youth and adults who have relevant skills,
+including technical and vocational skills, for employment, decent jobs and entrepreneurship;
+4.5 By 2030, eliminate gender disparities in education and ensure equal access to all levels of
+education and vocational training for the vulnerable, including persons with disabilities, indigenous
+peoples and children in vulnerable situations;
+4.6 By 2030, ensure that all youth and a substantial proportion of adults, both men and women,
+achieve literacy and numeracy;
+4.7 By 2030, ensure that all learners acquire the knowledge and skills needed to promote
+sustainable development, including, among others, through education for sustainable development
+and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to
+sustainable development.
+Appendix A.5. SDG 5 Achieve Gender Equality and Empower All Women and Girls
+5.1 End all forms of discrimination against all women and girls everywhere;
+5.2 Eliminate all forms of violence against all women and girls in the public and private spheres,
+including trafficking and sexual and other types of exploitation;
+5.3 Eliminate all harmful practices, such as child, early and forced marriage and female
+genital mutilation;
+5.4 Recognize and value unpaid care and domestic work through the provision of public services,
+infrastructure and social protection policies and the promotion of shared responsibility within the
+household and the family as nationally appropriate;
+5.5 Ensure women’s full and effective participation and equal opportunities for leadership at all
+levels of decision-making in political, economic and public life;
+5.6 Ensure universal access to sexual and reproductive health and reproductive rights as
+agreed in accordance with the Programme of Action of the International Conference on Population
+and Development and the Beijing Platform for Action and the outcome documents of their
+review conferences.
+Appendix A.6. SDG 6 Ensure Availability and Sustainable Management of Water and Sanitation for All
+6.1 By 2030, achieve universal and equitable access to safe and affordable drinking water for all;
+6.2 By 2030, achieve access to adequate and equitable sanitation and hygiene for all and end open
+defecation, paying special attention to the needs of women and girls and those in vulnerable situations;
+6.3 By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing
+release of hazardous chemicals and materials, halving the proportion of untreated wastewater and
+substantially increasing recycling and safe reuse globally;
+6.4 By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable
+withdrawals and supply of freshwater to address water scarcity and substantially reduce the number
+of people suffering from water scarcity;
+6.5 By 2030, implement integrated water resources management at all levels, including through
+transboundary cooperation as appropriate;
+6.6 By 2020, protect and restore water-related ecosystems, including mountains, forests, wetlands,
+rivers, aquifers and lakes.
+Appendix A.7. SDG 7 Ensure Access to Affordable, Reliable, Sustainable and Modern Energy for All
+7.1 By 2030, ensure universal access to affordable, reliable and modern energy services;
+7.2 By 2030, increase substantially the share of renewable energy in the global energy mix;
+7.3 By 2030, double the global rate of improvement in energy efficiency.
+Appendix A.8. SDG 8 Promote Sustained, Inclusive and Sustainable Economic Growth, Full and Productive
+Employment and Decent Work for All
+8.1 Sustain per capita economic growth in accordance with national circumstances and, in
+particular, at least 7 per cent gross domestic product growth per annum in the LDCs;
+8.2 Achieve higher levels of economic productivity through diversification, technological
+upgrading and innovation, including through a focus on high-value added and labour-intensive sectors;
+8.3 Promote development-oriented policies that support productive activities, decent job creation,
+entrepreneurship, creativity and innovation, and encourage the formalization and growth of micro-,
+small- and medium-sized enterprises, including through access to financial services;
+8.4 Improve progressively, through 2030, global resource efficiency in consumption and production
+and endeavour to decouple economic growth from environmental degradation, in accordance with the 10-year framework of programmes on sustainable consumption and production, with developed
+countries taking the lead;
+8.5 By 2030, achieve full and productive employment and decent work for all women and men,
+including for young people and persons with disabilities, and equal pay for work of equal value;
+8.6 By 2020, substantially reduce the proportion of youth not in employment, education or training;
+8.7 Take immediate and effective measures to eradicate forced labour, end modern slavery and
+human trafficking and secure the prohibition and elimination of the worst forms of child labour,
+including recruitment and use of child soldiers, and by 2025 end child labour in all its forms;
+8.8 Protect labour rights and promote safe and secure working environments for all workers,
+including migrant workers, in particular women, and those in precarious employment;
+8.9 By 2030, devise and implement policies to promote sustainable tourism that creates jobs and
+promotes local culture and products;
+8.10 Strengthen the capacity of domestic financial institutions to encourage and expand access to
+banking, insurance and financial services for all.
+Appendix A.9. SDG 9 Build Resilient Infrastructure, Promote Inclusive and Sustainable Industrialization and
+Foster Innovation
+9.1 Develop quality, reliable, sustainable and resilient infrastructure, including regional and
+transborder infrastructure, to support economic development and human well-being, with a focus on
+affordable and equitable access for all;
+9.2 Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry’s
+share of employment and gross domestic product, in line with national circumstances, and double its
+share in least developed countries;
+9.3 Increase the access of small-scale industrial and other enterprises, in particular in developing
+countries, to financial services, including affordable credit, and their integration into value chains
+and markets;
+9.4 By 2030, upgrade infrastructure and retrofit industries to make them sustainable, with
+increased resource-use efficiency and greater adoption of clean and environmentally sound
+technologies and industrial processes, with all countries taking action in accordance with their
+respective capabilities;
+9.5 Enhance scientific research, upgrade the technological capabilities of industrial sectors in
+all countries, in particular developing countries, including, by 2030, encouraging innovation and
+substantially increasing the number of research and development workers per 1 million people and
+public and private research and development spending.
+Appendix A.10. SDG 10 Reduce Inequality within and among Countries
+10.1 By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the
+population at a rate higher than the national average;
+10.2 By 2030, empower and promote the social, economic and political inclusion of all, irrespective
+of age, sex, disability, race, ethnicity, origin, religion or economic or other status;
+10.3 Ensure equal opportunity and reduce inequalities of outcome, including by eliminating
+discriminatory laws, policies and practices and promoting appropriate legislation, policies and action
+in this regard;
+10.4 Adopt policies, especially fiscal, wage and social protection policies, and progressively
+achieve greater equality;
+10.5 Improve regulation & monitoring of global financial markets and institutions and strengthen
+the implementation of such regulations;
+10.6 Ensure enhanced representation and voice for developing countries in decision-making in
+global international economic and financial institutions in order to deliver more effective, credible,
+accountable and legitimate institutions;
+
+10.7 Facilitate orderly, safe, regular and responsible migration and mobility of people, including
+through the implementation of planned and well-managed migration policies.
+Appendix A.11. SDG 11 Make Cities and Human Settlements Inclusive, Safe, Resilient and Sustainable
+11.1 By 2030, ensure access for all to adequate, safe and affordable housing and basic services and
+upgrade slums;
+11.2 By 2030, provide access to safe, affordable, accessible and sustainable transport systems for
+all, improving road safety, notably by expanding public transport, with special attention to the needs
+of those in vulnerable situations, women, children, persons with disabilities and older persons;
+11.3 By 2030, enhance inclusive and sustainable urbanization and capacity for participatory,
+integrated and sustainable human settlement planning and management in all countries;
+11.4 Strengthen efforts to protect and safeguard the world’s cultural and natural heritage;
+11.5 By 2030, significantly reduce the number of deaths and the number of people affected and
+substantially decrease the direct economic losses relative to global gross domestic product caused
+by disasters, including water-related disasters, with a focus on protecting the poor and people in
+vulnerable situations;
+11.6 By 2030, reduce the adverse per capita environmental impact of cities, including by paying
+special attention to air quality and municipal and other waste management;
+11.7 By 2030, provide universal access to safe, inclusive and accessible, green and public spaces,
+in particular for women and children, older persons and persons with disabilities;
+Appendix A.12. SDG 12 Ensure Sustainable Consumption and Production Patterns
+12.1 Implement the 10-year framework of programmes on sustainable consumption and
+production, all countries taking action, with developed countries taking the lead, taking into account
+the development and capabilities of developing countries;
+12.2 By 2030, achieve the sustainable management and efficient use of natural resources;
+12.3 By 2030, halve per capita global food waste at the retail and consumer levels and reduce food
+losses along production and supply chains, including post-harvest losses;
+12.4 By 2020, achieve the environmentally sound management of chemicals and all wastes
+throughout their life cycle, in accordance with agreed international frameworks, and significantly
+reduce their release to air, water and soil in order to minimize their adverse impacts on human health
+and the environment;
+12.5 By 2030, substantially reduce waste generation through prevention, reduction, recycling
+and reuse;
+12.6 Encourage companies, especially large and transnational companies, to adopt sustainable
+practices and to integrate sustainability information into their reporting cycle;
+12.7 Promote public procurement practices that are sustainable, in accordance with national
+policies and priorities;
+12.8 By 2030, ensure that people everywhere have the relevant information and awareness for
+sustainable development and lifestyles in harmony with nature.
+Appendix A.13. SDG 13 Take Urgent Action to Combat Climate Change and Its Impacts4
+13.1 Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters
+in all countries;
+13.2 Integrate climate change measures into national policies, strategies and planning;
+
+4
+
+Acknowledging that the United Nations Framework Convention on Climate Change is the primary international,
+intergovernmental forum for negotiating the global response to climate change.
+
+13.3 Improve education, awareness-raising and human and institutional capacity on climate
+change mitigation, adaptation, impact reduction and early warning.
+Appendix A.14. SDG 14 Conserve and Sustainably Use the Oceans, Seas and Marine Resources for
+Sustainable Development
+14.1 By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from
+land-based activities, including marine debris and nutrient pollution;
+14.2 By 2020, sustainably manage and protect marine and coastal ecosystems to avoid significant
+adverse impacts, including by strengthening their resilience, and take action for their restoration in
+order to achieve healthy and productive oceans;
+14.3 Minimize and address the impacts of ocean acidification, including through enhanced
+scientific cooperation at all levels;
+14.4 By 2020, effectively regulate harvesting and end overfishing, illegal, unreported and
+unregulated fishing and destructive fishing practices and implement science-based management
+plans, in order to restore fish stocks in the shortest time feasible, at least to levels that can produce
+maximum sustainable yield as determined by their biological characteristics;
+14.5 By 2020, conserve at least 10 per cent of coastal and marine areas, consistent with national
+and international law and based on the best available scientific information;
+14.6 By 2020, prohibit certain forms of fisheries subsidies which contribute to overcapacity and
+overfishing, eliminate subsidies that contribute to illegal, unreported and unregulated fishing and
+refrain from introducing new such subsidies, recognizing that appropriate and effective special and
+differential treatment for developing and least developed countries should be an integral part of the
+World Trade Organization fisheries subsidies negotiation;
+14.7 By 2030, increase the economic benefits to Small Island developing States and least developed
+countries from the sustainable use of marine resources, including through sustainable management of
+fisheries, aquaculture and tourism.
+Appendix A.15. SDG 15 Protect, Restore and Promote Sustainable Use of Terrestrial Ecosystems, Sustainably
+Manage forests, Combat Desertification, and Halt and Reverse Land Degradation and Halt Biodiversity Loss
+15.1 By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland
+freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands,
+in line with obligations under international agreements;
+15.2 By 2020, promote the implementation of sustainable management of all types of forests, halt
+deforestation, restore degraded forests and substantially increase afforestation and reforestation globally;
+15.3 By 2030, combat desertification, restore degraded land and soil, including land affected by
+desertification, drought and floods, and strive to achieve a land degradation-neutral world;
+15.4 By 2030, ensure the conservation of mountain ecosystems, including their biodiversity,
+in order to enhance their capacity to provide benefits that are essential for sustainable development;
+15.5 Take urgent and significant action to reduce the degradation of natural habitats, halt the loss
+of biodiversity and, by 2020, protect and prevent the extinction of threatened species;
+15.6 Promote fair and equitable sharing of the benefits arising from the utilization of genetic
+resources and promote appropriate access to such resources, as internationally agreed;
+15.7 Take urgent action to end poaching and trafficking of protected species of flora and fauna
+and address both demand and supply of illegal wildlife products;
+15.8 By 2020, introduce measures to prevent the introduction and significantly reduce the impact
+of invasive alien species on land and water ecosystems and control or eradicate the priority species;
+15.9 By 2020, integrate ecosystem and biodiversity values into national and local planning,
+development processes, poverty reduction strategies and accounts.

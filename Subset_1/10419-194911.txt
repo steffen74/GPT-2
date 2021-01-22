@@ -1,0 +1,382 @@
+2 Previous research
+It is known that DEA has been applied for modeling energy efficiency and performance
+assessment for a long time, especially in recent years. As mentioned previously, there are
+several studies on Asian countries. Methodically, the previous works are classified into
+radial or non-radial models.
+
+The radial models were most utilized in Tun and Kang (2015), Honma and Hu (2008,
+2014) and Ulah et al. (2016). For example, Ulah et al. (2016) investigated energy or productive efficiency in Australia, New Zealand, China, Taiwan, South Korea, Philippines,
+India, Myanmar, Japan and Pakistan. Sun et al. (2013) extended the radial model for performance evaluation and ranking on Asian lead frame firms and flexible manufacturing
+systems.
+The non-radial models were used to investigate the performance of Asian countries.
+For example, Yang et al. (2016) utilized a non-radial model to measure the aggregation
+of urban input–output efficiency of Taiwan’s 22 administrative regions. Hosseinzadeh
+et al. (2016) identified the importance of a balance of efficiency gains and losses for 33
+Australian mining firms by using a bootstrap approach. Li and Lin (2016) used a threestage DEA model to measure the effect of government measures on green productivity
+growth. Chen (2017) measured the departmental and overall efficiency in Taiwan’s counties and cities by applying a multi-activity model. Chaitip et al. (2014) analyzed the production of Thailand’s sugarcane by using panel DEA based on a bootstrapping method.
+The position of this study is that this study develops a new intermediate approach, analytically locating between radial and non-radial approaches (Sueyoshi and Goto 2012), to
+examine the level of energy usage and sustainability development of 21 nations in Asia
+from 2008 to 2014. This study is the first research effort that covers almost all the nations
+in Asia by utilizing the newly developed intermediate approach. No study has explored
+the research direction in the previous studies.
+
+3 
+Unification between desirable and undesirable outputs
+An important research inquiry is how the proposed approach can unify desirable and
+undesirable outputs, both of which have opposite directional vectors for performance
+betterment.
+To visually reply to the inquiry, this study prepares Fig. 1, consisting of a single input
+(x) and two desirable outputs ( g1 and g2). The horizontal axis of Fig.  1 is for g1/x, and
+the vertical axis is for g2/x. In the case, it is assumed that all DMUs produce the same
+amount of an undesirable output (b). Meanwhile, Fig.  2 extends it to the case of two
+undesirable outputs (b1 and b2). The horizontal axis is for b1/x and the vertical axis is
+for b2/x under the assumption that all DMUs produce the same amount of a desirable
+output (g). In the two figures, {A}, {B}, {C}, {D} and {E} indicate the performance of five
+DMUs. A piece-wise linear contour line ({B}–{C}–{D}–{E}) indicates an efficiency frontier in each figure.
+In the two figures, an inefficient DMU {A} directs the location toward a projected point
+{A′} to enhance the joint performance between operational and environmental achieveA A
+ments. The directional vector of desirable outputs is identified as ( g1 , g2 ) in Fig. 1 and
+
+However, the magnitude of the two directional vectors is unknown because none knows
+a distance between {A} and {A′}. It is true that such a magnitude can be visually identified in the two figures. However, if the number of coordinates is more than two, then
+none knows how to determine the magnitude of a directional vector for performance
+betterment. A purpose, not all, of DEA environmental assessment is to identify the
+
+The above equation considers that DMU {A} locates near {A′} so that OA can be replaced
+by OA′ in the equation. In other words, if a DMU locates on or near an efficiency frontier, then the ratio measure is reliable. In contrast, if the DMU locates far from the
+efficiency frontier, then the ratio measure may approximate the exact one. The ratio
+(AA′/OA′), or ξ (i.e., a degree of unified inefficiency), indicates the magnitude of a directional vector of {A} for improving the operational performance of DMU {A}, as visually
+specified in Fig. 1. An approximation error is specified by ∞ (−ξ )z = ξ 2 (1 + ξ ) ∼ 0
+=
+z=2
+because ξ ≤ 1. Thus, it is acceptable that the measurement of 1 − ξ can approximate the degree of unified efficiency. The proposed approach separates the magnitude of unified
+inefficiency (ξ) into ξg1 and ξg2 in the case of two components of the inefficiency measure.
+Such a visual separation is specified in the two coordinates of Fig. 2. Each component
+functionally corresponds to a slack. Thus, the proposed approach can be considered as
+“intermediate” between radial and non-radial approaches.
+Meanwhile, Fig. 2 depicts another projection of DMU{A} in the case of two undesirable outputs (b1 and b2). In this case, our description is a straightforward manner. That
+is, the ratio (OA′/OA) indicates the degree of unified efficiency of {A} by The ratio (AA′/OA), or ξ, indicates a magnitude of the directional vector of DMU {A}
+to improve the environmental performance in the two undesirable outputs. Thus, it is
+possible for us to unify desirable and undesirable outputs and to measure the magnitude
+of unified efficiency by 1 − ξ, as visually discussed in Fig.  2. As mentioned previously
+in Figs. 1 and 2 also depicts the disaggregation of ξ into two components, ξb1 and ξb2, as
+visually specified in the two coordinates.
+At the end of this section, it is important to note that the level of inefficiency is separated into its components (ξg1 , ξg2, ξb1 and ξb2). This study takes an average of these inefficiency components in formulations for the proposed intermediate model.
+
+4 Intermediate approach
+4.1 
+Formulations under natural disposability
+
+same constraints in (8).
+Here, the dual variable (σ), originated from n
+j=1 j = 1 in Model (10), is incorporated
+into Model (11). In the case, the unified efficiency is measured as UEMI .
+v
+At the end of this section, it is important to note the three unique features if the proposed intermediate approach. First, this study has discussed a new application of the
+approach. The research of Sueyoshi et al. (2017b) has provided methodological contribution of the proposed approach by comparing among the intermediate approach and
+the other two (radial and non-radial) approaches. Second, the proposed approach has
+an analytical structure, similar to “Russell measure”, which methodologically locates
+between “Debreu–Koopmans efficiency” for radial measurement and “Pareto–Koopmans efficiency” for non-radial measurement in a conventional DEA framework. See
+Sueyoshi et  al. (2017b) for a detailed description on the differences. The difference
+between the proposed approach and the conventional Russell measure is that the proposed former approach for inefficiency identification can be solved by linear programming and the conventional latter, for efficiency identification, is solved by nonlinear
+programming. Such differences can increase the level of efficiency measurement by the
+intermediate approach. See the computational results summarized in Sueyoshi et  al.
+(2017b). A problem of their study is that it does not document any empirical results,
+just showing an illustrative example for methodical comparison. Such is our empirical
+contribution of this study. Finally, the intermediate approach incorporates independent
+efficiency scores for each desirable and undesirable output. The efficiency score can flexibly adjust actual amount of these outputs to shift to optimal ones by the scores. However, I may violate the “efficiency equipment,” indicating that an efficiency score should
+between zero and one. To avoid such a methodological difficulty, the proposed models
+still use slacks for those outputs. It is easily imagined that it is impossible for us to maintain a practical benefit of the usage without the efficiency equipment. In addition, the
+restrictions on efficiency scores, that constrain them to be less than or equal unity, are
+also for such a purpose on the efficiency equipment.
+In addition to the above the three methodological concerns, this study needs to discuss on the disposability concepts. This study utilizes natural and managerial disposability concepts that have different priority for efficiency assessment. Under the condition with such different priorities, it may be possible that different implications may occur on
+efficiency scores for desirable outputs and those for undesirable outputs. For example,
+under the managerial disposability, efficiency scores for undesirable outputs may have
+higher weight for the purpose of assessment. However, such a weight change on priority does not influence computational results because the proposed approach depends
+upon linear programming whose optimal solution can be found on an extremal point.
+The point is often not changed by the weight change. To avoid this type of problem originated from linear programming, it is the best for us, at the current moment, to use the
+two formulations for disposability, as exhibited in this study.
+
+5 Empirical results
+To evaluate the sustainability of Asian countries, output variables represent the economic and environmental performance measures and input variables are related to the
+energy consumption. First, gross domestic product (GDP) is selected to demonstrate the
+total economic performance and ­ O2 is selected to present the environmental perforC
+mance measure at each country level. The consumption of both primary and secondary energies is considered in this study. The primary energy includes traditional energy
+sources such as crude oil, coal, natural gas, some mineral fuels and renewable energy
+such as solar, wind, water, biomass, geothermal energy and so on. The secondary energy
+is an amount of generated electricity. Therefore, the total amount of primary energy and
+electricity is selected as input variables. Considering differences in population, area, and
+development status in Asia, this study needs to include the performance to represent
+the people’s living standard in our country comparison. Therefore, the GDP per capita is
+selected as one of desirable outputs. The amount of CO2 divided by total primary energy
+­
+is used as an undesirable output.
+Thus, this study utilizes the two desirable outputs: GDP and GDP per capita as well as
+C
+the two undesirable outputs: total CO2 emission and ­ O2/total primary energy. The two
+­
+inputs include electricity consumption and total primary energy consumption. All the
+production factors are fully used in the proposed DEA application.
+We obtain the dataset regarding ­ O2 emission, total primary energy consumption
+C
+and electricity consumption from US Energy Information Administration (EIA). The
+EIA provides a dataset on energy and environment of the whole world in each year from
+1980 to 2014. The data on GDP are obtained from Trading Economics (http://www.
+tradingeconomics.com), and the data on population are obtained from worldometers
+(http://www.worldometers.info/world-population). The GDP per capita is calculated as
+an amount of GDP divided by the number of population. This study applies the most
+recent data in 7 years from 2008 to 2014. Using the dataset, this study examines the 21
+countries of Asia after excluding all countries with small CO2 emission and small usage
+­
+of energy. For example, such excluded nations are Afghanistan, Bhutan, Cambodia, Laos,
+Macau, Maldives, Nepal and Timor-Leste. Table 1 summarizes descriptive statistics on
+the dataset.
+5.1 
+Natural disposability and constant RTS
+
+Both Japan and New Zealand belong to the top tier group in the unified efficiency measures
+
+The 1st tier includes Japan, Brunei and New Zealand that have outperformed the other
+countries with UENI over 0.8666 on average. Japan keeps the top rank in the perforc
+mance measure. All of the UENI were above 0.8269 and the average was 0.9316. Japan
+c
+is a developed country with a high standard of living and leads the Asian economy for
+a long time in history. It is still on the leading position. Brunei experienced a huge economic growth during 1990s and 2000s since its independence from the UK, with GDP
+increasing 56% from 1999 to 2008, transformed Brunei into an industrialized country. It
+has developed wealth from extensive petroleum and natural gas fields. In 2011, Brunei
+was one of the two countries with a public debt at 0% of the national GDP. Thus, Brunei
+maintains a high standard of living and economic performance with the level of UENI at
+c
+0.8971 on average in the 7 years. The UENI decreased from 0.8898 in 2008 to 0.7264 in
+c
+2009, which was seriously influenced by the global financial crisis. Then, the degree of
+UENI grew back to 0.7851 in 2010. Brunei recovered in 2011 with the UENI of 1, flucc
+c
+tuated a little to 0.9665 in 2012 and kept the level at 1 in 2013. The UENI decreased to
+c
+0.9119 in 2014. New Zealand has a high-income economy and extractive industries have
+contributed strongly to its economy, historically focusing on sealing, whaling, flax, gold,
+kauri gum and native timber. The average UENI was 0.8666. It decreased from 0.7351 to
+c
+0.6928 in 2009 due to the financial crisis in 2008. However, it gradually grew to 1 in 2013 and maintained the high level in 2014. Thus New Zealand showed the strong position in
+its economic recovery and growth.
+The 2nd tier includes Australia, Singapore and Hong Kong that are ranked in the second top tier in their unified efficiency measures. The averages of UENI were between
+c
+0.7528 and 0.8509. Australia is a wealthy country that generates the income from various sources such as mining-related exports, telecommunications, banking and manufacturing. The economy was drastically pulled down by the financial crisis in 2008, with
+the UENI decreasing from 0.7368 to 0.6295. However, Australia recovered very quickly
+c
+with 6–15% growth of UENI every year and reached 1 in 2013. The Australia’s econc
+omy slightly decreased with the UENI back to 0.9493 in 2014. Thus, Australia’s economy
+c
+fluctuates within a steadily increase, indicating the economic potential of Australia. Singapore is a global commerce, finance and transport hub. Based on extended trade, Singapore has a highly developed market economy. Along with Hong Kong, South Korea
+and Taiwan, Singapore is one of the original Four Asian Tigers. It has surpassed the others in terms of economic performance with UENI 0.8011 on average in the 7 years. The
+c
+UENI dropped from 0.6850 in 2008 to 0.5960 in 2009 due to the financial crisis in 2008.
+c
+Then, it jumped to 0.7467 in 2010 and continued to grow to 1 in 2013. The UENI slightly
+c
+dropped to 0.9321 in 2014. Hong Kong is one of the world’s most significant financial
+centers with the highest financial development index score and consistently ranks as the
+world’s most competitive and freest economic entity. The UENI was 0.7528 on average in
+c
+the 7 years. The UENI kept at the level around 0.6407 on average from 2008 to 2010 and
+c
+fast grew to 1 in 2014. Hong Kong was significantly attacked by finance crisis of 2008
+because its economy relies on the finance.
+The 3rd tier includes Sri Lanka, China and Burma (Myanmar) that are classified to
+the third tier with UENI between 0.5397 and 0.6622 on average in 7 years. Sri Lanka is
+c
+impressive because the UENI drastically increased from 0.4239 to 1, which made averc
+age UENI at 0.6622. In particular, in 2012–2013, the UENI jumped from 0.6569 to 1.
+c
+c
+Sri Lanka has long maritime borders and beautiful view. The country’s main economic
+sectors are tourism, tea export, clothing, and agriculture products. When we check the
+original data, the GDP increased from $40 to $ 80  billion in the observed 7  years and
+the GDP per capita increased from $12 to $17.4  thousand. Thus, Sri Lanka’s economy
+is transitioning to the efficiency-driven stage in the recent years. China is the world’s
+second largest economy by GDP and largest by purchasing power parity (PPP). Even
+though China has become one of the world’s fastest-growing major economies in the
+current years and has crucial global influence power on economy, the large population
+drags down the average living standard of Chinese people. Because a desirable output
+of this study included GDP per capita, the China’s economy was classified into the third
+tier with UENI 0.6343 on average. It reflects the relatively poor living standard of peoc
+ple, comparing to its good economy at the country level. Unlike the countries with better performance, China’s economy was so strong and was not impacted by the financial
+crisis of 2008. The UENI fast grew from 0.4857 in 2008 to 1 in 2014. Burma (Myanmar)
+c
+is a country rich in jade and gems, oil, natural gas and other mineral resources. However, the income gap is the widest in the world, as a large proportion of the economy
+is controlled by supporters of the former military government. Moreover, political and
+economic ideological struggles have affected living standards. Therefore, the economy is classified into the third tier according to the average living standard. The UENI increased
+c
+from 0.3922 to 0.6465 from 2008 to 2010. The government of Burma was undergoing a
+critical transition during the annual periods. The UENI decreased to 0.4988 in 2011 and
+c
+kept at this level 0.5038 in 2012. The nation continued to drop to 0.4566 in 2013 and
+0.7586 in 2014. In 2011, Myanmar started economic liberalization and formed a draft
+foreign investment law in 2012.
+The 4th tier includes South Korea, India, Indonesia, Philippines and Taiwan that hold
+the degree of UENI at the level between 0.3203 and 0.4157 on average in the observed
+c
+7 years.
+South Korea’s economy soared at an annual average of 10% for over 30  years. The
+degree of UENI was 0.4157 on average. South Korea had the UENI 0.3943 in 2008.
+c
+c
+Though the UENI decreased to 0.3528 in 2009 due to the financial crisis, it increased
+c
+back to 0.4005 and continued to increase slowly to 0.4982 in 2014. India became one of
+the fastest-growing major economies, and it is now considered a newly industrialized
+country. The service sectors, including information technology and software services,
+had an annual growth rate of above 9% since 2001. India ranks second worldwide in farm
+output. However, India is the second-most populous country, which pushed the people’s
+living standard low on average with the average UENI at 0.3907. The UENI has gradually
+c
+c
+increased from 0.3216 in 2008 to 0.4438 in 2014. Indonesia has the largest economy by
+GDP in Southeast Asia and considered as emerging markets and newly industrialized
+country with UENI at 0.3502 on average. The UENI increased from 0.3073 in 2008 to
+c
+c
+0.3777 in 2011 and gradually decreased back to 0.3574 in 2014. Even though the economy grew from 0.3073 to 0.3574 from 2008 to 2014 in general, the decreasing trend
+was observed after 2011. Philippines is a sovereign island country in the western Pacific
+Ocean with average UENI at 0.3431. The UENI slowly increased from 0.2881 in 2008 to
+c
+c
+0.3972 in 2014.
+Taiwan entered a period of rapid economic growth and industrialization since 1960.
+The high-tech industry plays a key role in the global economy. However, the growth pace
+was down in recent years with UENI at 0.3203 on average. Therefore, Taiwan’s economy
+c
+grew steadily and slowly in recent years with UENI that increased from 0.2878 in 2008 to
+c
+0.3484 in 2014.
+The 5th tier includes all the remaining countries consist of the last tier, having the
+UENI below 0.2199 on average and grew slowly in terms of economy. Among them, Pakic
+stan and Malaysia performed relatively better with average UENI at 0.2199 and 0.2190,
+c
+respectively. North Korea was really poor with average UENI at 0.0333 even if the UENI
+c
+c
+had been doubled in the 7 years.
+The implication, obtained from Table 2, implies that most of the countries grew slowly
+in terms of the unified efficiency under natural disposability and constant RTS. There
+are two groups of exception. First, China, New Zealand, Sri Lanka and Hong Kong
+kept rapid growth since 2008 and the UENI reached 1 in 2014. Second, some countries,
+c
+including Japan, Australia, Singapore and Brunei, faced an economic meltdown after the
+growth. Among them, Japan’s economy started to turn down after 2012 and faced the
+pitfall in recent years. The UENI decreased from 1 in 2012 to 0.8675 in 2013 and continc
+ued to decreased to 0.8269 in 2014, both of which were the smallest during the 7 years.
+The disaster of Fukushima Daiichi nuclear plants occurred on March 11, 2011, seriously
+devastated Japan’s economy. The impact was revealed from 2012. The other three economies, Brunei, Australia and Singapore, slightly dropped from 2013 to 2014 with the
+UENI decreasing from 1 in 2013 to 0.9119, 0.9493 and 0.9321, respectively, in 2014.
+c
+5.2 
+Managerial disposability and constant DTS
+
+Table 3 summarizes the UEMI on 21 Asian countries from 2008 to 2014.
+c
+The 1st tier includes Japan and New Zealand that have the UEMI over 0.8719 on averc
+age in 7  years. Japan had the average UEMI at 0.9344 and maintained a high level of
+c
+unified efficiency. The UEMI increased from 0.9081 in 2008 to 1 in 2010 and maintained
+c
+the perfect performance at 1 in 2011. However, the UEMI started a decreasing trend to
+c
+0.9691 in 2012 and reached to 0.8724, 0.8322 in 2013 and 2014, gradually. As mentioned
+previously, such a decreasing trend was because of the Fukushima Daiichi nuclear disaster that drastically damaged the Japanese energy usage and environment conditions.
+New Zealand had the UEMI at 0.8719 on average in the 7 years. The UEMI fast increased
+c
+c
+from 0.7008 in 2008 to 1 in 2014 except a drop to 0.8954 in 2012. Thus, New Zealand has
+spending a considerable policy effort for environmental improvement.
+The 2nd tier includes Brunei, Australia and China that consist of the second tier in
+UEMI between 0.6875 and 0.7947 on average in the 7  years. Brunei’s performance on
+c
+environment fluctuated slightly in recent years, but UEMI did not change seriously and kept at the level above 0.6502 from 2008 to 2010 and 0.8289 to 0.8816 in recent 4 years
+except 1 in 2013. The UEMI of Australia decreased from 0.6409 in 2008 to 0.5500 in
+c
+2009 and jumped back to 0.6979 in 2010. It continued to increase to 0.9572 in 2013 and
+dropped back to 0.9127 in 2014. Similar as the economy, Australia’s performance slightly
+fluctuated, but still kept at a high level. China fast grew with UEMI from 0.4865 in 2008
+c
+to 1 in 2014, and the average UEMI was 0.6875. This indicates the Chinese effort for
+c
+developing, implementing and enforcing a solid environment law framework.
+The 3rd tier includes Singapore, Hong Kong, South Korea, Burma (Myanmar), Sri
+Lanka, Taiwan and India that are classified to this tier, with the UEMI between 0.3792
+c
+and 0.5767 on average in the 7 years. Singapore had the level of UEMI , gradually increasc
+ing from 0.5676 in 2008 to 0.6303 in 2014 except the drop by 15% in 2009. It outperformed the other three “Tiger economies” (i.e., Hong Kong, South Korea and Taiwan) in
+environmental perspective. Most of nations in this tier were impacted by the financial
+crisis of 2008 in terms of their environmental performance measures, except Burma having 17% increase in 2009. Taiwan and India had small increases. Burma (Myanmar) fast
+increased the UEMI from 0.2383 in 2008 to 0.5988 in 2012 and dropped to 0.5205 in
+c
+2013 and 0.5259 in 2014. Taiwan basically maintained the degree of UEMI at the level
+c
+around 0.3773 to 0.3953. The increase was very small, indicating that Taiwan’s development stagnated in recent years. India gradually increased UEMI from 0.3312 in 2008
+c
+to 0.4337 in 2014 except 1% drop in 2012. India paid much attention on its economic
+prosperity, not developing a balanced development between economy and environment
+protection.
+The 4th tier includes all rest countries that had UEMI below 0.3184 on average in the
+c
+observed 7 year. North Korea and Mongolia still performed the worst in environmental
+protection with the average UEMI below 0.2.
+c
+The implication, obtained from Table  3, implies that Japan and New Zealand leaded
+all Asian nations in both economic and environmental performance measures because
+they were in first tier under both natural disposability and managerial disposability. Brunei and Australia developed in balance with economic growth and environment protection by controlling ­ O2 emission and maintained their performance measures at a high
+C
+level. China fast grew in past decades and tried to catch up with developed countries.
+It showed a huge potential to lead the Asia in future. All “Tiger” economies, including
+Singapore, South Korea, Hong Kong and Taiwan, declined in both economy and environment. All countries in the fifth tier in economic performance belonged to the last
+tier in environmental performance, as well. Thus, the underdeveloped countries have a
+long way to develop the balanced economy and environment, especially North Korea
+and Mongolia.
+At the end of this section, we need to note that the degree of UENI and that of
+v
+UEMI on 21 Asian countries from 2008 to 2014 have similar results as documented in
+v
+Tables 2 and 3. Therefore, similar policy implication discussed from Tables 2 and 3 may
+be obtained from the ones in the cases. For example, the huge population may be the
+rationale concerning decreased UEMI in China and India. This indicates that they need
+v
+challenging policy to reduce industrial pollutions in developing their economies. Hence,
+this study does not document their results to reduce the length of this manuscript.
+ 
+Conclusion and future extensions
+To methodologically combat the climate change, this study proposed a new use of DEA
+for assessing a level of social sustainability. DEA was separated into “radial” or “nonradial” category by Sueyoshi and Goto (2018) and Sueyoshi et al. (2017a). A methodological contribution of this study is that it newly proposes an “intermediate approach”
+that analytically locates between the two categories. The intermediate approach was first
+proposed by Sueyoshi and Yuan (2017). See also Sueyoshi et al. (2017b).
+As an application, this study used the proposed approach for measuring the social
+sustainability of 21 Asian nations from 2008 to 2014. They have been developing their
+economic prosperities in a short period, but currently suffering from various pollutions.
+The performance assessment on Asian nations is important because they are most growing areas on energy consumptions and economic developments in the world. All Asian
+nations examined in this study were classified into four or five groups based upon their
+unified efficiency measures under natural disposability and managerial disposability.
+An important implication was that among Asian nations, Japan and New Zealand
+belonged to the first tier group in terms of their social sustainability developments.
+Japan’s economy started to turn down after 2012 and faced the pitfall in recent years.
+Japan has been a leading nation in Asia even after the disaster of Fukushima Daiichi
+nuclear plants occurred on March 11, 2011. The disaster has seriously devastated Japan’s
+economy and energy structure. Meanwhile, New Zealand has developed its economy by
+exporting agriculture products and maintained its natural beauty. Thus, the two nations
+belonged to the top group by the four unified efficiency measures. Thus, it is recommended that the other Asian nations may pay attention to their industrial and environmental developments. The other important implication is that large nations such
+as China and India have not badly performed if we consider the size of their economies. This is a surprising result because they are large carbon emitters in the world and
+thereby they have been often criticized in the international community.
+It is indeed true that this study is not perfect. Here, four issues need to be discussed
+here. First, the proposed intermediate approach needs to be explored a time horizon,
+which is not explored in this study. See Sueyoshi et al. (2017a). Second, it is necessary
+for us to apply the intermediate approach to other industrial nations in Europe, the USA
+and Japan, not only Asia as explored in this research. Such tasks will be important future
+extensions of this study. Third, this study has used two inputs such electricity consumption and total primary energy consumption to compute our efficiency scores. Some portion of total primary energy consumption is used for electricity generation. See Sueyoshi
+and Goto (2018). A rationale on these usages is that they are important sources of desirable outputs such as GDP. See Sueyoshi and Goto (2018) for empirical evidence on the
+rationale. Finally, the nations analyzed in this study are considerably different in their
+industry structures. Under such variations, relationships between GDP and CO2 emis­
+sions are influenced by the industry structures. This study has not incorporated these
+structural differences. The issue will be explored as a future research task.
+Finally, it is hoped that this study makes a contribution in DEA intermediate approach
+applied to energy and environment. We look forward to seeing future developments as
+specified in this research.

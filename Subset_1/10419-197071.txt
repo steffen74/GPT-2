@@ -1,0 +1,763 @@
+Introduction
+The Sustainable Development Goals (SDGs), also known as the 2030 Agenda, came into effect
+on 1 January 2016. With these goals, the United Nations set forth a formidable task for the global
+community following the Millennium Development Goals (MDGs). The SDGs consist of 17 goals
+and 169 associated targets that provide an opportunity to integrate development goals, and focus on
+the sustainable development of not only least-developed countries (LDCs), but all countries around
+the world (UN Sustainable Development Goals 2015). The MDGs took step towards multi-tiered
+development and poverty eradication, but they ignored problems of limited local capacities and
+poor data management. The adoption of the SDGs is evidence of global commitment to sustainable
+development post-2015 and is a platform on which to take action. Two years have passed since the
+kickoff of Agenda 2030 and the attention is now shifting from policy towards implementation. The shift
+raises concern on how the goals will be implemented and at the same time avoiding some of the major
+problems observed with the MDGs.
+To be a sustained endeavor beyond 2030, the SDGs need a concerted and coordinated effort to
+move from internationally driven development projects to locally and regionally driven operations.
+To achieve this, a broader and deeper understanding of the linkage between localization and data
+disaggregation should be elucidated to avoid the pitfalls of the MDGs. Moreover, greater insight of this
+connection will translate into local and regional policy interventions grounded in empirical evidence.
+
+Recognizing the MDG implementation impediments and the foci for SDG implementation, many
+questions surrounding localization and data disaggregation are still not answered: How can these
+paradigms overcome the issues of the MDGs and achieve the SDGs? What are the costs and benefits
+for local and regional governments (LRGs)? Who will provide the necessary guidance and how much
+will it cost? Research conducted in this paper aims to explain localization and data disaggregation in
+the context of the SDGs, the impact on key performance indicators (KPIs), how to disaggregate data to
+influence policy, and provide some answers to the highlighted questions through a case study that
+disaggregates SDG 6: Clean Water and Sanitation.
+2. Background
+The MDGs served as the first unified, global attempt to put sustainable development at the
+forefront of the world’s political agendas. The success of the SDGs is dependent on global leaders and
+sustainable development advocates not repeating past mistakes. The research presented in this paper
+focus on the SDGs in relation to two main lessons: localization and data management.
+The MDGs globalized international development, but they did not fully localize it. Local
+governments often lacked the human and financial resources to deliver results required by the
+targets, as well as the necessary indicators to demonstrate progress. Implemented projects that
+provided services often didn’t reach targeted populations largely because the skills and resources
+were not available at the local or regional level. In November 2016, United Nations Development
+Program (UNDP) and the World Bank Group released a joint report that highlighted these as well
+as other shortcomings and suggested that engagement with local communities and stakeholders
+is necessary to mitigate and potentially remove roadblocks that may impede SDG implementation
+(UN Development Program 2016). The SDGs state necessity of localization, but there are questions:
+what is localization for SDGs; what factors determine the level of localization; what is the relationship
+between localization and data and the impact on the SDGs?
+Broadly speaking, localization is the process of making something local in character or restricting
+it to a particular place. Many industries incorporate localization. For example, the software industry
+localizes a product to make it marketable to a specific audience. In the publishing realm, it means
+to translate a novel into the local language. Reviewing documents related to the SDGs and
+international development overall, localization (or localizing development) has shifted from meaning
+the implementation of development projects at the local level, by sub-national actors (i.e., local and
+regional governments) to something that is more robust. For the purposes of this paper, localization
+is defined as the implementation of supranational policy into projects at the appropriate subnational level
+to ensure the service delivery to the appropriate level population. In other industries, like the software or
+publishing, localizing level is determined by the return on investment (ROI). For example, when
+Microsoft makes new software, its release in languages other than English is based on the total
+amount of work required to translate and customize necessary to create different language editions
+(Microsoft Developer Network 2018). Similarly, books are published in a local language and are only
+published in another language if it is not cost-prohibitive. In each case, the level is determined by risk
+and return. Determining the level of localization for the SDGs can be found in a similar fashion.
+Localization prioritizes subnational planning and resource allocation by local and regional
+governments in a specific sector based on subnational variations (Lucci 2015). Responsibility for
+public services related to the SDGs varies across countries because of subsidiarity1 and national
+mandates based on constitutions. The localization level determination methodology should not be
+rigid and understand the linkages between mandates of line ministries and/or sector governance within a given country. Per Localizing the SDGs.org2 , the approach to determining the level should
+be flexible, simple, and adaptive to national variations. Water supply and sanitation, for example,
+can range from being a delegated responsibility to municipalities to being a state-owned enterprise
+operated at the national level. To determine the localization level of SDG6, Targets 1 and 2, assessment
+of state’s water, sanitation and hygiene (WaSH) mandate should determine the most appropriate level.
+Determining the level is not the only question to be answered about localization.
+Identifying the subnational level to localize will focus attention on local capacity development,
+building ownership and responsibility. The cost of localizing, however, is still not addressed. Success of
+the SDGs depends on each country being responsible for their own economic and social development
+(UN General Assembly 2015). It also calls for an increased emphasis for countries and their subnational
+governments to move away from allowing or contracting external entities and towards managing local
+projects themselves. However, one of the shortcomings with the MDGs was limited local capacity
+to execute projects. Localization is an important element for implementing the SDGs. However,
+determining localizing level has proven easier than financing localized development. Another lesson
+learned from the MDGS, data management, is just as complex.
+For a long time, data was associated with hard sciences, but it is ubiquitous today, used to analyze
+everything from sports to policy. In 1989, the first Knowledge Discovery in Databases workshop
+presented the concepts of data mining and use of data as a predictive tool (Press 2013). The proliferation
+of the internet and the world’s technological capacity grew to 15.8 exabytes,3 giving the world the
+ability to generate more data about our lives, but also creating the problem of what to do with all this
+information. At the same time, the Rio Declaration (1992) brought extreme poverty, climate change,
+and other development issues to the forefront of the global policy agenda. Data analysis is a valuable
+tool for addressing these problems, allowing stakeholders to collaborate and develop data-driven
+policy-making. The MDGs also attempted to leverage the power of data, but with mixed results.
+Data as it pertains to monitoring, evaluation and management were big concerns for the post-2015
+agenda (UN Economic and Social Council 2016). In their 2011 analysis, Poku and Whitman identified
+several data issues related to the MDGs: the 1990 baseline statistics were not available; the indicators
+were not being compiled by government agencies within national statistical systems (NSS); indicators
+may not be comparable across countries because of differences in compilation methodologies and/or
+definitions; some indicators may not be consistent across years because of differences in data sources;
+and most of the indicators are not compiled at the sub-national level (Poku and Whitman 2011).
+In some cases, data points on MDG performance have been estimated or modeled by international
+agencies. The Overseas Development Institute (ODI) also states that the data gaps are more serious
+than just statistical errors in reporting, they mean the data missing could have been used to improve
+the lives of those in LDCs and data gaps impact the accuracy of government plans and affect the
+allocation efficiency of budgets (Stuart et al. 2015).
+A few years after the 2000 Millennium Summit that launched the MDGs, the Second
+International Roundtable on Managing for Development Results agreed upon the 2004 Marrakech
+Action Plan for Statistics (World Bank 2004). Understanding the shortfalls of the MDGs as they
+related to data management, SDG targets 17.184 and 17.195 refer directly to capacity building linked to data, monitoring and accountability. To further reinforce the commitment to data
+management, the Cape Town Global Action Plan for Sustainable Development Data (Cape Town Plan)
+proposed six strategic areas with its own objectives and implementation actions in January 2017
+(High-Level Group for Partnership, Coordination and Capacity-Building 2017). The Cape Town Plan
+and its objectives and action items frequently mention data disaggregation and this policy underpins
+the United Nations (UN) resolution of the SDGs, “to leave no one behind.” Data management is
+a concern for the SDGs, raising many questions: what does data mean for the SDGs? What is the
+relationship of localization and data? What are some approaches to manage data for the SDGs? Before
+these questions can be answered, some basics about data as it relates to this research should be defined.
+In 2005, the United States National Science Foundation (NSF) released a report
+delineating the differences between, and importance of, data science and data management
+(National Science Foundation 2005). Data science merges statistics, data analysis and other related
+fields to understand and analyze actual phenomena as well as establish trends with data (Hayashi 1998).
+Data Management is development and execution of architectures, policies, practices and procedures
+to manage the information lifecycle needs of an enterprise in an effective manner. In the simplest of
+terms, data science collects, refines and produces data for particular uses, whereas data management
+is the architecture and governance of data collected, refined and produced.
+We are in an era in which the generation of wealth, power, culture and the like is based on
+technological capacity, with information technologies at its core (Castells 2000). Data processing as
+it was traditionally known has now transitioned into big data due to the volume and complexity of
+data since the late 1990s (Hilbert 2016). Information and communication technology for development
+(ICT4D) is the application of big data for development and offers many opportunities and challenges
+(Unwin 2009). On one hand, recent advances provide cost-effective methods to improve development
+decision-making and citizen science and information allow for officials to hear the perspective from
+the customer. On the other hand, the areas that need the most help are where more data is needed
+and is also where technological infrastructure is lacking the most. The quality and quantity of data
+in our time presents the problem of how to make the necessary relationships so it is useful. Data
+disaggregation is one method of doing so.
+Data disaggregation refers to numerical or non-numerical inputs that have been (1) collected
+from multiple sources and/or on multiple measures, variables, or individuals; (2) compiled
+into aggregate data—i.e., summaries of data—typically for the purposes of public reporting
+or statistical analysis; and then (3) broken down in component parts or smaller units of data
+(The Glossary of Education Reform 2015). Data disaggregation looks to uncover discrepancies that
+aggregated data can mask by breaking down the data into appropriate groups. This is often
+done in the fields of education, healthcare, and human rights. For example, understanding
+graduation rates of high school students in a district by sex and ethnicity in addition to just school
+or neighborhood. The UN Office of the High Commissioner on Human Rights has shifted from
+traditional data collection and analysis, which concentrates on national averages and risks the masking
+of underlying disparities of disadvantaged or marginalized groups, to disaggregated data analysis
+(Office of the High Commissioner on Human Rights 2016). In each example, policy interventions can
+be developed based on the correct statistical evidence for the appropriate audience and the appropriate
+level. To understand the appropriate level, localization methodology can be implemented. Whereas the
+issues with the MDGs focused on the data, many feel that disaggregation of data will be the challenge
+for the SDGs.
+The Inter-agency Expert Group on SDG Indicators (UN Statistics Division Inter-agency Expert
+Group on Sustainable Development Goal Indicators 2015) (IAEG-SDGs) was convened to look at data
+management for the SDGs overall as well as ensure that, “Sustainable Development Goal indicators
+should be disaggregated, where relevant, by income, sex, age, race, ethnicity, migratory status, disability and geographic locations.”6 The IAEG-SDGs classified the 244 (232 with nine repeated
+two or three times) indicators into three tiers on the basis of their level of methodological development
+and the availability of data at the global level7 :
+
+•
+•
+•
+
+Tier 1: metadata are fully developed and data are available,
+Tier 2: metadata are developed but data is not readily available or sparse,
+Tier 3: methodological work is necessary to further develop the indicator metadata.
+
+The Center for Global Development selected those indicators that have an impact on the SDG
+mantra of “leaving no one behind” and found that none of them have data disaggregated by income,
+race, ethnicity, migratory status, or disability status or relevant subgroups (Kalow and O’Donnell 2017).
+A 2017 meeting of the IAEG-SDGs in Ottawa8 provided further guidance on data disaggregation,
+announcing the Workplan on Data Disaggregation as well as defining it for the SDGs:
+Disaggregation is the breakdown of observations within a common branch of a hierarchy to a
+more detailed level to that at which detailed observations are taken. With standard hierarchical
+classifications [ . . . ] categories can be split (disaggregated) when finer details are required and made
+possible by the codes given to the primary observations.9
+In addition, disaggregation dimensions and categories are mentioned but not fully delineated.
+The question is no longer if data disaggregation, science and management should be done, the questions
+then are: how much will it cost and who is responsible with respect to the SDGs?
+Many subnational governments have limited financial and human resources for day-to-day
+obligations, let alone complying with national mandates related to the SDGs. Jerven, in a working
+paper for the Copenhagen Consensus Center, argues that proper monitoring of all 18 MDG targets
+and 48 indicators would have cost the United Nations approximately $27bn (Morten 2014). The total
+cost looks high, but when compared to the total of about $1.9tn spent globally on development aid
+over the same period, 1.4% of the total Overseas Development Aid (ODA) is within reason. Jerven
+and others argue that when it comes to monitoring and evaluation (M&E), there are more estimations
+than hard numbers with the MDGs, and these estimations are more likely observations with no
+consistent formulaic approach. Jerven estimates that to accurately monitor for the current SDGs,
+17 goals, 169 targets and plethora of indicators, it will cost at least $254 billion, which is more than
+the global spend on ODA annually or 12.5% of ODA aid over the SDG timeframe. In addition to
+the cost of M&E, there was and still is the local capacity issue. About 60 countries have basic data
+management systems required for M&E at this scale and most LDCs do not have the capacity to collect
+useful data on a national basis. The $254 billion estimate also does not account for staffing, operation
+and maintenance, training and retaining personnel, analyzing, or disseminating the data.
+The Addis Ababa Action Agenda (AAAA) emphasizes the importance of high quality,
+disaggregated data and prioritizes capacity building with the understanding that tracking SDG
+progress will further strain already stressed LDC’s administrative offices, specifically NSS, to collect
+and analyze data in new areas (UN 2015). AAAA also understands that this shift to better data
+management will require increasing resources for data and building capacity, with the support of the
+international community financially, in-kind, or both as needed. The Cape Town Plan furthers the
+AAAA, highlighting the principles of completeness of scope, accountability, and cooperation in order to
+accomplish its strategic areas and objectives for better disaggregated data management. At first pass,
+the IAEG-SDGs could appear to be the custodian but was tasked to develop and implement the global
+indicator framework for the goals and targets of the 2030 Agenda only. Furthermore, it is a group of representatives from member states and not its own entity or bureaucracy within the UN system
+or SDG-mandated organization. The IAEG-SDGs assigned indicator custodians who work on tier
+classification only but not for overall goals let alone the SDGs. Appendix A shows the custodians of
+the indicators for SDG6 and demonstrates that there is no common custodian even within a specific
+goal and some indicators have multiple custodians. At the fifth and sixth meetings of the IAEG-SDGs
+there was no mention of an overall SDG data custodian. Review of SDG-related documentation,
+IAEG-SDG will provide guidance on data disaggregation and indicators and subnational governments
+are responsible for providing data but data management and a data custodian is not present.
+The design of a study is more important than the statistical analysis; a study that is a poorly
+designed study can never be recouped, but a study that is poorly analyzed can be re-analyzed. Agenda
+2030 understands the issues of design and analysis that the MDGs faced with respect to localization and
+raises the question of how cross-cutting and sector-specific goals, data, and monitoring and evaluation
+will be executed effectively and efficiently.10 The SDGs allude to the linkage between localization and
+data disaggregation but do not elucidate the importance of the relationship: localization determines
+the level and disaggregation determines how to separate what at that level. The following case
+study looks at SDG6 Clean Water and Sanitation and suggests methodologies to answer some of the
+outstanding questions.
+3. Case Study
+Case studies are useful tools to test theoretical models with real world situations. Although it
+will not answer a question completely, a case study will provide guidance on how to move forward.
+SDG 6: Clean Water and Sanitation will be the subject of the case study for localization of SDGs
+through disaggregation of KPIs. The aim of the study is to highlight methodologies for localization,
+disaggregation, and development of inter-linkages between SDGs to develop new KPIs that unmask
+discrepancies for more effective and efficient policy interventions.
+Water, Sanitation and Hygiene (WaSH) services were high on the priority list in the 2030 Agenda
+after playing a minor role in the MDGs (MDG 7, Target 10) (UN Millenium Development Goals 2015).
+According to the WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and
+Hygiene (JMP), 89% of the global population used at least a basic drinking water service and 68% of
+the global population used at least basic sanitation services as of 2015 (World Health Organization
+(WHO) and the United Nations Children’s Fund (UNICEF) (2017)). In absolute numbers, that is 844
+million who lack basic drinking water services11 and 2.3 billion who lack basic sanitation services12 .
+Furthermore, proper WaSH access has the potential to prevent at least 9.1% of the global disease
+burden and 6.3% of all deaths (Prüss-Üstün Annette et al. 2008). Beyond the startling statistics, WaSH
+provides the opportunity for understanding localization and disaggregation.
+WaSH as a formal service delivery tends to be a natural monopoly due to high sunk costs related
+to infrastructure and other economies of scale. In addition, the governance of this sector has many
+subnational variations that are directly related to national constitutions, line ministry mandates and
+sector governance. For example, responsibility for WaSH in Zambia is shared by the Ministry of
+Local Government and Housing (policy), National Water Supply and Sanitation Council (economic
+regulation), and local government-owned commercial utilities (supply), whereas in neighboring
+Uganda responsibility is shared by the Ministry of Water and Environment (policy and regulation),
+National Water and Sewerage Corporation (supply) and local governments with populations of 5000 to 30,000 (supply) (Patole 2010). These factors, scale, scope, governance, and national mandates impact
+how to localize SDG 6 relative to each subnational government, indicating responsibilities at each level.
+The two examples used for this research are SDG 6 disaggregated in relation to SDG 3: Good
+Health and Well Being and SDG 11: Sustainable Cities and Communities. Table 1 breaks down the
+metadata of SDG 6 by tier and identifies the indicators. Indicator 6.1.1 and 6.1.2 criteria, for example,
+would draw metrics from the JMP (global leader in monitoring WaSH), Indicator 6.3.1 from WHO and
+6.3.2 from UN Environment for SDG 6. A similar exercise would be done for SDG 3 and 11 to identify
+potential relationships such as Indicator 3.9.213 and 11.1.114 for SDG 3 and 11, respectively. Table 2
+shows the analysis that results in identifying common criteria and variables that can be used form KPI
+development. It is important to note the importance of data disaggregation at the local level to account
+for local variations in the design and implementation of projects, especially for WaSH. However, this
+was beyond the scope of this particular study.
+Table 1. SDG 6 targets and indicators (excerpt from Appendix A, Table A1).
+Goal 6. Ensure Availability and Sustainable Management of Water and Sanitation for All
+Target
+
+Indicator
+
+Tier
+
+Custodian
+
+6.1 By 2030, achieve universal and equitable access to
+safe and affordable drinking water for all
+
+6.1.1 Proportion of population
+using safely managed
+drinking water services
+
+I
+
+WHO
+UNICEF
+
+6.2 By 2030, achieve access to adequate and equitable
+sanitation and hygiene for all and end open defecation,
+paying special attention to the needs of women and girls
+and those in vulnerable situations
+
+6.2.1 Proportion of population
+using safely managed
+sanitation services, including a
+hand-washing facility with
+soap and water
+
+I
+
+WHO
+UNICEF
+
+6.3.1 Proportion of wastewater
+safely treated
+
+II
+
+WHO
+UN-Habitat
+UNSD
+
+6.3.2 Proportion of bodies of
+water with good ambient
+water quality
+
+III
+
+UN
+Environment
+
+6.3 By 2030, improve water quality by reducing
+pollution, eliminating dumping and minimizing release
+of hazardous chemicals and materials, halving the
+proportion of untreated wastewater and substantially
+increasing recycling and safe reuse globally
+
+Source: IAEG-SDG (2016).
+
+WaSH has many qualitative and quantitative measures that can be disaggregated. The JMP
+2017 progress report, for example, breaks down service by level, by global region, by proportion
+of household income, and vulnerable populations to name a few.15 The report disaggregates the
+data to highlight discrepancies that the aggregated data hides. For example, although 89% of the
+world has access to at least basic drinking water, only 71% of the world has access to safely managed
+drinking water. Disaggregating that 71%, only 24% Sub-Saharan Africa currently satisfy SDG 6.1.1.,
+where the UN anticipates population to double by 2050 (UN Population Division 2017). The simple
+disaggregation exercise shows how a relatively positive KPI is masking major problems and at the
+same time highlights where efforts can do the most to improve a situation.
+The case study presents a simple methodology for localization of SDGs through disaggregation of
+KPIs. Below are the main steps:
+Understand
+IAEG-SDGs Indicator Custodian metadata for SDG,
+Table 2. Related Goals and Targets to SDG 6 (Excerpt from Appendix B, Table A2). 
+#
+
+Additional global/regional standards
+related to SDG if possible,
+Disaggregated SDG 6
+
+Potential Common Criteria and 
+Understand
+secondary SDG metadata
+to identify common criteria
+and variables,
+SDG 6 Target 
+Related SDG Target 
+Variables 
+Develop common KPI for primary/secondary SDG for disaggregation analysis.
+
+11.1 By 2030, ensure access  Criteria: Age, Sex, Income, Location, 
+Vulnerable Population 
+6.1 By 2030, achieve universal and 
+for all to adequate, safe 
+Table 2. Related Goals and Targets
+to SDG 6 (Excerpt from Appendix B, Table A2).
+equitable access to safe and 
+and affordable housing 
+Variable: Distance to drinking water 
+affordable drinking water for all 
+and basic services and 
+point, Hours of drinking water 
+Disaggregated SDG 6
+upgrade slums 
+service  Potential Common Criteria and
+SDG 6 Target
+Related SDG TargetCriteria: Age, Sex, Income, Location, 
+6.2 By 2030, achieve access to 
+Variables
+11.1 By 2030, ensure access 
+adequate and equitable sanitation 
+Vulnerable Population 
+Criteria:
+Age,
+Sex, Income,
+11.1 By 2030, ensure access for
+for all to adequate, safe 
+Location,
+Vulnerable
+Population
+and hygiene for all and end open 
+6.1 By 2030, achieve universal and equitable access
+to all to adequate, safe and
+and affordable housing 
+defecation, paying special attention 
+Variable: Distance from Domicile to 
+affordable housing and basic
+Variable: Distance to drinking
+safe and affordable drinking water for all
+and basic services and 
+services and upgrade slums
+water point, Hours of drinking
+to the needs of women and girls and 
+Sanitary Facility 
+upgrade slums 
+water service
+those in vulnerable situations 
+Criteria: Age, Sex, Income,
+for
+6.2 By 2030, achieve access to adequate and equitable 11.1 By 2030, ensure access
+6.3 By 2030, improve water quality by 
+Criteria: Mortality rate, Pollution 
+Location, Vulnerable Population
+3.9 By 2030, substantially 
+sanitation
+and
+hygiene
+for
+all
+and
+end
+open
+all
+to
+adequate,
+safe
+and
+reducing pollution, eliminating 
+type,   
+defecation, paying special attention to the needs
+of
+affordable housing and basic
+reduce the number of 
+Variable: Distance from Domicile
+dumping and minimizing release of 
+women and girls and those in vulnerable situations
+services and upgrade slums
+to Sanitary Facility
+deaths and illnesses from 
+hazardous chemicals and materials, 
+6.3 By 2030, improve water quality by reducing
+3.9
+By
+2030,
+substantially
+hazardous chemicals and 
+Criteria: Mortality rate,
+halving the proportion of untreated 
+Variable: Percent water treated, 
+pollution, eliminating dumping and minimizing
+reduce the number of deaths
+air, water and soil 
+Pollution type,
+release of hazardous chemicals and materials,
+and illnesses from hazardous
+wastewater and substantially 
+water‐related child mortality rate 
+pollution and 
+halving the proportion of untreated wastewater
+and chemicals and air, water and
+increasing recycling and safe reuse 
+Variable: Percent water treated,
+substantially increasing recycling and safe contamination 
+soil pollution
+globally 
+water-related child mortality rate
+reuse globally
+and contamination
+
+Figures 1 and 2 are the visual representation of the final step, the development of a new KPI. 
+Figures 1 and 2 are the visual representation of the final step, the development of a new KPI.
+Figure 1 shows the disaggregation of SDG 3, Target 9, Indicator 2 intersecting with SDG 6, Target 3, 
+Figure 1 shows the disaggregation of SDG 3, Target 9, Indicator 2 intersecting with SDG 6, Target 3,
+and Indicators 1 and 2 creating the KPI Total number and Proportion of deaths related to water bodies with 
+and
+Indicators 1 and 2 creating the KPI Total number and Proportion of deaths related to water bodies with
+improved ambient water quality. A similar exercise was done in Figure 2, creating the KPI Proportion of 
+improved ambient water quality. A similar exercise was done in Figure 2, creating the KPI Proportion of
+housing with safely managed water supply and sanitation services. 
+housing
+with safely managed water supply and sanitation services.
+
+ 
+Figure 1. Disaggregation Analysis of SDG 3 and SDG 6. 
+Figure 1. Disaggregation Analysis of SDG 3 and SDG 6.
+
+The relationship in Figure 1 quantifies “substantial” for 3.9.2 in terms of total number and overall 
+The relationship in Figure 1 quantifies “substantial” for 3.9.2 in terms of total number and overall
+proportion. 
+Water quality
+quality 
+can 
+increase 
+in  relation 
+to  what 
+is  useful
+not  as ifuseful 
+if  water 
+quality 
+proportion. Water
+can
+increase
+butbut 
+in relation
+to what
+is not as
+water quality
+increases
+increases and reduces disease burden and death. Through disaggregation, the relationship identifies 
+and
+reduces disease burden and death. Through disaggregation, the relationship identifies the World
+the World Health Organization as a common data custodian and therefore lower cost for big data 
+Health Organization as a common data custodian and therefore lower cost for big data harmonization.
+harmonization. If Zambia implements a project to reduce mortality rate of water‐borne illness and 
+If
+Zambia implements a project to reduce mortality rate of water-borne illness and investment in
+investment in secondary or tertiary water supply treatment, resources can be coordinated to augment 
+secondary
+or tertiary water supply treatment, resources can be coordinated to augment both projects
+both projects due to the relatedness of KPI. 
+due to the relatedness of KPI.
+
+Economies 2018, 6, 15
+Economies 2018, 6, x   
+
+9 of 17
+9 of 16 
+
+ 
+
+Figure 2. Disaggregation Analysis of SDG 11 and SDG 6. 
+Figure 2. Disaggregation Analysis of SDG 11 and SDG 6.
+
+The relationship in Figure 2 provides a qualifying value for inadequate housing with respect to 
+The
+relationship in Figure 2 provides a qualifying value for inadequate housing with respect to
+water and sanitation. Without disaggregation, 11.1.1 would satisfy the access to water or sanitation 
+water and sanitation. Without disaggregation, 11.1.1 would satisfy the access to water or sanitation
+requirement as per SDG 11 metadata with “improved” access. However, additional resources would 
+requirement
+as per SDG 11 metadata with “improved” access. However, additional resources would
+be needed to then upgrade the project so that it satisfies SDG 6, which is one full level above SDG 11, 
+be needed to then upgrade the project so that it satisfies SDG 6, which is one full level above SDG 11,
+requiring safely managed water supply and sanitation on site as per SDG 6 metadata. In the case of 
+requiring
+safely managed water supply and sanitation on site as per SDG 6 metadata. In the case of
+Uganda, NWSC can coordinate with the respective authority and level administering SDG 11 projects 
+Uganda, NWSC can coordinate with the respective authority and level administering SDG 11 projects
+for housing to ensure it is in compliance with SDG 6 requirements for water and sanitation.
+for
+housing to ensure it is in compliance with SDG 6 requirements for water and sanitation.  
+The examples of disaggregation provided in the case study demonstrate the potential of such a 
+The
+examples of disaggregation provided in the case study demonstrate the potential of such a
+technique. Deeper understanding of the SDGs, their targets and indicators can facilitate development 
+technique. Deeper understanding of the SDGs, their targets and indicators can facilitate development
+of project design toolkits. The frameworks provided can improve the design and implementation of 
+of
+project design toolkits. The frameworks provided can improve the design and implementation of
+more effective and efficient projects at the local level, thus achieving the SDGs faster. The metadata 
+more effective and efficient projects at the local level, thus achieving the SDGs faster. The metadata
+generated through
+through disaggregation
+disaggregation 
+improve 
+the  quality 
+and  impact 
+of  localized 
+and 
+generated
+cancan 
+improve
+the quality
+and impact
+of localized
+projectsprojects 
+and increase
+increase 
+the 
+value 
+per 
+development 
+dollar. 
+Moreover, 
+the 
+involvement 
+of 
+local 
+stakeholders 
+will 
+the value per development dollar. Moreover, the involvement of local stakeholders will build local
+build  local and
+ownership 
+capacity 
+that 
+lead  to  the  operationalization 
+of discussion
+projects.  Further 
+ownership
+capacity and 
+that can
+lead to
+the can 
+operationalization
+of projects. Further
+related
+discussion 
+related 
+to 
+localization, 
+data, 
+disaggregation 
+and 
+the 
+case 
+study 
+are 
+to localization, data, disaggregation and the case study are provided in the followingprovided 
+section. in  the 
+following section.   
+4. Discussion
+4. Discussion 
+The research conducted aims to further the discussion on localization and data disaggregation in
+The research conducted aims to further the discussion on localization and data disaggregation 
+the context
+of international development. It raises other concerns about the potential shortcomings
+in the context of international development. It raises other concerns about the potential shortcomings 
+of
+the implementation of SDGs related to localization and data management. Many points worth
+of  the  implementation 
+SDGs to
+related 
+to  localization 
+and  data during
+management. 
+Many 
+points 
+worth 
+highlighting
+specificallyof 
+related
+responsibility
+were uncovered
+the course
+of this
+research.
+highlighting specifically related to responsibility were uncovered during the course of this research. 
+Localization was one of the major shortcomings of various international development agendas
+priorLocalization was one of the major shortcomings of various international development agendas 
+to the SDGs. Being viewed as a panacea, the questions of what and why for localization have
+prior to the SDGs. Being viewed as a panacea, the questions of what and why for localization have 
+been
+widely documented but no formal guidance on how and who will do it. One suggested approach
+been was
+widely 
+documented 
+but study
+no  formal 
+on  how 
+and  who  will 
+do  it. 
+One  suggested 
+that
+mentioned
+in the case
+is the guidance 
+development
+of a localization
+analysis
+toolkit.
+Similar to
+approach that was mentioned in the case study is the development of a localization analysis toolkit. 
+the analysis conducted by the IAEG-SDG to identify the data custodians, an analytical framework
+Similar 
+the  analysis 
+conducted 
+by  the  IAEG‐SDG 
+to  identify 
+the responsibilities.
+data  custodians, 
+analytical 
+could
+beto 
+developed
+to create
+an international
+clearinghouse
+on sector
+Anan 
+inventory
+of
+framework could be developed to create an international clearinghouse on sector responsibilities. An 
+governments
+can be disaggregated relative to SDGs and linked to factors that influence sector KPIs
+inventory of governments can be disaggregated relative to SDGs and linked to factors that influence 
+such
+as national mandate, economies of scale, sector governance, stakeholder roles and responsibilities,
+sector KPIs such as national mandate, economies of scale, sector governance, stakeholder roles and 
+etc.
+The exercise will also mitigate resources wasted on initial stakeholder analysis and standardizing
+responsibilities, etc. The exercise will also mitigate resources wasted on initial stakeholder analysis 
+the
+process.
+and standardizing the process. 
+  Guiding Principles Of Data Reporting And Data Sharing For The
+The IAEG-SDG released its
+The IAEG‐SDG
+Global
+Monitoring Of released its Guiding Principles Of Data Reporting And Data Sharing For The Global 
+The 2030 Agenda For Sustainable Development (Guiding Principles) and is holding
+Monitoring  Of  The  2030  Agenda  For  Sustainable  Development  (Guiding  Principles)  and  is  holding consultation on the inter-linkages for SDG indicators in late 2017.16 The broader issue of who is
+responsible for data management, governance and related fields appears to remain a burden for NSSs
+and resource-poor subnational governments. MDG data issues such as data gaps for baseline country
+data, standard data formats and integration, data integrity and access are bound to be repeated if
+the international development community remain on the same path. The suggestion is to formalize
+the responsibility of the UN Statistical Division and IAEG-SDG to being the global custodians of
+development data, responsible for management and governance of the data. Looking at the case
+study, WaSH industry standards can be harmonized, such as users per connection or employees per
+connection and normalized based on the results of the localization analysis toolkit by data custodians.
+The responsibility for the subnational governments would be to provide updates on a formal NSS
+that feeds into the global statistical system. Although it may appear to be easier said than done,
+the IAEG-SDG has already laid the foundation and ICT4D has a framework for organizing big data for
+development. Who is willing to be responsible for this task is still yet to be determined.
+The resource burden of the SDGs has an added layer of complexity for international development
+with the push for localization and data. Who is responsible to pay for all of this? The World Bank
+insists that local governments find a way to pay to achieve the SDGs rather than work on local capacity
+because the finance gaps are too high to implement SDGs. Stated earlier, the estimate to accurately
+monitor all 17 goals, 169 targets and plethora of indicators may cost $254 billion. What is the right
+proportion of resources spent on M&E of the SDGs versus the proportion spent on projects and
+programs that contribute to the SDGs? The suggested coordinating unit at the supranational level
+that is responsible for standardization, integration, and governance of data can reduce redundancies
+and lessen the financial burden across the board due to economies of scale. Moreover, it will allow
+for subnational actors to increase their capacity at a more sustainable rate without the sacrificing
+their other local responsibilities. Furthermore, indicator disaggregation can improve the return on
+development investments, freeing up resources for additional projects or capacity development.
+The case study used in this is a demonstration of disaggregation. The methodology suggestion is
+one of the numerous ways of disaggregating the SDGs. However, who would be responsible for this is
+a cause for concern. Disaggregation needs the context of scale and scope of localization. The variability
+due to subsidiarity can be overcome with guidance from data organizations or toolkits that provide
+steps to conduct localization exercises for disaggregation.
+5. Conclusions
+The SDGs look to overcome the mistakes of the MDGs while forwarding the cause. The importance
+of data and the desire to have numbers drive policy in recent years has been a concern for many
+groups and one for the international community implementing the SDGs. What is the right proportion
+of resources spent on M&E of the SDGs versus the proportion spent on projects and programs that
+contribute to the SDGs? Will the indicators provide the guidance necessary for subnational actors to
+operationalize the SDGs on the ground? Understanding the shortcomings, data disaggregation and
+localization combined may provide the necessary answers but are not without their own issues.
+Agenda 2030 is daunting but not insurmountable to achieve. The utilization of localization and
+data disaggregation of key performance indicators are valuable assets towards achieving sustainable
+development. The case study used aims to highlight the advantages of these two points while exploring
+how to bridge the gaps therein. For SDG 6 and others, the best chance of success comes if cities and
+subnational actors work to improve performance, not necessarily in comparison to each other, but in
+comparison to their own status from when they began. The SDGs, their targets and indicators can
+and will influence decisions on the ground. The data is important, but decisions should have a mix of quantitative and qualitative analysis that understands that the heart of international development is to
+improve the quality of life, not quality of data.
+Recommendations
+The feasibility of a central or supra-national data management unit should be further investigated.
+The economies of scale that could be achieved may provide some answers on how to alleviate the
+resource burden tied to M&E of international development. Furthermore, the inclusionary practice
+of an entity may foster better governance and standardization of practices that could accelerate
+development by unmasking data discrepancies. Questions such as the cost of bureaucracy, technology
+and energy requirements for ICT4D at the global level, impact of complete versus sampling in data
+drive policy interventions and the like should be investigated further.
+Further research on the development and implementation of localization and disaggregation
+frameworks should be conducted. How to disaggregate and localize the SDGs would be a valuable
+tool for local governments, implementing partners and others to appropriately develop projects that
+properly address the indicators of the SDGs and avoid duplication of efforts resulting in wasted
+resources. The methodology used in the case study was a rudimentary approach, given the limited
+resources, but can be used as a springboard for further study. The framework for disaggregation is in
+the early stages of development as observed in the proceedings of the Sixth Meeting of the IAEG-SDGs
+in Bahrain. However, it should be vetted by independent third parties.
+Although not part of the scope of this study, it is necessary to understand the local variations
+of any SDG related sector when establishing local context of disaggregation. The development of
+projects based on data disaggregation should understand this as part of the process The case study
+utilized SDG 6 and the WaSH sector has many national and subnational variations, such as hydraulic
+capacity, population, pollution, and competing users and uses, which can provide local context in
+disaggregation at the local level. For example, reviewing SDG 3 in relation to SDG 6, local interventions
+to improve water quality can vary based on the chemical or biological pollutants, availability of water
+sources and/or population density.

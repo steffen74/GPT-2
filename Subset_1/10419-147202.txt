@@ -1,0 +1,685 @@
+1 Background
+Long-range Energy Alternatives Planning System (LEAP) is a widely used software tool
+for energy policy analysis and climate change mitigation assessment developed by the
+Stockholm Environment Institute. According to Heaps (2008), LEAP is a standard tool
+that enables countries to contact integrated resource planning, greenhouse gases
+(GHG), mitigation assessments, and low-emission development strategies (LEDS).
+Furthermore, several countries have been based on LEAP’s output in order to report to
+the United Nations Framework Convention on Climate Change (UNFCCC).
+There are various studies in Greece that have been conducted in order to provide
+the literature with long-term projections in the energy sector using LEAP (among
+others, Papagiannis et al. 2008; Giatrakos et al. 2009; Roinioti et al. 2012). According
+to Bhattacharyya and Timilsina (2010), LEAP is based on the accounting framework in
+order to generate energy demand (and supply) and on the physical description of the
+© 2015 Halkos et al. This is an Open Access article distributed under the terms of the Creative Commons Attribution License
+(http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided
+the original work is properly credited.
+
+examined energy system. Furthermore, on their extensive review Bhattacharyya and
+Timilsina (2010) emphasize the fact that LEAP is based on the scenario approach in
+order for several paths of energy system evolution to be developed. According to Heaps
+(2002), the forecast of the energy demand is based on the effect of alternative market
+shares, whereas the supply side is based on a what-if analysis and possible development
+scenarios which LEAP integrates through simulation and accounting approaches.
+Our paper constructs four different scenarios for the period 1990–2030 in order to
+evaluate the demand of Greek energy derived from renewable energy sources (RES)
+and the GHG emissions generated over the same period for the sectors of industry,
+transport, and energy. Therefore, in the first stage, the paper forecasts the energy demand derived from renewable sources alongside the generated GHG emissions (under
+the four scenarios). Furthermore, in the second stage analysis, it applies a nonparametric estimator based on the mathematical approach known as data envelopment
+analysis (DEA)1 in order to evaluate the efficiency of the Greek renewable energy policies imposed under the Law L3851/2010 which was introduced in order to comply
+with the European targets set in 2007 and in 2014.2 As a result, the paper presents a
+way for evaluating the efficiency of the future implementation of renewable energy
+policies, which in our case have been set by the Greek government and under four
+different energy-based scenarios.
+The article is constructed as follows. Section 2 presents a review of the relative literature,
+the four scenarios for the Greek energy sector and the nonparametric methodology adopted.
+Section 3 presents the empirical findings, whereas, the last section concludes the paper.
+
+2 Methods
+2.1 A Brief review of LEAP-based studies
+
+The mitigation of greenhouse gases has received much attention since the ratification of
+Kyoto Protocol in 1992 at the United Nations Rio Earth Summit. The fulfillment of this
+target requires a shift toward cleaner energy, renewable energy sources, energy efficiency,
+and low-carbon options. The construction and examination of alternative scenarios is
+important for the decision maker (countries, international parties, ministries, etc.) in
+order to decide the best path to follow. Long-range Energy Alternatives Planning System
+software is an excellent and widely used tool for scenario analysis. LEAP has been widely
+used in various sectors such as energy and electricity, industry, and transport.
+Bala (1997) used LEAP to investigate the rural energy system of Bangladesh which is
+based primarily on biomass. The author argued against massive deforestation as a solution to the energy problem. Islas et al. (2003) examined the Mexican energy sector.
+They constructed scenarios for alternative energy sources such as natural gas and RES
+and found that in most cases, alternative scenarios are better than the oil-based baseline scenario. Ghanadan and Koomey (2005) constructed four scenarios about the
+energy sector in California. The alternative scenarios are based on cleaner energy and
+RES, behavioral changes, and energy efficiency changes. Shin et al. (2005) assessed the
+use of landfill gas as a renewable energy source for electricity in Korea. The results are
+not clear due to economic, technological, and regulatory uncertainties of landfill gas.
+Mulugetta et al (2007) investigated the power sector in Taiwan for the time period
+2002–2020. They constructed a business-as-usual and two alternative scenarios about improvements in efficiency and introduction of RES such as biomass, solar, wind, and
+hydropower.
+The case of the Chinese electricity sector was investigated by Ζhang et al. (2007).
+Alternative policies were examined such as the replacement of coal with nonfossil fuels
+and RES and the incorporation of new advanced technology. Cai et al. (2008) studied
+five sectors of the Chinese economy (electricity, iron and steel, cement, pulp and paper,
+and transport). The results indicated that current mitigation options should be further
+encouraged, among others with structure reformation at the sector level, energy efficiency
+options, RES, and mitigation incentives. Dagher and Ruble (2011) constructed scenarios
+about the electricity sector in Lebanon and examined the shift toward natural gas in one
+scenario and toward RES in another scenario. Yophy et al. (2011) investigated the energy
+sector in Taiwan. They constructed scenarios about the mitigation of CO2 emissions using
+various assumptions such as enhancing energy efficiency, the closing of existing nuclear
+plants, and the possible negative effects from economic growth. Park et al. (2013) examined
+the transition of the Korean electricity sector toward RES. The alternative scenarios assume
+different levels of environmental policies. The only scenario which yielded reduced
+emissions was the sustainability scenario. This scenario assumes that RES would generate
+the most electricity by 2050.
+Another important cross-national attempt has been made from the European Union
+toward the reduction of GHG emissions known as the “20-20-20” targets. According to
+these targets, countries are committed to reduce the total EU GHG emission by 20% in
+2020 compared to the 1990 levels. The parties are also obliged to raise the share of RES to
+20% of the total EU energy consumption and to improve the EU’s energy efficiency by 20%.
+The implementation of these ambitious targets has brought scenario analysis into the center
+of the scientific community’s attention. The construction of the alternative scenarios and
+the results of the analysis are crucial for the decision maker in order to decide which path
+will follow toward the fulfillment of the targets.
+There are not many LEAP studies for Greece. Giatrakos et al. (2009) investigated the
+RES in the power sector at the island of Crete, using a business-as-usual scenario and
+two alternative scenarios. The alternatives assume different penetration levels for the
+demand-side management policies. The results indicate that the EU targets are achievable
+by the end of 2015 without compromising the economic growth of the island. In fact, the
+results indicate that the targets could be surpassed, leading to a 30% RES penetration and
+50% GHG reduction by 2030. The outcome is a result of wind and photovoltaic parks
+which are expected to be constructed at Crete. Karapidakis et al. (2011) have also studied
+the power sector in Crete Island toward 2020 using two alternative scenarios. The first
+scenario assumes an increase of RES to 20% and a moderate increase in the total installed
+capacity wind and photovoltaic plants. The second scenario assumes a significantly larger
+increase of RES to 50%, the installation of hydro-pumped storage systems and also a
+considerable increase in the total installed capacity of wind and photovoltaic plants.
+The results indicated stable emissions for the first scenario and 40% lower emissions
+for the second scenario.
+Roinioti et al. (2012) examined the Greek energy system with a focus on electricity
+production system. The authors used LEAP and created a business-as-usual scenario
+and four alternative scenarios based on uncertainties and growth assumptions. Specifically,
+the first alternative scenario is the green scenario which assumes low emissions and high growth rate, with the introduction of advanced RES technologies. The orange scenario
+assumes high emissions and high growth rate, the red scenario assumes high emissions and
+low growth rate, and the blue scenario assumes low emissions and low growth rate.
+The results indicated that from an environmental point of view, the best is the green
+scenario and the worst is the orange scenario. In addition, green is the only scenario
+to achieve the 40% RES target in electricity production by 2020. Ikonomopoulos et al.
+(2013) investigated the greenhouse gas emissions in the Greek electricity sector by
+2030. The authors created a reference scenario and three alternatives. The reference
+scenario assumes that old power stations will close and new RES stations will open
+according to the announcements and time schedule of the Ministry of Environment.
+The first alternative scenario assumes delays in closing of old thermal stations and
+opening new advanced ones. The second alternative scenario assumes the connection
+of islands to the mainland grid, and the last scenario assumes the introduction of
+hard coal in Greek power generation. The results revealed that all four scenarios
+reduce emissions and highlighted the key role of RES.
+Apart from the energy and electricity sector, there are a number of studies using
+LEAP on the Greek hotel and building sector. Maleviti et al. (2012) studied the energy
+consumption in Greek four- and five-star hotels. The authors constructed a businessas-usual scenario and an alternative scenario which assumes the implementation of a
+restrictive policy framework toward the reduction of energy consumption, the improvement of energy efficiency, and other improvements. The outcome of this study indicated
+the importance of diffusing the information about potential energy improvements to hotel
+managers. Katsigiannis et al. (2012) investigated the effects of retrofitting buildings to the
+power system of Crete Island which is not connected to the mainland power grid of
+Greece. The authors constructed eight alternative scenarios with respect to energy and
+electricity consumption and RES penetration emphasizing of RES technologies for the
+Greek energy policy.
+2.2 A description of the LEAP-based renewable energy policy scenarios3
+
+Scenarios are based on future energy systems which are constructed based on specific
+economic condition trends and possibilities (Wiseman et al. 2011; Carter 2007; Moss
+et al. 2010). The main concept of LEAP is an end-use driven scenario analysis with a
+baseline scenario and different other alternative scenarios. The scenarios are used for a
+number of “what if” questions under the arrangement of user-defined assumptions. The
+set of conditions is detailed in the scenarios and is constructed in order to encompass
+some factors (parameters) that are anticipated to change.
+In our case, there are four scenarios generated under different options. The policy
+options and the key assumptions the scenarios are based on are presented next.4
+
+2.2.1 Baseline scenario—BASE, BAU
+
+The first scenario is the “Baseline”, which is based on historical trends from 1990 till
+2010. Changes in demographic and macroeconomic variables are given in Table 1.
+Specifically, Table 1 describes the projections for the annual population growth rate,
+annual GDP growth rate, annual growth rate of income, and annual growth rate of
+GDP per capita till the target year 2030 (Ministry of Environment, Energy and Climate
+
+Table 1 Changes of demographic and macroeconomic variables used
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+2017
+
+Annual population growth rate (%)
+
+0.1
+
+0.0
+
+−0.2
+
+−0.2
+
+−0.1
+
+−0.3
+
+−0.2
+
+Annual GDP growth rate (%)
+
+−4.0
+
+−2.6
+
+1.1
+
+2.1
+
+2.1
+
+2.6
+
+2.6
+
+Annual growth rate of income (%)
+
+−4.0
+
+−3.7
+
+0.8
+
+2.8
+
+2.5
+
+2.6
+
+2.6
+
+Annual growth rate of GDP per capita (%)
+
+−9.0
+
+−2.0
+
+0.9
+
+1.8
+
+1.6
+
+2.6
+
+2.6
+
+2018
+
+2019
+
+2020
+
+2025
+
+2030
+
+Annual population growth rate (%)
+
+−0.1
+
+−0.1
+
+−0.2
+
+−0.2
+
+−0.4
+
+Annual GDP growth rate (%)
+
+2.5
+
+2.5
+
+2.9
+
+2.2
+
+1.5
+
+Annual growth rate of income (%)
+
+2.5
+
+2.5
+
+2.9
+
+2.2
+
+1.5
+
+Annual growth rate of GDP per capita (%)
+
+2.5
+
+2.5
+
+2.9
+
+2.2
+
+1.5
+
+Projections are based on estimates by the Ministry of Environment, Energy and Climate Change (2013).
+
+Change 2013). The projected potential withdrawals of power plants may be found in
+Halkos et al. (2014).
+
+2.2.2 Target 2020 scenario—TAR20
+
+The second scenario is based on the European target set in 2007, in order to develop
+an energy-efficient and low-carbon Europe via an increase in the share of the EU
+energy consumption produced from renewable resources to 20%. According to the
+government and to the Law L3851/2010, it is stated that the protection of the climate
+or the reduction of GHG emissions, through the promotion of electrical energy
+production from RES, is a crucial element of the energy sector of the country. In
+order to achieve the national target of 20% contribution of the energy produced from
+RES to the gross final energy consumption, specific targets include increasing RES
+electricity share by 40%, RES heating and cooling share for the household sector by
+20%, and RES transport share by 10%. This target will be achieved through the large
+penetration of RES technologies in electricity production, heat supply, and in the
+transport sector.
+The changes in the demographic and macroeconomic variables that are used in
+the target 2020 scenario are also presented in Table 1. Finally, we assume a 50%
+increase of RES capacity, which corresponds to 5311.7 MW. Specifically, as the
+Hellenic Transmission System Operator S.A. publishes binding and final offers for
+connection system or network for power stations of renewable energy and stations and
+cogeneration plants of electricity and heat and high performance (CHP), we assume that
+till 2020, half of the nonbinding offers will be achieved. Table 2 describes in details the
+structure of the assumed generated capacity per RES category.
+
+2.2.3 Target 2030 scenario—TAR30
+
+We follow the target set in 22 January 2014 by the European Commission toward a
+renewable energy economy. Specifically, the share of renewable energy penetration in
+final consumption is set to increase at least up to 27% by 2030. This will be achieved
+by the introduction of RES in industry. Following Heaps et al. (2009) concerning the
+industry sector, CO2 emissions can be further reduced through the increased use of
+biomass, natural gas, and increased participation of RES in electricity, the iron and
+
+Table 2 Generation capacity projections per RES category till 2020 and 2030
+RES
+
+Capacity (MW) 2020
+
+Capacity (MW) 2030
+
+Photovoltaics
+
+207.5
+
+415
+
+Wind park
+
+4666.5
+
+9333
+
+Small hydro
+
+350.2
+
+640.2
+
+Biomass
+
+87.5
+
+175
+
+Total
+
+5311.7
+
+10,563.2
+
+Source: Hellenic Transmission System Operator S.A. available http://www.desmie.gr/ape-sithya/stathmoi-ape-sithya-meprosfora-syndesis/.
+
+steel production sector, the cement production, the chemical production, and other
+industrial subsectors. As far as the changes in demographic and macroeconomic variables
+that are used in the target 2030 scenario, these are given also in Table 1. Furthermore, we
+assume a 100% increase of RES capacity, which corresponds to 10,563.2 MW. Specifically,
+as in the previous scenario and relying on the Hellenic Transmission System Operator
+S.A., the last column of Table 2 describes in details the structure of the assumed generated
+capacity per RES category.
+2.2.4 Green scenario—green
+
+Under this scenario, we follow as in TAR30 the target set in 22 January 2014 by the
+European Commission toward a renewable energy economy. However, and in contrast
+to TAR30, we assume that the share of renewable energy penetration in final consumption
+is set to increase at least up to 27% by 2020 instead of 2030. The same assumptions
+imposed for TAR30 are also imposed for the green scenario; however, under the green
+scenario, the Greek government should increase the share of energy consumption
+produced from renewable resources to 27% by 2020.
+Figure 1 presents the projections of GHG emissions for the sectors of industry, transport,
+and energy. As can be observed, industry produces the lowest levels of GHG emissions,
+whereas the transport sector produces the highest GHG emission levels. As can be viewed,
+the emissions produced by the Greek industry have been declined especially during
+the financial crisis period. The same is reported for the energy sector. However, the
+emissions generated by the transport sector have been monotonically increasing (Base
+and TAR20 scenarios). In all cases as expected and under the base scenario, the sectors
+will be generating higher levels of GHG emissions compared to the green scenario.
+Finally, Figure 2 presents the estimated energy consumption from RES under the four
+scenarios. It can be viewed that under the green scenario, the different sectors will have
+more investments on RES and therefore the consumption levels will be higher. However,
+again it can be noticed that the energy levels generated from RES of the industry sector
+(Figure 2a) will be significantly lower compared to the sectors of transport (Figure 2b) and
+energy (Figure 2c).
+2.3 Data Envelopment Analysis
+
+In order to evaluate the efficiency of the Greek government’s energy policies, we need
+to evaluate also their ability to reduce greenhouse gases under the four renewable energy
+policy scenarios described previously (BAU, TAR20, TAR30, and green). Specifically, we
+need to evaluate under the four scenarios generated in LEAP for the period 1990–2030
+the estimated energy usage of renewable sources of the Greek main sectors (industry, transport, and energy) alongside with the generated GHG produced. This can be accomplished by creating a composite performance index which can be comparable
+among the four renewable energy scenarios and among the sectors for the period
+1990–2030. As a result, this will enable us to evaluate the efficiency of the renewable
+energy policy (EREP) based on the future estimates produced using LEAP.5
+In order to do so, we apply a nonparametric approach known as data envelopment
+analysis (DEA). DEA is a mathematical programming technique which enables us to
+evaluate a specific process which is based on the estimation of a benchmark frontier—a
+relative frontier against which the decision making units (DMUs) are assessed, using
+specified DMUs’ inputs and outputs (Daraio and Simar 2007). Then, the efficiency is
+calculated as the distance of each DMU from the estimated (“efficient”) frontier. In our
+analysis, we treat as DMU each year which reflects the outcome of the renewable energy
+policies adopted among the four sectors.
+Typically, the DEA methodology is applied in a production framework investigating
+the efficiency of specific inputs to produce specific outputs. However, in our study, we
+follow a similar approach as the one initiated by Kuosmanen and Kortelainen (2005).
+They suggest an eco-efficiency indicator which involves the calculation of the ratio of
+value added (i.e., the good output/GDP) to the environmental damage or pressure index
+(i.e., the bad output/pollutant), approaching therefore the environmental efficiency from a
+social point of view rather than from the managerial point of view. Therefore, their
+proposed index excludes the primary production factors even though they are important
+cost factors in technical and economic efficiency analysis (Kuosmanen and Kortelainen
+2005, p. 64).
+In our case, the value added to the Greek economy and society (from the renewable
+energy policy perceptive) is the energy consumption (measured in million gigajoules)
+derived from renewable sources. In contrast, the bad output is the greenhouse emissions (CO2, CH4, and N2O) which will be produced in the future (based on the scenarios entered
+in LEAP) from the sectors of industry, energy, and transport and are the products of bad
+design, adoption, and implementation of renewable energy policies.
+Based on the approach by Koopmans (1951), we can define the efficiency of renewable
+energy policy in a multiple dimensional Euclidean space. For the purpose of our analysis,
+let us have Mpollutants (greenhouse emissions—CO2, CH4, and N2O) measured by the
+variablesu = (u1, …, um)and letρ denote the energy demand of the three sectors derived
+only from renewable energy sources (measured in million gigajoules). As a result, we will
+be able to define the pollution generating technology set as:
+
+T¼
+
+1þM
+ðρ; uÞ∈ℜþ jthe energy consumption derived from renewable sources ρ
+can be generated also with damage u derived from non‐renewable energy sources
+
+
+
+ð1Þ
+Expression (1) implies that even though and under the specified energy scenarios,
+there will be a specific percentage of commitment of energy consumption from renewable
+sources; however, there will be also pollution generated from energy consumption from
+nonrenewable sources. Therefore, in our case, the efficiency of the renewable energy policies
+(EREP) implemented by the Greek government will have the aim to reduce the generated
+pollution. This efficiency can be represented as:
+EREP n ¼
+
+Ρn
+DðUn Þ
+
+ð2Þ
+
+In ratio (2), D represents the damage function of the Mpollutants in a weighted average
+indicator represented as:
+DðuÞ ¼ v1 u1 þ v2 u2 þ … þ vm um
+
+ð3Þ
+
+Since the problem of a proper weight (v)on the pollutants is crucial, we follow Kuosmanen
+and Kortelainen (2005) suggesting the benefit-of-the-doubt weighting scheme. This
+approach applies weights that maximize the relative EREP of the evaluated year and industry in comparison with the maximum attainable EREP. This can be calculated as:6
+max EREP n ¼
+v
+
+s:t:
+
+Ρn
+v1 U n1 þ v2 U n2 þ … þ vM U nM
+
+Ρ1
+≤1
+v1 U 11 þ v2 U 12 þ vM U 1M
+Ρ2
+≤1
+v1 U 11 þv2 U 22 þvM U 2M
+⋮
+ΡN
+≤1:
+v1 U N1þv2 U N2þvM U NM
+
+ð4Þ
+
+v1 ; v2 ; …; vM ≥0
+Therefore, we use weights vm(m = 1, …, M)to maximize the EREP ratio, subject to the
+condition that the highest attainable efficiency score does not exceed the maximum
+index value of 1 when the same weights are applied across all other years and industries.
+As can be observed, the weights are not negative and the efficiency score can take the
+values between 0 and 1. As can be realized, the value of 1 indicates an efficient renewable
+energy policy whereas values below 1 indicate inefficient policies. Furthermore, the program in (4) is fractional and is difficult to be solved. However, by following
+Charnes and Cooper (1962) and Charnes et al. (1978), we can transform the fractional program presented in (4) into a linear program as:
+minv EREP −1 ¼ v1
+n
+s:t:
+
+U n1
+U n2
+U nM
+þ v2
+þ … þ vM
+Ρn
+Ρn
+Ρn
+
+U 11
+U 12
+U 1M
+þ v2
+þ … þ vM
+≥1
+Ρ1
+Ρ1
+Ρ1
+U 21
+U 22
+U 2M
+v1
+þ v2
+þ … þ vM
+≥1;
+Ρ2
+Ρ2
+Ρ2
+⋮
+U N1
+U N2
+U NM
+þ v2
+þ … þ vM
+≥1
+v1
+ΡN
+ΡN
+ΡN
+
+v1
+
+v1 ; v2 ; …; vM ≥0:
+ð5Þ
+For the purpose of our analysis, we apply the distance function approach by Shephard
+(1970) allowing also for variable returns to scale (VRS) (Banker et al. 1984). Since our
+analysis is based over a large period of time (1990–2030), it is expected that there will
+be a lot of variations involved in the demand of energy from renewable sources and
+variations among the pollutants generated from the consumption of nonrenewable energy sources. According to several authors, the assumption of VRS is more suitable
+when investigating the impact of changing energy use over time and you expect such
+variations (Honma and Hu 2013; Fang et al. 2013).
+
+3 Results and discussion
+As analyzed previously, we compared for each sector separately the EREP for each year
+between the four scenarios. More analytically, Figure 3 presents the kernel density plots
+of the estimated efficiency scores using Gaussian kernels (Silverman 1986).
+For the case of the industry sector (Figure 3a), the results reveal that the BAU and
+TAR20 scenario have identical efficiency distributions.7 Furthermore, it appears that
+there is a bimodal distribution of efficiencies with a first peak around the 45% level of
+efficiency and a second peak around the 75%. The bimodality is also reported for the
+TAR30 and green scenarios. Again, for both scenarios, there is a first peak at the 45%
+level of EREP whereas the second peak for the TAR30 is around the 87% and that for
+the green scenario is around 100%. For the case of transport (Figure 3b), the twin-peak
+is observed only for the green scenario with one peak around 70% of efficiency and the
+second peak around 100%.
+Under the BAU scenario, the distribution of the efficiencies of the renewable energy
+policies over the examined period is platykurtic. This indicates that the efficiency estimates are highly dispersed and their distribution is less clustered around the mean than
+in a leptokurtic distribution. Similar results can be also viewed for the efficiencies of
+TAR20 and TAR30. Finally, Figure 3c presents the distribution of efficiency estimates
+for the Greek energy sector. It appears that under the BAU scenario, the efficiency distribution has three peaks: one around 35%, a second one around 40%, and a third one
+around 55%. Under the TAR20 and TAR30, the distribution is bimodal with a first peak
+around 38% and a second peak of 45% for TAR20 and 50% for TAR30.
+
+INDUSTRY
+
+TRANSPORT
+Efficiency of Energy Policy Scenarios
+
+0
+
+.5
+
+1
+
+1
+
+2
+
+1.5
+
+3
+
+2
+
+4
+
+2.5
+
+Efficiency of Energy Policy Scenarios
+
+.4
+
+.6
+
+.8
+
+1
+
+VRS-Efficiency Score
+kdensity bau
+kdensity tar30
+
+c
+
+kdensity tar20
+kdensity green
+
+.4
+
+.6
+VRS-Efficiency Score
+kdensity bau
+kdensity tar30
+
+.8
+
+1
+
+kdensity tar20
+kdensity green
+
+ENERGY
+
+0
+
+5
+
+10
+
+15
+
+Efficiency of Energy Policy Scenarios
+
+.2
+
+.4
+
+.6
+VRS-Efficiency Score
+kdensity bau
+kdensity tar30
+
+.8
+
+1
+
+kdensity tar20
+kdensity green
+
+Figure 3 Kernel density plots of the estimated efficiency scores (a-industry sector, b-transport sector,
+c-energy sector).
+
+Similarly, under the green scenario, the distribution of efficiency is platykurtic. Figure 4
+presents the efficiency estimates under the four scenarios for the three sectors under
+examination. When analyzing the industry (Figure 4a), we realize that the efficiency of the
+renewable energy policies adopted under the BAU and TAR 20 (same line) will decrease
+over the years. That is, their ability to decrease GHG emissions over the examined period
+will be weak. As a result, this indicates that the commitments made by the Greek government especially for TAR20 and BAU will be not sufficient to tackle the increased GHG
+emissions. Under the TAR30, it appears that the EREP will increase after 2024, whereas
+only under the green scenario, the efficiency of the Greek policy scenarios will be efficient
+on reducing the projected GHG emissions.
+Moreover, Figure 4b represents the efficiency levels for the Greek transport sector.
+It appears that under the BAU and TAR20, the EREP will decrease over the examined
+period indicating that under these two scenarios, the Greek government will not succeed on reducing efficiently the GHG emission in the sector of transport. Under the
+TAR30, the efficiency will increase after 2022 whereas under the green scenario, the
+efficiency will increase after 2015. Based on those assumptions and for the energy
+sector, it appears that only under the green scenario the efficiency will increase.
+Under the BAU scenario, the efficiency will decrease whereas under theTAR20 and
+TAR30, the efficiencies are in similar efficiency levels.
+
+4 Conclusions
+The paper analyzes four long-term renewable energy scenarios by using LEAP software
+for the three Greek sectors. We present the energy consumption estimates from RES
+and the GHG emissions generated over the period of 1990–2030 for the sectors of industry,
+transport, and energy. In a second stage analysis, we use DEA methodology in order to
+evaluate the efficiency of renewable energy commitments on decreasing GHG emissions.
+The results reveal that the efficiency of renewable energy commitments set by the Greek
+government under the Law L3851/2010 will not be sufficient to decrease systematically the generated GHG emissions over the examined period. In order for the Greek government to
+have more effective emission-reducing results, it should increase the share of energy consumption produced from renewable resources at least up to 27% by 2020. This in turn will
+decrease significantly more the generated GHG emissions compared to the energy policies
+which are based on the original commitments set by the Law L3851/2010.
