@@ -1,0 +1,367 @@
+
+
+1. Introduction
+International efforts to lower carbon emissions have largely failed despite the best
+intent of Kyoto countries.1 While Kyoto itself may have lowered emissions from
+what they would have been otherwise, world emissions continue to rise and the
+two largest emitters – the United States and China – remain uncommitted to
+emission reductions. Perhaps more worrying than the upward march in emissions is that ongoing scientific work is now placing more and more emphasis on
+the stock of cumulative emissions and less on current emission flows. This trend
+reflects an increased scientific understanding of the slow decay rates of carbon
+and the long lags in the warming process created by the storage of heat in the deep
+oceans. As a result, policy makers and politicians alike have now turned to the
+use of cumulative emissions as a guide to policy. The National Research Council
+(the publishing arm of the US National Academy) for example recently developed
+a series of forecasts for climate change based entirely on cumulative emissions.
+This recent NRC (2010) study contains two relevant pieces of information for
+our purposes here. First, by linking cumulative emissions to temperature changes
+predicted for 2100, the NRC finds an almost linear relationship between cumulative carbon and eventual warming by 2100. While different paths to the same
+cumulative emissions exhibit small differences in temperatures over short time
+periods, over the span of a century it makes little difference whether emissions
+are primarily front loaded or back loaded. For economists this change in focus
+a
+1
+
+Canada Research Chair in International, Energy and Environmental Economics, the Department of Economics, University of Calgary Research Associate, NBER.
+For example, some of the unpleasant facts regarding Kyoto are that emissions of Annex 1 NonEIT signatory countries are 14.9 % above their Kyoto commitments; Canada, Japan and some
+EU countries have effectively ignored their Kyoto commitments; while India, China, Brazil
+and the United States account for over 50 % of current emissions and are not limited by any
+international agreement.
+
+
+
+towards cumulative emissions has several analytical advantages when evaluating our options. The first is simply that the dynamics of temperature change are
+greatly simplified since they are now tied directly to cumulative emissions. For
+a broad range of cumulative emissions, temperature changes are simply linear
+in total emissions making analytical work simple. The second is that since only
+cumulative emissions matter, we can specify a simple carbon budget that the
+world must meet by 2100 to hit any temperature target. A set of these potential budgets is illustrated by the graph shown in Figure 1 below where cumulative emitted carbon (measured in 1000s of gigatons) are related to cumulative
+temperature impacts. The error bars reflect uncertainties in our understanding
+of the climate system. As shown in the figure, we have emitted a bit more than
+500 gigatons currently, and to remain well within the uncertainty band for a
+2 degree Celsius increase by 2100 we have perhaps a carbon budget of 500 more
+gigatons to “spend” over the next 90 or so years.
+Figure 1: Cumulative Emitted Carbon (Measured in 1000s of Gigatons)
+as Related to Cumulative Temperature Impacts
+
+Cumulative C Emissions (1000 GtC)
+
+3.0
+2.5
+2.0
+1.5
+1.0
+0.5
+
+Emitted to date
+
+0.0
+1
+
+2
+3
+4
+Global Mean Temperature Change (°C)
+
+5
+
+Implicit in the cumulative carbon budget is that the stabilization of any temperature change in 2100 requires the stock of cumulative emissions be held constant
+thereafter. The implication is fairly shocking: holding the world at any fixed temperature in 2100 will require almost a zero flow of emissions past 2100. That is,
+the entire world will need to be carbon neutral by 2100 if temperatures are to
+stabilize at a warming of 1, 1.5, 2, or even 3 degrees Celsius.
+
+
+
+2. Can Green Energy Save us from Climate Change?
+Answering this question turns out to be far more difficult than it might first
+appear, since it requires we address four smaller separate questions to generate
+a complete answer. First, we need to ask what “saving us” from climate change
+means. Although there are many potential answers, I will assume this implies
+producing a path for carbon emissions to 2100 that results in a less than 2 degree
+Celsius (3.6 degree Fahrenheit) increase in temperature. In terms of cumulative
+emissions, this implies a budget of approximately 500 gigatons carbon in the next
+90 years. The 2 degree Celsius target is simple and was adopted by the Cancun
+Agreement. Second, we need to ask what the world would look like if something
+radical is not done to hasten the adoption of renewable power worldwide. To
+answer this question, I need to construct a Business As Usual (BAU) trajectory
+to develop an expected path for carbon emissions. Third, we need to ask what
+alternative path with rapid adoption of green power could meet the overall carbon
+budget. And finally, we need to ask whether the implied shift in the energy mix
+required to meet the carbon target is in some sense feasible.
+
+3. Business as Usual
+To construct the BAU path, I calibrate a simple neoclassical growth model that
+incorporates a role for pollution emissions. Specifically, I use the Green Solow
+model of Brock and Taylor (2005). The model can be written such that pollution emissions and conventional factor inputs (capital, labor) produce output;
+and, then by assuming one unit of emissions arises from one unit of dirty fossil
+energy use, the model can be transformed into one where energy and inputs create
+output. To calibrate the model, I adopt a set of assumptions implicit in ExxonMobil’s Outlook for Energy to 2030 (ExxonMobil, 2010). This is an annual
+publication from ExxonMobil that contains forecasts for growth in the developed
+and developing world, for population growth, and for emission trajectories based
+on an assumed price per ton of carbon of $30 ton/CO2 in 2020 rising to $60/
+ton in 2030. While I do not have access to the model(s) ExxonMobil employs to
+generate its forecast, it is apparent from the forecasts that the model has strong
+neoclassical properties just like the Green Solow model. In particular, the forecasts exhibit convergence across regions in both GDP growth rates and emissions
+per capita while long run growth is tied directly to the rate of technological progress. The major assumptions behind the BAU forecast to 2030 are as follows:
+the world consists of two regions (OECD, and Non-OECD); world population
+
+
+
+grows by 1 billion by 2030 almost all of it occurring outside the OECD; OECD
+GDP grows at 2 % per year; Non-OECD grows on average 5 % per year; NonOECD emissions exceed OECD emissions by 40 % in 2010; and, the carbon
+emissions to GDP ratio decreases at 2.5 to 3 % per year.
+With these assumptions in place, the simulation shows OECD emissions fall
+by about 15 % to 2030 since the decarbonization rate exceeds growth in OECD
+GDP. In the Non-OECD emissions however double by 2030, and world emissions approach 12 gigatons by 2030 which implies an annual growth rate of
+about 1 % per year. If we were to simply extrapolate these results from 2030 to
+2100, annual emissions would hit 25 gigatons and cumulative emissions would
+put us in uncharted waters with a prospective temperature rise of 4–5 Celsius.
+The point is however that since the model is Neoclassical, a simple extrapolation
+would be a huge mistake since the Non-OECD cannot grow forever at 5 % per
+annum, and hence over time these countries will become more and more like their
+OECD counterparts. To see what the world might look like by 2100, in Figure
+2 below I present the model’s simulation to 2100 assuming population growth
+slows to .5 % per year, and in the long run the Non-OECD has the same rate of
+technological progress as does the OECD (2 %). The results from this exercise
+are shown in Figure 2.
+As shown OECD emissions continue to decline after 2030, while Non-OECD
+emissions now peak in 2050 and fall thereafter when their economic growth slows
+and is eventually more than offset by the relatively fast rate of decarbonization
+assumed. Despite this somewhat rosy picture of Non-OECD emissions, annual
+global emissions in 2100 are over 10 gigatons carbon and cumulative emissions
+reach 1450 gigatons carbon. The temperature implication of this cumulative emission total is perhaps a 3 degrees Celsius increase, with error bands running from
+1.75 to 4 Celsius. Moreover, entering 2100 with emissions over 10 gigatons means
+we face an equally difficult problem then as we do now in reducing emissions.
+
+4. The Counterfactual and Burden of Green Power
+I now construct a possible scenario that meets the carbon budget constraint
+by rapidly moving to less carbon intensive green energy. It has to meet two
+goals: First, it cannot have cumulative emissions much higher than 500 gigatons.
+Second, annual emissions in the last years have to be close to zero. This scenario
+is shown in Figure 3.
+In constructing this scenario I have assumed Green sources of power are
+1/6 as carbon intensive as Brown sources per unit energy delivered. Since the
+
+Can Green Power Save Us from Climate Change?
+
+Figure 2: Annual and Cumulative Carbon Emissions 2010–2100, BAU Trajectory
+Annual and Cumulative Emissions
+1400
+1200
+
+10
+
+1000
+8
+800
+6
+
+600
+
+4
+
+Total emissions (gt)
+
+1600
+
+12
+Yearly emsiions (gt)
+
+14
+
+400
+
+2
+
+200
+
+0
+2010
+
+0
+2020
+
+2030
+
+2040
+
+2050
+
+2060
+Year
+
+2070
+
+2080
+
+2090
+
+2100
+
+Figure 3: Annual and Cumulative Carbon Emissions 2010–2100,
+Green Sources of Power Trajectory
+Annual and Cumulative Emissions
+
+1000
+
+10
+
+800
+
+8
+600
+6
+
+Total emissions (gt)
+
+1200
+
+12
+Yearly emsiions (gt)
+
+14
+
+400
+
+4
+
+200
+
+2
+0
+2010
+
+0
+2020
+
+2030
+
+2040
+
+2050
+
+World Annual Emissions
+OECD Annual Emissions
+Non-OECD Annual Emissions
+
+2060
+Year
+
+2070
+
+2080
+
+2090
+
+2100
+
+Cumulative World Emissions
+
+
+
+ExxonMobil base case runs to 2030, I only allow Green Power to rise over time
+starting post 2030, and throughout I assume the rate of economic growth is
+unaffected by the energy transition. These are clearly heroic assumptions. With
+this in hand it is now possible to construct a carbon path that meets the 2 degree
+limit as shown above.
+As shown in Figure 3, OECD emissions decline at a faster rate as Green
+and less carbon heavy power is introduced much more quickly. Similarly, NonOECD emissions peak in 2035, then decline quite rapidly which ensures that
+cumulative emissions reach approximately 1000 gigatons carbon by 2100. While
+annual emissions are not zero in 2100, they are relatively close to zero giving
+us some room to reduce emissions further in the coming years. Apart from the
+usual caveats we would have to such an analysis, the most important consideration should be whether this movement to Green Power is in any sense possible.
+What it reflects is a huge and very rapid energy transition. For example, if we
+now compare the business as usual to the Green Power trajectory we can show
+what it entails for energy supplies. For example, an implication of the trajectory shown above is that Green Power has to deliver the equivalent of 650 quads
+(quadrillion BTUs) of energy by 2055. This is a large number especially when
+in 2010 Green Power delivered 65 quads worldwide, and of this biomass provided 47, hydro 11, and solar, wind, and other renewables only 7. Clearly there is
+a large challenge facing Green Power if it is to be the sole means of meeting our
+carbon budget by 2100.
+
+5. Can it Be Done? What Can History Tell Us?
+Engineering a very rapid energy transition from fossil fuels to Green energy
+sources is not likely to be easy, although it is difficult to say much more with
+certainty since there is very little empirical evidence we can bring to bear on this
+question. What we do know comes from our understanding and documentation of past energy transitions. To this information we can add what we know
+about the incentives economic agents, both pubic and private, may have to adopt
+green power rapidly.
+There is a large and excellent literature documenting energy transitions, and
+I cannot begin to even review this material here (see Fouquet, 2010, and Smil,
+2010). Therefore, I will try to stick to facts with little interpretation. The basic
+facts regarding energy transitions are as follows: 1) There were only two transitions before: biomass to coal and coal to liquid fossil fuels; 2) past transitions
+were very slow; 3) the transitions were of relatively small magnitude; 4) energy
+
+
+sources don’t disappear, instead the shares of energy from each source change;
+5) new energy sources lead to new converters and prime movers; and, 6) all previous energy transitions have been to higher density sources, that provided new
+benefits.
+For example, using US data we find that in 1885, coal surpassed wood as the
+dominant fuel source, but total energy usage was only 6 quads. In 1945, coal was
+surpassed by petroleum and natural gas as the dominant fuel source with total
+usage now equal to perhaps 30 quads. In 2010, total US consumption was now
+approximately 92 quads. Unfortunately, the counterfactual shown in Figure 3
+indicates the scale of the needed change to Green Power is on the order of six
+times the entire US energy consumption since it represents an energy supply of
+approximately 650 quads in 2055.
+Next consider the timing involved again using US figures and dates. From
+coal’s first introduction in 1850 to its complete dominance of energy supply by
+1920, coal took 70 years. Similarly, from the first U.S. oil well in 1880 until their
+point of maximum dominance in 1970, liquid and gaseous fossil fuels took 90
+years. Unfortunately, the counterfactual constructed in Figure 3 indicates the
+speed of the change to Green Power requires Green Power must move from a
+small share today to almost complete dominance in 50 years time.
+Next consider incentives. Coal’s first use was heat; coal was cheaper than wood
+and only after a period of time did it overtake wood in heating. But the demand
+for coal brought us a power source – the steam engine. It gave us a power source
+not tied to rivers, wind or animate power. Later still mobile applications arrived
+powering trains, ships, and even cars. Finally, the energy density of coal facilitated its use in transportation. Similarly, petroleum was first a lowly lubricant,
+until the internal combustion engine was invented in the 1880s. Eventually this
+innovation and the even higher energy density of liquid fossil fuels brought us
+further mobility and the development of diesel, gasoline, and jet engines. Unfortunately, Green Power does not provide any new benefits in terms of energy density for transport applications. Bio-fuels are less dense energy sources than liquid
+fossil fuels. Solar, wind, and tidal sources of electricity produce just that – electricity – and provide no new products that may well spur the introduction of new
+innovations or accelerate adoption. With only a relatively few exceptions worldwide, direct government subsidies or regulations are required for green power to
+be commercially viable.
+The real benefit to green power is not that it offers us advantages in mobility,
+density, or application that fossil fuels do not have; its advantage is that it is far
+cleaner in terms of carbon. While this is certainly a huge benefit, this benefit is
+a public and not a private one; moreover, the good in question – the climate – is
+
+
+a global public good. And therein lies the rub: the massive introduction of Green
+Power will require active government involvement, and will not be the cheapest
+energy solution absent a worldwide price on carbon. Therefore, the incentives
+needed for the introduction of Green Power will only be in place if we have an
+international climate change treaty limiting emissions. In this sense, Green Power
+cannot save us from the climate change brought about by our failure to sign and
+enforce a real global agreement; in fact, the massive introduction of Green Power
+will need such an agreement.
+
+6. Conclusion
+Unless our current scientific understanding of climate change is radically in
+error the world’s ongoing love affair with carbon based energy sources will imply
+large temperature changes in the next 100 years. By constructing a business as
+usual trajectory for the world economy, I showed that while the convergence in
+growth rates across regions helps, as does ongoing decarbonization of GDP, the
+business as usual trajectory implies a much warmer world in 2100. I then asked
+whether a movement to power sources with lower carbon contents – so called
+Green Power – could save us from breaching the carbon budget associated with
+a 2 degree Celsius warming by 2100. Unfortunately, unless the world economy
+grows much slower, converges faster, and has a smaller population, the challenge
+for Green Power is daunting. The needed scale, speed and direction of change in
+energy sources would be unprecedented in human history. Green Power cannot
+save us from climate change.
+
+
+
+SUMMARY
+International efforts to lower emissions have largely failed, and many now believe
+we will fail to limit warming to less than 2 degrees Celsius by 2100. In this
+extended abstract, I discuss whether a wholesale movement to renewable energy
+or Green Power could limit carbon emissions to meet a 2 degree Celsius target
+while simultaneously meeting the world’s growing demands for energy. Using
+a very simple growth model I calculate the burden Green Power must carry in
+order to keep emissions within the 2 degree target, and then discuss the speed,
+scope, and size of the energy transition this would imply. An energy transition
+of sufficient speed and magnitude to meet these targets is unlikely, leading me
+to believe that Green Power cannot save us from climate change.
+

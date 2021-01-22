@@ -1,0 +1,1570 @@
+
+
+
+Background
+Farmers in the Al-Batinah and Salalah coastal plains exploiting the good ground water
+resources and increase land cultivated by Rhodes Grass which is easy to grow and crop
+can be taken out at least six times a year. The excessive use of the freshwater has led
+to ingression of salinity in the area (Water Science and Technology Association and
+Ministry of Regional Municipalities and Water Resources 2010). This situation threats
+the ecosystem. The Ministry of Agriculture and Fisheries (MAF) was seized of this
+problem and carried out an exercise to solve the problem, at the same time meeting
+© 2015 Ishag; licensee Springer. This is an Open Access article distributed under the terms of the Creative Commons Attribution
+License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium,
+provided the original work is properly credited.
+
+
+
+the fodder requirements of the livestock to match the needs of a growing population.
+The (MAF) decided to gradually stop the cultivation of Rhodes Grass in Al-Batinah
+and Salalah plains and re-allocate fodder crop growing at substitute areas in the Najed
+to meet the fodder requirement.
+The fodder production at Najed Area depends on the availability of irrigation water
+from underground. Farming in this area influenced by activities of farmers and farmers
+involvements in the water management; the interdependence creates difficulties to predict expected amount of irrigation water and increases complexity in decision making
+in crop and water allocation. Moreover, farmers at new area must also cope with other
+uncertain key variables such as yield, price and inputs cost. Water requirements for
+crops in Najed area are fulfilled by underground water. As a result, the availability of
+water depends on natural as well as human and policy factors, argued Abdelhafidh H. et. al.,
+(2011). The excessive use of underground water might affect the availability of irrigation
+water in Najed Area in Oman and affect farming sustainability and cause environment
+problems. This paper investigated the appropriate incentives scenarios by ranking risky
+alternatives. The study also test new water policy at project area and evaluate subsidy
+required to reduce the risk and sustain fodder production from Najed project.
+The water use authority announced new water policy and advised the allowed quantities of water to be extracted out in the project area at Najed. The total quantity of
+water allowed to be extracted should not exceed 112 million cubic M/year and water
+extraction per well restricted to 30 Lit/Sec only. It is decided that the distance and
+spacing between wells at project area should not be less than 1KM X 1KM so that
+water flow should not be affected. Moreover, the water policy also reduced the total
+center pivot cultivated area to 22 Hectares in stat of 50 Hectares in other coastal areas.
+As a result the total cultivated area constitutes of 20 % of the total project area and this
+increased operation and capital cost of the project. As a result, investment in desert
+farming at new Najed area still rely heavily on government support. This is due to the
+fact that it is a capital intensive investment associated with great uncertainty. It is not
+only the common risk factors such as market prices and high capital cost that are relevant to desert farming projects but also risk factors such as annual fodder production
+and technical reliability.
+The application of new water policy increased capital and operation cost and included uncertainty factors which will impact economic efficiency of the resources
+utilization and project viability. The risk and uncertainty are best thought of as representing a spectrum of unknown situations with which an analyst may be dealing, ranging from perfect knowledge of the likelihood of all the possible outcomes at one end
+(risk) to no knowledge of the likelihood of possible outcomes at the other (uncertainty).
+The Government Authorities decided to re-allocate Rhodes grass cultivation to Najed
+area and encourage farmers and investors to develop Najed Area by giving lands to
+farmers and give capital grants to project to achieve financial sustainability. However,
+the sustainable development of Najed Area should financially be viable and meet the
+needs of the present without compromising the ability of future generations to meet
+their own needs.
+Monte Carlo Simulation models were used in this study to quantify risk and uncertainty
+in desert farming at Najed Area. The quantitative risk analysis will provide decision
+makers a means of estimating the probability that the project NPV will fall below zero, or
+
+
+
+that the project IRR will fall below the opportunity cost of capital. The model will also
+help in improving water management policy and achieve project objectives simultaneously: sustaining irrigated agriculture for food security and preserving the associated
+natural environment. Quiroga et al. (2010) use Monte Carlo simulations to estimate
+crop yield risk to water variability. In this study government investment subsidy at
+Hanfeet and Dawkah location compared with base scenario location at Salalah. For the
+new location at Hanfeet and Dawkah underground water level change and depletion
+were tested.
+The methodology and stages of the process of using Monte Carlo Simulation
+dynamic model for project appraisal was addressed by Savvides (1994). He argued that
+this integrated analysis provided a range of outcomes that can reduce the risk of
+uncertainty and give more reliable results for investor. Additional information related
+to adaptive and robust policies applied to the management of water and aquatic
+ecosystems can be found in Blumenfeld et al. (2009); Carpenter et al. (1999); Chen
+et al. (2009); Folke et al. (2002), MA (Millennium Ecosystem Assessment) (2005);
+Saunders and Lewis (2003).
+The stochastic efficiency of alternative Government incentive strategies for
+decision-makers with varying levels of risk aversion is determined with a technique
+developed by Hardaker et al. (2004) called stochastic efficiency with respect to a
+function (SERF). SERF is based on the notion that ranking risky alternatives in
+terms of utility is the same as ranking alternatives with certainty equivalents (CE).
+CE is defined as the sure sum with the same utility as the expected utility of the
+risky prospect (Hardaker et al., 2004). (Lien et al., 2006) used Stochastic Efficiency
+with Respect to a Function (SERF) to supplement sustainability criterion. Pandey
+(1990) used stochastic dominance analysis to estimate the value of irrigation investment for risk averse farmers’ according to risk-efficient irrigation strategies for
+winter wheat. He found that higher levels of water application were risk efficient at
+low levels of risk aversion.
+Project risk analysis and management is a process which enables decision maker and
+project management to mitigate risks associated with a project. Properly undertaken it
+will increase the likelihood of successful completion of a project to cost, time and performance objectives. Risks for which there is ample data can be assessed statistically
+but due to insufficient data available regarding underground water risk analysis needs
+to be performed. The study considers (Hanfeet1) scenario as no water re-charge and
+(Hanfeet2) scenario with water recharge model. For Dawkah location the study also
+consider two scenarios with and without underground water recharges in (Dawkah2)
+and (Dawkah1), respectively.
+Dealing with risks in projects is therefore different from situations where there
+is sufficient data to adopt an actuarial approach. Because projects invariably involve a strong technical, engineering, environment and water policy innovative or
+strategic content a systematic process has proven preferable to an intuitive approach. Project risk analysis and management has been developed to meet this
+requirement.
+The main objective of this paper is to investigate fodder crop re-allocation sustainability and compare risk efficiency of risk management tools that can be used to mitigate risk.
+
+
+Methods
+The task of project evaluation is to estimate the future values of the projected project
+variables by using available information regarding a specific situation of the past to predict a possible future outcome of the similar project. The approach normal used in investment appraisal is to calculate a “best estimate” based on the available data and use
+it as an input in the evaluation project model. The single value estimate is usually the
+most likely outcome (NPV) or (IRR).
+Net present value
+
+The NPV was used as an evaluation criterion. The net cash flow, calculated by subtracting
+the cost from the revenue, was discounted by the interest rate to obtain the NPV of the
+project. If NPV is a function of all both deterministic and stochastic variables, the resulting NPV gets a range of values instead of a single value obtained in a conventional deterministic financial evaluation. NPV is obtained from the below formula.
+N
+X Cn
+NPV ¼
+ð1 þ r Þn
+n¼0
+Where,
+ci = the net cash flow in year n (n = 0, 1, 2, ….. n), represented by farm income in this
+study.
+n = the planning period which equals twenty years in the current analysis.
+r = the discount rate.
+Monte Carlo simulation
+
+Monte Carlo simulation is a computational algorithm designed to evaluate the variability or stochastic of the input variables of a model. It can be used to model the effects of
+key variables on the NPV of a given proposal. The process involves, first, the identification and assessment of the key variables. For each key variable, we fit a probability
+density function that best describes the range of uncertainty around the expected value.
+For this purpose, we used historical data at growing area and data from MAF statistics
+(2013) and Agricultural and Livestock Research, Annual Report (2007). The model including these variables is then calculated using randomly-generated input values taken from the
+underlying probabilistic distribution function. The computer model combines these inputs
+to generate an estimated outcome value for (NPV) and (IRR). The process is repeated (ten
+thousand times). Monte Carlo simulation model is currently regarded as the most powerful
+technique for cash-flow analysis. It is useful when there are many variables with significant
+uncertainties. The more complex the project and the more risks and uncertainty that are
+associated, the more valuable Monte Carlo simulation analysis will be.
+The dynamic simulation model based on the Net Present Value (NPV) and the Internal
+Rate of Return (IRR) were used in this research for the evaluation of project feasibility of
+fodder crop growing at two locations at Najed Area and Salalah to rank best alternatives
+for decision makers with different degrees of risk aversion. The stochastic budgeting and
+stochastic efficiency methods are used to consider risk and uncertainty variables in the
+model presented in study area.
+Firstly a dynamic, stochastic simulation model of a Rhodes Grass farming was developed to evaluate the economics of investments in desert farming and economic
+
+
+sustainability. The model was designed to characterize agriculture parameters and economical complexities of a Rhodes Grass farming within a partial budgeting framework
+by examining the cost and benefit streams for ten years coinciding with investment in
+desert farming and high risk areas. The second aim of the study was to develop the
+model to test the effect of underground water recharge on NPV at new locations at
+Hanfeet and Dawkah compared to basic model at Salalah. The @Risk 5.7 (Student
+Version for Academic Use) from (Palisade Corporation, Ithaca, New York) add-in for
+Excel was utilized to account for the stochastic nature of key variables in the Monte
+Carlo simulation model.
+
+Data collection
+
+Data were collected to perform partial budget analysis for alternatives location at study
+area (Salalah- Hanfeet - Dawkah) such as yield, sale price, cost of inputs and operation
+for each location. For Monte Carlo Simulation analysis the study also identified stochastic variables to be incorporated in the model such as Yields, input cost, and output
+prices. The study also identified the probability distributions of the risky input variables
+(triangle – normal - bionomial) so that Probability Distribution Function (PDF) of the
+output (NPV), (IRR) can be calculated.
+To perform Stochastic Efficiency with Respect to a Function (SERF) Analysis for
+different scenarios, the data were collected and calculated to generate and calculate
+Certainty Equivalent (CEs) and ranking risky alternatives and scenarios. The data collected for this study is grouped to three categories as under:
+Current and proposed alternative Location parameters (yields, price, inputs costs):
+–
+–
+–
+–
+–
+
+Farmers survey at three locations.
+Historical data from Farmers in costal and desert area at Najed.
+Agricultural Research Center and JICA reports.
+Ministry of Agriculture statistics (2013).
+Previous studies.
+
+Capital cost of the project (irrigation system – agri. Machineries):
+– Quotation of the irrigation system and machineries.
+– Najed Project Company reports & feasibility study.
+Water policy & new regulation:
+– Ministry of water resource.
+– Ministry of Agriculture & Fisheries.
+
+Stochastic Efficiency with Respect to a Function (SERF)
+
+Simulation model is used to investigate risk management tool that can be used to
+improve sustainability of desert farming and find out whether water policy affect sustainability. The model is run for 10 years in the future to assess the sustainability of
+
+
+different alternatives. The project failure measured in financial terms of getting a negative NPV (Hansen and Jones, 1996).
+A stochastic efficiency model performed to compare the NPV of seven scenarios to
+compare sustainability and risk efficiency of the performance of three farms location,
+three water levels and Government incentives were tested. Stochastic efficiency with respect to a function (SERF) is used to rank the risky alternatives simultaneously for decision makers with different risk aversion preferences. Risk Premium is also calculated by
+subtracting CE Certainty equivalent for less preferred alternative from dominant alternative. Given a utility function u(·), a random wealth variable X, and an initial level of
+wealth w0, the certainty equivalent is:
+CE ¼ u ‐ 1fE½uðX þ w0Þg ‐ w0;
+The risk premium measure the minimum amount that would have to be paid to a decision maker to justify a switch from alternative present farm location to new proposed
+area under different Government supporting incentives. An analysis of risk management strategies for cultivated 878 Hectares Rhodes Grass farm in three locations Salalah, Hanfeet and Dawkah are conducted using a ten year farm level data and
+simulation model. Underground water level effect to NPV were tested and incorporated
+in the strategies models. The model simulates the costs and returns of the farm for
+seven combinations of the risk management strategies. The NPV probability distributions generated by the simulation model are used to rank the best alternative scenarios
+across a full range of RACs.
+Stoplight graphs analysis were used to show the probability of NPV being greater
+than a target value (0) and less than another target value across risky alternatives.
+Stoplights are quickly interpretable, as they are read much like a traffic stoplight,
+in this case red is bad, yellow is marginal, and green is good (Richardson et al.
+2006).
+Model structure
+
+The modeling process began by defining a series of inputs to describe the initial status
+and behavior of the farm. The underlying behavior of the Rhodes Grass growing system
+was represented using current knowledge and recorded data from MAF and literature.
+The purpose of qualitative risk analysis in this study is to provide a high level of understanding of risks of growing Rhodes grass at Najed. Such analysis may increase attention of water policy team members to the top risks they need to manage effectively,
+Qiu Ling (2001) and Richardson et al. (2007).
+The main risk and uncertainty variables identified in Najed Project models were :
+–
+–
+–
+–
+–
+–
+–
+–
+
+Project capital increase and it is effect on NPV and IRR.
+Underground water availability and it is effect on crop yield and NPV and IRR.
+Crop selling price volatility and it is effect on NPV and IRR.
+Cost of production per ton and it is effects on NPV and IRR.
+Annual increase in sales price and unit cost.
+Total sale volume for year one of the project.
+Irrigation water policies and it is effect on cost, crop yield and NPV and IRR.
+Rhodes Grass crop yield variation at three locations i.e. Salalah, Hanfeet and Dwakah.
+
+
+
+The quantitative risk analysis is performed after selecting key parameters and the probability and consequence of all individuals risk combined on parameters affecting the project financial performance and cash flows. The result of the analysis includes a probability
+that a project will meet its quantitative objectives and cash flow projection. The probability distributions of the parameters are incorporated in to Monte Carlo Simulation Model
+which allows evaluation and quantified risks range as shown in Table 1.
+The study runs seven model tests with and without raw materials subsidies and three
+water level scenarios. The Stochastic Monte Carlo Simulation Models and Stochastic
+Efficiency with Respect to a Function (SERF) were used to evaluate the following:
+– Compare Salalah Basic Model with two new farm locations model at Hanfeet and
+Dawkah area.
+– Investigate impact of the new water policy to NPV and IRR of the project.
+– Perform Stochastic Efficiency with Respect to a Function (SERF) to select the
+risk-efficient strategies.
+– Test capital and raw material incentive and its effect in fodder crop re-allocation
+policy sustainability.
+Salalah location model represent area with no water shortage and constrains, whereas
+the other two location scenarios represent different water shortage levels and new
+water policy implementation area. Parameters used in the Salalah scenario and Najed
+area scenarios reflects an expected new water policy, project capital cost, crop yield,
+total sale volume, sale price and per unit cost of production for each farm location.
+The estimation of each input variable and probability distribution at each location identified and incorporated in the analysis. Table 2 present water policy models parameters,
+water constrain and Government subsidy alternatives.
+A Latin hypercube sampling procedure with @risk add-in software from Palisade
+Corporation (5.7 Student Version for Academic Use) was used to evaluate the
+budgets for a large number of iterations, Rajaa et al. (2005). In the simulation,
+values of parameters entering into the model were chosen from their respective
+probability distributions by Latin hypercube sampling technics and were combined
+according to functional relationships in the model to determine NPV and IRR
+Table 1 Input parameters distribution used in MCS models
+Risk
+
+Affects
+
+Distribution
+
+Absolut/
+percentage
+
+Impacts
+
+1st year Sale volume
+
+Revenue
+
+Normal
+
+Absolut
+
+19 667
+
+Min
+
+Most likely
+
+Max
+21 072
+
+Increase in sales ton
+
+Revenue
+
+Triangular
+
+Percentage
+
+1%
+
+2%
+
+5%
+
+Sale Price/ton
+
+Revenue
+
+Triangular
+
+Absolut
+
+90
+
+95
+
+100
+
+Unit cost/ton
+
+Cost
+
+Triangular
+
+Percentage
+
+65 %
+
+68 %
+
+70 %
+
+Increase in sales price
+
+Revenue
+
+Triangular
+
+Percentage
+
+1%
+
+3%
+
+5%
+
+Yield reduction
+
+Revenue
+
+Compound
+
+Percentage
+
+2%
+
+5%
+
+7%
+
+Water reduction Probi.
+
+Yield
+
+Risksimtable
+
+Absolut
+
+0.1
+
+0.3
+
+0.5
+
+Water reduction/year
+
+Yield
+
+Binomial
+
+Absolut
+
+0.1
+
+Water recharge/year
+
+Yield
+
+Binomial
+
+Absolut
+
+0.2
+
+Discount rate
+
+NPV
+
+Percentage
+
+10 %
+
+
+
+Table 2 Study models and scenarios
+Model
+
+Water Policy
+
+Water level &
+constrain
+
+Government subsidy
+Min RM
+
+Add RM
+
+Capital
+
+Salalah
+
+(Basic Model)
+
+No water constrain
+
+-
+
+-
+
+-
+
+Hanfeet1
+
+No re-charge
+
+Water constrain level1
+
+-
+
+-
+
+yes
+
+Hanfeet2
+
+Water re-charge
+
+Water constrain level2
+
+yes
+
+-
+
+yes
+
+Dawkah1
+
+No re-charge
+
+Water constrain level1
+
+-
+
+-
+
+yes
+
+Dawkah2
+
+Water re-charge
+
+Water constrain level2
+
+yes
+
+-
+
+yes
+
+Salalah
+
+(Basic Model)
+
+No water constrain
+
+-
+
+-
+
+-
+
+Hanfeet3
+
+Water re-charge
+
+Water constrain level2
+
+-
+
+yes
+
+yes
+
+Hanfeet2
+
+Water re-charge
+
+Water constrain level2
+
+yes
+
+-
+
+yes
+
+Dawkah3
+
+Water re-charge
+
+Water constrain level2
+
+-
+
+yes
+
+yes
+
+Dawkah2
+
+Water re-charge
+
+Water constrain level2
+
+yes
+
+-
+
+yes
+
+project outcome. The process was repeated a large number of times to give estimates of the output distributions of the performance measure which was expressed
+as cumulative distribution functions (CDFs) and summarized in terms of the moments of the distributions. The results presented here are based on 10,000 sample
+simulation experiments.
+Project risk allocation
+
+Risks are generally shared by the different partners but some are better able to cope
+with certain specific risks than others. The risk-sharing must be reasonable with risktaking offset by profit as the objective is not to maximize risk transfer but optimize
+risk allocation.
+In Najed Project investors are not prepared to bear some of the risks related to the
+development and operation of the new desert area at Najed. They think that the associated risks are too high, and that if they bore the risks they would not be able to recover
+their costs. The risks that investors cannot control and are not prepared to bear are:
+– Yield reduction risk: The risk that not enough yields will be produced from the
+project, or that there will be no enough yield to recover the operation and
+investment cost of the project. The perceived risk is high mainly because local
+farmers in the project areas have low levels of yield compare to costal area.
+– Control of sale price risk: The risk that Government wants to keep sale price below
+RO 100 /ton. The perceived risk is high mainly because livestock farmers in the
+areas have low levels of income and cannot offer high fodder crop price.
+– Cost per ton increase risk: The risk of raw material cost, operation and
+maintenance cost will be increased.
+– Hydrology risk: Risk that there is not enough water and water level drawdown. The
+new water policy imposed control the extraction of water to (30 liters/sec) from
+well. The Government must bear this risk.
+– Capital cost increase risk : The capital cost of the project increase from 16 Million
+to 22.8 Million and project cost overrun reach 142 %. The Government provided a
+grant of RO 11.26 Million to support internal infrastructure and to compensate
+capital cost increased and reduce the effect of project overrun.
+
+
+
+According to the net present value distribution, we can analyze the feasibility of the
+project. From the NPV distribution characteristics, we can get some information such
+as NPV expectation value, loss probability of the project. The study finally test government raw material subsidy for Hanfeet and Dwakah area and performed Stochastic
+Efficiency with Respect to a Function (SERF) to select the risk-efficient strategies.
+
+Result and discussion
+Cost of production and NPV of Rhodes Grass crop cultivation for three farm locations
+
+Static and deterministic model used to calculate the net profit and NPV of a project in
+three locations to asses economic viability. In financial theory, if there is a choice between two exclusively independent alternatives, the one with the higher NPV should be
+selected. The result shows NPV and IRR for Salalah location is preferred compare to
+new farm locations at Najed area. Dynamic model can give complete picture for decision makers as static model does not incorporate risk and uncertainty variables. A summary of the three farm locations and the relevant values of NPV are given in Table 3.
+
+Government subsidy and underground water level analysis
+
+The study investigated underground water depletion risk at new proposed area
+(Hanfeet and Dawkah). Hanfeet1 and Dawkah1 models represent no water re-charge,
+whereas Hanfeet2 and dawkah2 represent underground water re-charges. Model
+Hanfeet3 and Dawkah3 represent underground water re-charges with raw material
+Table 3 Cost of production per year of Rhodes Grass for three farm locations (RO)
+Item
+Cultivated area/ha
+
+Salalah
+
+Hanfeet
+
+Coastal area
+
+New location at Najed
+
+Dawkah
+
+Hanfeet-Salalah
+
+878
+
+878
+
+0
+
+770
+
+Difference
+
+Capital cost
+
+4 791 524
+
+7 596 000
+
+7 430 000
+
+2 804 476
+
+Revenue
+
+2 502 300
+
+2 502 300
+
+1 975 050
+
+0
+
+Raw material cost
+
+378 418
+
+506 167
+
+443 905
+
+127 749
+
+Land rent
+
+18 000
+
+50 400
+
+43 200
+
+32 400
+
+Utilities cost
+
+131 700
+
+173 844
+
+152 460
+
+42 144
+
+Vehicle running cost
+
+31 608
+
+40 388
+
+35 420
+
+8 780
+
+Overhead cost
+
+70 240
+
+140 480
+
+123 200
+
+70 240
+
+Labour cost
+
+93 132
+
+93 132
+
+93 132
+
+0
+
+Misc expenses
+
+30 730
+
+30 730
+
+26 950
+
+0
+
+Total variables cost
+
+753 828
+
+1 035 141
+
+918 267
+
+281 313
+
+Administration Salary
+
+140 166
+
+202 566
+
+93 366
+
+62 400
+
+Administration cost
+
+65 850
+
+65 850
+
+57 750
+
+0
+
+Depreciation cost
+
+369 787
+
+572 000
+
+495 600
+
+202 2013
+
+Finance cost
+
+240 000
+
+87 120
+
+85 200
+
+−152 880
+
+Tax
+
+137 120
+
+71 609
+
+45 608
+
+−65 511
+
+Total Overhead cost
+
+952 923
+
+999 145
+
+777 524
+
+46 222
+
+Net profit
+
+795 549
+
+468 014
+
+279 259
+
+−327 535
+
+NPV
+
+2 878 601
+
+−2 895 923
+
+−3 793 210
+
+17 322
+
+IRR
+
+18 %
+
+3%
+
+−1 %
+
+−15 %
+
+
+
+subsidy. The Models simulated to see the effect of water level risk on NPV and results
+are presented in Table 4. The analysis shows that Government capital subsidy are not
+enough to mitigate underground water resource depletion risk and raw material subsidy are required to encourage farmers to develop new area. Model Hanfeet3 and
+Dawkah3 shows high value of PNV means but risk of getting negative NPV is high.
+However, this indicates that examining NPV mean values is useful for economic performance measurements, but it is also important to examine NPV variability and CVs
+to determine if risk affects the decision to use one alternative or another. The raw material subsidy models show a low positive Skewness figure which indicates downside
+risk control.
+
+Government subsidy and cumulated distribution function analysis
+
+To test water level and risk management appropriate strategy the Cumulated Distribution Function CDF analysis performed. The analysis investigates the range and probabilities of net present value for combinations of risk management strategies. Fig. 1 (A)
+shows (Hanfeet1) and (Dawkah1) are exposed to risk and Salalah model is preferred as
+its CDF distribution line on the right of the other models. Hanfeet1 and Dawkah1 option (with no water recharge) could manage downside risk but were not viable and
+dominated models and replaced by Hanfeet3 and Dawkah3 (with water recharge and
+raw material subsidy) in Fig. 1 (B).
+The CDF lines for alternatives in Fig. 1 crossing each other and there is no clear
+ranking decision can be produced for the Decision Makers under different RAC. As a
+result, more integrated stochastic efficiency ranking tools such as SERF were used in
+study for further clarification.
+
+Government raw material subsidy and StopLight graph analysis
+
+Stoplight graphs are simple graphical illustrations that show the probability of NPV being greater than a target value (0) and less than another target value across risky alternatives. Stoplights are quickly interpretable, as they are read much like a traffic
+stoplight, in this case red is bad, yellow is marginal, and green is good (Richardson,
+Schumann, and Feldman 2006).
+Table 4 Government subsidy for Hanfeet, Dawkah compared to Salalah – statistics for NPVs for
+each scenario
+Models
+
+Model (1)
+
+Location
+
+Salalah
+
+Subsidy
+
+Model (2)
+
+Model (3)
+
+Model (4)
+
+Model (5)
+
+Hanfeet
+Location
+
+Model (6)
+
+Model (7)
+
+Dawkah
+Location
+
+Hanfeet1
+
+Hanfeet2
+
+Hanfeet3
+
+Dawkah1
+
+Dawkah2
+
+Dawkah3
+
+(4 441 315)
+
+(1 846 437)
+
+347 660
+
+(5 554 459)
+
+(3 013 694)
+
+347 803
+
+Mean
+
+62 181
+
+SD
+
+4 553 273
+
+2 971 229
+
+2 962 446
+
+5 000 396
+
+1 764 989
+
+1 755 468
+
+4 887 834
+
+CV
+
+73.23 %
+
+0.67 %
+
+1.60 %
+
+14.38 %
+
+0.317 %
+
+0.582 %
+
+14.053 %
+
+Skewness 0.0222
+
+0.0539
+
+0.0421
+
+0.0058
+
+0.10045
+
+0.0830
+
+0.02714
+
+Kurtosis
+
+3.0568
+
+3.0840
+
+3.1004
+
+3.0239
+
+3.1502
+
+3.1493
+
+3.0310
+
+Min
+
+(17 598 320) (17 647 894) (15 903 188) (22 404 056) (11 754 193) (10 219 702) (17 392 901)
+
+Max
+
+18 037 151
+
+6 286 159
+
+9 520 626
+
+19 700 196
+
+1 488 082
+
+4 483 129
+
+18 625 350
+
+Range
+
+35 635 471
+
+23 934 053
+
+25 423 814
+
+42 104 252
+
+13 242 275
+
+14 702 831
+
+36 018 251
+
+Ishag Agricultural and Food Economics (2015) 3:15
+
+Page 11 of 17
+
+(A)
+1
+0.9
+0.8
+0.7
+0.6
+Salalah
+
+Prob
+
+0.5
+
+Hanfeet 1
+
+0.4
+
+Hanfeet 2
+
+0.3
+
+Dawkah 1
+0.2
+
+Dawkah 2
+
+0.1
+0
+-15000000
+
+-10000000
+
+(B)
+
+-5000000
+
+0
+
+5000000
+
+10000000
+
+1
+0.9
+0.8
+0.7
+Salalah
+
+0.6
+
+Hanfeet 3
+Hanfeet 2
+
+0.4
+
+Dawkah 3
+
+0.3
+
+Prob
+
+0.5
+
+Dawkah 2
+
+0.2
+0.1
+0
+-15000000 -10000000 -5000000
+
+0
+
+5000000
+
+10000000 15000000 20000000
+
+Fig. 1 Comparison of 5 CDF Scenarios for risk management strategies of capital and raw material subsidies.
+(A) Comparison of 5 CDF Scenarios with & without Water Re-Charges & Government Capital Subsidy. (B) Comparison of 5 CDF Scenarios with Water Re-Charges & Government Capital and Raw Material Subsidy
+
+The probability of a risky alternative generating a net present value less than the
+lower bound value (0) is illustrated by a red region on a bar graph; thus, bad. The probability of an alternative generating a net present value greater than the upper bound
+value (one Million Rials) is illustrated by a green region; thus, good. The region between the upper and lower bounds is yellow and shows the probability of NPV being
+between the upper and lower bounds.
+The Stoplight graph in Fig. 2 illustrates the probability of NPV being less than zero
+and greater than RO 1,000,000. Fig. 2 (B) reinforces the results found in the NPV CDFs
+(Fig. 1). For example, Hanfeet1 and Dawkah1 (with no water recharge) in Fig. 2 (A) has
+more than 88 % chance of negative NPV (i.e., red area) and are replaced by Hanfeet3
+and Dawkah3 (with water recharge) in Fig. 2 (B) which are the strategies with more
+than 44 % and 48 % chance of getting positive NPV and near to Salalah location model
+which is getting 52 % chance of getting positive NPV. The analysis indicate that even
+with Government capital support and raw material subsidies, the new farm location are
+not profitable and could not substitute Salalah location. Hanfeet farm location will get
+a negative NPV with 56 % probability, whereas, Dawkah farm location getting negative
+NPV with 52 % probability even with Government raw material subsidy program.
+
+
+
+(A)
+100%
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+
+0.06
+0.06
+0.40
+
+0.12
+
+0.88
+
+0.00
+
+0.04
+0.02
+
+1.00
+
+0.12
+0.08
+
+0.94
+
+Dawkah 1
+
+Dawkah 2
+
+0.80
+
+0.48
+
+Salalah
+
+Hanfeet 1
+
+Hanfeet 2
+
+0.36
+
+0.12
+0.08
+
+(B)
+100%
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+
+0.40
+
+0.12
+
+0.08
+
+0.04
+0.02
+0.34
+0.14
+0.94
+
+0.80
+0.48
+
+Salalah
+
+0.56
+
+Hanfeet 3
+
+0.52
+
+Hanfeet 2
+
+Dawkah 3
+
+Dawkah 2
+
+Fig. 2 StopLight chart for NPVs of Three Farms with (B) & without (A) RM subsidies. TopLight chart for NPV
+probability less than 0.0 and greater than 1,000,000 RO (no RM subsidy). TopLight chart for NPV probability
+less than 0.0 and greater than 1,000,000 RO (with RM subsidy)
+
+SERF analysis and risk management strategies ranking
+
+The SERF method calls for calculating Certainly Equivalent CE values over a range of
+absolute risk aversion coefficients (ARACs). The ARAC represents a decision maker’s
+degree of risk aversion. Decision makers are risk averse if ARAC > 0, risk neutral if
+ARAC = 0, and risk preferring if ARAC < 0. The ARAC values used in this analysis
+ranged from (−0.0000008) represent risk preference to (+0.0000008) represent extremely risk averse.
+The upper ARAC value was calculated using the following formula proposed by
+(Hardaker et al. 2004: 2):
+ARACrw ¼
+
+rrðwÞ
+¼ 4=Wealth ðAbsolute value of the largest average NPV ¼ 5; 000; 000Þ
+w
+
+where:
+rr(w) is the relative risk aversion coefficient with respect to wealth (w). As proposed
+by Anderson and Dillon 1992 rr (w) was set equal to 4 (extremely risk averse). Wealth
+(w) was calculated based on the respective net present value means from seven alternatives under test.
+The Excel Add-In SIMETAR was used to conduct the SERF analysis based on a negative
+exponential utility function. Certainty equivalent graphs were constructed to display ordinal rankings of NPV across the specified range of ARAC values. The risk premiums
+
+
+were also calculated for each risk management strategies by subtracting alternative NPV
+CE values from preferred (Salalah NPV) CE values at given ARAC values.
+In Fig. 3(A) the SERF method is used to compare five risk management alternatives
+simultaneously for all ARAC values in the range of (−0.0000008) to (+0.0000008), and
+identifies alternatives Hanfeet2, Salalah and Dawkah2 as the utility-efficient set. Alternative Hanfeet2 dominates over the range of (−0.0000008) to (−0.0000006) and alternative Salalah from (−0.0000006) to (0.00000033) and Dawkah2 dominates for the risk
+aversion range of (0.00000033) to (0.0000008). With the SERF method alternative Hanfeet1 and Dawkah1 are not utility-efficient as it is dominated by one of the other alternatives at every level of risk aversion.
+In Fig. 3(B) raw materials subsidy introduced and SERF method is used to compare
+five risk management alternatives simultaneously for all ARAC values in the range of
+
+(A)
+
+(B)
+
+Fig. 3 SERF for NPVs of three farms with capital & raw material subsidy (A) No RM (B) with RM subsidy.
+Stochastic Efficiency with Respect to A Function (SERF) under Neg. Exponential Utility. Stochastic Efficiency
+with Respect to A Function (SERF) under Neg. Exponential Utility
+
+
+
+(−0.0000008) to (+0.0000008), and identifies alternatives Hanfeet3, Salalah and Dawkah2 as the utility-efficient set. Alternative Hanfeet3 dominates over the range of
+(−0.0000008) to (0.0) and alternative Salalah from (0.0) to (0.0000004) and Dawkah2 dominates for the risk aversion range of (0.0000004) to (0.0000008). With the SERF method alternative Hanfeet2 and Dawkah3are not utility-efficient as it is dominated by one of the
+other alternatives at every level of risk aversion. We observed that with Raw Material subsidy Hanfeet2 is replaced by Hanfeet3 at a lower ARAC value and Salalah and Dawkah2
+keeping their dominantion and risk-efficient at risk neutral and risk aversion level.
+The benefits of un limited and un-control of underground water extraction at Salalah
+location were shown to be large, and irrigation was included in the efficient set based
+on a stochastic dominance analysis. The analysis shows that higher levels of water application were risk efficient at neutral and risk preference level and preference for water
+applications fell at somewhat higher risk aversion levels.
+The NPV of Salalah Farm without Government subsidy is 62 thousand rials increased to
+915 thousand Rials with raw material subsidy program. For Hanfeet and Dawkah Farms
+NPV with Government capital subsidy is negative and record −1.8 Million and −3 Million
+Rials respectively. These results shows Farms under new water policy imposed by
+Government Authorities are highly exposed to underground water availability risk and raw
+material subsidy are required for three farms location to achieve sustainability (Table 5).
+Stochastic efficiency with respect to a function (SERF) ranks risky alternatives in terms of
+CE across a range of RACs. The calculated CEs are displayed on graphs, and the risky alternative with the highest CE at a particular RAC is the most preferred. Rankings five alternative risk management strategies using SERF, over the range of risk preference, neutral to
+extremely risk averse, are presented graphically in Fig. 3 and numerically in Table 5. Table 5
+reveals that under normal risk aversion raw material subsidy are required for Salalah location and new area at Hanfeet and Dawkah. Fig. 3 also shows that CE lines are much higher
+in Salalah than their counterparts (no water shortage with no raw material subsidy options)
+compare to other alternative with (new water policy options) and lower irrigation levels.
+Risk premium and willingness to payment
+
+Risk premiums measure the value to a Decision Maker of one preferred alternative over
+a less preferred alternative, and are calculated by subtracting the CE of the lesspreferred alternative from the CE of the preferred alternative at each RAC level. Because SERF generates CEs of the Decision Maker’s preferences among alternatives at
+each risk aversion level, SERF can also estimate the utility-weighted risk premiums
+between alternatives and risk management strategies. Fig. 4 represent the difference
+Table 5 Ranking of risky alternatives by risk aversion using CE for NPV (000) of Rhodes Grass Farms
+Risk degree
+
+Risk preference
+
+Normal risk
+
+Rather risk
+
+Extremely risk
+
+ARAC
+
+−0.0000008
+
+0.0000000
+
+Rank
+
+Alternative
+
+CE
+
+Alternative
+
+CE
+
+Alternative
+
+CE
+
+Alternative
+
+CE
+
+1
+
+Hanfeet3
+
+9 307
+
+Salalah
+
+−232
+
+Salalah
+
+−3 404
+
+Dawkah2
+
+−4 350
+
+2
+
+Dawkah3
+
+4 089
+
+Hanfeet3
+
+−329
+
+Hanfeet2
+
+−3 468
+
+Hanfeet2
+
+−5 016
+
+3
+
+Hanfeet2
+
+4 036
+
+Dawkah3
+
+−789
+
+Dawkah2
+
+−3 638
+
+Salalah
+
+−5 823
+
+4
+
+Salalah
+
+3 636
+
+Hanfeet2
+
+−2 001
+
+Dawkah3
+
+−4 159
+
+Dawkah3
+
+−7 172
+
+5
+
+Dawkah2
+
+−1 329
+
+Dawkah2
+
+−3 005
+
+Hanfeet3
+
+−4 725
+
+Hanfeet3
+
+−8 779
+
+0.00000033
+
+0.0000008
+
+
+
+Fig. 4 Neg. Exponential Utility Weighted Risk Premium relative to Salalah farm location with RM subsidy
+
+between CEs represents what it would take for a Decision Maker to be willing to
+exchange the preferred (Salalah) risky alternative for another less-preferred risky
+alternative. The value of WTP is calculated as the difference between the CE for a risky
+alternative and represents the payment necessary to make the farmers and investors
+indifferent between the less-preferred alternative and the preferred alternative (Salalah):
+WTP ¼ CEpreferred ‐ CEalternative
+The SERF rankings and WTP are used to examine sustainability and analyze risk
+management strategies for fodder crop re-allocation at Najed Area. Fig. 4 shows how
+the alternative scenarios examined in the study rank relative to the preferred base scenario (Salalah location) at various RACs. Table 5 shows the numerical risk premiums
+for four risk aversion levels.
+From Table 6, it is evident that Decision Makers for the risk aversion levels examined
+have a small risk premium value between the preferred scenario (Salalah) and the second place alternative (Hanfeet3) with capital and raw material subsidy options at normal risk level (−97,000) and (−557,000) from third place alternative (Dawkah3) and
+(−1.769) million from fourth alternative (Hanfeet2). Therefore, a compensation of
+97,000 RO has to be given as a premium for the DM and investors to sustain farming
+activities at Najed area. The study also indicates that Salalah location is the most preferred location for normal and rather risk farmers and models with raw material subsidy were risk efficient at low levels of risk aversion.
+Table 6 Risk premium in (000) of different risk management strategies relative to Salalah location
+Risk degree
+
+Risk preference
+
+Normal risk
+
+Rather risk
+
+Extremely risk
+
+ARAC
+
+−0.0000008
+
+0.0000000
+
+Rank
+
+Alternative
+
+CE
+
+Alternative
+
+1
+
+Hanfeet3
+
+5 671
+
+Salalah
+
+0
+
+Salalah
+
+0
+
+Dawkah2
+
+1 473
+
+2
+
+Dawkah3
+
+453
+
+Hanfeet3
+
+−97
+
+Hanfeet2
+
+−63
+
+Hanfeet2
+
+807
+
+3
+
+Hanfeet2
+
+400
+
+Dawkah3
+
+−557
+
+Dawkah2
+
+−234
+
+Salalah
+
+0
+
+4
+
+Salalah
+
+0
+
+Hanfeet2
+
+−1 769
+
+Dawkah3
+
+−755
+
+Dawkah3
+
+−1 349
+
+5
+
+Dawkah2
+
+−4 966
+
+Dawkah2
+
+−2 773
+
+Hanfeet3
+
+−1 321
+
+Hanfeet3
+
+−2 956
+
+0.00000033
+CE
+
+Alternative
+
+0.0000008
+CE
+
+Alternative
+
+CE
+
+
+Conclusion
+The main task of this paper is to investigate fodder crop re-allocation sustainability and
+rank risky management strategies over the range of risk neutral to extremely risk
+averse. The study also evaluate project viability and estimate the future values of the
+projected raw material variable, crop yield and other main and key variables which effect NPV and project sustainability.
+The study shows the effect of new water policy and underground water pumping restriction on fodder crop yield and net present value. The Government grant of 11.26
+Million Rials which is given to develop new area and project infrastructure were evaluated. This grant increased farming viability in location of low risk of water availability,
+but with high risk of underground water shortage at Dawkah area more Government
+subsidy supports are needed to mitigate risk.
+The study tested the proposal of raw material subsidy and recommend raw material
+subsidy to be imposed at fodder crop re-allocation area at Najed and new risk management tools should be introduced such as insurance and electricity cost subsidy program
+to sustain farming activities at new area.
+A Decision Maker’s willingness to pay represents the personal value, or utility, of a good
+to the Decision Makers. The value of purchasing insurance options is determined by
+calculating the difference in the CEs at each location and water level for the alternatives
+with and without raw material subsidy options. The study reveals the risk premium
+decreases at location with sufficient underground water, and raw material subsidy options
+are worth less to the Decision Makers at insufficient underground water locations.
+The raw material subsidy at Hanfeet area (Hanfeet3) options could compensate
+Salalah location of RO 97,000 for normally risk averse Decision Makers, RO 1,321,000
+for rather risk averse Decision Makers, and RO 2,956,000 for extremely risk averse
+DMs. Whereas, Dawkah area (Dawkah3) with raw material subsidy could compensate
+Salalah location of RO 557,000 for normally risk averse Decision Makers, RO 755,000
+for rather risk averse Decision Makers, and RO 1,349,000 for extremely risk averse
+Decision Makers. As a result the proposed raw material subsidy program will mitigate
+risk of new water policy imposed at Najed area and uncertainty surrounding the impact
+of adoption of new irrigation technologies only for risk preference Farmers, as Hanfeet3
+and Dawkah3 alternatives are preferred than Salalah location for risk preferred DMs as
+shown in Table 6 and Fig 4.
+The new water policy imposed at Najed area needs to be re-adjusted and re-formed
+after getting more accurate data through further hydrologic studies at Najed area. The
+study should collect data regarding uncertain of the key variables and underground
+water quality and quantity available at study area.
+The cost of uncertainty of the Dawkah Project Area is high due to lack of information
+available to investors. As a result, more information has to be obtained regarding
+underground water availability before Government Authorities distribute more lands to
+farmers and investors at Najed area.
+
+
+
+
