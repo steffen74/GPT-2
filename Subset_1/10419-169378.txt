@@ -1,0 +1,511 @@
+Introduction
+China has achieved rapid economic growth at an average rate of almost 10 percent annually
+over the past three decades. This economic success, however, comes at the cost of deterioration
+of the environment. One of the most severe environmental problems that China is currently
+facing is air pollution. For example, the State Environmental Protection Administration of
+China (SEPA) reports that about 70% of the 300 cities in China fail to meet the air quality
+standards set by the World Health Organization (WHO) and seven out of the ten most polluted
+cities in the world are located in China. The World Bank estimates that the direct cost of air
+pollution – such as acid-rain damage to crops, medical bills and job-loss from illness – ranges
+between 8 percent and 12 percent of China’s GDP annually (World Bank, 2007). In addition, it
+is estimated that, because of heavy air pollution, more than three million people die prematurely
+each year and the average life expectancy is more than 5 years lower for residents in northern
+China than those living in the south (Wang, 2007; Pope III and Dockery, 2013).
+The Chinese government has made substantial efforts to reduce air pollution by introducing
+various emission reduction measures such as environmental taxes/charges, pollution treatment
+programs and even closure of inefficient power/industrial facilities. Moreover, under the 12th
+Five-Year Plan (2011–2015), China has paid considerable attention to energy and climate
+change issues and has established a new set of targets and policies for the plan period. The main
+targets include a 16 percent reduction in energy intensity (energy consumption per unit of
+GDP), an increase in non-fossil energy up to 11.4 percent of total energy consumption and a 17
+percent reduction in carbon intensity (carbon emissions per unit of GDP). In 2015, however,
+China still recorded the world’s largest increment in energy consumption for the thirteenth
+consecutive year and became the world’s largest emitter of both carbon dioxide (CO2) and
+sulfur dioxide (SO2) emissions. Therefore, a fundamental question would be certain to arise
+regarding China’s environment: what are the main determinants affecting air pollution in China?
+A number of studies have sought to isolate the independent effects of various factors on air
+pollution in China. Traditional specification of this subject includes a growth variable (i.e.,
+income per capita) and investigates the environmental Kuznets curve (EKC) – an inverted Ushaped relationship between income per capita and certain types of pollutants (typically
+measured by CO2 emissions). Then, as we glance through the literature more, we come across
+empirical studies that claim that energy consumption could be an important determinant of
+environmental outcomes and analyze the so-called income-energy-environment relationship.
+Examples include, but are not limited to, Song et al. (2008), Jalil and Mahmud (2009), Baek et
+al. (2009), Baek and Koo (2009), Jalil and Feridun (2011), Wang et al. (2011), Govindaraju and
+Tang (2013), Michieka (2014), Qu and Yan (2014), Yuan et al. (2015), Wang et al. (2016) and
+Li et al. (2016). The findings from these studies generally show that there is ambiguous
+evidence in favor of the EKC for China – e.g., Baek et al. (2009) and Baek and Koo (2009) for
+no evidence of the EKC, and Jalil and Mahmud (2009), Song et al. (2008) and Li et al. (2016)
+for evidence of the EKC – and strong evidence that China’s growth in energy consumption
+indeed causes environmental degradation (e.g., Song et al., 2008; Govindaraju and Tang, 2013;
+Qu and Yan, 2014; Li et al, 2016).
+Important but perhaps less widely recognized in the literature is the possibility that
+corruption could be an important factor of air pollution in China because China’s deteriorating environment coincides with the soar of corruptibility. The fact is that domestic firms in China
+use a bribe to lobby officials to lower the environmental standards. Although China’s
+government vows to fight corruption, it appears that the level of corruption has constantly
+increased over the past decade. For the years 2002 through 2009, for example, the people’s
+procuratorates at all levels investigated more than 240,000 cases of embezzlement, bribery,
+dereliction of duty and infringements on rights. In 2009 alone, more than 3,000 people were
+punished for their criminal liability in offering bribes (Information Office of China’s State
+Council, 2010). Thus, a corruption variable should be accounted for when estimating factors
+affecting China’s deteriorating environment properly.
+Up until now, many scholars have sought to address the impact of corruption on the
+environment. Examples include, but are not limited to, Lopez and Mitra (2000), Damania et al.
+(2003), Fredriksson et al. (2003), Fredriksson and Svensson (2003), Welsch (2004), He et al.
+(2007), Cole (2007), Woods (2008) and Leitao (2010). Damania et al. (2003), for example,
+examine the corruption-environment nexus in a panel data of developing and developed
+countries, and find that corruption indeed reduces environmental policy stringency. He et al.
+(2007) employ cross-country data and confirm the findings of Damania et al. (2003) in that a
+higher level of corruption always reduces the quality of environmental regulation. Woods (2008)
+reports that political corruption serves to systematically weaken state environmental programs
+in the United States. However, attention of most studies has been on cross-country data when
+investigating the corruption-environment nexus. Thus, the existing literature does not directly
+address the issue in China. This observation has motivated us to conduct this line of research.
+The main objective of this paper is to take a measure of corruption into account in a model
+when examining the income-energy-environment relationship in China. Although China is
+currently the world’s largest SO2 emitting country along with CO2 emissions, empirical studies
+have paid little attention to SO2 emissions in their analyses. 1 Empirical focus is thus on
+assessing the effects of corruption, income and energy consumption on SO2 emissions using
+panel data of 29 provinces in China from 1999 to 2012. To that end, the panel cointegration
+methods are utilized.
+This paper is organized as follows: in Section II, we outline the empirical model to be
+estimated and the data used for the estimation. In Sections III and IV our empirical procedures
+and major findings are discussed, respectively. Finally, section V makes some concluding
+remarks.
+
+
+Methodology
+
+2.1
+
+The model to be estimated
+
+In examining factors affecting a country’s environment, researchers generally rely on the socalled standard model of the income-energy-environment nexus (e.g., Iwata et al., 2010; Baek
+and Kim, 2013; Baek, 2015). For the empirical model adopted here, we extend the incomeenergy-environment nexus to include a measure of corruption. Letting i denote the crosssectional unit (Chinese provinces in this paper) and t the time period, we can write a model in a
+log-linear form as:
+2
+ln( so2 ) it = α + β1 ln yit + β 2 ln yit + β 3 ln ecit + β 4 corit + e it
+
+(1)
+
+where ( so2 ) it is the sulfur dioxide (SO2) emissions for province i in China; y it is the 2000 real
+2
+income for province i; y it is the square of the 2000 real income for province i; ecit is the energy
+consumption for province i; corit is a measure of corruption for province i and is the number of
+anti-corruption cases; and εit is the error term. 2 The variables are measured on a per capita basis.
+We are particularly interested in the parameter β4 – that is, the ceteris paribus effect of
+corruption on SO2 emissions.
+Given that numerous studies commonly show the crucial role of income plays in influencing
+environmental outcomes (e.g., Jalil and Mahmud, 2009; Iwata et al., 2010; Baek and Kim, 2013;
+Baek, 2015; Li et al., 2016), it would be proper to directly test the Environmental Kuznets
+Curve (EKC) hypothesis into our modeling. In Eq. (1), to the extent that β1>0 and β2<0, the
+EKC hypothesis is predicted to hold; that is, income has a diminishing effect on SO2 emissions
+after the turning point (or maximum point of the income), achieving a parabolic shape. It is
+expected that β3>0 due to the fact that an increase in energy consumption mainly driven by
+growth is likely to push SO2 emissions up. Finally, it is expected that β4<0 because the
+increasing number of anti-corruption cases is likely to result in improved environmental
+regulations, thereby reducing SO2 emissions.
+
+2.2
+
+Data
+
+SO2 emissions are used as a proxy for a measure of air pollution. China is the world’s largest
+coal consumer, accounting for about 50% of the world’s total coal consumption. Coal
+combustion generates more than 90% of SO2 emissions in China. As a result, China currently
+ranks the largest SO2 emitter worldwide. To ensure comparability with income per capita in Eq.
+(1), the SO2 emissions per capita for individual provinces (measured in 10 thousand metric tons)
+are calculated using their population size. The provincial gross domestic product per capita
+(measured in constant 2000 Chinese Yuan) is used as a proxy for real per capita income for each
+province. The energy consumption is measured in 10 thousand metric tons of coal equivalent
+_________________________
+2 It should be admitted that, since we use China’s provincial data in estimating Eq. (1), it would be more desirable to
+control for many other provincial characteristics in the model. Unfortunately, however, the lack of data availability at
+the provincial level prevents us from considering more control variables in Eq. (1).
+per capita. The number of anti-corrupt cases is used as a measure of the degree of corruptibility
+and is intended to allow for the likelihood that higher anticorruption efforts are likely to less
+environmental degradation. 3 The data on SO2 emissions are collected from China
+Environmental Statistical Yearbooks. All the remaining variables are from China’s Statistical
+Yearbooks.
+Our (balanced) panel dataset contains the 29 Chinese provinces from 1999 to 2012
+(N*T=406 observations, where N=29 provinces and T=14 years). This time period is chosen by
+availability of the data for all the variables. All variables are converted into natural logarithms.
+Table 1 summarizes our data.
+Table 1 – Descriptive statistics
+
+so2
+y
+ec
+cor
+
+Obs.
+
+Mean
+
+Standard
+Deviation
+
+Min
+
+Max
+
+406
+406
+406
+406
+
+Variable
+
+0.015
+18,000.95
+2.389
+1,271.88
+
+0.011
+13,390.93
+1.381
+788.83
+
+0.002
+2,537.02
+0.504
+110.00
+
+0.061
+68,296.06
+7.946
+3,954.00
+
+Notes: so2, y, ec and cor represent SO2 emissions per capita for individual provinces (measured in 10 thousand metric
+tons), provincial gross domestic product per capita (measured in constant 2000 Chinese Yuan), energy consumption
+per capita for individual provinces (measured in 10 thousand metric tons of coal equivalent per capita), and the
+number of anti-corrupt cases, respectively.
+
+3
+
+Empirical results
+
+The first requirement for estimating our model in Eq. (1) using the panel cointegration method
+is that the variables must be nonstationary I(1) series. Accordingly, the panel cointegration
+modeling normally starts with testing whether a panel series follows a unit root. However, the
+possibility of cross-sectional dependence in panels is likely to invalidate the test statistics of
+conventional panel unit root tests such as the LLC (Levin et al., 2002) and IPS tests (Im et al.,
+2003). These tests commonly assume the cross-sectional independence in panels. Before
+applying a unit root test, therefore, we must test whether a panel series is cross-sectionally
+independent. A cross-sectional dependence (CD) test of Pesaran (2004) can be used to achieve
+_________________________
+3 The Chinese government has been making great efforts to combat corruption and to build a clean government using
+the following four measures over the past decades. The first measure is to select officials on the basis of democratic,
+open, competition, and preferred standards in order to prevent corrupted officials from being selected. The second
+measure is to establish a sound law system and regulations against corruption. The third measure is to put the power
+under the control by institutional innovation. The last is to build up a monitoring system including Chinese
+Communist Party inner-party supervision, supervision of the National People's Congress, democratic supervision of
+Chinese People's Political Consultative Conference, government supervision, judicial supervision, civil supervision
+and supervision by public opinion. Thus, anti-corruption cases should be relevant in using a proxy for corruption.
+Some scholars (e.g., Damania et al., 2003; Cole, 2007) use governmental honesty taken from the International
+Country Risk Guide (ICGR) as a proxy for corruption in their models. At the sub-national level, however, the data are
+not available.
+
+this goal. The results show that the null hypothesis of no cross-sectional dependence can be
+strongly rejected (the p-values for all five variables are zero to two decimal places), providing
+compelling evidence of the cross-sectional dependence in the sample (Table 2).
+Given that the panel series are found to be cross-sectionally dependent, it is no longer
+appropriate to use conventional panel unit root tests. Hence, we employ more powerful tests that
+allow for cross-sectional dependence such as the cross-sectionally Im-Pesaran-Shin (CIPS) and
+cross-sectionally augmented Dickey-Fuller (CADF) tests. 4 The CIPS test results show that we
+cannot (can) reject the unit root hypothesis for the levels (first differences) of all series,
+indicating that all five variables are I(1) processes (Table 3). The CADF test largely confirms
+this finding, although we can reject a unit root in the level of corit ; when corit is differenced,
+however, the null is strongly rejected and this leads us to believe that corit is I(1) variable. The
+upshot of the unit root tests is that all five series in Eq. (1) appear to be nonstationary I(1)
+processes.
+When estimating a nonstationary panel model, there is serious concern about spurious
+regression. In one important case, a regression estimating nonstationary I(1) series is not
+spurious, and that is when the series are cointegrated. Hence, the presence of cointegration
+relationship among the variables is tested using the various tests developed by Pedroni (1999
+and 2004) and Kao (1999). The results show that the null hypothesis of no cointegration can be
+rejected even at the 1% level of significance for all five tests, evidence that SO2 emissions and
+its determinants have a long-run relationship (Table 4). In other words, whenever deviations
+from the long-run equilibrium take place, they would be transient: there are economic forces
+that drive SO2 and its main factors back to restore the long-run equilibrium relationship.
+Having learned about a potential long-run relationship among the five series, we now apply
+the FMOLS and DOLS panel estimators of Mark and Sul (2003) and Kao and Chiang (2001) to
+Eq. (1) in order to estimate the long-run parameters. We also report the estimated effects of the
+fixed effects (FE) estimator here for comparison.5
+Table 2 – Results of cross-sectional dependence (CD) test.
+ln(so)2
+CD statistic
+p-value
+
+lny
+
+lny2
+
+lnec
+
+lncor
+
+29.73**
+0.00
+
+74.27**
+0.00
+
+74.14**
+0.00
+
+72.79**
+0.00
+
+29.72**
+0.00
+
+Notes: ** denotes rejection of the null hypothesis at the 1% level.
+
+Table 3 – Results of panel unit root tests.
+Variable
+ln(so)2
+lny
+lny2
+lnec
+lncor
+
+CADF
+Level
+–2.42
+–1.70
+–1.24
+–2.48
+–2.14
+
+First difference
+–2.96**
+–2.81**
+–2.80**
+–3.01**
+–3.17**
+
+CIPS
+Level
+–2.89
+–1.53
+–1.21
+–2.63
+–3.11**
+
+First difference
+–3.98**
+–3.38**
+–3.36**
+–4.25**
+–3.84**
+
+Notes: CADF and CIPS represent cross-sectionally augmented Dickey-Fuller and cross-sectionally Im-Pesaran-Shin
+tests, respectively. ** denotes rejection of null hypothesis at the 1% level.
+
+Table 4 – Results of panel cointegration tests.
+Test
+
+Statistics
+
+Panel PP statistic
+Group PP statistic
+Panel ADF statistic
+Group ADF statistic
+Kao test statistic
+
+–8.23**
+–14.73**
+–6.09**
+–5.77**
+–2.29**
+
+
+Discussion
+
+Table 5 reports the long-run effects for all independent variables and for each of the three
+estimated models. The estimates generated by the models seem remarkably consistent. The
+signs of the coefficients are the same across models, and the same variables are generally
+statistically significant in each model.
+The coefficients on the income and the quadratic term are similar across models. Because
+2
+the coefficient on y it is always positive and the coefficient on y it is always negative, this
+equation literally implies that, at low value of income, an additional rise in income tends to
+increase SO2 emissions. At some point, the effect becomes negative, and the quadratic shape
+means that the elasticity of SO2 emissions with respect to income is decreasing as income
+increases. In other words, the finding seems to be supportive of the EKC hypothesis for Chinese
+SO2 emissions. It turns out, however, that all of the 29 provinces in the sample have more than
+the calculated turnaround values of income, and so the part of the curve to the left can be
+ignored. Thus, SO2 emissions in fact have monotonically fallen with income growth in China
+over the past decade. From policy perspectives, this result can be interpreted that the Chinese
+government’s policies targeted to reducing air pollution are likely to work effectively without
+costing economic growth.
+The partial effect of energy consumption on SO2 emissions is always positive, and the
+magnitudes of the coefficient estimates are very similar across all three models. In the FMOLS
+model, for example, a one percent increase in energy consumption is estimated to increase SO2 emissions by about 0.80% in China. Given the fact that growth largely leads to an increase in
+energy use, this finding suggests that any favorable growth effect on air pollution could be
+offset by a detrimental energy consumption impact.
+The key policy variable, corit , seems to have the desired effect. The estimated coefficient is
+negative for all three models. The statistical significance is high for the FMOLS and fixed
+effects, and lacking for the DOLS. For example, the FMOLS coefficient (–0.17) implies that,
+for other things being equal, China can reduce SO2 emissions by about 0.17% as the number of
+anti-corruption cases increases by one percent. To our knowledge, this is a new finding that has
+not been documented yet in the empirical literature. As a policy matter, this suggests that
+effective anti-corruption measures would improve the environment through the enforcement of
+environmental regulations in China. From a methodological perspective, this finding explains
+why the complementary features of different modelling approaches would be desirable to draw
+more robust conclusion and thus better understand the corruption-environment nexus in China.
+Finally, in addition to learning about the long-run relationship in Eq. (1), utilizing the notion
+of causality enriches our understanding of the variables by providing causal inference (i.e.,
+direction of causality). For completeness, therefore, the bootstrap panel Granger causality test
+developed by Emirmahmutoglu and Kose (2011) is utilized. This method is most useful when
+dealing with cross-sectional dependence in panels as we identify in our model. The results show
+strong bidirectional causation for 4 cases and unidirectional causation for 5 cases (Table 6). For
+example, the relationships between SO2 emissions and energy consumption, and SO2 emissions
+and corruption are characterized by bidirectional causality. This means that SO2 emissions are
+significantly affected by changes in energy consumption (corruption) and energy consumption
+(corruption) is also influenced by changes in SO2 emissions. On the other hand, there is
+unidirectional causality running from income to SO2 emissions. This suggests that SO2
+emissions are significantly affected by changes in income, while income is not affected by
+changes in SO2 emissions. Together, these findings provide evidence that all independent
+variables can be used to forecast future SO2 emissions and justify the use of our model in Eq.
+(1).
+Table 5 – Results of long-run estimates
+Variable
+lny
+lny2
+lnec
+lncor
+R2
+
+FMOLS
+Coefficient
+2.09**
+–0.28**
+0.80**
+–0.17**
+0.88
+
+p-value
+0.00
+0.00
+0.00
+0.00
+
+DOLS
+Coefficient
+2.15**
+–0.28**
+0.72**
+–0.03
+0.96
+
+Fixed effects
+p-value
+0.00
+0.00
+0.00
+0.00
+
+Coefficient
+2.06**
+–0.26**
+0.80**
+–0.13**
+0.87
+
+p-value
+0.00
+0.00
+0.00
+0.00
+
+Table 6 – Results of bootstrap panel Granger causality test.
+Fisher statistics
+
+p-value
+
+lny → ln(so)2
+ln(so)2 → lny
+lny2 → ln(so)2
+ln(so)2 → lny2
+lnec → ln(so)2
+ln(so)2 → lnec
+lncor → ln(so)2
+ln(so)2 → lncor
+
+Hypothesis
+
+119.09**
+42.44
+113.56**
+43.75
+151.22***
+129.77***
+158.06***
+83.47**
+
+0.00
+0.93
+0.00
+0.89
+0.00
+0.00
+0.00
+0.02
+
+lnec → lny
+lny → lnec
+lnec → lny2
+lny2 → lnec
+lncor →lny
+lny →lncor
+lncor → lny2
+lny2 → lncor
+lnec → lncor
+lncor → lnec
+
+74.67*
+150.30***
+76.33**
+132.19***
+66.83
+84.72***
+66.81
+92.69***
+94.19***
+66.27
+
+0.07
+0.00
+0.05
+0.00
+0.19
+0.01
+0.19
+0.00
+0.00
+0.21
+
+Conclusion
+One-way causality from lny to ln(so)2
+One-way causality from lny2 to ln(so)2
+Two-way causality between lnec and ln(so)2
+Two-way causality from lncor and ln(so)2
+Two-way causality between lnec and lny
+Two-way causality between lnec and lny2
+One-way causality from lny to lncor
+One-way causality from lny2 to lncor
+One-way causality from lnec to lncor
+
+Notes: ***, ** and * denote significance at the 1%, 5% and 10% levels, respectively.
+
+5
+
+Concluding remarks
+
+Although corruption can have an effect on the environment in China, no study has directly
+addressed this issue empirically. In this short article, therefore, we take a corruption variable
+into account in a dynamic panel model when estimating the income-energy-SO2 emissions
+nexus. Our results show that anti-corruption cases seem to have a beneficial effect on reducing
+SO2 emissions in China. Other findings show that income growth tends to lower SO2 emissions,
+while energy consumption increases SO2 emissions.

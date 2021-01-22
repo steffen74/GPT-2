@@ -1,0 +1,730 @@
+Introduction
+Management systems are the everyday concern of many organisations. Employees often
+seem to be without interest in it. In fact, also management systems are undergoing
+development. And the organisation should respond to this development. The problem is
+where this trend is going now. Many of them have not yet matched their integration. The
+problem is how to monitor and evaluate these changes? Organisations need to maintain
+their performance and competitiveness while doing so.
+
+1. Literature research on the integration of management systems
+The issue of integrating management systems and efforts to increase organisational
+performance is often described in a proffesional literature. The following literature research
+presents main directions of this research. Articles (Katou, et al., 2007; Stříteská, et al.,
+2016) deal with the management of human resources with an impact on the performance of
+the organisation. The first builds a generic effective model mainly for small and mediumsized organisations. The second one hits the hierarchy and multifaceted ties and its
+incoherence with the strategy. The study (Busco, et al., 2008) describes the role of
+management systems in integrating organisations. It addresses integration and internal
+adaptation and recommends building a shared strategy. The text (Sirkis, et al., 2011)
+presents a review of the environmental supply chain management according to various
+theories, focusing on the internal state of organisations and their substantial surroundings.
+The text (Darnall, et al., 2008) examines the relationship between the environmental
+management system and the business performance in a context of internal motivation and
+external pressures of institutions. The article (Melnyk, et al., 2003) deals with this
+relationship, but with regard to waste reduction and inclusion of all stages of product life
+and certification of the management system. A framework for the integration of the logistic
+chain is proposed by the article (Bichou, et al., 2004). The study (Waddock, et al., 2002)
+describes the main pressures in organisational management and a comprehensive
+management framework. The link between integrated risk management and strategy is
+described in the article (Bromiley, et al., 2015). The study (Castel-Peces del, et al., 2017)
+describes the implementation of the industry standard for aeronautics and aerospace quality
+throughout the manufacturing process. The paper (Jaca, et al., 2015) describes the
+implementation of TQM in a service organisation and the same topic is in the library in the
+text (Düren, 2012). The article (Tomaževič, et al., 2017) develops an integrated model of
+public administration performance management. The article (Virglerová, et al., 2017)
+describes key factors of the corporate environment in small and medium-sized
+organisations in the Czech Republic. Linking knowledge and innovation through TQM in
+the spirit of performance and sustainability is in the text (Hung, et al., 2010). Similarly,
+decision support for product development with respect to system performance is solved by
+the study (Marques, et al., 2011). The framework for understanding the safety culture of gas
+and oil organisations is dealt in the article (Parker, et al., 2006). It creates a descriptive tool
+that serves as a self-assessment. The quality of change management services is mentioned
+in the text (Scharitzer, et al., 2010). This research is focused on the identification and
+implementation of continuous improvement of the management system (Mc Lean, et al.,
+2017). The information security management system as a support for the sustainability of
+procedures is described in a model in the article (Petrini, et al., 2009). The information
+about planning phase is an essential. The problem is to link reality to the workshops with
+the strategy. A social part (not only social responsibility) of sustainable development in
+relation to the performance of an organisation in the supply chain is examined by the text
+(Yawar, et al., 2017). Confidence and commitment are essential. The article (Jørgensen,
+2008) describes the integration of quality management systems, environmental and
+occupational safety systems. It emphasizes the need for internal willingness to integrate. It
+draws attention to the need to involve lifestyle changes in order to develop the
+sustainability of management systems. It defines the degree of system integration that
+similarly the book (Pelantová, et al., 2014) describes. The measurability of products,
+processes, and management systems depends on tracking the values of specified characters.
+The study (Marques, et al., 2011) uses traditional costs, time and quality. The article
+(Bichou, et al., 2004) deals only with basic costs and customer satisfaction. The study
+(Castel-Peces del, et al., 2017) sees a foundation in product quality and safety. The
+characters in the article (Virglerová, et al., 2017) are given by its focus on financial features
+and risks associated with them, such as costs, public perceptions, knowledge of bank and
+state rules. The text (Scharitzer, et al., 2010) emphasizes the satisfaction of employees and
+then customers. Other examples of enumeration are more extensive. The article (Katou, et
+al., 2007) uses features: training, fairness among employees, motivation and interests of
+employees, information sharing and work safety. The performance is measured by value
+added and financial characters. The text (Sirkis, et al., 2011) emphasizes social systems and
+related features: links, productivity, environmental and financial features. The article
+(Melnyk, et al., 2003) evaluates the cost, product quality, amount of waste during its design
+and processing, delivery times and other unspecified environmental parameters. The text
+(Jaca, et al., 2015) provides multiple characters when it follows: good management
+practices, processes, employee quality, customer orientation, knowledge, education,
+financial characters, operational and production performance. The text (Yawar, et al., 2017)
+tracks communication, compliance, suppliers' performance and financial performance. The
+article (Jørgensen, 2008) selects features from areas such as learning, improvement,
+stakeholder behavior and synergy between areas. The publication (Darnall, et al., 2008)
+measures the number of inspections, the number of violations, coercive measures, the
+public's relation to the organisation, the involvement of employees. Publication (Düren,
+2012) sees a management style, interest of employees on changes, sharing of vision,
+supporting a group and stimulating it. The organisation should in (McLan, et al., 2017)
+focus on the following characters: expectations, leadership, training, employee engagement,
+culture and environment, way of implementation, project management, feedback, results.
+Social and environmental characters are linked to the sustainability strategy and financial
+features while using the information security in the article (Petrini, et al., 2009).
+Implementation, use and integration of management systems pose a number of problems.
+The most frequently mentioned are listed here. Managers for example exaggerate their
+environmental outcomes and do not report problems with their strategies according to the
+publication (Darnall, et al., 2008). Furthermore, some of the countries do not measure the
+same features and make comparability is therefore more difficult. There is also the effect of
+national cultures. The article (Melnyk, et al., 2003) hampers the difficult acquisition of
+environmental data. Few organisations have established social responsibility and almost do
+not report sustainability reports, as written in the article (Jørgensen, 2008). The article
+(Bromiley, et al., 2015) shows little emphasis on risk management and concerns about its
+effectiveness for some incidents. Many of organisations according to articles (Stříteská, et
+al., 2016; Castel-Peces del, et al., 2017) solve the market and financial measures rather than
+soft motives like employee development or innovation. They are aware of their impact on quality. Knowledge of financial risks in organisations is limited, for example in the article
+(Virglerová, et al., 2017). Efforts to continual improvement often result in downtime, as
+the text (Mc Lean, et al., 2017) says. The article (Petrini, et al., 2009) recalls limited
+possibilities of existing SW support.
+There are many theories in the field of system management concepts and integration of
+these systems, which need further research, such as text (Sirkis, et al., 2011). The study
+(Castel-Peces del, et al., 2017) recommends conducting similar studies elsewhere in the
+world to compare the experience of implementing system standards, motivation, and
+positively impacting organisations. Similarly, there is an article on financial risk issues
+(Virglerová, et al., 2017). It also recommends focusing on groups of respondents rather
+than managers. According to the article (Bromiley, et al., 2015), the relationship between
+different types of strategies and risk management, as well as the interaction of the
+organisation's overall risk management system and the way of implementation, need to be
+examined. According to the context in the article (Yawar, et al., 2017), it is necessary to
+examine the exchange of information, mechanisms of trust, power and engagement among
+stakeholders in terms of performance and, in particular, social features. The interconnection
+of the environment and the performance of the organisation is more important over time,
+for example, according to the article (Darnall, et al., 2008). The study (Waddock, et al.,
+2002) clearly identifies the new trend of joining economic, social and environmental
+spheres. This moves further in the article (Petrini, et al., 2009) linking social responsibility
+and sustainability in the organisation's vision. An information security is provided by
+communication channels. The need for sufficient time and training of employees is
+mentioned in articles (Castel-Peces del, et al., 2017; Tomaževič, et al., 2017). The article
+(Jørgensen, 2008) deals with an increase the degree of compatibility of basic management
+systems standards.
+
+2. Discussion on literature research
+The above-mentioned literature research brings a lot of knowledge. The field of research on
+aspects of integration of management systems is rather broad. In this article, both authors
+will illuminate some inconsistencies and, on the contrary, will highlight follow-on issues to
+support an appropriate direction for organisations to integrate systems. In practice, the
+demanding boundary of systems is solved by a case study in the text (Busco, et al., 2008)
+by centralization, which is not appropriate in the long time run. The article (Bichou, et al.,
+2004) integrates processes and functions, which contradicts the process approach that is the
+basis for quality systems. The publication (Darnall, et al., 2008) describes, for example, the
+situation of the US environmental system that is more complex than European one, but it
+does not consider the influence of people in the leadership of the states in this issue.
+Contrary to the study (Waddock, et al., 2002), where there is a great pressure on
+environmental improvement of stakeholder practices, the situation is more moderate. In
+study (Marques, et al., 2011), a well-structured task is based on the decision-making
+support of product development, which is unknown with regard to the network of
+stakeholders involved. It should be at least a partially structured task. In addition, emphasis
+should be placed on prevention rather than on correction by corrective actions. In addition
+to the one-respondent, the article (Katou, et al., 2007) still has an unresolved area of
+information security, environment and social responsibility. However, the article (Petrini, et
+al., 2009) deals with these areas and also points to the learning and support of discovering employees. This creates a new holistic management system complex, a better tool than is
+the BSC. However, this model will still have to be explored. It can be added that such a
+system should be considered as soft one. Problematic in this article is the thinking of the
+governing structure, which is somewhat against the process approach. The study (Waddock,
+et al., 2002) presents a novelty in management systems for the Czech Republic. It
+interconnects financial, environmental and social aspects and adds a new management
+framework. In the text (Melnyk, et al., 2003), the degradation of waste is correctly related
+to the entire life cycle of the product as it corresponds to the reliability management system.
+Similarly, this is underlined by the article (Jørgensen, 2008). There has been saturation in
+the interviews on safety culture according to the article (Parker, et al., 2006), but the above
+problems do not correspond. Risk management in the article (Bromiley, et al., 2015) in an
+integrated management system will require time to stabilize. Basically, it's new because it is
+normative and all management systems need it now. Compared to the article (Jørgensen,
+2008), the product relationship to the environment and the supplier's assessment should be a
+part of the 1st level of system integration, which corresponds to the finding of the book
+(Pelantová, et al., 2014). However, this article does not consider the security of
+information. Overall, most publications still talk about human resources, even though it is
+an asset. An incomplete transition to the process approach and re-classification of the
+control process (e.g. in articles (Castel-Peces del, et al., 2017; Tomaževič, et al., 2017)) can
+be seen. Descriptions of changes in relationships with systems will need to be better
+grasped. The integration will not require only the creation of new management tools. The
+first one, for example, models are in the article (Madzík, 2016), although they focus mainly
+on customers. The article (Stříteská, et al., 2016) rightly mentions that the review of the
+management system is little used. In the Czech Republic, the performance of the
+organisation is solved regardless of culture, communication and measurement of this
+overall performance, but the world is already dealing with the sustainability. This is a
+higher degree of management system development than their simple integration. For
+organisations, this means changes in organisational structure and lifestyle changes for
+people in the state. Contrary to the article (Stříteská, et al., 2016) and according to the
+experience of this authors and the text (Castel-Peces del, et al., 2017), large organisations
+may have an inefficient management system and small organisations have management
+systems an efficient one. To reinforce this fact, for example, the publication (Düren, 2012)
+recommends to take employees as experts for their work and to trust them. This is useful in
+building processes. As it can be seen not only from the text (Mc Lean, et al., 2017), the way
+of implementation and some other aspects of management systems will have to be revised
+to achieve right successes. Existing concepts have the same and already reduced
+management principles. It can be assumed that the concepts of management systems, e.g.
+TQM and ISO 9000 series, will continue to converge. Consequently, these concepts are
+explored together, although the ISO 9000 concept prevails in the Czech Republic. TQM is
+for the whole of its existence more concerned with soft systems. And that is the core to
+ensure the sustainability of management systems. Therefore, the TQM can be a model for
+the ISO 9000 concept. In addition, it can be assumed that there will be further
+interconnection of different types of management systems. This is mainly improved by the
+latest revision of standards with emphasis on joint risk management. The basis of
+integration should be the process approach, which is consistent with findings in the book
+(Pelantová, et al., 2014) and is also in line with TQM. For organisations, it is therefore
+necessary to set out basic features that are relevant to this issue. The result of this article should therefore be to establish basic recommendations for a sustainable management
+system for the organisation.
+
+3. Characteristics of organisations
+For this article, data from 10 randomly selected organisations were used. This is a partial
+survey of two authors' workplaces, which has been going on longer. Organisations are
+located throughout the Czech Republic. From this sample there were 5 small and mediumsized organisations (up to 250 employees) and 5 large organisations. Different sectors of
+the national economy are represented by food industry (10 %), mechanical engineering
+(30 %), automotive (20 %), automation (10 %), education (10 %) and public service
+(10 %). It counts with organisations performing piece production (30 %), serial production
+(20 %) and even mass (50 %) of their products. Production organisations account for 70 %
+and the rest are non-production organisations. Organisations have established core quality
+management systems, work safety, etc. Most (90 %) are reviewing, but only a fraction
+(30 %) have experience with the EFQM model. By their internal culture, organisations are
+distinguished from good relationships and respect for the personal needs of the employee,
+through reorganisation and rationalization of work to an overtime work, a leadership
+dominance and overlook of nonconformities. 40 % of organisations were formed before
+1989 year (the revolution) and 60 % of organisations after it. All organisations are
+economically efficient. Nevertheless, 30 % of organisations are investing fully in the
+facility and 50 % partially, and 40 % invest in HR training fully and 40 % partially.
+
+4. Management systems and sustainability characteristics
+To assess management systems of each organisation, their characters were used. At first,
+common characters about organisations were used. However, after closer examination, the
+data do not seem to cover the entire system complexly. They are one-sided. Therefore, the
+brainstorming method was chosen to assign each management system and find new set of
+characters. It was based on a complex view of individual components of management
+systems. E.g. for the Occupational Safety and Health Management System, characters
+were: the number of incidents, the number of fatal incidents, the use of personal protective
+equipment, the cost of work safety, the safety of the employees. This list has been set for
+the quality management system, the environment, information security, financial
+management and organisation performance, but also for social responsibility and even for
+sustainability. Corporate Social Responsibility has emerged from the available Global
+Compact, ISO 26000 and SA 8000 standards. Some elements such as "health and safety",
+such as the SA 8000, correspond to a different management system and are therefore
+included in this system. Subsequently, the following features were chosen: gender, free
+working time, freedom of association, social commitment, report, transparency, employee
+satisfaction. The sustainability has emerged from its definition as the organisation's
+responsibility for its impact on the public and other studies, for example (Kratochvíl and
+Cílek, 2005) and authors' own research. From there, the sustainability is essentially an
+extension of the environmental management system with a holistic overlap. For
+sustainability, the following characters have been identified: employee modesty,
+heterarchy, project thinking, constraint awareness, caution, landscape perception, long-term
+perspective, friendliness. Followed by the character analysis of the integrated management
+system to narrow down the selectable sample of characters because the original list was
+extensive. It turns out that in common thinking in organisational practice, characters are
+chosen across management systems, but most are leadership and financial management and
+quality. Conversely, the sustainability often disappears and social responsibility is rather
+limited. This is probably the consequence of applying the hierarchical organisational
+structure and the directive style of management. Moreover, these issues are not even wider
+public awareness. Even the heterarchy and the professional public do not talk much about a
+sustainability. Here the heterarchy affects management, information sharing, long-term
+strategy, motivation, education, relationship to risks and time. Modesty of a employee
+influences, for example, savings and the principle of win to win, which is promoted in
+social responsibility. Social responsibility and sustainability include predominantly soft
+features that are of a qualitative nature. Such characters are worse measured. E.g. employee
+engagement can be interpreted differently as true dedication, but in some organisations, it
+leads to submissiveness and enforcement, etc. Coercive actions, on the other hand, are a
+negative chracter and are inherently inexhaustible. Therefore, positive characters have been
+selected in the shortcut selection. The product quality corresponds to customer
+requirements. The satisfaction of the customer corresponds to the satisfaction of all its
+needs. The number of incidents OSH is the number of all injuries and deaths due to work
+activity. The number of incidents ISMS is the number of all loss, damage and theft of data
+and intrusions into computer systems. The amount of waste corresponds to all waste from
+production and non-production activities. Recyclability of the product is the possibility of
+disasembly and ecological processing of all parts. Water consumption corresponds to the
+measurement of water for production and other activities by a water meter. The employee
+satisfaction is the satisfaction of the employee due to his work and relationship enthusiasm
+and the safety situation in the organisation and respect for his interests. The process
+transparency is the degree of perception of elements and links and other parts of the process
+by the observer. The modesty of employee corresponds to the demand for goods and is
+related to the nature. The heterarchy is a kind of organisational structure that suppresses
+supremacy. Awareness of the limitation corresponds to the level of knowledge of
+employees about the exhaustiveness of all resources. Cost savings are financial savings of
+all activities of the organisation that do not lead to a decrease in quality or safety. The longterm perspective is the planning and control of organisation's activities over a period of
+time, for example, over hundred years. The prevention of non-conformities is the ability to
+predict and overcome events that would lead to nonconformities by actions. Their inventory
+is in table no.1.
+Respondents of a controlled interview on the status of management systems in selected
+organisations are their regular staff in positions of technicians and workers who are familiar
+with the subject matter under consideration. They are not managers. They provided
+extensive background information on organisation's management systems. This information
+is the basis for further exploration. Results obtained were more realistic and included more
+details on the production and operation of the workplaces on the technical, personnel and
+system side. This was followed by the evaluation of individual characters, as aspects of
+organisations. It corresponds to markings as at school. The value 1 is the best and 5 is the
+worst. The true is that the worse the mark is, more nonconformities occur in the system.
+The assignment is as follows: 1 - The excellent result, there are clear reactions of
+employees and of the surrounding area. 2 - The untouched outcome to perfection, but the
+state of view is satisfactory for all parties. 3 - Medium result, the solution is half the
+expectation. 4 - Sufficient result is an effort to solve, but it is not, or vice versa, a solution
+just before the error in terms of classical theory of systems. 5 - Bad, misleading or no result.
+The O and the number indicates a specific organisation. The organisation can score
+between 15 and 75 points. Ratings were made by authors. It is therefore subjective.
+However, it is sufficient for an initial idea of the subject under consideration.
+From table no. 1 the following results are apparent. Common characters like product
+quality and customer satisfaction are fairly fine. Both types of security are at a good level
+relatively. It is clear that characters such as waste and recycling do not work so well in
+organisations, but the care is growing. A more attention is paid to the consumption of water
+(and electricity) because costs incurred and the involvement of the industry standard are
+known. Employee satisfaction in many organisations is declining. The transparency of
+processes is a long-time undervalued parameter, and the status is partly inaccurate with the
+process approach. The modesty of an employeer is aggravated. The heterarchy appears to
+be a big problem, as the hierarchical structure prevails in organisations. Awareness of the
+constraint is on a middle-class among employees. Cost savings are slightly better than the
+previous one. The long-term perspective seems to be problematic. It should correspond to
+the organisation's strategy in the longer term than the current average of 5 years. The
+prevention of nonconformities is a very diverse according to organisations. The average
+rating of organisations in the sum of the marks is based almost 37 points. Critical characters
+show other characters than usual in many analyzes (see research). This is also confirmed by
+the Triangle Table tool. Impacts of the sustainability and the social responsibility and the
+environment are stronger in management systems, although they are often underestimated.
+Why are these results coming out and what are their causes? The goal of characters is 1.
+The quality of a product is the worst for O6 because there is a strong hierarchy and
+demands of customers and staff are not understood.
+Table no. 1: Evaluation of a processable sample of characters in selected organisations
+No. Character
+O1 O2 O3 O4 O5 O6 O7 O8 O9 O10
+1
+Quality of product
+1
+2
+1
+1
+1
+3
+2
+1
+1
+1
+2
+Satisfaction
+of 1
+1
+1
+1
+1
+3
+1
+1
+1
+1
+customer
+3
+Number of incidents 3
+2
+3
+2
+1
+2
+1
+1
+1
+2
+OSH
+4
+Number of incidents 2
+3
+1
+3
+2
+3
+2
+2
+1
+3
+ISMS
+5
+Amount of waste
+3
+3
+2
+3
+3
+4
+3
+3
+2
+3
+6
+Recyclability
+of 2
+3
+3
+3
+2
+3
+3
+3
+3
+3
+product
+7
+Water consumption
+2
+4
+3
+3
+3
+2
+2
+3
+2
+3
+8
+Satisfaction
+of 4
+3
+2
+2
+1
+3
+3
+1
+2
+2
+employee
+9
+Transparency
+of 3
+2
+3
+1
+1
+4
+2
+2
+2
+3
+process
+10
+Modesty of employee
+2
+3
+4
+2
+2
+3
+3
+2
+3
+4
+11
+Heterarchy
+5
+4
+5
+3
+1
+5
+4
+3
+4
+5
+12
+Awareness
+of 3
+3
+3
+3
+2
+3
+3
+3
+3
+3
+restrictions
+
+958
+
+Amfiteatru Economic
+
+AE
+
+Total Quality Management – A Way to Lead a Quality-Centered Organization
+No.
+13
+14
+15
+
+Character
+Cost savings
+Long-term
+perspective
+Prevention
+nonconformities
+Σ
+
+of
+
+O1
+2
+4
+
+O2
+3
+4
+
+O3
+2
+3
+
+O4
+2
+3
+
+O5
+2
+2
+
+O6
+3
+4
+
+O7
+2
+3
+
+O8
+2
+2
+
+O9
+2
+2
+
+O10
+3
+4
+
+4
+
+3
+
+2
+
+3
+
+1
+
+3
+
+2
+
+2
+
+1
+
+2
+
+41
+
+43
+
+38
+
+35
+
+25
+
+48
+
+36
+
+31
+
+30
+
+42
+
+A low satisfaction of the customer is due to poor performance (like O6). A bad situation of
+the number of incidents OSH in O1 and O3 is due to an unclear hierarchy and a
+complicated production, on the contrary the heterarchy leads to their reduction (O5). The
+number of ISMS incidents is due to a combination of many orders and nonconformities
+(like O2), while a large surplus of finances and staff can lead to improvements (O3 and
+O9). The amount of waste is the result of disruption in production and a lack of leadership
+(like O6). Recyclability of the product is comparable and average in almost all
+organisations, due to construction and manufacturing technologies, the same cost savings.
+Water consumption is also average, only O2 is noticeably higher due to an inappropriate
+technology. Satisfaction of the employee is a bad one, mainly due to poor interpersonal
+relationships, administrative increase, and a lack of clarity (O1). On the other hand, the
+heterarchy, good relationships and respect for employee interests lead to improvement (O5
+and O8). A large hierarchy, complex management systems, and PPCs lead to a poor
+trasparency of process (O6). A large, relatively prosperous organisation in the big city and
+an inappropriate example of managers can lead to modesty of employee (O3 and O10). The
+hierarchy is an opposite of the heterarchy, so the organisation can have only one of them.
+Awareness of the restrictions is given by material stock limits. People can not think of a
+long time because they are pressed for a fast work and a fast consumption. The prevention
+of nonconformities corresponds to the number of incidents in the organisation (the worst in
+O1). The hierarchical structure is embraced and de facto enforced by legislation,
+management tools, schools, SW. The market leads a person to a fast production, a fast
+consumption and use now, regardless of the surroundings. The waste is still where to go.
+The consequences of its effects are still not seen by many as a burden. What will be in few
+years is not interested. Awareness of the limitation is overtaken because resources are still
+available. People think it's going to come up with something in the meantime and the world
+will work forever. The social responsibility is also under consideration because a customer
+satisfaction is still being solved and the employee is a human resource, often a machine. He
+must be subordinate, not have personal needs. Considering the other is not modern. This,
+however, leads to the collapse of a personal life and then to the loss of productivity and
+invention. This situation is hampered by organisations because it leads to the growth of
+nonconformities and security incidents. The modesty of employee is not perceived as a
+virtue. There is often an idea of family, team, organisation being abused. Newly selected
+characters are therefore well-founded, but they will still have to be promoted in
+organisations. This article should help to solve this.
+
+5. Model EFQM and sustainability - the research methodology
+Management systems in the Czech Republic are not evaluated with the EFQM model often.
+Therefore, a comparative analysis of the EFQM model requirements with the theoretical
+integrated management system described in the sample of characters presented above was
+performed. The following facts arise:
+ The Leadership is a good if it is perceived in the sense of coaching and heterarchy.
+ The Policy and Strategy criterion depends on the needs of stakeholders, whether they
+are in line with the social responsibility and the sustainability. The criterion is a repetition
+of obvious things, and in organisations it was often conceived formally.
+ The criterion Employees is already influenced by the concept of a employee as a
+human resource, but one should be the asset of an organisation. In point 3a), human
+resources are managed when people should be guided.
+ The Partnership and Resources criterion in point 4b) deals primarily with financial
+management of resources and technologies, but there is no a more mention of the
+sustainability of resources in a holistic view.
+ The criterion Processes and Products in item 5d) writes "products in accordance with
+customer requirements", but the interest of other stakeholders is not sufficiently considered.
+ The Customer Satisfaction criterion meets the requirements of this group only.
+ The criterion Results for Employees is a problematic. The point 7a) corresponds to
+the perception of the employee as a subordinate in terms of EFQM. The point 7b) refers to
+factors such as motivation, engagement, absence, morbidity and accidents, but this can be
+influenced by the style of driving and incidents. So employees may not be responsible.
+ The Sociaty-Results criterion in the point 8a) has an interest in promoting corporate
+social responsibility because it mentions reports, equal opportunities, ethics, environmental
+pollution, etc. The point 8b), on the contrary, is a more legislative and mediatory, and does
+not lead to a new trend. However there is an effort.
+ The criterion Key Performance Outcomes are a financial purely and in fact against
+the social responsibility and the sustainability.
+The current EFQM model has 9 criterions. In particular, more-valued criterions Customer
+Satisfaction and Key Performance Outcomes of the EFQM model do not match
+sustainability and security and little address social responsibility. Thus, the tool teaches
+organisations to be a more market-oriented, regardless of soft aspects. This contradicts
+above-mentioned trends in the development of management systems. Already some small
+organisations are struggling with this fact. They are also burdened with extensive criterions.
+Some parts are in fact duplicate, mainly the Employee and Results for Employees, as well
+as Leadership and Key Performance Outcomes. That is why it needs to propose at least the
+modification of this model in the sense of a sustainable management system. This is a
+transformation of organisational circuits, as shown in the figure no. 1 which interferes with
+the internal environment as well as with the substantial surroundings of organisations. In
+relation to a philosophical basis of TQM, following recommendations can be proposed:
+ The implementation of flexible organisational structures into organisations. Extend
+strategic management even in turbulent times with regard to the sustainability of places in
+the landscape and in the organisation, otherwise brownfields are created over time. The
+strategic thinking is now shortened to about 5 years, but it should be related to, for
+example, rules of Indians or foresters in the Czech Republic for at least 100 years to make
+sense, which is in line with natural events and the time of decay of simpler products.
+
+All products must be regarded as a waste as early as the design phase, including
+packaging and transport. This also addresses recycling. This is pushing on logistics. Try to
+keep untouched resources in the countryside and raw materials to draw mainly from the
+waste and from renewable sources.
+ Customers are all receiving parts (e.g. by air, by water). It is necessary to balance life
+and work and to perceive the employee as a person with his / her knowledge and skills that
+are of benefit to organisations. Employees create "satisfied customers".
+ It is necessary to teach children to be modest and to show them modest heroes and
+also to adults in organisations.
+ It is a matter of course to perceive implications of each job as prescribed by TQM.
+Adopting of the idea of sustainability in an organisation's culture prevents the introduction
+of a sustainable management system. Lifecycle management and self-control are aspects of
+the new management.
+
+Figure no. 1: View of transformation of organisational circuits
+The newly designed EFQM model should be a simpler and a more comprehensible and
+consistent with the standard ISO 9001. It is composed of 6 criterion. Its diagram shows the
+figure no. 2. The larger EFQM model does not lead to better management. Leadership is
+rather coaching. Employees must also be aware of their work safety. The knowledge
+management can be included here, which is associated with them. Sustainability and
+environment are the Sources and Partners criterion, therefore stakeholders. Strategy 100
+and Risk is a criterion involving a long-term strategy, but also risk management in a holistic
+approach to internal and external context. The Processes and Products criterion should
+address the area of quality, industry standards and information security. The new
+Sustainability criterion includes, for example the above set of characters, which can be
+assessed and improved in detail. The basis should be the process approach. The result
+should not be maximum finance and minimum time, but ensured sustainability while the
+satisfaction of stakeholders.
+The EFQM Sustainable Model Questionnaire is then followed:
+ Leadership – Leaders develop a vision and a sustainable strategy with regard to
+stakeholders. The leader develops and fills the management system with respect to the
+process approach and the heterarchy (win to win principle, dialogue). The leader is a model of culture, ethically and safely acting. The leader is the coach of the employees. Leaders
+provide resources and organisational information on time.
+ Employees – The employee develops his / her knowledge and skills. The employee
+carries out and develops processes with regard to stakeholders. The employee is rewarded,
+acknowledged, communicated, and cared for. The employee feels a secure.
+ Resources and Partners – Partnerships with stakeholders are managed and their
+satisfaction and opinion are being investigated. It is dedicated to the care of premises,
+environments, equipment, materials and raw materials, with emphasis on safety, small costs
+and cleanliness. Useful technologies are used. Information and knowledge are controlled
+and protected. Financial resources are managed.
+ Strategy and Risks – A full organisation risk analysis is performed regularly and
+actions are measured and implemented. The strategy builds on established characters of the
+management and product system, learning, and surveys. The decisions taken should be
+considered with a long-term perspective. Prevention of nonconformities is taken into
+account and, where appropriate, disposed of.
+ Processes and products – Processes are designed to be transparent and gentle, and
+are systematically monitored by features and maintained with regard to internal needs as
+well as to the state of the surrounding environment. Products are designed, built and
+upgraded to meet needs and expectations of stakeholders as good and secure. Products are
+serviced. The products are well recyclable.
+ Sustainability results – It is considered the lifecycle of all elements of the
+organisation and thus the awareness of the constraints. Elements are regularly maintained.
+Employee modesty and the principle of win to win are supported. Precautions and a holistic
+decision making are in place for both processes and products. Resource savings are
+monitored and ensured.
+
+Conclusions
+The sustainability is a concept that engenders a great debate in the public. From the point of
+view of the reliability management, it is a simple effort to keep the system (here
+management) for a long time in a functioning state and to balance possible discrepancies in
+a way acceptable to the internal system and the environment. This article, in this spirit,
+proposes foundations for the sustainable management system in relation to the substantial
+neighbourhood. This is, of course, the nature and stakeholders. The analysis of sample of
+management systems was carried out by organisations to determine their sustainability
+status and sustainability characters. Small organisations with a flexible organisational
+structure are doing better even in the sustainability. In addition, an existing EFQM model
+for assessing of management systems against sustainability requirements was analysed.
+Based on the basics of the TQM concept, appropriate recommendations have been
+proposed for this area. Finally, the sustainable EFQM model was designed.
+The analysis of organisation management systems points to nonconformities and, in
+particular, unpreparedness in some areas of management systems that have not yet received
+sufficient attention. Authors, of course, have coped with the issue of organisational
+performance. They take the view that it is not an essential whether the organisation is
+profitable now. The question is whether it will be in 10 or 100 years and whether people
+around will be satisfied. A number of organisations are now profiting, but values of
+characters point to significant nonconformities in the interpersonal field and hence
+production nonconformities. The performance is so jeopardized. This, in fact, shows results
+of the sample survey of organisations. The set of suggested characters is a small but an
+actionable. Proposals are made in accordance with the process approach. The proposed
+sustainable EFQM model is a smaller but a more comprehensive than the existing solution.
+In particular, organisations save the time in processing due to fewer criterions and thus
+savings in finances. It is also designed for employees in a comprehensible form. The access
+(documentation), the redistribution (appraisal) and the assessment (measurement and
+settlement), as well as the calculation, are maintained as employees are accustomed too.
+The proposal is debugged in one of these organisations.
+Despite all efforts, authors managed to process only a part of the large area of the
+sustainability of management systems. In addition, the range is limited by the scope of this
+contribution. Further organisational analysis will be needed with regard to the
+sustainability. It will be necessary to revise these characters in relation to the substantial
+neighbourhood. Characters must be set specifically for the organisation, whereas the set
+here is general. In addition, a detailed risk analysis will be required. Therefore, the
+proposed concept of sustainability will certainly change. A legislative support and a public
+awareness will be needed to make the new trend in management systems easier for
+organisations. This is why this article is significant.
