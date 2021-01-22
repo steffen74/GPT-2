@@ -1,3 +1,15 @@
+IMPLICATIONS OF ECOLOGICAL FOOTPRINT VALUES
+FOR SELECTED EU MEMBERS
+Mircea Saveanu*
+Abstract: We analyse the state of the environment for 24 EU member states, using the concept
+of ecological footprint. Findings suggest that 20 of the 24 analysed states are pushing their environment
+past its yearly regenerative limits. Of these, 10 have surpassed this value by at least two-fold. A few
+outliers have gone well beyond even this mark. Four member states have yet to reach the regenerative
+limit of their lands, and could thusly be viewed as faring better, in terms of the health of their
+environment. The mechanism that allows overtly ecologicaly unsustainable countries to thrive is
+discussed.
+Keyword: ecological footprint; sustainability; biocapacity; carrying capacity; international trade
+JEL Classification: Q01; Q56; Q57
 
 INTRODUCTION
 Assessing the state of an economy is a huge undertaking, and the complexity it entails is
@@ -11,14 +23,6 @@ health of the citizens. These could all be broadly described as economic indexes
 The world in which we live is far more complex though, and a simple analysis of the
 output of an economy or the spending patterns of its citizens simply will not do justice. Given
 the fact that one of the key problems humankind is facing at this moment is related to the
-environment, concerns have been voiced with regard to the inability of many of aforementioned
-indexes to accurately account for the loss in biodiversity, the negative effects of human-induced
-global warming and pollutants, the changes in the natural hydrological cycle, etc. (e.g. Daly,
-1992, 2005).
-Following years of research, we now have some measures of these effects and,
-accordingly, some aggregate indexes for the state of the environment in a given economy. These
-
-include: the Index of Sustainable Economic Welfare (Daily & Cobb, 1989; Cobb et al., 1995)
 and the Genuine Progress Indicator (UNDP, 1996). These are holistic indexes, on par with the
 HDI, and are regarded as the next generation measurement tools for an economy, because they
 reveal much more than the economic output of a country.
@@ -82,10 +86,6 @@ issue 3, March 2000); interesting discutions in Ayres (2000), Costanza (2000a) a
 which absorb the human wastes and serve to reintegrate the resulting chemicals in the natural bio-chemical cycles. See
 Armsworth et al. (2004).
 ‡Equals a hectare of average productivity.
-
-
-
-Croatia
 
 3.34
 
@@ -303,7 +303,6 @@ Denmark
 185.5%
 201.5%
 138.5%
-France
 Germany
 Greece
 Hungary
@@ -339,8 +338,6 @@ Figure 1 – 3D scatter plot of the selected EU countries. The top performing EU
 GDP wise, are also characterised by a high δ value
 
 For data sources, see Table 3
-
-Table 3 – Detailed data for the scatter plot (format: country code* (x; y; z values respectively))
 FI
 (17.4; 135.1; 42.4)
 
@@ -437,8 +434,6 @@ a concurrence of both these effects. By eliminating Lithuania, as an inconclusiv
 left with 23 countries.
 Although we have only eliminated one country, the strongest message is conveyed by the
 countries with δ values situated furthest from 1. These outliers tell us the most about the impact
-
-of the economic growth on the environment. Before going into an analysis of those countries,
 we should first clarify what δ=1 means. There is a growing body of literature (although not
 from mainstream economics, and much of it coming from other fields, such as biology), which
 suggests that ecosystems provide valuable (although weakly quantifiable) assets for humankind
@@ -474,8 +469,6 @@ the regenerative capacities of their appropriated land by a factor of at least 2
 however, even a grosso modo value for the benefits accrued from ecosystems is a very difficult undertaking
 (e.g. Costanza & Folke, 1997; Costanza 2000b; Heal 2000). For an attempt at measuring these benefits see Costanza et al.
 (1997). For the uncertainty regarding such evaluations, see Arrow & Fisher (1974).
-
-countries have surpassed the regenerative limit by a factor of 3; Spain, Greece, Italy,
 Netherlands and Belgium have exceeded this limit by more than 4 times. In simple terms, in
 order for these last 5 countries to be ecologically sustainable, at least with regards to the human
 appropriation of the sink and source functions of the ecosystem, the lands they possess would
@@ -513,7 +506,7 @@ while the dotted elipse encompases countries with similar x/y/z values. The rema
 value (>200).
 ‡For some interesting research in the field of environmental psychology, see inter alia, Proshansky et al. (1983); Hidalgo &
 Hernandez (2001); Schultz (2002); Giuliani (2003); Mayer and Frantz (2004); Schultz et al. (2004).
-effect creating carrying capacity and, at a global level, this helps lessen the environmental
+†
 impact. These countries rarely accrue benefits for this, although there are mechanisms which,
 in time, will probably alleviate the problem (one such mechanism might be the Clean
 Development Mechanism; for some promising results in this respect, see Castro et al., 2000).
@@ -543,8 +536,6 @@ geography and population density of Cyprus, we could hypothesise a negative ecol
 footprint, while Sweden would most likely have a positive ecological footprint, since it is one
 of the least populated countries in the world, and has sprawling forests. Malta most likely is on
 par with Cyprus, while for Luxembourg, we can only guess that it might follow the trend set
-by the majority of EU members. This are all speculations, though. For the countries we have
-had data, the following conclusions can be emphasised:
 
 
 20 of the 24 analysed countries have overshot the regenerative capacities of their land,
@@ -697,4 +688,1971 @@ United
 Kingdom
 
 UK
+Arrow, K., Fisher, A. (1974) Environmental preservation, uncertainty, and irreversibility, The
+quarterly
 
+journal
+
+of
+
+economics,
+
+vol.
+
+88,
+
+no.
+
+2,
+
+pp.
+
+312-319.
+
+DOI:
+
+http://dx.doi.org/10.2307/1883074
+Armsworth, P., Kendall, B., Davis, F. (2004) An introduction to biodiversity concepts for
+environmental economists, Resource and energy economics, vol. 26, no. 2, pp. 115-136.
+DOI: http://dx.doi.org/10.1016/j.reseneeco.2003.11.003
+Ayres, R. (2000) Commentary on the utility of the ecological footprint concept. Ecological
+Economics, vol. 32, no.3, pp. 347-349.
+Balnavera, P., Daily, G., Ehrlich, P., Ricketts, T., Bailey, S.A., Kark, S., Kremen, C., Pereira,
+H. (2001) Conserving biodiversity and ecosystem services, Science, vol. 291, no. 5511,
+p. 2047. DOI: http://dx.doi.org/10.1126/science.291.5511.2047
+Castro, R., Tattenbach, F., Gamez, L. & Olson, N. (2000) The Costa Rican experience with
+market instruments to mitigate climate change and conserve biodiversity, Environmental
+monitoring
+
+and
+
+assessment,
+
+vol.
+
+61,
+
+no.
+
+1,
+
+pp.
+
+75-92.
+
+DOI:
+
+http://dx.doi.org/10.1023/A:1006366118268
+Chapin III, S., Walker, B., Hobbs, R., Hooper, D., Lawton, J., Sala, O., Tilman, D. (1997) Biotic
+control over the functioning ecosystems, Science, vol. 277, no. 5325, pp. 500-504. DOI:
+http://dx.doi.org/10.1126/science.277.5325.500
+Cobb, C., Halstead, E., Rowe, J. (1995) The Genuine Progress Indicator – summary of data
+and methodology, Washington D.C.: Redefining progress.
+Costanza, R. (2000a) The dynamics of the ecological footprint concept, Ecological economics,
+vol. 32, p. 341-345.
+Costanza, R. (2000b) Social goals and the valuation of ecosystem services, Ecosystems, vol.
+3, no. 1, pp. 4-10. DOI: http://dx.doi.org/10.1007/s100210000002
+Constanza, R., Daly, H. (1992) Natural capital and sustainable development, Conservation
+Biology,
+
+vol.
+
+6,
+
+no.
+
+1,
+
+pp.
+
+37-46.
+
+DOI:
+
+http://dx.doi.org/10.1046/j.1523-
+
+1739.1992.610037.x
+Costanza, R., Folke, C. (1997) Valuing ecosystem services with efficiency, fairness, and
+sustainability as goals, in Daily G. (ed.) Nature's services. Societal dependence on
+natural ecosystems, pp. 49-71, Washington D.C.: Island Press.
+of the world's ecosystem services and natural capital, Nature, vol. 387, pp. 253-260.
+DOI: http://dx.doi.org/10.1038/387253a0
+Daily, G., Söderqvist, T., Aniyar, S., Arrow, K., Dasgupta, P., Ehrlich, P., Folke, C., Jannson,
+A., Jannson, B.O., Kautsky, N., Levin, S., Lubchenco, J., Mäler, K.G., Simpson, D.,
+Starrett, D., Tilman, D., Walker, B. (2000) The value of nature and the nature of value,
+Science,
+
+vol.
+
+289,
+
+no.
+
+5478,
+
+pp.
+
+395-396.
+
+DOI:
+
+http://dx.doi.org/10.1126/science.289.5478.395
+Daly, H. (1992) Steady-state economics, with new essays, Second Edition. London: Earthscan.
+Daly, H. (2005) Economics in a full world, Scientific American, vol. 293, no. 3, pp. 100-107.
+DOI: http://dx.doi.org/10.1038/scientificamerican0905-100
+Daly, H., Cobb, J. Jr. (1989) For the common good, Boston: Beacon Press.
+EIA (2013) U.S. Energy Information Administration statistics, available online at
+http://www.eia.gov/cfapps/ipdbproject/iedindex3.cfm?tid=44&pid=44&aid=2&cid=r3,
+&syid=2007&eyid=2008&unit=QBTU, site last accessed 07.11.2013
+Ekins, P. (2003) Identifying critical natural capital. Conclusions about critical natural capital,
+Ecological Economics, vol. 44, pp. 277-292. DOI: http://dx.doi.org/10.1016/S09218009(02)00278-1
+Eurostat
+
+(2013)
+
+Eurostat
+
+database
+
+query,
+
+available
+
+online
+
+at
+
+http://epp.eurostat.ec.europa.eu/tgm/table.do?tab=table&init=1&language=en&pcode=t
+ps00003&plugin=1, site last accessed 07.11.2013
+Giuliani, M. V. (2003) Theory of attachment and place attachment, in Bones, M., Lee, T.,
+Bonaiuto M. (eds.) Psychological theories for environmental issues, pp. 137-170,
+Aldershot: Ashgate Publishing.
+Heal, G. (2000) Valuing ecosystem services, Ecosystems, vol. 3, no. 1, pp. 24-30. DOI:
+http://dx.doi.org/10.1007/s100210000006
+Heal, G. (2004) Economics of biodiversity. An introduction, Resource and energy economics,
+vol. 26, no. 2, pp. 105-114. DOI: http://dx.doi.org/10.1016/j.reseneeco.2003.11.002
+Hidalgo, C., Hernandez, B. (2001) Place attachment: conceptual and empirical questions,
+Journal of Environmental Psychology, vol. 21, no. 3, pp. 273-281. DOI:
+http://dx.doi.org/10.1006/jevp.2001.0221
+Myers, N. (1997) Biodiversity's genetic library, in Daily G. (ed.) Nature's services: Societal
+dependence on natural ecosystems, pp. 255-275, Washington D.C.: Island Press.
+Proshansky, H., Fabian, A., Kaminoff, R. (1983) Place-identity: physical world socialization
+of the self, Journal of Environmental Psychology, vol. 3, no. 1, pp. 57-83. DOI:
+http://dx.doi.org/10.1016/S0272-4944(83)80021-8
+Rees, W.E. (2000) Eco-footprint analysis: merits and brickbats, Ecological Economics, vol.
+32, pp. 371-374.
+Rees, W.E., Wackernagel, M. (1994) Ecological footprints and appropriated carrying
+capacity: Measuring the natural capital requirements of the human economy, in Jansson,
+A.M., Hammer, M., Folke, C. and Costanza R. (eds.) Investing in natural capital: The
+ecological economics to sustainability, pp. 362-392, Washington D.C.: Island Press.
+Schultz, W. (2002) Inclusion with nature: The psychology of human-nature relations, in
+Schmuck P., Schultz W.P. (eds.) Psychology of sustainable development, pp. 61-79,
+Dordrecht: Kluwer Academy Publishers.
+Schultz, W., Shriver, C., Tabanico, J. & Khazian, A. (2004) Implicit connections with nature,
+Journal
+
+of Environmental Psychology, vol.
+
+24, no. 1, pp. 31-42. DOI:
+
+http://dx.doi.org/10.1016/S0272-4944(03)00022-7
+Tilman, D., Downing, J. (1994) Biodiversity and stability in grasslands, Nature, vol. 367, pp.
+363-365. DOI: http://dx.doi.org/10.1038/367363a0
+Tilman, D., Wedin, D., Knops, J. (1996) Productivity and sustainability influenced by
+biodiversity in grassland ecosystems, Nature, vol. 379, pp. 718-720. DOI:
+http://dx.doi.org/10.1038/379718a0
+Tilman, D., Knops, J., Wedin, D., Reich, P., Ritchie, M., Siemann, E. (1997) The influence of
+functional diversity and composition on ecosystem processes, Science, vol. 277, no. 5330,
+pp. 1300-1302. DOI: http://dx.doi.org/10.1126/science.277.5330.1300
+Tilman, D., Reich, P., Knops, J. (2006) Biodiversity and ecosystem stability in a decade-long
+grassland
+
+experiment,
+
+Nature,
+
+vol.
+
+441,
+
+pp.
+
+629-632.
+
+DOI:
+
+http://dx.doi.org/10.1038/nature04742
+UNDP (1996) United Nations Development Program Human Development Report, Oxford:
+Oxford University Press.
+IMPLICATIONS OF ECOLOGICAL FOOTPRINT VALUES
+FOR SELECTED EU MEMBERS
+Mircea Saveanu*
+Abstract: We analyse the state of the environment for 24 EU member states, using the concept
+of ecological footprint. Findings suggest that 20 of the 24 analysed states are pushing their environment
+past its yearly regenerative limits. Of these, 10 have surpassed this value by at least two-fold. A few
+outliers have gone well beyond even this mark. Four member states have yet to reach the regenerative
+limit of their lands, and could thusly be viewed as faring better, in terms of the health of their
+environment. The mechanism that allows overtly ecologicaly unsustainable countries to thrive is
+discussed.
+Keyword: ecological footprint; sustainability; biocapacity; carrying capacity; international trade
+JEL Classification: Q01; Q56; Q57
+
+INTRODUCTION
+Assessing the state of an economy is a huge undertaking, and the complexity it entails is
+on the scale of the nations measured. Problems can arise from the onset, as the method used
+for analysing an economy can lead to very different results. One can analyse an economy with
+regards to its output (GDP), which is the most popular method used today. Other methods
+include checking for the inequalities in an economy, and then the Gini index would be used. A
+more holistic approach, although far from perfect, would be to analyse the Human
+Development Index for a given country, which takes into account the education, income and
+health of the citizens. These could all be broadly described as economic indexes.
+The world in which we live is far more complex though, and a simple analysis of the
+output of an economy or the spending patterns of its citizens simply will not do justice. Given
+the fact that one of the key problems humankind is facing at this moment is related to the
+and the Genuine Progress Indicator (UNDP, 1996). These are holistic indexes, on par with the
+HDI, and are regarded as the next generation measurement tools for an economy, because they
+reveal much more than the economic output of a country.
+With regards to the environment, Rees and Wackernagel (1994) developed a
+measurement for the environmental state of an economy called the environmental footprint*.
+The strength of this index lies in the fact that it focuses on a single aspect, the environment,
+eliminating the haphazard job of aggregating qualitatively different entities, while the results it
+returns are meaningful and can be correlated with the information given by economical
+indexes, say GDP.
+1. METHODOLOGY & PRELIMINARY DATA
+The ecological footprint index consists of two parts: the effective ecological footprint of
+a community on the land it occupies, and the biocapacity of the land. The effective ecological
+footprint of a community is the mark left on the land by the inhabitants (both sink and source
+side†), as measured in global hectares‡. The biocapacity is the annual capacity of the land to
+regenerate (both sink and source side), as measured also in global hectares. Therefore, if one
+substracts the effective ecological footprint from the biocapacity, one can get a crude
+measurement of the strain on the environment put by the inhabitants. There is room for
+improvement (for example, the ecological footprint methodology does not account for the lifesupport and human health and welfare functions of the environment – see Ekins, 2003), but the
+method has already been implemented by some Governments, in order to assess their impact
+on the environment. For the EU, the following data could be accessed:
+Table 1 – Ecological footprint data for 24 EU member states
+Country*
+
+Ecological footprint of
+consumption
+
+Biocapacity
+
+Gross ecological
+footprint
+
+Austria
+
+4.89
+
+2.99
+
+-1.9
+
+Belgium
+
+5.7
+
+1.09
+
+-4.61
+
+Bulgaria
+
+3.25
+
+2.66
+
+-0.59
+
+*Ecological
+
+Economics released a special issue concerning commentaries on the concept of ecological economics (vol. 32,
+issue 3, March 2000); interesting discutions in Ayres (2000), Costanza (2000a) and Rees (2000).
+†Source side = the ecosystem functions which provide humans with natural resources; sink side = the ecosystem functions
+which absorb the human wastes and serve to reintegrate the resulting chemicals in the natural bio-chemical cycles. See
+Armsworth et al. (2004).
+‡Equals a hectare of average productivity.
+
+3.34
+
+1.8
+
+-1.54
+
+Czech Rep.
+
+5.32
+
+2.64
+
+-2.68
+
+Denmark
+
+7.19
+
+5.19
+
+-2
+
+Estonia
+
+6.42
+
+8.99
+
+2.57
+
+Finland
+
+5.51
+
+12.99
+
+7.48
+
+France
+
+4.6
+
+2.83
+
+-1.77
+
+Germany
+
+4.03
+
+1.86
+
+-2.17
+
+Greece
+
+5.76
+
+1.36
+
+-4.4
+
+Hungary
+
+3.23
+
+2.58
+
+-0.65
+
+Ireland
+
+8.19
+
+4.26
+
+-3.93
+
+Italy
+
+4.94
+
+1.03
+
+-3.91
+
+Latvia
+
+4.6
+
+7.24
+
+2.64
+
+Lithuania
+
+3.32
+
+3.66
+
+0.34
+
+Netherlands
+
+4.6
+
+1.05
+
+-3.55
+
+Poland
+
+3.89
+
+1.84
+
+-2.05
+
+Portugal
+
+4.37
+
+1.18
+
+-3.19
+
+Romania
+
+2.67
+
+2.27
+
+-0.4
+
+Slovakia
+
+4.94
+
+2.68
+
+-2.26
+
+Slovenia
+
+3.89
+
+2.36
+
+-1.53
+
+Spain
+
+5.63
+
+1.32
+
+-4.31
+
+United Kingdom
+
+6.12
+
+1.58
+
+-4.54
+
+* Data unavailable for Cyprus, Luxembourg, Malta and Sweden
+Source: GFN 2010 (data for 2007)
+
+However, we can, from the given data, deduce more than that. If we define δ as:
+
+
+
+eco log ical footpr int of consumption
+ 100 ,
+biocapacit y
+
+then we can get a sense of the intensity of the process taking place. Computing for the data in
+the previous table, we arrive at the following results:
+Table 2 – δ figures, based on the data from previous table
+Countries with a positive gross ecological footprint
+
+Countries with a negative gross ecological
+footprint
+
+16.66%
+
+83.33%
+
+Of which:
+Estonia
+Finland
+Latvia
+Lithuania
+
+δ=
+71.41%
+42.41%
+63.53%
+90.71%
+
+Of which:
+Austria
+Belgium
+Bulgaria
+Croatia
+Czech Rep.
+Denmark
+
+δ=
+163.5%
+522.9%
+122.1%
+185.5%
+201.5%
+138.5%
+Germany
+Greece
+Hungary
+Ireland
+Italy
+Netherlands
+Poland
+Portugal
+Romania
+Slovakia
+Slovenia
+Spain
+United Kingdom
+
+162.5%
+216.6%
+423.5%
+125.1%
+192.2%
+479.6%
+438.0%
+211.4%
+370.3%
+117.6%
+184.3%
+164.8%
+426.5%
+387.3%
+
+Source: own calculations, based on the previous table
+
+Figure 1 – 3D scatter plot of the selected EU countries. The top performing EU member states,
+GDP wise, are also characterised by a high δ value
+
+For data sources, see Table 3
+FI
+(17.4; 135.1; 42.4)
+
+HU
+(108.1; 112.4; 125.1)
+
+IE
+(63.7; 70.3; 192.2)
+
+EL
+(85.6; 150.9; 423.5)
+
+LV
+(36.5; 17.3; 63.5)
+
+DK
+(126.7; 88.5; 138.5)
+
+CZ
+(133.8; 164.6; 201.5)
+
+UK
+(250.8; 956.1; 387.3)
+
+EE
+(30.9; 23.1; 71.4)
+
+SI
+(100.2; 31.9; 164.8)
+
+PL
+(121.9; 391.8; 211.4)
+
+SP
+(89.4; 676.1; 426.5)
+
+LT
+(53.9; 38.6; 90.7)
+
+AT
+(100.7; 154.4; 163.5)
+
+FR
+(100.9; 1129.5; 162.5)
+
+IT
+(201.2; 803.9; 479.6)
+
+BG
+(69; 84.1; 122.1)
+
+HR
+(78.4; 39.5; 185.5)
+
+DE
+(230.4; 1422.6; 216.6)
+
+NL
+(485.3; 435.5; 438)
+
+RO
+(93.7; 166.2; 117.6)
+
+SK
+(110.1; 79.2; 184.3)
+
+PT
+(115.2; 112.8; 370.3)
+
+BE
+(350.4; 273.6; 522.9)
+
+The order of the countries is given by their marker position in the scatter plot, from bottom to top of the graph
+* For a list of country codes and their corresponding country, see Table 4, at the end of the document
+Source: for population densities (x values), Eurostat (2013); for primary energy consumption (y values), EIA (2013); δ
+values (z values), based on own calculations. All values are computed using data for 2007
+
+2. RESULTS AND DISCUSSION
+At a first glance, the results are somewhat grim: only 4 out of the 24 EU members for
+which we could obtain data have a positive gross ecological footprint. We interpret this as
+meaning that 4 countries out of the 24 studied states place a strain on their environment (source
+and sink side wise) less than the regenerative capacities of the land occupied. Conversely, 20
+countries were, for the year 2007, overshooting the pressure on their environment, by taking in
+more resources than the land can regenerate, dumping more wastes than it can assimilate, or
+both.
+The ecological footprint concept depends on two components: the effective ecological
+footprint of the given community and the biocapacity of the land to regenerate. Both of these
+quantities, as measured in global hectares, can fluctuate yearly, which means that the figures in
+the previous tables can vary from year to year. Given this fact, we can exclude one country that
+is near unity (δ=1), because Lithuania, which scored a δ of 90.71% for 2007, can go above
+100% the next year, due to either a drop in biocapacity (from natural or artificial causes), an
+increase in the effective ecological footprint (due to increased human activity, for example), or
+a concurrence of both these effects. By eliminating Lithuania, as an inconclusive case, we are
+left with 23 countries.
+Although we have only eliminated one country, the strongest message is conveyed by the
+countries with δ values situated furthest from 1. These outliers tell us the most about the impact
+we should first clarify what δ=1 means. There is a growing body of literature (although not
+from mainstream economics, and much of it coming from other fields, such as biology), which
+suggests that ecosystems provide valuable (although weakly quantifiable) assets for humankind
+(inter alia, Costanza & Daly, 1992; Vitousek, 1994; Chapin III et al., 1997; Costanza et al.,
+1997; Myers, 1997; Daily et al., 2000; Balnavera et al., 2001; Heal, 2004;). These include
+such functions as: complex and diverse genetic repository (through biodiversity), maintenance
+of the hydrological cycle, maintenance of the carbon cycle, maintenance of the nitrogen cycle,
+control over the climate, etc.
+Focusing on just the biodiversity aspect, which has provided incommensurable assets in
+the past, and will undoubtedly provide more in the future, it is clear that any patch of land that
+has a δ value of 1 leaves little room for biodiversity to flourish. Much revenue is earned via
+tourism, due to biodiversity; many pharmaceuticals are derived from compounds found in wild
+flora or fauna. There is also a generally accepted theory in biology, which suggests that
+ecosystem resilience is highly dependent on the diversity of its flora and fauna (Tilman &
+Downing, 1994; Tilman et al., 1996; Tilman et al., 1997; Tilman et al., 2006). This places even
+more value on biodiversity, due to the strengthening role it plays in the environment*.
+These are all legitimate reasons not to discard the natural environment as a whole, when
+assessing the health of an economy. The implications of our reasoning are that a δ value equal
+to 1, while feasible strictly from the perspective of the human community, exhausts the source
+functions, the sink functions, or both, of the given environment, therefore leaving little for the
+local flora or fauna to thrive on. The inherent losses in biodiversity in such cases lead to a
+lowered resilience for the ecosystem, which in turn boomerangs back to more losses in
+biodiversity. Finally, due to the fact that biodiversity is tied in complex ways to the ecosystem,
+this leads to a drop in the biocapacity of the land, therefore reducing the sink functions, the
+source functions, or both (this effect can readily be seen in the impoverishment of the lands,
+due to the modern usage of large scale monocultures).
+The previous paragraphs add weight to an already alarming situation. Going back to the
+analysis, we conclude that 10 of the 24 countries for which data was available, have overshot
+the regenerative capacities of their appropriated land by a factor of at least 2; 7 of these
+
+*Determining,
+
+however, even a grosso modo value for the benefits accrued from ecosystems is a very difficult undertaking
+(e.g. Costanza & Folke, 1997; Costanza 2000b; Heal 2000). For an attempt at measuring these benefits see Costanza et al.
+(1997). For the uncertainty regarding such evaluations, see Arrow & Fisher (1974).
+Netherlands and Belgium have exceeded this limit by more than 4 times. In simple terms, in
+order for these last 5 countries to be ecologically sustainable, at least with regards to the human
+appropriation of the sink and source functions of the ecosystem, the lands they possess would
+have to be 4 times larger in surface size*. Of the 3 remaining countries (those with a positive
+ecological footprint - Lithuania was excluded from the analysis), only Finland is using less than
+half the regenerative capacity of the land it possesses.
+One might ask then, if so many countries are actually exceeding the carrying capacity of
+the land they appropriate, how can their communities still thrive? Many of the countries with
+a negative ecological footprint consist of highly developed economies, and would otherwise be
+seen as models for societal and economic development. How can some of these countries fail
+so hard at being ecologically friendly? The answer to this question is unclear, and the question
+in itself could be the subject of an entire thesis. It is beyond the scope of this article to come up
+with arguments supporting one side or the other. It is highly probable that the ecological
+footprint correlates positively with the energy consumption in a economy (although one might
+be right in pointing out that the energy intensity of a country is just as much a telling index as
+the primary energy consumption, since it reveals much about the efficiency in using the said
+energy), and also with the population density of that country†.
+Clearly, there are other factors at work here, besides the ones mentioned, and some of
+them might not even be of a physical and quantifiable nature. Psychological factors‡, culturally
+induced behaviors, the impact of religion, traditions, etc., all might have a role in explaining
+the ecological footprint of a given country, and many of these factors could be unique to the
+given country, which would imply that making generalizations on the subject is a hazardous
+enterprise. But if determining the causes clearly requires more research, in many fields of the
+human knowledge, not just economics, the mechanism that sustains this process is clear: many
+countries can afford to go beyond the regenerative limits of the lands they own, simply because
+they are importing biocapacity. Many developed countries can afford to undergo long periods
+characterised by a negative ecological footprint, because there are other countries which are in
+
+*As
+
+usual, the same assumption of an average productivity hectare is assumed.
+Notice that in Figure 1, all the countries with either high population density or high energy consumption have similarly high
+δ values. In the same figure, the dotted rectangle denotes the four countries with a positive gross ecological footprint value,
+while the dotted elipse encompases countries with similar x/y/z values. The remaining outliers are countries with a high δ
+value (>200).
+‡For some interesting research in the field of environmental psychology, see inter alia, Proshansky et al. (1983); Hidalgo &
+Hernandez (2001); Schultz (2002); Giuliani (2003); Mayer and Frantz (2004); Schultz et al. (2004).
+†
+impact. These countries rarely accrue benefits for this, although there are mechanisms which,
+in time, will probably alleviate the problem (one such mechanism might be the Clean
+Development Mechanism; for some promising results in this respect, see Castro et al., 2000).
+Some examples include: developed countries that have destroyed much of their natural
+biodiversity can still benefit from the genetic richness of flora and fauna found in less
+developed countries, and in fact this is happening all the time, as researchers (generally located
+in the highly developed countries) travel to less developed countries and, after years of
+research, return with their fruits of labor and introduce pharmaceuticals and other products in
+the global market. This would not be possible if less developed countries would have
+appropriated much of the ecosystem functions, but nor would it be possible if the research
+teams from the highly developed countries would be inexistent. Another example involves the
+carbon cycle. Forests play a crucial role in this cycle, because, through photosynthesis, carbon
+is fixated, and, in the process, oxygen is released (which is vital for humankind). The fact that
+some countries have a negative ecological footprint could be indicative of a deficiency in the
+carbon cycle (caused by deforestation). The carbon cycle is not however a local phenomenon,
+which means that developed countries can afford this loss, as long as other countries,
+knowingly or not, keep their forests pristine. This reasoning can be applied to most of the
+contributions that an ecosystem has to human society. In a sense, the developed countries that
+show a negative ecological footprint are owing their existence to borrowed carrying capacity,
+imported from the less developed countries, and most of the time the latter receive only
+moderate compensation for their services.
+CONCLUSIONS
+This article focused on the ecological problems that some EU members have, and the indicator
+used was their ecological footprint. We analysed 24 of the 28 members, because information
+on Cyprus, Malta, Luxembourg and Sweden could not be obtained. Given the particular
+geography and population density of Cyprus, we could hypothesise a negative ecological
+footprint, while Sweden would most likely have a positive ecological footprint, since it is one
+of the least populated countries in the world, and has sprawling forests. Malta most likely is on
+par with Cyprus, while for Luxembourg, we can only guess that it might follow the trend set
+
+
+20 of the 24 analysed countries have overshot the regenerative capacities of their land,
+for the year 2007. This means that, for that year, either the source functions of the
+ecosystem have been surpassed, the sink functions have been exceeded, or both;
+
+
+
+4 countries (Estonia, Finland, Latvia and Lithuania) returned a positive ecological
+footprint, although one (Lithuania) remains inconclusive, due to the contiguity of the
+values of ecological footprint of consumption (3.32) and biocapacity (3.66);
+
+
+
+of the countries with a negative ecological footprint, 10 of the 24 have overshot the
+regenerative capacities of the appropriated land by a factor of at least 2; 7 of these
+countries have surpassed the regenerative limit by a factor of 3; Spain, Greece, Italy,
+Netherlands and Belgium have exceeded this limit by more than 4 times;
+
+
+
+Finland is the country with the lowest gross ecological footprint value, since, for 2007,
+it had used the source and sink functions of the ecosystem up to less than a half of its
+regenerative capacity;
+
+
+
+all the countries with a negative gross ecological footprint value are ecologically
+unsustainable, and their continued existence is due to the preservation of ecosystems in
+mostly lesser developed countries. This situation is poorly addressed by the global
+market,
+
+as
+
+some
+
+ecosystem
+
+functions
+
+(like
+
+the
+
+role
+
+in
+
+the
+
+global
+
+hydrological/nitrogen/carbon cycle) have yet to bring about consistent financial
+benefits for these countries.
+ANNEX
+Table 4 – Country codes used and their corresponding country
+Austria
+
+AT
+
+Estonia
+
+EE
+
+Ireland
+
+IE
+
+Portugal
+
+PT
+
+Belgium
+
+BE
+
+Finland
+
+FI
+
+Italy
+
+IT
+
+Romania
+
+RO
+
+Bulgaria
+
+BG
+
+France
+
+FR
+
+Latvia
+
+LV
+
+Slovakia
+
+SK
+
+Croatia
+
+HR
+
+Germany
+
+DE
+
+Lithuania
+
+LT
+
+Slovenia
+
+SI
+
+Czech Rep.
+
+CZ
+
+Greece
+
+EL
+
+Netherlands
+
+NL
+
+Spain
+
+SP
+
+Denmark
+
+DK
+
+Hungary
+
+HU
+
+Poland
+
+PL
+
+United
+Kingdom
+
+UK
+Arrow, K., Fisher, A. (1974) Environmental preservation, uncertainty, and irreversibility, The
+quarterly
+
+journal
+
+of
+
+economics,
+
+vol.
+
+88,
+
+no.
+
+2,
+
+pp.
+
+312-319.
+
+DOI:
+
+http://dx.doi.org/10.2307/1883074
+Armsworth, P., Kendall, B., Davis, F. (2004) An introduction to biodiversity concepts for
+environmental economists, Resource and energy economics, vol. 26, no. 2, pp. 115-136.
+DOI: http://dx.doi.org/10.1016/j.reseneeco.2003.11.003
+Ayres, R. (2000) Commentary on the utility of the ecological footprint concept. Ecological
+Economics, vol. 32, no.3, pp. 347-349.
+Balnavera, P., Daily, G., Ehrlich, P., Ricketts, T., Bailey, S.A., Kark, S., Kremen, C., Pereira,
+H. (2001) Conserving biodiversity and ecosystem services, Science, vol. 291, no. 5511,
+p. 2047. DOI: http://dx.doi.org/10.1126/science.291.5511.2047
+Castro, R., Tattenbach, F., Gamez, L. & Olson, N. (2000) The Costa Rican experience with
+market instruments to mitigate climate change and conserve biodiversity, Environmental
+monitoring
+
+and
+
+assessment,
+
+vol.
+
+61,
+
+no.
+
+1,
+
+pp.
+
+75-92.
+
+DOI:
+
+http://dx.doi.org/10.1023/A:1006366118268
+Chapin III, S., Walker, B., Hobbs, R., Hooper, D., Lawton, J., Sala, O., Tilman, D. (1997) Biotic
+control over the functioning ecosystems, Science, vol. 277, no. 5325, pp. 500-504. DOI:
+http://dx.doi.org/10.1126/science.277.5325.500
+Cobb, C., Halstead, E., Rowe, J. (1995) The Genuine Progress Indicator – summary of data
+and methodology, Washington D.C.: Redefining progress.
+Costanza, R. (2000a) The dynamics of the ecological footprint concept, Ecological economics,
+vol. 32, p. 341-345.
+Costanza, R. (2000b) Social goals and the valuation of ecosystem services, Ecosystems, vol.
+3, no. 1, pp. 4-10. DOI: http://dx.doi.org/10.1007/s100210000002
+Constanza, R., Daly, H. (1992) Natural capital and sustainable development, Conservation
+Biology,
+
+vol.
+
+6,
+
+no.
+
+1,
+
+pp.
+
+37-46.
+
+DOI:
+
+http://dx.doi.org/10.1046/j.1523-
+
+1739.1992.610037.x
+Costanza, R., Folke, C. (1997) Valuing ecosystem services with efficiency, fairness, and
+sustainability as goals, in Daily G. (ed.) Nature's services. Societal dependence on
+natural ecosystems, pp. 49-71, Washington D.C.: Island Press.
+of the world's ecosystem services and natural capital, Nature, vol. 387, pp. 253-260.
+DOI: http://dx.doi.org/10.1038/387253a0
+Daily, G., Söderqvist, T., Aniyar, S., Arrow, K., Dasgupta, P., Ehrlich, P., Folke, C., Jannson,
+A., Jannson, B.O., Kautsky, N., Levin, S., Lubchenco, J., Mäler, K.G., Simpson, D.,
+Starrett, D., Tilman, D., Walker, B. (2000) The value of nature and the nature of value,
+Science,
+
+vol.
+
+289,
+
+no.
+
+5478,
+
+pp.
+
+395-396.
+
+DOI:
+
+http://dx.doi.org/10.1126/science.289.5478.395
+Daly, H. (1992) Steady-state economics, with new essays, Second Edition. London: Earthscan.
+Daly, H. (2005) Economics in a full world, Scientific American, vol. 293, no. 3, pp. 100-107.
+DOI: http://dx.doi.org/10.1038/scientificamerican0905-100
+Daly, H., Cobb, J. Jr. (1989) For the common good, Boston: Beacon Press.
+EIA (2013) U.S. Energy Information Administration statistics, available online at
+http://www.eia.gov/cfapps/ipdbproject/iedindex3.cfm?tid=44&pid=44&aid=2&cid=r3,
+&syid=2007&eyid=2008&unit=QBTU, site last accessed 07.11.2013
+Ekins, P. (2003) Identifying critical natural capital. Conclusions about critical natural capital,
+Ecological Economics, vol. 44, pp. 277-292. DOI: http://dx.doi.org/10.1016/S09218009(02)00278-1
+Eurostat
+
+(2013)
+
+Eurostat
+
+database
+
+query,
+
+available
+
+online
+
+at
+
+http://epp.eurostat.ec.europa.eu/tgm/table.do?tab=table&init=1&language=en&pcode=t
+ps00003&plugin=1, site last accessed 07.11.2013
+Giuliani, M. V. (2003) Theory of attachment and place attachment, in Bones, M., Lee, T.,
+Bonaiuto M. (eds.) Psychological theories for environmental issues, pp. 137-170,
+Aldershot: Ashgate Publishing.
+Heal, G. (2000) Valuing ecosystem services, Ecosystems, vol. 3, no. 1, pp. 24-30. DOI:
+http://dx.doi.org/10.1007/s100210000006
+Heal, G. (2004) Economics of biodiversity. An introduction, Resource and energy economics,
+vol. 26, no. 2, pp. 105-114. DOI: http://dx.doi.org/10.1016/j.reseneeco.2003.11.002
+Hidalgo, C., Hernandez, B. (2001) Place attachment: conceptual and empirical questions,
+Journal of Environmental Psychology, vol. 21, no. 3, pp. 273-281. DOI:
+http://dx.doi.org/10.1006/jevp.2001.0221
+Myers, N. (1997) Biodiversity's genetic library, in Daily G. (ed.) Nature's services: Societal
+dependence on natural ecosystems, pp. 255-275, Washington D.C.: Island Press.
+Proshansky, H., Fabian, A., Kaminoff, R. (1983) Place-identity: physical world socialization
+of the self, Journal of Environmental Psychology, vol. 3, no. 1, pp. 57-83. DOI:
+http://dx.doi.org/10.1016/S0272-4944(83)80021-8
+Rees, W.E. (2000) Eco-footprint analysis: merits and brickbats, Ecological Economics, vol.
+32, pp. 371-374.
+Rees, W.E., Wackernagel, M. (1994) Ecological footprints and appropriated carrying
+capacity: Measuring the natural capital requirements of the human economy, in Jansson,
+A.M., Hammer, M., Folke, C. and Costanza R. (eds.) Investing in natural capital: The
+ecological economics to sustainability, pp. 362-392, Washington D.C.: Island Press.
+Schultz, W. (2002) Inclusion with nature: The psychology of human-nature relations, in
+Schmuck P., Schultz W.P. (eds.) Psychology of sustainable development, pp. 61-79,
+Dordrecht: Kluwer Academy Publishers.
+Schultz, W., Shriver, C., Tabanico, J. & Khazian, A. (2004) Implicit connections with nature,
+Journal
+
+of Environmental Psychology, vol.
+
+24, no. 1, pp. 31-42. DOI:
+
+http://dx.doi.org/10.1016/S0272-4944(03)00022-7
+Tilman, D., Downing, J. (1994) Biodiversity and stability in grasslands, Nature, vol. 367, pp.
+363-365. DOI: http://dx.doi.org/10.1038/367363a0
+Tilman, D., Wedin, D., Knops, J. (1996) Productivity and sustainability influenced by
+biodiversity in grassland ecosystems, Nature, vol. 379, pp. 718-720. DOI:
+http://dx.doi.org/10.1038/379718a0
+Tilman, D., Knops, J., Wedin, D., Reich, P., Ritchie, M., Siemann, E. (1997) The influence of
+functional diversity and composition on ecosystem processes, Science, vol. 277, no. 5330,
+pp. 1300-1302. DOI: http://dx.doi.org/10.1126/science.277.5330.1300
+Tilman, D., Reich, P., Knops, J. (2006) Biodiversity and ecosystem stability in a decade-long
+grassland
+
+experiment,
+
+Nature,
+
+vol.
+
+441,
+
+pp.
+
+629-632.
+
+DOI:
+
+http://dx.doi.org/10.1038/nature04742
+UNDP (1996) United Nations Development Program Human Development Report, Oxford:
+Oxford University Press.
+IMPLICATIONS OF ECOLOGICAL FOOTPRINT VALUES
+FOR SELECTED EU MEMBERS
+Mircea Saveanu*
+Abstract: We analyse the state of the environment for 24 EU member states, using the concept
+of ecological footprint. Findings suggest that 20 of the 24 analysed states are pushing their environment
+past its yearly regenerative limits. Of these, 10 have surpassed this value by at least two-fold. A few
+outliers have gone well beyond even this mark. Four member states have yet to reach the regenerative
+limit of their lands, and could thusly be viewed as faring better, in terms of the health of their
+environment. The mechanism that allows overtly ecologicaly unsustainable countries to thrive is
+discussed.
+Keyword: ecological footprint; sustainability; biocapacity; carrying capacity; international trade
+JEL Classification: Q01; Q56; Q57
+
+INTRODUCTION
+Assessing the state of an economy is a huge undertaking, and the complexity it entails is
+on the scale of the nations measured. Problems can arise from the onset, as the method used
+for analysing an economy can lead to very different results. One can analyse an economy with
+regards to its output (GDP), which is the most popular method used today. Other methods
+include checking for the inequalities in an economy, and then the Gini index would be used. A
+more holistic approach, although far from perfect, would be to analyse the Human
+Development Index for a given country, which takes into account the education, income and
+health of the citizens. These could all be broadly described as economic indexes.
+The world in which we live is far more complex though, and a simple analysis of the
+output of an economy or the spending patterns of its citizens simply will not do justice. Given
+the fact that one of the key problems humankind is facing at this moment is related to the
+and the Genuine Progress Indicator (UNDP, 1996). These are holistic indexes, on par with the
+HDI, and are regarded as the next generation measurement tools for an economy, because they
+reveal much more than the economic output of a country.
+With regards to the environment, Rees and Wackernagel (1994) developed a
+measurement for the environmental state of an economy called the environmental footprint*.
+The strength of this index lies in the fact that it focuses on a single aspect, the environment,
+eliminating the haphazard job of aggregating qualitatively different entities, while the results it
+returns are meaningful and can be correlated with the information given by economical
+indexes, say GDP.
+1. METHODOLOGY & PRELIMINARY DATA
+The ecological footprint index consists of two parts: the effective ecological footprint of
+a community on the land it occupies, and the biocapacity of the land. The effective ecological
+footprint of a community is the mark left on the land by the inhabitants (both sink and source
+side†), as measured in global hectares‡. The biocapacity is the annual capacity of the land to
+regenerate (both sink and source side), as measured also in global hectares. Therefore, if one
+substracts the effective ecological footprint from the biocapacity, one can get a crude
+measurement of the strain on the environment put by the inhabitants. There is room for
+improvement (for example, the ecological footprint methodology does not account for the lifesupport and human health and welfare functions of the environment – see Ekins, 2003), but the
+method has already been implemented by some Governments, in order to assess their impact
+on the environment. For the EU, the following data could be accessed:
+Table 1 – Ecological footprint data for 24 EU member states
+Country*
+
+Ecological footprint of
+consumption
+
+Biocapacity
+
+Gross ecological
+footprint
+
+Austria
+
+4.89
+
+2.99
+
+-1.9
+
+Belgium
+
+5.7
+
+1.09
+
+-4.61
+
+Bulgaria
+
+3.25
+
+2.66
+
+-0.59
+
+*Ecological
+
+Economics released a special issue concerning commentaries on the concept of ecological economics (vol. 32,
+issue 3, March 2000); interesting discutions in Ayres (2000), Costanza (2000a) and Rees (2000).
+†Source side = the ecosystem functions which provide humans with natural resources; sink side = the ecosystem functions
+which absorb the human wastes and serve to reintegrate the resulting chemicals in the natural bio-chemical cycles. See
+Armsworth et al. (2004).
+‡Equals a hectare of average productivity.
+
+3.34
+
+1.8
+
+-1.54
+
+Czech Rep.
+
+5.32
+
+2.64
+
+-2.68
+
+Denmark
+
+7.19
+
+5.19
+
+-2
+
+Estonia
+
+6.42
+
+8.99
+
+2.57
+
+Finland
+
+5.51
+
+12.99
+
+7.48
+
+France
+
+4.6
+
+2.83
+
+-1.77
+
+Germany
+
+4.03
+
+1.86
+
+-2.17
+
+Greece
+
+5.76
+
+1.36
+
+-4.4
+
+Hungary
+
+3.23
+
+2.58
+
+-0.65
+
+Ireland
+
+8.19
+
+4.26
+
+-3.93
+
+Italy
+
+4.94
+
+1.03
+
+-3.91
+
+Latvia
+
+4.6
+
+7.24
+
+2.64
+
+Lithuania
+
+3.32
+
+3.66
+
+0.34
+
+Netherlands
+
+4.6
+
+1.05
+
+-3.55
+
+Poland
+
+3.89
+
+1.84
+
+-2.05
+
+Portugal
+
+4.37
+
+1.18
+
+-3.19
+
+Romania
+
+2.67
+
+2.27
+
+-0.4
+
+Slovakia
+
+4.94
+
+2.68
+
+-2.26
+
+Slovenia
+
+3.89
+
+2.36
+
+-1.53
+
+Spain
+
+5.63
+
+1.32
+
+-4.31
+
+United Kingdom
+
+6.12
+
+1.58
+
+-4.54
+
+* Data unavailable for Cyprus, Luxembourg, Malta and Sweden
+Source: GFN 2010 (data for 2007)
+
+However, we can, from the given data, deduce more than that. If we define δ as:
+
+
+
+eco log ical footpr int of consumption
+ 100 ,
+biocapacit y
+
+then we can get a sense of the intensity of the process taking place. Computing for the data in
+the previous table, we arrive at the following results:
+Table 2 – δ figures, based on the data from previous table
+Countries with a positive gross ecological footprint
+
+Countries with a negative gross ecological
+footprint
+
+16.66%
+
+83.33%
+
+Of which:
+Estonia
+Finland
+Latvia
+Lithuania
+
+δ=
+71.41%
+42.41%
+63.53%
+90.71%
+
+Of which:
+Austria
+Belgium
+Bulgaria
+Croatia
+Czech Rep.
+Denmark
+
+δ=
+163.5%
+522.9%
+122.1%
+185.5%
+201.5%
+138.5%
+Germany
+Greece
+Hungary
+Ireland
+Italy
+Netherlands
+Poland
+Portugal
+Romania
+Slovakia
+Slovenia
+Spain
+United Kingdom
+
+162.5%
+216.6%
+423.5%
+125.1%
+192.2%
+479.6%
+438.0%
+211.4%
+370.3%
+117.6%
+184.3%
+164.8%
+426.5%
+387.3%
+
+Source: own calculations, based on the previous table
+
+Figure 1 – 3D scatter plot of the selected EU countries. The top performing EU member states,
+GDP wise, are also characterised by a high δ value
+
+For data sources, see Table 3
+FI
+(17.4; 135.1; 42.4)
+
+HU
+(108.1; 112.4; 125.1)
+
+IE
+(63.7; 70.3; 192.2)
+
+EL
+(85.6; 150.9; 423.5)
+
+LV
+(36.5; 17.3; 63.5)
+
+DK
+(126.7; 88.5; 138.5)
+
+CZ
+(133.8; 164.6; 201.5)
+
+UK
+(250.8; 956.1; 387.3)
+
+EE
+(30.9; 23.1; 71.4)
+
+SI
+(100.2; 31.9; 164.8)
+
+PL
+(121.9; 391.8; 211.4)
+
+SP
+(89.4; 676.1; 426.5)
+
+LT
+(53.9; 38.6; 90.7)
+
+AT
+(100.7; 154.4; 163.5)
+
+FR
+(100.9; 1129.5; 162.5)
+
+IT
+(201.2; 803.9; 479.6)
+
+BG
+(69; 84.1; 122.1)
+
+HR
+(78.4; 39.5; 185.5)
+
+DE
+(230.4; 1422.6; 216.6)
+
+NL
+(485.3; 435.5; 438)
+
+RO
+(93.7; 166.2; 117.6)
+
+SK
+(110.1; 79.2; 184.3)
+
+PT
+(115.2; 112.8; 370.3)
+
+BE
+(350.4; 273.6; 522.9)
+
+The order of the countries is given by their marker position in the scatter plot, from bottom to top of the graph
+* For a list of country codes and their corresponding country, see Table 4, at the end of the document
+Source: for population densities (x values), Eurostat (2013); for primary energy consumption (y values), EIA (2013); δ
+values (z values), based on own calculations. All values are computed using data for 2007
+
+2. RESULTS AND DISCUSSION
+At a first glance, the results are somewhat grim: only 4 out of the 24 EU members for
+which we could obtain data have a positive gross ecological footprint. We interpret this as
+meaning that 4 countries out of the 24 studied states place a strain on their environment (source
+and sink side wise) less than the regenerative capacities of the land occupied. Conversely, 20
+countries were, for the year 2007, overshooting the pressure on their environment, by taking in
+more resources than the land can regenerate, dumping more wastes than it can assimilate, or
+both.
+The ecological footprint concept depends on two components: the effective ecological
+footprint of the given community and the biocapacity of the land to regenerate. Both of these
+quantities, as measured in global hectares, can fluctuate yearly, which means that the figures in
+the previous tables can vary from year to year. Given this fact, we can exclude one country that
+is near unity (δ=1), because Lithuania, which scored a δ of 90.71% for 2007, can go above
+100% the next year, due to either a drop in biocapacity (from natural or artificial causes), an
+increase in the effective ecological footprint (due to increased human activity, for example), or
+a concurrence of both these effects. By eliminating Lithuania, as an inconclusive case, we are
+left with 23 countries.
+Although we have only eliminated one country, the strongest message is conveyed by the
+countries with δ values situated furthest from 1. These outliers tell us the most about the impact
+we should first clarify what δ=1 means. There is a growing body of literature (although not
+from mainstream economics, and much of it coming from other fields, such as biology), which
+suggests that ecosystems provide valuable (although weakly quantifiable) assets for humankind
+(inter alia, Costanza & Daly, 1992; Vitousek, 1994; Chapin III et al., 1997; Costanza et al.,
+1997; Myers, 1997; Daily et al., 2000; Balnavera et al., 2001; Heal, 2004;). These include
+such functions as: complex and diverse genetic repository (through biodiversity), maintenance
+of the hydrological cycle, maintenance of the carbon cycle, maintenance of the nitrogen cycle,
+control over the climate, etc.
+Focusing on just the biodiversity aspect, which has provided incommensurable assets in
+the past, and will undoubtedly provide more in the future, it is clear that any patch of land that
+has a δ value of 1 leaves little room for biodiversity to flourish. Much revenue is earned via
+tourism, due to biodiversity; many pharmaceuticals are derived from compounds found in wild
+flora or fauna. There is also a generally accepted theory in biology, which suggests that
+ecosystem resilience is highly dependent on the diversity of its flora and fauna (Tilman &
+Downing, 1994; Tilman et al., 1996; Tilman et al., 1997; Tilman et al., 2006). This places even
+more value on biodiversity, due to the strengthening role it plays in the environment*.
+These are all legitimate reasons not to discard the natural environment as a whole, when
+assessing the health of an economy. The implications of our reasoning are that a δ value equal
+to 1, while feasible strictly from the perspective of the human community, exhausts the source
+functions, the sink functions, or both, of the given environment, therefore leaving little for the
+local flora or fauna to thrive on. The inherent losses in biodiversity in such cases lead to a
+lowered resilience for the ecosystem, which in turn boomerangs back to more losses in
+biodiversity. Finally, due to the fact that biodiversity is tied in complex ways to the ecosystem,
+this leads to a drop in the biocapacity of the land, therefore reducing the sink functions, the
+source functions, or both (this effect can readily be seen in the impoverishment of the lands,
+due to the modern usage of large scale monocultures).
+The previous paragraphs add weight to an already alarming situation. Going back to the
+analysis, we conclude that 10 of the 24 countries for which data was available, have overshot
+the regenerative capacities of their appropriated land by a factor of at least 2; 7 of these
+
+*Determining,
+
+however, even a grosso modo value for the benefits accrued from ecosystems is a very difficult undertaking
+(e.g. Costanza & Folke, 1997; Costanza 2000b; Heal 2000). For an attempt at measuring these benefits see Costanza et al.
+(1997). For the uncertainty regarding such evaluations, see Arrow & Fisher (1974).
+Netherlands and Belgium have exceeded this limit by more than 4 times. In simple terms, in
+order for these last 5 countries to be ecologically sustainable, at least with regards to the human
+appropriation of the sink and source functions of the ecosystem, the lands they possess would
+have to be 4 times larger in surface size*. Of the 3 remaining countries (those with a positive
+ecological footprint - Lithuania was excluded from the analysis), only Finland is using less than
+half the regenerative capacity of the land it possesses.
+One might ask then, if so many countries are actually exceeding the carrying capacity of
+the land they appropriate, how can their communities still thrive? Many of the countries with
+a negative ecological footprint consist of highly developed economies, and would otherwise be
+seen as models for societal and economic development. How can some of these countries fail
+so hard at being ecologically friendly? The answer to this question is unclear, and the question
+in itself could be the subject of an entire thesis. It is beyond the scope of this article to come up
+with arguments supporting one side or the other. It is highly probable that the ecological
+footprint correlates positively with the energy consumption in a economy (although one might
+be right in pointing out that the energy intensity of a country is just as much a telling index as
+the primary energy consumption, since it reveals much about the efficiency in using the said
+energy), and also with the population density of that country†.
+Clearly, there are other factors at work here, besides the ones mentioned, and some of
+them might not even be of a physical and quantifiable nature. Psychological factors‡, culturally
+induced behaviors, the impact of religion, traditions, etc., all might have a role in explaining
+the ecological footprint of a given country, and many of these factors could be unique to the
+given country, which would imply that making generalizations on the subject is a hazardous
+enterprise. But if determining the causes clearly requires more research, in many fields of the
+human knowledge, not just economics, the mechanism that sustains this process is clear: many
+countries can afford to go beyond the regenerative limits of the lands they own, simply because
+they are importing biocapacity. Many developed countries can afford to undergo long periods
+characterised by a negative ecological footprint, because there are other countries which are in
+
+*As
+
+usual, the same assumption of an average productivity hectare is assumed.
+Notice that in Figure 1, all the countries with either high population density or high energy consumption have similarly high
+δ values. In the same figure, the dotted rectangle denotes the four countries with a positive gross ecological footprint value,
+while the dotted elipse encompases countries with similar x/y/z values. The remaining outliers are countries with a high δ
+value (>200).
+‡For some interesting research in the field of environmental psychology, see inter alia, Proshansky et al. (1983); Hidalgo &
+Hernandez (2001); Schultz (2002); Giuliani (2003); Mayer and Frantz (2004); Schultz et al. (2004).
+†
+impact. These countries rarely accrue benefits for this, although there are mechanisms which,
+in time, will probably alleviate the problem (one such mechanism might be the Clean
+Development Mechanism; for some promising results in this respect, see Castro et al., 2000).
+Some examples include: developed countries that have destroyed much of their natural
+biodiversity can still benefit from the genetic richness of flora and fauna found in less
+developed countries, and in fact this is happening all the time, as researchers (generally located
+in the highly developed countries) travel to less developed countries and, after years of
+research, return with their fruits of labor and introduce pharmaceuticals and other products in
+the global market. This would not be possible if less developed countries would have
+appropriated much of the ecosystem functions, but nor would it be possible if the research
+teams from the highly developed countries would be inexistent. Another example involves the
+carbon cycle. Forests play a crucial role in this cycle, because, through photosynthesis, carbon
+is fixated, and, in the process, oxygen is released (which is vital for humankind). The fact that
+some countries have a negative ecological footprint could be indicative of a deficiency in the
+carbon cycle (caused by deforestation). The carbon cycle is not however a local phenomenon,
+which means that developed countries can afford this loss, as long as other countries,
+knowingly or not, keep their forests pristine. This reasoning can be applied to most of the
+contributions that an ecosystem has to human society. In a sense, the developed countries that
+show a negative ecological footprint are owing their existence to borrowed carrying capacity,
+imported from the less developed countries, and most of the time the latter receive only
+moderate compensation for their services.
+CONCLUSIONS
+This article focused on the ecological problems that some EU members have, and the indicator
+used was their ecological footprint. We analysed 24 of the 28 members, because information
+on Cyprus, Malta, Luxembourg and Sweden could not be obtained. Given the particular
+geography and population density of Cyprus, we could hypothesise a negative ecological
+footprint, while Sweden would most likely have a positive ecological footprint, since it is one
+of the least populated countries in the world, and has sprawling forests. Malta most likely is on
+par with Cyprus, while for Luxembourg, we can only guess that it might follow the trend set
+
+
+20 of the 24 analysed countries have overshot the regenerative capacities of their land,
+for the year 2007. This means that, for that year, either the source functions of the
+ecosystem have been surpassed, the sink functions have been exceeded, or both;
+
+
+
+4 countries (Estonia, Finland, Latvia and Lithuania) returned a positive ecological
+footprint, although one (Lithuania) remains inconclusive, due to the contiguity of the
+values of ecological footprint of consumption (3.32) and biocapacity (3.66);
+
+
+
+of the countries with a negative ecological footprint, 10 of the 24 have overshot the
+regenerative capacities of the appropriated land by a factor of at least 2; 7 of these
+countries have surpassed the regenerative limit by a factor of 3; Spain, Greece, Italy,
+Netherlands and Belgium have exceeded this limit by more than 4 times;
+
+
+
+Finland is the country with the lowest gross ecological footprint value, since, for 2007,
+it had used the source and sink functions of the ecosystem up to less than a half of its
+regenerative capacity;
+
+
+
+all the countries with a negative gross ecological footprint value are ecologically
+unsustainable, and their continued existence is due to the preservation of ecosystems in
+mostly lesser developed countries. This situation is poorly addressed by the global
+market,
+
+as
+
+some
+
+ecosystem
+
+functions
+
+(like
+
+the
+
+role
+
+in
+
+the
+
+global
+
+hydrological/nitrogen/carbon cycle) have yet to bring about consistent financial
+benefits for these countries.
+ANNEX
+Table 4 – Country codes used and their corresponding country
+Austria
+
+AT
+
+Estonia
+
+EE
+
+Ireland
+
+IE
+
+Portugal
+
+PT
+
+Belgium
+
+BE
+
+Finland
+
+FI
+
+Italy
+
+IT
+
+Romania
+
+RO
+
+Bulgaria
+
+BG
+
+France
+
+FR
+
+Latvia
+
+LV
+
+Slovakia
+
+SK
+
+Croatia
+
+HR
+
+Germany
+
+DE
+
+Lithuania
+
+LT
+
+Slovenia
+
+SI
+
+Czech Rep.
+
+CZ
+
+Greece
+
+EL
+
+Netherlands
+
+NL
+
+Spain
+
+SP
+
+Denmark
+
+DK
+
+Hungary
+
+HU
+
+Poland
+
+PL
+
+United
+Kingdom
+
+UK
+Arrow, K., Fisher, A. (1974) Environmental preservation, uncertainty, and irreversibility, The
+quarterly
+
+journal
+
+of
+
+economics,
+
+vol.
+
+88,
+
+no.
+
+2,
+
+pp.
+
+312-319.
+
+DOI:
+
+http://dx.doi.org/10.2307/1883074
+Armsworth, P., Kendall, B., Davis, F. (2004) An introduction to biodiversity concepts for
+environmental economists, Resource and energy economics, vol. 26, no. 2, pp. 115-136.
+DOI: http://dx.doi.org/10.1016/j.reseneeco.2003.11.003
+Ayres, R. (2000) Commentary on the utility of the ecological footprint concept. Ecological
+Economics, vol. 32, no.3, pp. 347-349.
+Balnavera, P., Daily, G., Ehrlich, P., Ricketts, T., Bailey, S.A., Kark, S., Kremen, C., Pereira,
+H. (2001) Conserving biodiversity and ecosystem services, Science, vol. 291, no. 5511,
+p. 2047. DOI: http://dx.doi.org/10.1126/science.291.5511.2047
+Castro, R., Tattenbach, F., Gamez, L. & Olson, N. (2000) The Costa Rican experience with
+market instruments to mitigate climate change and conserve biodiversity, Environmental
+monitoring
+
+and
+
+assessment,
+
+vol.
+
+61,
+
+no.
+
+1,
+
+pp.
+
+75-92.
+
+DOI:
+
+http://dx.doi.org/10.1023/A:1006366118268
+Chapin III, S., Walker, B., Hobbs, R., Hooper, D., Lawton, J., Sala, O., Tilman, D. (1997) Biotic
+control over the functioning ecosystems, Science, vol. 277, no. 5325, pp. 500-504. DOI:
+http://dx.doi.org/10.1126/science.277.5325.500
+Cobb, C., Halstead, E., Rowe, J. (1995) The Genuine Progress Indicator – summary of data
+and methodology, Washington D.C.: Redefining progress.
+Costanza, R. (2000a) The dynamics of the ecological footprint concept, Ecological economics,
+vol. 32, p. 341-345.
+Costanza, R. (2000b) Social goals and the valuation of ecosystem services, Ecosystems, vol.
+3, no. 1, pp. 4-10. DOI: http://dx.doi.org/10.1007/s100210000002
+Constanza, R., Daly, H. (1992) Natural capital and sustainable development, Conservation
+Biology,
+
+vol.
+
+6,
+
+no.
+
+1,
+
+pp.
+
+37-46.
+
+DOI:
+
+http://dx.doi.org/10.1046/j.1523-
+
+1739.1992.610037.x
+Costanza, R., Folke, C. (1997) Valuing ecosystem services with efficiency, fairness, and
+sustainability as goals, in Daily G. (ed.) Nature's services. Societal dependence on
+natural ecosystems, pp. 49-71, Washington D.C.: Island Press.
+of the world's ecosystem services and natural capital, Nature, vol. 387, pp. 253-260.
+DOI: http://dx.doi.org/10.1038/387253a0
+Daily, G., Söderqvist, T., Aniyar, S., Arrow, K., Dasgupta, P., Ehrlich, P., Folke, C., Jannson,
+A., Jannson, B.O., Kautsky, N., Levin, S., Lubchenco, J., Mäler, K.G., Simpson, D.,
+Starrett, D., Tilman, D., Walker, B. (2000) The value of nature and the nature of value,
+Science,
+
+vol.
+
+289,
+
+no.
+
+5478,
+
+pp.
+
+395-396.
+
+DOI:
+
+http://dx.doi.org/10.1126/science.289.5478.395
+Daly, H. (1992) Steady-state economics, with new essays, Second Edition. London: Earthscan.
+Daly, H. (2005) Economics in a full world, Scientific American, vol. 293, no. 3, pp. 100-107.
+DOI: http://dx.doi.org/10.1038/scientificamerican0905-100
+Daly, H., Cobb, J. Jr. (1989) For the common good, Boston: Beacon Press.
+EIA (2013) U.S. Energy Information Administration statistics, available online at
+http://www.eia.gov/cfapps/ipdbproject/iedindex3.cfm?tid=44&pid=44&aid=2&cid=r3,
+&syid=2007&eyid=2008&unit=QBTU, site last accessed 07.11.2013
+Ekins, P. (2003) Identifying critical natural capital. Conclusions about critical natural capital,
+Ecological Economics, vol. 44, pp. 277-292. DOI: http://dx.doi.org/10.1016/S09218009(02)00278-1
+Eurostat
+
+(2013)
+
+Eurostat
+
+database
+
+query,
+
+available
+
+online
+
+at
+
+http://epp.eurostat.ec.europa.eu/tgm/table.do?tab=table&init=1&language=en&pcode=t
+ps00003&plugin=1, site last accessed 07.11.2013
+Giuliani, M. V. (2003) Theory of attachment and place attachment, in Bones, M., Lee, T.,
+Bonaiuto M. (eds.) Psychological theories for environmental issues, pp. 137-170,
+Aldershot: Ashgate Publishing.
+Heal, G. (2000) Valuing ecosystem services, Ecosystems, vol. 3, no. 1, pp. 24-30. DOI:
+http://dx.doi.org/10.1007/s100210000006
+Heal, G. (2004) Economics of biodiversity. An introduction, Resource and energy economics,
+vol. 26, no. 2, pp. 105-114. DOI: http://dx.doi.org/10.1016/j.reseneeco.2003.11.002
+Hidalgo, C., Hernandez, B. (2001) Place attachment: conceptual and empirical questions,
+Journal of Environmental Psychology, vol. 21, no. 3, pp. 273-281. DOI:
+http://dx.doi.org/10.1006/jevp.2001.0221
+Myers, N. (1997) Biodiversity's genetic library, in Daily G. (ed.) Nature's services: Societal
+dependence on natural ecosystems, pp. 255-275, Washington D.C.: Island Press.
+Proshansky, H., Fabian, A., Kaminoff, R. (1983) Place-identity: physical world socialization
+of the self, Journal of Environmental Psychology, vol. 3, no. 1, pp. 57-83. DOI:
+http://dx.doi.org/10.1016/S0272-4944(83)80021-8
+Rees, W.E. (2000) Eco-footprint analysis: merits and brickbats, Ecological Economics, vol.
+32, pp. 371-374.
+Rees, W.E., Wackernagel, M. (1994) Ecological footprints and appropriated carrying
+capacity: Measuring the natural capital requirements of the human economy, in Jansson,
+A.M., Hammer, M., Folke, C. and Costanza R. (eds.) Investing in natural capital: The
+ecological economics to sustainability, pp. 362-392, Washington D.C.: Island Press.
+Schultz, W. (2002) Inclusion with nature: The psychology of human-nature relations, in
+Schmuck P., Schultz W.P. (eds.) Psychology of sustainable development, pp. 61-79,
+Dordrecht: Kluwer Academy Publishers.
+Schultz, W., Shriver, C., Tabanico, J. & Khazian, A. (2004) Implicit connections with nature,
+Journal
+
+of Environmental Psychology, vol.
+
+24, no. 1, pp. 31-42. DOI:
+
+http://dx.doi.org/10.1016/S0272-4944(03)00022-7
+Tilman, D., Downing, J. (1994) Biodiversity and stability in grasslands, Nature, vol. 367, pp.
+363-365. DOI: http://dx.doi.org/10.1038/367363a0
+Tilman, D., Wedin, D., Knops, J. (1996) Productivity and sustainability influenced by
+biodiversity in grassland ecosystems, Nature, vol. 379, pp. 718-720. DOI:
+http://dx.doi.org/10.1038/379718a0
+Tilman, D., Knops, J., Wedin, D., Reich, P., Ritchie, M., Siemann, E. (1997) The influence of
+functional diversity and composition on ecosystem processes, Science, vol. 277, no. 5330,
+pp. 1300-1302. DOI: http://dx.doi.org/10.1126/science.277.5330.1300
+Tilman, D., Reich, P., Knops, J. (2006) Biodiversity and ecosystem stability in a decade-long
+grassland
+
+experiment,
+
+Nature,
+
+vol.
+
+441,
+
+pp.
+
+629-632.
+
+DOI:
+
+http://dx.doi.org/10.1038/nature04742
+UNDP (1996) United Nations Development Program Human Development Report, Oxford:
+Oxford University Press.

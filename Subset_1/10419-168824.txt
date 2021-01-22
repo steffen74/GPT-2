@@ -1,0 +1,543 @@
+Organizations’ responsibility to consumers
+
+AE
+
+THE SUSTAINABILITY OF FISH CONSUMPTION IN ROMANIA:
+CUSTOMER BEHAVIOUR PRIOR
+AND AFTER THE COUNTRY’S ADHERENCE TO THE EU
+1) 2)
+
+Vlad Roşca1* and Raluca Ignat2
+The Bucharest University of Economic Studies, Romania
+
+Abstract
+Using two sets of bivariate analyses in SPSS, we have tried to find out how sustainable the
+fish consumption in Romania is. We have used numerical variables, computed based on
+primary data obtained from Eurostat and the National Institute of Statistics. Two different
+timespans have been considered: the one prior to the country’s adherence to the European
+Union and the one after. Using the two timespans let us compare the pre- and postadherence situations, in order to see if the subsidies offered by the EU have had any effect
+on the sustainability of the environment.
+The variables used have been of economic nature (index of real earnings), respectively
+related to the sustainable consumption of fish, all computed for one calendar year (total fish
+consumption, captures from inland waters, and aquaculture production). The results
+indicate significant correlations between total consumption and captures (r = .947 for the
+first and r = .990 for the second timespan), and between real earnings and consumption,
+respectively captures (only for the first timespan), but not significant correlations for the
+links between aquaculture and the rest of the variables. This shows a high pressure placed
+on the natural environment, which could eventually be reduced by improving aquaculture
+production.
+Keywords: sustainable consumption, customers, sustainability, aquaculture, captures from
+inland waters, index of real earnings
+JEL Classification: E21, F15, F40, Q25, Q52, Q53, Q57
+Introduction
+Changes in marine ecosystems call for a more sustainable future, requiring a correlation of
+the seafood consumption with the fishing activity. Science and practice have tried for some
+decades now to make consumers aware of environmental norms and efficient behavior
+(Dinu, 2012, Spaargaren, 2011). In this article we wanted to investigate how sustainable
+fish consumption in Romania was prior and after the country’s adherence to the European
+Union. To prepare the results and their interpretation, we started with literature review, in
+*
+
+Contact author, Vlad Roşca – vlad_rsc@yahoo.com
+
+which we have tried to present some important aspects related to sustainable consumption,
+so that we could set the conceptual framework of the research. A subchapter of the review
+was dedicated to the relationship between sustainable consumption and economic systems,
+and it was meant to show that the lack of market equilibrium and the customers’ lack of
+awareness of a decreasing marginal utility can have negative effects both on the economic
+and ecologic stability. The literature review ends with a presentation of the sustainable
+consumption in aquatic environments and with an introduction of several key concepts
+relating to aquaculture, an important component of sustainability in fishing.
+The second part of the paper is dedicated to the research methodology, in which we have
+presented information about data sources and the way in which these have been processed
+in order to fit the purpose of research, about the software used to save and analyze data, and
+about the types of statistical computations carried out. The methodology also presents, on a
+wider basis, the research aims, the research objectives, and the research questions. The
+study ends with a presentation and an interpretation of the results, as well as with a series of
+conclusions meant to test the hypotheses launched in the research.
+1. Literature Review
+Evans (2011) argues that the issue of sustainable consumption has become a hot topic since
+the 1992 Earth Summit, which focused on the impact consumption patterns of
+industrialized societies have had on the environment. Led by several factors such as
+urbanization, growth in income and spending power, and growth of population, increased
+per capita consumption placed pressure on ecosystems, threatening their structures
+(Rosegrant et al., 2001; Safarzynska, 2013).
+Scientific research has been a keen follower of the topic. An important segment of the
+academic literature has chosen to define sustainable consumption while presenting what
+non-sustained consumption meant (Bansal et al., 2007). Yang (2011) outlines non-sustained
+consumption as a type of consumption that permanently bares the risk of random shocks for
+the environment. Diamond (1982) went so far as to state that not only the environment, but
+the entire economic system was threatened by overabundance in consuming goods.
+The rich empirical evidence on non-sustainability can be explained through the
+sustainability/non-sustainability dyad. According to it, while it is widely acknowledged that
+durable consumption has an important role, it seems that non-sustainability is the normal
+order of things: in many cases, with the price of satisfying consumption, little attention is
+granted to ecosystems. At the call of several organizations that have identified nonsustainability as a cause of environmental decadence (UNDP, 1998), sustainability
+concerns were transformed into political ideologies. After decades in which the public
+discourse was ruled by the myths of growth, politics and businesses have become aware of
+the importance and necessity of sustenance (Nielsen, 2011). The limits of economic growth
+have been demonstrated especially after the recent financial crisis, setting the grounds for
+sustainability to win share of interest. Politics have materialized sustainability concerns in
+programs aiming at improving production and resource collecting techniques so as to raise
+economic efficiency and also make the environment cleaner and wealthier. Nonetheless, it
+has to be noticed that even in turmoil times, economic growth continues to be regarded as
+the main factor of progress. Therefore, political initiatives do not always result in
+maintainable consumption and production designs. Consumers and producers continue to
+conduct their actions so as to maximize economic benefits, their decisions often having
+a delicate issue, governments often hang back when it comes to assuming responsibility
+(Lafferty, Meadowcroft, 2000). The scapegoats often blamed for unsustenance are
+consumers themselves, althoug sustainability means the optimal combination between
+consumption and production, the latter one missing from the equation. Governmental
+bodies and researchers alike claim that people consume too much and, therefore, place
+pressure on ecossystems (Arrow et al., 2004; OECD, 2001).
+Impelling people to change behavior can be achieved by clearly presenting them what
+sustainable consumption is about. In this direction, another school of thought, focusing on
+the positive, sustainable part of the dyad, claims its rights. Observational proof on
+sustainable consumption defines the concept as a type of consumption that can satisfy the
+needs of current and coming generations of consumers without altering ecosystems (Phipps
+et al., 2013). In fact, one of the main characteristics of sustainable consumption is its drive
+towards protecting the efectiveness of natural environments (Bandura, 1986).
+Following the increasing advent of social responsibility on the agendas of public and
+private organizations, the International Standardization Organization has created ISO
+26000, a social responsibility dedicated guidance (Castka, Balzarova, 2008; Schwartz,
+Tilling, 2009). This global initiative tries to integrate more responsibility in the production
+strategies and operations, as well as in consumption (Castka, Balzarova, 2007). ISO 26000
+encourages producers to supply their customers with quality-rich products, both from a
+technological point of view, as well as in what concerns the environment. Nevertheless,
+Hemphill (2013) considers that the implementation of ISO 26000 is hindered by its own too
+large horizons: without sector or industry dedicated measures, each and everey producer
+can understand the standard in different ways. To bear in mind for the fishing industry is
+that ISO 26000 makes clear references to the protection of animals, the elimination of the
+negative impact of captures upon the environment, the correlation of supply with demand
+and the provision of full and true information for consumers.
+1.1 Importance for economic system
+While it is closely related to the environment, sustainabile consumption would not exist
+without also being interrelated to economics. Therefore, it has become of a particular
+interest for many scientists to investigate the associations between sustainability and
+economy. The main claim of this course of research is that economic growth has to be
+scaled to a proper size where environmental goals are not affected. Researchers argue that
+consumers must become more aware of the saturation level (Cohen, 2001).
+Acknowledgeing that consumption is limited by the law of descending utilities can have a
+major impact upon the wider economy, which makes sustainable consumption an issue not
+only of consumers, but of producers as well. As an important part of consumption is met by
+economic goods, the production of the latter ones also becomes part of the sustainable
+consumption debate. Hence, the quest in sustainable consumption is to either consume or
+produce in such a way as not to harm the surroundings. Accordingly, sustainability can be
+presented as the degree in which a system can combine ecological goals with economic
+growth (Prelipcean, Boscoianu, 2012). Moreover, Manoochehri (2002) identifies market
+mechanisms as the main building blocks of sustainability.
+Because sustainable consumption is directly influenced by consumers, supply will have to
+adapt, with request and bid having to meet on the market. However, in the lack of market
+equilibrium, consumption and production alike bare the risks of becoming threats to
+
+sustainability (Dragulanescu, 2007). With greedy producers and rapacious consumers,
+politics are often left the only chance to intervene and regulate markets. The “Our Common
+Future” report in 1987 showed that sustainability is a matter of needs and limitations, which
+time and again are pulled in through political programs, as neither customers, nor producers
+are ready to restrict themselves. On the one hand side, people ought to reduce their
+consumption to a level at which their needs are satisfied. Then, and not less important,
+producers should adapt their offerings to the level of the demand. However, failure in doing
+so leads to overconsumption and overproducing, which once appeared will continue to
+trigger one another.
+1.2 Aquatic environments
+In what concerns Aquatic environments, scientific literature recognizes the importance of
+complex marine and riverine ecosystems for the sustainable development of the fishing
+industry (Akpalu, Bitew, 2011; Douvere, 2008). Proper water use management is seen as a
+critical step in helping ecosystems develop, with recent enterprises concentrating on the
+need to conserve delicate areas (Douvere, 2008). Sustainability concerns directed towards
+watery ecosystems involve both overconsumption and overexploitation. Overconsumption
+of fish impacts the marine environments as natural fish stocks risk being depleted in the
+hunt to ensure the supply needed to match the inflated market demand (Ellis, 2003). The
+increased commercialization of fish products has led to an industrialization of fishing with
+severe effects on the natural surroundings. Human exploitation of natural waters has been
+demonstrated to alter the structures of ecosystems. Myers and Worm (2003), for example,
+identify species of fish that have been reduced to less than ten per cent of the quantity
+which used to exist in pre-industrialized ages. Overfishing is regarded as one of the highest
+threats to the functioning of marine ecosystems, next to climate-driven effects (Dudgeon et
+al., 2006; Grădinaru, 2002). Eliminating fish from rivers and seas can have negative
+impacts on the ecosystems (Sinclair, Valdimarsson, 2003). Because it does not let fish
+stocks reap optimally, overfishing is considered a not advisable situation (Silberschneider et
+al., 2009). While sustainability is widely seen as the most appropiate solution for stopping
+the environmental degradation (Pasqual, Souto, 2003), innovations in production systems
+can’t guarantee sustainability if unmatched by modifications in consumption behavior.
+Sustainability, hence, becomes a question of correlating supply and demand for fish food.
+Fish captures need to be matched by sustainable consumption patterns. One of the main
+concerns in the current global economy is the overexploitation of resources, which shows
+that production and consumption volumes are yet unmatched properly (Lehtoranta et al.,
+2011). Based on own calculations from FAO data, we identify that Romania has wasted
+9580 tonnes of fish food between 2002 and 2008. Table 1 shows the amount of waste per
+years, computed by substracting the annual total consumption of fish-food products (in
+tonnes) from the amount of fish in the domestic supply that was used purely for food
+purposes. Such wastes, it has been demonstrated, alter the structures of ecosystems: to
+many a fish captured in natural waters leads to a reduction of the living matter and of
+potential yelds (Howes, 1998; Oguz et al., 2012; Planque et al., 2010). Stocks are reduced
+to a level wherefrom sustainability is threatened (Ludicello et al., 1999). The numbers
+presented in Table 1 and the graphic representation in Figure 1 indicate that fish
+consumption in Romania was not sustainable yet until 2008. This unsustainability placed
+pressure on Romania’s trade balance. While fish captured in inland waters and fish grown
+in aquaculture were not enough to satisfy the customers’ demands, Romania was forced to
+import fish from overseas. Figures provided by FAO between 2002 and 2009 show that
+
+during that timespan. However, not only the trade balance was in danger.
+Table nr. 1: Fish food waste in Romania between 2002 and 2008 (in tonnes)
+Year
+Waste (in tonnes)
+2002
+1074
+2003
+1674
+2004
+1117
+2005
+4246
+2006
+159
+2007
+410
+2008
+900
+Total
+9580
+Source: Own computations based on raw data from FAO.
+Motivated by overconsumption, fisheries tended to overexploit natural waters. Prior to
+Romania’s EU integration many aquacultures have failed in doing business profitability,
+which would have translated through taking the burden of off the natural environment.
+Figures show that aquaculture production has decreased in the years leading towards 2007,
+while the captures from inland waters tended to grow. As overfishing was motivated by
+unsustainable consumption, the European Union was forced to intervene in order to protect
+stocks in natural waters. The EU opened the non refundable grant Axis 2, Measure 2.1. –
+Productive Investments in Aquaculture in order to stimulate aquaculture and promote better
+fishing practices, so as to reduce overfishing and to guarantee more sustainability.
+
+Figure nr. 1: Romania’s waste of fish food between 2002 and 2008 (in tonnes)
+Source: Own computations and representation based on raw statistics from FAO 2013.
+
+Aquaculture can be simply presented as farming fish and other submarine organisms such
+as crustaceans, molluscs, or aquatic plants (De Silva, Anderson, 1995, p. 5; Edwards,
+2000). According to De Silva and Anderson (1995), aquaculture can take various forms:
+ Artificially growing fish and releasing them in natural waters from where they will be
+captured;
+ Capturing fish from natural waters and growing them artificially up to the moment
+when they are going to be sold to the market;
+ Raising and feeding fish from its youth.
+Romania, as well as other developing countries, still faces problems in improving its
+aquaculture industry. Amongst the most important difficulties are the slowness in adopting
+modern technology and the limited national research and education capacities (Edwards,
+1998; Istudor et al., 2010). The economic difficulties faced by Romania delayed the
+country’s potential to improve its aquaculture base. First, macroeconomic data show that
+Romania lags compared to most of its European Union coutnerparts. For example, GDP per
+capita in 2010’s Romania was only 22 per cent of the EU-27 average (Eurostat, Key figures
+on Europe, 2011, p. 19), which indicates that both consumption and investment power are
+reduced. Second, national agricultural trends are on a downward slope: the added value
+generated by the local agriculture between 2008 and 2009 decreased twice as fast the EU’s
+(Ignat, 2011). In such a situation, the aquaculture can’t satisfy the local demand for fish,
+even if it did complement with the local fish captures. As can be seen in Figure 2, the
+annual total consumption of fish lies far above what aquaculture can produce.
+
+Figure nr. 2: Comparison between the total consumption of fish and the production of
+aquaculture (in tonnes), 2002-2011
+Source: FAO Stat, 2013. Own representation
+2. Methodology
+The purpose of our study was to investigate how sustainable fish consumption patterns
+were in Romania prior to and after the country’s integration in the European Union. We
+have therefore chosen two courses of action. First, we wanted to find out how economic
+changes influenced sustainable consumption. The rationale behind this research aim was
+consumption patterns. We have set out to answer this question as Romania’s integration to
+the European Union occurred at a moment placed right after the country’s economic boom
+and prior to the global financial crisis. We found it interesting to see whether the shift from
+one economic end to another has had any impact on how people consumed fish, especially
+as Rosegrant et al. (2001) note that times of economic change usually have a major
+influence on consumption patterns and their sustainability. We were also interested in
+following whether the free acces to the pan-continental market impacted sustainable
+consumption? With the local market opening for foreign goods, we set to find out if this has
+had any influence on sustainability and on the wellbeeing of ecosystems.
+Second, we wanted to investigate how the stimulation of aquaculture has influenced both
+fish consumption and sustainability. Therefore, our research questions were the following:
+RQ1: How did economic changes influence sustainable consumption?
+RQ2: How did aquaculture influence sustainable consumption?
+For the purpose of our paper, we have defined sustainable consumption as a consumption
+pattern stable over time, backed by a decrease of captures from natural fishing areas and an
+increase of the aquaculture productivity.
+The study took the form of a correlational research, concerned with establishing the
+interdependences between several macroeconomic and sustainable consumption variables.
+Raw data was gathered from Eurostat and from the Romanian National Institute of
+Statistics, using materials provided on the websites of the organizations, as well as the
+Romanian Statistical Yearbook 2011. Two types of numeric variables were gathered:
+macroeconomic and sustainability variables. The macroeconomic variable, “Index of real
+earnings”, was collected from the National Institute of Statistics. The National Institute of
+Statistics defines the Index as “a ratio between values of the same variables recorded in
+various time or territorial units” (Romanian Statistical Yearbook, 2011, p. IX). Hence, the
+Index of real earnings lets know how real earnings of people have changed over time. For
+our study, the index was used as a measure of the consumers’ economic wellbeeing, the
+latter one being further used in order to test the impacts of economic changes on
+sustainability. In what concerns the sustainability variables, three fish consumption-related
+variables were used, all of them collected from Eurostat: Total fish consumption (in tonnes,
+per year), Captures from inland waters (in tonnes, per year), and Aquaculture (production in
+tonnes, per year).
+Collected data was stored and computed in Microsoft Excel. In several cases, computations
+have been done in order to find out the approximate value/year. For example, the fish
+consumption figures provided by Eurostat were given as per capita consumption in
+kilograms a year. So as to find the total yearly fish consumption in tonnes, we identified the
+total population of Romania for that particular year (provided by the National Institute of
+Statistics) and multiplied it with the per capita consumption, and then divided by 1000.
+Secondly, as in some cases figures were lacking for Captures in inland waters, and
+Aquaculture, we had to make computations around the data reported by Eurostat for Total
+fish production in order to find the former two variables. We therefore used the following
+two formulae:
+Aquaculture = Total Fish Production – Captures in inland waters
+Captures in inland waters = Total Fish Production - Aquaculture
+Two timespans have been chosen for analysis. The first one, 2004-2006 (n=3),
+corresponded to Romania’s pre-integration period, while the second one, 2007-2010 (n=4),
+corresponded to the period after Romania has been accepted in the European Union.
+The IBM SPSS Statistics v19 software was used to carry out the correlations. Bivariate
+analyses have been conducted in SPSS in order to identify the influences that
+macroeconomic developments and aquaculture have had on sustainable consumption before
+and after Romania’s entering into the EU. The aims of the bivariate correlations were to
+find out the interdependencies between variables. Overall, six correlations have been made.
+First, we tried to find out how economic growth influenced the three sustainability
+variables, with a particular focus on total consumption and captures from inland waters.
+Then, we were also interested to see how aquaculture influenced total fish consumption and
+the captures from inland waters. Last but not least, we have investigated the relationship
+between captures from inland waters and total fish consumption.
+The six correlations were carried out for the 2004-2006 period, and then repeated for the
+2007-2010 period. This resulted in two separate sets of data, which were thereafter
+compared in order to see wether differences in sustainable consumption can be identified
+for the period before Romania’s EU integration and the one after. 2004 was used as the
+reference year for the index of real earnings: changes in real earnings for 2007, 2008, 2009
+and 2010 were reported to the basics of 2004 (100).
+We used Pearson’s r to find out whether there was any correlation between the four
+variables used in the study. If this first condition was true, the r then offered further
+information about the direction and the significance of the relationship.
+3. Results
+Note that we have carried out two identical correlational computations, but for two different
+timpespans: 2004-2006 (n=3) and 2007-2010 (n=4). The correlations were run using the
+bivariate analysis function in SPSS. A two-tailed test of significance was used, with the
+confidence interval set at a 95 per cent confidence level (sig 2-tailed level of significance at
+.05). For analyzing and showing the data in this paper, we have used the following
+abbreviations: Ind = Index of real earnings; Tfc = Total fish consumption; Ciw = Captures
+from inland waters; Aqua = Aquaculture production.
+The values of the Pearson’s r’s for the 2004-2006 timespan are displayed in Table 2.
+Table nr. 2: Pearson’s r’s values of the bivariate correlations between Ind, Tfc, Ciw,
+and Aqua for the 2004-2006 timespan
+Ind
+
+Tfc (tonnes)
+
+Ciw (tonnes)
+
+Aqua
+
+1.000
+
+Ind
+
+.941
+
+.346
+
+.947
+
+.364
+
+Tfc (tonnes)
+
+1.000
+
+Ciw (tonnes)
+
+.941
+
+.947
+
+Aqua
+
+.346
+
+.364
+
+.644
+.644
+
+The critical value for the Pearson r in this case where n = 3 lies at .878. The bolded
+numbers in Table 2 are the ones equal or higher than .878, and therefore, significant. There
+are three significant correlations, of which one, between the Index of real earnings and the
+perfectly positive. The other two significant correlations occur amongst the Index of real
+earnings and the Captures from inland waters (r = .941) and amonst the Total fish
+consumption and the Captures from inland waters (r = . 947). It is interesting to see that
+Aquaculture is the one and only variable that couldn’t produce significant correlations, all
+of its associations being beneath the critical r border at .878.
+The results of the second series of correlations, for the 2007-2010 timespan, are displayed
+in Table 3.
+Table 3: Pearson’s r’s results of the bivariate correlations between Ind, Tfc, Ciw, and
+Aqua for the 2007-2010 timespan
+ 
+Ind 
+Tfc (tonnes) 
+Ciw (tonnes) 
+Aqua 
+Ind 
+
+ 
+
+‐528 
+
+‐413 
+
+.565 
+
+Tfc (tonnes) 
+
+‐528 
+
+ 
+
+.990* 
+
+.270 
+
+Ciw (tonnes) 
+
+‐413 
+
+.990* 
+
+ 
+
+.343 
+
+Aqua 
+
+.565 
+.270 
+.343 
+Note: (*) Confidence level at 0.01
+
+ 
+
+The critical value for the Pearson r for the second set of correlations, where n = 4, lies at
+.811. Therefore, out of the three valid correlations in the previous analysis, only one,
+between the Total fish consumption and the Captures from inland waters kept its
+significance, and even this one at a 0.01 level of at least .917. None of the other five
+correlations is significant, which includes neither of the other two that were significant in
+the first set, which both included the Index of real earnings. The Aquaculture variable still
+couldn’t establish significant correlations.
+4. Discussions
+The results for the 2004-2006 interval indicate that during those years fish consumption
+was strongly influenced by the growth in earnings: Romanian consumers demanded more
+fish products as a consequence of their improved economic condition. While the market for
+fish food developed between 2004 and 2006, it has to be said that the same happened with
+the desires of customers, who demanded more fish from natural waters, as a consequence of
+the perception that this latter type of fish was of a greater quality than aquaculture fish.
+Evidence shows that the increase in real earnings is strongly correlated with the captures
+from inland waters (r = .941). This lets us conclude that, as Romanian customers had more
+disposable incomes, they demanded more fish from natural waters. As a consequence of
+this type of demand, captures from inland waters increased between 2004 and 2006, as
+Figure 3 displays.
+
+Figure nr. 3: Captures from inland waters between 2004 and 2006 (in tonnes)
+Source: Own display based on Eurostat data
+Meanwhile, results show that the correlation of the aquaculture production with all the
+other indicators is insignificant, which leads us to the following observations:
+ Aquaculture production before 2007 was not strongly stimulated by internal market
+demand, but rather by other factors;
+ Improved earnings of customers did not have much effect on the aquaculture
+production between 2004 and 2006, with the demand for this sort of fish even falling during
+that period;
+ As the correlation between aquaculture and total fish consumption is not significant
+(.364), it can be said that Romanian consumers satisfied their needs for fish food from other
+sources, like natural waters productions or imports, aquaculture being mostly used for nonalimentary sources.
+Hence, while the national economy improved and their earnings increased, Romanian
+consumers opted for more fish from natural waters, which led to a steady decline in demand
+for aquaculture products between 2003 and 2005, as can be seen in Figure 4. It is true the
+same downward slope is visible for the captures in inland waters. However, sustained by a
+higher demand due to increased earnings, the demand for fish from natural waters
+recovered faster. The circles in Figure 4 indicate that, while production of aquaculture fish
+was still falling, the capture of fish from inland waters recovered momentum. The SPSS
+analysis indicates that the faster growth of the captures from inland waters (50% growth
+year over, from 2005 to 2006) compared to the aquaculture production (25% growth year
+over, from 2005 to 2006) was motivated through the higher demand for fishes from natural
+waters, made possible by the increased earnings of customers and by the already mentioned
+perception of higher quality of natural water fish.
+It can be said that the economic developments in Romania between 2003 and 2007 led to
+the intensification of unsustenance in fish consumption, with the customers demanding
+more fish from natural waters. Such a demand has put pressure on the local marine and
+riverine ecosystems. Therefore, the EU continued to subsidize aquaculture after 2007 as
+well, after in the years before it has contributed with SAPARD funds. The aim was and still
+is to improve aquaculture so as to possibly replace the fish from natural waters in the
+show that, after 2007, there isn’t any more a significant correlation between the
+economical, expressed by the index of real earnings, and the fish consumption, respectively
+the captures from inland waters.
+
+Figure nr. 4: Comparison between aquaculture production
+and captures from inland waters, 2004-2006 (tonnes)
+Source: Own display based on Eurostat data
+Although highly increased as compared to 2004, the fish consumption was motivated by
+other factors than economical ones. At the same time, the captures from inland waters have
+been reduced, after the country’s adherence to the EU, to nearly half the level of 2004. So,
+if for 2004-2006, a perfect positive correlation existed between the index of real earnings
+and the fish consumption (the consumption was directly proportional with the evolution of
+wage earnings, moving the same way as the latter ones moved), after 2007, the relationship
+between the two variables is not significant anymore. Such a situation can signify that the
+Romanian consumers have got acquantied with the consumption of fish, as well as the
+transformation of fish in a consumption good accesible to the wider public. As can be seen
+in Figure 5, the annual consumption of fish per head has followed the direction of the index
+of real earnings, which confirms one of the hypotheses of our research. To note would be
+the different dynamics: slowly growths of the real earnings motivated significant growths
+of the fish consumption. The dynamics show that 2002-2007 has been a period in which the
+Romanian consumers have rediscovered fish in their nutrition after a post-revolutionary
+decline influenced by the economic difficulties of the first post-decembrist decade. Once
+with the economic recovery and the expansion years in the first half od the new millenium,
+which led to an increase of the household earnings, the customers consumed more fish.
+Hence, in 2010, Romanians consumed, on average, 58 per cent more fish as in 2002. Only
+in 2006, sixteen years after the Revolution, consumers have managed to reestablish the fish
+consumption at the level it was in 1990: 5,6 kg/head in 2006 and 5,5 kg/head in 1990.
+However, according to FAO data, the level of 1989 (6,8 kg/head) is still far away even from
+the level of 2012 (5,3 kg/head). The farther still is the level of 1982-1989, when Romanians
+consumed, on average, over 9 kg of fish per year (FAOstat, 2013).
+The strong growth of fish consumption between 2002 and 2007 has allowed consumption
+to stabilize around five kilos and a half per head a year, even after the breakout of the
+global financial crisis. Eventhough after Romania’s adherence to the EU, the fish
+consumption has not been influenced any more by wage earnings, once consumer
+preferences have been formed, Romanians have not given off fish any more. This positive
+trend has also been influenced by the fact that, according to the National Institute of
+Statistics, although earnings have decreased after 2008, their level was still higher as the
+one of the reference year 2004.
+
+Figure nr. 5: The evolutions of fish consumption and of the index of real earnings
+Source: Own display based on Eurostat and INS data
+This stabilization, though advantageous for the industry, can prove dangerous for the
+quality of natural waters, as aquaculture production couldn’t be stimulated. Research results
+show us that there isn’t any significant correlation between aquaculture production and the
+consumption of fish, neither for the 2004-2006 timespan, nor for 2007-2010. Some
+observations can be made. Once, that Romanian aquaculture is rather used for purposes
+other than growig fish for human nutrition. As De Silva and Anderson (1995) showed,
+aquaculture does not only mean the artificial nurturnace of fish for accomplishing
+alimentary goals, but also its nurturance in order to be later on freed in natural waters or to
+be used as a resource in other industries, such as pharmaceutics. Then, while aquaculture
+can’t be correlated with consumption in order to fulfill some part of the latter one, the task
+of satisfying market demands rests on the shoulders of imports and on the ones of the
+captures from inland waters. Hence, eventhough they were reduced to nearly half the level
+of 2007, the captures from inland waters, continue to be strongly related to consumption,
+significant correlations existing amongst the two both for the 2004-2006 timespan (r =
+.947), as well as for 2007-2010 (r = .990).
+Conclusions
+Here and there, Romanian fish consumption continues to be unsustainable. Eventhough
+some positive signals exist, there are still problems. Aquacultures have failed to accomplish
+their tasks properly, both prior and after Romania’s adherence to the European Union. The
+aftermaths of accessing nearly 52 million Euros from the Prioritary Axis 2, Measure 2.1.,
+can’t be seen yet. As long as the embracement of modern production technologies and
+schooling of aquafarmers will continue to be delayed, the aquaculture won’t be able to
+contribute to the improvement of the sustainable consumption, with the bid for satisfying
+aquaculture infrastructure existed, could be protected.
+Fish consumption sustainability will only be obtained when the correlation between the
+captures from inland waters and consumption will become unsignificant. This would mean
+that, however demand would change, the captures from inland waters won’t fluctuate,
+remaining at a constant level, on the long term. A first step that could be done for
+encouraging sustainable consumption would require the organizations to assume the
+responsibility of presenting to customers that aquaculture could be one of the solutions of
+protecting the environment. Producers, vendors and distributors can cooperate to present
+themselves in front of the customers with honest retailing practices, either for fish from
+natural waters or from aquaculture. Without, first of all, the organizations assuming the role
+of sustaining a fish consumption based on solutions with low environmental risks, the
+behavior of consumers would hardly let itself changed.
+

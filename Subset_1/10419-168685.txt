@@ -1,0 +1,569 @@
+Economic Policy in the Wake of the Crisis
+
+AE
+
+THE SUBPRIME CRISIS AND THE EUROPEAN BANKING SECTOR: THE
+RENEWAL OF UNIVERSAL BANKS?
+Elisabeth Paulet∗
+ESCEM - Ecole Supérieure de Commerce et de Management,
+Tours-Poitiers, France
+
+Abstract
+Since the 90's, European banks have sustained numerous structural disturbances. Their
+degree of integration combined with the universality of our institutions in the banking
+sector may then be an important factor to take into account in appreciating its resistance to
+systemic shocks. In this first part, the correlation between size and systemic risk will be
+discussed. The current financial deregulation has permitted the entry onto the market of
+institutions, which are traditionally non-banking institutions (insurance companies,
+institutional investors, pension funds). It would be interesting to measure the influence of
+these newcomers on the evolution of banking integration. This is the object of part two of
+this analysis. The last stage will consist in an attempt to evaluate the systemic risk in the
+framework of the new financial environment. The subprime crisis and the unequal reaction
+of banking institutions will lead us to two questions: “Will this crisis lead to a renewal of
+the predominance for universal banks?” and “Will the new process of integration in
+banking sector guarantee stability at the international level?”
+Keywords: crisis, universal banks, size, efficiency, globalization
+JEL Classification: E51, G21, G24
+
+Introduction
+Since the 90's, banks in Europe have sustained numerous structural disturbances. The trend
+toward institutions which are primarily universal in their function is an illustration of these
+transformations. These changes have led to instability factors known as systemic risk. Why
+does systemic risk emerge? How can this concept be defined? Michel Aglietta (1991)
+delimits this new phenomenon by “the possibility for an economy that situations arise in
+which the response on the part of agents to the risks they perceive, far from leading to a
+better distribution of individual risks (through an insurance process for example) lead to a
+∗
+
+Author’s contact: e-mail: epaulet@escem.fr
+
+rise in overall insecurity”.
+The degree of integration in the banking sector may then be an important factor to take into
+account in appreciating its resistance to systemic shocks. Indeed, it may constitute a factor
+of vulnerability, inasmuch as the possible failure of a very large institution would have
+considerable repercussions on the entire financial system. Combined with the universality
+of our institutions, this parameter can only grow in its scope. In this first part, the
+correlation between size and systemic risk will be discussed. The second objective of the
+analysis will be to measure the capability for universal banks to face systemic shocks. By
+comparing their structure and activities, the conclusion could lead to a better diversification
+in their risk management. The last stage will consist in an attempt to evaluate the systemic
+risk in the framework of the new financial environment. The subprime crisis and the
+unequal reaction of banking institutions will lead us to two questions:
+•
+
+Will this crisis lead to a renewal of the predominance for universal banks?
+
+•
+
+Will the new process of integration in banking sector guarantee stability at the
+international level?
+
+1. The unresolved issue of the correlation between size and the increase of systemic
+risk: the size-efficiency ratio
+
+1.1 Methodological difficulties
+The examination of the banking strategies in Europe and in the United States reveals the
+growth in the size of the network, and portrays integration movements as the two axes
+which structure the policy of penetrating new market segments. The issues of market
+structure and the possible optimal size of a firm are therefore on a par with a bank's activity.
+Numerous studies devoted to economies of scale have endeavored to highlight an optimal
+size or, at least, to prove the existence of a decrease in efficiency beyond a certain
+threshold. Relying on a study of the properties of the average cost curve, it shows that this
+curve presents the usual U-form (which reflects first increasing returns of scale and then
+decreasing), and that the optimal size of the firm corresponds to its minimum.
+In the banking sector the notion corresponding to economies of scale is therefore “joint
+production”. Indeed, such economies may be realized each time that certain inputs are used
+with no additional cost, in order to produce goods other than those originally manufactured.
+In other words, we shall refer to economies of scale when, at a given level of production,
+the costs corresponding to a joint production process are lower than those resulting from the
+sum of the costs associated with independent production processes.
+The application of these notions to banking strategy raises certain difficulties, however.
+The main problems stem from the lack of any definition on the unanimously accepted role
+played by the banks in the intermediation process. Consequently, no generally accepted
+model exists representing the bank production process. The reserves expressed with respect
+to the different representations of the bank's production or cost functions have a twofold
+origin. The first is circumstantial and lies in the diversity of existing regulatory
+frameworks, and the effects they have on the banking strategy and the functioning of
+
+inputs and outputs (always monetary and financial assets) 1.
+Lastly, additional difficulties stem from the multi-product nature of banking firms. This
+issue, largely debated since the advent of the theory of contestable markets at the beginning
+of the eighties2, has not been exhausted. Indeed, the use of the balance sheet items,
+incorporated in the framework of financial ratios or considered individually, does not
+permit the expression of output in physical terms. Moreover, the development of activities
+outside the current balance-sheet which generate revenue for banks (but are excluded by the
+usual accounting procedures) makes it difficult to characterize the bank's production
+function. It appears that another approach must be sought in the use of proxy variables such
+as the number of accounts managed. Nonetheless, this type of solution comes up against
+practical constraints linked to the difficulty collecting sufficiently extensive and
+homogeneous data.
+Thus, a twofold debate structure the literature devoted to the bank development in the
+industrial economy approach. The first facet, concerning the economic definition of the
+banking firm, strives to decide between an approach in production terms and a more recent
+analysis emphasizing intermediation. The second facet, of a technical nature, concerns the
+specification retained for the cost function, as the form chosen3 impacts the evaluation of
+indicators of economies of scale and scope. The theoretical underlying option retained in
+the various econometric studies available therefore influences the results obtained
+considerably, as we shall demonstrate in the following paragraph.
+
+1.2 Highly equivocal empirical studies available
+The strategies adopted by banks such as Barclays, National Westminster or Dresdner in an
+attempt to reach a dominant position on the European market and protect themselves
+effectively against new competitors on their respective national markets, are marked by a
+1
+
+For example, deposits may also be considered as inputs or outputs depending on whether we
+perceive banks as institutions which transform claims into assets presenting varying degrees of risk
+and liquidity or, in a more conventional manner, as firms for which deposits, like work and capital,
+are considered as resources.
+2
+We recall that in the case of a multi-product industry, Baumol, Panzar and Willig (1988) showed
+that if a sustainable allocation exists, it necessarily meets the five following conditions: 1) the
+industry minimizes costs, 2) each company achieves a profit level which is null (the firm's
+equilibrium), 3) revenue made on a sub-set of products amounts at least to the savings made if the
+firms did not produce these goods, 4) the prices of the products are equal to the marginal production
+costs and 5) when barriers to entry exist, the sustainable prices are equal to the marginal cost
+weighted by the factor of the elasticity of demand for the product (pricing at the Ramsey price).
+3
+The two most frequently encountered forms are the Cobb-Douglas function the advantage of which
+is its ease of use but which, due to the fact that it is limited by assumptions of the invariability of scale
+productions compared to the level of output and mono-production, is increasingly replaced by a translogarithmic function such as:
+L o g C = Y 0 = α L o g Y + β ( L o g Y )² + ∑ β i L o g ω i L o g Y + ∑ γ ij L o g ω i L o g ω j
+i
+
+Special Number 3 • November 2009
+
+belief that they can benefit by increasing their size which implies the reduction of costs4.
+(Figure no. 1)
+- better gathering
+of information
+
+Economies of scale:
+- specific to a product
+- depending on banking firm.
+
+- computerization
+Increase in size
+Economies of variety:
+- risk
+diversification
+
+- effect
+notoriety
+
+- global (cost of joint production <
+Σ of costs in case of separate
+production),
+of
+
+- specific to the product (the
+product costs less when it is
+manufactured at the same time as
+other products)
+
+Figure no. 1: Impact of size on economy of scale and scope
+
+The empirical tests, which constitute the basis for adopting such strategies, are constructed
+considering cost functions in which the exogenous variables are the price of production
+factors, the level and composition of output. The functional relationship on which they rely
+is a direct derivative of standard micro-economics given that it consists in pointing out a
+link between cost and the production function. For years, the search for satisfactory
+production functions mobilized authors who conventionally turned to the standard CobbDouglas form which they abandoned progressively due to the restrictive assumptions
+underlying it.
+The empirical studies on economies of scale and scope in the banking sector focus in
+particular on the construction of cost curves specific to the various institutional categories
+of establishments in an effort to appreciate the extent to which an increase in size can
+contribute to reducing total costs. Up to now, the efforts made in this line of research have
+not produced unequivocal results and have failed to eliminate certain assumptions once and
+for all. More precisely, the results differ greatly depending on whether the banking firms
+are considered as mono- or multi-productive.
+4
+
+We note that in numerous cases this tendency was promoted by the Public Authorities and the
+central banks convinced of the principle of “too big to fail” as a means of reducing the systemic risk
+while not accentuating their role as lenders of last resort. (see Roth, M. (1994): Too Big to Fail and
+the Stability of the Banking System: Some Insights from Foreign Countries Business Economies, Vol.
+29, Leaflet 4, pp. 43-49).
+
+economies of scale, while more recent research which considers the banking firm as a
+multi-productive entity shows that the increase in returns linked to the growth in the size of
+the firm is perceivable only in small establishments. Beyond a certain threshold, the
+increase in output is reflected, on the contrary, in a drop in performances. Although this
+type of result indeed confirms the existence of a minimum scale of efficiency, it does not
+allow us to close the debate on the possible existence of economies of scale in the banking
+sector once and for all.
+With respect to the European area, the various analyses proposed (cf. Canals, J. (1993);
+Dietsch, M. and L. Weill (1996)) do not succeed in pinpointing the existence of a stable,
+pre-determined relation between the various classes of size and the degree of diversification
+of the activity in the various banking establishments studied. These results lead them to the
+conclusion that no optimal size, or optimal combination or line of financial products exists,
+at least in the case of France. This conclusion is confirmed in their study of the Belgian
+banking system, which permits them to demonstrate that the largest establishments sustain
+diseconomies of scale. We find the same confusion on the Italian level. Indeed, certain
+studies mention significant cost cuts negatively correlated to the average growth size of
+banking establishments: this means that the effective size of Italian banking establishments
+is noticeably lower than their optimal size. Other authors distinguish enterprises and
+establishments. They report on the existence of increasing scale returns each time the
+increase in the level of output is followed by the stability of the number of branch offices
+composing the network. On the contrary, considering a variable number of bank offices, the
+economies of scale then benefit only small and middle-size establishments. As usually
+admitted, it is possible to infer that as such the banking network is operated in a suboptimal manner: an increase in the size of the branch offices would make it possible to
+derive benefit from a drop in costs, and consequently to enhance profitability.
+The limited relevance of variables reflecting scale effects in the cost or production
+functions, except at low output levels, raises numerous questions about the effects to be
+expected of integration in the banking sector5. In fact, it appears that, like for any other
+type of activity, banking can also generate increasing scale revenues whenever high
+establishment costs or indivisible inputs exist. Similarly, the profits associated with an
+increase of size for a firm can be the result of organizational factors (better production
+management), a better competitive position (reductions or payment delay granted on the
+purchases of large quantities of inputs) or the incorporation of a technical progress.
+We witness a similar debate in the case of economies of variety on which the defenders of
+the universal bank rely to report profits correlated with a multi-product firm. Thus,
+numerous French banks have opted for the diversification scenario without valuable proof
+of the existence of profits due to broader product lines.
+The various studies mentioned up until now appear to totally pave the way in the search for
+efficiency in the banking sector. And yet, the absence of a unanimously accepted approach
+combined with environmental changes seems to leave the necessary leeway for performing
+additional research. This is indeed the perspective of the next section, which is aimed at
+5
+
+The main effect of economies of scale appears to be the erection of barriers to the entry of new
+competitors on the banking market.
+
+casting new light on the issue of the relationship between performances and the universality
+of banking firms.
+
+2. Universality and systemic risk
+I. Walter (1997) in a paper entitled: ‘Universal banking: A Shareholder value’
+distinguishes four types of banking structure:
+•
+
+totally integrated universal banks which provide a broad sampling of financial
+services (banking services, securities and insurance) in a single corporative
+structure supported by a unique social capital. So far, no good example of this
+model exists;
+
+•
+
+partially integrated banks which conduct both commercial and investment
+activities in a same entity, but which distribute insurance, provide consulting and
+specialized services through separate branches, either because these services are
+subject to different regulations, or because they may be at the source of conflicts
+of interest requiring special management. The Deutsche Bank AG constitutes a
+good example of this type of organization;
+
+•
+
+commercial banks whose principal operations consist in collecting deposits and
+granting loans and subsidiary in providing financial activities ranging from
+investments to insurance contracts. Barclays Bank Plc is an illustration of this
+model;
+
+•
+
+holding companies which control affiliated companies performing all sorts of
+commercial, investment, insurance activities as well as a great number of
+operations which can be financial or not. Examples can be found through J.P.
+Morgan and CS Holding.
+
+Why then to return to the various forms of universalism in a context of systemic risk? To
+return, in order to justify their capacity of resistance to shocks. Numerous authors have
+considered that the introduction of financial economies of scale induced a reduction of
+risks. In fact the effect of economies of scale varies according to the initial structure of the
+banking system. The greater the bank share on the banking market for deposits and loans,
+the higher the intermediation margin (the difference between the rates at which the bank
+remunerates itself and that at which it refinances itself). This constitutes one of the
+specificity of universal bank activities. Traditional large commercial banks’ balance sheet
+can be characterized by the following equation:
+Liabilities clients transactions (deposits) - Asset clients transactions (loans) < 0
+
+(1)
+
+In addition their off balance sheet is much larger than their balance sheets (sometimes more
+than 20 times the total assets as for the BNP Paribas)
+In a situation of weak competition, each bank will have a tendency to use its market power
+to increase interest rates on loans and to reduce those remunerating deposits. Thus the more
+concentrated the system, the more capable it is of generating high profits. In short, an
+increase in size does not necessarily entail an increase in financial profits. The theoretical
+analysis relies more on the relation between size and banking cost than on banking structure
+to explain the efficiency of banking institutions. The core of the argument is based on the
+maintaining their solvency. The ensuing cost is lower for universal banks than for
+specialized establishments due to the role of economies of scale from which they benefit
+due to their size.
+In that context, how can we describe the activities of an investment banks and their profit
+margin? Most clients of investment banks are big enterprises and financial institutions: they
+bring their liquidity to the investment bank (deposit side), the bank offers access to equity
+capital markets, debt capital markets (financial participation and syndicated credit). Their
+off balance sheets are less important than a universal bank as most derivative products are
+part of their core activities and included in the balance sheet. This explains their sensibility
+to the subprime crisis. Does this statement justifies an argument in favour of universal
+banks and integrated banking system? In a European context, the differences of profit
+between specialized establishments and universal banks are much less significant. In
+particular, debt contracts do not reflect a considerable differentiation of interest rates as we
+might have expected. Moreover, O. Pastre (2001) mentions that the existence and the
+development of small size banking structure are possible under six basic conditions:
+•
+
+prohibition to practice in activities where economies of scale are important;
+
+•
+
+specialization is compulsory;
+
+•
+
+flexibility is required;
+
+•
+
+control of the level of risk is necessary;
+
+•
+
+cooperation has to be developed;
+
+•
+
+margins must not be sacrificed.
+
+Therefore, universality could only be an advantage as regards risk management. Hence, O.
+Pastre’s hypotheses for a development of small size seem difficult to reach in a context
+where cooperation is rare and integration is increasing. Our next step will be then to exhibit
+that, considering the evolution of financial markets, universal banks are more adapted for
+financing managerial projects.
+
+3. Banks and Subprime crisis: a challenge for more efficiency in the globalization
+context
+
+3.1 Banks and financial markets in a crisis context: competition or cooperation?
+Over the last years, capital markets have been used differently in the USA and in Europe as
+regards the financial policy for firms. Up to 2000, the firms have increased their use of
+financial markets in comparison to banks. In the United States, the main actors (the NYSE
+for mature firms and the NASDAQ for companies in expansion) are clearly identified. In
+Europe, a large number of financial places still exist. The most important one as regards
+capitalisation (e.g. table no. 1) is the London Stock Exchange followed by Euronext.
+Moreover the number of listed companies is not comparable to the figure given for
+American firms. Enterprises rely more on credit banking than on stocks for the financing of
+their project (e.g. Paulet 2003). Except for the case of United Kingdom where the financial
+markets are very developed (since the nineteenth century), French and German companies
+finance their project through banking credit. Even if the beginning of the millennium has
+experienced an increase of markets as regards financial policy for firms, the successive
+speculative bubbles have not confirmed this movement. On the contrary, in countries where
+universal banks are dominant (like Germany), banks have recovered their place. For other
+partners, the structure of industry where small and medium size enterprises (SME)
+represent 80% of all companies could justify the choice in favour of banks for their
+investment projects.
+Table no. 1: Major actors of financial sector: spot market (31/12/2002)
+Capitalisation (in
+billions)
+
+Number of listed
+companies
+
+NYSE
+
+8654
+
+2366
+
+Tokyo stock exchange
+
+1986
+
+2153
+
+Nasdaq
+
+1915
+
+3649
+
+Euronext
+
+1477
+
+1484
+
+LSE
+
+1708
+
+2824
+
+Deutsche Börse
+
+658
+
+934
+
+Source: Euronext, LES, FESE, FIBV
+The financial integration has been a factor of rapid transmission of crisis. The financial
+crisis has extended to real world. Hence, enterprises and agents have assisted to a
+significant decrease of their profit and revenue. They have become more and more
+cautious, inducing a contraction of consumption and investment. Hence, negative
+expectations are reinforced by the general context of uncertainty as regards the solvency of
+banks and the magnitude and length of recession. The consequence is the volatility of the
+financial markets as exhibited by figure no. 2: the major financial indices are broken down
+up to 38% (FTSE 100) and 58% (Nikkei) between June 2007 and February 2008.
+
+
+At the same time, banks have then become more vulnerable. The monopolies coming from
+the merger acquisitions in that sector have been undermined by the penetration onto the
+market of new suppliers of financial services. This has had consequences both on the level
+of the prices at which the banking products are supplied and on that of their profit margins.
+The enormous increase of derivatives and the role played by off balance sheet items have
+generated instability for the banking system. The subprime crisis illustrates perfectly this
+point by giving evidence that specialized institutions like investment banks have used
+securitization process to transform non performing loans into junk assets. The interconnection among institutions and financial markets has contributed to the transfer of
+systemic risk from United States to Europe. However the particularities of banking
+structures in Europe (more oriented towards universal banks) is a factor of explanation of
+the difference of magnitude of the financial crisis between these parts of the world.
+Size has been a continuous preoccupation over the last twenty years. Its measure has even
+changed. In the old standard, total assets were often used to evaluate the size of an
+institution. Now market capitalization and adequacy of bank capital on a risk adjusted basis
+are privileged. The new crisis context makes us guess that the integration trend (which had
+decreased over the last decade) will again be considered as an efficient tool to avoid
+banking run. Hence, as the inter-connection of financial markets accentuates contagion
+phenomena, the next question therefore is threefold:
+•
+
+Is it possible to evaluate and prevent the systemic risk in our global banking
+system? Is integration the unique tool to avoid banking crisis?
+
+•
+
+Does the actual crisis appeal to new considerations as regards the core business of
+a banker in the XIX century?
+
+•
+
+Could European prudential agencies have a leader role in that process?
+
+These are the questions we intend to discuss now.
+
+3.2 Banks and Subprime crisis: a challenge for more efficiency in the globalization
+context
+Let us first recall the core factors which describe the subprime crisis. First, the crisis has led
+to a mortgage bubble in the United States. This has affected of course mortgage companies
+but also specialized investment institutions and partly universal banks. Third, it has induced
+a global liquidity crisis both in the States and Europe. Fourth, the collapse of structured
+investment products derived from the affected assets shifted the global liquidity into
+commodity futures. The aim of this section is to evaluate the magnitude of this crisis of
+European and American banks.
+One cannot doubt that banks bear a large responsibility of the actual financial situation.
+They were perfectly aware of the nature and the extent of the continued exposure to their
+off balance risk and their asset based securitization (ABS) they carried on their balance
+sheet. The explosion of these new products and these new actors as discussed in the
+previous paragraph has contributed to increase the global level of risk and to the emergence
+of systemic risk. This excessive disintermediation and the large amount of liquidity on the
+market could then be considered at the origin of the global financial crisis that affected both
+banking institutions and financial markets.
+Academic researchers and professional financers agree to consider investment banks as
+originators of the crisis. Our purpose is to support the argument that universal banking
+model is more resilient to face the current situation. Buiter (2007) affirms that universal
+banks have a wider variety of assets than investment banks, which allows them to spread
+the credit risk across a broader range of asset categories. Despite the fact we share this
+position, it cannot be denied that large universal banks such as Société Générale, UBS,
+BNP Paribas, and Crédit Suisse among others have shown large losses stemming from their
+vast exposure to risky mortgages and derivatives securities. Several arguments can be
+addressed to undermine this situation.
+As mentioned by the actual president of the Deutsche Bank, Mr Banziger, more diversified
+banks are better able to solve their own problems in crisis time. They can provision
+liquidity to support eventual losses. Their balance sheets encompass earning streams and
+they raise funds in both wholesale and retail markets. Hence, the diverse sources of
+earnings ensure that losses in one area can be offset with other gains in functional areas.
+The results will lead to reduce their annual profit but to avoid liquidity or solvency
+difficulties.
+Second, bigger banks not only enjoy the advantage of diversity but also have much more
+scope to sell off assets in time of trouble. American investment banks were not sharing this
+situation. Their asset-to-equity ratios prevent them from a rapid de-leveraging in case of
+serious financial crisis (e.g. Table no. 2)
+
+
+2007
+
+Bear Sterns
+
+26
+
+33
+
+Morgan Stanley
+
+31
+
+33
+
+Lehman Brothers
+
+25
+
+31
+
+Merill Lynch
+
+18
+
+28
+
+Goldman Sachs
+
+25
+
+27
+
+Third, universal banks seem to be more efficient to restore capital ratios to more reasonable
+level. Those which were not capable of reacting promptly have been absorbed by stronger
+institutions (e.g. BNP Paribas – Fortis). Hence, one may expect a new wave of mergers or
+acquisitions of commercial banks by better capitalized investment banks once their write
+downs are completed. Then the concentration process and the methodological difficulties to
+identify real universal banks are going to become more crucial in the following years. As
+discussed previously, if integration could be in the first stage a guarantee to avoid solvency
+problems, it is not without influence on the existence of systemic risk for the global
+banking system. To prevent such a situation to occur, a solution could be a better
+transparency of balance sheets of banks and more specifically their practice of risk
+transferring to derivative products.
+Fourth, the situation is not uniform in whole Europe. The banking systems of Eastern
+countries are more vulnerable than the ones of the Euro Zone. Three main reasons can be
+found:
+•
+
+a high penetration of foreign banks (which represent in average 70% of the whole
+banking system; while facing solvency difficulties, the first reactions of these
+institutions have been to recall their funds in their home countries;
+
+•
+
+a depreciation of their currencies: hence a currency crisis must be added to the
+financial one (cf. Figure no. 3);
+
+•
+
+a decrease of the foreign direct investment, which constitutes a strong support to
+their economic growth.
+
+Figure no. 3: Currency risk in Europe
+Source: Eurostat and Jean François Jamet and Frank Lirzin (2009)
+Hence, the subprime crisis has then shown the fragility and inequality of European banking
+system. As far as the Euro zone is concerned, the last crisis has induced a reinforcement of
+universal banks and the new trend of merger and acquisitions. This last factor, if efficient in
+a first step to reduce systemic risk, could later on lead to more instability: a risky attitude of
+a huge institution could oblige central authorities to intervene according to the ‘Too big to
+fail’ principle. For Eastern countries, the question is even more delicate: this crisis has
+pointed out the necessity to build up a banking system based on domestic roots. This will
+imply time and a real implication of national authorities. In doing so, the foreign
+institutions will reinforce local banks and not substitute them. The second point concerns an
+acceleration of monetary integration in order to reduce the impact of currency fluctuations.
+As a whole the actual situation could be a good measure of the lack of integration of our
+banking institutions, the progress that have to be done to restore solvency and stability for
+both banking systems and financial markets.
+
+Conclusion
+As regards our previous discussion, the new banking model for XXI century should refocus
+on the collect and the distribution of long term lending and retail activities. The current
+crisis has shown that the transfer of debt into financial market can lead to an increase of
+risk not only for the institution itself but also for their financial partners. Hence, the new
+core business. Their ability to diversify risk and to respect more carefully capital adequacy
+are the main factors to justify such a position.
+
+

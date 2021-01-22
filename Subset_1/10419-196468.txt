@@ -1,0 +1,643 @@
+Introduction
+Evolutionary anthropological studies highlight the challenging factors that society is facing
+as a whole. Worldwide demographic growth cannot be sustained at the same pace as finite
+natural resources. Climate change due to environmental pollution caused by industrial
+development is another major danger, which leads to significant ecosystems imbalances.
+Faced with these challenges, the strategy proposed by the European Commission in the
+bioeconomy sector (European Commission, 2012) identifies risks in geopolitics and
+proposes a series of ambitious goals, including: decreased dependence on finite resources,
+adaptation to climate change and mitigation, food security and new jobs created in rural
+areas.
+Managing the transition to bioeconomy in order to achieve the objectives set by the
+European Forum entails a collection of data, such as development of knowledge of the
+sectors generating biomass, feedback on economic interests and data on national
+government policy as a starting point to a documented analysis to determine the current
+stage in the transition. Economic modeling is the next step in the Contextual Conversion
+Scenario to respond to predictable estimations communicated by decision makers. Research
+activities in the field of bioeconomy will significantly contribute to the knowledge of
+biomass production potential, identifying the potential barriers to the development of this
+new industry.
+Until now, many industrialized countries have developed strategies and policies for a
+circular economy based on the reuse of biomass. Romania, in turn, has an environmental
+strategy that allows the future development of bio-economy. Current studies identify the
+need to determine the intersectoral correlations, respectively the modalities of the
+relationship between the different sub-sectors of the bioeconomy, which are generating new
+products.
+This article aims to develop a model for analyzing sectoral interdependencies, taking into
+account exogenous variables such as resource production, production expenditures,
+government policy, investment in technology, R&D and innovation, to assess the prospects
+of transforming the traditional economy.
+
+1. Presentation of the management model in the economic literature
+Economic literature abounds in models for assessing the transition to bioeconomy. Authors
+such as Rick Bosman and Jan Rotmans have studied comparatively the two models of
+management of the transition to bioeconomy in Finland and the Netherlands. The research
+paper (Bosman and Rotmans, 2016) contains a series of recommendations tailored to the
+national economic characteristics of the two countries. As such, the authors note a useful
+suggestion to develop the public-private partnerships in which both public decision makers
+and the private sector find the right solutions to meet the challenges in managing the transition
+to bio-economy. An example is provided by the partnership between the European
+Commission and the Bioindustry Consortium, whereby the state and the private sector invest
+in innovative technologies for bio-industry to generate new biomass products. This inevitably
+implies a change in the behavior of the human factor, which understands the need to move
+
+economic model that embraces the innovative factor (Carrez and van Leeuwen, 2015).
+A management system for the transition to the bioeconomy needs to know in detail what
+the functional requirements for transforming a traditional economy into the bioeconomy
+are. Sustainability of analysis models has been the subject of research in economist work
+(Hockings et al., 2006). The modeling of sectoral interrelationships is constantly evolving,
+requiring a quantitative and qualitative analysis. For example, it is possible to analyze in the
+short term the impact on the price evolution of a bio product produced in a secondary sector
+as a result of the increase in the prices of the basic resources of the primary sector. In
+addition, the evaluation criteria are varied, belonging to a multitude of disciplinary
+sciences, from biodiversity to food safety (European Commission, 2012). For this reason,
+there is no perfectly integrated model of management that aggregates the totality of the
+exogenous variables, for these reasons as we mentioned related to the continuous
+development of the interdependence relations and the multitude of variables.
+Economic modeling requires a permanent adaptation to the specific economic context,
+being integrated into a scenario adjusted for government policies and private demand for
+biomass and bioenergy products (Angenendt et al., 2018). This contextual, specific
+approach is particularly useful in the decision-making process in order to develop a
+technology appropriate to the development in the biomass-producing sectors and to assess
+the contributions of these sectors to the production of positive externalities on
+competitiveness and production in the tertiary sector as well the pharmaceutical industry,
+the chemical industry, or the biofuels industry. Nowicki et al. (2007) detailed the economic
+analysis at the level of the economic sub-sectors (for example, horticulture as a sub-sector
+of agriculture) and, accordingly, the modeling was determined at the level of products that
+could contain bio-ingredients.
+From the perspective of the economic models used in the research work, they can be
+classified into dynamic models of general equilibrium applicable to analyze multi-sector
+macro interdependencies (i.e. energy ‒ agriculture ‒ bioenergy ‒ bioindustry) developed by
+economists such as Poganietz (2000), Van Meijl (2006), Banse et al. (2014), economic
+equilibrium models applicable to certain economic sectors (Izaurralde et al., 2012) defined
+as partial models and bottom models (Janssen et al., 2010), which respond to contextual
+questions related to technological, procedural or behavioral development, studying in detail
+the procedural aspects related to the generation of biomass sources, respectively the
+production of the economic and ecological effects resulting from these processes , whether
+and to what extent they meet these expectations. Temporary definition and location in
+geographic space is of particular significance to conceptualize the management model. This
+explains why a model performs better in one country than in another or can give clues as to
+the evolution of the transition to the bio-economy during a period of time.
+Research studies conducted in the European Economic Area often have common
+benchmarks for contextual analysis. This is largely due to the two projects launched at the
+European Union level by the European Commission, which substantiate the framework for
+assessing the transition to the bio-economy. The first project was launched in November
+2012 and refers to the Analysis Toolbox to respond to the EU's Bioeconomic Strategy
+(System Analysis Tool framework for the EU Bio Based Economy Strategy SAT – BBE
+within the EU 7th Framework Programme). The first research project makes an inventory
+of industries with the potential to generate biomass products and identifies barriers to the
+development of the new industry. The second project was launched by the European
+Commission in February 2013 and aims at integrating the data collected in the first project
+and at conceptualizing them in a computer system. The institution that processes this data is
+the European Observatory for Bioeconomy. The conceptual model used describes the
+interaction between society and the environmental factors. The management system is
+defined by the human, demographic, consumerist factor, biophysical processes and the
+limited natural resources, the technological progress and innovation, and last but not least,
+the governance policy of the state.
+The economic modeling of human behavior is influenced by the economic context and
+cultural affiliation of individuals, in accordance with the principles of the universal theory
+of multilinear evolution. Thus, condensing the opinions of anthropologists Leslie Alvin
+White (1975) and Julian Haynes Steward (1972), the change of mentality gradually takes
+place in a process of awareness of the need for transformation.
+From the perspective of the transition to bioeconomy, at national level, we observe the
+potential generated by certain industries, specific to the basic sectors, for the production of
+biomass, such as agriculture, zootechnics, fish farming, wood processing, secondary sectors
+such as bio-industry (i.e. biodegradable plastic products, biofuels), the food industry and
+tertiary sectors, interdependent on the first two, such as the chemical and pharmaceutical
+industries.
+The National Strategy for Research, Development and Innovation 2014-2020 identifies, on
+the basis of a public consultation, the areas of intelligent specialization for the development
+of bio-economy (GD no. 929 / 21.10.2014). There is a constant need for information and
+communication on biomass production, support for environmental research and limitation
+of certification costs, to increase productivity and competitiveness of sectors with the
+potential to generate new, affordable products. Additional investment is needed in
+technology, so as indicated by the data collected in the research (PwC, 2017). According to
+the study, the share of GDP gross value added in agriculture is positioning Romania on the
+first place in the European Union. Given the large number of nurseries in the agricultural
+sector compared to the European average, the productivity of the sector is relatively low.
+Also, the yield of agricultural production, relative to arable land, is low compared to the
+European average due to the fragmentation of agricultural holdings, the level of
+professional training of farmers, the low level of capitalization and the regulatory
+framework.
+The conceptual model is essential to manage the transition to the bio-economy
+development. The reflective indicators demonstrate the efforts of civil society, the political
+and business to meet objectives bioeconomy or sustainable resource management,
+development of new technologies for biomass production, support processes to reuse
+resources, food security, increase food quality and pharmaceutical, economic and social
+prosperity by creating new jobs, developing infrastructure for recycling and, last but not
+least, encouraging sustainable consumption patterns. Economic reforms, environment and
+research policies adopted, changing forms of organization are necessary elements to turn
+negative externalities in the bioeconomy benefits.
+
+to bioeconomy
+According to the study by Mariusz Maciejczak (2015) on the determinant productive
+factors for bioeconomy, it is noted that Romania is the best placed from the EU Member
+States to produce biomass from waste. Based on this, we have conducted a case study in the
+biomass industry for enterprises active in the agricultural sector, considering the main
+biomass sources, namely grain crops.
+We determine the performance of biomass producers according to the two indicators: the
+percentage indicator of the variation of biomass production, based on waste reuse, and the
+variation in the rate of revenue from sales of production relative to operating costs. These
+will be dependent variables in the model.
+The independent variables are as following:
+ Innovation, research and development (indicators: investments in biotechnology or
+new infrastructure, patents, patents or licenses issued, number of R&D employees, the
+existence of biotechnology labels or processed organic products needed to inform
+consumers or distributors – i.e. ecolabels);
+ Regulation (public funding programs, tax incentives provided in national legislation,
+incentives for investments in the field);
+ Knowledge and skills (no information or communications sent by producers on the
+benefits of using biomass within the production-distribution chain, for awareness of the
+importance of the field among each participant, no qualified personnel, no training courses
+for the training of specialists in the field of bio-economy, no participation in bioeconomy
+discussion forums, for transfer of expertise;
+ Motivation of employees to determine the extent to which they are stimulated to
+integrate into the workforce, incentives for outstanding performance, motivation for the
+transition to bioeconomy;
+ The performance of the production process (the existence of an integrated
+management information system, the existence of a circular flow of product reuse, based on
+their characteristics, i.e. biodegradable products, reintegrated into agriculture as a resource
+for generating new production, product lifetime.
+2.1. Brief description of the biomass sector in Romania
+Biomass is part of the alternative energy resources and can be divided into four general
+categories:
+ Wastes: agricultural waste, agricultural waste, crop residues, wood waste, urban
+wood waste and urban waste;
+ Forest products: wood, wood residues, trees, shrubs and wood scraps, sawdust, bark
+etc. from clearing forests;
+
+ Energy crops: short rotation woody crops, herbaceous woody plants, herbs, starch
+crops (corn, wheat and barley), sugar crops (cane and beet), crop crops (herbs, lucerne and
+clover), soybean, sunflower, saffron);
+ Aquatic plants: algae, water weeds, hyacinth water, cane and fats.
+Biomass is the fourth most important global energy source after coal, oil and natural gas it
+is (Ladanai and Vinterback, 2009). Typically, biomass production can be divided into two
+categories: bio ENER GIE (the process by which biomass products it is burned to generate
+heat and electricity) and biofuels (biomass products are converted into liquid fuel using the
+replacement of petroleum products in transport).
+Agricultural waste is another segment of biomass. Although Romania has a wide variety of
+crops, only a few of these are used for energy production, mainly due to the technical
+limitations of the conversion process (Colesca and Ciocoiu, 2013). The main sources of
+energy from their crop processing:
+ Oilseeds (rape, sunflower and soybean) used for biodiesel production;
+ Sugar and starch crops used for the production of bioethanol (wheat, corn, corn,
+barley, potatoes and sugar beet);
+ Woods (hells) used for heat and energy production.
+Unfortunately, in Romania there are not many incentives for the use of modern biomass
+technologies to transform this into thermal and electrical energy. Thus, the latest available
+data indicate a total consumption of 3859 ktone/year, of which 3240 ktone /year consumed
+in the old traditional rural stoves and 619 ktone/year in the consumer industry and tertiary
+(Bioheat 2016).
+It terms of bioenergy, Romania has not progressed very much compared to 2007. In 2007
+local production of biodiesel and bioethanol started. At the level of 2016, the potential of
+biodiesel was of about 400,000 tons/year and 120,000 tons/year for bioethanol (NREAP,
+2017). Romania's potential to supply biodiesel production (sunflower, soybeans, rape) was
+around 580 thousand tons / year and bioethanol production around 560 thousand tons/year
+(consisting of 41 thousand tons / year of corn seeds and 150 thousand tons one / year of
+wheat germ) (ENERO, 2017).
+The most promising way for the production of biofuels is rapeseed (EC, 2003). In 2016,
+circus 161.000 tons of biofuels, accounting for 3.2% of total transport fuels (EBRD, 2017)
+was produced in Romania. Directive 2003/30 / EC on the promotion of the use of biofuels or
+other renewable fuels for transport was included in the national legislative framework and in
+accordance with the law, biofuels shall replace gasoline and gasoline up to 10% by 2020.
+
+2.2. Research Methodology
+In order to achieve an economic modeling in the management of the transition to
+bioeconomy, the following statistical hypotheses were formulated:
+ H1: The motivation of the employees has a positive impact on organizational
+performance;
+performance;
+ H3: The strategies and the commercial policies have a positive influence on
+organizational performance;
+ H4: Operational integrated processes have a positive impact on the organizational
+performances;
+ H5: Employees’ motivation is positively related to the performance of the
+organization.
+A survey-based assay was carried out with the help of a questionnaire and the research
+hypothesis were tested using Partial Least Square model. Data were processed using the
+SmartPLS 3 software (SmartPLS GmbH, Boenningstedt, Germany) (Ringle et al., 2015).
+The main purpose of its analysis it was the analysis of the transition to bio-economy of
+biomass-producing enterprises in Romania.
+The objective of this study is validating the economic model by analyzing data collected
+from Biomass energy sector in Romania. The paper also analyzes the impact of the
+econometric model, represented by innovation, regulation, level of knowledge and skills,
+production process performance and human factor motivation in the performance of
+biomass producers.
+The data collection was done through a survey which was addressed to employees and
+managers in the biomass production sector. Biomass companies were selected in proportion
+to their size. The sample chosen was random and the sample size was calculated by
+multiplying the number of indicators by 5-10 (Kristensen et al., 2010). Thus, the size of the
+sample should have at least 15 indicators × 5 = 75 respondents. The authors collected data
+from 90 respondents out of which 80 were valid. The questions were either binary, with
+answers (Yes = 1, No = 0), or they used a 7- point Likert scale where the choices ranged
+from "very little = 0" to "very much = 1". The questionnaire has been tested several times
+to ensure that language, format, and order of questions are appropriate.
+The following five proxy variables were considered important factors in the implementation
+of the model (Table no. 1): innovation in the production process (Malerba, 2002; MainarCausapé et. al., 2017), sector level regulation (Crafts, 2006; Mengat et. al., 2018),
+knowledge and skills level (Boyatzis, 2006; Müller et. al., 2009), production process
+performance and motivation of employees.
+Table no. 1: Description of the variables in the model
+Innovation (INOV)
+Inov_1
+Inov_2
+Inov_3
+Reglem_1
+Reglem_2
+Reglem_3
+
+30
+
+Existence of investments in biotechnology
+Labeling for biotechnology or processed organic products
+The existence of patents or license issued
+Regulation (REGLEM)
+Funding programs from public funds
+Tax incentives provided for in national law
+Knowledge_3
+
+Prod_1
+Prod_2
+Prod_3
+Motiv_1
+Motiv_2
+Motiv_3
+
+AE
+
+Knowledge and competences (KNOWLEDGE)
+Information or communications submitted by producers on the
+benefits of using biomass in the production-distribution chain
+Training courses for the purpose of training specialists in the field of
+bioeconomics
+Participation in bioeconomy discussion forums for transfer of
+expertise
+Performance of the Production Process (PROD)
+The existence of an integrated management information system
+The existence of a circular flow of product re-use based on their
+characteristics
+Product life
+Motivation of the employees (MOTIV)
+Motivation employees to determine the extent to which they are
+stimulated to integrate into the workforce
+Incentives given for outstanding performance
+Employee motivation for the transition to bio-economy
+
+The variables described above will be the independent model latent variables of the model,
+while the reflective dependent variable is the "biomass producer performance" determined
+by two proxy variables: "percentage change of biomass production based on waste reuse"
+and "variation rate of revenue from the sale of production in relation to operating expenses”
+(Mohr-Jackson, 1998).
+The dependent variable together with the independent variables described above lead to the
+construction of the structural model that will be tested and validated in the next chapter
+(Figure no. 1).
+
+Figure no. 1: The structural model incorporating the results of managerial decisions
+on the transition to bioeconomy
+The questionnaires were addressed to both executive and corporate executives in June 2018
+and were finalized at the end of July this year. In Table no. 2 show the distribution of
+biomass production companies as well as the respondents of the questionnaire. They were
+selected in proportion to the distribution of enterprises, thus obtaining a sample
+approaching the optimal theoretical combination.
+SME
+Big Enterprises
+Total
+
+Producers of Biomass
+82
+8
+90
+
+Sample
+80
+10
+90
+
+The analyzed sample consisted of 90 executives and managers from companies operating in
+the biomass industry in Romania, stratified by sex, age, income, status and level of
+education, directly interviewed directly, the questionnaire containing 20 of questions.
+In the elaboration of the questionnaire the stratified sample method was applied. The data
+were collected during June 1 ‒ July 30, 2018, using an open questionnaire and the main
+limitation of the data collection process was the lack of co-operation of the individuals
+surveyed. The main objectives of the study were: to identify respondents' level of
+knowledge regarding bio-economy based on education level, gender, age and interests’
+respondents; assessing innovation and R&D in enterprises; determine the degree of
+regulation in the sector; assessing the knowledge and skills of employees and assessing the
+production process of biomass enterprises in the perspective of the transition to
+bioeconomy.
+
+3. Results and discussions
+The degree of significance of the conceptual model variables will be verified before the
+model is analyzed. This will be done by calculating and interpreting the coefficients
+"Dillon-Golstein” and "Cronbach's Alpha" (Tenenhaus et al., 2005). The values of these
+indicators can be seen in table no. 3.
+Table no 3: Reliability and validity of the variables
+Construct
+INOV
+REGLEM
+KNOWLEDGE
+PROD
+MOTIV
+
+Dillon
+Golsteins’ rho
+1.000
+1.000
+0.712
+0.621
+0.678
+
+Cronbach's
+Alpha
+1.000
+1.000
+0.723
+0.691
+0.682
+
+Composite
+Reliability
+1.000
+1.000
+0.821
+0.679
+0.682
+
+AVE
+
+VIF
+
+1.000
+1.000
+0.712
+0.677
+0.651
+
+2.221
+1.418
+1.528
+2.798
+2.392
+
+From the table above, it can be noted that the values associated with the variables in the
+model are all greater than 0.7, which is why it can be concluded that all five latent variables
+are significant in our analysis. In addition, the collinearity of the latent variables has been
+tested. According to Hair et al. (2013) collinearity between independent variables is present
+if their VIF values are greater than 5. According to the data in the table, we can conclude
+that the exogenous variables in the model are not collinear.
+The econometric analysis was carried out by the Partial Least Squares ‒ Structural Equation
+Modeling (PLS-SEM) method. This consists in the creation of two sub-models, namely the
+structural model "internal model" and the measurement model, quantification, "external
+model". The PLS-SEM model was chosen because it is more robust than other similar
+methods (i.e. CB-SEM), but also less sensitive to small samples, asymmetric distributions
+or the presence of multicollinearity (Hair et al., 2013).
+3.1. The measurement model
+The measurement model was achieved by the convergent and discriminating validity
+method. From a statistical point of view, the relation between the reflexive and the dormant
+variables can be determined by means of structural equation modeling (SEM):
+{x = Ψx ϑ + εx
+
+(1)
+
+{y = Ψy η + εy
+
+(2)
+
+where:
+ɳ - endogenous latent variable;
+ϑ - exogenous variable;
+x and y - observed variables;
+Ψx and Ψy - matrices of the systems of equations corresponding to latent variables;
+εx and εy - the residual variables.
+3.1.1. Convergent validity
+When a latent variable explains a significant part of the variance of its constructs, the
+convergent validity must be verified (Nakasul, 2017). The convergent validity is examined
+by the extraction of variance indicator (AVE ‒ average variance Extracted), which
+measures the variation that a latent variable is capturing its variables associated with the
+total variance of the variance, including the variance of the error of measurement (Rust
+Huang, 2012). At a level above 0.5, the latent variable explains more than half of the
+variance of its latent variables (Čihák et. al., 2013).
+According to Chin (2010), the variables for which the coefficients are less than 0.5 are
+excluded. Thus, the following variables will be excluded from the model: inov_1, inov_3
+reglem_1 and reglem_3. These are variables whose coefficients are less than 0.5 in figure no. 2.
+Model I
+
+Figure no. 2: PLS-SEM Measurement Model 1
+Source: Results determined by the authors valuing the SmartPLS 3 software
+previous one. By SEM-PLS a second model resulted (Model II), as outlined in Figure no. 3.
+Model II
+
+Figure no. 3: PLS-SEM Measurement Model 2
+Source: Results determined by the authors valuing the SmartPLS 3 software
+As can be seen from Figure no. 3, all coefficients in the model are greater than 0.5, meaning
+that they are significant and valid. Thus, the convergent validity of the model is conformed.
+
+3.1.2. Discriminant validity
+The AVE indicator can be used to verify the discriminatory validity of the model (Fornell
+and Larcker, 1981). The authors consider that if the square values of the correlation
+coefficients between the latent variables is less than the computed value of AVE (Table no.
+4), the discriminant validity is confirmed.
+Table no. 4: Correlation coefficients between the latent variables
+Square of the corr. coefficients of the latent variables
+Latent variables
+AVE
+
+Inov
+Reglem
+Knowledge
+Prod
+Motiv
+INOV
+1.000
+1
+REGLEM
+1.000
+.621
+1
+KNOWLEDGE
+0.712
+.679
+.512
+1
+PROD
+0.677
+.528
+.491
+.531
+1
+MOTIV
+0.651
+.513
+.324
+.552
+.621
+Source: Data analysis was performed by the authors valuing SmartPLS 2.0 M3 software
+
+1
+
+By comparing the square of the correlation coefficients between the latent variables in the
+model IU structural and indicator values AVE, discriminant validity is confirmed.
+
+3.2. The structural model
+The structural model (inner model) results from Figure No. 2 in which the relations (path)
+of exogenous variables (latent) and endogenous (reflective) are described. The structural
+equation (Zhang, 2009) of the model is as follows:
+η= Γη+Λϕ+ψζ
+
+(3)
+
+where:
+η - vector of latent endogenous variables;
+ϕ - vector of latent exogenous variables;
+ψ - vector of residual variables;
+Γ and Λ - the path coefficient matrices.
+The structural model is evaluated by the values of the coefficients and the R-square value
+(R_squared). According to figure no. 3, the R-square value is 0.668, which means that
+about 66.8 % of the variability of biomass producers' performance is explained by the
+variability of the model. Moreover, the coefficient values of the structural model are all
+positive, which means that the higher the values the latent variables have, the higher the
+performance of the manufacturers. Of the five indicators, the variable with the greatest
+impact is "performance of the production process" (factor 0.722), followed by "knowledge
+and skills" (factor 0.648) and "innovation" (factor 0.641). Organizational performance with
+the least impact is given by indicators "degree of regulation of the sector" (factor 0.567)
+and "employee motivation" (factor 0.345).
+Indicators reflect emerge of endogenous variable "performance producers of biomass" have
+values over as 0.5. It follows that these variables in the reflective model (prod_var and
+income_var) are statistically significant. The high values of the coefficients of the reflexive
+variables, i.e. the "change in biomass production (factor 0.956) and the " rate of income
+from the sale of production relative to operating costs" (factor 0.652) shows that the
+performances of biomass producers are well represented by the two indicators. Multiple
+factors, in general, increase reliability and improve the performance of the model compared
+to the unique factors. In our model, the dependent variable is composed of two variables
+that reflect economic performance, a financial variable, and the other operational variable.
+In addition, a variable has a higher impact because it has high coefficient values reflecting
+more powerful measurement paths. This is also underlined by the high values of the two
+coefficients of endogenous variables.
+Moreover, hypothesis testing their research described it above, it was made a Bootstrap test
+on a sample of 300 respondents to generate t-values and standard deviations of the model
+parameters. Bootstrapping allows the assignment of precision measurements to the sample
+estimates. The results are presented in Table no. 5.
+
+Hypothesis
+H1:
+INOV
+->
+Biomass
+Performance
+H2: REGLEM -> Biomass
+Performance
+H3: KNOWLEDGE -> Biomass
+Performance
+H4:
+PROD
+->
+Biomass
+Performance
+H5: MOTIV -> Biomass
+Performance
+Note: *t-value 2.58 (sig. level = 5 %)
+
+Prod
+Prod
+Prod
+Prod
+Prod
+
+Path Coef.
+
+Std.
+Error
+
+t-value*
+
+P_value
+
+0.643
+
+0.224
+
+3.823
+
+0.013
+
+0.562
+
+0.369
+
+2.701
+
+0.035
+
+0.684
+
+0.172
+
+3.289
+
+0.027
+
+0.754
+
+0.131
+
+2.368
+
+0.039
+
+0.222
+
+0.248
+
+1.234
+
+0.282
+
+Valid hypotheses are those with values of p-value less than 0.05, while the others with pvalues higher than 0.05 are not. Therefore, we can conclude that H1, H2, H3 and H4 are valid
+hypotheses, while H5 is not. These results confirm the economic studies according to which
+the innovation, the degree of regulation, the level of knowledge and skills and the
+production process are significant factors for the performance of biomass producers
+(Campbell et al., 2008; Cardenete et. al., 2014), but argues that motivation is an important
+factor in the performance of biomass producers (Wagner, 1994; Lewandoski, 2015).
+In conclusion, we can state that the degree of innovation, the level of regulation in the
+sector, the level of knowledge and skills, the performance of the production process have a
+positive impact on the performance of biomass producers in Romania.
+
+Conclusions
+Using economic modeling in the management of the transition to bioeconomy with SEMPLS structural equations, the paper identifies and then evaluates the relationship between
+the determinant characteristics of the conceptual management model of the transition to
+bioeconomy and the economic performance of the biomass production companies. The
+results indicate that a significant proportion of variability of endogenous variables is
+explained by exogenous latent variables.
+The survey used in our research highlights that integrated business processes used by an
+enterprise have a positive impact on performance and sustainable development. Important
+factors that converge towards performance regarding innovation of the production process,
+the level of knowledge and skills, the performance of the production process and the
+motivation of employees. In this context, the significant contributions of management
+processes (including surveillance and inspection) lead to an increase in motivation for the
+transition to bio-economy of these corporations. This argues the high value of the processlevel coefficients of this model.
+The econometric analysis has shown that the entrepreneurial confidence in government
+policies for the development of bio-economy is very low. We also note that the principle of
+Corporate Social Responsibility (CSR) remains an abstract concept without practical
+
+application, as suggested by the modest results obtained for the human factor motivation
+indicator.
+The results of the behavioral model, analyzed through the structural equations modelling,
+confirm the conclusions of the studies in the economic literature, emphasizing that
+innovation, the level of regulation in the sector, the level of knowledge and skills and the
+performance of the production process are determinants of the management of the transition
+to the bioeconomy.
+Some of the recommendations of the Bosman and Rotmans (2016) research study are fully
+applicable to Romania as regards the need to develop public-private partnerships to meet
+the needs of the transition to bioeconomy.
+A limitation of this study is given by the relatively small number of respondents to the
+survey and by the fact that the paper analyzes a single industry. Other limitations of this
+research could be related to the subjective answers of the questioned persons and the
+number of constructs and reflective variables. These limitations could be overcome in
+future research by increasing the sample size and the number of constructs and reflective
+variables, as well as introducing open questions in the questionnaire.
+Additional studies in the field of bioeconomy transition on producer performance should be
+extended to other sectors or industries, and research may, as such, include some likely
+macroeconomic effects. The analysis could also be developed by analyzing how companies
+in the industry have funded their efficiency towards a sustainable development of the
+biomass sector.
+
+

@@ -1,3 +1,4 @@
+
 Introduction
 Sustainability has become a household name in our times. Whether discussing household
 finances, regional social equity measures, or global environmental concerted actions, the term is used
@@ -10,8 +11,6 @@ but pressing towards assuring the survival of our species is a testimony to the 
 it.
 When faced with complex issues, it is sometimes useful to take a step back and ask ourselves
 if the research questions are adequately addressing the problem, and, if this is the case, what are their
-implications. In this article we try to determine why sustainability is still an issue, by posing a number
-of questions and following up on them by assessing their logical implications.
 
 1. What exactly is sustainability?
 This question was raised multiple times in debates on sustainability*, and it is still a core
@@ -44,6 +43,12 @@ In essence, every policy on sustainability is contingent on what we perceive to 
 order to bring about sustainability. This means that, barring human errors in the implementation stage,
 sustainability policies can fail from the start in two ways:
 
+*
+
+John Pezzey published several great analyses on the topic of sustainable development (Pezzey 1992a, 1992b; Pezzey &
+
+
+
 Our perception of what is necessary in order to bring about sustainability is wrong or
 otherwise unrelated to real-life happenings. For example, if at a certain time, one would
 implement a strategy seeking to give free access to cable TV to every home in the world, this
@@ -69,8 +74,8 @@ sustainability and how to implement it. This is true whether we are talking abou
 for example, which would maybe lead to better rules governing human-environment interactions, or
 research in sociology, seeking to ensure better social inclusion for disadvantaged families. The
 academic level, thus, serves as a basis for all future talks on what is to be implemented and how it
-might be implemented.
-On an upper level, the legislative level issues laws, but only after it receives social feedback from the society. For example, there is research showing that the polar ice is melting, due to global
+
+from the society. For example, there is research showing that the polar ice is melting, due to global
 warming, and this acts like self-catalyzing process, further facilitating our global warming (e.g.
 Screen & Simmonds 2010). On the social level, however, there are still significant groups of
 individuals who, for various reasons, do not consider this as important towards the sustainability of
@@ -96,7 +101,6 @@ similar manner, Parliaments and Governments need to consider community preferenc
 examining scientific research and deliberating on sustainability actions.
 The social level is essentially an aggregate of individual preferences, making up community
 preferences. But, since individual preferences are, generally speaking, very short-lived, there follows
-that community preferences are highly susceptible to change. Let us take a visual depiction:
 
 Figure 2 – Biological and social time compared to ecological time
 
@@ -122,7 +126,8 @@ have an atmospheric lifetime of 100 years. Therefore, even if we stop emissions 
 chemical now, at present time, a positive response from the atmosphere could come in as much as a
 century. Living components of ecosystems also display a time lag in responding to our measures on
 sustainability. This complicates matters for introducing sustainability measures due to the fact that
-our policies are based on scientific knowledge and the acquiescence of the community via it's preferences, while ecological components are sometimes slow and very slow to react to our initiatives
+
+preferences, while ecological components are sometimes slow and very slow to react to our initiatives
 (when viewed on a human biological time-scale).
 And, in this time delay, our societies are required to persevere in their measures, even when
 faced with seemingly few results, even over the time-span of generations. It is the opinion of the
@@ -160,9 +165,10 @@ feasible is that, most of the time, implementing sustainability strategies on an
 affects the others. For example: governments regularly establish strategies that promote growth.
 However, their effect on lessening social exclusion of minorities is doubtful. So, although not a
 
+*
+
 This implies that any sustainability policy is a policy of constraint and not of maximization, since maximizing any
 sustainability pillar implicitly takes away resources from the other two pillars. A possible reason for resource exhaustion
-could be entropy transformation (Georgescu-Roegen 1971, 1972, 1975, 1986)
 
 universal trend, there is cause to believe that without proper measures, not all communities are
 basking in the light brought about by economic growth. Also, there is a body of literature which
@@ -193,8 +199,8 @@ particular characteristics which significantly distinguish them from any previou
 respect, looking into the past for solutions can actually prove to be a very costly and futile exercise;
 2. History is not linear. Although there is a common saying, that history repeats itself, one should
 never assume that this trend is sufficiently constant, both in appearance and structure, as to justify
-always looking into our past for solutions to current problems.
-Take for example the following case, which technology enthusiasts (e.g. Nordhaus 1973, Beckerman 1972) and pessimists (e.g. Lecomber 1975) alike will surely recognize as one of the key
+
+Beckerman 1972) and pessimists (e.g. Lecomber 1975) alike will surely recognize as one of the key
 philosophical debates on sustainability:
 Let there be a society X, which, at our time of analysis, has already spent 500 years existing,
 going through the regular trials and tribulations of life. During this time, scientific progress has always
@@ -229,9 +235,8 @@ there is no correlation between past problems and future problems, since future 
 
 Take, for example, the phlogiston theory in Physics. While I do agree that science is, essentially, a trial and error process,
 and, to this extent, that all the scientific corpus is valuable, in that it promotes, in a brick by brick manner, further scientific
-conquests, the society in large could very well be spared of these scientific faux pas.
 
-Therefore, any
+very nature have new characteristics which distinguish them from the old problems. Therefore, any
 correlation between past problems and scientific progress does not carry when confronted with future
 problems.
 The paragraphs under the current heading should not, however, be interpreted as a critique of
@@ -259,4 +264,559 @@ a process inherently fraught with uncertainty. Although any analysis of our rece
 history will certainly conclude that new tools fashioned through scientific and technological progress
 have solved some of our problems, while nonetheless creating others, the merits of such processes
 should not be overestimated, more-so when considering present sustainability problems. One can
-certainly find alternatives, an obvious one being the reduction of the human scale of activity.
+
+Acknowledgement
+This work was cofinanced from the European Social Fund through Sectoral Operational
+Programme Human Resources Development 2007-2013, project number POSDRU/159/1.5/S/142115
+„Performance and excellence in doctoral and postdoctoral research in Romanian economics science
+domain”
+
+Screen, J.A. and Simmonds, I. (2010), “The central role of diminishing sea ice in recent Arctic
+
+Introduction
+Sustainability has become a household name in our times. Whether discussing household
+finances, regional social equity measures, or global environmental concerted actions, the term is used
+invariably to describe serious and complex issues that are facing humankind.
+Two things should be taken at face value, thus far: 1. Sustainability or sustainable development
+should be understood as an umbrella concept, relating to various social/economic/ecologic issues (e.g.
+Daly 1991; Daily 1997); 2. These issues are complex. If sustainable development would have been
+an easy task, discussing it would have been a simple trend. The fact that the issue is not only relevant,
+but pressing towards assuring the survival of our species is a testimony to the complexity inherent in
+it.
+When faced with complex issues, it is sometimes useful to take a step back and ask ourselves
+if the research questions are adequately addressing the problem, and, if this is the case, what are their
+
+1. What exactly is sustainability?
+This question was raised multiple times in debates on sustainability*, and it is still a core
+problem facing any researcher involved with the subject (e.g. Beckerman 1994). Take some of these
+definitions, for example:
+We take development to be a vector of desirable social objectives and elements
+might include: increases in real income per capita, improvements in health and
+nutritional status, educational achievement, access to resources, a ‘fairer’ distribution of
+income, and increases in basic freedoms. [...] Sustainable development is then a situation
+in which the development vector increases monotonically over time. (Pearce &
+Markandya 1988, p. 4)
+„A sustainable system is one which survives or persists” (Costanza & Patten 1995, p. 193)
+In the narrowest sense, global sustainability means the indefinite survival of the
+human species across all the regions of the world. A broader sense of the meaning
+specifies that virtually all humans, once born, live to adulthood and that their lives have
+quality beyond mere biological survival. Finally the broadest sense of global
+sustainability includes the persistence of all components of the biosphere, even those with
+no apparent benefit to humanity (Brown et al. 1987, p. 717).
+And there are many more definitions, but what we would like to highlight at the moment is that
+there are many takes on this concept. Legitimate questions following these definitions would be: Is
+sustainability necessarly dependent on growth? Does sustainability equal survivability or does it
+supersede in amplitude concepts of mere subsistence? And, if this is the case, how far above plain
+survivability do we set the threshold? Does everyone adhere to this setup, and is everyone equally
+represented? Is sustainability of other species a worthwhile endeavour? Can we selectively and viably
+sustain certain, desirable, species of life, without any harm to the environment?
+And, just as there are plenty of definitions, so there are plenty more of such questions. As one
+can clearly see, the issue is not at all settled. Under this heading we will be discussing the underlying
+motive for such recurrent debates.
+In essence, every policy on sustainability is contingent on what we perceive to be necessary, in
+order to bring about sustainability. This means that, barring human errors in the implementation stage,
+sustainability policies can fail from the start in two ways:
+
+*
+
+John Pezzey published several great analyses on the topic of sustainable development (Pezzey 1992a, 1992b; Pezzey &
+
+
+
+Our perception of what is necessary in order to bring about sustainability is wrong or
+otherwise unrelated to real-life happenings. For example, if at a certain time, one would
+implement a strategy seeking to give free access to cable TV to every home in the world, this
+would clearly be unrelated to any serious policy on sustainability.
+
+
+
+We lack the kind of scientific knowledge required to ascertain sustainability requirements. For
+example, if in the near future, a severe calamity would hit the Earth, a lack of such knowledge
+today would allow that event to happen. Conversely, if we have at least some hints today, one
+could conceivably implement a strategy diminishing the risks of the calamity in the future
+(assuming we have the methods to do so).
+The latter point is somewhat pointless to debate, since there is only one remedy for it: scientific
+
+progress, which will be further discussed at the end of the current paper. The first point can be
+expanded, though. Essentially, any action on sustainability is based on the following rationale:
+Figure 1 – A possible structure for actions on sustainability
+
+Source: Own reasoning
+
+As such, scientific knowledge opens the way to deciding what is necessary in order to ensure
+sustainability and how to implement it. This is true whether we are talking about research in ecology,
+for example, which would maybe lead to better rules governing human-environment interactions, or
+research in sociology, seeking to ensure better social inclusion for disadvantaged families. The
+academic level, thus, serves as a basis for all future talks on what is to be implemented and how it
+
+from the society. For example, there is research showing that the polar ice is melting, due to global
+warming, and this acts like self-catalyzing process, further facilitating our global warming (e.g.
+Screen & Simmonds 2010). On the social level, however, there are still significant groups of
+individuals who, for various reasons, do not consider this as important towards the sustainability of
+humankind. Therefore, although the legislative and, to an upper level, the executive need to base their
+decisions on solid scientific knowledge, they also need to take into account the community
+preferences, as expressed in democracies (lest there be a tyranny of sustainability, as David Pearce
+noted – 1998, p. 48).
+After laws have been agreed upon, the executive level issues the necessary orders, which finally
+completes the actions on sustainability cycle.
+On the whole, we could assign the right hand side of the graphic the title of
+bureaucracy/administrative component, since, in general, it is the job of these people to take care of
+sustainability policies, among other things. The left hand side, made up by the social component does
+not have this peculiarity. In an ideal world, or, a dystopia, depending on which view you have on the
+problem, the community at large could be blissfully unaware of sustainability shortcomings, since
+their elected leaders (whether legislative and/or executive) would handle all the necessary actions. If
+a high degree of competency would describe all the right hand levels, then scientists/academics would
+issue pertinent research on sustainability, which would lead to accurate laws, which would finally
+lead to exemplary actions on sustainability. Unfortunately, or fortunately for those favoring more
+personal freedom, humans are prone to mistakes, and also have many innate shortcomings, including
+intellectual ones. Therefore, civil society acts to mitigate what it considers as 1. Incorrect research
+(although these cases are rare); 2. Unjust, or otherwise incorrect laws and executive actions. In a
+similar manner, Parliaments and Governments need to consider community preferences, when
+examining scientific research and deliberating on sustainability actions.
+The social level is essentially an aggregate of individual preferences, making up community
+preferences. But, since individual preferences are, generally speaking, very short-lived, there follows
+
+Figure 2 – Biological and social time compared to ecological time
+
+Source: own reasoning
+
+In the previous graphic, we have chosen to depict a sustainability action focusing on
+environmental issues (i.e. ecosystem health). From the bottom up, we have the following situation:
+our individual preferences can be expected to last anywhere from a few hours to a few decades; our
+average life expectancy is around 70 years, during which we will undergo around 3 generation
+changes. In recent years, these generation changes have brought about significant changes in the way
+individuals perceive the society, their role in society and the intricacies of life, in general. In this
+respect, community preferences are subject to change by the intrinsic short time span of individual
+preferences, but also by the effects of changes in generation, which can significantly alter our
+perception of what society needs. So, up to this point, we conclude that individual preferences are
+generally established on a short-time scale and that community preferences, based on these individual
+preferences, are, at best, a medium time scale component.
+The last component of our visual depiction is related to the life-expectancy of an ecosystem.
+This relates to a vastly broader time-scale, numbering hundreds of thousands of years, possibly even
+more. Therefore, if we would need to act on the environment, in order to bring about sustainability,
+one would have to cope with the intrinsic time delays in the response from an ecosystem. Take, for
+example, chlorofluorocarbons (CFCs), which destroy the ozone layer. Some of these substances can
+have an atmospheric lifetime of 100 years. Therefore, even if we stop emissions of a particular
+chemical now, at present time, a positive response from the atmosphere could come in as much as a
+century. Living components of ecosystems also display a time lag in responding to our measures on
+sustainability. This complicates matters for introducing sustainability measures due to the fact that
+
+preferences, while ecological components are sometimes slow and very slow to react to our initiatives
+(when viewed on a human biological time-scale).
+And, in this time delay, our societies are required to persevere in their measures, even when
+faced with seemingly few results, even over the time-span of generations. It is the opinion of the
+author that such time discrepancies are the root of many of the academic debates on the relevance and
+impact of current ecological issues. These complicated issues are the basis for questions asked on the
+meaning of sustainability. Our short-lived and flexible individual and community preferences are a
+mismatch for the ecological time-scale.
+2. How and where to invest our resources?
+Besides the problem of our shifting preferences, one needs to consider the resources we have
+for bringing about sustainability. Since every such policy implies a cost, whether an effective or an
+opportunity cost, one needs to set priorities between economics/social/environmental policies. These
+priorities are set by a mix of what needs to be done, as asserted by scientific research, and what is
+perceived to be socially meaningful. Given the fact that we have already discussed the implications
+of the latter part, we can also now look into what our scientific research yields in terms of policy
+recommendations.
+Take the following example:
+Assume all sustainability actions are related to the three current pillars of sustainability:
+economical/social/environmental. A policy maker would then have to choose between three options
+(we assume only one for each category):
+
+
+implementing a strategy A on economic sustainability;
+
+
+
+implementing a strategy B on ecologic sustainability;
+
+
+
+implementing a strategy C on social sustainability.
+Given our limited resources, we should never assume that all options are viable,
+
+simultaneously*. Another strong reason to assume that optimizing all the sustainability pillars is not
+feasible is that, most of the time, implementing sustainability strategies on any pillar negatively
+affects the others. For example: governments regularly establish strategies that promote growth.
+However, their effect on lessening social exclusion of minorities is doubtful. So, although not a
+
+*
+
+This implies that any sustainability policy is a policy of constraint and not of maximization, since maximizing any
+sustainability pillar implicitly takes away resources from the other two pillars. A possible reason for resource exhaustion
+
+universal trend, there is cause to believe that without proper measures, not all communities are
+basking in the light brought about by economic growth. Also, there is a body of literature which
+suggests that economic growth, at least in the way it was understood in the last century, has negatively
+impacted on our environment (e.g. Daly 2005). In a similar way, implementing environmental policies
+can lead to social disruptions, for example in the case of establishing wildlife sanctuaries and
+displacing homes and traditions, as well as negatively impacting on economic indices.
+So, in light of these conditions, one must assume that our policy makers must very carefully
+weight in the effects of each strategy. In its own right this is a complicated matter, since all the related
+systems are very complex. The social, the economic and the ecologic systems are all very complex,
+given in part by the sheer size and number of their components but also by the web of relations
+established between them.
+Therefore, our policy maker is faced with a daunting task: he has to make a decision, by virtue
+of his occupation, but he has neither a full knowledge of how his actions will change reality, nor can
+he play on the safe side, and pursue all avenues, by investing in all sustainability policies. This means
+that, in reality, our decision makers have to rely on a kind of portfolio investment in sustainability
+policies, never pursuing one end to the maximum extent, but seeking to balance our limited resources
+and our limited knowledge, in an attempt to alleviate the sustainability problems we are facing. While
+this adaptation would not necessarily be a problem, the conditions we are facing at current times,
+especially environmental, seem to call for urgent measures.
+3. What the past can tell us on sustainability matters?
+Confronted with constant new and increasingly complex problems, one of the edges humankind
+has had in this battle was to research the past in order to identify similar problems and approximate
+answers for new issues. As a passionate reader of history, I am wholeheartedly aware of the
+advantages of knowing your history. However, we should never assume that: 1. New problems can
+only be solved by approximation to old issues, since the former can, by their very nature, carry
+particular characteristics which significantly distinguish them from any previous experiences. In this
+respect, looking into the past for solutions can actually prove to be a very costly and futile exercise;
+2. History is not linear. Although there is a common saying, that history repeats itself, one should
+never assume that this trend is sufficiently constant, both in appearance and structure, as to justify
+
+Beckerman 1972) and pessimists (e.g. Lecomber 1975) alike will surely recognize as one of the key
+philosophical debates on sustainability:
+Let there be a society X, which, at our time of analysis, has already spent 500 years existing,
+going through the regular trials and tribulations of life. During this time, scientific progress has always
+provided adequate solutions for the problems that have arisen. And let us assume that at current time,
+our society encounters severe environmental problems. Given the astonishing success that scientific
+progress has had on dealing with societal problems, it is reasonable to assume that this new problem
+can be efficiently tackled via scientific progress. While there is no proof to dismiss this claim, there
+is neither any proof to admit it. The simple fact that scientific progress has so far worked for us, does
+not mean that it will continue to do so in the future. Science has plenty of examples of research that
+has, in the end, led to no apparent increase in the welfare of the society*. Should our sustainability
+problems prove to be urgent, such scientific blunders could prove to be disastrous.
+So the discussion on scientific progress essentially boils down to two issues: the degree to which
+it can accommodate solutions for any problem that humankind faces, and the degree to which
+scientists can provide appropriate solutions for our problems. The latter situation is contingent on the
+first statement being true, since, if scientific progress cannot solve some problems, no amount of
+effort on the part of scientists can lead to worthwhile solutions.
+At this point, a keen critic might point out that, if scientific progress is somehow ontologically
+incompatible with our problems, then humankind is de facto condemned to unsustainability and
+eventual extinction. This statement is not, however, true, since other measures might prove successful.
+For example, in our current environmental problems, one solution often postulated is reducing the
+scale of the human economy (Daly 1996). This option is one that does not require any scientific
+progress, and could yield results in alleviating the environmental problems that we are facing. Thus,
+not all our sustainability problems must have a solution residing in or contingent on, scientific
+progress.
+The predominant view in our time, though, seems to be that scientific progress is a sine qua
+non condition for bringing about sustainability. This assumption is based on slim premises, and it is,
+I think, a classic example of the gambler's fallacy. In this respect, technology and science optimists
+assert that, since our problems so far have been solved or, at any rate, ameliorated via scientific
+progress, then our future will be sustainable, because scientific progress will solve our problems. But
+there is no correlation between past problems and future problems, since future problems, by their
+*
+
+Take, for example, the phlogiston theory in Physics. While I do agree that science is, essentially, a trial and error process,
+and, to this extent, that all the scientific corpus is valuable, in that it promotes, in a brick by brick manner, further scientific
+
+very nature have new characteristics which distinguish them from the old problems. Therefore, any
+correlation between past problems and scientific progress does not carry when confronted with future
+problems.
+The paragraphs under the current heading should not, however, be interpreted as a critique of
+the usefulness of science. It is merely asserted that, since we can neither confirm, nor infirm the role
+of scientific progress as a universal cure for our sustainability problems, then we should be more
+cautious when prescribing it and endowing it with our full trust. As with any tool devised by
+humankind, there are limits to its possibilities, and one should not overstate its potential, since that
+implicitly means we are understating the relevance of alternative solutions. And, when considering
+sustainability policies, turning a blind eye to other options can prove to be a significant mistake.
+Conclusions
+For the length of this article, we have asked a series of questions, which, we believe, are both
+inadequately answered and essential to the issue of sustainable development. In order to avoid
+redundancy, we will only restate the implications of these questions. First of all, any strategy geared
+towards ensuring sustainable development for society must work with clear, measurable and
+attainable objectives. In this respect, either introducing loosely defined concepts or setting utopic
+objectives, like utility maximization (which also includes the unquantifiable concept of utility) can
+ruin the premises for the process of sustainability.
+In essence, every policy on sustainability is contingent on what we perceive to be necessary,
+the implication being that, if individual and community preferences are included in the process, then
+one must account for a very flexible development program, as these preferences are short to mediumterm lived. Given the fact that feedback from the environment can appear only after decades of efforts,
+this can be a potential caveat.
+Lastly, we should avoid casual assumptions like a linear history, when deciding our policies. In
+this respect, we should be cautious about the amount of reliance we have on technological progress,
+a process inherently fraught with uncertainty. Although any analysis of our recent or not so recent
+history will certainly conclude that new tools fashioned through scientific and technological progress
+have solved some of our problems, while nonetheless creating others, the merits of such processes
+should not be overestimated, more-so when considering present sustainability problems. One can
+
+Acknowledgement
+This work was cofinanced from the European Social Fund through Sectoral Operational
+Programme Human Resources Development 2007-2013, project number POSDRU/159/1.5/S/142115
+„Performance and excellence in doctoral and postdoctoral research in Romanian economics science
+domain”
+
+Screen, J.A. and Simmonds, I. (2010), “The central role of diminishing sea ice in recent Arctic
+
+Introduction
+Sustainability has become a household name in our times. Whether discussing household
+finances, regional social equity measures, or global environmental concerted actions, the term is used
+invariably to describe serious and complex issues that are facing humankind.
+Two things should be taken at face value, thus far: 1. Sustainability or sustainable development
+should be understood as an umbrella concept, relating to various social/economic/ecologic issues (e.g.
+Daly 1991; Daily 1997); 2. These issues are complex. If sustainable development would have been
+an easy task, discussing it would have been a simple trend. The fact that the issue is not only relevant,
+but pressing towards assuring the survival of our species is a testimony to the complexity inherent in
+it.
+When faced with complex issues, it is sometimes useful to take a step back and ask ourselves
+if the research questions are adequately addressing the problem, and, if this is the case, what are their
+
+1. What exactly is sustainability?
+This question was raised multiple times in debates on sustainability*, and it is still a core
+problem facing any researcher involved with the subject (e.g. Beckerman 1994). Take some of these
+definitions, for example:
+We take development to be a vector of desirable social objectives and elements
+might include: increases in real income per capita, improvements in health and
+nutritional status, educational achievement, access to resources, a ‘fairer’ distribution of
+income, and increases in basic freedoms. [...] Sustainable development is then a situation
+in which the development vector increases monotonically over time. (Pearce &
+Markandya 1988, p. 4)
+„A sustainable system is one which survives or persists” (Costanza & Patten 1995, p. 193)
+In the narrowest sense, global sustainability means the indefinite survival of the
+human species across all the regions of the world. A broader sense of the meaning
+specifies that virtually all humans, once born, live to adulthood and that their lives have
+quality beyond mere biological survival. Finally the broadest sense of global
+sustainability includes the persistence of all components of the biosphere, even those with
+no apparent benefit to humanity (Brown et al. 1987, p. 717).
+And there are many more definitions, but what we would like to highlight at the moment is that
+there are many takes on this concept. Legitimate questions following these definitions would be: Is
+sustainability necessarly dependent on growth? Does sustainability equal survivability or does it
+supersede in amplitude concepts of mere subsistence? And, if this is the case, how far above plain
+survivability do we set the threshold? Does everyone adhere to this setup, and is everyone equally
+represented? Is sustainability of other species a worthwhile endeavour? Can we selectively and viably
+sustain certain, desirable, species of life, without any harm to the environment?
+And, just as there are plenty of definitions, so there are plenty more of such questions. As one
+can clearly see, the issue is not at all settled. Under this heading we will be discussing the underlying
+motive for such recurrent debates.
+In essence, every policy on sustainability is contingent on what we perceive to be necessary, in
+order to bring about sustainability. This means that, barring human errors in the implementation stage,
+sustainability policies can fail from the start in two ways:
+
+*
+
+John Pezzey published several great analyses on the topic of sustainable development (Pezzey 1992a, 1992b; Pezzey &
+
+
+
+Our perception of what is necessary in order to bring about sustainability is wrong or
+otherwise unrelated to real-life happenings. For example, if at a certain time, one would
+implement a strategy seeking to give free access to cable TV to every home in the world, this
+would clearly be unrelated to any serious policy on sustainability.
+
+
+
+We lack the kind of scientific knowledge required to ascertain sustainability requirements. For
+example, if in the near future, a severe calamity would hit the Earth, a lack of such knowledge
+today would allow that event to happen. Conversely, if we have at least some hints today, one
+could conceivably implement a strategy diminishing the risks of the calamity in the future
+(assuming we have the methods to do so).
+The latter point is somewhat pointless to debate, since there is only one remedy for it: scientific
+
+progress, which will be further discussed at the end of the current paper. The first point can be
+expanded, though. Essentially, any action on sustainability is based on the following rationale:
+Figure 1 – A possible structure for actions on sustainability
+
+Source: Own reasoning
+
+As such, scientific knowledge opens the way to deciding what is necessary in order to ensure
+sustainability and how to implement it. This is true whether we are talking about research in ecology,
+for example, which would maybe lead to better rules governing human-environment interactions, or
+research in sociology, seeking to ensure better social inclusion for disadvantaged families. The
+academic level, thus, serves as a basis for all future talks on what is to be implemented and how it
+
+from the society. For example, there is research showing that the polar ice is melting, due to global
+warming, and this acts like self-catalyzing process, further facilitating our global warming (e.g.
+Screen & Simmonds 2010). On the social level, however, there are still significant groups of
+individuals who, for various reasons, do not consider this as important towards the sustainability of
+humankind. Therefore, although the legislative and, to an upper level, the executive need to base their
+decisions on solid scientific knowledge, they also need to take into account the community
+preferences, as expressed in democracies (lest there be a tyranny of sustainability, as David Pearce
+noted – 1998, p. 48).
+After laws have been agreed upon, the executive level issues the necessary orders, which finally
+completes the actions on sustainability cycle.
+On the whole, we could assign the right hand side of the graphic the title of
+bureaucracy/administrative component, since, in general, it is the job of these people to take care of
+sustainability policies, among other things. The left hand side, made up by the social component does
+not have this peculiarity. In an ideal world, or, a dystopia, depending on which view you have on the
+problem, the community at large could be blissfully unaware of sustainability shortcomings, since
+their elected leaders (whether legislative and/or executive) would handle all the necessary actions. If
+a high degree of competency would describe all the right hand levels, then scientists/academics would
+issue pertinent research on sustainability, which would lead to accurate laws, which would finally
+lead to exemplary actions on sustainability. Unfortunately, or fortunately for those favoring more
+personal freedom, humans are prone to mistakes, and also have many innate shortcomings, including
+intellectual ones. Therefore, civil society acts to mitigate what it considers as 1. Incorrect research
+(although these cases are rare); 2. Unjust, or otherwise incorrect laws and executive actions. In a
+similar manner, Parliaments and Governments need to consider community preferences, when
+examining scientific research and deliberating on sustainability actions.
+The social level is essentially an aggregate of individual preferences, making up community
+preferences. But, since individual preferences are, generally speaking, very short-lived, there follows
+
+Figure 2 – Biological and social time compared to ecological time
+
+Source: own reasoning
+
+In the previous graphic, we have chosen to depict a sustainability action focusing on
+environmental issues (i.e. ecosystem health). From the bottom up, we have the following situation:
+our individual preferences can be expected to last anywhere from a few hours to a few decades; our
+average life expectancy is around 70 years, during which we will undergo around 3 generation
+changes. In recent years, these generation changes have brought about significant changes in the way
+individuals perceive the society, their role in society and the intricacies of life, in general. In this
+respect, community preferences are subject to change by the intrinsic short time span of individual
+preferences, but also by the effects of changes in generation, which can significantly alter our
+perception of what society needs. So, up to this point, we conclude that individual preferences are
+generally established on a short-time scale and that community preferences, based on these individual
+preferences, are, at best, a medium time scale component.
+The last component of our visual depiction is related to the life-expectancy of an ecosystem.
+This relates to a vastly broader time-scale, numbering hundreds of thousands of years, possibly even
+more. Therefore, if we would need to act on the environment, in order to bring about sustainability,
+one would have to cope with the intrinsic time delays in the response from an ecosystem. Take, for
+example, chlorofluorocarbons (CFCs), which destroy the ozone layer. Some of these substances can
+have an atmospheric lifetime of 100 years. Therefore, even if we stop emissions of a particular
+chemical now, at present time, a positive response from the atmosphere could come in as much as a
+century. Living components of ecosystems also display a time lag in responding to our measures on
+sustainability. This complicates matters for introducing sustainability measures due to the fact that
+
+preferences, while ecological components are sometimes slow and very slow to react to our initiatives
+(when viewed on a human biological time-scale).
+And, in this time delay, our societies are required to persevere in their measures, even when
+faced with seemingly few results, even over the time-span of generations. It is the opinion of the
+author that such time discrepancies are the root of many of the academic debates on the relevance and
+impact of current ecological issues. These complicated issues are the basis for questions asked on the
+meaning of sustainability. Our short-lived and flexible individual and community preferences are a
+mismatch for the ecological time-scale.
+2. How and where to invest our resources?
+Besides the problem of our shifting preferences, one needs to consider the resources we have
+for bringing about sustainability. Since every such policy implies a cost, whether an effective or an
+opportunity cost, one needs to set priorities between economics/social/environmental policies. These
+priorities are set by a mix of what needs to be done, as asserted by scientific research, and what is
+perceived to be socially meaningful. Given the fact that we have already discussed the implications
+of the latter part, we can also now look into what our scientific research yields in terms of policy
+recommendations.
+Take the following example:
+Assume all sustainability actions are related to the three current pillars of sustainability:
+economical/social/environmental. A policy maker would then have to choose between three options
+(we assume only one for each category):
+
+
+implementing a strategy A on economic sustainability;
+
+
+
+implementing a strategy B on ecologic sustainability;
+
+
+
+implementing a strategy C on social sustainability.
+Given our limited resources, we should never assume that all options are viable,
+
+simultaneously*. Another strong reason to assume that optimizing all the sustainability pillars is not
+feasible is that, most of the time, implementing sustainability strategies on any pillar negatively
+affects the others. For example: governments regularly establish strategies that promote growth.
+However, their effect on lessening social exclusion of minorities is doubtful. So, although not a
+
+*
+
+This implies that any sustainability policy is a policy of constraint and not of maximization, since maximizing any
+sustainability pillar implicitly takes away resources from the other two pillars. A possible reason for resource exhaustion
+
+universal trend, there is cause to believe that without proper measures, not all communities are
+basking in the light brought about by economic growth. Also, there is a body of literature which
+suggests that economic growth, at least in the way it was understood in the last century, has negatively
+impacted on our environment (e.g. Daly 2005). In a similar way, implementing environmental policies
+can lead to social disruptions, for example in the case of establishing wildlife sanctuaries and
+displacing homes and traditions, as well as negatively impacting on economic indices.
+So, in light of these conditions, one must assume that our policy makers must very carefully
+weight in the effects of each strategy. In its own right this is a complicated matter, since all the related
+systems are very complex. The social, the economic and the ecologic systems are all very complex,
+given in part by the sheer size and number of their components but also by the web of relations
+established between them.
+Therefore, our policy maker is faced with a daunting task: he has to make a decision, by virtue
+of his occupation, but he has neither a full knowledge of how his actions will change reality, nor can
+he play on the safe side, and pursue all avenues, by investing in all sustainability policies. This means
+that, in reality, our decision makers have to rely on a kind of portfolio investment in sustainability
+policies, never pursuing one end to the maximum extent, but seeking to balance our limited resources
+and our limited knowledge, in an attempt to alleviate the sustainability problems we are facing. While
+this adaptation would not necessarily be a problem, the conditions we are facing at current times,
+especially environmental, seem to call for urgent measures.
+3. What the past can tell us on sustainability matters?
+Confronted with constant new and increasingly complex problems, one of the edges humankind
+has had in this battle was to research the past in order to identify similar problems and approximate
+answers for new issues. As a passionate reader of history, I am wholeheartedly aware of the
+advantages of knowing your history. However, we should never assume that: 1. New problems can
+only be solved by approximation to old issues, since the former can, by their very nature, carry
+particular characteristics which significantly distinguish them from any previous experiences. In this
+respect, looking into the past for solutions can actually prove to be a very costly and futile exercise;
+2. History is not linear. Although there is a common saying, that history repeats itself, one should
+never assume that this trend is sufficiently constant, both in appearance and structure, as to justify
+
+Beckerman 1972) and pessimists (e.g. Lecomber 1975) alike will surely recognize as one of the key
+philosophical debates on sustainability:
+Let there be a society X, which, at our time of analysis, has already spent 500 years existing,
+going through the regular trials and tribulations of life. During this time, scientific progress has always
+provided adequate solutions for the problems that have arisen. And let us assume that at current time,
+our society encounters severe environmental problems. Given the astonishing success that scientific
+progress has had on dealing with societal problems, it is reasonable to assume that this new problem
+can be efficiently tackled via scientific progress. While there is no proof to dismiss this claim, there
+is neither any proof to admit it. The simple fact that scientific progress has so far worked for us, does
+not mean that it will continue to do so in the future. Science has plenty of examples of research that
+has, in the end, led to no apparent increase in the welfare of the society*. Should our sustainability
+problems prove to be urgent, such scientific blunders could prove to be disastrous.
+So the discussion on scientific progress essentially boils down to two issues: the degree to which
+it can accommodate solutions for any problem that humankind faces, and the degree to which
+scientists can provide appropriate solutions for our problems. The latter situation is contingent on the
+first statement being true, since, if scientific progress cannot solve some problems, no amount of
+effort on the part of scientists can lead to worthwhile solutions.
+At this point, a keen critic might point out that, if scientific progress is somehow ontologically
+incompatible with our problems, then humankind is de facto condemned to unsustainability and
+eventual extinction. This statement is not, however, true, since other measures might prove successful.
+For example, in our current environmental problems, one solution often postulated is reducing the
+scale of the human economy (Daly 1996). This option is one that does not require any scientific
+progress, and could yield results in alleviating the environmental problems that we are facing. Thus,
+not all our sustainability problems must have a solution residing in or contingent on, scientific
+progress.
+The predominant view in our time, though, seems to be that scientific progress is a sine qua
+non condition for bringing about sustainability. This assumption is based on slim premises, and it is,
+I think, a classic example of the gambler's fallacy. In this respect, technology and science optimists
+assert that, since our problems so far have been solved or, at any rate, ameliorated via scientific
+progress, then our future will be sustainable, because scientific progress will solve our problems. But
+there is no correlation between past problems and future problems, since future problems, by their
+*
+
+Take, for example, the phlogiston theory in Physics. While I do agree that science is, essentially, a trial and error process,
+and, to this extent, that all the scientific corpus is valuable, in that it promotes, in a brick by brick manner, further scientific
+
+very nature have new characteristics which distinguish them from the old problems. Therefore, any
+correlation between past problems and scientific progress does not carry when confronted with future
+problems.
+The paragraphs under the current heading should not, however, be interpreted as a critique of
+the usefulness of science. It is merely asserted that, since we can neither confirm, nor infirm the role
+of scientific progress as a universal cure for our sustainability problems, then we should be more
+cautious when prescribing it and endowing it with our full trust. As with any tool devised by
+humankind, there are limits to its possibilities, and one should not overstate its potential, since that
+implicitly means we are understating the relevance of alternative solutions. And, when considering
+sustainability policies, turning a blind eye to other options can prove to be a significant mistake.
+Conclusions
+For the length of this article, we have asked a series of questions, which, we believe, are both
+inadequately answered and essential to the issue of sustainable development. In order to avoid
+redundancy, we will only restate the implications of these questions. First of all, any strategy geared
+towards ensuring sustainable development for society must work with clear, measurable and
+attainable objectives. In this respect, either introducing loosely defined concepts or setting utopic
+objectives, like utility maximization (which also includes the unquantifiable concept of utility) can
+ruin the premises for the process of sustainability.
+In essence, every policy on sustainability is contingent on what we perceive to be necessary,
+the implication being that, if individual and community preferences are included in the process, then
+one must account for a very flexible development program, as these preferences are short to mediumterm lived. Given the fact that feedback from the environment can appear only after decades of efforts,
+this can be a potential caveat.
+Lastly, we should avoid casual assumptions like a linear history, when deciding our policies. In
+this respect, we should be cautious about the amount of reliance we have on technological progress,
+a process inherently fraught with uncertainty. Although any analysis of our recent or not so recent
+history will certainly conclude that new tools fashioned through scientific and technological progress
+have solved some of our problems, while nonetheless creating others, the merits of such processes
+should not be overestimated, more-so when considering present sustainability problems. One can
+
+Acknowledgement
+This work was cofinanced from the European Social Fund through Sectoral Operational
+Programme Human Resources Development 2007-2013, project number POSDRU/159/1.5/S/142115
+„Performance and excellence in doctoral and postdoctoral research in Romanian economics science
+domain”
+
+Screen, J.A. and Simmonds, I. (2010), “The central role of diminishing sea ice in recent Arctic

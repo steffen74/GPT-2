@@ -1,0 +1,607 @@
+environment, is both a negative factor and a vector of profoundly ecological policies and
+strategies.
+CUC (Capacity Utilization Coefficient) is an economic efficiency indicator due to the
+interest of accommodation services suppliers to maximize their profit, by increasing the
+number of booked accommodation units / rooms. With respect to accommodation units,
+TAC represents the occupancy rate in a determined period of time (usually one year), being
+calculated as a ratio between effectively used capacity (nights spent as multiplying the
+arrivals by average stay) and the maximum accommodation capacity (operating capacity
+quantified as the result between existing capacity and the number of functioning days) and
+the results are expressed in percentages.
+The CUC social efficiency can be expressed through the total number of tourists’ arrivals,
+which is the degree in which the population enjoys the benefits of tourism. The CUC
+answers the ecologic dimension of development since it depends on the average stay – its
+increase determining the decrease of the pollution degree caused by transportation, as well
+as on the number of tourists – as the balance between demand and offer mitigates the issue
+of seasonality.
+The choice of CUC as an aggregate indicator of tourism dimension is explainable due to its
+importance in the analysis of tourism activity efficiency from the economic, social and
+ecological perspectives.
+The brief content of the article sections is the following: an introductory chapter, a second
+part dedicated to studying the specific literature, a third part presenting the methodology
+used by the authors, and a fourth part describing the research results, containing the
+analysis and necessary explanations. Finally, the article emphasizes the conclusions,
+limitations and possible further research directions.
+1. Literature review
+Sustainable development is defined as a guarantee of the present needs without
+compromising the next generations’ capacities of satisfying their own needs (Brundtland
+Commission, 1987). Within the European Union, of which Romania has become a member
+in 2007, there is a permanent preoccupation for sustainable development: approaching the
+concept (European Union, 1998), elaborating an integrated strategy (European Commision,
+1999) and adopting the Sustainable Development of the European Union Strategy
+(European Commision, 2001).
+The quantification of sustainable development is one of the constant preoccupations of the
+organizations and researchers specialised in this field. The complexity of this phenomenon
+is rooted in the large number of indicators that make up the aspects of life: economic,
+social, ecological indicators as well as linkage indicators of human capital, the environment
+and economic.
+In a study performed by “The Macaulay Institute”, White et al (2006) have offered
+examples of sets of indicators proposed by various national and international organisations.
+The United Nations has proposed a set of 58 indicators, on 15 themes and 38 subthemes,
+focussed on four components of sustainable development: social, environmental, economic
+and institutional. In its sustainable development strategy, the European Union monitors
+social inclusion, demographic changes, public health, climate changes and energy,
+sustainable transport, natural resources, global partnership and governance.
+Křupka et al (2011) have analysed the de sustainable development indicators from the
+“Society, Human, Health” and “Stable and Safe Society” axes from the Czech Republic
+Sustainable Development Strategy.
+Based on the expert discussions, we defined a set of “safety” region indicators (six basic
+and three super-structural indicators): Number of beds; Accessibility of health care;
+Number of places in the social care facilities; Number of preschool facilities; Number of
+offences, from the disclosed cases; Number of households connected to the Internet;
+Number of accidents, injuries and death; Number of completely built flats; Number of
+cultural, sport and other facilities. (Křupka et al, 2011)
+Ivanovic et al (2009) have defined the main characteristics of efficient sustainable
+development indicators: their relevance in relation to the proposed objective, the extent to
+which the public understands them, the accuracy of information and access to statistics.
+In the document dating from 1999, the European Union showed integrated strategy of
+environmental politics and sustainable development through the document known as
+European Spatial Development Perspective (ESPD) and it defined three groups of target
+aims (Ivanovic et al, 2009):
+• Economic competence and sustainable economics.
+• Cohesion of the society and spatial equality (levelled intergeneration development).
+• Protection of natural resources and natural environment (water and biodiversity
+above all).
+Light and Dumbraveanu (1999) have analysed the development of tourism in Romania
+throughout 1989 - 1997.
+Gonzalez and Moral (1996) have performed a quantitative study, by analysing the evolution
+of international tourism.
+Blake et al (2008) have studied the effects of tourism on the poverty rate and the way in
+which the tourism industry influences the economy of a country, respectively certain
+sectors of it.
+Dolnicar, Yanamandram, Cliff (2012) have studied the role of vacations and tourism in
+general on consumer satisfaction and quality of life. They propose that vacations should
+become a distinct field in the methodology related to measuring the quality of life. McCabe,
+Johnson (2013) extended the debates, by demonstrating the contribution of tourism to the
+enhancement in the quality of life.
+The level of CUC measures the way in which the material resources are exploited.
+Concurrently, it also suggests the tourists’ possibilities of finding accommodations that
+coincide with their requirements (regarding the comfort level, the price); from this
+perspective, the indicator allows for the characterisation of social efficiency provided by
+hotel services. Its role is even more complex, seeing as its scale is the pre-requisite for
+attaining the other indicators of tourism activity. (Minciu, 2004)
+
+The average duration of the stay represents the average number of tourists’ days of stay in a
+certain area (country, resort etc.); it is the result of the ratio between the number of nights
+spent and the number of tourists (Minciu, 2004).
+The number of tourists is unanimously recognised as one of the most representative and
+important indicators of tourist traffic (Minciu, 2004).
+“There are few economic phenomena that significantly depend on a sole factor. The more
+frequent situation is that in which the level of the economic phenomenon is the result of
+several important factors added to the role of lesser-known, presumably insignificant
+factors” (Pecican, 2006).
+“Within the multiple model for variable dependent regression, designated with Y, it is
+explained by a set of explained variables or regressors” (Andrei, Bourbonnais, 2008).
+Song, Witt and Jensen (2003) have evaluated some linear regression models used for the
+tourism demand estimations. On the same subject, Croes and Vanegas Sr. (2005) have
+analysed econometric models that explain the flows in international tourism.
+According to Sinclair and Stabler (1997), the advantages of the use of single equations
+model are three-fold (Croes, Vanegas Sr., 2005):
+• it provides useful information through the estimation of elasticities (which could
+be useful information regarding the marginal utility and total revenues of a destination);
+• the elasticity value can be calculated over time, thus providing information about
+the adjustment time period required for any countervailing policy to have effects;
+•
+
+the elasticity can be estimated for different products and profiles of customers.
+
+Kulendran and Witt (2001) have criticized the use of estimates based on the regression
+models, characterising them as mediocre and unadjusted to the current economic
+transformations.
+Thrane and Farstad (2011) have used non-linear models to explain the relationship between
+tourism expenses and the average stay. The results show that the generally positive length
+of stay– expenditures relationship becomes weaker for trips of longer duration. That is,
+length of stay has a diminishing positive effect on personal tourism expenditures.
+(Thrane and Farstad, 2011)
+2. Research methodology
+The research approached two stages: 1) testing linear multiple regression models;
+2) choosing and explaining the statistical-mathematical relationship and the influences
+between the variables.
+Original econometric models exposed here have rigorously passed through itemized stages,
+parameters system, testing and decision (emphasizing validation).Thus, the stationary
+character of data series had been tested by using the Dickey Fuller test. The estimate of the
+parameters used the least squares method, pursuing in final models, the achievement of
+high values of determination ratio(R2 shows the percentage that explains the influence of
+significant factors, while R2 adjusted represents the corrected value of R2, a possible
+
+used in the model were t-student (with the null hypothesis H0: the coefficients are not
+significantly different to 0 and the alternative hypothesis H1: the coefficients are
+significantly different to 0, the F test (verifies whether at least one coefficient is
+significantly different to 0, null hypothesis H0: all coefficients are not significantly
+different to 0, H1: there is at least one coefficient different to 0, the Durbin-Watson test is
+used for correlation of the model error, the Jarque-Bera test is used, for testing whether the
+errors of the model follows or not a normal distribution and the White test for testing the
+homoscedasticity or heteroscedasticity of economic model.
+For the 1990-2012 period the following data series have been used (according to Appendix
+1): tourism indicators – Capacity Utilization Coefficient (CUC, occupancy rate, expressed
+as a percentage, %), number of tourist arrivals in Romania, the average stay (nights
+spent/arrivals); economic indicators – GDP per capita increase/decrease rate (%), real wage
+indexes (%), annual inflation rate (%); social indicators - crime rate (number of registered
+and solved crimes per 100,000 inhabitants), schooling rate (school enrolment rate of the
+school-aged population), life expectancy upon birth (years); ecological indicators: the gas
+emissions (greenhouse gas, thousand tons), alternative and nuclear energy (percentage from
+the total used energy), protected areas (terrestrial and marine, % percentage of total).
+The data has been collected by the authors from sources as: the National Statistics Institute
+(insse.ro) - CUC, tourists’ arrivals, nights spent, the real wage indexes, school enrolment
+rate, crime rate, the annual rate of inflation or World Bank (data.worldbank.org) - GDP per
+capita increase/decrease rate, life expectancy upon birth; World Database on Protected
+Areas (www.wdpa.org): percentage of protected areas; National Bank of Romania (bnr.ro):
+annual inflation rate.
+In order to identify a viable regression model, several scenarios have been tested, with
+tourism indicators as the endogenous variables and economic, social and ecological
+indicators as the exogenous variables. The main stages were: choosing the dependent
+variable and the independent variables, testing the data series stationary system, their
+stationarization, the estimation of parameters, testing the model hypotheses and the
+interpretation of results.
+The dependent variables which were taken into consideration: CUC, the number of arrivals
+and average stay, and independent variables were - GDP per capita increase/decrease rate,
+real wage indexes, annual inflation rate, crime rate, and schooling rate, life expectancy
+upon birth, gas emissions, the alternative energy and the protected areas. (Table no.1)
+Table no.1: Regression equations and lettering used for the variables
+d_tcc = c(1) + c(2)*d_gdp + c(3)*d_expectancy2 + c(4)*r_crime + c(5)*d_school
+Lettering in the regression
+Indicator
+Data series denomination
+equation
+CUC
+Tcc
+d_tcc
+GDP/inhabitant
+GDP_inhab
+d_GDP
+Life expectancy upon birth expectancy_n
+d_ expectancy2
+Inflation rate
+r_inf
+r_inf
+Schooling rate
+schooling
+d_school;
+
+d_tcc = c(1) + c(2)*d_emissions + c(3)*d_gdp + c(4)*d_expectancy2
+Lettering in the regression
+Indicator
+Data series denomination
+equation
+CUC
+Tcc
+d_tcc
+Greenhouse gas emissions gas_emissions
+d_emissions
+GDP/inhabitant
+gdp_inhab
+d_gdp
+Life expectancy upon birth expectancy_n
+d_ expectancy2
+Source: performed by the authors
+In the last stage, the regression equations obtained from the original econometric models
+and economic perspectives were interpreted, based on statistical, mathematical and
+economic methods.
+3. Results and comments
+The first regression model proposed associates five variables, a dependent one: Capacity
+Utilization Coefficent (CUC) and four independent ones: two economic indicators GDP/inhabitant increase rate (gdp_inhab) and inflation rate (r_inf), respectively two social
+indicators - life expectancy upon birth (expectancy_n) and schooling rate (schooling).
+In order to test the stationarity, we have used the Dickey-Fuller test for all five variables.
+(Table no. 2)
+Table no. 2: Testing stationarity - Dickey-Fuller test
+(CUC, gdp_inhab, expectancy_n, schooling, r_inf)
+Variable
+t-Statistic
+
+CUC
+-2.761734
+
+p-Value
+Test
+critical
+values
+
+gdp_inhab
+-2.406174
+
+expectancy_n
+1.765107
+
+schooling
+-2.399491
+
+r_inf
+-3.124145
+
+0.2254
+1% level
+5% level
+10% level
+
+0.1520
+
+0.9994
+
+0.1543
+
+0.0427
+
+-4.498307
+-3.658446
+-3.268973
+
+-3.788030
+-3.012363
+-2.646119
+
+-3.788030
+-3.012363
+-2.646119
+
+-3.808546
+-3.020686
+-2.650413
+
+-3.857386
+-3.040391
+-2.660551
+
+Source: elaborated by the authors on the basis of the test results ran in the EVIEWS
+software
+For the CUC, gdp_inhab, expectancy_n and schooling variables, the values of t-statistic are
+higher than the critical value for 1%, 5% and 10%, and the associated probabilities (pvalue) are higher than 5%, therefore the null hypothesis is accepted – the series hava a
+unitary root (are non-stationary). For the gdp_inhab variable, t-statistic is lower than t-critic
+for 5% and 10%, with the associated probability smaller than 5%, but due to the small
+number of observations, we accept that the series is stationary.
+Non-stationary series have been stationarized by making the difference, in the case of the
+expectancy_n variable twice (second-order integration), and then they were tested in the
+same manner (the newly-generated series were called d_tcc, d_gdp, d_schol, respectively
+d_ expectancy2). (Table no. 3)
+
+Variable
+t-Statistic
+p-Value
+Test critical
+values
+
+d_tcc
+-4.774287
+0.0014
+1% level
+-3.831511
+5% level
+-3.029970
+10% level -2.655194
+Source: elaborated by the authors on the
+software
+
+d_gdp
+-4.671823
+0.0016
+-3.808546
+-3.020686
+-2.650413
+basis of the
+
+d_ expectancy2
+-5.626546
+0.0002
+-3.831511
+-3.029970
+-2.655194
+test results ran in
+
+d_schol
+-4.017753
+0.0064
+-3.808546
+-3.020686
+-2.650413
+the EVIEWS
+
+For each one of the variables tested, t-statistic is smaller than t-critical, p-value associated
+<0.05, therefore the null hypothesis is rejected and the alternative hypothesis is accepted,
+thus the series do not have unitary roots, and they are consequently stationary.
+The multiple linear regressions which specify the econometric final model will have the
+following form:
+d_tcc = c(1) + c(2)*d_gdp + c(3)*d_ expectancy2 + c(4)*r_inf + c(5)*d_schol
+By using the least squares method we have estimated the parameters of the regression
+equation. (Table no. 4)
+Table no. 4: Parameters of the regression equation 1
+Dependent Variable: d_tcc
+Variable
+Coefficient
+Std. Error
+t-Statistic
+C
+-0.048526
+0.014663
+-3.309344
+d_gdp
+0.006563
+0.001971
+3.329426
+d_ expectancy2
+3.671668
+1.768632
+2.075994
+r_inf
+-0.000233
+0.000136
+-1.711681
+d_schol
+2.025488
+0.617162
+3.281940
+R-squared
+0.620585
+Mean dependent var
+Adjusted R-squared
+0.519408
+S.D. dependent var
+S.E. of regression
+0.042336
+Akaike info criterion
+Sum squared resid
+0.026886
+Schwarz criterion
+Log likelihood
+37.74021
+F-statistic
+Durbin-Watson stat
+2.130415
+Prob(F-statistic)
+Source: elaborated on the basis of the EVIEWS software
+
+Prob.
+0.0048
+0.0046
+0.0555
+0.1075
+0.0050
+-0.029552
+0.061070
+-3.274021
+-3.025087
+6.133643
+0.003942
+
+The values of t-student for the parameters are calculated in the t-Statistic column. If the
+value Prob. <0.05, the null hypothesis is rejected: the variables parameters differ
+significantly from 0.
+
+By analysing T statistics we observe the following:
+• Probabilities for d_gdp and d_schol are <0.05, therefore the null hypothesis is
+rejected, the alternative hypothesis is accepted, the coefficients are significantly different
+from 0
+• Probability for d_ expectancy2 has the value of 0.55, and for r_inf it is 0.10, fitting
+into the area of indecision, due to the small number of observations the null hypothesis can
+be rejected, thus accepting the alternative hypothesis, their coefficients being significantly
+different from 0.
+F-statistics for the proposed model F = 6.133643 with a probability of 0.003942
+consequently, is accepted that the overall multiple linear regression model studied is valid.
+The model passes the tests of self-correlation of errors according to the Durbin – Watson
+(DW=2.13), to normal distribution of errors, according to Jarque-Bera (Skewness=0.01;
+Kurtosis=2.51) and homoscedasticity according to White (F statistic=1.83, the associated
+probability is 26%.
+The economic model as parameter multiple regression is the following:
+d_tcc = -0.04852626244 + 0.006562849147*d_gdp + 3.671668126*d_ expectancy2 - 0.0002328175624*r_inf + 2.025487769*d_schol
+The determination ratio (R2 = 62%) shows the percentage that explains the influence of
+significant factors. In other words, 62% of the d_tcc variation is explained by the variation
+of d_gdp, r_inf, d_ expectancy2, d_schol. In order to stymie the mechanical increase of R2
+caused by the number of variables in the regression, R-adjusted is used, its 52% value,
+confirming the validity of the model.
+For a 1% increase of d_gdp, d_tcc increases by 0.006563%, provided that the other
+variables remain constant. For a 1% increase of r_inf, d_tcc decreases by 0.000233%,
+provided that the other variables remain constant. For a 1% increase of d_ expectancy2,
+d_tcc increases by 3.671668%, provided that the other variables remain constant. For a 1%
+increase of d_schol, d_tcc increases by 2.025488%, provided that the other variables
+remain constant. Thus, a positive evolution of GDP per capita (Meaning higher increasing
+rate) and of the inflation rate (meaning its diminishing) provides benefits to tourism, by
+enhancing the occupancy rate. Moreover, the improvement of results concerning social
+dimension of sustainable development (life expectancy, schooling) generates positive
+effects for tourism.
+The econometric model 1 suggests an important connection between touristic activity
+development and the society overall. Increased life expectancy expresses service
+development in general and healthcare in particular. In the long term it causes an increase
+in population, which by default will use the services of interest, including specific health
+tourism. Spa tourism can be considered a form of tourism that helps increase another social
+indicator characterizing specific quality of life and life expectancy.
+Increasing enrolment rates generates desire for knowledge of the population, leading to
+increased tourist demand it.
+The second regression model proposed associates the CUC with three indicators of
+sustainable development: economic - GDP/inhabitant increase rate (gdp_inhab), social - life
+
+
+birth
+
+(expectancy_n),
+
+ecologic
+
+–greenhouse
+
+gas
+
+emissions
+
+In order to test stationarity , the Dickey-Fuller test was used for all the four variables; the
+results and stationarization for three of them have been presented in detail in the previous
+model. (Table no. 5)
+Table no. 5: Testing stationarity – Dickey-Fuller test (gas_emissions, d_emissions)
+Variable
+t-Statistic
+p-Value
+Test critical values
+
+gas_emissions
+-1.987430
+0.2891
+1% level
+-3.857386
+5% level
+-3.040391
+10% level
+-2.660551
+Source: elaborated by the authors on the basis of the test results
+software
+
+d_emissions
+-3.538720
+0.0176
+-3.808546
+-3.020686
+-2.650413
+ran in the EVIEWS
+
+For the gas_emissions variable, the t-statistic value is higher than the critical value, and the
+associated probability is higher than 5%, therefore the null hypothesis is accepted – the
+series has a unitary root (is non-stationary). The series has been stationarized through
+differentiation and the newly-generated series (d_emissions) was tested again. Since tstatistic is smaller than t-critical for 5% and 10%, with the associated probability smaller
+than 5%, due to the small number of observations, we accept that the series is stationary.
+The multiple linear regressions which specify the econometric final model will have the
+following form:
+d_tcc = c(1) + c(2)*d_emissions + c(3)*d_gdp + c(4)*d_ expectancy2
+By using the least squares method the parameters of the regression equation have been
+estimated. (Table no. 6)
+Table no. 6: Parameters of the regression equation 2
+Dependent Variable: d_tcc
+Variable
+Coefficient
+Std. Error
+t-Statistic
+C
+-0.018973
+0.011204
+-1.693379
+d_emissions
+0.659958
+0.191730
+3.442128
+d_gdp
+0.004041
+0.002063
+1.959193
+d_ expectancy2
+4.414847
+1.881138
+2.346902
+R-squared
+0.564381
+Mean dependent var
+Adjusted R-squared
+0.482702
+S.D. dependent var
+S.E. of regression
+0.043923
+Akaike info criterion
+Sum squared resid
+0.030868
+Schwarz criterion
+Log likelihood
+36.35882
+F-statistic
+Durbin-Watson stat
+2.080571
+Prob(F-statistic)
+Source: elaborated on the basis of the EVIEWS software
+
+Vol. XVI • Special No. 8 • November 2014
+
+Prob.
+0.1098
+0.0033
+0.0678
+0.0321
+-0.029552
+0.061070
+-3.235882
+-3.036735
+6.909774
+The t-student values for the parameters are calculated in the t-Statistic column. If the Prob.
+value <0.05, then the null hypothesis is rejected: the parameters of the variables differ
+significantly from 0.
+Through the T statistics analysis we observe:
+• The probabilities for d_emissions and d_ expectancy2 are <0.05, therefore the null
+hypothesis is rejected and the alternative hypothesis is accepted, the coefficients being
+significantly different from 0.
+• The probability for d_gdp has a value ranging between 0.05 and 0.10,
+consequently in the area of indecision, and due to the small number of observations the null
+hypothesis can be rejected, consequently the alternative hypothesis is accepted, the
+coefficient being significantly different from 0.
+F-statistic for the proposed model, F = 6.909774 with a probability of 0.003387.
+Consequently, it is accepted the fact that the overall multiple linear regression model that
+has been studied is valid.
+The model passes the tests of self-correlation of errors according to the Durbin – Watson
+(DW=2.13), to normal distribution of errors, according to Jarque-Bera (Skewness=0.01;
+Kurtosis=2.51) and homoscedasticity according to White (F statistic=1.83, the associated
+probability is 26%.
+The economic model as parameter multiple regression is the following:
+d_tcc = - 0.01897346072 + 0.6599584833*d_emissions + 0.00404104794*d_gdp +
++ 4.414847077*d_ expectancy2
+The determination ratio (R2 = 56%) shows the percentage that explains the influence of the
+significant factors. In other words, 56% of the d_tcc variation is explained by the variation
+of d_emissions, d_gdp, d_ expectancy2. In order to stymie the mechanical increase of R2
+caused by the number of variables in the regression, R-adjusted is used, its 48% value
+confirming the validity of the model.
+For a 1% increase of d_emissions, d_tcc increases by 0.66%, provided that the other
+variables remain constant. For a 1% increase of d_gdp, d_tcc decreases by 0.004%,
+provided that the other variables remain constant. For a 1% increase of d_ expectancy2,
+d_tcc increases by 4.41%, provided that the other variables remain constant. If a positive
+evolution of GDP and life expectancy are obviously beneficial for tourism, the model also
+corroborates the “complicated” relation between this industry and environment: gas
+emission increasing with greenhouse effect contributes to increasing CUC. The explanation
+consists in the fact that social-economic activity generating polluting emissions induces the
+increasing of economy and the result, long and medium term is the expansion of tourism.
+From the multitude of indicators that express the economic, social and ecological model
+two of this paper shows the direct link between tourism activity and GDP per capita, life
+expectancy at birth and the emission of greenhouse gases.
+GDP per capita of a country's economic development, its growth having positive effects
+both at macro and at the population level. The growth of this indicator can determine the
+additional revenue is going according to Engel's theory, to the tertiary sector, which
+includes tourism.
+explained by the authors and the Model 1. Over time, emissions have increased because of
+a growth of economic activity and hence the interest. In order to achieve sustainable
+development it is necessary to reduce greenhouse gas emissions, without reducing the
+quality of life. The statistics of the last two decades confirm attention environmental issues,
+seeing a slow reduction of gas emissions Romania.
+Conclusions
+Results confirm the impact of the work sustainable development through all its dimensions,
+the tourist activity in Romania. In this respect, strategies, makers of our country must take
+into account all facets of sustainability - economic, social and environmental - to achieve
+their medium and long term objectives. Tourism, long considered "national priority" can
+develop harmoniously only provided that all principles of sustainable development.
+The first econometric model confirms the regulation of tourism in society, touristic activity
+being the result of raising the standard of living and implicitly of life quality from
+economic and social perspective. The second model enlarges tourism depending upon
+social-economic factors together with ecologic dimension of sustainable development. All
+in all, the results of this research validate through acknowledged econometric methods the
+opinions according to which tourism and sustainable development have a privileged
+position together.
+In close connection to the further research directions, there are also subjective limitations,
+which the authors have faced, concerning the indicators’ typology, number or form of
+expression. For the future it is necessary the expansion of research by adding qualitative
+variables. Next step can be represented by testing the models and, implicitly, performing a
+comparative analysis with countries that are at the same level of social-economic
+development as Romania.
+Acknowledgement
+This paper has been financially supported within the project entitled “Horizon 2020 Doctoral and Postdoctoral Studies: Promoting the National Interest through Excellence,
+Competitiveness and Responsibility in the Field of Romanian Fundamental and Applied
+Scientific Research”, contract number POSDRU/159/1.5/S/140106. This project is cofinanced by European Social Fund through Sectoral Operational Programme for Human
+Resources Development 2007-2013. Investing in people!
+

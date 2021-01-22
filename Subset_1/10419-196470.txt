@@ -1,0 +1,765 @@
+Introduction
+Concern for environmental protection and the implementation of measures against climate
+change are issues that have been more often on the agenda of governmental institutions and
+researchers worldwide. Therefore, a large number of reports and academic studies have
+been written lately bringing arguments in favour of maintaining sustainable economic
+growth that would be based on environmental principles and be aimed at producing
+renewable biological resources and converting them into bioenergy and biotechnological
+products (Ronzon et al., 2017; Carus and Dammer, 2018). In this context, there has
+appeared a new paradigm of economic thought called bioeconomy that refers to sustainable
+development and smart use of technology (Voineagu, 2006; European Commission, 2012;
+Ronzon et al., 2017). The studies on human behaviour mechanisms show the likely effects
+of an economic model based on green jobs creation, the growth of gross domestic product
+(GDP), environmental protection and national security (Lehr, Lutz and Edler, 2012; Yi,
+2013; Golden and Handfield, 2014; Dinu, 2008). Most studies and governmental reports
+pay a special attention to green jobs creation as they are involved in economic growth
+(OECD, 2011; Yi, 2013), but there are critics arguing that in some cases the main reason
+for green jobs creation is economic gain and not the environmental protection (Michaels
+and Murphy, 2009; Rabe, 2014; Bowen and Kuralbayeva, 2015). A current challenge for
+researchers has been to identify and understand the way in which the factors related to the
+creation of jobs may be controlled by the management or governmental institutions for
+developing new behavioural models. The study deals with this research issue.
+The aim of this paper is to develop a profile of companies that are able to create new jobs.
+For this purpose, the literature in the field has been reviewed in order to identify the factors
+contributing to green jobs creation (objective 1). The outcomes of literature review have
+been used to formulate the research hypotheses in the methodology section. Testing the
+correlation of factors related to green jobs creation (Obiective 2) involves the study of data
+from secondary data, namely, the Eurobarameter Flash 456 – SMEs, resource efficiency and
+green markets (European Commission, 2018). Processing, analysis and interpretation of
+results was initially made using descriptive methods, and then using multilevel logistic
+regression. The article ends with the presentation of results.
+
+1. Literature review
+Environmental sustainable economic development and green job creation have been the
+main concern of researchers and governmental institutions. Therefore, there is a broad
+literature dealing with these two linked issues, and the findings of studies often report
+contradictory findings. First, it is due to the fact that the process of environmental
+economic development specific to bioeconomy is complex and long-term, and its results
+cannot be accurately foreseen (Mawby et al., 2016; Țugulea, 2017). Second, current
+economic studies (Wei, Patadia and Kammen, 2010; Golden and Handfield, 2014;
+Sillanpää and Ncibi, 2017) have succeeded in presenting only the influence of specific
+factors (for example, analysis of modification of GDP values) on economic development in
+terms of creation of new jobs or have examined just specific aspects of this phenomenon
+(for example, the area of green energy in relation with green economic growth).
+Chapple et al. (2011, p.5) define green economy as “economic activity that reduces the
+consumption of energy and improves the quality of environment”. Practically, green
+economic development refers to the implementation by companies of measures for effective
+use of resources (Cai et al., 2011; Martinez-Fernandez, Hinojosa and Miranda, 2010).
+Another broader perspective presents three main features that could describe green
+economic development: provides activity in sectors belonging to green industry, contributes
+to job creation and responds to strategic actions initiated by governmental policies (Yi,
+2013). So, we may observe by analysing these definitions that there is a link between the
+two concepts, green economic development supporting the creation of green jobs.
+From the perspective of international organisations initiating legislative proposals and
+economic policies, creation of green jobs is an important benefit obtained after the
+implementation of economic growth policies. International Labour Organization (ILO)
+considers that green jobs play the role of contributing to protection and renewal of the
+environment. Also, these jobs should have decent conditions, namely, ensure a proper
+salary, secure work conditions, and opportunities for career development (ILO, 2015).
+Providing these conditions extends the criteria for defining green jobs and contributes to
+reaching the important goal of governmental policies: poverty eradication (ILO, 2018).
+UECD reports (United Nations Environment Programme) underline the ambiguous nature
+of definitions provided by literature and stress out that technology is evolving and what was
+viewed as environmental a few years ago, might not be viewed as such now. In addition,
+criteria used to view a job as being green could be debatable depending on the level of
+economic and technological development of a specific country (Yi, 2013; Bowen and
+Kuralbayeva, 2015; OECD, 2017).
+Wandzich and Płaza (2017) present the evolution over time of definitions for green jobs.
+Initially these played the role of protecting natural environment and were associated with green
+industry and bioeconomy. Now, there are low-carbon jobs, energy-efficiency job, and green
+jobs found along the logistic chain ensuring the production of green goods and services even if
+the job as such involves contact with non-environmental products and technologies. Therefore,
+the author presents green jobs as a generic term given to a wide range of jobs from different
+sectors of bioeconomy involving various work conditions and qualifications.
+Most studies report a positive relation between green sustainable economic growth and job
+creation (Rabe, 2004; Yi, 2013). Models of sustainable economic development show a
+relation of interdependence between effective allocation of resources, sustainable economic
+growth, protection of environment and adoption of new green technologies and innovation
+Lehr, Lutz and Edler, 2012). The outcomes of this process have been intensely dealt with in
+the literature in the field and in economic policies as they contribute to the understanding of
+human behaviour mechanisms searching social welfare: increase of quality of life,
+protection of natural resources and biosphere, reduction of pollution, adaptation to climate
+change etc. (OECD, 2010; PEP, 2012; Pociovalișteanu et al., 2015; ILO, 2016; Dinu,
+Schileru and Atanase, 2012).
+The theoretical model developed by Pociovălișteanu et al. (2015) describes a relation of
+interdependence between environmental protection and green economic growth through job
+creation and change in behaviour of consumption and production and sustainable
+development. Other studies on energy industry (Pollin et al., 2008; Apergis and Payne,
+2010; Wei, Patadia and Kammen, 2010; Cetin and Egrican, 2011; Lehr, Lutz and Edler,
+2012) support taking measures for more efficient use of resources, and implicitly, economic
+growth by creating green jobs. These studies make forecasts anticipating progress
+generating potential by increasing the number of jobs in specific sectors of industry.
+There are more sceptical authors who believe that programs aimed to stimulate the number
+of green jobs and green investments only play the role of destabilizing the current industry
+and mobilizing considerable funds towards other areas to the detriment of implementing
+current investment programs (Cai et al., 2011; Cock, 2014; Forstater, 2014; Rabe, 2014;
+Bowen and Kuralbayeva, 2015). High additional costs of green job creation (Bowen and
+Kuralbayeva, 2015), lack of data for correct forecasts (Deschênes, 2013; Wandzich and
+Płaza, 2017) or bulky legislation comprising vague terminology that may be difficult to put
+into practice (Morriss et al., 2009) are just a few areas of vulnerability reported by
+researchers that question the main role of green jobs for economic development.
+To identify the behavioural models involved in the process of green production, it is first
+required to develop a profile of companies employing personnel for green jobs (Jijie and
+Bobâlcă, 2009). Numerous studies have analysed the causal relationships between the
+following factors and green jobs creation: type of business (production or services) (Russo
+and Fouts, 1997; Wei, Patadia and Kammen, 2010; Singh and Fers, 2011; Ronzon et al.,
+2017); turnover (Fierman, 1991; Koch and McGrath, 1995; Pujaria, Wrightb and Peattiec,
+2003; Lehr, Lutz and Edler, 2012); turnover evolution (Russo and Fouts, 1997; Ronzon et
+al., 2017). In other studies, green jobs are associated with traditional and big companies
+(Martinez-Fernandez, Hinojosa and Miranda, 2010). Other studies report a relation between
+company performance operating in the environmental sector and its size (Arda, Bayraktar
+and Tatoglu, 2018). Accordingly, considering that company performance contributes to the
+creation of green jobs (Pujaria, Wrightb and Peattiec, 2003; Lehr, Lutz and Edler, 2012).
+Studies investigating current jobs in green industries report that it is more likely for
+companies operating in B2B (business-to-business), selling goods and services to other
+businesses, than for companies selling to end-users (B2C: business-to-consumer) to employ
+personnel for green operations. The research underlines the fact that the increase of
+technological development imposes the creation of new economic models and implicitly a
+higher openness towards new ways of selling products (Ronzon et al., 2017; Wandzich and
+Płaza, 2017).
+The reports of international organisations promoting sustainable economic development
+and adoption of bioeconomy principles include accurate data on the results obtained in
+countries with a higher level of development, such as Germany, Sweden, Norway, France,
+Austria. These countries have already implemented programs for the labour market aimed
+to create green jobs that generated profitability for the employing company (Ge and Zhi,
+2016; Altenburg and Assmann, 2017; Ronzon et al. 2017; OECD, 2017). Other studies
+support the idea that new technologies adoption may be easier to implement in less
+developed than in developed countries that already have a strong industry, which would be
+costlier to restructure, and have a workforce, which, in some cases, could be more difficult
+to requalify (Bowen and Kuralbayeva, 2015; Wandzich and Płaza, 2017). There are other
+views supporting also other factors for evaluating the opportunities for green jobs creation
+depending on their belonging to a more or less developed state. These studies report the
+type of industry (for example, green energy industry in more developed states is linked to a
+higher number of new jobs) or level of development and implementation of governmental
+environmental policies (for example, a less developed state with an adequate legislation
+providing tax facilities has better chances to create green jobs) (Pollin et al., 2008; Wei,
+Patadia and Kammen, 2010; Cai et al., 2011).
+
+2. Methodology
+In the methodological approach we considered the view of some authors (Russo and Fouts,
+1997) who observe that the aligning of production standards to requirements of
+environmental protection is a complex process that involves, besides the above mentioned
+factors, (green economic growth, sector, company size, company age, turnover and
+turnover evolution, type of client for sale of goods or services, and the country) also the
+factors related to the implementation of a new organizational culture and a new human
+resources and information management system.
+The research question aims to identify and understand the way in which the factors related
+to creation of jobs may be controlled by the management or governmental institutions for
+developing new behavioural models. Therefore, the aim of the study is to develop a profile
+of companies able to create new jobs and it aims to reach the following objectives:
+ Objective 1: to identify the factors contributing to green jobs creation;
+ Objective 2: to test the correlation of factors related to green jobs creation.
+The literature review of previous studies showed a series of factors related to green jobs
+creation contributing to reaching the first objective. The second objective includes testing
+the following hypotheses formulated based on the review of the literature in the field (for
+example, Fierman, 1991; Koch and McGrath, 1995; Russo and Fouts, 1997; Pujaria,
+Wrightb and Peattiec, 2003; Wei, Patadia and Kammen, 2010; Singh and Fers, 2011; Lehr,
+Lutz and Edler, 2012; Ge and Zhi, 2016; OECD, 2017; UNEP, 2017).
+ Hypothesis 1: The more resource efficiency actions a company is taking, the more
+likely it is for employees to have a green job.
+ Hypothesis 2: Green employment varies by company features (sector of activity,
+company size, company age, turnover, turnover evolution). Green employment is more
+common in: H2a: industry; H2b: large firms; H2c: older firms; H2d: companies with high
+turnover; H2e: companies with positive turnover evolution.
+ Hypothesis 3: Companies selling products or services to other companies (B2B) are
+more likely to have employees working in green jobs.
+ Hypothesis 4: Companies in developed EU countries are more likely to have
+employees working in green jobs than those in less developed EU countries.
+In order to evaluate the proposed hypotheses, this study uses the Flash Eurobarometer
+456 ‒ SMEs, resource efficiency and green markets (European Commission, 2018),
+conducted between 11th and 26th of September 2017. Alongside other countries, the survey
+was carried out as well in the 28 Member states of the European Union. For the purpose of
+this study, the selected sample comprises active businesses employing one or more people
+in EU28. Across EU28, 13,117 interviews were conducted with the management of
+investigated companies. According to the Flash Eurobarometer technical specifications, the
+sample was selected from an international business database (where necessary, additional
+sample from local sources was added) and covers both SMEs and large companies
+(European Commission, 2017). In this study, considering the particularities of multi-level
+logistic regression, the dependent variable measures whether companies have full time
+
+employees working in green jobs (at least some of the time) and is based on a dummy
+variable with recoded value 1 if the company has employees in a green job and 0 otherwise.
+The “green job” was defined as “a job that directly deals with information, technologies, or
+materials that preserves or restores environmental quality. This requires specialised skills,
+knowledge, training, or experience (e.g. verifying compliance with environmental
+legislation, monitoring resource efficiency within the company, promoting and selling
+green products and services)” (European Commission, 2017).
+To analyse H1 regarding whether the likelihood to have employees in a green job is
+associated with resource efficiency oriented firms, a Resource Efficiency Index is
+constructed. The index comprise the number of actions companies are taking to be more
+resource efficient and is measures on a scale from 1 to 4 (where 1 means no actions and 4
+means many actions). The list of actions considered to be more resource efficient included:
+a) Saving water; b) Saving energy; c) Using predominantly renewable energy (e.g.
+including own production through solar panels, etc.); d) Saving materials; e) Minimising
+waste; f) Selling scrap material to another company; g) Recycling, by reusing material or
+waste within the company; h) Designing products that are easier to maintain, repair or
+reuse; i) Other action to promote resource efficiency. The higher the index value, the more
+resource efficient is the firm.
+The other independent variables used to analyse which companies are more likely to have
+employees in a green job (H2-H4, according to results in previous studies, Fierman, 1991;
+Koch and McGrath, 1995; Russo and Fouts, 1997; Pujaria, Wrightb and Peattiec, 2003;
+Wei, Patadia and Kammen, 2010; Singh and Fers, 2011; Lehr, Lutz and Edler, 2012; Ge
+and Zhi, 2016; OECD, 2017) are: sector of activity, company size, company age, turnover,
+and turnover evolution, type of client for selling products or services, and country.
+To analyse the results, we firstly used a descriptive analysis by country, and secondly, a
+multi-level logistic regression analysis. The multi-level logistic regression was employed
+due to the hierarchical nature of the data, namely companies (i) nested within countries (j).
+Considering the particularities of this study, the analysis is conducted according to the
+following model specification (Steele, 2009):
+log(
+
+𝜋𝑖𝑗
+1−𝜋𝑖𝑗
+
+) = 𝛽0 + 𝛽1 𝑋𝑖𝑗 + 𝑢𝑗
+
+(1)
+
+Where:
+𝜋𝑖𝑗 - the likelihood to have employees in a green job;
+𝛽0 - the overall intercept;
+𝛽1 - the cluster specific effect;
+𝑋𝑖𝑗 - the vector with explanatory variables;
+𝑢𝑗 - the group (random) effect.
+For the descriptive analysis, likewise previous studies using similar data (Williams and
+Horodnic, 2015a; 2015b; 2016; 2017, 2018a, 2018b; Horodnic and Williams, 2018;
+Horodnic, Mazilu and Oprea, 2018; Horodnic et al., 2018; Luca et al., 2018) and as
+recommended in the Eurobarometer methodology, we used the sampling weighting scheme.
+
+In a first stage, the multivariate analysis is here conducted using crude data and without
+weighting scheme. However, in the second stage weighting scheme is used as well as
+imputations for missing data to demonstrate the robustness of the findings. The results are
+also used to graphically display whether significant variations between countries exist in
+the likelihood to have green employment. The data analyis presented in the tables was
+carried out using STATA software, version 14.
+3. Results and discussions
+Overall, 40% of companies in EU28 have at least one full time employee working in green
+jobs at least some of the time. As table no. 1 displays, the distribution of green employment is
+uneven across countries. For instance, green employment is more common in Latvia (64% of
+all companies having at least one full time employee working in green jobs at least some of the
+time), Croatia (58%) and Italy (57%) and less likely in Malta (7%) and Estonia (15%).
+Table no 1: Green employment in EU28, by country (N = 13,117)
+Region/
+Country
+
+Employees in green jobs
+At least
+Don`t
+None
+one
+know
+(%)
+(%)
+(%)
+
+EU28
+
+40
+
+54
+
+6
+
+Latvia
+Croatia
+Italy
+Sweden
+Slovakia
+Finland
+Portugal
+Spain
+Greece
+Luxembourg
+Austria
+Germany
+Poland
+Ireland
+
+64
+58
+57
+56
+56
+53
+50
+49
+46
+41
+40
+38
+38
+36
+
+27
+34
+42
+37
+36
+43
+46
+45
+50
+55
+50
+53
+53
+48
+
+9
+8
+1
+7
+8
+4
+4
+6
+4
+4
+10
+9
+9
+16
+
+Region/
+Country
+
+Netherlands
+Romania
+Belgium
+Denmark
+France
+United Kingdom
+Slovenia
+Bulgaria
+Czech Republic
+Hungary
+Lithuania
+Cyprus
+Estonia
+Malta
+
+Employees in green jobs
+At least
+Don`t
+None
+one
+know
+(%)
+(%)
+(%)
+
+35
+35
+32
+32
+29
+26
+26
+22
+21
+21
+19
+17
+15
+7
+
+59
+56
+59
+67
+68
+63
+71
+62
+69
+69
+77
+80
+82
+93
+
+6
+9
+9
+1
+3
+11
+3
+16
+10
+10
+4
+3
+3
+0
+
+Source: Own calculations using STATA software based
+on Flash Eurobarometer 456 dataset ‒ European Commission, 2018
+
+To analyse which type of firms are more likely to be associated with green employment, table
+no. 2 reports the results of a multi-level logistic regression analysis. Model 1 in table 2 reveals
+that there is a positive relationship between green employment and Resource Efficiency
+Index. The higher the index value (the more resource efficiency actions a company is taking),
+the higher the likelihood to have employees in a green job (confirming H1).
+Model 1 in table no. 2 also reveals that green employment is more common for certain
+categories of firms. Companies in industry sector are more likely while those in services
+sector are less likely to have employees in a green job than companies in manufacturing
+sector (confirming H2a). Similarly, not only are larger companies (50 employees or more)
+
+more likely to have employees in a green job (confirming H2b), but so too are those with a
+turnover higher than 50 million euros (confirming H2d). Indeed, companies registering a
+decreased turnover over the past two years are less likely to participate in green
+employment than companies who increased their turnover over the past two years
+(confirming H2e). However, no statistically significant association was identified between
+green employment and the year when the company was established (refuting H2c).
+Similarly, according to Model 1 in table no. 2, no strong association was identified between
+green employment and the type of client for selling products or services (refuting H3).
+In addition, Model 2 and Model 3 in table no. 2 reveal that the same results are obtained if
+running the regression by using the weighting scheme or imputations for missing data).
+Table no. 2: Multilevel logistic regressions of the likelihood to have
+at least one full time employee in a green job
+Model 1
+
+Variables
+Resource Efficiency
+Index
+
+
+
+Se
+()
+
+Exp
+()
+
+Model 2
+Using weighting
+scheme
+Se Exp
+
+() ()
+
+Model 3
+Imputed data
+
+
+Se
+()
+
+Exp
+()
+
+0,556 *** 0,023 1,744 0,556 *** 0,043 1,744 0,559 *** 0,023 1,749
+
+Sector (CG: Manufacturing)
+Retail
+-0,110 * 0,059 0,896 -0,110 * 0,061
+Services
+-0,175 *** 0,059 0,839 -0,175 *** 0,051
+Industry
+0,185 *** 0,066 1,203 0,185 ** 0,074
+Company size (CG: 1-9 employees)
+10-49
+0,071
+0,056 1,074 0,071
+0,056
+50-249
+0,471 *** 0,075 1,602 0,471 *** 0,106
+250 or more
+0,907 *** 0,111 2,477 0,907 *** 0,137
+Company established (CG: before 1 January 2010)
+1 Jan. 2010–1 Dec. 2012 0,078
+0,078 1,082 0,078
+0,074
+1 Jan. 2013–1 Jan. 2017 0,053
+0,076 1,054 0,053
+0,099
+After 1 Jan. 2017
+0,089
+0,254 1,093 0,089
+0,266
+Turnover last year (CG: 100,000 € or less)
+>100,000 to 500,000 € 0,067
+0,070 1,069 0,067
+0,096
+>500,000 to 2 mil. €
+0,052
+0,077 1,053 0,052
+0,106
+>2 to 10 mil. €
+0,036
+0,088 1,037 0,036
+0,130
+>10 to 50 mil. €
+0,096
+0,106 1,101 0,096
+0,138
+>50 mil. €
+0,415 *** 0,142 1,514 0,415 ** 0,196
+Not applicable/DK1
+-0,038
+0,087 0,963 -0,038
+0,117
+Turnover evolution over the past two years (CG: Increased)
+Decreased
+-0,132 ** 0,061 0,876 -0,132 ** 0,057
+Remained unchanged -0,059
+0,049 0,943 -0,059
+0,058
+Not applicable /DK1
+-0,107
+0,110 0,899 -0,107
+0,137
+Selling products or services
+Directly to consumers (CG: No)
+Yes
+-0,045
+To other companies (CG: No)
+Yes
+0,001
+
+Vol. 21 • No. 50 • February 2019
+
+0,896 -0,115 * 0,059
+0,839 -0,166 *** 0,058
+1,203 0,194 *** 0,065
+
+0,892
+0,847
+1,214
+
+1,074 0,068
+0,055
+1,602 0,482 *** 0,071
+2,477 0,885 *** 0,107
+
+1,070
+1,619
+2,422
+
+1,082 0,067
+1,054 0,040
+1,093 0,103
+
+0,077
+0,076
+0,257
+
+1,069
+1,041
+1,108
+
+0,066
+0,070
+0,057
+0,078
+0,024
+0,086
+0,100
+0,103
+0,444 *** 0,140
+-0,052
+0,085
+
+1,068
+1,058
+1,024
+1,106
+1,558
+0,950
+
+0,876 -0,141 ** 0,061
+0,943 -0,066
+0,050
+0,899 -0,126
+0,112
+
+0,869
+0,936
+0,881
+
+1,069
+1,053
+1,037
+1,101
+1,514
+0,963
+
+0,048 0,956 -0,045
+
+0,066 0,956 -0,050
+
+0,048
+
+0,952
+
+0,053 1,000 0,001
+
+0,056 1,000 -0,005
+
+0,052
+
+
+Model 2
+Using weighting
+scheme
+
+Model 3
+Imputed data
+
+To public administration (CG: No)
+Yes
+0,086 * 0,049 1,090 0,086 * 0,052 1,090 0,095 * 0,049
+Constant
+
+-1,983 *** 0,176 0,138 -1,983 *** 0,216 0,138 -1,989 *** 0,175
+
+Observations
+Number of groups
+
+11,824
+28
+Wald chi2
+987,56
+Prob. > chi2 0,0000
+
+11,824
+28
+F
+Prob. > F
+
+1,099
+0,137
+
+13,117
+28
+130,03
+0,0000
+
+F
+Prob. > F
+Imputations
+
+46,69
+0,0000
+10
+
+Notes: Significant at *** p<0.01, ** p<0.05, * p<0.1; Coefficients are compared to the benchmark
+category, shown in brackets; 1 = Don`t know.
+Source: Own calculations based on Flash Eurobarometer 456 data set ‒ European Commission, 2018
+
+To determine whether significant variations between countries exist in the propensity to
+have green employment, after controlling for variables in Model 1, figure no. 1 displays the
+residual country effects.
+
+Figure no. 1: Cross-national variations in green employment in EU28: residual
+country effects within a 95% confidence interval (N = 11,824)
+Source: Own calculations using STATA software based
+on Flash Eurobarometer 456 data set ‒ European Commission, 2018
+
+A country whose confidence interval (5% significance level) does not overlap the line at
+zero differs significantly from the EU28 average. For instance, at the lower end, companies
+in Malta, Estonia and Lithuania have a significantly lower propensity to have employees in
+a green job. At the upper end, companies in Latvia, Croatia, Slovakia, Italy, Sweden and
+Finland have a significantly higher propensity to have employees in a green job. Figure 1
+
+therefore reveals that not always companies in affluent countries (e.g., Germany, United
+Kingdom, France) have significantly higher propensity to have employees working in green
+jobs than those in less affluent countries (refuting H4).
+Table no. 3 presents the summary of the results of hypotheses testing
+Table no. 3: Results of hypothese testing
+Hypothesis
+Result
+H1. The more resource efficiency actions a company is taking, the more
+Confirmed
+likely it is for employees to have a green job.
+H2. Green employment varies by company features (sector of activity, Partially
+company size, company age, turnover, turnover evolution).
+confirmed
+H3. Companies selling products or services to other companies (B2B) are
+Rejected
+more likely to have employees working in green jobs.
+H4. Companies in developed EU countries are more likely to have
+Rejected
+employees working in green jobs than those in less developed EU countries.
+The profile of companies operating in the green sector is another issue investigated in this
+study as the variables used for this profile reflect concrete aspects that may be quantified by
+company managers who have to adopt a new bioeconomic behavioural model in developing
+their strategies. Therefore, manufacturing big companies (over 50 employees) with a
+positive turnover evolution are more likely to employ personnel for green jobs. Also, the
+study has confirmed the results of other studies linking green jobs creation with goods
+manufacturing sector to the detriment of service companies (Russo and Fouts, 1997; Wei,
+Patadia and Kammen, 2010; Singh and Fers, 2011; Ronzon et al., 2017). Although the
+company age on a market is a profitability index, this study has not found a direct link
+between company age and likelihood of green jobs creation.
+Modern model of sales operations management led to a natural separation of companies:
+B2B interacting with legal entities (other companies) and companies selling services
+directly to consumers (end users). Even if some studies report a higher likelihood for B2B
+to have green operations and employ personnel for green jobs (Ronzon et al., 2017;
+Wandzich and Płaza, 2017), this study has not confirmed this hypothesis. The fact that B2B
+and B2C companies have similar behaviour when they take decisions regarding green
+operations, including green jobs creation, may be explained by recent high mediatisation of
+governmental policies stimulating green behaviour or increased understanding of
+importance of green practices by direct experience or market studies.
+In what regards the employing company, the findings show that companies in developed
+countries (e.g. Germany, Great Britain, France) do not always have significantly higher
+likelihood to have green jobs personnel compared to less affluent companies. This result
+confirms the findings of studies supporting the opportunity of green jobs creation in less
+developed countries lacking an already functioning industrial infrastructure (Bowen and
+Kuralbayeva, 2015; Wandzich and Płaza, 2017), and studies considering other factors, such
+as type of industry or level of implementation of governmental green policies (Pollin et al.,
+2008; Wei, Patadia and Kammen, 2010; Cai et al., 2011).
+Conclusions
+Once new jobs have been created, there takes place an ecologisation of processes of
+production and consumption leading to higher quality of life and changed consumption
+behaviour of the population. This study investigates the implications of green jobs creation
+in employing companies of the European Union (EU28)
+From a theoretical perspective, the conducted analysis was aimed to clarify specific
+divergent vies in the literature in the field dealing with the impact of green jobs creation in
+the context of inherent changes occurring in a world under a process of transition towards
+implementation of principles of economic growth specific to bioeconomy. Efficient use of
+resources has been the main recommendation given by researchers and institutions
+initiating green public policies and is most commonly accompanied by economic growth
+and profitability. In this study, we have analysed the likelihood of a relation between green
+jobs and efficient use of resources, and implicitly economic progress. The obtained results
+are similar to the results reported in previous studies (Rabe, 2004; Luca and Creţescu, 2010;
+Lehr, Lutz and Edler, 2012; Yi, 2013; Pociovălișteanu et al., 2015). Moreover, the study
+suggests and develops an index for efficient use of resources that includes the
+implementation ofa set of green measures. The literature review also underlines a lack of
+uniform methods for measuring and forecasting the effects of green jobs creation. The
+instrument used in this study comprises the variables identifies in earlier studies and that
+have been validated by the decision-makers in companies opearting in 28 European
+countries. Also, the implementation of this instrument may contribute to solving a
+controversial issue reported by the literature in the field: lack of uniform methods for
+measuring and forecasting the effects of green jobs creation. (Pollin et al., 2008; Bowen and
+Kuralbayeva, 2015; Altenburg and Assmann, 2017).
+While there are voices supporting that profitability and economic growth may be achieved
+by unjustified consumption of natural resources and environmental protection is an expense
+for companies to the detriment of profitability, this study confirms what most previous
+studies claim, namely, the fact that efficient use of resources and green jobs creation bring
+profit to companies, and implicitly lead to higher turnover and its positive evolution also for
+companies in less developed European countries.
+The practical contributions of the study refer to underlining measures accepted at the
+European level that may be implemented by companies to protect the environment. The
+profile of companies employing personnel for green jobs is extremely practical as it comprises
+quantifiable variables that may be used by managers of companies in the green sector. Also,
+governmental institutions and reserchers could use them to write country reports and studies
+analysing the behaviour of companies in Europe employing personnel for green jobs.
+The paper discusses a current issue stirring the interest of researchers and decision-makers
+initiating governmental policies, which leads to an increasing number of studies and reports
+on the implications of green jobs creation in the context of transition to bioeconomy. Lack
+of a unifies viewpoint on the methods for defining and measuring this concept is a
+limitation applicable to this study. Another limitation of this study is lack of longitudinal
+data allowing us to test a relation of causal type. Although the study provides input on the
+relation among the variables, the analysis is still of descriptive type
+The analysed issue, green jobs creation, is the main element for the implementation of
+bioeconomic mechanisms together with other factors, such as increase of gross domestic
+product (GDP), environmental protection and natural security. For a broader view on the
+implications of behavioural variables on the process of transition to bioeconomy, future
+studies could test the links among these factors and variables describing the profile of
+
+companies employing personnel involved in green operations that have been confirmed by
+this study: manufacturing big companies, with effective use of resources, with over 50
+employees, a turnover over 500 million Euro, and a positive evolution of turnover
+irrespective of the type pf operations (B2B or B2C) or country of origin.
+

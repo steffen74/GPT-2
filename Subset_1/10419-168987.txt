@@ -1,0 +1,622 @@
+Introduction
+In the contemporary reality, when the manufacturing activities are diminishing their
+attractiveness at the level of the developed economies (because of the low labor cost from
+the Asian economies), the European economy is steering towards sectors where the
+required knowledge and education level are significantly higher and the ratio of added
+value per used natural resources is also significantly higher. In this context, the
+development of the knowledge intensive business services (KIBS) - those listed under the
+following Romanian NACE codes: 62, 63, 69, 71-74; these activities are listed with similar
+titles under other NACE codes in other European countries - at the level of the European
+economies needs to be regarded as one of the best options. Thus, another clear advantage of
+the KIBS sector that is increasing its attractiveness is represented by its low level of
+required natural resources which is bringing this sector closer to the directions promoted by
+the sustainable development concept which is included in the Europe 2020 Strategy.
+The Romanian economy, part of the economy of the European Union (EU) is following the
+general trend becoming more KIBS oriented, with a clear focus on the IT sector. Therefore,
+it becomes obvious that pursuing a balanced evolution of the KIBS sector at the level of the
+national economy can be regarded by the Romanian policy makers as a very powerful tool
+for increasing the convergence speed towards the EU level.
+The paper is structured in three main sections accompanied by introduction, conclusions,
+where the economic implications of the main findings are presented and by annexes, where the
+main steps of the econometric modeling are clearly described. A brief literature review and a
+clear assessment of the theoretical background is provided in the first section. The second
+section presents in a clear manner the main goal of the research, the methodological approach
+and closes with a thorough presentation of the used data. Finally, the third section focuses on
+the empirical results of the analysis providing some of their main economic implications.
+1. Theoretical background
+Starting with 2000, the European Council draws the attention towards the business modules
+and entrepreneurship where there were identified five skills required for a knowledge
+oriented economy: information and communications technology, technological culture,
+entrepreneurship, social skills (European Commission, 2013).
+The literature does not provide a clear conceptual definition of the phenomenon of business
+associations that ensure KIBS. However, a series of common elements highly promoted by
+various definitions may refer to: innovation, sustainability, creative entities that can take the
+form of new organizations, or existing ones (profit or nonprofit) (Rubalcaba and Kox,
+2007; Shaw and Carter, 2007).
+In general, a strong support of entrepreneurship intensifies the business generation
+phenomenon. In addition, by analyzing the performance of countries with a strong
+entrepreneurial phenomenon -with a financial, fiscal, and educational frameworks
+dedicated, or especially designed and developed for supporting the entrepreneurs- the idea
+according to which more businesses with strong KIBS components are created within these
+countries, is highlighted.
+Different authors have shown that entrepreneurship and innovation represent key drivers of
+regional economic growth and prosperity, stressing in the same time a relationship between
+innovation and KIBS (Phillipson et al., 2004; Knudson et al., 2004).
+An important aspect outlined in one of the most important attempts of describing the
+conceptual framework specific to the activity of these knowledge intensive service
+providers (Miles et al. 1995) shows the importance of the professional knowledge in the
+development of the entrepreneurial phenomenon.
+KIBS make a significant contribution to business productivity in certain sectors (Oulton,
+2001; Baker, 2007).
+First, they operate as an innovative practice which will bring later, at least to a certain
+degree, an increase in other economic areas. Second, it directly supports innovation in other
+sectors of the economy. Third, it plays a key role, acting as a bridge of innovative ideas and
+development, in various parts of the economy (Bessant and Rush, 1995; Hargadon and
+Sutton, 1997; Hargadon, 1998; Howells, 2006) and enables the application of basic
+scientific ideas and knowledge, helping companies to exploit them in the best way possible
+(Tether and Tajar, 2008).
+2. Methodology related aspects
+Along this section of the paper three important aspects are clearly described. The first sub
+section deals with the goal of this entire research paper and provides a detailed description
+in this regard. The second part of this section is dedicated to the methodology employed
+during the presented research. In this part of the paper there will be presented a clear
+description of all quantitative instruments that were used. Finally, in the last part of the
+section, the data used are described and their source is presented so that any researcher can
+conduct further research using this paper as a starting point.
+The main goal of the current research paper is to analyze the evolution of the knowledge
+intensive business services sector from Romania, for the period 2008–2014, from a
+territorial point of view and to assess its impact in the general economic development.
+More clearly, the paper provides a comprehensive analysis of the sector at county level,
+emphasizing four dimensions of the sector: number of companies, number of employees in
+the field, turnover of the companies from the field and number of new established
+companies. The evolution of these dimensions both longitudinally and across counties will
+be connected with the entire evolution of the Romanian business sector. The evolution of
+the KIBS sector will also be presented in the broader evolution of the Romanian economy,
+at county level, for the above mentioned companies. In the following sections of the paper,
+the main implications of the findings reported in this paper will be extensively discussed.
+The analysis presented in this paper is conducted at county level. The evolution of the four
+dimensions (mentioned in the previous sub-section) of the KIBS sector are analyzed for the
+period 2008-2014 both as indicators presented in absolute values and relative indicators
+computed as shares from the national total. This approach enables us to also conduct an
+analysis for assessing the spatial disparities (Strat, 2014) between Romanian counties. This
+task is taken further by the use of a time series of Gini Coefficients which allows a
+longitudinal analysis of the evolution of the disparities. Finally, the relationship between
+the evolution of the KIBS sector and the entire economy of a county (the GDP at county
+level is used as a proxy for the dimension of a county’s economy) is assessed through
+several panel regressions.
+(1)
+GDPit = β 0 + β1 ⋅ no _ firms _ KIBSit + β 2 ⋅ cap _ city _ popit + β 3 ⋅ urbanit + ε it
+
+GDPit = β 0 + β1 ⋅ turnover _ KIBSit + β 2 ⋅ cap _ city _ popit + β 3 ⋅ urbanit + ε it
+Vol. 18 • No. 41 • February 2016
+
+GDPit = β 0 + β1 ⋅ no _ empl _ KIBSit + β 2 ⋅ cap _ city _ popit + β3 ⋅ urbanit + ε it
+
+(3)
+
+Where i = 1, 2… N represents the Romanian counties, t = 1, 2… T represents the time
+(period 2008-2012), βi are the parameters; the real GDP of the counties is determined using
+GDP deflator (2010=100) expressed in mil. lei; no_firms_KIBS represents the number of
+KIBS firms, turnover_KIBS represents the real turnover of KIBS firms determined using
+GDP deflator expressed in mil. lei; no_empl_KIBS represents the number of employees of
+the KIBS companies; cap_city_pop represents the number of inhabitants of each county’s
+capital city expressed in persons; urban represents the urbanization level of the county
+determined as ratio of urban population in total population. The three variables: number of
+firms, turnover and number of employees of the KIBS companies were used as proxy
+variables in order to assess the importance of KIBS activities at the level of the entire
+economy.
+Even though Romania is a member of the European Union since 1st of January 2007 it does
+not have a fully functional regional administrative division. Since 1998 Romania is divided
+into 8 development regions which since they were created have not received an official role
+(these 8 regions serve as NUTS II units). At NUTS III level, Romania is administratively
+organized into 41 counties and a capital city, which is also divided into six sectors (which
+are individual administrative units). Also noteworthy is the fact that even though the
+administrative system of Romania is not fully aligned to the European practices it has done
+some serious steps towards a decentralized administration, during the last 25 years - during
+the communist era, Romania was, like all other communist countries, a highly centralized
+administration. (Figure no. 1)
+
+Figure no. 1: The administrative organization of Romania
+
+The analysis presented in this paper is conducted using time series for the period 20082014. The sources of these data are the Tempo Database, available on the web page of the
+National Institute of Statistics, from Romania, the Eurostat database and the database of the
+National Office of Trade Register. All the data employed in this research are presented at
+county level. The data regarding the number of KIBS firms, the total turnover of KIBS
+companies, the number of employees of the KIBS companies, the number of newly
+established KIBS companies were obtained from the National Office of Trade Register and
+they are not publicly available. From the same source come: the total number of firms, the
+total turnover of companies, the total number of employees of the companies’ sector and
+the total number of newly established companies, at the level of each county. Therefore,
+important to mention is the fact that these data are official data and are those recorded at the
+level of the Ministry of Public Finances.
+The data regarding: the GDP of each county, the number of inhabitants of each county and
+the number of inhabitants of each county’s capital city were downloaded from the Tempo
+Database. Also using data from the Tempo Database, the urbanization level was computed
+by the authors, for each county, for the entire analyzed period.
+3. Results and discussions
+The evolution of the knowledge intensive business services sector at the level of the
+Romanian counties and at the level of the entire Romanian economy can be regarded as an
+accurate indicator of the economic development level, due to the fact that all the included
+services require highly educated and specialized employees.
+When discussing the KIBS sector in Romania it is important to state first its coordinates at
+national level, for the analyzed period. In 2008 there were 55332 companies working in the
+field, at national level, and after an oscillating evolution their number reached 56784 in
+2014. In the same time the total turnover increased from 25771 million lei to 34310 million
+lei and the number of employees decreased from 208163 to 197225. (figure no. 2)
+
+Figure no. 2: The evolution of the turnover/employee
+in the KIBS sector - nominal values
+What is also important to mention is the fact that the productivity in the KIBS sector
+recorded an increase during the period 2008–2014. The same trend, with an increase rate of
+over 40% is recorded by the productivity (when expressed in turnover/employee) of the
+entire companies’ sector at national level.
+Noteworthy is also the fact that during the analyzed period most of the first eleven counties
+have increased their number of employees reported to the total number of employees from
+their economies. This trend is also visible when looking at the evolution of the percentage
+of KIBS employees (in the national number of employees) represented by the first ten (the
+presented eleven, except Bucharest) counties, during the analyzed period. (table no. 1)
+Table no. 1: The number of KIBS employees per 100 employees
+for the most (eleven) KIBS oriented counties
+2008
+
+2011
+
+2014
+
+Cluj
+
+6,60
+
+Cluj
+
+8,52
+
+Cluj
+
+11,56
+
+Ilfov
+
+6,30
+
+Bucharest
+
+7,67
+
+Bucharest
+
+8,56
+
+Vâlcea
+
+6,18
+
+Ilfov
+
+6,12
+
+Iaşi
+
+7,42
+
+Bucharest
+
+5,67
+
+Iaşi
+
+5,05
+
+Ilfov
+
+6,59
+
+Braşov
+
+5,24
+
+Braşov
+
+4,78
+
+Dolj
+
+6,25
+
+Timiş
+
+5,23
+
+Timiş
+
+4,74
+
+Timiş
+
+5,08
+
+Prahova
+
+5,13
+
+Prahova
+
+4,28
+
+Braşov
+
+4,92
+
+Iaşi
+
+4,81
+
+Dolj
+
+3,30
+
+Prahova
+
+4,81
+
+Călăraşi
+
+3,59
+
+Constanţa
+
+3,17
+
+Galaţi
+
+4,27
+
+Constanţa
+
+3,59
+
+Galaţi
+
+3,07
+
+Călăraşi
+
+3,65
+
+Dolj
+
+3,50
+
+Călăraşi
+
+3,04
+
+Mureş
+
+3,39
+
+During the same period, the percentage represented by the 10 counties with the smallest
+number of KIBS employees has decreased to a value of 2.32% (after a value of 2.7% in
+2008). Therefore, it is obvious that the KIBS activity is increasing in concentration in
+Romania. This trend is recording a constant increase starting from 2010 (the year when the
+effects of the global crisis had the greatest impact in Romania). Cluj County, Bucharest,
+Iasi County, Brasov County and Prahova County are emerging as growth poles in this
+sector and as mentioned before their importance grows year by year. (figure no. 3)
+When discussing the evolution of the KIBS turnover, the previously mentioned
+phenomenon is even more obvious and the increase is much more visible. In the same time,
+the decrease recorded by the weakest 10 counties is also very clear. More exactly, the
+weakest 10 counties are only responsible for 1.22% (of the KIBS turnover) from the
+national turnover in 2014. In the same time Bucharest is diminishing its importance,
+reaching a value of 58.51% while it started at 66.43%. Therefore, it is clear that there can
+be discussed over a king and viceroys effect when analyzing the KIBS domain. Moreover,
+during the analyzed period, the importance of the king decreases while the importance of
+the viceroys increases. (figure no. 4)
+
+Figure no. 3: The evolution of the percentage of KIBS employees (from the national
+number) represented by the first 10 counties (except Bucharest) – percentages
+
+Figure no. 4: Percentage represented by the KIBS turnover in the total turnover
+(first 10 counties without Bucharest) - percentages
+The evolution of the average turnover/KIBS company is bringing supplementary evidence
+that the domain is increasing its productivity, becoming more important at national level.
+Over the period 2008-2014 the increase of the average turnover per KIBS firm was of over
+29.73% while the average increase per national economy was of only 22.53%. (figure no. 5)
+Another notable fact is that the average number of employees/KIBS company has
+decreased with around 8% while the average number of employees/company (at the level of
+the entire economy), at national level has increased with around 4%. Taking in
+consideration this decrease in the number of employees together with the increase in
+average turnover/KIBS company it is clear that the domain has increased its productivity
+with a higher rate than the entire economy. (figure no. 6)
+The increase of the disparities between Romanian counties, in what the KIBS sector is
+regarded, during the analyzed period, is obvious when using the time series of Gini
+coefficients which show a clear positive trend. (figure no. 7)
+
+Figure no. 5: Average turnover/KIBS Company,
+computed at national level – real values
+
+Figure no. 6: Average number of employees/ Company (and KIBS company),
+computed at national level – nominal values
+
+Figure no. 7: The evolution of the Gini coefficients (number of firms),
+computed at national level (except Bucharest)
+In order to further validate the main objective of the study, the empirical analysis contains
+three regression models based on panel data.
+In the three econometric models, the hypothesis of random individual and/ or time effects is
+rejected (Haussmann test, appendix 1). The analyzed process presented individual fixed
+effects for all the three models. Also, the Redundant Fixed Effects Test-LR- rejected the
+null hypothesis (fixed effect are redundant), both for individual effects and for time effects
+and also for the combination individual and time fixed effects (appendix 2), in all models.
+The results of the estimation process - highlighted in table no. 2 ‒ strongly support the
+hypothesis that the knowledge intensive business services sector from Romania, for the
+period 2008-2014 manifests in terms of territorial distribution a significantly positive
+impact on the whole economic development.
+Table no. 2: The empirical results of the econometric models
+Dependent Variable: GDP_REAL
+Method: Panel EGLS (Cross-section weights)
+Sample: 2008 2012
+Periods included: 5
+Cross-sections included: 41
+Total panel (balanced) observations: 205
+Variable
+C
+No_firms_KIBS
+Turnover_KIBS
+No-empl_KIBS
+Cap_City_Pop
+Urban
+
+R-squared
+Adjusted R-squared
+S.E. of regression
+F-statistic
+Prob(F-statistic)
+Durbin-Watson stat
+
+Model I
+
+Model II
+
+Model III
+
+-42333.48*
+2.350350***
+
+-45188.85*
+
+-43932.44*
+
+2.903080*
+0.184366*
+445.7640*
+
+0.992773
+0.990843
+607.5179
+514.3427
+0.000000
+1.814047
+
+0.158465*
+604.3404*
+
+0.993240
+0.991435
+598.2511
+550.1389
+0.000000
+1.8111
+
+0.017164***
+0.168587*
+563.7518*
+
+0.992474
+0.990464
+609.9978
+493.7529
+0.000000
+1.816437
+
+Note:* represents statistical significance at 1% level, ** at 5% level and *** at 10% level.
+Thus, the regression analysis provides further evidences supporting the findings of the
+previously presented analysis, namely that the main features of the KIBS domain: number of
+firms, turnover, and number of employees can be regarded as main engines of the economic
+growth at the level of the Romanian counties (the coefficients of these variables are positive
+and statistically significant at several significance levels in the estimated models).
+
+All estimated models are valid: Prob (F-stat.) is less than 0.05, Adjusted R2= 0.99, DurbinWatson Stat. = 1.81. The estimators are statistically significant at several levels of
+significance (see the table) and it is clear that all the three KIBS variables can be used in
+different econometric models destined for estimating the size of the economy at county’s
+level, (all estimators are positively correlated with the endogenous variable).
+The impact and the importance of the control variables, in estimating the size of the
+economy (at county level), namely: the degree of urbanization of the county and the
+population of the capital city of the county, is very clearly supported by the positive and
+statistically significant coefficients from the models.
+The county features (individual effects), given by the specificity of each county are
+ˆ
+captured by the coefficients αi (appendix 3 – Fixed Effects Coefficients). The differences
+
+ˆ
+in the values of αi may also have as causes different characteristics of the county, among
+which the increase of KIBS firms, of employees or turnover.
+In order to test the hypothesis according to which the fixed effects specific to each county
+can be explained by the evolution of KIBS variables, the effect of these variables on the
+ˆ
+αi coefficients were evaluated using the following three models:
+
+ˆ
+αi = a0 + a1*nr_firme_KIBSi + ei
+ˆ
+αi = a0 + a1*CA_KIBSi + ei
+
+(5)
+
+ˆ
+αi = a0 + a1*nr_angajati_KIBSi + ei
+
+(6)
+
+(4)
+
+ˆ
+In the first model, the number of KIBS firms explains 44% of variation of αi , while in the
+second model, the turnover explains only 10% of the variance of the fixed effects, and at
+the level of the third model, the number of employees explains at most 28% of the variance
+of the fixed effects. (table no. 3)
+Table no. 3: The results of the estimations for the fixed effects models
+Variable
+
+Model I
+
+Model II
+
+C
+No-firms_KIBS
+Turnover_KIBS
+No_empl_KIBS
+
+13053.35* 3150.068* 6749.626*
+-14.33474*
+-9.77E-06*
+-2.767734*
+
+R-squared
+Adjusted R-squared
+S.E. of regression
+Sum squared resid
+Log likelihood
+F-statistic
+Prob(F-statistic)
+Prob(Wald F-statistic)
+Durbin-Watson stat
+
+0.439335
+0.424959
+13206.02
+6.80E+09
+-446.1768
+30.56020
+0.000002
+0.000000
+2.204530
+
+0.098807
+0.075700
+14962.60
+8.73E+09
+-451.2969
+4.275978
+0.045334
+0.045334
+2.145
+
+Model III
+
+0.278857
+0.260366
+13384.71
+6.99E+09
+-446.7279
+15.08081
+0.000387
+0.002093
+10.86
+
+White heteroskedasticity-consistent standard errors & covariance
+In the second phase, the residuals of these models were analyzed (the part of the variation
+which could not be explained by the previous presented models). These residuals could be
+explained by better performance comparative with the national average in terms of
+knowledge-based services and, of course, the influence of other factors with national
+particularities (residual model).
+The residual analysis, for the first model, which includes the influence of the number of
+KIBS firms, reveals some counties with a low performance level, namely: Botosani
+County, Salaj County, Harghita County, Dambovita County and Teleorman County and
+some with a higher performance level (over the national average): Braila County, Galati
+County, Dolj County and Constanta County. (figure no. 8)
+
+Figure no. 8: The distribution of residuals
+for model I which investigates the county level disparities
+For the second model which includes the influence of the turnover, there are also some
+counties which perform below the national average, like: Salaj County Harghita County,
+Dambovita County Teleorman County and Giurgiu County and some counties which
+perform above the national average, like: Braila County, Cluj County, Galati County, Dolj
+County, Constanta County , Brasov County and Iasi County. (figure no. 9)
+
+Figure no. 9: The distribution of residuals
+for model II which investigates the county level disparities
+In our third model, which presents the influence of the number of employees, the situation
+is similar, with counties performing consistently below the national average, such as:
+Tulcea County, Gorj County, Harghita County, Dambovita County Teleorman County and
+Giurgiu County and counties performing above the national average, like: Braila County,
+Galati County, Dolj County, Constanta County and Iasi County. (figure no. 10)
+
+Figure no. 10: The distribution of residuals
+for model III which investigates the county level disparities
+Concluding we can state that, counties that record performances below the national
+average, due to the influence of the KIBS sector, are counties such as: Salaj County, Tulcea
+County, Harghita County, Dambovita County, Teleorman County and Giurgiu County
+(counties with positive values for the Fixed Effects), while a superior (above the national
+average) performance is recorded by counties like: Cluj County, Braila County, Galati
+County, Dolj County, Constanta County and Iasi County (counties with negative values for
+the Fixed Effects).
+
+Conclusions
+This paper can be easily framed in the literature that analyzes the evolution of regional
+disparities. Within this study, the focus is on the development of the sector of the firms that
+offer a high level of knowledge (companies active in KIBS) and hence on the importance of
+this area in the economy, the analysis being done at the county level.
+Before proceeding to a description of the main results obtained in the current research and
+their main socio-economic implications, it is important to mention one more time the main
+limitation of the approach proposed in this paper. This refers to the quality of data and in
+particular to the degree of inclusion of the KIBS indicators, which are based on official
+reports of MFP (unfortunately not all companies comply).
+Over the analyzed period, the national level KIBS area showed an upward trend in terms of
+number of firms, while the number of firms in the economy has fallen, this being
+interpreted as a structural shift of the economy towards a knowledge intensive domain (the
+share of KIBS firms increased by over 1% on the total number of companies). In terms of
+number of employees, the domain lost nearly 6% of employees over the analyzed period,
+however, this number of employees represents a higher percentage with 0.7% in the total
+number of employees at national level, at the end of the period. Also, in the case of the
+average turnover/firm, the KIBS area recorded an increase with over 10% higher than the
+evolution recorded by the average turnover/firm in the entire business sector.
+All these aspects highlighted the fact that the structural reorientation of the economy
+towards the KIBS area can be explained by higher qualitative characteristics of this field (a
+higher growth of the productivity).
+Another important trend recorded for this area (with strong entrepreneurial character) is the
+concentration of activity, i.e. development of growth poles. Over the analyzed period these
+growth poles, including Bucharest, Cluj County, Timis County, Iasi County and Brasov
+County are becoming more attractive for this type of businesses. The results of the
+estimated econometric models, displaying positive and statistically significant coefficients,
+support the hypothesis identified during the literature review process, namely the one
+stating that entrepreneurship and innovation (KIBS activities) are key drivers of success. At
+the same time the importance of the least attractive 10 counties decreased from 1.61% as it
+was the turnover of KIBS companies in the KIBS turnover of the national level in 2008 to
+1.22% in 2014. It is important to mention the fact that in this field we can discuss about the
+king and viceroy effect, Bucharest being responsible in 2008 for 65.21% of the national
+KIBS turnover and of approximately 58.51% in 2014. Thus, it becomes clear that for the
+implementation of sustainable development policies it is mandatory to promote measures to
+reduce the concentration of KIBS activity in the above mentioned poles (Bucharest and the
+first ten counties are responsible for 88.77% of the KIBS national activity in 2014). The
+existence of some high county level disparities is further confirmed by the estimated
+models. Starting from the estimated values of the fixed effects we can identify counties
+with a high performance, namely: Cluj County, Braila County, Galati County, Dolj County,
+Constanta County and Iasi County and counties with a low performance, such as: Salaj
+County, Tulcea County, Harghita County, Dambovita County, Teleorman County and
+Giurrgiu County.
+Concluding, it becomes obvious that the work done by companies from the KIBS area must
+be regarded as focusing on support services for other productive activities and hence it
+should rather be interpreted more as an indicator of the development level of a region
+(econometric models clearly indicated that variables KIBS proposed can be used as
+indicators of economic activity in a territorial unit) and not as a direct catalyst for the
+economic activity of the region.
+Thus, it is clear that economic activity in Romania has seen a concentration (it is obvious
+when analyzing the time series of Gini coefficients) over the period 2008-2014 which,
+besides the immediate effects of optimizing economic flows can have a negative long-term
+effect, leading to lower economic robustness to external shocks. It is clear that the legacy of
+the global crisis is represented by two Romania: the "effervescent" Romania of growth
+poles that continues on the convergence path towards the EU's economic level and the
+Romania of the poles of "quiet" that seems to have derailed from the convergence path.
+Future research directions should include other key areas of the national economy in order
+to allow the construction of a complete picture which can be used as a basis for decision
+making by those responsible for the construction of macroeconomic policies.
+-2394.74
