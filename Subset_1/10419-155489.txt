@@ -1,0 +1,501 @@
+
+
+
+face more rigorous government regulations, North American counterparts are more profit
+driven. Because the targeted remanufacturers of this research are U.S. based, this paper is
+more focused on providing economical competitive advantage, such as matching supply
+with demand to maximize profit, and less on governmental regulation factors or environmental issues.
+The fluctuations of both supply and demand sides are the most critical issues facing
+industry today. Many other remanufacturing topics, such as inventory management,
+are designed to either isolate or mitigate these fluctuations. In a survey by Hammond
+et al. [8], automotive part remanufacturers considered that parts availability was the
+number one difficulty for their operation (43% of them), and 41.2% of them used availability of parts as the main criterion to decide whether or not to remanufacture a given
+product. Marx-G?mez et al. [9] and Guide et al. [10] stated that the uncertainty in time
+and amount was the single most important factor that influences remanufacturing system planning. Guide et al. [3] listed seven major problems that remanufacturing systems faced today, and three of them were related to this problem. Uncertainty from
+supply side (returned products) is the most crucial characteristic of remanufacturing
+problems, and it distinguishes remanufacturing from traditional manufacturing systems.
+Unlike traditional manufacturers, remanufacturers usually have less or no direct control
+of the returned parts. Figure 1 illustrates an example of variations in both supply and
+demand sides. From a remanufacturer? s perspective, supply is the volume of returned
+used products, and demand is how many remanufactured products are desired. The
+overlapping area denotes remanufacturable quantity when delays in inventory, remanufacturing time, and other factors are neglected. As the figure shows, remanufacturing
+operations are essentially matching processes which intend to maximize the overlapping region under demand and supply curves, and in order to match, forecasts of both
+supply and demand curves are necessary. Moreover, in addition to the variations in
+quantity and arrival times, quality variation is equally important since returned products can have a wide range of conditions, but finished products usually need to meet
+the same quality specification. This poses a unique problem which traditional manufacturing systems do not encounter, so new techniques are needed to predict and actively
+change the shape of both supply and demand curves. Some researches take incentives,
+such as discount and advertisements, into account to optimize the overall remanufacturable volume [11]. Our study is more focused on the prediction of the supply curve
+(see Figure 1).
+There exists a spectrum of remanufacturing scenarios which have very different types
+of return characteristics. For example, the return process of leased printer is very
+
+
+predictable since the return date and/or quality are predefined by the leasing contracts.
+However, the return characteristics of many fashionable goods and consumer electronics are much more random since the sales of the items, usage pattern, and customer return behavior are all fairly unpredictable. Because of this variation in predictability,
+different forecasting approaches are required for different business settings. This paper
+targets the recently developed electrical vehicle (EV) battery return applications. The
+urgency and importance of EV battery remanufacturing is because of limited and costly
+resources, the modular nature of lithium batteries, and potential resale market. Current
+lithium ion (Li-ion) battery-powered vehicles, such as Chevy Volt and Nissan Leaf,
+whose batteries are warranted for 8? 10 years or 100,000? 150,000 miles, are likely to fail
+before the expected life of the vehicles. The returned battery may still have significant
+residual value. The cost of Li-ion battery is still very high, usually at $1,000? $1,200 per
+kWh. Therefore, remanufacturing has great potential to dramatically reduce the total
+life-cycle costs of Li-ion batteries [12,13]. Industries also propose different types of purchase/warranty schemes in order to allow customers to have operational batteries for
+the entire vehicle lifespan. That is, customers are now able to purchase not only a single battery pack with the EV but also the warranty of battery use-time, or the combination of them. In this type of business scenario, broken or degraded batteries can be
+returned or traded in to dealers or battery collectors and be replaced with a new battery
+before the predefined total use-time expires. The new batteries can then be made with
+components from returned batteries. This creates strong incentives for customers to return and also for manufacturers to remanufacture. Since this business scenario is completely new, the goal of this research is to develop a long-term forecasting method to
+remanufacturers and related suppliers to assist their operational decisions.
+The challenges for forecasting of product returns are mainly from two sources: lack
+of quality/credible data and unproven assumptions. There is no or very limited historical data since this type of remanufacturing business scenario is never before seen in
+the industry and data collecting is also limited or of low accuracy/credibility in similar
+fields. These challenges seriously limit the type of forecasting techniques we can implement. With these constraints, we propose to build a physical model-based forecasting
+method instead of traditional data-driven methods which heavily rely on data quality
+and sophisticated statistical models.
+The objective of this research is to provide a methodology to forecast both quantity
+and quality of returned products, such as EV batteries, based on previous/expert knowledge on indirect information rather than direct historical data. The rest of the paper is
+organized as follows. Literature review reviews previous literature regarding remanufacturing return forecasting. Forecasting of product return quantity presents the methodology and main factors for quantity forecasting of product returns, and Quality
+forecasting of returned products is the formulation for quality forecasting and numerical cases. The final section summarizes this research work and points out possible future research directions.
+
+Literature review
+Although sale forecasting has been studied for many decades, there are few scientific
+papers regarding return item forecasting for remanufacturers, and majority of them are
+
+and production planning [14]. For some scenarios, simple classical forecasting techniques, such as moving average and exponential smoothing, are sufficient [15]. However, often, there are more valuable information that people can take advantage of, and
+a variety of forecast outputs are required for different situations [16]. Therefore, specific techniques are developed to tailor to those specific needs. In some cases, periodical information, such as monthly volume, is available and the need is to predict in the
+future volume [17]. In other cases, historical return dates are available and other characteristics, such as return lead times, are predicted. Kelle and Silver [18] developed four
+different forecasting methods for expected value and variance of return lead times of
+containers. Goh and Varaprasad [19] used a transfer function model which included
+factors, such as previous returns, sales, and time lag, to predict the timing and quantity
+of returns of Coca-Cola bottles. Toktay et al. [20] developed a Bayesian estimationbased distributed lag model which used newly collected data to update estimated parameters. As listed above, the majority of existing studies use statistics-based method
+for prediction with historical data.
+Other types of forecasting methods including previous knowledge, simulation, or
+known sub-models are often used. Marx-Gomez et al. [9] combined simulation and
+fuzzy logic models to forecast the quantities and timing of returns of photocopier.
+Simulation was used to obtain sales, failures, usage intensity, return quotas, and other
+so-called impact factors. Then, fuzzy controller was used to combine these impact factors and give one-period prognosis and neuro-fuzzy network was used to provide
+multi-period prognosis. Similarly, Hanafi et al. [21] used fuzzy-colored petri nets to
+combine different sub-models, such as technology development, consumer demands,
+and product reliability to forecast returns at different locations over a specific time
+period. For others, non-parametric models are more suitable. For example, Monte
+Carlo simulation is employed to estimate CRT television sales. The gap between existing literature and our current need is that the above methods are used for prognosis
+and for relatively short-term prediction but not for lifespan planning of the business or
+facility. Furthermore, the existing literature has not addressed much on the quality variation of returned products which is critical for battery remanufacturing. To fill the gap
+in the existing literature, this paper develops a new forecasting tool for end-of-life
+product returns in terms of timing, quantity, and quality to support the remanufacturing strategic planning and decision making.
+
+Forecasting of product return quantity
+Quantity forecasts provide information of how many product return a remanufacturer expects to obtain at a future time. However, unlike most forecasts which only deal with onetime customer decision, such as buying or not buying, returning is determined by a series
+of cascaded events, i.e., product purchase decision, product usage, and product return decision. In this section, a new method is presented for predicting product returns in terms
+of quantity only. This is critical to determine the availability of remanufacturable products. The key to the new method is to utilize an effective characterization of three main
+influence factors? sales, life expectancy, and return behavior? to facilitate an accurate
+
+
+
+Sub-models for influence factors
+Sales distribution, S(t)
+
+Sales forecasting has been studied for many decades, and each manufacturer or third
+party consultant usually has its own forecasting models. Moreover, it is common in industry practice that non-equation form of modeling is used, and people tend to focus
+more on market research perspective of the forecast. Techniques, such as concept test,
+focus groups, perceptual mapping, conjoint analysis, and consumer clinics, are more
+often seen in order to have a better understanding of the customers? preference and to
+adjust future plans. For example, the information acceleration (IA) methods are used
+for GM? s new electric vehicle sales prediction [22]. On the other hand, academic researchers are still interested in more mathematics-orientated approaches because they
+can provide a more direct relationship among different influential factors. For this reason, this paper provides both analytical and numerical methods in order to accommodate current industry practice.
+For analytical-based forecasts, there are generally two categories: aggregated and
+disaggregated models. For the aggregated or top-down approaches, only the cumulated
+behavior of a group of people is studied. On the other hand, disaggregated or bottomup models study individual decision makers that underlie market demand or supply
+and integrate them. Although the emphasis in forecasting and econometrics has generally shifted from aggregated to disaggregated models in the past decades, most forecasting models people use in industry today are still of aggregated form simply due to the
+difficulty and expense of collecting data on individual consumers. Out of all aggregated
+models, Bass diffusion model is the most often used [23].
+Diffusion of products or innovation is the theory that seeks to explain how, why, and
+at what rate a new idea spreads through societies. The parameter that characterizes this
+process is called the rate of adoption, and it is defined as the relative speed in which
+members of a social system adopt an innovation. This rate is usually measured by the
+length of time required for a certain percentage of the members to adopt. Customers
+can be divided into many categories, such as innovators, early adopters, early majority,
+late majority, and laggards. Groups are different in how they perceive different
+innovation factors, such as relative advantage, compatibility, and complexity of the
+product. Bass diffusion model is chosen because it has all the essentials of diffusion
+models yet is the most simplified and intuitive version. In this model, only two customer groups, early adopters and followers, are considered. The sales only include the
+originally manufactured products and the remanufactured products are only used for
+warranty repair but not for original sale.
+Mathematically, we use the following differential equation to represent the Bass
+diffusion
+f
+
+or imitator factors in the original model. Sales volume at time t, S(t), is the rate of
+change of installed base f(t) multiplied by the market potential, m, and has the form of
+
+In real practice, p and q are set equal since early adopters usually act much quicker
+than followers. The choice of p and q depends on many other social factors and industry [24].
+Bass diffusion model is a generalized form of other more commonly used ? s-curve?
+functions. When q =0, it reduces to standard exponential distribution with λ = p. When
+p = 0, it reduces to logistic distribution. Bass diffusion model is also a special case of
+the Gamma/shifted Gompertz distribution.
+Product breakdown distribution, B(t)
+
+Besides sale information, another essential influencing factor for battery return forecasting is battery life expectancy or the degree of quality degradation during the usage
+stage. Currently, battery condition monitoring typically refers to the evaluation of battery state of charge (SOC), or the state of health (SOH). SOC is defined as the amount
+of remaining charge in a battery before a recharge is required, and SOH is the potential
+chargeable capacity of a battery compared to the original unused one. For electric vehicle batteries, consumer usually does not return when the battery is completely dead
+but rather until certain degradation criteria are reached, such as SOC drops below
+75% ~85%. Therefore, the return time prediction is usually to predict the time length
+that a battery can last until certain manufacturer predefined threshold is reached.
+The conventional approach for life expectancy prediction is to model product condition or degradation by an appropriately chosen random process, and the occurrence of
+failure or reaching of certain threshold is modeled by a Poisson process. Weibull distribution is chosen for this study because its failure rate function is only current state
+dependent. The system condition, or degradation state, is modeled by a Brownian motion with positive drift. Under this assumption, the time to failure corresponds to the
+first passage time of the Brownian motion and follows an inverse Gaussian distribution.
+Weibull distribution is well studied for reliability engineering, and reference can be
+found in many textbooks (i.e., [25]).
+Weibull distribution is one of the solutions that assume the degradation process is
+deterministic. The probability density function g(t), the hazard function h(t), and cumulative distribution function G(t) of Weibull distribution are:
+
+Here, the breakdown function B(t) is exactly the probability density function, i.e.,
+B(t) = g(t) [24]. Weibull distribution is a very versatile reliability distribution and widely
+used in many reliability engineering applications. By changing the shape parameter, the
+failure rate h(t) can be changed directly. It can be increasing, constant, or decreasing
+over time. Piecewise curve fitting is commonly used to model the classic ? bell curve? for
+failure rate [26,27].
+Customer return function, C(t)
+
+Customer return behavior is the third influencing factor that needs to be considered in
+the forecasting model. The warning indicator of a battery failure is usually signaled on
+the dashboard, very similar to maintenance reminder signals. Also similar to the maintenance behavior, people usually do not bring back the vehicle for battery treatments
+immediately when they see the warning signal. This is probably due to the fact that the
+vehicle is still perfectly drivable and usually no noticeable changes are detected. Another reason is that SOC or SOH aspects of the battery usually degrade very gradually
+over a period of years without noticeable abrupt changes.
+To the authors? knowledge, people do not return immediately, and sometimes the
+time delay between product failure and the return action can be as long as half a
+year or more. The return function is usually heavily skewed to the left as illustrated in Figure 2. This long-tailed distribution indicates that the majority of people
+will return damaged or unwanted product in a short period of time. However, there
+are also a considerable amount of people who will return after a relatively long period
+of time. This kind of characteristics can be modeled by inverse Gaussian functions
+due to its skewness, positive support, and relatively easy expression (see Figure 2).
+Choosing inverse Gaussian is also because its flexibility in modeling the following
+three characteristics: (1) the majority of people return within certain time period, (2)
+only a small portion of them return whenever they found convenient, and (3) the rest
+
+
+
+Inverse Gaussian functions have the general probability distribution function of
+
+
+where j >0 is the mean and i >0 is the shape parameter. C(t) represents the probability
+that the customer returns the battery t time units after its failure.
+Although there are many other factors that may influence the quantity and quality of
+the returned products such as government regulations, they are either not appropriate
+for the EV battery return in North America or not proven to have significant influence
+on return quantity or quality. Therefore, the three main factors listed above are the
+focus in this study.
+Return quantity forecasting in continuous case
+
+As illustrated in Figure 3, the return quantity at any point in time, such as at point R,
+is the summation of different sale quantity and product life expectancy combination.
+That is, returned product at R may be purchased at time S1 and used for B1 years, or
+purchased at time S2 and used for B2 years, and so on.
+One way to characterize the relationship of these three influential factors is to use
+convolution. Convolution for two continuous functions f(t) and g(t) is defined as
+
+
+where R(t) denotes the return quantity at time t, S(t) is the probability function of sales
+quantity, B(t) is the probability function of breakdown time, and C(t) is the probability
+function of customer return. Note that B(t) and C(t) may not be normalized to 1. The
+
+
+
+threshold during the lifespan of an electric vehicle. The integration of C(t) is less than
+1 because not all failed batteries are returned. Some customers may choose not to return or return to third party collectors.
+However, due to the complexity of the functions S(t), B(t), and C(t), there is no
+closed-form solution for the convolution. Because only a finite range is needed, these
+functions can be approximated over this desired range by some polynomial functions.
+The coefficients of the polynomial are chosen such that the weighted error between
+the approximation and original function is minimized in a least squares sense. For
+example,
+θ
+
+Return quantity forecasting in discrete form
+
+As mentioned, the majority of forecasting models used in industry are not analytical
+based but are most likely produced and derived from different forms of marketing researches. Periodical, such as monthly or yearly, data instead of equation form of S(t), B
+(t), and C(t) are provided. The advantage of using a discrete form is that the raw data
+form from reliability tests can be used directly without fitting into a model first. Similar
+as continuous convolution, a discrete form of convolution can be defined as
+
+
+where both f[n] and g[n] have finite positive support, and l is a scale factor which is
+related to number of samples for both f[n] and g[n] and is used for normalization. Due
+to the simplicity of discrete convolution computation, many continuous functions are
+first discretized then are taken convolution in discrete domain. In this way, no symbolic
+integral of continuous functions is needed.
+Numerical examples
+
+This section uses a numerical example to demonstrate the modeling procedure. The
+sales volume of battery packs are the same as the sales volume of the electric vehicles.
+A typical EV model usually has a life of 3 ~ 4 years. Hence, it is reasonable to assume
+95% of the Bass diffusion function to be in the range of [0, 4]. Substituting p =0.08,
+q =2, and m =1 into Equation 3, we obtain S(t) and its polynomial approximation
+~
+S
+
+The result is shown in Figure 4.
+Monte Carlo simulation verification
+
+Another way to predict the quantity of returned product is using Monte Carlo simulation. Monte Carlo simulation is a family of computational algorithms that rely on
+repeated random sampling in order to obtain the final results. Assume there total customer to be 100,000, so 100,000 samples will be used. For each sample, its sale date, expected product life, and customer returns are generated according to the functions S(t),
+B(t), and C(t), respectively. For sales date, it follows Bass diffusion model as in previous
+sections. Technically speaking, it is not strictly a probability distribution since the integration of the function may not add up to 1. Therefore, normalization is needed before
+sampling. For each sample, the deterministic calculation is then calculated:
+
+2.5
+Sales, S(t)
+Breakdown, B(t)
+Consumer Behavior, C(t)
+Return, R(t)
+
+Distributions
+
+2
+
+1.5
+
+1
+
+0.5
+
+0
+
+0
+
+2
+
+4
+
+6
+Time (Years)
+
+Figure 4 Return quantity forecasts.
+
+8
+
+
+Return date ?
+
+
+
+sale date ? product life ? return delay
+
+For aggregation, histogram is used to obtain the distribution of sale date, product life,
+return delay, and return date, as illustrated in Figure 5.
+To compare the results from Monte Carlo simulation with analytical results, the
+difference between two curves is measured by f-divergence method. One of the fdivergence methods, KL-divergence value, is 0.028, and Hellinger distance is 0.035
+which are all much less than 1. This indicates the results obtained by both methods
+are very close to each other.
+Properties of predicted return function
+
+Because of convolution and the general shapes of S(t), B(t), and C(t), the convolution
+operation acts like a weighted moving average. This moving average can also be viewed
+as a ? low-pass? finite impulse response filter. This means that only ? low frequency? information will be preserved, and ? high frequency? information will be eliminated by convolution. Here, ? frequency? of a function roughly means how many times a function varies
+in a given time interval. By taking Laplace transform in the continuous case or Ztransform in the discrete case, it can be shown that distributions used by S(t), B(t), and
+C(t) are essentially low-pass filters [28]. As a result, R(t) is smoothed by each distribution, and any small ? noises? of S(t), B(t), or C(t) will be reduced. Figure 6 demonstrates
+a case where ? seasonality noise? (a sine function), or ? high frequency? function, is added
+to the sales function, S(t). Sine function is chosen because it contains only a single
+frequency.
+
+
+where t is in radian. Please note that the sine function has much higher frequency than
+the original function. Also note that after the sine function is added the mean, variance
+and the area under the curve of S(t) is preserved. The resulting function R(t) is exactly
+the same before and after adding this ? seasonality noise? component (see Figure 6). Due
+5000
+
+Analytical results
+Monte Carlo simulated results
+0.5
+4000
+
+B(t)
+
+Distributions
+
+0.4
+
+3000
+
+R(t)
+
+0.3
+
+2000
+0.2
+
+Monte Carlo Simulation
+
+S(t)
+
+1000
+0.1
+
+0
+
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+0
+12
+
+
+Page 12 of 18
+
+0.7
+Sales S(t)
+Return R(t)
+Sales S(t) with Noise
+Return R(t) with Noise
+
+0.6
+
+Distributions
+
+0.5
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+Time (Years)
+
+Figure 6 Adding high frequency noise to S(t) results in overlapping R(t)s.
+
+to this smoothing effect, R(t) is not sensitive to ? high-frequency? changes in S(t), B(t), or
+C(t).
+
+Quality forecasting of returned products
+Besides the quantity of the returned products, quality of them is another critical information that production planners would like to know beforehand for remanufacturing
+planning. In this study, the return product quality is defined as the remaining useful life
+(RUL) of the unbroken parts of a returned product. A typical EV battery pack usually
+consists of hundreds of battery cells. When the performance measurement of a battery
+pack, such as SOC or capacity, drops below certain threshold, only one or a few cells
+fails or degrades to unacceptable condition while the majority of the cells are still in
+good or reasonable quality. Because not all the cells degrade at the same rate, it is critical to estimate the RUL of good cells, so the remaining value can be assessed. RUL is
+essentially a conditional probability distribution which determines how long it takes to
+reach certain threshold given that the battery cells have already survived certain among
+of time (the time for the battery pack reaching the threshold). In order to express the
+quality information along with the quantity information, three-dimensional plots are
+used. The x-axis represents the battery return date, the y-axis is the expected quality
+indicated by remaining life, and z-axis is the quantity distribution.
+Quality distribution, Q(t, x)
+
+Remaining useful life (RUL) is defined as a conditional random variable Xt = T − t when
+T > t, where t is the time where a part has survived so far and T is the time to failure.
+The conditional reliability function Rt(t) contains all the information required for RUL.
+The reliability function is defined as
+?
+
+where x = T − t, and f(t), F(t), and h(t) are time to failure probability density function
+(pdf ), cumulative distribution function (cdf), and hazard rate functions defined in
+Equations 9? 11. The conditional distribution becomes.
+
+For each breakdown time, t, there is a RUL distribution associated with it which gives
+the third dimension to the final plot.
+Convolution
+
+It is assumed that the quality is uniform when the product is out of the factory
+or at the time of purchase, so the third dimension of S(t) is invariant. So we have
+S(t, x) = S(t). Similarly, because consumer? s behavior will not be affected by the
+RUL of returned battery, their return behavior would not be affected by return time
+either, i.e., C(t, x) = C(t). Because of this invariance in both S(t, x) and C(t, x), the convolution is only performed in one dimension, and it is independent of the ? quality? dimension. That means
+Z
+Quality distribution, Q(t, x)
+
+This distribution is determined by two factors, the product breakdown time t and RUL
+x. The relationship is given by Q(t, x) in Equation 23 for this example. It can be seen
+that when the shorter the product usage time t is, the longer the expected RUL x is, as
+in Figure 8. Because the mode of breakdown function Q(t, x) along the t direction is
+
+
+Customer return distribution, C(t, x)
+
+Similar with the sales function, the customer return behavior function is also constant
+along the quality axis since return behavior would not alter the quality of the product
+itself. That is, C(t, x) = C(t), which is shown in Figure 9.
+Return distribution, R(t, x)
+
+The final returned product quantity and quality plot is shown in Figure 10. The cross
+section of the plot along the time direction at x = 0 is the same as the R(t) from
+Numerical examples.
+From this plot, it can be shown that after return date (t) passes a certain time
+(9 years), or the sum of peak sales date (around 2 years) plus peak breakdown
+time (around 7 years), the returned products are largely in very low quality (x <1
+year). This gives a rough time frame when a returned product is economical to be
+remanufactured. Some other end-of-life treatment, such as recycling or proper disposal, may be employed after certain time.
+Verification with Monte Carlo simulation
+
+For this illustrative example, one million samples are used for each of the random
+input generation. Generation of the sale dates, expected product life, and customer
+return behavior is the same as in Monte Carlo simulation verification. The RUL of
+returned products is generated by randomly drawing samples from Q(t, x) where
+t of each sample is determined by the expected product life samples. Therefore,
+whenever a sample is generated, the Q(t, x) distribution needs to be recalculated.
+
+Figure 10 Return quantity and quality distribution, side view and top view.
+
+Each sample has two components, the return date and return quality. Return date is
+calculated in the exact same way as in Monte Carlo simulation verification. The return
+quality is sampled directly from Q(t, x) as shown in previous subsection. The distribution is obtained by using two-dimensional histogram or other scientific volume imaging
+techniques. The simulation results shown in Figure 11 agree well with R(t, x) obtained
+using analytical convolution-based approach.
+
+Conclusions and future work
+This research provides a methodology to forecast long-term trend of both quantity and
+quality of product returns, or the supply of a remanufacturing system, by modeling
+
+Figure 11 Monte Carlo for returned product quantity and quality.
+
+and their combinatory formulation in a forecasting method. To meet the emerging
+needs of decision support in the remanufacturing industry, reliable forecasting of supply can help determine a reasonable estimate of used products attainable under a given
+set of conditions and further assist decision makings in remanufacturing operations.
+The effectiveness and accuracy of the forecasting model developed in this paper is verified and validated with simulations.
+Generally, the typical goals of strategic forecasting are threefold: (1) estimate opportunity and outcome for future business actives, (2) find what influence and how to influence outcome, and (3) judge the potential risks associated with such business
+actives. The first two are covered by this research. The model developed in this paper
+only provides the most likely outcome based on a single set of assumptions, so potential risks are more difficult to discovery. Future works may include sensitivity analysis,
+scenario analysis, and different assumption management techniques.

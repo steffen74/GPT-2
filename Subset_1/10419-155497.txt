@@ -1,0 +1,2272 @@
+
+
+The economic lot-sizing problem with
+
+employed during the production phase. In addition, remanufacturing tends to reduce
+the total number of products put in the market and later disposed, i.e. long-life products.
+For overviews about remanufacturing, the reader is referred to Ijomah [6], Hormozi [8],
+Sundin [9] and Gutowski et al. [10].
+Richter and Sombrutzki [11] and Richter and Weber [12] consider the ELSR for the
+particular case in which the number of returns in the first period is sufficient to satisfy
+the total demand over the planning horizon. Golany et al. [13] provide a Network Flow
+formulation for the ELSR and an exact algorithm of O(T3) time for the case of linear
+cost functions. They also show that the ELSR is NP-hard for the case of general concave cost functions. Yang et al. [14] show the same result of complexity for the case of
+stationary concave cost functions and suggest a heuristic procedure of O(T4) time for
+the ELSR. van den Heuvel [15] shows that ELSR is NP-hard for the case of set-up and
+unit costs for the activities and unit costs for holding inventory, even in the timeinvariant case, i.e., the same values for every period. Teunter et al. [16] consider two
+ELSR variants with joint and separate set-up costs for the production and remanufacturing, respectively. For the case of joint set-up costs they provide an exact algorithm
+of O(T4). For the case of separate set-up costs, they adapt and compare three wellknown heuristics, including the Silver-Meal based heuristic. Later, Schulz [17] extends
+and improves the work of Teunter et al. [16] about the Silver-Meal based heuristic for
+the ELSR, and Retel-Helmrich et al. [18] provide and compare different mathematical
+formulations for the ELSR with both separate and joint set-up costs. They also show
+that both ELSR variants are NP-hard in general. In Piñeyro and Viera [19] we suggest
+and compare several inventory policies for the ELSR using a divide-and-conquer
+approach, including a Tabu Search-based on procedure. Piñeyro and Viera [20]
+consider the problem of determining the remanufacturing quantities of an optimal
+solution of the ELSR assuming that the periods where the remanufacturing is allowed
+are known in advance. Li et al. [21] suggest and evaluate a more sophisticated Tabu
+Search based on procedure for the ELSR. They propose a block-chain method to produce high-quality initial solutions and a new LP formulation for determining the minimum cost of each block. Baki et al. [22] also exploit the block-chain structure of the
+ELSR solutions in order to provide a dynamic programming based procedure of polynomial time. In Sifaleras et al. [23] Variable Neighborhood Search (VNS) based on procedures are suggested and compared with others solving methods in the literature. The
+authors also present a benchmark set of problem instances with a large number of
+periods. Several authors have considered extensions of the ELSR. Pan et al. [24]
+address a dynamic lot-sizing problem with returns recovery and capacity constraints.
+Mitra [25] analyzes a two-echelon inventory system with returns. Piñeyro and Viera [26]
+consider the ELSR with substitution of remanufactured products by new ones but not
+viceversa.
+In this paper we consider the ELSR formulation introduced by Teunter et al. [16] for
+the separate set-up scheme, i.e., separate set-up costs for producing and remanufacturing. We note that this ELSR formulation is also considered in Schulz [17], Li et al. [21],
+Baki et al. [22] and Sifaleras et al. [23]. Our contributions for this formulation of the
+ELSR are threefold. First we provide a new theoretical result about the form of the optimal solutions of the ELSR, which can be considered an extension of the well-known
+
+options (ELSP). We also note that this result is also valid for the case of timevariant costs with non-speculative motives. Secondly, we use this theoretical result
+for improving the Tabu Search based on procedure suggested in Piñeyro and Viera
+[19] for the ELSR. Finally, we evaluate the original as well as the optimized version
+of the procedure in a benchmark set of large instances (52 periods) introduced by
+Sifaleras et al. [23]. The numerical experiment carried out shows that both the
+original and the optimized version of the Tabu Search procedure outperform the
+VNS based procedure suggested in Sifaleras et al. [23] in over 90 % of the tested
+cases and in about tenth of computation time in the worst case.
+The rest of the paper is organized as follows. Methods section provides the problem formulation and a theoretical result about the optimal solutions of the ELSR.
+Then we describe the improvement performed on the Tabu Search based on
+procedure of Piñeyro and Viera [19]. In Results and discussion section we report
+the numerical experiment carried out for the set of large instances introduced by
+Sifaleras et al. [23]. The paper ends with the Conclusions section with some guidelines for future research.
+
+Methods
+Problem formulation and analysis
+
+We address a dynamic lot-sizing problem of a single product for which the demand requirements of each period over a finite planning horizon must be satisfied
+on time either by producing new items or by remanufacturing used items returned
+to the origin. Figure 1 shows a picture of the flows of items for the inventory system that represents the lot-sizing problem under consideration.
+There are set-up costs for producing and remanufacturing, and unit costs for
+carrying ending positive inventory from one period to the next. As in Teunter
+et al. [16], we consider the following assumptions. Unit costs are assumed zero for
+both production and remanufacturing. Inventory costs for used items are at most
+equal to the inventory costs for serviceable items, i.e. low-cost returns. Cost values
+are time-invariant, i.e. stationary costs pattern. The objective is to determine the
+quantities to produce and remanufacture for each one of the periods in the planning horizon in order to meet the demand requirements on time and minimizing
+the sum of the involved costs. This problem can be formulated as the following
+Mixed Integer Linear Programming (MILP) [16, 17, 21–23]:
+
+
+min
+
+T
+XÈ
+t¼1
+
+K p δ p þ K r δ r þ hs ys þ hu yu
+t
+t
+t
+t
+
+Page 4 of 13
+
+É
+
+ð1Þ
+
+subject to:
+ys ¼ ys þ pt þ r t −Dt
+t
+t−1
+yu ¼ yu −r t þ Rt
+t
+t−1
+
+∀t ¼ 1; 2; …; T
+
+∀t ¼ 1; 2; …; T
+
+ð2Þ
+ð3Þ
+
+Mδ p ≥pt
+t
+
+∀t ¼ 1; 2; …; T
+
+ð4Þ
+
+Mδ r ≥r t
+t
+
+∀t ¼ 1; 2; …; T
+
+ð5Þ
+
+ys ¼ yu ¼ 0
+0
+0
+δ p ; δ r ∈f0; 1g
+t
+t
+
+ð6Þ
+pt ; r t ; ys ; yu ≥0 ∀t ¼ 1; 2; …; T
+t t
+
+ð7Þ
+
+In model (1) – (7) the parameters T, Dt and Rt denote the length of the planning horizon, demand and returns values in periods t = 1, …, T, respectively; Kp (Kr), is the set-up
+cost for production (remanufacturing); hs (hu) is the unit cost of holding inventory for serviceable (used) products; M is a number at least as large as max{D1T, R1T}, where Dij and
+Rij are the accumulative demand and returns between periods i and j, with 1 ≤ i ≤ j ≤ T.
+The decision variables pt and rt denote the number of units produced and remanufactured
+in periods t = 1, …, T, respectively; δ p ( δ r ) is a binary variable equal to 1 if production
+t
+t
+(remanufacturing) is carried out in periods t = 1, …, T, or 0 otherwise; ys ( yu ) is the invent
+t
+tory level of serviceable (used) items for periods t = 1, …, T.
+A result about the optimal solutions form
+
+In this section we present a property about the form of optimal solutions of the ELSR.
+It can be considered a generalization of the well-known zero-inventory property for the
+ELSP introduced by Wagner and Whitin [27]. Also Teunter et al. [16] generalize this
+property for the case of joint set-up scheme of the ELSR and Richter and Sombrutzki
+[11] and Richter and Weber [12] for the case of sufficiently large number of returned
+products in the first period. Here we demonstrate that there is an optimal solution for
+which it holds that for any couple of periods i and j of either positive production or
+positive remanufacturing, there must be at least one period with zero-inventory level of
+serviceable items. Note that if it not the case, we can obtain a new feasible solution by
+transferring at least one unit of the production (remanufacturing) quantity from period
+i to the next period j, thus reducing the inventory level of serviceable items and with at
+most the same cost.
+Proposition 1. There is an optimal solution for which it holds that for any pair of
+periods i and j, i < j, there is at least one period t such that pi ys pj ¼ 0 and r i ys r j ¼ 0,
+t
+t
+with i ≤ t < j.
+Proof. Consider an ELSR feasible solution s = (p, r) with a production plan p and a
+remanufacturing plan r, respectively. Without loss of generality, suppose first that there
+is only one pair of successive periods i and j for which pi ys pj > 0 for all period t
+t
+n
+o
+s s
+s
+s
+in 1 ≤ i ≤ t < j ≤ T. Then, define ε ¼ min pi ; yi ; yiþ1 ; …; yj−2 ; yj−1 > 0 and determine a
+
+
+new solution s1 = (p1, r1) with r1 = r and p1 = p except by p1 ¼ ðpi −εÞ and p1 ¼ pj þ ε .
+i
+
+Page 5 of 13
+
+have that p1 y1s p1 ¼ 0 for some period t in 1 ≤ i ≤ t < j ≤ T, since at least one of the followi t j
+ing two equations is fulfilled: p1 ¼ 0 and/or y1s ¼ 0; t : 1≤i≤t < j≤T . Note that the cost
+i
+t
+of s1 is lower than the cost of the original solution s at least by a term equal to hs(j − i).
+The same reasoning is valid for the remanufacturing plan r. In this case, the new solution
+is less costly than the original at least by a term equal to (hs − hu)(j − i). Note that
+(hs − hu) ≥ 0 since we are assuming low-cost returns. Therefore, given any feasible
+solution s = (p, r), even optimal, we can determine a new feasible solution with at
+most the same cost and fulfilling the property of Proposition 1.
+From Proposition 1 we can establish that in order to determine an optimal solution
+of the ELSR we may avoid those solutions in which the serviceable-inventory level is
+positive between any pair of successive periods of either positive production or positive
+remanufacturing. We also note that the zero-serviceable-inventory property as stated in
+Proposition 1 is valid in the case of time-variant costs with non-speculative motives,
+even with positive unit costs. Non-speculative motives on the costs mean that it
+is profitable to produce or remanufacture as late as possible, i.e., cp þ
+i
+and cr þ
+i
+
+ðj−1Þ
+X
+
+À
+
+t¼i
+
+ðj−1Þ
+X
+t¼i
+
+hs ≥cp
+t j
+
+Á
+hs −hu ≥cr with 1 ≤ i ≤ j ≤ T. The proof for this case is straightforward
+t
+t
+j
+
+and follows from the proof of above, since we are transferring forward either
+newly manufactured o remanufactured items. We state this generalization of Proposition 1 in the next corollary.
+Corollary 1. Proposition 1 is also valid in the case of time-variant costs with nonspeculative motives, even with positive unit costs.
+
+The Tabu Search based on procedure
+
+The ELSR as formulated in (1) – (7) is a NP-hard problem [18, 22]. Therefore, it is
+unlikely that we can develop any efficient time procedure for determining an optimal
+solution of the problem. Considering this complexity result, many authors have proposed heuristic methods for obtaining high quality solutions [14, 16, 17, 21–23]. In
+Piñeyro and Viera [19] we suggest a Tabu Search based on procedure in order to obtain
+a near optimal solution to the ELSR, even with a more general cost structure and
+disposal option for returns. The procedure is referred in that paper as Basic Tabu
+Search procedure (BTS) because it uses only the rudiments of the Tabu Search metaheuristic [28]. In addition, a simple notion of neighbourhood is used and only one
+move is defined to explore it. Despite this fact, the numerical experiment carried out in
+Piñeyro and Viera [19] show the effectiveness of the BTS procedure in a wide range of
+demand-returns-cost patterns. In Piñeyro and Viera [20] we present a thorough analysis about the problem of determining the remanufacturing quantities of an optimal
+solution that can be considered a theoretical support for the good behaviour of the
+BTS procedure reported in Piñeyro and Viera [19].
+
+The original BTS procedure description
+
+period i fixed as positive-remanufacturing period, the remanufacturing quantity is
+determined by means of the following remanufacturing rule:
+À
+Á
+r i ¼ min yu þ Ri ; Diðj−1Þ ; 1≤i < j≤T þ 1
+ð8Þ
+i−1
+In (8) the period j is the next positive-remanufacturing period if it exists, or (T + 1) in
+the case that period i is the last one. Then, the corresponding optimal production
+plan (periods and quantities) is determined by means of a W-W algorithm type.
+The initial solution is marked as current solution and the exploration phase of the
+process begins. The set of neighbouring solutions is obtained from the current one
+by swapping the periods where remanufacturing occurs. For each one of the neighbouring solution, the remanufacturing quantities are determined by means of equation (8) and the corresponding optimal production plan by applying the W-W
+algorithm. The neighbouring solution with smaller cost is marked as the current
+solution for the next step. The exploration phase continues until either the number
+of iterations is greater than the total number of iterations allowed or the number
+of iterations without improvement is greater than the maximum allowed. The procedure returns the best global solution evaluated. For more details about the procedure we refer to Piñeyro and Viera [19].
+An optimization process for the BTS procedure
+
+Given the solution returned by the BTS procedure, we can check whether that solution
+satisfy the zero-serviceable-inventory property of Proposition 1. First we note that for
+any solution considered by the BTS procedure, the production plan satisfies the property stated in Proposition 1, since it is determined using a W-W algorithm [27]. Therefore, we must check the property only for the remanufacturing plan. We proceed as
+
+
+
+follows. For each period i of the remanufacturing plan with a strictly positive remanufacturing quantity consider the immediately next period j for which r i ys r j > 0 for
+t
+all period t in 1 ≤ i ≤ t < j ≤ T. Define q > 0 as the minimum quantity between the
+remanufacturing level of period i and the serviceable-inventory level for all periods
+n
+o
+t in 1 ≤ i ≤ t < j ≤ T, i.e. q ¼ min r i ; ys ; ys ; …; ys ; ys
+i iþ1
+j−2 j−1 > 0. Then, determine a new
+feasible remanufacturing plan by subtracting the quantity q to the remanufacturing
+level of period i, and adding q to the remanufacturing level of period j. The new
+remanufacturing plan satisfies the zero-serviceable-inventory property of Proposition 1 since either the remanufacturing level of period i or the serviceableinventory level is zero for some period t in 1 ≤ i ≤ t < j ≤ T. In Fig. 2 we provide the
+pseudocode of the optimization stage added to the end of the BTS procedure
+according to the description above.
+We note that the optimization process of Fig. 2 is O(T2) time, thus keeping the running time of the original BTS procedure. This fact can be appreciated in the time
+
+Table 1 Results on benchmark set of Sifaleras et al. [23]. Instances 1–27.
+No
+
+Gurobi 5.6.2
+
+RGVNS
+
+Obj. Value
+
+Obj. Value
+
+Error (%)
+
+BTS
+Obj. Value
+
+Error (%)
+
+Optimized BTS
+Obj. Value
+
+Error (%)
+
+1
+
+8698.80
+
+8895.20
+
+2.2600
+
+8751.40
+
+0.6047
+
+8741.80
+
+0.4943
+
+2
+
+8781.80
+
+9185.40
+
+4.6000
+
+9078.40
+
+3.3774
+
+9071.20
+
+3.2955
+
+3
+
+8541.60
+
+8793.80
+
+2.9500
+
+8739.20
+
+2.3134
+
+8739.20
+
+2.3134
+
+4
+
+8943.77
+
+9391.20
+
+5.0000
+
+9294.60
+
+3.9226
+
+9186.60
+
+2.7151
+
+5
+
+9717.00
+
+9853.00
+
+1.4000
+
+9741.00
+
+0.2470
+
+9720.00
+
+0.0309
+
+6
+
+9962.45
+
+10240.50
+
+2.7900
+
+10127.50
+
+1.6567
+
+10072.50
+
+1.1046
+
+7
+
+9598.00
+
+9955.00
+
+3.7200
+
+9654.50
+
+0.5887
+
+9631.00
+
+0.3438
+
+8
+
+9803.50
+
+10327.00
+
+5.3400
+
+10046.50
+
+2.4787
+
+10003.50
+
+2.0401
+
+9
+
+10266.20
+
+10573.80
+
+3.0000
+
+10306.20
+
+0.3896
+
+10293.60
+
+0.2669
+
+10
+
+10812.80
+
+11184.80
+
+3.4400
+
+10947.00
+
+1.2411
+
+10923.00
+
+1.0192
+
+11
+
+10290.76
+
+10445.40
+
+1.5000
+
+10301.60
+
+0.1053
+
+10290.80
+
+0.0004
+
+12
+
+10745.60
+
+11027.00
+
+2.6200
+
+10879.00
+
+1.2414
+
+10851.40
+
+0.9846
+
+13
+
+13200.95
+
+13568.00
+
+2.7800
+
+13405.40
+
+1.5488
+
+13405.40
+
+1.5488
+
+14
+
+12131.36
+
+12387.40
+
+2.1100
+
+12438.60
+
+2.5326
+
+12353.80
+
+1.8336
+
+15
+
+13018.36
+
+13403.60
+
+2.9600
+
+13186.00
+
+1.2877
+
+13172.40
+
+1.1833
+
+16
+
+11853.20
+
+12230.60
+
+3.1800
+
+12104.40
+
+2.1193
+
+12044.40
+
+1.6131
+
+17
+
+14236.50
+
+14429.50
+
+1.3600
+
+14335.50
+
+0.6954
+
+14319.50
+
+0.5830
+
+18
+
+13150.99
+
+13660.00
+
+3.8700
+
+13360.50
+
+1.5931
+
+13242.00
+
+0.6920
+
+19
+
+13901.98
+
+14278.50
+
+2.7100
+
+13958.00
+
+0.4030
+
+13952.00
+
+0.3598
+
+20
+
+13495.47
+
+13725.00
+
+1.7000
+
+13913.00
+
+3.0939
+
+13843.00
+
+2.5752
+
+21
+
+14842.38
+
+15063.60
+
+1.4900
+
+14874.20
+
+0.2144
+
+14865.20
+
+0.1537
+
+22
+
+14122.20
+
+14595.40
+
+3.3500
+
+14159.60
+
+0.2648
+
+14130.80
+
+0.0609
+
+23
+
+14561.16
+
+14854.40
+
+2.0100
+
+14725.60
+
+1.1293
+
+14703.60
+
+0.9782
+
+24
+
+13865.91
+
+14428.20
+
+4.0600
+
+13983.60
+
+0.8488
+
+13958.60
+
+0.6685
+
+25
+
+25657.20
+
+26068.20
+
+1.6000
+
+25989.00
+
+1.2932
+
+25885.00
+
+0.8879
+
+26
+
+21247.40
+
+22016.80
+
+3.6200
+
+21706.40
+
+2.1603
+
+21540.00
+
+1.3771
+
+27
+
+24364.40
+
+24988.20
+
+2.5600
+
+24409.00
+
+0.1831
+
+
+
+
+consumption of CPU reported for both BTS variants in the next section about the
+numerical experiment.
+
+Results and discussion
+In this section we report the results of the numerical experiment carried out for the
+original BTS procedure of Piñeyro and Viera [19] and the optimized version according
+to the improvement suggested above. For the experiment we resort to the benchmark
+set of 108 different large instances of 52 periods developed by Sifaleras et al. [23] and
+downloadable from the authors web site http://users.uom.gr/~sifalera/benchmarks.html
+(last access: 24/07/2015). The benchmark set was designed with the aim to evaluate the
+robustness of the RGVNS procedure suggested in that paper. It is based on the Schulz
+[17] well-known benchmark set, but with instances more than four times larger. As the
+authors claim “this new benchmark set is more difficult and larger than those that have
+ever been used in the literature, for the ELSR problem”. For this benchmark set of large
+instances, the different values for both setup costs are 200, 500 and 2000; the values for
+Table 2 Results on benchmark set of Sifaleras et al. [23]. Instances 28–54
+No
+
+Gurobi 5.6.2
+
+RGVNS
+
+Obj. Value
+
+Obj. Value
+
+BTS
+Error (%)
+
+Obj. Value
+
+Optimized BTS
+Error (%)
+
+Obj. Value
+
+Error (%)
+
+28
+
+20328.95
+
+20479.40
+
+0.7400
+
+20647.20
+
+1.5655
+
+20639.20
+
+1.5261
+
+29
+
+26561.00
+
+26888.00
+
+1.2300
+
+26828.00
+
+1.0052
+
+26791.00
+
+0.8659
+
+30
+
+22332.50
+
+22851.50
+
+2.3200
+
+22784.00
+
+2.0217
+
+22732.50
+
+1.7911
+
+31
+
+26625.50
+
+27326.00
+
+2.6300
+
+26727.00
+
+0.3812
+
+26676.50
+
+0.1915
+
+32
+
+23229.50
+
+23945.50
+
+3.0800
+
+23863.50
+
+2.7293
+
+23635.00
+
+1.7456
+
+33
+
+27872.60
+
+28482.20
+
+2.1900
+
+28047.00
+
+0.6257
+
+28019.00
+
+0.5252
+
+34
+
+24116.80
+
+25426.00
+
+5.4300
+
+24816.20
+
+2.9001
+
+24738.40
+
+2.5775
+
+35
+
+26762.40
+
+27823.60
+
+3.9700
+
+26874.20
+
+0.4178
+
+26808.40
+
+0.1719
+
+36
+
+24065.20
+
+24785.80
+
+2.9900
+
+24682.20
+
+2.5639
+
+24599.60
+
+2.2206
+
+37
+
+10622.20
+
+10937.40
+
+2.9700
+
+10657.00
+
+0.3276
+
+10657.00
+
+0.3276
+
+38
+
+12011.00
+
+12266.80
+
+2.1300
+
+12194.60
+
+1.5286
+
+12131.40
+
+1.0024
+
+39
+
+10652.20
+
+10867.00
+
+2.0200
+
+10749.00
+
+0.9087
+
+10749.00
+
+0.9087
+
+40
+
+11741.60
+
+12088.60
+
+2.9600
+
+11948.00
+
+1.7579
+
+11912.00
+
+1.4513
+
+41
+
+12249.48
+
+12585.00
+
+2.7400
+
+12455.50
+
+1.6819
+
+12455.50
+
+1.6819
+
+42
+
+13844.99
+
+13998.50
+
+1.1100
+
+14003.00
+
+1.1413
+
+14001.00
+
+1.1268
+
+43
+
+12309.00
+
+12616.00
+
+2.4900
+
+12320.50
+
+0.0934
+
+12320.50
+
+0.0934
+
+44
+
+13626.97
+
+13895.00
+
+1.9700
+
+13737.50
+
+0.8111
+
+13697.50
+
+0.5176
+
+45
+
+13348.00
+
+13584.40
+
+1.7700
+
+13477.40
+
+0.9694
+
+13477.40
+
+0.9694
+
+46
+
+15030.80
+
+15543.40
+
+3.4100
+
+15236.00
+
+1.3652
+
+15215.40
+
+1.2281
+
+47
+
+13635.60
+
+13979.00
+
+2.5200
+
+13785.00
+
+1.0957
+
+13778.60
+
+1.0487
+
+48
+
+15051.80
+
+15788.20
+
+4.8900
+
+15330.20
+
+1.8496
+
+15301.00
+
+1.6556
+
+49
+
+15625.40
+
+15982.80
+
+2.2900
+
+15759.20
+
+0.8563
+
+15759.20
+
+0.8563
+
+50
+
+15447.80
+
+15984.80
+
+3.4800
+
+15817.80
+
+2.3952
+
+15667.40
+
+1.4216
+
+51
+
+14997.80
+
+15409.60
+
+2.7500
+
+15119.80
+
+0.8135
+
+15119.80
+
+0.8135
+
+52
+
+15176.60
+
+15494.00
+
+2.0900
+
+15376.80
+
+1.3191
+
+15360.80
+
+1.2137
+
+53
+
+16782.00
+
+17172.00
+
+2.3200
+
+17011.50
+
+1.3675
+
+16957.50
+
+1.0458
+
+54
+
+17102.50
+
+17757.00
+
+3.8300
+
+17186.50
+
+0.4912
+
+
+
+
+the holding cost of used items are 0.2, 0.5 and 0.8. The holding cost for serviceable
+items is equal to 1. Demand values follow a normal distribution of mean 100 per
+period. Returns values also follow a normal distribution but three different means of
+30, 50 and 70 are considered. The coefficient of variation of the normal distributions
+can be of 10 % and 20 % (small and large variance respectively). A total of 108 different
+instances of 52 periods were generated.
+For both BTS procedure variants we use the following configuration values. The
+size of the tabu list is fixed at 1,000,000. The total number of iterations is 10,000
+and the maximum without improvement is 50. The size of the tabu list and the
+total number of iterations are greater than those considered in Piñeyro and Viera
+[19] since the ELSR instances considered here are four times longer. However, we
+set the maximum number of iterations without improvement in 50 rather than 500
+in order to maintain low computation times. The zero-remanufacturing plan is
+used as initial solution for all the instances, as in Piñeyro and Viera [19] and later
+in Sifaleras et al. [23].
+Table 3 Results on benchmark set of Sifaleras et al. [23]. Instances 55–81
+No
+
+Gurobi 5.6.2
+
+RGVNS
+
+Obj. Value
+
+Obj. Value
+
+Error (%)
+
+BTS
+Obj. Value
+
+Error (%)
+
+Optimized BTS
+Obj. Value
+
+Error (%)
+
+55
+
+16591.44
+
+17149.50
+
+3.3600
+
+16716.50
+
+0.7538
+
+16704.50
+
+0.6814
+
+56
+
+17217.93
+
+17544.00
+
+1.8900
+
+17356.50
+
+0.8048
+
+17313.00
+
+0.5522
+
+57
+
+18047.53
+
+18215.60
+
+0.9300
+
+18132.60
+
+0.4714
+
+18132.60
+
+0.4714
+
+58
+
+18780.16
+
+19158.40
+
+2.0100
+
+19234.80
+
+2.4209
+
+19166.60
+
+2.0577
+
+59
+
+17742.76
+
+18337.20
+
+3.3500
+
+18085.20
+
+1.9300
+
+18055.60
+
+1.7632
+
+60
+
+18646.54
+
+19212.60
+
+3.0400
+
+18678.20
+
+0.1698
+
+18646.60
+
+0.0003
+
+61
+
+27623.80
+
+28428.20
+
+2.9100
+
+27810.60
+
+0.6762
+
+27793.80
+
+0.6154
+
+62
+
+24892.60
+
+25562.40
+
+2.6900
+
+25190.20
+
+1.1955
+
+25190.20
+
+1.1955
+
+63
+
+26587.40
+
+28083.00
+
+5.6300
+
+26802.80
+
+0.8102
+
+26665.20
+
+0.2926
+
+64
+
+24252.40
+
+24596.20
+
+1.4200
+
+24640.00
+
+1.5982
+
+24622.40
+
+1.5256
+
+65
+
+29328.50
+
+30033.00
+
+2.4000
+
+29538.00
+
+0.7143
+
+29527.00
+
+0.6768
+
+66
+
+26961.50
+
+27544.00
+
+2.1600
+
+27184.00
+
+0.8253
+
+27091.50
+
+0.4822
+
+67
+
+28484.00
+
+29139.00
+
+2.3000
+
+28524.00
+
+0.1404
+
+28484.00
+
+0.0000
+
+68
+
+27019.00
+
+28116.00
+
+4.0600
+
+27313.50
+
+1.0900
+
+27186.50
+
+0.6199
+
+69
+
+30515.40
+
+31117.40
+
+1.9700
+
+30644.20
+
+0.4221
+
+30626.00
+
+0.3624
+
+70
+
+28758.40
+
+30014.60
+
+4.3700
+
+28924.40
+
+0.5772
+
+28850.60
+
+0.3206
+
+71
+
+29864.60
+
+30497.40
+
+2.1200
+
+29940.00
+
+0.2525
+
+29889.00
+
+0.0817
+
+72
+
+28195.06
+
+30267.60
+
+7.3500
+
+28628.00
+
+1.5355
+
+28573.20
+
+1.3412
+
+73
+
+14443.40
+
+14835.40
+
+2.7100
+
+14443.40
+
+0.0000
+
+14443.40
+
+0.0000
+
+74
+
+18364.00
+
+18517.40
+
+0.8400
+
+18364.00
+
+0.0000
+
+18364.00
+
+0.0000
+
+75
+
+14954.00
+
+15007.00
+
+0.3500
+
+14954.00
+
+0.0000
+
+14954.00
+
+0.0000
+
+76
+
+17857.80
+
+17979.20
+
+0.6800
+
+17960.80
+
+0.5768
+
+17960.80
+
+0.5768
+
+77
+
+18546.00
+
+18903.50
+
+1.9300
+
+18828.00
+
+1.5205
+
+18828.00
+
+1.5205
+
+78
+
+23069.50
+
+23266.50
+
+0.8500
+
+23130.00
+
+0.2623
+
+23130.00
+
+0.2623
+
+79
+
+18657.50
+
+18821.00
+
+0.8800
+
+18760.00
+
+0.5494
+
+18760.00
+
+0.5494
+
+80
+
+23329.00
+
+23449.50
+
+0.5200
+
+23378.00
+
+0.2100
+
+23378.00
+
+0.2100
+
+81
+
+20999.80
+
+21431.80
+
+2.0600
+
+21088.60
+
+0.4229
+
+
+
+The BTS procedure was coded in Java and the experiment was carried out in a
+Java Runtime Environment 1.8.0_25 on HP laptop with Intel(R) Core(TM) i542010 CPU, 8.00 GB of RAM, and operating system Windows 8.1 of 64 bits. We
+note that this computing environment is less powerful of that used in Sifaleras
+et al. [23].
+In Table 1, Table 2, Table 3 and Table 4 we report the results for Gurobi optimizer,
+the VNS procedure from Sifaleras et al. [23] and for both BTS variants from our
+numerical experiment. As in Sifaleras et al. [23], in the 2nd column we mark in bold
+those instances for which Gurobi reaches the optimal solution. In the 3rd column we
+mark in bold those instances for which the VNS procedure achieves a minor cost solution than both BTS variants and with italic for only the original BTS procedure. Finally,
+in the 5th column we mark in bold those instances for which both BTS variants obtain
+the same solution, i.e. the optimization performed is not able to improve the solution
+of the original BTS. In order to compare the results obtained, the error is defined as in
+Sifaleras et al. [23], that is the percentage gap between the objective value of Gurobi (g)
+Table 4 Results on benchmark set of Sifaleras et al. [23]. Instances 82–108
+No
+
+Gurobi 5.6.2
+
+RGVNS
+
+Obj. Value
+
+Obj. Value
+
+BTS
+Error (%)
+
+Obj. Value
+
+Optimized BTS
+Error (%)
+
+Obj. Value
+
+Error (%)
+
+82
+
+26519.60
+
+27048.60
+
+1.9900
+
+26856.40
+
+1.2700
+
+26856.40
+
+1.2700
+
+83
+
+21114.40
+
+21649.40
+
+2.5300
+
+21399.40
+
+1.3498
+
+21399.40
+
+1.3498
+
+84
+
+26162.80
+
+27142.60
+
+3.7500
+
+26896.20
+
+2.8032
+
+26896.20
+
+2.8032
+
+85
+
+19646.00
+
+19834.80
+
+0.9600
+
+19769.40
+
+0.6281
+
+19769.40
+
+0.6281
+
+86
+
+22567.57
+
+23128.60
+
+2.4900
+
+22612.60
+
+0.1995
+
+22612.60
+
+0.1995
+
+87
+
+19880.40
+
+19963.60
+
+0.4200
+
+19880.40
+
+0.0000
+
+19880.40
+
+0.0000
+
+88
+
+22483.80
+
+22646.60
+
+0.7200
+
+22524.80
+
+0.1824
+
+22524.80
+
+0.1824
+
+89
+
+23013.50
+
+23190.00
+
+0.7700
+
+23144.00
+
+0.5671
+
+23144.00
+
+0.5671
+
+90
+
+27076.00
+
+27632.00
+
+2.0500
+
+27309.50
+
+0.8624
+
+27309.50
+
+0.8624
+
+91
+
+22706.50
+
+23090.50
+
+1.6900
+
+22706.50
+
+0.0000
+
+22706.50
+
+0.0000
+
+92
+
+26754.00
+
+26793.00
+
+0.1500
+
+27027.50
+
+1.0223
+
+27027.50
+
+1.0223
+
+93
+
+25890.80
+
+26118.80
+
+0.8800
+
+26101.40
+
+0.8134
+
+26101.40
+
+0.8134
+
+94
+
+30229.20
+
+30669.60
+
+1.4600
+
+30535.00
+
+1.0116
+
+30505.60
+
+0.9143
+
+95
+
+26188.80
+
+26935.80
+
+2.8500
+
+26240.80
+
+0.1986
+
+26240.80
+
+0.1986
+
+96
+
+29504.40
+
+30231.20
+
+2.4600
+
+29607.40
+
+0.3491
+
+29562.20
+
+0.1959
+
+97
+
+32952.36
+
+33512.00
+
+1.7000
+
+33078.40
+
+0.3825
+
+33078.40
+
+0.3825
+
+98
+
+33332.20
+
+33940.00
+
+1.8200
+
+33757.80
+
+1.2768
+
+33757.80
+
+1.2768
+
+99
+
+33072.40
+
+33586.20
+
+1.5500
+
+33088.80
+
+0.0496
+
+33088.80
+
+0.0496
+
+100
+
+33115.00
+
+33539.20
+
+1.2800
+
+33587.20
+
+1.4259
+
+33491.20
+
+1.1360
+
+101
+
+36285.90
+
+36581.00
+
+0.8100
+
+36461.50
+
+0.4839
+
+36461.50
+
+0.4839
+
+102
+
+37205.50
+
+38265.50
+
+2.8500
+
+37500.50
+
+0.7929
+
+37438.00
+
+0.6249
+
+103
+
+36173.50
+
+37194.00
+
+2.8200
+
+36912.00
+
+2.0415
+
+36824.00
+
+1.7983
+
+104
+
+36817.00
+
+37861.50
+
+2.8400
+
+37230.50
+
+1.1231
+
+37230.50
+
+1.1231
+
+105
+
+38728.00
+
+39020.20
+
+0.7500
+
+38862.20
+
+0.3465
+
+38857.80
+
+0.3352
+
+106
+
+40310.40
+
+41261.80
+
+2.3600
+
+40615.20
+
+0.7561
+
+40597.00
+
+0.7110
+
+107
+
+38611.20
+
+39281.00
+
+1.7300
+
+38639.20
+
+0.0725
+
+38617.60
+
+0.0166
+
+108
+
+39826.10
+
+40932.40
+
+2.7800
+
+40330.00
+
+1.2653
+
+
+Fig. 3 Error values of the RGVNS and BTS procedures for the 108 instances
+
+and the objective value of the solution determined by the procedure under consideration (p): 100 × (p − g)/g.
+From Tables 1 to 4 we note that both BTS procedure variants outperform the
+RGVNS procedure of Sifaleras et al. [23] in most cases. The original BTS achieves
+better solutions in 100 of 108 instances, and the optimized version in 102 instances,
+that is 92.59 % and 94.44 % of the total number of instances respectively. In addition,
+the optimized BTS achieves better solutions than the original version in 70 instances,
+which results in 64.81 % of the total number of instances. The original BTS procedure
+is able to achieve the same objective value as Gurobi in 5 instances, all them optimal
+values, and the optimized variant in 2 instances more, one of them optimal. In Fig. 3
+you can clearly see the good performance of both BTS procedures.
+Tables 5 and 6 provide the statistics of percentage errors and computation times
+respectively. As stated in Sifaleras et al. [23] the Gurobi optimizer is set to 3600 s of
+maximum time of running and 10−4 of tolerance. The RGVNS ran for 30s for all
+instances.
+In average, solutions achieved by the optimized BTS procedure are nearly three times
+more cost-effective than those of the VNS procedure with a running time of
+1.31 seconds and in less than tenth computation time in the worst case. In
+addition, the extra running time required for the optimization phase is almost
+negligible. Although the solutions provided by Gurobi are more cost-effective in
+most cases, the BTS procedure variants may also offer high quality solutions and
+with 1870 times less computational effort on average.
+
+Conclusions
+In this paper we have tackled the economic lot-sizing problem with remanufacturing
+under the assumptions of time-invariant costs and low-costs for the returns. We
+Table 5 Percentage cost errors
+Avg. (%)
+
+Std. (%)
+
+Min. (%)
+
+Max. (%)
+
+RGVNS
+
+2.4402
+
+1.2453
+
+0.1458
+
+7.3507
+
+BTS
+
+1.0530
+
+0.8350
+
+0.0000
+
+3.9226
+
+Optimized BTS
+
+0.8784
+
+0.7239
+
+
+Page 12 of 13
+
+Table 6 CPU times in seconds
+Avg. (s)
+Gurobi 5.6.2
+
+Std. (s)
+
+Min. (s)
+
+Max. (s)
+
+2450.55
+
+1425.82
+
+3.47
+
+3600.03
+
+RGVNS
+
+30.00
+
+0.00
+
+30.00
+
+30.00
+
+BTS
+
+1.30
+
+0.49
+
+0.72
+
+3.03
+
+Optimized BTS
+
+1.31
+
+0.47
+
+0.74
+
+2.88
+
+present a new theoretical result about the form of optimal solutions that can be considered a generalization of the well-known zero-inventory property of the classic economic lot-sizing problem, i.e. without returns options. Based on this extended property
+we develop an improvement to the Basic Tabu Search procedure of Piñeyro and Viera
+[19] for the ELSR. The original and the optimized version of the BTS procedure are
+compared against the VNS procedure of Sifaleras et al. [23] on a benchmark set of large
+instances (108 instances of 52 periods). The numerical experiment performed reveals
+that the original BTS procedure outperforms the VNS procedure in 92.59 % and the
+optimized version in 94.44 % of the total number of instances, respectively. The running
+time required to obtain the solution by both BTS procedures is about twenty times less
+on average and ten in the worst case. In addition, the optimized version outperforms the
+original BTS procedure in 64.81 % of the total number of instances in the benchmark set.
+We also note that both the original and the optimized BTS are able to reach an optimal
+solution for some of the instances.
+In future works it would be interesting to see what the consequences are on the
+production plan of the optimization process on the remanufacturing plan presented
+here. Since the remanufacturing quantities may be changed during the optimization
+process, this can lead in a different optimal production plan [19]. We also note
+that the numerical experiment carried out in this paper is for a planning horizon of 52
+periods which seems to be unrealistic in practice under deterministic assumptions.
+Therefore, it would be interesting to evaluate the optimized BTS procedure in a
+benchmark set of instances with smaller number of periods, in which the parameter
+values of the problem can be estimated more accurately. The cases of multi-item [29] or
+heterogeneous quality for the returns [30] are also interesting extensions for future works
+about the ELSR.

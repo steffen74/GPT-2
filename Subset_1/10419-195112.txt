@@ -1,0 +1,1055 @@
+
+
+Introduction and literature review
+Inventory system is very complex because it has many aspects that should be considered
+to control the system beneficially. Managers always want to decrease the cost of the
+inventory system and increase the customers’ satisfaction. So they should consider the
+different aspects of their inventory system to become successful in today competitive
+
+
+
+provide their order quantity in the right time they would wait to fulfill their orders. On
+the other hand, the second group of customers is the ones that do not want to be patient
+to fulfill their orders, or their requirement is critical and it should be accessible in the
+right time. This group of customers does not wait for the vendor to fulfill their order and
+choose other vendor. Besides, in reality the production is not always perfect so the
+fraction of the products is imperfect. Some reasons of this imperfect production are longterm usage of machines, breakdowns of equipment and the problems related to the
+labors; so by investing the amount of money to cope with this mentioned problems
+producer can improve their production quality. Furthermore, in most of the researches
+that model the inventory system setup cost is considered as constant though it can be
+reduced by using of the initial investment. A periodic review inventory system updates
+its inventory on a periodic base. In this model, the amount of product that is ordered is
+different from each period and depend on the quantity of on hand inventory. The periodic
+review model is used just in predetermined and certain times. This is called (R, T) model.
+Variable R is the up to order level and variable T is predetermined intervals between two
+cycle in inventory model. The order quantity is the difference between a maximum
+quantity R and the amount on hand at the review time. Commonly, in (R, T) model, lead
+time is assumed as constant but in the real world we know it is impossible. Silver [32]
+was the first researcher that mentioned that some constant terms in inventory model
+could be the decision variables to make the model closer to the real world such as setup
+cost, quality improvement, cost reduction, demand, and lead time and lead time reduction. For the probabilistic inventory models in reality, managers should know the
+distribution function of the demand during the lead time but it is really difficult to
+determine the distribution exactly. So, it is really important for the managers and
+researchers to model the inventory system without the data on the lead time demand
+distribution function. Tersine [47] extended the model for inventory system that has four
+various scenarios: lead time and demand are both constant, lead time is assumed as
+constant and demand is assumed as variable, demand is assumed as constant and lead
+time is assumed as variable, as well as demand and lead time are both assumed as
+variables. Liao and Shyu [11] provided a probabilistic model for inventory system that
+the order quantity considered as constant and the lead time is considered as a variable to
+obtain the optimum value for it. Yang and Pan [50] provided a model for the inventory
+system and considered the amount of money to improve the quality, also the lead time is
+assumed as a deterministic decision variable. Ouyang et al. [20] provided a periodic
+review inventory model with aiming for the reduction of lost sale. He also assumed that
+the lead time is controllable. Ouyang et al. [21] developed the model provided by Yang
+and Pan [50] by assuming shortages and considering reorder point as one of the
+variables. Taleizadeh and Pentico [36] provided a model with multi-buyer, multi-product,
+single-vendor, multi-chance constraint and uncertain demand by considering lead time as
+a variable. Glock [6] provided a model for inventory system with single-buyer, singlevendor and uncertain demand. He assuming that the lead time is dependent on the lot
+size, he includes also the time of production, transportation time and setup time. Sarkar
+and Majumder [26] developed the model provided by Ouyang et al. with reduction of
+setup cost. Sarkar et al. [27] provided a model for inventory system by considering
+
+201
+
+method for the newsboy model. He assumed that only the standard deviation and the
+mean of the distribution function of the demand during the lead time are known. The
+provided solution is very hard to comprehend that Gallego and Moon [5] made it very
+easy to understand. Ouyang and Wu [17], Hariga and Ben-Daya [7], Ben-Daya and
+Rauf [2] Ouyang et al. [18], Park [22] and Chuang et al. [3] provided different
+inventory models with using distribution-free method and considering lead as variable.
+They assumed that the lead time could be separated into n fractions that are independent with the fixed cost of crashing. [14]developed the model provided by [17]by
+assuming reorder point as one of their variables. Wu and Ouyang [49] assumed that the
+demand during the lead time has the normal distribution with imperfect production.
+Moon et al. [15] developed the model provided by Ben-Daya and Rauf [2] with the
+distribution-free method, considering also lead time, amount of items ordered and
+reorder point are considered as variables. Sarkar et al. [27] provided a model for
+inventory system with variable lead time and order quantity; also he considered
+production as imperfect process and assumed that the demand during the lead time.
+Sarkar et al. [27] provided a model for inventory system with economic producing
+quantity and imperfect process for production that the imperfect products have an
+exponential distribution. Sarkar et al. [28] extended a model for the inventory system
+and they considered setup cost reduction and improving of quality with the constraints
+of service level. Vidalis et al. [48] provided a model for inventory system for supply
+chain with two-echelon, and uncertain lost sale items, demand and other distribution
+function. Sarkar et al. [28] provided a model for inventory system with quality
+improvement, considering discount for backordered items, controlling lead time by
+assuming the distribution-free method and they considered demand as constant. Moreover some related research can be found in Shin et al. [31], Majumder et al. [12, 13],
+Soni et al. [33], Kim and Sarkar [8, 9], Sarkar et al. [29], Majumder et al. [12, 13],
+Sarkar et al. [29], Sarkar [24] and Sarkar [25]. In this research we provide the (R, T)
+model with reducing setup cost and improving quality, partial backordering and inspection process. This research is the first one that considers all mentioned aspects of
+inventory system simultaneously to obtain the closer model to the real world. In the
+following section we define our problem and provide a model for it. We summarize the
+related articles in Table 1.
+
+Problem definition
+In this research we consider some important assumptions to model the inventory
+system. First of all, we assumed that there are two groups of customers according to
+their necessity of their requirement. The first group includes the customers that they
+want to fulfill their order at the right time that is expected. So when the vendor does
+not provide their requirement at the right time they do not wait for the vendor and
+choose another one. Unlike the first group, the second group is the customers that their
+requirement is not too critical to change the vendor. Besides, as we know in every
+production there are always some imperfect products because of the problem related to
+
+×
+
+Vidalis et al. [48]
+Sarkar et al. [27]
+
+×
+
+×
+×
+
+×
+
+×
+×
+
+×
+×
+×
+×
+×
+×
+×
+×
+×
+×
+×
+×
+
+Considering
+lead
+time as variable
+
+Cobb [4]
+
+Kono [10]
+Glock [6]
+Nagasawa et al. [16]
+
+Chuang et al. [3]
+Alfares and Elmorra [1]
+
+Ouyang et al. [18]
+
+Ben-Daya and Rauf [2]
+Ouyang et al. [19]
+Ouyang and Wu [17]
+
+Gallego and Moon [5]
+Porteus [23]
+
+Authors
+
+Table 1 Summaries of the related articles
+
+×
+
+×
+×
+
+×
+
+×
+×
+×
+×
+×
+×
+×
+×
+×
+×
+×
+×
+×
+×
+×
+
+×
+×
+
+×
+
+Distribution
+free method
+
+×
+×
+
+×
+
+×
+
+×
+
+Reduction
+of
+setup cost
+
+×
+
+×
+
+×
+
+Improving
+of quality
+
+×
+×
+×
+×
+
+×
+×
+
+×
+×
+×
+×
+×
+×
+×
+×
+
+×
+
+×
+×
+×
+×
+×
+×
+×
+×
+
+×
+×
+×
+
+Order
+quantity
+
+×
+
+×
+
+×
+
+×
+×
+
+Considering
+reorder
+point as variable
+
+×
+
+×
+
+×
+
+×
+
+×
+
+×
+
+×
+
+×
+
+Partial
+backordering
+
+203
+
+backordering and inspection process. This research is the first one that considers all
+mentioned aspects of inventory system simultaneously to obtain the closer model to the
+real world.
+The related notations are:
+Variables:
+
+A
+T
+ϕ
+
+setup cost,
+cycle time,
+Probability of the production that results in producing defective items,
+
+Parameters:
+
+V
+ϕ0
+A0
+D
+μ
+σ
+α
+X
+E(x)
+m
+B
+b
+SA(A)
+Sϕ(ϕ)
+β
+β1
+π1
+π2
+
+inspection cost per unit of product.
+Probability of producing the defective items at the beginning of production.
+Initial setup cost.
+average demand per year.
+mean of the demand during the lead time.
+Standard deviation of the demand during the lead time.
+Fractional cost in a year related to capital investment.
+Demand during the lead time which has distribution function F for its probability.
+Expected value of x.
+cost of replacing an imperfect item.
+percentage decrease in setup cost per dollar increase in the investment to reduce the
+setup cost.
+percentage decrease in out- of- control probability per dollar increase in the investment to make the probability of being out- of- control lower.
+Investment to reduce the setup cost.
+Investment to improve the quality.
+Fraction of customer’s demand that is satisfied regularly.
+Fraction of the shortage that is satisfied for the customers (backordered).
+cost of the unit of backordered demand per unit of time.
+cost of the unit of lost sale demand per unit of time.
+
+To make a production with higher quality, additional investment could be a good way. The
+production process is considered to be an in-control state at first. During the production
+process, the process would go to an out-of-control state, and then it produces imperfect units
+and continues till the entire products are produced (see, for instance, Porteus [23]). Additional
+investment could be a good strategy to reduce the quantity of defective products during the
+out-of-control state. Refer to Porteus [23], to make the process of production better and to
+reduce the probability of out-of-control state we have:
+
+
+A0
+S A ðAÞ ¼ Bln
+A
+
+
+
+
+
+In the basic inventory model the setup cost is considered as constant. By using investment,
+the setup cost could be reduced in the model. We consider a logarithmic function for
+investment (refer to Porteus [23]):
+ 
+ϕ
+S ϕ ðϕÞ ¼ bln 0
+ϕ
+
+0 < ϕ ≤ϕ0
+
+ð2Þ
+
+Hence, total investment that is used for improving the quality and reducing the setup cost is
+computed as below:
+S ðA; ϕÞ ¼ S A ðAÞ þ S ϕ ðϕÞ ¼ Y −BlnA−blnϕ
+Y ¼ BlnA0 þ blnϕ0 ;
+
+ð3Þ
+
+0 < A ≤A0 ; 0 < ϕ ≤ϕ0
+
+ð4Þ
+
+After a long term production the system produce some defective items that is computed as
+D2 Tϕ
+2
+
+(see Appendix) and the cost of changing an imperfect item with an perfect one is m, so,
+2
+
+the expected annual imperfect cost is computed as mD2 Tϕ (see Appendix). Furthermore it should
+be considered that the particular cost for inspection of each product that is calculated as vD.
+Also it should be noted that, there are two groups of customers that convert full backordering
+to partial backordering because of being some impatient customers that prefer other vendors so
+the particular fraction of backordered item become lost sale. All these mentioned assumptions
+are provided as a cost function as follows: The cost function that is related to the backordered
+items is calculated as below:
+
+And the cost function that is related to the lost sales is calculated as below:
+
+Now for obtaining Partial backordering model we use the backordered fraction parameter
+so we have:
+ATC ðA; T ; R; ϕÞ ¼ β 1 ATC backordered ðA; T ; R; ϕÞ þ ð1−β1 ÞATC lost
+
+
+205
+
+In this model the particular fraction of customers’ demand is fulfilled that is denoted by β:
+β ¼ 1−
+
+E ðX −RÞþ
+DT
+
+ð9Þ
+
+We consider k as the term provided as follows to have three number of decision variables
+instead of four ones, so we have:
+k ¼ R−μLþT
+
+ð10Þ
+
+In real world, distribution function for the lead time is unknown. So, we are unable to
+calculate the value of the expected shortages per cycle E(X − r). So, we use the min-max
+distribution free approach as provided by Scarf [30] and then Gallego and Moon [5] simplified
+it. So, the problem is provided as:
+minmax F∈ F fATC ðA; T ; k; ϕÞg
+
+ð11Þ
+
+To obtain the least favorable distribution in F, we can use the following lemma in Gallego
+and Moon [5].
+qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+
+À
+Á2 À
+Á
+1
+σ2 ðL þ T Þ þ R−μLþT − R−μLþT
+ð12Þ
+E ðX −RÞþ ≤
+2
+Also we know that:
+1
+2
+
+qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ 
+σ2 ðL þ T Þ
+σ2 ðL þ T Þ þ k 2 −k ¼ ð1−β ÞDT⇒k ¼
+−ð1−β ÞDT
+4ð1−β ÞDT
+
+ð13Þ
+
+So we will have:
+
+
+
+
+∂ATC ðA; T ; R; ϕÞ
+1
+αβ
+¼
+−
+¼ 0⇒A* ¼ α βT
+∂A
+T þL A
+
+ð15Þ
+
+
+− Aþ
+
+
+hσ2 L
+!
+∂ATC ðA; T ; R; ϕÞ
+hD
+mD2 ϕ
+4ð1−βÞD
+¼
+−hð1−βÞD þ
+þ ð1−β1 Þhð1−βÞD ¼ 0
+þ
+∂T
+2
+2
+T2
+vﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+
+
+u
+2
+u
+ð16Þ
+u hDð1−βÞð1−β1 Þ β− 1 þ mD ϕ
+u
+2
+2
+*
+u
+⇒T ¼ u
+hσ2 L
+t
+Aþ
+4ð1−βÞD
+
+So we have:
+vﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+
+
+u
+2
+u
+u hDð1−βÞð1−β1 Þ β− 1 þ mD ϕ
+u
+σ2 L
+2
+2
+vﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ −ð1−βÞDu
+k* ¼
+
+
+u
+2
+u
+hσ2 L
+t
+u hDð1−βÞð1−β Þ β− 1 þ mD ϕ
+Aþ
+u
+1
+4ð1−βÞD
+2
+2
+u
+4ð1−βÞDu
+t
+σ2 L
+Aþ
+4ð1−βÞD
+
+ð17Þ
+
+And finally we will have:
+∂ATC ðA; T ; R; ϕÞ αb mD2 T
+2αb
+¼
+þ
+¼ 0⇒ϕ* ¼
+∂ϕ
+ϕ
+2
+mD2 T
+
+ð18Þ
+
+Lemma 1 If the hessian matrix for the cost function with the obtained answers for the
+decision variables is always positive definite, it is illustrated that the obtained answers are
+the optimum ones.
+2
+
+À
+Á
+À
+Á
+∂2 ATC A* ; T * ; ϕ*
+∂2 ATC A* ; T * ; ϕ*
+6
+2
+∂A∂T
+6
+À∂A
+Á
+À
+Á
+6 2
+∂ ATC A* ; T * ; ϕ*
+∂2 ATC A* ; T * ; ϕ*
+6
+6
+2
+6
+∂T ∂A
+À
+Á
+À∂T
+Á
+6 2
+4 ∂ ATC A* ; T * ; ϕ*
+∂2 ATC A* ; T * ; ϕ*
+∂ϕ∂A
+∂ϕ∂T
+2
+3
+αB
+−1
+0 7
+6 A*2
+T *2
+
+
+6
+7
+6
+7
+hσ2 L
+6
+7
+2 A* þ
+27
+6 −1
+mD 7
+4ð1−βÞD
+¼6
+6 T *2
+2 7
+T *3
+6
+7
+4
+mD2
+ab 5
+0
+2
+ϕ2
+
+À
+Á3
+∂2 ATC A* ; T * ; ϕ*
+7
+∂A∂ϕ
+À * * *Á 7
+7
+2
+∂ ATC A ; T ; ϕ 7
+7
+∂T ∂k
+À * * *Á 7
+7
+2
+∂ ATC A ; T ; ϕ 5
+
+
+207
+
+jH 11 j ¼
+ αB
+
+ *2
+A
+
+jH 22 j ¼ 
+
+ 1−
+ *2
+T
+
+αB
+>0
+A*2
+
+ð19Þ
+
+
+
+
+
+hσ2 L
+
+*
+A þ
+
+αB
+−1
+4ð1−β ÞD
+
+hσ2 L
+− *4
+ ¼ 2 *2
+*3
+
+T
+T
+A
+4ð1−β ÞD 
+ð20Þ
+
+*3
+T 
+
+αB
+hσ2 L
+ðαBÞ3 ðαBÞ4 ðαBÞ4
+αB hσ2 L
+¼ 2 *2 A* þ
+− *4 ¼ *4 þ 2 *2
+>0
+*3
+4ð1−β ÞD
+A
+A
+A
+A
+A 4ð1−β ÞD
+−1
+T *2
+
+2 A* þ
+
+
+
+!
+α2 bβ
+b
+hσ2 L
+þ
+>0
+jH 33 j ¼ 2 3 A 1−
+B
+4ð1−β ÞD
+A T ϕ
+
+ð21Þ
+
+So according to the above computations we show that the cost function is always positive definite
+and the answers for the decision variables are the optimum ones. Now to obtain the optimum answer
+for the decision variables and the cost function the below algorithm is provided:
+Step1. Consider A = A0 andϕ = ϕ0.
+Step2. Inputβ1, β, π1, σ, π2, μ, b, α, B, v, m, B, D, b.
+Step3. Calculate all the decision variable according to the previous section.
+
+∼ ∼ ∼
+
+∼
+
+Step4. Repeat step3 until there is no differences between A, ϕ, k, TandA; ϕ ; k ; T .
+∼
+
+∼
+
+Step5. Compare the values of ϕ with ϕ0and A withA0.
+∼
+
+∼
+
+∼
+
+∼
+
+Step5A. If A ≥A0 and ϕ ≥ϕ0 the go to step6.
+Step5B. If A ≥ A0 and ϕ < ϕ0 then no setup cost reduction is needed which impliesA∗ =
+∼
+
+A0. Utilizing the value ofA0, we consider same procedure as step 1 to 4, if the new ϕ is less
+than ϕ0then the optimal solution is (T∗, A∗, k∗, ϕ0)and go to step 7, otherwise go to step6.
+∼
+
+∼
+
+Step5C. IfA < A0 andϕ ≥ϕ0 then no quality improvement is needed which implies
+ϕ∼ ¼ ϕ0 . Utilizing the value ofϕ0, we consider same procedure as step 1 to 4, if the
+∼
+
+new A is less than A0then the optimal quantity for variables are (T∗, A0, k∗, ϕ∗)and go to
+step 7, otherwise go to step6.
+∼
+
+∼
+
+Step5D. If ϕ < ϕ0 andA < A0 the optimal quantity for variables are is (T∗, A∗, k∗, ϕ∗)and
+go to step7.
+Step6. Replace Aby A0andϕby ϕ0and follow the procedure from step1 to 4 and the
+optimal solution is(T∗, A0, k∗, ϕ0).
+Step7. After getting the optimal solution from any of the above steps, the minimum value
+for expected cost in a year can be calculated.
+
+
+
+Fig. 1 Flow chart of the solution method
+
+Computational and practical results
+In this section we provide the numerical examples for the cell phone manufacturer. This
+
+209
+
+so the number of the headphones that are produced should not be fewer than the safety
+stock. Also number of headphones should not be more than the particular number of
+cellphones that is considered as reorder point which is assumed as variable. So the
+inventory system of these orders follows the (R, T) inventory model. Additionally, in
+each production there are always some defective products that should be considered in the
+model. Because of the presence of defective items in the lot the manufacturer should
+inspect the lot. According to his strategy the inspection process is considered as full
+inspection in this research to recognize all the defective items from the perfect ones. After
+the inspection process an additional cost is needed to replace the defective items with the
+perfect ones. The mentioned cost is dependent on the number of defective items which
+calculate in the model provided in this article. Furthermore, in each cycle there are some
+customers that are not patient enough to wait for the vendor to buy the products from
+him so the particular proportion of the backordered items become lost sales. We model
+the mentioned inventory system according to our provided model in this article; We
+consider A0=500, D = 500, B = 5800, b = 400, h = 20, v = 2, m = 4, ϕ0=0.0002,
+μ=200, σ = 7, α = 0.1, β=0.8,β1=0.6,π1=1,π2=2. Now we provide the results obtained
+from step1 to step5 in 20 repetitions in Table 2.
+As we see the differences between the two last rows of Table 2 that are highlighted is not
+~
+~
+noticeable so we set A=483 and ϕ=0.000004 according to the provided algorithm, also step 5
+~
+~
+of the algorithm is true about the value of Aandϕso we have T∗=0.8337, A∗=483 and
+∗
+∗
+ϕ =0.000004 and k = − 100. So the values of the decision variables are obtained; now we
+compare the total cost in both cases with considering A andϕas variables and without
+considering them as variables. We have:
+À
+Á
+ATC T * ; A* ; R* ; ϕ* ¼ 7886:3
+
+Table 2 The results obtained from step1 to step5 in 20 repetitions
+~
+T
+
+~
+A
+
+~
+ϕ
+
+~
+k
+
+2.4443
+0.4633
+1.1800
+0.6858
+0.9330
+0.7819
+0.8647
+0.8163
+0.8436
+0.8279
+0.8368
+0.8317
+0.8346
+0.8329
+0.8339
+0.8334
+0.8337
+0.8335
+0.8336
+0.8336
+
+1417.7
+268.7291
+684.4107
+397.7372
+541.1519
+453.4789
+501.5369
+473.4489
+489.2839
+480.1692
+485.3541
+482.3846
+484.0787
+483.1101
+483.6632
+483.3471
+483.5277
+483.4245
+483.4834
+483.4690
+
+0.000001
+0.000006
+0.000002
+0.000004
+0.000003
+0.000003
+0.000003
+0.000003
+0.000003
+0.000004
+0.000004
+0.000004
+0.000004
+0.000004
+0.000004
+0.000004
+0.000004
+0.000004
+0.000004
+0.000004
+
+−293.2786
+−55.3788
+−141.5157
+−82.1416
+−111.8531
+−93.6927
+−103.6482
+−97.8299
+−101.1101
+−99.2220
+−100.2961
+−99.6810
+−100.0319
+−99.8313
+−99.9458
+−99.8804
+−99.9178
+
+ATC
+
+210
+
+h
+Fig. 2 Changes of the total cost versus changes h
+
+À
+Á
+ATC R* ; T * ¼ 25100
+
+ATC
+
+As we see above, in the case with considering A and ϕ as variables total cost is less than the
+other case without considering A and ϕ as variables. Now we want to show how the sensitive
+parameters B, b, α, h, β and β1 affect the total cost. We show the changes of the total cost
+versus changes the mentioned parameters in Figs. 2, 3, 4, 5, 6, and 7 and provided in Table 3 as
+below:
+As we see in Fig. 2 the value of total cost decreases by increasing the value of B. The next
+parameter that we show the changes of the total cost versus changes of it is b that provided in
+Fig. 3, as we see the value of total cost increases by increasing the value of b. The next
+parameter that we show the changes of the total cost versus changes of it is h that provided in
+Fig. 4, as we see the value of total cost increases by increasing the value of h. The next
+parameter that we show the changes of the total cost versus changes of it is α that provided in
+Fig. 5, as we see the value of total cost decreases by increasing the value of α. The next
+
+ATC
+
+
+
+b
+Fig. 4 Changes of the total cost versus changes b
+
+parameter that we show the changes of the total cost versus changes of it is β1 that provided in
+Fig. 6, as we see the value of total cost decreases by increasing the value of β1. The next
+parameter that we show the changes of the total cost versus changes of it is β that provided in
+Fig. 7, as we see the value of total cost at first increases by increasing the value of β and then it
+decreases by increasing the value of β.
+
+Conclusion
+
+ATC
+
+Inventory system could be work beneficially if it is modeled well and this aim is
+accessible by considering important aspects of the system. Managers always want to
+decrease the inventory cost and make the customers more satisfied so it is important for
+them to pay attention to the different aspects of their inventory system to become
+successful in today competitive global marketing. One of these aspects is related to the
+customers that are separated to two groups according to their loyalty and necessity of
+their requirement. The first group is the ones that their requirements are not critical. So
+
+ATC
+
+212
+
+1
+
+Fig. 6 Changes of the total cost versus changesβ1
+
+ATC
+
+this group of customers would wait to fulfill their orders even in the situation that the
+vendor does not provide their order quantity in the right time. On the other hand, the
+second group of customers is the ones that are not patient to fulfill their orders, or their
+requirement is critical and it should be accessible in the right time. This group does not
+wait for the vendor to fulfill their order so choose another vendor. Besides, in reality the
+production is not always perfect so the fraction of the products is imperfect that could be
+the result of long-term usage of machines, breakdowns of equipment and the problems
+related to the labors; so by investing the amount of money to cope with this mentioned
+problems producer can improve their production quality. Furthermore, in most of the
+researches that model the inventory system setup cost is considered as constant though it
+can be reduced by using the initial investment. In this article we model the inventory
+system according to the mentioned assumptions and the results show that the total cost is
+lower than the case with just cycle length and reorder point as variables. We suggest
+authors to investigate the quality improvement in the works of Taleizadeh et al. [38–46]
+Taleizadeh [34], Taleizadeh and Nematollahi [35] and Taleizadeh and Pentico [37] as
+
+213
+
+Table 3 Changes of the total cost versus the changes of the parameters
+ATC(T∗, A∗, R∗, ϕ∗)
+7886.3
+16,171
+26,067
+37,168
+49,257
+ATC(T∗, A∗, R∗, ϕ∗)
+11,332
+9554.6
+8734.1
+8234.4
+7886.3
+
+h
+20
+40
+60
+80
+100
+α
+0.02
+0.04
+0.06
+0.08
+0.1
+
+ATC(T∗, A∗, R∗, ϕ∗)
+10,077
+8993.7
+7886.3
+6716.2
+3765.3
+ATC(T∗, A∗, R∗, ϕ∗)
+11,934
+10,008
+9099.5
+8535.9
+8136.8
+7453.2
+
+β1
+0.2
+0.4
+0.6
+0.8
+1
+B
+1000
+2000
+3000
+4000
+5000
+6000
+
+β
+0.5
+0.6
+0.7
+0.8
+0.9
+b
+100
+150
+200
+250
+300
+350
+
+ATC(T∗, A∗, R∗, ϕ∗)
+4241.1
+8169.8
+8328.4
+7886.3
+6963.1
+ATC(T∗, A∗, R∗, ϕ∗)
+7765.4
+7785.6
+7805.7
+7825.9
+7846.0
+7866.2

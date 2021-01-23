@@ -1,0 +1,588 @@
+
+
+Introduction
+The End-of-Life Vehicles (ELV) directive [13] is a key strategy in tackling the large amount of
+waste vehicles generated within the EU each year – between 2006 and 2014 EU member states
+recorded approximately 59 million tonnes [14]. The key focus of the ELV directive is to force
+vehicles away from landfill and towards product and material recovery strategies such as
+recycle and reuse. Further, the ELV directive also places high disposal avoidance expectations
+(disposal being any operation which is not a recovery operation) on member states; consider
+targets applicable for 2015 (on onwards) that state a minimum of 95% (per average weight of
+vehicle) should be subjected to reuse and recovery and that a minimum of 85% (per average
+weight of vehicle) should be subjected to reuse and recycling per year.
+To tackle other forms of waste, for example municipal and electronic and electrical, the EU
+has also introduced additional directives such as the Waste Framework (WF) directive [12] and
+Waste of Electrical and Electronic Equipment (WEEE) directive [11]. Similar to the ELV
+directive, strategies to avoid disposal such as recycling, recovery and reuse are again identified.
+The process of remanufacturing is however not discussed in the ELV, the WF or WEE
+directive directly or indeed in any EU directive.
+Given that remanufacturing restores used products to at least virgin like performance and
+returns them to the market place with a warranty at least as good as original [17–19, 22, 25, 26,
+33] the absence of remanufacturing in the ELV directive is of particular interest, especially
+when the established footprint that remanufacturing has in the automotive industry is
+considered.
+With a view to establishing remanufacturing as a stand-alone process within the ELV
+directive going forward, this research seeks to identify the compatibility of remanufacturing, as
+agreed upon by leading global automotive remanufacturing associations, within the current
+ELV directive. This research investigates where remanufacturing currently resides within the
+ELV directive, identifies obstacles, with a strong focus on ‘waste’ terminology, to the insertion
+of remanufacturing directly into the ELV directive presents a workable solution to incorporating remanufacturing moving forward.
+The structure of this research is thus; firstly a frame of reference is provided by
+documenting the definition of remanufacturing as agreed upon by leading global automotive
+remanufacturers. Justification for this research is then given. Following this, through examination of the various landfill avoidance strategies within the ELV directive, this manuscript
+presents for the first time in literature, an analysis of where remanufacturing currently resides
+with the ELV directive. The obstacles of incorporating remanufacturing into the ELV directive
+directly are then presented with the issues of waste taking a strong focus. Moving forward, a
+workable solution to the introduction of remanufacturing as a standalone process within the
+ELV directive is presented. Lastly, a conclusion is presented.
+
+
+25
+
+remanufacturing from refurbishing and recondition or [16], who found that remanufacturing in
+the aerospace industry is sometimes referred to as rebuilding.
+Given that this research investigates the presence of remanufacturing in the ELV directive, a
+recently agreed upon definition of remanufacturing from leading global automotive
+remanufacturing associations, [3], is presented in this work. Supporting this robust definition
+is an additional two matching definitions from literature [5, 8]. These definitions are given in
+Table 1.
+Remanufacturing is commonly conducted on products referred to as cores. The automotive
+associations, define a core as,
+“A core is a previously sold, worn or non-functional product or part, intended for the
+remanufacturing process. During reverse logistics, a core is protected, handled and
+identified for remanufacturing to avoid damage and to preserve its value. A core is not
+waste or scrap and is not intended to be reused before remanufacturing” [4],
+While not explicit in the above definition in that a single product may be classed as a core,
+typically a core is series of assembled components, for example an automotive engine. [29],
+describe a core as a
+“…product constructed through a manufacturing assembly process involving different
+parts” [29],
+Further, a typical remanufacturing operation involves 6 generic processes; (1) acceptance and
+cleaning of a core, (2) the disassembly or stripping of a core, (3) the cleaning of core
+components, (4) rebuilding, restoration and replacement of non-remanufacturable core parts,
+(5) core assembly or re-assembly and (6) core testing [5, 21–23, 27–29, 30, 31, 33]. Fig. 1 is
+given to reinforce the general process of core remanufacture.
+Moving forward, the importance of understanding the role of remanufacturing in the ELV
+directive is now discussed.
+
+Table 1 Definitions of remanufacturing cited from literature
+Remanufacturing definitions
+Source
+
+Definition
+
+• “Remanufacturing is a standardized industrial process* by which cores are
+returned to same-as-new, or better, condition and performance. The process is in
+line with specific technical specifications, including engineering, quality and
+testing standards. The process yields fully warranted products.”
+“*An industrial process is an established process, which is fully documented, and
+capable to fulfil the requirements established by the remanufacturer.”
+British National Standards “return a used product to at least its original performance with a warranty that is
+Body, [5]
+equivalent or better than that of the newly manufactured product”
+European Action Plan [8] “A series of manufacturing steps acting on an end-of-life part or product in order to
+return it to like-new or better performance, with corresponding warranty.”
+
+Automotive Association
+[3]*
+
+*Noting that the Automotive associations is a collection automotive remanufacturing bodies/organizations which
+came together to agree upon common remanufacturing terminology. These remanufacturers include; (CLEPA),
+The European Association of Automotive Suppliers, (MERA), the Motor & Equipment Remanufacturers
+
+
+Fig. 1 The 6 generic steps
+involved in the remanufacturing
+process
+
+Clean
+Core
+
+Strip
+Core
+
+Clean Core
+components
+Failed
+product
+
+Restore, rebuild or
+replace components
+
+Reassemble
+Core
+
+Test
+
+Remanufactured
+Product
+
+The importance of promoting remanufacturing as a standalone processes
+within the ELV directive
+The main drivers for promoting remanufacturing within the ELV directive are a) the environmental benefits of remanufacturing, b) the removal of ambiguity in process, and c) the
+
+27
+
+offer significant solutions here; Sutherland et al., [35] predicted substantial energy savings
+when comparing remanufactured and virgin manufactured diesel engines, The Automotive
+Parts Remanufactures Association (APRA) [2], state that rebuilt or remanufactuered engines
+save over 50% of the energy compared to the production of new engines, while Sundin et al.
+[34], found through case study analysis of various European wide practicing remanufacturers
+that energy savings, in some cases extreme savings of up to 85%, can be found in some
+automotive remanufactured products. Additionally, Sundin and Lee [32], examined
+remanufacturing and the environment and identified further literature to document energy
+savings associated with gearboxes, alternators and truck injectors.
+Looking now at ambiguity in definition. If remanufacturing or remanufacturing processes
+are residing ambigously within cross national legislation, difficulties in quickly gauging the
+remanufacturing market can begin to develop. For example, given that the EU documents
+recycling, reuse and recovery rates each year, (http://ec.europa.eu/eurostat), if remanufacturing
+process were included under recycling, reuse and recovery, it is entirely feasible that these
+statistics to some degree are defining remanufacturing processes, thus an additional barrier for
+gauging true remanufacturing market is introduced. An additional validation of this concept is
+documented by Lund and Hauser [25]. The authors found that previous research, [24], had
+overestimated the size of the american remanufacturing industry by virtue of a liberal
+definition of remanfacturing and by relying on a supply of information from trade
+associations who reported only very loose remanufacturing processes as remanufacturing.
+An additionally point stemming from this argument is that along with issues such as
+branding and price, ambiguity over definition can affect the customers decision to purchase
+remanufactured products [1, 18, 20]. Thus, establishing remanufacturing as a standalone
+disposal avoidance strategy would in part help to alleviate confusion over performance and
+quality, in that remanufactured products would be clearly identified with remanufacturers
+being accountable to meet set standards.
+In terms of waste reduction, additional justification can be drawn from the ELV directive
+itself. Consider, article 4 point 1(c) of the ELV directive,
+“Vehicle manufacturers, in liaison with material and equipment manufacturers, to
+integrate an increasing quantity of recycled material in vehicles and other products,
+in order to develop the markets for recycled materials.”
+Given a large amount of products able to be remanufactured, such as engines, compressors,
+starter motors, brake callipers, power steering pumps, distributors, hydraulic pumps and gear
+boxes, [6], remanufacturing produces parts directly suitable for incorporation into new vehicles
+and components. Further, there is no doubt in the performance of remanufactured products,
+they are ‘as good as new’, which is not necessarily the case for recycled products, and so by
+encouraging vehicle manufactures to use ‘as good as new’ or remanufactured products there
+follows less objection to integrating these parts in new products on grounds of product quality
+concerns.
+Lastly, recent external precedent also supports the concept that remanufacturing should be
+defined as a standalone process; consider the United States Government Federal Repair Cost
+Savings Act, [15]. The repair cost savings act states that the head of each federal agency is
+encouraged to use remanufactured vehicle components to maintain federal vehicles, where
+
+
+remanufacturing terminology into the WF directive, [10], then future remanufacturing terminology being introduced in the ELV is a distinct possibility. Future terminology of course
+would define remanufacturing legally, and so additional rationale as to why it is important for
+remanufacturing to emerge from the existing practices is identified.
+
+Where remanufacturing resides within the ELV directive
+Table 2 identifies key terminology upon which the goals of the ELV directive are built upon.
+Additionally, the relationship this terminology has to the remanufacturing definition agreed
+upon by the automotive associations, from the perspective of the authors, is also given.
+Prior to discussing the findings from Table 2, it should be stated in the first instance that the
+concept of waste was ignored. The issue of regarding cores as waste or non-waste and the
+subsequent impact, is presented after this discussion.
+From Table 2, it is evident that remanufacturing is indirectly accounted for in the ELV
+directive, and is able to be potentially thought of as a prevention operation, a treatment
+operation, a reuse operation, a recovery operation, and a recycling operation. Further,
+remanufactuers liberally could also in some circumstances be classed as producers, economic
+operators, and treatment operators, noting that in the last case they should be supplied with
+correct vehicle dismantling information. Each subject is now briefly discussed.
+Considering first, prevention. The theme of prevention is to reduce the amount and
+environmental impact of End-of-Life (EoL) vehicles, substances and materials. With
+remanufacturing offering energy and material savings, and able to return a used product back
+to the market place at a competitive price, it is clear that remanufacturing is capable of being
+classed as a prevention measure.
+As for reuse, recycling and recovery. Recovery is defined as any operation from a list of
+operations outlined in a 1975 waste directive [7]. This directive is a forerunner to the WF directive
+[12] and so, the actual recovery operations are listed in the latter directive. The WF directive
+recovery operations listed, are not generally akin to the process of remanufacturing, however the
+WF directive states that this list is non-exhaustive and gives a definition of a recovery operation given as 2.8** in Table 2. Using this definition, then it is evident that remanufacturing could be
+classed as a recovery operation, again if the concept of waste is ignored.
+Defintion 2.6 identifies reuse as any operation in which components of ELV’s are used for
+the same purpose for which they were conceived. Remanufacturing, in the authors’ opinion
+falls within this category. Further, it is also the case that reuse terminolgy allows for instances
+of a restored component (as a result of remanfuacturing) being used in the manfuacture of a
+new core, or in the rebuilding of a different core.
+In the case of recycling, remanufacturing processes could also liberally fall under recycling
+terminolgoy of the ELV. While remanufacturing is a distinct process separate from recycling,
+given that remanufactured materials are reprocessed in a production process for the original or
+other purpose, an argument can be made to suggest a liberal association with remanufacturing
+and recycling in this instance. Additionally, recyling is thought of as a form of recovery
+operation, therefore classing recycling as a recovery operation, to some extent forces
+
+29
+
+Table 2 Definitions of terminology cited from the End of life vehicles directive (European Parliament and
+Council, 2000) and waste framework directive (European Parliament and Council, 2008), including the applicability to remanufacturing
+Terminology defintions from ELV and WF directive and applicablity to remanufacturing
+Section Definition
+2.1
+
+2.2 *
+
+2.3
+
+2.4
+
+2.5
+
+2.6
+
+2.7
+
+2.8
+
+2.8**
+
+2.9
+
+“Vehicle means any vehicle designated as
+category M1 or N1 defined in Annex 2A to
+Directive 92/61/EEC, but excluding motor
+tricycles”
+“‘End of life’ vehicles means a vehicle which is
+waste within the meaning of Article 1(a) of
+Directive 75/442/EEC”
+
+Applicibility to remanufacturing
+N/A
+
+Applicable to remanufacturing. Ignoring the issues
+of [4] who state ‘cores’ are not waste, then EoL
+vehicles are the products or cores suitable for
+remanfuacturing.
+N/A
+
+“‘Producer’ means the vehicle manufacturer or
+the professional importer of a vehicle into a
+member state”
+Applicable to remanufacturing. Remanufacturing
+“‘Prevention’ means measures aiming at the
+accounts for material and energy savings when
+reduction of the quantity and the harmfulness
+compared to new [21, 23]. Thus
+for the environment for end of life vehilces, their
+remanufacturing may be regarded as a
+materials and substances.”
+prevention operation.
+“‘Treatment’ means any activity after the end-of Applicable to remanufacturing. Once deposited in
+a treatment facility, remanufacturing, which
+life vehicle has been handed over to a facility
+may be regarded as a recovery operation could
+for depollution, dismantling, shearing,
+occur. Thus remanufacturing may in some
+shredding, recovery or preparation for disposal
+circumstances be regarded as treatment
+of the shredder wastes, and any other operation
+operation.
+carried out for the recovery and/or disposal of
+the end-of life vehicle and its components”
+Applicable to remanufacturing. Considering some
+“‘reuse’ means any operation by which
+parts in a used prodcut may be suitable for
+components of end-of life vehicles are used for
+direct reuse in a remanufactured part, or even
+the same purpose for which they were conlightly restored and re-used then reuse is appliceived”
+cable to remanfuacturing..
+‘recycling’ means the reprocessing in a production Applicable to remanufacturing. Recycling
+involves the reprocessing in a production
+process of the waste materials for the original
+process of waste materials to create new
+purpose or for other purposes but excluding
+energy recovery. Energy recovery means the use
+products. Considering
+of combustible waste as a means to generate
+Remanufacturing restores or rebuilds products
+energy through direct incineration with or
+back to as good as new condition, then in some
+without other waste but with recovery of the
+instances remanufacturing processes could fall
+heat;
+under some recycling processes. Note
+additionally, recycling is a type of recovery
+operation.
+‘recovery’ means any of the applicable operations
+provided for in Annex IIB to Directive
+75/442/EEC;
+Applicable to remanufacturing. Remanufacturing
+“‘recovery’ means any operation the principal
+is able to clearly demonstrated as a recovery
+result of which is waste serving a useful
+operation
+purpose by replacing other materials which
+would otherwise have been used to fulfil a
+particular function, or waste being prepared to
+fulfil that function, in the plant or in the wider
+economy. Annex II sets out a non-exhaustive list
+of recovery operations”
+“Disposal’ means any of the applicable operations Not applicable to remanufacturing.
+Remanufactuing is not considered a disposal
+
+
+Table 2 (continued)
+Terminology defintions from ELV and WF directive and applicablity to remanufacturing
+Section Definition
+2.10
+
+2.11
+
+2.12
+
+2.13
+
+“‘economic operators’ means producers,
+distributors, collectors, motor vehicle insurance
+companies, dismantlers, shredders, recoverers,
+recyclers and other treatment operators of
+end-of life vehicles, including their components
+and materials”
+“‘hazardous substance’ means any substance
+which fulfils the criteria for any of the following
+hazard classes or categories set out in Annex I
+of Regulation (EC) No 1272/2008 of the European Parliament and of the Council of 16 December 2008 on classification, labelling and
+packaging of substances and
+(a) hazard classes 2.1 to 2.4, 2.6 and 2.7, 2.8 types
+A and B, 2.9, 2.10, 2.12, 2.13 categories 1 and
+2, 2.14 categories 1 and 2, 2.15 types A to F;
+(b) hazard classes 3.1 to 3.6, 3.7 adverse effects on
+sexual function and fertility or on development,
+3.8 effects other than narcotic effects, 3.9 and
+3.10;
+(c) hazard class 4.1;
+(d) hazard class 5.1;
+“‘shredder’ means any device used for tearing
+into pieces or fragmenting end-of life vehicles,
+including for the purpose of obtaining directly
+reusable metal scrap”
+“‘dismantling information’ means all information
+required for the correct and environmentally
+sound treatment of end-of life vehicles. It shall
+be made available to authorised treatment facilities by vehicle manufacturers and component producers in the form of manuals or by
+means of electronic media (e.g. CD-ROM,
+on-line services).”
+
+Applicibility to remanufacturing
+Applicable to remanufacturing. Recovery
+operations, recyclers, and treatment operations
+may to some degree be thought of as
+remanufacturing. Thus in this case
+remanufacturers may be thought of as economic
+operators.
+Not applicable
+
+Not applicable to remanufacturing.
+Remanufactuing is not considered a shredding
+operation.
+Application to remanufacturing. If
+remanufacturing falls under what is classed as
+treatment, then treatment operators should
+receive the required information
+
+*The definition of waste cited in 75/442/EEC has gone through various revions and is now defined in the WF
+directive as “any substance or object which the holder discards or intends or is required to discard”
+**Similar to above, 75/442/EEC is any older version of the WF directive, which presents an updated Annex II.
+However the WF directives gives a definition of recovery and states that the list presented in Annex II is nonexhaustive. Hence, the recovery definition from the WF directive is used for this research
+
+potential for remanufacturing to be classed as a recovery operation, remanufacturing must also
+therefore have the potential to be classed as a treatment operation. Further, similar to previous
+argument, if remanufacturing processes are being conducted at treatment facilities, there is
+potential for treatment facilities to be classed liberally as remanufactuing facilities in some cases.
+Further, definition 2.10 states that recoverers, recyclers, and treatement operators, are classed as
+
+31
+
+Note that Fig. 2 involves a heirarchy system; recycling, recovery and reuse are classed as
+treatment operations, treatment operators are classed as economic operators, and economic
+operators fall within prevention measures.
+It must be stated however that while remanuacturing falls under recycling, reuse and
+recovery operations, not every recycling, reuse or recovery operation is remanufacture and
+therefore under no circumstances should recycling, reuse and recovery be used interchangebly
+with remanfuacturing. Consider for instance, recycling a plastic bottle. The bottle is recycled
+via being melted down and a new product can be manuactured. This is not in any circumstances a remanufacturing process. However, if a core component is cleaned, disassembled,
+had it’s core components restored, rebuilt or perhaps even replaced or reprocessed to create
+new products, and then rebuilt and so no longer constitues a waste, then the original core
+component could perhaps be considered to be reprocessed in a production processes (definition of recycle within ELV) to a given degree. More often than not, recycling will not overlap
+with remanfuacture, however, owing to remanufacturing not being defined in the ELV,
+potential exists for current degrees of overlap to be apparent. A similar argument holds for
+reuse and recovery, and for treatment operations.
+The conclusion is that given a lack of explicit remanufacturing terminolgy in the ELV
+directive, remanufacturing being a legitimate disposal avoidance strategy is forced to have a
+presence in prevention measures, recycling, recovery and reuse with remanufacturers themselves able to be classed in some circumstances liberally as economic operators and treatment
+operators.
+
+Evidence of waste in remanufacturing definitions
+Examining now the concept of waste and non-waste; the remanufacturing definitions outlined
+in Table 1 are in reference to waste are examined.
+The automotive associations [4], state that remanufacutring returns cores, issused with a full
+
+
+proir to remanufacturing. It is clear that the automotive associations do not class cores as
+waste, and thus remanufacturing should occur on products or cores that are not classed as
+waste.
+Reviewing now the BSI definition [5], there is no direct indication that remanufacturing is
+required to be exclusively conducted on products or cores classed as waste. The definition only
+states that remanufacturing is conducted on used products, thus both waste and non-waste
+could fall within this category.
+Looking now the last definition in Table 1, [8]. This definition states that a series of
+manufacturing steps (typically the remanufacturing processes) are conducted on an EoL part or
+product. There is no further explanation of whether EoL is thought of as waste, however, if the
+European Action Plan is read in conjunction with the ELV directive, then it is reasonable to
+assume that EoL in this case refers to ELV’s, which are indeed waste.
+It can be said therefore, that the three definitions have alternating views on whether
+remanufacturing is conducted on waste. The automotive associations definitively state that
+remanufacturing is conducted on products which are not waste, the BSI defnintion is not
+explicit in stating that used products should be classed on waste or non-waste, just that they are
+previously used, and the European Action Plan infers that remanufacturing is conducted on
+waste if read in conjunction with ELV directive, but other wise has no preference.
+Judging by the principle that parts created specifically for vehicles are subject to the ELV
+directive and not other directives, [9], the distinction from the automotive associations that
+cores are not waste is very important when seeking to implement remanufacturing into the
+ELV directive.
+
+Obstacles to incorporating remanufacturing into the ELV directive
+Waste problem
+By setting aside the issue of waste, this research has shown that remanufacturing processes are
+to some degree embedded into recycling, recovery and reuse operations of the ELV directive.
+Examining now the issue of waste, obstacles to incorporating remanufacturing into the ELV
+directive are apparent. Consider the following scenarios.
+Automotive remanufacturers such as an original equipment manufacturer (OEM) may offer
+a leasing or rental based business model. In this circumstance, the registered keeper of the
+vehicle (the person who is using the car) does not own the vehicle but instead the vehicle
+owner is the party who is leasing or renting the car to the registered keeper i.e. the OEM.
+Under this system, when the registered keeper returns the vehicle to the registered owner, the
+vehicle is not waste, given that the registered keeper cannot discard something that they do not
+own. Therefore an OEM remanufacturer can potentially conduct remanfuacturing operations
+on non-waste vehicles. (which is in line with the automotive associations description of a
+core).
+Now consider an independent remanufacturer (IR) who may obtain vehicle components
+from an authorised treatment facility (ATF); noting that when the vehicle reaches the ATF, it is
+considered a waste. In this instance, the ATF has a responsibility under the ELV to ensure they
+
+33
+
+Analysing these scenarios, and looking first at the OEM example. Remanufacturing in this
+instance is conducted on non-waste. While this is acceptable from the view of the automotive
+assoications, this is not generally acceptable from the persepective of the ELV directive; given
+that ELV directive is focused on waste avoidance any recovery strategy housed within the
+directive can presumably only apply to waste. Thus, a fundamental conflict appears within
+literature; from the ELV directive perspective, remanufacturing would only occur at the waste
+stage, whereas from the automotive associations perspective, remanufacturing would only
+occur at the usage stage i.e. before the products become waste. This distinction stops the
+automotive associations definition of remanufacturing being adopted unabridged into the ELV
+directive.
+Examining now the case of the IR who obtain cores from an ATF and perform
+remanufacturing operations (Fig. 1). Given that the cores are taken from an ATF, the cores
+must be thought of as waste, thus remanufacturing in this instance is not in agreement with
+how automotive associations view remanfuacturing. Again, difficulty in adopting the
+remanufacturing definition from the automotive associations unabridged is shown.
+
+Establishing remanufacturing as a stand alone strategy
+In addition to the issues accociated with waste, establishing remanufacturing as a standalone
+waste avoidance strategy is a further hurdle that needs adressed.
+Given that recycle, reuse and remanufacturing are understood as separate processes
+within literature [17, 21, 23, 26–30] and noting that literature’s opinion or viewpoint is
+formed by studying operations conducted within industry, it is important to remain
+consistent with existing litearture. However, it has thus far been shown that
+remanufacturing has potentially a presence in recycle and reuse, which are both recovery
+operations of the ELV directive. It can be stated therefore that in addition to incorporating
+an abridged version of the remanufacturing definition from the automotive assoications
+into the ELV directive, further work is also required to clearly separate remanufacturing
+from recycle and reuse.
+Additionally, consider the stipulation of the ELV directive that dismantling information is
+all the necessary information required for the environmentally sound treatment of ELV’s and
+that treatment facilities should have this information given to them from vehicle manufacturers. Thus, if remanufacturing is defined as a recovery process within the ELV directive and
+is performed at treatment facilities, vehicles manufactureres may be obligated to supply key
+information concerning dissassembly and reassamebly to support the remanufacturing operations conducted at the treatment facilities, information that vehicle manufacturers may be
+reluctant to divulge.
+
+Incorporation of remanufacturing into the ELV directive
+Waste problem
+
+
+Further, should the ELV directive somehow incorporate remanufacturing, a conflict in terms of
+which life cycle stage remanufacturing occurs at would be developed within literature.
+On first thought, the natural solution to this problem is to abridge the definition from the
+automotive associations and define remanufacturing as being able to occur on both waste and
+non-waste, a situation similar to Ijomah (2002), [21], in which the terminology of ‘used
+products’ is used.
+This decision would satisfy the situation of when IR conduct remanufacturing on cores
+obtained from an ATF, thus allowing remanufacturing to emerge from behind reuse, recycle
+and recovery terminology. Also, given that other types of remanufacturing, by for example
+OEM remanufacturers, occur at the usage stage of the product life cycle, stipulating that
+remanufacturing can occur on waste and non-waste within the ELV directive, would thus not
+infringe on the remanufacturing definition as outlined by the automotive associations; in this
+instance, the definition from the ELV would be in part agreement with the definition from the
+automotive associations.
+On closer examination however, stipulating that remanufacturing can occur on non-waste
+may not actually be feasible given that waste permeates right through the ELV directive.
+Specifically, given the focus of waste being diverted from landfill within the ELV directive,
+any inclusion of a remanufacturing definition within the ELV directive must by definition force
+remanufacturing to occur solely and strictly on waste products only. It can be stated therefore
+that there is not a scenario at present which would allows a cross body agreement between
+ELV directive and the automotive associations in terms of how remanufacturing is defined, or
+more specically which stage in the life cycle remanufacturing occurs.
+The authors put forward, that given remanufacturing is a viable option for restoring
+products to as new standard, remanufacturing terminology should be adopted into the ELV
+directive, therefore the non-waste requirement from the automotive associations must be
+eliminated from a future definition. An example of such a definition is given below,
+“Remanufacturing is a standardized industrial process by which cores are returned to
+same-as-new, or better, condition and performance. The process is in line with specific
+technical specifications, including engineering, quality and testing standards. The
+process yields fully warranted products.” [3]
+“A core is a previously used product or part, intended for the remanufacturing process.”
+This would satisfy the ELV directives objectives and goals, and start the process of
+remanufacturing emerging from behind other recovery strategies. The unavoidable drawback
+is that two interpretations of when remanufacturing occurs in literature would be apparent;
+confusion over remanfuactuing operations would be limited however given that
+remanufacturing from the automotive associations perspective is conducted on prodcuts which
+are not subject to the scope of the ELV directive.
+
+Establishing remanufacturing as a standalone strategy
+At this point, this work has shown how remanufacturing spans across recycling, reuse and
+
+35
+
+There are essentially two methods to achieve this, 1) to deconstruct and redefine the
+existing definitions of recycling and reuse and remove any inference of remanufacturing
+within these definitions, or 2) insert additional information as part of a remanufacturing
+definition. Option 1, while the best option to maintain consistency with literature, is not
+realistic as it would likely face much objection and resistance at the decision level, given that
+both domestic laws and guidance of member states would likely have to be rewritten as a result
+of this decision. Option 2 is therefore the more realistic option and the one put forward by the
+authors. Along with the definition of remanufacturing presented, the authors suggest additional
+text, similar to the following be inserted.
+“If a core has been cleaned, disassembled, had it components restored, or replaced to
+like new standard or better, reassembled, cleaned, meets or exceeds a rigorous testing
+standard at least equivalent for a virgin core, and issued with a full warranty, the core is
+said to have been remanufactured. Remanufacturing is a distinct process and is not
+typically regarded a generic recycling or reuse operation”
+In relation to remanufacturing being conducted at ATF’s. The potential of IR having a claim
+on obtaining all information for environmentally sound treatment of ELV’s from vehicle
+manufacturers, (including the information required to remanufacture) is not able to be resolved
+in this work. Owing to member states have their own national legislations governing the
+regulations expected from ATF’s and vehicle manufacturers, the current generic description of
+practices with the EU directive is best left unchecked in this instance. However, this work does
+highlight potential conflicts which could arise.
+
+Conclusion
+This research has identified that a recent coming together of leading automotive associations
+has resulted in an agreed upon definition of remanufacturing, and that remanufacturing should
+occur on products which in their view are not regarded as waste.
+Taking this definition into consideration, by firstly ignoring the concept of waste, an
+investigation of where remanufacturing currently resides in the ELV directive was performed.
+It was shown that remanufacturing has a presence in recycling, reuse, recovery terminology,
+with tenuous links between economic operators and treatment facilities. Justification of why
+remanufacturing should emerge as a standalone strategy within the ELV directive was also
+documented, with environmental benefits, consistency with literature, reduction in ambiguity
+of definition and reduction in confusion over performance along with waste reduction benefits
+discussed.
+By incorporating waste into the argument, this research found that at present there is no
+scenario which could satisfy both the automotive associations and the ELV directive, and so
+direct incorporation of the automotive associations definition of remanufacturing was not
+possible. The authors suggest remanufacturing is incorporated into the ELV directive via
+removing the insistence on cores being non-waste, with an abridged version of the automotive
+associations definition being presented. An unfortunate side effect is two differing interpretations within literature of which stage in the life cycle remanufacturing occurs is developed; this
+
+
+process, as recorded via study of industry operations, is given for incorporation into the ELV
+directive. This inclusion of a remanufacturing process should go some way to starting the
+process of establishing remanufacturing as a distinct recovery strategy within the ELV
+directive.

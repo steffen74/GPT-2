@@ -1,0 +1,2604 @@
+Jnl Remanufactur (2018) 8:51–80
+https://doi.org/10.1007/s13243-018-0045-y
+RESEARCH
+
+Evaluation of relationships between GSCM practices
+and SCP using SEM approach: an empirical investigation
+on Iranian automobile industry
+Armin Aalirezaei 1 & Niloofar Esfandi 2 &
+Alireza Noorbakhsh 3
+
+Received: 29 April 2017 / Accepted: 21 May 2018 / Published online: 14 June 2018
+# Springer Science+Business Media B.V., part of Springer Nature 2018
+
+
+
+Introduction
+The universality of the economy and the development of information technology have
+changed the supply-oriented market to the demand-oriented one and have made the organizations to understand the importance of the customers’ need satisfaction. [1, 2] Based on this, the
+Supply Chain Management (SCM) has gained prime importance since the customers’ interests
+and need satisfaction depend not only on the last identity attached to the customer, i.e., the final
+product but also on the other upstream suppliers.
+In a traditional perspective, the SCM includes guiding all supply chain members in an
+integrated and coordinated way in order to improve the performance and promote the utility
+and benefit. Therefore, the supply chain managers were seeking the fast delivery of products
+and services, cost reduction and the quality increase. However, the improvement of the
+environmental performance of the supply chain and social costs and the destruction of
+environment are not considered. The pressure of governmental rules to achieve the environmental standards in one hand, and the increasing growth of the customer demands to supply
+the green products on the other hand have stabilized the concept of the Green Supply Chain
+Management (GSCM).
+Today, in advanced companies, GSCM is attempting to use the green logistics and the
+environmental improvement in the whole supply chain as a strategic weapon to achieve a
+sustainable competitive strategy and organize their goals based on three important subjects: the
+green (product) design, the green (process) production and the product recycling [3]. In the
+past, the product life cycle included the processes of some phases from designing to consumption [4]. Environmental management includes the processes of preparing raw materials,
+designing, composing, using and recycling and reusing of materials and forming a closed loop
+of material to reduce the resource consumption and to reduce the environmental destructive
+effects. [5]. So, organizations should use the environmental management in the whole life
+cycle of their products to assure that the improvement of the environmental performance of the
+supply chain has taken place.
+The review of literatures shows that the practices of the green supply chain have some impacts
+on the Supply Chain Performance (SCP). By studying the references, it seems that there are
+remarkable studies in international articles on different aspects of the GSCM practices. [6, 7]. Ahi
+and Searcy [8] have identified and analyzed the metrics that had been used to address the energyrelated issues in GSCM and Sustainable Supply Chain Management (SSCM). These metrics were
+identified based on a structured content analysis of 445 articles published up to the end of 2012.
+Youn et al. [9] have pointed out that the environmental SCM practices have some special
+
+53
+
+Moreover, gaining competitive edge through effective implementation of sustainable practices in a highly competitive environment becomes increasingly difficult. Such increased
+competition has even greater effect on industry such as the automobile undoubtedly which
+is large, diverse and influential of many other business sectors [10].
+In Iran, however, little attention has been paid to the GSCM. So, there is a large gap
+between the desirability of GSCM in theory and its implementation in practice in Iran. In this
+research it has been attempted to study the relationship between the GSCM practices and the
+environmental, economic, and operational performance in the supply chain of Iranian automobile industry. Being the 12th largest automaker in the world and the largest in the MiddleEast [11], Iran has a crucial role in this large industry. The Iranian automotive industry was first
+developed in the 1960s by relying on foreign vehicle manufacturers. Today, the industry is
+dramatically growing and has become one of the Iran’s key industries, after oil industry. In
+2006, Iran was ranked as the 16th biggest automaker of the world, and soon after, in 2009, it
+experienced a 9.5% growth in production and was ranked as fifth in car production growth
+standing next to China, Taiwan, Romania and India [12].
+As a developing country, Iran has been emphasizing on the economic development, while
+seeking to maintain a balance with environmental protection. These burdens have made quota
+status too difficult for organizations to strike the balance between the economic advantages and
+environmental, and operational performance. Iran’s automotive supply chains have not been
+excluded from this adjustment. In Iran, the motor vehicle production has dramatically
+progressed. Hence, the environmental liabilities particularly in Iranian automotive industry
+have made grave concerns. The restricting pressures altogether have made the Iranian automobile supply chain managers to contemplate and commence the implementation of GSCM
+practices to improve the economic, environmental, and operational performance. Therefore,
+there is a huge demand for Iranian automobile industry, while challenges such as climate
+change, energy provision and shortage of natural resources need to be handled [13].
+In the present paper, the research questions are as follows: Is there a causal relationship
+between GSCM practices and the firm performance in Iranian automobile industry? Moreover,
+which aspects of GSCM influence on SCP and how this influences could be measured?
+The main purpose of the present study is to investigate the relationship between GSCM
+practices and their performance. For this, Saipa as a sample of automobile supply chain
+players, which includes suppliers, original equipment manufacturers in Iran is considered for
+the investigation. Hence, in this paper, to achieve this purpose, section “Review of literature”
+presents the review of the literature in GSCM and its practices and performance. Section “The
+conceptual model and research method” describes the methodology to make a conceptual
+framework in order to study the effect of GSCM practices and performance in the supply chain
+of Iranian automobile industry. In section “Data analysis”, the data analysis of Saipa Company
+as a case study will be presented and the model hypotheses are confirmed based on the
+extracted results. Finally, in section “Conclusions and suggestions”, the general conclusions
+and suggestions are presented.
+
+Review of literature
+
+Jnl Remanufactur (2018) 8:51–80
+
+Supplier
+management
+
+Environmental
+performance
+
+Positive economic
+performance
+
+Product
+recycling
+GSCM
+practices
+Organizational
+involvement
+
+Product
+lifecycle
+management
+
+Performance
+Negative economic
+performance
+
+Operational
+performance
+
+Fig. 1 The conceptual model proposed by this study
+
+GSCM practices
+Today, sustainable development assurance in every country depends on the optimal use of the
+limited source of that country. Different strategies have been taken by government to face this
+issue including applying the rules and green principles such as using raw materials which are
+consistent with the environment in industrial and productive centers, decreasing the use of oil
+and fossil energy sources, increasing the use of paper recovery, and reusing the waste materials
+in companies with both private and governmental sections [14].
+In this context, the great desire to make government regulations to get environmental
+standards in one hand, and the increasing demands of consumers to consume the green
+products on the other hand, has made a new concept as GSCM which includes the life cycle
+stages of product from designing to recycling ( [15]/64/EC).
+There are wide reviews in the area of GSCM especially in the late 1990 in which different
+issues such as the green production, planning, green construction and the product recycling
+were discussed [16–19].
+Knowing a wider perspective related to the green supply chain is an important step in
+knowing the sustainable environment branch. GSCM has had a rich literature especially since
+1989. However, some concepts have been studied more in the past 20 years, concepts such as
+the green design, green operations, reverse logistics, green production and the waste material
+management. [20]. In a general definition, the green supply chain includes a collection of the
+enterprise internal and external practices in the whole supply chain which leads to the
+improvement of the environment and preventing pollution. Green supply chain management
+has been defined as the management of raw materials, pieces and sections and all processes
+from suppliers to the producers and finally to the customers and take back [21]. In other words,
+GSCM includes the green purchasing, green productions, green distribution, green marketing
+and reverse logistics [22].
+Darnall has also presented a critical article concerning the SCM and he has pointed out that
+the environment management systems have had little progress in decreasing the environmental
+
+55
+
+SCP
+In the economic performance perspective, when the environmental performance of the company improves, it stimulates the economic performance from both negative and positive point
+of view which increases the market share and make more opportunities in the market [25]. The
+positive economic performance is reflected through the cost reduction in buying the materials,
+energy consumption, waste materials deals and the wastes disposal. In contrast, the negative
+economic performance will be seen through the increase of the costs related to the investing
+and buying the materials which are compatible with environment [26, 27].
+The operational performance has been defined as follows: Increasing the amount of timelydelivered goods, decreasing the inventory levels, increasing the scrap rate, promoting the
+products’ quality, increasing the product line, and improving the capacity utilization [7].
+In the environmental performance perspective, there exists a plenty of experimental studies
+focused on the supply chain environmental performance. Tsoulfas and Pappis [28], for
+example, have presented a model to analyze the supply chain environmental performance in
+Greece. Zhu et al. [29] have studied the economical practices of the producers cooperation in
+the environmental supply chain and its performance requirements in China. Youn et al. [9] in
+an article titled supply chain strategic participation and the performance outputs have pointed
+out to the relationship between the environmental SCM practices and the environmental
+performance and business performance.
+
+Impact of GSCM practices on the SCP
+However, a few studies have achieved good conclusions on the impact of GSCM practices on
+the SCP. Govindan et al. [13] have used the decision-making trial and evaluation laboratory
+method with intuitionistic fuzzy sets to handle the important and causal relationships between
+GSCM practices and SCP can be considered as an example. In their study, a case study taken
+from the automotive industry is presented to evaluate the efficiency of the proposed method
+and their results have revealed the “internal management support”, “green purchasing” and
+“ISO 14001 certification” are the most significant GSCM practices.
+There are different factors which affect the acceptance and application of green supply
+chain practices. One of these important studies for investigating the effective indices in GSCM
+is Hu and Hsu’s [6] article. In their study, they have studied and recognized some essential
+factors to administer the SCP in the electricity industry and in electronic industries in Taiwan.
+In fact, their purpose was studying the critical success factors to administer the GSCM in
+Taiwan electronic and electricity industries in comparison with European Union instructions.
+Their study results show that there are 20 important factors in GSCM in Taiwan electronic and
+electricity industries. Moreover, Kuei et al. [30], identifies the critical factors influencing the
+adoption of green supply chain practices in Chinese firms. The participating firms were
+classified into central, downstream, and upstream firms. They could show that external
+environmental factors (including customer pressures, regulatory pressures, government supports, and environmental uncertainty) are the most important in adopting green practices. In
+another study, Kusi-Sarpong et al. [31] have introduced a comprehensive framework for
+
+Jnl Remanufactur (2018) 8:51–80
+
+gold mining industry are examined by using the decision-making trial and evaluation laboratory (DEMATEL) and the analytical hierarchy process. The evaluation models have found that
+the strategic supplier partnership and the end-of-life practices are the most prominent and
+influential factors whereas lean and green operations, substituting toxic inputs with environmentally friendly ones and resale of used parts or components are prominent sub-factors.
+Furthermore, Geng et al. [32] have tried to understand the relationship between GSCM
+practices and the firm performance in the manufacturing sector in Asian Emerging Economies
+(AEE) based on empirical evidence. They have developed a conceptual framework and
+analyzed it through a meta-analysis of 130 effects from 25,680 effect sizes. The findings
+revealed that the GSCM practices lead to better performance in four aspects: the economic,
+environmental, operational, and social performance. Moreover, the results have indicated that
+the industry type, the firm size, ISO certification, and the export orientation moderate several
+of the GSCM practice-performance relationships.
+Despite the importance of this issue, there are still a limited number of studies in the area of
+GSCM and in its application in Iran. Regarding the importance of GSCM and its relationship
+with environmental, economic and operational performance in the supply chain, the growth of
+automobile industry, and the considerable role of the industry among other production
+industries in Iran in the generating the national net income, in the present study, based on
+the review of the related literature of the green supply chain and the environmental, economic
+and operational performance, a conceptual framework has been proposed to understand the
+relationship between the GSCM practices and the SCP in the supply chain of Iranian
+automobile companies. In addition, this study is a significant step in maturing the academic
+field by adopting a hybrid method for confirming GSCM practice-performance relationships.
+
+The conceptual model and research method
+In the model proposed by this study, a conceptual framework has been used in order to study
+the effect of the practices of GSCM on the SCP of automobile companies in Iran and all
+purposes and hypotheses of this study have been investigated through this framework. In the
+following figure, the proposed conceptual model has been presented in Fig. 1.
+As shown in Fig. 1, the proposed conceptual model of the study has used the classification
+of Hu and Hsu to study the GSCM model. To study the GSCM, they have considered four
+aspects including the organization involvement, the product lifecycle management, the product
+recycling and the suppliers management [6].
+For the factor of organizational involvement, the following aspects have been recognized
+which include the green designing, top management support, environmental policy for GSCM,
+cross-function integration, manpower involvement, effective communication platform within
+companies and with suppliers, establishing an environmental risk management system for
+GSCM, supplier evaluation and selection, Information System (IS), research and development
+associated with the university professors and experts in the field of recycling.
+For the factor called the product lifecycle management in green supply chain management, the
+following aspects have been recognized which include the application of the life cycle assessment
+
+57
+
+For the factor called the supplier management in GSCM, the following aspects have been
+recognized which include the environmental auditing for suppliers, suppliers environmental
+questionnaire, the compliance statement, product testing report, bill of materials, establishing
+the environmental requirements for purchasing items, and green purchasing.
+Moreover to study the SCP model Zhu et al. [7] classification is taken into account to
+investigate the SCP model of Iranian Automobile industry.
+The purpose of the present study is to determine the relationships among the GSCM
+practices. The type of this study is a covariance or correlation matrix analysis. In order to
+devise the research hypothesis, based on the inductive reasoning, the library studies of the
+related literature and the research background about the relationship between GSCM and SCP
+have been carried out. Finally, the proposed conceptual model as the contribution of this study
+has been analyzed by using the factor analysis method, Pearson correlation coefficient and
+SEM.
+
+The research hypotheses
+As it is categorized in section “Review of literature”, all hypotheses extracted from literature
+review are as follows:
+The main hypothesis:
+
+&
+
+In the supply chain of Iranian automobile Companies, there is a significant and positive
+relationship between the GSCM practices and its performance.
+Secondary hypotheses:
+
+&
+&
+&
+&
+
+Secondary hypothesis 1: in the supply chain of Iranian automobile Companies, the
+suppliers management practice on the SCP has a positive and significant relationship.
+Secondary hypothesis 2: in the supply chain of Iran automobile Companies, the product
+recycling practice on the SCP has a positive and significant relationship.
+Secondary hypothesis 3: in the supply chain of Iranian automobile Companies, the
+organization involvement practice on the SCP has significant and positive relationship.
+Secondary hypothesis 4: in the supply chain of Iranian automobile Companies the product
+lifecycle management on SCP has a significant and positive relationship.
+Hypotheses of GSCM model:
+
+&
+&
+&
+&
+&
+
+GSCM hypothesis 1: the latent variable of GSCM in Iranian automobile companies is
+comprised of four factors such as: organization involvement, product lifecycle management, product recycling and suppliers management.
+GSCM hypothesis 2: the organization involvement is of significant positive correlation
+with GSCM in Iranian automobile companies.
+GSCM hypothesis 3: the product lifecycle management is of significant positive correlation
+with GSCM in Iranian automobile companies.
+GSCM hypothesis 4: the product recycling is of significant positive correlation with
+
+Jnl Remanufactur (2018) 8:51–80
+
+SCP model hypotheses:
+
+&
+&
+&
+&
+&
+
+SCP hypothesis 1: the latent variable of SCP in Iranian automobile companies is comprised of four factors such as: the environmental, positive economic, negative economic
+and operational performance.
+SCP hypothesis 2: the environmental performance is of significant positive correlation
+with SCP in Iranian automobile companies.
+SCP hypothesis 3: the positive economic performance is of significant positive correlation
+with SCP in Iranian automobile companies.
+SCP hypothesis 4: the negative economic is of significant positive correlation with SCP in
+Iranian automobile companies.
+SCP hypothesis 5: the operational performance is of significant positive correlation with
+SCP in Iranian automobile companies.
+
+Saipa with 100 subsidiaries and affiliates and approximately 40,000 employees, has been
+considered as one of the largest industrial groups in Iran. Currently, the company has
+cooperated with more than 1000 suppliers throughout the country with the capacity of the
+annual production of 950,000 vehicles. The Saipa Group manages effectively to create
+sustainable values for stakeholders through creating positive economic, social and environmental impacts on its own value chain activities. To do this, Saipa focuses its attention on the
+following cases: to create sustainable value chain in auto industry, to create and develop
+opportunities for customers, to produce sustainable benefits for shareholders and to produce
+sustainable benefits for employees (http://www.Saipacorp.com).
+With regard to the fact that Iranian automobile industry is monopolized by Saipa as the
+greatest manufacturer in Iran, this company is chosen to evaluate the hypothesis devised in this
+paper.
+
+Pearson correlation coefficient
+The correlation coefficient is often referred to as Pearson’s correlation or r coefficient. The
+correlation r value requires both a magnitude and a direction of either positive or negative. It
+may take on a range of values from −1 to +1, where the values are absolute and nondimensional with no units involved. A correlation coefficient of zero indicates that no
+association exists between the measured variables. The closer the r coefficient approaches
+±1, regardless of the direction, the stronger is the existing association indicating a more linear
+relationship between the two variables. The strength of the correlation is not dependent on the
+direction or the sign. Thus, for example, r = 0.90 and r = −0.90 are equal in the degree of
+association of the measured variables. A positive correlation coefficient indicates that an
+increase in the first variable would correspond to an increase in the second variable, thus
+implying a direct relationship between the variables. A negative correlation indicates an
+inverse relationship whereas one variable increases the second variable decreases. If there is
+no linear relationship between the variables, r will be virtually zero.
+It is necessary to perform a significance test to decide whether based upon the sample there
+is any or no evidence to suggest that the linear correlation is present in the population. Hence,
+
+59
+
+Two-tailed significance test:
+H0: ρ = 0 (the population correlation coefficient is 0; there is no association)
+H1: ρ ≠ 0 (the population correlation coefficient is not 0; a nonzero correlation could
+exist)
+One-tailed significance test:
+H0: ρ = 0 (the population correlation coefficient is 0; there is no association)
+H1: ρ > 0 (the population correlation coefficient is greater than 0; a positive correlation
+could exist)
+Or
+H1: ρ < 0 (the population correlation coefficient is less than 0; a negative correlation
+could exist)
+Where ρ is the population correlation coefficient. [33, 34].
+
+Structural equation modeling (SEM)
+SEM is a comprehensive statistical approach which tests the hypotheses regarding the
+relationships among the observed and latent variables. A major advantage of SEM is the
+ability to estimate a complete model incorporating both measurement and structural considerations. There are a variety of indices to evaluate the model fitness. In this paper, five common
+fit indices recommended in the literature are used as follows which their values are indicating
+an acceptable model fit:
+1. Chi-square/degree of freedom (χ2/df) of less than 3 indicating the acceptable fit;
+2. P-value associated with χ2/df of less than .05 indicating the acceptable model fit;
+3. The Root Mean Squared Error of Approximation (RMSEA) with values less than 0.1
+representing the acceptable fit;
+4. The Goodness of Fit Index (GFI) with values greater than 0.9 indicating the good fit;
+5. The Adjusted Goodness of Fit Index (AGFI) with values greater than 0.8 indicating the
+acceptable fit. [35]
+The aim of the present study is to investigate the relationship between GSCM and SCP in a
+practical way. The Research method used in this article is a descriptive-correlation.
+On the ground that, in this study, the distribution of weights between variables is normal and
+parametric, Pearson correlation coefficient is used to find the linier relationship between them.
+In descriptive-correlation researches, the correlation matrix or covariance analysis could be
+implemented by using a factor analysis and SEM. In the factor analysis, the main goal is to
+summarize the sets of data or finding the latent variables (construct). Also, in SEM, testing the
+structural relationships is based on the hypotheses and literature.
+
+Jnl Remanufactur (2018) 8:51–80
+
+measurement error. More complex measurement models in which the other sources of
+systematic covariation between observed measures besides a common underlying construct
+are present can also be formulated. This is critically important because most conceptual
+variables can be only measured with error (both random and systematic errors) and ignoring
+the measurement errors has undesirable effects on the model estimation and testing. Second,
+SEM makes it possible to investigate the complex patterns of the relationships among the
+constructs in one’s theory and assess both in an overall sense and in terms of specific
+relationships between the constructs [36].
+
+Statistical population and the sample size
+The statistical population classified in three main classifications of upstream, central, and
+downstream sections has included the top managers, commercial and production managers,
+and logistics experts, all with at least 3 years of experience in the supply chain of Saipa
+Company as case study. The number of experts in 9 studied companies cooperated with Saipa
+were about 412 people. To determine the sample size, Cochran formula has been used as eq.
+(1):
+n¼
+
+NZ 2 pq
+α
+
+ð1Þ
+
+2
+
+ε2 ðN −1Þ þ Z 2 pq
+α
+2
+
+Where:
+p
+q
+ε
+Z
+N
+
+the degree of variability (p = 0.5)
+1-p
+the permitted error value (ε =0.05)
+the normal variable corresponding with 95% confidence level. (Zα/2 = 1.96)
+the population size
+
+n¼
+
+412 Â ð1:96Þ2 Â 0:5 Â 0:5
+ð412−1Þ Â ð0:05Þ2 þ ð1:96Þ2 Â 0:5 Â 0:5
+
+¼
+
+382:2392
+¼ 199:0466≈200
+1:9529
+
+Regarding the statistical population number (412 people), the statistical sample size has
+been estimated 200 people based on the sampling formula of the limited population. Morgan
+table suggests a sample of 196 for the statistical population of 400 population size. For more
+certainty, 285 questionnaires have been distributed and 217 of them were collected. To carry
+out this study, the classified random sampling method has been used. Table 1 illustrates the
+ratios of these groups and the number of samples. The statistical population of each company
+(the number of experts) has been determined based on the interviews with companies’
+managers. So, first the statistical population was classified and then a random sample of each
+classification was selected.
+
+
+Central part
+48
+13.1%
+28
+14.5%
+
+Company
+
+Position in SC
+Population size
+% in population
+Sample size
+% in sample
+
+Up stream
+156
+45.2%
+69
+38.4%
+
+Saze Gostar
+
+Up stream
+14
+9.1%
+8
+9.1%
+
+Seetco
+Up stream
+32
+9.1%
+20
+9.9%
+
+Saipapress
+
+Table 1 The statistical population of each 9 studied companies in Saipa’s supply chain
+
+Up stream
+24
+9.1%
+11
+9.1%
+
+Pars Khodro
+Up stream
+42
+11.3%
+25
+13.9%
+
+Mega Motor
+Up stream
+35
+9.8%
+18
+11.4%
+
+Saipaazin
+
+Up stream
+17
+9.1%
+9
+9.1%
+
+Zamyad
+
+Down stream
+44
+11.5%
+23
+11.9%
+
+Saipayadak
+
+..........
+412
+100%
+217
+100%
+
+Total
+
+Jnl Remanufactur (2018) 8:51–80
+
+the internet has been used. To collect data in the practical area, the questionnaire and field
+researches have been used. The practical questions of the questionnaire include two sections:
+a) the general questions which include general information and the cognitive population of
+respondents. b) questions related to the practical aspects of GSCM practices with 22 questions;
+(According to table 18 in appendix) the suppliers management aspect has 7 questions, the
+product recycling has 3 questions, organization involvement has 10 questions, and the product
+lifecycle has 2 questions, furthermore the questions related to the aspects of SCP includes 21
+items (Environmental performance has 6 questions, positive economic performance has 5
+questions, negative economic performance has 4 questions, and operational performance has 6
+questions) (According to table 19 in appendix). Tables 2 and 3 illustrate the questions related to
+the aspects of GSCM practices and SCP.
+Now, the validity and reliability of the questionnaire will be discussed in the following
+section.
+
+Validity and reliability of the questionnaire
+Reliability
+To evaluate the reliability of the evaluation instrument, Cronbach’s alpha [37] method was
+used. A sample of 47 questionnaires was the pretest and Cronbach’s alpha coefficient of the
+questionnaire of GSCM practices was 88.8% and the SCP questionnaire was 82.5%. Since all
+these numbers are above 70%, the questionnaire meets the reliability or validity characteristics.
+The result of the questionnaire reliability test in Cronbach’s alpha method was completed for
+217 questionnaires which has been summarized in Table 4.
+Table 2 Analysis of GSCM practices aspects and indices [6]
+Aspects
+Suppliers management
+(SM)
+
+Indices
+
+SM1- Environmental auditing for suppliers
+SM2- suppliers environmental questionnaire
+SM3- Compliance statement
+SM4- Product testing report
+SM5- Bill of materials
+SM6- Establishing environmental requirements for purchasing items
+SM7- Green purchasing
+Product recycling (PR)
+PR1- Joining local recycling organization
+PR2- Collaboration on products recycling with the same sector industry.
+PR3- Produce disassembly manual
+Organizational involvement OI1- Green design
+(OI)
+OI2- Top management support
+OI3- Environmental policy for GSCM
+OI4- Cross-function integration
+OI5- Manpower involvement
+OI6- Effective communication platform within companies and with suppliers
+OI7- Establish an environmental risk management system for GSCM
+OI8- Supplier evaluation and selection
+OI9- Information system
+OI10- the relationship of research and development unit with university professors
+and experts
+Lifecycle of products
+
+63
+
+Table 3 Analysis of SCP aspects and indices [7]
+Aspects
+
+Indices
+
+Environmental performance (ENP)
+
+ENP1- Reduction of air emission
+ENP2- Reduction of waste water
+ENP3- Reduction of solid waste solid waste
+ENP4- Decrease of consumption for hazardous/harmful/ toxic
+materials
+ENP5- Decrease of frequency for environmental accidents
+ENP6- Improve a company’s environmental situation
+Positive economic performance (PECP) PECP1- Decrease of cost for materials purchasing
+PECP2- Decrease of cost for energy consumption
+PECP3- Decrease of fee for waste treatment
+PECP4- Decrease of fee for waste discharge
+PECP5- Decrease of fine for environmental accidents
+Negative economic performance
+NECP1- Increase of investment
+(NECP)
+NECP2- Increase of operational cost
+NECP3- Increase of training cost
+NECP4-Increase of cost for purchasing environmentally friendly
+material
+Operational performance (OPP)
+OPP1- Increase amount of goods delivered on time
+OPP2- Decrease inventory levels
+OPP3- Increase scrap rate
+OPP4- Promote products’ quality
+OPP5- Increased product line
+OPP6- Improved capacity utilization
+
+Validity
+To determine the questionnaire validity, there are different methods. In this study, the content
+validity and structure validity methods were used.
+
+Content validity First, to evaluate the proposed framework, the viewpoints of 12 experts
+(including 10 managers and experts of the studied organization and 2 university professors)
+were used. Generally, this evaluation was mainly focused on the content validity of the indices
+presented for the evaluation of the considered aspects of the study. So, in the first stage, the
+content validity method was used to evaluate the questionnaire validity rate.
+The result of the questionnaire content validity test in Content validity ratio (CVR) [38] and
+Content validity index (CVI) [39] was compiled for 12 experts, summarized in Tables 5 and 6,
+as follows:
+According to Lawshe, for 12 experts, the minimum value for CVR is 0.56. So in this case,
+any question perceived essential by more than 9 panelists has content validity. Waltz and
+Bausell [39] also posed a minimum value of 0.79 to the CVI factor for the assessment of
+content validity. Thus, Tables 5 and 6 showed that the contents of SCP and GSCM questionnaires are validated.
+Table 4 The result of the questionnaire reliability test in Cronbach’s alpha method
+Test area
+
+The number of questions
+
+Cronbach’s alpha coefficient
+
+The whole questionnaire
+GSCM practices
+SCP
+
+43
+22
+21
+
+
+Jnl Remanufactur (2018) 8:51–80
+
+Table 5 CVR and CVI for SCP questions
+SCP questions
+
+Content validity ratio
+
+Content validity index
+
+SM1
+SM2
+SM3
+SM4
+SM5
+SM6
+SM7
+PR1
+PR2
+PR3
+OI1
+OI2
+OI3
+OI4
+OI5
+OI6
+OI7
+OI8
+OI9
+OI10
+LCMI
+LCM2
+
+0.71
+0.75
+0.62
+0.93
+0.87
+0.71
+0.56
+0.88
+0.70
+0.88
+0.71
+0.90
+0.79
+0.82
+0.93
+0.59
+0.71
+0.75
+0.81
+0.75
+0.87
+0.97
+
+0.92
+0.87
+0.83
+0.83
+0.91
+0.87
+0.93
+0.82
+0.90
+0.83
+0.92
+0.95
+0.80
+0.84
+0.95
+0.84
+0.92
+0.98
+0.89
+0.91
+0.88
+0.95
+
+Construct validity Construct validity determines the extent to which a scale measures a
+variable of interest in this research. For considering convergence in the construct of GSCM and
+SCP, the factor analysis is used. Exploring factor analysis and criteria factor was used to
+investigate the construction of questionnaire. Factor analysis has depicted that all mentioned
+criteria are measured in these questionnaires [40].
+Table 6 CVR and CVI for GSCM questions
+GSCM questions
+
+Content validity ratio
+
+Content validity index
+
+ENP1
+ENP2
+ENP3
+ENP4
+ENP5
+ENP6
+PECP1
+PECP2
+PECP3
+PECP4
+PECP5
+NECP1
+NECP2
+NECP3
+NECP4
+OPP1
+OPP2
+OPP3
+OPP4
+OPP5
+OPP6
+
+0.98
+0.90
+0.69
+0.80
+0.87
+0.94
+0.96
+0.57
+0.98
+0.84
+0.83
+0.68
+0.58
+0.77
+0.98
+0.80
+0.65
+0.94
+0.89
+0.79
+0.68
+
+0.92
+0.95
+0.87
+0.86
+0.98
+0.81
+0.91
+0.87
+0.90
+0.89
+0.99
+0.89
+0.91
+0.89
+0.93
+0.96
+0.85
+0.99
+
+65
+
+The construct validity aimed at establishing the degree to which an instrument measures the
+construct it has been designed to be measuring. It is formed by convergent and discriminant
+validity. All these forms are related to and dependent on the quality of the construct.
+Convergent validity refers to the degree to which two measures of constructs that theoretically
+should be related are indeed related. Although, the discriminant validity describes the extent to
+which the measurements that should be unrelated are, in fact, unrelated [41].
+In this paper, according to the conceptual model, the research hypotheses in which the
+relationship between GSCM practices and SCP in Iranian automobile industry is in question
+are in contrast to the concept of discrimination of GSCM and SCP variables. Furthermore, to
+understand the correlations between GSCM practices and SCP dimensions, the outputs of the
+canonical correlation analysis are as follows (Table 7):
+
+Data analysis
+The data analysis is accomplished by inferential statistical techniques particularly the exploratory factor analysis and the confirmatory factor analysis.
+The relationships between the variables have been identified by using the exploratory factor
+analysis and then the factoring has been implemented. Then the result is applied in SEM is
+used in the confirmatory factor analysis. The variables are properly factored in the exploratory
+factor analysis. Through the confirmatory factor analysis in SEM, factoring is either accepted
+or rejected [42].
+The software SPSS 22.0 has been applied for the first analysis and Lisrel 9.2 has been
+applied for the second. In the following sections, the results of the exploratory factor analysis
+and after that the results of Pearson correlation test and SEM will be presented. Then, the
+secondary hypotheses will be studied. Finally, the main hypothesis will be explained after the
+confirmatory factor analysis of both sides of the model. Indeed, latent variables of GSCM,
+latent variables of SCP, and then the impact of GSCM on SCP will be analyzed.
+
+The results of the exploring factor analysis
+Exploring factor analysis for the questionnaire of GSCM practices
+After the factor analysis of 22 variables based on the extracted data of 217 questionnaires, the
+following results were achieved; Kaiser-Meyer-Olkin Measure (KMO) was 0.881 showing
+Table 7 Canonical correlation analysis for GSCM and SCP variables
+SCP dimensions
+GSCM practices
+
+environmental
+performance
+
+positive economic
+performance
+
+negative economic
+performance
+
+operational
+performance
+
+supplier management
+product recycling
+organizational
+involvement
+product lifecycle
+management
+
+0.888
+0.367
+0.309
+
+0.529
+0.577
+0.463
+
+0.567
+0.592
+0.541
+
+0.333
+0.402
+0.827
+
+0.499
+
+0.456
+
+0.697
+
+
+Jnl Remanufactur (2018) 8:51–80
+
+that the sample size was enough. KMO Test is a measure of how suited the data is for factor
+analysis. The test measures the sampling adequacy for each variable in the model and for the
+complete model. The statistic is a measure of the proportion of variance among variables that
+might be a common variance. The lower the proportion, the more suited the data is to factor
+analysis [43]. And, “sig. In Bartlett’s test of Sphericity” was lower than 0.05. Bartlett’s test of
+sphericity tests the hypothesis that the correlation matrix is an identity matrix, which would
+indicate that the variables are unrelated and therefore unsuitable for structure detection. Small
+values (less than 0.05) of the significance level indicate that a factor analysis may be useful with
+the data [44]. Moreover, four factors with the total variance of more than 71.39% have been able
+to evaluate the GSCM practices (According to table 21 in appendix). Thus, this shows the
+suitable construct validity of the questions. A rotated component matrix of the GSCM practices
+questionnaire has been shown in Table 8.
+
+Exploring factor analysis for the SCP questionnaire
+For SCP exploring factor analysis, similar to GSCM, the following results were achieved after the
+factor analysis of 21 variables; KMO was 0.750 so that the sample size was adequate. In addition,
+“sig. In Bartlett’s test of Sphericity” was less than 0.05. Furthermore, it is obvious that four factors
+with the total variance of more than 71.39% could be able to assess the SCP (According to table
+20 in appendix). This indicates the suitable construct validity of the questions. Table 9 has shown
+the rotated component matrix of the SCP questionnaire as follows:
+Table 8 Rotated component matrix of the GSCM practices questionnaire. Extraction Method: Principal
+Component Analysis. Rotation Method: Varimax with Kaiser Normalization
+Factor model
+aspects
+
+components
+Organizational
+involvement
+
+SM1
+SM2
+SM3
+SM4
+SM5
+SM6
+SM7
+PR1
+PR2
+PR3
+OI1
+OI2
+OI3
+OI4
+OI5
+OI6
+OI7
+OI8
+OI9
+0I10
+LCM1
+LCM2
+
+Suppliers
+management
+
+Product
+recycling
+
+Product
+lifecycle
+
+.112
+.115
+.136
+.165
+−.024
+−.026
+.090
+.173
+.115
+.153
+.780
+.754
+.875
+.857
+.901
+.898
+.874
+.790
+.635
+.893
+.122
+.026
+
+.805
+.816
+.764
+.809
+.702
+.784
+.604
+−.006
+.063
+.149
+.072
+.026
+.051
+−.103
+.104
+.153
+.119
+.178
+.163
+.047
+.160
+.146
+
+−.159
+.114
+−.085
+−.045
+.306
+.220
+.419
+.863
+.879
+.889
+.020
+.067
+.148
+.115
+.035
+.041
+.028
+.114
+.275
+.045
+−.032
+.268
+
+.145
+.088
+.083
+.070
+.257
+−.010
+−.310
+.117
+.081
+.030
+.163
+.053
+.140
+−.054
+−.003
+−.082
+.056
+.021
+.155
+−.065
+.779
+
+67
+
+Table 9 Rotated component matrix of the SCP questionnaire. Extraction Method: Principal Component
+Analysis. Rotation Method: Varimax with Kaiser Normalization
+Factor model
+aspects
+
+components
+Operational
+performance
+
+ENP1
+ENP2
+ENP3
+ENP4
+ENP5
+ENP6
+PECP1
+PECP2
+PECP3
+PECP4
+PECP5
+NECP1
+NECP2
+NECP3
+NECP4
+OPP1
+OPP2
+OPP3
+OPP4
+OPP5
+OPP6
+
+Positive economic
+performance
+
+Environmental
+performance
+
+Negative economic
+performance
+
+.137
+.120
+.209
+−.026
+.091
+−.016
+.097
+.127
+.144
+.123
+.064
+.003
+.120
+.009
+.099
+.787
+.800
+.880
+.902
+.888
+.906
+
+−.175
+.086
+−.058
+.265
+.350
+.131
+.856
+.908
+.905
+.893
+.897
+.273
+.028
+.125
+−.071
+.076
+.118
+.183
+.077
+.040
+.082
+
+.798
+.809
+.777
+.712
+.644
+.819
+.094
+.172
+.166
+−.009
+−.007
+.113
+.103
+.129
+.121
+.023
+.166
+.014
+.127
+.113
+.064
+
+.181
+.125
+.132
+.275
+−.160
+.047
+.080
+.019
+.026
+.119
+.133
+.806
+.840
+.819
+.839
+.085
+.073
+.112
+−.055
+.074
+−.002
+
+a. Rotation converged in 5 iterations
+
+It is worthwhile to say that, in questionnaire related to SCP a Likert is provided to scale for
+participants which is of a prime conceptual difference between positive economic performance
+and negative one. First below Tables 10 and 11 is considered for the positive and the second is
+allocated to negative economic performance questions:
+As it is shown, according to Hwang and Yoon [45], scaling for negative economic
+performance is in reverse order with respect to positive economic performance’s order with
+the aim of compensating the revers effects of increasing and decreasing criteria of interest.
+
+Pearson correlation coefficient analysis
+To evaluate the strength of the correlation and the direction of the variable relationship of the
+proposed model and to test the hypothesis, SPSS 22.0 software and Pearson have been used.
+The results of this parametric test have been presented in Table 12.
+Based on the SPSS 22.0 output in Table 12, the significance level is less than 0.5. So, the
+null hypothesis (H0) is rejected and with 99% confidence level, it can be said that there is a
+significant and positive relationship between GSCM practices and its aspects with the SCP.
+
+Table 10 Scaling for positive economic performance
+Strongly disagree
+
+disagree
+
+natural
+
+agree
+
+Strongly agree
+
+1
+
+2
+
+3
+
+
+Jnl Remanufactur (2018) 8:51–80
+
+Table 11 Scaling for negative economic performance
+Strongly disagree
+
+disagree
+
+natural
+
+agree
+
+Strongly agree
+
+5
+
+4
+
+3
+
+2
+
+1
+
+Since the correlation coefficients have a positive sign, it can be concluded that there is a
+direct positive relationship between the GSCM practices and its aspects with SCP. It means
+that when the aspect of suppliers management, the product recycling, organizational involvement, and the product lifecycle management of GSCM practices increase, the SCP will
+increase too. Moreover, the correlation coefficient shows the strength of this positive relationship. As shown in Table 10, among all aspects of GSCM, the product recycling is of the most
+association with SCP with the correlation coefficient of 0.555.
+
+The result of SEM analysis
+Now that the existence of the correlation relationship has been recognized, the structural and
+causal relationship between variables and the latent constructs of GSCM practices and SCP
+can be evaluated by SEM method using the confirmatory factor analysis and Path Analysis,
+using the computer software program LISREL 9.2.
+
+The confirmatory factor analysis of GSCM practices model
+To confirm GSCM hypotheses, the confirmatory factor analysis of GSCM practices model is
+applied. The fitness indices of the model show that the model is fitted (Table 13). As it can be
+seen in Fig. 2, all significance numbers related to the model’s main aspects have been
+significant because their significance number is more than 1.96. So, it can be asserted that
+the factors of suppliers management with significance number of 4.67, the product recycling
+with 5.52, organizational involvement with significance number of 3.89, and the product
+lifecycle with significance number of 2.57 have a positive and significant relationship with
+GSCM practices. In other words, based on the fitness of the latent prediction model (Fig. 2), it
+is confirmed that four mentioned factors meaningfully comprise the GSCM practices in Saipa.
+
+Table 12 The hypothesis and the statistical hypothesis of correlation
+Variables
+
+The number of
+samples
+
+Mutual
+significance
+
+Pearson correlation
+coefficient
+
+GSCM practices and SCP
+217
+.000
+.803**
+The aspect of suppliers management and
+217
+.000
+.484**
+SCP
+The aspect of product recycling and SCP
+217
+.000
+.555**
+The aspect of organizational involvement
+217
+.000
+.498**
+and SCP
+The aspect of product lifecycle management 217
+.000
+.537**
+and SCP
+
+69
+
+Table 13 GSCM model fitness indices
+fitness indices
+
+Measure of Index
+
+Chi-Square/df
+P-value
+Root mean square error of approximation (RMSEA)
+Goodness of fit index (GFI)
+Adjusted goodness of fit index (AGFI)
+
+2.8795
+0.000
+0.096
+0.95
+0.97
+
+Figure 3 shows the extent to which each factor affects the GSCM practices in Saipa. The
+priority of these factors is as follows:
+1.
+2.
+3.
+4.
+
+The product recycling (PR) with the path coefficient of 0.61;
+The product lifecycle (LCM) with the path coefficient of 0.55;
+The suppliers management (SM) with the path coefficient of 0.48;
+The organizational involvement (OI) with the path coefficient of 0.37.
+
+Also, in the following section, the results of the Fig. 3 have been presented:
+1. The most significant factors in suppliers management are SM2 and SM4 with the
+correlation coefficient of 81 and 77% which are the “Suppliers environmental questionnaire” and “Product testing report”.
+
+SM1
+11.93
+
+SM2
+
+10.48
+
+SM3
+
+9.09
+
+11.31
+
+SM4
+
+8.59
+
+10.36
+
+SM
+
+8.82
+8.02
+
+SM5
+
+9.14
+
+SM6
+
+8.87
+
+10.88
+8.01
+
+SM7
+
+9.84
+
+PR1
+
+8.06
+
+14.37
+
+PR2
+
+5.93
+
+14.79
+
+PR3
+
+5.73
+
+OI1
+
+9.82
+
+11.28
+
+OI2
+
+9.94
+
+14.28
+
+OI3
+
+9.01
+
+13.35
+
+OI4
+
+9.47
+
+14.74
+
+OI5
+
+8.61
+
+14.02
+
+OI6
+
+8.63
+
+OI7
+
+9.16
+
+4.67
+
+PR
+5.52
+1.00
+
+GSCM
+3.89
+
+OI
+
+14.76
+2.57
+
+12.32
+9.72
+
+LCM
+
+9.76
+
+OI9
+
+14.36
+
+OI8
+
+10.12
+
+Fig. 2 Latent prediction model of GSCM practices
+
+2.76
+
+8.95
+7.69
+
+LCM2
+
+Chi – Square = 587.43, df = 204, P – Value = 0.00000, RMSEA = 0.096
+
+OI10
+
+Jnl Remanufactur (2018) 8:51–80
+
+0.75
+
+SM1
+
+0.44
+0.34
+
+0.81
+0.72
+
+SM3
+
+0.48
+
+0.77
+
+SM4
+
+0.40
+
+0.71
+
+SM5
+
+0.49
+
+SM6
+
+0.44
+
+SM7
+
+SM
+
+SM2
+
+0.69
+
+0.75
+0.56
+0.48
+
+PR1
+
+0.34
+
+0.88
+
+PR2
+
+0.22
+
+0.89
+
+PR3
+
+0.21
+
+OI1
+
+0.42
+
+0.72
+
+OI2
+
+0.48
+
+0.88
+
+OI3
+
+0.23
+
+0.83
+
+OI4
+
+0.31
+
+OI5
+
+0.19
+
+0.81
+
+PR
+0.61
+
+GSCM
+
+0.76
+0.37
+
+OI
+
+0.90
+0.90
+
+0.55
+
+0.87
+0.78
+0.64
+0.88
+
+LCM
+
+OI6
+
+0.19
+
+OI7
+
+0.25
+
+OI8
+
+0.39
+
+OI9
+
+0.60
+
+Chi – Square = 587.43, df = 204, P – Value = 0.00000, RMSEA = 0.096
+
+0.90
+
+OI10
+
+0.22
+
+LCM1
+
+0.79
+
+LCM2
+
+0.45
+
+0.19
+
+Fig. 3 Path Diagram of Model for GSCM practices
+
+2. The most significant factor in the product recycling is PR3 with the correlation coefficient
+of 89%, which is “Produce disassembly manual”. The next considerable factor is PR2
+with the correlation coefficient of 88%, which is the “Collaboration on products recycling
+with the same sector industry”.
+3. The significant factors in organizational involvement are OI5 and OI6 with the same
+correlation coefficient of 90%, which are the “Labor involvement” and the “Effective
+communication platform within companies and with suppliers”.
+4. The significant factor in the product lifecycle is LCM2 with the correlation coefficient of
+90%, which is “Making a database of the products”.
+
+Confirmatory factor analysis of the SCP model
+The analyses of the confirmatory factor of the SCP model are as follows:
+The relationship between SCP latent and its indicators has been tested. Fitness’s indices in
+Table 14 have demonstrated a good fitness of the model, proving that the selected indicators are
+good representatives for each dimension of SCP. In Fig. 4, as all significance numbers
+
+71
+
+Table 14 SCP model fitness indices
+fitness indices
+
+Measure of Index
+
+Chi-Square/df
+P-value
+Root mean square error of approximation (RMSEA)
+Goodness of fit index (GFI)
+Adjusted goodness of fit index (AGFI)
+
+2.0528
+0.000
+0.083
+0.94
+0.92
+
+performance with that of 4.15, and the operational performance with 4.15 are all in a positive
+significant relationship with SCP.
+Figure 5 shows that in the final model, how much impact each factor imposes on the SCP in
+Saipa. The priorities of these factors are as follows:
+1.
+2.
+3.
+4.
+
+The environmental performance with the path coefficient of 0.60;
+The positive economic performance with the path coefficient of 0.51;
+The negative economic performance with the path coefficient of 0.47;
+The operational performance with the path coefficient of 0.41.
+
+ENP1
+
+8.62
+7.85
+
+11.45
+
+ENP3
+
+8.60
+
+10.37
+
+ENP4
+
+8.83
+
+8.14
+
+ENP
+
+ENP2
+
+10.70
+
+ENP5
+
+9.72
+
+ENP6
+
+8.53
+
+10.78
+
+PECP1
+
+10.31
+
+PECP2
+
+2.31
+
+18.89
+
+PECP3
+
+2.17
+
+12.06
+
+PECP4
+
+10.35
+
+12.18
+
+PECP5
+
+10.35
+
+NECP1
+
+4.51
+
+9.91
+
+NECP2
+
+9.69
+
+17.09
+
+NECP3
+
+4.61
+
+9.90
+
+NECP4
+
+9.85
+
+5.38
+18 88
+
+PECP
+5.13
+
+PER
+4.75
+
+NECP
+4.15
+
+OPP1
+OPP2
+
+9.51
+
+13.30
+
+OPP3
+
+8.25
+
+13.33
+
+OPP
+
+9.73
+
+11.56
+
+OPP4
+
+8.21
+
+OPP5
+
+8.55
+
+OPP6
+
+7.63
+
+13.06
+13.65
+
+
+Jnl Remanufactur (2018) 8:51–80
+ENP1
+
+0.75
+
+ENP2
+
+0.80
+
+0.44
+0.36
+
+0.75
+
+ENP3
+
+0.44
+
+0.73
+
+ENP4
+
+0.47
+
+0.58
+
+ENP
+
+ENP5
+
+0.67
+
+ENP6
+
+0.43
+
+0.75
+
+PECP1
+
+0.37
+
+PECP2
+
+0.01
+
+0.99
+
+PECP3
+
+0.01
+
+0.73
+
+PECP4
+
+0.47
+
+0.73
+
+PECP5
+
+0.46
+
+0.91
+
+NECP1
+
+0.17
+
+0.61
+
+NECP2
+
+0.63
+
+0.79
+
+0.60
+
+0.99
+
+PECP
+0.51
+
+PER
+0.47
+
+NECP
+0.41
+
+0.91
+
+NECP3
+
+0.17
+
+NECP4
+
+0.63
+
+0.61
+
+OPP1
+
+0.46
+
+0.78
+
+OPP2
+
+0.40
+
+0.88
+
+OPP3
+
+0.22
+
+0.89
+
+OPP4
+
+0.21
+
+OPP5
+
+0.24
+
+OPP6
+
+0.18
+
+0.73
+
+OPP
+
+0.87
+0.91
+
+Chi – Square = 379.77 , df = 185, P – Value = 0.00000, RMSEA = 0.083
+
+Fig. 5 The Path Diagram of the Model for SCP
+
+Moreover, in the following section, the results of Fig. 5 have been presented:
+1. The most significant factor in the environmental performance is ENP2 with the correlation
+coefficient of 80% which is the “Reduction of waste water”. The other three considerable
+factors include ENP1, ENP3 and ENP6 with the same correlation coefficient of 75%
+which are the “Reduction of air emission”, the “Reduction of solid wastes” and to
+“Improve a company’s environmental situation”
+2. The significant factors in the positive economic performance are PCEP2 and PCEP3 with
+the same correlation coefficient of 99%, which are the “Decrease of cost for energy
+consumption” and the “Decrease of fee for waste treatment”
+3. The significant factors in the negative economic performance include NECP1 and NECP3
+with the same correlation coefficient of 91%, which are “The investment increase” and
+“The increase of the training cost”
+Table 15 The structural model fitness indices
+fitness indices
+
+Measure of Index
+
+Chi-Square/df
+P-value
+Root mean square error of approximation (RMSEA)
+Goodness of fit index (GFI)
+Adjusted goodness of fit index (AGFI)
+
+2.836
+0.000
+
+11.75
+
+ENP
+
+11.54
+
+NECP
+
+PR
+
+11.70
+
+PECP
+
+SM
+
+11.33
+
+73
+
+11.75
+
+11.68
+
+8.77
+
+8.31
+GSCM
+
+12.93
+
+PER
+10.18
+
+12.73
+11.69
+
+OI
+11.86
+
+11.74
+
+10.91
+
+OPP
+
+LCM
+
+11.65
+
+Chi – Square = 53.27, df = 19, P – Value = 0.00000, RMSEA = 0.074
+
+Fig. 6 Latent prediction of the general research model
+
+4. The most significant factor in the operational performance is OPP6 with the correlation
+coefficient of 91%, which is “The improvement of the utilization capacity”. The next
+considerable factor is OPP4 with the correlation coefficient of 89%, which is “The quality
+improvement of the products”.
+
+0.56
+
+ENP
+
+0.63
+
+PECP
+
+0.71
+
+NECP
+
+SM
+
+0.55
+
+0.61
+0.67
+0.79
+
+PR
+0.54
+
+0.46
+GSCM
+
+0.84
+
+PER
+
+0.72
+0.48
+
+OI
+0.68
+
+0.54
+
+0.67
+
+0.75
+
+OPP
+
+LCM
+
+Chi – Square = 53.27, df = 19, P – Value = 0.00000, RMSEA = 0.074
+
+
+Jnl Remanufactur (2018) 8:51–80
+
+Table 16 Priority of the GSCM practices indicators
+GSCM
+practices
+
+Product recycling
+
+Product lifecycle
+
+Suppliers
+management
+
+Organizational
+involvement
+
+0.61 PR3- Produce disassembly manual
+PR2- Collaboration on products recycling with the same sector
+industry.
+PR1- Joining local recycling organization
+0.55 LCM2- Establish an environmental database of products
+LCMI- Applying Life cycle assessment (LCA) to carry out
+eco-report
+0.48 SM2- suppliers environmental questionnaire
+SM4- Product testing report
+SM1- Environmental auditing for suppliers
+SM6- Establishing environmental requirements for purchasing
+items
+SM3- Compliance statement
+SM5- Bill of materials
+SM7- Green purchasing
+0.37 OI5- Manpower involvement
+OI6- Effective communication platform within companies and
+with suppliers
+OI10- the relationship of research and development unit with
+university professors and experts
+OI3- Environmental policy for GSCM
+OI7- Establish an environmental risk management system for
+GSCM
+OI4- Cross-function integration
+OI8- Supplier evaluation and selection
+OI1- Green design
+OI2- Top management support
+OI9- Information system
+
+0.89
+0.88
+0.81
+0.90
+0.45
+0.81
+0.77
+0.75
+0.75
+0.72
+0.71
+0.56
+0.90
+0.90
+0.88
+0.88
+0.87
+0.83
+0.78
+0.76
+0.72
+0.64
+
+Table 17 Priority of the SCP factors
+SCP Environmental performance 0.60 ENP2- Reduction of waste water
+ENP1- Reduction of air emission
+ENP3- Reduction of solid waste solid waste
+ENP6- Improve a company’s environmental situation
+ENP4- Decrease of consumption for hazardous/harmful/ toxic
+materials
+ENP5- Decrease of frequency for environmental accidents
+Positive economic
+0.51 PECP2- Decrease of cost for energy consumption
+performance
+PECP3- Decrease of fee for waste treatment
+PECP1- Decrease of cost for materials purchasing
+PECP4- Decrease of fee for waste discharge
+PECP5- Decrease of fine for environmental accidents
+Negative economic
+0.47 NECP1- Increase of investment
+performance
+NECP3- Increase of training cost
+NECP2- Increase of operational cost
+NECP4-Increase of cost for purchasing environmentally
+friendly material
+Operational performance
+0.41 OPP6- Improved capacity utilization
+OPP4- Promote products’ quality
+OPP3- Increase scrap rate
+OPP5- Increased product line
+OPP2- Decrease inventory levels
+OPP1- Increase amount of goods delivered on time
+
+0.80
+0.75
+0.75
+0.75
+0.73
+0.58
+0.99
+0.99
+0.79
+0.73
+0.73
+0.91
+0.91
+0.61
+0.61
+0.91
+0.89
+0.88
+
+75
+
+The path analysis for general research model
+The fitness indices of the model show that the model is fitted (Table 15). According to Figs. 6
+and 7 there is a positive and significant causal relationship between the GSCM practices and
+the SCP. The results show that the variable of GSCM practices predicts 70.56% of the SCP
+changes in Saipa. So, the main hypothesis is confirmed.
+As the variables including the suppliers management, the product recycling, the organizational involvement, and the product lifecycle construct their latent variable (GSCM practices)
+and also according to the significant influential relationship between GSCM practices and SCP
+of Saipa Company (with the significant number of 12.92), the secondary hypotheses 1 to 4
+(sec. 0-0) are confirmed, too.
+Finally, Tables 16 and 17 show the priority of the indicators of the GSCM practices and
+SCP factors in Saipa, respectively. These tables can be considered as a quick reference to grasp
+the factors which would affect the SCP and GSCM in Iranian automobile industry.
+
+Conclusions and suggestions
+The aim of the present study is to assess the impacts of GSCM practices on the economic,
+environmental and operational performance with regard to Iranian automobile industry. According to this, a model has been developed in order to address the issue, comprised of the
+hypotheses which have depicted the relationship between GSCM practices and the SCP with
+respect to their indices. SCP has been included four dimensions of the environmental
+performance, positive and negative economic performance, and operational performance.
+GSCM practices also have been made of four aspects of supplier management, product
+recycling, organizational involvement, and the product lifecycle management. Then, the
+proposed model has been analyzed and confirmed by the combination of Pearson correlation
+coefficient and SEM.
+The model’s validity and reliability have been assessed. Then, the proposed model has been
+implemented and approved as an applicable model in Saipa as a major automobile manufacturer in Iran. Therefore, the model has validity, reliability, and generalizability for assessing the
+similar type of manufacturer.
+Based on the obtained results of the study, four mentioned observed variables for GSCM in
+Saipa are compatible with results of Hu and Hsu [6]. Furthermore, four confirmed aspects of
+SCP as latent variable in Saipa are also consistent with the obtained results of Zhu et al. [7].
+In addition, the confirmation of the research hypotheses shows that the improvement of
+GSCM practices in Saipa positively promotes the SCP with the prediction rate of 70.56% and
+in the 95% confidence level. This result is consistent with Zhu et al. [7] findings which had
+concluded that there is a significantly positive correlated relationship between the improvement of GSCM practices and the operational, economic, and environmental performance in
+Iranian automotive industry.
+Theresultsoftheimplementationofthismodelhaveshowedthattheproductrecyclingamong
+
+Jnl Remanufactur (2018) 8:51–80
+
+recyclinginitiativesisrelatedtothedisposalstage,whiletheproductdisassemblymanualrefers
+to the consumers education about the recycling and recovery options available to them, and
+explainingthattheymustnotdisposetheproductstogetherwiththeirgeneraltrash.Tofacilitatean
+end-of-lifedisassembly,theproductdisassemblymanualsneedtobecarriedoutasareferencefor
+disassembly workers to implement the non-destructive detachment of components or modules
+and acquire the recovery of original functionality in order to contribute to the environmental
+benefit [6, 46]. In order for Saipa Company and similarly for Iranian automobile companies, to
+improveGSCMpracticesbyconsideringtheproductdisassemblymanualasthemostinfluential
+indicatorfromexperts’pointofview,itisrecommendedtosetupamanagementsystemfortheir
+products disassembly manual which provides the required instructions on how to take care of
+itemscontainingtheenvironmentalhazardousmaterials.Furthermore,basedontheviewpointof
+the product lifecycle management practice, it is beneficial to make a database including the
+informationoftheproductsforinstancetheirendoflifeformakingsuchdatabaseisscoredasthe
+most significant factor in LCM practice. As another practical solution to improve GSCM
+practices, concerning the suppliers management, Saipa is suggested to design the suppliers
+environmentalquestionnairesasanextendedproducerresponsibilityanddistributetosuppliers
+for helping them conduct a self-assessment and for ensuring the suppliers to realize their
+environmentallypotentialcapabilitieswhichsatisfytheenvironmentalregulationsparticularly
+for high-risk components. All those aforementioned suggestions would result in the enhancement of GSCMpracticesbywhichSCP inSaipawould be improvedaswell.
+As other researches, this paper has some limitations; first, the barriers related to why
+the company does not broadly implement GSCM practices have not been investigated.
+The governments need such information to formulate the applicable policies to enhance
+the environmental performances in automobile industries and support industrial organizations to break the barriers they may encounter. Second, in Iran, the basic knowledge on
+GSCM encumbers it to conduct the surveys since this confined understanding may result
+in the biased answers. Third, the research method has not considered the existed
+uncertainty.
+Finally, the following cases are suggested for further studies:
+
+&
+
+&
+&
+
+The Canonical correlation analysis (CCA) is another method, similar to SEM, for
+exploring the relationships between two multivariate sets of variables which is
+appropriate to answer the research question. For the further approval of the
+findings, it is suggested to apply CCA in order to evaluate the impacts of GSCM
+practices on the SCP.
+To study the mutual relationship between GSCM practices and SCP by considering the
+
+77
+
+Appendix
+
+Table 18 Questionnaire of GSCM practices in Iranian automobile industry
+No Please indicate how strongly you agree or disagree with
+the following statements:
+1
+2
+
+3
+
+4
+
+5
+6
+
+7
+8
+9
+
+10
+
+11
+12
+13
+
+14
+
+15
+16
+
+17
+18
+19
+20
+21
+22
+
+Saipa company environmentally audits its suppliers
+The suppliers environmental questionnaire is used in order to
+determine suppliers awareness level of environmental rules
+and conditions,
+Suppliers are committed to comply their products, parts and
+materials with environmental rules and they accept the
+responsibility of damaged parts.
+Product testing report and suppliers documents, are provided for
+all materials, series and equipment in order to confirm the
+products compliance with environmental rules
+A bill of allowed materials which are capable to return to the
+production cycle or environment is given to suppliers.
+Environmental requirements for purchasing items are established
+in order to manage dangerous materials and ensuring the
+products compliance with consumers environmental rules.
+The company purchases green materials
+The organization tries to join local recycling organizations in order
+to collect and recycle its products and similar products
+Research and development section collaborates with suppliers on
+products recycling with the same sector industry and
+environmental innovations and customer satisfaction..
+Disassembly manuals are produced to make people familiar with
+recycling product classification and the way they are separated
+from non-recycling ones.
+The products are designed in such a way to be capable of
+recycling and returning to the production cycle
+Top management supports environmental plans and guide them
+Environmental policies for GSCM are formulated to increase the
+customers, employees and suppliers awareness in
+environmental issues.
+In supply chain of Saipa company, there exists a team of the sale
+employees, environmental employees, purchase employees
+and other employees for Cross-function integration of stable
+information
+Manpower involves in administration of environmental plans
+An effective communication platform within companies and with
+suppliers is established to identify their needs and company
+performance.
+In Saipa company, an environmental risk management system has
+been formulated for GSCM
+Supplier evaluation and selection is carried out based on
+environmental rules, quality and timely supply of materials
+Information system has been developed to make more and faster
+connections between suppliers, producers and customers.
+Research and development unit has relationships with university
+professors and experts
+Saipa company applies Life Cycle Assessment (LCA) to carry out
+the eco-report
+An environmental database of products has been established for
+consumers awareness (such as the products compliance with
+environment management, their productivity and the parts
+which are capable to recycle to the production cycle)
+
+Strongly
+disagree
+
+disagree No
+
+Jnl Remanufactur (2018) 8:51–80
+
+Table 19 Questionnaire of SCP Iranian automobile industry
+No. Importance in Saipa Supply Chain
+Performance
+1
+2
+3
+4
+
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+
+Extremely
+unimportant
+
+Somewhat
+unimportant
+
+Indifferent Somewhat
+important
+
+Extremely
+important
+
+Reduction of air emission
+Reduction of waste water
+Reduction of solid waste solid waste
+Decrease of consumption for
+hazardous/harmful/ toxic
+materials
+Decrease of frequency for
+environmental accidents
+Improve a company’s environmental
+situation
+Decrease of cost for materials
+purchasing
+Decrease of cost for energy
+consumption
+Decrease of fee for waste treatment
+Decrease of fee for waste discharge
+Decrease of fine for environmental
+accidents
+Increase of investment
+Increase of operational cost
+Increase of training cost
+Increase of cost for purchasing
+environmentally friendly material
+Increase amount of goods delivered
+on time
+Decrease inventory levels
+Increase scrap rate
+Promote products’ quality
+Increased product line
+Improved capacity utilization
+
+Table 20 Total variance of SCP questionnaire
+SCP dimensions Initial Eigenvalues
+
+Rotation Sums of Squared
+Loadings
+
+Eigen
+value
+
+% of
+Var.
+
+Eigen
+value
+
+% of
+Var.
+
+Eigen
+value
+Operational
+performance
+Positive
+economic
+performance
+Environmental
+performance
+Negative
+economic
+performance
+
+Cumulative
+%
+
+Extraction Sums of Squared
+Loadings
+
+% of
+Var.
+
+Cumulative
+%
+
+Cumulative
+%
+
+6.509
+
+30.994 30.994
+
+6.509
+
+30.994 30.994
+
+4.630
+
+22.048 22.048
+
+3.560
+
+16.954 47.948
+
+3.560
+
+16.954 47.948
+
+4.393
+
+20.919 42.967
+
+3.242
+
+15.439 63.388
+
+3.242
+
+15.439 63.388
+
+3.669
+
+17.472 60.439
+
+2.352
+
+11.201 74.589
+
+2.352
+
+11.201 74.589
+
+
+79
+
+Table 21 Total variance of GSCM questionnaire
+GSCM
+dimensions
+
+Extraction Sums of Squared
+Loadings
+
+Rotation Sums of Squared
+Loadings
+
+Eigen
+value
+Organizational
+involvement
+Suppliers
+management
+Product
+recycling
+Lifecycle of
+products
+
+Initial Eigenvalues
+
+% of
+Var.
+
+Eigen
+value
+
+% of
+Var.
+
+Eigen
+value
+
+% of
+Var.
+
+7.869
+
+35.768 35.768
+
+7.869
+
+35.768 35.768
+
+7.045
+
+32.024 32.024
+
+3.993
+
+18.151 53.919
+
+3.993
+
+18.151 53.919
+
+4.226
+
+19.207 51.231
+
+2.446
+
+11.119 65.038
+
+2.446
+
+11.119 65.038
+
+2.880
+
+13.089 64.321
+
+1.398
+
+6.353 71.391
+
+1.398
+
+6.353 71.391
+
+1.555
+
+7.070 71.391
+
+Cumulative
+%
+
+Cumulative
+%
+
+Cumulative
+%
+

@@ -1,0 +1,1014 @@
+
+
+
+growth of both OEM remanufacturers and independent remanufacturers. According
+to a multi-case study of five automobile engine remanufacturing companies and 130
+interviews, Seitz [92] also confirms that core acquisition and competitions for cores are
+difficult barriers for remanufacturers realizing their profits.
+The difficulties in core acquisition process are mainly due to the return uncertainties,
+which are the typical features of remanufacturing. These uncertainties include: the
+uncertain timing and volume of returns, the uncertainty in the quality of returned
+products [40]. The uncertainty of volume can depend on the types of relationships
+between the remanufacturers and customers. For examples, the remanufacturers can
+often have more control over the returned cores if the products are leased and owned
+by the remanufacturers, compared when the products are owned by the customer
+and no sufficient incentive is provided for returning cores. The uncertainty of return
+volume can also be affected by the life-cycle stage of a product, the customers’ environmental awareness, the market competition for cores, the logistics convenience, and
+so on. Similarly the volume uncertainty is related with the timing of returns, which
+can be affected by various factors, such as the types of supply chain relationships, the
+life-cycle stage of a product, product’s usage length, the technology change. The uncertainty about core quality is due to various environment conditions, time lengths
+and intensities of how the products are used.
+The above uncertainties result in the unbalance of return and demand. On one hand,
+if there are not enough returned cores, the remanufacturers will have to salvage the
+low quality cores, convert other types of cores, tooling, or even use new products to
+meet the demand, and such operations can be very costly. On the other hand, if an
+overstock of cores occurs, it increases the holding cost and the risk of obsolescence. In
+addition, the above mentioned uncertainties also cause the complexities in resource
+planning, increase uncertainties in processing times and create difficulties in remanufacturing operations.
+Instead of suffering from these uncertainties passively, remanufacturers can actively
+manage the process of core acquisition. For examples: Caterpillar Inc. adopts a depositrefund policy with their customers, in order to ensure the quantity and quality of the
+returned cores [20]. ReCellular grades their returned cores in different classes based on
+the inspected quality [42]. There are also companies devoting to provide core collecting
+and managing services (third party collectors), as well as the platforms for core supply
+and demand information [19]. Researchers have noticed the importance of core acquisition related issues, a growing number of studies have been developed to deal with
+quantitative decisions in this specific topic [17].
+Despite the importance of Core Acquisition Management and the increasing research interests in it, to our knowledge, there has not been a systematic literature
+review study focusing specifically on this subject. The existing literature review
+studies in remanufacturing related subjects are either in general perspectives such
+as closed-loop supply chains (CLSC) research [9, 97], reverse logistics [33, 86], or
+in operational perspectives such as production planning and control ([40, 65];
+Akcali and Cetinkaya 2011), [3] disassembly [56], scheduling [76], aftermarket strategy [88], and design for remanufacturing [47]. With the increasing importance and
+
+recent research development and outline possible further research in Core Acquisition Management.
+In the following section, the definition of Core Acquisition Management and its
+included activities are discussed. Based on such discussions, in Section “Research
+data” the methods for conducting the literature review are explained. In Section
+“Analysis and comparison”, the collected literatures are categorized and analyzed
+according to their topics and several key assumptions. By doing so we are able to
+propose possible needs for future research and draw conclusion in Section “Discussions
+and conclusions”.
+
+Core Acquisition Management
+In this section, the concept of Core Acquisition Management is discussed within a
+closed-loop supply chain framework. Consequently the activities in Core Acquisition
+Management are discussed, which also serve as the criteria to refine the collected literature to be included in this review paper. The key assumptions in Core Acquisition
+Management research are also discussed. These key assumptions are used later as the
+criteria to classify and analyze the literature in Section “Analysis and comparison”.
+Concept of Core Acquisition Management
+
+In the early review on reverse logistics [33], handling the high uncertainties with respect
+to timing, quantity and quality of the return flows has been raised as one major task for
+planning of reuse activities. Furthermore, in order to coordinate, monitor, and provide an
+interface between reverse logistics and production planning and control activities, Guide
+and Jayaraman [41] firstly build up a framework for Product Acquisition Management
+based on their survey conducted among North American remanufacturers. They view the
+Product Acquisition Management as “a complex set of activities that requires careful
+coordination to avoid the uncontrolled accumulation of core inventory, or unacceptable
+levels of customer service (insufficient cores to meet demand)”.
+Guide and Van Wassenhove [42] further explain the concept of Product Acquisition
+Management and describe two approaches in it: the waste stream approach, and the
+market-driven approach. In a waste stream system, the firms accept the returns passively due to legislation requirements. Such system is unable to control the quality of
+returns in the first place. As a result, usually a large number of units have to be disposed of, and additional facility and operations are needed for inspecting and grading.
+Consequently, operation complexity and cost become high. While in market-driven
+system, the customers are given financial incentive, such as deposit, credit or cash, to
+encourage the returns according to related quality standards. They show the positive
+impact of market-driven approach on decreasing the variations of return quality,
+quantity and timing. A combination of different approaches is possible in practice as
+demonstrated through the case studies by Östlin et al. [121]. In such cases, the firm
+has to adopt various ways to control the product acquisition process.
+While “Product Acquisition Management” in Guide and Jayaraman [41] deals with
+
+the focus in this paper is specifically set in remanufacturing area, thus the term Core
+Acquisition Management is used.
+Following the principle in Guide and Jayaraman [41], Core Acquisition Management
+in this paper is described as, the active management of the core acquisition process in
+remanufacturing to achieve a better balance between return and demand, by dealing
+with the uncertainties in terms of return volume, timing and core quality. As illustrated
+in Fig. 1, Core Acquisition Management acts as an interface between the product market
+and manufacturing/remanufacturing operations, with the aim to achieve the balance between return and demand by managing and reducing the uncertainties in core acquisition
+processes.
+In this paper, Core Acquisition Management is used as a term specifically for “core
+acquisition activities” in “remanufacturing”, as the word “core acquisition” indicates.
+The coverage of activities in Core Acquisition Management in this paper is based on,
+but different with that of Product Acquisition Management used in Guide and Jayaraman
+[41]. The purpose is to narrow down the research scope, therefore providing a more
+detailed description of this specific research field.
+The differences between the terms of “reverse logistics”, “product return management”
+and “core acquisition management” in this review paper are further clarified in the following
+two aspects:
+a) “Reverse logistics” and “product return management” are more broad terms, which
+can also be used for other product recovery options besides remanufacturing, such
+as: reuse, repair and recycling, etc. Compared with other product recovery options,
+remanufacturing has its own topics and background settings, such as
+cannibalization, perfect substitution, and quality classification, which need specific
+research attention.
+b) In this review paper we narrow down the scope to “core acquisition” related topics
+in remanufacturing, as core acquisition is a critical and challenging issue for
+remanufacturing. While the term of “reverse logistics” usually includes many other
+
+Fig. 1 Core Acquisition Management as an interface to reduce uncertainties of return and balance return
+
+research issues such as logistics network design, environment and sustainability,
+legislative issues, etc.
+Activities in Core Acquisition Management
+
+Following the above description, in this section the related activities in Core Acquisition Management are identified and categorized based on the results from Guide and
+Jayaraman [41], and in addition previous literature reviews of closed-loop supply chain
+(CLSC) research by Atasu et al. [9] and Souza [97]. The criteria for identifying an activity
+as in Core Acquisition Management in this paper are that, such an activity is used to reduce the uncertainties of return, and helps achieving a better balance between demand
+and core supply by applying control on the acquisition process.
+There are five categories of activities identified in “product acquisition management”
+in Guide and Jayaraman [41], which are i) core acquisition ii) forecasting core availability,
+iii) balancing returns with demand, iv) resource planning and v) strategies to reduce uncertainties in returns. Among these five categories, i) “core acquisition” and v) “strategies to
+reduce uncertainties in returns” straightforwardly fit the criteria for Core Acquisition
+Management. ii) “forecasting core availability” is able to improve the control on the core
+acquisition process, thus it is also included as Core Acquisition Management in this paper.
+iii) “balancing returns with demand” is not included, since we interpret it as a goal of the
+management but not an activity. In fact all activities in Core Acquisition Management
+have the aim to contribute to the balance of returns and demand. iv) “resource planning”
+does not apply control on core acquisitions, but on the resources such as labor, parts supply, raw materials, thus it is excluded in Core Acquisition Management by our definition.
+In total, core acquisition (acquisition control), forecasting core availability (forecasting
+return) and strategies to reduce uncertainties in returns (return strategies) from Guide
+and Jayaraman [41] are decided to be included in Core Acquisition Management. These
+three types of activities are explained in more details below.
+Acquisition control
+
+To apply direct control on core acquisition, the remanufacturer can change the return
+incentives, such as deposit, buy-back price. These methods are usually used in a market
+driven return system. Besides, the remanufacturer can also adjust the disposal volume
+if there are excess returns. It is less proactive compared with adjusting acquisition incentive, but necessary, since a perfectly planned acquisition effort seldom exists and an
+overstock of cores often happens. The acquisition control can be dynamically changed
+with time, so that timing uncertainties can be managed to a certain extent.
+Forecasting return
+
+In order to make proper decisions on acquisition control, understanding the return
+pattern are critical. However, forecasting of return can be very challenging for remanufacturers due to the high complexity and uncertainty involved in the return process.
+Return strategies
+
+The strategies to reduce the uncertainties mentioned in Guide and Jayaraman [41] are
+deposits, leasing, customer-owned returns, and trade-ins, etc. While some of the strategies,
+for example, deposits, are effective at reducing volume uncertainty, very few are able
+
+
+Besides the above activities identified in Guide and Jayaraman [41], other activities in
+CLSC research listed by Atasu et al. [9] and Souza [97] are also examined whether they
+fit the definition of Core Acquisition Management, i.e., managing the uncertainties of
+the return volume, timing and core quality to achieve a better balance between demand
+and return. The results are shown in Tables 1 and 2.
+In Tables 1 and 2, the impacts of the activities on return are described in the third
+column, and the last column shows which category the activities can be classified in.
+As a result, other than activities that belong to the previous categories from Guide and
+Jayaraman [41], new identified activities can be categorized into quality classification
+and reverse channel design.
+Quality classification
+
+To be able to receive the cores with desired quality, it is important to inspect the cores
+and make proper quality classifications. The remanufacturer can make decisions on
+whether to accept the cores, and if accept, how much acquisition price to pay for the
+cores, and what kind of recovery options are performed to the cores. Quality classification can be conducted after the cores are returned to the remanufacturer, or proactively
+at the collection sites before the return.
+Reverse channel design
+
+To control the acquisition process from a strategic perspective, reverse channel design
+deals with problems such as who should collect the cores, competition between OEMs
+Table 1 Activities in previous closed-loop supply chain (CLSC) research (adapted and extended
+from Atasu et al. [9])
+CLSC
+streams
+
+CLSC activities
+
+Impacts on returns
+
+Categorized in Core
+Acquisition
+Management
+
+IE/OR
+
+Forecasting return rates
+
+Acquisition volume,
+timing, and quality
+
+Forecasting return
+
+Dual sourcing inventory control
+
+Acquisition volume,
+timing
+
+Acquisition control
+
+Acquisition timing
+
+Acquisition control
+
+The link between durability, return rates, and
+product life cycle
+
+Return volume and
+timing
+
+Acquisition control
+
+Reverse channel design: who should collect used
+items
+
+Return volume
+
+Reverse channel design
+
+Reverse logistics network design
+Design
+
+Time value of product returns
+Durability choices
+Diffusion of new and remanufactured products
+over the life cycle
+
+Strategy
+
+How an OEM compete with third party
+remanufacturers
+How introducing remanufactured products can be
+deterrence to the entry of low-cost competitors
+Behavioral How companies and consumers value
+remanufactured products
+
+Table 2 Activities by decision levels in closed-loop supply chain (CLSC) research (adapted and
+extended from Souza [97])
+Level
+
+Decisions and issues
+
+Strategic
+
+Network design: location and size of collection
+centers, remanufacturing facilities, etc.
+Collection strategy: should customers return
+products to retailers or directly to OEMs?
+
+Impacts on returns
+
+Categorized in Core
+Acquisition Management
+
+Return volume
+
+Reverse channel design
+
+Should the OEM remanufacture?
+Leasing or selling?
+
+Return volume and Return strategies
+timing
+
+Trade-in and buy backs programs
+
+Return volume and Return strategies
+timing
+
+Supply chain coordination: contracts and
+incentives
+
+Return volume
+
+Return strategies
+
+Acquisition of product returns—how many,
+when, and of which quality?
+
+Return volume,
+timing and quality
+
+Acquisition control
+
+Returns disposition: remanufacturing,
+dismantling for spare parts, or recycling?
+
+Return volume
+
+Acquisition control
+
+Response to take-back legislation
+Design for remanufacturing
+Tactical
+
+Operational Disassembly planning: sequence and depth of
+disassembly
+Scheduling, priority rules, lot sizing, and routing
+in the remanufacturing shop
+Inspection, sorting and grading
+
+Return volume and Quality classification
+quality
+
+and independent remanufacturers, etc. The design greatly affects the acquisition cost
+and volume.
+The impacts on return uncertainties of the above identified five categories of activities are illustrated in Fig. 2. Except that the quality classification has little effect on the
+uncertainty of return timing, all the other activities have obvious impacts on the uncertainties of return volume, timing and core quality. Thus quality classification is listed
+in a different box in Fig. 2.
+The five categories of activities are summarized from the previous literature reviews
+of CLSC research, rather than using a systematic conceptual approach. Therefore, some
+aspects in Core Acquisition Management may still be missing, if they have not appeared in the mentioned literature reviews. The readers should be aware of this
+
+Key assumptions in Core Acquisition Management
+
+It is always important to understand the assumptions when developing quantitative
+models. In a closed-loop remanufacturing system, the following assumptions are very
+important in that they define the volume and quality of acquired cores (quality classification methods, acquisition functions), the demand for remanufactured products (hybrid/
+non-hybrid remanufacturing system, perfect/imperfect substitutions). These assumptions
+are further explained as following.
+ hybrid/non-hybrid remanufacturing system
+ quality classification methods
+ acquisition functions
+ perfect/imperfect substitutions
+
+Hybrid/non-hybrid system indicates whether a remanufacturing system also manufactures new products or not. A hybrid system is more complicated than a non-hybrid system
+in many ways. For example, in a hybrid system the remanufacturing and manufacturing
+operations may share the same production facility and other resources, even demand.
+Thus scheduling in production planning and cannibalization issues could be coordinated.
+In contrast, a non-hybrid system is dedicated to the remanufacturing process only.
+Quality classification methods are used in Core Acquisition Management to control
+the quality of returned cores, to justify the economic feasibility of remanufacturing operations. Examples are ReCellular [42], Caterpillar [20], etc., where more than three
+quality classes are used to categorize the cores, and different incentives are given for
+different quality classes accordingly. Quality classification can be performed at the core
+supplier or collection sites.
+Acquisition functions (the relation between acquisition volume and acquisition effort) directly affect how the remanufacturer controls the volume and timing of return.
+However, the exact relation can be difficult to predict, since it is influenced by various
+factors, such as the customers’ personal preferences, the competition on core acquisition market, the logistics cost, etc.
+Perfect/imperfect substitution assumption describes the substitution between new
+products and remanufactured products. When the new products and remanufactured products are not distinguished by the customer, for examples, single-use
+cameras, heavy duty machines that are leased, etc., the demands for both products
+will be more difficult to be distinguished. Thus it becomes important to carefully
+coordinate the remanufacturing activities, including core acquisition, to maximize
+the profit (minimize the cost). Note that though remanufactured products have
+similar quality and warranty as new products, they may also be served in a different segment such as service market or sold at a considerable lower price. In this
+case, it will be quite different with the case of perfect substitution, in terms of core
+acquisition methods and volume.
+As described in Fig. 3, the above important assumptions cover various aspects in a
+closed-loop supply chain, from product market to Core Acquisition Management and
+manufacturing/remanufacturing operations. However, it is important to notice that
+these assumptions are in no means trying to be a complete list, but rather to provide a
+
+Fig. 3 Investigated assumptions in the closed loop supply chain
+
+Research data
+Based on the definition and content discussed in the last section, a literature search is
+conducted using the method as described below.
+The search is operated in 2014 by using the databases of ScienceDirect and
+Scopus. It is limited in journal papers with English language. To represent the focused remanufacturing industry and the core acquisition subject, the search criteria
+are ‘remanufacturing’ AND (‘core’ OR ‘return’ OR ‘used products’) which are included in either Title, Keywords or Abstract. The time span for search is “until 2014”
+without a restriction on the starting time.
+As a result, there are 91 entries from ScienceDirect, and 435 entries from Scopus, of which 58 entries are duplicates. Thus it ends with 468 papers in total.
+Since this study of Core Acquisition Management is from quantitative modeling
+perspective, a list of journals within the research scope on management science
+and operations management are chosen as in Table 3 (the second column). This
+helps to limit the remaining papers to be 296.
+We further decide a paper to be included in current review study by examining
+whether its study can be categorized into the activities of Core Acquisition Management, i.e., acquisition control, forecast, quality classification, reverse channel design and return strategies. The examination is performed by firstly reading paper
+titles and abstracts, and then full texts if necessary. Topics which are excluded in this
+procedure are typically represented by disassembly scheduling, shop floor control, lot
+sizing (except acquisition lot sizing), reverse logistic network design, environmental impact, legislation and subsidies. Besides, since this review paper has a focus on quantitative modeling, empirical studies (case studies, survey), literature review and
+conceptual models are also excluded in this refining procedure. Finally we reach a set
+of 87 papers as the target for this literature review of Core Acquisition Management
+research (the last column in Table 3). In the next section, these selected papers are
+
+Page 10 of 27
+
+Table 3 Targeted papers distribution in journals (in alphabetical order)
+Journal names
+
+Number of paper after refined
+by journal
+
+Number of papers after refined
+by topics
+
+Annals of Operations Management
+
+2
+
+1
+
+Computers & Industrial Engineering
+
+21
+
+5
+
+Computers and Operations Research
+
+9
+
+1
+
+Decision Sciences
+
+5
+
+3
+
+European Journal of Operational Research 40
+
+11
+
+IEEE Transactions on Engineering
+Management
+
+3
+
+5
+
+IIE Transactions
+
+3
+
+2
+
+Interfaces
+
+3
+
+1
+
+International Journal of Production
+Economics
+
+58
+
+20
+
+International Journal of Production
+Research
+
+53
+
+11
+
+International Journal of Operational
+Research
+
+6
+
+2
+
+Journal of Operations Management
+
+4
+
+0
+
+Journal of the Operational Research
+Society
+
+11
+
+1
+
+Management Science
+
+10
+
+4
+
+Manufacturing and Service Operations
+Management
+
+4
+
+3
+
+Naval Research Logistics
+
+2
+
+1
+
+Omega
+
+4
+
+0
+
+Operations Management Research
+
+1
+
+1
+
+Operations Research
+
+5
+
+2
+
+OR Spectrum
+
+9
+
+4
+
+Production and Operations Management
+
+29
+
+8
+
+Production Planning & Control
+
+7
+
+2
+
+Resources, Conservation and Recycling
+Total:
+
+5
+
+1
+
+296
+
+87
+
+Analysis and comparison
+In Section “Overview”, an overview of the research papers in Core Acquisition Management
+is firstly described. Then the research papers are categorized and analyzed from Section
+“Hybrid/non-hybrid system” to Section “Perfect/imperfect substitution”, according to their
+key assumptions concerning remanufacturing conditions and environment as previously
+discussed in Section “Core Acquisition Management”.
+
+Overview
+
+The total publication of Core Acquisition Management research has been growing rapidly
+
+Fig. 4 The number of studies in Core Acquisition Management in last two decades (N = 87)
+
+Figure 5 (detailed citations are included in Table 4 in Appendix at the end of this
+paper) describes an overview of the categorization of the papers according to their research topics. Notice that there are also research papers that belong to different topics. It
+is observed that the research papers in acquisition control are the most, followed by reverse channel design and quality classifications. The research papers on return strategies
+are less, while the research about forecasting return are very few. In the following, an overview of the research in the five categories is described. In this overview, the studies in the
+category of reverse channel design, return strategies and forecasting return are explained in
+more details, while the research in the categories of acquisition control and quality classification are introduced with more details in Sections “Acquisition functions” and “Quality
+classifications”, since these two categories are very closely related to the assumptions
+about acquisition function and quality classification methods.
+The research papers in the category of acquisition control study the decisions to directly
+control the volume and timing of returned cores. In these studies, the most common
+method to control the return volume is to adjust the acquisition effort (including buy-
+
+
+back price). Various optimization modeling methods are used, such as game theory [16],
+optimal control [74], Markov chain [109], mixed integer programming [78]. However, the
+acquisition function (the relationship between the acquisition volume and acquisition effort) is less obvious. Return timing is usually controlled by dynamic acquisition effort,
+such as Kleber et al. [61], Xiong and Li [112], among others. Another method to control
+the return timing is to offer the consumers a leasing contract, where the leasing duration
+can be optimized by the remanufacturer [6, 84, 115]. Later in Section “Acquisition functions” different research assumptions about the acquisition function are further discussed.
+Quality classification is often necessary when the quality of cores varies [32, 42, 119].
+Even though many studies assume that there are several quality classes which can be
+managed differently, the classification methods, i.e., how the cores are inspected and
+categorized according to their quality levels, are usually predetermined. In the research
+about quality classification related methods, some studies aim to decide how the selective criteria for classification should be [34], some studies focus on the errors that exist
+in the classification process [105]. More detailed analysis regarding quality classification
+research is presented later in Section “Quality classifications”.
+In the category of reverse channel design, most of the studies use game theory to
+compare the equilibrium policies and related system performances when cores are
+collected by different supply chain members, such as manufacturers, retailers, or
+third party collectors [10, 22, 90].
+Studies such as Savaskan et al. [90], Savaskan and Van Wassenhove [89] and Kaya
+[53], focus on the competitions in core acquisition channel design. Savaskan et al. [90]
+investigate a system with one OEM remanufacturer who has three options to collect
+cores: 1) collecting by itself, where the remanufacturer decides the wholesale price and
+return rate while the retailer decides the product price accordingly, 2) collecting
+through the retailer with existed distribution channel, where the remanufacturer decides
+the wholesale price and buy back price, while the retailer decides the product price and return rate accordingly, 3) subcontracting to a third party collector, where the third party
+collector decides the return rate according to remanufacturer’s buyback price. Savaskan
+and Van Wassenhove [89] study a system with one OEM remanufacturer and two
+competing retailers, where the remanufacturer collects the cores directly from consumers,
+or indirectly through the retailers. Besides, the authors compare the centralized setting
+where the remanufacturer is the only decision maker, with decentralized settings where
+the remanufacturer decides the wholesale price of the product, and the collecting effort
+(direct collecting mode) or buyback price (indirect collecting mode), the competing
+retailers choose the product prices and collection efforts (indirect collecting mode)
+accordingly. Kaya [53] studies a system, where an OEM remanufacturer collects cores
+through incentive and remanufactured product and new products can be partially
+substituted with each other. They compare the centralized setting where the remanufacturer
+collects the core by itself, and the decentralized settings with a third party core collector,
+and decide the coordination parameters in the decentralized system.
+There are recent studies focusing on the competition issues between OEM and independent remanufacturers. Örsdemir et al. [120] consider an OEM competing with an
+independent remanufacturer, where the OEM decides the quality of the new product,
+which in turn determines the quality of the competing remanufactured product. They
+
+competes with an independent remanufacturer in both demand and core acquisition
+through acquisition prices. In the first period, the OEM decides the manufacturing
+volume in the first period. While in the second period, the OEM and independent remanufacturer decide their acquisition prices and remanufacturing volumes. Besides,
+the OEM also needs to decide its manufacturing volume.
+Compared with the research in acquisition control, the number of research papers in
+return strategies is relatively limited. Ray et al. [83] investigate the trade-in (creditbased) programs for collecting cores. In such programs, the rebates paid to the replacement customers could be dependent on the age of the product in use, thus the return
+timing could be influenced by adjusting the rebates. Agrawal et al. [1] argue that leasing
+might be environmentally inferior than selling, since the firms might remove the
+off-lease products to avoid cannibalizing for new products. They show that, however, imposing disposal fees or encouraging remanufacturing can lead to environmental benefit
+under some conditions, and educating consumers to be more environmentally conscious
+can improve the environmental performance of leasing. Robotis et al. [84] optimize
+the leasing price and duration when the production and maintenance service capacity are constrained. They further investigate the relation of the optimal leasing
+duration, product lifecycle duration, and the remanufacturing savings. They also
+show that the leasing duration should be longer if the production capacity is smaller,
+while if the production capacity is very small, the leasing duration should be equal to
+the product lifecycle and no remanufacturing should be performed. Yalabik et al.
+[115] also study the leasing contract of a remanufacturer, and describe conditions
+when remanufacturing is profitable or not. In their paper, the remanufactured goods
+are in a secondary market.
+Regarding forecasting return, only one paper [23] is confirmed according to the selection
+procedure in Section “Research data”. Clottey et al. [23] develop a method to determine
+the distribution of the returned used products, and then integrate it with an inventory
+model for production planning and control. The time lag of the return in the model
+is assumed to be exponential distribution. The developed method results in less inventory on average, and the cost savings are the most when demand volume is higher
+than the volume of returned cores. Notice that besides Clottey et al. [23], there are
+certainly more studies dealing with return forecast in remanufacturing, even though
+they are not included according to our selection procedure. For example, Marx-Gómez
+et al. [72] develop forecasting models for remanufacturing photocopiers. A fuzzy reasoning
+and neuro-fuzzy model is used to predict the return quantity and timing of the photocopiers. Weibull distribution is employed to describe new product sales and product failure
+rate, and the return quota is assumed to be uniformly distributed. Umeda et al. [103]
+describes the relation between product returns and demand for single-use cameras,
+photocopiers, and automatic teller machines based on empirical data. Liang et al. [67]
+develop forecasting models to describe both the quantity and the quality of the return.
+Using different mathematical models, such as Bass diffusion model, Weibull distribution
+and inverse Gaussian functions, this study incorporates information of product sales,
+customer return behavior and product life expectancy. In addition to the above studies
+which specifically focus on remanufacturing, there are also papers dealing with return
+forecast for other product recovery activities, such as the forecast for returnable bottles in
+
+in Toktay et al. [102]. The forecasting approaches in these studies can also be applied in
+remanufacturing sometimes. Notice that besides forecasting return, forecasting demand
+for remanufactured products is also studied [73]. However, this is not the focus in this
+review.
+The main observations from the overview can be summarized as follow:
+ Research in Core Acquisition Management has been growing rapidly during the last
+
+decade;
+ Acquisition control is the most studied subject in Core Acquisition Management. In
+this category of research, buy-back and voluntary type of return are mostly studied;
+ The numbers of studies in return strategies and forecasting return are relatively
+limited.
+
+Hybrid/non-hybrid system
+
+In a hybrid remanufacturing system, manufacturing of new products and remanufacturing
+of used products are conducted and optimized together. In this case both production
+processes may share the demand and even same production resources. This brings in
+the difficulty to coordinate the remanufacturing with manufacturing activities, and
+such a difficulty could exist in OEM remanufacturers.
+Remanufacturing in hybrid systems setting has received more attentions than nonhybrid remanufacturing systems (Fig. 6). The reasons are probability that the operations
+in a hybrid remanufacturing systems are more complex and interesting for researchers.
+However, such hybrid remanufacturing systems are not for suitable for independent
+remanufacturers, which are very important parts of the remanufacturing industry
+[70]. Even for OEMs, remanufacturing business is very often conducted as a separate
+operation center to serve the customer for quality warranty purpose, rather than
+
+
+
+optimized together with manufacturing. Thus from practical viewpoint, it is also important to pay sufficient attention to the non-hybrid remanufacturing system.
+The main observations from the analysis of this section are summarized as follows.
+ Hybrid remanufacturing system has received relatively more attention than non-
+
+hybrid remanufacturing system, even though non-hybrid remanufacturing system
+is more common in practice.
+
+Acquisition functions
+
+In many return strategies, such as buy-back, credit based and deposit based system, etc.,
+the remanufacturer can adjust its acquisition effort to apply control over the acquisition
+volume. Therefore it becomes necessary to specify the relation between acquisition effort
+and acquisition volume. The acquisition effort in the research appears in different forms,
+such as acquisition price, acquisition cost or acquisition incentive.
+The acquisition function, i.e., the relationship between the acquisition effort and return
+volume/quality is not trivial. In the quantitative models, the relation between acquisition
+effort and acquisition volume is sometimes described indirectly as the relation between acquisition effort and return rate (instead of volume). These two forms can be
+transformed between each other r = R/Q, if the total volume of available cores Q is
+known, where the return rate is denoted as r, return volume as R. In the following,
+different types of assumptions regarding the relations between acquisition effort p
+and acquisition volume R (or return rate r) are introduced, where the acquisition effort is
+denoted as p. See Fig. 7 for an illustration of three typical assumptions of the relations
+between acquisition volume and acquisition effort.
+
+Passive return
+
+In the waste stream approach as mentioned in Guide and Wassenhove [42], the remanufacturer does not apply direct control of the return in the first place. Therefore, the
+acquisition function can be simply described as: r(p) = r0 (or R(p) = R0), where return
+rate r (or volume R) is constant r0 (or R0), and not related to acquisition effort p.
+This type of relation is a very commonly used assumption for the acquisition function, for examples, Teunter and Vlachos [101], Ferguson et al. [31] and Clottey et al.
+[23]. This indicates that waste stream approach is still commonly studied, even though
+
+a)
+
+b)
+
+
+market driven approach is becoming more and more popular for remanufacturers in
+practice [42].
+Linear relation
+
+Another common assumption is a simple linear relationship between acquisition effort p and acquisition volume R (or return rate r), so that r(p) = α(p − p0) [17, 18], or
+R(p) = α(p − p0) ([34, 62, 69, 99, 100, 104], etc.), where p0 is the minimum acquisition
+price, α > 0 the price sensitivity coefficient.
+Such a linear relation between return rate and effort could be static such as in Bulmus
+et al. [17], or dynamically change with time so that the acquisition effort needs to be adjusted through time to meet dynamic relations. Such as in Cai et al. [18], Jayaraman [51]
+and Nenes and Nikolaidis [78]. In Galbreth and Blackburn [35], unit acquisition cost could
+be decreasing with time due to discount factor pd = poe− βL, where L is the lead time and β
+the discount factor. Minner and Kiesmüller [74] investigate both static and dynamic linear
+relations in their models.
+Nonlinear relation
+
+More general assumption is that the acquisition volume is an increasing concave function of the acquisition effort, i.e., the first order and second order derivatives r ′ (p) ≥ 0,
+r ″ (p) ≤ 0. Such a relationship is used in Atamer et al. [7], Kaya [53], Klausner and
+Hendrickson [58] and Guide et al. [45].
+Other kinds of nonlinear function are also used but less common. Xiong and Li
+[112], Xiong et al. [113] assume that return is a Poisson process with a rate λ(p), 0≤λ
+ðpÞ≤ and the rate λ(p) increases with the acquisition effort p. In Zeng [116], there are
+λ,
+three segments of customers assumed according the survey of Bai [11], the proportion
+of the three segments are ω1 (incentive driven), ω2 (awareness driven), and ω3 (who never
+
+
+returns) respectively. For the incentive driven customers the return rate r 1 ðpÞ ¼ 1−β p0
+p
+ω1 , where p0 is the minimum effort for a customer starts to return, β is a scale factor to
+ensure r1 > 0. In addition, there is r2(e) = (1 − e− 1)(1 − ρ)ω2, where e ≥ 1 is the promotion
+effort spent to promote the need and importance of return, ρ is the fraction of the
+customers that are driven by both incentive and awareness. Total return rate is then
+r1(p) + r2(e).
+Bulmus et al. [16] use competition model for modeling the core collection process as
+follows.
+αo s o
+αo so þ αi si þ γ
+αi si
+r i ¼ βq1n
+αo so þ αi si þ γ
+
+r o ¼ βq1n
+
+Where αo, αi, β and γ are constant coefficients, and 0 < β < 1, α0 > 0, αi > 0, γ > 0. ro and
+ri are the return rates for OEM and independent remanufacturer. q1n is the number of
+new products manufactured by OEM in period 1. so and si are the acquisition prices
+offered by the OEM and independent remanufacturers, respectively.
+In El Saadany and Jaber [28], the authors suggest r(p, q) = (1 − ae− θp)be− ϕq, where
+(1 − ae− θP) is the price factor, and be− ϕq the quality factor, and in addition 0 < α < 1
+
+Acquisition effort is usually directly used as the collection cost C in the objective
+function (C = pR), however, there are exceptions when other forms of relations between
+acquisition effort and related cost are specified, such as in Zhou and Yu [117], Savaskan
+et al. [90] and Savaskan and Wasshenhove [89]. For instance in Savaskan and Wasshenhove
+[89], the collection cost from the customers is set as C = βr2. Savaskan et al. [90] assume a
+fixed unit acquisition cost to collect cores from collection centers (retailers, etc.), while the
+total collection cost is C(r) = p + ArD, where A is the unit handling cost, D the total demand,
+pﬃﬃﬃﬃﬃﬃﬃﬃ
+and r ¼ p=β with β as the scaling parameter.
+Stochastic return
+
+There are a few studies consider stochastic return volume. The stochastic factors can
+
+
+be expressed in a multiplicative expression RðpÞ ¼ R ðpÞ or an additive form RðpÞ ¼ R
+
+ðpÞ þ , where R ðpÞ is the deterministic term that changes with acquisition effort, and ϵ
+is a random variable representing the stochastic factor. Li et al. [66] compare both
+
+forms in their model, where R ðpÞ is set as a deterministic increasing and concave
+function.
+Additive form is used in Shi et al. [93, 94] and Zhou and Yu [117]. In Shi et al. [93,
+
+94], the deterministic term R ðpÞ is a linear function. In Zhou and Yu [117], the return
+
+
+volume RðpÞ ¼ R ðpÞ þ , where R ðpÞ is a strictly increasing concave function. Multi
+plicative form is used in Xu et al. [114], where R ðpÞ is an increasing concave function
+
+and R ðpÞp is convex.
+
+The main observations from the above analysis in this section can be summarized as
+follows:
+ There are various forms of functions (passive return, linear relation, non-linear
+
+relation) used to illustrate the relationship between acquisition effort and volume;
+ Mixed return strategies (leasing contract design, deposit, credit, etc.) are often used
+by remanufacturers in practice [121], but research usually focus on only one type of
+customer response (acquisition function).
+Quality classifications
+
+One main feature in remanufacturing is the variation of the quality of the cores. To
+tackle with this problem, in practice the remanufacturers commonly classify the cores
+into several categories according to their quality. The remanufacturers then acquire the
+classified cores in different quality classes with different costs and apply different operations accordingly, for examples ReCellular [42] and Caterpillar [20]. Such quality
+classification systems are shown to be able to reduce the costs in remanufacturing,
+according to Tagaras and Zikopoulos [99], Zikopoulos and Tagaras [119], and Van
+Wassenhove and Zikopoulos [105].
+Single quality class is the mostly used assumption in literature (Fig. 8). In the studies
+dealing with quality classifications, the quality class varies. One common assumption is
+to have two quality classes: remanufacturable and non-remanufacturable, such as in
+Galbreth and Blackburn [34]. Alternatively there could be more than three quality classes
+such as in Ferguson et al. [32].
+
+Fig. 8 Number of quality classes in Core Acquisition Management research
+
+related research can be categorized into two groups: discrete quality distribution and
+continuous distribution.
+
+Discrete quality distribution
+
+One common assumption regarding the distribution of core quality is that, the cores
+within the same quality class have the same quality value (or alternatively the same
+remanufacturing cost), so that the value of the cores becomes discrete based on the
+quality intervals. This is a simplification of the reality that the quality of the cores varies
+even within the same quality class. This simplification brings great convenience for
+mathematical tractability. Such an assumption is applied in, for examples, Aras et al.
+[5], Cai et al. [18] and Geyer et al. [37]. For the distribution of core volumes in different
+quality classes, most assume it deterministic with a constant ratio (or remanufacturable
+yield). Here we only list several exceptions of studies using different distributions for
+indicating the stochastic quality. For example, in Panagiotidou et al. [81], each core
+is considered to be remanufacturable with probability p, thus the total number of
+remanufacturable cores is a binomially distributed random variable. Fuzzy quality
+assumption about the core quality is made in Nenes and Nikolaidis [78], the quantities of
+cores in different quality classes are fuzzy numbers. In Denizel et al. [26], the core quality
+is described as a stochastic process. In Teunter and Flapper [100], a multinomial distribution is used. Zikopoulos and Tagaras [119] assume the random remanufacturable rate as a
+known distribution (with normal distribution used in their numerical experiments). While
+in Zhou et al. [118], Poisson distribution is used to illustrate cores within each quality
+class in the numerical part. In Van Wassenhove and Zikopoulos [105], beta distribution is used to describe the probability of quality overestimation error, which is at
+most overestimated by one quality class. In all, there are varied types of distributions
+
+Continuous quality distribution
+
+Besides the discrete distributions to describe the quality in each quality class, there are
+studies assuming continuous distributions, such as in Ferguson et al. [32] and Robotis
+et al. [85]. Compared with discrete quality distribution assumption, this is more realistic
+but adds the modeling complexity. It becomes necessary to use this assumption when
+the quality classification or grading method itself is the research focus.
+In Ferguson et al. [32], returned cores have a quality q ∈ [0, 1]. In order to classify the
+cores, q ∈ [0, q0) is considered as scraps for material recovery, q ∈ [q0, q1] as scraps for
+parts harvesting and q ∈ [q1, 1] for remanufacturing. Furthermore [q1, 1] is divided into I
+quality classes for grading: [q1, q2), [q2, q3), …, [qI, 1]. Also the quality probability density
+function ft(q) changes with time periods. In this study beta distribution is used for numerical investigation.
+Robotis et al. [85] assume that only a portion (0 ≤ ρ ≤ 1) of the whole product is
+reused for remanufacturing. The cost to remanufacture a whole product (ρ = 1) is cr,
+which is normally distributed. The cost to remanufacture ρ portion of the product increases linearly in ρ as ρcr. The cost to remanufacture a product, if ρ portion of the
+product is reused, is therefore rcm = ρcr + (1 − ρ)c, where c is the cost to manufacture a
+new product from virgin materials.
+Quality classification errors
+
+During the quality classification process, there could be inevitable classification errors
+when inspection is not perfect. The classification errors include both over-estimation
+and under-estimation. Quality over-estimation can result in high acquisition cost, while
+under-estimation causes waste of core resources. The influences of such errors are considered in Souza et al. [96], Tagaras and Zikopoulos [99], Zikopoulos and Tagaras [119],
+Robotis et al. [85] and Van Wassenhove and Zikopoulos [105].
+Robotis et al. [85] compare two extreme settings of inspection environment: when the
+remanufacturer has no inspection ability so that all collected cores are remanufactured;
+and when the remanufacturer can inspect the cores without error. Souza et al. [96] use
+simulation to study a queueing system with multiple work stations. Cores within different
+quality classes are remanufactured with different costs and processing times at different
+work stations, and incorrect classification will lead to higher costs and processing
+time. Tagaras and Zikopoulos [99] consider two types of classification errors and develop
+the optimal core replenishment policy for the remanufacturer. In their study, system performance differs depending on whether the sorting decision is made centrally or locally.
+Zikopoulos and Tagaras [119] consider a similar problem with a single collection site and
+a random remanufacturable yield. In another study, Van Wassenhove and Zikopoulos
+[105] investigate the loss that the remanufacturer suffers from suppliers’ quality overestimation errors. In the above studies, by comparing the system performance under different
+inspection accuracies, the remanufacturer can identify the advantage of increasing the
+classification accuracy and decide the improvement of the effort.
+Another question in quality classification is about how to decide the classification criteria, as the quality classification criteria affect both the volume and the quality of cores
+that are acquired, which then determines the remanufacturing cost and acquisition
+cost. However, most studies simply assume that the quality classification criteria are
+
+Given the distribution of the core quality, Galbreth and Blackburn [34] calculate the
+maximum cost (the cost to remanufacturer the core with lowest quality) to economically
+remanufacturing a core. The derived maximum cost serves as the standard to classify the
+cores into remanufacturable and non-remanufacturable. In Guide et al. [44], the core
+quality is related to its processing time, which are random variables. They calculate the
+critical value of the processing time to classify the return cores as remanufacturable and
+non-remanufacturable accordingly.
+The main observations from the analysis in this section can be summarized as follow:
+ Single quality class is more often assumed than multiple quality classes;
+ Discrete quality distribution is more often used than continuous quality
+
+distribution;
+ Quality classification without an error is mostly assumed;
+ Quality classification criteria are mostly assumed to be predetermined.
+
+Perfect/imperfect substitution
+
+Perfect substitution assumption means that the customer does not distinguish new
+products and their remanufactured version. This assumption is reasonable only in some
+special cases, for example, when the customers cannot distinguish remanufactured
+products from new ones, or the remanufacturer leases products to provide service
+and has the ownership of products. However, there are also many cases when perfect
+substitution assumption is not valid. Since the customers sometimes have a lower
+willingness to pay for remanufactured products, many remanufactured products can
+only be sold at a much lower price than the new ones. In some countries, for example,
+China, it is even required by legislation that the remanufactured car parts can only be used
+in service market for maintenance purpose.
+For a hybrid system, it is important to clearly state whether such assumption holds,
+while for non-hybrid system, it is not always necessary to state such an assumption,
+when there are no new products involved in the model.
+Figure 9 shows that in hybrid remanufacturing systems, perfect substitution is more
+often used (42/54). On the other hand, the research uses imperfect substitution assumptions for hybrid systems are less common. The following studies in Core Acquisition Management consider the cannibalization between new and remanufactured
+products.
+In Bulmus [16], the consumers have lower willingness to pay for remanufactured
+products. Consumer’s willingness to pay for a single unit is distributed uniformly
+between 0 and 1, and each consumer uses at most one unit. Based on the utility
+function, the customer decides to buy a new product or a remanufactured one or
+nothing.
+Ferguson and Toktay [30] derive the inverse demand function from customer’s
+willingness-to-pay for new products and remanufactured products as
+p0 ¼ ξ−q0 −δqr ;
+pr ¼ δ ðξ−q0 −qr Þ;
+where δ (0 ≤ δ ≤ 1) is consumers’ relative willingness to pay for remanufactured products.
+
+Fig. 9 Perfect/imperfect substitution assumption in hybrid remanufacturing systems
+
+and pr are the sales price of the new products and remanufactured product, respectively. q0
+and qr are the demand size for new and remanufactured products respectively. The
+total demand size is ξ. In Örsdemir et al. [120], they adjust the inverse demand function in
+Ferguson and Toktay [30] as
+p0 ¼ sðξ−q0 −δqr Þ;
+pr ¼ δsðξ−q0 −qr Þ;
+by adding the term s to represent different product quality levels.
+The main observations from the analysis in this section can be summarized as follow:
+ Imperfect substitution assumption is less studied in hybrid remanufacturing system.
+ Two kinds of functions are used to describe the cannibalization issues: one derived
+
+from customer’s willingness to pay, the other assumes partial substituted demand
+directly.
+
+Discussions and conclusions
+Core Acquisition Management is an important research area that is drawing more attention recently. This paper conducts a literature review of quantitative models in Core
+Acquisition Management area. It firstly discusses the concept of Core Acquisition
+Management research by summarizing the earlier research frameworks, and determine
+the coverage of this review include the topics: acquisition control, forecast return, return
+strategies, quality classification and reverse channel design.
+The collected papers are firstly categorized according to the topics, and then analyzed
+based on their key assumptions such as: hybrid/non-hybrid remanufacturing systems,
+acquisition function (relation between acquisition effort and volume), quality classifications, perfect/imperfect substitutions. The main observations are summarized as the
+
+ The majority of research in Core Acquisition Management are categorized into
+
+acquisition control, while the studies on return forecast and return strategies are
+relatively limited;
+Acquisition control is closely related to research in production planning and control.
+It belongs to the classical IE/OR stream of research in CLSC, according to the
+evolution of the research description in Guide and Van Wassenhove [43]. Therefore
+it is not surprising to find that the majority of the Core Acquisition Management
+research falls in this category. There is a lack of return forecast related research,
+which is important as it provides the information for making acquisition control
+decisions consequently.
+ The research in acquisition control are mostly based on buy-back or volunteer-based
+return;
+The return strategies used by remanufacturers varies. In Östlin et al. [121], seven
+different return strategies are identified through a multi-case study:
+ownership-based, direct order, service contract-based, deposit-based, credit-based, buyback and voluntary-based. Some remanufacturers in their study are reported to use
+more than one return strategies. However, as observed from this literature review,
+most of the research focus on buy-back or voluntary-based return. Very few of them
+study the other commonly used return strategies such as service contract-based
+(leasing) and credit-based (trade-in), or even mixed return strategies. Therefore the
+studies of return strategies other than buy-back and volunteer-based, and how to combine several return strategies together could be interesting topics for further research.
+ More research models are set in a hybrid remanufacturing system, rather than in a
+non-hybrid remanufacturing system;
+Hybrid manufacturing/remanufacturing systems exist for OEMs where the
+remanufacturing and manufacturing are organized and optimized together to satisfy
+the customer demand. The challenges of merging the manufacturing and the
+remanufacturing operations are caused by their very different capacities, lead times,
+costs and substitutable (one way or both) demand. However, such hybrid systems are
+actually not common in practice. In many cases, OEMs use their remanufactured
+products only for its after-market service. Thus the remanufacturing operations are
+not mixed with manufacturing. The importance and popularity of non-hybrid remanufacturing system deserve more attentions.
+ Perfect substitution rather than imperfect assumption is more widely used in hybrid
+remanufacturing settings.
+Despite the fact that remanufactured products have the “same or like new” condition as
+new products, the customers usually have lower willingness-to-pay for them than the
+new products. Actually, according to the survey by Wei et al. [110], most of the remanufactured products are priced lower than the new products. This indicates that there does
+exist difference between new and remanufactured products, and in many cases they are
+not substituted perfectly, i.e. they cannot be substituted, or they can be substituted only
+in one direction.
+However, the perfect substitution assumption is more commonly assumed in the
+hybrid remanufacturing system, as pointed out by Guide and Van Wassenhove [43],
+it is “rapidly becoming institutionalized, and can reduce modeling efforts to elegant
+
+ Various mathematical forms have been used to describe the acquisition function,
+
+i.e., the relation between acquisition effort and volume;
+In order to validate these assumptions, more detailed analysis and empirical work are
+needed for describing customer’s response to remanufacturers’ acquisition effort under
+different supply chain relationships. In the survey study of Bai [11], the customers are
+categorized into three types with the consideration of their return behavior:
+awareness driven ones who return the product without reward, reward-driven ones
+who return the product only if a certain amount of reward is provided, and those who
+will never return the product. According to such survey results, Zeng [116] set three
+segments of customers with different proportions and acquisition functions. Similar
+efforts to describe the return behaviors of customers should be welcome.
+ Quality classification is usually set as predetermined, and without inspection error;
+Quality classification is an important measure to manage the quality of the acquired
+cores. Most of the models in acquisition control category assume that the classification
+is predetermined without any inspection error. In fact, the classification method itself
+(how to categorize the cores) depends on the quality distribution, as indicated by
+Galbreth and Blackburn [36] and Wei et al. [111]. In addition, the inspection errors are
+usually inevitable, and they have important influences on the remanufacturers’
+acquisition decision [39, 105]. The research concerning such quality classification issues
+are relatively limited, and inter-discipline studies with quality control and management should be able to play an important role.
+

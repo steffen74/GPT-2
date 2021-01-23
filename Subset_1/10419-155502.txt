@@ -1,0 +1,615 @@
+
+
+Utilising this information in an effective manner has the potential to support a decision
+maker and thus provide a competitive advantage [3].
+However, whilst taking advantage of this information is important, it should not be assumed that this data is always complete, available or accurate, particularly in the remanufacturing domain where information uncertainty can be common place [4]. It is important
+therefore that methods developed to utilise this information are robust and can handle uncertainties within the data. Within this research utilising information to estimate the cost
+to remanufacture has been addressed. Quantifying the cost of remanufacture is an important part of the remanufacturing process as it can enable businesses to decide whether to remanufacture a specific product.
+Within the literature several examples of cost modelling for remanufacture have
+been demonstrated, shown in Table 1. Analytical techniques are often used within
+these examples to estimate the cost of remanufacture, by breaking the entire
+process into key activities, such as disassembly, repair, assembly and testing. However, a challenge occurs when estimating the individual costs of these particular
+activities. Many of these examples directly use an expert’s opinion to estimate the
+cost of each activity for a particular product based upon their knowledge. Whilst
+this may be an applicable method for certain situations, challenges arise when multiple estimates are required for differing products that can exhibit high levels of
+variability and uncertainty. Collecting this information can be time-consuming and
+costly as it often requires consulting with key personal [5], whilst the accuracy of
+the information is questionable as it may be subject to human bias [6] or become
+obsolete over time. Parametric methods have been used by Jun et al. [7], to derive
+activity cost as a function of condition of a component. However this method is
+again limited when key information is missing or inaccurate and requires large data
+sets from which the relationships can be derived.
+This research therefore attempts to bridge the gap by developing a method to enable
+cost estimation of a remanufacturing activity with incomplete or uncertain information.
+The approach developed, based upon the analogical technique of case based reasoning,
+utilises historical record sets of previous remanufacturing activities from which jobs
+
+Table 1 List of cost estimation methods developed for remanufacturing
+Reference
+
+Costing method
+
+Uncertainty Description
+
+Du et al. [9]
+
+Analytical
+
+No
+
+An integrated methodology for evaluating a used
+machine tool for remanufacture through technical,
+economic and environmental criteria.
+
+Krill and Thurston [10]
+
+Analytical
+
+No
+
+A model for estimating the economic and
+environmental costs of employing sacrificial
+components in engine blocks to enable product
+remanufacture.
+
+Jun et al. [7]
+
+Activity/breakdown No
+cost + parametric
+cost
+
+A multi-objective tool to optimise product recovery
+through options such as reuse, remanufacture
+and disposal. Optimisation is to maximise recovery value and quality which are based upon
+an analytic cost model.
+
+Ghazalli and Murata [11] Analytical
+
+No
+
+An economic and environmental cost model to
+evaluate components for remanufacture.
+
+Xu and Feng [12]
+
+No
+
+A detailed economic cost model for an
+
+with contextual similarities are identified and used to derive estimated costs for new
+proposed remanufacturing jobs.
+The rest of the paper is laid out as follows: Firstly details of the cost estimation algorithm are presented within the method development section. This is followed by an explanation of the implementation of the cost estimation method within service oriented
+architecture. A case study example is then shown to demonstrate how the method
+works, after which conclusions are presented.
+
+Cost estimation development
+Outline
+
+The purpose of this estimation method is to predict the cost of a remanufacturing activity for a particular product, even when product or cost information maybe uncertain.
+Specifically the method produced here will estimate the cost of one particular activity
+identified rather than the entire remanufacturing process.
+To facilitate this, information is to be utilised from databases in which historical records of previously conducted remanufacturing activities are stored. An algorithm has
+been developed based upon case based reasoning to derive a cost estimate by identifying similarities in historical examples on which to base an estimate. Information is required to describe the product to be remanufactured. The attributes required to
+describe a product will be specific to a particular activity and are identified and
+assigned by an expert. For example disassembly cost may be most influenced by the
+manufacturer and model of a particular product type, whilst a repair activity could be
+most related to its physical condition. Multiple attributes can be associated with each
+activity and assigned a unique importance weighting. This method is robust in that it
+can still compute an estimate with missing product attributes or historical cost information, at the expense of accuracy.
+The output of this method is a cost distribution for the remanufacturing activity. From
+this distribution key metrics can be identified such as the average expected cost and the
+variation. The variation indicates the level of uncertainty associated with the estimation, a
+high variation indicating that a high degree of uncertainty and therefore risk. A detailed
+description of the algorithm developed to estimate the remanufacturing activity cost is described in detail in the next section (Fig. 1).
+
+
+
+
+Algorithm design
+
+This method uses analogy to find similarities within past experience to the cost of the
+new target case. The algorithm used to estimate a cost for this method is shown in Fig. 2.
+The first step requires a dataset to be identified, such as historical job records, where
+details about the product and the activity costs have been recorded. The similarity of
+the new target case is then measured against each of the historical cases of past activities. The method used to obtain the similarity score is shown in Eq. 1.
+X
+SimðT ; lÞ ¼
+
+f ðT; lm ÞW m
+
+m∈M
+X
+
+Wm
+m∈M
+
+ð1Þ
+
+Where Sim(T, l) is the similarity score between target case T and historical case l, f(T, lm)
+is the individual attribute similarity between target case T and historical case l for attribute
+
+
+Users are required to select product attributes to base the similarity score upon and
+apply weighting factors to the attributes. Individual weightings are scored between 0
+and 1, with 0 indicating no importance and 1 indicating high importance. The selection
+and weighting of attributes requires understanding of factors which may affect the cost
+of performing these activities. Examples of key attributes include the manufacturer,
+model, condition and power rating of a product or component.
+A single method of calculating individual attribute similarity would be unsuitable due
+to the range of data types and values possible. For example assessing the similarity of
+texted attributes, such as a manufacturers name or model code requires a different
+method than comparing the similarity of numerical values, such as power. Within this
+research two simple methods of calculating attribute similarity are used, although scope
+is available to add further methods within future work.
+The first method allows text values to be compared, and simply determines if the two
+values are the same. If a match exists f(Tm, lm)is set to 1, else it is set to 0.
+The second method compares numerical values and assigns a weighting if the values
+are within a pre-determined percentage range, for example ±20 % of the target case.
+An exact match scores a value of 1, whilst all other values are based upon a linear
+equation which results in a 0 value at ± 20 % of the target. All other values outside of
+the ±20 % are also assigned 0.
+When no information about the particular attribute is provided, a value of 0.5 is
+assigned. It was chosen to give an uncertain attribute a non 0 value as the historical
+case both may or may not be of importance, therefore it should be considered within
+the calculation. Equally it was chosen not to use a value of 1 as this reduces the importance of a true match.
+The similarity calculation in Eq. 1 is then applied to every case within the database.
+Each similarity score is then used as a weighting value to derive a statistical distribution
+from the database. The mean value is calculated using Eq. 2 whilst the variance is calculated using Eq. 3.
+X
+
+
+Where σ w is the weighted standard variance of the mean cost of the activity.
+Using these statistical properties, a distribution can be created to describe the cost of
+activity i. By describing the cost as a Probability Density Function (PDF) the uncertainty within the estimate can be described. By weighting the historical data set using
+
+Implementation
+This research forms part of the PREMANUS project, an ICT project funded as part of
+the European Union (EU) Seventh Framework Programme (FP7), with the aim to overcome the asymmetric distribution of information in the End of Life recovery of products by connecting OEMs and subcontractors, with a special emphasis on
+remanufacturing [8]. This is realised through the development of a service middleware
+consisting of three technological pillars;
+ Remanufacturing Information Services (RIS)
+ Remanufacturing Services Gateway (RSG)
+ Business Decision Support System (BDSS)
+
+The cost estimation method described in this paper forms a part of the BDSS pillar
+and thus has been implemented within a service oriented architecture employed by the
+PREMANUS eco system. The cost estimation method has been programed in an object
+oriented paradigm within the Net framework using the Visual Basic language and was
+deployed as a RESTful web service. Historical remanufacturing data has been stored
+using a Microsoft Access relational database and is remotely queried by the service
+using SQL language.
+A separate client was developed independently by an industrial use case partner SKF
+to act as a custom user interface using the ARIS MashZone platform, shown in Fig. 3.
+
+Case study example
+Case study introduction
+
+To demonstrate the method, an example of a small independent remanufacturer of
+wind turbine gearboxes is presented. Gearboxes within wind turbines are used to transform the relatively low input rotation of the blades to the higher rotation required by
+the generator for electricity generation. However, failure rates on these gearboxes have
+
+
+
+created a demand for aftermarket services such as remanufacturing. The wind turbine
+gearbox aftermarket demonstrates many of the issues highlighted in the introduction
+that can make cost estimation for remanufacture challenging. High variability in product types exist due to the relatively small number of particular models produced, meaning that limited cost information exists regarding the resource requirements for
+remanufacture. Information supplied to the remanufacturer to assess the product to be
+remanufactured can also vary significantly. Many gearboxes are equipped with condition monitoring systems which can provide detailed lifecycle information related to the
+condition of the gearbox. However, many older gearboxes do not have this equipment
+and thus limited information to assess cost is available. Being an independent remanufacture also means that product design information, detailing the product structure,
+number of components and fittings can also be difficult to obtain as the customer will
+not always have this information whilst OEM’s will be hesitant to release it.
+Cost estimation is required to assess whether remanufacturing is a viable option for a
+particular gearbox compared to other solutions such as replacement with a different unit.
+
+Demonstration
+
+The purpose of this demonstration is to highlight how different levels of uncertainty
+within a cost estimate can be computed using this method. The same gearbox is represented several times with differing levels of uncertainty shown in each row (Table 2).
+For simplicity within this demonstration, only three attributes have been be used to describe the gearbox which are; manufacturer, power rating and condition. A single number is used to describe the condition on a scale of 1 to 5, with 1 indicating bad
+condition and 5 indicating a good condition.
+Three key activities have been identified within the remanufacturing process, shown
+in Fig. 4. For demonstration purposes the cost estimation has only been conducted for
+the Disassembly and Inspection activity, however the approach is the same for other activities. Based upon expert knowledge, weightings have been assigned to each of the
+three attributes used to describe the product, from their perceived influence upon the
+cost of remanufacture, shown in Table 3.
+Activity cost information is contained within historical job records, shown in Table 4.
+Every time a gearbox is remanufactured, information about the costs incurred for each
+activity is recorded along with information about the gearbox. The method will use
+these historical records to estimate a cost based upon similarities to the cases identified.
+Cost calculation was performed using the information outlined above. Firstly a similarity score was calculated to compare each historical record with the target information (from Table 2) using Eq. 1, with the results displayed in Table 5.
+Table 2 Information requirements for gearbox product model, with four product examples
+showing varying amounts of uncertainity
+Manufacturer
+Gearbox_A
+
+Power rating (MW)
+
+Condition rating (1–5)
+
+ZF
+
+1.6
+
+2
+
+Gearbox_B
+
+ZF
+
+1.6
+
+Unknown
+
+Gearbox_C
+
+ZF
+
+Unknown
+
+Unknown
+
+Gearbox_D
+
+Unknown
+
+
+Page 8 of 10
+
+Fig. 4 Simplified process diagram for gearbox remanufacture
+
+Table 3 Similarity attributes for the Disassembly and Inspection activity
+Attribute
+
+Weighting
+
+Match type
+
+Manufacturer
+
+1
+
+Semantic
+
+Power
+
+0.6
+
+Number
+
+Condition
+
+0.1
+
+Number
+
+Table 4 Sample historical case data for Disassembly and inspection
+Power (MW)
+
+Condition
+
+Total cost
+
+GearboxRecord_1
+
+Manufacturer
+Eickhoff
+
+1.0
+
+4
+
+£9,605
+
+GearboxRecord_2
+
+Eickhoff
+
+1.0
+
+5
+
+£10,478
+
+GearboxRecord_3
+
+Eickhoff
+
+1.5
+
+1
+
+£12,375
+
+GearboxRecord_4
+
+ZF
+
+1.5
+
+1
+
+£15,850
+
+GearboxRecord_5
+
+Eickhoff
+
+1.7
+
+3
+
+£15,582
+
+GearboxRecord_6
+
+ZF
+
+1.8
+
+3
+
+£18,344
+
+GearboxRecord_7
+
+Bosch/Rexroth
+
+1.8
+
+4
+
+£19,444
+
+GearboxRecord_8
+
+Bosch/Rexroth
+
+1.8
+
+5
+
+£17,772
+
+GearboxRecord_9
+
+Eickhoff
+
+2.0
+
+3
+
+£17,698
+
+GearboxRecord_10
+
+ZF
+
+2.0
+
+3
+
+£19,868
+
+GearboxRecord_11
+
+Bosch/Rexroth
+
+2.1
+
+1
+
+£19,444
+
+GearboxRecord_12
+
+Eickhoff
+
+2.1
+
+1
+
+£16,865
+
+Table 5 Similarity Score of each historical gearbox record (Table 4) for the target estimation case
+(Calculated through Eq. 1)
+Similarity score (Calculated through Eq. 1)
+Gearbox_B
+
+Gearbox_C
+
+Gearbox_D
+
+GearboxRecord_1
+
+Gearbox_A
+0
+
+0.03
+
+0.21
+
+0.5
+
+GearboxRecord_2
+
+0
+
+0.03
+
+0.21
+
+0.5
+
+GearboxRecord_3
+
+0.27
+
+0.27
+
+0.21
+
+0.5
+
+GearboxRecord_4
+
+0.86
+
+0.86
+
+0.79
+
+0.5
+
+GearboxRecord_5
+
+0.27
+
+0.27
+
+0.21
+
+0.5
+
+GearboxRecord_6
+
+0.75
+
+0.75
+
+0.79
+
+0.5
+
+GearboxRecord_7
+
+0.13
+
+0.16
+
+0.21
+
+0.5
+
+GearboxRecord_8
+
+0.13
+
+0.16
+
+0.21
+
+0.5
+
+GearboxRecord_9
+
+0.03
+
+0.03
+
+0.21
+
+0.5
+
+GearboxRecord_10
+
+0.62
+
+0.62
+
+0.79
+
+0.5
+
+GearboxRecord_11
+
+0.03
+
+0.03
+
+0.21
+
+0.5
+
+GearboxRecord_12
+
+0.03
+
+0.03
+
+
+
+Table 6 Cost and risk results for the disassembly and inspection activity
+Lower σ (£)
+
+Mean Cost (£) (Eq. 2)
+
+Upper σ (£)
+
+Range (Upper σ—Lower σ) (£)
+
+Gearbox_A
+
+15031
+
+17211
+
+19391
+
+4360
+
+Gearbox_B
+
+14749
+
+17106
+
+19463
+
+4714
+
+Gearbox_C
+
+13971
+
+16906
+
+19841
+
+5870
+
+Gearbox_D
+
+12750
+
+16110
+
+19470
+
+6720
+
+Using the results of Eq. 1, weighted mean costs and standard variance were then calculated for each gearbox using Eqs. 2 and 3 respectively. Lower and upper standard variations were then calculated about the mean, based upon a normally distributed PDF.
+Results for the disassembly activity are numerically and graphically displayed in Table 6
+and Fig. 5 respectively. Within the results it can been seen when more information is
+provided for the predicted case (Gearbox_A) a more certain estimate is provided, with
+a lower standard variation. However, even when limited information is provided
+(Gearbox_D), an estimate can still be calculated, all be it with increased risk. The results
+demonstrate the ability of the method to calculate cost and risk metrics with incomplete
+information regarding both the product description and also the cost knowledge.
+
+Conclusions
+Within this research a method has been presented for forecasting the cost of a remanufacturing activity in the presence of uncertain or limited information. The method utilises historical data records to compare the target costing case to previous job records
+for which it can identify similarities to predict a new cost estimate. The method can be
+applied to each activity required in the remanufacturing process and summated to determine the total process cost.
+The implications of this research is that it may allow businesses operating in the
+remanufacturing domain a method of estimating cost of an activity when information
+is limited or uncertain, an area which has so far been neglected within the remanufacturing domain. The utilisation of historical cost records rather than expert knowledge,
+
+knowledge bias and, because it is connected to a live data base will provide the method
+with update information.
+There is much potential for future work related to this research area. As this method
+is largely in the prototype phase, there is a great deal of research that could be conducted to test and optimise its performance and accuracy. Automation of key attributes
+selection and their weighting could also enhance the accuracy and usability of the
+method, removing the need for direct input of expert knowledge and bias. Additionally
+there is a great deal of potential within the remanufacturing domain to utilise information to support their decisions. This is a much broader area of work which industry
+and academia should address to support the challenges of uncertainty within remanufacturing and other end of life and aftermarket activities.

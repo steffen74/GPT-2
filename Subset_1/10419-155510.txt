@@ -1,0 +1,2032 @@
+
+
+Technical solutions to improve global
+sustainable management of waste electrical
+
+great harm to the environment [3–5]. The entire issue is exacerbated by the
+relatively short product life cycle of some EEE products such as mobile phones
+and laptops [3, 6].
+To counter the growing environmental threat of WEEE, suitable End-of-Life (EoL)
+treatments are required which can recover value from a product at its end of life and
+lessen its waste and pollution. The overall objective of reclaim practices is to prevent
+pollution of the environment and extend the product lifespan, by either recovering the
+material value (recycling) or recovering the component value (repairing, repurposing or
+remanufacturing) [7, 8].
+Apart from environmental advantages, EoL reclaim strategies are also likely to
+bring social advantages and economic profit, as less raw material, energy and more
+unskilled workforce is needed to produce components. The materials that would
+be lost via landfill disposal could be rare and valuable as well as recyclable [9].
+EoL reclaim strategies can therefore be seen as a sustainable solution of WEEE as
+it has advantages to the three pillars of sustainability. The main reason of only
+20 % of WEEE is being treated correctly nowadays is the lack of knowledge on
+sustainable product reclaim strategies, starting at the product design and manufacturing stage of product life.
+This article consists of two sections. The first section is a literature review which
+aims to identify the current state of Global WEEE management, including best
+practices being employed to manage electronic waste (e-waste). The focus of this
+review shall centre on the European Union (EU) and the People’s Republic of China
+(PRC) which are thought to be suitable representatives of both a developed and
+emerging economy respectively. The second section consists of a practical in which five
+different types of mobile phones have been disassembled. The aim of this practical is to
+identify technical barriers in disassembly and EoL reclaim in mobile phones. Evaluation
+is done on the time needed for disassembly, the ease of disassembly, joining methods,
+materials used and component weight among others. Both technical and non-technical
+barriers are given in order to justify which material/component reclaim strategy is most
+profitable and to what extend it can be used. Possible mechanisms for improvements on how the sustainability of the global WEEE management can be enhanced
+to make EoL reclaim profitable are suggested in the end of the article, which is
+followed by a conclusion.
+
+Overview of current global WEEE management
+There are few truly global policies that deal with the management of WEEE. The most
+notable one is the 1989 Basel Convention which aimed to reduce the movement of hazardous materials around the globe [10]. In particular, it aimed to lessen the amount of
+hazardous waste being exported to emerging economies and impact of it on both the
+local populace and the environment. A later 1995 amendment resulted in the absolute
+ban on the export of hazardous waste from industrialised nations to less economically
+developed nations. This ban though is frequently found to be flouted with the classification of e-waste as working EEE being one of the most common exploits [2, 11, 12].
+Typically, most countries seek to manage WEEE through the introduction of national
+environmental legislation to manage the issue of WEEE. This legislation typically puts into
+
+Countries are known to use other nation’s legislation as the foundation or inspiration of
+their own attempts to solve the issue of WEEE management [13].
+EU policy on WEEE management
+
+By 1998, six million tonnes of WEEE were created in Western Europe annually and this
+quantity was found to be increasing at a rate of 3–5 % per year [9, 14]. This led to the
+development of EU Directives to combat the spread of WEEE and the hazardous substances contained within. EU Directives are the foundation of European Union giving
+guidance to its member states. They are formulated at the continental EU level with
+the objective of providing leadership and direction on a particular subject by setting a
+goal or target that must be met within a specified time. They are then implemented at
+a national level where it is the prerogative of the state government to determine how
+the goal will be met [15].
+When discussing WEEE in the EU, the two most pertinent EU Directives are the
+Waste Electrical and Electronic Waste (WEEE) Directive (Directive 2012/19/EU
+[16]) and the Restriction of Hazardous Substances (RoHS) Directive (Directive
+2011/65/EU [17]). The effects of these Directives on the management of WEEE in
+the European Union have been extensive. Recovery and recycling targets have been
+adopted across the Union for WEEE with the rate expected varying depending on
+the product type. The typical collection rate is expected to be between 50 and
+80 % [9, 16]. Another requirement of the WEEE Directive is the implementation of
+an Extended Producer Responsibility (EPR) scheme which mandates that the producer of EEE must prepare for WEEE [2, 13, 16]. This involves the producer funding the collection and recovery schemes as well as the EoL treatment processes [2,
+9]. The treatment processes must meet EU requirements and the options available
+to producers are extensive [2, 18].
+Chinese policy on WEEE management
+
+China is the world’s largest emerging market for EEE and has one of the significant
+issues with e-waste which is growing at a rapid rate of approximately 13 to 15 % a year;
+this is further exacerbated by the import of WEEE from developed nations [9]. It is estimated that up to 80 % of e-waste from the United States is exported to Asia with the
+vast majority going to China [19].
+The Chinese government has enacted several major pieces of legislation over
+the last two decades. Beginning in 1996, following the Basel Convention, its first
+act to deal with the growing threat of WEEE was the Decision on Several issues
+on Environment Protection which prohibited the import of hazardous and solid
+municipal waste to China [20]. The State Environmental Protection Agency of
+China (SEPA) is tasked with implementing this ban on municipal and WEEE import. The next major law was introduced in 2005 and led to the development of
+“the Management Method on Prevention and Cure of Environmental Pollution in
+WEEE” by SEPA which looked to strengthen measures covering recovery and reclamation, EoL treatment companies and hazardous substances [9]. Further legislation, influenced by WEEE management processes in other areas such as the EU,
+was created to implement an EPR-like scheme for China. This legislation was
+
+Appliances and Electronics Products”. It bears many similarities to the EU’s
+Extended Producer Responsibility scheme but has a few key differences which are
+investigated later.
+
+Commonalities and differences in global WEEE management
+
+Global WEEE management can vary substantially from country to country. Even
+between the EU and the PRC, where China bases some of its policy on the EU WEEE
+management programmes, there can be significant areas of difference.
+Landfill policy
+
+With EU legislation regarding WEEE based on only two directives and the Basel
+Convention, it is important that they are robust enough to encourage proper management of both EEE and WEEE. The primary objective of the European Commission,
+later the European Union, was to reduce the impact of EEE and WEEE on the environment. This objective was not limited to solely the production and disposal of EEE.
+Instead it aimed to reduce the impact on the environment throughout the life cycle of
+a product. A fundamental part of the EU’s WEEE management policy is that WEEE is
+banned from landfill and must instead go through some form of EoL treatment [2].
+Chinese policy does not explicitly ban the entry of WEEE into landfill [9].
+Extended producer responsibility
+
+One of the most important concepts that underline the EU’s position on WEEE
+management and EOL treatment is the idea of Extended Producer Responsibility
+(EPR) [2, 13]. By putting the onus on the original producer of EEE to prepare
+adequate resources for dealing with WEEE, the EU has developed a steady means
+of funding safe and environmentally conscious EoL treatment for WEEE. The
+required treatments are specified within the EU Directives. Chinese strategy follows
+the same approach as the EU when it comes to EPR albeit with a few alterations.
+In China, producers of EEE must choose from a selection of government
+sanctioned e-waste EoL treatment plants. Informal collectors are prevalent though
+and this makes the task of official companies and groups more difficult as the
+unofficial options are able to undercut them at any point [13, 21, 22]. It has been
+suggested that informal collectors and official recyclers be merged to achieve a
+“best of both worlds” solution that is both cheaper and more environmentally
+conscious than the current systems [13, 23].
+Collection and recovery targets
+
+The collection of WEEE for proper EoL treatment within the EU has an objective of
+gathering between 50 and 80 % depending on the product [9, 16]. This target is not
+being met though with some estimates saying that, at most, only 19 % of WEEE in the
+EU is collected for adequate EOL treatment [2–4]. To improve the WEEE management
+situation, it is important that these targets are met and that more electrical and
+electronic waste (e-waste) is sent to EoL treatment facilities.
+Chinese collection targets are higher than the European Union for most products
+with a standard rate of 70 % for all WEEE as opposed to the range of collection targets
+
+Advantages and disadvantages of current WEEE management
+
+Approaches to WEEE management from both the EU and China have distinct merits
+and faults. While they encourage responsible consideration of WEEE they contain loopholes that are actively exploited.
+Landfill policy
+
+Regarding the prohibition of e-waste entering landfill in the EU, the biggest advantage
+of this policy is the obvious environmental benefits gained by restricting the entry of
+hazardous materials, such as lithium polymer batteries, into landfill where they could
+contaminate the soil and ground water. It is important to note that this ban incurs
+significant costs as EoL treatment for WEEE can be extremely expensive and nonprofitable in some cases. The EU has developed a different policy to try and mitigate
+this negative aspect; Extended Producer Responsibility.
+Extended producer responsibility
+
+Advocates of the EU’s EPR approach cite many potential advantages to this approach.
+By forcing the producers of EEE to consider the whole life cycle of their product, and
+adopt the associated costs of EOL treatment; funding for sustainable and responsible
+EOL treatments can be secured without forcing the costs upon local government waste
+departments. Traditionally, it is difficult to make EOL treatment for WEEE, such as
+recycling, profitable as the value of extracted materials rarely exceeds the cost of
+extraction. By placing the cost on the producer, the funding to overcome this shortfall
+is available. An additional benefit of forcing this cost onto the producer is that they are
+encouraged to make their EEE products as easy as possible to recycle or dispose as they
+have to pay to cover the costs of such actions. This motivates the producer to design
+their products to contain fewer hazardous substances, lower the chance of obsolescence
+or failure and be easier to recover value from during the recycling process as this will
+reduce the EOL expenditure faced. At the same time, companies may be able to use
+the recycled material to repair or manufacture new EEE products at a reduced cost.
+However, it is important to note that this focus on EPR can also be a crutch to proper
+WEEE management and has its opponents. Some EPR programs may result in operational
+EEE products being categorised as WEEE and recycled rather than reused. In the event of
+an insolvency scenario regarding the producer of EEE, there is little or no reserve funding
+available to the EOL treatment processes. At this point, the EOL treatment group must
+either seek governmental or institutional support or seek to cut costs. Neither scenario is
+ideal as it places costs on taxpayers or could result in reduced environmental performance. The difficulty of recycling certain WEEE products, such as lithium-based batteries
+and leaded glass is also seen as a barrier as it may place extreme costs on the producer
+with regards to transport, storage and disposal. These increased costs could be so large
+that they have to be passed directly to the consumer circumventing the objective of EPR
+which was to move EOL costs from the end consumer to the producer. Additionally, the
+increased costs for companies that have to plan for EOL treatment could make them less
+competitive as they have to either increase the cost of their device compared to competitors from outside the EU or reduce expenditure elsewhere which could include research
+and development leading to a stifling of technological advancement and growth. Another
+issue that has been argued to have developed from EPR is the exploitation of a loophole
+
+developing nations so instead, groups are classifying WEEE as EEE for reuse which allows
+for export to places such as Africa (see Section 1) where it is disposed of in a lessenvironmentally conscious manner at much lower or zero cost to the original equipment
+manufacturer (OEM).
+Furthermore, another issue is that, in practice, still a significant amount of WEEE in
+developed countries has been sold to third party brokers who arrange shipment, via
+containers, to China, other Asian countries and sometimes Africa [25, 26]. Some materials are then recovered not follow the recycling regulation of the exported developed
+countries [27–29].
+
+Collection and recovery targets
+
+Environmental targets such as those for collection and recovery are excellent ways of
+motivating national governments to take WEEE management seriously and the associated penalties that come with failing to meet them further strengthen this motivation.
+However, it could be seen that targets are difficult to track and are open to interpretation in some cases.
+
+Motivation
+
+Both approaches have their advantages and disadvantages. Strong legislation ensures
+that the process is done properly but at the same time, an increase in red tape can
+make it more difficult for the venture to be financially sustainable. The profit approach
+has the opposite problem. Companies that make a profit are more likely to survive and
+will encourage new entries into the market to improve the efficiency of the EoL processes; however, a lack of legislation may result in companies cutting too many corners
+in the search for profit causing avoidable environmental damage.
+
+Current end-of-life practices
+Across the world, a wide variety of EoL treatment processes are used. These can be
+gathered into seven overall categories of which six are sustainable. These categories are,
+in the hierarchy of reclaim value: remanufacturing, reconditioning, repairing, recycling,
+repurposing, reusing and disposal.
+From the five-step waste hierarchy in EU legislation [30] shown in Fig. 1, the
+aforementioned treatments are within top 3 tiers for the most sustainable options where the waste was recovered into a product (commodity). One of the
+distinct differences between these treatments is that recycling involves extracting
+recyclable materials from a waste product (not necessary for whole product recovery) and turning the materials into different and new applications. On the
+other hand, the rest five treatments maintain the waste product in its original form. The
+relationship between remanufacturing, reconditioning and repairing was further described
+in other literatures [31, 32] in comparisons of the product performance, accompanies
+warranty and labour work requirement as Fig. 2 shows.
+Furthermore, as seen in Fig. 1, disposal is the only EoL practice that is not sustainable
+to an extent and is inferior to recovery in the waste hierarchy that the product was
+
+Fig. 1 The EU waste hierarchy [30]
+
+Remanufacturing
+
+One of the most accurate definitions of remanufacturing is: “The process of returning a
+used product to at least OEM original performance specification from the customer’s perspective and giving the resultant product a warranty that is at least equal to a newly manufactured equivalent.” [33, 34]. An advantage of remanufacturing is that the high-quality
+build and full-length warranty of a remanufactured product removes that perception if it
+is properly communicated. Remanufacturing of EEE products has three major disadvantages: cost, difficulty and technological obsolescence. The cost of remanufacturing a product can be quite extensive if it is a complex assembly like most modern EEE products are.
+This stems from the level of work and testing that would be required to ensure that it
+reaches like-new performance and that it is worthy of a like-new warranty. Remanufacturing is rare or non-existent in the EEE sector of the market due to the extremely complex
+nature of computer chips and the rate of change of technology on those chips. However,
+early research and testing is underway with some electronic companies, including IBM,
+looking at the possibility of remanufacturing EEE products in a profitable manner [13].
+
+
+Reconditioning
+
+Reconditioning can be defined as: “The process of returning a used product to a
+satisfactory working condition that may be inferior to the original specification. Generally
+the resultant product has a warranty that is less than that of a newly manufactured
+equivalent. The warranty applies to all major wearing parts” [33, 34].
+Reconditioning is a fairly common procedure that can be widely found in the EEE
+sector with reconditioned computers, games consoles and phones being available for
+purchase. Items returned under warranty are usually returned in a reconditioned form.
+Reconditioning is normally cheaper for the consumer and manufacturer than producing a new item and this makes it a popular option for WEEE. Additionally, it extends
+the product lifespan which both saves the environment and allows more value to be
+gained through the use of the product. The most common argument against reconditioning is that it sometimes carries a stigma of being more prone to future failures
+which can put off consumers and lead to them simply purchasing a new device anyway
+and dumping the old product.
+Repairing
+
+Repair is more specific than reconditioning and remanufacturing in that it only targets the
+specified faults of the product. It is solely focused on rectifying the identified fault and does
+not consider the overall condition of the product. [33, 34]. The warranty of repaired products tends to only cover the repaired component itself. Almost any EEE product can be
+repaired assuming that the damage is not too extensive and the damaged component can
+be reached in disassembly. The biggest benefit of repair is that it is typically quicker and has
+a lower short-term cost when compared to reconditioning and remanufacturing although it
+can be argued that in the long-term costs are actually higher for the consumer as less value
+is added and therefore the product is more likely to reach its EoL again in a shorter period.
+Recycling
+
+Recycling can be defined as a system where waste materials are gathered, sorted and
+processed into a usable form to be used in the production of different and new products [33, 34]. Recycling is very common in the EEE sector and is widely used in products that cannot be successfully put through any of the other EoL treatments. This is to
+recover valuable materials such as copper, aluminium, gold, tantalum and polycarbonates among others, which are commonly found in electronic devices. It can also be
+used extract toxic materials such as cadmium, lead or mercury [9]. The biggest challenge faced by recycling is the difficulty and associated costs with extracting the precious or rare materials. Printed Circuit Boards (PCBs) are notoriously difficult to
+extract any profitable value from and, like with most modern electronics like phones
+and televisions, everything is integrated onto the PCB causing great problems for recyclers. Early work has begun on the development of a recycling method for PCBs which
+helps to solve the current problems [13].
+Repurposing
+
+Repurposing is the identification of a new use for a product that can no longer be used
+
+[33, 34]. Repurposing is either free or cheap and is a good way of extending the
+potential life of a product. Repurposing is extremely rare in EEE as electronics typically
+have few uses outside of their original design objectives making it a non-viable option
+in most cases of e-waste.
+Reusing
+
+Reuse is when a subsystem or component of a product is being operated in a manner similar to the original design goal without modification. The most common example of this
+would be second hand use of mobile phones from developed countries in developing nations. EEE devices are commonly reused mobile phones frequently being donated to charity
+or sold via EBay among others.
+Disposal
+
+If none of the sustainable EoL treatment options are viable, the final option is to dispose of
+the product in the most environmentally friendly way possible. For WEEE, landfill is rarely
+an option and is outright banned in some nations, including most in the EU, unless the device is properly treated to remove toxic or hazardous substances. The more common approach for e-waste is incineration where the product is burned after decontamination
+treatment to minimise environmental risk. Energy can be recovered from incineration [4].
+
+Current best practice in global WEEE management
+WEEE management policy
+
+The diverse nature of WEEE management and the vast cultural differences around the
+globe make identifying the best WEEE management policy a near impossible task. A
+system that may work well in one country may be totally unsuited to another meaning
+that every country is likely to have a unique system that best suits its current position.
+A classic example of this that China has officially sanctioned recyclers thanks to decades of informal collection and reclamation. A system of that level of regulation in the
+EU would be more likely to discourage companies from entering the market hence the
+EU’s more laid back approach [13, 35, 36].
+There are a few common elements that can be considered best practice in most
+countries although this must be cautioned with the advisement that the details of each
+policy should be tailored to the individual nation. Extended Producer Responsibility
+(EPR) [37–39] schemes have been quite successful where they have been implemented
+and have had the benefit of improving the performance of EoL treatment processes as
+well as moving the funding burden from consumers to the producers of EEE. Additionally, environmental targets for collection and recovery have been successful in encouraging countries to do more to adopt sustainable EoL practices.
+End-of-life practices
+
+Considering the many options available in WEEE strategy, the identification of the best
+available option can be a difficult task but it can begin by eliminating those EoL
+treatments that are clearly not applicable or workable is a good starting point. Due to
+the extreme difficulty in remanufacturing electronics like PCBs, remanufacturing can
+
+Repurposing also not a viable option in the vast majority of WEEE cases due to the
+singular nature of most electronics.
+Having eliminated the most unworkable options, the next step is to identify the best
+practice, or combination of practices for WEEE at EoL. Reuse is arguably one of the
+most sustainable option for WEEE as it extends the life cycle of a product and can be
+repeated several times. Once reuse no longer becomes an option, either component
+recovery (remanufacturing/reconditioning/repairing) or material recovery (recycling)
+are sustainable options. In the event of a small fault with an EEE device such as a
+cracked or scratched case or software fault, a simple repair or reset is probably the
+most cost-effective option. For more complex issues such as a failed component, reconditioning is a more viable option since the expense of performing a repair is most likely
+to be only marginally lower than a reconditioning. The advantages of a complete device
+check and the addition of a small warranty will outweigh the slightly increased cost in
+most consumers’ eyes. Remanufacturing is another option in which the product loses
+its identity due to the use of new components. Remanufacturing gives the most amount
+of added value to a product but is often not viable for EEE products due to the rapid
+change of technology and fashion. When component recovery is not feasible WEEE can
+be placed through a recycling process to recover the most valuable materials that are used
+in the production of EEE devices. These include rare Earth metals that carry a high
+current value and are finite resources. Additionally, the mining process for certain materials, such as nickel, gold, tantalum and other rare earth elements, is very damaging to the
+environment and often comes with social injustice. Following successful recovery of material and components, the remaining non-recoverable material should be disposed of by
+incineration with as much energy as possible recovered from the process [9, 40, 41].
+
+Limitations of current practices
+Disassembly of the five phones
+
+Limitations of the current practice are identified by means of a practical exercise in which
+five different types of mobile phone are assessed on how well they can be disassembled and
+what End of Life technique suits the components best. The aim of the practical exercise is
+to identify the design issues that hinder and aid the remanufacturing of mobile phones, in
+order to identify limitations in the current WEEE best practice. The mobile phones (presented in Fig. 3) are disassembled in order of release date:
+
+
+Page 11 of 27
+
+1. Samsung SGH-E370 (2006) - no longer made. 1.3 Megapixel camera, TFT
+(thin-film transistor) screen, 128 × 160 pixels screen resolution, 56 K colours,
+400 MB internal storage, 800 mAh Li-Ion battery [42].
+2. Sony Ericsson C902 (2008) - no longer made. 5 Megapixel camera, TFT screen,
+240 × 320 pixel screen resolution, 256 K colours, 160 MB internal storage, 930 mAh
+Li-Polymer battery, USB 2.0 [43].
+3. Nokia 1661-2 (2008) - no longer made. No camera, TFT screen, 128 × 160 pixel
+screen resolution, 56 K colours, 8 MB internal storage, 860 mAh Li-Ion battery [44].
+4. Samsung GT-E1150i (2010) - currently made. Cheap and simple model, no camera,
+CSTN1 (Colour Super Twisted Nematic) type LCD display, 128 x 128 screen
+resolution, 56 K colours. No internal storage, 800 mAh Li-Ion battery, USB 1.1 [45].
+5. HTC Sensation 4G (2011) - no longer made. Smartphone with Android operating
+system. 8 Megapixel camera resolution, front-facing camera, S-LCD Capacitive
+touchscreen (not TFT), 540 × 960 screen resolution, 16 M colours, 1 GB internal
+storage memory, 768 MB RAM memory, 1520 mAh Li-Ion battery, USB 2.0, Micro
+USB port, Wi-Fi, 1.2 GHz processor [46].
+Method of design feature evaluation
+
+During the disassembly of the five phones, a data sheet was made and continuously updated
+throughout the disassembly process. The data sheet contains the following information:
+ Removed component (in order of disassembly)
+ Material of the component
+ Weight of the component
+ Joining method of the component
+ Is this component re-attachable? (yes/no)
+ Is the component damaged due to disassembly? (yes/no)
+
+The quantitative results for each phone are presented in Tables 1, 2, 3, 4 and 5, where
+SS stands for stainless steel, ALU stands for aluminium, PC stands for polycarbonate
+and GF stands for glass fill.
+Table 1 Data generated from disassembly of the Samsung E370
+Phone
+
+Samsung E370
+
+Component
+
+Material
+
+Weight (kg)
+
+Joining method
+
+Battery/back cover
+
+Li-ion
+
+0.0224
+
+Spring pins
+
+y
+
+n
+
+Back cover/shield
+
+PC
+
+0.00071
+
+Threaded fasteners/ snap fits
+
+y
+
+n
+
+Button shield
+
+PC
+
+0.00028
+
+Snap fit
+
+y
+
+y
+
+Key pad
+
+unknown
+
+0.0001
+
+Clearance fit
+
+y
+
+n
+
+Circuit board
+
+Various
+
+0.00152
+
+Aligned by screws/clearance fit
+
+y
+
+n
+
+Screen back
+
+PC
+
+0.0303
+
+Threaded fasteners
+
+y
+
+n
+
+Reattach?
+
+Damage?
+
+Sliding mechanism
+
+Steel/PC
+
+0.007
+
+Threaded fasteners
+
+y
+
+n
+
+Screen circuitry
+
+Various
+
+0.01
+
+Sandwiched
+
+y
+
+n
+
+Speaker
+
+Various
+
+0
+
+Solder/adhesive
+
+n
+
+y
+
+Front cover
+
+PC
+
+0.007
+
+Threaded fasteners
+
+y
+
+n
+
+TOTAL
+
+
+Page 12 of 27
+
+Table 2 Data generated from disassembly of the Sony Ericsson C902 (a May not adhere as before)
+Phone
+
+Sony Ericsson C902
+
+Component
+
+Material
+
+Weight (kg)
+
+Joining method
+
+Reattach?
+
+Damage?
+
+Battery
+
+Li-ion
+
+0.019
+
+Spring pins
+
+y
+
+n
+
+Back cover
+
+SS
+
+0.0183
+
+Slide clip
+
+y
+
+n
+
+Aluminium shield
+
+ALU
+
+0.0063
+
+Spot weld
+
+n
+
+y
+
+Main case
+
+PC + GF
+
+0.0487
+
+n/a
+
+n/a
+
+n/a
+
+Main circuitry
+
+Various
+
+0.0118
+
+Clip
+
+y
+
+y
+
+Plastic top
+
+Unknown
+
+0.0051
+
+Plastic rivets/weld
+
+n
+
+y
+
+SIM card housing
+
+ALU
+
+0.0021
+
+D/S adhesive tape
+
+ya
+
+n
+
+Processor guard
+
+ALU
+
+0.0002
+
+Crimped
+
+n
+
+y
+
+Aluminum part
+
+ALU
+
+0.0001
+
+Clip
+
+n
+
+n
+
+Snap fit
+
+n
+
+y
+
+Little plastic
+
+PC
+
+0.0001
+
+TOTAL
+
+-
+
+0.1117
+
+Table 3 Data generated from disassembly of the Nokia 1661-2
+Phone
+
+Nokia 1661-2
+
+Component
+
+Material
+
+Weight (kg)
+
+Joining method
+
+Reattach?
+
+Damage?
+
+Back cover
+
+PC
+
+0.0047
+
+Slide clip
+
+y
+
+n
+
+Battery
+
+Li-ion
+
+0.0182
+
+Spring pins
+
+y
+
+n
+
+Back cover top
+
+PC
+
+0.0015
+
+Snap fit
+
+y
+
+n
+
+Main body and screen
+
+Various
+
+0.0395
+
+Torx threaded fasteners
+
+y
+
+n
+
+Front cover
+
+PC
+
+0.0086
+
+Snap fit
+
+y
+
+n
+
+TOTAL
+
+-
+
+0.0725
+
+Further analysis of the general design features of the phone is done qualitatively, following
+the process of disassembly. The general process of remanufacturing consists of (1) cleaning
+the core, (2) disassembly of components, (3) cleaning of the components, (4) storing until
+
+Table 4 Data generated from disassembly of the Samsung GT-E1150i (a May not adhere as before)
+Phone
+
+Samsung GT-E1150i
+
+Component
+
+Material
+
+Weight (kg)
+
+Joining method
+
+Reattach?
+
+Damage?
+
+Screen back
+
+PC
+
+0.004
+
+Threaded fasteners
+
+y
+
+n
+
+Colour aesthetic piece
+
+PC
+
+0.002
+
+D/S adhesive tape + guide pins
+
+ya
+
+y
+
+Screen circuitry
+
+Various
+
+0.009
+
+Clearance fit
+
+y
+
+n
+
+Speaker
+
+Various
+
+0.001
+
+Solder + adhesive paste
+
+n
+
+y
+
+Button cell
+
+Various
+
+0.001
+
+Solder + adhesive paste
+
+n
+
+y
+
+Main skeleton
+
+PC
+
+0.011
+
+n/a
+
+n/a
+
+n
+
+Main curcuitry
+
+Various
+
+0.0093
+
+Clearance fit + guides
+
+y
+
+n
+
+Stainless steel guard
+
+SS
+
+0.007
+
+Threaded fasteners
+
+y
+
+n
+
+Key pad
+
+Unknown
+
+0.002
+
+Guide pins
+
+y
+
+n
+
+Back frame
+
+PC
+
+0.0055
+
+Threaded fasteners
+
+y
+
+n
+
+Back cover
+
+PC
+
+0.0037
+
+Slide fit
+
+y
+
+n
+
+Battery
+
+Li-ion
+
+0.017
+
+Spring pins
+
+y
+
+n
+
+TOTAL
+
+
+Page 13 of 27
+
+Table 5 Data generated from disassembly of the HTC Sensation 4G (a May not adhere as before)
+Phone
+
+HTC Sensation 4G
+
+Component
+
+Material
+
+Weight (kg)
+
+Joining method
+
+Reattach?
+
+Damage?
+
+Back middle
+
+ALU
+
+0.0187
+
+n/a
+
+n/a
+
+n
+
+Back top
+
+PC/ABS
+
+0.0041
+
+Threaded fasteners
+
+y
+
+n
+
+Back botton
+
+PC/ABS
+
+0.0033
+
+Snap fit
+
+y
+
+n
+
+Rear grille
+
+ALU
+
+0
+
+D/S adhesive tape
+
+ya
+
+n
+
+Front grille
+
+ALU
+
+0
+
+D/S adhesive tape
+
+ya
+
+n
+
+Push button
+
+Unknown
+
+0
+
+Location pin/slot
+
+y
+
+n
+
+Plastic shield
+
+PC
+
+0.0051
+
+Plastic-melt-rivet
+
+n
+
+y
+
+Metal shield
+
+ALU
+
+0.0026
+
+Plastic-melt-rivet
+
+n
+
+y
+
+Speaker
+
+Various
+
+0.001
+
+D/S adhesive tape
+
+ya
+
+n
+
+Compression seal
+
+Expanded fo
+
+0
+
+D/S adhesive tape
+
+ya
+
+n
+
+Flash lens
+
+Unknown
+
+0
+
+D/S adhesive tape
+
+ya
+
+n
+
+Push button spring
+
+Spring steel?
+
+0.002
+
+Location pin
+
+y
+
+n
+
+Ingress protection parts
+
+Silicone?
+
+0
+
+Snap fit
+
+y
+
+n
+
+Ingress protection film
+
+Unknown ac
+
+0
+
+D/S adhesive tape
+
+ya
+
+n
+
+Main circuitry
+
+Various
+
+0.0121
+
+ZIF connectors
+
+y
+
+n
+
+a
+
+SIM and microSD
+
+Various
+
+0.0019
+
+D/S adhesive tape
+
+y
+
+n
+
+PCB shield rear
+
+ALU/kaplan
+
+0.001
+
+Crimped
+
+n
+
+y
+
+PCB shield front
+
+ALU/kaplan
+
+0.0014
+
+Crimped
+
+n
+
+y
+
+Antenna
+
+Various
+
+0
+
+Coax connector
+
+y
+
+n
+
+Accessory PCB
+
+Various
+
+0.0065
+
+ZIFs/ribbon connectors
+
+y
+
+n
+
+Camera flash LED
+
+Various
+
+0
+
+Connector
+
+y
+
+n
+
+Screen glass
+
+Glass + K ion
+
+0.0156
+
+D/S adhesive tape
+
+n
+
+y
+
+Digitiser
+
+Various
+
+0
+
+Clear adhesive
+
+n
+
+y
+
+Microphone, touch buttons
+
+Various
+
+0
+
+Clear adhesive
+
+n
+
+y
+
+LCD
+
+Various
+
+0.0203
+
+D/S adhesive tape
+
+n
+
+y
+
+Metal shield
+
+Aluminium
+
+0.0239
+
+n/a
+
+y
+
+n
+
+all components are available, (5) reassembly of the components, and (6) testing of the product [33]. Whereas non-technical product characteristics are determined by external
+factors, there are also technical phone design features where phone designers have
+a direct influence on. Examples of such design features that can ease the remanufacturing process are:
+1. In the cleaning stage:
+Design of components with smooth, corrosion resistant and non-adhesive
+surfaces [33].
+2. In the disassembly stage:
+The use of threaded fasteners (screws), modularity and novel disassembly
+techniques (soluble or shape memory fasteners) [33].
+
+Identification & evaluation of design issues that hinder & aid component/material reclaim
+in each phone
+Samsung E370
+
+The oldest phone of the five is the Samsung SGH-E370. It is a phone where the screen
+needs to be slid up in order to reach the key pad. Upon disassembly it was noted that
+this slide system is relatively complex. The phone consists of two major parts: the front
+slider screen and the main circuit board including keypad. For this reason a double
+plastic casing was needed with two fronts and two backs (see Fig. 4). The screen and
+the circuit board parts were attached with a complex but innovative rotational spring
+mechanism. Many (22) screws (threaded fasteners) were used in this phone with
+unequal lengths but with the same head and thread. For this reason only one screwdriver was needed for disassembly. Due to the use of screws, clips and pins, the mobile
+phone has a potential to be disassembled easily and reassembled without causing
+damage. Although the joining methods facilitate easy disassembly, there is one weak
+point in the design features that detriments the ease of disassembly of the entire phone:
+the data cable is fragile and is required to fold and extend between the slider screen
+and the main circuit board when the phone is closed and opened respectively (see
+Fig. 5). Because the data cable connects the slider screen part and the circuit board part
+of the phone neither parts could be disassembled without breaking the data cable.
+Upon further investigation the soldered attachment of the data cable to both circuit
+boards meant it was not easily replaceable without reheating the solder, which would
+require more equipment, energy, time and expertise, thus increasing the cost of disassembly. Also the button shield was made of non-durable thin plastic that could not
+withstand the force of disassembly. The data is displayed in Table 1.
+Time for disassembly: 15 min
+Time for reassembly: 15 min (relatively long due to the large number of screws)
+Sony Ericsson C902
+
+The Sony Ericsson was by far the most difficult phone to disassemble. It was heavier
+than the other phones and had a more durable look because of the use of stainless steel
+was rather than aluminium.2 The back cover and battery were easy to remove. The
+aluminium separator between the battery compartment and the main circuitry was
+spot-welded inside the casing. This inhibited the ease of disassembly significantly and
+made the recovery of the metal separator more difficult. Removing the separator took a
+
+
+Fig. 5 The weakest link in the ease of disassembly of the Samsung E370: the data cable connecting the
+two parts of the phone was soldered and could not be removed without breaking it
+
+relatively long time, and because it needed to be done with force it resulted in damage
+to the cover and internal components. With a weight of 6.3 g, the monetary value of
+this component could be around £0.01 per part for new aluminium, or £0.005 for scrap
+aluminium, which translates to around £100 or £50 for 10,000 parts. This is a low
+monetary value for a component which is difficult to remove. Considering that the
+phone itself contains mainly polycarbonate3 and PCB-mounted electronic components,
+the stainless steel back cover appears to be the most profitable component as it may
+have a value of between £0.011 and £0.032 and requires almost no labour to extract.
+Another feature of this phone is that it uses plastic-melt-rivets to securely connect
+components together. Although this is a fast and secure method of joining two components, it makes disassembly both difficult and time consuming. When extracting the
+“top plastic” part from the “main casing” both parts were damaged and could not be
+reused. This meant that the polycarbonate material must then be recycled or disposed
+of in landfill - neither of which is desirable. From the disassembly it could be seen that
+this particular phone was designed to be durable from a customer perspective. It was
+absolutely not designed for disassembly. The data is displayed in Table 2 and a photo
+of the disassembled phone is shown in Fig. 6.
+Time for disassembly: 30 min
+Time for reassembly: none (reassembly was impossible due to large amount of
+broken components)
+
+
+Nokia 1661-2
+
+The Nokia 1661-2 casing was made out of thick and durable polycarbonate. The joining
+method of the casing was done with durable snap-fits. The main body with screen was
+attached by six torx head screws (see Fig. 7). The reason for using torx heads is because
+they allow a more equally distributed force from the screw driver on the screws, reducing the likelihood of driver head slippage, and thus preventing damage to the screw
+head or surrounding circuitry. The use of torx screws is relatively common and therefore screwdrivers are available, however, unfortunately the team did not have such a
+screw driver and therefore further disassembly of the Nokia phone was impossible.
+Upon limited investigation the internal components of the phone appeared to be
+modular and straightforward to disassemble. None of the components were damaged,
+and although not all of the components could be disassembled due to the lack of a torx
+screw driver, the Nokia phone seemed durable, simple and designed for disassembly.
+The data is displayed in Table 3.
+Time for disassembly: 5 minutes (up to the main body with torx head screws)
+Time for reassembly: 1 minute
+Samsung GT-E1150i
+
+The Samsung GT-E1150i is a foldable phone. Just like the other Samsung phone, this
+phone consists of the screen part and the main circuit board and keypad part. It
+therefore has the same complexity with a double front and double back casing as the
+Samsung SGH-E370 (see Fig. 8). The data cable between the screen part and the main
+circuit board part goes through the hinge of the phone and just like the Samsung SGHE370 opening and closing of the phone causes potential wear of the data cable.
+However, in this model the data cable is less affected than for the Samsung SGH-E370.
+The casing of the screen part of the phone was attached with snap-fits and was simple,
+modular and could be reassembled easily. The aesthetic cover was attached to the
+casing with double-sided adhesive tape and guide pins, and needed to be pulled off with
+force. Because of the joining method used the aesthetic cover could not be reattached
+as before, as some of the guide pins were snapped upon disassembly. This aesthetic
+cover was just for adding colour and did not provide access to the internal components
+of the phone. When compared to the modularity of the screen part and its
+
+
+Fig. 8 Photo of the disassembled Samsung GT-E1150i
+
+components, it is likely that the manufacturer has chosen adhesives just for the
+aesthetic cover because it was never meant to come off and snap-fits for the internal
+screen components in order to provide a means of disassembly. The main circuitry part
+of the phone with the key pad was also able to be disassembled, just like the screen part
+of the phone. This phone is a non-smartphone that is designed in the time of smartphones, thus it is seen that modularity and disassembly have been considered. However,
+the main speaker in this phone was attached to a PCB using solder with adhesive paste
+covering this joint. This potentially detriments the ease of detachment of what could be
+a transferable component for use in a reuse process. Furthermore, the speaker is a
+component with a relatively stable technology - a factor that further lends it to reuse
+(as will be discussed later). The data is displayed in Table 4.
+Time for disassembly: 18 min
+Time for reassembly: 10 min
+HTC Sensation 4G
+
+The last phone that was disassembled is a smartphone. The first impression from the
+disassembly was that smartphones are complex, containing many sub-assemblies, and
+that these sub-assemblies could be disassembled into a large number of components.
+Disassembly therefore took a lot longer and was more complex. However, the phone
+seemed to have been designed for disassembly and the complexity of the smartphone
+was simplified by the use of four layers
+First the back cover and the battery were removed in the conventional way using a
+sprung push-button. The back cover in turn consisted of three components: the middle
+aluminium frame and the top and bottom polycarbonate parts. These three parts were
+connected with snap-fits and two screws (see Fig. 9). These parts consisted of an
+integrated antenna and two aluminium grilles for the speaker.
+The second layer consisted of a plastic frame in which the battery was placed, an
+aluminium shield to protect the internal components from heat and radio waves, and
+the speaker was attached in this layer. The speaker had a sticker with component
+information. After removing this layer by unscrewing six screws and twelve snap-fits,
+
+Fig. 9 Photo of the disassembled HTC Sensation 4G
+
+The third layer was the “computer layer” which comprised two circuit boards: one at
+the top and one at the bottom (the battery fits in between the two circuit boards). The
+circuit boards were connected with a flat data cable. The top circuit board consisted of
+the two cameras (front and back), the on/off switch, the volume switch, speaker
+circuitry and the microphone. The bottom circuit board consisted of processors, ZIF
+connector blocks, pins for battery, micro USB, micro SD, vibration motor, graphics,
+internal memory, wireless connectivity. The slot for the SIM-card and external memory
+was glued on the bottom circuit board but could be reassembled. There were two
+aluminium shields for radio-frequency protection. These shields were attached by
+crimping and were not able to be reassembled. Once the circuit boards were taken out
+by disconnecting various ZIF connectors, the fourth layer was reached.
+The fourth layer consisted of the screen of the phone. An aluminium cover was the
+main frame of the phone. The LCD screen was attached to this frame with adhesive
+tape. The outer layer was the front screen which was made out of durable gorilla glass
+which was attached with heat dissolving adhesives. The digitiser was attached on the
+back of this screen in between the gorilla glass and the LCD screen, and connected to
+the bottom circuit board with ZIFs.
+Upon reassembling the smartphone was able to turn on. This shows that this phone
+has a potential to be disassembled without damage to the main components. The data
+is displayed in Table 5.
+Time for disassembly: 45 min
+Time for reassembly: 25 min
+
+Summary of identified product features which hinder component/material reclaim
+Screw length, size and head differences
+
+The difference in screw length and size can hinder the disassembly and, particularly,
+
+needed to find the right screw for the right hole can be improved by standardising
+screws so that same screws are used for all components in a phone. The extra added
+value of screws themselves is that they can be reused in other phones.
+Soldered components and cables
+
+Soldering is used as a joining method for components and cables because it is relatively
+strong and is electrically conductive. However, disassembly of soldered components
+and cables is slow. Disassembly can be done by heating the solder, which adds to the
+cost, energy, equipment and skill requirement of disassembly.
+Breakable snap-fits and bosses
+
+Breakable snap-fits are useful for quick removal of components when material reclaim
+is intended. However the use of breakable snap-fits hinders reassembly as parts cannot
+return to the same secure position they occupied prior to disassembly. Coupled with
+this, the broken pieces of snap-fit may hinder the reassembly by preventing the correct
+location of the component.
+Plastic melt rivets
+
+Plastic melt rivets provide a fast, easy and secure method of attaching a plastic component to another part. Upon disassembly, however, the melted plastic is difficult to
+remove and typically must be broken in order to separate the parts, thus rendering the
+riveted part unusable and condemning it to material reclaim.
+Glue and solder
+
+The use of adhesive paste to aid the bond strength of solder joints may be effective,
+but it does not help disassembly. In order to disconnect the soldered component
+(for example a speaker - easily reusable with a stable technology), the connecting
+wires must be cut, thus shortening these wires and decreasing the likelihood of the
+component fitting into similar phones.
+Spot welding
+
+Spot welding provides and fast and very strong means of joint between two metal
+components of the same material, however disassembling such a joint is almost impossible without causing damage to the involved components. Thus the components are
+likely to become candidates for material recovery.
+Double sided adhesive
+
+Double sided adhesive provides a strong bond and prevents the movement of components
+within a casing, thus providing a more premium feel to the product. Unfortunately this
+tape must be cleaned off and replaced in order to reuse components as it will not readhere as when it was new.
+Crimping of chip guards
+
+The crimping of chip guards around IC clusters provides good protection and solid
+
+these are made from very thin material which cannot easily be removed without
+deformation of the component, making them very difficult to replace in the same state.
+Thin breakable parts
+
+Thin walled parts cause an issue as, though they are light weight and provide a physical
+barrier between two sections within a phone, they are inevitably damaged upon disassembly. This limits the re-usability and enhances the case for recycling rather than reuse.
+Differently sized batteries
+
+Though all phone batteries are all made of either Li-Polymer or Li-Ion, all the batteries have
+a different size and have a different location of the connectors which makes it difficult to reuse batteries. Phone batteries need to be disposed of according to the batteries directive.
+Printed Circuit Boards (PCBs)
+
+PCBs cannot usually be reused due to technological obsolescence, though high value
+components or modern PCBs can be reused (with a lower performance expectation
+that when new). Circuit boards consist out of a vast amount of materials and many of
+them are extremely valuable as an example shown in Fig. 10. Typical materials and
+metals used in circuit boards are:
+ Epoxy (green PCB)
+ Copper (tracks, connectors and coils)
+ Gold (durable corrosion resistant connectors)
+ Aluminium shields (protection)
+ Plastic (packaging of chips)
+ Tantalum (in capacitors)
+ Ceramics (in capacitors)
+ Carbon (in resistors)
+ Silicon (in chips)
+
+Current best practice EoL techniques observed
+
+Table 6 shows 20 common components found in the disassembled mobile phones as
+well as the current best practice EoL technique used. The ease of recovery and notes
+columns are included as a further reference.
+
+
+Page 21 of 27
+
+Table 6 Current EoL best practice for phone components
+Component
+group
+
+Current best practice EoL
+technique
+
+Ease of
+recovery
+
+Notes
+
+1
+
+Screws
+
+Reuse
+
+Easy
+
+Common heads increase ease of reuse
+
+2
+
+Battery connectors Component recovery
+
+Medium
+
+Requires some disassembly
+
+3
+
+Speakers
+
+Component recovery
+
+Medium
+
+Must cut wires
+
+4
+
+Antenna cables
+
+Component recovery
+
+Medium
+
+5
+
+PCBs
+
+Component/Material recovery Very hard
+
+Reuse if modern/otherwise ground and
+sorted
+
+6
+
+Memory chips
+
+Component/Material recovery Very hard
+
+Reuse if modern/otherwise ground and
+sorted
+
+7
+
+LCD Screens
+
+Component/Material recovery Medium
+
+Reuse if modern/requires complete
+disassembly
+
+8
+
+Digitisers
+
+Component/Material recovery Hard
+
+Reuse if attached to LCD screen cover
+
+9
+
+SIM housings
+
+Component/Material recovery Hard
+
+Requires disassembly and grinding
+
+10 Phone back
+covers
+
+Material recovery
+
+Easy
+
+Slides off easily
+
+11 Batteries
+
+Material recovery
+
+Easy
+
+Differing sizes and capacities
+
+Universal connection - HTC
+
+12 Phone casings
+
+Material recovery
+
+Medium
+
+Requires complete disassembly
+
+13 Data cables
+
+Material recovery
+
+Medium
+
+Requires complete disassembly
+
+14 Non essential
+plastics
+
+Material recovery
+
+Medium
+
+Requires some disassembly
+
+15 Thin walled
+seperators
+
+Material recovery
+
+Medium
+
+Requires some disassembly
+
+16 PCB guards
+
+Material recovery
+
+Medium
+
+Plastic deformation on removal
+
+17 Phone cameras
+
+Material recovery
+
+Hard
+
+Often integrated into other circuitry
+
+18 Camera flashes
+
+Material recovery
+
+Hard
+
+Often integrated into other circuitry
+
+19 Micro SD
+interfaces
+
+Material recovery
+
+Hard
+
+Requires disassembly and grinding
+
+20 Micro USB
+interfaces
+
+Material recovery
+
+Hard
+
+Requires disassembly and grinding
+
+Guidance on improved design for End of Life of mobile phones
+Improvements in design for End of Life based on practical disassembly
+Printed Circuit Boards (PCBs)
+
+Reusing the individual components of a circuit board is not recommended because it
+takes time and energy to de-solder all the chips. De-soldering must be done manually because all phones are different and have a different circuit board. Therefore, in most cases,
+it is best to grind the chips until a powder is obtained. This powder can then be sorted. It
+is worth noting that if the value of an individual IC is high enough then it could be recovered for reuse on another PCB, though likely with a lower specification than when new.
+Circuit boards consist of many different materials.
+Joining methods
+
+Spot welding, plastic-melt-rivets, non-durable snap-fits, adhesives and solder were some
+of the joining methods encountered in the phone disassembly exercise that increased the
+
+easier and quicker, cause less damage to components and hence less disposal of damaged
+components. For reassembly, where different threaded fastener lengths are required,
+colour coding could be used in order to identify the screw and its appropriate hole.
+Furthermore, standardisation of screw head could reduce the complexity of tool set
+required for disassembly. Avoiding the use of adhesive paste with solder would improve
+the reuse-ability of speakers as wires would not need to be cut - the speakers could be
+used again in similar phones. The reinforcement of breakable snap-fits and guide bosses
+could help to lessen the damage caused to components upon disassembly.
+Non-durable materials
+
+Thin plastics and thin aluminium sections were encountered examples of nondurable materials that were likely to break due to disassembly. In order for these
+components to survive disassembly they could be made slightly thicker. Although
+it has to be noted that the use of thicker material increases the amount of material used, which in turn could be less sustainable. Therefore the use of thicker
+materials to accommodate component recovery rather than material recovery (recycling) should be assessed per component in the design process. If the size and
+shape of these sections could be standardised then the possibility of reuse could
+be increased.
+Location of components in the phone
+
+Due to the age disparity of the phones disassembled in this exercise it is difficult
+to make meaningful contribution to this issue, however it is notable that the location of components does vary on the phones that were disassembled for this
+exercise. In general it would aid both assembly and disassembly if the location of
+components, relative to the main body of the phone, was standardised. Currently
+the location of batteries, LCDs, speakers and microphones are standard, but the
+internal components such as CPU, memory etc. could be governed by some
+standard in order to increase the familiarity of phones when disassembled.
+Identification of components
+
+The HTC Sensation 4G smartphone had component identifications and date of
+manufacturing on many of its components, as indicated with the red boxes in
+Fig. 9. Some of the identification was done with simple QR codes which referred
+to specifications of the component on the manufacturer’s site. Proper identification
+could significantly aid remanufacturing of mobile phones. A computerised database
+could be used in order to catalogue the original expected performance of components, which could then be checked against the actual performance of used components, thus gauging the stage of life of the component.
+General guidance
+1. The casing of mobile phones could be reused if a) the size and shape of mobile
+phones was standardised and b) the material was not prone to scratching.
+Unfortunately this is not easily realisable a fashion dictates change in phone form
+and size on a regular basis. Cases could be designed for material recovery; using as
+
+2.
+
+3.
+
+4.
+
+5.
+6.
+
+7.
+
+8.
+
+9.
+
+means other than removable snap fits. This would ensure a pure material for
+recycling and could also help disassembly.
+The pace of technology of speakers has stagnated and thus speakers have the
+potential to be reused. Speakers consist of plastic moving parts with a copper coil
+and a permanent magnet.
+Working cameras and camera flashes can be reused in reconditioned phones.
+Depending on the quality of cameras, they could also be re-purposed in other
+devices needing a camera or sold separately in DIY shops. This could be realised if
+all cameras were available as discrete modules rather than being integrated into
+more complex circuitry.
+With the rise in popularity of educational electronics sets such as Arduino and
+Raspberry Pi, LCD screens could be re-purposed and used, together with touch
+digitisers, in conjunction with these products. This would help to educate younger
+people about reuse. This, however, may be difficult to realise financially.
+Gorilla glass is valuable and can be recycled or reused if it is in a good condition.
+Data cables in good condition can be re-purposed in other devices. Reusing
+data cables in new phones has a risk of non-working cables. Uncommonly sized
+data cables or broken cables can be recycled. They consist of plastic and copper, when placed in an oven the plastic burns and the copper remains.
+The vibrator consists out of a copper coil, a magnet, plastic and a stainless steel
+weight. A vibrator can wear because it is a mechanical part. Therefore it is best to
+recycle the material.
+Phone chargers can be reused until they fail. It could be possible, with the ubiquity
+of USB (except in Apple products), to stop the automatic distribution of new
+chargers with every new phone. It is conceivable that almost all people who have
+bought a phone in the past 5 years will have adopted the USB standard, thus new
+chargers could be un-necessary. This could save thousands of tonnes of plastic,
+conductive metals and circuitry components.
+Both Micro USB and Micro SD have become very popular in both the mobile
+phone market and other personal electronic markets such as digital cameras. It
+would seem sensible to standardise both USB-based and SD-based (as well as SIMbased) modules for use in mobile phones, cameras, external hard drives etc. Using a
+proprietary module would save on the wastage caused by the use of custom circuit
+boards used in each mobile phone, camera etc. Thus the improvement could be
+that the USB/SD/SIM module be reused rather than recycled.
+
+Best practice EoL techniques following suggested improvements
+
+Table 7 illustrates the change in EoL performance which could be achieved by applying
+the improvements suggested in section 6.1. It can be seen that the use of component
+recovery could be increased from 3 at present to 12 with the suggested improvements.
+Conversely the material recovery requirement could fall from 11 to 5. These changes
+could have wider effect than the mobile phone market, as the parallel markets of digital
+cameras and external hard drives are only two of the other markets using micro USB
+and micro SD, which could be modularised as previously discussed. Furthermore, the
+non-supply of USB chargers could save further material and provide an extension to
+
+Page 24 of 27
+
+Table 7 Improved EoL best practice for phone components
+Component
+group
+
+Improved best practice EoL
+technique
+
+Easy of
+recovery
+
+Notes
+
+1
+
+Screws
+
+Reuse
+
+Easy
+
+Common heads increase ease of use
+
+2
+
+Battery
+connectors
+
+Component recovery
+
+Medium
+
+Requires some disassembly
+
+3
+
+Micro SD
+interfaces
+
+Component recovery
+
+Medium
+
+Modularity eases assembly and
+disassembly
+
+4
+
+Micro USB
+interfaces
+
+Component recovery
+
+Medium
+
+Modularity eases assembly and
+disassembly
+
+5
+
+Phone cameras
+
+Component recovery
+
+Medium
+
+Modularity eases assembly and
+disassembly
+
+6
+
+Camera flashes
+
+Component recovery
+
+Medium
+
+Modularity eases assembly and
+disassembly
+
+7
+
+LCD Screens
+
+Component recovery
+
+Medium
+
+Could be reused in educational project
+
+8
+
+Digitisers
+
+Component recovery
+
+Medium
+
+Could be reused in educational project
+
+9
+
+SIM housings
+
+Component recovery
+
+Medium
+
+Requires some disassembly
+
+Component recovery
+
+Medium
+
+Can be used in similar phones. Wire
+length same
+
+10 Speakers
+11 Antenna cables
+
+Component recovery
+
+Medium
+
+Universal connection - HTC
+
+12 PCB guards
+
+Component recovery
+
+Medium
+
+Thicker and standardised shape
+
+13 Non essential
+plastics
+
+Component recovery
+
+Medium
+
+Reinforced snap fits and bosses do not
+break
+
+14 PCBs
+
+Component/Material recovery
+
+Very hard
+
+Less waste if cameras and USB/SD/Sim
+separate
+
+15 Memory chips
+
+Component/Material recovery
+
+Very hard
+
+Reuse if modern/otherwise ground and
+sorted
+
+16 Phone back
+covers
+
+Material recovery
+
+Easy
+
+Slides off easily
+
+17 Batteries
+
+Material recovery
+
+Easy
+
+Differing sizes and capacities
+
+18 Phone casings
+
+Material recovery
+
+Medium
+
+Requires complete disassembly
+
+19 Data cables
+
+Material recovery
+
+Medium
+
+Requires complete disassembly
+
+20 Thin walled
+seperators
+
+Material recovery
+
+Medium
+
+Requires some disassembly
+
+Suggested mechanisms for improvements in WEEE
+
+One suggestion, which could have a wide-reaching effect on the WEEE environment, is to
+employ an open-access parts database. This database would be initially populated by new
+component and product data from OEMs, but over time complemented by data from
+remanufacturing centres. This data would be accessed using reference numbers and associated QR codes where appropriate - the benefit of QR codes being the ability of scanners
+and smart phones to read them very fast. The data held on each component could be its
+nominal performance data, such as voltages, resistances etc. at certain test points (perhaps
+multiple for a product). The measurement of these values and comparison with nominal
+performance data may be able to suggest the current performance of components or
+products and thus, by extrapolation, the stage in its life cycle - whether it be close to the
+
+Conclusion
+With the amount of Waste Electrical and Electronic Equipment (WEEE) being generated every year increasing at an accelerating rate, the management of electronic waste
+(e-waste) has become an important global issue. The EU and China were considered to
+be the best representation of global WEEE management approaches and were evaluated
+to identify differences and commonalities in approach as well as the identification of
+the current best practices. Common approaches stem from the 1989 Basel Convention
+and EU Directives on WEEE and the Restriction of Hazardous Substances (RoHS)
+which are used as the foundation of management policy around the world. Common
+policies such as Extended Producer Responsibility and Environmental Targets are to be
+considered good practice that provides guidance and motivation to ensure proper
+management of WEEE. Practical End-of-Life (EoL) treatment processes, including
+remanufacturing, reconditioning, repairing, recycling, repurposing, reusing and disposal
+of e-waste were all investigated and studied in context of mobile phones. Five phones
+were disassembled and evaluated based on their ease of disassembly and time for
+disassembly and reassembly. For each of the removed component the material, weight,
+joining method, ability to re-attach and damage of disassembly were identified and
+noted down. Further analysis on how design for disassembly can be improved indicated
+the use of reusable joining methods, durable materials that can survive disassembly and
+identification of components by means of a QR code or otherwise. Suggestions were
+given how design can be altered to accommodate component recovery as opposed to
+material recovery, and a suggestion was made to create an open access data base where
+all component data from OEMs and updated information about component performance can be found. Feedback provision would aid manufacturers, and component
+information would increase the incentive of manufacturers to produce quality
+components. Further research is required to investigate the viability of such a database.
+Endnotes
+1
+CSTN screens generally have a lower image quality and longer response times than
+a TFT screen, however CSTN screens are cheaper and more energy efficient [47].
+2
+Stainless steel is corrosion resistant, strong, hard, and UV resistant. Non-oxidising.
+Aluminium is corrosion resistant, surface oxidises, high strength to weight ratio, heat
+and light reflectivity. Both metals are durable.
+3
+Polycarbonate is resistant to constant temperatures of up to 1250C, dilute acids,
+aliphatic hydrocarbons and alcohols. It is tough, higher tensile and impact strength
+than ABS. It yellows when exposed to UV for protracted periods. Polycarbonate is
+therefore durable except where chemicals or UV have great effect [48].
