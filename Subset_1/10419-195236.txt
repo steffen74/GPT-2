@@ -1,0 +1,2715 @@
+Lat Am Econ Rev (2016) 25:7
+DOI 10.1007/s40503-016-0037-y
+
+Impact of environmental and social attitudes,
+and family concerns on willingness to pay for improved
+air quality: a contingent valuation application
+in Mexico City
+
+Air pollution remains a pressing issue in megacities located in developing countries.
+Mexico City Metropolitan Area (MCMA) is an infamous case. Pollution levels in
+MCMA regularly surpass limits suggested by the World Health Organization (CAI
+2013). Also, MCMA has been ranked as the second most congested city in the world
+during 2014.1 Effects of air pollution on the respiratory system have long been
+˜
+documented in MCMA (e.g. Escamilla-Nunez et al. 2008; Romieu et al. 2008).
+Recent epidemiological studies report neuro-inﬂammation in otherwise healthy
+´
+˜
+children residing in MCMA (Calderon-Garciduenas et al. 2008). In general, air
+pollution produces larger health impacts in Mexico city than in similar cities located
+in a developed country (Arceo-Gomez et al. 2012).
+Public policies aiming to reduce air pollution have proved unsuccessful in
+MCMA. Launched in 1989, Hoy No Circula (HNC) program represents the most
+important governmental effort aiming to reduce pollution levels in MCMA.2 HNC
+limits the number of weekdays a car is driven in Mexico City. HNC tackles the use
+of cars because it is the largest contributor to air pollution in MCMA—45% of
+volatile organic compounds and 81% of total nitrogen oxides (Molina and Molina
+2002). Empirical studies have reported no impact from HNC on air pollution levels
+and an undesirable positive impact on numbers of cars driven (Gallego et al.
+2013a, b; Davis 2008). Authorities frequently implement a pre-contingency plan
+that imposes temporary driving restrictions.3 The most recent attempt to improve air
+quality, consisting in extending HNC to Saturdays, has been launched in July 2014.
+A question arises in this context—what is the WTP of a resident of MCMA for
+improved air quality? This paper elicits WTP for improved air quality by means of a
+single-bounded, referendum format contingent valuation question. Respondents state
+their willingness to monetarily contribute to improve air levels from observed regular
+quality to good quality. This paper pays particular attention to differences in WTP
+´
+explained by individuals attitudes and concerns in three realms—environmental, social,
+´
+and family. The economic literature has already established the relevance of individuals
+attitudes and concerns as factors behind variability in WTP (e.g. Bartczak 2015;
+´
+˜
+Martınez-Espineira and Lyssenko 2011; Spash 2006; Spash et al. 2009). This paper
+illustrates this relevance in the Mexican context. To measure attitudes, respondents are
+asked to state their opinion on how important is the air pollution problem and the
+poverty/economic development problem. To measure concerns, respondents are asked
+to report (1) whether a family member (including himself) suffers an allergy or a
+respiratory illness; (2) whether there is a car at the household; and (3) family size.
+Average WTP in this paper—US $262 (2008 US dollars)—falls close to comparable
+estimates reported in previous studies. For instance, Hanna and Oliva (2015) report US
+1
+
+See Tom Tom Trafﬁc Index 2015, available at http://www.tomtom.com/en_gb/trafﬁcindex/#/.
+
+2
+
+´
+For a detailed description of additional policies aiming to reduce air pollution in MCMA, see GarcıaRobles (2010), and McKinley et al. (2005).
+
+3
+
+e.g. http://mexico.cnn.com/salud/2013/05/22/contingencia-ambiental-que-es-y-que-hacer-cuando-sedeclara, http://www.milenio.com/df/contaminacion_DF-precontingencia_ambiental_DF-contaminacion_
+WTP associated with environmental and social attitudes, and family concerns. For
+instance, while respondents posing a very high priority to the air pollution problem have
+higher than average WTP (US $302), respondents in a household with more adults than
+the sample median (i.e. 2) have a lower than average WTP (US $214). While
+respondents posing a very high priority to the poverty/economic development problem
+have smaller than average WTP (US $222), respondents with a family member suffering
+allergies or respiratory illness have higher than average WTP (US $295). Indeed, this
+contingent valuation exercise provides elements to carry out cost–beneﬁt analysis of
+policies aiming to improve air quality in MCMA—e.g. expansion of metro system,
+maintenance or replacement of sources of liquid petroleum gas leaks, taxi renovation,
+´
+and use of hybrid buses (see Garcıa-Robles 2010; McKinley et al. 2005). Instances of
+cost–beneﬁt analysis based on these estimates are presented in the discussion section.
+
+2 Valuation methodology
+Data are gathered through a contingent evaluation elicitation. Contingent evaluation
+elicitations have widely been used in countries facing air quality problems—e.g.
+Taiwan (Alberini et al. 1997), China (Wang and Zhang 2009), and Sweden
+(Carlsson and Johansson-Stenman 2000). A single-bounded, referendum format
+elicitation has been implemented in this study. This type of elicitation describes a
+hypothetical market as a referendum in which respondents are asked whether they
+would vote for or against a project in a public vote (Kling et al. 2012). Advantages
+of this type of question include theoretical incentive compatibility, conceptual
+simplicity, and similarity to a real-life decision mechanism. Single-bounded
+questions, however, do not yield the most statistically efﬁcient WTP estimates.
+Increase in statistical efﬁciency is obtained through double-bounded (Hanemann
+et al. 1991) and one-and-one-half-bounded (Cooper et al. 2002) approaches. These
+alternatives share several inconveniences with the single-bounded approach—warm
+glow effect, anchoring, sensitivity to scope, and hypothetical bias (Carson 2012;
+Carson et al. 2001; Bateman et al. 2009). In addition, one-and-half-bounded
+approach may be non-incentive compatible (Bateman et al. 2009).
+Both conceptual simplicity and similarity to a real-life decision mechanism have
+driven the selection of single-bounded approach in this study. Both features
+facilitate administration and execution, particularly in developing countries where
+contingent valuation applications are still uncommon.4 Administration and
+4
+
+While Mexico is an OECD member, this paper follows recommendations targeting developing countries
+because contingent valuation studies in Mexico are still rare. A non-exhaustive search yielded 15 published
+studies in which Mexican respondents stated WTP through a contingent valuation question or a discrete
+´
+choice experiment. Papers focused on water-related issues include Almendarez-Hernandez et al. (2013),
+´
+´
+´
+˜
+˜
+Aviles-Polanco et al. (2010); Perez-Verdin et al. (2011); Rivera-Planter and Munoz-Pina (2005), Sanchez´
+Brito et al. (2013), Soto-Montes de Oca et al. (2006), and Vasquez et al. (2009). A few studies have
+researched preferences of farmers with respect to natural resources (Birol et al. 2009; Scarpa et al. 2003).
+Additional topics cover valuation of food safety (Tonsor et al. 2009), smoking cessation treatment (HerediaPi et al. 2012), cross-border health insurance (Vargas-Bustamante et al. 2008), environmentally certiﬁed
+´
+valuation instrument (Whittington 2002). Conceptual simplicity and comparability
+to a real-life situation eases explanation and understanding for both enumerators and
+respondents. A single-bounded approach is also less time-consuming which
+increases the response rate.
+The elicitation protocol used in this paper ﬁrst elicits respondents’ attitudes.
+Respondents were asked to rank how important are air pollution and poverty/
+economic development problems to Mexico. Respondents separately ranked the
+level of importance by choosing one of four categories—very important, important,
+slightly important, and not important at all.
+Then a summary of air pollution effects on human health is presented.
+Respondents are explained how air pollution is measured in Mexico and informed
+about air pollution levels in Mexico City during a normal year.
+Then a strategy to improve air quality is described. This strategy would introduce
+ﬁlters to the exhaust systems of cars and industry. In addition, a limit would be
+imposed to the sulfur in fossil fuels of residential and industrial use. This strategy
+would bring pollutants’ concentrations down from observed regular quality levels to
+good quality levels. This change in air quality would save around 2200 lives and
+avoid 37,000 hospital admissions yearly.
+The protocol explains the government is considering putting this plan to a vote.
+Respondents are informed that they would partially cover costs of implementing this
+policy. The phrasing of the elicitation question is as follows: taking into
+consideration that the strategy described above will increase your annual expenses
+by ____, would you be willing to support this strategy if the government put it to a
+vote?
+Socioeconomic characteristics and family concerns are gathered in the last
+section of the protocol. Respondents report whether someone in his/her family
+(including his/herself) suffers from allergies or a respiratory illness. Respondents
+also report whether a car is owned by someone in the family. Owning a car is
+considered a family concern because, in order to comply with HNC requirements,
+owners must face annual expenses and transactional costs—sometimes involving a
+bribe to personnel in charge of car’s inspections (Oliva, 2012). The number of
+household members is also a family concern. The respondent is asked for the
+number of adults and children at home.
+
+3 Data
+3.1 Collection
+Data were gathered from mid-December 2007 to mid-January 2008. A random
+sample of 1812 individuals was approached in public places—e.g. malls, parks, and
+´
+small businesses—located in Delegacion Gustavo A. Madero (DGAM), a county in
+Mexico City. Two features make DGAM an insightful case for the purposes of this
+study: air pollution levels and relative economic development. That is, DGAM
+where unequal economic development is expected to yield a trade-off between
+environmental and social attitudes, and family concerns.
+DGAM consistently ranks among the most polluted counties of MCMA since
+early 1990s (SMAGDF 2009; Proaire 2001;). This feature makes air pollution a
+local environmental issue for inhabitants of DGAM. Although Mexico city as a
+whole struggles with air pollution, pollution levels in the south of Mexico City are
+regularly lower, making air pollution a relatively less local issue in cleaner areas.
+Arguably, non-market valuation of an issue that directly concerns respondents is
+less likely subject to the possibility that respondents behave as citizens (Nyborg
+2000). When behaving as citizens, respondents may reveal social preferences
+instead of personal preferences due to a ‘‘warm glow’’ effect (Kling et al. 2012).
+This study seeks personal preferences because interest is on individuals’ trade-offs.
+No-responses to contingent valuation questions are partially driven by budget
+constraints. Thus, a useful case study must refer to a population that can potentially
+afford an improvement in air quality. While a few other counties in Mexico City
+face at least as much air pollution as DGAM, income in these counties tends to be
+smaller than in DGAM. Per capita GDP in DGAM during 2009 was around 12,900
+US dollars of 2005, just 100 US dollars below the median in Mexico City (CEFP
+2009). A trade-off between attitudes and concerns is more likely present in a context
+where economic development has spread unequally. Since early 1990s, DGAM’s
+Gini Index has been around 0.38, and 7% of people have been living under food
+poverty conditions (CEFP 2009).
+3.2 Descriptive statistics
+Once missing values have been excluded, 1541 observations are used in statistical
+analysis. Descriptive statistics refer to these observations. Table 1 presents a
+consistency test by checking whether percentage of no-responses increases as bid
+increases. Bids presented to respondents take a value between US $7.5 and US
+$87.5 (2008 US dollars). Although not monotonically, percentage of no-responses
+increases from 10.5% when bid is US $7.5 to 31.6% when bid is US $87.5.
+Table 2 compares averages of socioeconomic characteristics in the sample
+against DGAM values. Sample values for percentage of males, average age, number
+of household members, proportion of retired people, and car at household are not
+statistically different (at 95% conﬁdence) from DGAM values—0.48, 38.50, 3.70,
+0.12, and 0.76, respectively. Proportion of unemployed people is larger in the
+Table 1 Percentage of no-responses by bid
+Bids in 2008 US dollarsa
+7.5
+
+12.5
+
+25
+
+37.5
+
+50
+
+57.5
+
+62.5
+
+75
+
+87.5
+
+Respondents
+
+180
+
+165
+
+145
+
+146
+
+192
+
+175
+
+188
+
+179
+
+171
+
+%no-responses
+
+10.5
+
+4.9
+
+0.0
+
+15.0
+
+15.7
+
+20.0
+
+17.6
+
+23.5
+
+31.6
+
+a
+
+characteristics in sample and
+populations (n = 1541)
+
+Mean
+(A)
+
+Std. Dev
+
+DGAMa
+(B)
+
+t test
+(B–A)
+0.00
+
+Male
+
+0.48
+
+0.49
+
+0.48
+
+Age
+
+39.01
+
+14.44
+
+38.50
+
+1.38
+
+3.77
+
+1.59
+
+3.70
+
+1.72
+
+Household members
+Unemployed
+
+0.66
+
+0.78
+
+0.54
+
+6.03
+
+Retired
+
+0.12
+
+0.32
+
+0.12
+
+0.00
+
+Car at household
+a
+
+Sources: CEFP (2009), INEGI
+(2010), INEGI (2016)
+
+0.74
+
+0.44
+
+0.76
+
+1.78
+
+Sick household member
+
+0.33
+
+0.47
+
+–
+
+–
+
+Table 3 Respondents’ attitudes about air pollution and poverty/economic development (n = 1541)
+Economic
+
+Air pollution
+
+development
+
+Not very important
+
+Very important
+
+Not very important
+
+17.72%
+
+3.89%
+
+Very important
+
+20.51%
+
+57.88%
+
+Table 4 Monthly household income by range and respondent’s contribution (n = 1541)
+Monthly household
+
+Respondent’s contribution to household income
+
+income
+
+Less than 50%
+
+50% to 75%
+
+Less than US $567
+
+18.36
+
+11.10
+
+12.07
+
+Between US $567 and US $ 967
+
+16.22
+
+5.71
+
+11.49
+
+more than 75%
+
+Between US $967 and US $2167
+
+7.14
+
+6.75
+
+7.85
+
+Between US $2167 and US $5000
+
+0.00
+
+3.31
+
+0.00
+
+sample—0.66 versus 0.54. The proportion of households with at least one member
+affected by a respiratory illness or allergy is not readily available at the county level.
+Our own estimations, based on respiratory-related morbidity and/or mortality, do
+not yield convincing ﬁgures and, therefore, we do not present them in Table 2.
+Table 3 reports respondents’ opinions about air pollution and poverty/economic
+development. Three categories—important, slightly important, and not important at
+all—are grouped in one category labeled ‘‘not very important’’. Both issues are
+considered very important by 57.88% of respondents; 20.51% consider poverty/
+economic development a very important and air pollution a not very important issue;
+3.89% consider the opposite; and 17.72% consider none of the issues very important.
+Table 4 reports stated range in which monthly household income falls and
+respondent’s contribution to this monthly income. Considering the tendency to
+miss-report income, categorization of income provides ordinal information. That is,
+categories can be seen as reﬂecting order but not magnitude. Tabulation and
+small percentage of respondents from households with the highest income category
+(3.31%) and the lack of respondents in this category that contribute either less than
+50% or more than 75%.
+
+4 Results
+Results from logit speciﬁcations on WTP responses are reported in Table 5. The
+ﬁrst column reports the analysis on the entire sample, i.e. 1541 observations. The
+rest of the speciﬁcations reported in Table 5 work as robustness checks. We check
+that results are robust to the exclusion of the richest and the oldest respondents
+(columns two to four in Table 5) and to the presence of protest respondents (ﬁfth
+column in Table 5).
+Coefﬁcients in Table 5 are not interpretable as marginal effects but we discuss
+their sign which points to the direction of the effect of the corresponding variable.
+Focusing on the results arising from the analysis of the entire sample (ﬁrst column),
+the ﬁrst set of coefﬁcients in Table 5 refers to the key variables in this study—i.e.
+bid, environmental and social attitudes, and family concerns. Bid’s negative
+coefﬁcient implies that a higher proportion of no is observed as the bid increases—
+which is consistent with the exploratory analysis in Table 1. When focusing on the
+environmental and social attitudes, we notice that while respondents that consider
+air pollution a very important problem have larger WTP (which we learn from the
+positive sign of 1.15), respondents that consider poverty/economic development a
+very important problem have smaller WTP (which is inferred from its corresponding -1.31 coefﬁcient). Importantly, the impact on WTP remains positive when
+respondent considers both problems are very important (which is implied by the
+1.39 estimate).
+The other set of key variables in our study refer to three family concerns—
+whether a family member is sick of a respiratory illness or allergy, whether there is a
+car at the household, and family size. Family size is included through two
+variables—whether adults at the household are more than sample median (i.e. 2),
+and whether children at household are more than sample median (i.e. 1). According
+to the second set of coefﬁcients in Table 5, having a sick member increases WTP
+for improved air quality. Having a car at the household does not impact the WTP. A
+respondent whose household is composed by more adults than the median has
+smaller WTP. Number of children at home has no impact on WTP.
+The rest of the coefﬁcients have the expected sign or have no impact at all—e.g.
+gender of respondent does not impact WTP, a respondent with a full-time job
+reports higher WTP than a respondent with no job, older respondents tend to report
+higher WTP, and richer respondents tend to report higher WTP with exception of
+the richest respondents. Several possibilities are behind the negative sign associated
+with the richest respondents. A ﬁrst explanation is that richer people may already be
+taking precautions against air pollution and, therefore, be less willing to contribute
+to a public good. For instance, if richer respondents have already bought indoor air
+
+Both air pollution and poverty problems are
+very important (1 if yes; 0 otherwise)
+
+0.9372 (0.2477)***
+
+1.3957 (0.5054)**
+
+Poverty/economic development problem is
+very important (1 if yes; 0 otherwise)
+
+-0.331 (0.2359)
+
+More adults at household than sample median
+(i.e. 2)
+
+More children at household than sample
+median (i.e. 1)
+
+-0.1352 (0.2568)
+
+0.1011 (0.2473)
+
+Full-time job
+
+0.1669 (0.3424)
+
+25–35
+
+35–45
+
+Range of respondent’s age
+
+1.0362 (0.3469)**
+
+Part-time job
+
+Job status
+
+Male (1 if yes; 0 otherwise)
+
+-0.1644 (0.1956)
+
+-1.3614 (0.2236)***
+
+Car at household (1 if yes; 0 otherwise)
+
+Socioeconomic controls
+
+0.4188 (0.2282)
+
+Family member sick of respiratory illness or
+allergy (1 if yes; 0 otherwise)
+
+Family concerns
+
+-1.1317 (0.4669)*
+
+Air pollution problem is very important (1 if
+yes; 0 otherwise)
+
+Environmental and social attitudes
+
+-0.0024***
+
+(0.0003)
+
+Bid
+
+(2008 US $)
+
+0.1354 (0.3406)
+
+0.0565 (0.2427)
+
+1.0279 (0.3422)**
+
+-0.1198 (0.2508)
+
+-0.0957 (0.1925)
+
+-0.3832 (0.2327)
+
+-1.1820 (0.2260)***
+
+0.5274 (0.2291)*
+
+0.7538 (0.2462)**
+
+1.4635 (0.5044)**
+
+-1.1207 (0.4657)*
+
+1.0818 (0.2495)***
+
+(0.0003)
+
+-0.0024***
+
+sample
+
+0.1105 (0.3379)
+
+0.0948 (0.2465)
+
+1.0359 (0.3387)**
+
+-0.1096 (0.2561)
+
+-0.1403 (0.1962)
+
+-0.2826 (0.2350)
+
+-1.3782 (0.2240)***
+
+0.4392 (0.2277)
+
+0.8998 (0.2499)***
+
+1.1676 (0.4937)*
+
+-0.9308 (0.4561)*
+
+1.1728 (0.2575)***
+
+(0.0003)
+
+-0.0024***
+
+Age (II)
+
+Income (I)
+
+Entire
+
+Explanatory variables
+
+Table 5 Logit speciﬁcations on WTP responses
+
+0.0796 (0.3361)
+
+0.0479 (0.2418)
+
+1.0267 (0.3335)**
+
+-0.0934 (0.2500)
+
+-0.0703 (0.1932)
+
+-0.3358 (0.2315)
+
+-1.1939 (0.2261)***
+
+0.5504 (0.2285)*
+
+0.7130 (0.2483)**
+
+1.2383 (0.4921)*
+
+-0.9203 (0.4538)*
+
+1.0987 (0.2510)***
+
+(0.0003)
+
+-0.0023***
+
+(I) and (II)
+
+Excluding
+
+-0.6871 (0.4609)
+
+-0.7256 (0.3741)*
+
+1.6952 (0.3601)***
+
+0.3854 (0.2779)
+
+-0.7388 (0.2129)***
+
+-0.3456 (0.2596)
+
+-1.6214 (0.2381)***
+
+0.7003 (0.262)***
+
+0.9495 (0.2695)***
+
+1.4261 (0.5088)***
+
+-1.2010 (0.4642)*
+
+0.5677 (0.2787)**
+
+(0.0003)
+
+-0.0019***
+
+protest responses
+
+Excluding
+
+2.9175 (0.8030)***
+
+50–75%
+
+US $567–US $967
+
+-1.5199 (0.5830)**
+
+-1.4693 (0.5669)**
+
+1541
+
+0.3527
+
+n
+
+Pseudo-R2
+
+US $967–US $2167
+
+0.9889 (0.3649)**
+
+[75%
+
+US $967–US $2167
+
+Intercept
+
+-2.3054 (1.1840)
+
+50–75%
+
+US $567–US $967
+
+-1.783 (1.0377)
+
+-2.7109 (0.5566)***
+
+Contribution
+
+[75%
+
+Income
+
+0.3487
+
+1490
+
+0.9174 (0.3568)*
+
+-2.2085 (1.1680)
+
+-2.6308 (0.5483)***
+
+-1.7074 (1.0304)
+
+Interactions between household income and respondent’s contribution
+
+Contribution
+
+Income
+
+Interactions between household income and respondent’s contribution
+
+1.1867 (0.3164)***
+
+50–75%
+
+[75%
+
+1.2078 (0.3140)***
+
+–
+
+-2.0399 (0.5151)***
+
+US $967–US $2167
+
+Respondent’s contribution to monthly household income
+
+1.4101 (0.4227)***
+
+1.5738 (0.4308)***
+
+US $567–US $967
+
+0.7802 (0.2463)**
+
+3.2256 (0.6799)***
+
+0.8463 (0.4080)*
+
+0.8850 (0.2529)***
+
+3.2530 (0.6821)***
+
+Monthly household income (2008 US$)
+
+0.9327 (0.4093)*
+
+45–55
+
+sample
+
+0.2989
+
+1243
+
+0.9130 (0.3576)*
+
+-2.1273 (1.1453)
+
+-2.7178 (0.5544)***
+
+–1.7075 (1.0030)
+
+-1.1988 (0.6195)
+
+2.7959 (0.7570)***
+
+1.1626 (0.3153)***
+
+-1.9532 (0.5096)***
+
+1.5547 (0.422)***
+
+0.8993 (0.2514)***
+
+–
+
+0.8960 (0.4098)*
+
+Age (II)
+
+Income (I)
+
+Entire
+
+[55
+
+Explanatory variables
+
+Table 5 continued
+
+0.2925
+
+1192
+
+0.8441 (0.3500)*
+
+-2.0363 (1.1294)
+
+-2.6349 (0.5453)***
+
+-1.6251 (0.9954)
+
+-1.1557 (0.6016)
+
+2.7815 (0.7530)***
+
+1.1854 (0.3133)***
+
+–
+
+1.3889 (0.4132)***
+
+0.7925 (0.2449)**
+
+–
+
+0.8067 (0.4088)*
+
+(I) and (II)
+
+Excluding
+
+0.3582
+
+1499
+
+(0.4430)
+
+1.7013***
+
+(1.1023)
+
+-1.7597*
+
+-2.2579 (0.5569)
+
+-1.8820 (0.9415)*
+
+-2.0715 (0.6044)***
+
+2.3957 (0.6467)***
+
+0.8187 (0.3083)**
+
+-1.9479 (0.5360)***
+
+1.5789 (0.4247)***
+
+1.6086 (0.3336)***
+
+2.7303 (0.7448)***
+
+0.0520 (0.4937)
+
+protest responses
+
+Excluding
+
+Lat Am Econ Rev (2016) 25:7
+-421.9019
+
+sample
+-428.6136
+
+Age (II)
+
+Income (I)
+
+Entire
+
+Reference category: \50%
+
+Not all interactions are included because of missing cells in the corresponding excluded interaction
+
+d
+
+e
+
+Reference category: \US$ 567
+
+Reference category: 18-25
+
+Reference category: no job
+
+c
+
+b
+
+a
+
+Standard errors in parenthesis. Coefﬁcients are signiﬁcant at *** 99%, ** 95%, or * 90% level of conﬁdence
+
+Log-likelihood
+
+Explanatory variables
+
+Table 5 continued
+
+-415.6528
+
+(I) and (II)
+
+Excluding
+
+-379.1291
+
+protest responses
+
+Excluding
+respondents may be intrinsically more selﬁsh.
+A couple of variables have been included to test whether respondents have taken
+into account their income when answering the WTP questions. Controlling for
+income category allows differences in marginal utility of income across income
+levels (Haab and McConnell 2002). While household income may reﬂect a
+household’s budget restriction, a respondent may not be the household decision
+maker. A strategy to capture a respondent budgetary constraint is interacting
+categories of monthly household income with categories of respondent’s contribution to household income. Respondent’s contribution categories yield positive
+coefﬁcients, which implies that a larger contribution to the household income also
+increases the WTP. However, interaction effects are negative and signiﬁcant in a
+couple of cases. This implies that increase in WTP is not monotonic with income
+and contribution.
+We do carry out three robustness checks to the presence of the richest and oldest
+respondents. The robustness check to age is motivated by relatively large coefﬁcient
+associated with the category of people older than 55—while variation in age barely
+matters for categories below 55, the coefﬁcient for people older than 55 is 3.25. The
+robustness check for income is motivated by the negative sign of the coefﬁcient
+corresponding to the richest respondents (-2.039). This sign stands out because the
+signs of the coefﬁcients associated for lower income categories are positive and
+signiﬁcant. While a negative sign is feasible even if air quality is a normal good,5
+we explore whether the exclusion of such respondents change the main message of
+the initial speciﬁcation.
+Results reported in columns two to four refer to speciﬁcations that work as
+robustness checks to age and income. The second column reports results from a
+speciﬁcation that excludes the observations in the highest income category—51
+observations. The third column refers to a speciﬁcation excluding respondents older
+than 55—298 observations. The fourth column reports results from a speciﬁcation
+excluding observations in the highest income and age categories. These three
+speciﬁcations deliver results that are qualitatively similar to those obtained by
+analyzing the entire sample—i.e. signs remain identical and magnitudes of the
+coefﬁcients are similar when excluding the richest, the oldest or both. Thus, we
+conclude that results are not driven by inclusion or exclusion of age and income
+categories.
+An additional robustness check is carried out with respect to the presence of
+protest respondents. Protest response is an empirical staple of the contingent
+valuation literature (see Strazzera et al. 2003; Chen and Hua 2015). The term refers
+to the respondents that report zero WTP due to non-budget related reasons. That is, a
+respondent stating that his/her budget is not enough to pay for cleaner air quality is
+5
+
+For instance, in the literature valuing the presence of urban and peri-urban trees and forests, some
+studies have reported a positive income elasticity, other studies have yielded no signiﬁcant effect from
+income, with a few studies even reporting negative income elasticities (see Brander and Koetse 2011). A
+negative income elasticity is a reasonable result because, in our context, it is possible that beyond certain
+income level people may prefer to purchase cleaner air in a private market in the form of large gardens at
+respondents that express distrust or complaint about the WTP survey in itself. In this
+study, protest respondents believe that they should not pay because (1) clean air is a
+right; (2) the scenario is not believable or practical; (3) the program should be
+ﬁnanced by the polluters; and (4) the government administrators are not able to
+solve the problem of air pollution.
+We check whether results are driven by the presence of protest respondents. The
+ﬁfth speciﬁcation in Table 5 reports results from analyzing a sample that excludes
+protest respondents. In general, results are qualitatively similar to those obtained
+when analyzing the entire sample. The coefﬁcient that deserves the most attention is
+the one capturing the impacts from the bid. Signiﬁcant differences in the estimation
+of the bid coefﬁcient directly impact the point estimates of the WTP because
+_
+
+_
+
+EðWTPÞ ¼ Xb= À c, where X includes a vector of ones and the explanatory
+_
+
+variables of the empirical speciﬁcations, and b is the vector of corresponding
+_
+estimated coefﬁcients and c is the estimated coefﬁcient for bid.6 In this study, the
+point estimate of the bid coefﬁcient on the entire sample is -0.0024; and the bid
+coefﬁcient on the sample excluding protest respondents is -0.0019. These point
+estimates, however, are not statistically different—the 95% conﬁdence interval from
+the trimmed sample (-0.0025 to -0.0013) includes the -0.0024 obtained on the
+entire sample. Putting together the fact that results do not differ qualitatively and
+that the bid coefﬁcient is not statistically different when excluding protest
+respondents, we conclude that results are robust to the presence of protest
+respondents.
+Results, in WTP terms, from analyzing the entire sample are graphically
+illustrated in Fig. 1. This ﬁgure depicts WTP for improved air quality for different
+respondents’ proﬁles. Environmental and social attitudes, and family concerns are
+varied with respect to a baseline proﬁle. This proﬁle corresponds to a respondent
+with a full-time job, between 45 and 55 years of age, with household income
+between US $967 and US $2167 to which he/she contributes more than 75%. This
+respondent has an average WTP of US $262. The dashed line in the middle in Fig. 1
+shows the variation in WTP when environmental and social attitudes are taken into
+account. If respondent considers air pollution a very important problem, WTP
+increases to US $302. In contrast, WTP decreases to US $222 if respondent
+considers that poverty/economic development is a very important problem. WTP is
+US $ 311 if respondent considers both problems very important.
+Respondents have higher WTP if a family member suffers a respiratory illness or
+allergy. This holds regardless of environmental and social attitudes. As illustrated
+by the straight line in Fig. 1, WTP increases by around 12% when a family member
+is sick. It is still the case that, among respondents with a sick family member, the
+respondent considering poverty a very important problem is the one with the lowest
+WTP (US $255). This respondent has lower WTP than respondents considering
+poverty is not a very important problem and with no sick family member—US
+$262, US $302, and US $311, as illustrated by the line in the middle in Fig. 1. This
+6
+
+concerns. Baseline refers to a respondent with a full-time job, between 45 and 55 years of age, with
+household income between US $967 and US $2167 to which he/she contributes more than 75%
+
+last result implies that considering poverty/economic development a very important
+has a stronger negative impact in WTP than having a sick family member.
+Respondents have lower WTP if they are living in a household with more adults
+than the sample median. This holds regardless of environmental and social attitudes.
+As illustrated by dashed line at the bottom of Fig. 1, WTP decreases by around 22%
+when there are more adults in the household than the sample median.
+WTP illustrated in Fig. 1 and their corresponding 90% empirical conﬁdence
+intervals are reported in Table 6. Conﬁdence intervals are obtained from 10,000
+Krinsky–Robb repetitions (Krinsky and Robb 1986). Conventional statistical
+comparison of means is not appropriate in this context because average WTP and
+their corresponding distributions are correlated. In this context, non-parametric,
+multivariate comparisons of distributions are the correct tool (see Poe et al.
+1994, 1997). These comparison are, however, non-essential to extract lessons from
+our results: environmental and social attitudes, and family concerns induce tradeoffs in WTP.
+
+5 Conclusions and discussion
+Estimated annual average WTP to improve air quality in MCMA is US $ 262 (2008
+US dollars). Taking into consideration the 90% conﬁdence interval (US $194–US
+$336), this value is not statistically different from comparable average values
+reported in previous studies. Hanna and Oliva (2015) estimate gains in labor
+productivity of US $247 per worker annually if a policy is implemented to reach
+pollution levels with similar impacts than those described in the contingent
+Mean
+
+90% conﬁdence interval
+Lower bound
+
+Upper bound
+
+Neither problem is very important (N)
+
+261.65
+
+193.77
+
+335.86
+
+Air pollution is very important (A)
+
+301.98
+
+230.97
+
+379.93
+
+Poverty/economic development is very important (P)
+
+221.68
+
+163.75
+
+284.76
+
+Both problems are very important (BP)
+
+311.28
+
+242.07
+
+388.38
+
+Family member suffers respiratory illness or allergy (I)
+
+294.76
+
+219.53
+
+377.60
+
+(I) ? (A)
+
+335.08
+
+256.78
+
+422.13
+
+(I) ? (P)
+
+254.79
+
+191.04
+
+325.91
+
+(I) ? (BP)
+
+344.38
+
+267.72
+
+430.15
+
+213.69
+
+150.48
+
+282.62
+
+254.01
+
+188.29
+
+324.62
+
+More adults than sample median (M)
+(M) ? (A)
+(M) ? (P)
+a
+
+173.73
+
+119.58
+
+231.33
+
+(M) ? (BP)
+
+263.32
+
+199.03
+
+333.89
+
+10,000 Krinsky–Robb repetitions
+
+´
+´
+Also, Martınez-Cruz and Sainz-Santamarıa (2015) report US $223 as the average
+annual WTP of a person to visit a peri-urban natural park near Mexico City
+(Desierto de los Leones). Arguably, given the peri-urban nature, visits to the
+Desierto de los Leones Park is at least partially motivated by the need for cleaner
+´
+´
+air. That is, the WTP of US$ 223 reported by Martınez-Cruz and Sainz-Santamarıa
+(2015) can be interpreted as an upper bound of the WTP for cleaner air among the
+population sampled in their study—which is composed by people mostly visiting
+from the MCMA. Taking into consideration the 90% conﬁdence interval of the
+average WTP reported in this study, our estimates are not statistically different from
+´
+´
+those reported by Martınez-Cruz and Sainz-Santamarıa (2015).
+Previous studies reporting estimates of WTP to improve air quality in MCMA
+include those inferring avoided costs of illness (Bell et al. 2006; McKinley et al.
+2005; Cesar et al. 2002; Margulis 1996); those inferring values of a statistical life
+´
+(Hammit and Ibarraran 2006); and those estimating hedonic price functions
+´guez-Sanchez 2014; Gonzalez et al. 2013). Their WTP estimates are,
+´
+(Rodrı
+however, not comparable to estimates presented in this paper because the good
+under valuation is not similar. Speciﬁcally, while hedonic prices measure marginal
+changes in housing prices due to marginal changes in air quality, our contingent
+valuation exercise refers to a non-marginal change in air quality. For the case of
+avoided cost of illness, WTP estimates usually refer to aggregate savings from
+avoided medical expenses given unclear changes in air quality.
+In contrast to previous application in the Mexican context, this paper yields WTP
+estimates differentiated by environmental and social attitudes, and family concerns.
+Respondents considering air pollution a very important problem have higher WTP
+than average (US $302). Respondents considering poverty/economic development a
+very important problem have smaller WTP than average (US $222). Respondents
+sample median (i.e. 2) have a lower WTP than average (US $214).
+From a public policy perspective, differentiated estimates of WTP are useful in
+carrying out cost–beneﬁt analysis of environmental policies under different sets of
+assumptions. For instance, assume authorities only considered citizens with the
+highest WTP (US $344). Individuals with the highest WTP have a sick family
+member, have a full-time job, are between 45 and 55 years of age, and have
+household income between US $967 and US $2167 to which they contribute more
+than 75%. These individuals represent 1% of the sample under analysis. Assume
+this proportion holds for the entire MCMA. Assume 10 million adults in the
+MCMA.7 Thus 100 thousand individuals would be each willing to pay US $344
+annually. Their contributions would amount to US $34.4 million annually. These
+resources would be enough to invest in hybrid buses, a project requiring US $30
+million annually according to McKinley et al. (2005).
+A limitation in this study is that WTP estimates are based on a sample arguably
+representative of a county in MCMA. Several assumptions must be made to
+extrapolate WTP estimates to the entire population in MCMA. Considering that
+average WTP is in the range reported in previous studies using different approaches
+and populations, we believe this limitation is relatively minor. Of course, an
+extrapolation exercise must be careful in using ofﬁcial and most recent numbers
+available.
+Results from this paper can be linked to the literature on micro-foundations of the
+Environmental Kuznets Curve (EKC). This literature hast yet to provide convincing
+evidence on whether people trade economic development and environmental quality
+(see Barbier et al. 2015). A major challenge in this literature is estimation of income
+elasticity of demand for environmental quality and establishing an unambiguous
+link between this elasticity and the EKC. This paper gets around estimation of
+elasticity of demand for environmental quality and instead gathers data reﬂecting
+individuals’ opinions with respect to economic development and environmental
+priorities, and uses these opinions in the WTP speciﬁcations. With estimates of
+utility parameters at hand, variations in WTP are inferred for groups of individuals
+differing in their opinions with respect to economic development and environmental
+quality. In this way, this paper ﬁnds evidence suggesting individuals trade
+environmental improvements for economic development when stating their WTP
+for cleaner air.
+
+Lat Am Econ Rev (2016) 25:7
+DOI 10.1007/s40503-016-0037-y
+
+Impact of environmental and social attitudes,
+and family concerns on willingness to pay for improved
+air quality: a contingent valuation application
+in Mexico City
+´
+´
+Massimo Filippini1,2 • Adan L. Martınez-Cruz2
+
+Received: 1 May 2015 / Revised: 24 October 2016 / Accepted: 1 November 2016 /
+Published online: 11 November 2016
+Ó The Author(s) 2016. This article is published with open access at Springerlink.com
+
+Abstract By means of a single-bounded, referendum format contingent valuation,
+this paper estimates willingness to pay (WTP) for improved air quality among
+residents of Mexico City Metropolitan Area (MCMA). Findings from this paper
+illustrate heterogeneity in WTP associated with environmental and social attitudes,
+and family concerns. For instance, WTP is higher than average if respondents state a
+very high priority to air pollution but smaller than average if respondent’s household
+contains more adults than the sample median. This contingent valuation exercise
+provides elements to carry out cost–beneﬁt analysis of environmental policies both
+recently implemented and currently under discussion in the MCMA context. For
+instance, a cost–beneﬁt analysis using estimates from this paper suggests beneﬁts
+from improved air quality surpass the costs of investing in hybrid buses. Usefulness
+of this study is underscored by pointing out recent evidence suggesting that (1) air
+pollution in MCMA has larger health impacts than in similar cities located in
+developed countries, and (2) policies tackling air pollution in MCMA have had no
+impact on pollution levels.
+Keywords Air quality Á Willingness to pay Á Mexico City Á Contingent valuation Á
+Attitudes
+JEL Classiﬁcation Q51 Á Q53 Á D61
+
+´
+´
+& Adan L. Martınez-Cruz
+madan@ethz.ch
+1
+
+USI, Lugano, Switzerland
+
+2
+
+¨
+Air pollution remains a pressing issue in megacities located in developing countries.
+Mexico City Metropolitan Area (MCMA) is an infamous case. Pollution levels in
+MCMA regularly surpass limits suggested by the World Health Organization (CAI
+2013). Also, MCMA has been ranked as the second most congested city in the world
+during 2014.1 Effects of air pollution on the respiratory system have long been
+˜
+documented in MCMA (e.g. Escamilla-Nunez et al. 2008; Romieu et al. 2008).
+Recent epidemiological studies report neuro-inﬂammation in otherwise healthy
+´
+˜
+children residing in MCMA (Calderon-Garciduenas et al. 2008). In general, air
+pollution produces larger health impacts in Mexico city than in similar cities located
+in a developed country (Arceo-Gomez et al. 2012).
+Public policies aiming to reduce air pollution have proved unsuccessful in
+MCMA. Launched in 1989, Hoy No Circula (HNC) program represents the most
+important governmental effort aiming to reduce pollution levels in MCMA.2 HNC
+limits the number of weekdays a car is driven in Mexico City. HNC tackles the use
+of cars because it is the largest contributor to air pollution in MCMA—45% of
+volatile organic compounds and 81% of total nitrogen oxides (Molina and Molina
+2002). Empirical studies have reported no impact from HNC on air pollution levels
+and an undesirable positive impact on numbers of cars driven (Gallego et al.
+2013a, b; Davis 2008). Authorities frequently implement a pre-contingency plan
+that imposes temporary driving restrictions.3 The most recent attempt to improve air
+quality, consisting in extending HNC to Saturdays, has been launched in July 2014.
+A question arises in this context—what is the WTP of a resident of MCMA for
+improved air quality? This paper elicits WTP for improved air quality by means of a
+single-bounded, referendum format contingent valuation question. Respondents state
+their willingness to monetarily contribute to improve air levels from observed regular
+quality to good quality. This paper pays particular attention to differences in WTP
+´
+explained by individuals attitudes and concerns in three realms—environmental, social,
+´
+and family. The economic literature has already established the relevance of individuals
+attitudes and concerns as factors behind variability in WTP (e.g. Bartczak 2015;
+´
+˜
+Martınez-Espineira and Lyssenko 2011; Spash 2006; Spash et al. 2009). This paper
+illustrates this relevance in the Mexican context. To measure attitudes, respondents are
+asked to state their opinion on how important is the air pollution problem and the
+poverty/economic development problem. To measure concerns, respondents are asked
+to report (1) whether a family member (including himself) suffers an allergy or a
+respiratory illness; (2) whether there is a car at the household; and (3) family size.
+Average WTP in this paper—US $262 (2008 US dollars)—falls close to comparable
+estimates reported in previous studies. For instance, Hanna and Oliva (2015) report US
+1
+
+See Tom Tom Trafﬁc Index 2015, available at http://www.tomtom.com/en_gb/trafﬁcindex/#/.
+
+2
+
+´
+For a detailed description of additional policies aiming to reduce air pollution in MCMA, see GarcıaRobles (2010), and McKinley et al. (2005).
+
+3
+
+e.g. http://mexico.cnn.com/salud/2013/05/22/contingencia-ambiental-que-es-y-que-hacer-cuando-sedeclara, http://www.milenio.com/df/contaminacion_DF-precontingencia_ambiental_DF-contaminacion_
+WTP associated with environmental and social attitudes, and family concerns. For
+instance, while respondents posing a very high priority to the air pollution problem have
+higher than average WTP (US $302), respondents in a household with more adults than
+the sample median (i.e. 2) have a lower than average WTP (US $214). While
+respondents posing a very high priority to the poverty/economic development problem
+have smaller than average WTP (US $222), respondents with a family member suffering
+allergies or respiratory illness have higher than average WTP (US $295). Indeed, this
+contingent valuation exercise provides elements to carry out cost–beneﬁt analysis of
+policies aiming to improve air quality in MCMA—e.g. expansion of metro system,
+maintenance or replacement of sources of liquid petroleum gas leaks, taxi renovation,
+´
+and use of hybrid buses (see Garcıa-Robles 2010; McKinley et al. 2005). Instances of
+cost–beneﬁt analysis based on these estimates are presented in the discussion section.
+
+2 Valuation methodology
+Data are gathered through a contingent evaluation elicitation. Contingent evaluation
+elicitations have widely been used in countries facing air quality problems—e.g.
+Taiwan (Alberini et al. 1997), China (Wang and Zhang 2009), and Sweden
+(Carlsson and Johansson-Stenman 2000). A single-bounded, referendum format
+elicitation has been implemented in this study. This type of elicitation describes a
+hypothetical market as a referendum in which respondents are asked whether they
+would vote for or against a project in a public vote (Kling et al. 2012). Advantages
+of this type of question include theoretical incentive compatibility, conceptual
+simplicity, and similarity to a real-life decision mechanism. Single-bounded
+questions, however, do not yield the most statistically efﬁcient WTP estimates.
+Increase in statistical efﬁciency is obtained through double-bounded (Hanemann
+et al. 1991) and one-and-one-half-bounded (Cooper et al. 2002) approaches. These
+alternatives share several inconveniences with the single-bounded approach—warm
+glow effect, anchoring, sensitivity to scope, and hypothetical bias (Carson 2012;
+Carson et al. 2001; Bateman et al. 2009). In addition, one-and-half-bounded
+approach may be non-incentive compatible (Bateman et al. 2009).
+Both conceptual simplicity and similarity to a real-life decision mechanism have
+driven the selection of single-bounded approach in this study. Both features
+facilitate administration and execution, particularly in developing countries where
+contingent valuation applications are still uncommon.4 Administration and
+4
+
+While Mexico is an OECD member, this paper follows recommendations targeting developing countries
+because contingent valuation studies in Mexico are still rare. A non-exhaustive search yielded 15 published
+studies in which Mexican respondents stated WTP through a contingent valuation question or a discrete
+´
+choice experiment. Papers focused on water-related issues include Almendarez-Hernandez et al. (2013),
+´
+´
+´
+˜
+˜
+Aviles-Polanco et al. (2010); Perez-Verdin et al. (2011); Rivera-Planter and Munoz-Pina (2005), Sanchez´
+Brito et al. (2013), Soto-Montes de Oca et al. (2006), and Vasquez et al. (2009). A few studies have
+researched preferences of farmers with respect to natural resources (Birol et al. 2009; Scarpa et al. 2003).
+Additional topics cover valuation of food safety (Tonsor et al. 2009), smoking cessation treatment (HerediaPi et al. 2012), cross-border health insurance (Vargas-Bustamante et al. 2008), environmentally certiﬁed
+´
+valuation instrument (Whittington 2002). Conceptual simplicity and comparability
+to a real-life situation eases explanation and understanding for both enumerators and
+respondents. A single-bounded approach is also less time-consuming which
+increases the response rate.
+The elicitation protocol used in this paper ﬁrst elicits respondents’ attitudes.
+Respondents were asked to rank how important are air pollution and poverty/
+economic development problems to Mexico. Respondents separately ranked the
+level of importance by choosing one of four categories—very important, important,
+slightly important, and not important at all.
+Then a summary of air pollution effects on human health is presented.
+Respondents are explained how air pollution is measured in Mexico and informed
+about air pollution levels in Mexico City during a normal year.
+Then a strategy to improve air quality is described. This strategy would introduce
+ﬁlters to the exhaust systems of cars and industry. In addition, a limit would be
+imposed to the sulfur in fossil fuels of residential and industrial use. This strategy
+would bring pollutants’ concentrations down from observed regular quality levels to
+good quality levels. This change in air quality would save around 2200 lives and
+avoid 37,000 hospital admissions yearly.
+The protocol explains the government is considering putting this plan to a vote.
+Respondents are informed that they would partially cover costs of implementing this
+policy. The phrasing of the elicitation question is as follows: taking into
+consideration that the strategy described above will increase your annual expenses
+by ____, would you be willing to support this strategy if the government put it to a
+vote?
+Socioeconomic characteristics and family concerns are gathered in the last
+section of the protocol. Respondents report whether someone in his/her family
+(including his/herself) suffers from allergies or a respiratory illness. Respondents
+also report whether a car is owned by someone in the family. Owning a car is
+considered a family concern because, in order to comply with HNC requirements,
+owners must face annual expenses and transactional costs—sometimes involving a
+bribe to personnel in charge of car’s inspections (Oliva, 2012). The number of
+household members is also a family concern. The respondent is asked for the
+number of adults and children at home.
+
+3 Data
+3.1 Collection
+Data were gathered from mid-December 2007 to mid-January 2008. A random
+sample of 1812 individuals was approached in public places—e.g. malls, parks, and
+´
+small businesses—located in Delegacion Gustavo A. Madero (DGAM), a county in
+Mexico City. Two features make DGAM an insightful case for the purposes of this
+study: air pollution levels and relative economic development. That is, DGAM
+where unequal economic development is expected to yield a trade-off between
+environmental and social attitudes, and family concerns.
+DGAM consistently ranks among the most polluted counties of MCMA since
+early 1990s (SMAGDF 2009; Proaire 2001;). This feature makes air pollution a
+local environmental issue for inhabitants of DGAM. Although Mexico city as a
+whole struggles with air pollution, pollution levels in the south of Mexico City are
+regularly lower, making air pollution a relatively less local issue in cleaner areas.
+Arguably, non-market valuation of an issue that directly concerns respondents is
+less likely subject to the possibility that respondents behave as citizens (Nyborg
+2000). When behaving as citizens, respondents may reveal social preferences
+instead of personal preferences due to a ‘‘warm glow’’ effect (Kling et al. 2012).
+This study seeks personal preferences because interest is on individuals’ trade-offs.
+No-responses to contingent valuation questions are partially driven by budget
+constraints. Thus, a useful case study must refer to a population that can potentially
+afford an improvement in air quality. While a few other counties in Mexico City
+face at least as much air pollution as DGAM, income in these counties tends to be
+smaller than in DGAM. Per capita GDP in DGAM during 2009 was around 12,900
+US dollars of 2005, just 100 US dollars below the median in Mexico City (CEFP
+2009). A trade-off between attitudes and concerns is more likely present in a context
+where economic development has spread unequally. Since early 1990s, DGAM’s
+Gini Index has been around 0.38, and 7% of people have been living under food
+poverty conditions (CEFP 2009).
+3.2 Descriptive statistics
+Once missing values have been excluded, 1541 observations are used in statistical
+analysis. Descriptive statistics refer to these observations. Table 1 presents a
+consistency test by checking whether percentage of no-responses increases as bid
+increases. Bids presented to respondents take a value between US $7.5 and US
+$87.5 (2008 US dollars). Although not monotonically, percentage of no-responses
+increases from 10.5% when bid is US $7.5 to 31.6% when bid is US $87.5.
+Table 2 compares averages of socioeconomic characteristics in the sample
+against DGAM values. Sample values for percentage of males, average age, number
+of household members, proportion of retired people, and car at household are not
+statistically different (at 95% conﬁdence) from DGAM values—0.48, 38.50, 3.70,
+0.12, and 0.76, respectively. Proportion of unemployed people is larger in the
+Table 1 Percentage of no-responses by bid
+Bids in 2008 US dollarsa
+7.5
+
+12.5
+
+25
+
+37.5
+
+50
+
+57.5
+
+62.5
+
+75
+
+87.5
+
+Respondents
+
+180
+
+165
+
+145
+
+146
+
+192
+
+175
+
+188
+
+179
+
+171
+
+%no-responses
+
+10.5
+
+4.9
+
+0.0
+
+15.0
+
+15.7
+
+20.0
+
+17.6
+
+23.5
+
+31.6
+
+a
+
+characteristics in sample and
+populations (n = 1541)
+
+Mean
+(A)
+
+Std. Dev
+
+DGAMa
+(B)
+
+t test
+(B–A)
+0.00
+
+Male
+
+0.48
+
+0.49
+
+0.48
+
+Age
+
+39.01
+
+14.44
+
+38.50
+
+1.38
+
+3.77
+
+1.59
+
+3.70
+
+1.72
+
+Household members
+Unemployed
+
+0.66
+
+0.78
+
+0.54
+
+6.03
+
+Retired
+
+0.12
+
+0.32
+
+0.12
+
+0.00
+
+Car at household
+a
+
+Sources: CEFP (2009), INEGI
+(2010), INEGI (2016)
+
+0.74
+
+0.44
+
+0.76
+
+1.78
+
+Sick household member
+
+0.33
+
+0.47
+
+–
+
+–
+
+Table 3 Respondents’ attitudes about air pollution and poverty/economic development (n = 1541)
+Economic
+
+Air pollution
+
+development
+
+Not very important
+
+Very important
+
+Not very important
+
+17.72%
+
+3.89%
+
+Very important
+
+20.51%
+
+57.88%
+
+Table 4 Monthly household income by range and respondent’s contribution (n = 1541)
+Monthly household
+
+Respondent’s contribution to household income
+
+income
+
+Less than 50%
+
+50% to 75%
+
+Less than US $567
+
+18.36
+
+11.10
+
+12.07
+
+Between US $567 and US $ 967
+
+16.22
+
+5.71
+
+11.49
+
+more than 75%
+
+Between US $967 and US $2167
+
+7.14
+
+6.75
+
+7.85
+
+Between US $2167 and US $5000
+
+0.00
+
+3.31
+
+0.00
+
+sample—0.66 versus 0.54. The proportion of households with at least one member
+affected by a respiratory illness or allergy is not readily available at the county level.
+Our own estimations, based on respiratory-related morbidity and/or mortality, do
+not yield convincing ﬁgures and, therefore, we do not present them in Table 2.
+Table 3 reports respondents’ opinions about air pollution and poverty/economic
+development. Three categories—important, slightly important, and not important at
+all—are grouped in one category labeled ‘‘not very important’’. Both issues are
+considered very important by 57.88% of respondents; 20.51% consider poverty/
+economic development a very important and air pollution a not very important issue;
+3.89% consider the opposite; and 17.72% consider none of the issues very important.
+Table 4 reports stated range in which monthly household income falls and
+respondent’s contribution to this monthly income. Considering the tendency to
+miss-report income, categorization of income provides ordinal information. That is,
+categories can be seen as reﬂecting order but not magnitude. Tabulation and
+small percentage of respondents from households with the highest income category
+(3.31%) and the lack of respondents in this category that contribute either less than
+50% or more than 75%.
+
+4 Results
+Results from logit speciﬁcations on WTP responses are reported in Table 5. The
+ﬁrst column reports the analysis on the entire sample, i.e. 1541 observations. The
+rest of the speciﬁcations reported in Table 5 work as robustness checks. We check
+that results are robust to the exclusion of the richest and the oldest respondents
+(columns two to four in Table 5) and to the presence of protest respondents (ﬁfth
+column in Table 5).
+Coefﬁcients in Table 5 are not interpretable as marginal effects but we discuss
+their sign which points to the direction of the effect of the corresponding variable.
+Focusing on the results arising from the analysis of the entire sample (ﬁrst column),
+the ﬁrst set of coefﬁcients in Table 5 refers to the key variables in this study—i.e.
+bid, environmental and social attitudes, and family concerns. Bid’s negative
+coefﬁcient implies that a higher proportion of no is observed as the bid increases—
+which is consistent with the exploratory analysis in Table 1. When focusing on the
+environmental and social attitudes, we notice that while respondents that consider
+air pollution a very important problem have larger WTP (which we learn from the
+positive sign of 1.15), respondents that consider poverty/economic development a
+very important problem have smaller WTP (which is inferred from its corresponding -1.31 coefﬁcient). Importantly, the impact on WTP remains positive when
+respondent considers both problems are very important (which is implied by the
+1.39 estimate).
+The other set of key variables in our study refer to three family concerns—
+whether a family member is sick of a respiratory illness or allergy, whether there is a
+car at the household, and family size. Family size is included through two
+variables—whether adults at the household are more than sample median (i.e. 2),
+and whether children at household are more than sample median (i.e. 1). According
+to the second set of coefﬁcients in Table 5, having a sick member increases WTP
+for improved air quality. Having a car at the household does not impact the WTP. A
+respondent whose household is composed by more adults than the median has
+smaller WTP. Number of children at home has no impact on WTP.
+The rest of the coefﬁcients have the expected sign or have no impact at all—e.g.
+gender of respondent does not impact WTP, a respondent with a full-time job
+reports higher WTP than a respondent with no job, older respondents tend to report
+higher WTP, and richer respondents tend to report higher WTP with exception of
+the richest respondents. Several possibilities are behind the negative sign associated
+with the richest respondents. A ﬁrst explanation is that richer people may already be
+taking precautions against air pollution and, therefore, be less willing to contribute
+to a public good. For instance, if richer respondents have already bought indoor air
+
+Both air pollution and poverty problems are
+very important (1 if yes; 0 otherwise)
+
+0.9372 (0.2477)***
+
+1.3957 (0.5054)**
+
+Poverty/economic development problem is
+very important (1 if yes; 0 otherwise)
+
+-0.331 (0.2359)
+
+More adults at household than sample median
+(i.e. 2)
+
+More children at household than sample
+median (i.e. 1)
+
+-0.1352 (0.2568)
+
+0.1011 (0.2473)
+
+Full-time job
+
+0.1669 (0.3424)
+
+25–35
+
+35–45
+
+Range of respondent’s age
+
+1.0362 (0.3469)**
+
+Part-time job
+
+Job status
+
+Male (1 if yes; 0 otherwise)
+
+-0.1644 (0.1956)
+
+-1.3614 (0.2236)***
+
+Car at household (1 if yes; 0 otherwise)
+
+Socioeconomic controls
+
+0.4188 (0.2282)
+
+Family member sick of respiratory illness or
+allergy (1 if yes; 0 otherwise)
+
+Family concerns
+
+-1.1317 (0.4669)*
+
+Air pollution problem is very important (1 if
+yes; 0 otherwise)
+
+Environmental and social attitudes
+
+-0.0024***
+
+(0.0003)
+
+Bid
+
+(2008 US $)
+
+0.1354 (0.3406)
+
+0.0565 (0.2427)
+
+1.0279 (0.3422)**
+
+-0.1198 (0.2508)
+
+-0.0957 (0.1925)
+
+-0.3832 (0.2327)
+
+-1.1820 (0.2260)***
+
+0.5274 (0.2291)*
+
+0.7538 (0.2462)**
+
+1.4635 (0.5044)**
+
+-1.1207 (0.4657)*
+
+1.0818 (0.2495)***
+
+(0.0003)
+
+-0.0024***
+
+sample
+
+0.1105 (0.3379)
+
+0.0948 (0.2465)
+
+1.0359 (0.3387)**
+
+-0.1096 (0.2561)
+
+-0.1403 (0.1962)
+
+-0.2826 (0.2350)
+
+-1.3782 (0.2240)***
+
+0.4392 (0.2277)
+
+0.8998 (0.2499)***
+
+1.1676 (0.4937)*
+
+-0.9308 (0.4561)*
+
+1.1728 (0.2575)***
+
+(0.0003)
+
+-0.0024***
+
+Age (II)
+
+Income (I)
+
+Entire
+
+Explanatory variables
+
+Table 5 Logit speciﬁcations on WTP responses
+
+0.0796 (0.3361)
+
+0.0479 (0.2418)
+
+1.0267 (0.3335)**
+
+-0.0934 (0.2500)
+
+-0.0703 (0.1932)
+
+-0.3358 (0.2315)
+
+-1.1939 (0.2261)***
+
+0.5504 (0.2285)*
+
+0.7130 (0.2483)**
+
+1.2383 (0.4921)*
+
+-0.9203 (0.4538)*
+
+1.0987 (0.2510)***
+
+(0.0003)
+
+-0.0023***
+
+(I) and (II)
+
+Excluding
+
+-0.6871 (0.4609)
+
+-0.7256 (0.3741)*
+
+1.6952 (0.3601)***
+
+0.3854 (0.2779)
+
+-0.7388 (0.2129)***
+
+-0.3456 (0.2596)
+
+-1.6214 (0.2381)***
+
+0.7003 (0.262)***
+
+0.9495 (0.2695)***
+
+1.4261 (0.5088)***
+
+-1.2010 (0.4642)*
+
+0.5677 (0.2787)**
+
+(0.0003)
+
+-0.0019***
+
+protest responses
+
+Excluding
+
+2.9175 (0.8030)***
+
+50–75%
+
+US $567–US $967
+
+-1.5199 (0.5830)**
+
+-1.4693 (0.5669)**
+
+1541
+
+0.3527
+
+n
+
+Pseudo-R2
+
+US $967–US $2167
+
+0.9889 (0.3649)**
+
+[75%
+
+US $967–US $2167
+
+Intercept
+
+-2.3054 (1.1840)
+
+50–75%
+
+US $567–US $967
+
+-1.783 (1.0377)
+
+-2.7109 (0.5566)***
+
+Contribution
+
+[75%
+
+Income
+
+0.3487
+
+1490
+
+0.9174 (0.3568)*
+
+-2.2085 (1.1680)
+
+-2.6308 (0.5483)***
+
+-1.7074 (1.0304)
+
+Interactions between household income and respondent’s contribution
+
+Contribution
+
+Income
+
+Interactions between household income and respondent’s contribution
+
+1.1867 (0.3164)***
+
+50–75%
+
+[75%
+
+1.2078 (0.3140)***
+
+–
+
+-2.0399 (0.5151)***
+
+US $967–US $2167
+
+Respondent’s contribution to monthly household income
+
+1.4101 (0.4227)***
+
+1.5738 (0.4308)***
+
+US $567–US $967
+
+0.7802 (0.2463)**
+
+3.2256 (0.6799)***
+
+0.8463 (0.4080)*
+
+0.8850 (0.2529)***
+
+3.2530 (0.6821)***
+
+Monthly household income (2008 US$)
+
+0.9327 (0.4093)*
+
+45–55
+
+sample
+
+0.2989
+
+1243
+
+0.9130 (0.3576)*
+
+-2.1273 (1.1453)
+
+-2.7178 (0.5544)***
+
+–1.7075 (1.0030)
+
+-1.1988 (0.6195)
+
+2.7959 (0.7570)***
+
+1.1626 (0.3153)***
+
+-1.9532 (0.5096)***
+
+1.5547 (0.422)***
+
+0.8993 (0.2514)***
+
+–
+
+0.8960 (0.4098)*
+
+Age (II)
+
+Income (I)
+
+Entire
+
+[55
+
+Explanatory variables
+
+Table 5 continued
+
+0.2925
+
+1192
+
+0.8441 (0.3500)*
+
+-2.0363 (1.1294)
+
+-2.6349 (0.5453)***
+
+-1.6251 (0.9954)
+
+-1.1557 (0.6016)
+
+2.7815 (0.7530)***
+
+1.1854 (0.3133)***
+
+–
+
+1.3889 (0.4132)***
+
+0.7925 (0.2449)**
+
+–
+
+0.8067 (0.4088)*
+
+(I) and (II)
+
+Excluding
+
+0.3582
+
+1499
+
+(0.4430)
+
+1.7013***
+
+(1.1023)
+
+-1.7597*
+
+-2.2579 (0.5569)
+
+-1.8820 (0.9415)*
+
+-2.0715 (0.6044)***
+
+2.3957 (0.6467)***
+
+0.8187 (0.3083)**
+
+-1.9479 (0.5360)***
+
+1.5789 (0.4247)***
+
+1.6086 (0.3336)***
+
+2.7303 (0.7448)***
+
+0.0520 (0.4937)
+
+protest responses
+
+Excluding
+
+Lat Am Econ Rev (2016) 25:7
+-421.9019
+
+sample
+-428.6136
+
+Age (II)
+
+Income (I)
+
+Entire
+
+Reference category: \50%
+
+Not all interactions are included because of missing cells in the corresponding excluded interaction
+
+d
+
+e
+
+Reference category: \US$ 567
+
+Reference category: 18-25
+
+Reference category: no job
+
+c
+
+b
+
+a
+
+Standard errors in parenthesis. Coefﬁcients are signiﬁcant at *** 99%, ** 95%, or * 90% level of conﬁdence
+
+Log-likelihood
+
+Explanatory variables
+
+Table 5 continued
+
+-415.6528
+
+(I) and (II)
+
+Excluding
+
+-379.1291
+
+protest responses
+
+Excluding
+respondents may be intrinsically more selﬁsh.
+A couple of variables have been included to test whether respondents have taken
+into account their income when answering the WTP questions. Controlling for
+income category allows differences in marginal utility of income across income
+levels (Haab and McConnell 2002). While household income may reﬂect a
+household’s budget restriction, a respondent may not be the household decision
+maker. A strategy to capture a respondent budgetary constraint is interacting
+categories of monthly household income with categories of respondent’s contribution to household income. Respondent’s contribution categories yield positive
+coefﬁcients, which implies that a larger contribution to the household income also
+increases the WTP. However, interaction effects are negative and signiﬁcant in a
+couple of cases. This implies that increase in WTP is not monotonic with income
+and contribution.
+We do carry out three robustness checks to the presence of the richest and oldest
+respondents. The robustness check to age is motivated by relatively large coefﬁcient
+associated with the category of people older than 55—while variation in age barely
+matters for categories below 55, the coefﬁcient for people older than 55 is 3.25. The
+robustness check for income is motivated by the negative sign of the coefﬁcient
+corresponding to the richest respondents (-2.039). This sign stands out because the
+signs of the coefﬁcients associated for lower income categories are positive and
+signiﬁcant. While a negative sign is feasible even if air quality is a normal good,5
+we explore whether the exclusion of such respondents change the main message of
+the initial speciﬁcation.
+Results reported in columns two to four refer to speciﬁcations that work as
+robustness checks to age and income. The second column reports results from a
+speciﬁcation that excludes the observations in the highest income category—51
+observations. The third column refers to a speciﬁcation excluding respondents older
+than 55—298 observations. The fourth column reports results from a speciﬁcation
+excluding observations in the highest income and age categories. These three
+speciﬁcations deliver results that are qualitatively similar to those obtained by
+analyzing the entire sample—i.e. signs remain identical and magnitudes of the
+coefﬁcients are similar when excluding the richest, the oldest or both. Thus, we
+conclude that results are not driven by inclusion or exclusion of age and income
+categories.
+An additional robustness check is carried out with respect to the presence of
+protest respondents. Protest response is an empirical staple of the contingent
+valuation literature (see Strazzera et al. 2003; Chen and Hua 2015). The term refers
+to the respondents that report zero WTP due to non-budget related reasons. That is, a
+respondent stating that his/her budget is not enough to pay for cleaner air quality is
+5
+
+For instance, in the literature valuing the presence of urban and peri-urban trees and forests, some
+studies have reported a positive income elasticity, other studies have yielded no signiﬁcant effect from
+income, with a few studies even reporting negative income elasticities (see Brander and Koetse 2011). A
+negative income elasticity is a reasonable result because, in our context, it is possible that beyond certain
+income level people may prefer to purchase cleaner air in a private market in the form of large gardens at
+respondents that express distrust or complaint about the WTP survey in itself. In this
+study, protest respondents believe that they should not pay because (1) clean air is a
+right; (2) the scenario is not believable or practical; (3) the program should be
+ﬁnanced by the polluters; and (4) the government administrators are not able to
+solve the problem of air pollution.
+We check whether results are driven by the presence of protest respondents. The
+ﬁfth speciﬁcation in Table 5 reports results from analyzing a sample that excludes
+protest respondents. In general, results are qualitatively similar to those obtained
+when analyzing the entire sample. The coefﬁcient that deserves the most attention is
+the one capturing the impacts from the bid. Signiﬁcant differences in the estimation
+of the bid coefﬁcient directly impact the point estimates of the WTP because
+_
+
+_
+
+EðWTPÞ ¼ Xb= À c, where X includes a vector of ones and the explanatory
+_
+
+variables of the empirical speciﬁcations, and b is the vector of corresponding
+_
+estimated coefﬁcients and c is the estimated coefﬁcient for bid.6 In this study, the
+point estimate of the bid coefﬁcient on the entire sample is -0.0024; and the bid
+coefﬁcient on the sample excluding protest respondents is -0.0019. These point
+estimates, however, are not statistically different—the 95% conﬁdence interval from
+the trimmed sample (-0.0025 to -0.0013) includes the -0.0024 obtained on the
+entire sample. Putting together the fact that results do not differ qualitatively and
+that the bid coefﬁcient is not statistically different when excluding protest
+respondents, we conclude that results are robust to the presence of protest
+respondents.
+Results, in WTP terms, from analyzing the entire sample are graphically
+illustrated in Fig. 1. This ﬁgure depicts WTP for improved air quality for different
+respondents’ proﬁles. Environmental and social attitudes, and family concerns are
+varied with respect to a baseline proﬁle. This proﬁle corresponds to a respondent
+with a full-time job, between 45 and 55 years of age, with household income
+between US $967 and US $2167 to which he/she contributes more than 75%. This
+respondent has an average WTP of US $262. The dashed line in the middle in Fig. 1
+shows the variation in WTP when environmental and social attitudes are taken into
+account. If respondent considers air pollution a very important problem, WTP
+increases to US $302. In contrast, WTP decreases to US $222 if respondent
+considers that poverty/economic development is a very important problem. WTP is
+US $ 311 if respondent considers both problems very important.
+Respondents have higher WTP if a family member suffers a respiratory illness or
+allergy. This holds regardless of environmental and social attitudes. As illustrated
+by the straight line in Fig. 1, WTP increases by around 12% when a family member
+is sick. It is still the case that, among respondents with a sick family member, the
+respondent considering poverty a very important problem is the one with the lowest
+WTP (US $255). This respondent has lower WTP than respondents considering
+poverty is not a very important problem and with no sick family member—US
+$262, US $302, and US $311, as illustrated by the line in the middle in Fig. 1. This
+6
+
+concerns. Baseline refers to a respondent with a full-time job, between 45 and 55 years of age, with
+household income between US $967 and US $2167 to which he/she contributes more than 75%
+
+last result implies that considering poverty/economic development a very important
+has a stronger negative impact in WTP than having a sick family member.
+Respondents have lower WTP if they are living in a household with more adults
+than the sample median. This holds regardless of environmental and social attitudes.
+As illustrated by dashed line at the bottom of Fig. 1, WTP decreases by around 22%
+when there are more adults in the household than the sample median.
+WTP illustrated in Fig. 1 and their corresponding 90% empirical conﬁdence
+intervals are reported in Table 6. Conﬁdence intervals are obtained from 10,000
+Krinsky–Robb repetitions (Krinsky and Robb 1986). Conventional statistical
+comparison of means is not appropriate in this context because average WTP and
+their corresponding distributions are correlated. In this context, non-parametric,
+multivariate comparisons of distributions are the correct tool (see Poe et al.
+1994, 1997). These comparison are, however, non-essential to extract lessons from
+our results: environmental and social attitudes, and family concerns induce tradeoffs in WTP.
+
+5 Conclusions and discussion
+Estimated annual average WTP to improve air quality in MCMA is US $ 262 (2008
+US dollars). Taking into consideration the 90% conﬁdence interval (US $194–US
+$336), this value is not statistically different from comparable average values
+reported in previous studies. Hanna and Oliva (2015) estimate gains in labor
+productivity of US $247 per worker annually if a policy is implemented to reach
+pollution levels with similar impacts than those described in the contingent
+Mean
+
+90% conﬁdence interval
+Lower bound
+
+Upper bound
+
+Neither problem is very important (N)
+
+261.65
+
+193.77
+
+335.86
+
+Air pollution is very important (A)
+
+301.98
+
+230.97
+
+379.93
+
+Poverty/economic development is very important (P)
+
+221.68
+
+163.75
+
+284.76
+
+Both problems are very important (BP)
+
+311.28
+
+242.07
+
+388.38
+
+Family member suffers respiratory illness or allergy (I)
+
+294.76
+
+219.53
+
+377.60
+
+(I) ? (A)
+
+335.08
+
+256.78
+
+422.13
+
+(I) ? (P)
+
+254.79
+
+191.04
+
+325.91
+
+(I) ? (BP)
+
+344.38
+
+267.72
+
+430.15
+
+213.69
+
+150.48
+
+282.62
+
+254.01
+
+188.29
+
+324.62
+
+More adults than sample median (M)
+(M) ? (A)
+(M) ? (P)
+a
+
+173.73
+
+119.58
+
+231.33
+
+(M) ? (BP)
+
+263.32
+
+199.03
+
+333.89
+
+10,000 Krinsky–Robb repetitions
+
+´
+´
+Also, Martınez-Cruz and Sainz-Santamarıa (2015) report US $223 as the average
+annual WTP of a person to visit a peri-urban natural park near Mexico City
+(Desierto de los Leones). Arguably, given the peri-urban nature, visits to the
+Desierto de los Leones Park is at least partially motivated by the need for cleaner
+´
+´
+air. That is, the WTP of US$ 223 reported by Martınez-Cruz and Sainz-Santamarıa
+(2015) can be interpreted as an upper bound of the WTP for cleaner air among the
+population sampled in their study—which is composed by people mostly visiting
+from the MCMA. Taking into consideration the 90% conﬁdence interval of the
+average WTP reported in this study, our estimates are not statistically different from
+´
+´
+those reported by Martınez-Cruz and Sainz-Santamarıa (2015).
+Previous studies reporting estimates of WTP to improve air quality in MCMA
+include those inferring avoided costs of illness (Bell et al. 2006; McKinley et al.
+2005; Cesar et al. 2002; Margulis 1996); those inferring values of a statistical life
+´
+(Hammit and Ibarraran 2006); and those estimating hedonic price functions
+´guez-Sanchez 2014; Gonzalez et al. 2013). Their WTP estimates are,
+´
+(Rodrı
+however, not comparable to estimates presented in this paper because the good
+under valuation is not similar. Speciﬁcally, while hedonic prices measure marginal
+changes in housing prices due to marginal changes in air quality, our contingent
+valuation exercise refers to a non-marginal change in air quality. For the case of
+avoided cost of illness, WTP estimates usually refer to aggregate savings from
+avoided medical expenses given unclear changes in air quality.
+In contrast to previous application in the Mexican context, this paper yields WTP
+estimates differentiated by environmental and social attitudes, and family concerns.
+Respondents considering air pollution a very important problem have higher WTP
+than average (US $302). Respondents considering poverty/economic development a
+very important problem have smaller WTP than average (US $222). Respondents
+sample median (i.e. 2) have a lower WTP than average (US $214).
+From a public policy perspective, differentiated estimates of WTP are useful in
+carrying out cost–beneﬁt analysis of environmental policies under different sets of
+assumptions. For instance, assume authorities only considered citizens with the
+highest WTP (US $344). Individuals with the highest WTP have a sick family
+member, have a full-time job, are between 45 and 55 years of age, and have
+household income between US $967 and US $2167 to which they contribute more
+than 75%. These individuals represent 1% of the sample under analysis. Assume
+this proportion holds for the entire MCMA. Assume 10 million adults in the
+MCMA.7 Thus 100 thousand individuals would be each willing to pay US $344
+annually. Their contributions would amount to US $34.4 million annually. These
+resources would be enough to invest in hybrid buses, a project requiring US $30
+million annually according to McKinley et al. (2005).
+A limitation in this study is that WTP estimates are based on a sample arguably
+representative of a county in MCMA. Several assumptions must be made to
+extrapolate WTP estimates to the entire population in MCMA. Considering that
+average WTP is in the range reported in previous studies using different approaches
+and populations, we believe this limitation is relatively minor. Of course, an
+extrapolation exercise must be careful in using ofﬁcial and most recent numbers
+available.
+Results from this paper can be linked to the literature on micro-foundations of the
+Environmental Kuznets Curve (EKC). This literature hast yet to provide convincing
+evidence on whether people trade economic development and environmental quality
+(see Barbier et al. 2015). A major challenge in this literature is estimation of income
+elasticity of demand for environmental quality and establishing an unambiguous
+link between this elasticity and the EKC. This paper gets around estimation of
+elasticity of demand for environmental quality and instead gathers data reﬂecting
+individuals’ opinions with respect to economic development and environmental
+priorities, and uses these opinions in the WTP speciﬁcations. With estimates of
+utility parameters at hand, variations in WTP are inferred for groups of individuals
+differing in their opinions with respect to economic development and environmental
+quality. In this way, this paper ﬁnds evidence suggesting individuals trade
+environmental improvements for economic development when stating their WTP
+for cleaner air.
+´
+Acknowledgements Authors acknowledge assistance from Laura Gonzalez in designing, organizing and
+implementing the protocol to gather data used in this document. Authors wish to thank an anonymous
+reviewer whose comments have improved this manuscript. Errors are authors’ responsibility.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original
+author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were
+made.
+7
+
+In 2010, 20 million residents were counted in MCMA, with a little above 10 million being adults (see
+Alberini A, Cropper M, Fu TT, Krupnick A, Liu JT, Shaw D, Harrington W (1997) Valuing health effects
+of air pollution in developing countries: the case of Taiwan. J Env Econ Manag 34(2):107–126
+´
+´
+´
+Almendarez-Hernandez MA, Jaramillo-Mosqueira LA, Aviles-Polanco G, Beltran-Morales LF,
+´
+´
+´
+´
+Hernandez-Trejo V, Ortega-Rubio A (2013) Valoracion economica del agua en un area natural
+´
+´
+protegida de una economıa emergente: recomendaciones para la Reserva de la Biosfera El Vizcaıno,
+´
+Mexico. Interciencia 38(4):245–253
+Arceo-Gomez EO, Hanna R, Oliva P (2012) ‘‘Does the effect of pollution on infant mortality differ
+between developing and developed countries? Evidence from Mexico City,’’ NBER working paper
+18349. http://www.nber.org/papers/w18349
+´
+´
+´
+´
+Aviles-Polanco G, Huato-Soberanis L, Troyo-Dieguez E, Murillo-Amador B, Garcıa-Hernandez JL,
+´
+´
+´
+´
+´
+Beltran-Morales LF (2010) Valoracion economica del servicio hidrologico del acuıfero de La Paz,
+´
+BCS: una valoracion contingente del uso de agua municipal. Frontera norte 22(43):103–128
+Barbier EB, Czajkowsk M, Hanley N (2015) Is the income elasticity of the willingness to pay for
+pollution control constant?’’ Working paper 7/2015(155), University of Warsaw, Faculty of
+Economic Sciences. http://www.wne.uw.edu.pl/ﬁles/5214/2559/0151/WNE_WP155.pdf
+Bartczak A (2015) The role of social and environmental attitudes in non-market valuation: an application
+to the Białowie_ a Forest. Forest Policy and Economics 50:357–365
+z
+Bateman IJ, Day BH, Dupont DD, Georgiou S (2009) Procedural invariance testing of the one-and-onehalf-bound dichotomous choice elicitation method. Rev Econ Stat 91(4):806–820
+Bell ML, Davis DL, Gouveia N, Borja-Aburto VH, Cifuentes LA (2006) The avoidable health effects of
+air pollution in three Latin American cities: Santiago, Sao Paulo, and Mexico City. Environ Res
+100:431–440
+´
+Beltran E, Rojas M (1996) Diversiﬁed funding methods in Mexican archeology. Ann Tour Res
+23(2):463–478
+Birol E, Villalba ER, Smale M (2009) Farmer preferences for milpa diversity and genetically modiﬁed
+maize in Mexico: a latent class approach. Env Dev Econ 14(4):521–540
+Brander LM, Koetse MJ (2011) The value of urban open space: meta-analyses of contingent valuation
+and hedonic pricing results. J Env Manag 92(10):2763–2773
+´
+´
+´
+´
+˜
+˜
+Calderon-Garciduenas L, Mora-Tiscareno A, Ontiveros E, Gomez-Garza G, Barragan-Mejıa G,
+Broadway J, Engle RW (2008) Air pollution, cognitive deﬁcits and brain abnormalities: a pilot
+study with children and dogs. Brain Cogn 68(2):117–127
+Carlsson F, Johansson-Stenman O (2000) Willingness to pay for improved air quality in Sweden. Appl
+Econ 32:661–669
+Carson RT (2012) Contingent valuation: a practical alternative when prices aren’t available. J Econ
+Perspect 26(4):27–42
+Carson RT, Flores NE, Meade NF (2001) Contingent valuation: controversies and evidence. Env Resour
+Econ 19:173–210
+´
+´
+Centro de Estudios de las Finanzas Publicas (CEFP) (2009) ‘‘Perﬁl socioeconomico del Distrito Federal,’’
+´
+Camara de Diputados, CEFP/037/2009. http://www.cefp.gob.mx/intr/edocumentos/pdf/cefp/2009/
+cefp0372009.pdf. Accessed 8 Nov 2016
+˜
+Cesar H, Borja-Aburto VH, Dorland K, Munoz-Cruz R, Brander L, Cropper M, Gonzalez-Martinez AC,
+Olaiz-Fernandez G, Vergara W (2002) ‘‘Improving air quality in metropolitan Mexico City: an
+economic valuation,’’ World Bank, The Mexico Air Quality Management Team, Policy Research
+Working Papers. http://elibrary.worldbank.org/doi/abs/10.1596/1813-9450-2785. Accessed 8 Nov
+2016
+Chen WY, Hua J (2015) Citizens’ distrust of government and their protest responses in a contingent
+valuation study of urban heritage trees in Guangzhou, China. J Env Manag 155:40–48
+´
+´
+´
+Clear Air Institute (CAI) (2013) ‘‘La calidad del aire en America Latina: Una vision panoramica,’’
+Washington D.C., USA. http://www.cleanairinstitute.org/calidaddelaireamericalatina/cai-reportspanish.pdf. Accessed 8 Nov 2016
+Cooper JC, Hanemman M, Signorello G (2002) One-and-one-half-bound dichotomous choice contingent
+valuation. Rev Econ Stat 84(4):472–750
+Davis LW (2008) The effect of driving restrictions on air quality in Mexico City. J Polit Econ
+Escamilla-Nunez MC, Barraza-Villarreal A, Hernandez-Cadena L, Moreno-Macias H, Ramirez-Aguilar
+M, Sienra-Monge JJ, Cortez-Lugo M, Texcalac JL, del Rio-Navarro B, Romieu I (2008) Trafﬁcrelated air pollution and respiratory symptoms among asthmatic children, resident in Mexico City:
+the EVA cohort study. Respir Res 9(1):74–85
+Gallego F, Montero JP, Salas C (2013a) The effect of transport policies on car use: a bundling model with
+applications. Energy Econ 40(S1):85–97
+Gallego F, Montero JP, Salas C (2013b) The effect of transport policies on car use: evidence from Latin
+American cities. J Public Econ 107:47–62
+´
+´
+Garcıa-Robles C (2010) ‘‘Escenarios de consumo de energıa y emisiones de gases de efecto invernadero
+´
+del transporte de pasajeros de la zona metropolitana de la ciudad de Mexico,’’ UNAM, master thesis.
+http://www.ptolomeo.unam.mx:8080/xmlui/bitstream/handle/132.248.52.100/3995/garciarobles.pdf?
+sequence=1. Accessed 8 Nov 2016
+Gonzalez F, Leipnik M, Mazumder D (2013) How much are urban residents in Mexico willing to pay for
+cleaner air? Env Dev Econ 18(3):354–379
+Haab TC, McConnell KE (2002) Valuing environmental and natural resources: the econometrics of nonmarket valuation. Edward Elgar Publishing, Cheltenham, UK
+´
+Hammitt JK, Ibarraran ME (2006) The economic value of fatal and non-fatal occupational risks in
+Mexico City using actuarial- and perceived-risk estimates. Health Econ 15:1329–1335
+Hanemann M, Loomis J, Kanninen B (1991) Statistical efﬁciency of double-bounded dichotomous choice
+contingent valuation. Am J Agric Econ 73(4):1255–1263
+Hanna R, Oliva P (2015) The effect of pollution on labor supply: evidence from a natural experiment in
+Mexico City. J Public Econ 122:68–79
+Heredia-Pi IB, Servan-Mori E, Reynales-Shigematsu LM, Bautista-Arredondo S (2012) The maximum
+willingness to pay for smoking cessation method among adult smokers in Mexico. Value Health
+15(5):750–758
+Husted BW, Russo MV, Basurto-Meza CE, Tilleman SG (2014) An exploratory study of environmental
+attitudes and the willingness to pay for environmental certiﬁcation in Mexico. J Bus Res
+67(5):891–899
+´
+´
+´
+Instituto Nacional de Estadıstica y Geografıa (INEGI) (2010) Panorama sociodemograﬁco del Distrito
+Federal. http://documents.mx/documents/delegaciones-panorama-df.html. Accessed 8 Nov 2016
+´
+´
+´
+Instituto Nacional de Estadıstica y Geografıa (INEGI) (2016) Vehıculos de motor registrados en
+´
+circulacion. http://www.inegi.org.mx/est/lista_cubos/consulta.aspx?p=adm&c=8. Accessed 8 Nov
+2016
+Kling CL, Phaneuf DJ, Zhao J (2012) From Exxon to BO: has some number become better than no
+number. J Econ Perspect 26(4):3–26
+Krinsky I, Robb AL (1986) On approximating the statistical properties of elasticities. Rev Econ Stat
+68(4):715–719
+Margulis S (1996) Back-of-the-envelope estimates of environmental damage costs in Mexico. In: May
+PH, da Motta RS (eds) Pricing the planet: economic analysis for sustainable development. Columbia
+University Press, New York
+´
+´
+Martınez-Cruz AL, Sainz-Santamarıa J (2015) Recreational Value of Two Peri-urban forests in Mexico
+City, working paper. https://www.researchgate.net/proﬁle/Adan_Martinez-Cruz/publication/
+282132523_Recreational_value_of_two_peri-urban_forests_in_Mexico_City/links/560415ce08aeb
+5718feedc41.pdf. Accessed 8 Nov 2016
+´
+˜
+Martınez-Espineira R, Lyssenko N (2011) Correcting for the endogeneity of pro-environmental
+behavioral choices in contingent valuation. Ecol Econ 70:1435–1439
+´
+´
+¨
+McKinley G, Zuk M, Hojer M, Avalos M, Gonzalez I, Iniestra R, Laguna I, Martınez MA, Osnaya P,
+´
+´
+Reynales LM, Valdes R, Martınez J (2005) Quantiﬁcation of local and global beneﬁts from air
+pollution control in Mexico City. Env Sci Technol 39(7):1954–1961
+Molina M, Molina L (eds) (2002) Air quality in the Mexico megacity: an integrated assessment, vol 15.
+Kluwer Academic Publishers, New York
+Nyborg K (2000) Homo economicus and homo politicus: interpretation and aggregation of environmental
+values. J Econ Behav Organ 42:305–322
+Oliva P (2012) Environmental regulations and corruption: automobile emissions in Mexico City,
+University of California at Santa Barbara Working Paper. http://www.econ.ucsb.edu/*oliva/Docs/
+Smog_Checks_Jan2012.pdf. Accessed 8 Nov 2016
+´
+Perez-Verdin G, Navar-Chaidez J, Kim Y, Silva-Flores R (2011) Valuing watershed services in mexico’s
+distributions: a convolution approach. Am J Agric Econ 76:904–915
+Poe GL, Welsh MP, Champ PA (1997) Measuring the difference in mean willingness to pay when
+dichotomous choice contingent valuation responses are not independent. Land Econ 73:255–267
+Proaire (2001) ‘‘Programa para mejorar la calidad del aire de la ZMVM 2002–2010’’. http://www.aire.
+cdmx.gob.mx/descargas/publicaciones/gestion-ambiental-aire-memoria-documental-2001-2006/
+descargas/proaire_2002-2010.pdf. Accessed 8 Nov 2016
+˜
+˜
+Rivera-Planter M, Munoz-Pina C (2005) Fees for Reefs: economic Instruments to Protect Mexico’s
+Marine Natural Areas. Curr Issues Tour 8(2–3):195–213
+´
+´
+Rodrıguez-Sanchez JI (2014) Do Mexicans care about air pollution? Lat Am Econ Rev 1:1–24
+˜
+Romieu I, Barraza-Villarreal A, Escamilla-Nunez C, Almstrand AC, Diaz-Sanchez D, Sly PD, Olin AC
+(2008) Exhaled breath malondialdehyde as a marker of effect of exposure to air pollution in children
+with asthma. J Allergy Clin Immunol 121(4):903–909
+´
+´
+´
+Sanchez-Brito I, Almendarez-Hernandez MA, Morales-Zarate MV, Salinas Zavala CA (2013) Valor de
+´
+´
+existencia del servicio ecosistemico hidrologico en la Reserva de la Biosfera Sierra La Laguna, Baja
+´
+California Sur, Mexico. Frontera norte 25(50):97–129
+Scarpa R, Drucker AG, Anderson S, Ferraes-Ehuan N, Gomez V, Risopatron CR, Rubio-Leonel O (2003)
+Valuing genetic resources in peasant economies: the case of ‘hairless’ creole pigs in Yucatan. Ecol
+Econ 45(3):427–443
+Secretaria del Medio Ambiente del Gobierno del Distrito Federal (SMAGDF) (2009) ‘‘Calidad del aire en
+´
+la Ciudad de Mexico, Informe 2009’’. http://www.aire.df.gob.mx/descargas/publicaciones/
+ﬂippingbook/informe_anual_calidad_aire_2009/. Accessed 8 Nov 2016
+Soto-Montes de Oca G, Bateman IJ (2006) Scope sensitivity in households’ willingness to pay for
+maintained and improve water supplies in a developing world urban area: investigating the inﬂuence
+of baseline supply quality and income distribution upon stated preferences in Mexico City. Water
+Resour Res 42:W07421. doi:10.1029/2005WR003981
+Spash CL (2006) Non-economic motivation for contingent values: rights and attitudinal beliefs in the
+willingness to pay for environmental improvements. Land Economics 82(4):602–622
+Spash CL, Urama K, Burton R, Kenyon W, Shannon P, Hill G (2009) Motives behind willingness to pay
+for improving biodiversity in a water ecosystem: economics, ethics and social psychology. Ecol
+Econ 68:955–964
+Strazzera E, Scarpa R, Calia P, Garrod GD, Willis KG (2003) Modelling zero values and protest
+responses in contingent valuation surveys. Appl Econ 35(2):133–138
+Tonsor GT, Schroeder TC, Pennings JME, Mintert J (2009) Consumer valuations of beef steak food
+safety enhancement in Canada, Japan, Mexico, and the United States. Can J Agric Econ
+57(3):395–416
+˜
+Vargas-Bustamante A, Ojeda G, Castaneda X (2008) Willingness to pay for cross-border health insurance
+between the United States and Mexico. Health Aff 27(1):169–178
+´
+´
+Vasquez WF, Mozumder P, Hernandez-Arce J, Berrens RP (2009) Willingness to pay for safe drinking
+water: evidence from Parral, Mexico. J Env Manage 90:3391–3400
+´
+Wang Y, Zhang YS (2009) Air quality assessment by contingent valuation in Jinan, China. J Env Manag
+90:1022–1029
+Whittington D (2002) Improving the performance of contingent valuation studies in developing countries.

@@ -1,4 +1,4 @@
-Introduction
+
 Global warming is a particularly thorny externality because it is global and its
 effects extend for many decades into the future. To complicate matters even more, it
 has heterogeneous effects around the world. It requires a level of effort and
@@ -41,7 +41,6 @@ damage of climate change is likely to be most heavily concentrated in low-income
 and tropical regions such as tropical Africa, Latin America, coastal states, and the
 Indian subcontinent.
 The economics of climate change is simple. When we burn fossil fuels we emit
-CO2 into the atmosphere, and this leads over time to potential harmful effects. Such a process is an externality that occurs because those who produce the emissions do
 not pay for that privilege, and those who are harmed are not compensated. One
 major lesson from economics is that unregulated markets cannot efﬁciently deal
 with harmful externalities. Any solution needs substantial reductions in the
@@ -85,9 +84,6 @@ seriously in mitigation. In that case, Latin America could exploit its comparati
 advantage in the conservation and management of forests, which are a large carbon
 sink. Finally, deciding which policies to implement depends on the results of
 thorough cost–beneﬁt analysis of competing projects. Such cost–beneﬁt analyses
-have yet to be carried out.
-
-The next section of the paper describes the projected trends in climate change and
 what has been suggested to overcome them. Section 3 then presents a list of
 available policies that have been proposed to address climate change, divided into
 three broad categories: adaptation, mitigation, and development policies that
@@ -126,7 +122,10 @@ the IPCC concluded in its fourth Assessment Report that ‘‘…most of the obs
 increase in global average temperatures since the mid-twentieth century is very likely
 due to the observed increase in anthropogenic greenhouse gas concentration’’ (IPCC
 2007, 9). Nevertheless, the correlation between greenhouse gas emissions and
-temperature cannot yet be given a conclusive causal interpretation. Moreover, despite average global temperature showing a clear upward trend during the second
+temperature cannot yet be given a conclusive causal interpretation. Moreover,
+1
+
+For a more detailed review of the greenhouse effect and the absorption rates of different gases, see
 half of the twentieth century, in the last decade temperatures have stabilized,
 although at record levels (NOAA 2012). At the same time, the amount of greenhouse
 gases (particularly CO2 concentration in the atmosphere) has never stopped rising
@@ -171,9 +170,6 @@ atmosphere also allows crops to grow faster. However, dry and low-latitude regio
 may suffer from a decrease in crop yields, and increases beyond the 3 °C threshold
 will reduce overall crop production. Although economic development may
 drastically reduce the number of undernourished people, there is concern that
-climate change may alter the relative distribution of people at risk.
-
-If estimating how global warming could impact natural and social environments
 is troublesome, costing these effects is even more difﬁcult. The way to cost
 nonmarket goods—such as damage to or disappearance of ecosystem services, and
 loss of species or human lives—has not yet been agreed upon. Table 1 presents a list
@@ -201,1094 +197,250 @@ shelter for animals, etc.), but this value may be difﬁcult and/or expensive to
 estimate. In order to do so, researchers use the cost estimates obtained from a study
 in which the source of variation in a reserve similar to the one under study is not
 climate.
+Table 1 Estimates of global warming and its impact in terms of share of income lost
+World Bank (2012) World Development Indicators. http://databank.worldbank.org/data/views/reports/
+Lat Am Econ Rev (2015) 24:14
+DOI 10.1007/s40503-015-0028-4
+CLIMATE CHANGE
 
-These studies have some limitations that arise from the fact that they ‘‘impose’’ a
-discrete change in climate to an actual environment. First, temperature increases are
-expected to be gradual, and thus agents (both private and public) are expected to
-adapt, something that is not being taken into account in these estimations. Second,
-cost extrapolation (especially of nonmarket goods and services) has many
-limitations, and the error margin can be substantial (Brouwer and Spaninks 1999)
-for studies that review and estimate error margins in papers that assess
-environmental damage costs using the ‘‘beneﬁt transfer’’ approach. Thus, it is not
-evident that costs in one place should be valid for another, or that those of the past
-may be applied in estimations for a 100 years from now.
-In contrast, Mendelsohn et al. (2000) and Nordhaus (2006) base their estimates
-on a ‘‘statistical approach’’ in which the effect of temperature, precipitation, and
-other climatic phenomena on prices and expenditure are estimated using data from
-different regions within each country, also controlling for other observable
-characteristics. These estimates are then combined with the expected effects
-according to different climatic projections, thus assuming that observed differences
-across space are also valid across time. Mendelsohn et al. (2000) estimate the
-economic impact of climate variables for each sector in selected countries and then
-extrapolates the costs to the rest of the countries and adds the estimates of all
-sectors. Nordhaus (2006), on the other hand, regresses income generated in
-geographic cells of 1° latitude by 1° longitude on climatic variables for 17,000 grid
-cells. Again, estimates are used in climatic models to assess the welfare effects of
-climate change, also assuming that the previously estimated differences across
-space continue to hold over time.
-By relying on real differences in climate and income rather than extrapolations,
-this approach has the advantage of taking into account (although implicitly and only
-up to a certain extent) adaptation practices carried out at different levels. However,
-the estimations are always obtained from cross-sectional data, which may produce
-biased estimates of the effects of climatic variables due to endogeneity problems.
-Furthermore, some features of climate change (such as the effect of CO2
-concentration on agriculture or sea level rise) vary little over space, and thus their
-impact cannot be assessed through this method.
-Concerning cost estimates, all of them are global averages, so they mask broad
-differences between regions. In fact, high-latitude regions (where most developed
-countries are located) are expected to warm more than those closer to the equator.
-This means that regions that were unsuitable for agriculture and livestock will
-become available for primary activities. Moreover, energy demand for heating will
-decrease, and less people will suffer from cold-related illnesses. On the other hand,
-low-latitude regions will become hotter and dryer, rendering infertile large land
-areas that are currently being used for agriculture and livestock breeding, and on
-which developing countries heavily rely.
-Despite these facts, it is striking that differences among studies in terms of the
-costs of climate change can be as high as 7 % of global income. The main difference
-is between cost estimates carried out during the 1990s and those realized in the last
-decade. While the former seem quite pessimistic, the latter show even positive
-aggregate effects due to global warming. This difference arises mainly because the
+Climate change in Latin America and the Caribbean:
+policy options and research priorities
+Brian Feld1 • Sebastian Galiani2
 
+Published online: 11 November 2015
+Ó The Author(s) 2015. This article is published with open access at Springerlink.com
 
-‘‘ﬁrst wave’’ of studies did not take into account the aforementioned potential
-beneﬁts that climate change may have in some temperate regions and in sectors such
-as food production and energy consumption.
-Other differences mainly involve the range of sectors each study covers.
-Mendelsohn et al. (2000) cover only ﬁve sectors (agriculture, forestry, energy,
-water, and coastal zones) and only estimate the costs of market good and service
-losses. Tol (2002) and Nordhaus and Boyer (2000), on the other hand, include
-market as well as nonmarket goods and a wider range of sectors, such as ecosystems
-and health. It should be noted that even though Tol (2002) estimates that GDP will
-rise 2.3 % for every 1 °C increase in temperature, his study estimates no impact on
-global GDP if temperatures were to rise 2 °C and even negative consequences
-beyond this threshold, in line with other authors (Stern 2007).
-As mentioned earlier, most of the ﬁgures presented above are estimated assuming
-that nothing is done to cope with climate change. This is a pretty improbable
-scenario. First, there is ample evidence that human as well as natural systems have
-adapted to changing conditions in the past. Second, talks to address global warming
-have been on the international agenda for a couple of decades. The next section
-describes the different policies identiﬁed to cope with climate change.
+Abstract Although climate change is ﬁlled with uncertainties, a broad set of
+policies proposed to address this issue can be grouped in two categories: mitigation
+and adaptation. Developed countries that are better prepared to cope with climate
+change have stressed the importance of mitigation, which ideally requires a global
+agreement that is still lacking. This paper uses a theoretical framework to argue that
+in the absence of a binding international agreement on mitigation, Latin America
+should focus mainly on adaptation to cope with the consequences of climate change.
+This is not a recommendation that such economies indulge in free-riding. Instead, it
+is based on cost–beneﬁt considerations, all else being equal. Only in the presence of
+a global binding agreement can the region hope to exploit its comparative advantage
+in the conservation and management of forests, which are a large carbon sink. The
+decision of which policies to implement should depend on the results of a thorough
+cost–beneﬁt analysis of competing projects, yet very little is known or has been
+carried out in this area to date. Research should be directed toward cost–beneﬁt
+analysis of alternative climate change policies. Policymakers should compare other
+investments that are also pressing in the region, such as interventions to reduce
+water and air pollution, and determine which will render the greatest beneﬁts.
+Keywords
 
-3 Addressing climate change: mitigation and adaptation
-Mitigation policies are those aimed at reducing greenhouse gas emissions, with the
-objective of stabilizing (or even reducing) their concentration in the atmosphere.
-Public policies in this regard entail developing incentives to implement more
-efﬁcient processes of production, as well as to use less-polluting inputs and cleaner
-energy sources, but they also involve the increased use of carbon sinks, such as
-forests. Mitigation has received the attention of most governments since climate
-change was recognized as a threat. Adaptation, on the other hand, is deﬁned by the
-IPCC Third Assessment Report as the ‘‘adjustment in ecological, social or economic
-systems in response to actual or expected climatic stimuli and their effects or
-impacts’’ (Smit et al. 2001, 879).2
-International talks and agreements and country-level discussions on climate
-change and how to address it began in the mid-1980s and initially focused only on
-mitigation. For example, in 1988 the World Conference on the Changing
-Atmosphere ended with a nonbinding agreement in which countries committed to
-reduce emissions by 20 % by 2005. Similar agreements were achieved at the Second
-World Climate Conference in 1990, the United Nations Framework Convention on
+Climate change Á Adaptation Á Cost–beneﬁt analysis
+
+JEL Classiﬁcation
+
+Q52 Á Q54
+
+& Sebastian Galiani
+galiani@econ.umd.edu
+1
+
+Department of Economics, University of Illinois at Urbana–Champaign, Urbana, USA
+
 2
 
-As an alternative to reducing the impact of climate change, scientists have investigated the possibility
-of deliberately provoking large changes in the environment that may offset the effects of global warming.
-‘‘Geoengineering’’, as it is known, comprises two broad categories: solar radiation management, which
-involves increasing the share of solar radiation that goes back into space; and carbon dioxide removal,
-which entails augmenting the capacity of CO2 absorption and storage. However, the consequences of such
-interventions have not yet been fully assessed, and the probability of negative side effects surpassing the
-desired beneﬁts is still so high that these initiatives have not been seriously considered in the short run.
-For a more detailed description of geoengineering and the debate over it, see Keith (2000) and Schneider
-(2008). Climate Change 1992, and the Kyoto Protocol in 1997 (although this one went a
-step further by establishing more stringent commitments to reduce emissions). As a
-consequence of the focus on mitigation, research on optimal strategies to cope with
-climate change did not take adaptation into account—the ﬁrst model that quantiﬁed
-the economic impact of climate change (Nordhaus 1994) only enabled the
-possibility of mitigating emissions. Adaptation as a tool to cope with climate change
-has only been introduced into the climate change agenda and economic modeling in
-the last decade (Lecocq and Shalizi 2007; de Bruin et al. 2009; Chisari et al. 2013).
-From a historical perspective, the problem of global warming was seen as similar
-to that of depletion of the ozone layer, which culminated in the Montreal Protocol in
-1987. This agreement focused on the reduction and eventually the ban of
-chloroﬂuorocarbon gases and had very high compliance among countries. This gave
-politicians conﬁdence about the effectiveness of international agreements to reduce
-greenhouse gas emissions, as if the problems were analogous. However, the
-magnitude of the problem that climate change entails is far bigger than the one the
-Montreal Protocol addressed. There is greater uncertainty about each country’s
-capacity to reduce emissions, and many of the lessons of the Montreal agreement
-(such as treating each gas separately) have not been taken into account in current
-negotiations.
-From a political point of view, if greenhouse gas emissions are indeed the
-primary cause of the acceleration of global warming in recent decades, then
-mitigation policies would be addressing the causes of climate change. In contrast,
-adaptation practices aim to soften the consequences of climate change. During
-earlier negotiations, politicians and diplomats believed that society would view
-discussions and research focused on adaptation as recognition of defeat (Victor
-2011). However, a great deal of recent research (IPCC 2007; Stern 2007; Agrawala
-and Fankhauser 2008; de Bruin et al. 2009) has pointed out that adaptation will be
-needed because ‘‘…near-term impacts of climate change are already ‘locked-in’,
-irrespective of the stringency of mitigation efforts…’’ (de Bruin et al. 2009, 11).
-Chisari et al. (2013) show that adaptation is a very important strategy to cope with
-climate change for developing countries even as large as Brazil. They point out that
-if countries do not adopt their optimal adaptation strategies, they will end up
-achieving less mitigation than they otherwise would have.
-From an economic perspective, greenhouse gas emissions are a negative
-externality. Gases expand through the atmosphere across political borders. Thus,
-one country’s emissions affect all the others, and no cost is imposed on the emitting
-country. Mitigation aims (at least partially) to neutralize this externality by
-imposing a cost to these emissions. At the global level, optimal mitigation requires
-equalizing the incremental or marginal costs of reducing emissions in every sector
-and country (Nordhaus 2008). Unfortunately, the world is not even close to
-achieving an agreement to move in that direction.3
-Mitigation is a global public good, and as such, it is subject to the usual collective
-action problems. If a country were to reduce its greenhouse gas emissions, the
-beneﬁts would be shared by the entire world, thus reducing individual incentives for engaging in mitigation. Moreover, the largest ﬁve emitters (counting the European
-Union as one) account for more than 60 % of total emissions, so individual efforts
-from other countries would not have much impact. Another concern is that
-mitigation in some countries may produce ‘‘leakages’’ in others. In other words,
-when a country engages in mitigation policies, it imposes changes that increase
-production costs in the economy. If regulations are not implemented in tandem,
-ﬁrms may move to countries where regulations are more lax. Thus, the overall
-regulatory impact would be reduced or even nulliﬁed. Two principal mechanisms
-have been proposed to address this issue: ﬁrst, countries could impose trade
-sanctions on noncompliers in the same way the World Trade Organization does
-today when a member country raises trade barriers; or second, mitigation could be
-focused on greenhouse gas emissions related to consumption of goods and services
-rather than production. Indeed, since the 1970s, ﬁrms from industrialized countries
-have relocated their factories in emerging countries, where production costs are
-lower. This increases emissions in emerging countries, even if most of the
-production is still consumed in the industrialized countries. To date countries have
-not agreed on any efﬁcient institution or mechanism to enforce compliance among
-parties.
-Furthermore, estimates of cost-effectiveness are different for mitigation and
-adaptation. The effectiveness of a determined mitigation policy is measured by the
-amount of greenhouse gas emissions reduced by its implementation. Whether and
-how this translates into avoided global warming remains to be seen, but this metric
-has allowed researchers and politicians to rank mitigation policies in terms of their
-cost-effectiveness. No such estimates are available yet for adaptation, mostly
-because policies for each sector translate into different kinds of avoided damages
-that must then be monetized in order to harmonize the results and allow for
-proposing policies that should be prioritized for their cost-effectiveness. Even if
-what really matters when comparing mitigation with adaptation policies is their
-cost–beneﬁt ratios, this difference may delay action in terms of prioritizing which
-policies should be put into practice.
-Moving beyond mitigation and adaptation, many researchers have argued that
-poor countries’ lack of resilience to the effects of climate change is rooted in their
-dependence on agriculture and other weather-sensitive activities and their lack of
-nationwide access to basic infrastructure (World Bank 2010). Thus, all else being
-equal, climate change and extreme events such as droughts, ﬂoods, hurricanes, etc.,
-would have more catastrophic consequences in poor countries than in developed
-ones. Addressing these issues would thus increase poor countries’ resilience to
-climate change and enhance the well-being of their populations even in the absence
-of global warming. This is why these are called ‘‘no-regret’’ policies, and why
-countries are encouraged to implement them independently of any global agreement
-to reduce emissions.
-3.1 Mitigation policies and practices
-The effectiveness of mitigation is measured by the ‘‘potential’’ of policies, which
-expresses the degree of greenhouse gas reduction that can be achieved by a mitigation option with a given cost per ton of carbon avoided over a given period,
-compared to a baseline scenario (Barker et al. 2007).
-In order to reduce the concentration of greenhouse gases in the atmosphere,
-governments can provide incentives to consumers and ﬁrms to reduce the amount of
-gases that are released, ﬁnance research programs to develop technologies to further
-reduce emissions, or increase the earth’s absorption capacity (for example, by
-expanding the forest area). Policies can be market-based (i.e., through the price
-system) or impose the use of certain practices and/or technologies on ﬁrms. Since
-the latter is usually more expensive and less ﬂexible than the former, economists
-recommend that policies focus on creating market signals that discourage emissions.
-Market-based policies can regulate either the price of emissions (through
-taxation) or the amount of emissions allowed, leaving the determination of the price
-of carbon to the market by letting ﬁrms trade ‘‘emissions rights’’. Under perfect and
-symmetric information both approaches should render the same results, but the
-presence of uncertainties and information asymmetries about the dangers of
-greenhouse gas emissions and the cost of controls implies that they will have
-different consequences. The decision as to which type of regulation to use depends
-mostly on which uncertainty entails the greatest dangers. A perception that the
-consequences of increasing emissions could be catastrophic should favor cap and
-trade schemes, while the risk of emissions regulation entailing large costs should
-induce policymakers to adopt tax schemes.
-Table 2 presents a series of public policies and private measures that have the
-potential to either reduce the amount of greenhouse gases that are released into the
-atmosphere or increase the absorption capacity of the planet.
-3.2 Adaptation policies and practices
-Unlike mitigation, adaptation does not have a well-deﬁned metric to rank policies in
-order of effectiveness. Each problem that may arise as consequence of climate
-change in each speciﬁc place has to be addressed in a different way. However, while
-mitigation policies should be undertaken as soon as possible in order to stop (or at
-least delay) global warming, in most cases there is no rush to adopt adaptation
-measures, and it could be even beneﬁcial to wait before acting (this argument will
-be justiﬁed in Sect. 5). Also, since the beneﬁts of adaptation can be fully
-internalized by the agent that implements it, no international agreement is needed.
-This does not mean that aid is not needed to enhance adaption policies in poor
-countries. But it has been a reason to claim that adaptation should be left to the
-private sector, strengthened by the fact that mankind has already proven to
-effectively adapt to diverse scenarios. Having said that, public intervention will still
-be needed to ‘‘climate-proof’’ those private goods and services either provided by
-the State or used to protect public goods and assets that have network effects (such
-as transport infrastructure, and power grids and utilities) or that provide beneﬁts for
-¨
-an entire community (Oberlack and Neumarker 2011; Lecocq and Shalizi 2007).
-Finally, public policies might be needed to overcome possible market failures. As it
-has been mentioned, the way each region will need to adapt is case speciﬁc, and not
-before having rigorously determined (using a framework that will be developed in Sect. 5 of this paper) which are the best policies to be implemented. Table 3
-presents a list of public and private adaptation measures divided by sector.
-However, policies can be also classiﬁed by scope (distinguishing between local and
-regional or short- and long-term policies), timing (proactive or reactive), or the
-agent that carries them out (either private or public).
-3.3 Development policies
-In addition to traditional adaptation policies, an increase in the quantity and quality
-of public goods such as health, education, and access to clean water might also help
-reduce the adverse effects of climate change, while being useful even if its
-consequences do not materialize. That is why some studies call them ‘‘no-regret’’
-policies. Although the overlap between adaptation and development is large (OECD
-2009), and what constitutes a no-regret policy for some countries may be considered
-pure adaptation for others, there are some well-known policies that could increase
-the resilience of society to climate change even if that is not their primary goal.
-These policies address drivers of vulnerability, regardless of whether they have an
-origin in climate change. Moreover, development generally is accompanied by
-economic growth, which reduces the share of GDP used for adaptation, making
-more policies feasible. Among these policies, probably the most salient are the
-extension of access to public services such as education and health.
-Education has proven to have many spillovers related to productivity increases
-and diversiﬁcation, allowing societies to reduce their dependence on weathersensitive activities. Education can be tailored to address issues that would arise as
-the climate changes, such as protection against heat waves and infectious diseases.
-Improvement in public education can be achieved by investing in infrastructure such
-as more and better-equipped schools, reducing class size, decentralizing decision´
-making, and improving the monitoring of teachers (Duﬂo 2001; Galiani and Perez
-Truglia 2013).
-Poor public health is a major barrier to economic growth in developing
-economies, and is exacerbated by the proliferation of slums, which is a side effect of
-economic growth when combined with the uncontrolled increase in urban
-populations. According to UN-Habitat (2003), almost 1 billion people currently
-live in such environments. Slum dwellers suffer from poor infrastructure and poor
-provision of such public services as piped water and drainage and waste disposal
-systems, and they are reluctant to invest in homes for which property rights are not
-well established. In 2008, nearly 40 % of the world population lacked adequate
-sanitation facilities, and more than 10 % used inadequate sources of water (Duﬂo
-et al. 2012). This has adverse health consequences such as diarrheal diseases, which
-account for 21 % of child mortality in developing countries.
-Policies that deal with this issue include improvements in infrastructure such as
-hospitals and other medical centers, the provision of subsidies for medicines,
-education campaigns about how to prevent diseases and infections, the expansion of
-clean water and drainage networks, improvements in waste management systems,
-and the upgrading of slums through the use of building standards that make them apt
-for climatic phenomena as needed. All of these policies are subject to potential barriers in terms of their effectiveness, including high provision costs, low
-willingness to pay due to lack of complete knowledge of the beneﬁts of these
-services, and liquidity constraints that constrain connection to existing networks.
-Institutional constraints—such as lack of coordination between different levels of
-government or collective action problems—can also be behind the service deﬁcit.
-These issues must be taken into account and overcome in order to ensure that
-policies that improve access to sanitation services are effectively implemented
-(Duﬂo et al. 2012).
-With regard to the provision of water in general, in regions where water is
-already scarce (such as the Andean region of South America and northern Mexico),
-implementation of irrigation systems can increase the land available for agriculture
-and livestock, and thus increase food security. Increasing the availability of safe
-water is also fundamental in cities, mostly for people living in slums. Policies in this
-direction include improvements in distribution systems and investment in transbasin infrastructure, as well as the development of water markets (Grafton et al.
-2011) and implementation of water management practices. In countries where water
-availability is unevenly distributed during the year (World Bank 2010), increased
-water harvesting and expansion of storage capacity would signiﬁcantly alleviate the
+Department of Economics, University of Maryland and NBER, 3105 Tydings Hall,
+Global warming is a particularly thorny externality because it is global and its
+effects extend for many decades into the future. To complicate matters even more, it
+has heterogeneous effects around the world. It requires a level of effort and
+commitment from the international community that is unparalleled in history, its
+consequences are potentially disastrous, and it is plagued with uncertainties.
+While the physical mechanism that links greenhouse gases to global warming is
+clear and records show that the concentration of greenhouse gases has been
+increasing in the atmosphere for the last two centuries, a long list of scientiﬁc
+uncertainties makes it difﬁcult to assess precisely how much warming will result
+from a given increase in greenhouse gas concentrations, when such warming will
+occur, or how it will affect different regions and ecosystems.
+To address these concerns, the United Nations and the World Meteorological
+Organization established an international body—the Intergovernmental Panel on
+Climate Change (IPCC)—to assess the scientiﬁc knowledge on climate change.
+Projecting future climate trends is a complex endeavor. To cope with these
+complexities, the IPCC produced a set of emissions scenarios. Each scenario
+provides an alternative and internally consistent picture of how world development
+might shape future emission trends. Taking into account these scenarios, along with
+uncertainty about emissions and climate-system response, projected twenty-ﬁrst
+century warming ranges from 1.1 to 6.4 °C (IPCC 2007). Thus, while the magnitude
+of global warming that might occur in the future is indeed highly uncertain, all these
+scenarios agree on its upward direction.
+Just as the effects of global warming on the climate system are uncertain, the
+physical and socioeconomic implications of climate change are not fully
+understood. Thus, uncertain physical risks are compounded by uncertain natural
+and socioeconomic consequences. Uncertainty about the effects of climate change
+and how to cope with them is also compounded by uncertainty about its cost. Costs
+are unknown due to possible changes in the available technology, the existence of
+irreversibilities in some policies that cope with the problem, and the presence of
+nonmarket goods and services that are vulnerable to climate change. In short,
+uncertainty is the single most important attribute of climate change as a policy
 problem.
-˜
-Latin America is subject to extreme events mostly related to the ‘‘El Nino’’
-southern oscillation. This phenomenon involves the increase of the Paciﬁc Ocean’s
-surface temperature along the coasts of Ecuador and Peru. Scientists have found that
-this anomaly can affect atmospheric circulation features and produce persistent
-temperature and precipitation anomalies in many regions, such as wetter conditions
-along the west coast of tropical South America and subtropical latitudes of North
-˜
-and South America. The opposite is evidenced during ‘‘La Nina’’ episodes.
-According to Magrin et al. (2007), these anomalies negatively affect such sectors as
-agriculture and livestock, human health (through the outbreak of disease vectors that
-develop in warm and humid environment), and both public and private infrastructure (since ﬂoods that are consequence of increased rainfall can damage houses,
-roads, power networks, etc.). They note that these consequences have become more
-frequent in the last three decades, in line with what has happened as a result of other
-highly unusual extreme weather events.
+A central concept in analyzing the effects of climate change is whether a system
+can be managed. The nonagricultural sectors of high-income countries are highly
+managed and this feature will allow them to better adapt to climate change.
+However, human and natural systems that are unmanaged or unmanageable are
+highly vulnerable. These systems include rain-fed agriculture, seasonal snow packs,
+coastal communities, river runoffs, and natural ecosystems. Thus, the potential
+damage of climate change is likely to be most heavily concentrated in low-income
+and tropical regions such as tropical Africa, Latin America, coastal states, and the
+Indian subcontinent.
+The economics of climate change is simple. When we burn fossil fuels we emit
+not pay for that privilege, and those who are harmed are not compensated. One
+major lesson from economics is that unregulated markets cannot efﬁciently deal
+with harmful externalities. Any solution needs substantial reductions in the
+emissions of CO2 into the atmosphere. An obvious instrument to achieve that goal is
+to raise the market price of those emissions. Raising the price on carbon will achieve
+four goals. First, it will provide signals to consumers to reduce the consumption of
+goods and services that are carbon-intensive. Second, it will provide signals to
+producers to substitute away from inputs that are carbon-intensive. Third, it will
+provide market incentives to innovate and adopt new low-carbon products and
+process. Fourth, a carbon price will economize on the information that is required to
+undertake all these tasks (Nordhaus 2008).
+Rapid technological change in the energy sector is central to the transition to a
+low-carbon economy. Current low-carbon technologies cannot substitute for fossil
+fuels without a substantial economic penalty on carbon emissions. Developing
+economical low-carbon technologies will lower the cost of achieving climate goals.
+Therefore, governments and the private sector must intensively pursue low-carbon
+or even noncarbon technologies.
+There are, of course, other actions that can be taken to manage the problem of
+global warming. Some of these actions are best performed by governments, while
+others are best undertaken by private agents acting on their own, such as adapting
+production practices to a changed climate. A general typology classiﬁes these
+actions into mitigation and adaptation. Mitigation focuses directly on reducing the
+amount of greenhouse gases released into the atmosphere (thus assuming that
+human activity is partly responsible for the issue), while adaptation deals with
+increasing resilience to the consequences of climate change.
+Developed countries, which are better prepared to cope with climate change,
+have stressed the importance of mitigation in order to limit temperatures to a range
+between 2 and 3 °C above preindustrial levels depending upon costs, participation
+rates, and discounting. Achieving such an objective will require a mitigation effort
+that is global in scope. International agreements should provide incentives to
+encourage participation, but the cost of those incentives should also be taken into
+account. To date there are no such agreements.
+This paper argues that in the absence of binding international agreements that
+limit the levels of carbon emissions, Latin America should mainly focus on
+adaptation to cope with climate change consequences. The paper also argues that the
+region should implement traditional development policies that increase resilience to
+climate change but that are also welfare-improving in the absence of climate change
+(also known as ‘‘nonregret’’ policies). Only in the presence of a global binding
+agreement like that mentioned in the previous paragraph would the region engage
+seriously in mitigation. In that case, Latin America could exploit its comparative
+advantage in the conservation and management of forests, which are a large carbon
+sink. Finally, deciding which policies to implement depends on the results of
+thorough cost–beneﬁt analysis of competing projects. Such cost–beneﬁt analyses
+what has been suggested to overcome them. Section 3 then presents a list of
+available policies that have been proposed to address climate change, divided into
+three broad categories: adaptation, mitigation, and development policies that
+increase countries’ adaptive capacity. Section 4 presents a theoretical framework,
+and Sect. 5 provides a framework for evaluating different policies by their costeffectiveness so that policymakers can efﬁciently choose the ones that should be
+implemented. Section 6 looks at the agricultural sector, an unmanaged system that
+has long been assumed to be able to adapt autonomously, while Sect. 7 will
+concentrate on forestry, a sector on which the region should focus in the event that
+appropriate incentives for emissions reduction are put in place. The ﬁnal section
+summarizes and draws conclusions in order to propose the direction for future
+research.
 
-The Tropical Ocean-Global Atmosphere Program has been in place since the 1980s to reduce some of the aforementioned effects by predicting El Nino trends
-and related phenomena. Magrin et al. (2007) note that the program can predict most
-of these phenomena with lead times between 3 months and a year.
-Other development strategies include the improvement of communication and
-transport infrastructure. In most developing countries, roads are often not paved and
-thus become impassable whenever there is an extreme climatic event. Thus, paving
-and maintaining roads (in some cases using building standards that make them
-withstand more extreme temperatures and enhanced risk of ﬂooding), together with
-implementing transportation safety measures, will enhance the competitiveness of
-the economy and promote growth.
-Finally, the provision of property rights where they are not well deﬁned or are
-subject to expropriation can promote investment and enhance economic growth
-(Galiani and Shargrodsky 2010). Economic growth in turn raises per capita income
-and protects households from transitory negative shocks, while investment in homes
-(among other things) helps protect them from climate change.
-As can be seen, the range of alternatives for governments to cope with climate
-change is vast. However, developing countries often face tight budget constraints
-that may force them to choose only a subset of such policies. The next section
-presents a theoretical framework to address this issue.
-
-4 Coping with climate change: theoretical framework
-The ﬁrst model that quantiﬁed the economic impact of climate change was
-developed by Nordhaus (1994). The Dynamic Integrated Model of the Climate and
-the Economy (DICE) is a growth model that takes into account emissions,
-greenhouse gas concentrations, climate change, and the possibility of implementing
-mitigation policies. An increase of mitigation expenditures alleviates future
-temperature increases, which in turn reduces damage to the economy. Nordhaus
-shows that a harmonized carbon tax across all countries and sectors, with a value
-that increases over time, is, within the setup of his model, the most efﬁcient policy
-to reduce emissions. The DICE model was updated in 2008 to include the latest data
-obtained from more recent research. It assumes that all countries agree on
-implementing the carbon tax in order to reduce emissions, but, as explained
-previously, international agreements to date have instead focused primarily on cap
-and trade schemes rather than on Pigouvian taxes, and compliance among countries
-has been rather low. Under these circumstances, mitigation costs are substantially
-higher than those predicted by the DICE model.
-Lecocq and Shalizi (2007) use a partial equilibrium model in which both
-mitigation and adaptation (which is further divided into proactive and reactive
-adaptation) are used as policy instruments to cope with climate change in order to
-maximize a social utility function. They recognize that the amount spent on each
-type of policy will depend, among other things, on how much each country
-contributes to total emissions, and that developing countries may have a limited impact if they are focused on mitigation policies. The question then is: what is the
-relevant mix of policies for developing countries?
-de Bruin et al. (2009) include adaptation as a decision variable in both the DICE
-model and another model entitled RICE (Regional Integrated Model of the Climate
-and the Economy). They conclude that an effective adaptation policy is particularly
-important when suboptimal mitigation policies are implemented. A drawback of this
-model is that adaptation is not viewed as an investment, but rather as a ‘‘reactive’’
-expenditure that accrues its beneﬁts only during the period when the adaptation
-measures are in place.
-Chisari et al. (2013) also draw on the original DICE model, but include both
-adaptation and mitigation expenditures as decision variables. The paper calibrates
-the different relevant parameters of the model to match those of the United States,
-Brazil, and Chile, representing large, medium, and small economies, respectively. In
-this model, adaptation reduces the negative effect of pollution on GDP. The authors
-ﬁnd that the ratio of expenditures on adaptation to mitigation will be larger the
-smaller the country, and what they call ‘‘environmentally small’’ economies will
-concentrate only on adaptation policies, since in these countries only adaptation
-presents positive net beneﬁts to society. They also show that small economies that
-are unable to spend enough on adaptation may end up spending less on mitigation
-owing to their impoverishment as a result of negative climate shocks.
-We extend the work in Chisari and Galiani (2010) and Chisari et al. (2013) and
-present a simple two-period model in which a government must decide how much to
-spend to cope with climate change, taking as given what other countries do. We
-incorporate uncertainty about the effects of climate change by introducing two possible
-states of the world in the second period: one in which there are no changes in climate,
-and another in which the climate changes and their impact depend on how well the
-country is adapted to them. Although we draw on the Chisari et al. (2013) framework,
-our model is not concerned with economic growth for simplicity. Yet we arrive at some
-of their results: namely, that an environmentally small country should refrain from
-spending on mitigation practices in the absence of a large international agreement to do
-so. As stated in the previous section, in the presence of cumulative uncertainties around
-climate change, low-income countries may be better off investing in traditional
-development policies that will also reduce their vulnerability to climate change.
-Because of this, we include public investment as an additional policy variable that has a
-positive future effect irrespective of climate change, although it provides a higher utility
-to the representative agent in the presence of global warming.
-4.1 A model of government spending under the potential of climate change
-Consider ﬁrst a representative agent that maximizes its utility over two periods:
-
-This representative agent derives utility from consumption of private goods (c) as
-well as public investment ðg; gÞ. Consumption, in time, depends on total income produced by a concave technology F in the stock of capital. In the second period,
-the climate changes with probability p. This probability depends on the level of
-emissions in the atmosphere E. When the climate worsens, a share ð1 À bÞ of output
-is lost. This share is a strictly concave function on the amount the government has
-invested in adaptation (denoted by a) in the previous period.4 Also, under a ‘‘bad’’
-scenario (one in which consumption is low cL ), the agent derives more utility from
+2 Global warming and its potential effects
+According to various sources (IPCC 2007; NOAA 2012; NASA 2012), the average
+global temperature has increased nearly 1 °C since data started to be systematically
+recorded in 1880. Despite the huge differences across regions, the upward trend has
+affected the entire planet. Working Group II of the IPCC Fourth Assessment Report
+compiled more than 500 studies that support these ﬁgures, and stresses that average
+global warming accelerated between 1970 and 2004, and that since then the slope
+has become ﬂat (2007). Most of these studies concluded that global warming has
+affected physical as well as biological systems. In Latin America, different studies
+point to an average increase of mean surface temperature of nearly 0.10 °C per
+decade during the last century, but studies that focus on the second half of the
+century ﬁnd an even higher increase per decade (IPCC 2007).
+One may thus wonder what could have caused this trend. Unfortunately, the exact
+causes and their relative contribution to global warming are not yet fully understood.
+Uncertainty over global warming is the rule rather than the exception, although the
+‘‘greenhouse effect’’ was documented as early as the nineteenth century by physicist
+John Tyndall. Some gases in the atmosphere prevent heat from escaping into space,
+keeping the earth warm. The most prominent greenhouse gas in the atmosphere is
+water vapor, but it is followed by carbon dioxide (CO2), a byproduct of fossil-fuel
+combustion1 the presence of which has experienced its largest increase in the last
+century. The inclusion of data on greenhouse gas emissions in climate models yields
+a substantially better ﬁt of observed climatic trends up to 2000. Following these facts,
+the IPCC concluded in its fourth Assessment Report that ‘‘…most of the observed
+increase in global average temperatures since the mid-twentieth century is very likely
+due to the observed increase in anthropogenic greenhouse gas concentration’’ (IPCC
+2007, 9). Nevertheless, the correlation between greenhouse gas emissions and
+temperature cannot yet be given a conclusive causal interpretation. Moreover,
 1
-public investment than if temperature had not risen. Consider, for example, the
-expansion of piped water networks: if it becomes more difﬁcult to access drinking
-water, then the previous investment made by the government becomes more
-valuable for the private sector). This means that c [ 1.
-Thus, the constraints faced by the representative agent are:
 
-
-4.1.1 The representative agent’s problem
-In the ﬁrst period, the agent chooses how much to consume and how much to invest
-in order to increase the next period’s consumption. We can thus state the problem of
-the representative agent as:
-
-Marginal Cost
-
-This is nothing but the standard Euler equation for intertemporal decisions, which
-states that the optimal level of private investment is the one that equates the beneﬁts
-(the ﬁrst term of the equation) to its costs (the second term) at the margin. Here,
-both the costs and beneﬁts are expressed in terms of consumption (the cost is present
-consumption to which the private agent has to give up, and the beneﬁt is the future
-consumption the agent will enjoy thanks to a higher product level). Although we
-cannot obtain an explicit equation for the optimal level of private investment, we
-know from the implicit function theorem that iÃ ¼ iðg; a; m; p; rÞ.
-4
-
-Note that we are not modeling private investment in adaptation. This, along with other market
-imperfections such as credit constraints or externalities, calls for the active intervention of the State in
-adaptation expenditures. Since much has been written about private adaptation stressing the fact that (in
-the absence of market imperfection), the private sector would optimally allocate resources for adaptation,
-our aim is to investigate another issue that has been (in our view) misunderstood in previous studies: the
-separation of public expenditure into what constitutes pure adaptation investment and development
-policies that enhance the adaptation capacity of the economy, but are useful even without global warming.
-
-4.1.2 The government’s problem
-The government seeks to maximize the representative agent’s utility by optimally
-choosing in the ﬁrst period how much to invest in public goods and adaptation and
-mitigation expenses using the lump-sum taxes it levies on the private sector. In
-doing this, the government takes into account how the agent will react to a change in
-any of these decision variables. We shall make the (realistic) assumption that
-spending on adaptation is always positive in the extreme case in which p ¼ 1.
-Given the large uncertainty surrounding climate change and its impact on the
-economy, a government may also want to wait until more information or better
-technology becomes available in order to allocate its resources more wisely.
-However, waiting for uncertainty to ‘‘resolve’’ might not be a good strategy (at least
-for the time being) if, as mentioned earlier, the variance of the effects of climate
-change tends to increase rather than decrease as scientists uncover more ‘‘unknown
-unknowns’’ that may inﬂuence or be inﬂuenced by global warming. Other reasons to
-act early are the possibility of obtaining short-term beneﬁts, locking in long-lasting
-beneﬁts (Agrawala and Fankhauser 2008), and the presence of irreversibilities,
-which means that sometimes it could be too late to act. Thus, the problem the
-government faces is:
-
-subject to E ¼ eÃ þ aðmÞF ðiÞ; m ! 0; a ! 0; g ! 0.
-The ﬁrst constraint here shows that the level of emissions that affects the
-economy is partly due to the emissions of the rest of the world (which are taken as
-given) and those of the country itself. The latter depends on past output, as the
-literature suggests (it takes time for pollution to have an impact in the form of
-climate change), and how much has been invested in mitigating those emissions. For
-oa
-this, a 2 ð0; 1Þ and om [ 0.
-Note that since mitigation is a global public good, it is possible that developing
-countries receive transfers from developed countries in the context of a global
-agreement to reduce greenhouse gas emissions (such as the Clean Development
-Mechanism) in order to encourage them to make efforts in this respect. Thus, dÃ is
-the share of mitigation expenditure that the government receives from the rest of the
-world. This parameter has no upper bound: compensation could very well exceed
-developing countries’ expenses.
-The ﬁrst-order conditions for this problem are:
-
-Although it will not be possible to provide an explicit form for any of the
-endogenous variables, we can derive some results from these equations:
-Result 1a: Mitigation expenditure for environmentally small economies is highly
-dependent on foreign transfers.
-First, we see from Eq. (8) that if m 6¼ 0, then Eq. (4) must hold with equality.
-Rearranging the terms, we show that the beneﬁts of the last dollar spent on
-mitigation must equal its marginal cost:
-
-The direct beneﬁts of mitigation expenditure are related to whether it can
-signiﬁcantly reduce the stock of emissions. As in Chisari et al. (2013), we expect
-this effect to be marginal in environmentally small economies, relative to the
-emissions generated by large economies. In our model, this is analogous to saying
-oE
-that om ﬃ 0. If this is so, then the left side of the equation would tend to zero.
-On the other hand, the costs of a dollar spent on mitigation net of transfers from
-the rest of the world are in terms of the resources that will not be available for the
-representative agent for consumption. Transfers from the rest of the world could
-oi
-reduce this cost or even turn it into a net beneﬁt. The sign of om is still uncertain.
-Public spending on mitigation could crowd out private investment, or conversely
-encourage it. Whichever the effect of mitigation on private investment, the sign of
-the right-hand side of the equation will ultimately be determined by the share of
-mitigation expenditure that is ﬁnanced by the rest of the world. In fact, mitigation
-efforts in developing countries to date have been closely tied to transfers from
-developed countries, as we shall see later.
-Result 1b: In the absence of a global agreement including transfers from large
-emitters to environmentally small economies, mitigation expenditure in the latter is
-zero.
-
-Since for environmentally small economies om ﬃ 0, and because the sign of the
-right-hand side of the equation is indeterminate, it follows that the equality will
-probably not hold. This means that the optimal level of mitigation for these
-‘‘environmentally small’’ economies will be zero.
-Result 2: Investment in public goods that are useful even in the absence of
-climate change will be positive irrespective of the size of the economy.
-Let us take a look at Eq. (5). If government spending is positive, then its optimal
-level is the one that accomplishes:
-The marginal cost of government investment in public goods (left-hand side) is
-measured in terms of the consumption and investment from which the individual
-cannot beneﬁt today and in the future, net of the future forgone output due to global
-warming. However, as this investment enters directly into the representative agent’s
-utility function, its beneﬁts are enjoyed in both states of nature, and in fact they are
-enhanced if climate change takes place. This means that there is always a nonzero
-level of optimal public spending.
-Result 3: Public spending on adaptation will be positive in environmentally small
-economies only above an idiosyncratic risk of climate change.
-Inspecting Eq. (6) and rearranging the terms in such a way that the marginal
-beneﬁt of adaptation is on one side of the equality and its marginal cost is on the
-other:
-
-Marginal costs (left-hand side) are in terms of both present consumption and
-investment that becomes unavailable as adaptation increases (although we still do
-not know how investment will respond to adaptation), and how this affects future
-consumption, both if climate change does not occur (in which case adaptation
-expenditure proves wasteful) or if it does occur. The marginal beneﬁt of the last
-dollar spent on adaptation (right-hand side) is expressed in terms of the share of
-production that would be lost if that dollar were spent elsewhere.
-If we think of the extreme case in which p ¼ 0, it is straightforward to notice that
-the government will not spend anything on adaptation, since marginal beneﬁts will
-always be zero. As the probability of global warming increases, the marginal beneﬁt of a dollar spent on adaptation increases, and its cost decreases. Taking this and our
-assumption that a 6¼ 0 when p ¼ 1 together with the continuity of the function b in
-its argument a leads to the conclusion that there is a threshold level p over which it
-is worthwhile to assign funds for adaptation investments. Of course, this threshold
-will depend on each country’s characteristics, such as its level of investment or how
-vulnerable it is to climate change.
-4.1.3 Comparative statics
-Now that we have stated the ﬁrst-order conditions for the four variables of interest
-(remember that as we set the individual’s problem, consumption will result as a
-‘‘residual’’ after the individual has chosen how much to invest for the next period),
-we can derive the four implicit functions for the optimal level of expenditure on
-each of them:
-We would like to know how an exogenous change in the probability of climate
-change affects the optimal allocation of public spending between pure adaptation
-and no-regret investments, leaving the tax level unchanged (this means that
-dg þ da ¼ 0). Note that this is possible only for environmentally small economies,
-which for the most part take this probability as given. For simplicity we shall ﬁrst
-assume that private investment does not react to changes in public investment, so Then, the FOC of the government’s problem result in:
-
-
-We differentiate these equations with respect to p and apply Cramer’s rule to solve for op and op. Normally, we would expect u00 to be non-negative, and if the
-representative agent’s utility is separable in consumption and public investment,
-then it will be zero. In what follows, we will assume this property holds.
-Result 4: The share of adaptation expenditure in the government’s budget is
-nondecreasing in p.
-The sign of the numerator for each derivative is unknown, since both terms of the
-determinants are positive. As stated above, public investment will always be
-positive because its beneﬁts are enjoyed irrespective of whether climate change
-occurs. However, up to a certain level p, an exogenous change in the probability of a
-‘‘bad’’ scenario will not imply an increase of adaptation expenditure. It will rather
-remain null. We can push the analysis one step further. As the probability of a bad scenario increases, the marginal beneﬁt of adaptation increases with respect to that
-of traditional public investment. The fact that adaptation is positive when p ! p also
-means that the marginal beneﬁt of an extra dollar spent on adaptation is greater than
-that spent on public goods. This should be reinforced as p approaches 1, which
-means that above p the equilibrium level of adaptation increases to the detriment of
-traditional public goods as global warming’s threat becomes more plausible.
-From our results it is evident that in the actual situation where there is not a
-binding international agreement on mitigation that includes developing countries,
-the choice of the these countries is restricted to policies that can either enhance
-resilience against climate change or traditional development policies in any
-scenario. Only in the context of a global agreement in which all nations commit to
-reduce greenhouse gas emissions and emerging countries are given proper
-incentives to participate should developing countries make efforts to reduce the
-concentration of greenhouse gases in the atmosphere. The choice among the policies
-to be implemented is nevertheless not a trivial one. In fact, it will depend on which
-policies yield greater beneﬁts for a given budget. A framework for analyzing this is
-provided in the next section.
-
-5 Cost–beneﬁt analysis as a framework to choose policies
-From the model presented in the previous section, we can only infer the types of
-strategies worth considering under different contexts. However, we can say nothing
-about which policies should be adopted. Under no ﬁnancial constraints, a
-government should implement every policy that yields a net beneﬁt to the
-population. However, this case is highly uncommon, particularly in developing
-countries. Thus, the task of policymakers is to choose among a wide range of
-options. Why is it preferable to enhance building standards for homes instead of
-giving land titles to slum dwellers? Is it better to connect more homes to the water
-network or to enhance water storage capacity in order to overcome droughts?
-Questions like these can only be answered by using a metric to rank different
-policies. The most widely used one is to compare the beneﬁts of each policy to its
-cost, which is known as cost–beneﬁt analysis. This section presents a brief
-description of the approach and how it is implemented.5
-Cost–beneﬁt analysis begins with the determination of the relevant population,
-followed by an evaluation of policy effectiveness. Ideally, impact assessment takes
-the form of a controlled experiment or a quasi-experiment in which statistically
-similar groups are contrasted.
-In many cases, the whole range of beneﬁts associated with interventions cannot
-be fully estimated, but it is possible to infer those effects using economic models.
-This is particularly relevant when the policies in question have equilibrium effects.
-Even in those cases, it is still desirable to combine modeling with experimental or
-quasi-experimental variability in a way to that permits model validation.
-
-When policy effects are empirically assessed, they are expressed in physical
-units. When dealing with policies that have the same outcome variable, this should
-be enough for comparison. However, when comparing policies in different sectors it
-is necessary to use a common unit of measure, which is usually money. To
-determine the value that should be assigned to a certain change in physical units,
-researchers use the concepts of ‘‘willingness to pay’’ and ‘‘willingness to accept’’
-compensation for a change in an individual’s utility. If a policy beneﬁts an
-individual, willingness to pay tells how much the individual would give up for the
-policy to be implemented. This amount should equal the sum that would render the
-individual as well as if the policy were not applied at all. Conversely, willingness to
-accept is the amount that the individual would be compensated if the policy were
-not implemented, which should be equal to what gives the individual as much utility
-as the individual would have, all else being equal, with the new policy. While in
-theory the two measures should be similar, in practice willingness to accept
-compensation has been found to be considerably larger in magnitude than
-willingness to pay compensation.
-If effects are constrained to private goods and services, then their prices should
-reﬂect an individual’s willingness to pay and a producer’s willingness to accept
-compensation for those goods and services. However, in many cases (notably in
-environmental policy), some of these costs and beneﬁts are not privately but rather
-socially borne or enjoyed. The problem with externalities is that their value cannot
-be directly observed, because they are not individually traded in the market. In this
-case, measures of willingness to pay or willingness to accept must be obtained
-indirectly. For nonmarket goods that have ‘‘use value’’ (meaning that their value is
-related to actual, planned, or possible use of the good, such as a recreational park),
-revealed preference techniques and stated preference techniques may be used. In
-contrast, if value has to be given to ‘‘nonuse goods’’ (those to which individuals
-attach value even if they are not subject to any possible use, as could be the mere
-existence of a species), then only the latter approach is viable.
-Revealed preference techniques are used to value nonmarket effects by observing
-individuals’ behavior (in particular, purchases) in real markets, with the premise that
-this behavior reveals something about the implicit price of a related nonmarket
-good. Approaches vary according to the characteristics of the good that is subject to
-valuation, including hedonic pricing (Davis 2004; Roy 2008), travel cost (Kremer
-et al. 2011), and averting behavior, among others. Each approach has its strengths
-and weaknesses, and recent empirical ﬁndings warn about the validity of some of
-the assumptions behind them (Madajewicz et al. 2007; Jalan and Somanathan 2008;
-Devoto et al. 2012; Tarozzi et al. 2011).
-When a good or service is valued only for its mere existence, then revealed
-preference approaches are not suitable for obtaining agents’ willingness to pay for
-it. Instead, researchers turn to stated preference techniques. These involve creating a
-hypothetical market for the good or service in question, and asking a random sample
-of individuals to reveal their maximum willingness to pay for a change in its
-provision.
-The best elicitation approach is ‘‘choice modeling’’. With this method,
-respondents are presented with various alternative descriptions of a good or service differentiated by its attributes and levels, one of which should be its price.
-Individuals are asked to rank the alternatives or choose their preferred one. The
-baseline scenario must be included as a way of allowing respondents to choose a
-‘‘no-policy’’ option.
-5.1 Aggregation and decision rules
-Once average willingness to pay for costs and beneﬁts has been obtained, it has to
-be aggregated across the relevant population of those who beneﬁt and those who
-lose. With this, it is then possible to determine whether the policy should be adopted
-on efﬁciency grounds. The ﬁrst rule that may come up is to approve any policy that
-achieves a Pareto improvement, i.e., that makes some people better off while
-leaving nobody worse off. However, policies with this characteristic are
-exceptional. A less restrictive condition for a policy to pass a cost–beneﬁt analysis
-is that the value of aggregate beneﬁts outweighs that of aggregate costs. If this is the
-case, those who beneﬁt can compensate the losers and still be better off. This is
-called a potential Pareto improvement. A general formula for determining if a
-project is acceptable under this criterion would be:
-
-If costs and/or beneﬁts accrue at different moments (as is typically the case with
-adaptation investments), then they should all be expressed at present value. Hence
-ð1 þ sÞt is the discount factor.
-In turn, wi is the weight given to individual i’s willingness to pay. Policymakers
-may have equity as well as efﬁciency concerns, which are the base of cost–beneﬁt
-analysis. For example, wi ¼ 0 means that an individual is excluded from the
-analysis. If guided only by efﬁciency, a project might be carried out even if gains
-are mostly enjoyed by the rich and losses fall disproportionately on the poor, as long
-as the former outweigh the latter. However, distributional issues are at the core of
-climate change policies. For this, two main approaches have been suggested:
-explicit or implicit weighting. In the former, weights are imputed based on results
-from previous studies. Implicit weighting, on the other hand, entails determining the
-required weights for a policy to pass a cost–beneﬁt analysis and then asking if those
-weights are reasonable either in relation to empirical studies or political or ethical
-considerations.
-5.2 Uncertainty and the value of information
-In the analysis made throughout this section, we have assumed that costs and
-beneﬁts were known with certainty. However, when dealing with climate change,
-uncertainty is the central issue—the effects of climate change are uncertain, as is the
-probability distribution of the different scenarios. In this case, it has been
-recommended that cost–beneﬁt analysis be conducted under a wide range of
-alternatives. If under all or most of those alternative speciﬁcations the policy still passes the cost–beneﬁt analysis, then it is said that the measure is ‘‘robust’’ with
-respect to the different assumptions made. In contrast, if the decision about the
-policy depends on the assumptions made, then other considerations should guide the
-ﬁnal decision, including the reasonableness of the assumptions.
-In this context, it is possible that delaying implementation of a policy that entails
-some irreversibility will allow for more information to be gathered and better
-estimates to be made. In fact, every policy’s cost–beneﬁt analysis can and should be
-compared to that of the same policy implemented at a different moment in order to
-determine the optimal timing of implementation. If as a result of the acquisition of
-information the net beneﬁts of delaying the implementation of a policy are
-effectively larger than those of implementing it now, then the value of that
-information equals the difference in net beneﬁts between the two timings. Then the
-policy is said to have a ‘‘quasi-option value’’, analogous to a ﬁnancial option, which
-allows for buying or selling an asset at a certain moment after additional
-information has been obtained. However, waiting may entail costs as well as
-beneﬁts. If an adaptation policy is postponed, it is possible that an extreme event
-will occur while the environment or societies are still vulnerable. Thus, the costs of
-waiting have to be accounted for alongside the value of information that could be
-obtained.
-In conclusion, cost–beneﬁt analysis focuses the direction of a generic research
-agenda. Every policy under consideration should be thoroughly studied before being
-implemented: their effects must be rigorously assessed and their beneﬁts weighted
-against their costs. Only in this way can a program be compared to others that also
-claim to increase welfare or reduce the harm provoked by a threat such as climate
-change. Cost–beneﬁt analysis is extensively used in developing countries, but
-studies of this kind for adaptation (particularly in Latin America) are still lacking.
-Without them, it will be difﬁcult to determine the right path to follow in the years
-ahead.
-It must be noted that the range of available policies is too wide to conduct a cost–
-beneﬁt analysis of each of them. Instead, researchers should start with those areas
-where climate change could be most harmful. For example, the agriculture and
-livestock sectors, which are among the most important sectors in Latin America, are
-at the mercy of weather conditions if they do not have the proper infrastructure and
-technology in place. The next section is thus devoted to exploring a particular aspect
-that might be relevant for adaptation in these sectors because of their importance for
-Latin America. The section will also look at how cost–beneﬁt analysis could be
-implemented in this particular case.
-
-6 Increasing adaptive capacity: technology adoption and learning
-in the agricultural sector
-Agriculture and livestock present a good example of how an unmanaged system can
-become manageable. With the appropriate infrastructure and technology, it is
-possible to reduce the dependence of yields on climatic phenomena. As an example,
-the agricultural sector might have to rely more on drought-resistant seeds in order to avoid decreases in crop yields (Parry et al. 2004; Gay et al. 2004; Pinto et al. 2002),
-and water scarcity may require the use of more efﬁcient irrigation techniques, such
-as drip irrigation.
-Agriculture is crucial for Latin America’s economy because it represents almost
-a quarter of its exports (World Bank 2012). Yet its productivity has grown at a
-slower rate than in developed countries for the past 50 years (IDB 2015). This
-signals that the sector is not using the best available technology, and a side effect of
-this is that it is more vulnerable to the consequences of climate change than it could
-be. In the past, researchers have identiﬁed different causes for this lag in technology
-adoption, including irrational behavior, scale economies, risk aversion, credit
-constraints, and lack of knowledge about the best way to adopt a technology.
-Although producers are always considered rational and proﬁt-maximizing agents,
-it is possible that this assumption does not always hold true. An example of this is
-when producers discount the future with a hyperbolic factor, which leads to a
-present bias. Duﬂo et al. (2011) ﬁnd evidence of this for the use of fertilizer in
-Kenya. Producers often delay the purchase of fertilizer until it is too late to use it.
-The researchers found that using subsidies to encourage producers to buy fertilizer
-at the time of harvest (when they are relatively more liquid) increases uptake by
-more than 50 %, which in turn raises the producers’ income.
-Another possibility is that some kind of market failure is preventing a portion of
-producers from adopting new technologies. For example, incomplete insurance may
-lead only wealthier producers to adopt newer, riskier inputs. Credit constraints may
-have the same consequence: only producers who are able to pay the cost of the new
-technology up front are able to adopt it, thus restraining adoption of the technology
-to those with more wealth. Lack of infrastructure and market power may also alter
-the proﬁts that farmers obtain, thus reducing the incentives for investment. As has
-been properly documented in urban areas, land market failures in the form of poor
-property rights also affects incentives to invest in technology improvement.
-Although there is not much evidence on the presence of these types of inefﬁciencies
-in the agricultural sector, some studies have been able to so identify them, at least
-indirectly.6
-Finally, it is possible that producers are not aware of the existence of more
-proﬁtable technologies, or do not entirely know how to use them to obtain the
-greatest beneﬁt. Typically, the adoption of technology involves some kind of
-learning, including evaluating if a new technology is more proﬁtable than the
-existing one, and adapting it to the environment in which it will be implemented.
-For example, Duﬂo et al. (2008) randomly selected a group of farms in Western
-Kenya and divided them into small plots. For 3 years, each plot was planted with
-maize (either using traditional varieties or hybrid seeds) using different amounts of
-fertilizer, including that recommended by the country’s Ministry of Agriculture.
-Even though the authors found that yields increased the most when using the
-recommended package, mean and median proﬁts were highly negative, and the maximum mean and median proﬁt was achieved using only half the recommended
-amount of fertilizer.
-The process of learning involves experimentation, either individually (leaning by
-doing), socially (learning from others), or both, and it usually requires a
-complementary improvement in human capital. However, there are obstacles to
-each type of learning, which are examined in the next section following Bardhan
-and Udry (1999) and Foster and Rosenzweig (2010).
-6.1 Learning-by-doing
-The most general setting in which different technologies can be introduced is one in
-which the output of producer i at time t ðyit Þ depends on the combination of inputs
-(called in this case f for fertilizer and l for labor) and a time and location exogenous
-variable ðuit Þ, using a certain technology h: yit ¼ gh ðf ; l; uit Þ. Assuming (as is usual
-in this literature) that uit are generated by a distribution that is ﬁxed up to some
-unknown parameters, learning in this setting most generally involves using previous
-realizations of u to draw inferences about the unknown parameters and forecast its
-value at time t þ 1 to choose inputs in a way to maximize proﬁts.
-The literature has dealt mainly with two sources of uncertainty in technology
-adoption. First, it is possible that agents do not know how proﬁtable the new
-technology is compared to the traditional (already known) one. To make matters
-simple, suppose that there are only two technologies, so that h ¼ f0; 1g and the
-proﬁt function over an area A is of the form ðph þ ah ui ÞA, with a0 ¼ 0 and
-Eðui Þ ¼ l. Furthermore, assume that ui is only known if farmer i uses the new
-technology over at least h1 units of land, and the expected loss per unit of land from
-not knowing ui is pL . This means that a producer will adopt the new technology if
-
-In this setup, learning will (1) encourage some producers to adopt a technology
-that is not proﬁtable at ﬁrst, but yields net beneﬁts over time; (2) dissuade some
-producers from adopting a new technology even if it is proﬁtable, because they are
-not aware that it is proﬁtable; or (3) produce substantial scale effects, making larger
-producers more likely to adopt new technologies. This is the assumption of works
-such as Munshi (2004), who examined whether there is social or individual learning
-during the introduction of high-yield-variety wheat and rice, or Besley and Case
-(1993) who conducted a similar study of cotton in India.
-Conversely, producers may know that a new technology is proﬁtable, but not
-know how to optimally manage it. A simple formalization of this idea is given by
-the target-input model, which can be formalized as yit ¼ gh ðlÞ À ah ðui À fi Þ2 . If ui is
-not known, then the producer will tend to miss the target and receive suboptimal
-proﬁts. Learning in this setting reduces the distance between ui and fi , and thus
-increases beneﬁts. In the process, it is possible that the producer experiments even if
-proﬁts are negative in the ﬁrst periods, if the present value of the ﬂow of proﬁts is
-greater than zero. Implications of this model were analyzed by Foster and
-Rosenzweig (1995) using the introduction of high-yield-variety seeds in India as
-treatment. They found evidence that previous experimentation with high-yield-variety seeds increased the returns of their cultivation, and that this effect
-diminished over time: that is, as producers gather information that allows them to
-infer the optimal amount of input with greater precision, the role of new information
-in increasing efﬁciency decreases.
-6.2 Learning from others
-Learning can be a social rather than an individual process. For example, producers
-whose social network includes other producers may very well provide their peers
-with information (either directly or indirectly) about the optimal use of a new
-technology. Conley and Udry (2001) present different models of the way individuals
-may update their beliefs using the input-target model described above. The
-characteristics of the information obtained will determine how much weight
-producers assign to information from others relative to the information obtained
-from their own experience.
-If each producer can obtain perfect information about both the realization of a
-À
-Á
-shock and that of a shock to a neighbor u1;1 ; u2;1 after applying input in
-À
-Á
-accordance with the producer’s prior beliefs f1;0 ¼ l , then both observations
-should be given equal weight to update the producer’s belief about the true value of
-ui;t after controlling for observable differences among producers. However, if the
-signal received from the neighbor is noisy (for example, because of an additive
-random term such as u2;1 þ e2;1 ), then the producer should place more weight on his
-or her own realization, even after controlling for observable differences. Finally,
-information could ﬂow only through each individual’s network. In this case,
-recovering information about third parties would involve making inferences about
-neighbors’ updating process and keeping track of long histories of actions and
-outcomes.
-Foster and Rosenzweig (1995) and Conley and Udry (2010), among others, have
-found proof of social learning. Conley and Udry examined proﬁts from staggered
-pineapple planting among farmers in Ghana. Using different network data, the
-authors found evidence that observing better-than-expected outcomes when
-neighbors use different amounts of inputs, or when proﬁts are worse than expected
-and input use was close to the levels used previously, induces changes in the amount
-of fertilizer used a posteriori. Evidence that the opposite facts cause reactions in the
-other direction is also present. Also as predicted, more experienced producers are
-less sensitive to new information than novice ones. On the other hand, there is no
-evidence of any learning behavior when using traditional crops as the variable of
-interest.
-Social learning may reduce the time it takes for an innovation to diffuse among
-producers, but the public good nature of information can also give rise to collective
-action problems, such as free-riding (Foster and Rosenzweig 2010). Some producers
-may underinvest and wait for others to experiment in order to avoid initial losses. In
-equilibrium, this would lead to technology adoption at a slower pace or even no
-adoption at all. Foster and Rosenzweig (1995) and Conley and Udry (2010) both
-found evidence that a neighbor’s information is as valuable as one’s own information to update beliefs about the optimal amount of input to be used.
-However, only Foster and Rosenzweig were concerned with externality issues and
-found evidence of free-rider behavior—that is, producers who have neighbors with
-larger plots and more assets are less prone to use high-yield-variety seeds. Under
-this scenario, an effective policy to increase take-up speed of innovations would be
-to subsidize experimentation on new technologies. However, studies such as those
-mentioned above need to be carried out ﬁrst.
-Finally, there is some evidence that the source of information also matters for
-take-up of new technologies. For example, Duﬂo et al. (2011) show that the use of
-fertilizer in Kenya increases with the implementation of intensive extension work,
-with its impact being even greater than the impact from just providing materials and
-letting farmers learn by doing. Moreover, in a study that took place in rural India,
-Cole et al. (2013) found that households are more willing to buy insurance if the
-insurance educator who offers it is endorsed by a trusted local agent.
-6.3 Human capital and technology adoption
-Another stylized fact usually found in studies that deal with technology adoption is a
-positive correlation between some degree of education and the implementation of
-new technologies. From all the hypotheses that could explain this, the most
-attractive one claims that schooling enhances the capacity to learn, and thus makes
-experimentation less costly to more-educated individuals. To test this hypothesis,
-economists have looked for evidence of some of its implications: income should be
-higher for educated individuals in cases where new technologies that are complex to
-understand come available and become proﬁtable, and school enrollment should
-increase where returns to education are higher. Foster and Rosenzweig (1996) found
-such evidence using household information from India during the onset of the so
-called ‘‘green revolution’’ (the use of high-yield-variety seeds) at the beginning of
-the 1970s.
-If the skills needed to beneﬁt from the new technology are ﬁrm-speciﬁc, then
-ﬁrms will pay for the training and adopt the new technology as long as it is
-proﬁtable to do so. If the new skills are generic enough so that workers would be
-able to use them in other ﬁrms, the technology will be implemented and training will
-be provided only if is proﬁtable and the cost of training (the present value of the
-wage differential workers will obtain) can be charged to the employees.
-Nevertheless, if markets are imperfect, then technology adoption and human
-capital enhancement could be halted. If ﬁrms have to pay all or part of the training,
-but might not be able to internalize all of that cost, then they will underinvest in
-human capital. In turn, if these skills are not present, then the proﬁtability of the new
-technology might diminish, thus reducing the incentives to upgrade the production
-process. At the same time, a slower pace of technology adoption means that returns
-to education will be lower, reinforcing the problem. The result will be a suboptimal
-equilibrium in which workers have low levels of human capital and ﬁrms adopt new
-processes and products at a slow rate.
-Thus, in order for public policies to address the gap in technology adoption
-between developed and developing countries, it is necessary to ﬁrst rigorously investigate the causes behind this wedge. Most of the aforementioned studies that
-point out possible barriers to technology adoption were carried out either in ﬁelds
-other than agriculture or in other parts of the world, where conditions could be very
-different than those experienced by farmers in the region. Therefore, this should be
-treated as a guide to where research should focus in the ﬁrst place.
-Once the main barriers are identiﬁed, the research agenda should move to deﬁne
-and empirically test the effectiveness of strategies that could overcome them.
-Previous research suggests several alternatives: providing subsidies for certain
-inputs if farmers delay their implementation, giving incentives for research
-programs if they are subject to scale economies or if collective action problems may
-arise, or increasing the quantity and quality of education offered to the population if
-this will result in quicker and better adoption of new technologies. Once again, we
-have to point out that interventions in this area are scarce in Latin America. Finally,
-rigorous cost–beneﬁt analysis as explained in the previous section should be
-conducted in order to determine if and which of these policies are worth
-implementing in relation to climate change in Latin America, by comparing them to
-other policies that may also increase resilience and/or foster the development of the
-region.
-
-7 Forestry carbon sequestration as a mitigation comparative advantage
-This paper has emphasized that Latin America should engage in mitigation efforts
-only if international incentives are put in place. According to the United Nations’
-Millennium Development Goal indicators, the region only contributes 5 % of the
-world’s CO2 emissions (UN Millennium Development Goals 2015), so it has little
-potential to affect the concentration of greenhouse gases in the atmosphere.
-However, the region holds almost a quarter of the world’s total forest area (World
-Bank 2012). Forests are a major carbon sink responsible for the absorption of more
-than 10 % of carbon emissions per year. Because of this imbalance between
-emissions and absorption potential, Latin America has a comparative advantage in
-maintaining or increasing its forest area.
-According to Sohngen (2010), deforestation alone contributes to roughly 17 % of
-overall greenhouse gas emissions (similar to those of the United States in a year)
-and it occurs almost exclusively in developing countries (FAO 2011). More
-speciﬁcally, Houghton (2003) estimated annual deforestation of tropical forests at
-11 million hectares during the 1990s, but these are likely to be underestimates (FAO
-2011).
-The amount of carbon that can be absorbed depends on the type of forest (tropical
-having the largest absorption capacity) and its stage of development (growing
-forests act as net carbon absorbers, and can remove between 5 and 11 tons of CO2
-per hectare annually). According to Sohngen (2010), forest actions could account
-for up to 30 % of global mitigation efforts through the implementation of three
-different policies: afforestation (the conversion of land that had other uses to
-forests), avoided deforestation, and forest management (renewing forest vegetation
-or changing the forest type in order to absorb more carbon). Of these, policies that discourage deforestation have the largest potential for reducing greenhouse gas
-emissions (by up to 1.2 billion tons of CO2 per year) in Latin America over
-2020–2050.
-Miteva et al. (2012) divide efforts to reduce deforestation into those that impose
-negative incentives through the creation of protected areas, and those that offer
-positive incentives such as payment for ecosystem services programs, or decentralization of forest management (which increases accountability). According to the
-review carried out for this paper, only the ﬁrst two policies seem to have signiﬁcant
-effects on deforestation, with the effects of protected areas being larger on average
-than those of payment for ecosystem services programs.
-However, most of the existing literature fails to account for the problems
-affecting the forest sector. First and foremost, like any mitigation effort, the sector
-suffers from externality issues: avoided deforestation poses an opportunity cost to
-the country engaged in it, and this cost increases the more that countries increase
-regulation. On the other hand, the beneﬁts of an increase in greenhouse gas
-absorption capacity are borne internationally. Thus, as countries agree to reduce
-deforestation, outsiders have fewer incentives to adhere.
-Furthermore, the aforementioned dynamic encourages deforestation in those
-areas with less regulation, thus reducing the net effects of the policy. This increase
-in deforestation in unprotected areas as a response to the increase in regulation in
-´
-others is known as leakage. To date, the only study of leakage is that of Alix-Garcıa
-et al. (2012), who examined a Mexican payment for ecosystem services program
-carried out between 2003 and 2009. Landowners who entered the program had to
-sign a commitment to maintain the forest area in a portion of their property, but
-were allowed to make changes to land use in other parts of their property.
-Controlling for selection bias, the authors found that deforestation increased on the
-unenrolled parcel compared to nonparticipants, but only among poor landowners.
-To reduce these problems, it has been suggested that any agreement to reduce
-deforestation should include the forest-richer countries (Brazil and Indonesia) and
-that negotiations should be conducted by region rather than by individual countries.
-Financial incentives to adherent countries and allocation of bargaining power in
-accordance with each country’s relevance could contribute to reaching an
-agreement.
-Policies aiming at reducing deforestation should target only threatened areas. If,
-for example, an area that would not be subject to deforestation receives funding as
-part of a payment for an ecosystem services program, then the program would be
-inefﬁcient and estimates of its effect will be biased. This problem is known as
-additionality: forest conservation projects that would be carried out under businessas-usual should not be eligible for compensation. It is not easy to detect
-additionality issues, and in fact there are not many studies that attempt it. Alix´
-Garcıa et al. (2012); however, found some evidence of additionality in the Mexican
-payment for ecosystem services program. Since deforestation in treated areas was so
-low (0.8 % per year), the authors also suggested that some of the forests would have
-been conserved regardless of compensation.
-Since additionality is essentially a problem of asymmetric information between
-landowners and the government, the latter should design schemes to be ‘‘incentive compatible’’, meaning that they induce each type of landowner to honestly report
-whether or not they need compensation for protecting their lands.
-Permanence problems arise because landowners can easily change land use from
-forestry to other activities such as agriculture and release back into the atmosphere
-the carbon that has accumulated in the soil. Thus, a project that provides incentives
-for forest conservation but has a limited timeframe will be less efﬁcient than one
-that provides long-lasting incentives. Assuncao et al. (2013) ﬁnd some evidence that
-¸˜
-monitoring and law enforcement in the Brazilian Amazon must be permanent in
-order for its effect on avoided deforestation not to vanish. Still, more well-identiﬁed
-empirical evidence on this issue is needed.
-The last problem, conditionality, refers to the need to verify efforts made to avoid
-deforestation. This is far from a trivial concern, as most of the policies will be
-implemented in developing countries that usually lack the needed capabilities and
-are subject to corruption. Governments need adequate monitoring capacity when
-implementing payment for ecosystem services programs, and developed countries
-willing to ﬁnance these kinds of policies in the context of a global agreement will
-ask that the efforts made to maintain forests be veriﬁable. In fact, programs such as
-Reducing Emissions from Deforestation and Forest Degradation (REDD) and
-REDD? implemented by the United Nations in 2008 and 2009, respectively, move
-in this direction. The former was created to help developing countries build capacity
-to reduce emissions, thus allowing developed countries to compensate for their
-failure to comply with the Kyoto Protocol. REDD? provides incentives for
-developed countries to fund such capacity-building by making forestry projects
-eligible under the Kyoto Protocol’s Clean Development Mechanism. REDD?
-consists of three phases, the last one being the development of ‘‘results-based
-actions that should be fully measured, reported and veriﬁed’’ (UN-REDD 2011, 3).
-To increase monitoring, countries are increasingly relying on new technologies
-such as satellite imaging and software capable of detecting illegal logging. Burgess
-et al. (2012) combined satellite images and ofﬁcial data to estimate the rate of both
-legal and illegal deforestation in Indonesia during the last decade, and thus were
-able to link it to political processes occurring in the country. In Brazil, Assuncao
-¸˜
-et al. (2013) estimated that these technologies (coupled with high penalties in the
-form of seizure and destruction of production goods and materials) helped to
-prevent deforestation of 129,000 km2 in the Amazon between 2007 and 2011 at a
-very small cost.
-It is still not known how pervasive the aforementioned problems are in Latin
-America as a whole. Comprehensive studies of these problems using experimental
-or quasi-experimental designs are still lacking, so conducting such studies should be
-the ﬁrst step toward implementation of mitigation policies in Latin America. Only
-then could standard conservation policies be adapted to address these issues and
-reduce the possible inefﬁciencies that could arise. In this particular case, what is at
-stake is the possibility of reducing the amount of gases that are sent to the
-atmosphere, which contribute to the greenhouse effect. The earlier the policies are
-set in motion, the greater the beneﬁt for society as a whole. Therefore, it is
-important to act as quickly as possible once the decision has been taken to engage in
-mitigation.
-Once the policies are adapted, the second step would be to conduct evaluations
-using cost–beneﬁt analysis in order to determine which policies are worth
-implementing. In any case, due to the public good nature of mitigation, any policy
-in this respect introduced in the region would need the proper incentives from
-developed and large-emitting countries in the form of ﬁnancing.
-
-8 Conclusions
-This paper has developed an analytical model in which the ‘‘optimal’’ level of
-public expenditure in each of the three categories to address climate change—
-adaptation, mitigation, and development policies that increase countries’ adaptive
-capacity—is obtained as a function of how much society values both present and
-future consumption and the chance of being affected by global warming. ‘‘Optimal’’
-in this case refers to the policy that equates the cost and beneﬁt of the last dollar
-spent. As have previous studies, we ﬁnd that economies that contribute little to
-global greenhouse gas emissions (which include most Latin American and
-Caribbean countries) would not ﬁnd it optimal to devote resources to mitigation
-unless some type of binding agreement were to alter the structure of these countries’
-incentives. Thus, these countries are left with the task of adapting to the possible
-consequences of climate change either through traditional development policies that
-will make them more resilient to extreme conditions or through the implementation
-of pure adaptation policies.
-For policymakers to be able to use this model as a guide, further research is
-needed on the probability that different effects of climate change will occur at the
-regional level. For Latin America, this means the installation of more and better
-meteorological stations and other mechanisms to collect data on climatic variables,
-river stream ﬂow, glacial extension, sea levels, etc. Also needed is more and better
-research that identiﬁes the consequences of climate change on different sectors.
-This paper advocates cost–beneﬁt analysis as a method to evaluate the net beneﬁt
-of policies. The paper has provided examples where policies could encourage
-investment from private agents in the agricultural sector by overcoming possible
-barriers to the adoption of technology. However, cost–beneﬁt analysis should apply
-to all types of programs and all sectors under consideration. Whenever possible, the
-beneﬁts should be estimated using experimental or quasi-experimental designs that
-enable researchers to isolate the policy under study from all other variables that may
-inﬂuence the outcome. To price some of these beneﬁts (most notably, nonmarket
-beneﬁts), policymakers could elicit individuals’ willingness to pay for them. If
-ﬁnancial constraints are binding, concurrent policies to increase adaptation should
-be compared and prioritized in order to choose those that are more appropriate from
-a cost–beneﬁt perspective.
-If agreement is reached on a global greenhouse gas mitigation strategy that
-includes the largest emitters, as is desirable, the huge imbalance between the
-amount of emissions that come from Latin American countries and their potential to
-absorb carbon emitted elsewhere through their forests suggests the region may have
-a comparative advantage in expanding and enhancing the forestry sector as a carbon sink rather than reducing their own emissions. The creation of protected areas and
-the implementation of systems of payment for ecosystem services have been
-highlighted as the most effective policies for this sector. Yet at least part of the cost
-of their implementation to sustain forests should be ﬁnanced by developed
-countries, which contribute more than half of global emissions, and which have
-beneﬁted in the past from cheap carbon.
-Even under this scenario, climate change policies should be compared to other
-investments that are also pressing in the region and that may render greater beneﬁts.
-As an example, pollution in developing countries in general is on average higher
-than in developed countries (Jack 2013). Water and air pollution have adverse
-effects on human health (Almond et al. 2009; Ebenstein 2012), which in turn may
-affect economic outcomes such as income and consumption (Sims 2010). However,
-evidence in this regard for Latin America in particular is still lacking, so the ﬁrst
-step for the region would be to estimate the effects of high pollution levels. Once
-this is done, rigorous cost–beneﬁt analysis should be carried out for these competing
-policies. As pointed out in this paper, however, care should be taken when eliciting
-individuals’ willingness to pay, for this willingness could be biased due to diverse
-constraints (lack of information or inability to understand it, ﬁnancial constraints,
-etc.).
-In summary, as long as there remain impediments to an international agreement
-that delineates each country’s responsibilities to mitigate climate change, Latin
-American and Caribbean countries are left with the task of reinforcing and
-expanding their development policies while at the same time increasing their efforts
-to determine the type and timing of the adaptation policies that they should
-undertake. To take on this task effectively, rigorous research is needed. To date,
-little is known about the consequences of climate change in the region and the best
-policies to adapt to it.
+For a more detailed review of the greenhouse effect and the absorption rates of different gases, see
+half of the twentieth century, in the last decade temperatures have stabilized,
+although at record levels (NOAA 2012). At the same time, the amount of greenhouse
+gases (particularly CO2 concentration in the atmosphere) has never stopped rising
+and is at now at record highs (Scripps Institution of Oceanography 2015) . Scientists
+have not yet been able to explain this phenomenon, although possible explanations
+being investigated include a greater concentration of ash from volcanic eruptions and
+reduced levels of solar activity.
+Uncertainty is exacerbated when we move one step further and try to assess the
+projected effects of climate change on the environment and the economy. First,
+projecting future scenarios using climatic models that include greenhouse gas
+emissions involves making assumptions in relation to population and economic
+growth and technological change, among other factors. Second, the mechanisms
+through which global warming will affect the environment are still subject to
+controversy, and this controversy expands as scientists collect more information and
+discover new ‘‘unknown unknowns’’ that could affect or be affected by global
+warming (Victor 2011).
+Despite all the uncertainty, however, there is scientiﬁc consensus that the upward
+trend in global temperature will prevail. If this is correct, then moderate (but not
+extreme) warming would actually bring global net beneﬁts, although unevenly
+distributed: while countries at higher latitudes are expected to beneﬁt, those closer
+to the equator will be worse off. However, researchers believe that warming beyond
+2 °C will be costly in the aggregate (IPCC 2007).
+Temperature increases are reducing and may continue to reduce glaciers,
+producing many different adverse effects. A modest rate of ice-sheet melting
+(mainly in Greenland and West Antarctica) is expected to accelerate the pace of
+rises in sea levels reaching 2.2 m by the end of the century. Thus, low-lying and
+coastal areas (where about a ﬁfth of the world population lives) will be at increased
+risk. Moreover, a reduction of inter-tropical glaciers is expected in the Andean
+region during this century. This may increase river ﬂow in the short run, but reduce
+water availability in the long run and change the availability of water throughout the
+year, probably affecting energy supply. This has already been evidenced in Bolivia,
+Peru, Colombia, and Ecuador.
+The effect on energy requirements is nevertheless uncertain. If temperatures rise,
+less energy for heating will be needed, but higher cooling consumption should be
+expected. This would produce a shift from fossil fuels to electricity, but the net
+effect will depend on each country’s energy sources.
+The overall effects of global warming on agriculture are uncertain. According to
+the IPCC Fourth Assessment Report, food production will increase if temperatures
+rise from 1 to 3 °C because infertile, high-latitude lands (mainly in Canada, northern
+Europe, and Russia) will become productive. The increased amount of CO2 in the
+atmosphere also allows crops to grow faster. However, dry and low-latitude regions
+may suffer from a decrease in crop yields, and increases beyond the 3 °C threshold
+will reduce overall crop production. Although economic development may
+drastically reduce the number of undernourished people, there is concern that
+is troublesome, costing these effects is even more difﬁcult. The way to cost
+nonmarket goods—such as damage to or disappearance of ecosystem services, and
+loss of species or human lives—has not yet been agreed upon. Table 1 presents a list
+of studies carried out during the last two decades on the costing issue.
+The available estimates of surface air temperature in the literature are similar
+among them because they are based on climatic models that expect the
+concentration of greenhouse gases in the atmosphere to double by the end of the
+century. In contrast, impact estimates (which reﬂect the yearly income reduction for
+the estimated temperature increase) vary greatly from one study to another, and
+even within studies carried out by the same researcher, because they are obtained
+using a variety of approaches and including a different number of sectors.
+With the exception of Mendelsohn et al. (2000) and Nordhaus (2006), all the
+other studies use the ‘‘enumerative method’’ to estimate the effects of global
+warming. This means that physical effects are obtained from other disciplines
+(mainly natural science) that use climate and impact models, as well as laboratory
+experiments. For example, researchers use agronomy papers to estimate the impact
+of climate on crop yields, and then put a price on those effects using market prices
+or economic models. This is the case for every market good and service that is
+expected to be sensitive to climate change. For nonmarket goods and services (such
+as health), pricing comes from the valuation of those same goods and services in
+contexts different from climate change. As an example, suppose researchers assume
+that a natural reserve will disappear as a consequence of climate change. A reserve
+may have a recreational as well as an environmental value (absorption of CO2,
+shelter for animals, etc.), but this value may be difﬁcult and/or expensive to
+estimate. In order to do so, researchers use the cost estimates obtained from a study
+in which the source of variation in a reserve similar to the one under study is not
+climate.
+Table 1 Estimates of global warming and its impact in terms of share of income lost
+World Bank (2012) World Development Indicators. http://databank.worldbank.org/data/views/reports/

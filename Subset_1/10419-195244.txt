@@ -1,0 +1,6560 @@
+Lat Am Econ Rev (2017) 26:8
+https://doi.org/10.1007/s40503-017-0045-6
+
+The impact of pharmaceutical innovation on cancer
+mortality in Mexico, 2003–2013
+Frank R. Lichtenberg1,2
+
+Received: 31 January 2017 / Revised: 26 June 2017 / Accepted: 26 September 2017 /
+Cancer mortality has declined in Mexico during the last 2 decades. As shown in
+Fig. 1, the age-standardized cancer mortality rate1 of males declined by 13%, and
+that of females declined by 11%, between 1995 and 2014.2 The mortality rate, or
+(unconditional) probability of death from cancer, depends to an important extent on
+two variables: the probability of getting (being diagnosed with) cancer, and the
+probability of dying from cancer, conditional on having been diagnosed with
+cancer: prob(death) & prob(diagnosis) * prob(death|diagnosis).3 Therefore, the
+decline in the mortality rate could be due to either a decline in cancer incidence4, a
+decline in the probability of dying from cancer, conditional on having been
+diagnosed with cancer (e.g., due to improved treatment), or both.
+The Mexican cancer incidence rate declined by 13% (from 147.3 to 128.4)
+between 2002 and 2008, although it increased 2% (from 128.4 to 131.5) between
+2008 and 2012.5 Since the cancer incidence rate declined at least as rapidly as the
+cancer mortality rate in recent years, the decline in cancer mortality could be
+entirely due to declining cancer incidence. However, the measurement of cancer
+incidence is subject to signiﬁcant potential errors. For example, a decline in cancer
+surveillance or screening could lead to a decline in measured cancer incidence, even
+when true incidence is not declining.
+The previous studies (Lichtenberg 2014a, 2015, 2016a, b) have shown that
+pharmaceutical innovation—the introduction and use of new cancer drugs—has
+signiﬁcantly reduced cancer mortality in countries at a ‘‘very high’’ level of human
+development (as deﬁned by the United Nations Development Programme6). In this
+study, I will assess the impact that pharmaceutical innovation and cancer incidence
+had on cancer mortality in Mexico, a country at a lower (but still ‘‘high’’) level of
+1
+
+An age-standardized rate (ASR) is a summary measure of the rate that a population would have if it had
+a standard age structure. Standardization is necessary when comparing several populations that differ with
+respect to age, because age has a powerful inﬂuence on the risk of cancer. The ASR is a weighted mean of
+the age-speciﬁc rates; the weights are taken from population distribution of the standard population. The
+most frequently used standard population is the World Standard Population. The calculated incidence or
+mortality rate is then called age-standardized incidence or mortality rate (world). It is also expressed per
+100,000. See http://globocan.iarc.fr/Pages/glossary.aspx#MORTALITY.
+
+2
+
+In addition, between 1998 and 2013, mean age at death from cancer also increased by 1.8 years, from
+62.3 to 64.1. Source: author’s calculations based on WHO Mortality Database (World Health
+Organization (2016b)).
+
+3
+
+This approximation assumes that the probability that someone who has never been diagnosed with
+cancer dies from cancer is quite small. This is plausible, because the cancer mortality rate (the
+unconditional probability of dying from cancer) is about half as great as the cancer incidence rate (the
+probability of being diagnosed with cancer).
+
+4
+
+Incidence is the number of new cases arising in a given period in a speciﬁed population. This
+information is collected routinely by cancer registries. It can be expressed as an absolute number of cases
+per year or as a rate per 100,000 persons per year.
+
+5
+
+Source: OECD Health Statistics 2016 database. Data on incidence prior to 2002 are not available. The
+decline in incidence may be due, in part, to a decline in cigarette smoking, a major risk factor for lung
+cancer. Between 2002 and 2015, the fraction of the population aged 15 ? who are daily smokers declined
+from 12.4 to 7.6%.
+
+6
+
+
+77.09
+
+75
+
+72.1
+
+70
+
+65.46
+
+65
+
+61.33
+
+60
+
+55
+1994
+
+1999
+
+2004
+Male ASR (W)
+
+2009
+
+2014
+
+Female ASR (W)
+
+Fig. 1 Age-standardized cancer mortality rates, by sex, Mexico, 1995–2014 (Source: WHO Cancer
+Mortality database, http://www-dep.iarc.fr/WHOdb/WHOdb.htm)
+
+human development. As in the previous studies, a difference-in-difference research
+design will be used: I will investigate whether the decline in mortality was greater
+for cancer sites (breast, lung, colon, etc.) subject to more pharmaceutical innovation
+and greater declines in incidence. As shown in Fig. 2, the rate of decline in the
+mortality rate varied considerably across cancer sites. The mortality rate declined by
+at least 34% for 3 cancer sites (cervix, stomach, and lung), but increased for 3 other
+cancer sites (colon, ovary, and breast).
+In Sect. 2, I will formulate an econometric model of cancer mortality. The data
+sources used to estimate these models are described in Sect. 3. Empirical results are
+presented in Sect. 4. Rough estimates of the number of life-years gained in 2013
+from the reduction in cancer mortality attributable to pharmaceutical innovation,
+and of the average cost-effectiveness (cost per life-year gained) of new cancer
+drugs, are developed in Sect. 5. Sect. 6 provides a summary and conclusions.
+
+2 Econometric model of cancer mortality
+The basic model which I will use to assess the impact of pharmaceutical innovation
+and cancer incidence on age-standardized cancer mortality rates in Mexico is:
+MORTst ¼ bk CUM NCEs;tÀk þ c INCIDENCEs;tÀ1 þ as þ dt þ est ;
+
+ð1Þ
+
+where MORTst = the age-standardized mortality rate from cancer at site s in year t
+P
+-50%
+
+-40%
+
+-30%
+
+-20%
+
+-10%
+
+0%
+
+10%
+
+20%
+
+30%
+
+-48%
+
+stomach
+
+-34%
+
+trachea, bronchus, lung
+
+-34%
+
+Hodgkin’s disease
+
+-13%
+
+liver
+
+-12%
+
+pancreas
+
+-11%
+
+prostate
+bladder
+leukemia
+melanoma of skin
+female breast
+ovary
+colon, rectum and anus
+
+-10%
+-6%
+-4%
+0%
+2%
+13%
+18%
+
+Fig. 2 % change in age-adjusted mortality rate, by cancer site, 2000–2013 (Source: OECD Health
+Statistics 2016 database)
+
+new chemical entities (drugs) to treat cancer at site s that had been launched in
+Mexico by the end of year t-k (k = 0, 3, 6 ,…,18); INDds ¼ 1
+if drug d is used to treat ðindicated forÞ cancer at site s¼ 0 if drug d is not used
+to treat ðindicated forÞ cancer at site s;
+LAUNCHEDd;tÀk ¼ 1 if drug
+d had been launched in Mexico by the end of year t À k ¼ 0 if drug d had not
+been launched in Mexico by the end of year t À k; INCIDENCEs,t-1 = the age-standardized incidence rate of cancer at site s in year t - 1; as = a ﬁxed effect for
+cancer at site s; dt = a ﬁxed effect for year t.
+Inclusion of year and cancer-site ﬁxed effects controls for the overall decline in
+cancer mortality and for stable between-cancer-site differences in mortality.
+Negative and signiﬁcant estimates of bk in Eq. (1) would signify that cancer sites for
+which there was more pharmaceutical innovation had larger declines in mortality,
+controlling for changes in incidence.
+Due to data limitations, the number of new chemical entities is the only cancersite-speciﬁc, time-varying, measure of medical innovation in Eq. (1). Both a
+patient-level US study and a longitudinal country-level study have shown that
+controlling for numerous other potential determinants of mortality does not reduce,
+and may even increase, the estimated effect of pharmaceutical innovation. The
+study based on patient-level data (Lichtenberg 2013) found that controlling for race,
+education, family income, insurance coverage, Census region, BMI, smoking, the
+mean year the person started taking his or her medications, and over 100 medical
+conditions had virtually no effect on the estimate of the effect of pharmaceutical
+innovation (the change in drug vintage) on life expectancy. The study based on
+longitudinal country-level data (Lichtenberg 2014b) found that controlling for ten
+health expenditure (public and private), the DPT immunization rate among children
+ages 12–23 months, HIV prevalence, and tuberculosis incidence] increased the
+coefﬁcient on pharmaceutical innovation by about 32%.
+Failure to control for non-pharmaceutical medical innovation (e.g., innovation in
+diagnostic imaging, surgical procedures, and medical devices) is also unlikely to
+bias estimates of the effect of pharmaceutical innovation on premature mortality, for
+two reasons. First, more than half of US funding for biomedical research came from
+pharmaceutical and biotechnology ﬁrms (Dorsey et al. 2010). Much of the rest came
+from the federal government (i.e., the NIH), and new drugs often build on upstream
+government research (Sampat and Lichtenberg 2011). The National Cancer Institute
+(2016a, b) says that it ‘‘has played an active role in the development of drugs for
+cancer treatment for 50 years… [and] that approximately one half of the
+chemotherapeutic drugs currently used by oncologists for cancer treatment were
+discovered and/or developed’’ at the National Cancer Institute. Second, the previous
+research based on US data (Lichtenberg 2014a, c) indicates that non-pharmaceutical
+medical innovation is not positively correlated across diseases with pharmaceutical
+innovation. However, while non-pharmaceutical medical innovation may not be
+correlated with pharmaceutical innovation across diseases in the US, this need not
+hold for Mexico.
+The measure of pharmaceutical innovation in Eq. (1)—the number of chemical
+substances previously registered to treat cancer at site s—is not the theoretically
+ideal measure. Mortality is presumably more strongly related to the drugs actually
+used to treat cancer than it is to the drugs that could be used to treat cancer. A
+preferable measure is the mean vintage of drugs used to treat cancer at site s in year
+P
+P
+t, deﬁned as VINTAGEst = d Qdst LAUNCH_YEARd/ d Qdst, where Qdst = the
+quantity of drug d used to treat cancer at site s in year t, and LAUNCH_YEARd = the world launch year of drug d.7 Unfortunately, measurement of VINTAGEst is
+infeasible: even though data on the total quantity of each drug in each year (Qd.t = Rs
+Qdst) are available, many drugs are used to treat multiple diseases. There is no way
+to determine the quantity of drug d used to treat cancer at site s in year t.8 However,
+Lichtenberg (2014c) showed that in France, there is a highly signiﬁcant positive
+correlation across drug classes between changes in the (quantity-weighted) vintage
+of drugs and changes in the number of chemical substances previously registered
+within the drug class.
+
+7
+
+According to the Merriam Webster dictionary, one deﬁnition of vintage is ‘‘a period of origin or
+manufacture (e.g., a piano of 1845 vintage)’’. http://www.merriam-webster.com/dictionary/vintage.
+Solow (1960) introduced the concept of vintage into economic analysis. Solow’s basic idea was that
+technical progress is ‘‘built into’’ machines and other goods and that this must be taken into account when
+making empirical measurements of their roles in production. This was one of the contributions to the
+theory of economic growth that the Royal Swedish Academy of Sciences cited when it awarded Solow
+the 1987 Alfred Nobel Memorial Prize in Economic Sciences (Nobelprize.org 2016).
+
+8
+
+Outpatient prescription drug claims usually do not show the indication of the drug prescribed. Claims
+for drugs administered by doctors and nurses (e.g., chemotherapy) often show the indication of the drug,
+‘world launch’ of cancer drugs and their ‘Mexico launch’.9 According to Solow’s
+vintage hypothesis, later, vintage goods (e.g., drugs whose world launch years were
+later) are likely to be of higher quality than earlier vintage goods. Holding constant
+the Mexican launch year of a drug, the shorter the lag from world launch year to
+Mexican launch year, the later the world launch year of the drug, and (according to
+the vintage hypothesis), the higher the drug’s quality. However, controlling for the
+length of time between the ‘world launch’ of cancer drugs and their ‘Mexico launch’
+is problematic. I can compute the mean lag between the world launch year and the
+Mexican launch year for cancer sites and years in which at least one drug had been
+launched in Mexico. However, I cannot compute the mean lag for cancer sites and
+years in which no drugs had been launched in Mexico. As shown in Table 2, 8
+cancer sites had 0 drug launches by 1995; 4 cancer sites had 0 drugs launches by
+2004. Controlling for the length of time between the ‘world launch’ of cancer drugs
+and their ‘Mexico launch’ would require excluding those observations.
+In Eq. (1), mortality from cancer at site s in year t depends on the number of new
+chemical entities (drugs) to treat cancer at site s that had been launched in Mexico
+by the end of year t - k, i.e., there is a lag of k years. Equation (1) will be estimated
+for different values of k: k = 0, 3, 6,…,18. A separate model is estimated for each
+value of k, rather than including multiple values (CUM_NCEs,t, CUM_NCEs,t-3,
+CUM_NCEs,t-6,…) in a single model, because CUM_NCE is highly serially
+correlated (by construction), which would result in extremely high multicollinearity
+if multiple values were included. One would expect there to be a substantial lag,
+because new drugs diffuse gradually—they will not be used widely until years after
+registration. Data from the IMS Health MIDAS database can be used to provide
+evidence about the process of diffusion of new medicines. I used data from that
+source linked to data on Mexican drug launch dates (described below) to estimate
+the following model:
+À
+Á
+ln N RXdy ¼ qd þ py þ edy ;
+ð2Þ
+where N_RXdy= the number of standard units of cancer drug d sold in Mexico per
+thousand population y years after it was launched (y = 0–3, 4–7, 8–11, 12–15,
+16–19 years); qd = a À
+ﬁxed effect for drug d; py = a ﬁxed effect for age y.
+Á
+The expression exp py À p16À19 is a ‘‘relative utilization index’’: it is the mean
+ratio of the annual number of standard units of a cancer drug sold per thousand
+population y years after it was ﬁrst launched in Mexico to the annual number of
+standard units of the same drug sold per thousand population 16–19 years after it
+was ﬁrst launched in Mexico.
+Using annual data on the number of standard units of cancer drugs sold in Mexico
+during the period 1999–2010, I estimated Eq. (2). Estimates of the ‘‘relative
+utilization index’’ are shown in Fig. 3. These estimates indicate that utilization of a
+drug is strongly positively related to how long the drug has been on the market. On
+average, a drug is used 50 times as often per year 16–19 years post-launch as it is
+9
+
+
+100%
+
+100%
+
+80%
+
+60%
+47%
+
+40%
+
+19%
+
+20%
+9%
+2%
+
+0%
+0-3
+
+4-7
+
+8-11
+
+12-15
+
+1 6 - 19
+
+Number of years since launch
+
+Fig. 3 Relative utilization of cancer drugs in Mexico, by number of years since launch (index: ratio of
+utilization y years since launch to utilization 16–19 years since launch)
+
+0–3 year post-launch. Utilization appears to rise especially rapidly after year 11,
+when drug patents tend to expire and generics enter the market.
+The effect of a drug’s launch on mortality is likely to depend on both the quality
+and the quantity of the drug. Indeed, it is likely to depend on the interaction between
+quality and quantity: a quality improvement will have a greater impact on mortality
+if drug utilization (quantity) is high. Although newer drugs tend to be of higher
+quality than older drugs (see Lichtenberg 2014d), the relative quantity of very new
+drugs is quite low, so the impact on mortality of very new drugs is lower than the
+impact of older drugs.
+In principle, mortality in year t should depend on a distributed lag of incidence,
+i.e., on INCIDENCEs,t, INCIDENCEs,t-1, INCIDENCEs,t-2, INCIDENCEs,t-3…
+Unfortunately, data on incidence by cancer site are available for only 2 years (2002
+and 2012); this is why INCIDENCEs,t-2 is the only incidence variable included in
+Eq. (1). The limited availability of incidence data also means that we can only use
+mortality data for 2 years (2004 and 2014). Writing the model for each of these
+years:
+MORTs;2003 ¼ bk CUM NCEs;2003Àk þ cINCIDENCEs;2002 þ as þ d2003 þ es;2003 ;
+ð3Þ
+MORTs;2013 ¼ bk CUM NCEs;2013Àk þ c INCIDENCEs;2012 þ as þ d2013 þ es;2013 :
+À
+Á
+À
+Á
+MORTs;2013 À MORTs;2003 ¼ bk CUM NCEs;2013Àk À CUM NCEs;2003Àk
+À
+Á
+þ c INCIDENCEs;2012 À INCIDENCEs;2002
+þ ðd2013 À d2003 Þ þ ðes;2013 À es;2003 Þ:
+ð5Þ
+Equation (5) may be rewritten as follows:
+DMORTs ¼ bk DCUM NCE ks
+þ c DINCIDENCE 1s þ d0 þ e0s ;
+
+ð6Þ
+
+where DMORTs = MORTs,2013 - MORTs,2003 = the 2003–2013 change in the
+age-standardized mortality rate from cancer at site s; DCUM_NCE_ks =
+CUM_NCEs,2013k - CUM_NCEs,2003-k = the number of drugs for cancer at site
+s launched between year 2003 - k and 2013 - k; DINCIDENCE_1s =
+INCIDENCEs,2012 - INCIDENCEs,2002 = the 2002–2012 change in the age-standardized incidence rate of cancer at site s; d0 = d2013 - d2003.
+Equation (6) indicates that the 2003–2013 change in the age-standardized mortality
+rate depends on two variables: the number of drugs launched between year 2003 - k
+and 2013 - k, and the 2002–2012 change in the age-standardized incidence rate.
+For estimates of bk from Eqs. (1) and (6) to be consistent estimates of the effect
+of drug launches on mortality, the ‘‘parallel trends’’ assumption needs to be
+satisﬁed. A simple way to test the validity of this assumption is to estimate a version
+of Eq. (6) that includes a control for the trend in mortality in the ‘pre-period’, e.g.,
+the period 1993–2003. Therefore, I will estimate the following model:
+DMORTs ¼ bk DCUM NCE ks þ c DINCIDENCE 1s
+þ p DMORT PREs þ d0 þ e0s ;
+
+ð7Þ
+
+where DMORT_PREs = MORTs,2003 - MORTs,1993 = the 1993–2003 change in
+the age-standardized mortality rate from cancer at site s.
+
+3 Data sources
+Age-standardized cancer mortality rate data were obtained from the WHO Cancer
+Mortality database (World Health Organization (2016a)).
+Age-standardized cancer incidence rate data were obtained from GLOBOCAN
+International Agency for Research on Cancer (2016). Mortality and incidence data
+are reported separately by sex. For cancers affecting both sexes, we computed the
+simple mean of the sex-speciﬁc rates. For cancers affecting only one sex (breast,
+cervical, ovarian, and prostate), we computed 50% of the single-sex rate.
+Data on drugs approved for different types of cancer were obtained from the US
+National Cancer Institute.
+Data on Mexican launch dates of drugs were obtained from the IMS Health New
+in the IMS New Product Focus database) is usually the year in which the drug was ﬁrst
+sold in Mexico (as indicated in the IMS MIDAS database). In a few cases, the drug was
+ﬁrst sold in Mexico in the year after the Mexican launch year. I deﬁne CUM_NCEst as
+the number of post-1981 new chemical entities (i.e., NCEs ﬁrst launched anywhere in
+the world after 1981) used to treat cancer at site s that had been launched in Mexico by
+the end of year t. Since the New Product Focus data are left-censored (no pre-1982
+data), this measure is subject to error, because CUM_NCEst will not (but should)
+include pre-1982 NCEs that were ﬁrst launched in Mexico after 1981. If this
+measurement error is random, it is likely to bias estimates of bk towards zero.
+Annual data on the number of standard units of cancer drugs sold in Mexico
+during the period 1999–2010 were obtained from the IMS Health MIDAS database.
+Data on age-standardized mortality and incidence rates, by cancer site and year,
+are shown in Table 1.
+Data on the number of post-1981 drugs ever launched in Mexico, by cancer site
+and year, are shown in Table 2.
+Mexican launch dates of drugs used to treat different types of cancer are shown in
+Appendix Table 5.
+
+4 Empirical results
+Estimates of the pharmaceutical innovation (bk) parameters of the cancer mortality
+rate model (Eq. (1) for different values of k are shown in Table 3. Each estimate is
+from a separate model. For simplicity, estimates of the incidence coefﬁcient (c) are
+not shown here. Estimates of the incidence coefﬁcient were positive and signiﬁcant
+(and virtually identical) in all models, indicating that mortality declined more for
+cancer sites that had larger declines in incidence.
+The ﬁrst seven rows of Table 3 show estimates based on mortality and incidence
+data for both sexes combined. Row 1 shows the estimate of b0, i.e., of the
+pharmaceutical innovation coefﬁcient when there is no lag between the number of
+drugs ever launched and the mortality rate. The estimate of b0 is negative but only
+marginally statistically signiﬁcant (p = 0.07). This is not surprising, since, as shown
+in Fig. 3, utilization of recently launched drugs tends to be quite low.
+Row 2 shows the estimate of b3, i.e., of the pharmaceutical innovation coefﬁcient
+when there is a 3-year lag between the number of drugs ever launched and the mortality
+rate. The estimate of b3 is negative and statistically signiﬁcant (p = 0.03). Rows 3–7 of
+Table 3 show estimates of bk for k = 6, 9, 12, 15, and 18, respectively. All ﬁve bk
+estimates are negative and statistically signiﬁcant (p B 0.031). These estimates signify
+that the mortality rate is inversely related to the number of drugs that had ever been
+launched 3–18 years earlier, controlling for the incidence rate.10 The estimates of bk
+based on data for both sexes combined are plotted in Panel A of Fig. 4.
+10
+
+Controlling for incidence is important. If DINCIDENCE_2s is excluded from the model, none of the bk
+parameter estimates are statistically signiﬁcant. DCUM_NCE_k and DINCIDENCE_2 are positively
+correlated across cancer sites—there were more drug launches for cancer sites that had larger increases in
+1.0
+3.7
+
+C88 ? C90 multiple myeloma
+
+C91–95 leukemia
+
+3.2
+
+0.5
+2.1
+
+0.6
+
+C73 thyroid
+
+C82–85, C96 non-Hodgkin lymphoma
+
+2.0
+
+C70–72 brain, central nervous system
+
+C81 hodgkin lymphoma
+
+1.9
+
+C64 kidney
+
+6.1
+
+4.9
+
+5.0
+
+C61 prostate
+
+C53 cervix uteri
+
+0.5
+4.5
+1.7
+
+6.9
+
+C50 breast
+
+C56 ovary
+
+0.4
+
+4.3
+
+C43 melanoma of skin
+
+8.8
+
+3.0
+
+C18–21 colon, rectum and anus
+
+10.3
+
+7.7
+
+C16 stomach
+
+1.2
+
+C33–34 lung (incl. trachea and bronchus)
+
+1.2
+
+C15 oesophagus
+
+1.1
+
+73.0
+
+3.7
+
+1.2
+
+C25 pancreas
+
+73.7
+
+C00–14 lip, oral cavity and pharynx
+
+3.3
+
+1.0
+
+2.0
+
+0.4
+
+0.6
+
+1.8
+
+1.8
+
+5.0
+
+1.7
+
+3.1
+
+4.5
+
+0.5
+
+5.7
+
+3.3
+
+4.4
+
+4.7
+
+0.9
+
+1.0
+
+62.3
+
+5.0
+
+1.4
+
+4.8
+
+1.7
+
+3.4
+
+3.0
+
+4.7
+
+15.0
+
+3.7
+
+14.8
+
+13.2
+
+1.6
+
+11.9
+
+4.7
+
+7.5
+
+11.3
+
+1.5
+
+3.4
+
+147.3
+
+5.6
+
+1.3
+
+4.1
+
+1.3
+
+2.6
+
+4.0
+
+3.6
+
+13.7
+
+2.8
+
+11.7
+
+17.7
+
+1.8
+
+7.7
+
+3.9
+
+7.8
+
+7.0
+
+1.1
+
+3.2
+
+131.9
+
+2012
+
+2.9
+
+13.7
+
+8.6
+
+0.3
+
+5.2
+
+2.9
+
+6.4
+
+0.6
+
+0.7
+
+72.4
+
+1993
+
+3.3
+
+0.8
+
+1.8
+
+0.4
+
+0.7
+
+1.6
+
+1.3
+
+3.3
+
+9.9
+
+9.0
+
+0.3
+
+4.9
+
+3.6
+
+3.4
+
+5.3
+
+0.5
+
+0.7
+
+69.0
+
+2003
+
+2002
+
+1993
+
+2003
+
+Mortality
+
+Incidence
+
+Mortality
+2013
+
+Female
+
+Both sexes
+
+C00–97, B21 all cancers
+
+Cancer site
+
+Table 1 Age-standardized mortality and incidence rates, by cancer site, 1993–2013
+
+3.0
+
+0.9
+
+1.6
+
+0.3
+
+0.7
+
+1.5
+
+1.3
+
+3.4
+
+6.1
+
+9.0
+
+0.4
+
+3.8
+
+3.3
+
+3.8
+
+4.0
+
+0.4
+
+0.6
+
+59.9
+
+2013
+
+4.3
+
+1.2
+
+3.9
+
+1.2
+
+5.7
+
+2.4
+
+4.0
+
+7.4
+
+29.5
+
+26.4
+
+1.7
+
+6.7
+
+4.7
+
+7.0
+
+9.4
+
+0.8
+
+2.2
+
+150.0
+
+2002
+
+5.1
+
+1.1
+
+3.6
+
+1.1
+
+3.9
+
+3.3
+
+2.5
+
+5.6
+
+23.3
+
+35.4
+
+1.5
+
+4.9
+
+3.8
+
+6.7
+
+6.0
+
+0.5
+
+2.2
+
+139.9
+
+2012
+
+Incidence
+
+3.4
+
+9.8
+
+0.4
+
+15.4
+
+3.0
+
+9.0
+
+1.8
+
+1.6
+
+75.0
+
+1993
+
+4.1
+
+1.1
+
+2.3
+
+0.6
+
+0.4
+
+2.3
+
+2.5
+
+12.1
+
+0.6
+
+12.7
+
+3.8
+
+3.8
+
+7.4
+
+1.8
+
+1.5
+
+77.0
+
+2003
+
+Mortality
+
+Male
+
+3.6
+
+1.1
+
+2.3
+
+0.5
+
+0.4
+
+2.1
+
+2.3
+
+10.0
+
+0.5
+
+7.6
+
+3.3
+
+4.9
+
+5.3
+
+1.4
+
+1.3
+
+64.7
+
+2013
+
+5.6
+
+1.6
+
+5.7
+
+2.1
+
+1.0
+
+3.5
+
+5.4
+
+29.9
+
+1.4
+
+17.0
+
+4.6
+
+7.9
+
+13.1
+
+2.2
+
+4.5
+
+144.5
+
+2002
+
+6.0
+
+1.4
+
+4.6
+
+1.5
+
+1.3
+
+4.6
+
+4.6
+
+27.3
+
+2.1
+
+10.5
+
+3.9
+
+8.9
+
+7.9
+
+1.6
+
+4.1
+
+123.9
+
+2012
+
+Incidence
+ICD_WHO
+
+1986
+
+1989
+
+1992
+
+1995
+
+1998
+
+2001
+
+2004
+
+2007
+
+2010
+
+2013
+
+C00–14 lip, oral cavity and
+pharynx
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+2
+
+2
+
+2
+
+2
+2
+
+C15 oesophagus
+
+0
+
+0
+
+0
+
+1
+
+1
+
+2
+
+2
+
+2
+
+2
+
+C16 stomach
+
+0
+
+0
+
+0
+
+1
+
+1
+
+2
+
+2
+
+2
+
+2
+
+2
+
+C18–21 colon, rectum and
+anus
+
+0
+
+0
+
+0
+
+0
+
+1
+
+2
+
+4
+
+5
+
+5
+
+6
+
+C25 pancreas
+
+0
+
+0
+
+0
+
+1
+
+3
+
+3
+
+3
+
+6
+
+6
+
+6
+
+C33–34 lung (incl. trachea
+and bronchus)
+
+0
+
+0
+
+1
+
+3
+
+5
+
+5
+
+6
+
+9
+
+10
+
+11
+
+C43 melanoma of skin
+
+0
+
+1
+
+1
+
+1
+
+2
+
+3
+
+3
+
+3
+
+3
+
+5
+
+C45 mesothelioma
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+C50 breast
+
+0
+
+1
+
+2
+
+4
+
+7
+
+11
+
+12
+
+13
+
+16
+
+16
+
+C53 cervix uteri
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+2
+
+2
+
+C56 ovary
+
+0
+
+0
+
+1
+
+2
+
+3
+
+3
+
+3
+
+4
+
+5
+
+5
+
+C61 prostate
+
+0
+
+3
+
+4
+
+5
+
+6
+
+6
+
+6
+
+6
+
+7
+
+8
+
+C64 kidney
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+4
+
+4
+
+6
+
+C70–72 brain, central
+nervous system
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+3
+
+3
+
+3
+
+C73 thyroid
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+C81 hodgkin lymphoma
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+C82–85, C96 non-hodgkin
+lymphoma
+
+0
+
+1
+
+1
+
+1
+
+1
+
+2
+
+2
+
+3
+
+5
+
+5
+
+C88 ? C90 multiple
+myeloma
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+2
+
+4
+
+4
+
+C91–95 leukemia
+
+0
+
+2
+
+3
+
+3
+
+3
+
+5
+
+5
+
+7
+
+8
+
+8
+
+Mean
+
+0.0
+
+0.4
+
+0.7
+
+1.2
+
+1.8
+
+2.5
+
+2.8
+
+3.8
+
+4.5
+
+4.8
+
+To calculate the change in the mean mortality rate attributable to pharmaceutical
+innovation, we can multiply the estimate of bk (column 1 of Table 3) by the mean
+value of DCUM_NCE_k (column 5); the result is shown in column 6. These
+calculations imply that new drugs launched during the period 1991–2001 had the
+largest (most negative) effect on the 2003–2011 change in mortality. Henceforth, I
+will focus on the estimates of the model when k = 12.
+The two explanatory variables (DCUM_NCE_12 and DINCIDENCE_1) in the
+mortality change (DMORT) model jointly explain 77% of the variance across
+cancer sites in the 2003–2013 change in the mortality rate. The mean mortality rate
+declined by 0.47 between 2003 and 2013. The estimates imply that new drugs
+launched during 1991–2001 reduced the mean mortality rate by 0.47. The mean
+mortality rate in 2003 was 2.99, so this indicates that new drugs launched during
+1998–2008 reduced the mean mortality rate by 16% (= 0.47/2.99), i.e., at an average
+annual rate of about 1.6%. The decline in incidence also reduced the mean mortality
+as ? dt ? est for different values of k
+Column
+Row
+
+Parameter
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Estimate
+
+Lag
+
+1
+
+Std.
+err.
+
+Z
+
+Pr [ |Z|
+
+Mean
+(DCUM_
+NCE_k)
+
+bk * mean
+(DCUM_NCE_k)
+
+Both sexes (mean DMORT = - 0.50)
+1
+
+0
+
+b0
+
+- 0.1628
+
+0.0887
+
+- 1.84
+
+0.0664
+
+2.3
+
+- 0.380
+
+2
+
+3
+
+b3
+
+2 0.1788
+
+0.0827
+
+2 2.16
+
+0.0306
+
+2.2
+
+- 0.387
+
+3
+
+6
+
+b6
+
+2 0.1702
+
+0.0787
+
+2 2.16
+
+0.0306
+
+2.3
+
+- 0.397
+
+4
+
+9
+
+b9
+
+2 0.1909
+
+0.0511
+
+2 3.74
+
+0.0002
+
+2.2
+
+- 0.424
+
+5
+
+12
+
+b12
+
+2 0.223
+
+0.046
+
+2 4.85
+
+< 0.0001
+
+2.1
+
+- 0.471
+
+6
+
+15
+
+b15
+
+2 0.217
+
+0.0646
+
+2 3.36
+
+0.0008
+
+1.6
+
+- 0.338
+
+7
+
+18
+
+b18
+
+2 0.257
+
+0.0973
+
+2 2.64
+
+0.0083
+
+1.3
+
+- 0.328
+
+Average
+
+- 0.389
+
+Female (mean DMORT = - 0.39)
+8
+
+0
+
+b0
+
+- 0.0949
+
+0.0733
+
+- 1.29
+
+0.1953
+
+2.4
+
+- 0.223
+
+9
+
+3
+
+b3
+
+- 0.1388
+
+0.081
+
+- 1.71
+
+0.0866
+
+2.2
+
+- 0.310
+
+10
+
+6
+
+b6
+
+- 0.1704
+
+0.1013
+
+- 1.68
+
+0.0925
+
+2.5
+
+- 0.421
+
+11
+
+9
+
+b9
+
+2 0.2081
+
+0.0939
+
+2 2.22
+
+0.0267
+
+2.2
+
+- 0.465
+
+12
+
+12
+
+b12
+
+2 0.2218
+
+0.0908
+
+2 2.44
+
+0.0145
+
+2.1
+
+- 0.470
+
+13
+
+15
+
+b15
+
+- 0.1552
+
+0.0826
+
+- 1.88
+
+0.0601
+
+1.4
+
+- 0.219
+
+14
+
+18
+
+b18
+
+2 0.2841
+
+0.1175
+
+2 2.42
+
+0.0156
+
+1.1
+
+- 0.301
+
+Average
+
+- 0.344
+
+Male (mean DMORT = - 0.69)
+15
+
+0
+
+b0
+
+- 0.1219
+
+0.0913
+
+- 1.33
+
+0.1819
+
+2.2
+
+- 0.268
+
+16
+
+3
+
+b3
+
+- 0.1153
+
+0.0901
+
+- 1.28
+
+0.2008
+
+2.0
+
+- 0.231
+
+17
+
+6
+
+b6
+
+- 0.0852
+
+0.0955
+
+- 0.89
+
+0.3722
+
+2.1
+
+- 0.182
+
+18
+
+9
+
+b9
+
+- 0.1512
+
+0.1592
+
+- 0.95
+
+0.3423
+
+1.9
+
+- 0.282
+
+19
+
+12
+
+b12
+
+2 0.3191
+
+0.1155
+
+2 2.76
+
+0.0058
+
+1.7
+
+- 0.553
+
+20
+
+15
+
+b15
+
+2 0.3212
+
+0.1014
+
+2 3.17
+
+0.0015
+
+1.3
+
+- 0.407
+
+21
+
+18
+
+b18
+
+2 0.2563
+
+0.0819
+
+2 3.13
+
+0.0018
+
+1.1
+
+- 0.290
+
+Average
+
+- 0.316
+
+Estimates in bold are statistically signiﬁcant (p-value \ .05)
+
+also indicate that if no new drugs had been launched during 1991–2001 and the
+incidence rate had not declined between 2002 and 2012, the mortality rate would
+have increased by 0.28 between 2003 and 2013, although the estimated increase (the
+intercept) is not statistically signiﬁcant.
+Rows 8–14 of Table 3 show estimates based on mortality and incidence data for
+females only. The estimates are not statistically signiﬁcant when k B 6, but 3 of the
+4 estimates for k C 9 are negative and statistically signiﬁcant. These estimates are
+k
+
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+0.0
+0.1
+95% Lower Conﬁdence Limit
+
+EsƟmate
+
+95% Upper Conﬁdence Limit
+
+b
+-0.6
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+0.0
+0.1
+
+c
+-0.7
+-0.6
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+0.0
+0.1
+0.2
+0.3
+
+Scale is inverted. Solid markers denote signiﬁcant esƟmates (p-value < .05); hollow markers denote insigniﬁcant
+esƟmates.
+
+Fig. 4 Estimates of bk parameters of Eq. (1), MORTst = bk CUM_NCEs, t-k ? c INCIDENCEs, t-1 ? as
+? dt ? est for different values of k. a Both sexes, b females, c males
+
+Rows 15–21 of Table 3 show estimates based on mortality and incidence data for
+males only. The estimates are not statistically signiﬁcant when k B 9, but all three
+estimates for k C 12 are negative and statistically signiﬁcant. These estimates are
+plotted in Panel C of Fig. 4. The difference between the effects of pharmaceutical
+innovation on female and male cancer mortality rates is not statistically signiﬁcant.
+For example, the p value on the difference between the female and male estimates
+of b12 in Table 3 (0.0972 = - 0.2218 to (- 0.3191)) is 0.51 (Chi-square = 0.44).
+Launching of new drugs in Mexico may not be strictly exogenous with respect to
+instrument that I used for CUM_NCEs,t-k (the number of drugs to treat cancer at site
+s that had been launched in Mexico by the end of year t-k) is
+CUM_NCE_FOREIGNs,t-k (the number of drugs to treat cancer at site s that had
+been launched outside of Mexico by the end of year t-k), deﬁned as follows:
+P
+CUM_NCE_FOREIGNs,t-k = d INDds LAUNCHED_FOREIGNd,t-k = the number of new chemical entities (drugs) to treat cancer at site s that had been launched
+outside of Mexico by the end of year t-k (k = 0, 3, 6,…,18):LAUNCHED
+FOREIGNd;tÀk ¼ 1 if drug d had been launched outside of Mexico by the end
+of year t À k¼ 0 if drug d had not been launched outside of Mexico by the end
+of year t À k:
+The ﬁrst stage of the two-stage IV estimation procedure is to estimate the
+following equation:
+CUM NCEs;tÀk ¼ X CUM NCE FOREIGNs;tÀk þ as þ dt þ est :
+
+ð8Þ
+
+CUM_NCE_FOREIGNs,t-k is a good instrument for CUM_NCEs,t-k: when
+k = 12, the estimate of X is 0.8368 (Z = 6.24; p \ 0.0001). The second stage is to
+estimate Eq. (1), replacing the actual value of CUM_NCEs,t-k by its predicted value
+from Eq. (8). The IV estimate of b12 for both sexes (IV estimate = 0.2329;
+Z = 4.06; p \ 0.0001) is very similar to the OLS estimate shown in row 5 of
+Table 3.
+As discussed earlier, the ‘‘parallel trends’’ assumption needs to be satisﬁed for the
+estimates in Table 3 and Fig. 4 to be consistent estimates of the effect of drug
+launches on mortality. To provide evidence about the validity of this assumption, in
+Table 4, I present estimates of Eq. (7), which includes a control for the trend in
+mortality in the ‘pre-period’, e.g., the period 1993–2003. These estimates are based
+on a smaller set of cancer sites, because, as shown in Table 1, data on agestandardized mortality rates are less complete in 1993 than they are in 2003 and
+2013. Rows 22–28 of Table 4 show estimates of Eq. (7) based on data for both
+sexes combined for this smaller set of cancer sites when the trend in mortality in the
+‘pre-period’ (1993–2003) is excluded from the equation. Rows 29–35 show
+estimates of Eq. (7) based on the same sample when the trend in mortality in the
+‘pre-period’ is included in the equation. The coefﬁcient (p) on the pre-period
+mortality trend is signiﬁcant (and positive) only when k C 15. Controlling for the
+pre-period mortality trend does not substantially change the estimates of bk. The
+2003–2013 change in the age-standardized mortality rate is inversely related to the
+change in the number of drugs ever launched 12–18 years earlier, controlling for the
+2002–2012 change in incidence and the ‘pre-period’ (1993–2003) change in the
+mortality rate.
+The relationship across cancer sites between the number of new drugs launched
+during 1985–1995 and the 2003–2013 change in the mortality rate, controlling for
+the ‘‘pre-period’’ (1993–2003) change in the mortality rate and the 2002–2012
+change in the incidence rate, is shown in Fig. 5; this chart corresponds to the
+estimate of b18 shown in row 35 of Table 4. The ﬁgure indicates that the three
+p DMORT_PREs ? d0 ? es0 excluding and including DMORT_PREs
+Row
+
+Lag
+
+Parameter
+
+Estimate
+
+Std. err.
+
+T
+
+p value
+
+Without control for DMORT_PREV
+22
+
+0
+
+b0
+
+2 0.26361
+
+0.09837
+
+2 2.67978
+
+23
+
+3
+
+b3
+
+2 0.26209
+
+0.10704
+
+2 2.44851
+
+0.0442
+
+24
+
+6
+
+b6
+
+- 0.16993
+
+0.10048
+
+- 1.69117
+
+0.13465
+
+25
+
+9
+
+b9
+
+- 0.20238
+
+0.09249
+
+- 2.18828
+
+0.06484
+
+26
+
+12
+
+b12
+
+2 0.26289
+
+0.07605
+
+2 3.45699
+
+0.01059
+
+27
+
+15
+
+b15
+
+2 0.27366
+
+0.08422
+
+2 3.24925
+
+0.01407
+
+28
+
+18
+
+b18
+
+- 0.27399
+
+0.12188
+
+- 2.24806
+
+0.05937
+
+29
+
+0
+
+b0
+
+- 0.23336
+
+0.09856
+
+- 2.36765
+
+0.0557
+
+30
+
+3
+
+b3
+
+- 0.22552
+
+0.11339
+
+- 1.98885
+
+0.09387
+
+31
+
+6
+
+b6
+
+- 0.12894
+
+0.11267
+
+- 1.14446
+
+0.29603
+
+32
+
+9
+
+b9
+
+- 0.16884
+
+0.10131
+
+- 1.66657
+
+0.14665
+
+33
+
+12
+
+b12
+
+2 0.23641
+
+0.08384
+
+2 2.81985
+
+0.03036
+
+34
+
+15
+
+b15
+
+2 0.26438
+
+0.06602
+
+2 4.00487
+
+0.00708
+
+35
+
+18
+
+b18
+
+2 0.3807
+
+0.03866
+
+2 9.84795
+
+0.00006
+
+0.03155
+
+With control for DMORT_PREV
+
+Estimates in bold are statistically signiﬁcant (p-value \ .05)
+
+1.5
+
+1
+
+Change in mortality rate, 2003-2013 (residual)
+
+C18-21 Colon, rectum and anus
+
+-3
+
+0.5
+
+C00-14 Lip, oral cavity and pharynx
+C15 Oesophagus
+C43 Melanoma of skin
+
+y = -0.3807x + 1E-06
+R² = 0.9417
+
+C16 Stomach
+
+C53 Cervix uteri
+0
+-2
+
+-1
+
+0
+
+1
+
+2
+
+3
+
+C91-95 Leukaemia
+-0.5
+C50 Breast
+C61 Prostate
+-1
+
+C33-34 Lung (incl. trachea and
+bronchus)
+
+-1.5
+
+Number of new drugs launched, 1985-1995 (residual)
+
+Fig. 5 Relationship across cancer sites between the number of new drugs launched during 1985–1995
+and the 2003–2013 change in the mortality rate, controlling for the 1993–2003 change in the mortality
+2002–2012 change in the incidence rate and the trend in mortality in the preperiod. Excluding these three cancer sites from the sample does not have much
+effect on the estimate of b18; when they are excluded, the estimate of b18 is - 0.357
+(t = 8.15; p = 0.0039).
+
+5 Discussion
+The estimates indicate that the launch of new drugs subsequently reduced cancer
+mortality. New drugs launched during 1991–2001 are estimated to have reduced the
+age-standardized cancer mortality rate by 16%, i.e., at an average annual rate of
+about 1.6%.
+Now, I will develop a rough estimate of the number of life-years gained in 2013
+from the reduction in cancer mortality attributable to pharmaceutical innovation, and
+of the average cost-effectiveness (cost per life-year gained) of new cancer drugs.
+To do this, I will estimate the decline in the premature mortality rate
+attributable to pharmaceutical innovation. The premature mortality rate is the
+number of potential years of life lost (PYLL) per 100,000 population (OECD
+2017a, b). PYLL is a summary measure of premature mortality that provides an
+explicit way of weighting deaths occurring at younger ages. The calculation of
+PYLL involves summing up deaths occurring at each age and multiplying this with
+the number of remaining years to live up to a selected age limit.11 The limit of
+70 years was chosen for the calculations in OECD Health Statistics. To assure
+cross-country and trend comparison, the PYLL are standardized, for each country
+and each year. The total OECD population in 2010 is taken as the reference
+population for age standardization.
+As shown in Table 1, between 2003 and 2013, the age-standardized mortality rate for
+all cancers combined declined by 15%, from 73.0 to 62.3. The estimates in Table 4
+imply that virtually, this entire decline was due to the previous launches of new cancer
+drugs. During the same period, according to the OECD, the premature cancer mortality
+rate (the number of PYLL before age 70/100,000 population below age 70) declined by
+11.4%, from 782.4 to 693.4. It seems reasonable to assume that this entire decline was
+also due to the previous launches of new cancer drugs. Therefore, in the absence of the
+previous new drug launches, premature cancer mortality would have been 12.8% (= (1/
+(1 - 0.114)) - 1) higher in 2013 than it actually was. Actual PYLL before age 70 due
+to cancer in 2013 was 823,209 (= 693.4 * (118,720,632/100,000)). I estimate that in the
+absence of previous new drug launches, premature cancer mortality would have been
+928,870 (= 112.8% * 823,209).
+This calculation implies that 105,661 life-years before age 70 were gained in
+2013 due to new cancer drugs. This is a rough estimate of the longevity beneﬁt in
+2013 to people under 70 of cancer drugs launched during the period 1991–2001. To
+calculate the average cost-effectiveness of these drugs, I would like to measure
+11
+This measure incorporates both the reduction in the number of deaths and the increase in mean age at
+during the period 1991–2001. Unfortunately, these data are not available. However,
+I do have unpublished data from the IMS Health MIDAS database on expenditure
+(by or on behalf of all patients) by drug in 2010. Expenditure in 2010 on cancer
+drugs launched during 1991–2001 was $315 million.12 72% of people diagnosed
+with cancer in 2012 were below age 70 (source: GLOBOCAN). Expenditure in
+2010 by or on behalf of people below age 70 on cancer drugs launched during
+1994–2004 may, therefore, have been $227 million (= 72% * $315 million).
+These calculations imply that the cost per life-year gained by people below age
+70 from new cancer drugs was in the neighborhood of $2146 (= $227 million/
+105,661 life-years). This ﬁgure may be somewhat underestimated, since it is based
+on 2010 expenditure data.13 On the other hand, Lichtenberg (2014a) showed that in
+the US, about 25% of the cost of new drugs (for all diseases) tends to be offset by
+reduced expenditure on old drugs, so the cost per life-year gained may have been
+below $2000.
+The World Health Organization considers interventions whose cost per qualityadjusted life-year (QALY) gained is less than per capita GDP to be ‘‘very costeffective’’ (Bertram et al. 2016); Mexico’s per capita GDP in 2011 was $10,307.14
+The estimated cost per life-year gained from the previous pharmaceutical innovation
+is also well below the vast majority of estimates from the value-of-life literature of
+the value of a life-year (see Hirth et al. 2000).
+
+6 Summary and conclusions
+I assessed the impact that pharmaceutical innovation had on cancer mortality in
+Mexico during the period 2003–2013, by investigating whether there were larger
+declines in mortality for cancer sites (breast, lung, colon, etc.) that were subject to
+more pharmaceutical innovation, controlling for changes in cancer incidence. New
+drugs launched during 1991–2001 are estimated to have reduced the agestandardized cancer mortality rate by 16%, i.e., at an average annual rate of about
+1.6%. I estimated that 105,661 life-years before age 70 were gained in 2013 due to
+cancer drugs launched during 1997–2007, and that the cost per life-year gained was
+in the neighborhood of $2146. By the standards of the World Health Organization,
+new cancer drugs have been very cost-effective in Mexico.
+The contribution of cancer drug innovation to Mexican longevity growth has
+been valuable, but, perhaps, it could have been even larger. According to the IMS
+Institute for Healthcare Informatics (2016), during the period 2010–2014, 49 new
+cancer medicines were launched worldwide. As shown in Fig. 6, about twice as
+12
+Expenditure in 2010 on all post-1981 cancer drugs was $393 million. This represents 2.4% of total
+2010 pharmaceutical expenditure ($16.6 billion of US dollars at exchange rate) reported in MIDAS. The
+OECD estimate of total pharmaceutical sales in 2010 is 24% higher: $20.6 billion.
+13
+According to the OECD, between 2010 and 2013, total pharmaceutical sales (in US$ at exchange rate)
+increased 3.6% (from $20.6 billion to $21.3 billion).
+14
+Lichtenberg (2009) demonstrated that the number of QALYs gained from pharmaceutical innovation
+
+10
+
+20
+
+30
+
+40
+
+50
+
+Global
+
+60
+
+49
+
+US
+
+41
+
+Germany
+
+38
+
+UK
+
+37
+
+Italy
+
+31
+
+France
+
+28
+
+Canada
+
+28
+
+Japan
+
+24
+
+Spain
+
+23
+
+Poland
+
+22
+
+South Korea
+
+20
+
+Mexico
+
+20
+
+Russia
+
+19
+
+Brazil
+
+13
+
+Phillipines
+
+13
+
+Turkey
+
+9
+
+India
+
+7
+
+China
+
+6
+
+Indonesia
+
+Source: IMS InsƟtute for Healthcare InformaƟcs, Global Oncology Trend Report:
+A Review of 2015 and Outlook to 2020, p. 15.
+
+6
+
+Kazakhstan
+
+6
+
+S. Africa
+Vietnam
+
+5
+1
+
+Fig. 6 Number of 2010–2014 cancer medicines that have been launched in various regions
+
+many of these have been launched in the US as have been launched in Mexico.15 In
+addition, as shown in Fig. 3, when new drugs are launched in Mexico, their
+diffusion is quite slow.
+Due to unavailability of data, this study is subject to several limitations. The
+measure of pharmaceutical innovation—the number of chemical substances
+previously launched to treat cancer—is not the theoretically ideal measure. The
+number of chemical substances previously launched was the only cancer-sitespeciﬁc, time-varying, measure of medical innovation. The previous research based
+on US data indicates that non-pharmaceutical medical innovation is not positively
+correlated across diseases with pharmaceutical innovation, but this may not apply to
+Mexico. Future research may be able to overcome these and other limitations.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original
+author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were
+made.
+
+Appendix
+See Table 5.
+15
+The IMS Institute for Healthcare Informatics (2016, p 22) also notes that ‘‘Mexico and South Africa
+are the only pharmerging countries in which oncology costs have fallen in proportion to total medicines
+Cancer site
+
+Drug
+
+Launch year
+
+C00–C14 head and neck cancer
+
+Docetaxel
+
+1995
+
+C00–C14 head and neck cancer
+
+Cetuximab
+
+2004
+
+C15 esophageal cancer
+
+Docetaxel
+
+1995
+
+C15 esophageal cancer
+
+Trastuzumab
+
+2000
+
+C16 stomach (gastric) cancer
+
+Docetaxel
+
+1995
+
+C16 stomach (gastric) cancer
+
+Trastuzumab
+
+2000
+
+C18, C20 colon and rectal cancer
+
+Irinotecan
+
+1998
+
+C18, C20 colon and rectal cancer
+
+Capecitabine
+
+2000
+
+C18, C20 colon and rectal cancer
+
+Oxaliplatin
+
+2002
+
+C18, C20 colon and rectal cancer
+
+Cetuximab
+
+2004
+
+C18, C20 colon and rectal cancer
+
+Bevacizumab
+
+2005
+
+C18, C20 colon and rectal cancer
+
+Panitumumab
+
+2011
+
+C18, C20 colon and rectal cancer
+
+Aﬂibercept
+
+2014
+
+C25 pancreatic cancer
+
+Paclitaxel
+
+1995
+
+C25 pancreatic cancer
+
+Gemcitabine
+
+1997
+
+C25 pancreatic cancer
+
+Irinotecan
+
+1998
+
+C25 pancreatic cancer
+
+Erlotinib
+
+2006
+
+C25 pancreatic cancer
+
+Everolimus
+
+2006
+
+C25 pancreatic cancer
+
+Sunitinib
+
+2006
+
+C34 lung cancer
+
+Carboplatin
+
+1992
+
+C34 lung cancer
+
+Docetaxel
+
+1995
+
+C34 lung cancer
+
+Paclitaxel
+
+1995
+
+C34 lung cancer
+
+Gemcitabine
+
+1997
+
+C34 lung cancer
+
+Vinorelbine
+
+1998
+
+C34 lung cancer
+
+Geﬁtinib
+
+2004
+
+C34 lung cancer
+
+Bevacizumab
+
+2005
+
+C34 lung cancer
+
+Pemetrexed
+
+2005
+
+C34 lung cancer
+
+Erlotinib
+
+2006
+
+C34 lung cancer
+
+Topotecan
+
+2008
+
+C34 lung cancer
+
+Crizotinib
+
+2012
+
+C40–C41 bone cancer
+
+Denosumab
+
+2012
+
+C43 melanoma
+
+Interferon alfa-2b
+
+1987
+
+C43 melanoma
+
+Aldesleukin
+
+1996
+
+C43 melanoma
+
+Peginterferon alfa-2b
+
+2001
+
+C43 melanoma
+
+Ipilimumab
+
+2012
+
+C43 melanoma
+
+Vemurafenib
+
+2012
+
+C44 basal cell carcinoma
+
+Imiquimod
+
+1999
+
+C45 malignant mesothelioma
+
+Pemetrexed
+
+2005
+
+C46 kaposi sarcoma
+
+Interferon alfa-2b
+
+1987
+
+C46 kaposi sarcoma
+
+Paclitaxel
+
+1995
+
+C49 soft tissue sarcoma
+
+Imatinib
+
+2001
+
+C49 soft tissue sarcoma
+
+Trabectedin
+
+Cancer site
+
+Drug
+
+Launch year
+
+C49 soft tissue sarcoma
+
+Pazopanib
+
+2012
+
+C50 breast cancer
+
+Epirubicin
+
+1987
+
+C50 breast cancer
+
+Goserelin
+
+1991
+
+C50 breast cancer
+
+Docetaxel
+
+1995
+
+C50 breast cancer
+
+Paclitaxel
+
+1995
+
+C50 breast cancer
+
+Gemcitabine
+
+1997
+
+C50 breast cancer
+
+Anastrozole
+
+1998
+
+C50 breast cancer
+
+Raloxifene
+
+1998
+
+C50 breast cancer
+
+Toremifene
+
+1999
+
+C50 breast cancer
+
+Capecitabine
+
+2000
+
+C50 breast cancer
+
+Letrozole
+
+2000
+
+C50 breast cancer
+
+Trastuzumab
+
+2000
+
+C50 breast cancer
+
+Exemestane
+
+2004
+
+C50 breast cancer
+
+Everolimus
+
+2006
+
+C50 breast cancer
+
+Fulvestrant
+
+2009
+
+C50 breast cancer
+
+Ixabepilone
+
+2009
+
+C50 breast cancer
+
+Lapatinib
+
+2009
+
+C50 breast cancer
+
+Trastuzumab emtansine
+
+2014
+
+C53 cervical cancer
+
+Bevacizumab
+
+2005
+
+C53 cervical cancer
+
+Topotecan
+
+2008
+
+C56 ovarian, fallopian tube, or primary peritoneal cancer
+
+Carboplatin
+
+1992
+
+C56 ovarian, fallopian tube, or primary peritoneal cancer
+
+Paclitaxel
+
+1995
+
+C56 ovarian, fallopian tube, or primary peritoneal cancer
+
+Gemcitabine
+
+1997
+
+C56 ovarian, fallopian tube, or primary peritoneal cancer
+
+Bevacizumab
+
+2005
+
+C56 ovarian, fallopian tube, or primary peritoneal cancer
+
+Topotecan
+
+2008
+
+C61 prostate cancer
+
+Flutamide
+
+1987
+
+C61 prostate cancer
+
+Mitoxantrone
+
+1987
+
+C61 prostate cancer
+
+Leuprorelin
+
+1989
+
+C61 prostate cancer
+
+Goserelin
+
+1991
+
+C61 prostate cancer
+
+Docetaxel
+
+1995
+
+C61 prostate cancer
+
+Bicalutamide
+
+1997
+
+C61 prostate cancer
+
+Degarelix
+
+2010
+
+C61 prostate cancer
+
+Cabazitaxel
+
+2012
+
+C64–C65 kidney (renal cell) cancer
+
+Aldesleukin
+
+1996
+
+C64–C65 kidney (renal cell) cancer
+
+Bevacizumab
+
+2005
+
+C64–C65 kidney (renal cell) cancer
+
+Everolimus
+
+2006
+
+C64–C65 kidney (renal cell) cancer
+
+Sunitinib
+
+2006
+
+C64–C65 kidney (renal cell) cancer
+
+Temsirolimus
+
+2011
+
+C64–C65 kidney (renal cell) cancer
+
+Pazopanib
+
+2012
+
+C71 brain tumors
+
+Temozolomide
+
+1999
+
+C71 brain tumors
+
+Bevacizumab
+
+Cancer site
+
+Drug
+
+Launch year
+
+C71 brain tumors
+
+Everolimus
+
+2006
+
+C73 thyroid cancer
+
+Vandetanib
+
+2014
+
+C81 hodgkin lymphoma
+
+Brentuximab vedotin
+
+2014
+
+C82–C85 non-hodgkin lymphoma
+
+Interferon alfa-2b
+
+1987
+
+C82–C85 non-hodgkin lymphoma
+
+Rituximab
+
+1999
+
+C82–C85 non-hodgkin lymphoma
+
+Bortezomib
+
+2006
+
+C82–C85 non-hodgkin lymphoma
+
+Lenalidomide
+
+2008
+
+C82–C85 non-hodgkin lymphoma
+
+Plerixafor
+
+2009
+
+C82–C85 non-hodgkin lymphoma
+
+Brentuximab vedotin
+
+2014
+
+C90 multiple myeloma and other plasma cell neoplasms
+
+Zoledronic acid
+
+2001
+
+C90 multiple myeloma and other plasma cell neoplasms
+
+Bortezomib
+
+2006
+
+C90 multiple myeloma and other plasma cell neoplasms
+
+Lenalidomide
+
+2008
+
+C90 multiple myeloma and other plasma cell neoplasms
+
+Plerixafor
+
+2009
+
+C91, C92 leukemia
+
+Interferon alfa-2b
+
+1987
+
+C91, C92 leukemia
+
+Mitoxantrone
+
+1987
+
+C91, C92 leukemia
+
+Idarubicin
+
+1992
+
+C91, C92 leukemia
+
+Rituximab
+
+1999
+
+C91, C92 leukemia
+
+Imatinib
+
+2001
+
+C91, C92 leukemia
+
+Dasatinib
+
+2007
+
+C91, C92 leukemia
+
+Nilotinib
+
+2007
+
+C91, C92 leukemia
+
+Clofarabine
+
+2009
+
+C91, C92 leukemia
+
+Obinutuzumab
+
+2014
+
+World Health Organization (2016b) WHO Mortality database. http://www.who.int/healthinfo/statistics/
+Lat Am Econ Rev (2017) 26:8
+https://doi.org/10.1007/s40503-017-0045-6
+
+The impact of pharmaceutical innovation on cancer
+mortality in Mexico, 2003–2013
+Frank R. Lichtenberg1,2
+
+Received: 31 January 2017 / Revised: 26 June 2017 / Accepted: 26 September 2017 /
+Published online: 17 October 2017
+Ó The Author(s) 2017. This article is an open access publication
+
+Abstract I assess the impact that pharmaceutical innovation had on cancer mortality in Mexico during the period 2003–2013, by investigating whether there were
+larger declines in the age-standardized mortality rate of cancer sites (breast, lung,
+colon, etc.) that were subject to more pharmaceutical innovation, controlling for
+changes in the age-standardized cancer incidence rate. The estimates indicate that
+new drugs launched during 1991–2001 reduced the age-standardized cancer mortality rate by 16%, i.e., at an average annual rate of about 1.6%. I estimate that
+105,661 life-years before age 70 were gained in 2013 due to cancer drugs launched
+during 1991–2001, and that the cost per life-year gained was in the neighborhood of
+$2146. By the standards of the World Health Organization, new cancer drugs have
+been very cost-effective in Mexico. The contribution of cancer drug innovation to
+Mexican longevity growth has been valuable, but, perhaps, it could have been even
+larger. Only half as many new cancer drugs were launched in Mexico during
+2010–2014 as were launched in the US. In addition, when new drugs are launched in
+Mexico, their diffusion tends to be quite slow.
+Keywords Pharmaceutical Á Innovation Á Mortality Á Longevity Á Cancer Á Mexico Á
+Cost-effectiveness
+JEL classiﬁcation I1 Á J11 Á L65 Á O33
+
+& Frank R. Lichtenberg
+frl1@columbia.edu
+1
+
+Columbia University, New York, NY, USA
+
+2
+
+Cancer mortality has declined in Mexico during the last 2 decades. As shown in
+Fig. 1, the age-standardized cancer mortality rate1 of males declined by 13%, and
+that of females declined by 11%, between 1995 and 2014.2 The mortality rate, or
+(unconditional) probability of death from cancer, depends to an important extent on
+two variables: the probability of getting (being diagnosed with) cancer, and the
+probability of dying from cancer, conditional on having been diagnosed with
+cancer: prob(death) & prob(diagnosis) * prob(death|diagnosis).3 Therefore, the
+decline in the mortality rate could be due to either a decline in cancer incidence4, a
+decline in the probability of dying from cancer, conditional on having been
+diagnosed with cancer (e.g., due to improved treatment), or both.
+The Mexican cancer incidence rate declined by 13% (from 147.3 to 128.4)
+between 2002 and 2008, although it increased 2% (from 128.4 to 131.5) between
+2008 and 2012.5 Since the cancer incidence rate declined at least as rapidly as the
+cancer mortality rate in recent years, the decline in cancer mortality could be
+entirely due to declining cancer incidence. However, the measurement of cancer
+incidence is subject to signiﬁcant potential errors. For example, a decline in cancer
+surveillance or screening could lead to a decline in measured cancer incidence, even
+when true incidence is not declining.
+The previous studies (Lichtenberg 2014a, 2015, 2016a, b) have shown that
+pharmaceutical innovation—the introduction and use of new cancer drugs—has
+signiﬁcantly reduced cancer mortality in countries at a ‘‘very high’’ level of human
+development (as deﬁned by the United Nations Development Programme6). In this
+study, I will assess the impact that pharmaceutical innovation and cancer incidence
+had on cancer mortality in Mexico, a country at a lower (but still ‘‘high’’) level of
+1
+
+An age-standardized rate (ASR) is a summary measure of the rate that a population would have if it had
+a standard age structure. Standardization is necessary when comparing several populations that differ with
+respect to age, because age has a powerful inﬂuence on the risk of cancer. The ASR is a weighted mean of
+the age-speciﬁc rates; the weights are taken from population distribution of the standard population. The
+most frequently used standard population is the World Standard Population. The calculated incidence or
+mortality rate is then called age-standardized incidence or mortality rate (world). It is also expressed per
+100,000. See http://globocan.iarc.fr/Pages/glossary.aspx#MORTALITY.
+
+2
+
+In addition, between 1998 and 2013, mean age at death from cancer also increased by 1.8 years, from
+62.3 to 64.1. Source: author’s calculations based on WHO Mortality Database (World Health
+Organization (2016b)).
+
+3
+
+This approximation assumes that the probability that someone who has never been diagnosed with
+cancer dies from cancer is quite small. This is plausible, because the cancer mortality rate (the
+unconditional probability of dying from cancer) is about half as great as the cancer incidence rate (the
+probability of being diagnosed with cancer).
+
+4
+
+Incidence is the number of new cases arising in a given period in a speciﬁed population. This
+information is collected routinely by cancer registries. It can be expressed as an absolute number of cases
+per year or as a rate per 100,000 persons per year.
+
+5
+
+Source: OECD Health Statistics 2016 database. Data on incidence prior to 2002 are not available. The
+decline in incidence may be due, in part, to a decline in cigarette smoking, a major risk factor for lung
+cancer. Between 2002 and 2015, the fraction of the population aged 15 ? who are daily smokers declined
+from 12.4 to 7.6%.
+
+6
+
+
+77.09
+
+75
+
+72.1
+
+70
+
+65.46
+
+65
+
+61.33
+
+60
+
+55
+1994
+
+1999
+
+2004
+Male ASR (W)
+
+2009
+
+2014
+
+Female ASR (W)
+
+Fig. 1 Age-standardized cancer mortality rates, by sex, Mexico, 1995–2014 (Source: WHO Cancer
+Mortality database, http://www-dep.iarc.fr/WHOdb/WHOdb.htm)
+
+human development. As in the previous studies, a difference-in-difference research
+design will be used: I will investigate whether the decline in mortality was greater
+for cancer sites (breast, lung, colon, etc.) subject to more pharmaceutical innovation
+and greater declines in incidence. As shown in Fig. 2, the rate of decline in the
+mortality rate varied considerably across cancer sites. The mortality rate declined by
+at least 34% for 3 cancer sites (cervix, stomach, and lung), but increased for 3 other
+cancer sites (colon, ovary, and breast).
+In Sect. 2, I will formulate an econometric model of cancer mortality. The data
+sources used to estimate these models are described in Sect. 3. Empirical results are
+presented in Sect. 4. Rough estimates of the number of life-years gained in 2013
+from the reduction in cancer mortality attributable to pharmaceutical innovation,
+and of the average cost-effectiveness (cost per life-year gained) of new cancer
+drugs, are developed in Sect. 5. Sect. 6 provides a summary and conclusions.
+
+2 Econometric model of cancer mortality
+The basic model which I will use to assess the impact of pharmaceutical innovation
+and cancer incidence on age-standardized cancer mortality rates in Mexico is:
+MORTst ¼ bk CUM NCEs;tÀk þ c INCIDENCEs;tÀ1 þ as þ dt þ est ;
+
+ð1Þ
+
+where MORTst = the age-standardized mortality rate from cancer at site s in year t
+P
+-50%
+
+-40%
+
+-30%
+
+-20%
+
+-10%
+
+0%
+
+10%
+
+20%
+
+30%
+
+-48%
+
+stomach
+
+-34%
+
+trachea, bronchus, lung
+
+-34%
+
+Hodgkin’s disease
+
+-13%
+
+liver
+
+-12%
+
+pancreas
+
+-11%
+
+prostate
+bladder
+leukemia
+melanoma of skin
+female breast
+ovary
+colon, rectum and anus
+
+-10%
+-6%
+-4%
+0%
+2%
+13%
+18%
+
+Fig. 2 % change in age-adjusted mortality rate, by cancer site, 2000–2013 (Source: OECD Health
+Statistics 2016 database)
+
+new chemical entities (drugs) to treat cancer at site s that had been launched in
+Mexico by the end of year t-k (k = 0, 3, 6 ,…,18); INDds ¼ 1
+if drug d is used to treat ðindicated forÞ cancer at site s¼ 0 if drug d is not used
+to treat ðindicated forÞ cancer at site s;
+LAUNCHEDd;tÀk ¼ 1 if drug
+d had been launched in Mexico by the end of year t À k ¼ 0 if drug d had not
+been launched in Mexico by the end of year t À k; INCIDENCEs,t-1 = the age-standardized incidence rate of cancer at site s in year t - 1; as = a ﬁxed effect for
+cancer at site s; dt = a ﬁxed effect for year t.
+Inclusion of year and cancer-site ﬁxed effects controls for the overall decline in
+cancer mortality and for stable between-cancer-site differences in mortality.
+Negative and signiﬁcant estimates of bk in Eq. (1) would signify that cancer sites for
+which there was more pharmaceutical innovation had larger declines in mortality,
+controlling for changes in incidence.
+Due to data limitations, the number of new chemical entities is the only cancersite-speciﬁc, time-varying, measure of medical innovation in Eq. (1). Both a
+patient-level US study and a longitudinal country-level study have shown that
+controlling for numerous other potential determinants of mortality does not reduce,
+and may even increase, the estimated effect of pharmaceutical innovation. The
+study based on patient-level data (Lichtenberg 2013) found that controlling for race,
+education, family income, insurance coverage, Census region, BMI, smoking, the
+mean year the person started taking his or her medications, and over 100 medical
+conditions had virtually no effect on the estimate of the effect of pharmaceutical
+innovation (the change in drug vintage) on life expectancy. The study based on
+longitudinal country-level data (Lichtenberg 2014b) found that controlling for ten
+health expenditure (public and private), the DPT immunization rate among children
+ages 12–23 months, HIV prevalence, and tuberculosis incidence] increased the
+coefﬁcient on pharmaceutical innovation by about 32%.
+Failure to control for non-pharmaceutical medical innovation (e.g., innovation in
+diagnostic imaging, surgical procedures, and medical devices) is also unlikely to
+bias estimates of the effect of pharmaceutical innovation on premature mortality, for
+two reasons. First, more than half of US funding for biomedical research came from
+pharmaceutical and biotechnology ﬁrms (Dorsey et al. 2010). Much of the rest came
+from the federal government (i.e., the NIH), and new drugs often build on upstream
+government research (Sampat and Lichtenberg 2011). The National Cancer Institute
+(2016a, b) says that it ‘‘has played an active role in the development of drugs for
+cancer treatment for 50 years… [and] that approximately one half of the
+chemotherapeutic drugs currently used by oncologists for cancer treatment were
+discovered and/or developed’’ at the National Cancer Institute. Second, the previous
+research based on US data (Lichtenberg 2014a, c) indicates that non-pharmaceutical
+medical innovation is not positively correlated across diseases with pharmaceutical
+innovation. However, while non-pharmaceutical medical innovation may not be
+correlated with pharmaceutical innovation across diseases in the US, this need not
+hold for Mexico.
+The measure of pharmaceutical innovation in Eq. (1)—the number of chemical
+substances previously registered to treat cancer at site s—is not the theoretically
+ideal measure. Mortality is presumably more strongly related to the drugs actually
+used to treat cancer than it is to the drugs that could be used to treat cancer. A
+preferable measure is the mean vintage of drugs used to treat cancer at site s in year
+P
+P
+t, deﬁned as VINTAGEst = d Qdst LAUNCH_YEARd/ d Qdst, where Qdst = the
+quantity of drug d used to treat cancer at site s in year t, and LAUNCH_YEARd = the world launch year of drug d.7 Unfortunately, measurement of VINTAGEst is
+infeasible: even though data on the total quantity of each drug in each year (Qd.t = Rs
+Qdst) are available, many drugs are used to treat multiple diseases. There is no way
+to determine the quantity of drug d used to treat cancer at site s in year t.8 However,
+Lichtenberg (2014c) showed that in France, there is a highly signiﬁcant positive
+correlation across drug classes between changes in the (quantity-weighted) vintage
+of drugs and changes in the number of chemical substances previously registered
+within the drug class.
+
+7
+
+According to the Merriam Webster dictionary, one deﬁnition of vintage is ‘‘a period of origin or
+manufacture (e.g., a piano of 1845 vintage)’’. http://www.merriam-webster.com/dictionary/vintage.
+Solow (1960) introduced the concept of vintage into economic analysis. Solow’s basic idea was that
+technical progress is ‘‘built into’’ machines and other goods and that this must be taken into account when
+making empirical measurements of their roles in production. This was one of the contributions to the
+theory of economic growth that the Royal Swedish Academy of Sciences cited when it awarded Solow
+the 1987 Alfred Nobel Memorial Prize in Economic Sciences (Nobelprize.org 2016).
+
+8
+
+Outpatient prescription drug claims usually do not show the indication of the drug prescribed. Claims
+for drugs administered by doctors and nurses (e.g., chemotherapy) often show the indication of the drug,
+‘world launch’ of cancer drugs and their ‘Mexico launch’.9 According to Solow’s
+vintage hypothesis, later, vintage goods (e.g., drugs whose world launch years were
+later) are likely to be of higher quality than earlier vintage goods. Holding constant
+the Mexican launch year of a drug, the shorter the lag from world launch year to
+Mexican launch year, the later the world launch year of the drug, and (according to
+the vintage hypothesis), the higher the drug’s quality. However, controlling for the
+length of time between the ‘world launch’ of cancer drugs and their ‘Mexico launch’
+is problematic. I can compute the mean lag between the world launch year and the
+Mexican launch year for cancer sites and years in which at least one drug had been
+launched in Mexico. However, I cannot compute the mean lag for cancer sites and
+years in which no drugs had been launched in Mexico. As shown in Table 2, 8
+cancer sites had 0 drug launches by 1995; 4 cancer sites had 0 drugs launches by
+2004. Controlling for the length of time between the ‘world launch’ of cancer drugs
+and their ‘Mexico launch’ would require excluding those observations.
+In Eq. (1), mortality from cancer at site s in year t depends on the number of new
+chemical entities (drugs) to treat cancer at site s that had been launched in Mexico
+by the end of year t - k, i.e., there is a lag of k years. Equation (1) will be estimated
+for different values of k: k = 0, 3, 6,…,18. A separate model is estimated for each
+value of k, rather than including multiple values (CUM_NCEs,t, CUM_NCEs,t-3,
+CUM_NCEs,t-6,…) in a single model, because CUM_NCE is highly serially
+correlated (by construction), which would result in extremely high multicollinearity
+if multiple values were included. One would expect there to be a substantial lag,
+because new drugs diffuse gradually—they will not be used widely until years after
+registration. Data from the IMS Health MIDAS database can be used to provide
+evidence about the process of diffusion of new medicines. I used data from that
+source linked to data on Mexican drug launch dates (described below) to estimate
+the following model:
+À
+Á
+ln N RXdy ¼ qd þ py þ edy ;
+ð2Þ
+where N_RXdy= the number of standard units of cancer drug d sold in Mexico per
+thousand population y years after it was launched (y = 0–3, 4–7, 8–11, 12–15,
+16–19 years); qd = a À
+ﬁxed effect for drug d; py = a ﬁxed effect for age y.
+Á
+The expression exp py À p16À19 is a ‘‘relative utilization index’’: it is the mean
+ratio of the annual number of standard units of a cancer drug sold per thousand
+population y years after it was ﬁrst launched in Mexico to the annual number of
+standard units of the same drug sold per thousand population 16–19 years after it
+was ﬁrst launched in Mexico.
+Using annual data on the number of standard units of cancer drugs sold in Mexico
+during the period 1999–2010, I estimated Eq. (2). Estimates of the ‘‘relative
+utilization index’’ are shown in Fig. 3. These estimates indicate that utilization of a
+drug is strongly positively related to how long the drug has been on the market. On
+average, a drug is used 50 times as often per year 16–19 years post-launch as it is
+9
+
+
+100%
+
+100%
+
+80%
+
+60%
+47%
+
+40%
+
+19%
+
+20%
+9%
+2%
+
+0%
+0-3
+
+4-7
+
+8-11
+
+12-15
+
+1 6 - 19
+
+Number of years since launch
+
+Fig. 3 Relative utilization of cancer drugs in Mexico, by number of years since launch (index: ratio of
+utilization y years since launch to utilization 16–19 years since launch)
+
+0–3 year post-launch. Utilization appears to rise especially rapidly after year 11,
+when drug patents tend to expire and generics enter the market.
+The effect of a drug’s launch on mortality is likely to depend on both the quality
+and the quantity of the drug. Indeed, it is likely to depend on the interaction between
+quality and quantity: a quality improvement will have a greater impact on mortality
+if drug utilization (quantity) is high. Although newer drugs tend to be of higher
+quality than older drugs (see Lichtenberg 2014d), the relative quantity of very new
+drugs is quite low, so the impact on mortality of very new drugs is lower than the
+impact of older drugs.
+In principle, mortality in year t should depend on a distributed lag of incidence,
+i.e., on INCIDENCEs,t, INCIDENCEs,t-1, INCIDENCEs,t-2, INCIDENCEs,t-3…
+Unfortunately, data on incidence by cancer site are available for only 2 years (2002
+and 2012); this is why INCIDENCEs,t-2 is the only incidence variable included in
+Eq. (1). The limited availability of incidence data also means that we can only use
+mortality data for 2 years (2004 and 2014). Writing the model for each of these
+years:
+MORTs;2003 ¼ bk CUM NCEs;2003Àk þ cINCIDENCEs;2002 þ as þ d2003 þ es;2003 ;
+ð3Þ
+MORTs;2013 ¼ bk CUM NCEs;2013Àk þ c INCIDENCEs;2012 þ as þ d2013 þ es;2013 :
+À
+Á
+À
+Á
+MORTs;2013 À MORTs;2003 ¼ bk CUM NCEs;2013Àk À CUM NCEs;2003Àk
+À
+Á
+þ c INCIDENCEs;2012 À INCIDENCEs;2002
+þ ðd2013 À d2003 Þ þ ðes;2013 À es;2003 Þ:
+ð5Þ
+Equation (5) may be rewritten as follows:
+DMORTs ¼ bk DCUM NCE ks
+þ c DINCIDENCE 1s þ d0 þ e0s ;
+
+ð6Þ
+
+where DMORTs = MORTs,2013 - MORTs,2003 = the 2003–2013 change in the
+age-standardized mortality rate from cancer at site s; DCUM_NCE_ks =
+CUM_NCEs,2013k - CUM_NCEs,2003-k = the number of drugs for cancer at site
+s launched between year 2003 - k and 2013 - k; DINCIDENCE_1s =
+INCIDENCEs,2012 - INCIDENCEs,2002 = the 2002–2012 change in the age-standardized incidence rate of cancer at site s; d0 = d2013 - d2003.
+Equation (6) indicates that the 2003–2013 change in the age-standardized mortality
+rate depends on two variables: the number of drugs launched between year 2003 - k
+and 2013 - k, and the 2002–2012 change in the age-standardized incidence rate.
+For estimates of bk from Eqs. (1) and (6) to be consistent estimates of the effect
+of drug launches on mortality, the ‘‘parallel trends’’ assumption needs to be
+satisﬁed. A simple way to test the validity of this assumption is to estimate a version
+of Eq. (6) that includes a control for the trend in mortality in the ‘pre-period’, e.g.,
+the period 1993–2003. Therefore, I will estimate the following model:
+DMORTs ¼ bk DCUM NCE ks þ c DINCIDENCE 1s
+þ p DMORT PREs þ d0 þ e0s ;
+
+ð7Þ
+
+where DMORT_PREs = MORTs,2003 - MORTs,1993 = the 1993–2003 change in
+the age-standardized mortality rate from cancer at site s.
+
+3 Data sources
+Age-standardized cancer mortality rate data were obtained from the WHO Cancer
+Mortality database (World Health Organization (2016a)).
+Age-standardized cancer incidence rate data were obtained from GLOBOCAN
+International Agency for Research on Cancer (2016). Mortality and incidence data
+are reported separately by sex. For cancers affecting both sexes, we computed the
+simple mean of the sex-speciﬁc rates. For cancers affecting only one sex (breast,
+cervical, ovarian, and prostate), we computed 50% of the single-sex rate.
+Data on drugs approved for different types of cancer were obtained from the US
+National Cancer Institute.
+Data on Mexican launch dates of drugs were obtained from the IMS Health New
+in the IMS New Product Focus database) is usually the year in which the drug was ﬁrst
+sold in Mexico (as indicated in the IMS MIDAS database). In a few cases, the drug was
+ﬁrst sold in Mexico in the year after the Mexican launch year. I deﬁne CUM_NCEst as
+the number of post-1981 new chemical entities (i.e., NCEs ﬁrst launched anywhere in
+the world after 1981) used to treat cancer at site s that had been launched in Mexico by
+the end of year t. Since the New Product Focus data are left-censored (no pre-1982
+data), this measure is subject to error, because CUM_NCEst will not (but should)
+include pre-1982 NCEs that were ﬁrst launched in Mexico after 1981. If this
+measurement error is random, it is likely to bias estimates of bk towards zero.
+Annual data on the number of standard units of cancer drugs sold in Mexico
+during the period 1999–2010 were obtained from the IMS Health MIDAS database.
+Data on age-standardized mortality and incidence rates, by cancer site and year,
+are shown in Table 1.
+Data on the number of post-1981 drugs ever launched in Mexico, by cancer site
+and year, are shown in Table 2.
+Mexican launch dates of drugs used to treat different types of cancer are shown in
+Appendix Table 5.
+
+4 Empirical results
+Estimates of the pharmaceutical innovation (bk) parameters of the cancer mortality
+rate model (Eq. (1) for different values of k are shown in Table 3. Each estimate is
+from a separate model. For simplicity, estimates of the incidence coefﬁcient (c) are
+not shown here. Estimates of the incidence coefﬁcient were positive and signiﬁcant
+(and virtually identical) in all models, indicating that mortality declined more for
+cancer sites that had larger declines in incidence.
+The ﬁrst seven rows of Table 3 show estimates based on mortality and incidence
+data for both sexes combined. Row 1 shows the estimate of b0, i.e., of the
+pharmaceutical innovation coefﬁcient when there is no lag between the number of
+drugs ever launched and the mortality rate. The estimate of b0 is negative but only
+marginally statistically signiﬁcant (p = 0.07). This is not surprising, since, as shown
+in Fig. 3, utilization of recently launched drugs tends to be quite low.
+Row 2 shows the estimate of b3, i.e., of the pharmaceutical innovation coefﬁcient
+when there is a 3-year lag between the number of drugs ever launched and the mortality
+rate. The estimate of b3 is negative and statistically signiﬁcant (p = 0.03). Rows 3–7 of
+Table 3 show estimates of bk for k = 6, 9, 12, 15, and 18, respectively. All ﬁve bk
+estimates are negative and statistically signiﬁcant (p B 0.031). These estimates signify
+that the mortality rate is inversely related to the number of drugs that had ever been
+launched 3–18 years earlier, controlling for the incidence rate.10 The estimates of bk
+based on data for both sexes combined are plotted in Panel A of Fig. 4.
+10
+
+Controlling for incidence is important. If DINCIDENCE_2s is excluded from the model, none of the bk
+parameter estimates are statistically signiﬁcant. DCUM_NCE_k and DINCIDENCE_2 are positively
+correlated across cancer sites—there were more drug launches for cancer sites that had larger increases in
+1.0
+3.7
+
+C88 ? C90 multiple myeloma
+
+C91–95 leukemia
+
+3.2
+
+0.5
+2.1
+
+0.6
+
+C73 thyroid
+
+C82–85, C96 non-Hodgkin lymphoma
+
+2.0
+
+C70–72 brain, central nervous system
+
+C81 hodgkin lymphoma
+
+1.9
+
+C64 kidney
+
+6.1
+
+4.9
+
+5.0
+
+C61 prostate
+
+C53 cervix uteri
+
+0.5
+4.5
+1.7
+
+6.9
+
+C50 breast
+
+C56 ovary
+
+0.4
+
+4.3
+
+C43 melanoma of skin
+
+8.8
+
+3.0
+
+C18–21 colon, rectum and anus
+
+10.3
+
+7.7
+
+C16 stomach
+
+1.2
+
+C33–34 lung (incl. trachea and bronchus)
+
+1.2
+
+C15 oesophagus
+
+1.1
+
+73.0
+
+3.7
+
+1.2
+
+C25 pancreas
+
+73.7
+
+C00–14 lip, oral cavity and pharynx
+
+3.3
+
+1.0
+
+2.0
+
+0.4
+
+0.6
+
+1.8
+
+1.8
+
+5.0
+
+1.7
+
+3.1
+
+4.5
+
+0.5
+
+5.7
+
+3.3
+
+4.4
+
+4.7
+
+0.9
+
+1.0
+
+62.3
+
+5.0
+
+1.4
+
+4.8
+
+1.7
+
+3.4
+
+3.0
+
+4.7
+
+15.0
+
+3.7
+
+14.8
+
+13.2
+
+1.6
+
+11.9
+
+4.7
+
+7.5
+
+11.3
+
+1.5
+
+3.4
+
+147.3
+
+5.6
+
+1.3
+
+4.1
+
+1.3
+
+2.6
+
+4.0
+
+3.6
+
+13.7
+
+2.8
+
+11.7
+
+17.7
+
+1.8
+
+7.7
+
+3.9
+
+7.8
+
+7.0
+
+1.1
+
+3.2
+
+131.9
+
+2012
+
+2.9
+
+13.7
+
+8.6
+
+0.3
+
+5.2
+
+2.9
+
+6.4
+
+0.6
+
+0.7
+
+72.4
+
+1993
+
+3.3
+
+0.8
+
+1.8
+
+0.4
+
+0.7
+
+1.6
+
+1.3
+
+3.3
+
+9.9
+
+9.0
+
+0.3
+
+4.9
+
+3.6
+
+3.4
+
+5.3
+
+0.5
+
+0.7
+
+69.0
+
+2003
+
+2002
+
+1993
+
+2003
+
+Mortality
+
+Incidence
+
+Mortality
+2013
+
+Female
+
+Both sexes
+
+C00–97, B21 all cancers
+
+Cancer site
+
+Table 1 Age-standardized mortality and incidence rates, by cancer site, 1993–2013
+
+3.0
+
+0.9
+
+1.6
+
+0.3
+
+0.7
+
+1.5
+
+1.3
+
+3.4
+
+6.1
+
+9.0
+
+0.4
+
+3.8
+
+3.3
+
+3.8
+
+4.0
+
+0.4
+
+0.6
+
+59.9
+
+2013
+
+4.3
+
+1.2
+
+3.9
+
+1.2
+
+5.7
+
+2.4
+
+4.0
+
+7.4
+
+29.5
+
+26.4
+
+1.7
+
+6.7
+
+4.7
+
+7.0
+
+9.4
+
+0.8
+
+2.2
+
+150.0
+
+2002
+
+5.1
+
+1.1
+
+3.6
+
+1.1
+
+3.9
+
+3.3
+
+2.5
+
+5.6
+
+23.3
+
+35.4
+
+1.5
+
+4.9
+
+3.8
+
+6.7
+
+6.0
+
+0.5
+
+2.2
+
+139.9
+
+2012
+
+Incidence
+
+3.4
+
+9.8
+
+0.4
+
+15.4
+
+3.0
+
+9.0
+
+1.8
+
+1.6
+
+75.0
+
+1993
+
+4.1
+
+1.1
+
+2.3
+
+0.6
+
+0.4
+
+2.3
+
+2.5
+
+12.1
+
+0.6
+
+12.7
+
+3.8
+
+3.8
+
+7.4
+
+1.8
+
+1.5
+
+77.0
+
+2003
+
+Mortality
+
+Male
+
+3.6
+
+1.1
+
+2.3
+
+0.5
+
+0.4
+
+2.1
+
+2.3
+
+10.0
+
+0.5
+
+7.6
+
+3.3
+
+4.9
+
+5.3
+
+1.4
+
+1.3
+
+64.7
+
+2013
+
+5.6
+
+1.6
+
+5.7
+
+2.1
+
+1.0
+
+3.5
+
+5.4
+
+29.9
+
+1.4
+
+17.0
+
+4.6
+
+7.9
+
+13.1
+
+2.2
+
+4.5
+
+144.5
+
+2002
+
+6.0
+
+1.4
+
+4.6
+
+1.5
+
+1.3
+
+4.6
+
+4.6
+
+27.3
+
+2.1
+
+10.5
+
+3.9
+
+8.9
+
+7.9
+
+1.6
+
+4.1
+
+123.9
+
+2012
+
+Incidence
+ICD_WHO
+
+1986
+
+1989
+
+1992
+
+1995
+
+1998
+
+2001
+
+2004
+
+2007
+
+2010
+
+2013
+
+C00–14 lip, oral cavity and
+pharynx
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+2
+
+2
+
+2
+
+2
+2
+
+C15 oesophagus
+
+0
+
+0
+
+0
+
+1
+
+1
+
+2
+
+2
+
+2
+
+2
+
+C16 stomach
+
+0
+
+0
+
+0
+
+1
+
+1
+
+2
+
+2
+
+2
+
+2
+
+2
+
+C18–21 colon, rectum and
+anus
+
+0
+
+0
+
+0
+
+0
+
+1
+
+2
+
+4
+
+5
+
+5
+
+6
+
+C25 pancreas
+
+0
+
+0
+
+0
+
+1
+
+3
+
+3
+
+3
+
+6
+
+6
+
+6
+
+C33–34 lung (incl. trachea
+and bronchus)
+
+0
+
+0
+
+1
+
+3
+
+5
+
+5
+
+6
+
+9
+
+10
+
+11
+
+C43 melanoma of skin
+
+0
+
+1
+
+1
+
+1
+
+2
+
+3
+
+3
+
+3
+
+3
+
+5
+
+C45 mesothelioma
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+C50 breast
+
+0
+
+1
+
+2
+
+4
+
+7
+
+11
+
+12
+
+13
+
+16
+
+16
+
+C53 cervix uteri
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+2
+
+2
+
+C56 ovary
+
+0
+
+0
+
+1
+
+2
+
+3
+
+3
+
+3
+
+4
+
+5
+
+5
+
+C61 prostate
+
+0
+
+3
+
+4
+
+5
+
+6
+
+6
+
+6
+
+6
+
+7
+
+8
+
+C64 kidney
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+1
+
+4
+
+4
+
+6
+
+C70–72 brain, central
+nervous system
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+3
+
+3
+
+3
+
+C73 thyroid
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+C81 hodgkin lymphoma
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+C82–85, C96 non-hodgkin
+lymphoma
+
+0
+
+1
+
+1
+
+1
+
+1
+
+2
+
+2
+
+3
+
+5
+
+5
+
+C88 ? C90 multiple
+myeloma
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+1
+
+2
+
+4
+
+4
+
+C91–95 leukemia
+
+0
+
+2
+
+3
+
+3
+
+3
+
+5
+
+5
+
+7
+
+8
+
+8
+
+Mean
+
+0.0
+
+0.4
+
+0.7
+
+1.2
+
+1.8
+
+2.5
+
+2.8
+
+3.8
+
+4.5
+
+4.8
+
+To calculate the change in the mean mortality rate attributable to pharmaceutical
+innovation, we can multiply the estimate of bk (column 1 of Table 3) by the mean
+value of DCUM_NCE_k (column 5); the result is shown in column 6. These
+calculations imply that new drugs launched during the period 1991–2001 had the
+largest (most negative) effect on the 2003–2011 change in mortality. Henceforth, I
+will focus on the estimates of the model when k = 12.
+The two explanatory variables (DCUM_NCE_12 and DINCIDENCE_1) in the
+mortality change (DMORT) model jointly explain 77% of the variance across
+cancer sites in the 2003–2013 change in the mortality rate. The mean mortality rate
+declined by 0.47 between 2003 and 2013. The estimates imply that new drugs
+launched during 1991–2001 reduced the mean mortality rate by 0.47. The mean
+mortality rate in 2003 was 2.99, so this indicates that new drugs launched during
+1998–2008 reduced the mean mortality rate by 16% (= 0.47/2.99), i.e., at an average
+annual rate of about 1.6%. The decline in incidence also reduced the mean mortality
+as ? dt ? est for different values of k
+Column
+Row
+
+Parameter
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Estimate
+
+Lag
+
+1
+
+Std.
+err.
+
+Z
+
+Pr [ |Z|
+
+Mean
+(DCUM_
+NCE_k)
+
+bk * mean
+(DCUM_NCE_k)
+
+Both sexes (mean DMORT = - 0.50)
+1
+
+0
+
+b0
+
+- 0.1628
+
+0.0887
+
+- 1.84
+
+0.0664
+
+2.3
+
+- 0.380
+
+2
+
+3
+
+b3
+
+2 0.1788
+
+0.0827
+
+2 2.16
+
+0.0306
+
+2.2
+
+- 0.387
+
+3
+
+6
+
+b6
+
+2 0.1702
+
+0.0787
+
+2 2.16
+
+0.0306
+
+2.3
+
+- 0.397
+
+4
+
+9
+
+b9
+
+2 0.1909
+
+0.0511
+
+2 3.74
+
+0.0002
+
+2.2
+
+- 0.424
+
+5
+
+12
+
+b12
+
+2 0.223
+
+0.046
+
+2 4.85
+
+< 0.0001
+
+2.1
+
+- 0.471
+
+6
+
+15
+
+b15
+
+2 0.217
+
+0.0646
+
+2 3.36
+
+0.0008
+
+1.6
+
+- 0.338
+
+7
+
+18
+
+b18
+
+2 0.257
+
+0.0973
+
+2 2.64
+
+0.0083
+
+1.3
+
+- 0.328
+
+Average
+
+- 0.389
+
+Female (mean DMORT = - 0.39)
+8
+
+0
+
+b0
+
+- 0.0949
+
+0.0733
+
+- 1.29
+
+0.1953
+
+2.4
+
+- 0.223
+
+9
+
+3
+
+b3
+
+- 0.1388
+
+0.081
+
+- 1.71
+
+0.0866
+
+2.2
+
+- 0.310
+
+10
+
+6
+
+b6
+
+- 0.1704
+
+0.1013
+
+- 1.68
+
+0.0925
+
+2.5
+
+- 0.421
+
+11
+
+9
+
+b9
+
+2 0.2081
+
+0.0939
+
+2 2.22
+
+0.0267
+
+2.2
+
+- 0.465
+
+12
+
+12
+
+b12
+
+2 0.2218
+
+0.0908
+
+2 2.44
+
+0.0145
+
+2.1
+
+- 0.470
+
+13
+
+15
+
+b15
+
+- 0.1552
+
+0.0826
+
+- 1.88
+
+0.0601
+
+1.4
+
+- 0.219
+
+14
+
+18
+
+b18
+
+2 0.2841
+
+0.1175
+
+2 2.42
+
+0.0156
+
+1.1
+
+- 0.301
+
+Average
+
+- 0.344
+
+Male (mean DMORT = - 0.69)
+15
+
+0
+
+b0
+
+- 0.1219
+
+0.0913
+
+- 1.33
+
+0.1819
+
+2.2
+
+- 0.268
+
+16
+
+3
+
+b3
+
+- 0.1153
+
+0.0901
+
+- 1.28
+
+0.2008
+
+2.0
+
+- 0.231
+
+17
+
+6
+
+b6
+
+- 0.0852
+
+0.0955
+
+- 0.89
+
+0.3722
+
+2.1
+
+- 0.182
+
+18
+
+9
+
+b9
+
+- 0.1512
+
+0.1592
+
+- 0.95
+
+0.3423
+
+1.9
+
+- 0.282
+
+19
+
+12
+
+b12
+
+2 0.3191
+
+0.1155
+
+2 2.76
+
+0.0058
+
+1.7
+
+- 0.553
+
+20
+
+15
+
+b15
+
+2 0.3212
+
+0.1014
+
+2 3.17
+
+0.0015
+
+1.3
+
+- 0.407
+
+21
+
+18
+
+b18
+
+2 0.2563
+
+0.0819
+
+2 3.13
+
+0.0018
+
+1.1
+
+- 0.290
+
+Average
+
+- 0.316
+
+Estimates in bold are statistically signiﬁcant (p-value \ .05)
+
+also indicate that if no new drugs had been launched during 1991–2001 and the
+incidence rate had not declined between 2002 and 2012, the mortality rate would
+have increased by 0.28 between 2003 and 2013, although the estimated increase (the
+intercept) is not statistically signiﬁcant.
+Rows 8–14 of Table 3 show estimates based on mortality and incidence data for
+females only. The estimates are not statistically signiﬁcant when k B 6, but 3 of the
+4 estimates for k C 9 are negative and statistically signiﬁcant. These estimates are
+k
+
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+0.0
+0.1
+95% Lower Conﬁdence Limit
+
+EsƟmate
+
+95% Upper Conﬁdence Limit
+
+b
+-0.6
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+0.0
+0.1
+
+c
+-0.7
+-0.6
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+0.0
+0.1
+0.2
+0.3
+
+Scale is inverted. Solid markers denote signiﬁcant esƟmates (p-value < .05); hollow markers denote insigniﬁcant
+esƟmates.
+
+Fig. 4 Estimates of bk parameters of Eq. (1), MORTst = bk CUM_NCEs, t-k ? c INCIDENCEs, t-1 ? as
+? dt ? est for different values of k. a Both sexes, b females, c males
+
+Rows 15–21 of Table 3 show estimates based on mortality and incidence data for
+males only. The estimates are not statistically signiﬁcant when k B 9, but all three
+estimates for k C 12 are negative and statistically signiﬁcant. These estimates are
+plotted in Panel C of Fig. 4. The difference between the effects of pharmaceutical
+innovation on female and male cancer mortality rates is not statistically signiﬁcant.
+For example, the p value on the difference between the female and male estimates
+of b12 in Table 3 (0.0972 = - 0.2218 to (- 0.3191)) is 0.51 (Chi-square = 0.44).
+Launching of new drugs in Mexico may not be strictly exogenous with respect to
+instrument that I used for CUM_NCEs,t-k (the number of drugs to treat cancer at site
+s that had been launched in Mexico by the end of year t-k) is
+CUM_NCE_FOREIGNs,t-k (the number of drugs to treat cancer at site s that had
+been launched outside of Mexico by the end of year t-k), deﬁned as follows:
+P
+CUM_NCE_FOREIGNs,t-k = d INDds LAUNCHED_FOREIGNd,t-k = the number of new chemical entities (drugs) to treat cancer at site s that had been launched
+outside of Mexico by the end of year t-k (k = 0, 3, 6,…,18):LAUNCHED
+FOREIGNd;tÀk ¼ 1 if drug d had been launched outside of Mexico by the end
+of year t À k¼ 0 if drug d had not been launched outside of Mexico by the end
+of year t À k:
+The ﬁrst stage of the two-stage IV estimation procedure is to estimate the
+following equation:
+CUM NCEs;tÀk ¼ X CUM NCE FOREIGNs;tÀk þ as þ dt þ est :
+
+ð8Þ
+
+CUM_NCE_FOREIGNs,t-k is a good instrument for CUM_NCEs,t-k: when
+k = 12, the estimate of X is 0.8368 (Z = 6.24; p \ 0.0001). The second stage is to
+estimate Eq. (1), replacing the actual value of CUM_NCEs,t-k by its predicted value
+from Eq. (8). The IV estimate of b12 for both sexes (IV estimate = 0.2329;
+Z = 4.06; p \ 0.0001) is very similar to the OLS estimate shown in row 5 of
+Table 3.
+As discussed earlier, the ‘‘parallel trends’’ assumption needs to be satisﬁed for the
+estimates in Table 3 and Fig. 4 to be consistent estimates of the effect of drug
+launches on mortality. To provide evidence about the validity of this assumption, in
+Table 4, I present estimates of Eq. (7), which includes a control for the trend in
+mortality in the ‘pre-period’, e.g., the period 1993–2003. These estimates are based
+on a smaller set of cancer sites, because, as shown in Table 1, data on agestandardized mortality rates are less complete in 1993 than they are in 2003 and
+2013. Rows 22–28 of Table 4 show estimates of Eq. (7) based on data for both
+sexes combined for this smaller set of cancer sites when the trend in mortality in the
+‘pre-period’ (1993–2003) is excluded from the equation. Rows 29–35 show
+estimates of Eq. (7) based on the same sample when the trend in mortality in the
+‘pre-period’ is included in the equation. The coefﬁcient (p) on the pre-period
+mortality trend is signiﬁcant (and positive) only when k C 15. Controlling for the
+pre-period mortality trend does not substantially change the estimates of bk. The
+2003–2013 change in the age-standardized mortality rate is inversely related to the
+change in the number of drugs ever launched 12–18 years earlier, controlling for the
+2002–2012 change in incidence and the ‘pre-period’ (1993–2003) change in the
+mortality rate.
+The relationship across cancer sites between the number of new drugs launched
+during 1985–1995 and the 2003–2013 change in the mortality rate, controlling for
+the ‘‘pre-period’’ (1993–2003) change in the mortality rate and the 2002–2012
+change in the incidence rate, is shown in Fig. 5; this chart corresponds to the
+estimate of b18 shown in row 35 of Table 4. The ﬁgure indicates that the three
+p DMORT_PREs ? d0 ? es0 excluding and including DMORT_PREs
+Row
+
+Lag
+
+Parameter
+
+Estimate
+
+Std. err.
+
+T
+
+p value
+
+Without control for DMORT_PREV
+22
+
+0
+
+b0
+
+2 0.26361
+
+0.09837
+
+2 2.67978
+
+23
+
+3
+
+b3
+
+2 0.26209
+
+0.10704
+
+2 2.44851
+
+0.0442
+
+24
+
+6
+
+b6
+
+- 0.16993
+
+0.10048
+
+- 1.69117
+
+0.13465
+
+25
+
+9
+
+b9
+
+- 0.20238
+
+0.09249
+
+- 2.18828
+
+0.06484
+
+26
+
+12
+
+b12
+
+2 0.26289
+
+0.07605
+
+2 3.45699
+
+0.01059
+
+27
+
+15
+
+b15
+
+2 0.27366
+
+0.08422
+
+2 3.24925
+
+0.01407
+
+28
+
+18
+
+b18
+
+- 0.27399
+
+0.12188
+
+- 2.24806
+
+0.05937
+
+29
+
+0
+
+b0
+
+- 0.23336
+
+0.09856
+
+- 2.36765
+
+0.0557
+
+30
+
+3
+
+b3
+
+- 0.22552
+
+0.11339
+
+- 1.98885
+
+0.09387
+
+31
+
+6
+
+b6
+
+- 0.12894
+
+0.11267
+
+- 1.14446
+
+0.29603
+
+32
+
+9
+
+b9
+
+- 0.16884
+
+0.10131
+
+- 1.66657
+
+0.14665
+
+33
+
+12
+
+b12
+
+2 0.23641
+
+0.08384
+
+2 2.81985
+
+0.03036
+
+34
+
+15
+
+b15
+
+2 0.26438
+
+0.06602
+
+2 4.00487
+
+0.00708
+
+35
+
+18
+
+b18
+
+2 0.3807
+
+0.03866
+
+2 9.84795
+
+0.00006
+
+0.03155
+
+With control for DMORT_PREV
+
+Estimates in bold are statistically signiﬁcant (p-value \ .05)
+
+1.5
+
+1
+
+Change in mortality rate, 2003-2013 (residual)
+
+C18-21 Colon, rectum and anus
+
+-3
+
+0.5
+
+C00-14 Lip, oral cavity and pharynx
+C15 Oesophagus
+C43 Melanoma of skin
+
+y = -0.3807x + 1E-06
+R² = 0.9417
+
+C16 Stomach
+
+C53 Cervix uteri
+0
+-2
+
+-1
+
+0
+
+1
+
+2
+
+3
+
+C91-95 Leukaemia
+-0.5
+C50 Breast
+C61 Prostate
+-1
+
+C33-34 Lung (incl. trachea and
+bronchus)
+
+-1.5
+
+Number of new drugs launched, 1985-1995 (residual)
+
+Fig. 5 Relationship across cancer sites between the number of new drugs launched during 1985–1995
+and the 2003–2013 change in the mortality rate, controlling for the 1993–2003 change in the mortality
+2002–2012 change in the incidence rate and the trend in mortality in the preperiod. Excluding these three cancer sites from the sample does not have much
+effect on the estimate of b18; when they are excluded, the estimate of b18 is - 0.357
+(t = 8.15; p = 0.0039).
+
+5 Discussion
+The estimates indicate that the launch of new drugs subsequently reduced cancer
+mortality. New drugs launched during 1991–2001 are estimated to have reduced the
+age-standardized cancer mortality rate by 16%, i.e., at an average annual rate of
+about 1.6%.
+Now, I will develop a rough estimate of the number of life-years gained in 2013
+from the reduction in cancer mortality attributable to pharmaceutical innovation, and
+of the average cost-effectiveness (cost per life-year gained) of new cancer drugs.
+To do this, I will estimate the decline in the premature mortality rate
+attributable to pharmaceutical innovation. The premature mortality rate is the
+number of potential years of life lost (PYLL) per 100,000 population (OECD
+2017a, b). PYLL is a summary measure of premature mortality that provides an
+explicit way of weighting deaths occurring at younger ages. The calculation of
+PYLL involves summing up deaths occurring at each age and multiplying this with
+the number of remaining years to live up to a selected age limit.11 The limit of
+70 years was chosen for the calculations in OECD Health Statistics. To assure
+cross-country and trend comparison, the PYLL are standardized, for each country
+and each year. The total OECD population in 2010 is taken as the reference
+population for age standardization.
+As shown in Table 1, between 2003 and 2013, the age-standardized mortality rate for
+all cancers combined declined by 15%, from 73.0 to 62.3. The estimates in Table 4
+imply that virtually, this entire decline was due to the previous launches of new cancer
+drugs. During the same period, according to the OECD, the premature cancer mortality
+rate (the number of PYLL before age 70/100,000 population below age 70) declined by
+11.4%, from 782.4 to 693.4. It seems reasonable to assume that this entire decline was
+also due to the previous launches of new cancer drugs. Therefore, in the absence of the
+previous new drug launches, premature cancer mortality would have been 12.8% (= (1/
+(1 - 0.114)) - 1) higher in 2013 than it actually was. Actual PYLL before age 70 due
+to cancer in 2013 was 823,209 (= 693.4 * (118,720,632/100,000)). I estimate that in the
+absence of previous new drug launches, premature cancer mortality would have been
+928,870 (= 112.8% * 823,209).
+This calculation implies that 105,661 life-years before age 70 were gained in
+2013 due to new cancer drugs. This is a rough estimate of the longevity beneﬁt in
+2013 to people under 70 of cancer drugs launched during the period 1991–2001. To
+calculate the average cost-effectiveness of these drugs, I would like to measure
+11
+This measure incorporates both the reduction in the number of deaths and the increase in mean age at
+during the period 1991–2001. Unfortunately, these data are not available. However,
+I do have unpublished data from the IMS Health MIDAS database on expenditure
+(by or on behalf of all patients) by drug in 2010. Expenditure in 2010 on cancer
+drugs launched during 1991–2001 was $315 million.12 72% of people diagnosed
+with cancer in 2012 were below age 70 (source: GLOBOCAN). Expenditure in
+2010 by or on behalf of people below age 70 on cancer drugs launched during
+1994–2004 may, therefore, have been $227 million (= 72% * $315 million).
+These calculations imply that the cost per life-year gained by people below age
+70 from new cancer drugs was in the neighborhood of $2146 (= $227 million/
+105,661 life-years). This ﬁgure may be somewhat underestimated, since it is based
+on 2010 expenditure data.13 On the other hand, Lichtenberg (2014a) showed that in
+the US, about 25% of the cost of new drugs (for all diseases) tends to be offset by
+reduced expenditure on old drugs, so the cost per life-year gained may have been
+below $2000.
+The World Health Organization considers interventions whose cost per qualityadjusted life-year (QALY) gained is less than per capita GDP to be ‘‘very costeffective’’ (Bertram et al. 2016); Mexico’s per capita GDP in 2011 was $10,307.14
+The estimated cost per life-year gained from the previous pharmaceutical innovation
+is also well below the vast majority of estimates from the value-of-life literature of
+the value of a life-year (see Hirth et al. 2000).
+
+6 Summary and conclusions
+I assessed the impact that pharmaceutical innovation had on cancer mortality in
+Mexico during the period 2003–2013, by investigating whether there were larger
+declines in mortality for cancer sites (breast, lung, colon, etc.) that were subject to
+more pharmaceutical innovation, controlling for changes in cancer incidence. New
+drugs launched during 1991–2001 are estimated to have reduced the agestandardized cancer mortality rate by 16%, i.e., at an average annual rate of about
+1.6%. I estimated that 105,661 life-years before age 70 were gained in 2013 due to
+cancer drugs launched during 1997–2007, and that the cost per life-year gained was
+in the neighborhood of $2146. By the standards of the World Health Organization,
+new cancer drugs have been very cost-effective in Mexico.
+The contribution of cancer drug innovation to Mexican longevity growth has
+been valuable, but, perhaps, it could have been even larger. According to the IMS
+Institute for Healthcare Informatics (2016), during the period 2010–2014, 49 new
+cancer medicines were launched worldwide. As shown in Fig. 6, about twice as
+12
+Expenditure in 2010 on all post-1981 cancer drugs was $393 million. This represents 2.4% of total
+2010 pharmaceutical expenditure ($16.6 billion of US dollars at exchange rate) reported in MIDAS. The
+OECD estimate of total pharmaceutical sales in 2010 is 24% higher: $20.6 billion.
+13
+According to the OECD, between 2010 and 2013, total pharmaceutical sales (in US$ at exchange rate)
+increased 3.6% (from $20.6 billion to $21.3 billion).
+14
+Lichtenberg (2009) demonstrated that the number of QALYs gained from pharmaceutical innovation
+
+10
+
+20
+
+30
+
+40
+
+50
+
+Global
+
+60
+
+49
+
+US
+
+41
+
+Germany
+
+38
+
+UK
+
+37
+
+Italy
+
+31
+
+France
+
+28
+
+Canada
+
+28
+
+Japan
+
+24
+
+Spain
+
+23
+
+Poland
+
+22
+
+South Korea
+
+20
+
+Mexico
+
+20
+
+Russia
+
+19
+
+Brazil
+
+13
+
+Phillipines
+
+13
+
+Turkey
+
+9
+
+India
+
+7
+
+China
+
+6
+
+Indonesia
+
+Source: IMS InsƟtute for Healthcare InformaƟcs, Global Oncology Trend Report:
+A Review of 2015 and Outlook to 2020, p. 15.
+
+6
+
+Kazakhstan
+
+6
+
+S. Africa
+Vietnam
+
+5
+1
+
+Fig. 6 Number of 2010–2014 cancer medicines that have been launched in various regions
+
+many of these have been launched in the US as have been launched in Mexico.15 In
+addition, as shown in Fig. 3, when new drugs are launched in Mexico, their
+diffusion is quite slow.
+Due to unavailability of data, this study is subject to several limitations. The
+measure of pharmaceutical innovation—the number of chemical substances
+previously launched to treat cancer—is not the theoretically ideal measure. The
+number of chemical substances previously launched was the only cancer-sitespeciﬁc, time-varying, measure of medical innovation. The previous research based
+on US data indicates that non-pharmaceutical medical innovation is not positively
+correlated across diseases with pharmaceutical innovation, but this may not apply to
+Mexico. Future research may be able to overcome these and other limitations.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original
+author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were
+made.
+
+Appendix
+See Table 5.
+15
+The IMS Institute for Healthcare Informatics (2016, p 22) also notes that ‘‘Mexico and South Africa
+are the only pharmerging countries in which oncology costs have fallen in proportion to total medicines
+Cancer site
+
+Drug
+
+Launch year
+
+C00–C14 head and neck cancer
+
+Docetaxel
+
+1995
+
+C00–C14 head and neck cancer
+
+Cetuximab
+
+2004
+
+C15 esophageal cancer
+
+Docetaxel
+
+1995
+
+C15 esophageal cancer
+
+Trastuzumab
+
+2000
+
+C16 stomach (gastric) cancer
+
+Docetaxel
+
+1995
+
+C16 stomach (gastric) cancer
+
+Trastuzumab
+
+2000
+
+C18, C20 colon and rectal cancer
+
+Irinotecan
+
+1998
+
+C18, C20 colon and rectal cancer
+
+Capecitabine
+
+2000
+
+C18, C20 colon and rectal cancer
+
+Oxaliplatin
+
+2002
+
+C18, C20 colon and rectal cancer
+
+Cetuximab
+
+2004
+
+C18, C20 colon and rectal cancer
+
+Bevacizumab
+
+2005
+
+C18, C20 colon and rectal cancer
+
+Panitumumab
+
+2011
+
+C18, C20 colon and rectal cancer
+
+Aﬂibercept
+
+2014
+
+C25 pancreatic cancer
+
+Paclitaxel
+
+1995
+
+C25 pancreatic cancer
+
+Gemcitabine
+
+1997
+
+C25 pancreatic cancer
+
+Irinotecan
+
+1998
+
+C25 pancreatic cancer
+
+Erlotinib
+
+2006
+
+C25 pancreatic cancer
+
+Everolimus
+
+2006
+
+C25 pancreatic cancer
+
+Sunitinib
+
+2006
+
+C34 lung cancer
+
+Carboplatin
+
+1992
+
+C34 lung cancer
+
+Docetaxel
+
+1995
+
+C34 lung cancer
+
+Paclitaxel
+
+1995
+
+C34 lung cancer
+
+Gemcitabine
+
+1997
+
+C34 lung cancer
+
+Vinorelbine
+
+1998
+
+C34 lung cancer
+
+Geﬁtinib
+
+2004
+
+C34 lung cancer
+
+Bevacizumab
+
+2005
+
+C34 lung cancer
+
+Pemetrexed
+
+2005
+
+C34 lung cancer
+
+Erlotinib
+
+2006
+
+C34 lung cancer
+
+Topotecan
+
+2008
+
+C34 lung cancer
+
+Crizotinib
+
+2012
+
+C40–C41 bone cancer
+
+Denosumab
+
+2012
+
+C43 melanoma
+
+Interferon alfa-2b
+
+1987
+
+C43 melanoma
+
+Aldesleukin
+
+1996
+
+C43 melanoma
+
+Peginterferon alfa-2b
+
+2001
+
+C43 melanoma
+
+Ipilimumab
+
+2012
+
+C43 melanoma
+
+Vemurafenib
+
+2012
+
+C44 basal cell carcinoma
+
+Imiquimod
+
+1999
+
+C45 malignant mesothelioma
+
+Pemetrexed
+
+2005
+
+C46 kaposi sarcoma
+
+Interferon alfa-2b
+
+1987
+
+C46 kaposi sarcoma
+
+Paclitaxel
+
+1995
+
+C49 soft tissue sarcoma
+
+Imatinib
+
+2001
+
+C49 soft tissue sarcoma
+
+Trabectedin
+
+Cancer site
+
+Drug
+
+Launch year
+
+C49 soft tissue sarcoma
+
+Pazopanib
+
+2012
+
+C50 breast cancer
+
+Epirubicin
+
+1987
+
+C50 breast cancer
+
+Goserelin
+
+1991
+
+C50 breast cancer
+
+Docetaxel
+
+1995
+
+C50 breast cancer
+
+Paclitaxel
+
+1995
+
+C50 breast cancer
+
+Gemcitabine
+
+1997
+
+C50 breast cancer
+
+Anastrozole
+
+1998
+
+C50 breast cancer
+
+Raloxifene
+
+1998
+
+C50 breast cancer
+
+Toremifene
+
+1999
+
+C50 breast cancer
+
+Capecitabine
+
+2000
+
+C50 breast cancer
+
+Letrozole
+
+2000
+
+C50 breast cancer
+
+Trastuzumab
+
+2000
+
+C50 breast cancer
+
+Exemestane
+
+2004
+
+C50 breast cancer
+
+Everolimus
+
+2006
+
+C50 breast cancer
+
+Fulvestrant
+
+2009
+
+C50 breast cancer
+
+Ixabepilone
+
+2009
+
+C50 breast cancer
+
+Lapatinib
+
+2009
+
+C50 breast cancer
+
+Trastuzumab emtansine
+
+2014
+
+C53 cervical cancer
+
+Bevacizumab
+
+2005
+
+C53 cervical cancer
+
+Topotecan
+
+2008
+
+C56 ovarian, fallopian tube, or primary peritoneal cancer
+
+Carboplatin
+
+1992
+
+C56 ovarian, fallopian tube, or primary peritoneal cancer
+
+Paclitaxel
+
+1995
+
+C56 ovarian, fallopian tube, or primary peritoneal cancer
+
+Gemcitabine
+
+1997
+
+C56 ovarian, fallopian tube, or primary peritoneal cancer
+
+Bevacizumab
+
+2005
+
+C56 ovarian, fallopian tube, or primary peritoneal cancer
+
+Topotecan
+
+2008
+
+C61 prostate cancer
+
+Flutamide
+
+1987
+
+C61 prostate cancer
+
+Mitoxantrone
+
+1987
+
+C61 prostate cancer
+
+Leuprorelin
+
+1989
+
+C61 prostate cancer
+
+Goserelin
+
+1991
+
+C61 prostate cancer
+
+Docetaxel
+
+1995
+
+C61 prostate cancer
+
+Bicalutamide
+
+1997
+
+C61 prostate cancer
+
+Degarelix
+
+2010
+
+C61 prostate cancer
+
+Cabazitaxel
+
+2012
+
+C64–C65 kidney (renal cell) cancer
+
+Aldesleukin
+
+1996
+
+C64–C65 kidney (renal cell) cancer
+
+Bevacizumab
+
+2005
+
+C64–C65 kidney (renal cell) cancer
+
+Everolimus
+
+2006
+
+C64–C65 kidney (renal cell) cancer
+
+Sunitinib
+
+2006
+
+C64–C65 kidney (renal cell) cancer
+
+Temsirolimus
+
+2011
+
+C64–C65 kidney (renal cell) cancer
+
+Pazopanib
+
+2012
+
+C71 brain tumors
+
+Temozolomide
+
+1999
+
+C71 brain tumors
+
+Bevacizumab
+
+Cancer site
+
+Drug
+
+Launch year
+
+C71 brain tumors
+
+Everolimus
+
+2006
+
+C73 thyroid cancer
+
+Vandetanib
+
+2014
+
+C81 hodgkin lymphoma
+
+Brentuximab vedotin
+
+2014
+
+C82–C85 non-hodgkin lymphoma
+
+Interferon alfa-2b
+
+1987
+
+C82–C85 non-hodgkin lymphoma
+
+Rituximab
+
+1999
+
+C82–C85 non-hodgkin lymphoma
+
+Bortezomib
+
+2006
+
+C82–C85 non-hodgkin lymphoma
+
+Lenalidomide
+
+2008
+
+C82–C85 non-hodgkin lymphoma
+
+Plerixafor
+
+2009
+
+C82–C85 non-hodgkin lymphoma
+
+Brentuximab vedotin
+
+2014
+
+C90 multiple myeloma and other plasma cell neoplasms
+
+Zoledronic acid
+
+2001
+
+C90 multiple myeloma and other plasma cell neoplasms
+
+Bortezomib
+
+2006
+
+C90 multiple myeloma and other plasma cell neoplasms
+
+Lenalidomide
+
+2008
+
+C90 multiple myeloma and other plasma cell neoplasms
+
+Plerixafor
+
+2009
+
+C91, C92 leukemia
+
+Interferon alfa-2b
+
+1987
+
+C91, C92 leukemia
+
+Mitoxantrone
+
+1987
+
+C91, C92 leukemia
+
+Idarubicin
+
+1992
+
+C91, C92 leukemia
+
+Rituximab
+
+1999
+
+C91, C92 leukemia
+
+Imatinib
+
+2001
+
+C91, C92 leukemia
+
+Dasatinib
+
+2007
+
+C91, C92 leukemia
+
+Nilotinib
+
+2007
+
+C91, C92 leukemia
+
+Clofarabine
+
+2009
+
+C91, C92 leukemia
+
+Obinutuzumab
+
+2014
+
+World Health Organization (2016b) WHO Mortality database. http://www.who.int/healthinfo/statistics/

@@ -1,0 +1,8097 @@
+
+1 Introduction
+In recent years, due to the availability of data on a vast number of correlated
+macroeconomic and ﬁnancial variables collected regularly by statistical agencies,
+there has been an increasing interest in modeling large systems of economic time
+series. Therefore, econometricians have to deal with datasets consisting of hundreds
+of series, thus making the use of large dimensional dynamic factor models (DFMs)
+more attractive than the usual vector autoregressive (VAR) models, which usually
+limit the number of variables; see Boivin and Ng (2006). DFMs were introduced by
+Geweke (1977) and Sargent and Sims (1977) with the aim of representing the
+dynamics of large systems of time series through a small number of hidden common
+factors, and are mainly used for one of the following two objectives: ﬁrst,
+forecasting macroeconomic variables and second, estimating the underlying factor
+in order to carry out policy-making (e.g., the business cycle; lagging, coincident,
+and leading indicators; or impulse-response functions, among other aspects).
+Another interesting application is to use the common factors as instrumental
+variables or exogenous regressors in panel data analysis. See Bai and Ng (2008),
+Stock and Watson (2011), and Breitung and Choi (2013) for a review of existing
+literature and applications of DFMs.
+Note that macroeconomic time series are generally non-stationary and frequently
+cointegrated; see, for example, Kunst and Neusser (1997). On the other hand, a
+cointegrated system can be expressed in terms of a factor representation; see Stock
+and Watson (1988), Vahid and Engle (1993), Gonzalo and Granger (1995).
+Furthermore, these authors show that the common factor representation implies that
+the variables of the system are cointegrated if the common factors are I(1) and the
+individual effects are I(0). However, in practice, the cointegration results are not
+frequently used to predict macroeconomic variables, given that we differentiate
+each element of the factor representation individually.
+Empirically, it is interesting to determine the number of common factors of the
+economy, given that we can summarize a large number of macroeconomic variables
+in few common trends.1 Furthermore, by estimating the common factors we can
+observe the orthogonal dynamics of the economy, which is very important for
+macroeconomic policy. These common factors, for example, may be related to
+speciﬁc groups of variables, and it is interesting to analyze mechanisms of
+transmission to other groups of variables. Additionally, we can estimate the
+conﬁdence intervals for the loading weights, common factors, and common
+components, which allow us to carry out statistical inference in order to better
+understand economic phenomena.
+The stochastic common trends represent the long-run behavior of the variables.
+Previous studies related to this paper are Duy and Thoma (1998), who evaluate the
+1
+
+The common factors are equivalent to the common trends when we assume a static representation in the
+factor model. Barigozzi et al. (2016) develop the econometric theory for non-stationary DFMs with large
+(2008), who examine the use of the factor-augmented vector autoregressive (FAVAR)
+in order to predict macroeconomic and ﬁnancial variables, focusing on the US
+economy. They conclude that on average, factor forecasts are slightly better than other
+models. Banerjee et al. (2014) incorporate the error correction term in FAVAR
+models, showing that their approach generally offers higher forecasting accuracy
+relative to the FAVAR. Also, Eickmeier et al. (2014) prove different speciﬁcations of
+FAVAR models, using time-varying coefﬁcients (tv) and stochastic volatility errors.
+The main conclusion is that the FAVAR models, regardless of the speciﬁcation,
+outperform univariate models on in-sample forecasts. When they evaluate the outsample performance, there is no improvement with respect to the benchmark model.
+More recently, Hindrayanto et al. (2016) study the forecasting performance of a four
+factor model approach for large datasets. They conclude that a collapsed DFM is the
+most accurate model. Finally, Wilms and Croux (2016) propose a sparse cointegration
+method for a large set of variables by setting some coefﬁcients in the cointegration
+relationship at exactly zero. They conclude that their method leads to signiﬁcant
+forecast accuracy with respect to the method proposed by Johansen (1988, 1991).
+Other samples of reference are Stock and Watson (2002a, b), Marcellino et al. (2003),
+˜
+Pena and Poncela (2004), Reijer (2005), Schumacher (2007), Giannone et al. (2008),
+Eickmeier et al. (2014), Lahiri et al. (2015), and Panopoulou and Vrontos (2015), who
+show that DFMs are useful in order to reduce the forecast errors with respect to the
+traditional models, as autoregressive approaches and linear regressions with
+macroeconomic diffusion indexes.2 It is important to comment that, in a similar
+¨
+way as we have proposed in this study but in a stationary framework, Brauning and
+Koopman (2014) propose to use collapsed dynamic factor analysis in order to predict
+target variables of the economy, exploiting the state-space representation between the
+target variables and the common factors. They conclude that the forecast accuracy is
+improved with respect to benchmark models.
+However, most empirical applications have been carried out for the US or Euro
+economies. Therefore, we propose a FAVAR model to predict Mexican economic
+activity using concepts of cointegration such that we forecast I(1) time series where
+the estimated common factors are the common trends of the economy. We readily
+exploit the long-run relationship between the common factors and the speciﬁc
+variable that we wish to predict.3
+We contribute to the literature in two ways: (1) empirically in determining the
+number of common trends of the Mexican economy and (2) the use of the common
+trends in order to predict economic activity. This is an advantage with respect to
+2
+
+Certainly, macroeconomic diffusion indexes are related to DFMs. However, in this study we make a
+distinction between multivariate predictive approaches and the classic diffusion index forecasts given by
+Stock and Watson (2002b). Furthermore, we focus on a DFM from a static point of view. Once the
+common factors are estimated and their non-stationarity disentangled, we use the factors in the proposed
+FAVAR representation.
+
+3
+
+A related study is Caruso (2015), who examines the ﬂow of conjunctural data relevant to assess the
+state of Mexico’s economy. Speciﬁcally, the author exploits the information embedded in macroeconomic
+news from both Mexico and the US, in a model constructed to nowcast Mexican real Gross Domestic
+straightforward to implement computationally. Furthermore, we also direct our
+attention to the predictive capacity of macroeconomic variables and their common
+trends. In this way, we use the traditional method of principal components (PC) and
+additionally, partial least squares (PLS).
+The rest of this paper is structured as follows. In Sect. 2, we summarize the
+historical behavior of the Mexican economy. In Sect. 3, we brieﬂy explain the DFM
+and the FAVAR representation. In Sect. 4, we describe the estimation methods
+used. In Sect. 5, we describe the data, present the cointegration results, their
+descriptive predictive features, the empirical strategy to obtain small forecast errors,
+and the results obtained. Finally, we conclude in Sect. 6.
+
+2 The Mexican economy
+Mexico is one of the world’s leading emerging countries. According to data from
+the International Monetary Fund (IMF), it is the 11th largest economy and the
+largest emerging country outside the BRICs, i.e., Brazil, Russia, India, and China
+(Rodriguez-Pose and Villarreal 2015). In 2015, Mexico’s population ascended to
+119.9 million and its GDP per capita stood at 9005.0 US dollars (World Bank
+2016b).
+After a prolonged period of sustained economic growth, the country began
+decelerating in the late 1970s. Following a sovereign default, Mexico encountered a
+severe economic crisis from 1982 to 1985. Subsequently, the Mexican government
+put forward a series of market reforms that culminated with the implementation of
+the North American Free Trade Agreement in 1994. These reforms included the
+privatization of previously government-operated ﬁrms, ﬁscal reforms, and opening
+the country to trade and foreign direct investment (FDI), among other actions
+(Kehoe and Ruhl 2010). Mexico’s economic transformation was successful in
+reducing inﬂation, maintaining ﬁscal discipline, reducing its external debt burden,
+and increasing trade as a share of GDP (Hanson 2010). Nonetheless, this was not
+accompanied by high levels of economic growth, as between 1982 and 2015 the
+country’s GDP grew at an average annual rate of 2.3% (World Bank 2016a).
+Moreover, in recent decades the Mexican economy has regressed on different
+fronts. In 1995, Mexico was responsible for 7.0% of trade among economies
+classiﬁed by the IMF as emerging and developing, behind China at 12.7%. By 2008,
+China’s share was still the largest and totaled 22.3%, while Mexico dropped to third
+at 5.4%, behind Russia. Additionally, in 1995, China was the largest recipient of
+FDI to emerging and developing economies, accounting for 33.4%, while Mexico
+was second, receiving 8.5%. By 2008, Mexico’s position had weakened considerably, falling to seventh at 3.2% (Kehoe and Ruhl 2010). Factors, such as rigidities
+in the labor market, an inefﬁcient ﬁnancial sector, and a lack of contract
+enforcement, have limited Mexico’s capacity to beneﬁt from its reforms and
+therefore hindered the country’s economic growth (Kehoe and Ruhl 2010).
+As an economy open to world markets, Mexico hosts many modern ﬁrms,
+this represents only a small part of the economy and is concentrated in a few regions
+of the country. Another segment of the economy is characterized by high levels of
+informality, low-skilled work, low productivity levels, and out-of-date technologies.
+Unregistered ﬁrms in the informal sector employ close to half of Mexico’s labor
+force, with workers that frequently lack access to a good education, reliable health
+care, and affordable ﬁnancial services, conditions that strongly hamper their
+accumulation of human capital. Lastly, a third segment of the economy is made up
+of companies that, for long periods, have been protected from competition,
+particularly dominant ﬁrms in the energy and telecommunications sectors
+(Dougherty 2015).
+During the global economic crisis of 2008–2009, Mexico’s GDP suffered a
+signiﬁcant contraction, which was accentuated by a reduction in the amount of
+remittances the country receives from migrant workers based in the US and the
+outbreak of inﬂuenza A(H1N1) throughout the country. Nevertheless, due to an
+upgraded macroeconomic policy framework and careful regulation of the ﬁnancial
+system, Mexico did not suffer the type of ﬁnancial and ﬁscal crises experienced in
+other countries (Schwellnus 2011).
+In the years following the global economic crisis, the Mexican economy was
+characterized by a persistent trend of increasing debt-to-GDP, which grew from
+29.0% in 2007 to 50.5% in 2016, and a signiﬁcant decline in the volume of oil
+production (World Bank 2016a). Output volatility in Mexico remained high, which
+can have high costs for individuals and for long-term growth. Furthermore, in
+Mexico, temporary disturbances in output are usually accompanied by temporary
+reductions in consumption, since a substantial share of the population is creditconstrained and the social safety net is generally weak. This is costly for individuals
+who prefer a smooth path of consumption and are averse to periods of
+unemployment or poverty (Schwellnus 2011).
+Finally, during the last decade, Mexico has implemented a more ambitious and
+wide-ranging innovation policy aimed at getting closer to the technological frontier
+and generating higher levels of economic growth (Rodriguez-Pose and Villarreal
+2015). By 2016, the expansion of economic activity was highly dependent on
+private consumption as low levels of investment and export demand were scarcely
+contributing to growth. In the medium term, economic and ﬁnancial stability and an
+increase in external competitiveness, derived from the depreciation of the country’s
+currency, are expected to boost private investment, exports, and hence economic
+growth (World Bank 2016b).
+In this context, it is very important to formulate an econometric approach in order
+to successfully predict Mexican economic activity, which takes into account a large
+number of macroeconomic and ﬁnancial variables associated with the behavior of
+the economy. Hence, we use a large non-stationary DFM in which the variables are
+summarized in the common trends of the Mexican economy. These common trends
+are used in a FAVAR representation, evaluating the out-sample forecast error one
+In this section we introduce notation and describe the non-stationary DFM and the
+FAVAR model in order to use the common trends to predict a speciﬁc
+macroeconomic variable.
+3.1 Non-stationary dynamic factor model
+Suppose that N large economic time series Yt ¼ ðy1t ; . . .; yNt Þ0 , observed from
+t ¼ 1; . . .; T, are I(1) and any two series yit and yjt are cointegrated, such that the
+idiosyncratic component et ¼ ðe1t ; . . .; eNt Þ0 is stationary. In this case, and following
+Stock and Watson (1988), there is a common factor representation as follows:
+Yt ¼ PFt þ et ;
+
+ð1Þ
+
+where P ¼ ðp01 ; . . .; p0N Þ0 is the N Â r (r\N) matrix of factor loadings, where pi ¼
+ðpi1 ; . . .; pir Þ and Ft ¼ ðF1t ; . . .; Frt Þ0 is the r Â 1 vector of common factors, or in this
+case, the common trends.
+Given that any two series of Yt are cointegrated in the sense of Engle and Granger
+(1987), the dynamic of the common factors and the idiosyncratic components are
+the following:
+Ft ¼ FtÀ1 þ gt
+
+ð2Þ
+
+et ¼ CðLÞetÀ1 þ at
+
+ð3Þ
+
+where the factor disturbances, gt ¼ ðg1t ; . . .; grt Þ0 , are r Â 1 vectors, distributed
+independently from the idiosyncratic noises for all leads and lags. Furthermore, gt
+and at are white noises with positive deﬁnite covariance matrices Rg and Ra ,
+respectively. Additionally, CðLÞ collected the N Â N matrices containing the
+autoregressive parameters of the idiosyncratic components where L is the lag
+operator such that Lk et ¼ etÀk . These autoregressive matrices satisfy the usual stationarity assumptions.
+The DFM in Eqs. (1)–(3) is not identiﬁed because for any r Â r non-singular
+matrix H, the system can be expressed in terms of a new loading matrix and a new
+set of common factors as follows:
+Yt ¼ PÃ FtÃ þ et
+
+ð4Þ
+
+Ã
+FtÃ ¼ FtÀ1 þ gÃ ;
+t
+
+ð5Þ
+
+where PÃ ¼ PH, FtÃ ¼ H À1 Ft , and gÃ ¼ H À1 gt . The DFM in Eqs. (4) and (5) is
+t
+observationally equivalent to that in Eqs. (1) and (2). A normalization is necessary
+to solve this identiﬁcation problem and uniquely deﬁne the factors. In the context of
+PC factor extraction, it is common to impose the restriction P0 P=N ¼ Ir and F 0 F
+being diagonal, where F ¼ ðF1 ; . . .; FT Þ0 is a T Â r matrix of common factors.
+Alternatively, we can set the restrictions F 0 F=T 2 ¼ Ir and P0 P being diagonal; see
+Bai and Ng (2008). On the other hand, when C 6¼ 0 and Ra is diagonal, there is
+serial correlation in the idiosyncratic noises and in this case the DFM is called exact;
+see Stock and Watson (2011). Chamberlain and Rothschild (1983) introduce the
+term approximate model when the idiosyncratic term does not need to have a
+diagonal covariance matrix. Forni et al. (2000) and Stock and Watson (2002a)
+generalize the approximate model, allowing for weak serial and cross-correlation.
+Furthermore, Bai and Ng (2002) and Bai (2003) also allow for heteroskedasticity in
+both the time and cross-sectional dimensions.
+3.2 The factor-augmented autoregressive model
+Once the non-stationary DFM is speciﬁed, we can use the common trends to predict
+a speciﬁc macroeconomic variable, denoted as xt ; see Stock and Watson (2005),
+Banerjee et al. (2013), among many others. It is important to comment that if
+forecasting is the objective, although (xt ; Ft Þ0 are integrated or cointegrated, the
+FAVAR speciﬁcation is quite convenient. Note that the optimal conditional
+expectation does not require stationarity or stability in the system. The theoretical
+¨
+justiﬁcation is given by Lutkepohl (2006). More recently, Barigozzi et al. (2016)
+discuss several situations where a VAR estimated in levels is equivalent to a
+cointegrated VAR. Basically, when estimating a VAR in levels we can consistently
+estimate the parameters of a cointegrated VAR. Therefore, the FAVAR is provided
+as follows:
+ 
+
+
+xt
+xtÀ1
+ð6Þ
+¼ UðLÞ
+þ vt ;
+Ft
+FtÀ1
+where
+0
+
+ðkÞ
+
+U11
+B
+B 0
+B
+UðLÞ ¼ B 0
+B
+B .
+@ .
+.
+0
+
+ðkÞ
+
+ðkÞ
+
+U12
+ðkÞ
+U22
+0
+.
+.
+.
+
+U13
+0
+ðkÞ
+U33
+
+0
+
+0
+
+...
+...
+..
+
+.
+
+ðkÞ
+
+U1rþ1
+0
+0
+ðkÞ
+
+1
+C
+C
+C kþ1
+CL ;
+C
+C
+A
+
+Urþ1rþ1
+
+for k ¼ 1; . . .; p, where vt $ Nð0; Rv Þ. Intuitively, common economic trends that
+summarize its long-run behavior are used to predict a speciﬁc macroeconomic
+¨
+variable. For a similar representation but in the stationary context, see Brauning and
+Koopman (2014). Note that expression (6) is the prediction equation; for example,
+assuming p ¼ 1, for any h step ahead, then
+xtþh ¼ U11 xtÀðhþ1Þ þ U12 F1;tÀðhþ1Þ þ Á Á Á þ U1rþ1 Frþ1;tÀðhþ1Þ þ vtþh :
+
+ð7Þ
+
+The estimation of the parameters of Eq. (6) is obtained using restricted ordinary
+least squares (OLS). Furthermore, it is necessary to deﬁne the number of common
+factors and their factor estimates. In this section we describe some traditional
+methods to determine the number of non-stationary common factors. Additionally,
+we describe PC factor extraction and comment on an alternative method to estimate
+the common factors, known in literature as PLS.
+4.1 Determining the number of factors
+It was previously assumed that r is known, however in practice it is frequently
+necessary to estimate it. In this subsection we describe two procedures to determine
+r in the context of large DFMs, namely the Onatski (2010) procedure and the ratio
+of eigenvalues proposed by Ahn and Horenstein (2013). There are other alternatives
+to determine r, the Bai and Ng (2002) information criteria, the respective correction
+proposed by Alessi et al. (2010), and the procedure carried out by Kapetanios
+(2010), among many other approaches. Moreover, in the context of non-stationary
+DFMs, Ergemen and Rodriguez-Caballero (2016) use the procedure given by Hallin
+and Liska (2007) to determine the number of regional and global factors allowing
+fractional differencing in Yt . However, and following Corona et al. (2017a), they
+show that the ﬁnite sample performance of the proposed procedures in this paper
+exhibits a good performance when we use data in ﬁrst differences or levels and the
+common factors are I(1).4
+4.1.1 Onatski (2010) procedure
+The Onatski (2010) procedure is based on the behavior of two adjacent eigenvalues
+^
+of RY ¼ T À1 Y 0 Y, for j ¼ 1; . . .; rmax . Intuitively, it is reasonable that when N and T
+^
+^
+^ ^
+tend to inﬁnity, the difference between kj À kjþ1 tends to zero while kr À krþ1
+^
+^
+diverges to inﬁnity, where ki is the i-largest eigenvalue of RY . Onatski (2010) points
+out the necessity of determining a ‘‘sharp’’ threshold that separates convergent and
+divergent eigenvalues, denoted as d. The author gives the empirical procedure to
+determine the threshold and in practice, this approach is more robust in presence of
+non-stationarity and when the factors are weak or when the proportion of variance
+attributed to the idiosyncratic components is larger than the variance of the common
+^ ^
+^
+component. We denote this estimator as r ED ¼ maxfj rmax : kj À kjþ1 ! dg:.
+4.1.2 The Ahn and Horenstein (2013) ratios of eigenvalues
+Ahn and Horenstein (2013) develop the consistency of the estimation of r when they
+^
+use the ratio of two adjacent eigenvalues of RY under the traditional assumptions of
+4
+
+Alternatively, Bai (2004) proposes an information criteria for data in levels, modifying the PCðkÞ
+maximizing with respect to j ¼ 1; . . .; rmax the following ratios:
+ERðjÞ ¼
+
+^
+kj
+;
+^
+kjþ1
+
+^Ã
+lnð1 þ kj Þ
+GRðjÞ ¼
+;
+^Ã
+lnð1 þ k Þ
+
+ð8Þ
+
+ð9Þ
+
+jþ1
+
+P ^
+1
+^
+^
+^Ã ^ P
+^
+where k0 ¼ m m kj = lnðmÞ and kj ¼ kj = m
+i¼1
+i¼kþ1 ki . The value of k0 has been
+chosen following the deﬁnition of Ahn and Horenstein (2013), according to which
+^
+^
+k0 ! 0 and mk0 ! 1 as m ! 1:
+4.2 Principal components factor extraction
+The most popular method to extract static common factors is based on PC given that
+it does not require assumptions of the error distribution, and the estimation of the
+common component is consistent, among many other properties; see Bai (2003).
+This procedure separates the common component from the idiosyncratic noises by
+considering a cross-sectional averaging of the variables within Yt such that when
+N and T tend simultaneously to inﬁnity, the weighted averages of the idiosyncratic
+noises converge to zero, with only the linear combinations of the factors remaining.
+Therefore, this method requires that the cumulative effects of the common
+component increase proportionally with N, while the eigenvalues associated with
+the idiosyncratic components remain bounded.
+The PC estimator of Ft can be derived as the solution to the following least
+squares problem:
+Vr ðP; FÞ ¼
+
+min ðNTÞÀ1
+
+F1 ;...;FT ;P
+
+T
+X
+ðYt À PFt Þ0 ðYt À PFt Þ
+
+ð10Þ
+
+t¼1
+
+subject to the restrictions F 0 F=T 2 ¼ Ir and P0 P being diagonal, where F ¼
+ðF1 ; . . .; FT Þ0 is a r Â T matrix of common trends. The minimization problem in (10)
+is equivalent to maximizing tr½F 0 ðYY 0 ÞF where Y ¼ ðY1 ; . . .; YT Þ0 with the dimen^
+sion T Â N. This maximization problem is solved by setting F equal to T times the
+eigenvectors corresponding to the r largest eigenvalues of the T Â T matrix YY 0 .
+The corresponding PC estimator of P is given by5:
+
+5
+
+Alternatively, if we choose the restrictions P0 P=N ¼ Ir and F 0 F being diagonal, the estimator of the
+pﬃﬃﬃﬃ
+^
+matrix of factor loadings, P, is N times the eigenvectors corresponding to the r largest eigenvalues of
+^
+^
+the N Â N matrix Y 0 Y, with estimated factor matrix F ¼ Y P=N. The difference is only computational,
+these latest restrictions are less costly when T [ N, whereas F 0 F=T 2 ¼ Ir with P0 P being diagonal are
+P¼ 2 :
+T
+
+ð11Þ
+
+Bai (2003) deduces that the rate of convergence and the limiting distributions of the
+estimated factors, factor loadings and common component is the stationary DFM
+when the cross-section and time dimensions tend towards inﬁnity. Under the
+^ ^
+assumptions considered in this paper, Bai (2004) shows the consistency of Ft , P; and
+^t is analyzed by Bai
+the common component. The ﬁnite sample performance of F
+^
+(2004) and recently by Corona et al. (2017b). The ﬁrst author concludes that Ft is a
+close estimation of Ft when the idiosyncratic errors are stationary and even if the
+sample size is moderately small (i.e., N ¼ 100 and T ¼ 40). The second authors
+consider structure dependence in the idiosyncratic errors and show that when the
+idiosyncratic errors are I(0) we can obtain close estimations of Ft even if N is small
+^
+and the variance of et is large. When the idiosyncratic errors are I(1), Ft works
+poorly. In this case, it is convenient to use the estimator given by Bai and Ng
+(2004).6 Other alternatives to estimate the common factors without differencing
+them are given by Barigozzi et al. (2016) and Corona et al. (2017b).
+Note that the estimation of Ft disregards the dynamic of Eqs. (2) and (3). The
+reason for this is that we estimate the common factors from static representation in
+the factor model. Corona et al. (2017b) incorporate the dynamic of Eq. (2) in a
+second step to obtain smooth estimates of the common factors using the Kalman
+ﬁlter. However, in this study we focus on a large DFM from static representation.
+For a technical discussion of the analogies and differences between static and
+dynamic representation, see for example Bai and Ng (2007). Thus, our approach is
+related to Bai (2004) and Bai and Ng (2004), who study non-stationarity in DFMs
+under a static representation.
+4.3 Partial least squares
+In addition to the estimation of Ft by PC, we consider the PLS estimation, which
+takes into account the effect of a dependent variable. In a similar manner to Fuentes
+et al. (2015), we estimate the common factors in economic time series using PLS,
+~
+denoted as F t . Intuitively, the idea is to ﬁnd the orthogonal latent variables that
+maximize the covariance between Y and x ¼ ðx1 ; . . .; xT Þ0 . The estimation process is
+iterative, and the ﬁrst step consists in the eigenvalue decomposition of the following
+T Â T matrix:
+M ¼ Yxx0 Y 0
+
+ð12Þ
+
+~
+Then, the ﬁrst common factor, F 1t , is the ﬁrst eigenvector associated to the ﬁrst
+eigenvalue of M. The second common factor is estimated from the residual matrix
+~0
+of e ¼ Y À BF 1 . To obtain the following common factors, the process is repeated
+~
+~
+r À 2 steps using the F 1t ; . . .; F rÀ1t common factors in each step.
+6
+According to Bai and Ng (2004), if et is not stationary, it is necessary to differentiate Yt to consistently
+P
+^
+^
+^
+In this section we present the data from the Mexican economy used in this study,
+describe the methodology to evaluate the accuracy of the common trends in order to
+predict the Mexican economy, determine the number of common trends, and
+analyze their dynamic by evaluating the performance of the FAVAR model
+proposed in Sect. 2 with respect to benchmark models.
+
+5.1 Data
+Initially, we consider 511 macroeconomic and ﬁnancial variables obtained from the
+Banco de Informacion Economica (BIE) of the Insituto Nacional de Geografıa y
+´
+´
+´
+Estadıstica (INEGI), Mexico’s national statistical agency. The analysis covers from
+´
+March 2005 to April 2016, hence, T ¼ 133. The blocks of variables are considered
+according to the INEGI division, and additionally, we compare this division with
+respect to the National Institute’s Global Econometric Model, which considers nine
+blocks with a total of 67 variables.7
+According to our approach, it is necessary that all variables are integrated of
+order one, so that, if factors are found, these are the common trends of the
+observations. In this case, we consider only I(1) variables according to the
+Augmented Dickey–Fuller (ADF) test.8 When needed, the time series have been
+deseasonalized and corrected by outliers using X-13ARIMA-SEATS developed by
+the US Census Bureau.9 Following Stock and Watson (2005), outliers are
+substituted by the median of the ﬁve previous observations.
+Finally, according to these non-stationary conditions, we work with the following
+database of N ¼ 211 variables (number between parentheses)10:
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+
+Balance of trade (19)
+Consumer conﬁdence (18)
+Consumption (9)
+Economic activity (13)
+Employment (5)
+Financial (35)
+Industrial (58)
+International (17)
+Investment (8)
+Miscellaneous (18)
+Prices (11).11
+
+7
+
+https://nimodel.niesr.ac.uk.
+
+8
+
+See Barigozzi et al. (2016) for a similar approach.
+
+9
+
+https://cran.r-project.org/web/packages/seasonal.pdf.
+
+10
+
+See Annex with the description of each block of variables included.
+
+11
+
+It is well known that the prices can be I(2). In our sample period seven prices are I(2) and they are
+Indicador Global de la Actividad Economica).12
+´
+5.2 Estimating the common trends
+We apply the criteria described in this article to detect the number of factors. We
+^
+^
+^
+use an rmax ¼ 11. The results indicate that r ER ¼ r GR ¼ 2 and r ED ¼ 5.13 Given that
+Onatski (2010) is more robust in the presence of non-stationarity, see Corona et al.
+(2017a), we work with this number of factors.14
+Figure 1 plots the results of the ratios and differences of eigenvalues with the
+respective threshold. Note that, intuitively, it is congruent that the ratio of
+eigenvalues of Ahn and Horenstein (2013) determines one and two common factors,
+given that the ﬁrst and second differences of eigenvalues are large, while the others
+are practically zero. However, the estimation of the ‘‘sharp’’ threshold is one of the
+main contributions from Onatski (2010), which as we have mentioned, consistently
+separates convergent and divergent eigenvalues. Furthermore, the ﬁve common
+factors explain 79.19% of the total variability. Speciﬁcally, the ﬁrst common factor
+explains 46.14%, the second 19.59%, the third 6.2%, the fourth 4.75%; and the ﬁfth
+2.51%.
+Figure 2 plots the behaviors between ln xt (deseasonalized) and each common
+factor extracted by PC and PLS. We observe that the ﬁrst common factor, for each
+procedure, is similar to ln xt with contemporaneous linear correlations of 0.95 for
+PC and 0.96 for PLS. The second common factors are slightly correlated with ln xt ,
+having contemporaneous correlations of 0.13 and 0.08 for PC and PLS, respectively.
+~
+~
+On the other hand, F 3t and F 5t have an inverse behavior, although the correlations
+with respect to ln xt are around À0:01: In the other cases, the estimated common
+factors are positively related to ln xt but the linear correlations are drastically small.
+These facts indicate that contemporaneously, only the ﬁrst two common factors are
+associated with economic activity. It is interesting to mention that these two factors
+explain 65.73% of the total variability. Note that it is complicated to establish the
+predictive capacity between the common factors, and it is necessary to evaluate it in
+the FAVAR model. Furthermore, it is clear that the sample period includes the
+economic crisis of 2008–2009; however, Stock and Watson (2011) show that the PC
+estimator of the factors is consistent even with certain types of breaks or time
+variation in the factor loadings.
+Figure 3 shows the weighted average contribution of each variable block in the
+common factors estimated by PC. Each color bar represents the contribution of the
+percentage of explanation of each variable group with respect to each common
+factor, denoted as follows:
+12
+
+Note that the block of economic activity includes the components of the aggregate IGAE. Hence, this
+speciﬁc variable is not included in the block.
+13
+Additionally, we estimate the Bai and Ng (2002) information criteria using data in levels and ﬁrst^
+differenced data. In both cases, the three criteria tend to r ¼ rmax .
+14
+
+For the US economy, Alessi et al. (2010) determine six common factors using the database from Stock
+
+Difference
+
+Lat Am Econ Rev (2017) 26:7
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+4
+
+5
+
+6
+
+2.5
+1.5
+
+Ratio
+
+i
+
+1
+
+2
+
+3
+i
+
+^ ^
+Fig. 1 Determination of the number of factors through the Onatski (2010) procedure, ki À kiþ1 (top
+^
+^
+panel) and ratio of eigenvalues (bottom panel), kiþ1 =ki , for i ¼ 1; . . .; 6
+
+^
+ljg ¼
+
+Ng
+X
+
+j^ig jg j=Ng
+p
+
+for j ¼ 1; . . .r; and g ¼ 1; . . .; G;
+
+ig ¼1
+
+^
+where pig jg is the loading weight of each group of variables; G is the number of
+blocks of variables; and Ng is the number of variables in each group. Speciﬁcally,
+P ^
+^
+^
+the order of the groups of variables is computed as r À1 r kj ljg where kj is the
+j¼1
+variance contribution of each common factor. The block that most explains the
+common factors is the miscellaneous group, economic activity, and balance of trade
+blocks. On the other hand, prices, employment, and consumer conﬁdence are the
+least relevant groups of variables. Note that this importance is in terms of the
+loading contribution and it is not interpreted as predictive power. Speciﬁcally, the
+ﬁrst common factor is more correlated with the IGAE of tertiary activities (0.99),
+the second common factor with the economic situation with respect to last year
+(0.94), the third common factor with oil exports (0.78), the fourth common factor
+with ediﬁcation (0.70), and the ﬁfth common factor with the food industry (0.53).
+In order to evaluate if the common factors are the common trends of xt , we carry
+out the cointegration exercise. The possible cointegration relationship is given by:
+^
+^
+^
+vt ¼ ln xt À 4:6369 À 0:0719F1t À 0:0098F2t
+ð0:0000Þ
+
+ð0:0000Þ
+
+ð0:0000Þ
+
+^
+^
+^
+À 0:0003F3t þ 0:0008F4t þ 0:0002F5t :
+ð0:0000Þ
+
+ð0:0000Þ
+
+ð13Þ
+
+ð0:0000Þ
+
+We estimate the ADF test with its respective p value (in parentheses), obtaining the
+following results:
+ADF test: À 3:4382 ð0:01Þ
+Then, we can verify that the common trends of a large dataset of the economic
+
+−1.5
+
+2
+
+1
+
+0
+
+−1
+
+−2
+
+2
+
+1
+
+0
+
+−1
+
+2008
+
+2010
+
+2010
+
+2010
+
+Time
+
+Time
+
+Time
+
+2012
+
+2012
+
+2012
+
+2014
+
+2014
+
+2014
+
+2016
+
+2016
+
+2016
+
+2006
+
+2006
+
+2008
+
+2008
+
+2010
+
+2010
+
+Time
+
+Time
+
+2012
+
+2012
+
+2014
+
+2014
+
+2016
+
+2016
+
+Fig. 2 Top left panel hlnxt ; F1t i, top right panel hln xt ; F2t i, middle left panel hln xt ; F3t i, the middle right panel hln xt ; F4t i , and bottom left panel hln xt ; F5t i. The blue
+color refers to PC and the red color to PLS (color ﬁgure online)
+
+2008
+
+2006
+
+2006
+
+2008
+
+2006
+
+1
+0
+−1
+−2
+3
+2
+1
+0
+−1
+−2
+
+123
+
+−2
+
+Consumer confidence
+
+Consumption
+
+Investment
+
+International
+
+Financial
+
+Industrial
+
+Balance of trade
+
+Economic activity
+
+Miscellaneous
+
+0.0
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.6
+
+Lat Am Econ Rev (2017) 26:7
+
+P
+Fig. 3 Weighted mean ljg ¼ G¼1 j^ig jg j=Ng for j ¼ 1; . . .; r; and g ¼ 1; . . .; G; where G is the number
+^
+p
+ig
+of blocks of variables and Ng is the number of variables in each group
+
+and Ng (2004), ﬁrst, we carry out a Panel Analysis of Non-stationarity in
+Idiosyncratic and Common Components (PANIC) on the idiosyncratic errors
+obtained using the ‘‘differencing and recumulating’’ method in order to disentangle
+the non-stationarity in this component. Second, we apply a PANIC to the
+idiosyncratic components estimated using data in levels as we have proposed in this
+study. In the ﬁrst analysis, we obtain a p value of 0.1171 while in the second, we
+^
+obtain a p value of 0.0000. Although in the ﬁrst case et is statistically non-stationary,
+the p value is around the uncertainty zone. Furthermore, we apply the variant of the
+ADF test proposed by Bai (2004) with the aim of detecting how many of the ﬁve
+common factors are non-stationary. As we expected, the tests show that the ﬁve
+common factors are non-stationary. Therefore, we conclude that the idiosyncratic
+terms are stationary and the common factors are non-stationary; hence, we can also
+argue that the elements of Yt are cointegrated and the common factors are the
+common trends of Yt and xt .
+Note that Eq. (13) is the static version of Eq. (7). The goal of this exercise is to
+determine whether Ft are the common trends of xt and Yt . We use this information to
+forecast the target variable with the FAVAR model presented in Sect. 2.
+5.3 Evaluating the use of common trends to predict Mexican economic
+activity
+It is important to have an empirical strategy to adequately predict the target variable.
+Consequently, with the aim of selecting the forecast model, we consider all
+Pr r
+r
+possibilities of FAVAR models,
+i¼1 Ci Â 396, where Ci is the binomial
+ 
+r
+coefﬁcient
+and 396 is obtained as the product of 11 seasonal dummies (3–12
+i
+and none), 3 deterministic speciﬁcations in the FAVAR model (none, constant and
+such that we forecast 12 periods (1 year) for h ¼ 2. This forecast period is one of
+relative economic and political stability in Mexico. For example, during this time
+frame, the annual growth rate of Mexico’s GDP in any quarter was never lower than
+2.3% and never higher than 2.8% (INEGI 2016). Moreover, the country’s economic
+performance tends to be more volatile in times close to presidential elections in
+Mexico, and to a lesser degree in the US, which do not coincide with our forecast
+period. Statistically, this period represents around 10% of the number of
+observations and discounting the degrees of freedom, we are able to represent
+25% of T À K where K is the number of parameters in the FAVAR model.
+For each model, we compute the forecast error. The forecasts are dynamic, so
+that we update T þ 1 in each month. We selected the model that minimizes the Root
+Mean Square Error (RMSE).15 Furthermore, we focus on the models that give a
+forecast error lower than a threshold. This threshold is determined directly using
+Eickmeier et al. (2014) as a reference. In their work they predict several
+macroeconomic variables using FAVAR models, FAVAR-tv, FAVAR-tv with
+stochastic volatility errors and univariate models. For one and two step ahead,
+forecasting the US GDP, the RMSE values in in-sample forecasts are 0.76 and 0.80
+considering all periods for h ¼ 1 and h ¼ 2; respectively. However, we select a
+threshold of 0.5 to obtain more accurate forecasts. Note that, if we predict D ln xt for
+the ﬁrst step ahead, the forecast error is eTþ1 ¼ ðln xTþ1 À ln xT ÞÀ
+ðln xfTþ1 À ln xT Þ ¼ ln xTþ1 À ln xfTþ1 , i.e., it is equivalent to forecasting the level
+of the ﬁrst step ahead. Therefore, we focus on the levels of the IGAE.
+5.4 Using common trends to predict Mexican economic activity
+First, in order to descriptively evaluate the predictive capacity of each variable, we
+calculate the cross-correlation between yitÀh and xt and consequently:
+qÃ ¼ corrðyitÀh ; xt Þjfmaxðh
+h
+
+12 : ProbðcorrðyitÀh ; xt ÞÞ\aÞg;
+
+where a ¼ 0:05. Figure 4 plots the results of the previous equation. Note that the top
+panel plots the qÃ with the conﬁdence interval. The middle panel shows their
+h
+corresponding maximum signiﬁcant lag, maxðh 12 : ProbðcorrðyitÀh ; xt ÞÞ\aÞ and
+bottom panel presents the mean absolute correlations for each block of variables.
+Note that the block of variables most highly correlated with the future of xt is the
+miscellaneous one. It is interesting to note that all signiﬁcant variables of this block
+are positively correlated with the IGAE. Other interesting variable blocks are the
+economic activity and ﬁnancial groups. On the other hand, the blocks least correlated with the future of xt are consumer conﬁdence, employment, and prices.
+15
+
+As we have mentioned in the introduction, the goal of this paper is to forecast Mexican economic
+activity. To this end, we have two measures: quarterly, GDP; and monthly, IGAE. In an early analysis, we
+prove that IGAE is perfectly correlated with GDP. In this case, given the monthly frequency data, it is
+
+−0.5
+
+−1.0
+
+12
+
+10
+
+ρ
+
+lag
+
+8
+
+6
+
+4
+
+2
+
+0
+
+0.2
+
+0.4
+ρ
+
+International
+Investment
+
+Economic activity
+Employment
+
+0.6
+
+Industrial
+
+Consumption
+
+0.8
+
+Balance of trade
+
+Prices
+
+Miscellaneous
+
+1.0
+
+Fig. 4 The top panel plots the qÃ with the conﬁdence interval. The middle panel shows their corresponding maximum signiﬁcant lag, maxðh
+h
+ProbðcorrðyitÀh ; xt ÞÞ\0:05Þ; and the bottom panel presents the mean absolute correlations for each block of variables
+
+0.0
+
+Financial
+
+Consumer confidence
+
+12 :
+
+Lat Am Econ Rev (2017) 26:7
+common factors shows that the elements of Yt are cointegrated; hence, it is
+reasonable to expect that the correlations between yit and xt are not spurious.
+Once the models are estimated, we review the forecast errors lower than the
+threshold in the training sample. Figure 5 plots the historical behavior of the RMSE
+for the selected predictive models. The top panel plots the RMSE for h ¼ 1. Note
+that the PC gives slightly more accurate results than PLS. Furthermore, the
+dispersion of the RMSE for PLS is larger than PLS and neither approach presents
+outliers. The bottom panel shows the results for h ¼ 2. We can see that for both
+procedures, the forecast errors are slightly increased with respect to h ¼ 1. It is
+interesting to mention that for both h the tails from both procedures are intercepted.
+This graph is important because this behavior is expected for the following two
+predicted months.
+Using the models from Fig. 5 we predict two steps ahead: May and June 2016.
+Note that we have n models, such that it is necessary to combine the forecasts. Thus
+we propose a weighted average, obtaining loadings similar to the PLS procedure by
+solving the following optimization problem:
+q1 ¼ max corðX f w; xbÞ
+w;b
+
+subject to
+
+VarðX f wÞ ¼ VarðxbÞ ¼ 1;
+
+where w ¼ ðw1 ; . . .; wn Þ. In order to normalize the loading weights, we carry out the
+P
+following scaling: wÃ ¼ nð n wi ÞÀ1 w, such that the loading weights are between
+i¼1
+0 and 1. Figure 6 shows the forecast density, the predictions, and the observed data.
+We plot the conﬁdence interval to 95%. Note that for h ¼ 1, PLS is more accurate
+than PC, while for h ¼ 2, PLS is less accurate. The models are centered on the mean
+of the distribution. Moreover, the forecast density acquires the observed data.
+Furthermore, focusing on h ¼ 2, the distribution of PC has two modes and the
+predicted data tend towards the center of the distribution. On the other hand, for
+PLS, it tends towards the median of the distribution.
+An interesting question is: which common trends are helpful to reduce forecast
+error? To this end, we compute the following coefﬁcients through OLS:
+oet jDti ¼ 1\0
+
+and Probðoet jDti ¼ 1Þ\0:10
+
+for i ¼ 1; . . .; Nm ;
+
+where Nm is the number of models for each procedure. In other words, we carry out
+a linear regression between the forecast errors according to each procedure and
+dummy variables that specify the combination of common trends F1t , F2t , F3t , F4t ;
+and F5t for both procedures. Figure 7 plots the result for each procedure in each h.
+We can see that, in PC, F1t is a very important common factor to reduce the forecast
+error for h ¼ 1, whereas F1t , F2t , F4t ; and F5t are important for h ¼ 2. Furthermore,
+in the PLS approach F1t , F2t , F4t ; and F5t are relevant common factors for h ¼ 1
+whereas F1t ; and F2t are for h ¼ 2. In fact, for both procedures the interaction of all
+common factors is important to reduce the forecast errors. This result completes the
+conclusions when we analyze Figs. 1 and 4, where all common factors are helpful to
+reduce the forecast errors.
+In order to evaluate the forecast accuracy in ‘‘real time,’’ we predict two steps ahead
+
+0.6
+
+0.5
+
+0.4
+
+0.2
+
+0.3
+
+PC
+
+Model
+
+Lat Am Econ Rev (2017) 26:7
+
+PLS
+
+0.7
+
+0.6
+
+0.5
+
+0.4
+
+0.2
+
+0.3
+
+PC
+
+Model
+
+RMSE
+
+RMSE
+
+Fig. 5 Box plots for the RMSE of out-sample forecasts for the selected models. The top panel is h ¼ 1
+and the bottom panel h ¼ 2. The blue color refers to PC and the red color to PLS (color ﬁgure online)
+Forecasts density PLS h = 1
+0.4
+
+|
+
+0.2
+
+Density
+
+0.8
+0.4
+
+Density
+
+1.2
+
+Forecasts density PC h = 1
+
+|
+
+0.0
+
+0.0
+
+|
+
+115.5
+
+116.0
+
+116.5
+
+117.0
+
+117.5
+
+114
+
+115
+
+116
+
+117
+
+118
+
+IGAE Bandwidth = 0.3622
+
+Forecasts density PC h = 2
+
+Forecasts density PLS h = 2
+
+|
+
+0.0
+
+0.2
+
+Density
+
+0.2
+
+|
+|
+
+|
+
+0.0
+
+Density
+
+0.4
+
+0.4
+
+IGAE Bandwidth = 0.1839
+
+115
+
+116
+
+117
+
+118
+
+IGAE Bandwidth = 0.4599
+
+119
+
+120
+
+115
+
+116
+
+117
+
+118
+
+119
+
+120
+
+IGAE Bandwidth = 0.4698
+
+Fig. 6 Forecast densities, forecast points (red color), and observed data (blue color) (color ﬁgure online)
+
+(i) PC, (ii) PC using only factors that contribute to reducing the forecast error denoted
+as PC (2), (iii) PLS, (iv) PLS (2), (v) the average between the ﬁrst and third models, and
+(vi) the average between the second and fourth models. We can see that for h ¼ 1 PLS,
+PLS (2) and the forecast average of PC and PLS are the most accurate model with 0
+forecast error for May 2016. For h ¼ 1, PC gives a forecast error of 0.1 in June 2016. In
+conclusion, and with reference to Fig. 5, the results are as expected given that PC and
+PLS give forecast errors lower than the selected threshold.
+It is interesting to mention the historical behavior of the models. Hence, we ﬁrst
+analyze the RMSE of the benchmark models: the Autoregressive Integrated Moving
+Average (ARIMA) and the macroeconomic diffusion index (Stock and Watson
+F2
+F2 F 3
+F2F3F4
+F3
+F3F4F5
+F3F4
+F2F4
+F2F5
+F2F3F5
+F1
+F 3 F5
+F2F3F4F5
+F1F2
+F2F4F5
+F5
+F1F3
+F1F4
+F1F2F5
+F1F3F4
+F4
+F1F4F5
+F1F3F4F5
+
+0.0000
+
+F 2 F4
+F2
+F4
+F2F4F5
+F 1 F4
+F5
+F2F5
+F4F5
+F1F2F4
+F3F4
+F1F4F5
+F2F3F4
+F2F3
+F1F2
+F1
+F1F3F4
+F1F5
+F1F2F4F5
+F3F4F5
+F2F3F5
+F2F3F4F5
+F1F2F5
+F1F2F3F4
+F1F2F3
+F1F3F4F5
+F3
+F3F5
+
+0.0015
+
+0.000 0.002 0.004
+
+0.0030
+
+Pc h = 1
+
+PLS h = 2
+
+F1F4F5
+
+F1F2F4
+
+F1F2F3F4
+
+F2
+
+F2F3
+
+F1F2F5
+
+F1F2F3
+
+F1F2
+
+F1F3F4
+
+F1F3
+
+F1
+
+F1F4
+
+0.0000
+
+F1F4
+F1F2F4
+F1F2
+F1F4F5
+F1
+F2F4
+F2
+F4
+F1F5
+F1F3F4
+F1F2F4F5
+F1F2F5
+F2F4F5
+F1F2F3F4
+F4F5
+F1F2F3
+F2F5
+F3F4
+F5
+
+0.000
+
+0.002
+
+0.0015
+
+0.004
+
+Pc h = 2
+
+Fig. 7 Effects of variables on forecast errors: oet jDti ¼ 1\0 and Probðoet jDti ¼ 1Þ\0:10. The blue
+color refers to PC and the red color to PLS (color ﬁgure online)
+
+0.6
+0.4
+0.0
+
+0.2
+
+Forecast error
+
+0.8
+
+1.0
+
+Forecast error of Δlnxt+h
+PC
+PC 2
+PLS
+PLS 2
+AVERAGE
+AVERAGE 2
+
+May 2016 (h = 1)
+
+Jun 2016 (h = 2)
+
+Fig. 8 Observed forecast error for May 2016 (h ¼ 1) and June 2016 (h ¼ 2). PC (blue color), PC 2 (deep
+blue color), PLS (red color), PC 2 (deep red color), average of forecasts (gray color), and average 2 of
+forecasts (black color). The number 2 indicates that the models only considered the variables that satisfy
+oet jDti ¼ 1\0 and Probðoet jDti ¼ 1Þ\0:10 (color ﬁgure online)
+
+that the RMSE interval is between 0.82 and 1.07 for the ARIMA model, while for the
+macroeconomic diffusion index it is between 0.62 and 0.83. For h ¼ 2 the errors are
+slightly reduced in both cases; however, the macroeconomic diffusion index has better
+results. Hence, note that the inclusion of the factor in linear models reduces the forecast
+error. Then, we would expect the FAVAR models to show a small RMSE.16
+16
+Alternatively, we can consider RMSE in terms of benchmark models like several authors. However,
+we decide to use the RMSE to easily verify whether the FAVAR models give RMSEs lower than the
+
+Mar 16
+
+Jan 16
+Dic 15
+
+1.5
+
+Nov 15
+
+1.0
+
+Oct 15
+
+Sep 15
+
+Aug 15
+
+Jun 15
+
+0.0
+
+May 15
+
+Jan 16
+
+2.0
+
+Aug 15
+
+1.0
+
+Jun 15
+
+0.5
+
+Forecast error
+
+Model
+
+2.0
+
+1.0
+
+0.0
+
+MDI
+
+ARIMA
+
+Forecast error
+Model
+
+0.8
+0.4
+0.0
+MDI
+ARIMA
+
+2.5
+
+Mar 16
+
+Feb 16
+
+Dic 15
+
+1.5
+
+Nov 15
+
+Oct 15
+
+Sep 15
+
+Jul 15
+
+May 15
+
+0.0
+
+Apr 15
+
+Fig. 9 Forecast Errors for benchmark models: April 2015–2016. ARIMA (red color) and Macroeconomic diffusion index (blue color). The top left panel plots h ¼ 1 and
+the bottom right panel plots h ¼ 2 (color ﬁgure online)
+
+0.5
+
+ARIMA (h = 2) (0.7,0.82,0.93)
+MDI (h = 2) (0.51,0.6,0.7)
+
+Feb 16
+
+2.0
+
+ARIMA (h = 1) (0.82,0.94,1.07)
+MDI (h = 1) (0.62,0.73,0.83)
+
+Lat Am Econ Rev (2017) 26:7
+considering the approach presented in this work. Note that the RMSE interval of
+PC for h ¼ 1 is between 0.27 and 0.67 and for h ¼ 2 between 0.29 and 0.59. The
+RMSE mean values are 0.47 and 0.44 for each h, respectively. Note that in both h,
+February 2016 is the outlier forecast error. On the other hand, for PLS and h ¼ 1,
+the forecast errors are between 0.34 and 0.60 and for h ¼ 2, the conﬁdence interval
+is between 0.3 and 0.64. In this case, the mean of RMSE is 0.47 for each h,
+respectively. Note that the improvement with respect to the ARIMA model and
+macroeconomic diffusion index is relevant, above all when the factors are estimated
+using PC. Note that the forecast errors are very similar between PC and PLS.
+A question of interest is: are the models consistent through the training sample?
+We can obtain different models in each step ahead, in which case the consistency of
+the predictors may be questionable. Taking into account only the selected models,
+we can observe in Fig. 11 that all models are robust in h ¼ 1. In fact, 76% of the
+models are within the threshold and for h ¼ 2, the behavior of the predictions is
+similar to May 2016. Note that the predictions for May and June 2016 are carried
+out with information up to April 2016. Hence, we present the forecast in h ¼ 1 for
+May 2016 and h ¼ 2 for June 2016. The model is not updated as in the previous
+forecasts. It is interesting to note that February 2016 was the most complicated
+month to predict; however, the robustness of the selected models is reasonable. The
+reason why February 2016 was a complicated month to predict can be explained by
+the fact that this month has 29 days, and the seasonal variables and the dynamics
+between the variables do not account for this effect.
+
+6 Conclusions and further research
+In this paper we estimated the common trends of the Mexican economy using a large
+dataset of macroeconomic variables. Using cointegration concepts, we estimated the
+common trends using I(1) variables through PC, determining the number of common
+factors according to the Onatski (2010) and the Ahn and Horenstein (2013)
+procedures. Alternatively, we estimated the common factors using PLS.
+We ﬁnd that 211 macroeconomic and ﬁnancial variables can be summarized in at
+^
+most r ¼ 5 common trends, which are cointegrated with Mexican economic
+activity. Furthermore, we use the common trends in a FAVAR model with the aim
+of predicting Mexican economic activity. We statistically evaluate the predictive
+capacity of the common trends, where we can see that each common factor reduces
+the forecast error. Additionally, we observe that the forecast error is reduced with
+respect to the ARIMA and factor-augmented regressions, such that the common
+trends are useful to predict Mexican economic activity.
+An important conclusion is that the macroeconomic common trends can be used
+in more sophisticated models in order to reduce the forecast errors. Additionally,
+note that in this study we used data in levels in order to estimate the common
+factors. This is empirical evidence on the use of DFMs when we do not transform
+
+Mar 16
+
+Feb 16
+Jan 16
+
+Nov 15
+
+Oct 15
+
+0.6
+
+Sep 15
+
+Aug 15
+
+0.4
+
+Jul 15
+
+Jun 15
+
+Feb 16
+
+1.0
+
+Nov 15
+
+0.8
+
+Sep 15
+
+0.6
+
+Jul 15
+
+0.4
+
+Apr 15
+
+0.2
+
+Forecast error
+
+Model
+
+0.8
+
+0.4
+
+0.0
+
+PLS
+
+PC
+
+Forecast error
+Model
+
+0.8
+0.4
+0.0
+PLS
+PC
+
+Mar 16
+
+Jan 16
+
+Dic 15
+
+Oct 15
+
+Aug 15
+
+Jun 15
+
+May 15
+
+Fig. 10 Forecast Errors for FAVAR models: April 2015–2016. PC (red color) and PLS (blue color). The top left panel plots h ¼ 1 and the bottom right panel plots h ¼ 2
+(color ﬁgure online)
+
+0.2
+
+PC (h = 2) (0.29,0.44,0.59)
+PLS (h = 2) (0.3,0.47,0.64)
+
+Dic 15
+
+0.8
+
+PC (h = 1) (0.27,0.47,0.67)
+PLS (h = 1) (0.34,0.47,0.6)
+
+Lat Am Econ Rev (2017) 26:7
+
+Mar 16
+
+Apr 16
+
+May 16
+
+Mar 16
+
+Apr 16
+
+May 16
+
+Jun 16
+
+Jan 16
+
+Dic 15
+
+Nov 15
+
+Oct 15
+
+Sep 15
+
+Aug 15
+
+Jul 15
+
+Jun 15
+
+May 15
+
+Apr 15
+
+Selected model
+
+Robustness of the selected models h = 1
+
+Feb 16
+
+Jan 16
+
+Dic 15
+
+Nov 15
+
+Oct 15
+
+Sep 15
+
+Aug 15
+
+Jul 15
+
+Jun 15
+
+May 15
+
+Selected model
+
+Robustness of the selected models h = 2
+
+Fig. 11 Robustness of selected models. Red points indicate that the model satisﬁes the empirical
+threshold in the speciﬁc forecast month. A red cross indicates that there is no information to compute the
+statistic (color ﬁgure online)
+
+Economically, the more relevant groups of variables in the determination of the
+common trends are the miscellaneous group, the economic activity, balance of
+trade, and the industrial sector. The ﬁrst group of variables basically comprises
+tourism information and variables related to the automotive industry. In this context,
+the behaviors of the external sector and internal demand are very important to
+predict the behavior of the global economy. It is reasonable to expect that external
+uncertainty and disincentives in the internal market can be dangerous for future
+economic growth. In other words, these groups of variables indicate the future
+movements of Mexican economic activity.
+A future line of research is to use the common trends in factor error correction
+models (FECM), and FAVAR with time-varying coefﬁcients, among many other
+models, combining the predictions with different combinations of forecasting
+methods. Furthermore, we consider a unit root test that takes into account the
+structural break that occurred between 2008 and 2009 in order to reﬁne the procedure
+to select I(1) variables. Consequently, it is interesting to study the non-stationarity of
+the estimated common factors in the presence of breaks. Additionally, we will take into
+account the possibility of sparse cointegration for forecasting proposes.
+Acknowledgements Partial ﬁnancial support from the CONACYT CB-2015-01-252996 is gratefully
+acknowledged.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the
+#
+
+Short
+
+Long
+
+Block
+
+Log
+
+SA
+
+T
+
+1
+
+EXP TOT
+
+Total absolute value exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+2
+
+EXP PET
+TOT
+
+Oil exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+3
+
+EXP PET
+CRU
+
+Crude oil exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+4
+
+EXP PET
+OTR
+
+Other oil exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+5
+
+EXP NO PET
+
+Non-oil exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+6
+
+EXP NO PET
+AGR
+
+Farming exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+7
+
+EXP NO PET
+EXTRAC
+
+Extractive exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+8
+
+EXP MAN
+AUT
+
+Automotive exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+9
+
+EXP NO
+MAN RES
+
+Manufacture exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+10
+
+IMP TOT
+PET
+
+Total oil imports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+11
+
+IMP CON
+TOT
+
+Consumption goods imports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+12
+
+IMP CON
+PET
+
+Consumption goods oil imports
+
+Balance of
+trade
+
+Yes
+
+No
+
+1
+
+13
+
+IMP CON
+NO PET
+
+Consumption goods non-oil imports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+14
+
+IMP INT PET
+
+Intermediate goods oil imports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+15
+
+IMP BK
+
+Capital goods imports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+16
+
+REM TOT
+
+Total remittances
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+17
+
+REM MO
+
+Money orders remittances
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+18
+
+REM TRANS
+ELECT
+
+Electronic transfers remittances
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+19
+
+REM EFEC
+
+Cash and in-kind remittances
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+20
+
+I CONF
+
+Consumer conﬁdence index
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+21
+
+I CONF
+COMP
+HOG 12
+
+Index: compared to this household’s economic
+situation 12 months ago, how do you think
+your situation is at the moment?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+22
+
+I CONF FUT
+COMP PAI
+12
+
+Index: how do you foresee this household’s
+economic situation in 12 months’ time,
+compared to the current situation?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+#
+
+Short
+
+Long
+
+Block
+
+Log
+
+SA
+
+T
+
+23
+
+I CONF
+COMP PAI
+12
+
+Index: how do you consider the country’s
+economic situation today compared to
+12 months ago?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+24
+
+I CONF FUT
+COMP PAI
+12
+
+Index: how do you foresee the country’s
+economic situation in 12 months’ time?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+25
+
+I CONF POS
+FUT
+
+Index: comparing the current economic
+situation with that of a year ago, how do you
+consider at the present moment the
+possibilities that you or any of the members
+of this household
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+26
+
+I CONF B
+
+Consumer conﬁdence index (balance)
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+2
+
+27
+
+COMP 12 B
+
+Other complementary index: how would you
+describe your economic situation compared
+to 12 months ago?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+28
+
+FUT 12 B
+
+Other complementary index: and how do you
+think your economic situation will be in
+12 months, compared to the current
+situation?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+29
+
+POSI 12
+
+Other complementary index: at this moment,
+are you more able to buy clothes, shoes, food,
+etc., than a year ago?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+30
+
+POSI 12
+VAC
+
+Other complementary index: do you consider
+that during the next 12 months you or any of
+the members of this household will afford to
+go on vacation?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+31
+
+POS AHO
+
+Other complementary index: are you currently
+able to save some of your income?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+32
+
+COMP C 12
+
+Other complementary index: how do you
+foresee your economic conditions to save in
+12 months’ time compared to current
+conditions?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+33
+
+COMP PRE
+
+Other complementary index: compared with
+the previous 12 months, how do you think
+prices will behave in the country in the next
+12 months?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+34
+
+COMP 12
+EMP
+
+Other complementary index: do you think that
+employment in the country in the next
+12 months is going to increase, remain the
+same, or decrease?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+35
+
+AUT 12
+
+Other supplemental index: are any members of
+this household or you planning to buy a new
+or used car in the next 2 years?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+36
+
+PLA AUT 2
+
+Other complementary index: are any members
+of this household or you planning to buy,
+build or remodel a home in the next 2 years?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+#
+
+Short
+
+Long
+
+Block
+
+Log
+
+SA
+
+T
+
+37
+
+PLA CONST
+2
+
+Other complementary index: (balance)
+compared with the previous 12 months, how
+do you think prices will behave in the country
+in the next 12 months?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+38
+
+IVF
+
+Physical volume index total
+
+Consumption
+
+Yes
+
+Yes
+
+2
+
+39
+
+IVFBST
+
+IVF goods and services of national origin total
+
+Consumption
+
+Yes
+
+Yes
+
+2
+
+40
+
+IVFB
+
+IVF goods and services of national origin
+goods
+
+Consumption
+
+Yes
+
+Yes
+
+1
+
+41
+
+IVFS
+
+IVF goods and services of national origin
+services
+
+Consumption
+
+Yes
+
+Yes
+
+2
+
+42
+
+IVFBI
+
+IVF imported goods
+
+Consumption
+
+Yes
+
+Yes
+
+1
+
+43
+
+IVFAT
+
+IVF total accumulative
+
+Consumption
+
+Yes
+
+Yes
+
+1
+
+44
+
+IVFNB
+
+IVFAT goods and services of national origin
+goods
+
+Consumption
+
+Yes
+
+Yes
+
+1
+
+45
+
+IVFNS
+
+IVFAT goods and services of national origin
+services
+
+Consumption
+
+Yes
+
+Yes
+
+2
+
+46
+
+IVFBIMP
+
+IVFAT imported goods
+
+Consumption
+
+Yes
+
+Yes
+
+1
+
+47
+
+IGAE A 1
+
+IGAE primary activities
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+48
+
+IGAE A 2
+
+IGAE secondary activities total
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+49
+
+IGAE A 21
+
+IGAE secondary activities 21 mining
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+50
+
+IGAE A 22
+
+IGAE secondary activities 22
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+51
+
+IGAE A
+31–33
+
+IGAE secondary activities 31–33
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+52
+
+IGAE A 3
+
+IGAE tertiary activities total
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+53
+
+IGAE A
+43–46
+
+IGAE tertiary activities 43–46 trade
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+54
+
+IGAE A 48
+49 51
+
+IGAE tertiary activities 48–49–51. Transport,
+mail, and storage; mass media information
+
+Economic
+activity
+
+Yes
+
+Yes
+
+2
+
+55
+
+IGAE A
+52–53
+
+IGAE tertiary activities 52–53 ﬁnancial and
+insurance services; real estate and rental
+services of movable and intangible goods
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+56
+
+IGAE A
+54–56
+
+IGAE tertiary activities 54–55–56 professional,
+scientiﬁc and technical services; corporate;
+business support services and waste
+management and remediation services
+
+Economic
+activity
+
+Yes
+
+Yes
+
+2
+
+57
+
+IGAE A
+61–62
+
+IGAE tertiary activities 61–62 educational
+services; health and social work services
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+58
+
+IGAE A
+71–81
+
+IGAE tertiary activities 71–81 cultural and
+sporting recreation services, and other
+recreational services; other services except
+government activities
+
+Economic
+activity
+
+Yes
+
+Yes
+
+#
+
+Short
+
+Long
+
+Block
+
+Log
+
+SA
+
+T
+
+59
+
+IGAE 72
+
+IGAE tertiary activities 72 temporary
+accommodation and food and beverage
+preparation services
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+60
+
+PEO
+
+Economically active population: occupied
+population
+
+Employment
+
+Yes
+
+Yes
+
+1
+
+61
+
+PED
+
+Economically active population: unemployed
+population
+
+Employment
+
+Yes
+
+Yes
+
+1
+
+62
+
+PO S AGR
+
+Occupied population by agriculture economic
+activity sector
+
+Employment
+
+Yes
+
+Yes
+
+1
+
+63
+
+PO CONS
+
+Occupied population by construction economic
+activity sector
+
+Employment
+
+Yes
+
+Yes
+
+1
+
+64
+
+PO MAN
+
+Occupied population by manufacturing
+industry economic activity sector
+
+Employment
+
+Yes
+
+Yes
+
+1
+
+65
+
+TIIE
+
+Interbank interest rates, bank collection costs,
+and CETES performance Interbank interest
+rate (TIIE)
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+66
+
+CETES
+
+Interbank interest rates, bank funding costs,
+and CETES performance cost of time
+deposits of liabilities denominated in US
+dollars (CCP-dollars)
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+67
+
+TC
+
+Exchange rate of peso against dollar and UDIS
+value Interbank (sale)
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+68
+
+I TC R
+
+Mexican peso real exchange rate index
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+69
+
+I TC R VAR
+
+Mexican peso real exchange rate index annual
+change
+
+Financial
+
+No
+
+No
+
+1
+
+70
+
+IPCBMV
+
+Index of prices and quotes of the Mexican
+stock exchange maximum
+
+Financial
+
+Yes
+
+No
+
+1
+
+71
+
+TIIL
+
+International interest rates: Libor rate
+
+Financial
+
+Yes
+
+No
+
+1
+
+72
+
+M1
+
+M1 money and coins held by the public
+
+Financial
+
+Yes
+
+Yes
+
+2
+
+73
+
+M1 CB
+
+M1 foreign currency checking accounts at
+resident banks
+
+Financial
+
+Yes
+
+Yes
+
+2
+
+74
+
+M1 DAP
+
+M1 demand deposits of savings and loan
+companies
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+75
+
+M2 CIRT
+
+Internal funding of resident banks total
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+76
+
+M2 CIBR
+
+Domestic funding from resident banks
+
+Financial
+
+Yes
+
+No
+
+1
+
+77
+
+M2 CIBR ME
+
+Internal collection of resident banks in foreign
+currency
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+78
+
+M2 VP GF
+
+Securities issued by the Federal Government
+total
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+79
+
+IPAB
+
+IPAB total
+
+Financial
+
+Lat Am Econ Rev (2017) 26:7
+https://doi.org/10.1007/s40503-017-0044-7
+
+A dynamic factor model for the Mexican economy: are
+common trends useful when predicting economic
+activity?
+Francisco Corona1
+Pedro Orraca3
+
+•
+
+´
+´
+Graciela Gonzalez-Farıas2
+
+•
+
+Received: 26 January 2017 / Revised: 6 August 2017 / Accepted: 30 August 2017 /
+Published online: 15 September 2017
+Ó The Author(s) 2017. This article is an open access publication
+
+Abstract In this paper we propose to use the common trends of the Mexican
+economy in order to predict economic activity one and two steps ahead. We exploit
+the cointegration properties of the macroeconomic time series, such that, when the
+series are I(1) and cointegrated, there is a factor representation, where the common
+factors are the common trends of the macroeconomic variables. Thus, we estimate a
+large non-stationary dynamic factor model using principal components (PC) as
+suggested by Bai (J Econom 122(1):137–183, 2004), where the estimated common
+factors are used in a factor-augmented vector autoregressive model to forecast the
+Global Index of Economic Activity. Additionally, we estimate the common trends
+through partial least squares. The results indicate that the common trends are useful
+to predict Mexican economic activity, and reduce the forecast error with respect to
+benchmark models, mainly when estimated using PC.
+Keywords Dynamic factor models Á Common trends Á Factor-augmented
+vector autoregressive model Á Partial least squares Á Forecast error
+
+& Francisco Corona
+fcorona@est-econ.uc3m.es
+´
+´
+Graciela Gonzalez-Farıas
+farias@cimat.mx
+Pedro Orraca
+porraca@colef.mx
+1
+
+´
+Departmento de Estadıstica, Universidad Carlos III de Madrid, Calle Madrid, 126,
+28903 Getafe, Madrid, Spain
+
+2
+
+´
+´
+Centro de Investigacion en Matematicas, A.C., Jaliso s-n, Mineral de Valenciana,
+36240 Guanajuato, Guanajuato, Mexico
+
+3
+
+´
+´
+Departamento de Estudios Economicos, El Colegio de la Frontera Norte, Carretera Escenica
+
+1 Introduction
+In recent years, due to the availability of data on a vast number of correlated
+macroeconomic and ﬁnancial variables collected regularly by statistical agencies,
+there has been an increasing interest in modeling large systems of economic time
+series. Therefore, econometricians have to deal with datasets consisting of hundreds
+of series, thus making the use of large dimensional dynamic factor models (DFMs)
+more attractive than the usual vector autoregressive (VAR) models, which usually
+limit the number of variables; see Boivin and Ng (2006). DFMs were introduced by
+Geweke (1977) and Sargent and Sims (1977) with the aim of representing the
+dynamics of large systems of time series through a small number of hidden common
+factors, and are mainly used for one of the following two objectives: ﬁrst,
+forecasting macroeconomic variables and second, estimating the underlying factor
+in order to carry out policy-making (e.g., the business cycle; lagging, coincident,
+and leading indicators; or impulse-response functions, among other aspects).
+Another interesting application is to use the common factors as instrumental
+variables or exogenous regressors in panel data analysis. See Bai and Ng (2008),
+Stock and Watson (2011), and Breitung and Choi (2013) for a review of existing
+literature and applications of DFMs.
+Note that macroeconomic time series are generally non-stationary and frequently
+cointegrated; see, for example, Kunst and Neusser (1997). On the other hand, a
+cointegrated system can be expressed in terms of a factor representation; see Stock
+and Watson (1988), Vahid and Engle (1993), Gonzalo and Granger (1995).
+Furthermore, these authors show that the common factor representation implies that
+the variables of the system are cointegrated if the common factors are I(1) and the
+individual effects are I(0). However, in practice, the cointegration results are not
+frequently used to predict macroeconomic variables, given that we differentiate
+each element of the factor representation individually.
+Empirically, it is interesting to determine the number of common factors of the
+economy, given that we can summarize a large number of macroeconomic variables
+in few common trends.1 Furthermore, by estimating the common factors we can
+observe the orthogonal dynamics of the economy, which is very important for
+macroeconomic policy. These common factors, for example, may be related to
+speciﬁc groups of variables, and it is interesting to analyze mechanisms of
+transmission to other groups of variables. Additionally, we can estimate the
+conﬁdence intervals for the loading weights, common factors, and common
+components, which allow us to carry out statistical inference in order to better
+understand economic phenomena.
+The stochastic common trends represent the long-run behavior of the variables.
+Previous studies related to this paper are Duy and Thoma (1998), who evaluate the
+1
+
+The common factors are equivalent to the common trends when we assume a static representation in the
+factor model. Barigozzi et al. (2016) develop the econometric theory for non-stationary DFMs with large
+(2008), who examine the use of the factor-augmented vector autoregressive (FAVAR)
+in order to predict macroeconomic and ﬁnancial variables, focusing on the US
+economy. They conclude that on average, factor forecasts are slightly better than other
+models. Banerjee et al. (2014) incorporate the error correction term in FAVAR
+models, showing that their approach generally offers higher forecasting accuracy
+relative to the FAVAR. Also, Eickmeier et al. (2014) prove different speciﬁcations of
+FAVAR models, using time-varying coefﬁcients (tv) and stochastic volatility errors.
+The main conclusion is that the FAVAR models, regardless of the speciﬁcation,
+outperform univariate models on in-sample forecasts. When they evaluate the outsample performance, there is no improvement with respect to the benchmark model.
+More recently, Hindrayanto et al. (2016) study the forecasting performance of a four
+factor model approach for large datasets. They conclude that a collapsed DFM is the
+most accurate model. Finally, Wilms and Croux (2016) propose a sparse cointegration
+method for a large set of variables by setting some coefﬁcients in the cointegration
+relationship at exactly zero. They conclude that their method leads to signiﬁcant
+forecast accuracy with respect to the method proposed by Johansen (1988, 1991).
+Other samples of reference are Stock and Watson (2002a, b), Marcellino et al. (2003),
+˜
+Pena and Poncela (2004), Reijer (2005), Schumacher (2007), Giannone et al. (2008),
+Eickmeier et al. (2014), Lahiri et al. (2015), and Panopoulou and Vrontos (2015), who
+show that DFMs are useful in order to reduce the forecast errors with respect to the
+traditional models, as autoregressive approaches and linear regressions with
+macroeconomic diffusion indexes.2 It is important to comment that, in a similar
+¨
+way as we have proposed in this study but in a stationary framework, Brauning and
+Koopman (2014) propose to use collapsed dynamic factor analysis in order to predict
+target variables of the economy, exploiting the state-space representation between the
+target variables and the common factors. They conclude that the forecast accuracy is
+improved with respect to benchmark models.
+However, most empirical applications have been carried out for the US or Euro
+economies. Therefore, we propose a FAVAR model to predict Mexican economic
+activity using concepts of cointegration such that we forecast I(1) time series where
+the estimated common factors are the common trends of the economy. We readily
+exploit the long-run relationship between the common factors and the speciﬁc
+variable that we wish to predict.3
+We contribute to the literature in two ways: (1) empirically in determining the
+number of common trends of the Mexican economy and (2) the use of the common
+trends in order to predict economic activity. This is an advantage with respect to
+2
+
+Certainly, macroeconomic diffusion indexes are related to DFMs. However, in this study we make a
+distinction between multivariate predictive approaches and the classic diffusion index forecasts given by
+Stock and Watson (2002b). Furthermore, we focus on a DFM from a static point of view. Once the
+common factors are estimated and their non-stationarity disentangled, we use the factors in the proposed
+FAVAR representation.
+
+3
+
+A related study is Caruso (2015), who examines the ﬂow of conjunctural data relevant to assess the
+state of Mexico’s economy. Speciﬁcally, the author exploits the information embedded in macroeconomic
+news from both Mexico and the US, in a model constructed to nowcast Mexican real Gross Domestic
+straightforward to implement computationally. Furthermore, we also direct our
+attention to the predictive capacity of macroeconomic variables and their common
+trends. In this way, we use the traditional method of principal components (PC) and
+additionally, partial least squares (PLS).
+The rest of this paper is structured as follows. In Sect. 2, we summarize the
+historical behavior of the Mexican economy. In Sect. 3, we brieﬂy explain the DFM
+and the FAVAR representation. In Sect. 4, we describe the estimation methods
+used. In Sect. 5, we describe the data, present the cointegration results, their
+descriptive predictive features, the empirical strategy to obtain small forecast errors,
+and the results obtained. Finally, we conclude in Sect. 6.
+
+2 The Mexican economy
+Mexico is one of the world’s leading emerging countries. According to data from
+the International Monetary Fund (IMF), it is the 11th largest economy and the
+largest emerging country outside the BRICs, i.e., Brazil, Russia, India, and China
+(Rodriguez-Pose and Villarreal 2015). In 2015, Mexico’s population ascended to
+119.9 million and its GDP per capita stood at 9005.0 US dollars (World Bank
+2016b).
+After a prolonged period of sustained economic growth, the country began
+decelerating in the late 1970s. Following a sovereign default, Mexico encountered a
+severe economic crisis from 1982 to 1985. Subsequently, the Mexican government
+put forward a series of market reforms that culminated with the implementation of
+the North American Free Trade Agreement in 1994. These reforms included the
+privatization of previously government-operated ﬁrms, ﬁscal reforms, and opening
+the country to trade and foreign direct investment (FDI), among other actions
+(Kehoe and Ruhl 2010). Mexico’s economic transformation was successful in
+reducing inﬂation, maintaining ﬁscal discipline, reducing its external debt burden,
+and increasing trade as a share of GDP (Hanson 2010). Nonetheless, this was not
+accompanied by high levels of economic growth, as between 1982 and 2015 the
+country’s GDP grew at an average annual rate of 2.3% (World Bank 2016a).
+Moreover, in recent decades the Mexican economy has regressed on different
+fronts. In 1995, Mexico was responsible for 7.0% of trade among economies
+classiﬁed by the IMF as emerging and developing, behind China at 12.7%. By 2008,
+China’s share was still the largest and totaled 22.3%, while Mexico dropped to third
+at 5.4%, behind Russia. Additionally, in 1995, China was the largest recipient of
+FDI to emerging and developing economies, accounting for 33.4%, while Mexico
+was second, receiving 8.5%. By 2008, Mexico’s position had weakened considerably, falling to seventh at 3.2% (Kehoe and Ruhl 2010). Factors, such as rigidities
+in the labor market, an inefﬁcient ﬁnancial sector, and a lack of contract
+enforcement, have limited Mexico’s capacity to beneﬁt from its reforms and
+therefore hindered the country’s economic growth (Kehoe and Ruhl 2010).
+As an economy open to world markets, Mexico hosts many modern ﬁrms,
+this represents only a small part of the economy and is concentrated in a few regions
+of the country. Another segment of the economy is characterized by high levels of
+informality, low-skilled work, low productivity levels, and out-of-date technologies.
+Unregistered ﬁrms in the informal sector employ close to half of Mexico’s labor
+force, with workers that frequently lack access to a good education, reliable health
+care, and affordable ﬁnancial services, conditions that strongly hamper their
+accumulation of human capital. Lastly, a third segment of the economy is made up
+of companies that, for long periods, have been protected from competition,
+particularly dominant ﬁrms in the energy and telecommunications sectors
+(Dougherty 2015).
+During the global economic crisis of 2008–2009, Mexico’s GDP suffered a
+signiﬁcant contraction, which was accentuated by a reduction in the amount of
+remittances the country receives from migrant workers based in the US and the
+outbreak of inﬂuenza A(H1N1) throughout the country. Nevertheless, due to an
+upgraded macroeconomic policy framework and careful regulation of the ﬁnancial
+system, Mexico did not suffer the type of ﬁnancial and ﬁscal crises experienced in
+other countries (Schwellnus 2011).
+In the years following the global economic crisis, the Mexican economy was
+characterized by a persistent trend of increasing debt-to-GDP, which grew from
+29.0% in 2007 to 50.5% in 2016, and a signiﬁcant decline in the volume of oil
+production (World Bank 2016a). Output volatility in Mexico remained high, which
+can have high costs for individuals and for long-term growth. Furthermore, in
+Mexico, temporary disturbances in output are usually accompanied by temporary
+reductions in consumption, since a substantial share of the population is creditconstrained and the social safety net is generally weak. This is costly for individuals
+who prefer a smooth path of consumption and are averse to periods of
+unemployment or poverty (Schwellnus 2011).
+Finally, during the last decade, Mexico has implemented a more ambitious and
+wide-ranging innovation policy aimed at getting closer to the technological frontier
+and generating higher levels of economic growth (Rodriguez-Pose and Villarreal
+2015). By 2016, the expansion of economic activity was highly dependent on
+private consumption as low levels of investment and export demand were scarcely
+contributing to growth. In the medium term, economic and ﬁnancial stability and an
+increase in external competitiveness, derived from the depreciation of the country’s
+currency, are expected to boost private investment, exports, and hence economic
+growth (World Bank 2016b).
+In this context, it is very important to formulate an econometric approach in order
+to successfully predict Mexican economic activity, which takes into account a large
+number of macroeconomic and ﬁnancial variables associated with the behavior of
+the economy. Hence, we use a large non-stationary DFM in which the variables are
+summarized in the common trends of the Mexican economy. These common trends
+are used in a FAVAR representation, evaluating the out-sample forecast error one
+In this section we introduce notation and describe the non-stationary DFM and the
+FAVAR model in order to use the common trends to predict a speciﬁc
+macroeconomic variable.
+3.1 Non-stationary dynamic factor model
+Suppose that N large economic time series Yt ¼ ðy1t ; . . .; yNt Þ0 , observed from
+t ¼ 1; . . .; T, are I(1) and any two series yit and yjt are cointegrated, such that the
+idiosyncratic component et ¼ ðe1t ; . . .; eNt Þ0 is stationary. In this case, and following
+Stock and Watson (1988), there is a common factor representation as follows:
+Yt ¼ PFt þ et ;
+
+ð1Þ
+
+where P ¼ ðp01 ; . . .; p0N Þ0 is the N Â r (r\N) matrix of factor loadings, where pi ¼
+ðpi1 ; . . .; pir Þ and Ft ¼ ðF1t ; . . .; Frt Þ0 is the r Â 1 vector of common factors, or in this
+case, the common trends.
+Given that any two series of Yt are cointegrated in the sense of Engle and Granger
+(1987), the dynamic of the common factors and the idiosyncratic components are
+the following:
+Ft ¼ FtÀ1 þ gt
+
+ð2Þ
+
+et ¼ CðLÞetÀ1 þ at
+
+ð3Þ
+
+where the factor disturbances, gt ¼ ðg1t ; . . .; grt Þ0 , are r Â 1 vectors, distributed
+independently from the idiosyncratic noises for all leads and lags. Furthermore, gt
+and at are white noises with positive deﬁnite covariance matrices Rg and Ra ,
+respectively. Additionally, CðLÞ collected the N Â N matrices containing the
+autoregressive parameters of the idiosyncratic components where L is the lag
+operator such that Lk et ¼ etÀk . These autoregressive matrices satisfy the usual stationarity assumptions.
+The DFM in Eqs. (1)–(3) is not identiﬁed because for any r Â r non-singular
+matrix H, the system can be expressed in terms of a new loading matrix and a new
+set of common factors as follows:
+Yt ¼ PÃ FtÃ þ et
+
+ð4Þ
+
+Ã
+FtÃ ¼ FtÀ1 þ gÃ ;
+t
+
+ð5Þ
+
+where PÃ ¼ PH, FtÃ ¼ H À1 Ft , and gÃ ¼ H À1 gt . The DFM in Eqs. (4) and (5) is
+t
+observationally equivalent to that in Eqs. (1) and (2). A normalization is necessary
+to solve this identiﬁcation problem and uniquely deﬁne the factors. In the context of
+PC factor extraction, it is common to impose the restriction P0 P=N ¼ Ir and F 0 F
+being diagonal, where F ¼ ðF1 ; . . .; FT Þ0 is a T Â r matrix of common factors.
+Alternatively, we can set the restrictions F 0 F=T 2 ¼ Ir and P0 P being diagonal; see
+Bai and Ng (2008). On the other hand, when C 6¼ 0 and Ra is diagonal, there is
+serial correlation in the idiosyncratic noises and in this case the DFM is called exact;
+see Stock and Watson (2011). Chamberlain and Rothschild (1983) introduce the
+term approximate model when the idiosyncratic term does not need to have a
+diagonal covariance matrix. Forni et al. (2000) and Stock and Watson (2002a)
+generalize the approximate model, allowing for weak serial and cross-correlation.
+Furthermore, Bai and Ng (2002) and Bai (2003) also allow for heteroskedasticity in
+both the time and cross-sectional dimensions.
+3.2 The factor-augmented autoregressive model
+Once the non-stationary DFM is speciﬁed, we can use the common trends to predict
+a speciﬁc macroeconomic variable, denoted as xt ; see Stock and Watson (2005),
+Banerjee et al. (2013), among many others. It is important to comment that if
+forecasting is the objective, although (xt ; Ft Þ0 are integrated or cointegrated, the
+FAVAR speciﬁcation is quite convenient. Note that the optimal conditional
+expectation does not require stationarity or stability in the system. The theoretical
+¨
+justiﬁcation is given by Lutkepohl (2006). More recently, Barigozzi et al. (2016)
+discuss several situations where a VAR estimated in levels is equivalent to a
+cointegrated VAR. Basically, when estimating a VAR in levels we can consistently
+estimate the parameters of a cointegrated VAR. Therefore, the FAVAR is provided
+as follows:
+ 
+
+
+xt
+xtÀ1
+ð6Þ
+¼ UðLÞ
+þ vt ;
+Ft
+FtÀ1
+where
+0
+
+ðkÞ
+
+U11
+B
+B 0
+B
+UðLÞ ¼ B 0
+B
+B .
+@ .
+.
+0
+
+ðkÞ
+
+ðkÞ
+
+U12
+ðkÞ
+U22
+0
+.
+.
+.
+
+U13
+0
+ðkÞ
+U33
+
+0
+
+0
+
+...
+...
+..
+
+.
+
+ðkÞ
+
+U1rþ1
+0
+0
+ðkÞ
+
+1
+C
+C
+C kþ1
+CL ;
+C
+C
+A
+
+Urþ1rþ1
+
+for k ¼ 1; . . .; p, where vt $ Nð0; Rv Þ. Intuitively, common economic trends that
+summarize its long-run behavior are used to predict a speciﬁc macroeconomic
+¨
+variable. For a similar representation but in the stationary context, see Brauning and
+Koopman (2014). Note that expression (6) is the prediction equation; for example,
+assuming p ¼ 1, for any h step ahead, then
+xtþh ¼ U11 xtÀðhþ1Þ þ U12 F1;tÀðhþ1Þ þ Á Á Á þ U1rþ1 Frþ1;tÀðhþ1Þ þ vtþh :
+
+ð7Þ
+
+The estimation of the parameters of Eq. (6) is obtained using restricted ordinary
+least squares (OLS). Furthermore, it is necessary to deﬁne the number of common
+factors and their factor estimates. In this section we describe some traditional
+methods to determine the number of non-stationary common factors. Additionally,
+we describe PC factor extraction and comment on an alternative method to estimate
+the common factors, known in literature as PLS.
+4.1 Determining the number of factors
+It was previously assumed that r is known, however in practice it is frequently
+necessary to estimate it. In this subsection we describe two procedures to determine
+r in the context of large DFMs, namely the Onatski (2010) procedure and the ratio
+of eigenvalues proposed by Ahn and Horenstein (2013). There are other alternatives
+to determine r, the Bai and Ng (2002) information criteria, the respective correction
+proposed by Alessi et al. (2010), and the procedure carried out by Kapetanios
+(2010), among many other approaches. Moreover, in the context of non-stationary
+DFMs, Ergemen and Rodriguez-Caballero (2016) use the procedure given by Hallin
+and Liska (2007) to determine the number of regional and global factors allowing
+fractional differencing in Yt . However, and following Corona et al. (2017a), they
+show that the ﬁnite sample performance of the proposed procedures in this paper
+exhibits a good performance when we use data in ﬁrst differences or levels and the
+common factors are I(1).4
+4.1.1 Onatski (2010) procedure
+The Onatski (2010) procedure is based on the behavior of two adjacent eigenvalues
+^
+of RY ¼ T À1 Y 0 Y, for j ¼ 1; . . .; rmax . Intuitively, it is reasonable that when N and T
+^
+^
+^ ^
+tend to inﬁnity, the difference between kj À kjþ1 tends to zero while kr À krþ1
+^
+^
+diverges to inﬁnity, where ki is the i-largest eigenvalue of RY . Onatski (2010) points
+out the necessity of determining a ‘‘sharp’’ threshold that separates convergent and
+divergent eigenvalues, denoted as d. The author gives the empirical procedure to
+determine the threshold and in practice, this approach is more robust in presence of
+non-stationarity and when the factors are weak or when the proportion of variance
+attributed to the idiosyncratic components is larger than the variance of the common
+^ ^
+^
+component. We denote this estimator as r ED ¼ maxfj rmax : kj À kjþ1 ! dg:.
+4.1.2 The Ahn and Horenstein (2013) ratios of eigenvalues
+Ahn and Horenstein (2013) develop the consistency of the estimation of r when they
+^
+use the ratio of two adjacent eigenvalues of RY under the traditional assumptions of
+4
+
+Alternatively, Bai (2004) proposes an information criteria for data in levels, modifying the PCðkÞ
+maximizing with respect to j ¼ 1; . . .; rmax the following ratios:
+ERðjÞ ¼
+
+^
+kj
+;
+^
+kjþ1
+
+^Ã
+lnð1 þ kj Þ
+GRðjÞ ¼
+;
+^Ã
+lnð1 þ k Þ
+
+ð8Þ
+
+ð9Þ
+
+jþ1
+
+P ^
+1
+^
+^
+^Ã ^ P
+^
+where k0 ¼ m m kj = lnðmÞ and kj ¼ kj = m
+i¼1
+i¼kþ1 ki . The value of k0 has been
+chosen following the deﬁnition of Ahn and Horenstein (2013), according to which
+^
+^
+k0 ! 0 and mk0 ! 1 as m ! 1:
+4.2 Principal components factor extraction
+The most popular method to extract static common factors is based on PC given that
+it does not require assumptions of the error distribution, and the estimation of the
+common component is consistent, among many other properties; see Bai (2003).
+This procedure separates the common component from the idiosyncratic noises by
+considering a cross-sectional averaging of the variables within Yt such that when
+N and T tend simultaneously to inﬁnity, the weighted averages of the idiosyncratic
+noises converge to zero, with only the linear combinations of the factors remaining.
+Therefore, this method requires that the cumulative effects of the common
+component increase proportionally with N, while the eigenvalues associated with
+the idiosyncratic components remain bounded.
+The PC estimator of Ft can be derived as the solution to the following least
+squares problem:
+Vr ðP; FÞ ¼
+
+min ðNTÞÀ1
+
+F1 ;...;FT ;P
+
+T
+X
+ðYt À PFt Þ0 ðYt À PFt Þ
+
+ð10Þ
+
+t¼1
+
+subject to the restrictions F 0 F=T 2 ¼ Ir and P0 P being diagonal, where F ¼
+ðF1 ; . . .; FT Þ0 is a r Â T matrix of common trends. The minimization problem in (10)
+is equivalent to maximizing tr½F 0 ðYY 0 ÞF where Y ¼ ðY1 ; . . .; YT Þ0 with the dimen^
+sion T Â N. This maximization problem is solved by setting F equal to T times the
+eigenvectors corresponding to the r largest eigenvalues of the T Â T matrix YY 0 .
+The corresponding PC estimator of P is given by5:
+
+5
+
+Alternatively, if we choose the restrictions P0 P=N ¼ Ir and F 0 F being diagonal, the estimator of the
+pﬃﬃﬃﬃ
+^
+matrix of factor loadings, P, is N times the eigenvectors corresponding to the r largest eigenvalues of
+^
+^
+the N Â N matrix Y 0 Y, with estimated factor matrix F ¼ Y P=N. The difference is only computational,
+these latest restrictions are less costly when T [ N, whereas F 0 F=T 2 ¼ Ir with P0 P being diagonal are
+P¼ 2 :
+T
+
+ð11Þ
+
+Bai (2003) deduces that the rate of convergence and the limiting distributions of the
+estimated factors, factor loadings and common component is the stationary DFM
+when the cross-section and time dimensions tend towards inﬁnity. Under the
+^ ^
+assumptions considered in this paper, Bai (2004) shows the consistency of Ft , P; and
+^t is analyzed by Bai
+the common component. The ﬁnite sample performance of F
+^
+(2004) and recently by Corona et al. (2017b). The ﬁrst author concludes that Ft is a
+close estimation of Ft when the idiosyncratic errors are stationary and even if the
+sample size is moderately small (i.e., N ¼ 100 and T ¼ 40). The second authors
+consider structure dependence in the idiosyncratic errors and show that when the
+idiosyncratic errors are I(0) we can obtain close estimations of Ft even if N is small
+^
+and the variance of et is large. When the idiosyncratic errors are I(1), Ft works
+poorly. In this case, it is convenient to use the estimator given by Bai and Ng
+(2004).6 Other alternatives to estimate the common factors without differencing
+them are given by Barigozzi et al. (2016) and Corona et al. (2017b).
+Note that the estimation of Ft disregards the dynamic of Eqs. (2) and (3). The
+reason for this is that we estimate the common factors from static representation in
+the factor model. Corona et al. (2017b) incorporate the dynamic of Eq. (2) in a
+second step to obtain smooth estimates of the common factors using the Kalman
+ﬁlter. However, in this study we focus on a large DFM from static representation.
+For a technical discussion of the analogies and differences between static and
+dynamic representation, see for example Bai and Ng (2007). Thus, our approach is
+related to Bai (2004) and Bai and Ng (2004), who study non-stationarity in DFMs
+under a static representation.
+4.3 Partial least squares
+In addition to the estimation of Ft by PC, we consider the PLS estimation, which
+takes into account the effect of a dependent variable. In a similar manner to Fuentes
+et al. (2015), we estimate the common factors in economic time series using PLS,
+~
+denoted as F t . Intuitively, the idea is to ﬁnd the orthogonal latent variables that
+maximize the covariance between Y and x ¼ ðx1 ; . . .; xT Þ0 . The estimation process is
+iterative, and the ﬁrst step consists in the eigenvalue decomposition of the following
+T Â T matrix:
+M ¼ Yxx0 Y 0
+
+ð12Þ
+
+~
+Then, the ﬁrst common factor, F 1t , is the ﬁrst eigenvector associated to the ﬁrst
+eigenvalue of M. The second common factor is estimated from the residual matrix
+~0
+of e ¼ Y À BF 1 . To obtain the following common factors, the process is repeated
+~
+~
+r À 2 steps using the F 1t ; . . .; F rÀ1t common factors in each step.
+6
+According to Bai and Ng (2004), if et is not stationary, it is necessary to differentiate Yt to consistently
+P
+^
+^
+^
+In this section we present the data from the Mexican economy used in this study,
+describe the methodology to evaluate the accuracy of the common trends in order to
+predict the Mexican economy, determine the number of common trends, and
+analyze their dynamic by evaluating the performance of the FAVAR model
+proposed in Sect. 2 with respect to benchmark models.
+
+5.1 Data
+Initially, we consider 511 macroeconomic and ﬁnancial variables obtained from the
+Banco de Informacion Economica (BIE) of the Insituto Nacional de Geografıa y
+´
+´
+´
+Estadıstica (INEGI), Mexico’s national statistical agency. The analysis covers from
+´
+March 2005 to April 2016, hence, T ¼ 133. The blocks of variables are considered
+according to the INEGI division, and additionally, we compare this division with
+respect to the National Institute’s Global Econometric Model, which considers nine
+blocks with a total of 67 variables.7
+According to our approach, it is necessary that all variables are integrated of
+order one, so that, if factors are found, these are the common trends of the
+observations. In this case, we consider only I(1) variables according to the
+Augmented Dickey–Fuller (ADF) test.8 When needed, the time series have been
+deseasonalized and corrected by outliers using X-13ARIMA-SEATS developed by
+the US Census Bureau.9 Following Stock and Watson (2005), outliers are
+substituted by the median of the ﬁve previous observations.
+Finally, according to these non-stationary conditions, we work with the following
+database of N ¼ 211 variables (number between parentheses)10:
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+
+Balance of trade (19)
+Consumer conﬁdence (18)
+Consumption (9)
+Economic activity (13)
+Employment (5)
+Financial (35)
+Industrial (58)
+International (17)
+Investment (8)
+Miscellaneous (18)
+Prices (11).11
+
+7
+
+https://nimodel.niesr.ac.uk.
+
+8
+
+See Barigozzi et al. (2016) for a similar approach.
+
+9
+
+https://cran.r-project.org/web/packages/seasonal.pdf.
+
+10
+
+See Annex with the description of each block of variables included.
+
+11
+
+It is well known that the prices can be I(2). In our sample period seven prices are I(2) and they are
+Indicador Global de la Actividad Economica).12
+´
+5.2 Estimating the common trends
+We apply the criteria described in this article to detect the number of factors. We
+^
+^
+^
+use an rmax ¼ 11. The results indicate that r ER ¼ r GR ¼ 2 and r ED ¼ 5.13 Given that
+Onatski (2010) is more robust in the presence of non-stationarity, see Corona et al.
+(2017a), we work with this number of factors.14
+Figure 1 plots the results of the ratios and differences of eigenvalues with the
+respective threshold. Note that, intuitively, it is congruent that the ratio of
+eigenvalues of Ahn and Horenstein (2013) determines one and two common factors,
+given that the ﬁrst and second differences of eigenvalues are large, while the others
+are practically zero. However, the estimation of the ‘‘sharp’’ threshold is one of the
+main contributions from Onatski (2010), which as we have mentioned, consistently
+separates convergent and divergent eigenvalues. Furthermore, the ﬁve common
+factors explain 79.19% of the total variability. Speciﬁcally, the ﬁrst common factor
+explains 46.14%, the second 19.59%, the third 6.2%, the fourth 4.75%; and the ﬁfth
+2.51%.
+Figure 2 plots the behaviors between ln xt (deseasonalized) and each common
+factor extracted by PC and PLS. We observe that the ﬁrst common factor, for each
+procedure, is similar to ln xt with contemporaneous linear correlations of 0.95 for
+PC and 0.96 for PLS. The second common factors are slightly correlated with ln xt ,
+having contemporaneous correlations of 0.13 and 0.08 for PC and PLS, respectively.
+~
+~
+On the other hand, F 3t and F 5t have an inverse behavior, although the correlations
+with respect to ln xt are around À0:01: In the other cases, the estimated common
+factors are positively related to ln xt but the linear correlations are drastically small.
+These facts indicate that contemporaneously, only the ﬁrst two common factors are
+associated with economic activity. It is interesting to mention that these two factors
+explain 65.73% of the total variability. Note that it is complicated to establish the
+predictive capacity between the common factors, and it is necessary to evaluate it in
+the FAVAR model. Furthermore, it is clear that the sample period includes the
+economic crisis of 2008–2009; however, Stock and Watson (2011) show that the PC
+estimator of the factors is consistent even with certain types of breaks or time
+variation in the factor loadings.
+Figure 3 shows the weighted average contribution of each variable block in the
+common factors estimated by PC. Each color bar represents the contribution of the
+percentage of explanation of each variable group with respect to each common
+factor, denoted as follows:
+12
+
+Note that the block of economic activity includes the components of the aggregate IGAE. Hence, this
+speciﬁc variable is not included in the block.
+13
+Additionally, we estimate the Bai and Ng (2002) information criteria using data in levels and ﬁrst^
+differenced data. In both cases, the three criteria tend to r ¼ rmax .
+14
+
+For the US economy, Alessi et al. (2010) determine six common factors using the database from Stock
+
+Difference
+
+Lat Am Econ Rev (2017) 26:7
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+4
+
+5
+
+6
+
+2.5
+1.5
+
+Ratio
+
+i
+
+1
+
+2
+
+3
+i
+
+^ ^
+Fig. 1 Determination of the number of factors through the Onatski (2010) procedure, ki À kiþ1 (top
+^
+^
+panel) and ratio of eigenvalues (bottom panel), kiþ1 =ki , for i ¼ 1; . . .; 6
+
+^
+ljg ¼
+
+Ng
+X
+
+j^ig jg j=Ng
+p
+
+for j ¼ 1; . . .r; and g ¼ 1; . . .; G;
+
+ig ¼1
+
+^
+where pig jg is the loading weight of each group of variables; G is the number of
+blocks of variables; and Ng is the number of variables in each group. Speciﬁcally,
+P ^
+^
+^
+the order of the groups of variables is computed as r À1 r kj ljg where kj is the
+j¼1
+variance contribution of each common factor. The block that most explains the
+common factors is the miscellaneous group, economic activity, and balance of trade
+blocks. On the other hand, prices, employment, and consumer conﬁdence are the
+least relevant groups of variables. Note that this importance is in terms of the
+loading contribution and it is not interpreted as predictive power. Speciﬁcally, the
+ﬁrst common factor is more correlated with the IGAE of tertiary activities (0.99),
+the second common factor with the economic situation with respect to last year
+(0.94), the third common factor with oil exports (0.78), the fourth common factor
+with ediﬁcation (0.70), and the ﬁfth common factor with the food industry (0.53).
+In order to evaluate if the common factors are the common trends of xt , we carry
+out the cointegration exercise. The possible cointegration relationship is given by:
+^
+^
+^
+vt ¼ ln xt À 4:6369 À 0:0719F1t À 0:0098F2t
+ð0:0000Þ
+
+ð0:0000Þ
+
+ð0:0000Þ
+
+^
+^
+^
+À 0:0003F3t þ 0:0008F4t þ 0:0002F5t :
+ð0:0000Þ
+
+ð0:0000Þ
+
+ð13Þ
+
+ð0:0000Þ
+
+We estimate the ADF test with its respective p value (in parentheses), obtaining the
+following results:
+ADF test: À 3:4382 ð0:01Þ
+Then, we can verify that the common trends of a large dataset of the economic
+
+−1.5
+
+2
+
+1
+
+0
+
+−1
+
+−2
+
+2
+
+1
+
+0
+
+−1
+
+2008
+
+2010
+
+2010
+
+2010
+
+Time
+
+Time
+
+Time
+
+2012
+
+2012
+
+2012
+
+2014
+
+2014
+
+2014
+
+2016
+
+2016
+
+2016
+
+2006
+
+2006
+
+2008
+
+2008
+
+2010
+
+2010
+
+Time
+
+Time
+
+2012
+
+2012
+
+2014
+
+2014
+
+2016
+
+2016
+
+Fig. 2 Top left panel hlnxt ; F1t i, top right panel hln xt ; F2t i, middle left panel hln xt ; F3t i, the middle right panel hln xt ; F4t i , and bottom left panel hln xt ; F5t i. The blue
+color refers to PC and the red color to PLS (color ﬁgure online)
+
+2008
+
+2006
+
+2006
+
+2008
+
+2006
+
+1
+0
+−1
+−2
+3
+2
+1
+0
+−1
+−2
+
+123
+
+−2
+
+Consumer confidence
+
+Consumption
+
+Investment
+
+International
+
+Financial
+
+Industrial
+
+Balance of trade
+
+Economic activity
+
+Miscellaneous
+
+0.0
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.6
+
+Lat Am Econ Rev (2017) 26:7
+
+P
+Fig. 3 Weighted mean ljg ¼ G¼1 j^ig jg j=Ng for j ¼ 1; . . .; r; and g ¼ 1; . . .; G; where G is the number
+^
+p
+ig
+of blocks of variables and Ng is the number of variables in each group
+
+and Ng (2004), ﬁrst, we carry out a Panel Analysis of Non-stationarity in
+Idiosyncratic and Common Components (PANIC) on the idiosyncratic errors
+obtained using the ‘‘differencing and recumulating’’ method in order to disentangle
+the non-stationarity in this component. Second, we apply a PANIC to the
+idiosyncratic components estimated using data in levels as we have proposed in this
+study. In the ﬁrst analysis, we obtain a p value of 0.1171 while in the second, we
+^
+obtain a p value of 0.0000. Although in the ﬁrst case et is statistically non-stationary,
+the p value is around the uncertainty zone. Furthermore, we apply the variant of the
+ADF test proposed by Bai (2004) with the aim of detecting how many of the ﬁve
+common factors are non-stationary. As we expected, the tests show that the ﬁve
+common factors are non-stationary. Therefore, we conclude that the idiosyncratic
+terms are stationary and the common factors are non-stationary; hence, we can also
+argue that the elements of Yt are cointegrated and the common factors are the
+common trends of Yt and xt .
+Note that Eq. (13) is the static version of Eq. (7). The goal of this exercise is to
+determine whether Ft are the common trends of xt and Yt . We use this information to
+forecast the target variable with the FAVAR model presented in Sect. 2.
+5.3 Evaluating the use of common trends to predict Mexican economic
+activity
+It is important to have an empirical strategy to adequately predict the target variable.
+Consequently, with the aim of selecting the forecast model, we consider all
+Pr r
+r
+possibilities of FAVAR models,
+i¼1 Ci Â 396, where Ci is the binomial
+ 
+r
+coefﬁcient
+and 396 is obtained as the product of 11 seasonal dummies (3–12
+i
+and none), 3 deterministic speciﬁcations in the FAVAR model (none, constant and
+such that we forecast 12 periods (1 year) for h ¼ 2. This forecast period is one of
+relative economic and political stability in Mexico. For example, during this time
+frame, the annual growth rate of Mexico’s GDP in any quarter was never lower than
+2.3% and never higher than 2.8% (INEGI 2016). Moreover, the country’s economic
+performance tends to be more volatile in times close to presidential elections in
+Mexico, and to a lesser degree in the US, which do not coincide with our forecast
+period. Statistically, this period represents around 10% of the number of
+observations and discounting the degrees of freedom, we are able to represent
+25% of T À K where K is the number of parameters in the FAVAR model.
+For each model, we compute the forecast error. The forecasts are dynamic, so
+that we update T þ 1 in each month. We selected the model that minimizes the Root
+Mean Square Error (RMSE).15 Furthermore, we focus on the models that give a
+forecast error lower than a threshold. This threshold is determined directly using
+Eickmeier et al. (2014) as a reference. In their work they predict several
+macroeconomic variables using FAVAR models, FAVAR-tv, FAVAR-tv with
+stochastic volatility errors and univariate models. For one and two step ahead,
+forecasting the US GDP, the RMSE values in in-sample forecasts are 0.76 and 0.80
+considering all periods for h ¼ 1 and h ¼ 2; respectively. However, we select a
+threshold of 0.5 to obtain more accurate forecasts. Note that, if we predict D ln xt for
+the ﬁrst step ahead, the forecast error is eTþ1 ¼ ðln xTþ1 À ln xT ÞÀ
+ðln xfTþ1 À ln xT Þ ¼ ln xTþ1 À ln xfTþ1 , i.e., it is equivalent to forecasting the level
+of the ﬁrst step ahead. Therefore, we focus on the levels of the IGAE.
+5.4 Using common trends to predict Mexican economic activity
+First, in order to descriptively evaluate the predictive capacity of each variable, we
+calculate the cross-correlation between yitÀh and xt and consequently:
+qÃ ¼ corrðyitÀh ; xt Þjfmaxðh
+h
+
+12 : ProbðcorrðyitÀh ; xt ÞÞ\aÞg;
+
+where a ¼ 0:05. Figure 4 plots the results of the previous equation. Note that the top
+panel plots the qÃ with the conﬁdence interval. The middle panel shows their
+h
+corresponding maximum signiﬁcant lag, maxðh 12 : ProbðcorrðyitÀh ; xt ÞÞ\aÞ and
+bottom panel presents the mean absolute correlations for each block of variables.
+Note that the block of variables most highly correlated with the future of xt is the
+miscellaneous one. It is interesting to note that all signiﬁcant variables of this block
+are positively correlated with the IGAE. Other interesting variable blocks are the
+economic activity and ﬁnancial groups. On the other hand, the blocks least correlated with the future of xt are consumer conﬁdence, employment, and prices.
+15
+
+As we have mentioned in the introduction, the goal of this paper is to forecast Mexican economic
+activity. To this end, we have two measures: quarterly, GDP; and monthly, IGAE. In an early analysis, we
+prove that IGAE is perfectly correlated with GDP. In this case, given the monthly frequency data, it is
+
+−0.5
+
+−1.0
+
+12
+
+10
+
+ρ
+
+lag
+
+8
+
+6
+
+4
+
+2
+
+0
+
+0.2
+
+0.4
+ρ
+
+International
+Investment
+
+Economic activity
+Employment
+
+0.6
+
+Industrial
+
+Consumption
+
+0.8
+
+Balance of trade
+
+Prices
+
+Miscellaneous
+
+1.0
+
+Fig. 4 The top panel plots the qÃ with the conﬁdence interval. The middle panel shows their corresponding maximum signiﬁcant lag, maxðh
+h
+ProbðcorrðyitÀh ; xt ÞÞ\0:05Þ; and the bottom panel presents the mean absolute correlations for each block of variables
+
+0.0
+
+Financial
+
+Consumer confidence
+
+12 :
+
+Lat Am Econ Rev (2017) 26:7
+common factors shows that the elements of Yt are cointegrated; hence, it is
+reasonable to expect that the correlations between yit and xt are not spurious.
+Once the models are estimated, we review the forecast errors lower than the
+threshold in the training sample. Figure 5 plots the historical behavior of the RMSE
+for the selected predictive models. The top panel plots the RMSE for h ¼ 1. Note
+that the PC gives slightly more accurate results than PLS. Furthermore, the
+dispersion of the RMSE for PLS is larger than PLS and neither approach presents
+outliers. The bottom panel shows the results for h ¼ 2. We can see that for both
+procedures, the forecast errors are slightly increased with respect to h ¼ 1. It is
+interesting to mention that for both h the tails from both procedures are intercepted.
+This graph is important because this behavior is expected for the following two
+predicted months.
+Using the models from Fig. 5 we predict two steps ahead: May and June 2016.
+Note that we have n models, such that it is necessary to combine the forecasts. Thus
+we propose a weighted average, obtaining loadings similar to the PLS procedure by
+solving the following optimization problem:
+q1 ¼ max corðX f w; xbÞ
+w;b
+
+subject to
+
+VarðX f wÞ ¼ VarðxbÞ ¼ 1;
+
+where w ¼ ðw1 ; . . .; wn Þ. In order to normalize the loading weights, we carry out the
+P
+following scaling: wÃ ¼ nð n wi ÞÀ1 w, such that the loading weights are between
+i¼1
+0 and 1. Figure 6 shows the forecast density, the predictions, and the observed data.
+We plot the conﬁdence interval to 95%. Note that for h ¼ 1, PLS is more accurate
+than PC, while for h ¼ 2, PLS is less accurate. The models are centered on the mean
+of the distribution. Moreover, the forecast density acquires the observed data.
+Furthermore, focusing on h ¼ 2, the distribution of PC has two modes and the
+predicted data tend towards the center of the distribution. On the other hand, for
+PLS, it tends towards the median of the distribution.
+An interesting question is: which common trends are helpful to reduce forecast
+error? To this end, we compute the following coefﬁcients through OLS:
+oet jDti ¼ 1\0
+
+and Probðoet jDti ¼ 1Þ\0:10
+
+for i ¼ 1; . . .; Nm ;
+
+where Nm is the number of models for each procedure. In other words, we carry out
+a linear regression between the forecast errors according to each procedure and
+dummy variables that specify the combination of common trends F1t , F2t , F3t , F4t ;
+and F5t for both procedures. Figure 7 plots the result for each procedure in each h.
+We can see that, in PC, F1t is a very important common factor to reduce the forecast
+error for h ¼ 1, whereas F1t , F2t , F4t ; and F5t are important for h ¼ 2. Furthermore,
+in the PLS approach F1t , F2t , F4t ; and F5t are relevant common factors for h ¼ 1
+whereas F1t ; and F2t are for h ¼ 2. In fact, for both procedures the interaction of all
+common factors is important to reduce the forecast errors. This result completes the
+conclusions when we analyze Figs. 1 and 4, where all common factors are helpful to
+reduce the forecast errors.
+In order to evaluate the forecast accuracy in ‘‘real time,’’ we predict two steps ahead
+
+0.6
+
+0.5
+
+0.4
+
+0.2
+
+0.3
+
+PC
+
+Model
+
+Lat Am Econ Rev (2017) 26:7
+
+PLS
+
+0.7
+
+0.6
+
+0.5
+
+0.4
+
+0.2
+
+0.3
+
+PC
+
+Model
+
+RMSE
+
+RMSE
+
+Fig. 5 Box plots for the RMSE of out-sample forecasts for the selected models. The top panel is h ¼ 1
+and the bottom panel h ¼ 2. The blue color refers to PC and the red color to PLS (color ﬁgure online)
+Forecasts density PLS h = 1
+0.4
+
+|
+
+0.2
+
+Density
+
+0.8
+0.4
+
+Density
+
+1.2
+
+Forecasts density PC h = 1
+
+|
+
+0.0
+
+0.0
+
+|
+
+115.5
+
+116.0
+
+116.5
+
+117.0
+
+117.5
+
+114
+
+115
+
+116
+
+117
+
+118
+
+IGAE Bandwidth = 0.3622
+
+Forecasts density PC h = 2
+
+Forecasts density PLS h = 2
+
+|
+
+0.0
+
+0.2
+
+Density
+
+0.2
+
+|
+|
+
+|
+
+0.0
+
+Density
+
+0.4
+
+0.4
+
+IGAE Bandwidth = 0.1839
+
+115
+
+116
+
+117
+
+118
+
+IGAE Bandwidth = 0.4599
+
+119
+
+120
+
+115
+
+116
+
+117
+
+118
+
+119
+
+120
+
+IGAE Bandwidth = 0.4698
+
+Fig. 6 Forecast densities, forecast points (red color), and observed data (blue color) (color ﬁgure online)
+
+(i) PC, (ii) PC using only factors that contribute to reducing the forecast error denoted
+as PC (2), (iii) PLS, (iv) PLS (2), (v) the average between the ﬁrst and third models, and
+(vi) the average between the second and fourth models. We can see that for h ¼ 1 PLS,
+PLS (2) and the forecast average of PC and PLS are the most accurate model with 0
+forecast error for May 2016. For h ¼ 1, PC gives a forecast error of 0.1 in June 2016. In
+conclusion, and with reference to Fig. 5, the results are as expected given that PC and
+PLS give forecast errors lower than the selected threshold.
+It is interesting to mention the historical behavior of the models. Hence, we ﬁrst
+analyze the RMSE of the benchmark models: the Autoregressive Integrated Moving
+Average (ARIMA) and the macroeconomic diffusion index (Stock and Watson
+F2
+F2 F 3
+F2F3F4
+F3
+F3F4F5
+F3F4
+F2F4
+F2F5
+F2F3F5
+F1
+F 3 F5
+F2F3F4F5
+F1F2
+F2F4F5
+F5
+F1F3
+F1F4
+F1F2F5
+F1F3F4
+F4
+F1F4F5
+F1F3F4F5
+
+0.0000
+
+F 2 F4
+F2
+F4
+F2F4F5
+F 1 F4
+F5
+F2F5
+F4F5
+F1F2F4
+F3F4
+F1F4F5
+F2F3F4
+F2F3
+F1F2
+F1
+F1F3F4
+F1F5
+F1F2F4F5
+F3F4F5
+F2F3F5
+F2F3F4F5
+F1F2F5
+F1F2F3F4
+F1F2F3
+F1F3F4F5
+F3
+F3F5
+
+0.0015
+
+0.000 0.002 0.004
+
+0.0030
+
+Pc h = 1
+
+PLS h = 2
+
+F1F4F5
+
+F1F2F4
+
+F1F2F3F4
+
+F2
+
+F2F3
+
+F1F2F5
+
+F1F2F3
+
+F1F2
+
+F1F3F4
+
+F1F3
+
+F1
+
+F1F4
+
+0.0000
+
+F1F4
+F1F2F4
+F1F2
+F1F4F5
+F1
+F2F4
+F2
+F4
+F1F5
+F1F3F4
+F1F2F4F5
+F1F2F5
+F2F4F5
+F1F2F3F4
+F4F5
+F1F2F3
+F2F5
+F3F4
+F5
+
+0.000
+
+0.002
+
+0.0015
+
+0.004
+
+Pc h = 2
+
+Fig. 7 Effects of variables on forecast errors: oet jDti ¼ 1\0 and Probðoet jDti ¼ 1Þ\0:10. The blue
+color refers to PC and the red color to PLS (color ﬁgure online)
+
+0.6
+0.4
+0.0
+
+0.2
+
+Forecast error
+
+0.8
+
+1.0
+
+Forecast error of Δlnxt+h
+PC
+PC 2
+PLS
+PLS 2
+AVERAGE
+AVERAGE 2
+
+May 2016 (h = 1)
+
+Jun 2016 (h = 2)
+
+Fig. 8 Observed forecast error for May 2016 (h ¼ 1) and June 2016 (h ¼ 2). PC (blue color), PC 2 (deep
+blue color), PLS (red color), PC 2 (deep red color), average of forecasts (gray color), and average 2 of
+forecasts (black color). The number 2 indicates that the models only considered the variables that satisfy
+oet jDti ¼ 1\0 and Probðoet jDti ¼ 1Þ\0:10 (color ﬁgure online)
+
+that the RMSE interval is between 0.82 and 1.07 for the ARIMA model, while for the
+macroeconomic diffusion index it is between 0.62 and 0.83. For h ¼ 2 the errors are
+slightly reduced in both cases; however, the macroeconomic diffusion index has better
+results. Hence, note that the inclusion of the factor in linear models reduces the forecast
+error. Then, we would expect the FAVAR models to show a small RMSE.16
+16
+Alternatively, we can consider RMSE in terms of benchmark models like several authors. However,
+we decide to use the RMSE to easily verify whether the FAVAR models give RMSEs lower than the
+
+Mar 16
+
+Jan 16
+Dic 15
+
+1.5
+
+Nov 15
+
+1.0
+
+Oct 15
+
+Sep 15
+
+Aug 15
+
+Jun 15
+
+0.0
+
+May 15
+
+Jan 16
+
+2.0
+
+Aug 15
+
+1.0
+
+Jun 15
+
+0.5
+
+Forecast error
+
+Model
+
+2.0
+
+1.0
+
+0.0
+
+MDI
+
+ARIMA
+
+Forecast error
+Model
+
+0.8
+0.4
+0.0
+MDI
+ARIMA
+
+2.5
+
+Mar 16
+
+Feb 16
+
+Dic 15
+
+1.5
+
+Nov 15
+
+Oct 15
+
+Sep 15
+
+Jul 15
+
+May 15
+
+0.0
+
+Apr 15
+
+Fig. 9 Forecast Errors for benchmark models: April 2015–2016. ARIMA (red color) and Macroeconomic diffusion index (blue color). The top left panel plots h ¼ 1 and
+the bottom right panel plots h ¼ 2 (color ﬁgure online)
+
+0.5
+
+ARIMA (h = 2) (0.7,0.82,0.93)
+MDI (h = 2) (0.51,0.6,0.7)
+
+Feb 16
+
+2.0
+
+ARIMA (h = 1) (0.82,0.94,1.07)
+MDI (h = 1) (0.62,0.73,0.83)
+
+Lat Am Econ Rev (2017) 26:7
+considering the approach presented in this work. Note that the RMSE interval of
+PC for h ¼ 1 is between 0.27 and 0.67 and for h ¼ 2 between 0.29 and 0.59. The
+RMSE mean values are 0.47 and 0.44 for each h, respectively. Note that in both h,
+February 2016 is the outlier forecast error. On the other hand, for PLS and h ¼ 1,
+the forecast errors are between 0.34 and 0.60 and for h ¼ 2, the conﬁdence interval
+is between 0.3 and 0.64. In this case, the mean of RMSE is 0.47 for each h,
+respectively. Note that the improvement with respect to the ARIMA model and
+macroeconomic diffusion index is relevant, above all when the factors are estimated
+using PC. Note that the forecast errors are very similar between PC and PLS.
+A question of interest is: are the models consistent through the training sample?
+We can obtain different models in each step ahead, in which case the consistency of
+the predictors may be questionable. Taking into account only the selected models,
+we can observe in Fig. 11 that all models are robust in h ¼ 1. In fact, 76% of the
+models are within the threshold and for h ¼ 2, the behavior of the predictions is
+similar to May 2016. Note that the predictions for May and June 2016 are carried
+out with information up to April 2016. Hence, we present the forecast in h ¼ 1 for
+May 2016 and h ¼ 2 for June 2016. The model is not updated as in the previous
+forecasts. It is interesting to note that February 2016 was the most complicated
+month to predict; however, the robustness of the selected models is reasonable. The
+reason why February 2016 was a complicated month to predict can be explained by
+the fact that this month has 29 days, and the seasonal variables and the dynamics
+between the variables do not account for this effect.
+
+6 Conclusions and further research
+In this paper we estimated the common trends of the Mexican economy using a large
+dataset of macroeconomic variables. Using cointegration concepts, we estimated the
+common trends using I(1) variables through PC, determining the number of common
+factors according to the Onatski (2010) and the Ahn and Horenstein (2013)
+procedures. Alternatively, we estimated the common factors using PLS.
+We ﬁnd that 211 macroeconomic and ﬁnancial variables can be summarized in at
+^
+most r ¼ 5 common trends, which are cointegrated with Mexican economic
+activity. Furthermore, we use the common trends in a FAVAR model with the aim
+of predicting Mexican economic activity. We statistically evaluate the predictive
+capacity of the common trends, where we can see that each common factor reduces
+the forecast error. Additionally, we observe that the forecast error is reduced with
+respect to the ARIMA and factor-augmented regressions, such that the common
+trends are useful to predict Mexican economic activity.
+An important conclusion is that the macroeconomic common trends can be used
+in more sophisticated models in order to reduce the forecast errors. Additionally,
+note that in this study we used data in levels in order to estimate the common
+factors. This is empirical evidence on the use of DFMs when we do not transform
+
+Mar 16
+
+Feb 16
+Jan 16
+
+Nov 15
+
+Oct 15
+
+0.6
+
+Sep 15
+
+Aug 15
+
+0.4
+
+Jul 15
+
+Jun 15
+
+Feb 16
+
+1.0
+
+Nov 15
+
+0.8
+
+Sep 15
+
+0.6
+
+Jul 15
+
+0.4
+
+Apr 15
+
+0.2
+
+Forecast error
+
+Model
+
+0.8
+
+0.4
+
+0.0
+
+PLS
+
+PC
+
+Forecast error
+Model
+
+0.8
+0.4
+0.0
+PLS
+PC
+
+Mar 16
+
+Jan 16
+
+Dic 15
+
+Oct 15
+
+Aug 15
+
+Jun 15
+
+May 15
+
+Fig. 10 Forecast Errors for FAVAR models: April 2015–2016. PC (red color) and PLS (blue color). The top left panel plots h ¼ 1 and the bottom right panel plots h ¼ 2
+(color ﬁgure online)
+
+0.2
+
+PC (h = 2) (0.29,0.44,0.59)
+PLS (h = 2) (0.3,0.47,0.64)
+
+Dic 15
+
+0.8
+
+PC (h = 1) (0.27,0.47,0.67)
+PLS (h = 1) (0.34,0.47,0.6)
+
+Lat Am Econ Rev (2017) 26:7
+
+Mar 16
+
+Apr 16
+
+May 16
+
+Mar 16
+
+Apr 16
+
+May 16
+
+Jun 16
+
+Jan 16
+
+Dic 15
+
+Nov 15
+
+Oct 15
+
+Sep 15
+
+Aug 15
+
+Jul 15
+
+Jun 15
+
+May 15
+
+Apr 15
+
+Selected model
+
+Robustness of the selected models h = 1
+
+Feb 16
+
+Jan 16
+
+Dic 15
+
+Nov 15
+
+Oct 15
+
+Sep 15
+
+Aug 15
+
+Jul 15
+
+Jun 15
+
+May 15
+
+Selected model
+
+Robustness of the selected models h = 2
+
+Fig. 11 Robustness of selected models. Red points indicate that the model satisﬁes the empirical
+threshold in the speciﬁc forecast month. A red cross indicates that there is no information to compute the
+statistic (color ﬁgure online)
+
+Economically, the more relevant groups of variables in the determination of the
+common trends are the miscellaneous group, the economic activity, balance of
+trade, and the industrial sector. The ﬁrst group of variables basically comprises
+tourism information and variables related to the automotive industry. In this context,
+the behaviors of the external sector and internal demand are very important to
+predict the behavior of the global economy. It is reasonable to expect that external
+uncertainty and disincentives in the internal market can be dangerous for future
+economic growth. In other words, these groups of variables indicate the future
+movements of Mexican economic activity.
+A future line of research is to use the common trends in factor error correction
+models (FECM), and FAVAR with time-varying coefﬁcients, among many other
+models, combining the predictions with different combinations of forecasting
+methods. Furthermore, we consider a unit root test that takes into account the
+structural break that occurred between 2008 and 2009 in order to reﬁne the procedure
+to select I(1) variables. Consequently, it is interesting to study the non-stationarity of
+the estimated common factors in the presence of breaks. Additionally, we will take into
+account the possibility of sparse cointegration for forecasting proposes.
+Acknowledgements Partial ﬁnancial support from the CONACYT CB-2015-01-252996 is gratefully
+acknowledged.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the
+#
+
+Short
+
+Long
+
+Block
+
+Log
+
+SA
+
+T
+
+1
+
+EXP TOT
+
+Total absolute value exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+2
+
+EXP PET
+TOT
+
+Oil exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+3
+
+EXP PET
+CRU
+
+Crude oil exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+4
+
+EXP PET
+OTR
+
+Other oil exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+5
+
+EXP NO PET
+
+Non-oil exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+6
+
+EXP NO PET
+AGR
+
+Farming exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+7
+
+EXP NO PET
+EXTRAC
+
+Extractive exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+8
+
+EXP MAN
+AUT
+
+Automotive exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+9
+
+EXP NO
+MAN RES
+
+Manufacture exports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+10
+
+IMP TOT
+PET
+
+Total oil imports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+11
+
+IMP CON
+TOT
+
+Consumption goods imports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+12
+
+IMP CON
+PET
+
+Consumption goods oil imports
+
+Balance of
+trade
+
+Yes
+
+No
+
+1
+
+13
+
+IMP CON
+NO PET
+
+Consumption goods non-oil imports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+14
+
+IMP INT PET
+
+Intermediate goods oil imports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+15
+
+IMP BK
+
+Capital goods imports
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+16
+
+REM TOT
+
+Total remittances
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+17
+
+REM MO
+
+Money orders remittances
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+18
+
+REM TRANS
+ELECT
+
+Electronic transfers remittances
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+19
+
+REM EFEC
+
+Cash and in-kind remittances
+
+Balance of
+trade
+
+Yes
+
+Yes
+
+1
+
+20
+
+I CONF
+
+Consumer conﬁdence index
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+21
+
+I CONF
+COMP
+HOG 12
+
+Index: compared to this household’s economic
+situation 12 months ago, how do you think
+your situation is at the moment?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+22
+
+I CONF FUT
+COMP PAI
+12
+
+Index: how do you foresee this household’s
+economic situation in 12 months’ time,
+compared to the current situation?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+#
+
+Short
+
+Long
+
+Block
+
+Log
+
+SA
+
+T
+
+23
+
+I CONF
+COMP PAI
+12
+
+Index: how do you consider the country’s
+economic situation today compared to
+12 months ago?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+24
+
+I CONF FUT
+COMP PAI
+12
+
+Index: how do you foresee the country’s
+economic situation in 12 months’ time?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+25
+
+I CONF POS
+FUT
+
+Index: comparing the current economic
+situation with that of a year ago, how do you
+consider at the present moment the
+possibilities that you or any of the members
+of this household
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+26
+
+I CONF B
+
+Consumer conﬁdence index (balance)
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+2
+
+27
+
+COMP 12 B
+
+Other complementary index: how would you
+describe your economic situation compared
+to 12 months ago?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+28
+
+FUT 12 B
+
+Other complementary index: and how do you
+think your economic situation will be in
+12 months, compared to the current
+situation?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+29
+
+POSI 12
+
+Other complementary index: at this moment,
+are you more able to buy clothes, shoes, food,
+etc., than a year ago?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+30
+
+POSI 12
+VAC
+
+Other complementary index: do you consider
+that during the next 12 months you or any of
+the members of this household will afford to
+go on vacation?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+31
+
+POS AHO
+
+Other complementary index: are you currently
+able to save some of your income?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+32
+
+COMP C 12
+
+Other complementary index: how do you
+foresee your economic conditions to save in
+12 months’ time compared to current
+conditions?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+33
+
+COMP PRE
+
+Other complementary index: compared with
+the previous 12 months, how do you think
+prices will behave in the country in the next
+12 months?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+34
+
+COMP 12
+EMP
+
+Other complementary index: do you think that
+employment in the country in the next
+12 months is going to increase, remain the
+same, or decrease?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+35
+
+AUT 12
+
+Other supplemental index: are any members of
+this household or you planning to buy a new
+or used car in the next 2 years?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+36
+
+PLA AUT 2
+
+Other complementary index: are any members
+of this household or you planning to buy,
+build or remodel a home in the next 2 years?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+#
+
+Short
+
+Long
+
+Block
+
+Log
+
+SA
+
+T
+
+37
+
+PLA CONST
+2
+
+Other complementary index: (balance)
+compared with the previous 12 months, how
+do you think prices will behave in the country
+in the next 12 months?
+
+Consumer
+conﬁdence
+
+Yes
+
+Yes
+
+1
+
+38
+
+IVF
+
+Physical volume index total
+
+Consumption
+
+Yes
+
+Yes
+
+2
+
+39
+
+IVFBST
+
+IVF goods and services of national origin total
+
+Consumption
+
+Yes
+
+Yes
+
+2
+
+40
+
+IVFB
+
+IVF goods and services of national origin
+goods
+
+Consumption
+
+Yes
+
+Yes
+
+1
+
+41
+
+IVFS
+
+IVF goods and services of national origin
+services
+
+Consumption
+
+Yes
+
+Yes
+
+2
+
+42
+
+IVFBI
+
+IVF imported goods
+
+Consumption
+
+Yes
+
+Yes
+
+1
+
+43
+
+IVFAT
+
+IVF total accumulative
+
+Consumption
+
+Yes
+
+Yes
+
+1
+
+44
+
+IVFNB
+
+IVFAT goods and services of national origin
+goods
+
+Consumption
+
+Yes
+
+Yes
+
+1
+
+45
+
+IVFNS
+
+IVFAT goods and services of national origin
+services
+
+Consumption
+
+Yes
+
+Yes
+
+2
+
+46
+
+IVFBIMP
+
+IVFAT imported goods
+
+Consumption
+
+Yes
+
+Yes
+
+1
+
+47
+
+IGAE A 1
+
+IGAE primary activities
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+48
+
+IGAE A 2
+
+IGAE secondary activities total
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+49
+
+IGAE A 21
+
+IGAE secondary activities 21 mining
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+50
+
+IGAE A 22
+
+IGAE secondary activities 22
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+51
+
+IGAE A
+31–33
+
+IGAE secondary activities 31–33
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+52
+
+IGAE A 3
+
+IGAE tertiary activities total
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+53
+
+IGAE A
+43–46
+
+IGAE tertiary activities 43–46 trade
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+54
+
+IGAE A 48
+49 51
+
+IGAE tertiary activities 48–49–51. Transport,
+mail, and storage; mass media information
+
+Economic
+activity
+
+Yes
+
+Yes
+
+2
+
+55
+
+IGAE A
+52–53
+
+IGAE tertiary activities 52–53 ﬁnancial and
+insurance services; real estate and rental
+services of movable and intangible goods
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+56
+
+IGAE A
+54–56
+
+IGAE tertiary activities 54–55–56 professional,
+scientiﬁc and technical services; corporate;
+business support services and waste
+management and remediation services
+
+Economic
+activity
+
+Yes
+
+Yes
+
+2
+
+57
+
+IGAE A
+61–62
+
+IGAE tertiary activities 61–62 educational
+services; health and social work services
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+58
+
+IGAE A
+71–81
+
+IGAE tertiary activities 71–81 cultural and
+sporting recreation services, and other
+recreational services; other services except
+government activities
+
+Economic
+activity
+
+Yes
+
+Yes
+
+#
+
+Short
+
+Long
+
+Block
+
+Log
+
+SA
+
+T
+
+59
+
+IGAE 72
+
+IGAE tertiary activities 72 temporary
+accommodation and food and beverage
+preparation services
+
+Economic
+activity
+
+Yes
+
+Yes
+
+1
+
+60
+
+PEO
+
+Economically active population: occupied
+population
+
+Employment
+
+Yes
+
+Yes
+
+1
+
+61
+
+PED
+
+Economically active population: unemployed
+population
+
+Employment
+
+Yes
+
+Yes
+
+1
+
+62
+
+PO S AGR
+
+Occupied population by agriculture economic
+activity sector
+
+Employment
+
+Yes
+
+Yes
+
+1
+
+63
+
+PO CONS
+
+Occupied population by construction economic
+activity sector
+
+Employment
+
+Yes
+
+Yes
+
+1
+
+64
+
+PO MAN
+
+Occupied population by manufacturing
+industry economic activity sector
+
+Employment
+
+Yes
+
+Yes
+
+1
+
+65
+
+TIIE
+
+Interbank interest rates, bank collection costs,
+and CETES performance Interbank interest
+rate (TIIE)
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+66
+
+CETES
+
+Interbank interest rates, bank funding costs,
+and CETES performance cost of time
+deposits of liabilities denominated in US
+dollars (CCP-dollars)
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+67
+
+TC
+
+Exchange rate of peso against dollar and UDIS
+value Interbank (sale)
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+68
+
+I TC R
+
+Mexican peso real exchange rate index
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+69
+
+I TC R VAR
+
+Mexican peso real exchange rate index annual
+change
+
+Financial
+
+No
+
+No
+
+1
+
+70
+
+IPCBMV
+
+Index of prices and quotes of the Mexican
+stock exchange maximum
+
+Financial
+
+Yes
+
+No
+
+1
+
+71
+
+TIIL
+
+International interest rates: Libor rate
+
+Financial
+
+Yes
+
+No
+
+1
+
+72
+
+M1
+
+M1 money and coins held by the public
+
+Financial
+
+Yes
+
+Yes
+
+2
+
+73
+
+M1 CB
+
+M1 foreign currency checking accounts at
+resident banks
+
+Financial
+
+Yes
+
+Yes
+
+2
+
+74
+
+M1 DAP
+
+M1 demand deposits of savings and loan
+companies
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+75
+
+M2 CIRT
+
+Internal funding of resident banks total
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+76
+
+M2 CIBR
+
+Domestic funding from resident banks
+
+Financial
+
+Yes
+
+No
+
+1
+
+77
+
+M2 CIBR ME
+
+Internal collection of resident banks in foreign
+currency
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+78
+
+M2 VP GF
+
+Securities issued by the Federal Government
+total
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+79
+
+IPAB
+
+IPAB total
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+80
+
+IPAB S
+
+IPAB securities held by the siefores
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+81
+
+IPAB EPP
+
+IPAB securities held by public and private
+companies
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+82
+
+M2
+SIEFORES
+
+Other public securities held by the siefores
+
+Financial
+
+Yes
+
+Yes
+
+#
+
+Short
+
+Long
+
+Block
+
+Log
+
+SA
+
+T
+
+83
+
+M2 EPP
+
+Other public securities owned by public and
+private companies
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+84
+
+M2 V P T
+
+Private securities total
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+85
+
+M2 V P
+SIEFORES
+
+Private securities held by the siefores
+
+Financial
+
+Yes
+
+No
+
+1
+
+86
+
+M2 V P EPP
+
+Private securities owned by public and private
+companies
+
+Financial
+
+Yes
+
+Yes
+
+2
+
+87
+
+FON F
+SIEFORES
+
+Savings funds for withdrawal from SIEFORES
+total
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+88
+
+FON F
+SIEFORES
+BM
+
+Retirement funds at the Banco de Mexico total
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+89
+
+SIEFORES
+
+Retirement funds at the Banco de Mexico total
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+90
+
+M3
+
+Domestic ﬁnancial assets held by non-residents
+total
+
+Financial
+
+Yes
+
+No
+
+2
+
+91
+
+M3 BRT
+
+Collection of resident banks total
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+92
+
+M3 BRMN
+
+Collection of resident banks in national
+currency
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+93
+
+M3 BRME
+
+Collection of resident banks in foreign
+currency
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+94
+
+M3 VP T
+
+Government securities held by non-residents
+total
+
+Financial
+
+Yes
+
+No
+
+2
+
+95
+
+M3 GF
+
+Securities issued by the Federal Government
+total
+
+Financial
+
+Yes
+
+Yes
+
+2
+
+96
+
+M3 IPAB
+
+Public securities held by non-residents
+securities issued by the IPAB
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+97
+
+M4
+
+Acquisition of branches and agencies of
+Mexican banks abroad total
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+98
+
+M4 DR
+
+Deposits of residents total
+
+Financial
+
+Yes
+
+Yes
+
+1
+
+99
+
+M4 DNR
+
+Deposits of non-residents total
+
+Financial
+
+Yes
+
+No
+
+1
+
+100
+
+IVFI 212
+
+Mining of metallic and non-metallic minerals,
+except oil and gas
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+101
+
+IVFI 213
+
+Mining-related services
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+102
+
+IVFI 23
+
+Construction total
+
+Industrial
+
+Yes
+
+Yes
+
+2
+
+103
+
+IVFI 237
+
+Construction of civil engineering works
+
+Industrial
+
+Yes
+
+Yes
+
+2
+
+104
+
+IVFI 238
+
+Specialized construction works
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+105
+
+IVFI 311
+
+Manufacturing 311 industry
+
+Industrial
+
+Yes
+
+Yes
+
+2
+
+106
+
+IVFI 312
+
+Manufacturing 312 beverages and tobacco
+industry
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+107
+
+IVFI 313
+
+Manufacturing 313 manufacture of textiles and
+textile ﬁnishing
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+108
+
+IVFI 314
+
+Manufacturing 314 manufacture of textiles,
+except apparel
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+109
+
+IVFI 315
+
+Manufacturing 315 manufacture of clothing
+
+Industrial
+
+Yes
+
+Yes
+
+#
+
+Short
+
+Long
+
+Block
+
+Log
+
+SA
+
+T
+
+110
+
+IVFI 316
+
+Manufacturing 316 tanning and ﬁnishing of
+leather, manufacture of leather and leather
+substitutes materials
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+111
+
+IVFI 321
+
+Manufacturing 321 wood industry
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+112
+
+IVFI 322
+
+Manufacturing 322 paper industry
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+113
+
+IVFI 323
+
+Manufacturing 323 printing and related
+industries
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+114
+
+IVFI 324
+
+Manufacturing 324 manufacture of petroleum
+products and coal
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+115
+
+IVFI 325
+
+Manufacturing industries 325 chemical
+industry
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+116
+
+IVFI 326
+
+Manufacturing 326 Plastic and rubber industry
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+117
+
+IVFI 327
+
+Manufacturing 327 manufacture of nonmetallic mineral products
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+118
+
+IVFI 331
+
+Manufacturing industries 331 basic metal
+industries
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+119
+
+IVFI 332
+
+Manufacturing 332 manufacture of metal
+products
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+120
+
+IVFI 333
+
+Manufacturing 333 manufacture of machinery
+and equipment
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+121
+
+IVFI 334
+
+Manufacturing 334 manufacture of computer
+equipment, communication, measurement
+and other electronic equipment, components
+and accessories
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+122
+
+IVFI 335
+
+Manufacturing 335 manufacture of electrical
+ﬁttings, electrical apparatus, and electric
+power generation equipment
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+123
+
+IVFI 336
+
+Manufacturing 336 manufacture of transport
+equipment
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+124
+
+IVFI 337
+
+Manufacturing 337 manufacture of furniture,
+mattresses, and blinds
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+125
+
+IVFI 339
+
+Manufacturing 339 other industrial
+manufacturing
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+126
+
+IVFIA
+
+Accumulated total of industrial activity
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+127
+
+IVFIA 21
+
+Accumulated mining total mining
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+128
+
+IVFIA 212
+
+Accumulated mining of metallic and nonmetallic minerals, other than oil and gas
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+129
+
+IVFIA 213
+
+Accumulated mining-related services
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+130
+
+IVFIA 22
+
+Accumulated total generation, transmission and
+distribution of electricity, water and gas
+supply by pipelines to the ﬁnal consumer
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+131
+
+IVFIA 222
+
+Accumulated Water supply and piped gas
+supply to the ﬁnal consumer
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+132
+
+IVFIA 23
+
+Accumulated construction total
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+133
+
+IVFIA 236
+
+Accumulated building
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+134
+
+IVFIA 237
+
+Accumulated construction of civil engineering
+works
+
+Industrial
+
+Yes
+
+Yes
+
+#
+
+Short
+
+Long
+
+135
+
+IVFIA 238
+
+Accumulated specialized construction work
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+136
+
+IVFIA 31–33
+
+Accumulated manufacturing industry total
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+137
+
+IVFIA 311
+
+Accumulated 311 food industry
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+138
+
+IVFIA 312
+
+Accumulated 312 beverages and tobacco
+industry
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+139
+
+IVFIA 313
+
+Accumulated manufacturing industry 313
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+140
+
+IVFIA 314
+
+Accumulated manufacturing industry 314
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+141
+
+IVFIA 315
+
+Accumulated manufacturing industry 315
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+142
+
+IVFIA 316
+
+Accumulated manufacturing industry 316
+tanning and ﬁnishing of leather
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+143
+
+IVFIA 321
+
+Accumulated manufacturing industry 321
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+144
+
+IVFIA 322
+
+Accumulated manufacturing 322 Paper
+industry
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+145
+
+IVFIA 323
+
+Accumulated manufacturing 323 printing and
+related industries
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+146
+
+IVFIA 324
+
+Accumulated manufacturing 324 manufacture
+of petroleum products and coal
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+147
+
+IVFIA 325
+
+Accumulated manufacturing industries 325
+chemical industry
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+148
+
+IVFIA 326
+
+Accumulated manufacturing 326 plastic and
+rubber industry
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+149
+
+IVFIA 327
+
+Accumulated manufacturing 327 manufacture
+of non-metallic mineral products
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+150
+
+IVFIA 331
+
+Accumulated manufacturing 331 basic metal
+industries
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+151
+
+IVFIA 332
+
+Accumulated manufacturing 332 manufacture
+of metal products
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+152
+
+IVFIA 333
+
+Accumulated manufacturing 333 manufacture
+of machinery and equipment
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+153
+
+IVFIA 334
+
+Accumulated manufacturing 334 manufacture
+of computer, communication, measurement
+and other electronic equipment, components,
+and accessories
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+154
+
+IVFIA 335
+
+Accumulated manufacturing 335 manufacture
+of accessories, electrical apparatus, and
+electric power generation equipment
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+155
+
+IVFIA 336
+
+Accumulated manufacturing 336 manufacture
+of transport equipment
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+156
+
+IVFIA 337
+
+Accumulated manufacturing 337 manufacture
+of furniture, mattresses, and blinds
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+157
+
+IVFIA 339
+
+Accumulated manufacturing 339 other
+manufacturing
+
+Industrial
+
+Yes
+
+Yes
+
+1
+
+158
+
+IPI EUA
+
+Indices of United States industrial production
+
+International
+
+Yes
+
+Yes
+
+1
+
+159
+
+TD EUA
+
+United States unemployment rates
+
+International
+
+Yes
+
+No
+
+2
+
+160
+
+OM EUA
+
+United States monetary offer
+
+International
+
+Yes
+
+No
+
+2
+
+161
+
+TI 3M
+
+Interest rate USA 3 months
+
+International
+
+Yes
+
+Yes
+
+1
+
+Block
+
+Log
+
+SA
+
+#
+
+Short
+
+Long
+
+Block
+
+Log
+
+162
+
+TI 6M
+
+Interest rate USA 6 months
+
+International
+
+Yes
+
+Yes
+
+1
+
+163
+
+TI 1M
+
+Interest rate USA 1 year
+
+International
+
+No
+
+Yes
+
+2
+
+164
+
+TI 2A
+
+Interest rate USA 2 years
+
+International
+
+Yes
+
+No
+
+1
+
+165
+
+TI 3A
+
+Interest rate USA 3 years
+
+International
+
+Yes
+
+No
+
+1
+
+166
+
+TI 5A
+
+Interest rate USA 5 years
+
+International
+
+Yes
+
+No
+
+1
+
+167
+
+TI 10A
+
+Interest rate USA 10 years
+
+International
+
+Yes
+
+No
+
+1
+
+168
+
+TI 20
+
+Interest rate USA 20 years
+
+International
+
+Yes
+
+No
+
+1
+
+169
+
+TI FF
+
+Interest rate USA federal funds
+
+International
+
+Yes
+
+No
+
+1
+
+170
+
+I REMUN
+EUA
+
+Manufacturing remunerations USA
+
+International
+
+Yes
+
+Yes
+
+2
+
+171
+
+RESER EUA
+
+Total reserves (not including gold) USA
+
+International
+
+Yes
+
+No
+
+1
+
+172
+
+EXP EUA
+
+Total exports USA
+
+International
+
+Yes
+
+No
+
+1
+
+173
+
+IMP EUA
+
+Total imports USA
+
+International
+
+Yes
+
+No
+
+1
+
+174
+
+BC EUA
+
+Balance of trade USA
+
+International
+
+No
+
+No
+
+1
+
+175
+
+INV T
+
+Investment total
+
+Investment
+
+Yes
+
+Yes
+
+1
+
+176
+
+INV CON
+
+Investment residential
+
+Investment
+
+Yes
+
+Yes
+
+2
+
+177
+
+INV CON
+NR
+
+Investment non-residential
+
+Investment
+
+Yes
+
+Yes
+
+2
+
+178
+
+INV MET
+
+Investment total machines and equipment
+
+Investment
+
+Yes
+
+Yes
+
+1
+
+179
+
+INV ME
+
+Investment machines and equipment
+
+Investment
+
+Yes
+
+Yes
+
+1
+
+180
+
+INV MEO
+
+Investment machines, equipment, and others
+
+Investment
+
+Yes
+
+Yes
+
+1
+
+181
+
+INV MET
+
+Investment transporting equipment (imported)
+
+Investment
+
+Yes
+
+Yes
+
+1
+
+182
+
+INV MAEO
+
+Investment machines, equipment and others
+(imported)
+
+Investment
+
+Yes
+
+Yes
+
+1
+
+183
+
+TUR VS
+
+Total balance
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+184
+
+TUR IT
+
+Total income
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+185
+
+TUR TI
+
+International tourists
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+186
+
+TUR ET
+
+Total expenditure
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+187
+
+TUR TIT
+
+Total expenditure (international tourists)
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+188
+
+TUR VIT
+
+Total income (volume)
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+189
+
+TUR ITIT
+
+Total income (international tourists)
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+190
+
+TUR ET V
+
+Total expenditure (volume)
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+191
+
+TUR ET TUT
+
+Total expenditure (international tourists)
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+192
+
+TUR GM IT
+
+Expenditure average (income total)
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+193
+
+TUR GM I
+TUT
+
+Expenditure average international tourists
+(income total)
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+194
+
+TUR GM ET
+
+Expenditure average (expenditure total)
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+195
+
+TUR GM E
+TIT
+
+Expenditure average international tourists
+(expenditure total)
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+196
+
+AUT
+
+Production total automotive
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+197
+
+AUT CAM T
+
+Sales to the public. Total automotive
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+198
+
+AUT CAM
+TT
+
+Sales to the public. Total buses
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+123
+
+#
+
+Short
+
+Long
+
+Block
+
+Log
+
+SA
+
+T
+
+199
+
+AUT CAM
+TN
+
+Sales to the public. Total buses (national)
+
+Miscellaneous
+
+Yes
+
+Yes
+
+1
+
+200
+
+AUT CAM
+TI
+
+Sales to the public. Total buses (imported)
+
+Miscellaneous
+
+Yes
+
+Yes
+
+2
+
+201
+
+INPC
+
+National index of consumer prices
+
+Prices
+
+Yes
+
+Yes
+
+1
+
+202
+
+INPC 4
+
+INPC clothing, footwear, and accessories
+
+Prices
+
+Yes
+
+Yes
+
+2
+
+203
+
+INPC 5
+
+INPC furniture, household appliances, and
+accessories
+
+Prices
+
+Yes
+
+Yes
+
+2
+
+204
+
+INPC 5
+
+INPC health and personal care
+
+Prices
+
+Yes
+
+Yes
+
+2
+
+205
+
+INPC 6
+
+INPC transportation
+
+Prices
+
+Yes
+
+Yes
+
+2
+
+206
+
+INPC S
+
+INPC underlying
+
+Prices
+
+Yes
+
+Yes
+
+2
+
+207
+
+INPC SM
+
+INPC underlying goods
+
+Prices
+
+Yes
+
+Yes
+
+2
+
+208
+
+INPP 21
+
+National index of producer prices (INPP)
+mining without oil
+
+Prices
+
+Yes
+
+No
+
+1
+
+209
+
+INPP 22
+
+INPP generation, transmission and distribution
+of electricity, water and gas supply by
+pipelines to the ﬁnal consumer
+
+Prices
+
+Yes
+
+Yes
+
+1
+
+210
+
+INPP 23
+
+INPP construction
+
+Prices
+
+Yes
+
+No
+
+1
+
+211
+
+INPP 48-49
+
+INPP transportation, post and storage
+
+Prices
+
+Yes
+
+Yes
+
+2
+
+Log denotes logarithmic transformation, SA means seasonal adjustment, and T if 1 denotes that yt $ Ið1Þ
+and 2 that Dyt $ Ið1Þ
+
+World Bank (2016b) World development indicators. World Bank, Washington, DC. http://data.

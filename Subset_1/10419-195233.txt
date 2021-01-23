@@ -1,0 +1,5872 @@
+
+
+1 Introduction
+In recent years, Latin America has made remarkable progress in the reduction of
+poverty and inequality. Between 2000 and 2013, the percentage of the population
+living on less than $2.5 per capita per day decreased from 28.8 to 15.9 %, while the
+share of the population living on less than $4 dropped from 46.3 to 29.7 %. Over the
+same period, the region has also managed to reduce its unfortunately distinctive
+inequality: the Gini coefﬁcient of the income distribution fell from 0.57 to 0.51.
+These improvements were largely driven by sustained economic growth, which
+led to an expansion of the middle class.1 However, despite these positive trends, the
+region is still home to 92 million extreme poor and 77 million moderate poor. In
+addition, most of those that exited poverty joined the vulnerable class and are still at
+substantial risk of falling into poverty (Fig. 1).
+The trends in the incidence and depth of poverty, however, do not fully capture
+poverty dynamics, i.e., its duration and how often families enter and exit poverty.
+This information is very important for the design of effective social safety nets,
+particularly as far as targeting and recertiﬁcation are concerned.2 Frequent
+movements in and out of poverty imply the need for ﬂexible safety net entry and
+exit rules.
+The analysis of poverty dynamics and income mobility in developing countries
+has received relatively limited attention, largely due to the lack of adequate
+longitudinal data.3 Recently, Ferreira et al. (2013) and Vakis et al. (2015) have
+analyzed intra-generational mobility in Latin America, with a focus, respectively,
+on the middle class and the chronic poor. Their analysis is based on the synthetic
+panel methodology developed by Dang et al. (2014), which is the same we employ
+in this paper. The two works construct two-period transition matrices [1995–2010 in
+Ferreira et al. (2013), 2004–2012 in Vakis et al. (2015)] and deﬁne the chronic poor
+as those that were poor in both years. The analysis only captures mobility from the
+ﬁrst period to the last period, and not yearly mobility in between the two.
+1
+
+For an analysis of the key drivers of poverty reduction in Peru, see Robles and Robles (2014).
+
+2
+
+Targeting is the process of identiﬁcation of poor and vulnerable beneﬁciaries, as opposed to universal
+entitlement to beneﬁts. Recertiﬁcation is the periodic veriﬁcation of beneﬁciaries’ living standards, to
+assess whether they still qualify for receiving the beneﬁts.
+
+3
+
+See Jalan and Ravallion (1998), Baulch and Hoddinott (2000), Davis and Stampini (2002), Hulme and
+Shepherd (2003), Dercon and Shapiro (2007), Fields et al. (2007), Stampini and Davis (2009), Ferreira
+et al. (2013), Vakis et al. (2015). What is missing in this literature is the analysis of poverty or income
+dynamics with long panels made of consecutive years. Robles and Saenz (2015) have started to ﬁll this
+gap; using synthetic panels (similar to those employed in this paper) and a discrete-time hazard model,
+they identify the factors associated with long-term poverty and exit from poverty in a sample of Latin
+28.8%
+
+15.9%
+
+2000
+
+2013
+
+32.4%
+
+30.5%
+
+19.6%
+
+17.4%
+13.7%
+
+1.7% 2.3%
+Extreme poor
+
+Moderate poor
+
+Vulnerable
+
+Middle class
+
+High income
+
+Source: Authors’ calculations based on household survey data from IDB’s Harmonized Data Bank of Household Surveys from Latin America
+and the Caribbean (also known, and hereafter referred to, as IDB’s Sociometro).
+Notes: extreme poor are defined as having per-capita daily income under $2.5 after purchasing power adjustment; moderate poor between $2.5
+and 4; vulnerable between $4 and 10; middle-class between $10 and 50 (as in López-Calva and Ortiz-Juárez (2011)); high-income above $50.
+Results based on 18 countries (Argentina (only urban), Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, Guatemala,
+Honduras, Mexico, Nicaragua, Panama, Peru, Paraguay, El Salvador, Uruguay (only urban), Venezuela).
+
+Fig. 1 Income distribution in Latin America (2000–2013), region aggregate
+
+Consequently, it depicts the vulnerable and the middle class as consolidated in their
+position (with a low probability of experiencing poverty).
+In this paper, we generate 10-year synthetic panels for a large sample of Latin
+American countries, and use them to estimate yearly movements in and out of
+poverty from 2003 to 2013. We provide a novel classiﬁcation of households based
+on poverty duration, which distinguishes chronic poor, transient poor, future poor,
+and never poor. The future poor include those that initially belonged to the
+vulnerable, middle, and high-income classes, and experienced poverty at any time
+over the following decade.
+We ﬁnd that 65 % of the vulnerable (i.e., those with daily income between $4 and
+10), and 14 % of those in the middle class (with daily income between $10 and 50)
+of 2003, experienced poverty at least once during the period 2004–13. At the same
+time, chronic poverty remains widespread, accounting for 91 and 50 % of extreme
+and moderate poverty, respectively. Differences between rural and urban areas are
+substantial. Urban areas, which are now home to most moderate poor and
+vulnerable, are characterized by higher (particularly upward) income mobility.
+The remainder of the paper is organized as follows. Section 2 deﬁnes poverty and
+vulnerability, and describes the data and the methodology employed for constructing synthetic panels and forecasting poverty dynamics. Section 3 presents the trends
+in poverty reduction and shows that the Latin American region is highly
+heterogeneous in the stage and speed of the socioeconomic transition towards the
+middle class. Section 4 analyzes poverty dynamics, including transition matrices
+and poverty duration, and discusses household characteristics of chronic and
+transient poor. Section 5 highlights the main differences between urban and rural
+poverty. Section 6 concludes summarizing key ﬁndings and policy implications.
+and recertiﬁcation processes.4
+Six annexes provide additional information on data, methods, sensitivity
+analyses, and country results. Annex 1 lists the data sources. Annex 2 summarizes
+the existing literature comparing results from genuine panel data with nonparametric, parametric, and point estimate synthetic-panel methods. Annex 3 shows
+the bounds of selected estimates, providing a visual representation of the quality of
+our results. Annex 4 presents sensitivity analyses of key chronic poverty results to
+the adoption of alternative poverty lines. Annex 5 shows that the variation in the
+share of urban population is limited between 2003 and 2013, which is necessary for
+the validity of the rural/urban breakdown of the dynamic analyses based on the
+pseudo panel methodology. Finally, Annex 6 presents country-speciﬁc poverty
+proﬁles.
+
+2 Data and methodology5
+We look at poverty through two lenses, one that focuses on depth and the other on
+duration. The former is static, and analyzes a picture of poverty through the value of
+daily per-capita income (expressed in 2005 dollars adjusted to reﬂect purchasing
+power parity). It divides the population in ﬁve groups: (i) the extreme poor, with
+income below $2.5; (ii) the moderate poor, between $2.5 and 4; (iii) the vulnerable,
+´
+between $4 and 10; (iv) the middle class, between $10 and 50 [as in Lopez-Calva
+´
+and Ortiz-Juarez (2011)]; and (v) the high-income class, above $50.
+The $2.5 line corresponds to the median of the ofﬁcial extreme poverty lines in
+Latin American countries (CEDLAS and World Bank 2012), and has already been
+used in regional studies (World Bank 2014). It is higher than the international
+extreme poverty line of $1.25 used by Ravallion et al. (2008), which corresponds to
+the mean of the ofﬁcial extreme poverty lines of the 15 poorest countries in the
+world. The use of a higher line reﬂects the relatively more advanced stage of
+socioeconomic development (and the higher price levels) of the Latin American
+region. Similar considerations hold for the $4 poverty line. The vulnerable class is
+´
+´
+deﬁned by Lopez-Calva and Ortiz-Juarez (2011), as having a per capita daily
+income between $4 and 10, which is empirically observed to imply a probability
+greater than 10 % of falling into poverty.
+The second lens is dynamic and focuses on the duration of poverty. It divides the
+population in four groups: (i) the chronic poor, that are poor (either extreme or
+4
+
+We refer to social safety nets as the systems of social protection for the poor and vulnerable. In the
+Inter-American Development Bank Strategic Framework Document on Social Protection and Poverty,
+this is deﬁned as ‘‘(i) efﬁcient redistributive programs that contribute to human capital development; and
+(ii) delivery of services for social inclusion, in particular those aimed at early childhood development and
+at-risk youth’’ (IDB 2014). The ﬁndings of this paper are particularly relevant for the design and
+implementation of redistributive programs, such as conditional cash transfers (CCTs), whose duration and
+level of beneﬁts should depend on poverty duration and depth.
+
+5
+
+Non-technical readers can skip this section with no prejudice to their ability to understand the rest
+decade;6 (ii) the transient poor, that are poor in the ﬁrst year, and again in four or
+less years over the following decade; (iii) the future poor, that are either vulnerable,
+middle class, or high income in the ﬁrst year of analysis, but experience poverty in
+at least 1 year during the following 10 years; (iv) the never poor, who are always
+above the $4 poverty line.
+Conditioning the deﬁnition of chronic and transient poverty on being poor in the
+ﬁrst year guarantees that the sum of extreme and moderate poverty equals the sum
+of chronic and transient poverty. In other words, the incidence of poverty does not
+change, no matter if one looks at it through the lenses of depth or through those of
+duration.
+The analysis focusing on the static deﬁnition of poverty is based on observed
+micro-data from 216 cross-sectional household surveys collected between 2000 and
+2013 in 18 Latin American countries (see Annex 1).7 These data are from IDB’s
+Harmonized Data Bank of Household Surveys from Latin America and the
+Caribbean (also known as IDB’s Sociometro). Regional estimates of the incidence
+of poverty are obtained by imputing missing values for years with no survey, then
+calculating population-weighted averages of country estimates.
+The data are representative both at the national level and at the urban–rural level,
+with the exception of Argentina, Uruguay, and Venezuela. In Argentina, the
+household survey is only urban. In Uruguay, rural areas have been surveyed only
+since 2006; we restrict the analysis to urban areas to ensure comparability over the
+period 2000–2013. In Venezuela, since 2004, the survey does not contain a variable
+that allows separating rural and urban areas.
+Given the unavailability of real-panel data sets, in which the same households are
+surveyed across time, the analysis of poverty duration is based on the construction
+of synthetic panels a la Dang et al. (2014).8 This method was originally designed to
+analyze transitions in and out of poverty based on two (or more) rounds of crosssectional data. In addition, the literature, so far, has focused on proving the
+reliability of the methodology (Cruces et al. 2011; Fields and Viollaz 2013; Haynes
+et al. 2013). Our objective is slightly different, as we aim to investigate poverty
+duration, or more speciﬁcally in how many years a family has been poor over a
+decade. For this purpose, we calculate yearly point estimates of per-capita income
+based on yearly cross-sectional data.9
+The sample is made of families surveyed in the ﬁrst year (t = 0). For each of the
+following 10 years (s = 1,10), we estimate per-capita income using time-invariant
+
+6
+
+The 5-year threshold, like any alternative threshold, is somehow arbitrary. However, the results
+presented in this paper are generally robust to the adoption of alternative values.
+
+7
+
+These are the 18 countries that regularly execute household surveys and share their databases with the
+IDB. We lament not being able to include Caribbean countries, for which such data is not available.
+
+8
+
+Other synthetic or pseudo-panel approaches are those that track cohorts of individuals or households
+over repeated cross-sectional surveys (Deaton 1985), and those that recover the stochastic process from
+cross sectional data and generate individual income dynamics (Bourguignon et al. 2004).
+
+9
+
+We follow Canavire and Robles (2013), who, using this kind of panels and non-parametric duration
+residuals.10 The methodology assumes a linear structure of the income equation,
+and is based on the following two assumptions: (i) households do not change, which
+ensures that time-invariant variables observed in t = 0 can be used to estimate
+income in t = s, and (ii) the correlation of the error terms across time (et¼0 and et=s)
+is not negative. This is a reasonable assumption given that income shocks show
+persistence over time, and factors leading to a negative correlation of income over
+time are unlikely to apply to all households at the same time. The methodology
+requires estimating the following equations:
+yi;t ¼ b0t xi;t þ ei;t
+
+for t ¼ 0; 10
+
+ð1Þ
+
+i.e., for the ﬁrst period and for the following 10 years, where yi,t is the logarithm of
+household i’s per-capita income at time t, and xi,t is a vector of variables measuring
+household i’s characteristics at time t. Our speciﬁcation of the model includes
+variables typically employed in the literature (Dang et al. 2014; Cruces et al. 2011),
+plus statistically signiﬁcant variables at the regional level. The vector x contains the
+following variables:
+(i)
+(ii)
+
+(iii)
+(iv)
+
+Household head characteristics: sex, age, age squared, years of schooling,
+years of schooling squared, and agricultural work;
+Region (ﬁrst-level administrative country subdivision) characteristics:
+average years of schooling of the household heads, and proportion of
+workers in agriculture;
+Geographic controls: rural–urban residence;
+Retrospective regressors at regional level in the initial year (2003):
+inequality (standard deviation of log income), extreme poverty headcount
+($2.5 a day), average per capita income, average household size, and
+average years of schooling of the household heads.
+
+^
+^
+The regressions produce 11 estimates of vectors b and e (bt and et , one for each
+^
+time period). They also produce 11 estimates of the error term variance (ret ). These
+parameters are used to produce the synthetic-panel estimates of yearly per-capita
+income.
+Following Cruces et al. (2011), Fields and Viollaz (2013), and Haynes et al.
+(2013), we use the ‘‘non-parametric’’ version of the method, i.e., we make no
+assumptions on the structural form of the joint distribution of the errors terms. Two
+extreme assumptions on the non-parametric time correlation of the error terms lead
+to a lower and upper bound estimate of per-capita income mobility. At one extreme,
+one can assume zero correlation between et¼0 and et=s, i.e., that the two error terms
+are independent from each other. The logarithm of per capita income of household
+i in t = s (^U ) is estimated as follows:
+yi;t¼s
+
+10
+Dang et al. (2014) and Cruces et al. (2011) show that the method performs well irrespective of the
+forecasting direction, i.e. that estimates of mobility are very similar if one predicts per-capita income in
+~
+^i;t¼s ^
+yU ¼ bt¼s xi;t¼0 þ ei;t¼s
+
+ð2Þ
+
+^
+~
+where the apex U indicates uncorrelated error terms, and ei;t¼s is the mean of 50
+random draws (with replacement) from the vector of estimated residuals in t = s. At
+the other extreme, one can assume perfect correlation between et¼0 and et=s. Under
+this assumption, the logarithm of per capita income of household i in t = s (^C ) is
+yi;t¼s
+estimated as follows:
+0
+
+^i;t¼s ^
+yC ¼ bt¼s xi;t¼0 þ c^i;t¼0
+e
+
+ð3Þ
+
+^
+where the apex C indicates correlated error terms, ei;t¼0 is (the time-invariant)
+^
+^
+household i’s empirical error term estimated in t = 0, and c ¼ ret¼0 =ret¼s . is a scale
+factor.
+Dang et al. (2014) and Cruces et al. (2011) show that: (i) Eq. (2) produces upperbound estimates of income mobility, due to the high variation in the error term, and
+overestimates people’s movements in and out of poverty; (ii) Eq. (3) produces
+lower-bound estimates of income mobility, due to the constant error term, and
+underestimates poverty transitions; and (iii) the average of (2) and (3) approximates
+well the observed income mobility, providing a satisfactory estimation of
+movements in and out of poverty. This last point is proved empirically by
+comparing synthetic-panel estimates of mobility with those observed in genuine
+panel data. We, therefore, calculate point estimates of per-capita income of the
+households in the synthetic-panel as follows:11Recently, Dang and Lanjouw (2013)
+have developed a point estimate synthetic panel approach, which generalizes the use
+of non-parametric and parametric methods to produce point estimates of poverty
+transitions. This could have been used, as alternative to Eq. (4), to produce the
+estimates of poverty duration presented in this paper. We preferred to rely on
+Eq. (4), because the two methods have been shown to be empirically equivalent in
+terms of accuracy, and because Dang and Lanjouw (2013) indicate that the pointestimate methodology is most accurate when short time periods are analyzed. The
+existing literature comparing results from genuine panel data with non-parametric,
+parametric, and point estimate synthetic-panel methods is summarized in Annex 2.
+
+
+^
+~
+e
+ei;t¼s þ c^i;t¼0
+^0
+^
+yi;t¼s ¼ bt¼s xi;t¼0 þ
+:
+ð4Þ
+2
+As a result, our analysis of income mobility is based on income observed in 2003
+along with income estimated for the years between 2004 and 2013. The quality of the
+predictions is essential to guarantee that results are credible. As is usual practice, we
+carefully ensured the quality of the ﬁt (value of R-squared, signiﬁcance of coefﬁcients,
+over-ﬁtting). In Annex 3, we show for selected countries that the upper and lower
+bounds of predicted incomes produce poverty rates that are very close to the rates
+11
+
+Dang et al. (2014) suggest that standard errors for the bounds can be estimated by bootstrapping. This
+involves bootstrap resampling from the original cross-sections while accounting for survey weights
+(footnote 14). Similarly, we could obtain standard errors for our point estimates by complementing Dang
+of chronic poverty, transient poverty, and future poverty in selected countries.
+Our methodology can only be applied to 12 countries that have household survey
+data for each year between 2003 and 2013 (Argentina, Brazil, Colombia, Costa
+Rica, Dominican Republic, Ecuador, Honduras, Panama, Paraguay, Peru, El
+Salvador, and Uruguay). Regional numbers were obtained pooling micro-data from
+the 12 countries and using survey weights.12
+
+3 Static analysis: an heterogeneous and still vulnerable region
+Latin America is a very heterogeneous region in terms of the stage of
+socioeconomic transition, deﬁned as the process of transition out of poverty
+towards the middle class. Countries such as Argentina, Chile, and Uruguay, are at an
+advanced stage, being mainly made of middle and high-income class (with the
+incidence of poverty around 10 %). On the other hand, countries such as Guatemala
+and Honduras, are at the earliest stages: almost half of their population still lives in
+extreme poverty, and the incidence of overall poverty exceeds 65 % (Table 1).
+One feature, however, is common to all countries: the large size of the vulnerable
+class. This represents in most cases 30–40 % of the population, suggesting that an
+important share of the population remains at substantial risk of falling into poverty.
+Countries with low poverty rates and large middle classes are no exception. In these
+countries, the vulnerable class is the back end of the socioeconomic transition; while
+in the poorest countries, the vulnerable class leads the way.
+Country heterogeneity is also high in the speed of the socio-economic transition.
+For example, Colombia and Ecuador reduced the incidence of poverty by more than
+25 percentage points (pp), and expanded their middle and upper classes by more
+than 15 pp (Table 1). In contrast, progress was sluggish in Mexico and Dominican
+Republic, despite the fact that these countries started from poverty headcounts
+around 40 %.
+Table 2 summarizes the region’s heterogeneity by classifying the Latin American
+countries based on the stage and speed of their socioeconomic transition. In the
+countries in the upper-left cell, for example, Nicaragua and El Salvador, the poor
+still represents the largest share of the population, and poverty reduction has been
+relatively slow (less than 25 % between 2000 and 2013). These are the countries
+with the highest need for reforming and/or expanding the social safety net, as
+poverty is widespread and resilient. These are also the countries with less ﬁnancial
+resources for its implementation, so efﬁciency should be at the top of their policy
+agenda.
+12
+
+Brazil does not have a household survey for 2010. In order to include it in the dynamic analysis, we
+considered mobility over the period 2002–2013. It is important to highlight the caveat that our dynamic
+analysis is based on twelve countries with available data. Among the excluded countries is Mexico, which
+accounts for an important share of the population of the region. The exclusion of Mexico is due to the fact
+that the Encuesta Nacional sobre Ingresos y Gastos de los Hogares is carried out every two years, while
+the Encuesta Nacional de Ocupacion y Empleo is yearly but has been nationally representative only since
+´
+
+15.9
+
+URY
+
+VEN
+
+Region
+
+13.7
+
+13.8
+
+6.4
+
+21.2
+
+14.0
+
+13.7
+
+11.1
+
+34.4
+
+37.6
+
+45.9
+
+32.3
+
+41.4
+
+38.5
+
+40.5
+
+36.1
+
+33.3
+
+37.8
+
+24.9
+
+25.2
+
+42.0
+
+38.7
+
+37.7
+
+36.7
+
+37.7
+
+38.4
+
+38.5
+
+52.5
+
+30.5
+
+29.1
+
+54.5
+
+15.4
+
+30.1
+
+25.7
+
+34.7
+
+9.3
+
+23.0
+
+8.5
+
+7.3
+
+26.8
+
+17.2
+
+39.2
+
+27.2
+
+45.7
+
+36.9
+
+28.4
+
+2.3
+
+0.6
+
+2.9
+
+0.3
+
+1.5
+
+0.8
+
+2.6
+
+0.3
+
+1.7
+
+0.2
+
+0.2
+
+1.4
+
+0.8
+
+4.0
+
+2.2
+
+6.3
+
+3.6
+
+0.6
+
+2.2
+
+High income
+-10.9
+
+-12.9
+
+-20.7
+
+-0.9
+
+-8.5
+
+-14.7
+
+-15.5
+
+-8.1
+
+-14.3
+
+-3.0
+
+2.1
+
+0.4
+
+-27.3
+
+-1.3
+
+-6.7
+
+-21.5
+
+-6.5
+
+-16.8
+
+-23.0
+
+-3.7
+
+-7.7
+
+-2.7
+
+3.1
+
+-0.7
+
+-4.4
+
+-3.7
+
+6.9
+
+-0.3
+
+1.5
+
+5.5
+
+-4.4
+
+2.9
+
+-4.3
+
+-4.1
+
+-6.4
+
+-6.1
+
+-5.1
+
+-8.5
+
+Moderate poor
+
+5.2
+
+9.7
+
+-5.1
+
+7.5
+
+5.2
+
+6.1
+
+2.1
+
+9.6
+
+0.6
+
+-0.1
+
+2.5
+
+14.5
+
+3.8
+
+-2.8
+
+10.0
+
+-0.9
+
+6.0
+
+12.7
+
+-2.1
+
+Vulnerable
+
+10.9
+
+18.3
+
+8.7
+
+-1.9
+
+10.3
+
+13.4
+
+9.4
+
+-0.8
+
+2.5
+
+-3.2
+
+-7.0
+
+16.7
+
+-4.8
+
+11.0
+
+14.5
+
+12.2
+
+15.6
+
+15.8
+
+21.3
+
+Middle class
+
+0.6
+
+0.4
+
+0.0
+
+-0.2
+
+-0.2
+
+0.4
+
+0.4
+
+-1.3
+
+0.2
+
+-0.3
+
+-1.4
+
+0.5
+
+-0.6
+
+2.8
+
+1.2
+
+1.7
+
+1.3
+
+-0.4
+
+0.2
+
+High income
+
+ARG Argentina (only urban), BOL Bolivia, BRA Brazil, CHL Chile, COL Colombia, CRI Costa Rica, DOM Dominican Republic, ECU Ecuador, GTM Guatemala, HND
+Honduras, MEX Mexico, NIC Nicaragua, PAN Panama, PER Peru, PRY Paraguay, SLV El Salvador, URY Uruguay (only urban), VEN Venezuela
+
+(a) Last year is 2012 in Bolivia, Honduras and Nicaragua, and 2011 in Chile. (b) First year is 2001 in Brazil, Honduras, Nicaragua and Paraguay
+
+15.9
+
+21.6
+
+PRY
+
+SLV
+
+19.3
+
+PER
+
+24.1
+
+33.0
+
+15.6
+
+NIC
+
+17.0
+
+17.6
+
+49.5
+
+19.9
+
+HND
+
+MEX
+
+PAN
+
+19.6
+
+47.7
+
+16.4
+
+20.7
+
+10.6
+
+GTM
+
+8.5
+
+22.7
+
+18.6
+
+COL
+
+CRI
+
+6.6
+
+10.8
+
+13.4
+
+3.7
+
+DOM
+
+10.4
+
+BRA
+
+CHL
+
+6.9
+
+12.8
+
+ECU
+
+4.0
+
+19.7
+
+ARG
+
+BOL
+
+Middle class
+
+Extreme poor
+
+Vulnerable
+
+Extreme poor
+
+Moderate poor
+
+Variation (pp): 2013–2000 (b)
+
+Incidence (%) in 2013 (a)
+
+Table 1 Income distribution in Latin American countries (2000–2013). Source: authors’ calculations based on household survey data from IDB’s Sociometro
+
+Lat Am Econ Rev (2016) 25:4
+(2000–2013). Source: authors’ calculations based on household survey data from IDB’s Sociometro
+Between 2000 and 2013
+
+Cut poverty by less
+than 25 %
+
+Cut poverty by between 25
+and 50 %
+
+Cut poverty by more
+than half
+
+BOL, COL, PER, PRY
+
+ECU, VEN
+
+CRI, PAN, URU
+
+ARG, BRA, CHL
+
+In 2013
+Mostly poor
+
+DOM, GTM, HND,
+NIC, SLV
+
+Mostly vulnerable
+
+MEX
+
+Mostly middle class or
+high income
+
+ARG Argentina (only urban), BOL Bolivia, BRA Brazil, CHL Chile, COL Colombia, CRI Costa Rica,
+DOM Dominican Republic, ECU Ecuador, GTM Guatemala, HND Honduras, MEX Mexico, NIC
+Nicaragua, PAN Panama, PER Peru, PRY Paraguay, SLV El Salvador, URY Uruguay (only urban), VEN
+Venezuela
+
+4 Dynamic analysis: poverty is still largely chronic
+Income mobility between 2003 and 2013 was considerable. Poverty reduction was
+the net effect of many exiting poverty, while fewer were falling back. Upward
+mobility was particularly high for those that started in moderate poverty.
+Most of the moderate poor rose to the vulnerable class, and a few (6 %) made it
+to the middle class (Table 3).13 In contrast, 73 % of those that were initially extreme
+poor were still poor after a decade, although many enjoyed less severe poverty and
+another quarter rose to the vulnerable class. As may be expected (as they started
+from higher initial living standards), also the vulnerable enjoyed less upper
+mobility. Only 28 % of them rose to the middle class, while 62 % remained in the
+initial income category and 10 % fell into poverty.
+Chronic poverty was widespread among both the extreme and the moderate poor.
+Many of those that were initially moderate poor, despite enjoying a high likelihood
+of rising to the vulnerable class in 2013, were poor in at least 5 years over the period
+2004–2013. This may be explained by an ascending trajectory that only rose above
+the poverty line in the last part of the period of analysis.
+On average, 91 % of extreme poverty were chronic (Table 4), with very little
+country heterogeneity (Fig. 2). In almost all countries with available data, about
+90 % or more of the extreme poor in 2003 remained poor in at least ﬁve of the
+following 10 years. The only exceptions were Argentina and Uruguay, for which
+data are urban only.
+More surprisingly, also half of the moderate poor in 2003 was chronically poor.14
+This has important implications for the design and implementation of the social
+safety nets. In particular, it implies that long-term interventions are not only needed
+for the extreme poor, but also for an important share of those in moderate poverty.
+13
+
+Table 3 presents the two-point transition matrix, similar to Table 4.1 of Ferreira et al. (2013) and
+Table 1 of Vakis et al. (2015), using a larger number of income groups and extending the time period to
+2013.
+14
+In Annex 4, we perform sensitivity analysis and show that these key results are robust to the adoption
+calculations based on synthetic panels built from household survey data from IDB’s Sociometro
+% of individuals
+
+2013
+Extreme poor
+
+Moderate poor
+
+Vulnerable
+
+Middle class
+
+High income
+
+Total
+
+Extreme poor
+
+41.2
+
+32.0
+
+25.1
+
+1.0
+
+0.7
+
+Moderate poor
+
+8.0
+
+23.5
+
+61.6
+
+6.4
+
+0.4
+
+100.0
+
+Vulnerable
+
+2.0
+
+7.7
+
+61.9
+
+28.2
+
+0.3
+
+100.0
+
+2003
+100.0
+
+Middle class
+
+0.2
+
+0.9
+
+21.1
+
+75.5
+
+2.3
+
+100.0
+
+High income
+
+0.0
+
+0.0
+
+0.7
+
+58.9
+
+40.4
+
+100.0
+
+Results based on 12 countries (Argentina (only urban), Brazil, Colombia, Costa Rica, Dominican
+Republic, Ecuador, Honduras, Panama, Peru, Paraguay, El Salvador and Uruguay (only urban))
+
+Table 4 Poverty duration in Latin America (2003–2013), region aggregate. Source: authors’ calculations
+based on synthetic panels built from household survey data from IDB’s Sociometro
+
+Income in 2003
+
+Number of episodes of poverty between 2003-2013
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+transient poor
+
+Extreme poor
+
+8
+
+9
+
+10
+
+chronic poor
+
+11
+
+42.0
+
+1.2
+
+0.9
+
+1.5
+
+2.2
+
+3.1
+
+4.3
+
+6.0
+
+8.6
+
+12.1
+
+18.4
+
+0.0
+
+0.0
+
+5.6
+
+8.3
+
+10.5
+
+12.5
+
+12.8
+
+12.5
+
+11.8
+
+10.3
+
+8.3
+
+5.4
+
+2.0
+
+Moderate poor
+
+future-poor
+Vulnerable
+
+35.1
+
+23.9
+
+15.8
+
+9.7
+
+6.5
+
+3.9
+
+2.4
+
+1.5
+
+0.7
+
+0.3
+
+0.1
+
+0.0
+
+11.0
+
+2.3
+
+0.7
+
+0.2
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.7
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+% of population income groups as of 2003
+
+0
+
+11
+
+85.8
+
+Middle-income
+
+99.3
+
+High-income
+
+0
+
+Number of episodes of poverty between 2003-2013
+
+Results based on 12 countries (Argentina (only urban), Brazil, Colombia, Costa Rica, Dominican
+Republic, Ecuador, Honduras, Panama, Peru, Paraguay, El Salvador, and Uruguay (only urban))
+
+In this respect, however, country heterogeneity was substantial (Fig. 2). For
+example, while extreme poverty was equally chronic in Ecuador and Colombia, in
+
+94.6
+
+93.0
+
+51.3
+
+45.7
+
+59.4
+
+89.8
+
+58.3
+
+% moderate poor that are chronic poor
+98.8
+
+97.9
+87.5
+
+91.1
+
+94.1
+
+98.9
+
+96.4
+
+65.8
+
+55.0
+
+61.0
+50.4
+
+40.2
+
+38.1
+
+31.4
+
+2.3
+
+1.2
+
+ARG
+
+91.2
+
+83.5
+
+76.2
+
+BRA
+
+COL
+
+CRI
+
+DOM
+
+ECU
+
+HND
+
+PAN
+
+PER
+
+PRY
+
+SLV
+
+URY Region
+
+Source: Authors’ calculations based on synthetic panels built from household survey data from IDB’s Sociometro.
+Notes: ARG = Argentina (only urban), BRA = Brazil, COL = Colombia, CRI = Costa Rica, DOM = Dominican Republic, ECU = Ecuador, HND
+= Honduras, PAN = Panama, PER = Peru, PRY = Paraguay, SLV = El Salvador, URY = Uruguay (only urban).
+
+Fig. 2 Chronic poverty in Latin American countries (2003–2013)
+
+An important share of the vulnerable and, more surprisingly, of the middle class
+experienced poverty over the period 2004–13. More precisely, 65 % of the
+vulnerable group and 14 % of the middle class of 2003 were poor at least once over
+the following decade. We call these families ‘‘future poor’’, a group whose share
+ranged from 10 % of the population in Argentina to 38 % in Costa Rica (Fig. 3).
+Finally, the share of the population that was never poor ranged from 8 % in
+Honduras to 57 % in Uruguay (Fig. 3).
+The identiﬁcation of the chronic and transient poor in the samples of 2003 allows
+investigating the household characteristics that are associated with different poverty
+durations. In other words, it allows studying who are the chronic poor, how they
+differ from the transient poor and, for comparison, from the non-poor. We address
+these questions by looking at Paraguay and Honduras, two countries at different
+stages of the socio-economic transition.
+Household characteristics of the chronic poor broadly mimic those that, in the
+literature, are commonly associated with extreme poverty. They include larger
+household size, more children, lower levels of education, more engagement in selfemployment, less wage employment, and residence in rural areas. Table 5 reports
+average household characteristics by dynamic poverty status in Paraguay and
+Honduras. Despite a few differences between the two countries, most patterns are
+common and the similarities are striking. In both countries, for example, chronically
+poor households had no member with complete tertiary education. In Honduras,
+they did not even have any member with complete secondary education; while in
+Paraguay, only one in six chronically poor households had one member with this
+level of schooling. Their likelihood to live in rural areas was ten times higher than
+among the non-poor. Self-employment decreased and wage employment grew as
+one moved from chronic poverty to non-poverty. The low level of human capital
+and the remote location suggest that, at least among the chronic poor, the graduation
+strategies with which many Latin American countries are attempting to complement
+% future-poor
+
+% never poor
+
+ARG
+
+BRA
+
+COL
+
+CRI
+
+DOM
+
+ECU
+
+HND
+
+35.6
+
+43.4
+35.5
+
+11.3
+
+21.7
+
+3.5
+
+7.3
+
+13.6
+
+17.7
+
+8.7
+
+15.6
+
+17.9
+10.3
+
+23.7
+
+29.5
+
+32.6
+25.6
+
+29.3
+11.2
+
+4.1
+
+7.5
+
+8.0
+
+22.1
+
+23.6
+
+26.3
+16.4
+19.9
+
+18.7
+
+43.1
+
+46.3
+37.4
+
+37.4
+31.3
+
+21.6
+7.4
+
+11.0
+
+10.0
+
+11.1
+
+9.8
+
+19.4
+
+24.7
+
+25.0
+
+27.5
+
+29.0
+
+37.5
+
+37.7
+33.3
+
+42.6
+
+45.0
+
+50.1
+
+57.3
+
+64.3
+
+% chronic poor
+
+PAN
+
+PER
+
+PRY
+
+SLV
+
+URY Region
+
+Source: Authors’ calculations based on synthetic panels built from household survey data from IDB’s Sociometro.
+Notes: ARG = Argentina (only urban), BRA = Brazil, COL = Colombia, CRI = Costa Rica, DOM = Dominican Republic, ECU = Ecuador, HND
+= Honduras, PAN = Panama, PER = Peru, PRY = Paraguay, SLV = El Salvador, URY = Uruguay (only urban).
+
+Fig. 3 Poverty dynamics in Latin American countries (2003–2013)
+
+Table 5 Household Characteristics in Paraguay and Honduras (2003), by Poverty Status. Source:
+authors’ calculations based on synthetic panels built from household survey data from IDB’s Sociometro
+Characteristic in 2003
+
+Paraguay
+
+Honduras
+
+Chronic
+poor
+% of population
+
+Transient
+poor
+
+Not
+poor
+
+Chronic
+poor
+
+Transient
+poor
+
+Not
+Poor
+
+43.1
+
+8.7
+
+48.2
+
+64.3
+
+4.1
+
+31.6
+
+Household head (share)
+Male
+
+0.51
+
+0.51
+
+0.48
+
+0.80
+
+0.72
+
+0.72
+
+Single
+
+0.04
+
+0.06
+
+0.08
+
+0.21
+
+0.27
+
+0.27
+
+Adult members (number)
+Self-employed
+
+1.03
+
+0.72
+
+0.45
+
+0.76
+
+0.52
+
+0.30
+
+Salaried
+
+0.48
+
+1.11
+
+1.48
+
+0.74
+
+1.30
+
+1.44
+
+Unemployed
+
+0.14
+
+0.21
+
+0.16
+
+0.08
+
+0.14
+
+0.16
+
+Inactive
+
+0.89
+
+0.82
+
+0.84
+
+1.13
+
+0.91
+
+0.98
+
+Primary education or less
+
+1.24
+
+0.69
+
+0.25
+
+1.12
+
+0.59
+
+0.26
+
+Incomplete secondary educ.
+
+0.46
+
+0.79
+
+0.65
+
+0.27
+
+1.03
+
+1.10
+
+Complete secondary educ.
+
+0.16
+
+0.51
+
+0.82
+
+0.01
+
+0.06
+
+0.12
+
+Incomplete tertiary educ.
+
+0.05
+
+0.27
+
+0.66
+
+0.01
+
+0.18
+
+0.60
+
+Complete tertiary educ.
+
+0.00
+
+0.04
+
+0.41
+
+0.00
+
+0.04
+
+0.38
+
+Children (aged 0–5)
+
+1.17
+
+0.72
+
+0.48
+
+1.16
+
+0.74
+
+0.49
+
+Children (aged 6–14)
+
+2.01
+
+1.20
+
+0.85
+
+1.99
+
+1.19
+
+0.96
+
+Elderly (65 and older)
+
+0.20
+
+0.24
+
+0.30
+
+0.24
+
+0.20
+
+0.25
+
+Members (total)
+
+6.55
+
+5.34
+
+4.66
+
+6.50
+
+5.14
+
+4.59
+
+0.69
+
+0.28
+
+0.08
+
+0.73
+
+0.17
+
+0.06
+
+authors’ calculations based on household survey data from IDB’s Sociometro
+2000
+
+2013
+
+Urban
+
+Rural
+
+Total
+
+Urban
+
+Rural
+
+Total
+
+Extreme poor
+
+19.1
+
+55.4
+
+28.8
+
+9.8
+
+34.8
+
+15.9
+
+Moderate poor
+
+17.0
+
+18.3
+
+17.4
+
+12.2
+
+19.4
+
+13.7
+
+Vulnerable
+
+37.1
+
+20.0
+
+32.4
+
+39.6
+
+32.5
+
+37.6
+
+Middle class
+
+24.6
+
+6.0
+
+19.6
+
+35.5
+
+12.9
+
+30.5
+
+High income
+
+2.2
+
+0.4
+
+1.7
+
+2.9
+
+0.4
+
+2.3
+
+Total
+
+100
+
+100
+
+100
+
+100
+
+100
+
+100
+100
+
+Panel A—Incidence
+
+Panel B—geographic distribution
+Extreme poor
+
+46.4
+
+53.6
+
+100
+
+42.3
+
+57.7
+
+Moderate poor
+
+70.0
+
+30.0
+
+100
+
+62.0
+
+38.0
+
+100
+
+Vulnerable
+
+82.2
+
+17.8
+
+100
+
+77.7
+
+22.3
+
+100
+
+Middle class
+
+91.0
+
+9.0
+
+100
+
+89.7
+
+10.3
+
+100
+
+High income
+
+92.7
+
+7.3
+
+100
+
+95.9
+
+4.1
+
+100
+
+% of the population
+
+71.6
+
+28.4
+
+100
+
+73.7
+
+26.3
+
+100
+
+Results based on 15 countries (Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic,
+Ecuador, Guatemala, Honduras, Mexico, Nicaragua, Panama, Peru, Paraguay, El Salvador)
+
+5 Differences between urban and rural areas
+The region has undergone a process of urbanization, which has been slowing down
+in recent years. The urban share of the population has been growing from 49 % in
+1960 to 80 % in 2013, and is expected to reach 83 % in 2025 (ECLAC 2013). In our
+sample of countries, this ﬁgure has increased from 72 % in 2000 to 74 % in 2013
+(Table 6, panel B). In this context, it is extremely important to understand the
+different urban–rural trends in poverty reduction, as when it comes to poverty, cities
+and countryside remain two worlds apart.15
+Extreme and overall poverty have decreased substantially in both urban and rural
+areas. Yet, in the latter, one-third of the population still lives in extreme poverty,
+and the incidence of total poverty exceeds 50 % (Table 6, panel A).
+The growth of a middle class is an eminently urban phenomenon. In rural areas,
+poverty reduction has been accompanied by an expansion of the vulnerable class,
+and only 13 % of the population had per-capita income above $10 in 2013. In
+contrast, the size of the vulnerable class remained fairly constant in urban areas.
+This is where the middle class expanded more rapidly (by over 10 pp).
+As a result, the rural nature of poverty has intensiﬁed, with a substantial increase of
+the share of poor living in rural areas. While in 2000 the rural areas were home to 54 %
+of the extreme poor and 30 % of the moderate poor, these ﬁgures increased to 58 and
+15
+It is relevant to acknowledge that the term urban refers to very different sizes of human settlements
+(Satterthwaite 2010), that may range from as few as 2500 to as many as several million inhabitants.
+only the high-income class became more urban during the period of analysis.
+In 2013, the majority of the extreme poor lived in urban areas only in four
+countries (Brazil, Chile, Colombia and Dominican Republic). In contrast, with few
+exceptions, moderate poverty was fairly equally distributed between urban and rural
+areas (Fig. 4). This suggests that long-term social safety net programs are best
+suited for rural areas, while short-term interventions are equally needed in urban and
+rural areas.
+In the near future, in urban areas, poverty is expected to leave way to a rising
+middle class (Fig. 5). This forecast is obtained by combining economic growth and
+demographic projections with the estimated growth elasticity of poverty. While the
+size of the vulnerable class will remain fairly stable (at around 40 % of the urban
+population), by 2025 the incidence of urban poverty is expected to fall to 13 %. The
+middle class will rise to represent 42 % of the urban population.
+In contrast, the growth of the middle class will be slow in rural areas. Poverty
+will be mostly replaced by vulnerability. The vulnerable class is expected to become
+the single largest group in 2021, and grow to 47 % of the rural population in 2025.
+Failing to account for substantial rural to urban migration may bias the results of
+the poverty dynamic analysis based on the pseudo-panel methodology (which
+assumes that household characteristics, including residence in rural or urban areas,
+are constant over time). For example, one may overestimate the number of poverty
+episodes in rural areas, if some rural families have migrated to urban areas and have
+managed, through migration, to transition to the vulnerable class. The direction of
+the bias will depend on who migrates (usually not the poorest) and how migration
+affects their income.
+In Annex 5, we analyze the variation in the proportion of urban population over the
+period 2003–2013. We show that its magnitude is small, and does not threaten the
+validity of our ﬁndings. This result is consistent with the slowdown in the process of
+urbanization documented in CELADE—Population Division of ECLAC (2015).
+The urban and rural poverty dynamics analyses conﬁrm that most of the mobility
+out of poverty took place in urban areas. In the cities, 35 % of the extreme poor and
+
+30.5
+27.0
+
+45.1
+36.9
+
+50.0
+
+69.2
+
+74.9
+39.6
+
+54.7
+
+64.4
+24.9
+
+35.3
+
+53.2
+33.7
+
+43.1
+41.7
+
+57.6
+
+70.7
+48.7
+
+MEX
+
+37.6
+
+47.6
+52.7
+
+HND
+
+66.1
+45.7
+50.8
+
+GTM
+
+60.3
+45.1
+
+ECU
+
+32.6
+
+45.1
+39.0
+32.6
+
+DOM
+
+38.2
+23.8
+
+23.3
+20.6
+
+Region
+
+SLV
+
+PRY
+
+PER
+
+PAN
+
+NIC
+
+CRI
+
+COL
+
+12.8
+
+CHL
+
+BRA
+
+15.4
+
+24.8
+
+39.3
+
+39.9
+34.8
+
+62.8
+59.0
+
+72.8
+38.4
+32.8
+
+BOL
+
+Total Population
+78.6
+
+Moderate poverty
+73.7
+
+Extreme poverty
+
+Source: Authors’ calculations based on household survey data from IDB’s Sociometro.
+Notes: BOL = Bolivia, BRA = Brazil, CHL = Chile, COL = Colombia, CRI = Costa Rica, DOM = Dominican Republic, ECU = Ecuador, GTM =
+Guatemala, HND = Honduras, MEX = Mexico, NIC = Nicaragua, PAN = Panama, PER = Peru, PRY = Paraguay, SLV = El Salvador.
+
+Panel A - Urban
+70
+
+Panel B - Rural
+Poor
+Vulnerable
+Middle-class
+High-income
+
+60
+50
+
+70
+
+Poor
+Vulnerable
+Middle-class
+High-income
+
+60
+50
+
+2024
+
+2021
+
+2018
+
+2015
+
+2012
+
+2009
+
+2006
+
+2003
+
+2000
+
+2024
+
+2021
+
+0
+2018
+
+10
+
+0
+2015
+
+10
+2012
+
+20
+
+2009
+
+20
+
+2006
+
+30
+
+2003
+
+40
+
+30
+
+2000
+
+40
+
+Source: Authors’ calculations based on household survey data from IDB’s Sociometro and population growth estimates from the Population
+Division of the United Nation Economic Commission for Latin America and the Caribbean (CELADE, ECLAC).
+Notes: projections for 2014-2025 were obtained using linear models on log of the Gini coefficient, log of Gross Domestic Product (GDP) per
+capita (current and one-year lagged), log of general government expenditure as percentage of GDP (current and one-year lagged), and country
+dummy variables. Data on GDP per capita and general government expenditure until 2019 are from the International Monetary Fund World
+Economic Outlook (October 2014) and for 2020-2025 are projections based on the growth rate 2000-2019. Data on population until 2025 are
+from ECLAC (2013). Projections for the region are population-weighted averages. Results based on 15 countries (Bolivia, Brazil, Chile,
+Colombia, Costa Rica, Dominican Republic, Ecuador, Guatemala, Honduras, Mexico, Nicaragua, Panama, Peru, Paraguay, El Salvador).
+
+Fig. 5 Poverty, vulnerability, and middle class in Latin America (2000–2025), region aggregate
+
+73 % of the moderate poor in 2003 had exited poverty after 10 years, against only
+15 and 53 % in rural areas (Table 7). A similar pattern can be observed for upward
+mobility from the vulnerable class. Symmetrically, the risk of falling from the
+middle class to the vulnerable class or into poverty was more than double in rural
+than in urban areas (44 versus 21 %). This may also be due to the differential urban–
+rural impacts of the world recession in the second part of the period of analysis.
+Rural areas are characterized by high incidence of chronic poverty and future
+poverty. 99 % of the extreme poor and 78 % of those that were moderate poor in
+2003 experienced chronic poverty between 2004 and 2013. Furthermore, 86 % of
+the vulnerable and 37 % of the middle class were poor at least once during the
+period of analysis. The picture is relatively rosier in urban areas, where ‘‘only’’
+86 % of extreme poverty and 42 % of moderate poverty were chronic, and where
+‘‘only’’ 62 % of the vulnerable experienced at least one episode of poverty (Fig. 6).
+Cross-country analysis shows that Ecuador and Panama present the widest gap
+between rural and urban areas, a result that is driven by the highly transient nature of
+urban moderate poverty. Variability is limited in the percentage of extreme poor that
+are chronic poor, both in rural and urban areas. More differences emerge when
+looking at the percentage of moderate poor that experience chronic poverty. This is,
+particularly, the case in urban areas. While in El Salvador 71 % of urban moderate
+poor experience chronic poverty over the following decade, the same happens to
+only one every ﬁve urban moderate poor in Ecuador and Panama. This indicates that
+in these countries, urban moderate poverty is particularly transient (Fig. 7).
+Complete data by country is presented in Annex 6, for the 12 countries for which we
+Source: authors’ calculations based on household survey data from IDB’s Sociometro
+% of individuals
+
+2013
+Extreme poor
+
+Moderate poor
+
+Vulnerable
+
+Middle class
+
+High income
+
+Total
+
+Panel A—Urban
+2003
+Extreme poor
+
+29.9
+
+34.9
+
+32.8
+
+1.5
+
+0.9
+
+100
+
+Moderate poor
+
+6.1
+
+20.9
+
+65.0
+
+7.6
+
+0.5
+
+100
+
+Vulnerable
+
+1.5
+
+6.6
+
+61.4
+
+30.2
+
+0.3
+
+100
+
+Middle class
+
+0.2
+
+0.7
+
+20.2
+
+76.5
+
+2.4
+
+100
+
+High income
+
+0.0
+
+0.0
+
+0.6
+
+59.9
+
+39.5
+
+100
+
+Extreme poor
+
+57.7
+
+27.6
+
+14.1
+
+0.3
+
+0.3
+
+100
+
+Moderate poor
+
+14.5
+
+32.9
+
+50.0
+
+2.4
+
+0.3
+
+100
+
+5.3
+
+15.0
+
+65.8
+
+13.8
+
+0.1
+
+100
+
+Panel B—Rural
+2003
+
+Vulnerable
+Middle class
+
+1.0
+
+3.3
+
+39.5
+
+55.9
+
+0.3
+
+100
+
+High income
+
+0.0
+
+0.0
+
+2.7
+
+35.6
+
+61.7
+
+100
+
+Results based on 12 countries (Argentina (only urban), Brazil, Colombia, Costa Rica, Dominican
+Republic, Ecuador, Honduras, Panama, Peru, Paraguay, El Salvador, and Uruguay (only urban))
+Aggregate
+% of extreme poor that are chronic
+
+% of moderate poor that are chronic
+
+% of future-poor among the vulnerable
+
+% of future-poor among the middle-class
+98.7
+
+86.1
+
+86.1
+78.3
+61.8
+42.5
+
+36.9
+13.1
+
+Urban
+
+Rural
+
+Source: Authors’ calculations based on household survey data from IDB’s Sociometro.
+Notes: results based on 12 countries (Argentina (only urban), Brazil, Colombia, Costa Rica, Dominican Republic, Ecuador, Honduras, Panama,
+Peru, Paraguay, El Salvador and Uruguay (only urban)).
+
+Fig. 6 Urban and rural poverty dynamics in Latin America (2003–2013), region aggregate
+
+6 Conclusions and implication for the design and implementation
+of social safety nets
+In the absence of information on poverty dynamics, development practitioners
+frequently assume that extreme poverty is chronic and rural, while moderate poverty
+is transient and urban. Similarly, they tend to expect that the vulnerable are at risk of
+falling into poverty, while the middle class has reached a safe place and no longer
+
+CRI
+
+ECU
+
+70.9
+18.9
+
+39.7
+
+43.6
+
+DOM
+
+99.9
+96.7
+97.3
+
+99.2
+90.6
+90.1
+
+99.5
+85.4
+92.0
+
+98.2
+65.1
+
+18.8
+
+BRA
+
+71.7
+66.5
+
+97.8
+75.5
+71.5
+
+38.5
+
+46.8
+
+56.0
+
+78.1
+71.9
+
+95.1
+
+98.3
+88.9
+91.8
+48.2
+
+65.6
+
+99.6
+95.5
+93.7
+
+% of moderate poor that are chronic - urban
+
+99.2
+96.9
+86.2
+
+% of extreme poor that are chronic - urban
+
+% of moderate poor that are chronic - rural
+98.4
+92.8
+
+% of extreme poor that are chronic - rural
+
+HND
+
+PAN
+
+PER
+
+PRY
+
+SLV
+
+Source: Authors’ calculations based on household survey data from IDB’s Sociometro.
+Notes: BRA = Brazil, COL = Colombia, CRI = Costa Rica, DOM = Dominican Republic, ECU = Ecuador,
+HND = Honduras, PAN = Panama, PER = Peru, PRY = Paraguay, SLV = El Salvador
+
+Fig. 7 Urban and rural chronic poverty in Latin American countries (2003–2013)
+
+In this paper, we construct synthetic panels and analyze poverty dynamics for a
+large sample of Latin American countries, with the aim to provide policy makers
+and development practitioners (engaged in project design) with estimates of the
+duration of poverty. While the availability of real long panel data would allow
+reﬁning and deepening the analysis, we believe that our results constitute a useful
+proxy and hope they will stimulate further data collection and research. Our analysis
+contributes to debunking a few common assumptions.
+First, we show that chronic poverty is widespread also among the moderate poor.
+This type of poverty, characterized by long duration, accounts for 91 % of extreme
+poverty and, surprisingly, 50 % of moderate poverty. As expected, chronic poverty
+is more frequent in rural areas, where 99 % of the extreme poor and as many as
+78 % of the moderate poor are chronic poor.
+Second, we show that also the middle class is still exposed to a substantial risk of
+falling back into poverty. More speciﬁcally, we ﬁnd that 14 % of those that
+belonged to the middle class in 2003 experienced at least one poverty episode
+during the following decade.
+Our results differ from those of Ferreira et al. (2013) and Vakis et al. (2015),
+although they are based on the application of a similar synthetic panel methodology.
+These authors analyze mobility between two periods only, and ﬁnd that the
+vulnerable and the middle class are more consolidated in their status. For example,
+Ferreira et al. (2013, Table 4.1) estimate that only 2.7 % of the vulnerable and
+0.5 % of the middle class fall back into poverty.
+Our ﬁndings have important implications for the design and implementation of
+social safety nets. First, they suggest that interventions that target the rural poor and
+the urban extreme poor need to adopt a long-term perspective. The frequent
+recertiﬁcation of the beneﬁciaries might not be needed and, probably, represents a
+loss of administrative and ﬁnancial resources.
+Second, our ﬁndings suggest that interventions that target the urban moderate poor
+satisfactorily. The Brazilian model based on declared income may represent a better
+alternative, if it can be coupled with frequent recertiﬁcation and electronic audits of
+eligibility based on crossing information from the roster of beneﬁciaries with other
+sources of administrative data (e.g., social security contributions, ownership of assets).
+Third, we show that the chronic poor have extremely low levels of human capital
+and live in rural areas with limited opportunity of wage employment. These are key
+factors for escaping poverty. Consequently, our ﬁndings suggest that, at least for this
+group, graduation strategies aimed at increasing income-generation capacity have
+low probabilities of success.16
+Finally, the ﬁnding that both the vulnerable and the middle class are likely to
+experience poverty in the future implies that the social safety nets remain relevant
+for many that are currently out of poverty.17
+A caveat is worth mentioning. Our dynamic analysis is based on 12 countries for
+which data are available. Further work is needed to incorporate results for more
+countries and increase the representativeness of our ﬁndings.
+Acknowledgments This report has been prepared with funds from the IDB economic and sector work
+‘‘Social Protection beyond Conditional Cash Transfers: Challenges and Alternatives’’ (RG-K1374). We
+thank Ferdinando Regalia, Norbert Schady, Susan Parker, and two anonymous referees for useful
+comments and suggestions. Remaining errors are ours only. The content and ﬁndings of this paper reﬂect
+the opinions of the authors and not those of the IDB, its Board of Directors or the countries they represent.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons license, and indicate if changes were made.
+
+Annex 1: Data sources
+IDB’s Harmonized Data Bank of Household Surveys from Latin America and the
+Caribbean (also known as IDB’s Sociometro) contains harmonized household data
+sets for Latin American and Caribbean countries starting from the late 1980s.
+Variable names, deﬁnitions, and contents are kept constant across countries and
+time. Table 8 shows the number of data sets used for the preparation of this paper.
+Although it is well known that per-capita consumption is a better proxy for wellbeing, we use per-capita income, because few countries in the region routinely
+conduct surveys with a consumption module, while all of them include questions on
+income. We calculate per-capita income by dividing total household income by the
+number of household members, without using any adult equivalence scale.
+Income components are reported after-tax whenever possible. Extraordinary
+income sources are not considered. Similarly, we do not include the implicit rent
+from owned or occupied housing, because not all countries capture the information
+16
+For a review of the experience with recertiﬁcation and graduation in Latin American conditional cash
+´
+transfer programs, see Medellın et al. (2015).
+17
+For an estimate of the demand for social safety nets in Latin American countries, see Ibarraran et al.
+Country
+
+Geographic
+coverage
+
+Survey year
+Initial
+
+# of surveys
+Final
+
+Average
+observations
+per survey
+
+ARG
+
+Urban
+
+2000
+
+2013
+
+14
+
+BOL
+
+National
+
+2000
+
+2012
+
+11
+
+23,280
+
+BRA
+
+National
+
+2001
+
+2013
+
+12
+
+384,241
+
+CHL
+
+National
+
+2000
+
+2011
+
+5
+
+245,192
+
+COL
+
+National
+
+2000
+
+2013
+
+14
+
+172,354
+
+CRI
+
+National
+
+2000
+
+2013
+
+14
+
+43,100
+
+DOM
+
+National
+
+2000
+
+2013
+
+14
+
+28,051
+
+ECU
+
+National
+
+2000
+
+2013
+
+13
+
+75,818
+
+GTM
+
+National
+
+2000
+
+2013
+
+9
+
+29,275
+
+HND
+
+National
+
+2001
+
+2013
+
+13
+
+63,955
+
+MEX
+
+National
+
+2000
+
+2012
+
+8
+
+80,655
+
+NIC
+
+National
+
+2001
+
+2012
+
+6
+
+31,306
+
+PAN
+
+National
+
+2000
+
+2013
+
+14
+
+49,091
+
+PER
+
+National
+
+2000
+
+2013
+
+14
+
+85,462
+
+PRY
+
+National
+
+2000
+
+2013
+
+13
+
+25,986
+
+SLV
+
+National
+
+2000
+
+2013
+
+14
+
+74,010
+
+URY
+
+Urban until 2005,
+national since 2006
+
+2000
+
+2013
+
+14
+
+108,960
+
+VEN
+
+National
+
+2000
+
+2013
+
+14
+
+159,906
+
+Total
+
+112,282
+
+216
+
+that allows estimating it.18 As is common practice in academic and ofﬁcial studies,
+we do not make any imputation for missing, null or outlying values in addition to
+those already contained in the data sets provided by the national statistical ofﬁces.
+Finally, we do not make adjustments for differences in urban–rural prices.
+
+Annex 2: Synthetic-panel methodology
+Table 9 summarizes the existing literature comparing results from genuine panel
+data with non-parametric, parametric, and point estimate synthetic-panel methods.
+All results reported are based on the use of household time-invariant characteristics,
+sub-national controls, and region ﬁxed effects, consistently with the deﬁnition of our
+own model. They show that the estimates based on the average of the bounds
+(Eq. (4)) approximate well the estimates based on genuine panel data, irrespective
+of the length of the period analyzed (2 years in Peru, versus 10 in Chile), the width
+of the bounds, the type of poverty transition, and the number of replications used to
+obtain the upper bound (50, 100, 500). These estimates are found to be as accurate
+18
+Given our deﬁnition of the income variables, our poverty estimates may differ from the ofﬁcial ones
+
+Lower
+
+62.13
+
+Non-poor, poor
+
+Non-poor, non-poor
+39.44
+
+2.77
+
+Poor, non-poor
+
+38.20
+
+Non-poor, poor
+
+Non-poor, non-poor
+6.68
+
+22.36
+
+Poor, non-poor
+
+Non-poor, poor
+
+Non-poor, non-poor
+40.62
+
+0.92
+82.06
+
+Poor, non-poor
+
+16.39
+17.01
+50.00
+
+Poor, poor
+
+Poor, non-poor
+
+Non-poor, poor
+
+Non-poor, non-poor
+
+Philippines 2003–09
+
+10.35
+
+Poor, poor
+
+Chile 1996–06
+
+0.00
+
+Poor, poor
+
+Nicaragua 2001–05
+
+4.29
+
+Poor, poor
+
+40.93
+
+2.06
+
+7.33
+
+25.66
+
+71.75
+
+4.94
+
+20.66
+
+2.66
+
+28.31
+
+30.83
+
+9.89
+
+30.97
+
+48.80
+
+16.37
+
+17.62
+
+17.21
+
+Upper
+
+45.47
+
+9.54
+
+11.86
+
+33.14
+
+76.91
+
+2.93
+
+15.51
+
+4.67
+
+33.26
+
+26.60
+
+4.95
+
+35.21
+
+55.47
+
+9.57
+
+10.96
+
+24.01
+
+Average
+
+Non-parametric approach
+
+30.81
+
+Country, years, type of
+transition
+
+World Bank (2014) Social gains in the balance: a ﬁscal policy challenge for Latin America and the
+Lat Am Econ Rev (2016) 25:4
+DOI 10.1007/s40503-016-0034-1
+ORIGINAL RESEARCH
+
+Poverty, vulnerability, and the middle class in Latin
+America
+´
+Marco Stampini1 • Marcos Robles2 • Mayra Saenz2
+´
+´
+Pablo Ibarraran1 • Nadin Medellın1
+
+•
+
+Received: 22 July 2015 / Revised: 5 June 2016 / Accepted: 10 July 2016 /
+Published online: 19 August 2016
+Ó The Author(s) 2016. This article is published with open access at Springerlink.com
+
+Abstract Between 2000 and 2013, Latin America has considerably reduced poverty (from 46.3 to 29.7 % of the population). In this paper, we use synthetic panels
+to show that, despite progress, the region remains characterized by substantial
+vulnerability that also affects the rising middle class. More speciﬁcally, we ﬁnd that
+65 % of those with daily income between $4 and 10, and 14 % of those in the
+middle class experience poverty at least once over a 10-year period. Furthermore,
+chronic poverty remains widespread (representing 91 and 50 % of extreme and
+moderate poverty, respectively). Differences between rural and urban areas are
+substantial. Urban areas, which are now home to most moderate poor and vulnerable, are characterized by higher income mobility, particularly upward mobility.
+These ﬁndings have important implications for the design of effective social safety
+nets. These need to mix long-term interventions for the chronic poor, especially in
+rural areas, with ﬂexible short-term support to a large group of transient poor and
+vulnerable, particularly in urban areas.
+
+& Marco Stampini
+mstampini@iadb.org
+Marcos Robles
+marcosr@iadb.org
+´
+Mayra Saenz
+mayras@iadb.org
+´
+Pablo Ibarraran
+pibarraran@iadb.org
+´
+Nadin Medellın
+nadinm@iadb.org
+1
+
+Social Protection and Health Division of the Inter-American Development Bank (IDB),
+Washington, DC, USA
+
+2
+
+Middle class Á Latin America Á Panel data Á Synthetic panels Á Mobility
+JEL classiﬁcation I32 Á O15 Á O54 Á C23 Á C53
+
+1 Introduction
+In recent years, Latin America has made remarkable progress in the reduction of
+poverty and inequality. Between 2000 and 2013, the percentage of the population
+living on less than $2.5 per capita per day decreased from 28.8 to 15.9 %, while the
+share of the population living on less than $4 dropped from 46.3 to 29.7 %. Over the
+same period, the region has also managed to reduce its unfortunately distinctive
+inequality: the Gini coefﬁcient of the income distribution fell from 0.57 to 0.51.
+These improvements were largely driven by sustained economic growth, which
+led to an expansion of the middle class.1 However, despite these positive trends, the
+region is still home to 92 million extreme poor and 77 million moderate poor. In
+addition, most of those that exited poverty joined the vulnerable class and are still at
+substantial risk of falling into poverty (Fig. 1).
+The trends in the incidence and depth of poverty, however, do not fully capture
+poverty dynamics, i.e., its duration and how often families enter and exit poverty.
+This information is very important for the design of effective social safety nets,
+particularly as far as targeting and recertiﬁcation are concerned.2 Frequent
+movements in and out of poverty imply the need for ﬂexible safety net entry and
+exit rules.
+The analysis of poverty dynamics and income mobility in developing countries
+has received relatively limited attention, largely due to the lack of adequate
+longitudinal data.3 Recently, Ferreira et al. (2013) and Vakis et al. (2015) have
+analyzed intra-generational mobility in Latin America, with a focus, respectively,
+on the middle class and the chronic poor. Their analysis is based on the synthetic
+panel methodology developed by Dang et al. (2014), which is the same we employ
+in this paper. The two works construct two-period transition matrices [1995–2010 in
+Ferreira et al. (2013), 2004–2012 in Vakis et al. (2015)] and deﬁne the chronic poor
+as those that were poor in both years. The analysis only captures mobility from the
+ﬁrst period to the last period, and not yearly mobility in between the two.
+1
+
+For an analysis of the key drivers of poverty reduction in Peru, see Robles and Robles (2014).
+
+2
+
+Targeting is the process of identiﬁcation of poor and vulnerable beneﬁciaries, as opposed to universal
+entitlement to beneﬁts. Recertiﬁcation is the periodic veriﬁcation of beneﬁciaries’ living standards, to
+assess whether they still qualify for receiving the beneﬁts.
+
+3
+
+See Jalan and Ravallion (1998), Baulch and Hoddinott (2000), Davis and Stampini (2002), Hulme and
+Shepherd (2003), Dercon and Shapiro (2007), Fields et al. (2007), Stampini and Davis (2009), Ferreira
+et al. (2013), Vakis et al. (2015). What is missing in this literature is the analysis of poverty or income
+dynamics with long panels made of consecutive years. Robles and Saenz (2015) have started to ﬁll this
+gap; using synthetic panels (similar to those employed in this paper) and a discrete-time hazard model,
+they identify the factors associated with long-term poverty and exit from poverty in a sample of Latin
+28.8%
+
+15.9%
+
+2000
+
+2013
+
+32.4%
+
+30.5%
+
+19.6%
+
+17.4%
+13.7%
+
+1.7% 2.3%
+Extreme poor
+
+Moderate poor
+
+Vulnerable
+
+Middle class
+
+High income
+
+Source: Authors’ calculations based on household survey data from IDB’s Harmonized Data Bank of Household Surveys from Latin America
+and the Caribbean (also known, and hereafter referred to, as IDB’s Sociometro).
+Notes: extreme poor are defined as having per-capita daily income under $2.5 after purchasing power adjustment; moderate poor between $2.5
+and 4; vulnerable between $4 and 10; middle-class between $10 and 50 (as in López-Calva and Ortiz-Juárez (2011)); high-income above $50.
+Results based on 18 countries (Argentina (only urban), Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, Guatemala,
+Honduras, Mexico, Nicaragua, Panama, Peru, Paraguay, El Salvador, Uruguay (only urban), Venezuela).
+
+Fig. 1 Income distribution in Latin America (2000–2013), region aggregate
+
+Consequently, it depicts the vulnerable and the middle class as consolidated in their
+position (with a low probability of experiencing poverty).
+In this paper, we generate 10-year synthetic panels for a large sample of Latin
+American countries, and use them to estimate yearly movements in and out of
+poverty from 2003 to 2013. We provide a novel classiﬁcation of households based
+on poverty duration, which distinguishes chronic poor, transient poor, future poor,
+and never poor. The future poor include those that initially belonged to the
+vulnerable, middle, and high-income classes, and experienced poverty at any time
+over the following decade.
+We ﬁnd that 65 % of the vulnerable (i.e., those with daily income between $4 and
+10), and 14 % of those in the middle class (with daily income between $10 and 50)
+of 2003, experienced poverty at least once during the period 2004–13. At the same
+time, chronic poverty remains widespread, accounting for 91 and 50 % of extreme
+and moderate poverty, respectively. Differences between rural and urban areas are
+substantial. Urban areas, which are now home to most moderate poor and
+vulnerable, are characterized by higher (particularly upward) income mobility.
+The remainder of the paper is organized as follows. Section 2 deﬁnes poverty and
+vulnerability, and describes the data and the methodology employed for constructing synthetic panels and forecasting poverty dynamics. Section 3 presents the trends
+in poverty reduction and shows that the Latin American region is highly
+heterogeneous in the stage and speed of the socioeconomic transition towards the
+middle class. Section 4 analyzes poverty dynamics, including transition matrices
+and poverty duration, and discusses household characteristics of chronic and
+transient poor. Section 5 highlights the main differences between urban and rural
+poverty. Section 6 concludes summarizing key ﬁndings and policy implications.
+and recertiﬁcation processes.4
+Six annexes provide additional information on data, methods, sensitivity
+analyses, and country results. Annex 1 lists the data sources. Annex 2 summarizes
+the existing literature comparing results from genuine panel data with nonparametric, parametric, and point estimate synthetic-panel methods. Annex 3 shows
+the bounds of selected estimates, providing a visual representation of the quality of
+our results. Annex 4 presents sensitivity analyses of key chronic poverty results to
+the adoption of alternative poverty lines. Annex 5 shows that the variation in the
+share of urban population is limited between 2003 and 2013, which is necessary for
+the validity of the rural/urban breakdown of the dynamic analyses based on the
+pseudo panel methodology. Finally, Annex 6 presents country-speciﬁc poverty
+proﬁles.
+
+2 Data and methodology5
+We look at poverty through two lenses, one that focuses on depth and the other on
+duration. The former is static, and analyzes a picture of poverty through the value of
+daily per-capita income (expressed in 2005 dollars adjusted to reﬂect purchasing
+power parity). It divides the population in ﬁve groups: (i) the extreme poor, with
+income below $2.5; (ii) the moderate poor, between $2.5 and 4; (iii) the vulnerable,
+´
+between $4 and 10; (iv) the middle class, between $10 and 50 [as in Lopez-Calva
+´
+and Ortiz-Juarez (2011)]; and (v) the high-income class, above $50.
+The $2.5 line corresponds to the median of the ofﬁcial extreme poverty lines in
+Latin American countries (CEDLAS and World Bank 2012), and has already been
+used in regional studies (World Bank 2014). It is higher than the international
+extreme poverty line of $1.25 used by Ravallion et al. (2008), which corresponds to
+the mean of the ofﬁcial extreme poverty lines of the 15 poorest countries in the
+world. The use of a higher line reﬂects the relatively more advanced stage of
+socioeconomic development (and the higher price levels) of the Latin American
+region. Similar considerations hold for the $4 poverty line. The vulnerable class is
+´
+´
+deﬁned by Lopez-Calva and Ortiz-Juarez (2011), as having a per capita daily
+income between $4 and 10, which is empirically observed to imply a probability
+greater than 10 % of falling into poverty.
+The second lens is dynamic and focuses on the duration of poverty. It divides the
+population in four groups: (i) the chronic poor, that are poor (either extreme or
+4
+
+We refer to social safety nets as the systems of social protection for the poor and vulnerable. In the
+Inter-American Development Bank Strategic Framework Document on Social Protection and Poverty,
+this is deﬁned as ‘‘(i) efﬁcient redistributive programs that contribute to human capital development; and
+(ii) delivery of services for social inclusion, in particular those aimed at early childhood development and
+at-risk youth’’ (IDB 2014). The ﬁndings of this paper are particularly relevant for the design and
+implementation of redistributive programs, such as conditional cash transfers (CCTs), whose duration and
+level of beneﬁts should depend on poverty duration and depth.
+
+5
+
+Non-technical readers can skip this section with no prejudice to their ability to understand the rest
+decade;6 (ii) the transient poor, that are poor in the ﬁrst year, and again in four or
+less years over the following decade; (iii) the future poor, that are either vulnerable,
+middle class, or high income in the ﬁrst year of analysis, but experience poverty in
+at least 1 year during the following 10 years; (iv) the never poor, who are always
+above the $4 poverty line.
+Conditioning the deﬁnition of chronic and transient poverty on being poor in the
+ﬁrst year guarantees that the sum of extreme and moderate poverty equals the sum
+of chronic and transient poverty. In other words, the incidence of poverty does not
+change, no matter if one looks at it through the lenses of depth or through those of
+duration.
+The analysis focusing on the static deﬁnition of poverty is based on observed
+micro-data from 216 cross-sectional household surveys collected between 2000 and
+2013 in 18 Latin American countries (see Annex 1).7 These data are from IDB’s
+Harmonized Data Bank of Household Surveys from Latin America and the
+Caribbean (also known as IDB’s Sociometro). Regional estimates of the incidence
+of poverty are obtained by imputing missing values for years with no survey, then
+calculating population-weighted averages of country estimates.
+The data are representative both at the national level and at the urban–rural level,
+with the exception of Argentina, Uruguay, and Venezuela. In Argentina, the
+household survey is only urban. In Uruguay, rural areas have been surveyed only
+since 2006; we restrict the analysis to urban areas to ensure comparability over the
+period 2000–2013. In Venezuela, since 2004, the survey does not contain a variable
+that allows separating rural and urban areas.
+Given the unavailability of real-panel data sets, in which the same households are
+surveyed across time, the analysis of poverty duration is based on the construction
+of synthetic panels a la Dang et al. (2014).8 This method was originally designed to
+analyze transitions in and out of poverty based on two (or more) rounds of crosssectional data. In addition, the literature, so far, has focused on proving the
+reliability of the methodology (Cruces et al. 2011; Fields and Viollaz 2013; Haynes
+et al. 2013). Our objective is slightly different, as we aim to investigate poverty
+duration, or more speciﬁcally in how many years a family has been poor over a
+decade. For this purpose, we calculate yearly point estimates of per-capita income
+based on yearly cross-sectional data.9
+The sample is made of families surveyed in the ﬁrst year (t = 0). For each of the
+following 10 years (s = 1,10), we estimate per-capita income using time-invariant
+
+6
+
+The 5-year threshold, like any alternative threshold, is somehow arbitrary. However, the results
+presented in this paper are generally robust to the adoption of alternative values.
+
+7
+
+These are the 18 countries that regularly execute household surveys and share their databases with the
+IDB. We lament not being able to include Caribbean countries, for which such data is not available.
+
+8
+
+Other synthetic or pseudo-panel approaches are those that track cohorts of individuals or households
+over repeated cross-sectional surveys (Deaton 1985), and those that recover the stochastic process from
+cross sectional data and generate individual income dynamics (Bourguignon et al. 2004).
+
+9
+
+We follow Canavire and Robles (2013), who, using this kind of panels and non-parametric duration
+residuals.10 The methodology assumes a linear structure of the income equation,
+and is based on the following two assumptions: (i) households do not change, which
+ensures that time-invariant variables observed in t = 0 can be used to estimate
+income in t = s, and (ii) the correlation of the error terms across time (et¼0 and et=s)
+is not negative. This is a reasonable assumption given that income shocks show
+persistence over time, and factors leading to a negative correlation of income over
+time are unlikely to apply to all households at the same time. The methodology
+requires estimating the following equations:
+yi;t ¼ b0t xi;t þ ei;t
+
+for t ¼ 0; 10
+
+ð1Þ
+
+i.e., for the ﬁrst period and for the following 10 years, where yi,t is the logarithm of
+household i’s per-capita income at time t, and xi,t is a vector of variables measuring
+household i’s characteristics at time t. Our speciﬁcation of the model includes
+variables typically employed in the literature (Dang et al. 2014; Cruces et al. 2011),
+plus statistically signiﬁcant variables at the regional level. The vector x contains the
+following variables:
+(i)
+(ii)
+
+(iii)
+(iv)
+
+Household head characteristics: sex, age, age squared, years of schooling,
+years of schooling squared, and agricultural work;
+Region (ﬁrst-level administrative country subdivision) characteristics:
+average years of schooling of the household heads, and proportion of
+workers in agriculture;
+Geographic controls: rural–urban residence;
+Retrospective regressors at regional level in the initial year (2003):
+inequality (standard deviation of log income), extreme poverty headcount
+($2.5 a day), average per capita income, average household size, and
+average years of schooling of the household heads.
+
+^
+^
+The regressions produce 11 estimates of vectors b and e (bt and et , one for each
+^
+time period). They also produce 11 estimates of the error term variance (ret ). These
+parameters are used to produce the synthetic-panel estimates of yearly per-capita
+income.
+Following Cruces et al. (2011), Fields and Viollaz (2013), and Haynes et al.
+(2013), we use the ‘‘non-parametric’’ version of the method, i.e., we make no
+assumptions on the structural form of the joint distribution of the errors terms. Two
+extreme assumptions on the non-parametric time correlation of the error terms lead
+to a lower and upper bound estimate of per-capita income mobility. At one extreme,
+one can assume zero correlation between et¼0 and et=s, i.e., that the two error terms
+are independent from each other. The logarithm of per capita income of household
+i in t = s (^U ) is estimated as follows:
+yi;t¼s
+
+10
+Dang et al. (2014) and Cruces et al. (2011) show that the method performs well irrespective of the
+forecasting direction, i.e. that estimates of mobility are very similar if one predicts per-capita income in
+~
+^i;t¼s ^
+yU ¼ bt¼s xi;t¼0 þ ei;t¼s
+
+ð2Þ
+
+^
+~
+where the apex U indicates uncorrelated error terms, and ei;t¼s is the mean of 50
+random draws (with replacement) from the vector of estimated residuals in t = s. At
+the other extreme, one can assume perfect correlation between et¼0 and et=s. Under
+this assumption, the logarithm of per capita income of household i in t = s (^C ) is
+yi;t¼s
+estimated as follows:
+0
+
+^i;t¼s ^
+yC ¼ bt¼s xi;t¼0 þ c^i;t¼0
+e
+
+ð3Þ
+
+^
+where the apex C indicates correlated error terms, ei;t¼0 is (the time-invariant)
+^
+^
+household i’s empirical error term estimated in t = 0, and c ¼ ret¼0 =ret¼s . is a scale
+factor.
+Dang et al. (2014) and Cruces et al. (2011) show that: (i) Eq. (2) produces upperbound estimates of income mobility, due to the high variation in the error term, and
+overestimates people’s movements in and out of poverty; (ii) Eq. (3) produces
+lower-bound estimates of income mobility, due to the constant error term, and
+underestimates poverty transitions; and (iii) the average of (2) and (3) approximates
+well the observed income mobility, providing a satisfactory estimation of
+movements in and out of poverty. This last point is proved empirically by
+comparing synthetic-panel estimates of mobility with those observed in genuine
+panel data. We, therefore, calculate point estimates of per-capita income of the
+households in the synthetic-panel as follows:11Recently, Dang and Lanjouw (2013)
+have developed a point estimate synthetic panel approach, which generalizes the use
+of non-parametric and parametric methods to produce point estimates of poverty
+transitions. This could have been used, as alternative to Eq. (4), to produce the
+estimates of poverty duration presented in this paper. We preferred to rely on
+Eq. (4), because the two methods have been shown to be empirically equivalent in
+terms of accuracy, and because Dang and Lanjouw (2013) indicate that the pointestimate methodology is most accurate when short time periods are analyzed. The
+existing literature comparing results from genuine panel data with non-parametric,
+parametric, and point estimate synthetic-panel methods is summarized in Annex 2.
+
+
+^
+~
+e
+ei;t¼s þ c^i;t¼0
+^0
+^
+yi;t¼s ¼ bt¼s xi;t¼0 þ
+:
+ð4Þ
+2
+As a result, our analysis of income mobility is based on income observed in 2003
+along with income estimated for the years between 2004 and 2013. The quality of the
+predictions is essential to guarantee that results are credible. As is usual practice, we
+carefully ensured the quality of the ﬁt (value of R-squared, signiﬁcance of coefﬁcients,
+over-ﬁtting). In Annex 3, we show for selected countries that the upper and lower
+bounds of predicted incomes produce poverty rates that are very close to the rates
+11
+
+Dang et al. (2014) suggest that standard errors for the bounds can be estimated by bootstrapping. This
+involves bootstrap resampling from the original cross-sections while accounting for survey weights
+(footnote 14). Similarly, we could obtain standard errors for our point estimates by complementing Dang
+of chronic poverty, transient poverty, and future poverty in selected countries.
+Our methodology can only be applied to 12 countries that have household survey
+data for each year between 2003 and 2013 (Argentina, Brazil, Colombia, Costa
+Rica, Dominican Republic, Ecuador, Honduras, Panama, Paraguay, Peru, El
+Salvador, and Uruguay). Regional numbers were obtained pooling micro-data from
+the 12 countries and using survey weights.12
+
+3 Static analysis: an heterogeneous and still vulnerable region
+Latin America is a very heterogeneous region in terms of the stage of
+socioeconomic transition, deﬁned as the process of transition out of poverty
+towards the middle class. Countries such as Argentina, Chile, and Uruguay, are at an
+advanced stage, being mainly made of middle and high-income class (with the
+incidence of poverty around 10 %). On the other hand, countries such as Guatemala
+and Honduras, are at the earliest stages: almost half of their population still lives in
+extreme poverty, and the incidence of overall poverty exceeds 65 % (Table 1).
+One feature, however, is common to all countries: the large size of the vulnerable
+class. This represents in most cases 30–40 % of the population, suggesting that an
+important share of the population remains at substantial risk of falling into poverty.
+Countries with low poverty rates and large middle classes are no exception. In these
+countries, the vulnerable class is the back end of the socioeconomic transition; while
+in the poorest countries, the vulnerable class leads the way.
+Country heterogeneity is also high in the speed of the socio-economic transition.
+For example, Colombia and Ecuador reduced the incidence of poverty by more than
+25 percentage points (pp), and expanded their middle and upper classes by more
+than 15 pp (Table 1). In contrast, progress was sluggish in Mexico and Dominican
+Republic, despite the fact that these countries started from poverty headcounts
+around 40 %.
+Table 2 summarizes the region’s heterogeneity by classifying the Latin American
+countries based on the stage and speed of their socioeconomic transition. In the
+countries in the upper-left cell, for example, Nicaragua and El Salvador, the poor
+still represents the largest share of the population, and poverty reduction has been
+relatively slow (less than 25 % between 2000 and 2013). These are the countries
+with the highest need for reforming and/or expanding the social safety net, as
+poverty is widespread and resilient. These are also the countries with less ﬁnancial
+resources for its implementation, so efﬁciency should be at the top of their policy
+agenda.
+12
+
+Brazil does not have a household survey for 2010. In order to include it in the dynamic analysis, we
+considered mobility over the period 2002–2013. It is important to highlight the caveat that our dynamic
+analysis is based on twelve countries with available data. Among the excluded countries is Mexico, which
+accounts for an important share of the population of the region. The exclusion of Mexico is due to the fact
+that the Encuesta Nacional sobre Ingresos y Gastos de los Hogares is carried out every two years, while
+the Encuesta Nacional de Ocupacion y Empleo is yearly but has been nationally representative only since
+´
+
+15.9
+
+URY
+
+VEN
+
+Region
+
+13.7
+
+13.8
+
+6.4
+
+21.2
+
+14.0
+
+13.7
+
+11.1
+
+34.4
+
+37.6
+
+45.9
+
+32.3
+
+41.4
+
+38.5
+
+40.5
+
+36.1
+
+33.3
+
+37.8
+
+24.9
+
+25.2
+
+42.0
+
+38.7
+
+37.7
+
+36.7
+
+37.7
+
+38.4
+
+38.5
+
+52.5
+
+30.5
+
+29.1
+
+54.5
+
+15.4
+
+30.1
+
+25.7
+
+34.7
+
+9.3
+
+23.0
+
+8.5
+
+7.3
+
+26.8
+
+17.2
+
+39.2
+
+27.2
+
+45.7
+
+36.9
+
+28.4
+
+2.3
+
+0.6
+
+2.9
+
+0.3
+
+1.5
+
+0.8
+
+2.6
+
+0.3
+
+1.7
+
+0.2
+
+0.2
+
+1.4
+
+0.8
+
+4.0
+
+2.2
+
+6.3
+
+3.6
+
+0.6
+
+2.2
+
+High income
+-10.9
+
+-12.9
+
+-20.7
+
+-0.9
+
+-8.5
+
+-14.7
+
+-15.5
+
+-8.1
+
+-14.3
+
+-3.0
+
+2.1
+
+0.4
+
+-27.3
+
+-1.3
+
+-6.7
+
+-21.5
+
+-6.5
+
+-16.8
+
+-23.0
+
+-3.7
+
+-7.7
+
+-2.7
+
+3.1
+
+-0.7
+
+-4.4
+
+-3.7
+
+6.9
+
+-0.3
+
+1.5
+
+5.5
+
+-4.4
+
+2.9
+
+-4.3
+
+-4.1
+
+-6.4
+
+-6.1
+
+-5.1
+
+-8.5
+
+Moderate poor
+
+5.2
+
+9.7
+
+-5.1
+
+7.5
+
+5.2
+
+6.1
+
+2.1
+
+9.6
+
+0.6
+
+-0.1
+
+2.5
+
+14.5
+
+3.8
+
+-2.8
+
+10.0
+
+-0.9
+
+6.0
+
+12.7
+
+-2.1
+
+Vulnerable
+
+10.9
+
+18.3
+
+8.7
+
+-1.9
+
+10.3
+
+13.4
+
+9.4
+
+-0.8
+
+2.5
+
+-3.2
+
+-7.0
+
+16.7
+
+-4.8
+
+11.0
+
+14.5
+
+12.2
+
+15.6
+
+15.8
+
+21.3
+
+Middle class
+
+0.6
+
+0.4
+
+0.0
+
+-0.2
+
+-0.2
+
+0.4
+
+0.4
+
+-1.3
+
+0.2
+
+-0.3
+
+-1.4
+
+0.5
+
+-0.6
+
+2.8
+
+1.2
+
+1.7
+
+1.3
+
+-0.4
+
+0.2
+
+High income
+
+ARG Argentina (only urban), BOL Bolivia, BRA Brazil, CHL Chile, COL Colombia, CRI Costa Rica, DOM Dominican Republic, ECU Ecuador, GTM Guatemala, HND
+Honduras, MEX Mexico, NIC Nicaragua, PAN Panama, PER Peru, PRY Paraguay, SLV El Salvador, URY Uruguay (only urban), VEN Venezuela
+
+(a) Last year is 2012 in Bolivia, Honduras and Nicaragua, and 2011 in Chile. (b) First year is 2001 in Brazil, Honduras, Nicaragua and Paraguay
+
+15.9
+
+21.6
+
+PRY
+
+SLV
+
+19.3
+
+PER
+
+24.1
+
+33.0
+
+15.6
+
+NIC
+
+17.0
+
+17.6
+
+49.5
+
+19.9
+
+HND
+
+MEX
+
+PAN
+
+19.6
+
+47.7
+
+16.4
+
+20.7
+
+10.6
+
+GTM
+
+8.5
+
+22.7
+
+18.6
+
+COL
+
+CRI
+
+6.6
+
+10.8
+
+13.4
+
+3.7
+
+DOM
+
+10.4
+
+BRA
+
+CHL
+
+6.9
+
+12.8
+
+ECU
+
+4.0
+
+19.7
+
+ARG
+
+BOL
+
+Middle class
+
+Extreme poor
+
+Vulnerable
+
+Extreme poor
+
+Moderate poor
+
+Variation (pp): 2013–2000 (b)
+
+Incidence (%) in 2013 (a)
+
+Table 1 Income distribution in Latin American countries (2000–2013). Source: authors’ calculations based on household survey data from IDB’s Sociometro
+
+Lat Am Econ Rev (2016) 25:4
+(2000–2013). Source: authors’ calculations based on household survey data from IDB’s Sociometro
+Between 2000 and 2013
+
+Cut poverty by less
+than 25 %
+
+Cut poverty by between 25
+and 50 %
+
+Cut poverty by more
+than half
+
+BOL, COL, PER, PRY
+
+ECU, VEN
+
+CRI, PAN, URU
+
+ARG, BRA, CHL
+
+In 2013
+Mostly poor
+
+DOM, GTM, HND,
+NIC, SLV
+
+Mostly vulnerable
+
+MEX
+
+Mostly middle class or
+high income
+
+ARG Argentina (only urban), BOL Bolivia, BRA Brazil, CHL Chile, COL Colombia, CRI Costa Rica,
+DOM Dominican Republic, ECU Ecuador, GTM Guatemala, HND Honduras, MEX Mexico, NIC
+Nicaragua, PAN Panama, PER Peru, PRY Paraguay, SLV El Salvador, URY Uruguay (only urban), VEN
+Venezuela
+
+4 Dynamic analysis: poverty is still largely chronic
+Income mobility between 2003 and 2013 was considerable. Poverty reduction was
+the net effect of many exiting poverty, while fewer were falling back. Upward
+mobility was particularly high for those that started in moderate poverty.
+Most of the moderate poor rose to the vulnerable class, and a few (6 %) made it
+to the middle class (Table 3).13 In contrast, 73 % of those that were initially extreme
+poor were still poor after a decade, although many enjoyed less severe poverty and
+another quarter rose to the vulnerable class. As may be expected (as they started
+from higher initial living standards), also the vulnerable enjoyed less upper
+mobility. Only 28 % of them rose to the middle class, while 62 % remained in the
+initial income category and 10 % fell into poverty.
+Chronic poverty was widespread among both the extreme and the moderate poor.
+Many of those that were initially moderate poor, despite enjoying a high likelihood
+of rising to the vulnerable class in 2013, were poor in at least 5 years over the period
+2004–2013. This may be explained by an ascending trajectory that only rose above
+the poverty line in the last part of the period of analysis.
+On average, 91 % of extreme poverty were chronic (Table 4), with very little
+country heterogeneity (Fig. 2). In almost all countries with available data, about
+90 % or more of the extreme poor in 2003 remained poor in at least ﬁve of the
+following 10 years. The only exceptions were Argentina and Uruguay, for which
+data are urban only.
+More surprisingly, also half of the moderate poor in 2003 was chronically poor.14
+This has important implications for the design and implementation of the social
+safety nets. In particular, it implies that long-term interventions are not only needed
+for the extreme poor, but also for an important share of those in moderate poverty.
+13
+
+Table 3 presents the two-point transition matrix, similar to Table 4.1 of Ferreira et al. (2013) and
+Table 1 of Vakis et al. (2015), using a larger number of income groups and extending the time period to
+2013.
+14
+In Annex 4, we perform sensitivity analysis and show that these key results are robust to the adoption
+calculations based on synthetic panels built from household survey data from IDB’s Sociometro
+% of individuals
+
+2013
+Extreme poor
+
+Moderate poor
+
+Vulnerable
+
+Middle class
+
+High income
+
+Total
+
+Extreme poor
+
+41.2
+
+32.0
+
+25.1
+
+1.0
+
+0.7
+
+Moderate poor
+
+8.0
+
+23.5
+
+61.6
+
+6.4
+
+0.4
+
+100.0
+
+Vulnerable
+
+2.0
+
+7.7
+
+61.9
+
+28.2
+
+0.3
+
+100.0
+
+2003
+100.0
+
+Middle class
+
+0.2
+
+0.9
+
+21.1
+
+75.5
+
+2.3
+
+100.0
+
+High income
+
+0.0
+
+0.0
+
+0.7
+
+58.9
+
+40.4
+
+100.0
+
+Results based on 12 countries (Argentina (only urban), Brazil, Colombia, Costa Rica, Dominican
+Republic, Ecuador, Honduras, Panama, Peru, Paraguay, El Salvador and Uruguay (only urban))
+
+Table 4 Poverty duration in Latin America (2003–2013), region aggregate. Source: authors’ calculations
+based on synthetic panels built from household survey data from IDB’s Sociometro
+
+Income in 2003
+
+Number of episodes of poverty between 2003-2013
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+transient poor
+
+Extreme poor
+
+8
+
+9
+
+10
+
+chronic poor
+
+11
+
+42.0
+
+1.2
+
+0.9
+
+1.5
+
+2.2
+
+3.1
+
+4.3
+
+6.0
+
+8.6
+
+12.1
+
+18.4
+
+0.0
+
+0.0
+
+5.6
+
+8.3
+
+10.5
+
+12.5
+
+12.8
+
+12.5
+
+11.8
+
+10.3
+
+8.3
+
+5.4
+
+2.0
+
+Moderate poor
+
+future-poor
+Vulnerable
+
+35.1
+
+23.9
+
+15.8
+
+9.7
+
+6.5
+
+3.9
+
+2.4
+
+1.5
+
+0.7
+
+0.3
+
+0.1
+
+0.0
+
+11.0
+
+2.3
+
+0.7
+
+0.2
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.7
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+% of population income groups as of 2003
+
+0
+
+11
+
+85.8
+
+Middle-income
+
+99.3
+
+High-income
+
+0
+
+Number of episodes of poverty between 2003-2013
+
+Results based on 12 countries (Argentina (only urban), Brazil, Colombia, Costa Rica, Dominican
+Republic, Ecuador, Honduras, Panama, Peru, Paraguay, El Salvador, and Uruguay (only urban))
+
+In this respect, however, country heterogeneity was substantial (Fig. 2). For
+example, while extreme poverty was equally chronic in Ecuador and Colombia, in
+
+94.6
+
+93.0
+
+51.3
+
+45.7
+
+59.4
+
+89.8
+
+58.3
+
+% moderate poor that are chronic poor
+98.8
+
+97.9
+87.5
+
+91.1
+
+94.1
+
+98.9
+
+96.4
+
+65.8
+
+55.0
+
+61.0
+50.4
+
+40.2
+
+38.1
+
+31.4
+
+2.3
+
+1.2
+
+ARG
+
+91.2
+
+83.5
+
+76.2
+
+BRA
+
+COL
+
+CRI
+
+DOM
+
+ECU
+
+HND
+
+PAN
+
+PER
+
+PRY
+
+SLV
+
+URY Region
+
+Source: Authors’ calculations based on synthetic panels built from household survey data from IDB’s Sociometro.
+Notes: ARG = Argentina (only urban), BRA = Brazil, COL = Colombia, CRI = Costa Rica, DOM = Dominican Republic, ECU = Ecuador, HND
+= Honduras, PAN = Panama, PER = Peru, PRY = Paraguay, SLV = El Salvador, URY = Uruguay (only urban).
+
+Fig. 2 Chronic poverty in Latin American countries (2003–2013)
+
+An important share of the vulnerable and, more surprisingly, of the middle class
+experienced poverty over the period 2004–13. More precisely, 65 % of the
+vulnerable group and 14 % of the middle class of 2003 were poor at least once over
+the following decade. We call these families ‘‘future poor’’, a group whose share
+ranged from 10 % of the population in Argentina to 38 % in Costa Rica (Fig. 3).
+Finally, the share of the population that was never poor ranged from 8 % in
+Honduras to 57 % in Uruguay (Fig. 3).
+The identiﬁcation of the chronic and transient poor in the samples of 2003 allows
+investigating the household characteristics that are associated with different poverty
+durations. In other words, it allows studying who are the chronic poor, how they
+differ from the transient poor and, for comparison, from the non-poor. We address
+these questions by looking at Paraguay and Honduras, two countries at different
+stages of the socio-economic transition.
+Household characteristics of the chronic poor broadly mimic those that, in the
+literature, are commonly associated with extreme poverty. They include larger
+household size, more children, lower levels of education, more engagement in selfemployment, less wage employment, and residence in rural areas. Table 5 reports
+average household characteristics by dynamic poverty status in Paraguay and
+Honduras. Despite a few differences between the two countries, most patterns are
+common and the similarities are striking. In both countries, for example, chronically
+poor households had no member with complete tertiary education. In Honduras,
+they did not even have any member with complete secondary education; while in
+Paraguay, only one in six chronically poor households had one member with this
+level of schooling. Their likelihood to live in rural areas was ten times higher than
+among the non-poor. Self-employment decreased and wage employment grew as
+one moved from chronic poverty to non-poverty. The low level of human capital
+and the remote location suggest that, at least among the chronic poor, the graduation
+strategies with which many Latin American countries are attempting to complement
+% future-poor
+
+% never poor
+
+ARG
+
+BRA
+
+COL
+
+CRI
+
+DOM
+
+ECU
+
+HND
+
+35.6
+
+43.4
+35.5
+
+11.3
+
+21.7
+
+3.5
+
+7.3
+
+13.6
+
+17.7
+
+8.7
+
+15.6
+
+17.9
+10.3
+
+23.7
+
+29.5
+
+32.6
+25.6
+
+29.3
+11.2
+
+4.1
+
+7.5
+
+8.0
+
+22.1
+
+23.6
+
+26.3
+16.4
+19.9
+
+18.7
+
+43.1
+
+46.3
+37.4
+
+37.4
+31.3
+
+21.6
+7.4
+
+11.0
+
+10.0
+
+11.1
+
+9.8
+
+19.4
+
+24.7
+
+25.0
+
+27.5
+
+29.0
+
+37.5
+
+37.7
+33.3
+
+42.6
+
+45.0
+
+50.1
+
+57.3
+
+64.3
+
+% chronic poor
+
+PAN
+
+PER
+
+PRY
+
+SLV
+
+URY Region
+
+Source: Authors’ calculations based on synthetic panels built from household survey data from IDB’s Sociometro.
+Notes: ARG = Argentina (only urban), BRA = Brazil, COL = Colombia, CRI = Costa Rica, DOM = Dominican Republic, ECU = Ecuador, HND
+= Honduras, PAN = Panama, PER = Peru, PRY = Paraguay, SLV = El Salvador, URY = Uruguay (only urban).
+
+Fig. 3 Poverty dynamics in Latin American countries (2003–2013)
+
+Table 5 Household Characteristics in Paraguay and Honduras (2003), by Poverty Status. Source:
+authors’ calculations based on synthetic panels built from household survey data from IDB’s Sociometro
+Characteristic in 2003
+
+Paraguay
+
+Honduras
+
+Chronic
+poor
+% of population
+
+Transient
+poor
+
+Not
+poor
+
+Chronic
+poor
+
+Transient
+poor
+
+Not
+Poor
+
+43.1
+
+8.7
+
+48.2
+
+64.3
+
+4.1
+
+31.6
+
+Household head (share)
+Male
+
+0.51
+
+0.51
+
+0.48
+
+0.80
+
+0.72
+
+0.72
+
+Single
+
+0.04
+
+0.06
+
+0.08
+
+0.21
+
+0.27
+
+0.27
+
+Adult members (number)
+Self-employed
+
+1.03
+
+0.72
+
+0.45
+
+0.76
+
+0.52
+
+0.30
+
+Salaried
+
+0.48
+
+1.11
+
+1.48
+
+0.74
+
+1.30
+
+1.44
+
+Unemployed
+
+0.14
+
+0.21
+
+0.16
+
+0.08
+
+0.14
+
+0.16
+
+Inactive
+
+0.89
+
+0.82
+
+0.84
+
+1.13
+
+0.91
+
+0.98
+
+Primary education or less
+
+1.24
+
+0.69
+
+0.25
+
+1.12
+
+0.59
+
+0.26
+
+Incomplete secondary educ.
+
+0.46
+
+0.79
+
+0.65
+
+0.27
+
+1.03
+
+1.10
+
+Complete secondary educ.
+
+0.16
+
+0.51
+
+0.82
+
+0.01
+
+0.06
+
+0.12
+
+Incomplete tertiary educ.
+
+0.05
+
+0.27
+
+0.66
+
+0.01
+
+0.18
+
+0.60
+
+Complete tertiary educ.
+
+0.00
+
+0.04
+
+0.41
+
+0.00
+
+0.04
+
+0.38
+
+Children (aged 0–5)
+
+1.17
+
+0.72
+
+0.48
+
+1.16
+
+0.74
+
+0.49
+
+Children (aged 6–14)
+
+2.01
+
+1.20
+
+0.85
+
+1.99
+
+1.19
+
+0.96
+
+Elderly (65 and older)
+
+0.20
+
+0.24
+
+0.30
+
+0.24
+
+0.20
+
+0.25
+
+Members (total)
+
+6.55
+
+5.34
+
+4.66
+
+6.50
+
+5.14
+
+4.59
+
+0.69
+
+0.28
+
+0.08
+
+0.73
+
+0.17
+
+0.06
+
+authors’ calculations based on household survey data from IDB’s Sociometro
+2000
+
+2013
+
+Urban
+
+Rural
+
+Total
+
+Urban
+
+Rural
+
+Total
+
+Extreme poor
+
+19.1
+
+55.4
+
+28.8
+
+9.8
+
+34.8
+
+15.9
+
+Moderate poor
+
+17.0
+
+18.3
+
+17.4
+
+12.2
+
+19.4
+
+13.7
+
+Vulnerable
+
+37.1
+
+20.0
+
+32.4
+
+39.6
+
+32.5
+
+37.6
+
+Middle class
+
+24.6
+
+6.0
+
+19.6
+
+35.5
+
+12.9
+
+30.5
+
+High income
+
+2.2
+
+0.4
+
+1.7
+
+2.9
+
+0.4
+
+2.3
+
+Total
+
+100
+
+100
+
+100
+
+100
+
+100
+
+100
+100
+
+Panel A—Incidence
+
+Panel B—geographic distribution
+Extreme poor
+
+46.4
+
+53.6
+
+100
+
+42.3
+
+57.7
+
+Moderate poor
+
+70.0
+
+30.0
+
+100
+
+62.0
+
+38.0
+
+100
+
+Vulnerable
+
+82.2
+
+17.8
+
+100
+
+77.7
+
+22.3
+
+100
+
+Middle class
+
+91.0
+
+9.0
+
+100
+
+89.7
+
+10.3
+
+100
+
+High income
+
+92.7
+
+7.3
+
+100
+
+95.9
+
+4.1
+
+100
+
+% of the population
+
+71.6
+
+28.4
+
+100
+
+73.7
+
+26.3
+
+100
+
+Results based on 15 countries (Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic,
+Ecuador, Guatemala, Honduras, Mexico, Nicaragua, Panama, Peru, Paraguay, El Salvador)
+
+5 Differences between urban and rural areas
+The region has undergone a process of urbanization, which has been slowing down
+in recent years. The urban share of the population has been growing from 49 % in
+1960 to 80 % in 2013, and is expected to reach 83 % in 2025 (ECLAC 2013). In our
+sample of countries, this ﬁgure has increased from 72 % in 2000 to 74 % in 2013
+(Table 6, panel B). In this context, it is extremely important to understand the
+different urban–rural trends in poverty reduction, as when it comes to poverty, cities
+and countryside remain two worlds apart.15
+Extreme and overall poverty have decreased substantially in both urban and rural
+areas. Yet, in the latter, one-third of the population still lives in extreme poverty,
+and the incidence of total poverty exceeds 50 % (Table 6, panel A).
+The growth of a middle class is an eminently urban phenomenon. In rural areas,
+poverty reduction has been accompanied by an expansion of the vulnerable class,
+and only 13 % of the population had per-capita income above $10 in 2013. In
+contrast, the size of the vulnerable class remained fairly constant in urban areas.
+This is where the middle class expanded more rapidly (by over 10 pp).
+As a result, the rural nature of poverty has intensiﬁed, with a substantial increase of
+the share of poor living in rural areas. While in 2000 the rural areas were home to 54 %
+of the extreme poor and 30 % of the moderate poor, these ﬁgures increased to 58 and
+15
+It is relevant to acknowledge that the term urban refers to very different sizes of human settlements
+(Satterthwaite 2010), that may range from as few as 2500 to as many as several million inhabitants.
+only the high-income class became more urban during the period of analysis.
+In 2013, the majority of the extreme poor lived in urban areas only in four
+countries (Brazil, Chile, Colombia and Dominican Republic). In contrast, with few
+exceptions, moderate poverty was fairly equally distributed between urban and rural
+areas (Fig. 4). This suggests that long-term social safety net programs are best
+suited for rural areas, while short-term interventions are equally needed in urban and
+rural areas.
+In the near future, in urban areas, poverty is expected to leave way to a rising
+middle class (Fig. 5). This forecast is obtained by combining economic growth and
+demographic projections with the estimated growth elasticity of poverty. While the
+size of the vulnerable class will remain fairly stable (at around 40 % of the urban
+population), by 2025 the incidence of urban poverty is expected to fall to 13 %. The
+middle class will rise to represent 42 % of the urban population.
+In contrast, the growth of the middle class will be slow in rural areas. Poverty
+will be mostly replaced by vulnerability. The vulnerable class is expected to become
+the single largest group in 2021, and grow to 47 % of the rural population in 2025.
+Failing to account for substantial rural to urban migration may bias the results of
+the poverty dynamic analysis based on the pseudo-panel methodology (which
+assumes that household characteristics, including residence in rural or urban areas,
+are constant over time). For example, one may overestimate the number of poverty
+episodes in rural areas, if some rural families have migrated to urban areas and have
+managed, through migration, to transition to the vulnerable class. The direction of
+the bias will depend on who migrates (usually not the poorest) and how migration
+affects their income.
+In Annex 5, we analyze the variation in the proportion of urban population over the
+period 2003–2013. We show that its magnitude is small, and does not threaten the
+validity of our ﬁndings. This result is consistent with the slowdown in the process of
+urbanization documented in CELADE—Population Division of ECLAC (2015).
+The urban and rural poverty dynamics analyses conﬁrm that most of the mobility
+out of poverty took place in urban areas. In the cities, 35 % of the extreme poor and
+
+30.5
+27.0
+
+45.1
+36.9
+
+50.0
+
+69.2
+
+74.9
+39.6
+
+54.7
+
+64.4
+24.9
+
+35.3
+
+53.2
+33.7
+
+43.1
+41.7
+
+57.6
+
+70.7
+48.7
+
+MEX
+
+37.6
+
+47.6
+52.7
+
+HND
+
+66.1
+45.7
+50.8
+
+GTM
+
+60.3
+45.1
+
+ECU
+
+32.6
+
+45.1
+39.0
+32.6
+
+DOM
+
+38.2
+23.8
+
+23.3
+20.6
+
+Region
+
+SLV
+
+PRY
+
+PER
+
+PAN
+
+NIC
+
+CRI
+
+COL
+
+12.8
+
+CHL
+
+BRA
+
+15.4
+
+24.8
+
+39.3
+
+39.9
+34.8
+
+62.8
+59.0
+
+72.8
+38.4
+32.8
+
+BOL
+
+Total Population
+78.6
+
+Moderate poverty
+73.7
+
+Extreme poverty
+
+Source: Authors’ calculations based on household survey data from IDB’s Sociometro.
+Notes: BOL = Bolivia, BRA = Brazil, CHL = Chile, COL = Colombia, CRI = Costa Rica, DOM = Dominican Republic, ECU = Ecuador, GTM =
+Guatemala, HND = Honduras, MEX = Mexico, NIC = Nicaragua, PAN = Panama, PER = Peru, PRY = Paraguay, SLV = El Salvador.
+
+Panel A - Urban
+70
+
+Panel B - Rural
+Poor
+Vulnerable
+Middle-class
+High-income
+
+60
+50
+
+70
+
+Poor
+Vulnerable
+Middle-class
+High-income
+
+60
+50
+
+2024
+
+2021
+
+2018
+
+2015
+
+2012
+
+2009
+
+2006
+
+2003
+
+2000
+
+2024
+
+2021
+
+0
+2018
+
+10
+
+0
+2015
+
+10
+2012
+
+20
+
+2009
+
+20
+
+2006
+
+30
+
+2003
+
+40
+
+30
+
+2000
+
+40
+
+Source: Authors’ calculations based on household survey data from IDB’s Sociometro and population growth estimates from the Population
+Division of the United Nation Economic Commission for Latin America and the Caribbean (CELADE, ECLAC).
+Notes: projections for 2014-2025 were obtained using linear models on log of the Gini coefficient, log of Gross Domestic Product (GDP) per
+capita (current and one-year lagged), log of general government expenditure as percentage of GDP (current and one-year lagged), and country
+dummy variables. Data on GDP per capita and general government expenditure until 2019 are from the International Monetary Fund World
+Economic Outlook (October 2014) and for 2020-2025 are projections based on the growth rate 2000-2019. Data on population until 2025 are
+from ECLAC (2013). Projections for the region are population-weighted averages. Results based on 15 countries (Bolivia, Brazil, Chile,
+Colombia, Costa Rica, Dominican Republic, Ecuador, Guatemala, Honduras, Mexico, Nicaragua, Panama, Peru, Paraguay, El Salvador).
+
+Fig. 5 Poverty, vulnerability, and middle class in Latin America (2000–2025), region aggregate
+
+73 % of the moderate poor in 2003 had exited poverty after 10 years, against only
+15 and 53 % in rural areas (Table 7). A similar pattern can be observed for upward
+mobility from the vulnerable class. Symmetrically, the risk of falling from the
+middle class to the vulnerable class or into poverty was more than double in rural
+than in urban areas (44 versus 21 %). This may also be due to the differential urban–
+rural impacts of the world recession in the second part of the period of analysis.
+Rural areas are characterized by high incidence of chronic poverty and future
+poverty. 99 % of the extreme poor and 78 % of those that were moderate poor in
+2003 experienced chronic poverty between 2004 and 2013. Furthermore, 86 % of
+the vulnerable and 37 % of the middle class were poor at least once during the
+period of analysis. The picture is relatively rosier in urban areas, where ‘‘only’’
+86 % of extreme poverty and 42 % of moderate poverty were chronic, and where
+‘‘only’’ 62 % of the vulnerable experienced at least one episode of poverty (Fig. 6).
+Cross-country analysis shows that Ecuador and Panama present the widest gap
+between rural and urban areas, a result that is driven by the highly transient nature of
+urban moderate poverty. Variability is limited in the percentage of extreme poor that
+are chronic poor, both in rural and urban areas. More differences emerge when
+looking at the percentage of moderate poor that experience chronic poverty. This is,
+particularly, the case in urban areas. While in El Salvador 71 % of urban moderate
+poor experience chronic poverty over the following decade, the same happens to
+only one every ﬁve urban moderate poor in Ecuador and Panama. This indicates that
+in these countries, urban moderate poverty is particularly transient (Fig. 7).
+Complete data by country is presented in Annex 6, for the 12 countries for which we
+Source: authors’ calculations based on household survey data from IDB’s Sociometro
+% of individuals
+
+2013
+Extreme poor
+
+Moderate poor
+
+Vulnerable
+
+Middle class
+
+High income
+
+Total
+
+Panel A—Urban
+2003
+Extreme poor
+
+29.9
+
+34.9
+
+32.8
+
+1.5
+
+0.9
+
+100
+
+Moderate poor
+
+6.1
+
+20.9
+
+65.0
+
+7.6
+
+0.5
+
+100
+
+Vulnerable
+
+1.5
+
+6.6
+
+61.4
+
+30.2
+
+0.3
+
+100
+
+Middle class
+
+0.2
+
+0.7
+
+20.2
+
+76.5
+
+2.4
+
+100
+
+High income
+
+0.0
+
+0.0
+
+0.6
+
+59.9
+
+39.5
+
+100
+
+Extreme poor
+
+57.7
+
+27.6
+
+14.1
+
+0.3
+
+0.3
+
+100
+
+Moderate poor
+
+14.5
+
+32.9
+
+50.0
+
+2.4
+
+0.3
+
+100
+
+5.3
+
+15.0
+
+65.8
+
+13.8
+
+0.1
+
+100
+
+Panel B—Rural
+2003
+
+Vulnerable
+Middle class
+
+1.0
+
+3.3
+
+39.5
+
+55.9
+
+0.3
+
+100
+
+High income
+
+0.0
+
+0.0
+
+2.7
+
+35.6
+
+61.7
+
+100
+
+Results based on 12 countries (Argentina (only urban), Brazil, Colombia, Costa Rica, Dominican
+Republic, Ecuador, Honduras, Panama, Peru, Paraguay, El Salvador, and Uruguay (only urban))
+Aggregate
+% of extreme poor that are chronic
+
+% of moderate poor that are chronic
+
+% of future-poor among the vulnerable
+
+% of future-poor among the middle-class
+98.7
+
+86.1
+
+86.1
+78.3
+61.8
+42.5
+
+36.9
+13.1
+
+Urban
+
+Rural
+
+Source: Authors’ calculations based on household survey data from IDB’s Sociometro.
+Notes: results based on 12 countries (Argentina (only urban), Brazil, Colombia, Costa Rica, Dominican Republic, Ecuador, Honduras, Panama,
+Peru, Paraguay, El Salvador and Uruguay (only urban)).
+
+Fig. 6 Urban and rural poverty dynamics in Latin America (2003–2013), region aggregate
+
+6 Conclusions and implication for the design and implementation
+of social safety nets
+In the absence of information on poverty dynamics, development practitioners
+frequently assume that extreme poverty is chronic and rural, while moderate poverty
+is transient and urban. Similarly, they tend to expect that the vulnerable are at risk of
+falling into poverty, while the middle class has reached a safe place and no longer
+
+CRI
+
+ECU
+
+70.9
+18.9
+
+39.7
+
+43.6
+
+DOM
+
+99.9
+96.7
+97.3
+
+99.2
+90.6
+90.1
+
+99.5
+85.4
+92.0
+
+98.2
+65.1
+
+18.8
+
+BRA
+
+71.7
+66.5
+
+97.8
+75.5
+71.5
+
+38.5
+
+46.8
+
+56.0
+
+78.1
+71.9
+
+95.1
+
+98.3
+88.9
+91.8
+48.2
+
+65.6
+
+99.6
+95.5
+93.7
+
+% of moderate poor that are chronic - urban
+
+99.2
+96.9
+86.2
+
+% of extreme poor that are chronic - urban
+
+% of moderate poor that are chronic - rural
+98.4
+92.8
+
+% of extreme poor that are chronic - rural
+
+HND
+
+PAN
+
+PER
+
+PRY
+
+SLV
+
+Source: Authors’ calculations based on household survey data from IDB’s Sociometro.
+Notes: BRA = Brazil, COL = Colombia, CRI = Costa Rica, DOM = Dominican Republic, ECU = Ecuador,
+HND = Honduras, PAN = Panama, PER = Peru, PRY = Paraguay, SLV = El Salvador
+
+Fig. 7 Urban and rural chronic poverty in Latin American countries (2003–2013)
+
+In this paper, we construct synthetic panels and analyze poverty dynamics for a
+large sample of Latin American countries, with the aim to provide policy makers
+and development practitioners (engaged in project design) with estimates of the
+duration of poverty. While the availability of real long panel data would allow
+reﬁning and deepening the analysis, we believe that our results constitute a useful
+proxy and hope they will stimulate further data collection and research. Our analysis
+contributes to debunking a few common assumptions.
+First, we show that chronic poverty is widespread also among the moderate poor.
+This type of poverty, characterized by long duration, accounts for 91 % of extreme
+poverty and, surprisingly, 50 % of moderate poverty. As expected, chronic poverty
+is more frequent in rural areas, where 99 % of the extreme poor and as many as
+78 % of the moderate poor are chronic poor.
+Second, we show that also the middle class is still exposed to a substantial risk of
+falling back into poverty. More speciﬁcally, we ﬁnd that 14 % of those that
+belonged to the middle class in 2003 experienced at least one poverty episode
+during the following decade.
+Our results differ from those of Ferreira et al. (2013) and Vakis et al. (2015),
+although they are based on the application of a similar synthetic panel methodology.
+These authors analyze mobility between two periods only, and ﬁnd that the
+vulnerable and the middle class are more consolidated in their status. For example,
+Ferreira et al. (2013, Table 4.1) estimate that only 2.7 % of the vulnerable and
+0.5 % of the middle class fall back into poverty.
+Our ﬁndings have important implications for the design and implementation of
+social safety nets. First, they suggest that interventions that target the rural poor and
+the urban extreme poor need to adopt a long-term perspective. The frequent
+recertiﬁcation of the beneﬁciaries might not be needed and, probably, represents a
+loss of administrative and ﬁnancial resources.
+Second, our ﬁndings suggest that interventions that target the urban moderate poor
+satisfactorily. The Brazilian model based on declared income may represent a better
+alternative, if it can be coupled with frequent recertiﬁcation and electronic audits of
+eligibility based on crossing information from the roster of beneﬁciaries with other
+sources of administrative data (e.g., social security contributions, ownership of assets).
+Third, we show that the chronic poor have extremely low levels of human capital
+and live in rural areas with limited opportunity of wage employment. These are key
+factors for escaping poverty. Consequently, our ﬁndings suggest that, at least for this
+group, graduation strategies aimed at increasing income-generation capacity have
+low probabilities of success.16
+Finally, the ﬁnding that both the vulnerable and the middle class are likely to
+experience poverty in the future implies that the social safety nets remain relevant
+for many that are currently out of poverty.17
+A caveat is worth mentioning. Our dynamic analysis is based on 12 countries for
+which data are available. Further work is needed to incorporate results for more
+countries and increase the representativeness of our ﬁndings.
+Acknowledgments This report has been prepared with funds from the IDB economic and sector work
+‘‘Social Protection beyond Conditional Cash Transfers: Challenges and Alternatives’’ (RG-K1374). We
+thank Ferdinando Regalia, Norbert Schady, Susan Parker, and two anonymous referees for useful
+comments and suggestions. Remaining errors are ours only. The content and ﬁndings of this paper reﬂect
+the opinions of the authors and not those of the IDB, its Board of Directors or the countries they represent.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons license, and indicate if changes were made.
+
+Annex 1: Data sources
+IDB’s Harmonized Data Bank of Household Surveys from Latin America and the
+Caribbean (also known as IDB’s Sociometro) contains harmonized household data
+sets for Latin American and Caribbean countries starting from the late 1980s.
+Variable names, deﬁnitions, and contents are kept constant across countries and
+time. Table 8 shows the number of data sets used for the preparation of this paper.
+Although it is well known that per-capita consumption is a better proxy for wellbeing, we use per-capita income, because few countries in the region routinely
+conduct surveys with a consumption module, while all of them include questions on
+income. We calculate per-capita income by dividing total household income by the
+number of household members, without using any adult equivalence scale.
+Income components are reported after-tax whenever possible. Extraordinary
+income sources are not considered. Similarly, we do not include the implicit rent
+from owned or occupied housing, because not all countries capture the information
+16
+For a review of the experience with recertiﬁcation and graduation in Latin American conditional cash
+´
+transfer programs, see Medellın et al. (2015).
+17
+For an estimate of the demand for social safety nets in Latin American countries, see Ibarraran et al.
+Country
+
+Geographic
+coverage
+
+Survey year
+Initial
+
+# of surveys
+Final
+
+Average
+observations
+per survey
+
+ARG
+
+Urban
+
+2000
+
+2013
+
+14
+
+BOL
+
+National
+
+2000
+
+2012
+
+11
+
+23,280
+
+BRA
+
+National
+
+2001
+
+2013
+
+12
+
+384,241
+
+CHL
+
+National
+
+2000
+
+2011
+
+5
+
+245,192
+
+COL
+
+National
+
+2000
+
+2013
+
+14
+
+172,354
+
+CRI
+
+National
+
+2000
+
+2013
+
+14
+
+43,100
+
+DOM
+
+National
+
+2000
+
+2013
+
+14
+
+28,051
+
+ECU
+
+National
+
+2000
+
+2013
+
+13
+
+75,818
+
+GTM
+
+National
+
+2000
+
+2013
+
+9
+
+29,275
+
+HND
+
+National
+
+2001
+
+2013
+
+13
+
+63,955
+
+MEX
+
+National
+
+2000
+
+2012
+
+8
+
+80,655
+
+NIC
+
+National
+
+2001
+
+2012
+
+6
+
+31,306
+
+PAN
+
+National
+
+2000
+
+2013
+
+14
+
+49,091
+
+PER
+
+National
+
+2000
+
+2013
+
+14
+
+85,462
+
+PRY
+
+National
+
+2000
+
+2013
+
+13
+
+25,986
+
+SLV
+
+National
+
+2000
+
+2013
+
+14
+
+74,010
+
+URY
+
+Urban until 2005,
+national since 2006
+
+2000
+
+2013
+
+14
+
+108,960
+
+VEN
+
+National
+
+2000
+
+2013
+
+14
+
+159,906
+
+Total
+
+112,282
+
+216
+
+that allows estimating it.18 As is common practice in academic and ofﬁcial studies,
+we do not make any imputation for missing, null or outlying values in addition to
+those already contained in the data sets provided by the national statistical ofﬁces.
+Finally, we do not make adjustments for differences in urban–rural prices.
+
+Annex 2: Synthetic-panel methodology
+Table 9 summarizes the existing literature comparing results from genuine panel
+data with non-parametric, parametric, and point estimate synthetic-panel methods.
+All results reported are based on the use of household time-invariant characteristics,
+sub-national controls, and region ﬁxed effects, consistently with the deﬁnition of our
+own model. They show that the estimates based on the average of the bounds
+(Eq. (4)) approximate well the estimates based on genuine panel data, irrespective
+of the length of the period analyzed (2 years in Peru, versus 10 in Chile), the width
+of the bounds, the type of poverty transition, and the number of replications used to
+obtain the upper bound (50, 100, 500). These estimates are found to be as accurate
+18
+Given our deﬁnition of the income variables, our poverty estimates may differ from the ofﬁcial ones
+
+Lower
+
+62.13
+
+Non-poor, poor
+
+Non-poor, non-poor
+39.44
+
+2.77
+
+Poor, non-poor
+
+38.20
+
+Non-poor, poor
+
+Non-poor, non-poor
+6.68
+
+22.36
+
+Poor, non-poor
+
+Non-poor, poor
+
+Non-poor, non-poor
+40.62
+
+0.92
+82.06
+
+Poor, non-poor
+
+16.39
+17.01
+50.00
+
+Poor, poor
+
+Poor, non-poor
+
+Non-poor, poor
+
+Non-poor, non-poor
+
+Philippines 2003–09
+
+10.35
+
+Poor, poor
+
+Chile 1996–06
+
+0.00
+
+Poor, poor
+
+Nicaragua 2001–05
+
+4.29
+
+Poor, poor
+
+40.93
+
+2.06
+
+7.33
+
+25.66
+
+71.75
+
+4.94
+
+20.66
+
+2.66
+
+28.31
+
+30.83
+
+9.89
+
+30.97
+
+48.80
+
+16.37
+
+17.62
+
+17.21
+
+Upper
+
+45.47
+
+9.54
+
+11.86
+
+33.14
+
+76.91
+
+2.93
+
+15.51
+
+4.67
+
+33.26
+
+26.60
+
+4.95
+
+35.21
+
+55.47
+
+9.57
+
+10.96
+
+24.01
+
+Average
+
+Non-parametric approach
+
+30.81
+
+Country, years, type of
+transition
+
+World Bank (2014) Social gains in the balance: a ﬁscal policy challenge for Latin America and the

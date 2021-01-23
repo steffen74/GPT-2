@@ -1,0 +1,5432 @@
+Lat Am Econ Rev (2017) 26:9
+
+In the past few decades international trade has increased exponentially and
+production fragmentation was one of the main causes. The fragmentation process,
+referred as ‘‘trade in tasks’’ by Grossman and Rossi-Hansberg (2008), has led to an
+increase in global integration, generating a web of economic interactions commonly
+denoted as international production networks. In the beginning, this change
+involved mostly trade among rich nations, but the real ‘‘revolution started when
+supply chain trade gained importance among high-tech and low-wage nations
+between 1985 and 1995’’ (Baldwin and Lopez-Gonzalez 2015). Production
+fragmentation opened new possibilities of economic growth to developing
+countries, allowing their engagement in the production process of manufactured
+goods that they were not able to produce.
+The expansion of production networks changed the rules of the economic
+development game, facilitating developing countries’ access to networks, global
+markets, capital, knowledge, and technology (OECD 2013). Previously, a country
+had to climb every single step in the industrial development ladder, mastering all
+production processes, to manufacture a given good. However, the advent of
+production networks offered the possibility of skipping steps in the catch-up
+procedure through the acquisition of knowledge and technology from third countries
+and the specialization in one or few steps of the production process. Understanding
+these changes and their consequent implications is crucial to draw policies that
+integrate a country in this new production structure and allow it to explore the best
+possibilities for guaranteeing sustainable economic growth and development.
+The empirical literature about production fragmentation is very rich, with many
+studies focusing on the regions where production fragmentation is more developed:
+East Asia, the European Union, and North America.1 Although the demand is
+growing for the analysis of the current situation and the effects that this new trend
+can have on Latin America, the literature is still incipient.
+A few papers provide some information about the status of production
+fragmentation in Latin America based on descriptive analysis. Aminian et al.
+(2009) compared the economic integration process in East Asia and Latin America,
+analyzing the characteristics and intensity of intra-bloc and inter-bloc trade. They
+used a revealed comparative advantage (RCA) index to identify the share of traded
+manufacture parts and components with comparative advantage in the intra-bloc
+trade. Curran and Zignago (2013) studied the regionalization of trade in South
+America from 1994 to 2007, differentiating the trade ﬂows by the end use of the
+products and the level of embodied technology. They concluded that the trade
+agreements have not extensively affected the regional trade level and that trade of
+intermediate products was still very low, indicating that regional production
+networks were still under-developed. Calfat et al. (2011) investigated the
+participation of Argentina, Brazil, Guatemala, and Nicaragua in fragmented world
+1
+
+For papers on production networks in the mentioned regions please refer to Ng and Yeats (2003), Ando
+and Kimura (2005), Athukorala and Yamashita (2006), Kimura et al. (2007), Yokota (2008), Kohpaiboon
+participation in fragmented production. Fung et al. (2015a) used manufacturing
+trade data, classiﬁed according to the Standard International Trade Classiﬁcation
+(SITC), to compare production sharing in Latin America, North America, and East
+Asia from 1985 to 2006. They identiﬁed the existence of a relatively thick
+production network involving the trade of parts of motor vehicles, telecommunication equipment, and electronic components. However, it was concentrated on
+Mexico’s trade with US and Canada, while Brazil also played a smaller role. Fung
+et al. (2015b) used the same data and methodology to compare Brazil, China, and
+Mexico’s participation in production networks. They analyzed the international
+trade patterns for the period 1990–2010, identifying that China’s global presence in
+the trade of parts and components increased. Although Mexico concentrated its
+trade of parts and components with the US, the data showed that China has become
+a major source of parts and components to Mexico and Brazil. The authors highlight
+the increasing importance of a Pan-Paciﬁc link and a possible creation of a China–
+Brazil–Mexico production network.
+Florensa et al. (2015) produced the ﬁrst paper that used a quantitative framework
+to analyze economic integration and production fragmentation in Latin America.
+Using trade data classiﬁed according to the Broad Economic Categories (BEC), the
+authors analyzed the impact that changes in import of intermediate goods from
+different world regions had in the development of Latin America’s regional trade.
+They found evidence of increasing regional production networks and the importance
+of other regions as suppliers of intermediate products, with special attention on
+China.
+Given the importance of this topic to the development literature and that
+production networks in Latin America are still understudied, this work contributes
+to the literature shedding light on the evolution of Latin American machinery
+industry. The ﬁrst reason to focus on this industry is that machinery ﬁnal products
+have a high level of complexity and use of a large number of parts and components,
+being the most developed manufacturing industry in terms of production fragmentation. Consequently, when the industry is more fragmented, a country will have
+more opportunities to engage in the production network. The second reason is that
+the high level of fragmentation and the availability of disaggregated trade data allow
+us to classify this industry into four different sectors. This division permits the
+development of a ﬁner correspondence between parts and components and ﬁnal
+products for a speciﬁc sector, reducing the bias that more aggregated data can
+generate. Finally, the share of machinery in Latin American exports and imports of
+manufactured products in 1996 was approximately 49.5 and 55.8%, respectively,
+while in 2011, the shares increased to 55.5 and 56.7%, respectively. Therefore,
+machinery is the most important industry in the region’s manufacturing trade.2
+The contribution of this article is threefold. First, to the best of our knowledge,
+this is the ﬁrst article to analyze the quality effects that the changes in the structural
+composition of suppliers of parts and components have had in the development of
+2
+
+The shares were calculated based on the harmonized system (HS) classiﬁcation. The manufactured
+the previous papers on Latin American production networks that use aggregated
+intermediate manufacture data, we focus our analysis on a speciﬁc industry and use
+disaggregated data. Third, in this paper we adopt a model similar to Florensa et al.
+(2015), but estimate it using the PPML method instead of the ordinary least squares
+(OLS) to control the zero trade values and the data heteroscedasticity.
+The study is organized as follows. Section 2 includes a descriptive analysis of
+Latin America’s participation in the machinery trade. In Sect. 3, we present the data
+and in Sect. 4 we describe the empirical methodology employed. Section 5 shows
+the results of the quantity analysis, while Sect. 6 contains the results for the quality
+analysis. The ﬁnal considerations of the paper are available in Sect. 7.
+
+2 Machinery international trade and Latin America
+In this section, we used trade data—classiﬁed according to the Harmonized System
+(HS) disaggregated to the six-digit level—to analyze the machinery international
+market and Latin America’s participation in it in 1996 and 2011. We also
+considered the changes in trade patterns from a trade margin and product
+sophistication perspective to identify modiﬁcations in Latin American countries’
+trade basket composition.
+2.1 Descriptive analysis: traded values
+Production networks, in particular the machinery ones, are constituted mainly of
+geographical agglomerations that form regional blocs of production. Three main
+regional blocs are recognized for machinery production: the East Asian region, the
+European Union, and NAFTA. In general, machinery trade studies focus on these
+main areas, ignoring the situation in Latin America and the rest of the world. The
+main reason for this fact is illustrated by Fig. 1, which shows the data for world
+imports and exports of machinery. The aforementioned main areas are responsible
+for the bulk of the traded values, while Latin America and the rest of the world are
+responsible for a very small share.3 Another important difference is that the traded
+value of parts and components is larger than the ﬁnal product in the three main
+regions, while in Latin America, the traded value of the ﬁnal product is higher. This
+evidence suggests a lower engagement of Latin America in machinery production
+networks.
+The idiosyncrasies of Latin America, a heterogeneous region composed of
+countries of different sizes and governments with different political and economic
+orientation, localized in a vast territory full of geographical barriers, such as the
+Andes Mountains and the Amazon Forest, are possible reasons for its low level of
+engagement in production networks. Another reason, identiﬁed by Moreira et al.
+3
+
+The ﬁgures and table in this subsection present a conservative estimate of the situation in Latin
+America, given that Mexico trade data are accounted for in the NAFTA region. From the next subsection
+1,500,000
+1,000,000
+Final
+Products
+
+500,000
+
+Parts and
+Components
+
+Exports2011
+
+Imports2011
+
+Exports1996
+
+Imports1996
+
+Exports2011
+
+LA
+
+Imports2011
+
+Exports1996
+
+Imports1996
+
+Exports2011
+
+NAFTA
+
+Imports2011
+
+Exports1996
+
+Imports1996
+
+Exports2011
+
+EU27
+
+Imports2011
+
+Exports1996
+
+Imports1996
+
+Exports2011
+
+EAST ASIA
+
+Imports2011
+
+Imports1996
+
+Exports1996
+
+0
+
+ROW
+
+Fig. 1 Total values of exports and imports per region in 1996 and 2011 (in million US$). Source Chang
+and Kimura (2015)
+
+(2013), is the quality of the local infrastructure that penalizes the trade, increasing
+the freight costs or simply making it impracticable at competitive prices.
+Nevertheless, Fig. 2 reveals that for the period 1996–2011 parts and components
+traded value increased relative to ﬁnal products. Latin American export data show
+an increase in traded parts and components from 46.6 percentage points to 54.4
+percentage points. Although import data reveal an increase in traded parts and
+components share of just 0.5 percentage points, in terms of values this change
+represents a substantial increase, given that imported machinery parts and
+components value is higher than the exported machinery total value. Even though
+traded values are still smaller than the three main blocs, the increase in import of
+parts and components indicate that Latin America is slowly adhering to production
+networks in the machinery industry. Table 1 displays the compound annual growth
+rate of the machinery trade, revealing that Latin America had the highest growth
+rate for total machinery export and the second highest for machinery import. In fact,
+considering just the trade of parts and components, the region had the highest
+growth rates, corroborating the idea that participation in machinery production
+networks is growing in this region.
+According to fragmentation theory, the core of a production network is
+concentrated in regional agglomerations, given the reduced costs incurred in
+shorter distance transport freights, reduced lead time, and the possibility of faster
+coordination for the whole network (Harrigan and Venables 2004; Kimura et al.
+2007). Nonetheless, the development of the internet and other communication and
+coordination technologies, as well as the decrease in freight cost, has led to a
+decrease in the service link costs (Jones and Kierzkowski 2005), allowing for a
+growth in interactions between regional blocs. As a result, the East Asian region
+increased its role as a supplier of machinery parts and components to other region’s
+62.1%
+150,000
+
+100,000
+62.6%
+
+45.6%
+
+50,000
+37.9%
+
+53.4%
+37.4%
+
+46.6%
+
+0
+
+Exports 1996
+
+Imports 1996
+Parts and Components
+
+54.4%
+Exports 2011
+
+Imports 2011
+
+Final Products
+
+Fig. 2 Latin America‘s total value of machinery products trade in 1996 and 2011 (in million US$).
+Source Author’s calculation, using data available from the UN Comtrade
+Table 1 Compound annual growth rate of machinery trade from 1996 to 2011
+Parts and components (%)
+
+Final products (%)
+
+Total (%)
+
+East Asia
+Exports
+
+7.1
+
+6.4
+
+6.7
+
+Imports
+
+6.6
+
+4.6
+
+5.7
+
+Exports
+
+4.5
+
+3.7
+
+4.1
+
+Imports
+
+4.2
+
+3.6
+
+3.9
+
+Exports
+
+1.2
+
+2.3
+
+1.8
+
+Imports
+
+2.6
+
+4.0
+
+3.4
+
+Exports
+
+10.1
+
+7.9
+
+9.0
+
+Imports
+
+7.1
+
+6.9
+
+7.0
+
+EU
+
+NAFTA
+
+LA
+
+ROW
+Exports
+
+5.1
+
+5.7
+
+5.4
+
+Imports
+
+6.9
+
+7.9
+
+7.6
+
+The higher compound annual growth rates are highlighted using bold text
+Source Author’s calculation, using data available from the UN Comtrade
+
+composition of parts and components suppliers for all ﬁve regions to verify changes
+and patterns. As expected, except for NAFTA in 2011, the intra-bloc import of
+machinery parts and components is dominant in the three main regions. We also
+verify an increase of the East Asian share in all regions. Data for Latin America
+reveal a few things: ﬁrst, the Latin American share as a supplier is irrelevant in all
+regions except Latin America; second, its intra-bloc share is smaller than the shares
+
+EAST ASIA
+25.1
+
+80%
+
+EUROPEAN UNION
+11.7
+0.9
+
+15.7
+
+8.6
+0.8
+
+0.3
+15.5
+
+22.1
+
+63.7
+
+80%
+
+0.2
+
+60%
+
+63.4
+
+60%
+58.0
+
+40%
+
+72.6
+
+20%
+
+40%
+20%
+
+15.3
+1.5
+
+0%
+1996
+Rest of the world
+East Asia
+NAFTA
+100%
+
+100%
+
+13.6
+1.3
+
+1996
+Rest of the world
+East Asia
+NAFTA
+
+NAFTA
+
+80%
+
+35.8
+3.0
+
+60%
+
+1.0
+
+40%
+
+36.9
+
+42.2
+
+16.2
+1.3
+
+17.4
+1.5
+
+20%
+0%
+1996
+Rest of the world
+East Asia
+NAFTA
+100%
+
+25.6
+
+35.8
+
+80%
+
+12.5
+
+60%
+
+12.9
+17.1
+
+0%
+1996
+Rest of the world
+East Asia
+NAFTA
+
+22.5
+
+1.3
+
+20%
+
+37.5
+
+32.9
+
+40%
+
+2011
+European Union
+LaƟn America
+
+2011
+European Union
+LaƟn America
+
+LATIN AMERICA
+
+100%
+
+44.5
+
+5.1
+
+4.7
+
+0%
+
+2011
+European Union
+LaƟn America
+
+1.9
+2011
+European Union
+LaƟn America
+
+REST OF THE WOLRLD
+20.2
+0.2
+10.2
+
+27.9
+
+63.3
+
+80%
+
+10.7
+0.3
+
+55.1
+
+60%
+40%
+20%
+6.1
+
+0%
+1996
+Rest of the world
+East Asia
+NAFTA
+
+6.0
+2011
+European Union
+LaƟn America
+
+Fig. 3 Composition of suppliers of machinery parts and components in 1996 and 2011. Source Author’s
+was the region where the share of East Asian parts and components increased the
+most, a growth of more than 20 percentage points.
+From the perspective of production fragmentation logic, a country purchases
+more parts and components from a given region if these products have some
+comparative advantage. The existing literature highlights two channels through
+which access to inputs can beneﬁt a country: an efﬁciency gain in the production
+process by the acquisition of cheaper and/or higher quality inputs (Amiti and
+Konings 2007; Goldberg et al. 2010) and the possibility of having access to inputs
+that previously could not be produced domestically or obtained from a third country
+(Goldberg et al. 2009). In both cases, a gain in productivity and changes in
+production pattern are expected. Based on this fact, we consider the hypothesis that
+the increase in import of parts and components, especially from East Asia, should be
+beneﬁcial to Latin American machinery production networks.
+In the next subsection, we analyze the trade margins to identify possible trade
+pattern modiﬁcations.
+2.2 Descriptive analysis: the trade margins approach
+The trade ﬂow can be decomposed in extensive and intensive margins, revealing
+how the intensiﬁcation of trade in existing relations and the beginning or ending of
+trade relations contribute to change this ﬂow. Although the intensive margin is
+expected to be the main factor responsible for the changes, authors such as
+Hummels and Klenow (2005) and Kehoe and Ruhl (2013) identiﬁed that in situations
+of considerable trade growth the extensive margin contribution is also relevant. Our
+main interest in observing the extensive margins is to identify evidence of changes
+in Latin American countries’ import and export baskets.
+A country’s trade relation is understood as a product–destination pair in the case
+of exports and a product–supplier pair in the case of imports. Given an initial and a
+ﬁnal period, if a pair is active in both periods it is classiﬁed as a continuing pair. If
+country A imported (exported) a given product from (to) country B in the ﬁrst
+period and then does not in the second period, but it still imports (exports) the
+product in question from (to) a third country, we have an exit of supplier
+(destination). If a similar situation occurs, but in the second period the product in
+question is not imported (exported) from (to) any other country, then it is classiﬁed
+as an exit of product. If in the second period, country A imports (exports) a product
+that was not imported (exported) from (to) any other country in the ﬁrst period, then
+this new relation is classiﬁed as an enter of product. If in the second period, country
+A starts to import (export) from (to) country B a product that was already imported
+(exported) in the ﬁrst period from (to) a third country, then this new relation is
+classiﬁed as an entry of supplier (destination).
+Considering only the number of relations, Fig. 4 illustrates the margins of each
+Latin American country import of machinery parts and components. Mexico and
+Brazil had the highest number of product–supplier active pairs in 2011, while El
+Salvador, Honduras, Nicaragua and Paraguay had the lowest number of active pairs.
+trade margins from 1996 to 2011. Source Author’s calculation, using data available from the UN
+Comtrade
+
+of supplier margin had a very important contribution in all cases, signaling an
+increasing integration of Latin America in the international economy.
+Following Obashi and Kimura (2016), we identify the contribution that each
+margin had in the trade growth. To calculate these contributions, we use the
+following methodology:
+P c
+P c
+P
+P
+P
+c
+c
+c
+x
+À xc Þ
+c x
+c ðx
+i xi;t1 À
+i2ENPc x
+P c i i;t0 ¼ i2I Pi;t1 c i;t0 þ P c i;t1 þ i2ENCc i;t1
+P
+i xi;t0
+i xi;t0
+i xi;t0
+i xi;t0
+P
+P
+ð1Þ
+c
+c
+i2EXPc xi;t0
+i2EXCc xi;t0
+À P c
+À P c
+;
+i xi;t0
+i xi;t0
+where the value of a country c’s trade ﬂow x for product–country pair i in period t is
+denoted as xc , Ic are the continuing pairs, ENPc are the entering products, ENCc are
+i,t
+the entering countries, EXPc are the exiting products, and EXCc are the exiting
+countries.
+Figure 5 conﬁrms that the most important contribution is the intensive margin.
+Even though the supplier entry contribution is not as big as in the previous ﬁgure, it
+still accounted for an important portion of the parts and components import growth,
+indicating that the Latin American countries increased their diversity of parts and
+margins from 1996 to 2011 (%). Source Author’s calculation, using data available from the UN Comtrade
+
+We also observe the contribution of the extensive and intensive margins in Latin
+American countries exports to verify if there were changes in the variety of exported
+products and destinations. Figure 6 shows the export margins considering only the
+numbers of product–destination pairs. Once again, the entry of new destinations and
+the continuation of existing pairs are important margins. However, this time the
+entry of new products is also important, indicating a change in the exported goods
+variety. Argentina, Brazil, and Mexico already had a more developed industrial park
+in 1996; consequently, their entry of products is very small. Another interesting
+feature is that in some cases the exit of products and destinations is large, also
+indicating a change in the export basket composition.
+Next, we decompose the export growth according to its respective margins.
+Figure 7 reveals different patterns. The growth in countries with more developed
+industrial parks such as Argentina, Brazil, and Mexico focused on the intensive
+margin (Honduras is an exception, having a similar pattern to these countries). The
+entry of new products was an important margin in countries such as Ecuador,
+Nicaragua, Paraguay, and Uruguay, while in other cases, the entry of new product–
+destination pairs was more important. In countries such as Bolivia, El Salvador,
+Peru, and Venezuela, the exit of products and destinations had an important role,
+showing an export basket specialization tendency.
+The previous ﬁgures offer evidence that the pattern of Latin American countries’
+imports and exports changed during the studied period. We performed one
+1996 to 2011. Source Author’s calculation, using data available from the UN Comtrade
+
+Fig. 7 Decomposition of growth in machinery parts and components exports according to the trade
+margins from 1996 to 2011 (%). Source Author’s calculation, using data available from the UN Comtrade
+
+by country pair.4 The upper part of Fig. 8 shows an increase in the variety of parts
+and components and ﬁnal products imported. The main changes are attributed to an
+increase in products traded with China. The lower part of Fig. 8 reveals a
+predominant increase in the variety of exports to Latin American countries,
+4
+
+Given the economic growth of China after the WTO accession in 2001, we consider the importance of
+disentangling the impacts of this country from the rest of the East Asian region. We separate the East
+Asian region into two groups: a ﬁrst group composed only of China and Hong Kong (hereafter referred to
+as China), and a second group composed of the other countries in the region that we address as East Asia
+433 machinery parts and components and 691 machinery ﬁnal products. Source Author’s calculation,
+using data available from the UN Comtrade
+
+followed by an increase in the variety of parts and components exported to other
+regions.
+Given the evidence of change in the import and export pattern of Latin American
+countries, in the next subsection we analyze the changes on traded products quality.
+2.3 Descriptive analysis: sophistication level
+Concomitant to the increase in Latin America’s machinery trade ﬂow and changes
+in the structural composition of machinery parts and components suppliers, a
+modiﬁcation in the trade basket composition is expected. To evaluate this change,
+we used the PRODY index5 developed in Hausmann et al. (2007). According to the
+authors, the PRODY ‘‘index is a weighted average of the per capita GDP of
+countries exporting a given product, and thus represents the income level associated
+with that product’’. In other words, this index attributes to each one of the products a
+value that varies according to the share and per capita GDP of the countries that
+export it. This result means that products with higher PRODY values were exported
+more by developed countries, while products with lower PRODY values were
+P
+
+ðx
+P jk =Xj Þ Yj: , where
+ðx =Xj Þ
+j jk
+P
+xjk =Xj is the value-share of the commodity k in the country j’s overall export basket; j ðxjk =Xj Þ is the
+aggregated value-shares across all countries exporting good k.
+5
+
+More speciﬁcally, the PRODY index of a product k is deﬁned as PROD Yk ¼
+
+Products aggregation
+
+Mean
+
+Median
+
+SD
+
+All goods
+
+14,171.7
+
+14,076.5
+
+6110.3
+
+Non-manufactured goods
+
+11,670.5
+
+10,999.9
+
+6191.0
+
+Manufactured goods
+
+13,896.5
+
+13,446.5
+
+Machinery goods
+
+17,150.3
+
+17,289.3
+
+Min
+
+Max
+
+Observations
+
+747.7
+
+46,860.5
+
+5023
+
+747.7
+
+32,835.9
+
+1022
+
+6097.1
+
+809.5
+
+46,860.5
+
+2877
+
+4705.8
+
+3730.2
+
+35,433.8
+
+1124
+
+Source Author’s calculation, using data available from Hausmann et al. (2007)
+
+exported more by developing countries. The PRODY index can be used as a proxy
+for the sophistication of the product.
+Table 2 contains the PRODY index summary statistics for all products according
+to the HS classiﬁcation disaggregated to the six-digit level. The index varies from
+747.7 to 46,860.5, and the mean is 14,171.7. Although the index represents the
+income level associated with a given product, it is hard to attribute a sense of
+cardinality, making it easier to interpret as an ordinal index. In the lower part of the
+table, the products were classiﬁed into three different categories.6 We observe that
+non-manufactured products have the lowest PRODY index mean, while machinery
+products have the highest. Additionally, the standard deviation of the machinery
+goods PRODY index is the lowest, indicating that, in general, the products of this
+category are more sophisticated than the others.
+Next, we use the PRODY index to calculate the sophistication of the parts and
+components import basket and the intra-bloc export basket. The objective is to
+verify if changes in the parts and components import pattern led to changes in the
+pattern of the Latin American intra-bloc trade. Figure 9 reveals that for six countries
+the average sophistication degree of their machinery parts and components imports
+decreased, while the rest experienced an increase in the sophistication level.
+Figure 10 illustrates the changes in the sophistication of the intra-regional export
+basket. We observed a decrease in the sophistication level of the ﬁnal products
+export basket for seven countries, while the same occurs for just ﬁve countries in the
+parts and components export basket case. Although the results are not homogeneous, we verify gains in the export basket sophistication for the majority of the
+countries.
+2.4 Descriptive analysis: machinery sector data
+According to previous studies on machinery production networks, the machinery
+industry can be classiﬁed into four different sectors: general machinery, electric
+machinery, transport equipment, and precision machinery. Based on this classiﬁcation, Fig. 11 reveals Latin America’s machinery parts and components imports by
+sector. We observe that electric parts and components had the biggest share in both
+6
+
+Non-manufactured goods are the products classiﬁed from HS 1 to HS 27 and HS 93 to HS 99;
+manufactured goods are the products from HS 28 to HS 83, and machinery includes the products from HS
+Author’s calculation, using data available from the UN Comtrade
+
+Fig. 10 Average sophistication level of the machinery parts and components and ﬁnal products export
+Source Author’s calculation, using data available from the UN Comtrade
+
+Fig. 12 Latin America machinery export composition by sector in 1996 and 2011. Source Author’s
+calculation, using data available from the UN Comtrade
+
+years, although it declines in 2011. General machinery had the second biggest share,
+followed by transport equipment. Figure 12 plots the share of each sector in regional
+exports of ﬁnal products and parts and components. Despite the observed increase in
+export pattern with electric machinery achieving the second biggest share. A similar
+movement occurred for the case of parts and components exports. Observing the
+total exports share, we identify that transport equipment products were the most
+exported ones inside Latin America, while electric machinery became the second
+most traded in 2011. Based on the importance of these two sectors and that the study
+of their heterogeneity be a common practice in the literature, we also investigate
+them independently.
+In view of the facts presented in this section, the change in Latin America’s
+machinery trade pattern, the increase in trade ﬂows and the modiﬁcation in the
+average sophistication level of the traded products, in the next sections, we present
+the data and methodology employed to study the effects that changes in the
+structural composition of machinery parts and components suppliers had in the
+expansion of Latin American production networks and in the sophistication of the
+intra-bloc export basket.
+
+3 Data
+In the economics literature, many studies have been conducted on the fragmentation
+of production with different ways of deﬁning the object of study. Some scholars
+employ a more comprehensive deﬁnition of production networks, including in their
+analysis all inputs used, from the raw materials to the ﬁnal product. To capture all
+production steps they use international input–output tables.7 On the other hand,
+some scholars do not consider the raw materials in their analysis, understanding that
+just the trade of parts and components used in a given industry should be analyzed.
+This second group of researchers adopt a more reﬁned classiﬁcation to isolate parts
+and components from ﬁnal products.8
+We embrace the second view for two reasons: no international input–output data
+are available for the majority of the Latin American countries, and the second
+deﬁnition permits the use of more disaggregated and speciﬁc data. Considering that
+the machinery industry presents a high level of complexity and uses a large number
+of parts and components, we adopted this industry as our object of study.
+The analysis of machinery production networks was based on the classiﬁcation of
+the machinery trade in parts and components and ﬁnal products.9 The data used was
+collected from the United Nations Commodity Trade Statistics Database (UN
+Comtrade), classiﬁed according to the HS disaggregated to the six-digit level. The
+machinery industry comprises all the goods categorized as general machinery sector
+7
+
+For example, Timmer et al. (2015) used the World Input–Output Database (WIOD), while Baldwin and
+Lopez-Gonzalez (2015) employed WIOD and OECD-WTO TiVA data to analyze production networks.
+
+8
+
+For example, Athukorala (2005) separates manufacturing parts and components from ﬁnal products
+using the SITC data, while Ando and Kimura (2005) do the same for the machinery industry using HS
+data.
+
+9
+
+This process was performed in accordance with the classiﬁcation presented in Ando and Kimura
+and precision machinery sector (HS90–92).
+We consider the import of parts and components from countries that were
+responsible for at least 0.01% of the international machinery trade in 2011. The
+selected 89 countries are grouped in six regions.10 We deﬁne Latin America as the
+group of 17 countries consisting of Argentina, Bolivia, Brazil, Chile, Colombia,
+Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Nicaragua,
+Panama, Paraguay, Peru, Uruguay, and Venezuela.
+The PRODY measure was employed as the qualitative measure for the export and
+import basket of Latin American countries.11 We also used tariff data and the depth
+of the Preferential Trade Agreements (PTA)12 to account for the level of integration
+of the Latin American economies. The tariff data were collected from the World
+Integrated Trade Solution (WITS)13 and the PTAs depth measures were calculated
+based on Mulabdic et al. (2017) using the contents of trade agreements from the
+World Bank database (Hofmann et al. 2016). Given the availability of tariff and
+trade data, this study is restricted to the period from 1996 to 2011.
+
+4 Methodology
+Because the core of production networks is regionally concentrated, in this work, we
+focus on the impacts that changes in the structural composition of parts and
+components suppliers have on Latin America’s intra-bloc exports. For this empirical
+exercise, we use a model known as the workhorse of empirical international trade
+analysis: the gravity model (Baier and Bergstrand 2007). The gravity model is
+distinguished by its good ﬁt and its parsimonious and tractable representation of
+economic interactions among many countries, also allowing for disaggregation of
+the trade in different levels of geographical organization and product classiﬁcation
+(Anderson 2011).
+To quantify the impact that changes in the structural composition of parts and
+components suppliers had on the development of the intra-bloc machinery trade, we
+follow the methodology proposed by Florensa et al. (2015), an augmented gravity
+model that accounts for the effect of the import of intermediate products. The
+adoption of such a framework is justiﬁed by the fact that, different from the standard
+gravity framework, this version accounts for the effect that the import of parts and
+10
+
+The list containing the 89 countries divided by regions is available in the Table 8 in ‘‘Appendix’’.
+
+11
+
+We use the PRODY measures calculated by Hausmann et al. (2007). According to the authors they
+‘‘constructed the PRODY measure for a consistent sample of countries that reported trade data in each of
+the years 1999–2001. These indexes are the result of an average of 3 years’’ (Hausmann et al. 2007).
+Because the chosen years are previous to the Chinese accession to the World Trade Organization, the
+possibility of a downward bias in the ranking of the machinery goods (in particular, ﬁnal goods, given the
+increase in multinationals assembling their ﬁnal products China) is minimized.
+12
+We thank an anonymous referee for suggesting the use of PTAs depth to implicitly control non-tariff
+barriers.
+13
+Tariff data were classiﬁed to HS six-digit level and when necessary was converted to the HS1992
+intra-bloc exports. The proposed model assumes that in the ﬁrst period, Latin
+American countries can import parts and components from any region of the world.
+These parts and components are employed to produce other parts and components
+that in a second period will be used domestically or traded with another country.
+Alternatively, they can be used to manufacture a ﬁnal product that will be consumed
+domestically or traded with a third country. We assume that Latin American
+production networks are created when Latin American countries use parts and
+components imported from any region of the world to produce a ﬁnal product or
+other parts and components that are exported to another Latin American country.
+The Latin American intra-bloc trade of ﬁnal products and parts and components
+in a given year is explained by the tariffs imposed by the importer country in the
+same year and the exporter country imports of parts and components in the previous
+year. We augment the Florensa et al. (2015) model to capture the possible effects of
+the non-tariff barriers by adding a PTA depth measure. The PTA depth index
+calculation follows Mulabdic et al. (2017): based on the content of the trade
+agreements database, we count the number of legally enforceable provisions
+covered by each agreement and normalize it between 0 and 1.
+Fixed-effect dummies are used to capture all sources of unobserved heterogeneity
+that are constant for each period of time, individual, and sector. Following Anderson
+and van Wincoop (2003, 2004), exporter-time and importer-time dummies are
+employed to control for the multilateral resistance, sector dummies control for
+unobserved heterogeneities of each machinery sector, while exporter–importer
+dummies are added to guard against unobserved heterogeneities on the relation of
+each country pair (Baier and Bergstrand 2007). The proposed models were deﬁned
+as follows:
+7
+X
+À
+Á
+À
+Á
+À
+Á
+ln XFijkt ¼ a0 þ
+ar ln M pcriktÀ1 þ a8 ln 1 þ tariffjikt þ a9 ln 1 þ depthijt
+r¼1
+
+þ cit þ ujt þ sij þ xk þ eijkt ;
+
+ð2Þ
+
+7
+X
+À
+Á
+À
+Á
+À
+Á
+br ln M pcriktÀ1 þ b8 ln 1 þ tariffjikt þ b9 ln 1 þ depthijt
+ln XPCijkt ¼ b0 þ
+r¼1
+
+þ nit þ sjt þ zij þ lk þ dijkt ;
+
+ð3Þ
+
+where XFijkt and XPCijkt denote the traded value of ﬁnal products and parts and
+components from country i to country j (these countries are limited to Latin
+American countries only) of sector k in year t. The traded values are explained by
+country i’s imports of parts and components of sector k from a given region r in year
+t - 1 (M pcriktÀ1 ), the tariff imposed by the importing country j over the product of
+sector k provided by country i in time t tariff jikt , the depth measure of the PTA
+between country i and j in year t depthijt , exporter-time and importer-time dummies
+deﬁnition of the object of study. As already mentioned, we selected a more speciﬁc
+object of study, focusing on the machinery industry alone. This allows us to use
+more disaggregated and detailed data, increasing the reﬁnement of the parts and
+components and ﬁnal products correspondence. Additionally, we can classify
+machinery industry products into four different sectors, decreasing the bias that can
+result from the use of aggregated data.
+Based on previous works about production fragmentation and use of imported
+inputs, it is expected that the purchase of parts and components from another
+country should provide some efﬁciency gain or advantage to Latin American
+countries. Based on this fact, we expect that the increase in imports of parts and
+components from the East Asian region should guarantee a production gain for
+Latin American countries, increasing the intra-bloc machinery trade.
+An important contribution of this paper is that the analysis is not limited to the
+quantity impact of the import of parts and components on the intra-bloc trade; we
+also propose a way of verifying quality changes. Since we know that there was a
+change in the shares of machinery parts and components providers, we attempt to
+evaluate if this variation also produced a modiﬁcation in the Latin American intrabloc trade pattern. Once again, it is expected that if the East Asian region is more
+efﬁcient in the production of machinery parts and components, providing inputs
+with higher quality and/or cheaper prices, Latin American countries should be able
+to diversify and improve the quality of their intra-bloc trade basket.
+To check this hypothesis, we propose a substitution of the traded values by a
+trade basket sophistication index that is calculated based on the PRODY index
+developed in Hausmann et al. (2007). The PRODY index can be used as a proxy for
+the sophistication of the product, and according to Hausmann et al. (2007), countries
+that have an export basket more similar to the developed countries tend to register
+economic growth in the subsequent periods. Based on this concept and the
+importance of economic growth for the development of Latin American countries,
+we use the PRODY index to calculate the composition of the import basket of parts
+and components (IMPY index) and the intra-bloc export basket (EXPY index). The
+objective is to estimate if the imports of parts and components from speciﬁc regions
+contributed or not to bring the Latin American intra-bloc export basket closer to the
+developed countries. The proposed models are deﬁned as follows:
+7
+X
+À
+Á
+À
+Á
+ln EXPYFijkt ¼ a0 þ
+ar ln IMPY pcriktÀ1 þ a8 ln 1 þ tariff jikt
+r¼1
+À
+Á
+þ a9 ln 1 þ depthijt þ cit þ ujt þ sij þ xk þ eijkt ;
+
+ð4Þ
+
+7
+X
+À
+Á
+À
+Á
+ln EXPYPCijkt ¼ b0 þ
+br ln IMPY pcriktÀ1 þ b8 ln 1 þ tariff jikt
+r¼1
+À
+Á
+þ b9 ln 1 þ depthijt þ nit þ sjt þ zij þ lk þ dijkt ;
+
+ð5Þ
+
+where EXPYFijkt and EXPYPCijkt denote the EXPY index attributed to the basket of
+The EXPY index is calculated as the weighted average of the PRODY index of each
+component of the basket of a given sector. The EXPY index attributed to the baskets
+of ﬁnal products and parts and components traded inside Latin America is explained
+by the IMPY index attributed to the basket of parts and components of sector k that
+country i imported from a given region r in year t - 1 (IMPY pcriktÀ1 ), the depth
+measure of the PTA between country i and j in year t depthijt , the tariff imposed by
+the importing country j over the product of sector k provided by country i in time t
+tariff jikt , the exporter-time and importer-time dummies (time is deﬁned as a 5-year
+period), and the sector and the importer–exporter dummies.
+
+5 Results: quantity analysis
+A common characteristic of trade data is the existence of missing and zero trade
+values. As the natural logarithm of zero does not exist, the estimated regressions do
+not consider the zero trade values that are important information about the trade
+pattern. The dropped data are information not used in the estimation, possibly
+leading to a bias in the regression results.14 To avoid this problem, we estimate the
+regressions using the pseudo-Poisson maximum likelihood (PPML) method (Santos
+Silva and Tenreyro 2006). The PPML is the most accepted technique in the gravity
+model literature, allowing us to account for the observations with zero trade
+values.15 In addition, trade data are plagued by heteroscedasticity, consequently the
+use of OLS can lead to the estimation of biased elasticities (Santos Silva and
+Tenreyro 2006).
+We ﬁrst estimate Eqs. (2) and (3) for the values of the pooled machinery intrabloc exports. We also consider separate estimations for the main machinery sectors:
+electric machinery and transport equipment.
+The ﬁrst half of Table 3 contains the results for the intra-bloc exports of
+machinery ﬁnal products. The tariff coefﬁcient for the pooled data regression is
+negative and statistically signiﬁcant, indicating that reductions in import tariffs of
+machinery ﬁnal products are associated with increases in their intra-bloc exports.
+Consequently, the advance of the regional integration in Latin America through the
+decrease in the import tariffs imposed over the intra-bloc machinery trade have a
+positive impact on the development of Latin American machinery production
+networks. On the opposite side, the coefﬁcient for PTA depth is statistically
+insigniﬁcant, showing that changes in non-tariff barriers do not affect production
+networks. The variables related to the origin of the imported parts and components
+reveal that an intensiﬁcation of imports from the rest of the world (ROW), East Asia
+(EA), and Latin American (LA) countries, increase the intra-bloc trade of ﬁnal
+products in the subsequent period. The results reveal that a 1% increase in imports
+14
+The share of dropped values when the OLS method is employed ranges from around 17–29% of the
+total values estimated with the PPML technique.
+15
+In our database, we also have missing tariff and trade data for a given group of countries and products
+machinery exports
+Final products
+
+Parts and components
+
+Pooled
+machinery
+
+Electric
+machinery
+
+Transport
+equipment
+
+Pooled
+machinery
+
+Electric
+machinery
+
+Transport
+equipment
+
+Tariff
+
+2 0.17***
+(0.05)
+
+2 0.12**
+(0.06)
+
+- 0.05
+(0.08)
+
+- 0.03
+(0.04)
+
+- 0.03
+(0.04)
+
+- 0.05
+(0.04)
+
+Lagged imports of parts
+and components from
+ROW
+
+0.15***
+(0.05)
+
+2 0.24**
+(0.09)
+
+0.18**
+(0.07)
+
+0.19***
+(0.05)
+
+0.08
+(0.07)
+
+0.04
+(0.06)
+
+Lagged imports of parts
+and components from
+EU
+
+- 0.03
+(0.08)
+
+0.18
+(0.23)
+
+- 0.03
+(0.21)
+
+- 0.20
+(0.13)
+
+2 0.42***
+(0.12)
+
+- 0.08
+(0.12)
+
+Lagged imports of parts
+and components from
+EA
+
+0.45***
+(0.06)
+
+0.00
+(0.15)
+
+0.15
+(0.19)
+
+0.05
+(0.07)
+
+0.38***
+(0.10)
+
+0.31
+(0.20)
+
+Lagged imports of parts
+and components from
+LA
+
+0.53***
+(0.08)
+
+0.07
+(0.09)
+
+- 0.12
+(0.18)
+
+0.64***
+(0.08)
+
+0.16
+(0.11)
+
+0.39***
+(0.14)
+
+Lagged imports of parts
+and components from
+US and Canada
+
+2 0.32***
+(0.08)
+
+2 0.52***
+(0.15)
+
+- 0.32
+(0.23)
+
+0.31***
+(0.08)
+
+2 0.17*
+(0.09)
+
+2 0.49***
+(0.18)
+
+Lagged imports of parts
+and components from
+China and HK
+
+2 0.27***
+(0.05)
+
+0.22**
+(0.09)
+
+0.06
+(0.10)
+
+- 0.02
+(0.06)
+
+0.02
+(0.10)
+
+0.02
+(0.07)
+
+PTA depth
+
+- 0.24
+(0.26)
+
+2 0.66***
+(0.22)
+
+- 0.20
+(0.65)
+
+- 0.33
+(0.29)
+
+- 0.09
+(0.20)
+
+0.03
+(0.49)
+
+Observations
+
+16,943
+
+4320
+
+4032
+
+16,667
+
+4256
+
+3794
+
+R2
+
+0.87
+
+0.90
+
+0.94
+
+0.87
+
+0.94
+
+0.97
+
+Results that are statistically signiﬁcant and different from zero are highlighted using bold text
+Given a restriction of space, the coefﬁcients of secondary variables are omitted. Robust standard errors in
+parentheses: *p \ 0.10, **p \ 0.05, ***p \ 0.01
+
+of parts and components from LA leads to an increase of 0.53% in the intra-bloc
+exports of ﬁnal products. The coefﬁcient for imports from EA is also high,
+approximately 0.45%, while imports from the ROW have a smaller effect,
+approximately 0.15%. On the other hand, the coefﬁcient of imports from the North
+America16 and China are negative, indicating a decrease on the intra-bloc trade of
+ﬁnal machinery products of 0.32 and 0.27%, respectively. Although it is not
+possible to identify the exact reasons why imports from these suppliers do not
+stimulate intra-bloc trade, we consider a few hypotheses. The ﬁrst is that an
+important share of imported parts and components are used in domestic production
+networks being consumed in the domestic market. Given the lack of data we cannot
+verify this hypothesis. A second possibility is that a share of these parts and
+16
+
+This case is beyond the scope of this paper. It could also be the case that imports
+from these regions are used to produce parts and components that are exported to
+other Latin American countries. If that is the case, coefﬁcients will be positive in the
+second half of the table, when dependent variables are parts and components
+exports.
+Results in the second column refer to the electric machinery trade. The import
+tariff coefﬁcient is negative, indicating that a decrease of 1% in the tariffs imposed
+on electric machinery parts and components imports, all ceteris paribus, stimulates
+an increase of 0.12% in intra-bloc exports of electric machinery ﬁnal products. Once
+again, the coefﬁcient for imports from North America is negative, indicating that a
+1% increase in imports from this region causes a decrease in the intra-bloc exports
+of ﬁnal electric machinery of 0.52%. Imports from the ROW also have a negative
+impact of 0.24%. On the opposite side, a 1% increase in imports of electric
+machinery parts and components from China promotes an intensiﬁcation of 0.22%
+in the intra-bloc trade of ﬁnal products. The PTA depth coefﬁcient is statistically
+signiﬁcant and indicates that deeper agreements lead to a decrease in the intraregional trade of electric machinery ﬁnal products. According to Hofmann et al.
+(2016), agreements between developing countries are in general less deep and focus
+more on the decrease of import tariffs, since they are still high.17 This is in
+accordance with our ﬁndings that show that decreases in import tariffs are more
+efﬁcient than deeper agreements in the promotion of intra-bloc electric machinery
+ﬁnal products exports. Additionally, in Latin America shallow agreements embrace
+more members, while deeper ones are in general bilateral agreements involving
+Mexico and Central American countries. Consequently, members of shallower
+agreements, such as the Mercosur, promote higher trade ﬂows among themselves
+than members of deeper agreements. Lastly, according to Baier and Bergstrand
+(2007), all PTAs are ‘‘phased-in’’ over time, approximately 5–10 years. Therefore,
+older and shallower agreements, implemented in the 1990s, should have bigger
+impacts than the deeper ones, the majority of which were implemented in 2009,
+only 2 years before the end of the period studied.18
+With regard to transport equipment, the results are almost all statistically
+insigniﬁcant. The exception is the coefﬁcient for imports from the ROW, indicating
+that a 1% increase in imports of transport equipment parts and components from this
+region leads to an increase of 0.18% in intra-bloc exports of ﬁnal transport
+equipment.
+The second half of Table 3 displays the intra-bloc parts and components export
+coefﬁcients. In this case, import tariff and PTA depth coefﬁcients are statistically
+insigniﬁcant, signaling an increase in regional integration through the decrease of
+the import tariffs or non-tariff barriers would not affect the production fragmentation and relocation inside Latin America. Imports of parts and components from
+17
+The mean of the import tariff between Latin American countries in the studied period was 6.89% for
+machinery ﬁnal products and 5.64% for machinery parts and components. For the case of electric
+machinery, the average import tariffs are 9.92% for ﬁnal products and 6.62% for parts and components.
+18
+
+coefﬁcients. As observed in Florensa et al. (2015), imports of parts and components
+from these regions generate what they called a ‘‘complementary effect’’. In other
+words, they stimulate production fragmentation and its relocation inside Latin
+America, since parts and components imported by a Latin American country in the
+ﬁrst period produce other parts and components that will be used in a third Latin
+American country, promoting these countries engagement in machinery productions
+networks. A 1% increase in parts and components imports from LA results in an
+increase of 0.64% of the intra-bloc export of parts and components. Imports from
+North America promote an increase of 0.31%, while imports from the ROW have a
+smaller effect of 0.19%.
+In the speciﬁc case of electric machinery, imports from EA stimulate the intrabloc trade of parts and components with a coefﬁcient of 0.39%, while imports from
+European Union (EU) and North America have a negative effect. In the case of
+transport equipment, the LA coefﬁcient is positive, while the North American one is
+negative. Florensa et al. (2015) refer to the situation when coefﬁcients are negative
+as the ‘‘substitution effect’’, because instead of enhancing the development of
+production networks among Latin American countries, it promotes trade inside
+domestic markets or with countries in third regions.
+Evidence indicates that increases in the import of parts and components from LA
+have the biggest positive impact in the creation of a Latin American machinery
+production network. This result aligns with Florensa et al. (2015) and the production
+fragmentation theory that states that the core of production networks is regionally
+organized. Imports from North America, a region that is geographically close to
+Latin America and known for engaging in back-and-forth intra-ﬁrm production
+network transactions with Mexico and Central American countries, presented mixed
+results. It stimulates the intra-bloc trade of machinery parts and components in
+general, but decreases the trade of ﬁnal products. Conversely, the results indicate
+that in the speciﬁc case of electric machineries, imports from EA and China foment
+production fragmentation. This result also aligns with Florensa et al. (2015) and
+Fung et al. (2015b) who veriﬁed an increase of parts and components supplies from
+Asian countries supporting Latin America’s engagement in production networks.
+As mentioned in Sect. 2, Latin America is an area where economic integration
+still lags behind other regions of the globe. Although there are 21 different PTAs
+signed by LA countries, none of them integrates the whole region. Given this fact,
+we perform one extra exercise to explore the heterogeneity inside the region. Based
+on economic proximity and negotiated PTAs, we classiﬁed Latin America into three
+subregions: one composed of Argentina, Brazil, Paraguay, and Uruguay, who are
+members of Mercosur; a second composed of Bolivia, Colombia, Ecuador, Peru,
+and Venezuela who are members of the Andean Community (CAN); and a third
+with the members of Central America (Costa Rica, El Salvador, Guatemala,
+Honduras, Nicaragua, and Panama), Mexico and Chile.19
+19
+Venezuela was classiﬁed as part of CAN, because during the majority of the studied period it was a
+member of it. Chile and Mexico were aggregated with Central American economies given the existence
+machinery exports by subregion
+Final products
+
+Parts and components
+
+CE,
+Mexico
+and Chile
+
+Andean
+Community
+
+Mercosur
+
+CE,
+Mexico
+and Chile
+
+Andean
+Community
+
+Mercosur
+
+Tariff
+
+2 0.28***
+(0.07)
+
+0.06 (0.09)
+
+2 0.23***
+(0.07)
+
+0.05
+(0.08)
+
+- 0.05
+(0.10)
+
+2 0.10***
+(0.03)
+
+Lagged imports of
+parts and
+components from
+ROW
+
+0.04
+(0.06)
+
+- 0.13
+(0.09)
+
+0.15**
+(0.07)
+
+0.23***
+(0.06)
+
+- 0.14
+(0.12)
+
+0.10**
+(0.05)
+
+Lagged imports of
+parts and
+components from
+EU
+
+- 0.18
+(0.13)
+
+- 0.18
+(0.25)
+
+0.12
+(0.19)
+
+2 0.45***
+(0.12)
+
+- 0.17
+(0.20)
+
+- 0.17
+(0.13)
+
+Lagged imports of
+parts and
+components from
+EA
+
+0.15***
+(0.06)
+
+0.36**
+(0.17)
+
+0.66***
+(0.13)
+
+0.25***
+(0.08)
+
+- 0.04
+(0.19)
+
+0.03
+(0.09)
+
+Lagged imports of
+parts and
+components from
+LA
+
+0.32***
+(0.09)
+
+0.49***
+(0.13)
+
+0.10
+(0.11)
+
+0.45***
+(0.07)
+
+0.16 (0.12)
+
+0.05
+(0.09)
+
+Lagged imports of
+parts and
+components from
+US and Canada
+
+0.42***
+(0.10)
+
+- 0.02
+(0.25)
+
+2 0.92***
+(0.15)
+
+0.58***
+(0.10)
+
+0.40*
+(0.21)
+
+2 0.25***
+(0.09)
+
+Lagged imports of
+parts and
+components from
+China and HK
+
+2 0.22***
+(0.05)
+
+2 0.38***
+(0.13)
+
+- 0.12
+(0.09)
+
+0.06
+(0.07)
+
+0.13 (0.11)
+
+0.26***
+(0.05)
+
+PTA depth
+
+2 0.60***
+(0.22)
+
+0.48 (0.56)
+
+0.66
+(1.02)
+
+2 1.29***
+(0.35)
+
+- 0.06
+(0.31)
+
+1.03
+(0.85)
+
+Observations
+
+0.71
+
+0.69
+
+0.91
+
+0.90
+
+0.73
+
+0.92
+
+R2
+
+7807
+
+5104
+
+4032
+
+7635
+
+5104
+
+3928
+
+Results that are statistically signiﬁcant and different from zero are highlighted using bold text
+Given a restriction of space, the coefﬁcients of secondary variables are omitted. Robust standard errors in
+parentheses: *p \ 0.10, **p \ 0.05, ***p \ 0.01
+
+Table 4 contains the results of machinery exports from each subregion.20 Given
+the reduction in the number of observations, we consider only the pooled machinery
+data results. The majority of the coefﬁcients are statistically insigniﬁcant for the
+case of CAN exports. Indeed, among the three subregions, CAN is the one with the
+smallest machinery trade. The results reveal that imports from LA and EA countries
+enhance the intra-regional trade of ﬁnal machinery by 0.5 and 0.36%, while imports
+20
+
+components by 0.4%. In the cases of Central America, Mexico and Chile, we
+observe that imports from EA, LA and North America enhance the intra-regional
+trade of machinery ﬁnal products by 0.15, 0.32, and 0.42%, respectively. Imports
+from these three regions and the ROW enhance the regional trade of parts and
+components by 0.25, 0.45, 0.58, and 0.23%, respectively. On the opposite side,
+imports from China and EU have negative effects. The results indicate that
+production fragmentation in Central America, Mexico and Chile is stronger than in
+CAN, with EA, LA and North America, who, in ascending order, have been
+important suppliers for the regional production networks. Though composed of only
+four economies, Mercosur is responsible for the biggest intra-bloc machinery trade.
+The results also indicate that imports from the ROW and EA stimulate the exports
+of ﬁnal products, while imports from the ROW and China enhance the exports of
+parts and components inside Latin America. Coefﬁcients for EA and China are
+higher than the ROW: a 1% increase in import of parts and components from EA
+induced an increase of 0.66% in the intra-bloc trade of ﬁnal products compared with
+0.15% for imports from the ROW, while imports from China promoted a 0.26%
+increase in the intra-bloc trade of parts and components compared with 0.10% for
+imports from the ROW. On the opposite side, imports from North America do not
+stimulate the intra-bloc export of machinery.
+We conclude that, different from Central American, Mexico and Chile,
+production networks promoted by Mercosur countries depend more on imports
+from China and EA, while imports from North America have a negative impact. In
+this case, it seems that geographical and economic proximity still play an important
+role, with North American imports fomenting the ﬁrst regions’ engagement in
+production fragmentation, while in Mercosur’s case, a region more distant from
+North America, the imports from EA and China are more important.
+
+6 Results: quality analysis
+Considering the wide range of machinery products and that some are more
+sophisticated than the others, our next step is to examine which regions provide
+parts and components that promote Latin American production networks of
+products more similar to the ones produced by developed countries. Being involved
+in the manufacturing process of products with higher sophistication level instead of
+just buying the ﬁnal product from other regions, Latin American countries gain
+access to technology, beneﬁt from positive spillover effects, and increase the
+possibilities of enjoying economic growth.
+The ﬁrst half of Table 5 presents the results for the intra-bloc trade of ﬁnal
+products, while results for the intra-bloc trade of machinery parts and components
+are in the second half. The ﬁrst notable feature is that the tariff coefﬁcient is positive
+in all columns, indicating that a decrease in the import tariff leads to a decrease in
+the sophistication of the machinery export basket. In other words, the export basket
+becomes more similar to the developing countries. One possible interpretation for
+Final products
+
+Parts and components
+
+Pooled
+machinery
+
+Electric
+machinery
+
+Transport
+equipment
+
+Pooled
+machinery
+
+Electric
+machinery
+
+Transport
+equipment
+
+Tariff
+
+0.05***
+(0.01)
+
+0.07***
+(0.01)
+
+0.05***
+(0.02)
+
+0.08***
+(0.01)
+
+0.08***
+(0.01)
+
+0.06***
+(0.02)
+
+Lagged imports of parts
+and components from
+ROW
+
+0.01**
+(0.01)
+
+0.02
+(0.01)
+
+0.00
+(0.01)
+
+0.04***
+(0.01)
+
+0.01
+(0.01)
+
+0.01
+(0.01)
+
+Lagged imports of parts
+and components from
+EU
+
+0.04***
+(0.01)
+
+0.04*
+(0.02)
+
+0.03
+(0.05)
+
+0.04***
+(0.01)
+
+- 0.03
+(0.02)
+
+- 0.01
+(0.05)
+
+Lagged imports of parts
+and components from
+EA
+
+0.02***
+(0.01)
+
+0.03
+(0.03)
+
+0.01
+(0.04)
+
+0.04***
+(0.01)
+
+2 0.04*
+(0.02)
+
+- 0.03
+(0.03)
+
+Lagged imports of parts
+and components from
+LA
+
+0.02***
+(0.01)
+
+0.06**
+(0.03)
+
+- 0.03
+(0.06)
+
+0.02**
+(0.01)
+
+0.03
+(0.03)
+
+0.00
+(0.05)
+
+Lagged imports of parts
+and components from
+US and Canada
+
+0.06***
+(0.01)
+
+0.07***
+(0.03)
+
+- 0.02
+(0.04)
+
+0.10***
+(0.01)
+
+- 0.01
+(0.03)
+
+0.01
+(0.04)
+
+Lagged imports of parts
+and components from
+China and HK
+
+0.00
+(0.01)
+
+0.03
+(0.02)
+
+0.02
+(0.01)
+
+0.01
+(0.01)
+
+0.04***
+(0.02)
+
+0.00
+(0.01)
+
+PTA depth
+
+0.01
+(0.03)
+
+0.03
+(0.05)
+
+0.04
+(0.07)
+
+0.01
+(0.04)
+
+- 0.08*
+(0.05)
+
+0.07
+(0.06)
+
+Observations
+
+16,943
+
+4320
+
+4032
+
+16,667
+
+4256
+
+3794
+
+R2
+
+0.42
+
+0.46
+
+0.49
+
+0.44
+
+0.51
+
+0.55
+
+Results that are statistically signiﬁcant and different from zero are highlighted using bold text
+Given a restriction of space, the coefﬁcients of secondary variables are omitted. Robust standard errors in
+parentheses: *p \ 0.10, **p \ 0.05, ***p \ 0.01
+
+values that are comparatively easier to be produced by developing countries were
+manufactured in most of the countries and were consumed in the domestic market,
+while machinery products with a higher level of sophistication were produced by
+just a few countries in the region and traded inside the bloc. The import tariff
+reduction allowed for an increase in the intra-bloc trade and specialization. This
+phenomenon promoted a faster growth in the trade of less sophisticated products
+than the sophisticated ones.
+Considering parts and components suppliers, we verify that imports from the
+ROW, EU, EA, LA, and North America promoted an increase in the sophistication
+of the ﬁnal products traded inside Latin America. A 1% increase in North American
+participation in the import basket composition, all ceteris paribus, promotes an
+increase of 0.06% in the quality of the intra-bloc export basket, while imports from
+imports just from LA and North America had a positive effect in the electric
+machinery sector, while the coefﬁcients for imports from other regions are
+statistically insigniﬁcant. Increases of 1% in imports from North America promote
+an increase of 0.07% in the quality of ﬁnal electric machinery intra-bloc export
+basket, while imports from LA promote an increase of 0.06%. Transport equipment
+coefﬁcients were all statistically insigniﬁcant. In the second half of Table 5, we
+verify similar results for the case of pooled machinery data. North American
+imports promote an increase of 0.1% in the quality of the parts and components
+export basket, while imports from the EU and EA promote an increase of 0.04%
+each. In column 5, the coefﬁcients are slightly different, revealing that imports only
+from China promote a 0.04% increase in the intra-bloc export basket of electric
+machinery parts and components, while imports from EA have a negative effect.
+Once again, transport equipment coefﬁcients are statistically insigniﬁcant.
+Results in this section partially support the hypothesis that an increase in imports
+of parts and components from Asian countries promotes an increase in the quality of
+the intra-bloc export basket. Nevertheless, imports from EU and North America had
+a bigger positive effect. Table 6 presents the PRODY mean of the import basket
+from each region in 1996 and 2011, revealing that import baskets from EU and
+North America were still composed of products with a high sophistication level.
+Given the increase in Asian product imports share in the detriment of imports from
+both regions, we can conclude that imports from EU and North America
+concentrated in higher sophistication products, while Asia supplied products with
+a slightly lower level of sophistication at very competitive prices. Another
+interesting feature is that, although the share of imports from the ROW is the
+smallest one, imports from this region are concentrated in products with a very high
+level of sophistication.
+As in the previous section, we perform a similar exercise considering the exports
+of countries classiﬁed in three different subregions to explore their differences.
+Table 7 reveals that for Mexico, Chile, and Central American countries the imports
+Table 6 Machinery imported parts and components PRODY index mean
+Latin America
+
+CE, Mexico and
+Chile
+
+Andean
+Community
+
+Mercosur
+
+1996
+
+2011
+
+1996
+
+2011
+
+1996
+
+2011
+
+1996
+
+2011
+
+ROW
+
+18,273.1
+
+18,358.7
+
+17,997.5
+
+18,005.2
+
+18,569.9
+
+18,808.3
+
+18,453.3
+
+18,503.4
+
+EU
+
+17,492.8
+
+17,652.7
+
+17,418.5
+
+17,327.4
+
+17,581.6
+
+18,067.0
+
+17,530.3
+
+17,785.3
+
+North
+America
+
+16,870.1
+
+17,576.7
+
+16,735.8
+
+17,245.1
+
+17,032.2
+
+17,577.7
+
+16,935.9
+
+18,238.5
+
+EA
+
+16,629.9
+
+17,106.3
+
+16,535.6
+
+16,930.5
+
+16,742.7
+
+17,258.1
+
+16,677.4
+
+17,268.1
+
+LA
+
+16,389.4
+
+16,313.9
+
+16,256.1
+
+15,845.9
+
+16,188.2
+
+16,486.5
+
+16,907.2
+
+17,034.1
+
+China
+
+15,109.2
+
+16,445.3
+
+15,589.5
+
+16,272.3
+
+15,006.5
+
+16,549.7
+
+14,276.8
+
+16,660.5
+
+Final products
+
+Parts and components
+
+CE,
+Mexico
+and Chile
+
+Andean
+Community
+
+Mercosur
+
+CE,
+Mexico
+and Chile
+
+Andean
+Community
+
+Mercosur
+
+Tariff
+
+0.04***
+(0.01)
+
+0.01 (0.02)
+
+2 0.24***
+(0.07)
+
+0.11***
+(0.01)
+
+0.04**
+(0.02)
+
+0.02
+(0.01)
+
+Lagged imports of
+parts and
+components from
+ROW
+
+0.02***
+(0.01)
+
+- 0.01
+(0.01)
+
+0.14**
+(0.06)
+
+0.04***
+(0.01)
+
+0.03***
+(0.01)
+
+0.07***
+(0.01)
+
+Lagged imports of
+parts and
+components from
+EU
+
+0.04***
+(0.02)
+
+2 0.08**
+(0.04)
+
+- 0.25
+(0.19)
+
+0.05***
+(0.02)
+
+2 0.10***
+(0.04)
+
+- 0.01
+(0.04)
+
+Lagged imports of
+parts and
+components from
+EA
+
+0.02*
+(0.01)
+
+0.04*
+(0.02)
+
+0.39***
+(0.14)
+
+0.04***
+(0.01)
+
+2 0.07***
+(0.03)
+
+0.06***
+(0.02)
+
+Lagged imports of
+parts and
+components from
+LA
+
+0.01
+(0.01)
+
+- 0.02
+(0.03)
+
+- 0.13
+(0.12)
+
+2 0.02**
+(0.01)
+
+- 0.02
+(0.03)
+
+0.01
+(0.02)
+
+Lagged imports of
+parts and
+components from
+US and Canada
+
+2 0.04*
+(0.02)
+
+0.13**
+(0.06)
+
+2 0.77***
+(0.14)
+
+2 0.05*
+(0.03)
+
+- 0.09
+(0.05)
+
+2 0.08***
+(0.03)
+
+Lagged imports of
+parts and
+components from
+China and HK
+
+2 0.04***
+(0.01)
+
+- 0.02
+(0.02)
+
+- 0.12
+(0.08)
+
+2 0.04***
+(0.01)
+
+2 0.08***
+(0.02)
+
+2 0.03*
+(0.02)
+
+PTA depth
+
+0.06
+(0.04)
+
+2 0.14**
+(0.06)
+
+0.56
+(1.01)
+
+0.15***
+(0.05)
+
+- 0.06
+(0.08)
+
+2 0.24*
+(0.14)
+
+Observations
+
+0.46
+
+0.34
+
+0.91
+
+0.47
+
+0.37
+
+0.51
+
+R2
+
+7807
+
+5104
+
+4032
+
+7635
+
+5104
+
+3928
+
+Results that are statistically signiﬁcant and different from zero are highlighted using bold text
+Given a restriction of space, the coefﬁcients of secondary variables are omitted. Robust standard errors in
+parentheses: *p \ 0.10, **p \ 0.05, ***p \ 0.01
+
+from the ROW, EU, and EA promote an increase in the sophistication of the ﬁnal
+products this region produced and exported inside LA. Conversely, imports from
+North America and China have a surprisingly negative effect. The pattern does not
+change even when intra-bloc exports of parts and components are considered. The
+only difference is that LA imports have a negative impact. Table 6 reveals that from
+1996 to 2011 the PRODY mean of this subregion import basket decreased,
+coefﬁcient is positive and statistically signiﬁcant only in this case comprising the
+Central American countries Chile and Mexico, a subregion with the deepest PTAs.
+For the Andean Community members, imports of parts and components from EU
+have a negative impact, while imports from EA and North America increase the
+sophistication of the machinery ﬁnal products they export inside Latin America.
+When intra-bloc exports of parts and components are considered, imports from the
+ROW assume a positive coefﬁcient. Although Table 6 revealed no decrease in the
+PRODY mean from 1996 to 2011, after econometrically controlling all variables,
+the model reveals a negative effect on intra-bloc exports of parts and components in
+the cases of imports from China, EA and EU.
+Increases in EA and the ROW participation in Mercosur’s import basket
+composition have a positive impact on Mercosur members’ exports of machinery
+ﬁnal products and parts and components, while North American participation in the
+import basket have a negative impact.
+These results indicated that depending on the subregion, the origin of the imports
+can have a positive or negative effect on the sophistication level of the machinery
+exports inside Latin America. In general, imports from EA and the ROW had
+positive effects, while imports from North America and China had negative impacts.
+However, when we consider all Latin American countries, we verify positive
+contributions from North American imports. The results indicate that in the case of
+imports from China, the effect on the intra-bloc exports sophistication level were
+not positive as expected, revealing that its exports to Latin America were still
+composed of cheaper and less sophisticated parts and components. The exception is
+in the speciﬁc case of electric machinery, where imports from China increased the
+sophistication of the intra-bloc exports of parts and components.
+
+7 Final considerations
+In this paper, we investigated how the changes in the structural composition of Latin
+America’s suppliers of machinery parts and components affected the development
+of Latin American regional production networks. In our analysis, we considered a
+quantity and a quality dimension of the impact of these imports.
+In the ﬁrst part of the paper, the descriptive analysis indicated a growth in the import
+of parts and components from all regions of the world. However, we observed that the
+growth in imports from the East Asian region was higher, resulting in a change in the
+structural composition of the suppliers. Concomitant with this composition change, we
+also veriﬁed a modiﬁcation in the sophistication level on the intra-bloc exports. In the
+second part of the paper, we proceeded with an econometric analysis to identify from
+which regions the import of parts and components contributed more to develop
+production networks inside Latin America and increase the sophistication level of the
+traded products. The quantity analysis provided evidence that Latin American
+production networks increased during the studied period, and they were fomented by
+import of machinery parts and components from the ROW, LA, EA, and North
+North America stimulated the intra-bloc trade of machinery parts and components in
+general, decreasing the trade in speciﬁc machinery sectors. The expected result that the
+increase in imports from EA and China fomented production networks inside Latin
+America was conﬁrmed for the speciﬁc case of electric machineries. Conversely,
+imports of parts and components from North America did not stimulate the intra-bloc
+trade of machineries ﬁnal products and parts and components for the two speciﬁc
+sectors analyzed.
+Exploring subregional heterogeneities, we identiﬁed that imports from North
+America had the highest positive impact in intra-bloc exports in the cases of the
+exports from Central America, Chile and Mexico subregions, as well as the Andean
+Community. Imports from EA and China had the highest positive effects in the case
+of exports from Mercosur countries. It is possible that geographical and economic
+proximity played an important role in this result, with North American imports
+fomenting the ﬁrst two regions’ engagement in production fragmentation, while
+imports from EA and China were more important for Mercosur members.
+Considering the second dimension studied, the sophistication of the products traded
+in Latin America’s regional production networks, the results provided evidence that
+partially supported the hypothesis that increases in imports of parts and components
+from Asian countries promote an increase in the quality of the intra-bloc export basket.
+The EA coefﬁcient was positive for the pooled machinery data in Latin America and
+almost all subregions, while imports from China increased the sophistication of intrabloc exports of electric machinery parts and components. The coefﬁcients for
+subregional pooled machinery data imports from China were negative, revealing that its
+exports to Latin America were still composed of cheaper and less sophisticated parts
+and components. The results from imports from North America were mixed, with
+negative coefﬁcients in the subregional cases and positive coefﬁcients when all Latin
+American countries were analyzed.
+The ﬁndings of this paper indicate that Latin American governments should
+consider the possibility of being more proactive in the development of regional
+policies to facilitate the import and use of machinery parts and components. The
+heterogeneity between subregions indicates that countries from Mercosur could
+beneﬁt more from imports from the EA and China to foment the expansion of
+regional production networks and the increase in the sophistication level of the
+machinery products traded inside Latin America, while North America appears as a
+natural and better option for the other countries. Moreover, Latin American
+countries could take advantage of the internalization of some machinery production
+steps to engage in machinery production networks and decrease the imports of
+machinery ﬁnal products from third regions. These initial policies can proportionate
+economic growth and other positive spillover effects. In the medium and long term,
+these strategies could help Latin American countries overcome the lack of
+competitiveness in given machinery products and enhance the region’s participation
+in the international machinery trade.
+Lat Am Econ Rev (2017) 26:9
+https://doi.org/10.1007/s40503-017-0054-5
+
+Machinery production networks in Latin America:
+a quantity and quality analysis
+Mateus Silva Chang1
+
+Received: 18 October 2016 / Revised: 28 July 2017 / Accepted: 25 October 2017 /
+Published online: 13 November 2017
+Ó The Author(s) 2017. This article is an open access publication
+
+Abstract This paper investigates the effects that the increase in the importation of
+machinery parts and components and the changes in the supplier composition had in
+the trade of ﬁnal products and parts and components inside Latin America. In our
+analysis, we consider these effects according to two dimensions: a quantity one that
+captures whether there was an intensiﬁcation of trade and a quality one that captures
+changes in the sophistication of the traded goods. The research employs disaggregated trade data obtained from UN Comtrade for 17 Latin American countries
+between 1996 and 2011. We ﬁnd evidence that an increase in the importation of
+parts and components from Latin America had positive impacts on both the quantity
+and quality dimensions. Subregional heterogeneities revealed that, in general,
+imports from East Asia had positive effects on the quantity dimension, nurturing the
+expansion of machinery production networks inside Latin America, and on the
+quality dimension, increasing the sophistication of the products traded inside Latin
+America, especially for Mercosur member exports. Imports from North America
+had positive quantity effects, especially for exports of countries from the Andean
+Community, Central America, Chile, and Mexico.
+Keywords Machinery trade Á Fragmentation Á International production
+networks Á Latin America
+JEL Classiﬁcation F14 Á F15 Á F23
+
+& Mateus Silva Chang
+mateus.chang@keio.jp
+1
+
+Graduate School of Economics, Keio University, 2-15-45 Mita, Minato-ku, Tokyo 108-8345,
+In the past few decades international trade has increased exponentially and
+production fragmentation was one of the main causes. The fragmentation process,
+referred as ‘‘trade in tasks’’ by Grossman and Rossi-Hansberg (2008), has led to an
+increase in global integration, generating a web of economic interactions commonly
+denoted as international production networks. In the beginning, this change
+involved mostly trade among rich nations, but the real ‘‘revolution started when
+supply chain trade gained importance among high-tech and low-wage nations
+between 1985 and 1995’’ (Baldwin and Lopez-Gonzalez 2015). Production
+fragmentation opened new possibilities of economic growth to developing
+countries, allowing their engagement in the production process of manufactured
+goods that they were not able to produce.
+The expansion of production networks changed the rules of the economic
+development game, facilitating developing countries’ access to networks, global
+markets, capital, knowledge, and technology (OECD 2013). Previously, a country
+had to climb every single step in the industrial development ladder, mastering all
+production processes, to manufacture a given good. However, the advent of
+production networks offered the possibility of skipping steps in the catch-up
+procedure through the acquisition of knowledge and technology from third countries
+and the specialization in one or few steps of the production process. Understanding
+these changes and their consequent implications is crucial to draw policies that
+integrate a country in this new production structure and allow it to explore the best
+possibilities for guaranteeing sustainable economic growth and development.
+The empirical literature about production fragmentation is very rich, with many
+studies focusing on the regions where production fragmentation is more developed:
+East Asia, the European Union, and North America.1 Although the demand is
+growing for the analysis of the current situation and the effects that this new trend
+can have on Latin America, the literature is still incipient.
+A few papers provide some information about the status of production
+fragmentation in Latin America based on descriptive analysis. Aminian et al.
+(2009) compared the economic integration process in East Asia and Latin America,
+analyzing the characteristics and intensity of intra-bloc and inter-bloc trade. They
+used a revealed comparative advantage (RCA) index to identify the share of traded
+manufacture parts and components with comparative advantage in the intra-bloc
+trade. Curran and Zignago (2013) studied the regionalization of trade in South
+America from 1994 to 2007, differentiating the trade ﬂows by the end use of the
+products and the level of embodied technology. They concluded that the trade
+agreements have not extensively affected the regional trade level and that trade of
+intermediate products was still very low, indicating that regional production
+networks were still under-developed. Calfat et al. (2011) investigated the
+participation of Argentina, Brazil, Guatemala, and Nicaragua in fragmented world
+1
+
+For papers on production networks in the mentioned regions please refer to Ng and Yeats (2003), Ando
+and Kimura (2005), Athukorala and Yamashita (2006), Kimura et al. (2007), Yokota (2008), Kohpaiboon
+participation in fragmented production. Fung et al. (2015a) used manufacturing
+trade data, classiﬁed according to the Standard International Trade Classiﬁcation
+(SITC), to compare production sharing in Latin America, North America, and East
+Asia from 1985 to 2006. They identiﬁed the existence of a relatively thick
+production network involving the trade of parts of motor vehicles, telecommunication equipment, and electronic components. However, it was concentrated on
+Mexico’s trade with US and Canada, while Brazil also played a smaller role. Fung
+et al. (2015b) used the same data and methodology to compare Brazil, China, and
+Mexico’s participation in production networks. They analyzed the international
+trade patterns for the period 1990–2010, identifying that China’s global presence in
+the trade of parts and components increased. Although Mexico concentrated its
+trade of parts and components with the US, the data showed that China has become
+a major source of parts and components to Mexico and Brazil. The authors highlight
+the increasing importance of a Pan-Paciﬁc link and a possible creation of a China–
+Brazil–Mexico production network.
+Florensa et al. (2015) produced the ﬁrst paper that used a quantitative framework
+to analyze economic integration and production fragmentation in Latin America.
+Using trade data classiﬁed according to the Broad Economic Categories (BEC), the
+authors analyzed the impact that changes in import of intermediate goods from
+different world regions had in the development of Latin America’s regional trade.
+They found evidence of increasing regional production networks and the importance
+of other regions as suppliers of intermediate products, with special attention on
+China.
+Given the importance of this topic to the development literature and that
+production networks in Latin America are still understudied, this work contributes
+to the literature shedding light on the evolution of Latin American machinery
+industry. The ﬁrst reason to focus on this industry is that machinery ﬁnal products
+have a high level of complexity and use of a large number of parts and components,
+being the most developed manufacturing industry in terms of production fragmentation. Consequently, when the industry is more fragmented, a country will have
+more opportunities to engage in the production network. The second reason is that
+the high level of fragmentation and the availability of disaggregated trade data allow
+us to classify this industry into four different sectors. This division permits the
+development of a ﬁner correspondence between parts and components and ﬁnal
+products for a speciﬁc sector, reducing the bias that more aggregated data can
+generate. Finally, the share of machinery in Latin American exports and imports of
+manufactured products in 1996 was approximately 49.5 and 55.8%, respectively,
+while in 2011, the shares increased to 55.5 and 56.7%, respectively. Therefore,
+machinery is the most important industry in the region’s manufacturing trade.2
+The contribution of this article is threefold. First, to the best of our knowledge,
+this is the ﬁrst article to analyze the quality effects that the changes in the structural
+composition of suppliers of parts and components have had in the development of
+2
+
+The shares were calculated based on the harmonized system (HS) classiﬁcation. The manufactured
+the previous papers on Latin American production networks that use aggregated
+intermediate manufacture data, we focus our analysis on a speciﬁc industry and use
+disaggregated data. Third, in this paper we adopt a model similar to Florensa et al.
+(2015), but estimate it using the PPML method instead of the ordinary least squares
+(OLS) to control the zero trade values and the data heteroscedasticity.
+The study is organized as follows. Section 2 includes a descriptive analysis of
+Latin America’s participation in the machinery trade. In Sect. 3, we present the data
+and in Sect. 4 we describe the empirical methodology employed. Section 5 shows
+the results of the quantity analysis, while Sect. 6 contains the results for the quality
+analysis. The ﬁnal considerations of the paper are available in Sect. 7.
+
+2 Machinery international trade and Latin America
+In this section, we used trade data—classiﬁed according to the Harmonized System
+(HS) disaggregated to the six-digit level—to analyze the machinery international
+market and Latin America’s participation in it in 1996 and 2011. We also
+considered the changes in trade patterns from a trade margin and product
+sophistication perspective to identify modiﬁcations in Latin American countries’
+trade basket composition.
+2.1 Descriptive analysis: traded values
+Production networks, in particular the machinery ones, are constituted mainly of
+geographical agglomerations that form regional blocs of production. Three main
+regional blocs are recognized for machinery production: the East Asian region, the
+European Union, and NAFTA. In general, machinery trade studies focus on these
+main areas, ignoring the situation in Latin America and the rest of the world. The
+main reason for this fact is illustrated by Fig. 1, which shows the data for world
+imports and exports of machinery. The aforementioned main areas are responsible
+for the bulk of the traded values, while Latin America and the rest of the world are
+responsible for a very small share.3 Another important difference is that the traded
+value of parts and components is larger than the ﬁnal product in the three main
+regions, while in Latin America, the traded value of the ﬁnal product is higher. This
+evidence suggests a lower engagement of Latin America in machinery production
+networks.
+The idiosyncrasies of Latin America, a heterogeneous region composed of
+countries of different sizes and governments with different political and economic
+orientation, localized in a vast territory full of geographical barriers, such as the
+Andes Mountains and the Amazon Forest, are possible reasons for its low level of
+engagement in production networks. Another reason, identiﬁed by Moreira et al.
+3
+
+The ﬁgures and table in this subsection present a conservative estimate of the situation in Latin
+America, given that Mexico trade data are accounted for in the NAFTA region. From the next subsection
+1,500,000
+1,000,000
+Final
+Products
+
+500,000
+
+Parts and
+Components
+
+Exports2011
+
+Imports2011
+
+Exports1996
+
+Imports1996
+
+Exports2011
+
+LA
+
+Imports2011
+
+Exports1996
+
+Imports1996
+
+Exports2011
+
+NAFTA
+
+Imports2011
+
+Exports1996
+
+Imports1996
+
+Exports2011
+
+EU27
+
+Imports2011
+
+Exports1996
+
+Imports1996
+
+Exports2011
+
+EAST ASIA
+
+Imports2011
+
+Imports1996
+
+Exports1996
+
+0
+
+ROW
+
+Fig. 1 Total values of exports and imports per region in 1996 and 2011 (in million US$). Source Chang
+and Kimura (2015)
+
+(2013), is the quality of the local infrastructure that penalizes the trade, increasing
+the freight costs or simply making it impracticable at competitive prices.
+Nevertheless, Fig. 2 reveals that for the period 1996–2011 parts and components
+traded value increased relative to ﬁnal products. Latin American export data show
+an increase in traded parts and components from 46.6 percentage points to 54.4
+percentage points. Although import data reveal an increase in traded parts and
+components share of just 0.5 percentage points, in terms of values this change
+represents a substantial increase, given that imported machinery parts and
+components value is higher than the exported machinery total value. Even though
+traded values are still smaller than the three main blocs, the increase in import of
+parts and components indicate that Latin America is slowly adhering to production
+networks in the machinery industry. Table 1 displays the compound annual growth
+rate of the machinery trade, revealing that Latin America had the highest growth
+rate for total machinery export and the second highest for machinery import. In fact,
+considering just the trade of parts and components, the region had the highest
+growth rates, corroborating the idea that participation in machinery production
+networks is growing in this region.
+According to fragmentation theory, the core of a production network is
+concentrated in regional agglomerations, given the reduced costs incurred in
+shorter distance transport freights, reduced lead time, and the possibility of faster
+coordination for the whole network (Harrigan and Venables 2004; Kimura et al.
+2007). Nonetheless, the development of the internet and other communication and
+coordination technologies, as well as the decrease in freight cost, has led to a
+decrease in the service link costs (Jones and Kierzkowski 2005), allowing for a
+growth in interactions between regional blocs. As a result, the East Asian region
+increased its role as a supplier of machinery parts and components to other region’s
+62.1%
+150,000
+
+100,000
+62.6%
+
+45.6%
+
+50,000
+37.9%
+
+53.4%
+37.4%
+
+46.6%
+
+0
+
+Exports 1996
+
+Imports 1996
+Parts and Components
+
+54.4%
+Exports 2011
+
+Imports 2011
+
+Final Products
+
+Fig. 2 Latin America‘s total value of machinery products trade in 1996 and 2011 (in million US$).
+Source Author’s calculation, using data available from the UN Comtrade
+Table 1 Compound annual growth rate of machinery trade from 1996 to 2011
+Parts and components (%)
+
+Final products (%)
+
+Total (%)
+
+East Asia
+Exports
+
+7.1
+
+6.4
+
+6.7
+
+Imports
+
+6.6
+
+4.6
+
+5.7
+
+Exports
+
+4.5
+
+3.7
+
+4.1
+
+Imports
+
+4.2
+
+3.6
+
+3.9
+
+Exports
+
+1.2
+
+2.3
+
+1.8
+
+Imports
+
+2.6
+
+4.0
+
+3.4
+
+Exports
+
+10.1
+
+7.9
+
+9.0
+
+Imports
+
+7.1
+
+6.9
+
+7.0
+
+EU
+
+NAFTA
+
+LA
+
+ROW
+Exports
+
+5.1
+
+5.7
+
+5.4
+
+Imports
+
+6.9
+
+7.9
+
+7.6
+
+The higher compound annual growth rates are highlighted using bold text
+Source Author’s calculation, using data available from the UN Comtrade
+
+composition of parts and components suppliers for all ﬁve regions to verify changes
+and patterns. As expected, except for NAFTA in 2011, the intra-bloc import of
+machinery parts and components is dominant in the three main regions. We also
+verify an increase of the East Asian share in all regions. Data for Latin America
+reveal a few things: ﬁrst, the Latin American share as a supplier is irrelevant in all
+regions except Latin America; second, its intra-bloc share is smaller than the shares
+
+EAST ASIA
+25.1
+
+80%
+
+EUROPEAN UNION
+11.7
+0.9
+
+15.7
+
+8.6
+0.8
+
+0.3
+15.5
+
+22.1
+
+63.7
+
+80%
+
+0.2
+
+60%
+
+63.4
+
+60%
+58.0
+
+40%
+
+72.6
+
+20%
+
+40%
+20%
+
+15.3
+1.5
+
+0%
+1996
+Rest of the world
+East Asia
+NAFTA
+100%
+
+100%
+
+13.6
+1.3
+
+1996
+Rest of the world
+East Asia
+NAFTA
+
+NAFTA
+
+80%
+
+35.8
+3.0
+
+60%
+
+1.0
+
+40%
+
+36.9
+
+42.2
+
+16.2
+1.3
+
+17.4
+1.5
+
+20%
+0%
+1996
+Rest of the world
+East Asia
+NAFTA
+100%
+
+25.6
+
+35.8
+
+80%
+
+12.5
+
+60%
+
+12.9
+17.1
+
+0%
+1996
+Rest of the world
+East Asia
+NAFTA
+
+22.5
+
+1.3
+
+20%
+
+37.5
+
+32.9
+
+40%
+
+2011
+European Union
+LaƟn America
+
+2011
+European Union
+LaƟn America
+
+LATIN AMERICA
+
+100%
+
+44.5
+
+5.1
+
+4.7
+
+0%
+
+2011
+European Union
+LaƟn America
+
+1.9
+2011
+European Union
+LaƟn America
+
+REST OF THE WOLRLD
+20.2
+0.2
+10.2
+
+27.9
+
+63.3
+
+80%
+
+10.7
+0.3
+
+55.1
+
+60%
+40%
+20%
+6.1
+
+0%
+1996
+Rest of the world
+East Asia
+NAFTA
+
+6.0
+2011
+European Union
+LaƟn America
+
+Fig. 3 Composition of suppliers of machinery parts and components in 1996 and 2011. Source Author’s
+was the region where the share of East Asian parts and components increased the
+most, a growth of more than 20 percentage points.
+From the perspective of production fragmentation logic, a country purchases
+more parts and components from a given region if these products have some
+comparative advantage. The existing literature highlights two channels through
+which access to inputs can beneﬁt a country: an efﬁciency gain in the production
+process by the acquisition of cheaper and/or higher quality inputs (Amiti and
+Konings 2007; Goldberg et al. 2010) and the possibility of having access to inputs
+that previously could not be produced domestically or obtained from a third country
+(Goldberg et al. 2009). In both cases, a gain in productivity and changes in
+production pattern are expected. Based on this fact, we consider the hypothesis that
+the increase in import of parts and components, especially from East Asia, should be
+beneﬁcial to Latin American machinery production networks.
+In the next subsection, we analyze the trade margins to identify possible trade
+pattern modiﬁcations.
+2.2 Descriptive analysis: the trade margins approach
+The trade ﬂow can be decomposed in extensive and intensive margins, revealing
+how the intensiﬁcation of trade in existing relations and the beginning or ending of
+trade relations contribute to change this ﬂow. Although the intensive margin is
+expected to be the main factor responsible for the changes, authors such as
+Hummels and Klenow (2005) and Kehoe and Ruhl (2013) identiﬁed that in situations
+of considerable trade growth the extensive margin contribution is also relevant. Our
+main interest in observing the extensive margins is to identify evidence of changes
+in Latin American countries’ import and export baskets.
+A country’s trade relation is understood as a product–destination pair in the case
+of exports and a product–supplier pair in the case of imports. Given an initial and a
+ﬁnal period, if a pair is active in both periods it is classiﬁed as a continuing pair. If
+country A imported (exported) a given product from (to) country B in the ﬁrst
+period and then does not in the second period, but it still imports (exports) the
+product in question from (to) a third country, we have an exit of supplier
+(destination). If a similar situation occurs, but in the second period the product in
+question is not imported (exported) from (to) any other country, then it is classiﬁed
+as an exit of product. If in the second period, country A imports (exports) a product
+that was not imported (exported) from (to) any other country in the ﬁrst period, then
+this new relation is classiﬁed as an enter of product. If in the second period, country
+A starts to import (export) from (to) country B a product that was already imported
+(exported) in the ﬁrst period from (to) a third country, then this new relation is
+classiﬁed as an entry of supplier (destination).
+Considering only the number of relations, Fig. 4 illustrates the margins of each
+Latin American country import of machinery parts and components. Mexico and
+Brazil had the highest number of product–supplier active pairs in 2011, while El
+Salvador, Honduras, Nicaragua and Paraguay had the lowest number of active pairs.
+trade margins from 1996 to 2011. Source Author’s calculation, using data available from the UN
+Comtrade
+
+of supplier margin had a very important contribution in all cases, signaling an
+increasing integration of Latin America in the international economy.
+Following Obashi and Kimura (2016), we identify the contribution that each
+margin had in the trade growth. To calculate these contributions, we use the
+following methodology:
+P c
+P c
+P
+P
+P
+c
+c
+c
+x
+À xc Þ
+c x
+c ðx
+i xi;t1 À
+i2ENPc x
+P c i i;t0 ¼ i2I Pi;t1 c i;t0 þ P c i;t1 þ i2ENCc i;t1
+P
+i xi;t0
+i xi;t0
+i xi;t0
+i xi;t0
+P
+P
+ð1Þ
+c
+c
+i2EXPc xi;t0
+i2EXCc xi;t0
+À P c
+À P c
+;
+i xi;t0
+i xi;t0
+where the value of a country c’s trade ﬂow x for product–country pair i in period t is
+denoted as xc , Ic are the continuing pairs, ENPc are the entering products, ENCc are
+i,t
+the entering countries, EXPc are the exiting products, and EXCc are the exiting
+countries.
+Figure 5 conﬁrms that the most important contribution is the intensive margin.
+Even though the supplier entry contribution is not as big as in the previous ﬁgure, it
+still accounted for an important portion of the parts and components import growth,
+indicating that the Latin American countries increased their diversity of parts and
+margins from 1996 to 2011 (%). Source Author’s calculation, using data available from the UN Comtrade
+
+We also observe the contribution of the extensive and intensive margins in Latin
+American countries exports to verify if there were changes in the variety of exported
+products and destinations. Figure 6 shows the export margins considering only the
+numbers of product–destination pairs. Once again, the entry of new destinations and
+the continuation of existing pairs are important margins. However, this time the
+entry of new products is also important, indicating a change in the exported goods
+variety. Argentina, Brazil, and Mexico already had a more developed industrial park
+in 1996; consequently, their entry of products is very small. Another interesting
+feature is that in some cases the exit of products and destinations is large, also
+indicating a change in the export basket composition.
+Next, we decompose the export growth according to its respective margins.
+Figure 7 reveals different patterns. The growth in countries with more developed
+industrial parks such as Argentina, Brazil, and Mexico focused on the intensive
+margin (Honduras is an exception, having a similar pattern to these countries). The
+entry of new products was an important margin in countries such as Ecuador,
+Nicaragua, Paraguay, and Uruguay, while in other cases, the entry of new product–
+destination pairs was more important. In countries such as Bolivia, El Salvador,
+Peru, and Venezuela, the exit of products and destinations had an important role,
+showing an export basket specialization tendency.
+The previous ﬁgures offer evidence that the pattern of Latin American countries’
+imports and exports changed during the studied period. We performed one
+1996 to 2011. Source Author’s calculation, using data available from the UN Comtrade
+
+Fig. 7 Decomposition of growth in machinery parts and components exports according to the trade
+margins from 1996 to 2011 (%). Source Author’s calculation, using data available from the UN Comtrade
+
+by country pair.4 The upper part of Fig. 8 shows an increase in the variety of parts
+and components and ﬁnal products imported. The main changes are attributed to an
+increase in products traded with China. The lower part of Fig. 8 reveals a
+predominant increase in the variety of exports to Latin American countries,
+4
+
+Given the economic growth of China after the WTO accession in 2001, we consider the importance of
+disentangling the impacts of this country from the rest of the East Asian region. We separate the East
+Asian region into two groups: a ﬁrst group composed only of China and Hong Kong (hereafter referred to
+as China), and a second group composed of the other countries in the region that we address as East Asia
+433 machinery parts and components and 691 machinery ﬁnal products. Source Author’s calculation,
+using data available from the UN Comtrade
+
+followed by an increase in the variety of parts and components exported to other
+regions.
+Given the evidence of change in the import and export pattern of Latin American
+countries, in the next subsection we analyze the changes on traded products quality.
+2.3 Descriptive analysis: sophistication level
+Concomitant to the increase in Latin America’s machinery trade ﬂow and changes
+in the structural composition of machinery parts and components suppliers, a
+modiﬁcation in the trade basket composition is expected. To evaluate this change,
+we used the PRODY index5 developed in Hausmann et al. (2007). According to the
+authors, the PRODY ‘‘index is a weighted average of the per capita GDP of
+countries exporting a given product, and thus represents the income level associated
+with that product’’. In other words, this index attributes to each one of the products a
+value that varies according to the share and per capita GDP of the countries that
+export it. This result means that products with higher PRODY values were exported
+more by developed countries, while products with lower PRODY values were
+P
+
+ðx
+P jk =Xj Þ Yj: , where
+ðx =Xj Þ
+j jk
+P
+xjk =Xj is the value-share of the commodity k in the country j’s overall export basket; j ðxjk =Xj Þ is the
+aggregated value-shares across all countries exporting good k.
+5
+
+More speciﬁcally, the PRODY index of a product k is deﬁned as PROD Yk ¼
+
+Products aggregation
+
+Mean
+
+Median
+
+SD
+
+All goods
+
+14,171.7
+
+14,076.5
+
+6110.3
+
+Non-manufactured goods
+
+11,670.5
+
+10,999.9
+
+6191.0
+
+Manufactured goods
+
+13,896.5
+
+13,446.5
+
+Machinery goods
+
+17,150.3
+
+17,289.3
+
+Min
+
+Max
+
+Observations
+
+747.7
+
+46,860.5
+
+5023
+
+747.7
+
+32,835.9
+
+1022
+
+6097.1
+
+809.5
+
+46,860.5
+
+2877
+
+4705.8
+
+3730.2
+
+35,433.8
+
+1124
+
+Source Author’s calculation, using data available from Hausmann et al. (2007)
+
+exported more by developing countries. The PRODY index can be used as a proxy
+for the sophistication of the product.
+Table 2 contains the PRODY index summary statistics for all products according
+to the HS classiﬁcation disaggregated to the six-digit level. The index varies from
+747.7 to 46,860.5, and the mean is 14,171.7. Although the index represents the
+income level associated with a given product, it is hard to attribute a sense of
+cardinality, making it easier to interpret as an ordinal index. In the lower part of the
+table, the products were classiﬁed into three different categories.6 We observe that
+non-manufactured products have the lowest PRODY index mean, while machinery
+products have the highest. Additionally, the standard deviation of the machinery
+goods PRODY index is the lowest, indicating that, in general, the products of this
+category are more sophisticated than the others.
+Next, we use the PRODY index to calculate the sophistication of the parts and
+components import basket and the intra-bloc export basket. The objective is to
+verify if changes in the parts and components import pattern led to changes in the
+pattern of the Latin American intra-bloc trade. Figure 9 reveals that for six countries
+the average sophistication degree of their machinery parts and components imports
+decreased, while the rest experienced an increase in the sophistication level.
+Figure 10 illustrates the changes in the sophistication of the intra-regional export
+basket. We observed a decrease in the sophistication level of the ﬁnal products
+export basket for seven countries, while the same occurs for just ﬁve countries in the
+parts and components export basket case. Although the results are not homogeneous, we verify gains in the export basket sophistication for the majority of the
+countries.
+2.4 Descriptive analysis: machinery sector data
+According to previous studies on machinery production networks, the machinery
+industry can be classiﬁed into four different sectors: general machinery, electric
+machinery, transport equipment, and precision machinery. Based on this classiﬁcation, Fig. 11 reveals Latin America’s machinery parts and components imports by
+sector. We observe that electric parts and components had the biggest share in both
+6
+
+Non-manufactured goods are the products classiﬁed from HS 1 to HS 27 and HS 93 to HS 99;
+manufactured goods are the products from HS 28 to HS 83, and machinery includes the products from HS
+Author’s calculation, using data available from the UN Comtrade
+
+Fig. 10 Average sophistication level of the machinery parts and components and ﬁnal products export
+Source Author’s calculation, using data available from the UN Comtrade
+
+Fig. 12 Latin America machinery export composition by sector in 1996 and 2011. Source Author’s
+calculation, using data available from the UN Comtrade
+
+years, although it declines in 2011. General machinery had the second biggest share,
+followed by transport equipment. Figure 12 plots the share of each sector in regional
+exports of ﬁnal products and parts and components. Despite the observed increase in
+export pattern with electric machinery achieving the second biggest share. A similar
+movement occurred for the case of parts and components exports. Observing the
+total exports share, we identify that transport equipment products were the most
+exported ones inside Latin America, while electric machinery became the second
+most traded in 2011. Based on the importance of these two sectors and that the study
+of their heterogeneity be a common practice in the literature, we also investigate
+them independently.
+In view of the facts presented in this section, the change in Latin America’s
+machinery trade pattern, the increase in trade ﬂows and the modiﬁcation in the
+average sophistication level of the traded products, in the next sections, we present
+the data and methodology employed to study the effects that changes in the
+structural composition of machinery parts and components suppliers had in the
+expansion of Latin American production networks and in the sophistication of the
+intra-bloc export basket.
+
+3 Data
+In the economics literature, many studies have been conducted on the fragmentation
+of production with different ways of deﬁning the object of study. Some scholars
+employ a more comprehensive deﬁnition of production networks, including in their
+analysis all inputs used, from the raw materials to the ﬁnal product. To capture all
+production steps they use international input–output tables.7 On the other hand,
+some scholars do not consider the raw materials in their analysis, understanding that
+just the trade of parts and components used in a given industry should be analyzed.
+This second group of researchers adopt a more reﬁned classiﬁcation to isolate parts
+and components from ﬁnal products.8
+We embrace the second view for two reasons: no international input–output data
+are available for the majority of the Latin American countries, and the second
+deﬁnition permits the use of more disaggregated and speciﬁc data. Considering that
+the machinery industry presents a high level of complexity and uses a large number
+of parts and components, we adopted this industry as our object of study.
+The analysis of machinery production networks was based on the classiﬁcation of
+the machinery trade in parts and components and ﬁnal products.9 The data used was
+collected from the United Nations Commodity Trade Statistics Database (UN
+Comtrade), classiﬁed according to the HS disaggregated to the six-digit level. The
+machinery industry comprises all the goods categorized as general machinery sector
+7
+
+For example, Timmer et al. (2015) used the World Input–Output Database (WIOD), while Baldwin and
+Lopez-Gonzalez (2015) employed WIOD and OECD-WTO TiVA data to analyze production networks.
+
+8
+
+For example, Athukorala (2005) separates manufacturing parts and components from ﬁnal products
+using the SITC data, while Ando and Kimura (2005) do the same for the machinery industry using HS
+data.
+
+9
+
+This process was performed in accordance with the classiﬁcation presented in Ando and Kimura
+and precision machinery sector (HS90–92).
+We consider the import of parts and components from countries that were
+responsible for at least 0.01% of the international machinery trade in 2011. The
+selected 89 countries are grouped in six regions.10 We deﬁne Latin America as the
+group of 17 countries consisting of Argentina, Bolivia, Brazil, Chile, Colombia,
+Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Nicaragua,
+Panama, Paraguay, Peru, Uruguay, and Venezuela.
+The PRODY measure was employed as the qualitative measure for the export and
+import basket of Latin American countries.11 We also used tariff data and the depth
+of the Preferential Trade Agreements (PTA)12 to account for the level of integration
+of the Latin American economies. The tariff data were collected from the World
+Integrated Trade Solution (WITS)13 and the PTAs depth measures were calculated
+based on Mulabdic et al. (2017) using the contents of trade agreements from the
+World Bank database (Hofmann et al. 2016). Given the availability of tariff and
+trade data, this study is restricted to the period from 1996 to 2011.
+
+4 Methodology
+Because the core of production networks is regionally concentrated, in this work, we
+focus on the impacts that changes in the structural composition of parts and
+components suppliers have on Latin America’s intra-bloc exports. For this empirical
+exercise, we use a model known as the workhorse of empirical international trade
+analysis: the gravity model (Baier and Bergstrand 2007). The gravity model is
+distinguished by its good ﬁt and its parsimonious and tractable representation of
+economic interactions among many countries, also allowing for disaggregation of
+the trade in different levels of geographical organization and product classiﬁcation
+(Anderson 2011).
+To quantify the impact that changes in the structural composition of parts and
+components suppliers had on the development of the intra-bloc machinery trade, we
+follow the methodology proposed by Florensa et al. (2015), an augmented gravity
+model that accounts for the effect of the import of intermediate products. The
+adoption of such a framework is justiﬁed by the fact that, different from the standard
+gravity framework, this version accounts for the effect that the import of parts and
+10
+
+The list containing the 89 countries divided by regions is available in the Table 8 in ‘‘Appendix’’.
+
+11
+
+We use the PRODY measures calculated by Hausmann et al. (2007). According to the authors they
+‘‘constructed the PRODY measure for a consistent sample of countries that reported trade data in each of
+the years 1999–2001. These indexes are the result of an average of 3 years’’ (Hausmann et al. 2007).
+Because the chosen years are previous to the Chinese accession to the World Trade Organization, the
+possibility of a downward bias in the ranking of the machinery goods (in particular, ﬁnal goods, given the
+increase in multinationals assembling their ﬁnal products China) is minimized.
+12
+We thank an anonymous referee for suggesting the use of PTAs depth to implicitly control non-tariff
+barriers.
+13
+Tariff data were classiﬁed to HS six-digit level and when necessary was converted to the HS1992
+intra-bloc exports. The proposed model assumes that in the ﬁrst period, Latin
+American countries can import parts and components from any region of the world.
+These parts and components are employed to produce other parts and components
+that in a second period will be used domestically or traded with another country.
+Alternatively, they can be used to manufacture a ﬁnal product that will be consumed
+domestically or traded with a third country. We assume that Latin American
+production networks are created when Latin American countries use parts and
+components imported from any region of the world to produce a ﬁnal product or
+other parts and components that are exported to another Latin American country.
+The Latin American intra-bloc trade of ﬁnal products and parts and components
+in a given year is explained by the tariffs imposed by the importer country in the
+same year and the exporter country imports of parts and components in the previous
+year. We augment the Florensa et al. (2015) model to capture the possible effects of
+the non-tariff barriers by adding a PTA depth measure. The PTA depth index
+calculation follows Mulabdic et al. (2017): based on the content of the trade
+agreements database, we count the number of legally enforceable provisions
+covered by each agreement and normalize it between 0 and 1.
+Fixed-effect dummies are used to capture all sources of unobserved heterogeneity
+that are constant for each period of time, individual, and sector. Following Anderson
+and van Wincoop (2003, 2004), exporter-time and importer-time dummies are
+employed to control for the multilateral resistance, sector dummies control for
+unobserved heterogeneities of each machinery sector, while exporter–importer
+dummies are added to guard against unobserved heterogeneities on the relation of
+each country pair (Baier and Bergstrand 2007). The proposed models were deﬁned
+as follows:
+7
+X
+À
+Á
+À
+Á
+À
+Á
+ln XFijkt ¼ a0 þ
+ar ln M pcriktÀ1 þ a8 ln 1 þ tariffjikt þ a9 ln 1 þ depthijt
+r¼1
+
+þ cit þ ujt þ sij þ xk þ eijkt ;
+
+ð2Þ
+
+7
+X
+À
+Á
+À
+Á
+À
+Á
+br ln M pcriktÀ1 þ b8 ln 1 þ tariffjikt þ b9 ln 1 þ depthijt
+ln XPCijkt ¼ b0 þ
+r¼1
+
+þ nit þ sjt þ zij þ lk þ dijkt ;
+
+ð3Þ
+
+where XFijkt and XPCijkt denote the traded value of ﬁnal products and parts and
+components from country i to country j (these countries are limited to Latin
+American countries only) of sector k in year t. The traded values are explained by
+country i’s imports of parts and components of sector k from a given region r in year
+t - 1 (M pcriktÀ1 ), the tariff imposed by the importing country j over the product of
+sector k provided by country i in time t tariff jikt , the depth measure of the PTA
+between country i and j in year t depthijt , exporter-time and importer-time dummies
+deﬁnition of the object of study. As already mentioned, we selected a more speciﬁc
+object of study, focusing on the machinery industry alone. This allows us to use
+more disaggregated and detailed data, increasing the reﬁnement of the parts and
+components and ﬁnal products correspondence. Additionally, we can classify
+machinery industry products into four different sectors, decreasing the bias that can
+result from the use of aggregated data.
+Based on previous works about production fragmentation and use of imported
+inputs, it is expected that the purchase of parts and components from another
+country should provide some efﬁciency gain or advantage to Latin American
+countries. Based on this fact, we expect that the increase in imports of parts and
+components from the East Asian region should guarantee a production gain for
+Latin American countries, increasing the intra-bloc machinery trade.
+An important contribution of this paper is that the analysis is not limited to the
+quantity impact of the import of parts and components on the intra-bloc trade; we
+also propose a way of verifying quality changes. Since we know that there was a
+change in the shares of machinery parts and components providers, we attempt to
+evaluate if this variation also produced a modiﬁcation in the Latin American intrabloc trade pattern. Once again, it is expected that if the East Asian region is more
+efﬁcient in the production of machinery parts and components, providing inputs
+with higher quality and/or cheaper prices, Latin American countries should be able
+to diversify and improve the quality of their intra-bloc trade basket.
+To check this hypothesis, we propose a substitution of the traded values by a
+trade basket sophistication index that is calculated based on the PRODY index
+developed in Hausmann et al. (2007). The PRODY index can be used as a proxy for
+the sophistication of the product, and according to Hausmann et al. (2007), countries
+that have an export basket more similar to the developed countries tend to register
+economic growth in the subsequent periods. Based on this concept and the
+importance of economic growth for the development of Latin American countries,
+we use the PRODY index to calculate the composition of the import basket of parts
+and components (IMPY index) and the intra-bloc export basket (EXPY index). The
+objective is to estimate if the imports of parts and components from speciﬁc regions
+contributed or not to bring the Latin American intra-bloc export basket closer to the
+developed countries. The proposed models are deﬁned as follows:
+7
+X
+À
+Á
+À
+Á
+ln EXPYFijkt ¼ a0 þ
+ar ln IMPY pcriktÀ1 þ a8 ln 1 þ tariff jikt
+r¼1
+À
+Á
+þ a9 ln 1 þ depthijt þ cit þ ujt þ sij þ xk þ eijkt ;
+
+ð4Þ
+
+7
+X
+À
+Á
+À
+Á
+ln EXPYPCijkt ¼ b0 þ
+br ln IMPY pcriktÀ1 þ b8 ln 1 þ tariff jikt
+r¼1
+À
+Á
+þ b9 ln 1 þ depthijt þ nit þ sjt þ zij þ lk þ dijkt ;
+
+ð5Þ
+
+where EXPYFijkt and EXPYPCijkt denote the EXPY index attributed to the basket of
+The EXPY index is calculated as the weighted average of the PRODY index of each
+component of the basket of a given sector. The EXPY index attributed to the baskets
+of ﬁnal products and parts and components traded inside Latin America is explained
+by the IMPY index attributed to the basket of parts and components of sector k that
+country i imported from a given region r in year t - 1 (IMPY pcriktÀ1 ), the depth
+measure of the PTA between country i and j in year t depthijt , the tariff imposed by
+the importing country j over the product of sector k provided by country i in time t
+tariff jikt , the exporter-time and importer-time dummies (time is deﬁned as a 5-year
+period), and the sector and the importer–exporter dummies.
+
+5 Results: quantity analysis
+A common characteristic of trade data is the existence of missing and zero trade
+values. As the natural logarithm of zero does not exist, the estimated regressions do
+not consider the zero trade values that are important information about the trade
+pattern. The dropped data are information not used in the estimation, possibly
+leading to a bias in the regression results.14 To avoid this problem, we estimate the
+regressions using the pseudo-Poisson maximum likelihood (PPML) method (Santos
+Silva and Tenreyro 2006). The PPML is the most accepted technique in the gravity
+model literature, allowing us to account for the observations with zero trade
+values.15 In addition, trade data are plagued by heteroscedasticity, consequently the
+use of OLS can lead to the estimation of biased elasticities (Santos Silva and
+Tenreyro 2006).
+We ﬁrst estimate Eqs. (2) and (3) for the values of the pooled machinery intrabloc exports. We also consider separate estimations for the main machinery sectors:
+electric machinery and transport equipment.
+The ﬁrst half of Table 3 contains the results for the intra-bloc exports of
+machinery ﬁnal products. The tariff coefﬁcient for the pooled data regression is
+negative and statistically signiﬁcant, indicating that reductions in import tariffs of
+machinery ﬁnal products are associated with increases in their intra-bloc exports.
+Consequently, the advance of the regional integration in Latin America through the
+decrease in the import tariffs imposed over the intra-bloc machinery trade have a
+positive impact on the development of Latin American machinery production
+networks. On the opposite side, the coefﬁcient for PTA depth is statistically
+insigniﬁcant, showing that changes in non-tariff barriers do not affect production
+networks. The variables related to the origin of the imported parts and components
+reveal that an intensiﬁcation of imports from the rest of the world (ROW), East Asia
+(EA), and Latin American (LA) countries, increase the intra-bloc trade of ﬁnal
+products in the subsequent period. The results reveal that a 1% increase in imports
+14
+The share of dropped values when the OLS method is employed ranges from around 17–29% of the
+total values estimated with the PPML technique.
+15
+In our database, we also have missing tariff and trade data for a given group of countries and products
+machinery exports
+Final products
+
+Parts and components
+
+Pooled
+machinery
+
+Electric
+machinery
+
+Transport
+equipment
+
+Pooled
+machinery
+
+Electric
+machinery
+
+Transport
+equipment
+
+Tariff
+
+2 0.17***
+(0.05)
+
+2 0.12**
+(0.06)
+
+- 0.05
+(0.08)
+
+- 0.03
+(0.04)
+
+- 0.03
+(0.04)
+
+- 0.05
+(0.04)
+
+Lagged imports of parts
+and components from
+ROW
+
+0.15***
+(0.05)
+
+2 0.24**
+(0.09)
+
+0.18**
+(0.07)
+
+0.19***
+(0.05)
+
+0.08
+(0.07)
+
+0.04
+(0.06)
+
+Lagged imports of parts
+and components from
+EU
+
+- 0.03
+(0.08)
+
+0.18
+(0.23)
+
+- 0.03
+(0.21)
+
+- 0.20
+(0.13)
+
+2 0.42***
+(0.12)
+
+- 0.08
+(0.12)
+
+Lagged imports of parts
+and components from
+EA
+
+0.45***
+(0.06)
+
+0.00
+(0.15)
+
+0.15
+(0.19)
+
+0.05
+(0.07)
+
+0.38***
+(0.10)
+
+0.31
+(0.20)
+
+Lagged imports of parts
+and components from
+LA
+
+0.53***
+(0.08)
+
+0.07
+(0.09)
+
+- 0.12
+(0.18)
+
+0.64***
+(0.08)
+
+0.16
+(0.11)
+
+0.39***
+(0.14)
+
+Lagged imports of parts
+and components from
+US and Canada
+
+2 0.32***
+(0.08)
+
+2 0.52***
+(0.15)
+
+- 0.32
+(0.23)
+
+0.31***
+(0.08)
+
+2 0.17*
+(0.09)
+
+2 0.49***
+(0.18)
+
+Lagged imports of parts
+and components from
+China and HK
+
+2 0.27***
+(0.05)
+
+0.22**
+(0.09)
+
+0.06
+(0.10)
+
+- 0.02
+(0.06)
+
+0.02
+(0.10)
+
+0.02
+(0.07)
+
+PTA depth
+
+- 0.24
+(0.26)
+
+2 0.66***
+(0.22)
+
+- 0.20
+(0.65)
+
+- 0.33
+(0.29)
+
+- 0.09
+(0.20)
+
+0.03
+(0.49)
+
+Observations
+
+16,943
+
+4320
+
+4032
+
+16,667
+
+4256
+
+3794
+
+R2
+
+0.87
+
+0.90
+
+0.94
+
+0.87
+
+0.94
+
+0.97
+
+Results that are statistically signiﬁcant and different from zero are highlighted using bold text
+Given a restriction of space, the coefﬁcients of secondary variables are omitted. Robust standard errors in
+parentheses: *p \ 0.10, **p \ 0.05, ***p \ 0.01
+
+of parts and components from LA leads to an increase of 0.53% in the intra-bloc
+exports of ﬁnal products. The coefﬁcient for imports from EA is also high,
+approximately 0.45%, while imports from the ROW have a smaller effect,
+approximately 0.15%. On the other hand, the coefﬁcient of imports from the North
+America16 and China are negative, indicating a decrease on the intra-bloc trade of
+ﬁnal machinery products of 0.32 and 0.27%, respectively. Although it is not
+possible to identify the exact reasons why imports from these suppliers do not
+stimulate intra-bloc trade, we consider a few hypotheses. The ﬁrst is that an
+important share of imported parts and components are used in domestic production
+networks being consumed in the domestic market. Given the lack of data we cannot
+verify this hypothesis. A second possibility is that a share of these parts and
+16
+
+This case is beyond the scope of this paper. It could also be the case that imports
+from these regions are used to produce parts and components that are exported to
+other Latin American countries. If that is the case, coefﬁcients will be positive in the
+second half of the table, when dependent variables are parts and components
+exports.
+Results in the second column refer to the electric machinery trade. The import
+tariff coefﬁcient is negative, indicating that a decrease of 1% in the tariffs imposed
+on electric machinery parts and components imports, all ceteris paribus, stimulates
+an increase of 0.12% in intra-bloc exports of electric machinery ﬁnal products. Once
+again, the coefﬁcient for imports from North America is negative, indicating that a
+1% increase in imports from this region causes a decrease in the intra-bloc exports
+of ﬁnal electric machinery of 0.52%. Imports from the ROW also have a negative
+impact of 0.24%. On the opposite side, a 1% increase in imports of electric
+machinery parts and components from China promotes an intensiﬁcation of 0.22%
+in the intra-bloc trade of ﬁnal products. The PTA depth coefﬁcient is statistically
+signiﬁcant and indicates that deeper agreements lead to a decrease in the intraregional trade of electric machinery ﬁnal products. According to Hofmann et al.
+(2016), agreements between developing countries are in general less deep and focus
+more on the decrease of import tariffs, since they are still high.17 This is in
+accordance with our ﬁndings that show that decreases in import tariffs are more
+efﬁcient than deeper agreements in the promotion of intra-bloc electric machinery
+ﬁnal products exports. Additionally, in Latin America shallow agreements embrace
+more members, while deeper ones are in general bilateral agreements involving
+Mexico and Central American countries. Consequently, members of shallower
+agreements, such as the Mercosur, promote higher trade ﬂows among themselves
+than members of deeper agreements. Lastly, according to Baier and Bergstrand
+(2007), all PTAs are ‘‘phased-in’’ over time, approximately 5–10 years. Therefore,
+older and shallower agreements, implemented in the 1990s, should have bigger
+impacts than the deeper ones, the majority of which were implemented in 2009,
+only 2 years before the end of the period studied.18
+With regard to transport equipment, the results are almost all statistically
+insigniﬁcant. The exception is the coefﬁcient for imports from the ROW, indicating
+that a 1% increase in imports of transport equipment parts and components from this
+region leads to an increase of 0.18% in intra-bloc exports of ﬁnal transport
+equipment.
+The second half of Table 3 displays the intra-bloc parts and components export
+coefﬁcients. In this case, import tariff and PTA depth coefﬁcients are statistically
+insigniﬁcant, signaling an increase in regional integration through the decrease of
+the import tariffs or non-tariff barriers would not affect the production fragmentation and relocation inside Latin America. Imports of parts and components from
+17
+The mean of the import tariff between Latin American countries in the studied period was 6.89% for
+machinery ﬁnal products and 5.64% for machinery parts and components. For the case of electric
+machinery, the average import tariffs are 9.92% for ﬁnal products and 6.62% for parts and components.
+18
+
+coefﬁcients. As observed in Florensa et al. (2015), imports of parts and components
+from these regions generate what they called a ‘‘complementary effect’’. In other
+words, they stimulate production fragmentation and its relocation inside Latin
+America, since parts and components imported by a Latin American country in the
+ﬁrst period produce other parts and components that will be used in a third Latin
+American country, promoting these countries engagement in machinery productions
+networks. A 1% increase in parts and components imports from LA results in an
+increase of 0.64% of the intra-bloc export of parts and components. Imports from
+North America promote an increase of 0.31%, while imports from the ROW have a
+smaller effect of 0.19%.
+In the speciﬁc case of electric machinery, imports from EA stimulate the intrabloc trade of parts and components with a coefﬁcient of 0.39%, while imports from
+European Union (EU) and North America have a negative effect. In the case of
+transport equipment, the LA coefﬁcient is positive, while the North American one is
+negative. Florensa et al. (2015) refer to the situation when coefﬁcients are negative
+as the ‘‘substitution effect’’, because instead of enhancing the development of
+production networks among Latin American countries, it promotes trade inside
+domestic markets or with countries in third regions.
+Evidence indicates that increases in the import of parts and components from LA
+have the biggest positive impact in the creation of a Latin American machinery
+production network. This result aligns with Florensa et al. (2015) and the production
+fragmentation theory that states that the core of production networks is regionally
+organized. Imports from North America, a region that is geographically close to
+Latin America and known for engaging in back-and-forth intra-ﬁrm production
+network transactions with Mexico and Central American countries, presented mixed
+results. It stimulates the intra-bloc trade of machinery parts and components in
+general, but decreases the trade of ﬁnal products. Conversely, the results indicate
+that in the speciﬁc case of electric machineries, imports from EA and China foment
+production fragmentation. This result also aligns with Florensa et al. (2015) and
+Fung et al. (2015b) who veriﬁed an increase of parts and components supplies from
+Asian countries supporting Latin America’s engagement in production networks.
+As mentioned in Sect. 2, Latin America is an area where economic integration
+still lags behind other regions of the globe. Although there are 21 different PTAs
+signed by LA countries, none of them integrates the whole region. Given this fact,
+we perform one extra exercise to explore the heterogeneity inside the region. Based
+on economic proximity and negotiated PTAs, we classiﬁed Latin America into three
+subregions: one composed of Argentina, Brazil, Paraguay, and Uruguay, who are
+members of Mercosur; a second composed of Bolivia, Colombia, Ecuador, Peru,
+and Venezuela who are members of the Andean Community (CAN); and a third
+with the members of Central America (Costa Rica, El Salvador, Guatemala,
+Honduras, Nicaragua, and Panama), Mexico and Chile.19
+19
+Venezuela was classiﬁed as part of CAN, because during the majority of the studied period it was a
+member of it. Chile and Mexico were aggregated with Central American economies given the existence
+machinery exports by subregion
+Final products
+
+Parts and components
+
+CE,
+Mexico
+and Chile
+
+Andean
+Community
+
+Mercosur
+
+CE,
+Mexico
+and Chile
+
+Andean
+Community
+
+Mercosur
+
+Tariff
+
+2 0.28***
+(0.07)
+
+0.06 (0.09)
+
+2 0.23***
+(0.07)
+
+0.05
+(0.08)
+
+- 0.05
+(0.10)
+
+2 0.10***
+(0.03)
+
+Lagged imports of
+parts and
+components from
+ROW
+
+0.04
+(0.06)
+
+- 0.13
+(0.09)
+
+0.15**
+(0.07)
+
+0.23***
+(0.06)
+
+- 0.14
+(0.12)
+
+0.10**
+(0.05)
+
+Lagged imports of
+parts and
+components from
+EU
+
+- 0.18
+(0.13)
+
+- 0.18
+(0.25)
+
+0.12
+(0.19)
+
+2 0.45***
+(0.12)
+
+- 0.17
+(0.20)
+
+- 0.17
+(0.13)
+
+Lagged imports of
+parts and
+components from
+EA
+
+0.15***
+(0.06)
+
+0.36**
+(0.17)
+
+0.66***
+(0.13)
+
+0.25***
+(0.08)
+
+- 0.04
+(0.19)
+
+0.03
+(0.09)
+
+Lagged imports of
+parts and
+components from
+LA
+
+0.32***
+(0.09)
+
+0.49***
+(0.13)
+
+0.10
+(0.11)
+
+0.45***
+(0.07)
+
+0.16 (0.12)
+
+0.05
+(0.09)
+
+Lagged imports of
+parts and
+components from
+US and Canada
+
+0.42***
+(0.10)
+
+- 0.02
+(0.25)
+
+2 0.92***
+(0.15)
+
+0.58***
+(0.10)
+
+0.40*
+(0.21)
+
+2 0.25***
+(0.09)
+
+Lagged imports of
+parts and
+components from
+China and HK
+
+2 0.22***
+(0.05)
+
+2 0.38***
+(0.13)
+
+- 0.12
+(0.09)
+
+0.06
+(0.07)
+
+0.13 (0.11)
+
+0.26***
+(0.05)
+
+PTA depth
+
+2 0.60***
+(0.22)
+
+0.48 (0.56)
+
+0.66
+(1.02)
+
+2 1.29***
+(0.35)
+
+- 0.06
+(0.31)
+
+1.03
+(0.85)
+
+Observations
+
+0.71
+
+0.69
+
+0.91
+
+0.90
+
+0.73
+
+0.92
+
+R2
+
+7807
+
+5104
+
+4032
+
+7635
+
+5104
+
+3928
+
+Results that are statistically signiﬁcant and different from zero are highlighted using bold text
+Given a restriction of space, the coefﬁcients of secondary variables are omitted. Robust standard errors in
+parentheses: *p \ 0.10, **p \ 0.05, ***p \ 0.01
+
+Table 4 contains the results of machinery exports from each subregion.20 Given
+the reduction in the number of observations, we consider only the pooled machinery
+data results. The majority of the coefﬁcients are statistically insigniﬁcant for the
+case of CAN exports. Indeed, among the three subregions, CAN is the one with the
+smallest machinery trade. The results reveal that imports from LA and EA countries
+enhance the intra-regional trade of ﬁnal machinery by 0.5 and 0.36%, while imports
+20
+
+components by 0.4%. In the cases of Central America, Mexico and Chile, we
+observe that imports from EA, LA and North America enhance the intra-regional
+trade of machinery ﬁnal products by 0.15, 0.32, and 0.42%, respectively. Imports
+from these three regions and the ROW enhance the regional trade of parts and
+components by 0.25, 0.45, 0.58, and 0.23%, respectively. On the opposite side,
+imports from China and EU have negative effects. The results indicate that
+production fragmentation in Central America, Mexico and Chile is stronger than in
+CAN, with EA, LA and North America, who, in ascending order, have been
+important suppliers for the regional production networks. Though composed of only
+four economies, Mercosur is responsible for the biggest intra-bloc machinery trade.
+The results also indicate that imports from the ROW and EA stimulate the exports
+of ﬁnal products, while imports from the ROW and China enhance the exports of
+parts and components inside Latin America. Coefﬁcients for EA and China are
+higher than the ROW: a 1% increase in import of parts and components from EA
+induced an increase of 0.66% in the intra-bloc trade of ﬁnal products compared with
+0.15% for imports from the ROW, while imports from China promoted a 0.26%
+increase in the intra-bloc trade of parts and components compared with 0.10% for
+imports from the ROW. On the opposite side, imports from North America do not
+stimulate the intra-bloc export of machinery.
+We conclude that, different from Central American, Mexico and Chile,
+production networks promoted by Mercosur countries depend more on imports
+from China and EA, while imports from North America have a negative impact. In
+this case, it seems that geographical and economic proximity still play an important
+role, with North American imports fomenting the ﬁrst regions’ engagement in
+production fragmentation, while in Mercosur’s case, a region more distant from
+North America, the imports from EA and China are more important.
+
+6 Results: quality analysis
+Considering the wide range of machinery products and that some are more
+sophisticated than the others, our next step is to examine which regions provide
+parts and components that promote Latin American production networks of
+products more similar to the ones produced by developed countries. Being involved
+in the manufacturing process of products with higher sophistication level instead of
+just buying the ﬁnal product from other regions, Latin American countries gain
+access to technology, beneﬁt from positive spillover effects, and increase the
+possibilities of enjoying economic growth.
+The ﬁrst half of Table 5 presents the results for the intra-bloc trade of ﬁnal
+products, while results for the intra-bloc trade of machinery parts and components
+are in the second half. The ﬁrst notable feature is that the tariff coefﬁcient is positive
+in all columns, indicating that a decrease in the import tariff leads to a decrease in
+the sophistication of the machinery export basket. In other words, the export basket
+becomes more similar to the developing countries. One possible interpretation for
+Final products
+
+Parts and components
+
+Pooled
+machinery
+
+Electric
+machinery
+
+Transport
+equipment
+
+Pooled
+machinery
+
+Electric
+machinery
+
+Transport
+equipment
+
+Tariff
+
+0.05***
+(0.01)
+
+0.07***
+(0.01)
+
+0.05***
+(0.02)
+
+0.08***
+(0.01)
+
+0.08***
+(0.01)
+
+0.06***
+(0.02)
+
+Lagged imports of parts
+and components from
+ROW
+
+0.01**
+(0.01)
+
+0.02
+(0.01)
+
+0.00
+(0.01)
+
+0.04***
+(0.01)
+
+0.01
+(0.01)
+
+0.01
+(0.01)
+
+Lagged imports of parts
+and components from
+EU
+
+0.04***
+(0.01)
+
+0.04*
+(0.02)
+
+0.03
+(0.05)
+
+0.04***
+(0.01)
+
+- 0.03
+(0.02)
+
+- 0.01
+(0.05)
+
+Lagged imports of parts
+and components from
+EA
+
+0.02***
+(0.01)
+
+0.03
+(0.03)
+
+0.01
+(0.04)
+
+0.04***
+(0.01)
+
+2 0.04*
+(0.02)
+
+- 0.03
+(0.03)
+
+Lagged imports of parts
+and components from
+LA
+
+0.02***
+(0.01)
+
+0.06**
+(0.03)
+
+- 0.03
+(0.06)
+
+0.02**
+(0.01)
+
+0.03
+(0.03)
+
+0.00
+(0.05)
+
+Lagged imports of parts
+and components from
+US and Canada
+
+0.06***
+(0.01)
+
+0.07***
+(0.03)
+
+- 0.02
+(0.04)
+
+0.10***
+(0.01)
+
+- 0.01
+(0.03)
+
+0.01
+(0.04)
+
+Lagged imports of parts
+and components from
+China and HK
+
+0.00
+(0.01)
+
+0.03
+(0.02)
+
+0.02
+(0.01)
+
+0.01
+(0.01)
+
+0.04***
+(0.02)
+
+0.00
+(0.01)
+
+PTA depth
+
+0.01
+(0.03)
+
+0.03
+(0.05)
+
+0.04
+(0.07)
+
+0.01
+(0.04)
+
+- 0.08*
+(0.05)
+
+0.07
+(0.06)
+
+Observations
+
+16,943
+
+4320
+
+4032
+
+16,667
+
+4256
+
+3794
+
+R2
+
+0.42
+
+0.46
+
+0.49
+
+0.44
+
+0.51
+
+0.55
+
+Results that are statistically signiﬁcant and different from zero are highlighted using bold text
+Given a restriction of space, the coefﬁcients of secondary variables are omitted. Robust standard errors in
+parentheses: *p \ 0.10, **p \ 0.05, ***p \ 0.01
+
+values that are comparatively easier to be produced by developing countries were
+manufactured in most of the countries and were consumed in the domestic market,
+while machinery products with a higher level of sophistication were produced by
+just a few countries in the region and traded inside the bloc. The import tariff
+reduction allowed for an increase in the intra-bloc trade and specialization. This
+phenomenon promoted a faster growth in the trade of less sophisticated products
+than the sophisticated ones.
+Considering parts and components suppliers, we verify that imports from the
+ROW, EU, EA, LA, and North America promoted an increase in the sophistication
+of the ﬁnal products traded inside Latin America. A 1% increase in North American
+participation in the import basket composition, all ceteris paribus, promotes an
+increase of 0.06% in the quality of the intra-bloc export basket, while imports from
+imports just from LA and North America had a positive effect in the electric
+machinery sector, while the coefﬁcients for imports from other regions are
+statistically insigniﬁcant. Increases of 1% in imports from North America promote
+an increase of 0.07% in the quality of ﬁnal electric machinery intra-bloc export
+basket, while imports from LA promote an increase of 0.06%. Transport equipment
+coefﬁcients were all statistically insigniﬁcant. In the second half of Table 5, we
+verify similar results for the case of pooled machinery data. North American
+imports promote an increase of 0.1% in the quality of the parts and components
+export basket, while imports from the EU and EA promote an increase of 0.04%
+each. In column 5, the coefﬁcients are slightly different, revealing that imports only
+from China promote a 0.04% increase in the intra-bloc export basket of electric
+machinery parts and components, while imports from EA have a negative effect.
+Once again, transport equipment coefﬁcients are statistically insigniﬁcant.
+Results in this section partially support the hypothesis that an increase in imports
+of parts and components from Asian countries promotes an increase in the quality of
+the intra-bloc export basket. Nevertheless, imports from EU and North America had
+a bigger positive effect. Table 6 presents the PRODY mean of the import basket
+from each region in 1996 and 2011, revealing that import baskets from EU and
+North America were still composed of products with a high sophistication level.
+Given the increase in Asian product imports share in the detriment of imports from
+both regions, we can conclude that imports from EU and North America
+concentrated in higher sophistication products, while Asia supplied products with
+a slightly lower level of sophistication at very competitive prices. Another
+interesting feature is that, although the share of imports from the ROW is the
+smallest one, imports from this region are concentrated in products with a very high
+level of sophistication.
+As in the previous section, we perform a similar exercise considering the exports
+of countries classiﬁed in three different subregions to explore their differences.
+Table 7 reveals that for Mexico, Chile, and Central American countries the imports
+Table 6 Machinery imported parts and components PRODY index mean
+Latin America
+
+CE, Mexico and
+Chile
+
+Andean
+Community
+
+Mercosur
+
+1996
+
+2011
+
+1996
+
+2011
+
+1996
+
+2011
+
+1996
+
+2011
+
+ROW
+
+18,273.1
+
+18,358.7
+
+17,997.5
+
+18,005.2
+
+18,569.9
+
+18,808.3
+
+18,453.3
+
+18,503.4
+
+EU
+
+17,492.8
+
+17,652.7
+
+17,418.5
+
+17,327.4
+
+17,581.6
+
+18,067.0
+
+17,530.3
+
+17,785.3
+
+North
+America
+
+16,870.1
+
+17,576.7
+
+16,735.8
+
+17,245.1
+
+17,032.2
+
+17,577.7
+
+16,935.9
+
+18,238.5
+
+EA
+
+16,629.9
+
+17,106.3
+
+16,535.6
+
+16,930.5
+
+16,742.7
+
+17,258.1
+
+16,677.4
+
+17,268.1
+
+LA
+
+16,389.4
+
+16,313.9
+
+16,256.1
+
+15,845.9
+
+16,188.2
+
+16,486.5
+
+16,907.2
+
+17,034.1
+
+China
+
+15,109.2
+
+16,445.3
+
+15,589.5
+
+16,272.3
+
+15,006.5
+
+16,549.7
+
+14,276.8
+
+16,660.5
+
+Final products
+
+Parts and components
+
+CE,
+Mexico
+and Chile
+
+Andean
+Community
+
+Mercosur
+
+CE,
+Mexico
+and Chile
+
+Andean
+Community
+
+Mercosur
+
+Tariff
+
+0.04***
+(0.01)
+
+0.01 (0.02)
+
+2 0.24***
+(0.07)
+
+0.11***
+(0.01)
+
+0.04**
+(0.02)
+
+0.02
+(0.01)
+
+Lagged imports of
+parts and
+components from
+ROW
+
+0.02***
+(0.01)
+
+- 0.01
+(0.01)
+
+0.14**
+(0.06)
+
+0.04***
+(0.01)
+
+0.03***
+(0.01)
+
+0.07***
+(0.01)
+
+Lagged imports of
+parts and
+components from
+EU
+
+0.04***
+(0.02)
+
+2 0.08**
+(0.04)
+
+- 0.25
+(0.19)
+
+0.05***
+(0.02)
+
+2 0.10***
+(0.04)
+
+- 0.01
+(0.04)
+
+Lagged imports of
+parts and
+components from
+EA
+
+0.02*
+(0.01)
+
+0.04*
+(0.02)
+
+0.39***
+(0.14)
+
+0.04***
+(0.01)
+
+2 0.07***
+(0.03)
+
+0.06***
+(0.02)
+
+Lagged imports of
+parts and
+components from
+LA
+
+0.01
+(0.01)
+
+- 0.02
+(0.03)
+
+- 0.13
+(0.12)
+
+2 0.02**
+(0.01)
+
+- 0.02
+(0.03)
+
+0.01
+(0.02)
+
+Lagged imports of
+parts and
+components from
+US and Canada
+
+2 0.04*
+(0.02)
+
+0.13**
+(0.06)
+
+2 0.77***
+(0.14)
+
+2 0.05*
+(0.03)
+
+- 0.09
+(0.05)
+
+2 0.08***
+(0.03)
+
+Lagged imports of
+parts and
+components from
+China and HK
+
+2 0.04***
+(0.01)
+
+- 0.02
+(0.02)
+
+- 0.12
+(0.08)
+
+2 0.04***
+(0.01)
+
+2 0.08***
+(0.02)
+
+2 0.03*
+(0.02)
+
+PTA depth
+
+0.06
+(0.04)
+
+2 0.14**
+(0.06)
+
+0.56
+(1.01)
+
+0.15***
+(0.05)
+
+- 0.06
+(0.08)
+
+2 0.24*
+(0.14)
+
+Observations
+
+0.46
+
+0.34
+
+0.91
+
+0.47
+
+0.37
+
+0.51
+
+R2
+
+7807
+
+5104
+
+4032
+
+7635
+
+5104
+
+3928
+
+Results that are statistically signiﬁcant and different from zero are highlighted using bold text
+Given a restriction of space, the coefﬁcients of secondary variables are omitted. Robust standard errors in
+parentheses: *p \ 0.10, **p \ 0.05, ***p \ 0.01
+
+from the ROW, EU, and EA promote an increase in the sophistication of the ﬁnal
+products this region produced and exported inside LA. Conversely, imports from
+North America and China have a surprisingly negative effect. The pattern does not
+change even when intra-bloc exports of parts and components are considered. The
+only difference is that LA imports have a negative impact. Table 6 reveals that from
+1996 to 2011 the PRODY mean of this subregion import basket decreased,
+coefﬁcient is positive and statistically signiﬁcant only in this case comprising the
+Central American countries Chile and Mexico, a subregion with the deepest PTAs.
+For the Andean Community members, imports of parts and components from EU
+have a negative impact, while imports from EA and North America increase the
+sophistication of the machinery ﬁnal products they export inside Latin America.
+When intra-bloc exports of parts and components are considered, imports from the
+ROW assume a positive coefﬁcient. Although Table 6 revealed no decrease in the
+PRODY mean from 1996 to 2011, after econometrically controlling all variables,
+the model reveals a negative effect on intra-bloc exports of parts and components in
+the cases of imports from China, EA and EU.
+Increases in EA and the ROW participation in Mercosur’s import basket
+composition have a positive impact on Mercosur members’ exports of machinery
+ﬁnal products and parts and components, while North American participation in the
+import basket have a negative impact.
+These results indicated that depending on the subregion, the origin of the imports
+can have a positive or negative effect on the sophistication level of the machinery
+exports inside Latin America. In general, imports from EA and the ROW had
+positive effects, while imports from North America and China had negative impacts.
+However, when we consider all Latin American countries, we verify positive
+contributions from North American imports. The results indicate that in the case of
+imports from China, the effect on the intra-bloc exports sophistication level were
+not positive as expected, revealing that its exports to Latin America were still
+composed of cheaper and less sophisticated parts and components. The exception is
+in the speciﬁc case of electric machinery, where imports from China increased the
+sophistication of the intra-bloc exports of parts and components.
+
+7 Final considerations
+In this paper, we investigated how the changes in the structural composition of Latin
+America’s suppliers of machinery parts and components affected the development
+of Latin American regional production networks. In our analysis, we considered a
+quantity and a quality dimension of the impact of these imports.
+In the ﬁrst part of the paper, the descriptive analysis indicated a growth in the import
+of parts and components from all regions of the world. However, we observed that the
+growth in imports from the East Asian region was higher, resulting in a change in the
+structural composition of the suppliers. Concomitant with this composition change, we
+also veriﬁed a modiﬁcation in the sophistication level on the intra-bloc exports. In the
+second part of the paper, we proceeded with an econometric analysis to identify from
+which regions the import of parts and components contributed more to develop
+production networks inside Latin America and increase the sophistication level of the
+traded products. The quantity analysis provided evidence that Latin American
+production networks increased during the studied period, and they were fomented by
+import of machinery parts and components from the ROW, LA, EA, and North
+North America stimulated the intra-bloc trade of machinery parts and components in
+general, decreasing the trade in speciﬁc machinery sectors. The expected result that the
+increase in imports from EA and China fomented production networks inside Latin
+America was conﬁrmed for the speciﬁc case of electric machineries. Conversely,
+imports of parts and components from North America did not stimulate the intra-bloc
+trade of machineries ﬁnal products and parts and components for the two speciﬁc
+sectors analyzed.
+Exploring subregional heterogeneities, we identiﬁed that imports from North
+America had the highest positive impact in intra-bloc exports in the cases of the
+exports from Central America, Chile and Mexico subregions, as well as the Andean
+Community. Imports from EA and China had the highest positive effects in the case
+of exports from Mercosur countries. It is possible that geographical and economic
+proximity played an important role in this result, with North American imports
+fomenting the ﬁrst two regions’ engagement in production fragmentation, while
+imports from EA and China were more important for Mercosur members.
+Considering the second dimension studied, the sophistication of the products traded
+in Latin America’s regional production networks, the results provided evidence that
+partially supported the hypothesis that increases in imports of parts and components
+from Asian countries promote an increase in the quality of the intra-bloc export basket.
+The EA coefﬁcient was positive for the pooled machinery data in Latin America and
+almost all subregions, while imports from China increased the sophistication of intrabloc exports of electric machinery parts and components. The coefﬁcients for
+subregional pooled machinery data imports from China were negative, revealing that its
+exports to Latin America were still composed of cheaper and less sophisticated parts
+and components. The results from imports from North America were mixed, with
+negative coefﬁcients in the subregional cases and positive coefﬁcients when all Latin
+American countries were analyzed.
+The ﬁndings of this paper indicate that Latin American governments should
+consider the possibility of being more proactive in the development of regional
+policies to facilitate the import and use of machinery parts and components. The
+heterogeneity between subregions indicates that countries from Mercosur could
+beneﬁt more from imports from the EA and China to foment the expansion of
+regional production networks and the increase in the sophistication level of the
+machinery products traded inside Latin America, while North America appears as a
+natural and better option for the other countries. Moreover, Latin American
+countries could take advantage of the internalization of some machinery production
+steps to engage in machinery production networks and decrease the imports of
+machinery ﬁnal products from third regions. These initial policies can proportionate
+economic growth and other positive spillover effects. In the medium and long term,
+these strategies could help Latin American countries overcome the lack of
+competitiveness in given machinery products and enhance the region’s participation
+in the international machinery trade.
+Acknowledgements I deeply appreciate the valuable comments from professors Fukunari Kimura, Kozo
+´
+am thankful for the support from Professor Laura Marquez-Ramos and Juan Nelson Martınez Dahbura. I
+gratefully acknowledge the Keio University Doctorate Student Grant-in-Aid Program, the MEXTsupported Program for the Strategic Research Foundation at Private Universities, and Keio Economic
+Society for the ﬁnancial support in part for this study. The analysis and results presented in this research
+are only the responsibility of the author.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons license, and indicate if changes were made.
+
+Appendix
+See Tables 8 and 9.
+
+Table 8 Country list by regions
+
+Region
+
+Name
+
+North America
+
+Canada
+
+North America
+
+USA
+
+China
+
+China
+
+China
+
+China, Hong Kong
+
+EA
+
+Australia
+
+EA
+
+India
+
+EA
+
+Indonesia
+
+EA
+
+Japan
+
+EA
+
+Malaysia
+
+EA
+
+New Zealand
+
+EA
+
+Philippines
+
+EA
+
+Republic of Korea
+
+EA
+
+Singapore
+
+EA
+
+Thailand
+
+EU
+
+Austria
+
+EU
+
+Bulgaria
+
+EU
+
+Czech Republic
+
+EU
+
+Cyprus
+
+EU
+
+Denmark
+
+EU
+
+Estonia
+
+EU
+
+Finland
+
+EU
+
+France
+
+EU
+
+Germany
+
+EU
+
+Greece
+
+EU
+
+Hungary
+
+EU
+
+Ireland
+
+EU
+
+Name
+
+EU
+
+Latvia
+
+EU
+
+Lithuania
+
+EU
+
+Malta
+
+EU
+
+The Netherlands
+
+EU
+
+Poland
+
+EU
+
+Portugal
+
+EU
+
+Romania
+
+EU
+
+Slovakia
+
+EU
+
+Slovenia
+
+EU
+
+Spain
+
+EU
+
+Sweden
+
+EU
+
+UK
+
+LA
+
+Argentina
+
+LA
+
+Bolivia
+
+LA
+
+Brazil
+
+LA
+
+Chile
+
+LA
+
+Colombia
+
+LA
+
+Costa Rica
+
+LA
+
+Ecuador
+
+LA
+
+El Salvador
+
+LA
+
+Guatemala
+
+LA
+
+Honduras
+
+LA
+
+Mexico
+
+LA
+
+Nicaragua
+
+LA
+
+Panama
+
+LA
+
+Paraguay
+
+LA
+
+Peru
+
+LA
+
+Uruguay
+
+LA
+
+Venezuela
+
+ROW
+
+Albania
+
+ROW
+
+Algeria
+
+ROW
+
+Azerbaijan
+
+ROW
+
+Cameroon
+
+ROW
+
+Cote d’Ivoire
+
+ROW
+
+Croatia
+
+ROW
+
+Egypt
+
+ROW
+
+Georgia
+
+ROW
+
+Ghana
+
+ROW
+
+Iceland
+
+ROW
+
+Israel
+
+ROW
+
+Jamaica
+
+ROW
+
+Kyrgyzstan
+
+ROW
+
+123
+
+Region
+
+Name
+
+ROW
+
+Mauritius
+
+ROW
+
+Morocco
+
+ROW
+
+Niger
+
+ROW
+
+Nigeria
+
+ROW
+
+Norway
+
+ROW
+
+Oman
+
+ROW
+
+Republic of Moldova
+
+ROW
+
+Russian
+
+ROW
+
+Saudi Arabia
+
+ROW
+
+Senegal
+
+ROW
+
+Sudan
+
+ROW
+
+Switzerland
+
+ROW
+
+Republic of Macedonia
+
+ROW
+
+Tunisia
+
+ROW
+
+Turkey
+
+ROW
+
+Uganda
+
+ROW
+
+Ukraine
+
+ROW
+
+Tanzania
+
+ROW
+
+Zambia
+
+Table 9 List of Latin American preferential trade agreements
+Agreement
+
+Year that
+entered
+in force
+
+Type
+
+Number of
+enforceable
+provisions
+
+Panama–Chile
+
+2008
+
+FTA and EIA
+
+12
+
+CAN
+
+1988
+
+CU
+
+15
+
+Chile–Costa Rica
+
+2002
+
+FTA and EIA
+
+16
+
+MERCOSUR
+
+1991
+
+CU and EIA
+
+17
+
+Central American Common Market
+(CACM)
+
+1961
+
+CU
+
+18
+
+Chile–Honduras
+
+2008
+
+FTA and EIA
+
+18
+
+Chile–Guatemala
+
+2010
+
+FTA and EIA
+
+18
+
+Chile–El Salvador
+
+2002
+
+FTA and EIA
+
+19
+
+CAFTA-DR
+
+2006
+
+FTA and EIA
+
+19
+
+Mexico–Uruguay
+
+2004
+
+FTA and EIA
+
+21
+
+Panama–El Salvador
+
+2003
+
+FTA and EIA
+
+22
+
+Panama–Costa Rica
+
+2008
+
+FTA and EIA
+
+22
+
+Colombia–Northern Triangle
+
+2009
+
+FTA and EIA
+
+22
+
+Panama–Guatemala
+
+2009
+
+FTA and EIA
+
+22
+
+Panama–Honduras
+
+2009
+
+FTA and EIA
+
+22
+
+Peru–Chile
+
+2009
+
+FTA and EIA
+
+Agreement
+
+Year that
+entered
+in force
+
+Type
+
+Number of
+enforceable
+provisions
+
+Chile–Mexico
+
+1999
+
+FTA and EIA
+
+24
+
+El Salvador–Honduras
+
+2008
+
+FTA and EIA
+
+24
+
+Panama–Nicaragua
+
+2009
+
+FTA and EIA
+
+24
+
+Chile–Colombia
+
+2009
+
+FTA and EIA
+
+25
+
+Colombia–Mexico
+
+1995
+
+FTA and EIA
+
+27
+
+Approach. In: Hiratsuka D, Uchida Y (eds) Vertical Specialization and Economic Integration in East

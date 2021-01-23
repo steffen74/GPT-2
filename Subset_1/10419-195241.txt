@@ -1,0 +1,2761 @@
+
+1 Introduction
+Absolute purchasing power parity (PPP) between two countries holds if the cost of a
+market basket of tradable goods and services is the same in both countries in terms
+of a common currency. If there are no barriers to trade or transactions costs, any
+differences in the cost of the market basket are eliminated through arbitrage.
+Interestingly, Cassel (1918) advanced the PPP hypothesis as the norm under the
+in Sweden and its trading partners as arising from trade barriers.
+Empirical testing of PPP presents some difﬁculties, but surmountable ones. First,
+there are no data on the costs of a market basket of tradable goods and services.
+Instead researchers use price indexes, but indexes contain data on non-traded goods
+and services that are irrelevant in testing for PPP. Second, price indexes and
+nominal exchange rates are constructed by the averaging of observations drawn at
+different times and/or different locations. Such averaging can introduce bias into
+unit root tests for PPP (Taylor 2001). Third, evidence of mean reversion of the real
+exchange rate is regarded as evidence of purchasing power parity, but there is no
+guarantee that the mean to which a real exchange rate measure constructed using
+price indexes reverts is the PPP level. Of course there is no theoretical basis for
+mean reversion to a real rate different from the one associated with PPP either.
+Purchasing power parity in the real exchange rate between Mexico and the
+United States is examined in this study. Focus on this bilateral relation is justiﬁed
+because most of Mexico’s international trade has historically been with the US. This
+paper extends previous work on PPP for the Mexico–US relationship in two
+important ways. First, it makes use of the long-span, high-frequency data set
+`
+developed by Ventosa-Santaularia et al. (2015), henceforth VGW, and updated to
+2014. Wallace et al. (2011) used the 1930–1960 portion of this data set to test for
+´
+PPP and Gomez-Zaldivar et al. (2013) studied PPP in Mexico with the data for
+1969–2010, but this paper is the ﬁrst after VGW to utilize the complete data set.
+Second, the study employs a recent approach to cointegration testing developed by
+Enders et al. (2008) to examine the PPP hypothesis. The Enders, Im, and Lee
+(henceforth EIL) methodology uses stationary instrumental variables for the
+integrated series of the empirical model to overcome the difﬁculties of inference
+posed by non-standard distributions of nonstationary variables. EIL show that the t
+statistics of the estimated model are asymptotically normal when nonstationary
+regressors are instrumented with stationary ones.
+Taylor (2001) shows that bias against the PPP hypothesis can arise in tests of
+stationarity of the real exchange rate due to temporal aggregation of high-frequency
+data in the construction of the lower frequency price indexes. He demonstrates that
+the bias reduces the power of unit root tests, but ﬁnds that bias diminishes with
+longer data spans. In light of Taylor’s work most studies of purchasing power parity
+have focused on industrial countries likely due to the availability of data over
+extended spans. The long-span data set used in this study, thus, mitigates the bias
+arising from temporal aggregation allowing tests of PPP for Mexico, a nation whose
+economic development has lagged that of the industrial countries.
+The long-span high-frequency data set put together by VGW and updated for this
+study is a composite from several different sources. Monthly, historical nominal
+exchange rate and price index data for Mexico, 1930–1960, are obtained from
+´
+Cardenas (1994) who cites the Bank of Mexico as a source, although the central
+bank does not provide these historical ﬁgures through its statistical website. Post1960 data are from annual reports of the Bank of Mexico, commonly referred to as
+Due to the large number of PPP studies, this review focuses only on PPP research
+´
+for Mexico. In studying real exchange rate variability and GDP in Mexico Avalos
+´
+Huerta and Hernandez Trillo (1995) fail to ﬁnd evidence of PPP in annual or
+quarterly data for the Mexico–US real exchange rate for 1961–1994. McLeod and
+Welch (1992) apply unit root and cointegration tests to quarterly data for the
+Mexico–US real exchange rate, 1960–1991. They ﬁnd evidence of stationarity of
+the real rate and cointegration of the nominal exchange rate and price levels, results
+normally regarded as evidence of PPP between two countries. Despite their ﬁnding
+McLeod and Welch express skepticism regarding the presence of PPP. Santaella and
+Vela (2005) provide an excellent description and analysis of nominal exchange rate
+´
+policy in Mexico during the tumultuous period of 1987–1994. Mejıa Reyes and
+´
+´˜
+Gonzalez Nunez (1996) test for absolute purchasing power parity in three measures
+of the Mexico–US real exchange rate. Two of the real exchange rate measures are
+constructed using annual data from 1940 to 1994 and the third for 1921–1994. The
+three measures differ in the price indexes used to calculate the real exchange rate.
+´
+Using augmented Dickey–Fuller and Phillips–Perron unit root tests Mejıa Reyes and
+´
+´˜
+Gonzalez Nunez ﬁnd weak evidence of stationarity of the real rate, thus support for
+the PPP hypothesis, in the three series. They also apply the Engle–Granger tests to
+the three series and conclude that the Mexican and US price levels are cointegrated
+for both of the time periods studied although the evidence is weaker for 1921–1994.
+Evidence from Johansen’s cointegration test provides weak evidence of PPP only
+for the 1921–1994 period.
+Hegwood and Papell (1998) argue that PPP requires reversion of the real
+exchange rate to a constant mean. Unit root tests showing stationarity of the real
+exchange rate in the presence of breaks are not evidence of PPP if shifts in the series
+imply reversion to a changing mean. They deﬁne such instances of reversion to an
+occasionally changing mean as quasi-purchasing power parity or QPPP. Noriega
+and Medina (2003) test for PPP in annual data for the peso–dollar real exchange rate
+for 1925–1994 allowing for an unknown number of structural breaks in the data.
+Noriega and Medina ﬁnd that a structural break in the mean real exchange rate
+occurred in 1981; but the rate is stationary both before and after this date, evidence
+of QPPP.
+Taylor (2002) tests for purchasing power parity in a data set composed of more
+than 100 annual observations for 20 countries, including Mexico. His tests indicate
+mean reversion, evidence of PPP, in Mexico and most of the other countries studied.
+Several other studies have applied different stationarity tests to the Taylor data and
+ﬁnd support for PPP in most countries including Mexico (Wallace and Shelley
+2006; Bahmani-Oskooee et al. 2007; Wallace 2008, 2013).
+´
+Gomez-Zaldivar et al. (2013) use a unit root test developed by Kapetanios (2005)
+allowing multiple, exogenously determined breaks to test for PPP in monthly data
+for the Mexico–US real exchange rate, 1969–2010. They test an empirical model
+allowing for a break in the mean, without trend, and another with breaks in the mean
+alternatives reject the unit root null in favor of a stationary series with breaks. Most
+of the breaks occurred between 1982 and 1987, a period associated with shifts
+toward opening Mexico to additional foreign investment and expanding international trade.
+As ﬁgure 1 in Ventosa et al. shows, the Mexico–US real exchange has been
+volatile over the period 1930–2012, but the volatility is most pronounced in the
+decade beginning 1980 during which exchange rate controls were adopted and
+banks nationalized (Wallace 1999 provides a summary of events). VGW apply the
+Kim, Leybourne, and Newbold unit root test which is robust to volatility changes
+and ﬁnd evidence of purchasing power parity for the Mexico–US real exchange rate.
+The test also reveals a structural break in the error variance occurring in July 1976,
+shortly before Mexico switched from a ﬁxed nominal exchange rate regime to a
+managed ﬂoat.
+
+3 Methodology
+If purchasing power parity holds between Mexico and the United States then Eq. (1)
+follows:
+cM À et ¼ ct ;
+t
+
+ð1Þ
+
+where cM is the log of the cost of a market basket of tradable goods and services
+t
+denominated in Mexican pesos, ct is the log of the US dollar cost of the same market
+basket in the United States, and et is the log of the nominal exchange rate in pesos
+per US dollar.
+As noted earlier, tests of PPP use price indexes rather than actual costs of a
+market basket. Price indexes do not correspond to the cost terms in Eq. (1).
+Consequently, an empirical test of PPP must modify the relationship yielding
+À Á
+Eq. (2), where the logged period t price indexes for Mexico pM and the United
+t
+States ðpt Þ replace the costs of the market basket in Eq. (1) and an error term, ut , is
+included. Since price indexes are not monetary measures the intercept, b0 , and
+coefﬁcient, b1 , may be different from their implied values of zero and one,
+respectively, in Eq. (1).
+pM À et ¼ b0 þ b1 pt þ ut :
+t
+
+ð2Þ
+
+Testing for purchasing power parity is not as simple as Eq. (2) might suggest,
+because price levels and nominal exchange rates are often integrated of order one,
+thus the regression results may be spurious. However, if purchasing power parity
+holds then there is a stable, long-term relationship between the price levels in the
+two countries when expressed in terms of a common currency. That is the two
+common currency price levels must be cointegrated if the individual series are I(1)
+with Eq. (2) expressing the long-run relationship.
+Unit root test results, discussed below, indicate that the Mexican and US price
+single equation approaches to testing for cointegration include the error correction
+model (ECM) and the autoregressive distributed lag (ADL) variant. However, it is
+well known that such testing is problematic because of the presence of nuisance
+parameters (Pesavento 2004) and the dependence of the distribution of the relevant
+test statistic on the variables included in the model. The distribution will vary, for
+example, with the location of a structural break, an issue of particular importance in
+this study. A researcher can bootstrap errors to uncover the empirical distribution,
+but bootstrapping may also create some difﬁculties. Harris and Judge (1998) show
+that bootstrapped errors may result in poor test size in a model with both stationary
+and nonstationary covariates and at least one cointegrating vector, particularly in
+small samples.
+Enders, Im, and Lee offer an alternative to bootstrapping in evaluating the test
+statistics from ECM and ADL models. They propose using stationary instrumental
+variables for any I(1) series in the models. They show that the test statistics from the
+ECM and ADL estimations are asymptotically normal when the nonstationary
+variables are appropriately instrumented.1 Test statistics are free of the nuisance
+parameter problem and can be evaluated using the standard normal distribution, thus
+simplifying inference in cointegration models.
+The EIL methodology is followed in this paper. Letting the Mexican price level
+denominated in dollars be denoted ftM , that is pM À et ¼ ftM , the basic ECM is given
+t
+by Eq. (3):
+
+
+M
+b
+b
+ð3Þ
+DftM ¼ d0 þ d1 ftÀ1 À b 0 À b 1 ptÀ1 þ d2 Dpt þ mt ;
+where D is the difference operator, the ^ above a term indicates an estimated value,
+the expression in parentheses is the estimated residual, btÀ1 , from Eq. (2) lagged
+u
+one period, that is the error correction term, and mt is a white noise error. This
+speciﬁcation assumes that the US price level is weakly exogenous thus all adjustments to the error correction term occur in the dollar-denominated Mexican price
+level. The US economy is much larger than that of Mexico so the weak exogeneity
+assumption seems reasonable; nonetheless it is tested before estimation of Eq. (3).
+Lags of DftM can be added to Eq. (3) to address autocorrelation and dummy
+variables can be introduced as needed. The innovation of EIL is to show that
+instrumenting btÀ1 and any other nonstationary covariates in the model yields test
+u
+statistics that are asymptotically normally distributed. As an instrument for any
+nonstationary I(1) covariate, xtÀ1 , they propose using the m period difference,
+xtÀ1 À xtÀmÀ1 . For example, in the basic ECM given by Eq. (3) the instrument for
+btÀ1 would be btÀ1 À btÀmÀ1 . No theoretical guidance is provided for selecting m,
+u
+u
+u
+but EIL suggest using the value of m that minimizes the sum of the squared
+residuals of the test equation. Empirical results from speciﬁcations for a range of
+values of m are reported below. The ADL variation of Eq. (3) is given by Eq. (4).
+1
+
+Selection of the appropriate IV is addressed below. A concise description of the EIL methodology can
+be found in Wallace (2013). The reader interested in a more complete description and proofs should
+
+ð4Þ
+
+where a0 ¼ d0 À d1 b 0 , a1 ¼ Àd1 b 1 , and tt is a white noise error term. Again
+b
+b
+dummies and lags of the dependent variable can be introduced. In the case of the
+M
+M
+basic ADL model in Eq. (4) the instruments are ftÀ1 À ftÀmÀ1 and ptÀ1 À ptÀmÀ1 for
+M
+the nonstationary series ftÀ1 and ptÀ1 , respectively. Of interest in testing for purchasing power parity is the coefﬁcient d1 in Eqs. (3) and (4). If the price levels in
+terms of US dollars in the two countries are cointegrated, then b1 will be signiﬁd
+cantly negative so that the null and alternative hypotheses are
+H0 : d1 ! 0; H1 : d1 \0. The coefﬁcient on the error correction term will be negative
+and signiﬁcant if the short run change in the dollar-denominated Mexican price
+level responds to deviations from the long-run relation. For example, if btÀ1 is
+u
+positive it signiﬁes that the Mexican price level measured in dollars is above its
+long-run equilibrium value relative to the US price level. If PPP holds the Mexican
+price level should decline in the short run so the coefﬁcient on btÀ1 will be sigu
+niﬁcantly negative. Correctly assessing the signiﬁcance of a coefﬁcient from the
+ECM or ADL speciﬁcations with integrated regressors is the difﬁculty addressed by
+the EIL procedure.
+
+4 Data
+The updated VGW data set used in this study includes three different price index
+measures for Mexico. One price level series is the wholesale price index for Mexico
+City available for 1930m01–2000m12. Wholesale prices for Mexico City are the
+only historical data available for the country prior to 1969. A second (third) price
+level series is derived by appending the producer price index excluding (including)
+petroleum for 2001m01–2014m09 to the Mexico City wholesale price level. The
+nominal exchange rate is expressed as the peso price of a US dollar. The US
+producer price index series is taken from the statistical database of the Federal
+´
+Reserve Bank of St. Louis. All other data are drawn from Cardenas (1994), annual
+Banxico reports, and the website for the Bank of Mexico. More details can be found
+in Ventosa et al. The data are plotted in Figs. 1, 2, 3, and 4. Due to the similarity of
+the producer price series with and without the price of petroleum, only the series
+inclusive of the oil price is shown. All series display trends; thus, a deterministic
+trend is included in the unit root and cointegration tests discussed below.
+The augmented Dickey–Fuller test, the GLS detrended version of the Dickey–
+Fuller test, and the KPSS test are employed to check for stationarity of all series.2
+The ADF and GLS version of the Dickey–Fuller test statistics indicate failure to
+reject the unit root null in the three Mexican price level series, the US price level,
+and the nominal exchange rate. These two tests uniformly reject the unit root null in
+the ﬁrst difference of each series at the 5% level or better indicating that the ﬁve
+2
+
+Tests on the logged series in levels include a constant and trend. Tests on the ﬁrst differenced logged
+series include only a constant since plots of the differenced series do not show trends. The Schwarz
+2
+1
+0
+-1
+-2
+-3
+-4
+-5
+-6
+35
+
+40
+
+45
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+80
+
+85
+
+90
+
+95
+
+00
+
+05
+
+10
+
+05
+
+10
+
+Fig. 1 Log nominal exchange rate, Pesos per US dollar 1933m03–2014m09
+14
+12
+10
+8
+6
+4
+2
+0
+35
+
+40
+
+45
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+80
+
+85
+
+90
+
+95
+
+00
+
+Fig. 2 Log producer price index-Mexico, 1933m03–2014m09. Includes petroleum
+
+variables are integrated of order one. The Kwiatkowski, Phillips, Schmidt and Shin
+(KPSS) indicate rejections of the trend stationary null in both levels and ﬁrst
+differences at the 5% level for the three Mexican price-level measures. Thus, the
+KPSS tests suggest that these three series are integrated of order two or higher.
+According to the KPSS test, the nominal exchange rate and the US price level are
+I(1) conﬁrming the earlier ﬁnding.3
+Structural breaks in the data set are likely especially since Mexico has
+experienced regime shifts since 1933. From 1933 to 1980 the nominal exchange rate
+was generally ﬁxed interrupted by brief interludes of ﬂoating rates. Subsequently,
+the nominal exchange rate was allowed to ﬂuctuate beginning with a managed ﬂoat.
+3
+
+For reasons addressed later in the paper the all unit root tests are applied to data series starting in
+10
+8
+6
+4
+2
+0
+35
+
+40
+
+45
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+80
+
+85
+
+90
+
+95
+
+00
+
+Fig. 3 Log wholesale price index, Mexico City 1933m03–2000m12
+5.5
+5.0
+4.5
+4.0
+3.5
+3.0
+2.5
+2.0
+35
+
+40
+
+45
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+80
+
+85
+
+90
+
+95
+
+00
+
+05
+
+10
+
+Fig. 4 Log US producer price index, 1933m03–2014m09
+
+Since 1995 the Mexican government has allowed the peso/dollar rate to ﬂuctuate
+with occasional interventions. In the mid-1980s trade policy shifted from a
+historical focus on import substitution to a more recent emphasis on exports.
+The Lee and Strazicich (2003, 2013) henceforth LS, unit root test is used to test
+the null of a unit root in each series while allowing for structural breaks. Up to 40
+lags are permitted with a general-to-simple procedure used to select lag length. The
+test is performed allowing for one or two breaks in both trend and intercept. The null
+hypothesis of a unit root with break cannot be rejected for any of the logged series
+under either number of breaks. Since no trend can be observed in the ﬁrst
+differenced series, only intercept breaks are considered in testing for a second unit
+root. The null of a second unit root cannot be rejected for any of the three
+differenced Mexican price series allowing for one break; but when two breaks are
+break version of the LS test for the logged Mexican price series, most of the
+evidence from unit root tests suggest that all series are integrated of ﬁrst order and
+the remainder of the work is conducted under that assumption.
+
+5 Results
+The assumption of weak exogeneity of the US producer price index is tested in a
+vector ECM before proceeding with the EIL estimations. The Johansen test for
+cointegration indicates the presence of one cointegrating vector between the logs of
+the dollar-denominated Mexican price level and the US producer price index,
+regardless of the choice of Mexican price series. The Schwarz Bayesian criterion
+selects seven lags for a vector autoregression of the two variables so six are included
+in one version of the VECM. Another version of the VECM uses 12 lags of the
+endogenous variables to capture possible seasonal effects. Tests for autocorrelation
+indicate that the problem remains in the six lag VECM, but that autocorrelation is
+eliminated for the 12-lag version. All results reported below are based on the VECM
+with 12 lags.
+The VECM, shown in Eqs. (5) and (6) below, has two endogenous variables, the
+change in the log of the dollar-denominated Mexican price level, DftM , and the
+change in the log of the US producer price index, Dpt . The error correction portion
+is the term in parenthesis in both equations.
+12
+12
+X
+À M
+Á X
+M
+DftM ¼ c1 þ a1 ftÀ1 À b1 À b2 ptÀ1 þ
+d1i DftÀi þ
+h1i DptÀi þ e1t ;
+i¼1
+
+12
+12
+X
+À M
+Á X
+M
+Dpt ¼ c2 þ a2 ftÀ1 À b1 À b2 ptÀ1 þ
+d2i DftÀi þ
+h2i DptÀi þ e2t :
+i¼1
+
+ð5Þ
+
+i¼1
+
+ð6Þ
+
+i¼1
+
+Weak exogeneity of the log of the US producer price index holds if the
+coefﬁcient on the error correction term in Eq. (6), a2, is not signiﬁcantly different
+from zero. Three VECM are estimated, each using the dollar-denominated Mexican
+price level constructed from a different Mexican price series. Likelihood ratio tests
+of the null hypothesis a2 = 0 have marginal signiﬁcance levels ranging from 0.15 to
+0.19 indicating failure to reject the null thus support for the weak exogeneity
+assumption.
+Initial estimation of both the ECM and the ADL versions (Eqs. 3 and 4) using
+data for 1930m01–2014m09 shows that identifying empirical speciﬁcations of the
+ECM and ADL equations without autocorrelation requires the inclusion of very long
+lags of the dependent variable, regardless of the price index measure used.
+Interestingly, the need for long lags is obviated if the ﬁrst 39 months of data are
+excluded from the sample; a speciﬁcation with 12 lags of the dependent variable
+the scope of the paper to investigate the reason(s) that removal of the ﬁrst 39 months
+of data alters the speciﬁcation so dramatically, but it may be due to unusual
+exchange rate or price level behavior caused by the removal of gold from circulation
+and the prohibition of the coinage of silver in Mexico during this period (see
+Wallace 1999 and sources cited therein). All estimation results reported below are
+for speciﬁcations of Eqs. (3) and (4) that include 12 lags of the dependent variable.
+Table 1 reports the estimated value of d1 from the ECM in column 2 of the
+table and its estimated values in the IV speciﬁcations for m = 14…24 in subsequent
+columns. The ﬁrst column shows the error correction term used in the ECM. Zmex1
+M
+M
+b
+b
+is (ftÀ1 À b 0 À b 1 ptÀ1 ) in Eq. (3) when ftÀ1 is calculated using the price index for
+Mexico that includes petroleum, and zmex2 is the error correction in Eq. (3) where
+the price index for Mexico excludes petroleum. Thus zmex1 and zmex2 are the
+estimated residuals obtained from the full sample, 1933m03–2014m09 estimations
+of Eq. (2). Zmex3 is the error correction term in Eq. (3) when using the wholesale
+price index for Mexico City for the period 1933m03 to 2000m12 to estimate Eq. (2).
+The estimated value of d1 is negative and signiﬁcant at the 1% level in the basic
+ECM, regardless of the particular Mexican price level series, indicating cointegration between the dollar-denominated Mexican and US price levels thus evidence of
+PPP. The remaining columns show estimates of d1 when error correction terms are
+instrumented for values of m ranging from 14 to 24. The choice of m has some effect
+on the size of b1 , but all are signiﬁcant at the 5% level (critical value -1.645) and
+d
+all but ﬁve of the estimated coefﬁcients are signiﬁcant at the 1% level. Thus, the
+results indicate that the US and Mexican price levels, denominated in dollars, are
+cointegrated a result supportive of purchasing power parity. The choice of Mexican
+price index used in the estimations makes very little difference in the results, for a
+given value of m the different indexes produce very similar estimates of d1 . The
+estimated coefﬁcient in bold and italicized font in the table is from the equation
+having the smallest sum of squared residuals (SSR) for the 11 IV speciﬁcations. The
+smallest SSR appears at the ﬁnal value, m = 24, in the three different estimations.
+In the ADL version of the empirical model d1 is the coefﬁcient on the lagged
+M
+value of the dollar-denominated Mexican price level, ftÀ1 . There are three different
+measures of the dollar-denominated price level in Mexico in Table 1: fmex1
+includes the price of petroleum, fmex2 excludes petroleum price, and fmex3 is the
+wholesale price index for Mexico City. The two former measures span 1933m03 to
+2014m09 while fmex3 ends in 2000m12. The estimated coefﬁcients on the dollardenominated Mexican price-level measures are displayed in Table 2. The basic
+ADL results, without instruments, suggest cointegration of the Mexican and US
+4
+
+Once it was determined that the ﬁrst few years of the study were responsible for difﬁculties in ﬁnding a
+satisfactory speciﬁcation and those years eliminated, a general-to-simple procedure was followed.
+Starting with a speciﬁcation for the ECM and ADL with 37 lags of the dependent variable, Wald tests for
+joint signiﬁcance of the longest lags were carried out eliminating those lags that were not jointly
+signiﬁcant at the 15% level or higher. Six different LM tests, gradually reducing the number of lags in the
+LM test, were undertaken for each ECM and ADL speciﬁcation (without instruments). For both ADL and
+ECM 12 lags of DftM were sufﬁcient to eliminate autocorrelation. Twelve lags were then imposed on the
+
+-2.054
+
+-4.145
+
+-4.327
+
+-0.1193
+
+-0.0328
+
+-2.610
+
+-0.1213
+
+-2.363
+
+-0.1063
+
+-2.389
+
+-0.1077
+
+m = 15
+
+-2.535
+
+-0.0988
+
+-2.278
+
+-0.0866
+
+-2.307
+
+-0.0879
+
+m = 16
+
+-2.829
+
+-0.0969
+
+-2.608
+
+-0.0877
+
+-2.644
+
+-0.0891
+
+m = 17
+
+-2.770
+
+-0.0846
+
+-2.614
+
+-0.0785
+
+-2.657
+
+-0.0799
+
+m = 18
+
+-2.810
+
+-0.0790
+
+-2.622
+
+-0.0726
+
+-2.667
+
+-0.0740
+
+m = 19
+
+-3.218
+
+-0.0857
+
+-3.036
+
+-0.0801
+
+-3.080
+
+-0.0814
+
+m = 20
+
+-3.333
+
+-0.0850
+
+-3.187
+
+-0.0807
+
+-3.232
+
+-0.0821
+
+m = 21
+
+-0.0799
+-0.0833
+-3.409
+
+-3.612
+
+-0.0847
+
+-3.423
+
+-0.0789
+-3.246
+
+-3.463
+
+-0.0811
+
+m = 23
+
+-3.288
+
+-0.0801
+
+m = 22
+
+-3.352
+
+-0.0753
+
+-3.159
+
+-0.0705
+
+-3.199
+
+-0.0716
+
+m = 24
+
+a
+The 5% critical value for the ECMs without IVs is -3.218 and the 1% critical value is -3.804. The critical values are obtained using the response surfaces in Ericsson
+and MacKinnon (2002), as implemented in the program ECMtest.xls, version 1.0 (Ericsson and MacKinnon 2000). Since the test statistics from the IV estimations are
+asymptotically normal, the signiﬁcant values are -1.645 at the 5% level and -2.327 at the 1% level
+
+ZMEX3
+
+ZMEX2
+
+-0.1210
+
+-2.078
+
+-0.0333
+
+-4.179
+
+ZMEX1
+
+m = 14
+
+No IVa
+
+ECM
+
+Table 1 Estimation results for the error correction term coefﬁcient: with and without instruments
+
+Lat Am Econ Rev (2017) 26:5
+
+-0.0441
+
+-4.372
+
+-0.0705
+
+-1.015
+
+-0.0333
+
+-4.179
+
+-0.343
+
+-0.0326
+
+-0.755
+
+-0.0531
+
+-0.729
+
+-0.0525
+
+IV15
+
+-0.188
+
+-0.0175
+
+-0.507
+
+-0.0351
+
+-0.488
+
+-0.0346
+
+IV16
+
+-0.244
+
+-0.0227
+
+-0.585
+
+-0.0401
+
+-0.567
+
+-0.0400
+
+IV17
+
+-0.143
+
+-0.0140
+
+-0.426
+
+-0.0309
+
+-0.410
+
+-0.0309
+
+IV18
+
+-0.111
+
+-0.0114
+
+-0.375
+
+-0.0281
+
+-0.360
+
+-0.0281
+
+IV19
+
+-0.049
+
+-0.0061
+
+-0.292
+
+-0.0268
+
+-0.269
+
+-0.0262
+
+IV20
+
+-0.027
+
+-0.0037
+
+-0.170
+
+-0.0193
+
+-0.147
+
+-0.0178
+
+IV21
+
+-0.137
+
+-0.0184
+
+-0.325
+
+-0.0355
+
+-0.284
+
+-0.0334
+
+IV22
+
+0.025
+
+0.0050
+
+-0.076
+
+-0.0132
+
+-0.0489
+
+-0.0094
+
+IV23
+
+0.049
+
+0.0118
+
+-0.005
+
+-0.0012
+
+0.0185
+
+0.0050
+
+IV24
+
+Critical values for the ADL model without IVs are based on the t statistic bounds test (unrestricted intercept, no trend) of Pesaran et al. (2001). A t statistic smaller than
+the I(1) bound of -3.53 (-4.10) indicates signiﬁcance at the 5% (1%) level. The coefﬁcient italicized in bold font is from the equation that minimizes the sum of the
+squared residuals
+
+a
+
+FMEX3
+
+FMEX2
+
+-0.0693
+
+-0.977
+
+-0.0338
+
+-4.212
+
+FMEX1
+
+IV14
+
+No IVa
+
+ADL
+
+Table 2 Estimation results for the coefﬁcient on the dollar-denominated Mexican price level: ADL model with and without instruments
+includes the same variables as the ECM so it is surprising that none of the b1 in the
+d
+IV speciﬁcations are signiﬁcant; none of the test statistics are close to their normal
+distribution critical values. Apart from the signiﬁcant coefﬁcients on the three
+Mexican price-level measures in the ADL model without instruments, there is no
+evidence for purchasing power parity in the ADL results.
+Long-span data are necessary for purchasing power parity tests because PPP is a
+long-run condition and because empirical evidence indicates that deviations from
+PPP have long half-lives.5 As previously noted structural breaks arising from
+monetary policy, exchange rate, or trade policy regime changes are likely given the
+long time period spanned by the data. GVW argue that the commercial opening of
+Mexico, especially in the 1980s, likely changed the Mexico–US real exchange rate.
+They ﬁnd evidence of PPP when allowing for mean shifts that they attribute to
+regime changes.
+The contradictory results for the instrumented ECM and ADL estimations raise
+the question of whether structural breaks might explain the differences. This issue is
+investigated by including dummy variables to allow for mean shifts attributable to
+the structural breaks identiﬁed in GVW and VGW. The VGW approach identiﬁes
+one break in the innovation variance and this occurs in July 1976. GVW ﬁnd
+multiple breaks in the monthly mean real exchange rate during the 1969–2010
+period. Dummies for the ﬁve breaks identiﬁed in Model D-5 of GVW and the single
+break in July 1976 are now included in the ECM and ADL models of Eqs. (3) and
+(4). Wald tests on the estimated dummy variable coefﬁcients of the ECM and ADL
+models indicate that the dummies for 1979m12 and 1982m12 are jointly
+insigniﬁcant, so they are dropped from the ECM and ADL speciﬁcations as well
+as the IV estimations regardless of the Mexican price index used. Although the
+1976m07 dummy is not signiﬁcant in all estimations, it is signiﬁcantly different
+from zero at the 5% level in some instances thus retained in all models. The ﬁnal
+versions of the ECM and ADL models add dummies allowing intercept breaks in
+1976m07, 1985m06, 1987m12, and 1998m09 to the earlier versions of Eqs. (3) and
+(4). Results are reported in Tables 3 (ECM) and 4 (ADL).
+The inclusion of the dummy variables causes small changes in the estimated
+coefﬁcients displayed in Table 1. The coefﬁcients are now slightly smaller, but, as
+in the speciﬁcation without dummy variables, all are signiﬁcant regardless of the
+Mexican price index used and choice of m for the instrumental variable. Thus the
+same qualitative conclusion is obtained as from the instrumented ECM estimations
+without dummies; there is cointegration of the two common currency price levels,
+thus evidence of PPP.
+Including four dummy variables changes the ADL results with instruments and
+leads to a different conclusion regarding purchasing power parity. As in the
+speciﬁcations without dummy variables the estimated value of d1 is negative in the
+5
+
+Estimating half-lives is beyond the scope of this study, but estimates vary widely. VGW, using virtually
+the same data set as in this study ﬁnd half-lives ranging from 1.37 to 2.41 years for Mexico depending on
+the time period studied. Rogoff (1996) surveys the literature on PPP and ﬁnds half-life estimates of
+
+-0.0678
+
+-5.847
+
+-0.1604
+
+-2.197
+
+-0.0633
+
+-6.145
+
+-2.736
+
+-0.1671
+
+-2.537
+
+-0.1354
+
+-2.559
+
+-0.1361
+
+IV15
+
+-2.692
+
+-0.1328
+
+-2.447
+
+-0.1088
+
+-2.471
+
+-0.1095
+
+IV16
+
+-3.011
+
+-0.1278
+
+-2.803
+
+-0.1086
+
+-2.834
+
+-0.1095
+
+IV17
+
+-2.959
+
+-0.1090
+
+-2.803
+
+-0.0954
+
+-2.842
+
+-0.0964
+
+IV18
+
+-3.005
+
+-0.1003
+
+-2.806
+
+-0.0870
+
+-2.847
+
+-0.0880
+
+IV19
+
+-3.434
+
+-0.1075
+
+-3.247
+
+-0.0948
+
+-3.286
+
+-0.0958
+
+IV20
+
+-3.562
+
+-0.1064
+
+-3.408
+
+-0.0953
+
+-3.449
+
+-0.0962
+
+IV21
+
+-3.649
+
+-0.1039
+
+-3.472
+
+-0.0929
+
+-3.510
+
+-0.0937
+
+IV22
+
+-3.874
+
+-0.1058
+
+-3.673
+
+-0.0947
+
+-3.708
+
+-0.0952
+
+IV23
+
+-3.623
+
+-0.0954
+
+-3.406
+
+-0.0849
+
+-3.441
+
+-0.0854
+
+IV24
+
+Critical values are affected by the presence of time period dummies hence are unknown. Normal distribution signiﬁcant values are -1.645 at the 5% level and -2.327 at
+the 1% level for the IV estimations
+
+a
+
+ZMEX3
+
+ZMEX2
+
+-0.1611
+
+-2.217
+
+-0.0630
+
+-6.123
+
+ZMEX1
+
+IV14
+
+No IVa
+
+ECM
+
+Table 3 Estimation results for the error correction term coefﬁcient: models with time period dummies
+
+-5.838
+
+-0.1215
+
+-2.108
+
+-0.0676
+
+-6.321
+
+-2.105
+
+-0.1397
+
+-2.304
+
+-0.1110
+
+-2.310
+
+-0.1111
+
+IV15
+
+-2.155
+
+-0.1170
+
+-2.231
+
+-0.0921
+
+-2.245
+
+-0.0924
+
+IV16
+
+-2.521
+
+-0.1153
+
+-2.624
+
+-0.0949
+
+-2.647
+
+-0.0956
+
+IV17
+
+-2.564
+
+-0.0992
+
+-2.633
+
+-0.0840
+
+-2.665
+
+-0.0848
+
+IV18
+
+-2.681
+
+-0.0922
+
+-2.689
+
+-0.0777
+
+-2.724
+
+-0.0785
+
+IV19
+
+-3.052
+
+-0.1016
+
+-3.112
+
+-0.0865
+
+-3.145
+
+-0.0872
+
+IV20
+
+-3.217
+
+-0.1029
+
+-3.270
+
+-0.0882
+
+-3.304
+
+-0.0889
+
+IV21
+
+-3.406
+
+-0.1029
+
+-3.452
+
+-0.0887
+
+-3.486
+
+-0.0893
+
+IV22
+
+-3.562
+
+-0.1067
+
+-3.583
+
+-0.0910
+
+-3.615
+
+-0.0915
+
+IV23
+
+-3.384
+
+-0.0977
+
+-3.344
+
+-0.0825
+
+-3.376
+
+-0.0830
+
+IV24
+
+Critical values are affected by the presence of time period dummies hence are unknown. Signiﬁcant values are -1.645 at the 5% level and -2.327 at the 1% level for the
+IV estimations
+
+a
+
+FMEX3
+
+FMEX2
+
+-0.1212
+
+-2.105
+
+-0.0672
+
+-6.298
+
+FMEX1
+
+IV14
+
+No IVa
+
+ADL
+
+Table 4 Estimation results for the coefﬁcient on the dollar-denominated Mexican price level: ADL models with time period dummies
+
+Lat Am Econ Rev (2017) 26:5
+measures. When using instruments, b1 is signiﬁcantly negative at the 5% level
+d
+for all values of m and of comparable size to the estimated d1 in the corresponding
+ECM.6 The ADL speciﬁcations with dummies suggest the change in the dollardenominated price level in Mexico is negatively related to its long-run level the
+previous month, evidence that it adjusts to its purchasing power parity value. The
+signiﬁcance of most of the time period dummies suggests that this long-run value
+has shifted over time. As in the ECM speciﬁcations, the sum of the squared residuals
+is minimized at the highest value of m used to create the instruments regardless of
+the Mexican price level variable used in the estimation.
+The signiﬁcant dummy variables show that the relationship of the dollardenominated price levels of Mexico and the US underwent mean shifts during the
+study period. Ex post it is easy to ﬁnd events that might cause mean shifts in the
+relationship of the price levels of the two countries, but proving causality is
+`
+impossible. Nonetheless, there are some likely candidates. Ventosa-Santaularia
+et al. associate a break in the innovation variance in July 1976 with macroeconomic
+difﬁculties in Mexico culminating in a shift from a ﬁxed nominal exchange rate vis`
+´
+a-vis the US dollar to a managed ﬂoat in September 1976. Gomez et al. note that a
+policy shift toward a more open economy in Mexico began in the 1980s with
+membership in the General Agreement on Tariffs and Trade and the start of
+negotiations for the North American Free Trade Agreement. Such a policy shift,
+they argue, would lead to a change in the traded/non-traded goods mix and cause a
+real exchange rate shift.
+
+6 Summary and conclusions
+The evidence on purchasing power parity in Mexico is mixed. Some researchers ﬁnd
+that PPP holds, others do not, and others argue that it holds but that structural shifts
+in the relation have occurred. A recent approach to cointegration developed by
+Enders, Im, and Lee is used to test for PPP between the United States and Mexico.
+The EIL procedure uses stationary variables as instruments for nonstationary
+covariates in the error correction and ADL models. When instruments are used the
+test statistics are asymptotically normally distributed thus eliminating the nuisance
+parameter problem and avoiding the need to bootstrap errors.
+Initial estimation of the basic ECM and its ADL variant yields conﬂicting
+evidence regarding PPP. All ECM speciﬁcations, instrumented or not, support the
+PPP hypothesis; none of the ADL speciﬁcations with instruments do. Since other
+researchers have found evidence of mean shifts in the Mexico–US exchange rate,
+dummy variables for six exogenously imposed breaks are included in the empirical
+models. Coefﬁcients on four of the six breaks are signiﬁcant in at least one variant
+6
+
+As a robustness check on the results, both the error correction and autoregressive distributed lag models
+are also re-estimated replacing the four intercept break dummies with intercept and trend-shift dummies
+at dates identiﬁed by the Lee–Strazicich unit root tests. Results are very similar to those shown in
+dummies provide evidence of PPP, as do the ECM without dummies. Interestingly,
+the ADL models with instruments and dummies also support PPP; all coefﬁcients on
+the dollar-denominated Mexican price level are signiﬁcantly negative, unlike the
+speciﬁcations without dummies. Overall the evidence indicates that PPP holds for
+the 1933m03–2014m09 period between the US and Mexico, but that the purchasing
+power parity relation between the two countries has changed over this time period.
+Lat Am Econ Rev (2017) 26:5
+https://doi.org/10.1007/s40503-017-0042-9
+
+Purchasing power parity in Mexico since 1933
+Frederick H. Wallace1
+
+Received: 2 March 2016 / Revised: 12 April 2017 / Accepted: 20 May 2017 /
+Published online: 2 June 2017
+Ó The Author(s) 2017. This article is an open access publication
+
+Abstract A new approach to cointegration developed by Enders et al. (Cointegration tests using instrumental variables with an example of the U.K. demand for
+money. Unpublished working paper. http://wenders.people.ua.edu/time-seriesmethods.html, 2008) is applied to long-span, high-frequency data to test for purchasing power parity in the Mexico–US real exchange rate. Overall the empirical
+results suggest that purchasing power parity (PPP) holds for the study period. The
+evidence for PPP is stronger when structural breaks are allowed in the real exchange
+rate.
+Keywords Purchasing power parity Á Real exchange rate Á Cointegration
+JEL Classiﬁcation C22 Á F30
+
+1 Introduction
+Absolute purchasing power parity (PPP) between two countries holds if the cost of a
+market basket of tradable goods and services is the same in both countries in terms
+of a common currency. If there are no barriers to trade or transactions costs, any
+differences in the cost of the market basket are eliminated through arbitrage.
+Interestingly, Cassel (1918) advanced the PPP hypothesis as the norm under the
+
+& Frederick H. Wallace
+wallace.f@gust.edu.kw
+1
+
+Department of Economics and Finance, Gulf University for Science and Technology,
+in Sweden and its trading partners as arising from trade barriers.
+Empirical testing of PPP presents some difﬁculties, but surmountable ones. First,
+there are no data on the costs of a market basket of tradable goods and services.
+Instead researchers use price indexes, but indexes contain data on non-traded goods
+and services that are irrelevant in testing for PPP. Second, price indexes and
+nominal exchange rates are constructed by the averaging of observations drawn at
+different times and/or different locations. Such averaging can introduce bias into
+unit root tests for PPP (Taylor 2001). Third, evidence of mean reversion of the real
+exchange rate is regarded as evidence of purchasing power parity, but there is no
+guarantee that the mean to which a real exchange rate measure constructed using
+price indexes reverts is the PPP level. Of course there is no theoretical basis for
+mean reversion to a real rate different from the one associated with PPP either.
+Purchasing power parity in the real exchange rate between Mexico and the
+United States is examined in this study. Focus on this bilateral relation is justiﬁed
+because most of Mexico’s international trade has historically been with the US. This
+paper extends previous work on PPP for the Mexico–US relationship in two
+important ways. First, it makes use of the long-span, high-frequency data set
+`
+developed by Ventosa-Santaularia et al. (2015), henceforth VGW, and updated to
+2014. Wallace et al. (2011) used the 1930–1960 portion of this data set to test for
+´
+PPP and Gomez-Zaldivar et al. (2013) studied PPP in Mexico with the data for
+1969–2010, but this paper is the ﬁrst after VGW to utilize the complete data set.
+Second, the study employs a recent approach to cointegration testing developed by
+Enders et al. (2008) to examine the PPP hypothesis. The Enders, Im, and Lee
+(henceforth EIL) methodology uses stationary instrumental variables for the
+integrated series of the empirical model to overcome the difﬁculties of inference
+posed by non-standard distributions of nonstationary variables. EIL show that the t
+statistics of the estimated model are asymptotically normal when nonstationary
+regressors are instrumented with stationary ones.
+Taylor (2001) shows that bias against the PPP hypothesis can arise in tests of
+stationarity of the real exchange rate due to temporal aggregation of high-frequency
+data in the construction of the lower frequency price indexes. He demonstrates that
+the bias reduces the power of unit root tests, but ﬁnds that bias diminishes with
+longer data spans. In light of Taylor’s work most studies of purchasing power parity
+have focused on industrial countries likely due to the availability of data over
+extended spans. The long-span data set used in this study, thus, mitigates the bias
+arising from temporal aggregation allowing tests of PPP for Mexico, a nation whose
+economic development has lagged that of the industrial countries.
+The long-span high-frequency data set put together by VGW and updated for this
+study is a composite from several different sources. Monthly, historical nominal
+exchange rate and price index data for Mexico, 1930–1960, are obtained from
+´
+Cardenas (1994) who cites the Bank of Mexico as a source, although the central
+bank does not provide these historical ﬁgures through its statistical website. Post1960 data are from annual reports of the Bank of Mexico, commonly referred to as
+Due to the large number of PPP studies, this review focuses only on PPP research
+´
+for Mexico. In studying real exchange rate variability and GDP in Mexico Avalos
+´
+Huerta and Hernandez Trillo (1995) fail to ﬁnd evidence of PPP in annual or
+quarterly data for the Mexico–US real exchange rate for 1961–1994. McLeod and
+Welch (1992) apply unit root and cointegration tests to quarterly data for the
+Mexico–US real exchange rate, 1960–1991. They ﬁnd evidence of stationarity of
+the real rate and cointegration of the nominal exchange rate and price levels, results
+normally regarded as evidence of PPP between two countries. Despite their ﬁnding
+McLeod and Welch express skepticism regarding the presence of PPP. Santaella and
+Vela (2005) provide an excellent description and analysis of nominal exchange rate
+´
+policy in Mexico during the tumultuous period of 1987–1994. Mejıa Reyes and
+´
+´˜
+Gonzalez Nunez (1996) test for absolute purchasing power parity in three measures
+of the Mexico–US real exchange rate. Two of the real exchange rate measures are
+constructed using annual data from 1940 to 1994 and the third for 1921–1994. The
+three measures differ in the price indexes used to calculate the real exchange rate.
+´
+Using augmented Dickey–Fuller and Phillips–Perron unit root tests Mejıa Reyes and
+´
+´˜
+Gonzalez Nunez ﬁnd weak evidence of stationarity of the real rate, thus support for
+the PPP hypothesis, in the three series. They also apply the Engle–Granger tests to
+the three series and conclude that the Mexican and US price levels are cointegrated
+for both of the time periods studied although the evidence is weaker for 1921–1994.
+Evidence from Johansen’s cointegration test provides weak evidence of PPP only
+for the 1921–1994 period.
+Hegwood and Papell (1998) argue that PPP requires reversion of the real
+exchange rate to a constant mean. Unit root tests showing stationarity of the real
+exchange rate in the presence of breaks are not evidence of PPP if shifts in the series
+imply reversion to a changing mean. They deﬁne such instances of reversion to an
+occasionally changing mean as quasi-purchasing power parity or QPPP. Noriega
+and Medina (2003) test for PPP in annual data for the peso–dollar real exchange rate
+for 1925–1994 allowing for an unknown number of structural breaks in the data.
+Noriega and Medina ﬁnd that a structural break in the mean real exchange rate
+occurred in 1981; but the rate is stationary both before and after this date, evidence
+of QPPP.
+Taylor (2002) tests for purchasing power parity in a data set composed of more
+than 100 annual observations for 20 countries, including Mexico. His tests indicate
+mean reversion, evidence of PPP, in Mexico and most of the other countries studied.
+Several other studies have applied different stationarity tests to the Taylor data and
+ﬁnd support for PPP in most countries including Mexico (Wallace and Shelley
+2006; Bahmani-Oskooee et al. 2007; Wallace 2008, 2013).
+´
+Gomez-Zaldivar et al. (2013) use a unit root test developed by Kapetanios (2005)
+allowing multiple, exogenously determined breaks to test for PPP in monthly data
+for the Mexico–US real exchange rate, 1969–2010. They test an empirical model
+allowing for a break in the mean, without trend, and another with breaks in the mean
+alternatives reject the unit root null in favor of a stationary series with breaks. Most
+of the breaks occurred between 1982 and 1987, a period associated with shifts
+toward opening Mexico to additional foreign investment and expanding international trade.
+As ﬁgure 1 in Ventosa et al. shows, the Mexico–US real exchange has been
+volatile over the period 1930–2012, but the volatility is most pronounced in the
+decade beginning 1980 during which exchange rate controls were adopted and
+banks nationalized (Wallace 1999 provides a summary of events). VGW apply the
+Kim, Leybourne, and Newbold unit root test which is robust to volatility changes
+and ﬁnd evidence of purchasing power parity for the Mexico–US real exchange rate.
+The test also reveals a structural break in the error variance occurring in July 1976,
+shortly before Mexico switched from a ﬁxed nominal exchange rate regime to a
+managed ﬂoat.
+
+3 Methodology
+If purchasing power parity holds between Mexico and the United States then Eq. (1)
+follows:
+cM À et ¼ ct ;
+t
+
+ð1Þ
+
+where cM is the log of the cost of a market basket of tradable goods and services
+t
+denominated in Mexican pesos, ct is the log of the US dollar cost of the same market
+basket in the United States, and et is the log of the nominal exchange rate in pesos
+per US dollar.
+As noted earlier, tests of PPP use price indexes rather than actual costs of a
+market basket. Price indexes do not correspond to the cost terms in Eq. (1).
+Consequently, an empirical test of PPP must modify the relationship yielding
+À Á
+Eq. (2), where the logged period t price indexes for Mexico pM and the United
+t
+States ðpt Þ replace the costs of the market basket in Eq. (1) and an error term, ut , is
+included. Since price indexes are not monetary measures the intercept, b0 , and
+coefﬁcient, b1 , may be different from their implied values of zero and one,
+respectively, in Eq. (1).
+pM À et ¼ b0 þ b1 pt þ ut :
+t
+
+ð2Þ
+
+Testing for purchasing power parity is not as simple as Eq. (2) might suggest,
+because price levels and nominal exchange rates are often integrated of order one,
+thus the regression results may be spurious. However, if purchasing power parity
+holds then there is a stable, long-term relationship between the price levels in the
+two countries when expressed in terms of a common currency. That is the two
+common currency price levels must be cointegrated if the individual series are I(1)
+with Eq. (2) expressing the long-run relationship.
+Unit root test results, discussed below, indicate that the Mexican and US price
+single equation approaches to testing for cointegration include the error correction
+model (ECM) and the autoregressive distributed lag (ADL) variant. However, it is
+well known that such testing is problematic because of the presence of nuisance
+parameters (Pesavento 2004) and the dependence of the distribution of the relevant
+test statistic on the variables included in the model. The distribution will vary, for
+example, with the location of a structural break, an issue of particular importance in
+this study. A researcher can bootstrap errors to uncover the empirical distribution,
+but bootstrapping may also create some difﬁculties. Harris and Judge (1998) show
+that bootstrapped errors may result in poor test size in a model with both stationary
+and nonstationary covariates and at least one cointegrating vector, particularly in
+small samples.
+Enders, Im, and Lee offer an alternative to bootstrapping in evaluating the test
+statistics from ECM and ADL models. They propose using stationary instrumental
+variables for any I(1) series in the models. They show that the test statistics from the
+ECM and ADL estimations are asymptotically normal when the nonstationary
+variables are appropriately instrumented.1 Test statistics are free of the nuisance
+parameter problem and can be evaluated using the standard normal distribution, thus
+simplifying inference in cointegration models.
+The EIL methodology is followed in this paper. Letting the Mexican price level
+denominated in dollars be denoted ftM , that is pM À et ¼ ftM , the basic ECM is given
+t
+by Eq. (3):
+
+
+M
+b
+b
+ð3Þ
+DftM ¼ d0 þ d1 ftÀ1 À b 0 À b 1 ptÀ1 þ d2 Dpt þ mt ;
+where D is the difference operator, the ^ above a term indicates an estimated value,
+the expression in parentheses is the estimated residual, btÀ1 , from Eq. (2) lagged
+u
+one period, that is the error correction term, and mt is a white noise error. This
+speciﬁcation assumes that the US price level is weakly exogenous thus all adjustments to the error correction term occur in the dollar-denominated Mexican price
+level. The US economy is much larger than that of Mexico so the weak exogeneity
+assumption seems reasonable; nonetheless it is tested before estimation of Eq. (3).
+Lags of DftM can be added to Eq. (3) to address autocorrelation and dummy
+variables can be introduced as needed. The innovation of EIL is to show that
+instrumenting btÀ1 and any other nonstationary covariates in the model yields test
+u
+statistics that are asymptotically normally distributed. As an instrument for any
+nonstationary I(1) covariate, xtÀ1 , they propose using the m period difference,
+xtÀ1 À xtÀmÀ1 . For example, in the basic ECM given by Eq. (3) the instrument for
+btÀ1 would be btÀ1 À btÀmÀ1 . No theoretical guidance is provided for selecting m,
+u
+u
+u
+but EIL suggest using the value of m that minimizes the sum of the squared
+residuals of the test equation. Empirical results from speciﬁcations for a range of
+values of m are reported below. The ADL variation of Eq. (3) is given by Eq. (4).
+1
+
+Selection of the appropriate IV is addressed below. A concise description of the EIL methodology can
+be found in Wallace (2013). The reader interested in a more complete description and proofs should
+
+ð4Þ
+
+where a0 ¼ d0 À d1 b 0 , a1 ¼ Àd1 b 1 , and tt is a white noise error term. Again
+b
+b
+dummies and lags of the dependent variable can be introduced. In the case of the
+M
+M
+basic ADL model in Eq. (4) the instruments are ftÀ1 À ftÀmÀ1 and ptÀ1 À ptÀmÀ1 for
+M
+the nonstationary series ftÀ1 and ptÀ1 , respectively. Of interest in testing for purchasing power parity is the coefﬁcient d1 in Eqs. (3) and (4). If the price levels in
+terms of US dollars in the two countries are cointegrated, then b1 will be signiﬁd
+cantly negative so that the null and alternative hypotheses are
+H0 : d1 ! 0; H1 : d1 \0. The coefﬁcient on the error correction term will be negative
+and signiﬁcant if the short run change in the dollar-denominated Mexican price
+level responds to deviations from the long-run relation. For example, if btÀ1 is
+u
+positive it signiﬁes that the Mexican price level measured in dollars is above its
+long-run equilibrium value relative to the US price level. If PPP holds the Mexican
+price level should decline in the short run so the coefﬁcient on btÀ1 will be sigu
+niﬁcantly negative. Correctly assessing the signiﬁcance of a coefﬁcient from the
+ECM or ADL speciﬁcations with integrated regressors is the difﬁculty addressed by
+the EIL procedure.
+
+4 Data
+The updated VGW data set used in this study includes three different price index
+measures for Mexico. One price level series is the wholesale price index for Mexico
+City available for 1930m01–2000m12. Wholesale prices for Mexico City are the
+only historical data available for the country prior to 1969. A second (third) price
+level series is derived by appending the producer price index excluding (including)
+petroleum for 2001m01–2014m09 to the Mexico City wholesale price level. The
+nominal exchange rate is expressed as the peso price of a US dollar. The US
+producer price index series is taken from the statistical database of the Federal
+´
+Reserve Bank of St. Louis. All other data are drawn from Cardenas (1994), annual
+Banxico reports, and the website for the Bank of Mexico. More details can be found
+in Ventosa et al. The data are plotted in Figs. 1, 2, 3, and 4. Due to the similarity of
+the producer price series with and without the price of petroleum, only the series
+inclusive of the oil price is shown. All series display trends; thus, a deterministic
+trend is included in the unit root and cointegration tests discussed below.
+The augmented Dickey–Fuller test, the GLS detrended version of the Dickey–
+Fuller test, and the KPSS test are employed to check for stationarity of all series.2
+The ADF and GLS version of the Dickey–Fuller test statistics indicate failure to
+reject the unit root null in the three Mexican price level series, the US price level,
+and the nominal exchange rate. These two tests uniformly reject the unit root null in
+the ﬁrst difference of each series at the 5% level or better indicating that the ﬁve
+2
+
+Tests on the logged series in levels include a constant and trend. Tests on the ﬁrst differenced logged
+series include only a constant since plots of the differenced series do not show trends. The Schwarz
+2
+1
+0
+-1
+-2
+-3
+-4
+-5
+-6
+35
+
+40
+
+45
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+80
+
+85
+
+90
+
+95
+
+00
+
+05
+
+10
+
+05
+
+10
+
+Fig. 1 Log nominal exchange rate, Pesos per US dollar 1933m03–2014m09
+14
+12
+10
+8
+6
+4
+2
+0
+35
+
+40
+
+45
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+80
+
+85
+
+90
+
+95
+
+00
+
+Fig. 2 Log producer price index-Mexico, 1933m03–2014m09. Includes petroleum
+
+variables are integrated of order one. The Kwiatkowski, Phillips, Schmidt and Shin
+(KPSS) indicate rejections of the trend stationary null in both levels and ﬁrst
+differences at the 5% level for the three Mexican price-level measures. Thus, the
+KPSS tests suggest that these three series are integrated of order two or higher.
+According to the KPSS test, the nominal exchange rate and the US price level are
+I(1) conﬁrming the earlier ﬁnding.3
+Structural breaks in the data set are likely especially since Mexico has
+experienced regime shifts since 1933. From 1933 to 1980 the nominal exchange rate
+was generally ﬁxed interrupted by brief interludes of ﬂoating rates. Subsequently,
+the nominal exchange rate was allowed to ﬂuctuate beginning with a managed ﬂoat.
+3
+
+For reasons addressed later in the paper the all unit root tests are applied to data series starting in
+10
+8
+6
+4
+2
+0
+35
+
+40
+
+45
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+80
+
+85
+
+90
+
+95
+
+00
+
+Fig. 3 Log wholesale price index, Mexico City 1933m03–2000m12
+5.5
+5.0
+4.5
+4.0
+3.5
+3.0
+2.5
+2.0
+35
+
+40
+
+45
+
+50
+
+55
+
+60
+
+65
+
+70
+
+75
+
+80
+
+85
+
+90
+
+95
+
+00
+
+05
+
+10
+
+Fig. 4 Log US producer price index, 1933m03–2014m09
+
+Since 1995 the Mexican government has allowed the peso/dollar rate to ﬂuctuate
+with occasional interventions. In the mid-1980s trade policy shifted from a
+historical focus on import substitution to a more recent emphasis on exports.
+The Lee and Strazicich (2003, 2013) henceforth LS, unit root test is used to test
+the null of a unit root in each series while allowing for structural breaks. Up to 40
+lags are permitted with a general-to-simple procedure used to select lag length. The
+test is performed allowing for one or two breaks in both trend and intercept. The null
+hypothesis of a unit root with break cannot be rejected for any of the logged series
+under either number of breaks. Since no trend can be observed in the ﬁrst
+differenced series, only intercept breaks are considered in testing for a second unit
+root. The null of a second unit root cannot be rejected for any of the three
+differenced Mexican price series allowing for one break; but when two breaks are
+break version of the LS test for the logged Mexican price series, most of the
+evidence from unit root tests suggest that all series are integrated of ﬁrst order and
+the remainder of the work is conducted under that assumption.
+
+5 Results
+The assumption of weak exogeneity of the US producer price index is tested in a
+vector ECM before proceeding with the EIL estimations. The Johansen test for
+cointegration indicates the presence of one cointegrating vector between the logs of
+the dollar-denominated Mexican price level and the US producer price index,
+regardless of the choice of Mexican price series. The Schwarz Bayesian criterion
+selects seven lags for a vector autoregression of the two variables so six are included
+in one version of the VECM. Another version of the VECM uses 12 lags of the
+endogenous variables to capture possible seasonal effects. Tests for autocorrelation
+indicate that the problem remains in the six lag VECM, but that autocorrelation is
+eliminated for the 12-lag version. All results reported below are based on the VECM
+with 12 lags.
+The VECM, shown in Eqs. (5) and (6) below, has two endogenous variables, the
+change in the log of the dollar-denominated Mexican price level, DftM , and the
+change in the log of the US producer price index, Dpt . The error correction portion
+is the term in parenthesis in both equations.
+12
+12
+X
+À M
+Á X
+M
+DftM ¼ c1 þ a1 ftÀ1 À b1 À b2 ptÀ1 þ
+d1i DftÀi þ
+h1i DptÀi þ e1t ;
+i¼1
+
+12
+12
+X
+À M
+Á X
+M
+Dpt ¼ c2 þ a2 ftÀ1 À b1 À b2 ptÀ1 þ
+d2i DftÀi þ
+h2i DptÀi þ e2t :
+i¼1
+
+ð5Þ
+
+i¼1
+
+ð6Þ
+
+i¼1
+
+Weak exogeneity of the log of the US producer price index holds if the
+coefﬁcient on the error correction term in Eq. (6), a2, is not signiﬁcantly different
+from zero. Three VECM are estimated, each using the dollar-denominated Mexican
+price level constructed from a different Mexican price series. Likelihood ratio tests
+of the null hypothesis a2 = 0 have marginal signiﬁcance levels ranging from 0.15 to
+0.19 indicating failure to reject the null thus support for the weak exogeneity
+assumption.
+Initial estimation of both the ECM and the ADL versions (Eqs. 3 and 4) using
+data for 1930m01–2014m09 shows that identifying empirical speciﬁcations of the
+ECM and ADL equations without autocorrelation requires the inclusion of very long
+lags of the dependent variable, regardless of the price index measure used.
+Interestingly, the need for long lags is obviated if the ﬁrst 39 months of data are
+excluded from the sample; a speciﬁcation with 12 lags of the dependent variable
+the scope of the paper to investigate the reason(s) that removal of the ﬁrst 39 months
+of data alters the speciﬁcation so dramatically, but it may be due to unusual
+exchange rate or price level behavior caused by the removal of gold from circulation
+and the prohibition of the coinage of silver in Mexico during this period (see
+Wallace 1999 and sources cited therein). All estimation results reported below are
+for speciﬁcations of Eqs. (3) and (4) that include 12 lags of the dependent variable.
+Table 1 reports the estimated value of d1 from the ECM in column 2 of the
+table and its estimated values in the IV speciﬁcations for m = 14…24 in subsequent
+columns. The ﬁrst column shows the error correction term used in the ECM. Zmex1
+M
+M
+b
+b
+is (ftÀ1 À b 0 À b 1 ptÀ1 ) in Eq. (3) when ftÀ1 is calculated using the price index for
+Mexico that includes petroleum, and zmex2 is the error correction in Eq. (3) where
+the price index for Mexico excludes petroleum. Thus zmex1 and zmex2 are the
+estimated residuals obtained from the full sample, 1933m03–2014m09 estimations
+of Eq. (2). Zmex3 is the error correction term in Eq. (3) when using the wholesale
+price index for Mexico City for the period 1933m03 to 2000m12 to estimate Eq. (2).
+The estimated value of d1 is negative and signiﬁcant at the 1% level in the basic
+ECM, regardless of the particular Mexican price level series, indicating cointegration between the dollar-denominated Mexican and US price levels thus evidence of
+PPP. The remaining columns show estimates of d1 when error correction terms are
+instrumented for values of m ranging from 14 to 24. The choice of m has some effect
+on the size of b1 , but all are signiﬁcant at the 5% level (critical value -1.645) and
+d
+all but ﬁve of the estimated coefﬁcients are signiﬁcant at the 1% level. Thus, the
+results indicate that the US and Mexican price levels, denominated in dollars, are
+cointegrated a result supportive of purchasing power parity. The choice of Mexican
+price index used in the estimations makes very little difference in the results, for a
+given value of m the different indexes produce very similar estimates of d1 . The
+estimated coefﬁcient in bold and italicized font in the table is from the equation
+having the smallest sum of squared residuals (SSR) for the 11 IV speciﬁcations. The
+smallest SSR appears at the ﬁnal value, m = 24, in the three different estimations.
+In the ADL version of the empirical model d1 is the coefﬁcient on the lagged
+M
+value of the dollar-denominated Mexican price level, ftÀ1 . There are three different
+measures of the dollar-denominated price level in Mexico in Table 1: fmex1
+includes the price of petroleum, fmex2 excludes petroleum price, and fmex3 is the
+wholesale price index for Mexico City. The two former measures span 1933m03 to
+2014m09 while fmex3 ends in 2000m12. The estimated coefﬁcients on the dollardenominated Mexican price-level measures are displayed in Table 2. The basic
+ADL results, without instruments, suggest cointegration of the Mexican and US
+4
+
+Once it was determined that the ﬁrst few years of the study were responsible for difﬁculties in ﬁnding a
+satisfactory speciﬁcation and those years eliminated, a general-to-simple procedure was followed.
+Starting with a speciﬁcation for the ECM and ADL with 37 lags of the dependent variable, Wald tests for
+joint signiﬁcance of the longest lags were carried out eliminating those lags that were not jointly
+signiﬁcant at the 15% level or higher. Six different LM tests, gradually reducing the number of lags in the
+LM test, were undertaken for each ECM and ADL speciﬁcation (without instruments). For both ADL and
+ECM 12 lags of DftM were sufﬁcient to eliminate autocorrelation. Twelve lags were then imposed on the
+
+-2.054
+
+-4.145
+
+-4.327
+
+-0.1193
+
+-0.0328
+
+-2.610
+
+-0.1213
+
+-2.363
+
+-0.1063
+
+-2.389
+
+-0.1077
+
+m = 15
+
+-2.535
+
+-0.0988
+
+-2.278
+
+-0.0866
+
+-2.307
+
+-0.0879
+
+m = 16
+
+-2.829
+
+-0.0969
+
+-2.608
+
+-0.0877
+
+-2.644
+
+-0.0891
+
+m = 17
+
+-2.770
+
+-0.0846
+
+-2.614
+
+-0.0785
+
+-2.657
+
+-0.0799
+
+m = 18
+
+-2.810
+
+-0.0790
+
+-2.622
+
+-0.0726
+
+-2.667
+
+-0.0740
+
+m = 19
+
+-3.218
+
+-0.0857
+
+-3.036
+
+-0.0801
+
+-3.080
+
+-0.0814
+
+m = 20
+
+-3.333
+
+-0.0850
+
+-3.187
+
+-0.0807
+
+-3.232
+
+-0.0821
+
+m = 21
+
+-0.0799
+-0.0833
+-3.409
+
+-3.612
+
+-0.0847
+
+-3.423
+
+-0.0789
+-3.246
+
+-3.463
+
+-0.0811
+
+m = 23
+
+-3.288
+
+-0.0801
+
+m = 22
+
+-3.352
+
+-0.0753
+
+-3.159
+
+-0.0705
+
+-3.199
+
+-0.0716
+
+m = 24
+
+a
+The 5% critical value for the ECMs without IVs is -3.218 and the 1% critical value is -3.804. The critical values are obtained using the response surfaces in Ericsson
+and MacKinnon (2002), as implemented in the program ECMtest.xls, version 1.0 (Ericsson and MacKinnon 2000). Since the test statistics from the IV estimations are
+asymptotically normal, the signiﬁcant values are -1.645 at the 5% level and -2.327 at the 1% level
+
+ZMEX3
+
+ZMEX2
+
+-0.1210
+
+-2.078
+
+-0.0333
+
+-4.179
+
+ZMEX1
+
+m = 14
+
+No IVa
+
+ECM
+
+Table 1 Estimation results for the error correction term coefﬁcient: with and without instruments
+
+Lat Am Econ Rev (2017) 26:5
+
+-0.0441
+
+-4.372
+
+-0.0705
+
+-1.015
+
+-0.0333
+
+-4.179
+
+-0.343
+
+-0.0326
+
+-0.755
+
+-0.0531
+
+-0.729
+
+-0.0525
+
+IV15
+
+-0.188
+
+-0.0175
+
+-0.507
+
+-0.0351
+
+-0.488
+
+-0.0346
+
+IV16
+
+-0.244
+
+-0.0227
+
+-0.585
+
+-0.0401
+
+-0.567
+
+-0.0400
+
+IV17
+
+-0.143
+
+-0.0140
+
+-0.426
+
+-0.0309
+
+-0.410
+
+-0.0309
+
+IV18
+
+-0.111
+
+-0.0114
+
+-0.375
+
+-0.0281
+
+-0.360
+
+-0.0281
+
+IV19
+
+-0.049
+
+-0.0061
+
+-0.292
+
+-0.0268
+
+-0.269
+
+-0.0262
+
+IV20
+
+-0.027
+
+-0.0037
+
+-0.170
+
+-0.0193
+
+-0.147
+
+-0.0178
+
+IV21
+
+-0.137
+
+-0.0184
+
+-0.325
+
+-0.0355
+
+-0.284
+
+-0.0334
+
+IV22
+
+0.025
+
+0.0050
+
+-0.076
+
+-0.0132
+
+-0.0489
+
+-0.0094
+
+IV23
+
+0.049
+
+0.0118
+
+-0.005
+
+-0.0012
+
+0.0185
+
+0.0050
+
+IV24
+
+Critical values for the ADL model without IVs are based on the t statistic bounds test (unrestricted intercept, no trend) of Pesaran et al. (2001). A t statistic smaller than
+the I(1) bound of -3.53 (-4.10) indicates signiﬁcance at the 5% (1%) level. The coefﬁcient italicized in bold font is from the equation that minimizes the sum of the
+squared residuals
+
+a
+
+FMEX3
+
+FMEX2
+
+-0.0693
+
+-0.977
+
+-0.0338
+
+-4.212
+
+FMEX1
+
+IV14
+
+No IVa
+
+ADL
+
+Table 2 Estimation results for the coefﬁcient on the dollar-denominated Mexican price level: ADL model with and without instruments
+includes the same variables as the ECM so it is surprising that none of the b1 in the
+d
+IV speciﬁcations are signiﬁcant; none of the test statistics are close to their normal
+distribution critical values. Apart from the signiﬁcant coefﬁcients on the three
+Mexican price-level measures in the ADL model without instruments, there is no
+evidence for purchasing power parity in the ADL results.
+Long-span data are necessary for purchasing power parity tests because PPP is a
+long-run condition and because empirical evidence indicates that deviations from
+PPP have long half-lives.5 As previously noted structural breaks arising from
+monetary policy, exchange rate, or trade policy regime changes are likely given the
+long time period spanned by the data. GVW argue that the commercial opening of
+Mexico, especially in the 1980s, likely changed the Mexico–US real exchange rate.
+They ﬁnd evidence of PPP when allowing for mean shifts that they attribute to
+regime changes.
+The contradictory results for the instrumented ECM and ADL estimations raise
+the question of whether structural breaks might explain the differences. This issue is
+investigated by including dummy variables to allow for mean shifts attributable to
+the structural breaks identiﬁed in GVW and VGW. The VGW approach identiﬁes
+one break in the innovation variance and this occurs in July 1976. GVW ﬁnd
+multiple breaks in the monthly mean real exchange rate during the 1969–2010
+period. Dummies for the ﬁve breaks identiﬁed in Model D-5 of GVW and the single
+break in July 1976 are now included in the ECM and ADL models of Eqs. (3) and
+(4). Wald tests on the estimated dummy variable coefﬁcients of the ECM and ADL
+models indicate that the dummies for 1979m12 and 1982m12 are jointly
+insigniﬁcant, so they are dropped from the ECM and ADL speciﬁcations as well
+as the IV estimations regardless of the Mexican price index used. Although the
+1976m07 dummy is not signiﬁcant in all estimations, it is signiﬁcantly different
+from zero at the 5% level in some instances thus retained in all models. The ﬁnal
+versions of the ECM and ADL models add dummies allowing intercept breaks in
+1976m07, 1985m06, 1987m12, and 1998m09 to the earlier versions of Eqs. (3) and
+(4). Results are reported in Tables 3 (ECM) and 4 (ADL).
+The inclusion of the dummy variables causes small changes in the estimated
+coefﬁcients displayed in Table 1. The coefﬁcients are now slightly smaller, but, as
+in the speciﬁcation without dummy variables, all are signiﬁcant regardless of the
+Mexican price index used and choice of m for the instrumental variable. Thus the
+same qualitative conclusion is obtained as from the instrumented ECM estimations
+without dummies; there is cointegration of the two common currency price levels,
+thus evidence of PPP.
+Including four dummy variables changes the ADL results with instruments and
+leads to a different conclusion regarding purchasing power parity. As in the
+speciﬁcations without dummy variables the estimated value of d1 is negative in the
+5
+
+Estimating half-lives is beyond the scope of this study, but estimates vary widely. VGW, using virtually
+the same data set as in this study ﬁnd half-lives ranging from 1.37 to 2.41 years for Mexico depending on
+the time period studied. Rogoff (1996) surveys the literature on PPP and ﬁnds half-life estimates of
+
+-0.0678
+
+-5.847
+
+-0.1604
+
+-2.197
+
+-0.0633
+
+-6.145
+
+-2.736
+
+-0.1671
+
+-2.537
+
+-0.1354
+
+-2.559
+
+-0.1361
+
+IV15
+
+-2.692
+
+-0.1328
+
+-2.447
+
+-0.1088
+
+-2.471
+
+-0.1095
+
+IV16
+
+-3.011
+
+-0.1278
+
+-2.803
+
+-0.1086
+
+-2.834
+
+-0.1095
+
+IV17
+
+-2.959
+
+-0.1090
+
+-2.803
+
+-0.0954
+
+-2.842
+
+-0.0964
+
+IV18
+
+-3.005
+
+-0.1003
+
+-2.806
+
+-0.0870
+
+-2.847
+
+-0.0880
+
+IV19
+
+-3.434
+
+-0.1075
+
+-3.247
+
+-0.0948
+
+-3.286
+
+-0.0958
+
+IV20
+
+-3.562
+
+-0.1064
+
+-3.408
+
+-0.0953
+
+-3.449
+
+-0.0962
+
+IV21
+
+-3.649
+
+-0.1039
+
+-3.472
+
+-0.0929
+
+-3.510
+
+-0.0937
+
+IV22
+
+-3.874
+
+-0.1058
+
+-3.673
+
+-0.0947
+
+-3.708
+
+-0.0952
+
+IV23
+
+-3.623
+
+-0.0954
+
+-3.406
+
+-0.0849
+
+-3.441
+
+-0.0854
+
+IV24
+
+Critical values are affected by the presence of time period dummies hence are unknown. Normal distribution signiﬁcant values are -1.645 at the 5% level and -2.327 at
+the 1% level for the IV estimations
+
+a
+
+ZMEX3
+
+ZMEX2
+
+-0.1611
+
+-2.217
+
+-0.0630
+
+-6.123
+
+ZMEX1
+
+IV14
+
+No IVa
+
+ECM
+
+Table 3 Estimation results for the error correction term coefﬁcient: models with time period dummies
+
+-5.838
+
+-0.1215
+
+-2.108
+
+-0.0676
+
+-6.321
+
+-2.105
+
+-0.1397
+
+-2.304
+
+-0.1110
+
+-2.310
+
+-0.1111
+
+IV15
+
+-2.155
+
+-0.1170
+
+-2.231
+
+-0.0921
+
+-2.245
+
+-0.0924
+
+IV16
+
+-2.521
+
+-0.1153
+
+-2.624
+
+-0.0949
+
+-2.647
+
+-0.0956
+
+IV17
+
+-2.564
+
+-0.0992
+
+-2.633
+
+-0.0840
+
+-2.665
+
+-0.0848
+
+IV18
+
+-2.681
+
+-0.0922
+
+-2.689
+
+-0.0777
+
+-2.724
+
+-0.0785
+
+IV19
+
+-3.052
+
+-0.1016
+
+-3.112
+
+-0.0865
+
+-3.145
+
+-0.0872
+
+IV20
+
+-3.217
+
+-0.1029
+
+-3.270
+
+-0.0882
+
+-3.304
+
+-0.0889
+
+IV21
+
+-3.406
+
+-0.1029
+
+-3.452
+
+-0.0887
+
+-3.486
+
+-0.0893
+
+IV22
+
+-3.562
+
+-0.1067
+
+-3.583
+
+-0.0910
+
+-3.615
+
+-0.0915
+
+IV23
+
+-3.384
+
+-0.0977
+
+-3.344
+
+-0.0825
+
+-3.376
+
+-0.0830
+
+IV24
+
+Critical values are affected by the presence of time period dummies hence are unknown. Signiﬁcant values are -1.645 at the 5% level and -2.327 at the 1% level for the
+IV estimations
+
+a
+
+FMEX3
+
+FMEX2
+
+-0.1212
+
+-2.105
+
+-0.0672
+
+-6.298
+
+FMEX1
+
+IV14
+
+No IVa
+
+ADL
+
+Table 4 Estimation results for the coefﬁcient on the dollar-denominated Mexican price level: ADL models with time period dummies
+
+Lat Am Econ Rev (2017) 26:5
+measures. When using instruments, b1 is signiﬁcantly negative at the 5% level
+d
+for all values of m and of comparable size to the estimated d1 in the corresponding
+ECM.6 The ADL speciﬁcations with dummies suggest the change in the dollardenominated price level in Mexico is negatively related to its long-run level the
+previous month, evidence that it adjusts to its purchasing power parity value. The
+signiﬁcance of most of the time period dummies suggests that this long-run value
+has shifted over time. As in the ECM speciﬁcations, the sum of the squared residuals
+is minimized at the highest value of m used to create the instruments regardless of
+the Mexican price level variable used in the estimation.
+The signiﬁcant dummy variables show that the relationship of the dollardenominated price levels of Mexico and the US underwent mean shifts during the
+study period. Ex post it is easy to ﬁnd events that might cause mean shifts in the
+relationship of the price levels of the two countries, but proving causality is
+`
+impossible. Nonetheless, there are some likely candidates. Ventosa-Santaularia
+et al. associate a break in the innovation variance in July 1976 with macroeconomic
+difﬁculties in Mexico culminating in a shift from a ﬁxed nominal exchange rate vis`
+´
+a-vis the US dollar to a managed ﬂoat in September 1976. Gomez et al. note that a
+policy shift toward a more open economy in Mexico began in the 1980s with
+membership in the General Agreement on Tariffs and Trade and the start of
+negotiations for the North American Free Trade Agreement. Such a policy shift,
+they argue, would lead to a change in the traded/non-traded goods mix and cause a
+real exchange rate shift.
+
+6 Summary and conclusions
+The evidence on purchasing power parity in Mexico is mixed. Some researchers ﬁnd
+that PPP holds, others do not, and others argue that it holds but that structural shifts
+in the relation have occurred. A recent approach to cointegration developed by
+Enders, Im, and Lee is used to test for PPP between the United States and Mexico.
+The EIL procedure uses stationary variables as instruments for nonstationary
+covariates in the error correction and ADL models. When instruments are used the
+test statistics are asymptotically normally distributed thus eliminating the nuisance
+parameter problem and avoiding the need to bootstrap errors.
+Initial estimation of the basic ECM and its ADL variant yields conﬂicting
+evidence regarding PPP. All ECM speciﬁcations, instrumented or not, support the
+PPP hypothesis; none of the ADL speciﬁcations with instruments do. Since other
+researchers have found evidence of mean shifts in the Mexico–US exchange rate,
+dummy variables for six exogenously imposed breaks are included in the empirical
+models. Coefﬁcients on four of the six breaks are signiﬁcant in at least one variant
+6
+
+As a robustness check on the results, both the error correction and autoregressive distributed lag models
+are also re-estimated replacing the four intercept break dummies with intercept and trend-shift dummies
+at dates identiﬁed by the Lee–Strazicich unit root tests. Results are very similar to those shown in
+dummies provide evidence of PPP, as do the ECM without dummies. Interestingly,
+the ADL models with instruments and dummies also support PPP; all coefﬁcients on
+the dollar-denominated Mexican price level are signiﬁcantly negative, unlike the
+speciﬁcations without dummies. Overall the evidence indicates that PPP holds for
+the 1933m03–2014m09 period between the US and Mexico, but that the purchasing
+power parity relation between the two countries has changed over this time period.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original
+author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were
+made.
+
+Wallace FH, Shelley GL, Cabrera Castellanos LF (2011) La paridad de poder de compra en Mexico

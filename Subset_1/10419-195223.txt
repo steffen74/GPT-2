@@ -1,0 +1,7338 @@
+
+
+The present paper analyses the extent of intergenerational transmission of
+educational achievements in 18 Latin American economies. While there is a large
+literature on the intergenerational transmission of income and status for developed
+economies, the evidence on the extent of intergenerational mobility for emerging
+countries is more restricted (due to data limitations).1 In particular, one of the main
+problems for the analysis of intergenerational mobility for the Latin American
+region is the unavailability of panel data (selected countries, e.g. Chile and Mexico,
+have recently started to follow individuals over time) that would enable connecting
+the income or wealth for parents with the income of their offspring.2
+However, using representative population samples at the country level for a large
+number of Latin American countries, this paper can link the educational attainment
+of parents with that of their children, measuring intergenerational persistence of
+educational attainment. Moreover, we deepen the analysis by considering different
+cohorts, as well as the inﬂuence of circumstances (e.g. race, gender, parental income
+background). As education is an important driver of labour market income and
+measurement errors of parental educational outcomes are much smaller than
+income-related variables, this approach, which has also been followed in the
+literature for developing countries, can be implemented for a larger number of
+countries.
+This paper uses three measures of intergenerational educational mobility: the
+beta-coefﬁcient, the partial correlation coefﬁcient, and the overall effect of
+circumstances beyond an individual’s control (i.e. the index of inequality of
+opportunity). All measures coincide in pointing out the relatively low degree of
+intergenerational mobility in Latin America and the importance of parental
+background in determining educational success.
+Within Latin America, there are important differences: while the persistence of
+educational attainment is relatively low in Costa Rica, Uruguay, Guatemala and
+Argentina (the beta-coefﬁcient of educational attainment is below 50 %), in
+Dominican Republic, Venezuela and El Salvador it is above 70 %. The case of
+Chile is remarkable, as the beta-coefﬁcient shows that the intergenerational
+persistence in educational achievement is 57 %—lower than the average value of
+60 %—but the partial correlation coefﬁcient is 67 % and the overall index of
+inequality of opportunity is 48 %, the highest value among the sample.
+The remainder of the paper is structured as follows. Section ‘‘Literature review’’
+places this paper’s contributions in context by presenting a brief literature review;
+Sect. ‘‘Methodology and data’’ describes the conceptual framework to analyse the
+1
+
+Black and Devereux (2010) present a recent survey of the evidence and methodological problems of the
+research available for developed economies, especially the United States. See also Solon (2002) for an
+earlier survey of the evidence on earning mobility across generations.
+
+2
+
+Azevedo and Bouillon (2010) review the evidence on intergenerational social mobility by summarising
+a set of papers for Latin America, and ﬁnd that intergenerational social mobility is lower than the levels
+observed in the United States or the United Kingdom. The authors also note the unavailability of panel
+data for the region. Cuesta et al. (2011) use pseudo panels to overcome this problem for a sample of 14
+in the empirical assessment. Section ‘‘Empirical results’’ presents the main results
+for Latin America and Sect. ‘‘Conclusions and some policy implications’’ discusses
+potential implications.
+
+2 Literature review
+Income inequality in Latin America is extremely high compared to other emerging
+economies as well as high-income countries (e.g. see Hertz et al. 20073; OECD,
+2008; Azevedo and Bouillon 2010; Ferreira and Gignoux 2011, 2013; Brunori et al.
+2013; Torche 2014). In principle, this type of static income inequality across
+individuals (at a certain point in time) does not have to be bad per se, as the
+dispersion in earnings could act as a strong incentive for parents to invest in their
+children’s education. However, for poor households to be able to grasp these
+opportunities, they should have access to well-functioning credit markets, as the
+presence of credit constraints reinforces the intergenerational transmission of
+income (Aiyagari et al. 2003).4
+In principle, educational attainment is a key determinant of wage earnings.
+Therefore, differences in acquired education are important to understand static
+income inequality.
+Hertz et al. (2007) estimate 50-year trends in intergenerational persistence of
+educational attainment for 42 countries, ﬁnding the largest intergenerational
+correlations in the seven Latin American countries included in their analysis. The
+authors ﬁnd that while the beta-coefﬁcient decreased over the last 50 years
+(suggesting an increase in intergenerational mobility), no trend is observed for the
+partial correlation coefﬁcient. The authors suggest that while both are linear
+measures of statistical association and not the true causal effect, the beta-coefﬁcient
+might overestimate the true structural parameter of intergenerational mobility due to
+the omission of other explanatory variables.
+Building on the terminology proposed by Roemer (1998), which distinguishes
+between ‘‘efforts’’ (factors that individuals can control) and ‘‘circumstances’’
+(factors beyond one’s control, such as race, birthplace, or family background) in
+determining ‘‘advantages’’ (outcomes as a result of the combination of circumstances and effort), Ferreira and Gignoux (2011) propose a scalar measure of
+inequality of opportunity. They conduct a comparative analysis of six Latin
+American countries and ﬁnd that in three of them, inequality of opportunity is linked
+to racial origin (indigenous or Afro-descendants).5 In a later study, Brunori et al.
+(2013) analyse inequality of opportunity in a comparative form for 41 countries, of
+3
+
+Hertz et al. (2007) study the intergenerational transmission of educational outcomes in 50 developed
+and developing countries using household surveys. They present results for seven countries from Latin
+America: Brazil, Chile, Colombia, Ecuador, Panama, Peru, and Nicaragua.
+
+4
+
+In Latin America, as documented by Tejerina and Westley (2007) using household surveys, the poor
+have reduced access to credit and saving instruments.
+
+5
+
+Data for this paper come from nationally representative household surveys dated 1996 for Brazil, 2003
+positively correlated with income inequality, and negatively related to intergenerational income and educational mobility. Moreover, they ﬁnd the highest levels of
+inequality of opportunity for these six Latin American countries among the whole
+sample considered.7
+Corak (2013) also links the presence of inequality with lack of opportunities and
+of mobility. He argues that the presence of inequality shapes opportunities and in
+turn, lack of opportunity lowers mobility.8 By describing the case of the United
+States, Corak (2013) argues that the ‘‘American Dream’’ (i.e. prospects for upward
+mobility) makes low income earners not strong advocates of redistributive policies,
+because of the belief that either they or their descendants can climb the income
+ladder.9 Corak (2013) cites Solon (2004) arguing that the Great Gatsby Curve (the
+relationship between more income inequality and less intergenerational mobility)
+can be due to high returns to education.10 Parents with high education would have
+both the capacity and the incentive to invest in their children’s education.
+Recently, Torche (2014) discusses the literature on equality of opportunity in a
+set of studies for Latin America. The review ﬁnds that parental education is the most
+inﬂuential circumstance for an individual, concluding that inequality of opportunity
+is higher in Latin America than in industrial countries. Torche argues that the high
+(albeit decreasing) returns to education in Latin America can foster mobility, but
+they might also create a situation of ‘‘inherited meritocracy’’, because of the barriers
+that the lower segments of the income distribution face in accessing education
+(quantity and quality). Relatedly, Azevedo and Bouillon (2010) associate the high
+levels of immobility in Latin America with social exclusion, low access to higher
+education and labour market discrimination.11
+If societies do not bring equal opportunities based on merit and ability,
+independent of race, gender or social origin, then today’s social and economic status
+may be transmitted from parents to their offspring. The focus of this paper is
+precisely the analysis of mobility in terms of educational attainment for parents and
+children. In particular, a contribution of the paper is enriching the analysis by
+considering several dimensions: race, gender and parental income, and analysing the
+robustness of the ﬁndings across different measures of intergenerational mobility.
+
+6
+
+The countries are Brazil, Colombia, Ecuador, Guatemala, Panama and Peru.
+
+7
+
+See Brunori et al. (2013): Fig. 2, page 26.
+
+8
+
+Citing Roemer (1998) and Corak (2013) argues that circumstances affect opportunity by three channels:
+social capital, genetic traits, and family values, and that while policies that affect social capital tend to be
+accepted, less consensus is placed on policies intending to offset genetic advantages, and within-family
+investments.
+
+9
+
+Corak (2013) concludes that relatively less upward mobility of the least advantaged is one of the
+reasons why intergenerational mobility in the United States is lower than in other countries. In addition,
+Corak (2013) concludes that the persistence at the top 1 % of the income distribution also makes
+intergenerational mobility in the United States lower than in other countries.
+
+10
+
+See the Appendix for an analytical framework based on the Solon (2004) model.
+˜
+Nopo et al. (2010) present evidence of racial discrimination in Latin America, while Carrillo,
+Gandelman and Robano (2014) present evidence of gender discrimination in Latin America.
+
+countries in the region. With the exception of Cuesta et al. (2011), the available
+studies generally have covered these issues for a maximum of seven countries, often
+with larger samples that allow studying speciﬁc countries in depth. The present
+paper’s broader country coverage complements this literature by emphasising both
+the common features within the region, as well as the differences across countries.
+In contrast to Cuesta et al. (2011), who rely on pseudo cohorts to study
+intergenerational income mobility, we use the directly reported own and parental
+education level, which allows us to rely on a larger number of observations (in our
+sample, we have around 14,000 observations compared to around 1000). This also
+allows us to have relatively precise estimates for individual countries and explore
+what drives the differences across countries. Furthermore, while income mobility in
+principle encompasses educational mobility, income is measured with signiﬁcantly
+large errors. Focusing on educational attainment, a key determinant of wages, is
+easier to observe and quantify, enabling to decrease measurement errors.
+Using a novel approach, a series of studies have analysed educational mobility in
+Latin America by linking the performance of children currently in the education
+system with the educational attainment of parents, using household surveys (see for
+example, Behrmann et al. 1999, 2001; Andersen, 2001; Conconi et al. 2007;
+Gandelman and Robano 2014). These papers analyse the inﬂuence of parental
+background (e.g. income, education) on the success or failure of children in school,
+where the outcome is a child’s completed grade and that corresponding to the
+child’s cohort. However, the education spells are incomplete and therefore mobility
+might not be measured accurately in using this methodology. In this sense, a third
+contribution of this paper is that we are able to compare ﬁnal educational
+attainments of children with that of their parents.
+
+3 Methodology and data
+This section describes the estimation techniques used in this paper to account for
+intergenerational educational mobility, as well as a brief description of the dataset
+used. We compute three measures of intergenerational educational mobility: the
+beta-coefﬁcient, which quantiﬁes the rate of transmission of educational achievements between one generation and the next, the correlation coefﬁcient, which in
+addition takes into account the variation in the dispersion of the educational
+achievements; and the index of inequality of opportunity, which takes into account
+an additional set of observed variables (circumstances) in explaining the intergenerational transmission of educational attainment between parents and children.
+Each measure has beneﬁts and limitations. The beta-coefﬁcient is very intuitive
+to understand and shows the difference in intergenerational transmission of
+education that exists in Latin America compared to the rest of the world. However,
+beta-coefﬁcient estimates are in general very volatile, and do not take into account
+the variation in the dispersion of educational attainment for parents and children,
+which the partial correlation coefﬁcient does. The partial correlation coefﬁcient, in
+opportunity, which considers the overall effect of circumstances (race, gender,
+family income) in explaining own education.
+3.1 Beta- and partial correlation coefﬁcient estimation
+The baseline estimation for an individual i in country j is given by:
+Eij ¼ a þ bPEij þ eij ;
+
+ð1Þ
+
+where E stands for person i’s own educational attainment, PE the parental educational attainment, and e is a white noise disturbance. This equation allows us the
+quantiﬁcation of the importance of parental education on own educational attainment using two related measures. The ﬁrst one is the estimated coefﬁcient of parental education (beta-coefﬁcient). The beta-coefﬁcient shows the relationship
+between each additional year of education of parents and own education. A higher
+beta-coefﬁcient implies higher persistence and thus lower intergenerational
+mobility.
+Additionally, one can consider the correlation coefﬁcient between E and PE.12
+The correlation coefﬁcient shows how much of the observed dispersion in own
+education is explained by parental education. Again, a higher correlation coefﬁcient
+implies lower intergenerational mobility. The relationship between the two
+measures is as follows: the beta-coefﬁcient equals the correlation coefﬁcient
+between own and parental education weighted by the ratio of the standard deviations
+of own and parental education:
+rE
+bj ¼ j qEj ;PEj ;
+ð2Þ
+rPEj
+Therefore, any apparent divergence between the two measures can be due to
+changes in the ratio of standard deviations.
+Moreover, we include a squared term of parental education, to explore the
+possibility of a non-linear relationship between intergenerational education
+attainments and also include country ﬁxed-effect, which enables capturing
+systematic differences across countries in unobservable factors at the country level
+that might be correlated with parental education (adding the term lj), estimating
+therefore:
+À
+Á2
+Eij ¼ a þ lj þ bPEij þ d PEij þeij
+ð3Þ
+and
+Eij ¼ a þ lj þ bPEij þ eij ;
+
+ð4Þ
+
+OLS estimates of the above equations are potentially biased upwards if there is
+signiﬁcant transmission of ability and other unobservable characteristics from
+12
+When considering a more general set-up with multiple regressors, these moments are conditional on
+Although the debate regarding the relative importance of innate characteristics
+versus environmental conditions (‘‘nature versus nurture’’) is not settled (see
+¨
+Bjorklund et al. 2007), there is evidence that the inheritance of cognitive skills has
+only limited importance as a driver of intergenerational mobility (OECD 2008).
+3.2 Index of inequality of opportunity estimation
+There might be additional variables inﬂuencing own educational achievement that
+are correlated with parental education and affecting also the beta-coefﬁcient.
+Therefore, in the spirit of Ferreira and Gignoux (2011, 2013), we construct a scalar
+measure of inequality of opportunity that combines the overall effect of
+circumstances on an individual’s educational attainment. We thus augment the
+baseline estimation and consider:
+Eij ¼ a þ lj þ bPEij þ uWhiteij þ cFemaleij þ jPIDij þ eij ;
+
+ð5Þ
+
+where White is a binary variable indicating self-reported racial origin; Female is a
+binary variable indicating whether individual is female, and PID stands for parent
+income ten-quantile classiﬁcation, self-reported by the offspring. Following Ferreira
+and Gignoux (2011, 2013) deﬁnitions and calculations, we compute here the overall
+effect of (our own deﬁned set of) circumstances on the ﬁnal educational attainment
+of individuals and construct an index of inequality of opportunity, a scalar that
+measures the proportion of the whole variance that is explained by the set of predeﬁned circumstances. The index of inequality of opportunity (hIOp) that we estimate here for each country j derives from Eq. (5) and is thus:
+^
+VarðEj Þ
+^
+;
+hIOp ¼
+VarðEj Þ
+
+ð6Þ
+
+ˆ
+where E comes from the parametric estimation of Eq. (5), the reduced-form
+regression of own educational attainment on circumstances, for the average person
+within each type of circumstance.13
+3.3 Data description
+´
+Data come from Latinobarometro, a public opinion survey conducted annually in
+Latin America. For the 2008 survey, over 20,000 interviews were conducted in 18
+Latin American countries. The samples are representative of the national
+population. Roughly 1000–1200 interviews by country are conducted, with an
+´
+estimated 3 % sampling error.14 Despite the smaller sample size of Latinobarometro
+
+13
+There are a maximum of 16 years of education, two racial classiﬁcations, two gender classiﬁcations
+and ten parental income decile classiﬁcations.
+14
+
+in our sample and those resulting from national household surveys.15
+Table 1 presents summary statistics of our main variables of interest: (own)
+education and parental education.16 In all countries, there is a signiﬁcant increase in
+the years of education (and the level attained) from one generation to the other. On
+average, the years of education increased by 3 years. At median levels, while
+parents’ educational attainment is lower than completed primary education, even at
+the 25th percentile of children’s educational distribution, primary education is
+completed.
+The increase in educational attainment for children has been larger in most
+countries that started at very low levels of parental education (e.g. 4.1 years in El
+Salvador), although Nicaragua is an exception with the lowest increase, despite
+exhibiting low levels of parental educational attainment.
+There are also important differences across countries. For example, higher
+income countries exhibit systematically higher levels of education across all points
+of the distribution. For example, in Argentina and Chile, 50 % of the population has
+completed secondary education and the lowest 25 % still have at least completed
+primary education. In contrast, Guatemala still exhibits large levels of illiteracy and
+even the upper 25 percentile has on average 6.5 years of education, i.e. just a little
+bit more than complete primary education.
+Finally, in most countries, the data show some intergenerational convergence in
+the years of education, as the growth in educational attainment is higher at the lower
+end of the distribution. For example, while in most countries the lower 25 percentile
+of parents were basically illiterate with zero years of formal education—while in
+Argentina, Chile, Colombia, Paraguay, Peru, Uruguay and Venezuela they had at
+least some primary education—many of these countries present increases in
+education toward complete primary education. Furthermore, in general, the median
+has also beneﬁtted more than the upper 25 percentiles in terms of increases in
+educational attainment.17 However, these average trends could be consistent with
+very little as well as high levels of intergenerational mobility. Thus, an analysis of
+considering the families’ trajectories can provide further insight.
+
+4 Empirical results
+In this section, we present the estimates of the three measures of intergenerational
+educational mobility outlined above. First, we present the baseline estimations of
+the correlations between own and parental educational achievement, comparing
+them to the empirical evidence available for other regions, countries and datasets.
+Second, we explore potential differences across gender, cohorts and non-linear
+15
+
+Using information from CEDLAS SEDLAC database on average years of education in the 18
+´
+countries covered by Latinobarometro, the average difference in years of education for the population
+over 25 years old is 0.04, which is not signiﬁcant at conventional levels of conﬁdence.
+16
+
+See Table 7 for summary statistics by country.
+
+17
+
+Of course, part of the story is that for high levels of education, the offspring is naturally constrained to
+Own education (years)
+
+Parental education (years)
+
+Mean
+
+Argentina
+
+Std
+Dev
+
+25th
+pctl.
+
+Median
+
+75th
+pctl.
+
+Mean
+
+Std
+Dev
+
+25th
+pctl.
+
+Median
+
+75th
+pctl.
+12
+
+10.40
+
+3.61
+
+7
+
+12
+
+13
+
+7.57
+
+4.18
+
+6
+
+7
+
+Bolivia
+
+8.14
+
+5.07
+
+4
+
+8
+
+12
+
+4.83
+
+5.17
+
+0
+
+3
+
+9
+
+Brazil
+
+7.66
+
+4.68
+
+4
+
+8
+
+11
+
+4.33
+
+4.33
+
+0
+
+4
+
+8
+
+Colombia
+
+9.08
+
+4.82
+
+5
+
+11
+
+13
+
+5.12
+
+4.56
+
+1
+
+5
+
+7
+
+Costa Rica
+
+7.84
+
+4.39
+
+5
+
+6
+
+11
+
+4.77
+
+4.10
+
+0
+
+6
+
+6
+
+Chile
+
+10.64
+
+3.92
+
+8
+
+12
+
+12.5
+
+8.40
+
+4.54
+
+5
+
+8
+
+12
+
+Dom. Rep.
+
+8.22
+
+4.77
+
+6
+
+8
+
+12
+
+5.46
+
+4.92
+
+0
+
+5
+
+9
+
+Ecuador
+
+8.05
+
+4.75
+
+6
+
+6
+
+12
+
+5.44
+
+4.65
+
+0
+
+6
+
+6
+
+El Salvador
+
+6.70
+
+5.00
+
+2
+
+7
+
+10
+
+2.60
+
+4.25
+
+0
+
+0
+
+5
+
+Guatemala
+
+4.51
+
+4.56
+
+0
+
+4
+
+6.5
+
+2.49
+
+3.96
+
+0
+
+0
+
+5
+
+Honduras
+
+6.04
+
+4.08
+
+2.5
+
+6.5
+
+Mexico
+
+8.61
+
+4.82
+
+6
+
+9
+
+Nicaragua
+
+5.53
+
+4.72
+
+1
+
+Panama
+
+8.05
+
+4.78
+
+5
+
+Paraguay
+
+8.89
+
+4.21
+
+Peru
+
+9.07
+
+Uruguay
+
+8.74
+10.62
+
+Venezuela
+
+9
+
+2.76
+
+3.78
+
+0
+
+0
+
+6
+
+12
+
+5.03
+
+5.05
+
+0
+
+4
+
+9
+
+5
+
+9
+
+3.61
+
+4.56
+
+0
+
+2
+
+6
+
+8
+
+12
+
+4.45
+
+4.98
+
+0
+
+3
+
+7
+
+6
+
+9
+
+12
+
+6.19
+
+4.24
+
+3
+
+6
+
+9
+
+4.79
+
+6
+
+11
+
+13
+
+6.28
+
+5.30
+
+1
+
+6
+
+11
+
+3.73
+
+6
+
+9
+
+12
+
+6.77
+
+3.74
+
+6
+
+6
+
+9
+
+4.04
+
+8
+
+11
+
+15
+
+7.36
+
+4.73
+
+6
+
+6
+
+11
+
+Parental education refers to the highest level attained by the father or mother
+´
+Source: Based on Latinobarometro 2008 survey
+
+effects. Third, we explore differences across countries in intergenerational mobility.
+Finally, we explore the potential drivers of these cross-country differences across
+Latin American countries.
+4.1 Pooled beta- and correlation coefﬁcient estimations
+In Table 2, we present the estimates for Eqs. (1) and (2), the beta and correlation
+coefﬁcient estimates for the population at least 25 years old in 2008. The ﬁrst
+column shows that parental education has a statistically signiﬁcant impact for all the
+speciﬁcations considered. In terms of the estimated beta-coefﬁcient, an additional
+year of parental education increases on average the offspring’s education by
+0.65 years (or 0.61 if country dummies are included), a result consistent with the
+estimates found by Hertz et al. (2007) for a smaller sample of countries.
+The partial correlation coefﬁcient shows that parental education accounts for
+around 61.2 % of the dispersion in its offspring’s educational attainment in our
+sample. According to Hertz et al. sample of 42 countries, the average correlation
+Beta-coefﬁcient
+
+Correlation coefﬁcient
+
+R2
+
+Country ﬁxed effects
+
+1.
+
+0.653 (0.006)***
+
+0.612
+
+0.374
+
+No
+
+2.
+
+0.605 (0.007)***
+
+0.566
+
+0.403
+
+Yes
+
+Robust standard errors in parentheses
+Number of observations in all regressions: 14,196
+*** Signiﬁcant at 1 %, ** signiﬁcant at 5 %, * signiﬁcant at 10 %
+
+95 % conﬁdence interval
+
+point estimate
+
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+Asia
+
+Africa
+
+Eastern
+Europe
+
+Latin
+Western
+Latin
+Europe/USA America America 18
+(Herĵ et al) Countries
+
+Fig. 1 Regional average correlation coefﬁcients between own and parental education. Asia includes
+Bangladesh, China (rural), East Timor, Indonesia, Malaysia, Nepal, Pakistan, Philippines, Sri Lanka, and
+Vietnam; Africa: Egypt, Ethiopia (rural), Ghana, South Africa; Eastern Europe: Czech Republic, Estonia,
+Hungary, Kyrgyzstan, Poland, Slovakia, Slovenia, Ukraine; Western Europe/USA: Belgium, Denmark,
+Finland, Ireland, Italy, Netherlands, New Zealand, Northern Ireland, Norway, Sweden, Switzerland,
+United Kingdom and USA. Source: Hertz et al. (2007) for Asia, Africa, Eastern Europe, Western Europe/
+´
+USA and Latin America; own calculations based on Latinobarometro 2008 survey for 18 Latin American
+countries
+
+this average is relatively stable across developed and developing regions, with the
+exception of Latin America. Thus, parental background explains a signiﬁcantly
+higher fraction of the variation in educational attainment in Latin America than
+elsewhere. Figure 1 also shows that our pooled estimate for the 18 Latin American
+countries in our sample is very close to the average estimate by Hertz et al. (2007)
+for the seven countries in their sample for the partial correlation coefﬁcient.
+Therefore, these ﬁrst estimates show a consistent picture with the previous
+literature on intergenerational educational mobility in emerging economies. While
+the beta-coefﬁcient shows that an additional year of parental schooling adds
+0.65 years to the child’s educational attainment, a signiﬁcant number but not
+based on Eq. (2), as two countries can present the same beta-coefﬁcient, but the
+correlation coefﬁcient can be very different if the relative dispersions in parental
+and/or child education ﬂuctuate.
+Regarding the correlation coefﬁcient measure of mobility, adding the squared
+term does not signiﬁcantly increase the importance of parental background, as it
+moves just marginally from 0.612 to 0.620.
+We analyse next whether this persistence of educational attainments has varied
+across cohorts. We estimate Eq. (4) for four separate cohorts, and present the results
+in a set of ﬁgures, considering separately the variations by gender.
+Figure 2 shows the beta-coefﬁcient estimate, suggesting that the persistence of
+educational attainments decreases across cohorts, implying higher levels of mobility
+for the younger generations. A quantiﬁcation of the impact of the intergenerational
+transmission of educational attainment for individuals in the 25- and 34-year-old
+cohort is between 23 and 33 % smaller (women and men, respectively) to those over
+55 years old in 2008.
+However, the analysis of the correlation coefﬁcient shows that there is no
+signiﬁcant change across generations in this measure of educational mobility (see
+Fig. 3). There are no signiﬁcant differences by gender.
+A plausible explanation for the discrepancy between beta and rho can be due to
+changes in the standard deviations of own education rE, and parental education,
+rPE. To assess this possibility, the left-hand panel of Fig. 4 shows the steady
+increase in average education across cohorts. The right-hand side shows that while
+the dispersion of own education has remained fairly constant (with some decline for
+younger generations), the dispersion in parental education is signiﬁcantly higher for
+younger cohorts. Thus, the b-coefﬁcient is lower for the young cohorts due to the
+fact that the standard deviation of parental education is higher for younger cohorts,
+as also shown by Daude (2011).
+
+Women
+point estimate
+
+Men
+95% conﬁdence interval
+
+point estimate
+
+0.75
+0.70
+
+0.70
+
+0.65
+
+0.65
+
+0.60
+
+0.60
+
+0.55
+
+0.55
+
+0.50
+
+95% conﬁdence interval
+
+0.75
+
+0.50
+
+0.45
+
+0.45
+
+0.40
+55 +
+
+45 - 54
+
+35-44
+
+Cohorts (age in 2008)
+
+25-34
+
+0.40
+55 +
+
+45 - 54
+35-44
+Cohorts (age in 2008)
+
+25-34
+
+point estimate
+
+Men
+95% conﬁdence interval
+
+point estimate
+
+0.70
+
+0.65
+
+0.65
+
+0.60
+
+0.60
+
+0.55
+
+95% conﬁdence interval
+
+0.70
+
+0.55
+
+0.50
+
+0.50
+55 +
+
+45 - 54
+35-44
+Cohorts (age in 2008)
+
+25-34
+
+55 +
+
+45 - 54
+35-44
+Cohorts (age in 2008)
+
+25-34
+
+Fig. 3 Correlation coefﬁcient
+
+Standard Deviations
+
+Sample Means
+own education
+
+own education
+
+parental education
+
+8.0
+
+parental education
+
+5.5
+5.0
+
+Years of education
+
+Years of education
+
+10.0
+
+6.0
+4.0
+2.0
+0.0
+
+4.5
+4.0
+3.5
+3.0
+
+55+
+
+45-54
+
+35-44
+
+Cohort (age in 2008)
+
+25-34
+
+55+
+
+45-54
+
+35-44
+
+25-34
+
+Cohort (age in 2008)
+
+Fig. 4 Sample moments by cohorts
+
+In Table 3, we present the results from estimating Eq. (3), which considers the
+possibility of a non-linear relationship between own and parental education. The
+new estimates imply that the tipping point, where an additional year of parental
+education would start to have a negative effect, is at around 22 years of parental
+education, which is well beyond the maximum of 16 years observed in our sample.
+This result could be driven by the fact that upward mobility is more common than
+downward mobility, such that individuals whose parents had high levels of
+education are also likely to remain at the higher end of the distribution, while those
+with very low-level parental background can by deﬁnition only move up. In terms of
+the correlation coefﬁcient, these estimates are very close to the ones reported in
+Table 2. Therefore, non-linearities do not seem to play a major role.
+Overall, the estimates presented so far conﬁrm that for both measures our pooled
+(1)
+
+(2)
+
+Parental education (years)
+
+0.938 (0.019)***
+
+0.852 (0.021)***
+
+Parental education squared
+
+-0.022 (0.001)***
+
+-0.019 (0.001)***
+
+Constant
+
+4.552 (0.056)***
+
+5.529 (0.129)***
+
+Observations
+
+14,196
+
+14,196
+
+R2
+
+0.384
+
+0.410
+
+Correlation coefﬁcienta
+
+0.620
+
+0.573
+
+Country dummies
+
+No
+
+Yes
+
+Robust standard errors in parentheses
+*** Signiﬁcant at 1 %, ** signiﬁcant at 5 %, * signiﬁcant at 10 %
+a
+
+For the regression including country dummies, the correlation coefﬁcient refers to the partial correlation
+(between residuals of regressing in a ﬁrst step parent and child education on country dummies)
+
+mobility, despite differences in sampling and years covered. Our estimates also
+show that the importance of parental education in explaining differences across their
+children’s educational attainment—measured by the correlation coefﬁcient—is very
+high compared to other countries and stable across cohorts.
+4.2 Index of inequality of opportunity h
+In this section, we present the estimates from Eq. (5), augmenting the baseline
+estimation to include the effect of additional variables beyond an individual’s
+control, such as race (self-reported white versus non-whites), gender, and family
+income (self-reported parental income status) in the correlation between parental
+and own educational achievements.18 We include these additional observed
+variables in the regressions presented in Table 4, both as additional explanatory
+variables and also their interactions with parental education allowing for a
+differential effect across groups. The results show an index of inequality of
+opportunity (hIOp) for the region of around 0.38, in line with Ferreira and Gignoux
+(2013) estimates of 0.35 worldwide and above 0.30 for Argentina, Brazil and
+Chile).19
+The results show that overall the baseline estimates from Table 2 are robust to
+the inclusion of these additional controls. While self-reported white individuals
+have on average 0.42 more years of education, there is no difference in the
+educational mobility between white and non-white individuals (columns 1 and 2).
+The interaction term—which is actually negative—is only marginally signiﬁcant at
+10 % and economically small. Females present lower levels of educational
+18
+
+Given that there might be other circumstances beyond an individual’s control that are not included in
+this regression, the measure of h shall be considered as a lower bound estimate of inequality of
+opportunity.
+19
+The estimates from Ferreira and Gignoux (2011) do not show a clear geographical pattern in the index
+(0.006)***
+
+(3)
+
+-0.261
+(0.098)***
+
+0.645
+(0.009)***
+
+(4)
+
+0.274
+(0.018)***
+
+0.595
+(0.007)***
+
+(5)
+
+0.387
+(0.026)***
+
+0.716
+(0.018)***
+
+(6)
+
+0.374
+
+*** Signiﬁcant at 1 %, ** signiﬁcant at 5 %, * signiﬁcant at 10 %
+
+Robust standard errors in parentheses
+
+0.375
+
+14,196
+0.374
+
+14,196
+
+0.381
+
+12,183
+
+0.383
+
+12,183
+
+0.375
+
+R2
+
+12,942
+
+12,942
+
+Observations
+
+4.169
+(0.081)***
+
+3.702
+(0.108)***
+
+5.071
+(0.072)***
+
+Constant
+
+5.035
+(0.061)***
+
+-0.026
+(0.004)***
+
+4.869
+(0.060)***
+
+0.015 (0.013)
+
+Parental education 9 income
+decile
+
+Parental income decile
+
+Parental education 9 female
+
+Female
+
+-0.033*
+(0.014)
+
+0.602
+(0.118)***
+
+0.652
+(0.009)***
+
+(2)
+
+4.913
+(0.055)***
+
+0.423
+(0.072)***
+
+White
+
+Parental education 9 white
+
+0.641
+(0.007)***
+
+Parental education
+
+(1)
+
+Table 4 Index of inequality of opportunity
+
+0.382
+
+11,122
+
+4.287
+(0.096)***
+
+0.258
+(0.019)***
+
+-0.156**
+(0.073)
+
+0.336
+(0.076)***
+
+0.589
+(0.008)***
+
+(7)
+
+0.385
+
+11,122
+
+3.859
+(0.132)***
+
+-0.025
+(0.004)***
+
+0.370
+(0.027)***
+
+0.019 (0.014)
+
+-0.258**
+(0.113)
+
+-0.014 (0.015)
+
+0.402
+(0.128)***
+
+0.702
+(0.021)***
+
+(8)
+interaction term. The 10-decile classiﬁcation of parental income is associated with
+higher levels of educational attainment (see columns 5 and 6). The interaction term
+of parental income and parental education is statistically signiﬁcant and negative.
+However, it is relatively small and the mean effect dominates. For example, for all
+levels below 16 years of parental education, somebody in the highest decile would
+have a higher predicted level of education based on the estimates of column (6) than
+somebody in the ﬁrst decile.20 Considering all circumstances together (columns 7
+and 8) explains more almost 40 % of the variance of own education. Two ﬁnal
+issues are of interest. First, adding more controls does not change dramatically the
+beta-coefﬁcient (columns 1, 3 and 5), which remains between 0.60 and 0.65, close
+the baseline estimate of 0.61 from Table 1. Second, adding the additional controls
+does not affect signiﬁcantly the variance explained by the model. While including
+only parental education yields a R2 of 0.375 (Table 1), adding parental income, the
+gender and white dummies increase the R2 just to 0.382. By contrast, when
+excluding parental education, the R2 is just 0.09 (not shown due to space
+considerations). Therefore, parental education seems to be a key variable to
+understand the external circumstances that condition opportunities.
+4.3 Comparisons between countries
+Figure 5 shows estimates for both measures of persistence of educational attainment
+by country, and their 95 % conﬁdence intervals. There is considerable variation in
+the region in both measures. For example, while Costa Rica presents a betacoefﬁcient of 0.36, for Guatemala it is 0.68, almost twice as large. These differences
+are economically signiﬁcant. For example, the elasticities imply that a 4-year
+difference in parental education would on average imply 1.6 years more of
+education for the next generation in Costa Rica, while in Guatemala the equivalent
+ﬁgure would be 3.4 years. Given a year of additional education is worth 12 %—the
+average return to education in Latin America21—these extra years could translate
+into a differential in wage earnings of 19 and 41 %, respectively.22
+In general, countries that show low mobility using the beta-coefﬁcient measure
+also present low correlation coefﬁcient mobility.23 The case of Chile is somewhat
+atypical, given that it ranks relatively well in terms of the beta-coefﬁcient measure,
+compared to other countries in the region. However, the correlation coefﬁcient
+shows that Chile is second only to Guatemala when measuring intergenerational
+mobility by the correlation coefﬁcient (which quantiﬁes the dispersion in
+educational achievement within a generation).
+In Table 5, we present the estimates of intergenerational mobility by country,
+adding a set of circumstances in explaining educational attainment. First, column (1)
+20
+
+This effect is even larger as income and education are positively correlated (0.33 in our sample).
+
+21
+
+Psacharopoulos and Patrinos (2004).
+
+22
+
+Although many of the differences between the point estimates are not statistically signiﬁcant at
+standard levels of conﬁdence.
+23
+
+
+.4
+
+.6
+
+.8
+
+1
+
+9 Page 16 of 29
+
+CRI VEN HND ARG PER CHI COL URY MEX PRY NIC SLV PAN BOL BRA ECU DOM GTM
+
+ubbeta/lbbeta
+
+beta
+
+Fig. 5 Beta-coefﬁcient by country
+
+shows that the coefﬁcient indicating intergenerational persistence of educational
+attainment is always signiﬁcant, and there is no large variation among countries.
+Being white (column 2) has a positive signiﬁcant impact on educational persistence in
+Argentina, Brazil, Panama and Venezuela, while in Bolivia and Mexico, the impact is
+signiﬁcant but negative (thus implying for these two countries that mobility is higher
+for the non-white). In column 3, the effect of being female on educational attainment is
+shown: females show lower persistence of intergenerational educational attainment in
+Bolivia, Chile, El Salvador, Paraguay and Peru. Column 4 shows the coefﬁcient of
+parental income classiﬁcation: with the exception of Brazil, parental income is
+signiﬁcant in explaining own educational attainment in all countries (Fig. 6).
+Furthermore, we compute the index of inequality of opportunity considering the
+set of circumstances described above (see Fig. 7). The pattern is very similar to the
+one found above by the beta- and the correlation coefﬁcient: in Costa Rica,
+circumstances explain the lowest proportion of the variation in own educational
+attainment, which implies a higher chance of intergenerational mobility. By
+contrast, in Guatemala, Chile and Ecuador, circumstances beyond an individual’s
+control explain most of the observed variation in educational attainment.
+Therefore, this analysis that includes additional circumstances beyond parental
+education shows that these factors vary across country, but overall parental
+education is a robust predictor of own education in the region.24 Actually, the
+24
+These estimates should be seen as a lower bound of inequality of opportunity, as other relevant
+circumstances that are omitted from the analysis are likely to be positively correlated with the explanatory
+
+0.576 (0.036)***
+
+0.553 (0.037)***
+
+0.551 (0.034)***
+
+0.498 (0.029)***
+
+0.577 (0.031)***
+
+0.418 (0.030)***
+
+Honduras
+
+Mexico
+
+Nicaragua
+
+Panama
+
+Paraguay
+
+Peru
+
+Uruguay
+
+Venezuela
+
+0.477 (0.275)*
+
+0.348 (0.360)
+
+-0.680 (0.528)
+
+0.380 (0.305)
+
+1.914 (0.451)***
+
+-0.608 (0.577)
+
+-0.844 (0.427)**
+
+0.224 (0.407)
+
+-0.649 (0.509)
+
+0.284 (0.656)
+
+-0.213 (0.518)
+
+0.259 (0.596)
+
+-0.323 (0.219)
+
+0.233 (0.373)
+
+-0.136 (0.355)
+
+0.930 (0.288)***
+
+-1.429 (0.793)
+
+0.744 (0.272)***
+
+White
+
+*** Signiﬁcant at 1 %, ** signiﬁcant at 5 %, * signiﬁcant at 10 %
+
+Robust standard errors in parentheses
+
+0.567 (0.045)***
+
+Guatemala
+
+0.543 (0.026)***
+
+Chile
+
+El Salvador
+
+0.367 (0.047)***
+
+Costa Rica
+
+0.676 (0.040)***
+
+0.502 (0.040)***
+
+Colombia
+
+0.665 (0.029)***
+
+0.642 (0.034)***
+
+Ecuador
+
+0.596 (0.033)***
+
+Bolivia
+
+Brazil
+
+Dom. Rep.
+
+0.441 (0.029)***
+
+Argentina
+
+Parental education
+
+Table 5 Effect of circumstances on own educational attainment
+
+0.318 (0.265)
+
+0.137 (0.233)
+
+-1.392 (0.288)***
+
+-0.652 (0.309)**
+
+0.048 (0.332)
+
+0.123 (0.361)
+
+-0.344 (0.309)
+
+0.177 (0.331)
+
+-0.012 (0.324)
+
+-0.730 (0.391)*
+
+-0.204 (0.258)
+
+0.123 (0.373)
+
+-0.647 (0.195)***
+
+-0.476 (0.372)
+
+0.321 (0.345)
+
+0.329 (0.284)
+
+-0.982 (0.303)***
+
+0.347 (0.227)
+
+Female
+
+0.223 (0.080)***
+
+0.113 (0.057)
+
+0.246 (0.081)***
+
+0.159 (0.080)**
+
+0.395 (0.078)***
+
+0.282 (0.083)***
+
+0.250 (0.075)***
+
+0.193 (0.082)**
+
+0.176 (0.092)*
+
+0.195 (0.090)**
+
+0.290 (0.074)***
+
+0.345 (0.116)***
+
+0.233 (0.064)***
+
+0.219 (0.095)**
+
+0.355 (0.082)***
+
+0.097 (0.073)
+
+0.432 (0.096)***
+
+0.265 (0.065)***
+
+Parent income decile
+
+6.348 (0.492)***
+
+4.209 (0.481)***
+
+6.021 (0.363)***
+
+5.327 (0.477)***
+
+3.622 (0.416)***
+
+2.826 (0.373)***
+
+5.442 (0.397)***
+
+4.154 (0.364)***
+
+1.873 (0.368)***
+
+4.545 (0.439)***
+
+3.575 (0.342)***
+
+3.647 (0.532)***
+
+6.122 (0.363)***
+
+5.252 (0.561)***
+
+5.273 (0.422)***
+
+4.007 (0.393)***
+
+4.221 (0.396)***
+
+5.317 (0.417)***
+
+Constant
+
+735
+
+709
+
+728
+
+498
+
+490
+
+501
+
+627
+
+515
+
+442
+
+532
+
+795
+
+469
+
+767
+
+481
+
+653
+
+804
+
+687
+
+689
+
+Obs.
+
+0.256
+
+0.316
+
+0.366
+
+0.345
+
+0.430
+
+0.330
+
+0.374
+
+0.153
+
+0.453
+
+0.236
+
+0.435
+
+0.418
+
+0.478
+
+0.142
+
+0.290
+
+0.314
+
+0.424
+
+0.323
+
+R2
+
+Lat Am Econ Rev (2015) 24:9
+
+.4
+
+.6
+
+.8
+
+1
+
+9 Page 18 of 29
+
+CRI HND SLV COL VEN ARG URY BRA NIC PER PRY MEX PAN BOL DOM ECU CHI GTM
+
+ubrho/lbrho
+
+rho
+
+Fig. 6 Correlation coefﬁcient by country
+
+CRI
+HND
+SLV
+VEN
+COL
+BRA
+URY
+ARG
+NIC
+PRY
+PER
+MEX
+DOM
+BOL
+PAN
+ECU
+GTM
+CHI
+0
+
+.1
+
+.2
+
+.3
+
+.4
+
+.5
+
+Inequality of Opportunity
+
+Fig. 7 Index of Inequality of opportunity
+
+correlation between the index of inequality of opportunities and the correlation
+coefﬁcient between parental and own education is 0.98 in our sample. This does not
+mean that parental education is a sufﬁcient statistic to understand differences in
+This section explores some of the possible determinants of intergenerational
+mobility. Rather than presenting causal evidence, it shows some cross-country
+correlations to motivate future research in this area. As Angrist and Pischke (2009)
+point out, correlation is an important predictor of the existence of causality.
+Figure 8 shows the relationship between the beta and partial correlation
+coefﬁcient and three variables that economic theory considers potential drivers:
+income inequality, the returns to education and public education expenditure (see
+the Appendix). To reduce causality problems, we use the earliest available data,
+which in general are around the mid-1990s.
+In terms of income inequality (measured by the Gini index), there is a positive
+correlation with both measures of intergenerational persistence across countries in
+the region. The correlation coefﬁcient is 0.44 for the beta-coefﬁcient and 0.37 for
+the partial correlation coefﬁcient. Therefore, societies in Latin America that are less
+mobile tend also to exhibit high levels of inequality. According to the analytical
+framework described in the Appendix, the same factors that affect intergenerational
+mobility (private returns to education, progressivity of public investment in
+education, and other transmissible factors such as abilities, race and social
+networks) also determine the cross-sectional distribution of income in the long run.
+In the transition period, a decline in income inequality (perhaps due to changes in
+the skill premium or returns to education) or an increase in the progressivity of
+public expenditure on education would cause an increase in social mobility.
+Figure 8 also shows the correlation of educational mobility and the returns to
+primary education. While for the beta-coefﬁcient the correlation between intergenerational persistence and higher returns to education is signiﬁcantly positive, as
+predicted above, for the correlation coefﬁcient it is much weaker. A plausible
+explanation is that in countries where the returns to education are high—and poor
+households face credit constraints—households with higher parental education (and
+probably income) will take advantage to investing more in education, while poor
+households cannot afford to do so. The weaker link between the partial correlation
+coefﬁcient and the returns to primary education might be driven by our small
+sample size. In fact, when including also OECD countries, Daude (2011) ﬁnds a
+signiﬁcantly positive correlation between the returns to education and the partial
+correlation coefﬁcient.
+Progressive investment funded by the public sector could equalise opportunities
+for children of different social and economic background. The empirical evidence
+shows a negative relationship between both measures of the intergenerational
+persistence of educational outcomes and public expenditure on education per
+student relative to GDP per capita, suggesting that public investment in education
+could foster mobility in the region. A remaining problem to solve is on the quality of
+education. To be effective, policy actions need to address quality as well as
+quantity—as ﬁndings for OECD countries show that how spending on education is
+used often matters more than how much is spent.25
+25
+
+
+60
+
+.9
+
+.9
+.4
+.4
+
+.45
+
+.5
+
+.55
+
+.6
+
+BRA
+
+corr = .40
+
+.6
+
+ECU
+
+15
+
+CRI
+
+BRA
+NIC SLV
+URY
+PER
+
+60
+
+BOL PAN
+PRY
+MEX
+COL
+CHL
+ARG
+CRI
+
+0
+40
+
+DOM
+
+corr = -.52
+
+ARGHND VEN
+
+20
+
+beta coefficient
+
+.7
+.6
+
+beta coefficient
+
+PAN
+BOL
+SLV
+PRY
+MEX
+URY
+COL
+CHL
+PER
+
+0
+Gini coefficient early 1990s
+
+10
+
+.4
+
+HND
+corr = .44
+
+CRI
+
+DOM
+
+ECU
+
+.5
+
+ARG
+VEN
+
+BRA
+
+.4
+
+.5
+
+URY
+
+5
+
+GTM
+
+.8
+
+.8
+.7
+
+ECU
+BOL
+PAN
+MEX NIC
+COL
+PERCHL
+
+PRYSLV
+
+.5
+0
+
+expenditure per student/GDP per capita
+
+GTM
+
+.6
+
+DOM
+
+.4
+
+80
+
+returns to primary education early 1990s
+
+GTM
+
+beta coefficient
+
+correlation coefficient
+
+.6
+
+.6
+
+.9
+
+.55
+
+.8
+
+.5
+
+Gini coefficient early 1990s
+
+CRI
+corr = -.31
+
+.7
+
+.45
+
+corr = .17
+
+CHL
+
+BOL PAN
+MEX
+PRY
+PER
+NIC
+BRA
+URY
+ARG
+COL
+SLV
+
+.6
+
+.4
+
+HND
+CRI
+
+GTM
+DOM
+
+.3
+
+.3
+
+corr = .37
+
+ECU
+
+DOM
+
+.5
+
+.4
+
+HND
+CRI
+
+.5
+
+COL
+
+SLV
+
+GTM
+CHL
+ECU
+BOL
+PAN
+MEX
+PERPRY
+BRA
+URY
+ARG
+VEN
+COL
+SLV
+
+.4
+
+.5
+
+ARG
+VEN
+
+correlation coefficient
+
+URY
+
+GTM
+CHL
+ECU
+BOL
+PAN
+MEX
+PER
+NIC BRA
+
+.3
+
+correlation coefficient
+
+.6
+
+DOM
+PRY
+
+.7
+
+.7
+
+Lat Am Econ Rev (2015) 24:9
+
+.7
+
+9 Page 20 of 29
+
+5
+
+10
+
+15
+
+80
+
+returns to prim. education early 1990s
+
+expenditure per student/GDP per capita
+
+Fig. 8 Income inequality and intergeneration persistence in education. Own calculations based on
+SEDLAC data and World Bank. Expenditures refer to public expenditure per student in primary
+education relative to GDP per capita. Returns to education are from Psacharopoulos and Patrinos (2004)
+
+Public expenditure is only part of the picture. Limited access to credit or savings
+can also be a signiﬁcant hurdle to investment in education. In Latin America, credit
+access is likely to be holding children back from pursuing further studies.26 The
+signiﬁcant correlation between private returns to educational investment and
+intergenerational persistence in educational attainments could be mitigated by
+increasing the access to ﬁnancial markets and specially designed programs that
+reduce borrowing constraints.
+Table 6 looks at the statistical signiﬁcance of the three variables considered for
+the beta and partial correlation measures. The results conﬁrm our discussion above.
+The point estimates for both measures are consistent with what theory would
+predict—lower mobility is associated with more income inequality and higher
+returns to education and negatively associated with more public expenditure in
+education. However, the ﬁt is signiﬁcantly better for the beta-coefﬁcient, where all
+variables are signiﬁcant at 10 % (column 4) and explain around 60 % of the cross
+country variation. For the correlation coefﬁcient, the variables are only marginally
+signiﬁcant, and all together explain around 31 % of the variation across countries.
+Based on the regression for the beta-coefﬁcient in Table 6, we can analyse the
+relative importance of each factor in explaining the intergenerational persistence in
+education by country.27 Figure 9 shows the contribution of each variable in
+26
+
+Aiyagari et al. (2003), Becker and Tomes (1979, 1986) and Solon (2004).
+
+27
+
+As the estimates for the correlation coefﬁcient are not signiﬁcant, we present only the analysis for the
+
+Countries
+
+16
+
+0.27
+
+0.20
+
+18
+
+R2
+0.16
+
+0.787 (0.074)***
+
+Constant
+
+0.551
+(0.043)***
+
+0.177
+(0.221)
+
+0.002
+(0.001)
+-0.016 (0.007)**
+
+0.847
+(0.430)*
+
+Expenditure per student in primary
+education/GDP per capita
+
+Returns to primary education
+
+Gini
+
+(3)
+
+15
+
+0.60
+
+0.269 (0.207)
+
+-0.012 (0.007)*
+
+0.002 (0.001)*
+
+0.838 (0.358)**
+
+18
+
+0.14
+
+0.278
+(0.181)
+
+0.561
+(0.353)
+
+17
+
+0.03
+
+0.545
+(0.036)***
+
+0.001
+(0.001)
+
+(6)
+
+16
+
+0.10
+
+0.652
+(0.064)***
+
+-0.007 (0.006)
+
+(7)
+
+15
+
+0.31
+
+0.303 (0.212)
+
+-0.007 (0.007)
+
+0.001 (0.001)
+
+0.644 (0.366)
+
+(8)
+
+(5)
+
+(2)
+
+(1)
+
+(4)
+
+Dependent variable: correlation coefﬁcient between own and
+parental education
+
+Dependent Variable: beta-coefﬁcient
+
+Table 6 OLS regressions of cross-country correlates of intergenerational persistence
+
+Lat Am Econ Rev (2015) 24:9
+Expenditure per pupil/GDP per capita
+Centered Beta-coeﬃcient
+
+Returns to primary educaƟon
+Residual
+
+0.7
+0.5
+0.3
+0.1
+-0.1
+
+CRI
+
+ARG PER
+
+CHL COL URY MEX PRY
+
+SLV PAN BOL BRA ECU DOM GTM
+
+-0.3
+
+Fig. 9 Contribution to intergenerational persistence of education (beta-coefﬁcient) by country
+
+explaining the country’s beta-coefﬁcient. Clearly, although the relative importance
+varies by country, in all countries income inequality predicts a signiﬁcant share of
+the beta-coefﬁcient. The returns to education play a particularly important role in
+the Dominican Republic, explaining around 38 % of the persistence, while there is a
+second group of countries where they are important—explaining between 15 and
+20 % of the persistence in Uruguay, Brazil, Guatemala and Colombia) and in the
+rest of the countries returns do not contribute signiﬁcantly to explaining the level of
+intergenerational persistence. In terms of the public expenditure on education, the
+largest contribution to reducing intergenerational persistence in education is for
+Costa Rica, Panama, and Chile.
+Some interesting patterns emerge from this analysis. Costa Rica and Argentina
+stand out as countries with relatively low intergenerational persistence of education.
+These are countries where income inequality is historically relatively low and a
+certain welfare state exists.28 Uruguay shares these characteristics, but it differs by
+having higher returns to education, which might reﬂect decades of relative low
+public expenditure in education compared to Costa Rica and Argentina (OECD/
+ECLAC 2014). This contrasts with Brazil, Ecuador, Dominican Republic and
+Guatemala at the other end, which present the highest persistence in educational
+attainment. In all countries, income inequality plays a major role, although in the
+case of Dominican Republic the returns to education play an important role, as
+explained above.
+
+5 Conclusions and some policy implications
+The present paper has shown that intergenerational mobility in Latin America is low
+and has not signiﬁcantly changed for the latest generations, when measured by the
+importance of parental education in explaining their offspring’s educational level.
+The picture that emerges is that Latin America is not only the most unequal region
+28
+See Engerman and Sokoloff (1997) and Williamson (2015) for a historical analysis of income
+inequality of opportunity (including dimensions beyond an individual’s control such
+as race, gender and parental income background) is estimated at around 40 %,
+which is high by international standards. The paper also explores country
+differences in intergenerational mobility. While in Costa Rica, circumstances
+explain below 15 % of the observed variance in education, in Chile, they amount to
+almost half the explained variance. The ﬁndings imply that there might be room for
+targeted redistributive policies that improve intergenerational mobility. Next, we
+discuss some policies that might mitigate these inequalities and reduce the degree of
+intergenerational persistence.
+Recent research points towards the importance of early childhood development
+(ECD)—comprising cognitive and emotional development as well as adequate
+health and nutrition—in boosting opportunities for the disadvantaged in developing
+´
+countries.29 Conditional cash-transfer programmes (like Bolsa Famılia in Brazil,
+Chile Solidario or PROGRESA/Oportunidades in Mexico), which are often
+conditional on participation in ECD activities, have shown to be a useful tool for
+increasing early childhood investments and protecting these investments from
+adverse shocks.30 Evidence from OECD countries shows that higher enrolment rates
+and increased public spending on pre-school education in early childhood
+signiﬁcantly weakens the link between parental education and child secondary
+education performance.31 An expansion of ECD programmes to cover a signiﬁcant
+part of the population in Latin America could bring similar beneﬁts. While ECD by
+itself is not enough to ensure equal opportunities later on, given its complementarity
+with subsequent investments in skills, it is a precondition—and an area where public
+policy action could be extremely powerful.
+While enrolment rates in primary education in Latin America have generally
+reached the Millennium Development Goals, secondary schooling is far from being
+universal in most countries in the region. Making secondary education universal is
+therefore a natural target for education policy in Latin America. How best to achieve
+this goal will vary from country to country depending on its circumstances. For
+example, in several countries, compulsory education covers only 9 years of
+education ending at age 15). Here, an extension to a 12-year requirement is
+feasible—e.g. Argentina went from 10 years of compulsory education to 13 in 2007.
+There are second round beneﬁts to this, as compulsory changes in educational level
+have transmissible consequences. Evidence from OECD countries—where extensions to mandatory education typically have been at the secondary level—shows
+that increases in parental education as a result of the expansion of compulsory
+education have a signiﬁcant positive effect on the educational outcomes of their
+offspring.32
+Grants and student loans are also an important tool in boosting access to tertiary
+education. Evidence for OECD countries shows that the probability of students from
+29
+
+´˜
+See Vegas and Santibanez (2010).
+
+30
+
+de Janvry et al. (2006).
+
+31
+
+Causa and Chapuis (2009).
+
+32
+
+Variable
+
+Obs
+
+Mean
+
+Std.
+Dev.
+
+Min
+
+Max
+
+Obs
+
+Mean
+
+Std.
+Dev.
+
+Min
+
+Max
+
+Own
+education
+
+1200
+
+10.40
+
+3.61
+
+0
+
+16
+
+Own
+education
+
+1200
+
+8.14
+
+5.07
+
+0
+
+16
+
+Parental
+education
+
+1068
+
+7.57
+
+4.18
+
+0
+
+16
+
+Parental
+education
+
+1027
+
+4.83
+
+5.17
+
+0
+
+16
+
+White
+
+1111
+
+0.78
+
+0.42
+
+0
+
+Female
+
+1200
+
+0.53
+
+0.50
+
+0
+
+1
+
+White
+
+1139
+
+0.04
+
+0.21
+
+0
+
+1
+
+1
+
+Female
+
+1200
+
+0.50
+
+0.50
+
+0
+
+Parent
+income
+decile
+
+1045
+
+4.95
+
+1.85
+
+1
+
+10
+
+1
+
+Parent
+income
+decile
+
+1099
+
+4.10
+
+1.86
+
+1
+
+10
+
+Own
+education
+
+1204
+
+7.66
+
+4.68
+
+0
+
+16
+
+Own
+education
+
+1200
+
+9.08
+
+4.82
+
+0
+
+16
+
+Parental
+education
+
+1143
+
+4.33
+
+4.33
+
+0
+
+16
+
+Parental
+education
+
+1158
+
+5.12
+
+4.56
+
+0
+
+16
+
+Argentina
+
+Variable
+
+Bolivia
+
+Brazil
+
+Colombia
+
+White
+
+1193
+
+0.48
+
+0.50
+
+0
+
+1
+
+White
+
+1047
+
+0.29
+
+0.45
+
+0
+
+1
+
+Female
+
+1204
+
+0.52
+
+0.50
+
+0
+
+1
+
+Female
+
+1200
+
+0.63
+
+0.48
+
+0
+
+1
+
+Parent
+income
+decile
+
+1128
+
+4.64
+
+1.97
+
+1
+
+10
+
+962
+
+4.03
+
+2.24
+
+1
+
+10
+
+Own
+education
+
+1000
+
+7.84
+
+4.39
+
+0
+
+16
+
+Own
+education
+
+1200
+
+10.64
+
+3.92
+
+0
+
+16
+
+Parental
+education
+
+826
+
+4.77
+
+4.10
+
+0
+
+16
+
+Parental
+education
+
+1040
+
+8.40
+
+4.54
+
+0
+
+16
+
+Costa Rica
+
+Parent
+income
+decile
+Chile
+
+White
+
+916
+
+0.47
+
+0.50
+
+0
+
+1
+
+White
+
+1133
+
+0.72
+
+0.45
+
+0
+
+1
+
+Female
+
+1000
+
+0.50
+
+0.50
+
+0
+
+1
+
+Female
+
+1200
+
+0.53
+
+0.50
+
+0
+
+1
+
+833
+
+5.44
+
+1.91
+
+1
+
+10
+
+Parent
+income
+decile
+
+1117
+
+4.41
+
+1.61
+
+1
+
+10
+
+Parent
+income
+decile
+
+Dominican Republic
+
+Ecuador
+
+Own
+education
+
+1000
+
+8.22
+
+4.77
+
+0
+
+16
+
+Own
+education
+
+1200
+
+8.05
+
+4.75
+
+0
+
+16
+
+Parental
+education
+
+687
+
+5.46
+
+4.92
+
+0
+
+16
+
+Parental
+education
+
+1182
+
+5.44
+
+4.65
+
+0
+
+16
+
+White
+
+988
+
+0.15
+
+0.36
+
+0
+
+1
+
+White
+
+1119
+
+0.09
+
+0.29
+
+0
+
+1
+
+Female
+
+1000
+
+0.50
+
+0.50
+
+0
+
+1
+
+Female
+
+1200
+
+0.50
+
+0.50
+
+0
+
+1
+
+914
+
+4.06
+
+1.71
+
+1
+
+10
+
+Parent
+income
+decile
+
+1123
+
+4.20
+
+1.95
+
+1
+
+10
+
+Own
+education
+
+1000
+
+6.70
+
+5.00
+
+0
+
+16
+
+Own
+education
+
+1000
+
+4.51
+
+4.56
+
+0
+
+16
+
+Parental
+education
+
+963
+
+2.60
+
+4.25
+
+0
+
+16
+
+Parental
+education
+
+834
+
+2.49
+
+3.96
+
+0
+
+16
+
+Parent
+income
+decile
+El Salvador
+
+Variable
+
+Obs
+
+Mean
+
+Std.
+Dev.
+
+Min
+
+Max
+
+Variable
+
+Obs
+
+Mean
+
+Std.
+Dev.
+
+Min
+
+Max
+
+White
+
+926
+
+0.11
+
+0.32
+
+0
+
+1
+
+White
+
+923
+
+0.15
+
+0.35
+
+0
+
+Female
+
+1000
+
+0.53
+
+0.50
+
+0
+
+1
+
+Female
+
+1000
+
+0.50
+
+0.50
+
+0
+
+1
+
+765
+
+4.33
+
+2.31
+
+1
+
+10
+
+801
+
+3.58
+
+2.07
+
+1
+
+10
+
+Own
+education
+
+1000
+
+6.04
+
+4.08
+
+0
+
+16
+
+Own
+education
+
+1200
+
+8.61
+
+4.82
+
+0
+
+16
+
+Parental
+education
+
+910
+
+2.76
+
+3.78
+
+0
+
+16
+
+Parental
+education
+
+1193
+
+5.03
+
+5.05
+
+0
+
+16
+
+White
+
+949
+
+0.19
+
+0.39
+
+0
+
+1
+
+White
+
+887
+
+0.12
+
+0.33
+
+0
+
+1
+
+Female
+
+1000
+
+0.50
+
+0.50
+
+0
+
+1
+
+Female
+
+1200
+
+0.52
+
+0.50
+
+0
+
+1
+
+843
+
+4.06
+
+2.29
+
+1
+
+10
+
+Parent
+income
+decile
+
+1018
+
+4.59
+
+2.15
+
+1
+
+10
+
+Own
+education
+
+1000
+
+5.53
+
+4.72
+
+0
+
+16
+
+Own
+education
+
+1000
+
+8.05
+
+4.78
+
+0
+
+16
+
+Parental
+education
+
+907
+
+3.61
+
+4.56
+
+0
+
+16
+
+Parental
+education
+
+820
+
+4.45
+
+4.98
+
+0
+
+16
+
+White
+
+915
+
+0.09
+
+0.28
+
+0
+
+1
+
+White
+
+984
+
+0.18
+
+0.39
+
+0
+
+1
+
+Female
+
+1000
+
+0.51
+
+0.50
+
+0
+
+1
+
+Female
+
+1000
+
+0.50
+
+0.50
+
+0
+
+1
+
+865
+
+3.36
+
+2.31
+
+1
+
+10
+
+804
+
+4.43
+
+2.15
+
+1
+
+10
+
+Own
+education
+
+1200
+
+8.89
+
+4.21
+
+0
+
+16
+
+Own
+education
+
+1200
+
+9.07
+
+4.79
+
+0
+
+16
+
+Parental
+education
+
+995
+
+6.19
+
+4.24
+
+0
+
+16
+
+Parental
+education
+
+1162
+
+6.28
+
+5.30
+
+0
+
+16
+
+White
+
+838
+
+0.47
+
+0.50
+
+0
+
+1
+
+White
+
+1082
+
+0.07
+
+0.25
+
+0
+
+1
+
+Female
+
+1200
+
+0.50
+
+0.50
+
+0
+
+1
+
+Female
+
+1200
+
+0.50
+
+0.50
+
+0
+
+1
+
+Parent
+income
+decile
+
+1122
+
+4.47
+
+1.94
+
+1
+
+10
+
+Parent
+income
+decile
+
+1093
+
+3.83
+
+2.04
+
+1
+
+10
+
+Own
+education
+
+1200
+
+8.74
+
+3.73
+
+0
+
+16
+
+Own
+education
+
+1200
+
+10.62
+
+4.04
+
+0
+
+16
+
+Parental
+education
+
+1010
+
+6.77
+
+3.74
+
+0
+
+16
+
+Parental
+education
+
+1161
+
+7.36
+
+4.73
+
+0
+
+16
+
+White
+
+1164
+
+0.87
+
+0.34
+
+0
+
+1
+
+White
+
+1094
+
+0.34
+
+0.47
+
+0
+
+1
+
+Female
+
+1200
+
+0.53
+
+0.50
+
+0
+
+1
+
+Female
+
+1200
+
+0.50
+
+0.50
+
+0
+
+1
+
+Parent
+income
+decile
+Honduras
+
+Parent
+income
+decile
+
+Mexico
+
+Nicaragua
+
+Parent
+income
+decile
+
+Parent
+income
+decile
+
+1
+
+Panama
+
+Paraguay
+
+Parent
+income
+decile
+Peru
+
+Uruguay
+
+Variable
+
+Obs
+
+Mean
+
+Std.
+Dev.
+
+Min
+
+Max
+
+Variable
+
+Obs
+
+Mean
+
+Std.
+Dev.
+
+Min
+
+Max
+
+Parent
+income
+decile
+
+1023
+
+5.07
+
+2.08
+
+1
+
+10
+
+Parent
+income
+decile
+
+1057
+
+5.00
+
+1.75
+
+1
+
+10
+
+White is a binary variable indicating self-reported racial origin—question s11; Female is a binary variable
+indicating whether individual is female; PID stands for parent income 10-quantile classiﬁcation—question p12stb
+
+less favourable family backgrounds completing tertiary studies is higher in countries
+that provide funding available to all students.
+Finally, many other social policies might be complementary to the ones
+previously mentioned. Better access to unemployment insurance, health services
+and social protection would allow families to withstand the kind of liquidity shocks
+that currently often require teenagers to postpone or abandon their studies to provide
+supplementary income for the household. It is important to consider the institutional
+capacities of each country and to conduct a careful evaluation of what policy might
+be best in each case.
+Lat Am Econ Rev (2015) 24:9
+DOI 10.1007/s40503-015-0030-x
+
+On intergenerational (im)mobility in Latin America
+Christian Daude1 • Virginia Robano1
+
+Received: 8 November 2014 / Accepted: 3 October 2015 / Published online: 28 October 2015
+Ó The Author(s) 2015. This article is published with open access at Springerlink.com
+
+Abstract This paper studies intergenerational mobility in Latin America and
+shows that, in addition to the well-documented fact that the Latin American income
+distribution is highly unequal, profound differences in opportunities persist from
+one generation to the next. Comparing ﬁnal educational achievements for 18 Latin
+American countries, this paper ﬁnds that measures of the persistence in educational
+achievements across generations, such as beta- and partial correlation coefﬁcients,
+are high. This persistence is correlated with high returns to education, relatively low
+progressivity in public investments in education, and inequality of opportunity. An
+index of inequality of opportunity (including dimensions beyond an individual’s
+control such as race, gender and parental income background) is estimated at around
+40 %, which is high by international standards. The paper also explores country
+differences in intergenerational mobility. While in Costa Rica, circumstances
+explain below 15 % of the observed variance in education, in Chile, they amount to
+almost half the explained variance. The ﬁndings imply that there is room for targeted redistributive policies that improve intergenerational mobility.
+Keywords Intergenerational mobility Á Education Á Latin America Á Inequality of
+opportunity Á Circumstances
+JEL Classiﬁcation
+
+I20 Á J62
+
+& Christian Daude
+christian.daude@oecd.org
+1
+
+The present paper analyses the extent of intergenerational transmission of
+educational achievements in 18 Latin American economies. While there is a large
+literature on the intergenerational transmission of income and status for developed
+economies, the evidence on the extent of intergenerational mobility for emerging
+countries is more restricted (due to data limitations).1 In particular, one of the main
+problems for the analysis of intergenerational mobility for the Latin American
+region is the unavailability of panel data (selected countries, e.g. Chile and Mexico,
+have recently started to follow individuals over time) that would enable connecting
+the income or wealth for parents with the income of their offspring.2
+However, using representative population samples at the country level for a large
+number of Latin American countries, this paper can link the educational attainment
+of parents with that of their children, measuring intergenerational persistence of
+educational attainment. Moreover, we deepen the analysis by considering different
+cohorts, as well as the inﬂuence of circumstances (e.g. race, gender, parental income
+background). As education is an important driver of labour market income and
+measurement errors of parental educational outcomes are much smaller than
+income-related variables, this approach, which has also been followed in the
+literature for developing countries, can be implemented for a larger number of
+countries.
+This paper uses three measures of intergenerational educational mobility: the
+beta-coefﬁcient, the partial correlation coefﬁcient, and the overall effect of
+circumstances beyond an individual’s control (i.e. the index of inequality of
+opportunity). All measures coincide in pointing out the relatively low degree of
+intergenerational mobility in Latin America and the importance of parental
+background in determining educational success.
+Within Latin America, there are important differences: while the persistence of
+educational attainment is relatively low in Costa Rica, Uruguay, Guatemala and
+Argentina (the beta-coefﬁcient of educational attainment is below 50 %), in
+Dominican Republic, Venezuela and El Salvador it is above 70 %. The case of
+Chile is remarkable, as the beta-coefﬁcient shows that the intergenerational
+persistence in educational achievement is 57 %—lower than the average value of
+60 %—but the partial correlation coefﬁcient is 67 % and the overall index of
+inequality of opportunity is 48 %, the highest value among the sample.
+The remainder of the paper is structured as follows. Section ‘‘Literature review’’
+places this paper’s contributions in context by presenting a brief literature review;
+Sect. ‘‘Methodology and data’’ describes the conceptual framework to analyse the
+1
+
+Black and Devereux (2010) present a recent survey of the evidence and methodological problems of the
+research available for developed economies, especially the United States. See also Solon (2002) for an
+earlier survey of the evidence on earning mobility across generations.
+
+2
+
+Azevedo and Bouillon (2010) review the evidence on intergenerational social mobility by summarising
+a set of papers for Latin America, and ﬁnd that intergenerational social mobility is lower than the levels
+observed in the United States or the United Kingdom. The authors also note the unavailability of panel
+data for the region. Cuesta et al. (2011) use pseudo panels to overcome this problem for a sample of 14
+in the empirical assessment. Section ‘‘Empirical results’’ presents the main results
+for Latin America and Sect. ‘‘Conclusions and some policy implications’’ discusses
+potential implications.
+
+2 Literature review
+Income inequality in Latin America is extremely high compared to other emerging
+economies as well as high-income countries (e.g. see Hertz et al. 20073; OECD,
+2008; Azevedo and Bouillon 2010; Ferreira and Gignoux 2011, 2013; Brunori et al.
+2013; Torche 2014). In principle, this type of static income inequality across
+individuals (at a certain point in time) does not have to be bad per se, as the
+dispersion in earnings could act as a strong incentive for parents to invest in their
+children’s education. However, for poor households to be able to grasp these
+opportunities, they should have access to well-functioning credit markets, as the
+presence of credit constraints reinforces the intergenerational transmission of
+income (Aiyagari et al. 2003).4
+In principle, educational attainment is a key determinant of wage earnings.
+Therefore, differences in acquired education are important to understand static
+income inequality.
+Hertz et al. (2007) estimate 50-year trends in intergenerational persistence of
+educational attainment for 42 countries, ﬁnding the largest intergenerational
+correlations in the seven Latin American countries included in their analysis. The
+authors ﬁnd that while the beta-coefﬁcient decreased over the last 50 years
+(suggesting an increase in intergenerational mobility), no trend is observed for the
+partial correlation coefﬁcient. The authors suggest that while both are linear
+measures of statistical association and not the true causal effect, the beta-coefﬁcient
+might overestimate the true structural parameter of intergenerational mobility due to
+the omission of other explanatory variables.
+Building on the terminology proposed by Roemer (1998), which distinguishes
+between ‘‘efforts’’ (factors that individuals can control) and ‘‘circumstances’’
+(factors beyond one’s control, such as race, birthplace, or family background) in
+determining ‘‘advantages’’ (outcomes as a result of the combination of circumstances and effort), Ferreira and Gignoux (2011) propose a scalar measure of
+inequality of opportunity. They conduct a comparative analysis of six Latin
+American countries and ﬁnd that in three of them, inequality of opportunity is linked
+to racial origin (indigenous or Afro-descendants).5 In a later study, Brunori et al.
+(2013) analyse inequality of opportunity in a comparative form for 41 countries, of
+3
+
+Hertz et al. (2007) study the intergenerational transmission of educational outcomes in 50 developed
+and developing countries using household surveys. They present results for seven countries from Latin
+America: Brazil, Chile, Colombia, Ecuador, Panama, Peru, and Nicaragua.
+
+4
+
+In Latin America, as documented by Tejerina and Westley (2007) using household surveys, the poor
+have reduced access to credit and saving instruments.
+
+5
+
+Data for this paper come from nationally representative household surveys dated 1996 for Brazil, 2003
+positively correlated with income inequality, and negatively related to intergenerational income and educational mobility. Moreover, they ﬁnd the highest levels of
+inequality of opportunity for these six Latin American countries among the whole
+sample considered.7
+Corak (2013) also links the presence of inequality with lack of opportunities and
+of mobility. He argues that the presence of inequality shapes opportunities and in
+turn, lack of opportunity lowers mobility.8 By describing the case of the United
+States, Corak (2013) argues that the ‘‘American Dream’’ (i.e. prospects for upward
+mobility) makes low income earners not strong advocates of redistributive policies,
+because of the belief that either they or their descendants can climb the income
+ladder.9 Corak (2013) cites Solon (2004) arguing that the Great Gatsby Curve (the
+relationship between more income inequality and less intergenerational mobility)
+can be due to high returns to education.10 Parents with high education would have
+both the capacity and the incentive to invest in their children’s education.
+Recently, Torche (2014) discusses the literature on equality of opportunity in a
+set of studies for Latin America. The review ﬁnds that parental education is the most
+inﬂuential circumstance for an individual, concluding that inequality of opportunity
+is higher in Latin America than in industrial countries. Torche argues that the high
+(albeit decreasing) returns to education in Latin America can foster mobility, but
+they might also create a situation of ‘‘inherited meritocracy’’, because of the barriers
+that the lower segments of the income distribution face in accessing education
+(quantity and quality). Relatedly, Azevedo and Bouillon (2010) associate the high
+levels of immobility in Latin America with social exclusion, low access to higher
+education and labour market discrimination.11
+If societies do not bring equal opportunities based on merit and ability,
+independent of race, gender or social origin, then today’s social and economic status
+may be transmitted from parents to their offspring. The focus of this paper is
+precisely the analysis of mobility in terms of educational attainment for parents and
+children. In particular, a contribution of the paper is enriching the analysis by
+considering several dimensions: race, gender and parental income, and analysing the
+robustness of the ﬁndings across different measures of intergenerational mobility.
+
+6
+
+The countries are Brazil, Colombia, Ecuador, Guatemala, Panama and Peru.
+
+7
+
+See Brunori et al. (2013): Fig. 2, page 26.
+
+8
+
+Citing Roemer (1998) and Corak (2013) argues that circumstances affect opportunity by three channels:
+social capital, genetic traits, and family values, and that while policies that affect social capital tend to be
+accepted, less consensus is placed on policies intending to offset genetic advantages, and within-family
+investments.
+
+9
+
+Corak (2013) concludes that relatively less upward mobility of the least advantaged is one of the
+reasons why intergenerational mobility in the United States is lower than in other countries. In addition,
+Corak (2013) concludes that the persistence at the top 1 % of the income distribution also makes
+intergenerational mobility in the United States lower than in other countries.
+
+10
+
+See the Appendix for an analytical framework based on the Solon (2004) model.
+˜
+Nopo et al. (2010) present evidence of racial discrimination in Latin America, while Carrillo,
+Gandelman and Robano (2014) present evidence of gender discrimination in Latin America.
+
+countries in the region. With the exception of Cuesta et al. (2011), the available
+studies generally have covered these issues for a maximum of seven countries, often
+with larger samples that allow studying speciﬁc countries in depth. The present
+paper’s broader country coverage complements this literature by emphasising both
+the common features within the region, as well as the differences across countries.
+In contrast to Cuesta et al. (2011), who rely on pseudo cohorts to study
+intergenerational income mobility, we use the directly reported own and parental
+education level, which allows us to rely on a larger number of observations (in our
+sample, we have around 14,000 observations compared to around 1000). This also
+allows us to have relatively precise estimates for individual countries and explore
+what drives the differences across countries. Furthermore, while income mobility in
+principle encompasses educational mobility, income is measured with signiﬁcantly
+large errors. Focusing on educational attainment, a key determinant of wages, is
+easier to observe and quantify, enabling to decrease measurement errors.
+Using a novel approach, a series of studies have analysed educational mobility in
+Latin America by linking the performance of children currently in the education
+system with the educational attainment of parents, using household surveys (see for
+example, Behrmann et al. 1999, 2001; Andersen, 2001; Conconi et al. 2007;
+Gandelman and Robano 2014). These papers analyse the inﬂuence of parental
+background (e.g. income, education) on the success or failure of children in school,
+where the outcome is a child’s completed grade and that corresponding to the
+child’s cohort. However, the education spells are incomplete and therefore mobility
+might not be measured accurately in using this methodology. In this sense, a third
+contribution of this paper is that we are able to compare ﬁnal educational
+attainments of children with that of their parents.
+
+3 Methodology and data
+This section describes the estimation techniques used in this paper to account for
+intergenerational educational mobility, as well as a brief description of the dataset
+used. We compute three measures of intergenerational educational mobility: the
+beta-coefﬁcient, which quantiﬁes the rate of transmission of educational achievements between one generation and the next, the correlation coefﬁcient, which in
+addition takes into account the variation in the dispersion of the educational
+achievements; and the index of inequality of opportunity, which takes into account
+an additional set of observed variables (circumstances) in explaining the intergenerational transmission of educational attainment between parents and children.
+Each measure has beneﬁts and limitations. The beta-coefﬁcient is very intuitive
+to understand and shows the difference in intergenerational transmission of
+education that exists in Latin America compared to the rest of the world. However,
+beta-coefﬁcient estimates are in general very volatile, and do not take into account
+the variation in the dispersion of educational attainment for parents and children,
+which the partial correlation coefﬁcient does. The partial correlation coefﬁcient, in
+opportunity, which considers the overall effect of circumstances (race, gender,
+family income) in explaining own education.
+3.1 Beta- and partial correlation coefﬁcient estimation
+The baseline estimation for an individual i in country j is given by:
+Eij ¼ a þ bPEij þ eij ;
+
+ð1Þ
+
+where E stands for person i’s own educational attainment, PE the parental educational attainment, and e is a white noise disturbance. This equation allows us the
+quantiﬁcation of the importance of parental education on own educational attainment using two related measures. The ﬁrst one is the estimated coefﬁcient of parental education (beta-coefﬁcient). The beta-coefﬁcient shows the relationship
+between each additional year of education of parents and own education. A higher
+beta-coefﬁcient implies higher persistence and thus lower intergenerational
+mobility.
+Additionally, one can consider the correlation coefﬁcient between E and PE.12
+The correlation coefﬁcient shows how much of the observed dispersion in own
+education is explained by parental education. Again, a higher correlation coefﬁcient
+implies lower intergenerational mobility. The relationship between the two
+measures is as follows: the beta-coefﬁcient equals the correlation coefﬁcient
+between own and parental education weighted by the ratio of the standard deviations
+of own and parental education:
+rE
+bj ¼ j qEj ;PEj ;
+ð2Þ
+rPEj
+Therefore, any apparent divergence between the two measures can be due to
+changes in the ratio of standard deviations.
+Moreover, we include a squared term of parental education, to explore the
+possibility of a non-linear relationship between intergenerational education
+attainments and also include country ﬁxed-effect, which enables capturing
+systematic differences across countries in unobservable factors at the country level
+that might be correlated with parental education (adding the term lj), estimating
+therefore:
+À
+Á2
+Eij ¼ a þ lj þ bPEij þ d PEij þeij
+ð3Þ
+and
+Eij ¼ a þ lj þ bPEij þ eij ;
+
+ð4Þ
+
+OLS estimates of the above equations are potentially biased upwards if there is
+signiﬁcant transmission of ability and other unobservable characteristics from
+12
+When considering a more general set-up with multiple regressors, these moments are conditional on
+Although the debate regarding the relative importance of innate characteristics
+versus environmental conditions (‘‘nature versus nurture’’) is not settled (see
+¨
+Bjorklund et al. 2007), there is evidence that the inheritance of cognitive skills has
+only limited importance as a driver of intergenerational mobility (OECD 2008).
+3.2 Index of inequality of opportunity estimation
+There might be additional variables inﬂuencing own educational achievement that
+are correlated with parental education and affecting also the beta-coefﬁcient.
+Therefore, in the spirit of Ferreira and Gignoux (2011, 2013), we construct a scalar
+measure of inequality of opportunity that combines the overall effect of
+circumstances on an individual’s educational attainment. We thus augment the
+baseline estimation and consider:
+Eij ¼ a þ lj þ bPEij þ uWhiteij þ cFemaleij þ jPIDij þ eij ;
+
+ð5Þ
+
+where White is a binary variable indicating self-reported racial origin; Female is a
+binary variable indicating whether individual is female, and PID stands for parent
+income ten-quantile classiﬁcation, self-reported by the offspring. Following Ferreira
+and Gignoux (2011, 2013) deﬁnitions and calculations, we compute here the overall
+effect of (our own deﬁned set of) circumstances on the ﬁnal educational attainment
+of individuals and construct an index of inequality of opportunity, a scalar that
+measures the proportion of the whole variance that is explained by the set of predeﬁned circumstances. The index of inequality of opportunity (hIOp) that we estimate here for each country j derives from Eq. (5) and is thus:
+^
+VarðEj Þ
+^
+;
+hIOp ¼
+VarðEj Þ
+
+ð6Þ
+
+ˆ
+where E comes from the parametric estimation of Eq. (5), the reduced-form
+regression of own educational attainment on circumstances, for the average person
+within each type of circumstance.13
+3.3 Data description
+´
+Data come from Latinobarometro, a public opinion survey conducted annually in
+Latin America. For the 2008 survey, over 20,000 interviews were conducted in 18
+Latin American countries. The samples are representative of the national
+population. Roughly 1000–1200 interviews by country are conducted, with an
+´
+estimated 3 % sampling error.14 Despite the smaller sample size of Latinobarometro
+
+13
+There are a maximum of 16 years of education, two racial classiﬁcations, two gender classiﬁcations
+and ten parental income decile classiﬁcations.
+14
+
+in our sample and those resulting from national household surveys.15
+Table 1 presents summary statistics of our main variables of interest: (own)
+education and parental education.16 In all countries, there is a signiﬁcant increase in
+the years of education (and the level attained) from one generation to the other. On
+average, the years of education increased by 3 years. At median levels, while
+parents’ educational attainment is lower than completed primary education, even at
+the 25th percentile of children’s educational distribution, primary education is
+completed.
+The increase in educational attainment for children has been larger in most
+countries that started at very low levels of parental education (e.g. 4.1 years in El
+Salvador), although Nicaragua is an exception with the lowest increase, despite
+exhibiting low levels of parental educational attainment.
+There are also important differences across countries. For example, higher
+income countries exhibit systematically higher levels of education across all points
+of the distribution. For example, in Argentina and Chile, 50 % of the population has
+completed secondary education and the lowest 25 % still have at least completed
+primary education. In contrast, Guatemala still exhibits large levels of illiteracy and
+even the upper 25 percentile has on average 6.5 years of education, i.e. just a little
+bit more than complete primary education.
+Finally, in most countries, the data show some intergenerational convergence in
+the years of education, as the growth in educational attainment is higher at the lower
+end of the distribution. For example, while in most countries the lower 25 percentile
+of parents were basically illiterate with zero years of formal education—while in
+Argentina, Chile, Colombia, Paraguay, Peru, Uruguay and Venezuela they had at
+least some primary education—many of these countries present increases in
+education toward complete primary education. Furthermore, in general, the median
+has also beneﬁtted more than the upper 25 percentiles in terms of increases in
+educational attainment.17 However, these average trends could be consistent with
+very little as well as high levels of intergenerational mobility. Thus, an analysis of
+considering the families’ trajectories can provide further insight.
+
+4 Empirical results
+In this section, we present the estimates of the three measures of intergenerational
+educational mobility outlined above. First, we present the baseline estimations of
+the correlations between own and parental educational achievement, comparing
+them to the empirical evidence available for other regions, countries and datasets.
+Second, we explore potential differences across gender, cohorts and non-linear
+15
+
+Using information from CEDLAS SEDLAC database on average years of education in the 18
+´
+countries covered by Latinobarometro, the average difference in years of education for the population
+over 25 years old is 0.04, which is not signiﬁcant at conventional levels of conﬁdence.
+16
+
+See Table 7 for summary statistics by country.
+
+17
+
+Of course, part of the story is that for high levels of education, the offspring is naturally constrained to
+Own education (years)
+
+Parental education (years)
+
+Mean
+
+Argentina
+
+Std
+Dev
+
+25th
+pctl.
+
+Median
+
+75th
+pctl.
+
+Mean
+
+Std
+Dev
+
+25th
+pctl.
+
+Median
+
+75th
+pctl.
+12
+
+10.40
+
+3.61
+
+7
+
+12
+
+13
+
+7.57
+
+4.18
+
+6
+
+7
+
+Bolivia
+
+8.14
+
+5.07
+
+4
+
+8
+
+12
+
+4.83
+
+5.17
+
+0
+
+3
+
+9
+
+Brazil
+
+7.66
+
+4.68
+
+4
+
+8
+
+11
+
+4.33
+
+4.33
+
+0
+
+4
+
+8
+
+Colombia
+
+9.08
+
+4.82
+
+5
+
+11
+
+13
+
+5.12
+
+4.56
+
+1
+
+5
+
+7
+
+Costa Rica
+
+7.84
+
+4.39
+
+5
+
+6
+
+11
+
+4.77
+
+4.10
+
+0
+
+6
+
+6
+
+Chile
+
+10.64
+
+3.92
+
+8
+
+12
+
+12.5
+
+8.40
+
+4.54
+
+5
+
+8
+
+12
+
+Dom. Rep.
+
+8.22
+
+4.77
+
+6
+
+8
+
+12
+
+5.46
+
+4.92
+
+0
+
+5
+
+9
+
+Ecuador
+
+8.05
+
+4.75
+
+6
+
+6
+
+12
+
+5.44
+
+4.65
+
+0
+
+6
+
+6
+
+El Salvador
+
+6.70
+
+5.00
+
+2
+
+7
+
+10
+
+2.60
+
+4.25
+
+0
+
+0
+
+5
+
+Guatemala
+
+4.51
+
+4.56
+
+0
+
+4
+
+6.5
+
+2.49
+
+3.96
+
+0
+
+0
+
+5
+
+Honduras
+
+6.04
+
+4.08
+
+2.5
+
+6.5
+
+Mexico
+
+8.61
+
+4.82
+
+6
+
+9
+
+Nicaragua
+
+5.53
+
+4.72
+
+1
+
+Panama
+
+8.05
+
+4.78
+
+5
+
+Paraguay
+
+8.89
+
+4.21
+
+Peru
+
+9.07
+
+Uruguay
+
+8.74
+10.62
+
+Venezuela
+
+9
+
+2.76
+
+3.78
+
+0
+
+0
+
+6
+
+12
+
+5.03
+
+5.05
+
+0
+
+4
+
+9
+
+5
+
+9
+
+3.61
+
+4.56
+
+0
+
+2
+
+6
+
+8
+
+12
+
+4.45
+
+4.98
+
+0
+
+3
+
+7
+
+6
+
+9
+
+12
+
+6.19
+
+4.24
+
+3
+
+6
+
+9
+
+4.79
+
+6
+
+11
+
+13
+
+6.28
+
+5.30
+
+1
+
+6
+
+11
+
+3.73
+
+6
+
+9
+
+12
+
+6.77
+
+3.74
+
+6
+
+6
+
+9
+
+4.04
+
+8
+
+11
+
+15
+
+7.36
+
+4.73
+
+6
+
+6
+
+11
+
+Parental education refers to the highest level attained by the father or mother
+´
+Source: Based on Latinobarometro 2008 survey
+
+effects. Third, we explore differences across countries in intergenerational mobility.
+Finally, we explore the potential drivers of these cross-country differences across
+Latin American countries.
+4.1 Pooled beta- and correlation coefﬁcient estimations
+In Table 2, we present the estimates for Eqs. (1) and (2), the beta and correlation
+coefﬁcient estimates for the population at least 25 years old in 2008. The ﬁrst
+column shows that parental education has a statistically signiﬁcant impact for all the
+speciﬁcations considered. In terms of the estimated beta-coefﬁcient, an additional
+year of parental education increases on average the offspring’s education by
+0.65 years (or 0.61 if country dummies are included), a result consistent with the
+estimates found by Hertz et al. (2007) for a smaller sample of countries.
+The partial correlation coefﬁcient shows that parental education accounts for
+around 61.2 % of the dispersion in its offspring’s educational attainment in our
+sample. According to Hertz et al. sample of 42 countries, the average correlation
+Beta-coefﬁcient
+
+Correlation coefﬁcient
+
+R2
+
+Country ﬁxed effects
+
+1.
+
+0.653 (0.006)***
+
+0.612
+
+0.374
+
+No
+
+2.
+
+0.605 (0.007)***
+
+0.566
+
+0.403
+
+Yes
+
+Robust standard errors in parentheses
+Number of observations in all regressions: 14,196
+*** Signiﬁcant at 1 %, ** signiﬁcant at 5 %, * signiﬁcant at 10 %
+
+95 % conﬁdence interval
+
+point estimate
+
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+Asia
+
+Africa
+
+Eastern
+Europe
+
+Latin
+Western
+Latin
+Europe/USA America America 18
+(Herĵ et al) Countries
+
+Fig. 1 Regional average correlation coefﬁcients between own and parental education. Asia includes
+Bangladesh, China (rural), East Timor, Indonesia, Malaysia, Nepal, Pakistan, Philippines, Sri Lanka, and
+Vietnam; Africa: Egypt, Ethiopia (rural), Ghana, South Africa; Eastern Europe: Czech Republic, Estonia,
+Hungary, Kyrgyzstan, Poland, Slovakia, Slovenia, Ukraine; Western Europe/USA: Belgium, Denmark,
+Finland, Ireland, Italy, Netherlands, New Zealand, Northern Ireland, Norway, Sweden, Switzerland,
+United Kingdom and USA. Source: Hertz et al. (2007) for Asia, Africa, Eastern Europe, Western Europe/
+´
+USA and Latin America; own calculations based on Latinobarometro 2008 survey for 18 Latin American
+countries
+
+this average is relatively stable across developed and developing regions, with the
+exception of Latin America. Thus, parental background explains a signiﬁcantly
+higher fraction of the variation in educational attainment in Latin America than
+elsewhere. Figure 1 also shows that our pooled estimate for the 18 Latin American
+countries in our sample is very close to the average estimate by Hertz et al. (2007)
+for the seven countries in their sample for the partial correlation coefﬁcient.
+Therefore, these ﬁrst estimates show a consistent picture with the previous
+literature on intergenerational educational mobility in emerging economies. While
+the beta-coefﬁcient shows that an additional year of parental schooling adds
+0.65 years to the child’s educational attainment, a signiﬁcant number but not
+based on Eq. (2), as two countries can present the same beta-coefﬁcient, but the
+correlation coefﬁcient can be very different if the relative dispersions in parental
+and/or child education ﬂuctuate.
+Regarding the correlation coefﬁcient measure of mobility, adding the squared
+term does not signiﬁcantly increase the importance of parental background, as it
+moves just marginally from 0.612 to 0.620.
+We analyse next whether this persistence of educational attainments has varied
+across cohorts. We estimate Eq. (4) for four separate cohorts, and present the results
+in a set of ﬁgures, considering separately the variations by gender.
+Figure 2 shows the beta-coefﬁcient estimate, suggesting that the persistence of
+educational attainments decreases across cohorts, implying higher levels of mobility
+for the younger generations. A quantiﬁcation of the impact of the intergenerational
+transmission of educational attainment for individuals in the 25- and 34-year-old
+cohort is between 23 and 33 % smaller (women and men, respectively) to those over
+55 years old in 2008.
+However, the analysis of the correlation coefﬁcient shows that there is no
+signiﬁcant change across generations in this measure of educational mobility (see
+Fig. 3). There are no signiﬁcant differences by gender.
+A plausible explanation for the discrepancy between beta and rho can be due to
+changes in the standard deviations of own education rE, and parental education,
+rPE. To assess this possibility, the left-hand panel of Fig. 4 shows the steady
+increase in average education across cohorts. The right-hand side shows that while
+the dispersion of own education has remained fairly constant (with some decline for
+younger generations), the dispersion in parental education is signiﬁcantly higher for
+younger cohorts. Thus, the b-coefﬁcient is lower for the young cohorts due to the
+fact that the standard deviation of parental education is higher for younger cohorts,
+as also shown by Daude (2011).
+
+Women
+point estimate
+
+Men
+95% conﬁdence interval
+
+point estimate
+
+0.75
+0.70
+
+0.70
+
+0.65
+
+0.65
+
+0.60
+
+0.60
+
+0.55
+
+0.55
+
+0.50
+
+95% conﬁdence interval
+
+0.75
+
+0.50
+
+0.45
+
+0.45
+
+0.40
+55 +
+
+45 - 54
+
+35-44
+
+Cohorts (age in 2008)
+
+25-34
+
+0.40
+55 +
+
+45 - 54
+35-44
+Cohorts (age in 2008)
+
+25-34
+
+point estimate
+
+Men
+95% conﬁdence interval
+
+point estimate
+
+0.70
+
+0.65
+
+0.65
+
+0.60
+
+0.60
+
+0.55
+
+95% conﬁdence interval
+
+0.70
+
+0.55
+
+0.50
+
+0.50
+55 +
+
+45 - 54
+35-44
+Cohorts (age in 2008)
+
+25-34
+
+55 +
+
+45 - 54
+35-44
+Cohorts (age in 2008)
+
+25-34
+
+Fig. 3 Correlation coefﬁcient
+
+Standard Deviations
+
+Sample Means
+own education
+
+own education
+
+parental education
+
+8.0
+
+parental education
+
+5.5
+5.0
+
+Years of education
+
+Years of education
+
+10.0
+
+6.0
+4.0
+2.0
+0.0
+
+4.5
+4.0
+3.5
+3.0
+
+55+
+
+45-54
+
+35-44
+
+Cohort (age in 2008)
+
+25-34
+
+55+
+
+45-54
+
+35-44
+
+25-34
+
+Cohort (age in 2008)
+
+Fig. 4 Sample moments by cohorts
+
+In Table 3, we present the results from estimating Eq. (3), which considers the
+possibility of a non-linear relationship between own and parental education. The
+new estimates imply that the tipping point, where an additional year of parental
+education would start to have a negative effect, is at around 22 years of parental
+education, which is well beyond the maximum of 16 years observed in our sample.
+This result could be driven by the fact that upward mobility is more common than
+downward mobility, such that individuals whose parents had high levels of
+education are also likely to remain at the higher end of the distribution, while those
+with very low-level parental background can by deﬁnition only move up. In terms of
+the correlation coefﬁcient, these estimates are very close to the ones reported in
+Table 2. Therefore, non-linearities do not seem to play a major role.
+Overall, the estimates presented so far conﬁrm that for both measures our pooled
+(1)
+
+(2)
+
+Parental education (years)
+
+0.938 (0.019)***
+
+0.852 (0.021)***
+
+Parental education squared
+
+-0.022 (0.001)***
+
+-0.019 (0.001)***
+
+Constant
+
+4.552 (0.056)***
+
+5.529 (0.129)***
+
+Observations
+
+14,196
+
+14,196
+
+R2
+
+0.384
+
+0.410
+
+Correlation coefﬁcienta
+
+0.620
+
+0.573
+
+Country dummies
+
+No
+
+Yes
+
+Robust standard errors in parentheses
+*** Signiﬁcant at 1 %, ** signiﬁcant at 5 %, * signiﬁcant at 10 %
+a
+
+For the regression including country dummies, the correlation coefﬁcient refers to the partial correlation
+(between residuals of regressing in a ﬁrst step parent and child education on country dummies)
+
+mobility, despite differences in sampling and years covered. Our estimates also
+show that the importance of parental education in explaining differences across their
+children’s educational attainment—measured by the correlation coefﬁcient—is very
+high compared to other countries and stable across cohorts.
+4.2 Index of inequality of opportunity h
+In this section, we present the estimates from Eq. (5), augmenting the baseline
+estimation to include the effect of additional variables beyond an individual’s
+control, such as race (self-reported white versus non-whites), gender, and family
+income (self-reported parental income status) in the correlation between parental
+and own educational achievements.18 We include these additional observed
+variables in the regressions presented in Table 4, both as additional explanatory
+variables and also their interactions with parental education allowing for a
+differential effect across groups. The results show an index of inequality of
+opportunity (hIOp) for the region of around 0.38, in line with Ferreira and Gignoux
+(2013) estimates of 0.35 worldwide and above 0.30 for Argentina, Brazil and
+Chile).19
+The results show that overall the baseline estimates from Table 2 are robust to
+the inclusion of these additional controls. While self-reported white individuals
+have on average 0.42 more years of education, there is no difference in the
+educational mobility between white and non-white individuals (columns 1 and 2).
+The interaction term—which is actually negative—is only marginally signiﬁcant at
+10 % and economically small. Females present lower levels of educational
+18
+
+Given that there might be other circumstances beyond an individual’s control that are not included in
+this regression, the measure of h shall be considered as a lower bound estimate of inequality of
+opportunity.
+19
+The estimates from Ferreira and Gignoux (2011) do not show a clear geographical pattern in the index
+(0.006)***
+
+(3)
+
+-0.261
+(0.098)***
+
+0.645
+(0.009)***
+
+(4)
+
+0.274
+(0.018)***
+
+0.595
+(0.007)***
+
+(5)
+
+0.387
+(0.026)***
+
+0.716
+(0.018)***
+
+(6)
+
+0.374
+
+*** Signiﬁcant at 1 %, ** signiﬁcant at 5 %, * signiﬁcant at 10 %
+
+Robust standard errors in parentheses
+
+0.375
+
+14,196
+0.374
+
+14,196
+
+0.381
+
+12,183
+
+0.383
+
+12,183
+
+0.375
+
+R2
+
+12,942
+
+12,942
+
+Observations
+
+4.169
+(0.081)***
+
+3.702
+(0.108)***
+
+5.071
+(0.072)***
+
+Constant
+
+5.035
+(0.061)***
+
+-0.026
+(0.004)***
+
+4.869
+(0.060)***
+
+0.015 (0.013)
+
+Parental education 9 income
+decile
+
+Parental income decile
+
+Parental education 9 female
+
+Female
+
+-0.033*
+(0.014)
+
+0.602
+(0.118)***
+
+0.652
+(0.009)***
+
+(2)
+
+4.913
+(0.055)***
+
+0.423
+(0.072)***
+
+White
+
+Parental education 9 white
+
+0.641
+(0.007)***
+
+Parental education
+
+(1)
+
+Table 4 Index of inequality of opportunity
+
+0.382
+
+11,122
+
+4.287
+(0.096)***
+
+0.258
+(0.019)***
+
+-0.156**
+(0.073)
+
+0.336
+(0.076)***
+
+0.589
+(0.008)***
+
+(7)
+
+0.385
+
+11,122
+
+3.859
+(0.132)***
+
+-0.025
+(0.004)***
+
+0.370
+(0.027)***
+
+0.019 (0.014)
+
+-0.258**
+(0.113)
+
+-0.014 (0.015)
+
+0.402
+(0.128)***
+
+0.702
+(0.021)***
+
+(8)
+interaction term. The 10-decile classiﬁcation of parental income is associated with
+higher levels of educational attainment (see columns 5 and 6). The interaction term
+of parental income and parental education is statistically signiﬁcant and negative.
+However, it is relatively small and the mean effect dominates. For example, for all
+levels below 16 years of parental education, somebody in the highest decile would
+have a higher predicted level of education based on the estimates of column (6) than
+somebody in the ﬁrst decile.20 Considering all circumstances together (columns 7
+and 8) explains more almost 40 % of the variance of own education. Two ﬁnal
+issues are of interest. First, adding more controls does not change dramatically the
+beta-coefﬁcient (columns 1, 3 and 5), which remains between 0.60 and 0.65, close
+the baseline estimate of 0.61 from Table 1. Second, adding the additional controls
+does not affect signiﬁcantly the variance explained by the model. While including
+only parental education yields a R2 of 0.375 (Table 1), adding parental income, the
+gender and white dummies increase the R2 just to 0.382. By contrast, when
+excluding parental education, the R2 is just 0.09 (not shown due to space
+considerations). Therefore, parental education seems to be a key variable to
+understand the external circumstances that condition opportunities.
+4.3 Comparisons between countries
+Figure 5 shows estimates for both measures of persistence of educational attainment
+by country, and their 95 % conﬁdence intervals. There is considerable variation in
+the region in both measures. For example, while Costa Rica presents a betacoefﬁcient of 0.36, for Guatemala it is 0.68, almost twice as large. These differences
+are economically signiﬁcant. For example, the elasticities imply that a 4-year
+difference in parental education would on average imply 1.6 years more of
+education for the next generation in Costa Rica, while in Guatemala the equivalent
+ﬁgure would be 3.4 years. Given a year of additional education is worth 12 %—the
+average return to education in Latin America21—these extra years could translate
+into a differential in wage earnings of 19 and 41 %, respectively.22
+In general, countries that show low mobility using the beta-coefﬁcient measure
+also present low correlation coefﬁcient mobility.23 The case of Chile is somewhat
+atypical, given that it ranks relatively well in terms of the beta-coefﬁcient measure,
+compared to other countries in the region. However, the correlation coefﬁcient
+shows that Chile is second only to Guatemala when measuring intergenerational
+mobility by the correlation coefﬁcient (which quantiﬁes the dispersion in
+educational achievement within a generation).
+In Table 5, we present the estimates of intergenerational mobility by country,
+adding a set of circumstances in explaining educational attainment. First, column (1)
+20
+
+This effect is even larger as income and education are positively correlated (0.33 in our sample).
+
+21
+
+Psacharopoulos and Patrinos (2004).
+
+22
+
+Although many of the differences between the point estimates are not statistically signiﬁcant at
+standard levels of conﬁdence.
+23
+
+
+.4
+
+.6
+
+.8
+
+1
+
+9 Page 16 of 29
+
+CRI VEN HND ARG PER CHI COL URY MEX PRY NIC SLV PAN BOL BRA ECU DOM GTM
+
+ubbeta/lbbeta
+
+beta
+
+Fig. 5 Beta-coefﬁcient by country
+
+shows that the coefﬁcient indicating intergenerational persistence of educational
+attainment is always signiﬁcant, and there is no large variation among countries.
+Being white (column 2) has a positive signiﬁcant impact on educational persistence in
+Argentina, Brazil, Panama and Venezuela, while in Bolivia and Mexico, the impact is
+signiﬁcant but negative (thus implying for these two countries that mobility is higher
+for the non-white). In column 3, the effect of being female on educational attainment is
+shown: females show lower persistence of intergenerational educational attainment in
+Bolivia, Chile, El Salvador, Paraguay and Peru. Column 4 shows the coefﬁcient of
+parental income classiﬁcation: with the exception of Brazil, parental income is
+signiﬁcant in explaining own educational attainment in all countries (Fig. 6).
+Furthermore, we compute the index of inequality of opportunity considering the
+set of circumstances described above (see Fig. 7). The pattern is very similar to the
+one found above by the beta- and the correlation coefﬁcient: in Costa Rica,
+circumstances explain the lowest proportion of the variation in own educational
+attainment, which implies a higher chance of intergenerational mobility. By
+contrast, in Guatemala, Chile and Ecuador, circumstances beyond an individual’s
+control explain most of the observed variation in educational attainment.
+Therefore, this analysis that includes additional circumstances beyond parental
+education shows that these factors vary across country, but overall parental
+education is a robust predictor of own education in the region.24 Actually, the
+24
+These estimates should be seen as a lower bound of inequality of opportunity, as other relevant
+circumstances that are omitted from the analysis are likely to be positively correlated with the explanatory
+
+0.576 (0.036)***
+
+0.553 (0.037)***
+
+0.551 (0.034)***
+
+0.498 (0.029)***
+
+0.577 (0.031)***
+
+0.418 (0.030)***
+
+Honduras
+
+Mexico
+
+Nicaragua
+
+Panama
+
+Paraguay
+
+Peru
+
+Uruguay
+
+Venezuela
+
+0.477 (0.275)*
+
+0.348 (0.360)
+
+-0.680 (0.528)
+
+0.380 (0.305)
+
+1.914 (0.451)***
+
+-0.608 (0.577)
+
+-0.844 (0.427)**
+
+0.224 (0.407)
+
+-0.649 (0.509)
+
+0.284 (0.656)
+
+-0.213 (0.518)
+
+0.259 (0.596)
+
+-0.323 (0.219)
+
+0.233 (0.373)
+
+-0.136 (0.355)
+
+0.930 (0.288)***
+
+-1.429 (0.793)
+
+0.744 (0.272)***
+
+White
+
+*** Signiﬁcant at 1 %, ** signiﬁcant at 5 %, * signiﬁcant at 10 %
+
+Robust standard errors in parentheses
+
+0.567 (0.045)***
+
+Guatemala
+
+0.543 (0.026)***
+
+Chile
+
+El Salvador
+
+0.367 (0.047)***
+
+Costa Rica
+
+0.676 (0.040)***
+
+0.502 (0.040)***
+
+Colombia
+
+0.665 (0.029)***
+
+0.642 (0.034)***
+
+Ecuador
+
+0.596 (0.033)***
+
+Bolivia
+
+Brazil
+
+Dom. Rep.
+
+0.441 (0.029)***
+
+Argentina
+
+Parental education
+
+Table 5 Effect of circumstances on own educational attainment
+
+0.318 (0.265)
+
+0.137 (0.233)
+
+-1.392 (0.288)***
+
+-0.652 (0.309)**
+
+0.048 (0.332)
+
+0.123 (0.361)
+
+-0.344 (0.309)
+
+0.177 (0.331)
+
+-0.012 (0.324)
+
+-0.730 (0.391)*
+
+-0.204 (0.258)
+
+0.123 (0.373)
+
+-0.647 (0.195)***
+
+-0.476 (0.372)
+
+0.321 (0.345)
+
+0.329 (0.284)
+
+-0.982 (0.303)***
+
+0.347 (0.227)
+
+Female
+
+0.223 (0.080)***
+
+0.113 (0.057)
+
+0.246 (0.081)***
+
+0.159 (0.080)**
+
+0.395 (0.078)***
+
+0.282 (0.083)***
+
+0.250 (0.075)***
+
+0.193 (0.082)**
+
+0.176 (0.092)*
+
+0.195 (0.090)**
+
+0.290 (0.074)***
+
+0.345 (0.116)***
+
+0.233 (0.064)***
+
+0.219 (0.095)**
+
+0.355 (0.082)***
+
+0.097 (0.073)
+
+0.432 (0.096)***
+
+0.265 (0.065)***
+
+Parent income decile
+
+6.348 (0.492)***
+
+4.209 (0.481)***
+
+6.021 (0.363)***
+
+5.327 (0.477)***
+
+3.622 (0.416)***
+
+2.826 (0.373)***
+
+5.442 (0.397)***
+
+4.154 (0.364)***
+
+1.873 (0.368)***
+
+4.545 (0.439)***
+
+3.575 (0.342)***
+
+3.647 (0.532)***
+
+6.122 (0.363)***
+
+5.252 (0.561)***
+
+5.273 (0.422)***
+
+4.007 (0.393)***
+
+4.221 (0.396)***
+
+5.317 (0.417)***
+
+Constant
+
+735
+
+709
+
+728
+
+498
+
+490
+
+501
+
+627
+
+515
+
+442
+
+532
+
+795
+
+469
+
+767
+
+481
+
+653
+
+804
+
+687
+
+689
+
+Obs.
+
+0.256
+
+0.316
+
+0.366
+
+0.345
+
+0.430
+
+0.330
+
+0.374
+
+0.153
+
+0.453
+
+0.236
+
+0.435
+
+0.418
+
+0.478
+
+0.142
+
+0.290
+
+0.314
+
+0.424
+
+0.323
+
+R2
+
+Lat Am Econ Rev (2015) 24:9
+
+.4
+
+.6
+
+.8
+
+1
+
+9 Page 18 of 29
+
+CRI HND SLV COL VEN ARG URY BRA NIC PER PRY MEX PAN BOL DOM ECU CHI GTM
+
+ubrho/lbrho
+
+rho
+
+Fig. 6 Correlation coefﬁcient by country
+
+CRI
+HND
+SLV
+VEN
+COL
+BRA
+URY
+ARG
+NIC
+PRY
+PER
+MEX
+DOM
+BOL
+PAN
+ECU
+GTM
+CHI
+0
+
+.1
+
+.2
+
+.3
+
+.4
+
+.5
+
+Inequality of Opportunity
+
+Fig. 7 Index of Inequality of opportunity
+
+correlation between the index of inequality of opportunities and the correlation
+coefﬁcient between parental and own education is 0.98 in our sample. This does not
+mean that parental education is a sufﬁcient statistic to understand differences in
+This section explores some of the possible determinants of intergenerational
+mobility. Rather than presenting causal evidence, it shows some cross-country
+correlations to motivate future research in this area. As Angrist and Pischke (2009)
+point out, correlation is an important predictor of the existence of causality.
+Figure 8 shows the relationship between the beta and partial correlation
+coefﬁcient and three variables that economic theory considers potential drivers:
+income inequality, the returns to education and public education expenditure (see
+the Appendix). To reduce causality problems, we use the earliest available data,
+which in general are around the mid-1990s.
+In terms of income inequality (measured by the Gini index), there is a positive
+correlation with both measures of intergenerational persistence across countries in
+the region. The correlation coefﬁcient is 0.44 for the beta-coefﬁcient and 0.37 for
+the partial correlation coefﬁcient. Therefore, societies in Latin America that are less
+mobile tend also to exhibit high levels of inequality. According to the analytical
+framework described in the Appendix, the same factors that affect intergenerational
+mobility (private returns to education, progressivity of public investment in
+education, and other transmissible factors such as abilities, race and social
+networks) also determine the cross-sectional distribution of income in the long run.
+In the transition period, a decline in income inequality (perhaps due to changes in
+the skill premium or returns to education) or an increase in the progressivity of
+public expenditure on education would cause an increase in social mobility.
+Figure 8 also shows the correlation of educational mobility and the returns to
+primary education. While for the beta-coefﬁcient the correlation between intergenerational persistence and higher returns to education is signiﬁcantly positive, as
+predicted above, for the correlation coefﬁcient it is much weaker. A plausible
+explanation is that in countries where the returns to education are high—and poor
+households face credit constraints—households with higher parental education (and
+probably income) will take advantage to investing more in education, while poor
+households cannot afford to do so. The weaker link between the partial correlation
+coefﬁcient and the returns to primary education might be driven by our small
+sample size. In fact, when including also OECD countries, Daude (2011) ﬁnds a
+signiﬁcantly positive correlation between the returns to education and the partial
+correlation coefﬁcient.
+Progressive investment funded by the public sector could equalise opportunities
+for children of different social and economic background. The empirical evidence
+shows a negative relationship between both measures of the intergenerational
+persistence of educational outcomes and public expenditure on education per
+student relative to GDP per capita, suggesting that public investment in education
+could foster mobility in the region. A remaining problem to solve is on the quality of
+education. To be effective, policy actions need to address quality as well as
+quantity—as ﬁndings for OECD countries show that how spending on education is
+used often matters more than how much is spent.25
+25
+
+
+60
+
+.9
+
+.9
+.4
+.4
+
+.45
+
+.5
+
+.55
+
+.6
+
+BRA
+
+corr = .40
+
+.6
+
+ECU
+
+15
+
+CRI
+
+BRA
+NIC SLV
+URY
+PER
+
+60
+
+BOL PAN
+PRY
+MEX
+COL
+CHL
+ARG
+CRI
+
+0
+40
+
+DOM
+
+corr = -.52
+
+ARGHND VEN
+
+20
+
+beta coefficient
+
+.7
+.6
+
+beta coefficient
+
+PAN
+BOL
+SLV
+PRY
+MEX
+URY
+COL
+CHL
+PER
+
+0
+Gini coefficient early 1990s
+
+10
+
+.4
+
+HND
+corr = .44
+
+CRI
+
+DOM
+
+ECU
+
+.5
+
+ARG
+VEN
+
+BRA
+
+.4
+
+.5
+
+URY
+
+5
+
+GTM
+
+.8
+
+.8
+.7
+
+ECU
+BOL
+PAN
+MEX NIC
+COL
+PERCHL
+
+PRYSLV
+
+.5
+0
+
+expenditure per student/GDP per capita
+
+GTM
+
+.6
+
+DOM
+
+.4
+
+80
+
+returns to primary education early 1990s
+
+GTM
+
+beta coefficient
+
+correlation coefficient
+
+.6
+
+.6
+
+.9
+
+.55
+
+.8
+
+.5
+
+Gini coefficient early 1990s
+
+CRI
+corr = -.31
+
+.7
+
+.45
+
+corr = .17
+
+CHL
+
+BOL PAN
+MEX
+PRY
+PER
+NIC
+BRA
+URY
+ARG
+COL
+SLV
+
+.6
+
+.4
+
+HND
+CRI
+
+GTM
+DOM
+
+.3
+
+.3
+
+corr = .37
+
+ECU
+
+DOM
+
+.5
+
+.4
+
+HND
+CRI
+
+.5
+
+COL
+
+SLV
+
+GTM
+CHL
+ECU
+BOL
+PAN
+MEX
+PERPRY
+BRA
+URY
+ARG
+VEN
+COL
+SLV
+
+.4
+
+.5
+
+ARG
+VEN
+
+correlation coefficient
+
+URY
+
+GTM
+CHL
+ECU
+BOL
+PAN
+MEX
+PER
+NIC BRA
+
+.3
+
+correlation coefficient
+
+.6
+
+DOM
+PRY
+
+.7
+
+.7
+
+Lat Am Econ Rev (2015) 24:9
+
+.7
+
+9 Page 20 of 29
+
+5
+
+10
+
+15
+
+80
+
+returns to prim. education early 1990s
+
+expenditure per student/GDP per capita
+
+Fig. 8 Income inequality and intergeneration persistence in education. Own calculations based on
+SEDLAC data and World Bank. Expenditures refer to public expenditure per student in primary
+education relative to GDP per capita. Returns to education are from Psacharopoulos and Patrinos (2004)
+
+Public expenditure is only part of the picture. Limited access to credit or savings
+can also be a signiﬁcant hurdle to investment in education. In Latin America, credit
+access is likely to be holding children back from pursuing further studies.26 The
+signiﬁcant correlation between private returns to educational investment and
+intergenerational persistence in educational attainments could be mitigated by
+increasing the access to ﬁnancial markets and specially designed programs that
+reduce borrowing constraints.
+Table 6 looks at the statistical signiﬁcance of the three variables considered for
+the beta and partial correlation measures. The results conﬁrm our discussion above.
+The point estimates for both measures are consistent with what theory would
+predict—lower mobility is associated with more income inequality and higher
+returns to education and negatively associated with more public expenditure in
+education. However, the ﬁt is signiﬁcantly better for the beta-coefﬁcient, where all
+variables are signiﬁcant at 10 % (column 4) and explain around 60 % of the cross
+country variation. For the correlation coefﬁcient, the variables are only marginally
+signiﬁcant, and all together explain around 31 % of the variation across countries.
+Based on the regression for the beta-coefﬁcient in Table 6, we can analyse the
+relative importance of each factor in explaining the intergenerational persistence in
+education by country.27 Figure 9 shows the contribution of each variable in
+26
+
+Aiyagari et al. (2003), Becker and Tomes (1979, 1986) and Solon (2004).
+
+27
+
+As the estimates for the correlation coefﬁcient are not signiﬁcant, we present only the analysis for the
+
+Countries
+
+16
+
+0.27
+
+0.20
+
+18
+
+R2
+0.16
+
+0.787 (0.074)***
+
+Constant
+
+0.551
+(0.043)***
+
+0.177
+(0.221)
+
+0.002
+(0.001)
+-0.016 (0.007)**
+
+0.847
+(0.430)*
+
+Expenditure per student in primary
+education/GDP per capita
+
+Returns to primary education
+
+Gini
+
+(3)
+
+15
+
+0.60
+
+0.269 (0.207)
+
+-0.012 (0.007)*
+
+0.002 (0.001)*
+
+0.838 (0.358)**
+
+18
+
+0.14
+
+0.278
+(0.181)
+
+0.561
+(0.353)
+
+17
+
+0.03
+
+0.545
+(0.036)***
+
+0.001
+(0.001)
+
+(6)
+
+16
+
+0.10
+
+0.652
+(0.064)***
+
+-0.007 (0.006)
+
+(7)
+
+15
+
+0.31
+
+0.303 (0.212)
+
+-0.007 (0.007)
+
+0.001 (0.001)
+
+0.644 (0.366)
+
+(8)
+
+(5)
+
+(2)
+
+(1)
+
+(4)
+
+Dependent variable: correlation coefﬁcient between own and
+parental education
+
+Dependent Variable: beta-coefﬁcient
+
+Table 6 OLS regressions of cross-country correlates of intergenerational persistence
+
+Lat Am Econ Rev (2015) 24:9
+Expenditure per pupil/GDP per capita
+Centered Beta-coeﬃcient
+
+Returns to primary educaƟon
+Residual
+
+0.7
+0.5
+0.3
+0.1
+-0.1
+
+CRI
+
+ARG PER
+
+CHL COL URY MEX PRY
+
+SLV PAN BOL BRA ECU DOM GTM
+
+-0.3
+
+Fig. 9 Contribution to intergenerational persistence of education (beta-coefﬁcient) by country
+
+explaining the country’s beta-coefﬁcient. Clearly, although the relative importance
+varies by country, in all countries income inequality predicts a signiﬁcant share of
+the beta-coefﬁcient. The returns to education play a particularly important role in
+the Dominican Republic, explaining around 38 % of the persistence, while there is a
+second group of countries where they are important—explaining between 15 and
+20 % of the persistence in Uruguay, Brazil, Guatemala and Colombia) and in the
+rest of the countries returns do not contribute signiﬁcantly to explaining the level of
+intergenerational persistence. In terms of the public expenditure on education, the
+largest contribution to reducing intergenerational persistence in education is for
+Costa Rica, Panama, and Chile.
+Some interesting patterns emerge from this analysis. Costa Rica and Argentina
+stand out as countries with relatively low intergenerational persistence of education.
+These are countries where income inequality is historically relatively low and a
+certain welfare state exists.28 Uruguay shares these characteristics, but it differs by
+having higher returns to education, which might reﬂect decades of relative low
+public expenditure in education compared to Costa Rica and Argentina (OECD/
+ECLAC 2014). This contrasts with Brazil, Ecuador, Dominican Republic and
+Guatemala at the other end, which present the highest persistence in educational
+attainment. In all countries, income inequality plays a major role, although in the
+case of Dominican Republic the returns to education play an important role, as
+explained above.
+
+5 Conclusions and some policy implications
+The present paper has shown that intergenerational mobility in Latin America is low
+and has not signiﬁcantly changed for the latest generations, when measured by the
+importance of parental education in explaining their offspring’s educational level.
+The picture that emerges is that Latin America is not only the most unequal region
+28
+See Engerman and Sokoloff (1997) and Williamson (2015) for a historical analysis of income
+inequality of opportunity (including dimensions beyond an individual’s control such
+as race, gender and parental income background) is estimated at around 40 %,
+which is high by international standards. The paper also explores country
+differences in intergenerational mobility. While in Costa Rica, circumstances
+explain below 15 % of the observed variance in education, in Chile, they amount to
+almost half the explained variance. The ﬁndings imply that there might be room for
+targeted redistributive policies that improve intergenerational mobility. Next, we
+discuss some policies that might mitigate these inequalities and reduce the degree of
+intergenerational persistence.
+Recent research points towards the importance of early childhood development
+(ECD)—comprising cognitive and emotional development as well as adequate
+health and nutrition—in boosting opportunities for the disadvantaged in developing
+´
+countries.29 Conditional cash-transfer programmes (like Bolsa Famılia in Brazil,
+Chile Solidario or PROGRESA/Oportunidades in Mexico), which are often
+conditional on participation in ECD activities, have shown to be a useful tool for
+increasing early childhood investments and protecting these investments from
+adverse shocks.30 Evidence from OECD countries shows that higher enrolment rates
+and increased public spending on pre-school education in early childhood
+signiﬁcantly weakens the link between parental education and child secondary
+education performance.31 An expansion of ECD programmes to cover a signiﬁcant
+part of the population in Latin America could bring similar beneﬁts. While ECD by
+itself is not enough to ensure equal opportunities later on, given its complementarity
+with subsequent investments in skills, it is a precondition—and an area where public
+policy action could be extremely powerful.
+While enrolment rates in primary education in Latin America have generally
+reached the Millennium Development Goals, secondary schooling is far from being
+universal in most countries in the region. Making secondary education universal is
+therefore a natural target for education policy in Latin America. How best to achieve
+this goal will vary from country to country depending on its circumstances. For
+example, in several countries, compulsory education covers only 9 years of
+education ending at age 15). Here, an extension to a 12-year requirement is
+feasible—e.g. Argentina went from 10 years of compulsory education to 13 in 2007.
+There are second round beneﬁts to this, as compulsory changes in educational level
+have transmissible consequences. Evidence from OECD countries—where extensions to mandatory education typically have been at the secondary level—shows
+that increases in parental education as a result of the expansion of compulsory
+education have a signiﬁcant positive effect on the educational outcomes of their
+offspring.32
+Grants and student loans are also an important tool in boosting access to tertiary
+education. Evidence for OECD countries shows that the probability of students from
+29
+
+´˜
+See Vegas and Santibanez (2010).
+
+30
+
+de Janvry et al. (2006).
+
+31
+
+Causa and Chapuis (2009).
+
+32
+
+Variable
+
+Obs
+
+Mean
+
+Std.
+Dev.
+
+Min
+
+Max
+
+Obs
+
+Mean
+
+Std.
+Dev.
+
+Min
+
+Max
+
+Own
+education
+
+1200
+
+10.40
+
+3.61
+
+0
+
+16
+
+Own
+education
+
+1200
+
+8.14
+
+5.07
+
+0
+
+16
+
+Parental
+education
+
+1068
+
+7.57
+
+4.18
+
+0
+
+16
+
+Parental
+education
+
+1027
+
+4.83
+
+5.17
+
+0
+
+16
+
+White
+
+1111
+
+0.78
+
+0.42
+
+0
+
+Female
+
+1200
+
+0.53
+
+0.50
+
+0
+
+1
+
+White
+
+1139
+
+0.04
+
+0.21
+
+0
+
+1
+
+1
+
+Female
+
+1200
+
+0.50
+
+0.50
+
+0
+
+Parent
+income
+decile
+
+1045
+
+4.95
+
+1.85
+
+1
+
+10
+
+1
+
+Parent
+income
+decile
+
+1099
+
+4.10
+
+1.86
+
+1
+
+10
+
+Own
+education
+
+1204
+
+7.66
+
+4.68
+
+0
+
+16
+
+Own
+education
+
+1200
+
+9.08
+
+4.82
+
+0
+
+16
+
+Parental
+education
+
+1143
+
+4.33
+
+4.33
+
+0
+
+16
+
+Parental
+education
+
+1158
+
+5.12
+
+4.56
+
+0
+
+16
+
+Argentina
+
+Variable
+
+Bolivia
+
+Brazil
+
+Colombia
+
+White
+
+1193
+
+0.48
+
+0.50
+
+0
+
+1
+
+White
+
+1047
+
+0.29
+
+0.45
+
+0
+
+1
+
+Female
+
+1204
+
+0.52
+
+0.50
+
+0
+
+1
+
+Female
+
+1200
+
+0.63
+
+0.48
+
+0
+
+1
+
+Parent
+income
+decile
+
+1128
+
+4.64
+
+1.97
+
+1
+
+10
+
+962
+
+4.03
+
+2.24
+
+1
+
+10
+
+Own
+education
+
+1000
+
+7.84
+
+4.39
+
+0
+
+16
+
+Own
+education
+
+1200
+
+10.64
+
+3.92
+
+0
+
+16
+
+Parental
+education
+
+826
+
+4.77
+
+4.10
+
+0
+
+16
+
+Parental
+education
+
+1040
+
+8.40
+
+4.54
+
+0
+
+16
+
+Costa Rica
+
+Parent
+income
+decile
+Chile
+
+White
+
+916
+
+0.47
+
+0.50
+
+0
+
+1
+
+White
+
+1133
+
+0.72
+
+0.45
+
+0
+
+1
+
+Female
+
+1000
+
+0.50
+
+0.50
+
+0
+
+1
+
+Female
+
+1200
+
+0.53
+
+0.50
+
+0
+
+1
+
+833
+
+5.44
+
+1.91
+
+1
+
+10
+
+Parent
+income
+decile
+
+1117
+
+4.41
+
+1.61
+
+1
+
+10
+
+Parent
+income
+decile
+
+Dominican Republic
+
+Ecuador
+
+Own
+education
+
+1000
+
+8.22
+
+4.77
+
+0
+
+16
+
+Own
+education
+
+1200
+
+8.05
+
+4.75
+
+0
+
+16
+
+Parental
+education
+
+687
+
+5.46
+
+4.92
+
+0
+
+16
+
+Parental
+education
+
+1182
+
+5.44
+
+4.65
+
+0
+
+16
+
+White
+
+988
+
+0.15
+
+0.36
+
+0
+
+1
+
+White
+
+1119
+
+0.09
+
+0.29
+
+0
+
+1
+
+Female
+
+1000
+
+0.50
+
+0.50
+
+0
+
+1
+
+Female
+
+1200
+
+0.50
+
+0.50
+
+0
+
+1
+
+914
+
+4.06
+
+1.71
+
+1
+
+10
+
+Parent
+income
+decile
+
+1123
+
+4.20
+
+1.95
+
+1
+
+10
+
+Own
+education
+
+1000
+
+6.70
+
+5.00
+
+0
+
+16
+
+Own
+education
+
+1000
+
+4.51
+
+4.56
+
+0
+
+16
+
+Parental
+education
+
+963
+
+2.60
+
+4.25
+
+0
+
+16
+
+Parental
+education
+
+834
+
+2.49
+
+3.96
+
+0
+
+16
+
+Parent
+income
+decile
+El Salvador
+
+Variable
+
+Obs
+
+Mean
+
+Std.
+Dev.
+
+Min
+
+Max
+
+Variable
+
+Obs
+
+Mean
+
+Std.
+Dev.
+
+Min
+
+Max
+
+White
+
+926
+
+0.11
+
+0.32
+
+0
+
+1
+
+White
+
+923
+
+0.15
+
+0.35
+
+0
+
+Female
+
+1000
+
+0.53
+
+0.50
+
+0
+
+1
+
+Female
+
+1000
+
+0.50
+
+0.50
+
+0
+
+1
+
+765
+
+4.33
+
+2.31
+
+1
+
+10
+
+801
+
+3.58
+
+2.07
+
+1
+
+10
+
+Own
+education
+
+1000
+
+6.04
+
+4.08
+
+0
+
+16
+
+Own
+education
+
+1200
+
+8.61
+
+4.82
+
+0
+
+16
+
+Parental
+education
+
+910
+
+2.76
+
+3.78
+
+0
+
+16
+
+Parental
+education
+
+1193
+
+5.03
+
+5.05
+
+0
+
+16
+
+White
+
+949
+
+0.19
+
+0.39
+
+0
+
+1
+
+White
+
+887
+
+0.12
+
+0.33
+
+0
+
+1
+
+Female
+
+1000
+
+0.50
+
+0.50
+
+0
+
+1
+
+Female
+
+1200
+
+0.52
+
+0.50
+
+0
+
+1
+
+843
+
+4.06
+
+2.29
+
+1
+
+10
+
+Parent
+income
+decile
+
+1018
+
+4.59
+
+2.15
+
+1
+
+10
+
+Own
+education
+
+1000
+
+5.53
+
+4.72
+
+0
+
+16
+
+Own
+education
+
+1000
+
+8.05
+
+4.78
+
+0
+
+16
+
+Parental
+education
+
+907
+
+3.61
+
+4.56
+
+0
+
+16
+
+Parental
+education
+
+820
+
+4.45
+
+4.98
+
+0
+
+16
+
+White
+
+915
+
+0.09
+
+0.28
+
+0
+
+1
+
+White
+
+984
+
+0.18
+
+0.39
+
+0
+
+1
+
+Female
+
+1000
+
+0.51
+
+0.50
+
+0
+
+1
+
+Female
+
+1000
+
+0.50
+
+0.50
+
+0
+
+1
+
+865
+
+3.36
+
+2.31
+
+1
+
+10
+
+804
+
+4.43
+
+2.15
+
+1
+
+10
+
+Own
+education
+
+1200
+
+8.89
+
+4.21
+
+0
+
+16
+
+Own
+education
+
+1200
+
+9.07
+
+4.79
+
+0
+
+16
+
+Parental
+education
+
+995
+
+6.19
+
+4.24
+
+0
+
+16
+
+Parental
+education
+
+1162
+
+6.28
+
+5.30
+
+0
+
+16
+
+White
+
+838
+
+0.47
+
+0.50
+
+0
+
+1
+
+White
+
+1082
+
+0.07
+
+0.25
+
+0
+
+1
+
+Female
+
+1200
+
+0.50
+
+0.50
+
+0
+
+1
+
+Female
+
+1200
+
+0.50
+
+0.50
+
+0
+
+1
+
+Parent
+income
+decile
+
+1122
+
+4.47
+
+1.94
+
+1
+
+10
+
+Parent
+income
+decile
+
+1093
+
+3.83
+
+2.04
+
+1
+
+10
+
+Own
+education
+
+1200
+
+8.74
+
+3.73
+
+0
+
+16
+
+Own
+education
+
+1200
+
+10.62
+
+4.04
+
+0
+
+16
+
+Parental
+education
+
+1010
+
+6.77
+
+3.74
+
+0
+
+16
+
+Parental
+education
+
+1161
+
+7.36
+
+4.73
+
+0
+
+16
+
+White
+
+1164
+
+0.87
+
+0.34
+
+0
+
+1
+
+White
+
+1094
+
+0.34
+
+0.47
+
+0
+
+1
+
+Female
+
+1200
+
+0.53
+
+0.50
+
+0
+
+1
+
+Female
+
+1200
+
+0.50
+
+0.50
+
+0
+
+1
+
+Parent
+income
+decile
+Honduras
+
+Parent
+income
+decile
+
+Mexico
+
+Nicaragua
+
+Parent
+income
+decile
+
+Parent
+income
+decile
+
+1
+
+Panama
+
+Paraguay
+
+Parent
+income
+decile
+Peru
+
+Uruguay
+
+Variable
+
+Obs
+
+Mean
+
+Std.
+Dev.
+
+Min
+
+Max
+
+Variable
+
+Obs
+
+Mean
+
+Std.
+Dev.
+
+Min
+
+Max
+
+Parent
+income
+decile
+
+1023
+
+5.07
+
+2.08
+
+1
+
+10
+
+Parent
+income
+decile
+
+1057
+
+5.00
+
+1.75
+
+1
+
+10
+
+White is a binary variable indicating self-reported racial origin—question s11; Female is a binary variable
+indicating whether individual is female; PID stands for parent income 10-quantile classiﬁcation—question p12stb
+
+less favourable family backgrounds completing tertiary studies is higher in countries
+that provide funding available to all students.
+Finally, many other social policies might be complementary to the ones
+previously mentioned. Better access to unemployment insurance, health services
+and social protection would allow families to withstand the kind of liquidity shocks
+that currently often require teenagers to postpone or abandon their studies to provide
+supplementary income for the household. It is important to consider the institutional
+capacities of each country and to conduct a careful evaluation of what policy might
+be best in each case.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original
+author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were
+made.
+
+Appendix
+This appendix presents a brief sketch of a model by Solon (2004) that is useful to
+analyse the intergenerational transmission of income and to assess the central role of
+education.
+We assume that the parental budget constraint of household i is given by:
+ð1 À gÞyitÀ1 ¼ CitÀ1 þ IitÀ1 ;
+
+ð7Þ
+
+where the left-hand represents disposable income and g is the tax rate, C is parental
+consumption and I is investment in the offspring’s education. The parent’s utility
+function is given by:
+UitÀ1 ¼ ð1 À aÞ log CitÀ1 þ a log yit ;
+
+ð8Þ
+
+such that parent care about the own consumption and their offspring’s income level.
+Educational attainment is composed by two parts: a deliberate accumulation process
+
+ð9Þ
+
+The inheritable endowments follow a stationary autoregressive process of order
+one given by:
+eit ¼ d þ keitÀ1 þ vit ;
+
+ð10Þ
+
+where the last term is a white noise random shock. These endowments should be
+interpreted in a broad sense. They include innate ability, but also other attributes
+that are determined by the family’s network, race, or culture. Educational attainment
+increases income via a standard Mincer equation, given by:
+log yit ¼ l þ phit :
+
+ð11Þ
+
+Following Solon (2004), public policy can be represented by:
+GitÀ1
+ﬃ / À c log yitÀ1 ;
+ð1 À sÞyitÀ1
+
+ð12Þ
+
+where c [ 0. According to this equation, public investment in children’s educational attainment is progressive in relative terms, as public investment as a fraction
+of parental disposable income decreases with the level of income. Utility maximisation and operating yields the following steady-state relationship between
+parental and own education:
+
+!
+ah pð1 À sÞ
+hit ﬃ h ð1 À cÞl þ / þ log
+þ h pð1 À cÞhitÀ1 þ eit
+1 À að 1 À h pÞ
+¼ lÃ þ w hitÀ1 þ e:
+ð13Þ
+An OLS estimation of Eq. (13) would be biased and inconsistent, as the error
+term is correlated with the parent’s education. However, it is straightforward to
+show that the correct steady-state measure of intergenerational transmission of
+educational attainments (w) is given by:
+w¼
+
+hpð1 À cÞ þ k
+:
+1 þ hpð1 À cÞk
+
+ð14Þ
+
+Thus, in theory, the degree of intergeneration transmission is an increasing
+function of the productivity of educational attainments (h), the returns to education
+(p) and the persistence in intergenerational inheritance of skills and other relevant
+characteristics (k), while more progressivity of public investment in education (c)
+increases intergenerational educational mobility. Differences across countries
+should therefore be related to differences in these parameters.
+Furthermore, using Eqs. (11) and (13), the variance in steady-state (log) income
+
+ð1 þ ð1 À cÞh pkÞp2
+i r2 ;
+À
+Áh
+v
+2
+2
+ð1 À ð1 À cÞhpkÞ 1 À k 1 À ð1 À ð1 À cÞh pÞ
+
+ð15Þ
+
+where is the variance of the innovation term in Eq. (10). Therefore, in steady state,
+the dispersion in income increases with the degree of inheritability (k), the productivity of educational investments (h), and the returns to education (p), and
+decreases with the progressivity of public policies (c), just like the intergeneration
+elasticity (see Eq. 14).
+However, there is no one-to-one mapping between intergenerational mobility and
+inequality, as the latter depends also on the dispersion of income-related
+characteristics that are not included in the beta-coefﬁcient measure used in our
+analysis.
+
+Williamson JG (2015) Latin American inequality: colonial origins, commodity booms, or a missed 20th
