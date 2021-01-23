@@ -1,0 +1,1472 @@
+1. Introduction
+Recent deterioration of the fiscal position of governments in several European
+countries and the U.S. has drawn attention to the long-run fiscal sustainability
+of public finance. Several theoretical approaches have been developed to analyse whether the government can manage the budget deficit in the long run.
+The seminal paper by Domar (1944) does not use the term sustainability but
+implicitly defines it as a constant long-run relation between total public debt
+and GDP: public debt may grow but it should not grow faster than GDP. This
+is, by the way, so far also the most natural definition of sustainability of public
+finances. It allows for a permanent public deficit, but this should also not grow
+faster than GDP.
+While Domar (1944) considers the steady-state long-run equilibrium, more
+recent approaches look at the intertemporal budget constraint. The rather popular Generational Accounting Approach introduced by Auerbach, Gokhale and
+Kotlikoff (1991, 1992) defines it in terms of net fiscal burden of current and
+future generations. This implies that fiscal policy is sustainable whenever the
+net debt of the government does not exceed the sum of the discounted net taxes,
+which should be paid by current and future generations.1
+Another concept, which is more closely related to Domar (1944), defines
+fiscal policy as sustainable if the present value budget constraint of the government is valid: the discounted value of public debt should converge to zero at the
+limit. This implies that current and discounted future surpluses must be sufficient to pay off the current public debt. Following this view, several econometric tests have been developed in the empirical literature. One line proposes
+that the stationarity of public debt indicates the long-run sustainability of fiscal
+policy. Assuming constant interest rates, Hamilton and Flavin (1986) test for
+the stationarity of undiscounted public debt and show that the U.S. fiscal policy
+is consistent with the present-value budget constraint. If the discounted debt
+series is used, Wilcox (1989), however, shows that U.S. fiscal policy violates the
+intertemporal budget constraint. Another direction assumes sustainability to be
+given when the budget deficit and public debt are co-integrated. MacDonald
+(1992) employs such a co-integration test and shows that U.S. fiscal policy is not
+sustainable. An alternative framework implies that fiscal policy is sustainable if
+government revenues and expenditures are co-integrated with a co-integrating
+vector [1 –1]. Trehan and Walsh (1988, 1989), Haug (1995), Ahmend and
+Rogers (1995), and Quintos (1995) test for sustainability by checking for the
+co-integration between government revenues and expenditures and show that
+the U.S. federal budget deficit is not sustainable. Furthermore, they find that
+recent changes in the structure of fiscal policy had a significant effect on the
+sustainability of U.S. federal finance. Several studies find structural breaks in
+the U.S. federal deficit in the mid-seventies or early eighties that had a significant impact on budget sustainability.2 Quintos (1995), for example, finds that
+legislative tax changes in the U.S. in the early eighties, like the Kemp-Roth tax
+cut, had a significant impact on the sustainability of the federal budget deficit.
+Splitting the sample into two sub-periods and assuming a structural shock in
+the early eighties, she shows that the U.S. federal budget deficit was sustainable
+during the pre-break period but violated the intertemporal budget constraint
+in the post-break sub-period.
+A similar approach was proposed by Blanchard et al. (1990) as well as Blanchard (1993)
+
+While the Generational Accounting Approach has been applied to Swiss data,3
+this paper is the first one to use time series methods to test for sustainability
+of the Swiss fiscal policy. We consider the period from 1900 to 2002 and ask
+whether fiscal policy was consistent with the intertemporal budget constraint.
+However, because of the long time-horizon it is necessary to take into account
+possible structural changes in the fiscal policy due to, for example, World Wars,
+the Great Depression, or legislative changes in the budgetary process. Thus, we
+look for shifts in the Swiss federal budget process that are relevant for the assessment of its sustainability.
+Figure 1: Swiss Federal Expenditure and Deficit in Relation to GDP, 1900–2002
+0.20
+0.16
+0.12
+
+Federal Expenditure / GDP
+
+0.08
+0.08
+
+Federal Deﬁcit / GDP
+
+0.00
+–0.04
+1900
+
+1910
+
+1920
+
+1930
+
+1940
+
+1950
+
+1960
+
+1970
+
+1980
+
+1990
+
+2000
+
+That fiscal sustainability may also be a Swiss problem can be seen from a visual
+examination of the historical development over the last 100 years. Figure 1 shows
+federal expenditure and deficit over the period from 1900 to 2002. The fiscal
+position of the federal government worsened substantially during both World
+Wars. However, the upward spike in the deficit is much more pronounced during
+World War II. After this war, expenditure (as a share of GDP) increased considerably, while the deficit did not show a clear picture. The development of the federal
+
+debt, as shown in Figure 2, on the other hand, gives a clearer picture. After the
+Second World War public debt accumulated during the war declined until the
+mid sixties, and then increased again, especially during the nineties. The federal
+public debt increased from 38.5 billion CHF in 1990 to 122.9 billion CHF in
+2002, which implies an increase of 173 percent if measured in real terms. As a
+consequence, the Swiss constitution was amended by a debt brake through a referendum in December 2001, being fully effective since 2007, which – somewhat
+simplified – is operating in the following way:4 Expenditure has to be adjusted
+to the revenue which, however, is smoothed over the business cycle. In calculating this smoothed revenue, extraordinary revenue is not considered; it has to be
+used to pay back debt. ‘Normal’ surpluses and deficits are accounted in a separate account and are to be balanced over several years. Deficits which exceed six
+percent of the expenditure of the preceding year have to be balanced within the
+next three years. Extraordinary expenditure (which is not included in these calculations) can be decided on by the majority of the members in both Chambers
+of the Federal Parliament.
+Figure 2: Swiss Federal Debt in Relation to GDP, 1900–2002
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+1900
+
+1910
+
+1920
+
+1930
+
+1940
+
+1950
+
+1960
+
+1970
+
+1980
+
+1990
+
+2000
+
+See also Danninger (2002) and – for more details – the legal documents: Bundesbeschluss
+
+The fact that not only this new instrument has been introduced but that a huge
+majority of 84.7 percent of the people voted in favour of this amendment to the
+Swiss Constitution indicates that at least the Swiss population had doubts about
+the sustainability of its federal fiscal policy. Moreover, the generational accounting analyses for Switzerland mentioned above clearly demonstrate the existence
+of a sustainability gap. The problem of these analyses is, however, that they use
+extrapolations of the current situation and do not take into account that the
+current situation may not be in equilibrium. Consequently, starting with different base years the estimated sustainability gap may be quite different. The
+econometric approaches, on the other hand, try to look at the underlying longrun equilibrium relations and ask whether these relations imply sustainability.
+Their disadvantage is, however, that they might give too little weight to the
+most recent development (and too much to the no longer relevant past). Thus,
+the two approaches complement each other. As generational accounting analyses
+for Switzerland are available but no econometric analyses of this problem, this
+paper intends filling this gap. Thus, the following issue is the main concern of
+this study: Is the Swiss federal budget deficit consistent with the intertemporal
+budget constraint? And are there changes in the Swiss fiscal history which might
+fundamentally shift the sustainable deficit process?
+To answer these questions, we use a set of tests for cointegration between federal revenues and expenditures over the period from 1900 to 2002. Searching
+for structural changes in the budgetary process, we employ different econometric strategies. We apply unit root tests which take account of structural breaks
+to the deficit, revenue and expenditure series. Furthermore, we use Chow-tests
+to examine the stability of the parameters of the short-run relationship between
+revenues and expenditures. Additionally, we perform the Gregory and Hansen
+(1996) test in order to check for the presence of structural breaks in the long-run
+cointegration relationship between revenues and expenditures.
+The paper is organised as follows: Section 2 presents the theoretical framework and the test approaches which have been developed. Section 3 contains
+the empirical results. It presents the results of unit root tests, tests for structural
+
+
+2. The Theoretical Framework
+The theoretical model is based on the budget constraint of the government that
+is given by
+Gt (1 rt )TDt1
+
+R t.
+TD
+
+(1)
+
+where TD represents the stock of public debt, while r denotes the interest rate for
+public debt, R government revenues (including seignorage) and G expenditures
+excluding interest payments.
+Assuming that equation (1) holds for each period, by performing the forward
+substitution we obtain the intertemporal budget constraint for the period from
+W t to W T as5
+ª
+
+W
+
+¬
+
+T
+
+TDt
+
+º T 1 1
+TDT .
+( RW G W )» 
+» j t (1 rj )
+¼
+t j )
+
+j 1
+
+1
+
+«
+¦«  (1 r
+
+W t 1
+
+(2)
+
+By assuming a constant interest rate r, this simplifies to
+T
+
+TDt
+
+ª
+
+1
+
+¦« (1 r )
+¬
+
+Wt
+
+W t 1
+
+º
+1
+TD .
+( RW G W )»
+¼ (1 r )T t T
+
+(2a)
+
+Thus, the present-value budget constraint (PVBC) of the government is given
+by
+f
+
+TDt
+
+ª
+
+1
+
+¦« (1 r )
+¬
+
+W t1
+
+Wt
+
+º
+1
+TD .
+( RW G W )» lim
+¼ T of (1 r )T t T
+
+(2b)
+
+Whether fiscal policy is sustainable depends on the development of the second
+term of this equation. If the transversality condition
+
+lim
+
+T of
+
+
+1
+TD
+(1 r )T t T
+
+0
+
+Sustainability of Swiss Fiscal Policy
+
+holds, the present-value budget constraint of the government is given by
+f
+
+ª
+
+1
+
+¦« (1 r )
+¬
+
+TDt
+
+Wt
+
+W t 1
+
+º
+( RW  G W )»
+.
+¼
+
+(4)
+
+Condition (4) is known as the “no Ponzi game” rule for public debt, it implies that
+the growth rate of public debt is not larger than the real interest rate. Under the
+usual assumption that the interest rate is larger than the growth rate of the economy, this is a necessary and sufficient condition for fiscal policy to be sustainable.6 It requires that current and discounted future surpluses must be sufficient
+to pay-off the current public debt. If this requirement is satisfied, fiscal policy of
+the government is consistent with the present-value budget constraint.
+Several methods have been developed to test whether fiscal policy of government is sustainable. One direction of the studies checks whether the data are
+consistent with the transversality condition by examining the stationarity properties of the primary deficit. Assuming a constant real interest rate and starting
+with relation (2a), Hamilton and Flavin (1986) take
+ª
+º
+1
+Et« lim
+A !0
+T TDT »
+T of (1  r )
+¬
+¼ 0
+
+(5)
+
+as an alternative. Inserting this into (2b) leads to
+f
+
+TDD
+
+ª
+
+1
+
+¦« (1 r )
+¬
+
+W t1
+
+Wt
+
+º
+( RW G W )» A0 (1 r )t .
+¼
+
+(6)
+
+Hamilton and Flavin (1986) argue that a sufficient condition for the validity
+of the present value budget constraint is the stationarity of the primary deficit
+(excluding interest payments), G W  R W. If A0 0 in equation (6), then they expect
+that public debt is stationary.
+
+If the real growth rate is larger than the real interest rate, relation (3) is sufficient, but not necessary, for fiscal policy to be sustainable. Following the (implicit) Domar (1944) definition
+
+
+Using annual U.S. data for the period from 1962 to 1984, they apply the Augmented Dickey-Fuller test to the budget deficit series and show that the levels
+of public debt and the primary deficit are stationary. Based on these findings,
+they suggest that the U.S. federal government budget is balanced in the presentvalue terms.
+However, there have been raised several critical issues concerning the hypothesis and the results presented in this study. Wilcox (1989) uses the same data to
+show evidence that the hypothesis developed by Hamilton and Flavin (1986)
+is incorrect. He demonstrates that the present-value budget constraint may be
+satisfied even if the level of the primary deficit is nonstationary. He uses two
+lines of arguments. Firstly, he questions the assumption about the constant real
+rate. Hence, he modifies the test of Hamilton and Flavin (1986) and defines
+the sustainable budget policy in such a way that the discounted value of public
+debt converges to zero. He allows for a time-varying real interest rate, discounts
+the debt series back to the starting period, and applies the ADF-test to the discounted series. He comes to the conclusion that, over the entire period from 1960
+to 1982, U.S. fiscal policy was not sustainable, i.e., it violated the present-value
+budget constraint.7 Secondly, he asks whether the sustainability of fiscal policy
+exhibits significant structural breaks and splits the sample into two sub-samples:
+the pre 1974- and post 1974-sub-periods. He finds that fiscal policy of the U.S.
+federal government was not sustainable in the second sub-period.
+An equivalent to Hamilton and Flavin’s (1986) test for intertemporal budget
+constraint requires co-integration between public debt and the budget deficit,
+given that these series are of the same order of integration. In order to derive a
+testable hypothesis that equation (3) holds, MacDonald (1992) starts with relation (2b), takes expected values, substitutes S for the primary deficit, St Gt  Rt,
+and after rearranging gets
+1
+TDt  St
+r
+
+ª f
+'S W º
+Et « ¦
+.
+W1 »
+¬ W t1 (1 r ) ¼
+
+(7)
+
+Condition (7) implies that the test for stationarity of 'S is equivalent to the test
+for stationarity of (TDt – St  r). Thus, the sustainability condition requires the
+co-integration between S and TD with the co-integrating vector [1 r]. To test
+this hypothesis, MacDonald (1992) employs U.S. quarterly data for the period
+
+Sustainability of Swiss Fiscal Policy
+
+from 1951 to 1984. Applying the co-integration methods of Engle and Granger
+(1987) and Johansen (1988), he fails to find evidence for co-integration and
+concludes that the U.S. budget deficit was not consistent with the intertemporal
+budget constraint. Like Wilcox (1989), he assumes the presence of structural
+breaks and performs his analysis also for different sub-samples. He concludes that
+U.S. fiscal policy violated the present-value budget constraint in the sub-samples
+as well. The same result was reached by Trehan and Walsh (1988) with an alternative test for the intertemporal budget constraint, based on the co-integration
+between the deficit and public debt with annual data from 1946 to 1987.
+Hakkio and Rush (1991) propose to rewrite equation (2b) with total expenditure on the left-hand side:
+TGt
+
+Gt  rTDt1
+f
+ª
+º
+1
+1
+Rt  ¦«
+
+Wt1 ( 'RW 'G W )» lim
+T W 'TDT .
+T of (1  r )
+¬ (1 r )
+¼
+W t
+
+(8)
+
+They assume that revenues R and expenditures G are integrated of order 1, so
+that 'R and 'TG are stationary, and rearrange equation (8) to
+
+TGt
+
+D Rt  lim
+
+T of
+
+1
+TD  Ht .
+(1 r )T W T
+
+(9)
+
+Assuming that the limit term in (8) goes to zero leads to the test equation
+Rt
+
+D ETGt  Ht .
+
+(10)
+
+Given that TG and R are both difference-stationary, Hakkio and Rush (1991)
+define cointegration between these variables as a necessary condition for the
+present-value budget constraint to hold. Furthermore, they show that 0  E d 1
+is a necessary condition for the term in (9) to go to zero.
+
+
+1964 to 1988, they show that the federal budget deficit violates the present-value
+budget constraint. Haug (1995) comes to the same conclusion when applying the
+same approach to quarterly data for the period from 1950 to 1990.8
+Using a similar methodology, Quintos (1995) introduces ‘strong’ and ‘weak’
+conditions for intertemporal budget balance. Starting with regression equation
+(10), she defines that (i) ‘strong’ sustainability requires the co-integration between
+expenditures and revenues with the co-integrating vector [1 –1], while (ii) ‘weak’
+sustainability involves co-integration with 0  E  1; and the budget deficit is
+not sustainable if E d 0.
+To show the rational of these conditions, she reformulates equation (4) in terms
+of first differences as
+TDt
+
+1
+T t1 'TDT
+T of (1  r )
+lim
+
+0.
+
+(11)
+
+Assuming a constant interest rate r, and under the condition that 'TD is a stationary process, she derives the trajectory of the limit term in (11) depending on
+stochastic characteristics of 'TD. If this is stationary, the evolution of the term
+at the limit behaves like
+Etª lim e OT º 0,
+¬
+¼
+T of
+
+(12)
+
+where O is a constant (O t 0). If 'TD is nonstationary, then this term behaves
+like
+Etª lim e OT T º 0.
+¬T of
+¼
+
+(13)
+
+She shows that the stationarity of 'TD is a sufficient condition for the term in
+(11) to go to zero. Furthermore, the term in (12) goes faster to zero than the one
+in (13) when revenues and expenditures are not cointegrated. She proposes (12)
+as the ‘strong’ and (13) as the ‘weak’ condition for fiscal sustainability. As the
+term in (13) tends slower to zero, Quintos (1995) suggests that the condition
+
+Sustainability of Swiss Fiscal Policy
+
+for intertemporal budget balance is fulfilled, but that the government might
+face difficulties in managing its debt because 0  E  1 is a sufficient condition
+for (13) to be valid.
+In order to derive a testable hypothesis, Quintos (1995) starts with regression
+equation (10). Given that the residuals from the cointegrating regression are I(0),
+if revenues R and expenditures TG are cointegrated, she inserts (10) into equation
+(1), and obtains the equation of undiscounted public debt after rearranging as
+'TDt
+
+(1 E)TGt  D Ht .
+
+(14)
+
+She shows that, if 0  E  1 in (14), 'TD is like TG nonstationary, regardless
+of whether R and TG are cointegrated. Accordingly, both conditions, (i) E 1
+and (ii) cointegration between R and TG , are together necessary and sufficient
+for (11) to hold.
+Using U.S. quarterly data over the period from 1947 to 1992, Quintos (1995)
+finds that 0  E  1 holds in the estimated model (10), and she concludes that
+the U.S. budget deficit is ‘weakly’ sustainable for the entire sample.9 However,
+when testing for a structural break, she finds such a break at the beginning of
+the eighties. Taking this into account, she finds that revenues and expenditures
+are co-integrated with a cointegrating vector [1 –1] in the first sub-period, but
+are not co-integrated while 0  E  1 in the second sub-period. Thus, the U.S.
+deficit is weakly sustainable in any case.
+The discussion of the previous empirical studies suggests that the analysis of
+sustainability produces different results depending on the methods used. In this
+study, we apply tests for cointegration between revenues and expenditures in order
+to test for sustainability of the Swiss federal budget deficit over the period from
+1900 to 2002. In doing so, we follow the econometric methodology of Quintos
+(1995). We use the definition of strong sustainability when revenues and expenditures are cointegrated with the cointegrating vector [1 –1] and assume that the
+budget process is weakly sustainable for 0  E  1. Furthermore, since the data
+covers World Wars and the Great Depression, which as exogenous shocks may
+be relevant to fiscal sustainability, we adopt tests for co-integration, which are
+robust to structural breaks. We apply the Chow-stability test to estimate structural breaks in the short-run relationship as proposed by Stock and Watson
+
+
+
+(1993). Hence, additionally, we use the modified cointegration test of Gregory
+and Hansen (1996) which allows for structural breaks in the parameters of the
+long-run relationship.
+In one important respect, however, we deviate from the methodologies used
+in these more recent studies and go back to the original idea of Domar (1944):
+For the fiscal data, we use ratios to GDP instead of the original real variables.
+There are two reasons for doing so. First, as mentioned above, this corresponds
+to a more natural definition of sustainability. Second, when taking real values,
+most of the conditions given above are only sufficient but not necessary for sustainability. For example, if there is a common stochastic trend in GDP on the
+one and public debt and the deficit on the other hand, stationarity of the latter
+two is not necessary for a sustainable fiscal policy. Thus, the corresponding conditions of Hamilton and Flavin (1986) are too strong. On the other hand, the
+ratios of these two variables with GDP should be stationary. It is possible to use
+ratios instead of the original real variables as the calculations above also hold if we
+substitute G, R and TD by their ratios to GDP and r by the difference between
+the interest and the economic growth rates.10
+
+3. Empirical Results
+We use annual fiscal data of the Swiss Federal Government for the period from
+1900 to 2002. The data are taken from the Historical Statistics of Switzerland,
+and from several issues of the Statistical Yearbook of Switzerland and the Federal
+Budget. They were obtained from the Federal Statistical Office and the Swiss
+National Bank, as well as other complementary sources. The series include federal
+non-interest expenditures, interest payments, military and non-military expenditures, revenues and federal debt and real gross national product (GDP).11
+
+3.1 Results of Unit Root and Stationarity Tests
+We first examine the stationarity properties of the series by using the Augmented
+Dickey-Fuller (ADF) and the Phillips-Perron (PP) tests. We also perform
+the Kwiatkowski, Phillips, Schmidt and Shin ( 1992) (KPSS) test which has
+10 One might argue that shares can hardly be nonstationary. On the other hand, the question
+is not whether they are stationary or nonstationary but whether the sample at stake is more
+
+the stationarity of the time series as null hypothesis. We perform these different procedures since the results are sensitive to the use of the long-run variance
+estimators if the time series are highly autocorrelated.12 We apply unit root and
+stationarity tests to the variables in levels and first differences. The results are
+given in Table 1.
+If time series have significant structural breaks, the power of standard unit root
+tests decreases substantially. To take this into account, we split the entire sample
+into two sub-samples, from 1900 to 1939 and from 1946 to 2002 by eliminating
+the observations during World War II, and perform unit root and stationarity
+tests for the pre- and post-World War II sub-periods. The results for these two
+sub-periods are also given in Table 1.
+For the entire sample, the results of the tests provide evidence for stationarity
+of the deficit-GDP ratio: the coefficient of the autoregressive term in the ADFregression is –0.233, with a t-statistic of –3.941. The findings are, however, quite
+different for the sub-periods. Considering the pre-1939 sub-period, the tests suggest non-stationarity: the coefficient of the autoregressive term is –0.140 with
+a t-statistic of –1.288. After 1946, the unit root hypothesis is rejected when we
+use the PP-test, but cannot be rejected when we use the ADF-test. Similar results
+hold for the primary deficit in relation to GDP, while public debt never seems
+to be stationary. On the other hand, the first differences of all three series are
+clearly stationary.
+The KPSS test provides similar results. Over the whole period, the hypothesis of stationarity cannot be rejected for all three variables. It can be rejected
+for the deficits, however, in the first period at the 10 and in the second one at
+the 5 percent level. For public debt, it can be rejected in the first period at the
+5 percent level.
+The results for the revenue- and expenditure-ratios are also given in Table 1.
+They favour the existence of a unit root for revenue and expenditure in levels, but
+indicate stationarity for their first differences. The stationarity test results are,
+however, different for the pre- and post-World War II sub-periods; they indicate
+stationarity before and nonstationarity after World War II.
+The difference in the results for the total period on the one and the two subperiods on the other hand indicate that there might be a structural break related
+to World War II. Thus, in a next step we check whether such breaks affect the
+stationarity properties of the time series. We treat the year 1943 as the date when
+
+
+Table 1: Tests for Unit Roots and Stationarity
+
+Variables
+
+ADF test
+Levels
+First
+Differences
+
+PP test
+Levels
+First
+Differences
+
+KPSS test
+Levels
+First
+Differences
+
+1900–2002
+Public debt
+
+–2.606
+
+–5.888**
+
+Primary deficit
+
+–4.425**
+
+–9.314**
+
+Total deficit
+
+–3.941**
+
+–9.117**
+
+–1.807
+
+–5.826**
+
+0.296
+
+0.115
+
+–3.456*
+
+–9.305**
+
+0.112
+
+0.028
+
+–3.113*
+
+–9.112**
+
+0.150
+
+0.037
+
+Revenue
+
+–1.115
+
+–6.870**
+
+–1.279
+
+–15.380**
+
+1.688**
+
+0.050
+
+Expenditure
+
+–2.483
+
+–6.267**
+
+–2.140
+
+–6.296**
+
+1.009**
+
+0.038
+
+Military expenditure
+
+–4.218**
+
+–4.892**
+
+–3.124*
+
+–6.778**
+
+0.163
+
+0.042
+
+Civil expenditure
+
+–1.266
+
+–5.021**
+
+–1.131
+
+–9.012**
+
+1.594**
+
+0.044
+
+Public debt
+
+–0.947
+
+–3.929**
+
+–0.855
+
+0.728*
+
+0.085
+
+1900–1939
+
+Primary deficit
+
+–1.635
+
+–5.174**
+
+–1.806
+
+–3.930**
+
+( )
+
+–5.168**
+
+0.129 *
+
+( )
+
+0.143
+
+Total deficit
+
+–1.288
+
+–4.980**
+
+–1.470
+
+–4.989**
+
+0.178 *
+
+0.143
+
+Revenue
+
+–0.310
+
+–9.694**
+
+–0.393
+
+–11.120**
+
+0.853
+
+0.112
+
+Expenditure
+
+–0.257
+
+–2.901(*)
+
+–0.373
+
+–2.822(*)
+
+0.522
+
+0.174
+
+Military expenditure
+
+–2.314
+
+–2.109
+
+–1.591
+
+–3.699(*)
+
+0.096
+
+0.158
+
+Civil expenditure
+
+–0.789
+
+–4.898
+
+–1.029
+
+–4.910**
+
+0.719
+
+0.059
+
+1946–2002
+Public debt
+
+–1.627
+
+–3.798**
+
+–3.382*
+
+–6.454**
+
+0.337
+
+0.863*
+
+Primary deficit
+
+–2.511
+
+–11.787**
+
+–3.579**
+
+–12.502**
+
+0.695*
+
+0.067
+
+Total deficit
+
+–2.223
+
+–11.573**
+
+–3.547*
+
+–12.033**
+
+0.492*
+
+0.065
+
+Revenue
+
+–1.477
+
+–4.384**
+
+–3.598**
+
+–12.766**
+
+0.594**
+
+0.486*
+
+Expenditure
+
+–1.824
+
+–9.043**
+
+–2.069
+
+–9.426**
+
+0.845**
+
+0.483*
+
+0.136
+
+–5.846**
+
+–0.859
+
+–7.445**
+
+1.020**
+
+0.147
+
+–0.151
+
+–8.411**
+
+–1.369
+
+–8.292**
+
+0.905**
+
+0.514*
+
+Military expenditure
+Civil expenditure
+
+The values are the estimated t-statistics. ‘**’, ‘*’ or ‘(*)’ show that the corresponding null hypothesis
+71
+
+test to the variables defined in terms of GDP-ratios.13 We estimate three models.
+Model (A) allows for one-time shift in the intercept of the trend function and
+is defined by
+'yt
+
+D0  D1 yt1  E1'yt1 } En 'ytn JD(TBt )Ht ,
+
+(15)
+
+where the dummy variable D(TB) 1 for t 1943 and 0 elsewhere.
+Model (B) accounts for a possible change in the trend function and is defined
+by
+'yt
+
+D0  D1 yt1  E1'yt1 } En 'ytn GDU t Ht ,
+
+(15’)
+
+where the dummy variable DUt 1 for t ! 1942 and 0 elsewhere.
+Finally, model (C) allows for a change in the intercept as well as the growth
+rate:
+'yt
+
+D0  D1 yt1  E1'yt1 } En 'ytn JD(TBt ) GDU t Ht . (15’’)
+
+The results of the Perron test are given in Table 2. They are quite similar to
+those in the first part of Table 1 where the whole period from 1900 to 2002
+was considered. While public debt, revenue and expenditure are nonstationary,
+the primary and the total deficit are stationary.14 Both results hold regardless of
+whether we assume that World War II caused a break in the generating processes
+of the series or not.15 As there might be more than one break in the data, we also
+applied the Lagrange multiplier (LM) test, proposed by Lee and Strazicich
+(2003), to take account of two breaks with unknown dates. The results given in
+the Appendix are also quite in line with the results of the standard unit root and
+stationarity tests. At least some of the endogenously determined dates, however,
+seem hardly plausible. Nevertheless, the differences in the results between the
+whole period and the two sub-periods remain and do not seem to be caused by
+structural breaks.
+
+13 The Perron test is also performed for a break-point in the year 1946. The results are quite
+similar.
+
+
+Table 2: Unit Root Tests with a Structural Break in 1943
+Variables
+
+Model A
+k
+
+Model B
+ˆ
+t
+
+k
+
+Model C
+ˆ
+t
+
+k
+
+ˆ
+t
+
+Public debt
+
+4
+
+–1.825
+
+0
+
+–2.465
+
+0
+
+–1.371
+
+Revenues
+
+3
+
+–0.314
+
+6
+
+–1.386
+
+3
+
+–0.489
+
+Expenditure
+
+1
+
+–2.863
+
+1
+
+–2.612
+
+1
+
+–3.495*
+
+Primary deﬁcit
+
+4
+
+–4.441**
+
+4
+
+–4.414**
+
+4
+
+–4.612**
+
+Total deﬁcit
+
+4
+
+–3.956*
+
+4
+
+–4.442**
+
+4
+
+–3.670*
+
+All variables are measured in relation to GDP. ‘**’, ‘*’ or ‘(*)’ show that the null hypothesis of no
+cointegration can be rejected at the 1, 5, or 10 percent level, respectively. – k is the number of lags.
+
+3.2 Results of Engle-Granger Cointegration Tests
+Given that the unit root test results for the whole period indicate stationarity of
+deficit-GDP ratio, and difference-stationarity of the revenue- and expenditureratios with the same order of integration, the next step is to test for co-integration between revenues and expenditures. By performing this analysis we test two
+hypotheses: (i) whether the revenue- and expenditure-GDP ratios are co-integrated, and (ii) whether the co-integrating vector (excluding the constant term)
+is close to [1 –1]. One possibility is to use the residual-based test of Engle and
+Granger (1987) for co-integration, which is based on the ordinary least squares
+ˆ
+(OLS) residuals Ht from the co-integrating regression of model (9).
+The results for the whole period including and excluding the years of the two
+World Wars as well as the results for the two sub-periods are given in Table 3.16
+The ADF-test gives a t-statistic of –3.120, which is significant at the 10 percent level. This indicates that federal revenue- and expenditure-GDP ratios are
+co-integrated when we use the full sample. However, the Jarque-Bera statistics
+indicate that the residuals are not normally distributed. Excluding the years that
+may be viewed as outliers we check whether the estimated co-integrating vector
+is consistent with the theoretical prediction.17 In this case, the co-integrating
+vector is [1 –0.999]. This suggests that the federal budget deficit is sustainable
+over the entire period.
+Sustainability of Swiss Fiscal Policy
+
+Table 3: Results of the Engel-Granger Cointegration Test
+Cointegrating equation
+Dependent variable
+
+
+E
+
+R
+
+2
+
+D.-W.
+
+Residual regression
+ADF
+PP
+k
+statistic
+statistic
+
+1900–2002
+Expenditure-GDP-ratio
+Revenue-GDP-ratio
+
+0.710
+(0.12)
+1.042
+(0.12)
+
+0.364(*)
+
+0
+
+–3.120(*)
+
+–3.012(*)
+
+0.359(*)
+
+0
+
+–3.147(*)
+
+–3.398*
+
+0.741
+
+1900–1913, 1922–1939, 1946–2002
+Expenditure-GDP-ratio
+Revenue-GDP-ratio
+
+0.999
+(0.03)
+0.927
+(0.03)
+
+0.730**
+
+1
+
+–3.622*
+
+–4.577**
+
+0.747**
+
+1
+
+–3.380*
+
+–4.374**
+
+0.927
+
+1900–1939
+Expenditure-GDP-ratio
+Revenue-GDP-ratio
+
+0.498
+(0.10)
+0.817
+((0.16)
+
+0.372(*)
+
+0
+
+–2.010
+
+–1.860
+
+0.400*
+
+0
+
+–1.403
+
+–1.552
+
+0.408
+
+1946–2002
+Expenditure-GDP-ratio
+Revenue-GDP-ratio
+
+0.726
+(0.08)
+1.009
+(0.06)
+
+0.964**
+
+2
+
+–3.782*
+
+–4.967**
+
+0.732**
+
+1
+
+–2.554
+
+–3.587*
+
+0.734
+
+‘**’, ‘*’ or ‘(*)’ show that the null hypothesis of no cointegration can be rejected at the 1, 5, or 10
+percent level, respectively. – k is the number of lags of the ADF test.
+
+The results are again different if we look at the two sub-periods. In the pre-World
+War II sub-period, the revenue- and expenditure-GDP ratios do not seem to be
+co-integrated; when taking expenditure as the dependent variable, the t-statistic
+is only –2.010. Similar results are obtained from the reversed regression: the t-statistic of –1.403 is not significant at any conventional significance level. This lends
+further support to the findings of the unit root and stationarity tests. After World
+War II, the two variables are cointegrated, as the ADF statistic with expenditure
+
+
+3.3 Results of Tests for Structural Breaks in the Long-Run Relationship
+To take account of possible shifts in the parameters of the co-integrating vector, we
+follow Gregory and Hansen (1996) and use the test for stability of the estimated
+coefficients by allowing for a one-time structural change in the deficit generating process. To check for the effects of structural breaks, we perform Chow-tests
+for the null hypothesis of a constant cointegrating relation against the alternative
+of different cointegrating vectors in the pre-and post-World War II sub-periods.
+We apply this test to the dynamic ordinary least-squares regression using two lags
+and assuming an AR(4) error process.18 The results are shown in Figure 3.19 They
+show that the null hypothesis of no break can be rejected at all conventional significance levels at several points during the World War II sub-period.
+Figure 3: Values of the Chi-Squared Test for Parameter Stability
+in the Cointegrating Vector
+5
+
+4
+
+3
+
+2
+
+1
+
+0
+1920
+
+1930
+
+1940
+
+1950
+
+1960
+
+1970
+
+1980
+
+18 See for this Stock and Watson (1993). Using a similar test, Hakkio and Rush (1991) and
+Haug (1995) show that the date of the break-points has a significant effect on the results for
+the sustainability of the U.S. federal deficit. Quintos (1995) arrives at the same conclusion
+75
+
+Based on this evidence, in the following analysis we treat World War II as a shock
+which significantly changes the parameters of the co-integrating regression. To
+examine the question of whether this break-point has a significant effect on the
+intertemporal budget balance, we perform the Gregory and Hansen (1996)
+modified co-integration test. This evidence concerns the properties of the cointegrating residuals which are different for the pre- and post-World War II subperiods.
+Gregory and Hansen (1996) offer three models that allow for correcting the
+co-integrating relationships in the presence of structural break-points. Assuming
+a break-point in the year 1940, the first model (A) which accounts for the level
+shift in the co-integrating relationships is given by
+Rt
+
+D E1TGt  E2 DU t  Ht ,
+
+(16)
+
+where the dummy variable DUt 1 for t ! 1940 and zero elsewhere.
+The second model (B) includes a time trend
+Rt
+
+D E1TGt  E2 DU t  E3t  Ht .
+
+(16’)
+
+A third model (C) allows for a regime shift in the co-integrating regression
+coefficient
+Rt
+
+D E1TGt  E2 DU t  E3 ( DU t TGt )  Ht ,
+
+(16’’)
+
+where (DU  TG) represents a regime shift in the deficit generating process. We
+apply the ADF-test to the residuals from each of the estimated co-integrating
+models (16) to (16’’) to assess our null hypothesis. The critical values are from
+Gregory and Hansen (1996).
+
+
+Figure 4: Test Statistics of the ADF-Test for Cointegration
+between Federal Revenue-GDP and Expenditures-GDP Ratios
+–2
+
+–3
+
+–4
+
+–5
+
+–6
+
+Model with level shift
+Model with level shift and time trend
+Model with level and regime shift
+1920
+
+1930
+
+1940
+
+1950
+
+1960
+
+1970
+
+1980
+
+3.4 Results of Johansen Cointegration Test
+In addition to the ADF-test, we also use the Johansen (1988) multivariate cointegration test in order to determine the number of co-integrating vectors in the
+system. We perform the trace test as well as the maximum eigenvalue test, and
+we assume that there is a constant in the error-correction-term. The lag length
+of the VAR is selected by using the Schwarz criterion. Critical values are taken
+from Osterwald-Lenum (1992).
+Table 4 shows the results for the entire sample and for the two sub-periods from
+1900 to 1939 and from 1946 to 2002. These results support the hypothesis of
+co-integration between revenues and expenditures as shares of GDP, with a cointegrating vector of [1 –1.045] for the entire sample; the findings are economically reasonable.20 The evidence for the sub-periods is also quite in line with the
+previous results. The null hypothesis of no cointegration cannot be rejected for
+the shares of revenues and expenditures of GDP-ratio in the pre World War II
+period, but the coefficient of the cointegrating equation is quite close to 1. They
+Sustainability of Swiss Fiscal Policy
+
+War II period. The value of the F2 test statistic for the hypothesis that the cointegrating vector is [1 –1] is 0.22 with a p-value of 0.63. The coefficient of the cointe
+grating equation is quite close to the estimated coefficient E 0.726 in the static
+regression of the Engle and Granger (1987) test.
+Table 4: Results of the Johansen Cointegration Test
+Eigenvalue
+
+Null
+hypothesis
+
+Lags
+
+Trace
+statistic
+
+Maximum
+eigenvalue
+statistic
+
+Normalised
+cointegration
+vector (without constant)
+
+[1.0 –1.045]
+
+1900–2002
+0.214
+
+r
+
+0
+
+4
+
+27.91**
+
+23.70**
+
+0.042
+
+r
+
+1
+
+4
+
+4.21
+
+4.21
+
+1900–1939
+0.215
+
+r
+
+0
+
+1
+
+11.96
+
+9.21
+
+0.069
+
+r
+
+1
+
+1
+
+2.74
+
+2.74
+
+0.497
+
+r
+
+0
+
+4
+
+40.74**
+
+39.20**
+
+0.026
+
+r
+
+1
+
+4
+
+1.54
+
+[1.0 –1.070]
+
+1.54
+
+1946–2002
+[1.0 –0.783]
+
+‘**’, ‘*’ or ‘(*)’ show that the null hypothesis of no cointegration can be rejected at the 0.1, 1, 5, or
+10 percent level, respectively.
+
+Taking all results together, the federal budget deficit is consistent with the intertemporal budget constraint if we consider the entire period where federal revenues and expenditures are cointegrated with a cointegrating vector close to [1 –1].
+
+
+4. Concluding Remarks
+This study asks whether fiscal policy of the Swiss Federation is sustainable. We
+consider the period from 1900 to 2002, but – allowing for a structural break in
+relation to World War II – also the two sub-periods from 1900 to 1939 and from
+1946 to 2002. Using annual data, we perform several unit root and stationarity
+tests as well as tests for co-integration between the revenue- and expenditureGDP ratios. All tests provide more or less the same picture which is, however, in
+itself contradictory. Considering the whole period, the estimated results suggest
+that the federal fiscal policy is sustainable; the budget deficit is consistent with
+the intertemporal budget constraint. Revenue- and expenditure-GDP ratios are,
+for example, cointegrated with a cointegrating vector close to [1 –1]. If we consider the two sub-periods separately, we get, however, quite different results: Swiss
+fiscal policy does not seem to be sustainable in the first period; and there is only
+evidence for weak sustainability in the period after World War II.
+The question is how to interpret this puzzle. It can hardly be caused by the
+structural break in relation to World War II, as in this case the opposite result
+should occur: sustainability for the two sub-periods but no evidence for sustainability over the whole period. An alternative, but also hardly a satisfactory explanation might be that the power of the unit root and cointegration tests is too low
+to reject the null hypotheses in the sub-periods but might be sufficient to reject
+them if we consider the whole period.
+If we look at the more recent development as shown in Figures 1 and 2, another
+explanation might be more convincing: even in historical perspective, the large
+deficits in the federal budget outside war times arose in the last thirty and especially in the last fifteen years. This results in a more or less steady increase of
+the federal debt since 1975. Thus, even if fiscal policy was sustainable up to the
+mid seventies of the last century, it might no longer be sustainable in the most
+recent past. If we consider the whole period, including the war time deficits, these
+more recent deficits do not seem to be very large, but considering the situation
+in peace times, they are. This was also the conviction of the Swiss citizens when
+they accepted the introduction of a debt brake at the federal level in 2001. Such
+debt breaks have proved to be quite effective in some Swiss cantons like St. Gall
+and Fribourg, where they were introduced several decades ago,21 and the hope is
+Sustainability of Swiss Fiscal Policy

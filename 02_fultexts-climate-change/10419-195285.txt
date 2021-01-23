@@ -1,0 +1,1262 @@
+1 Introduction
+There is no doubt that the population ageing is threatening the ﬁnancial sustainability of Pay-As-You-Go pension systems. In the last decades, many countries have
+undertaken major reforms and others are now undergoing similar processes. Spain
+ﬁnds itself in this latter case, and several studies have shown that, in the absence of
+reforms, pension expenditure would increase in the next four decades, accelerating
+from 2035 onwards (European Commission 2009a; MTIN 2008; Jimeno et al. 2008;
+Diaz-Saavedra 2005; de la Fuente and Doménech 2009; Rojas 2005; Sanchez-Martin
+and Sanchez-Marcos 2010; Alonso and Herce 2003; Herce et al. 2009). The changes
+approved in Spain in 2011, which included increasing the retirement age from 65 to
+67, among others, together with the introduction of the Sustainability Factor in 2013,
+are the most signiﬁcant reforms that have been made in decades.
+Despite the last two major reforms of the Spanish pension system, the ageing process
+is so intense that it will be impossible to prevent the replacement rate from decreasing
+at least 20 to 25 percentage points moving from the current 74 to 50 % in the next
+decades.1 As a result, a public debate has arisen, in which it is argued that it would be
+fairer if the inevitable fall in the replacement rate were mainly focused on pensioners
+with the highest pensions.
+Therefore, if this type of reform were to be implemented, it would change the basis of
+the Spanish pension system from a contributory system (or Bismarckian) to a universal
+pension system (or Beveridgean). Currently, both types of pension models exist in
+Europe. Bismarckian systems are designed to provide a sufﬁcient retirement income
+for all workers: from the low skilled to the highly skilled. In contrast, the Beveridgean
+pension system aims to ensure a minimum pension and, as a result, requires lower
+contributions, leaving room for the middle classes to add to their pension pot with
+private savings. Indeed, countries with a Beveridgean system have an average pension
+expenditure of 6 % of GDP, while countries with a Bismarckian pension system have
+an average expenditure of more than 10 % of GDP.
+In view of the above, how could this type of reform be implemented? In the case
+of Spain, this would be feasible if some key parameters of the pension system were
+1 The changes approved in 2011 only solved about one-third of the expected increase in pensions expenditure without reforms, as it was highlighted in several studies [see MEH (2011), Banco de España (2010),
+Fuente and Doménech (2013) and Conde-Ruiz and González (2013)].
+
+modiﬁed—in particular the value of the maximum and minimum pension, as well as
+the upper and lower limit of the contribution base. This would result in major changes
+in the redistribution and the overall generosity of the system, which is deﬁned as
+the ratio between average pension and productivity. In fact, a low intensity reform
+of this type has been carried out in Spain. Some experts have named it the ‘silent
+reform’ of the pension system due to the fact that it is almost imperceptible to voters
+in the initial phase. More speciﬁcally, the key measures in this kind of reform are: (1)
+adjusting pensions in line with inﬂation instead of wage growth, and (2) setting a cap
+to the maximum retirement beneﬁt an individual may receive (maximum pension) and
+indexing it to inﬂation. In a period of economic growth, these measures would imply
+an increase in the number of retired individuals whose pensions would be limited due
+to the maximum pension limit. For this reason, any of these two measures could reduce
+future pension expenditure because they would break the link between beneﬁts and
+wage growth.
+The aim of this article is to quantify the potential consequences of this hypothetical reform, which has been widely discussed and studied in theoretical terms in
+Spain [amongst others Boldrin et al. (2000), Jimeno (2002), Alonso and Herce (2003),
+Conde-Ruiz and Alonso (2004) and Conde-Ruiz and Jimeno (2004)]. To date, there
+are no studies quantifying its implications, and this paper is the ﬁrst to analyse its
+hypothetical impact on the Spanish pension system.
+The main results of the paper show that if this type of reform were to be fully
+implemented, it would change the basis of the Spanish pension system by transforming
+it into a universal pension system (or Beveridgean). We quantiﬁed how the intragenerational redistribution element in the pension system would increase. Moreover,
+we show the important implications that this sort of reform would have on reducing
+future expenditure, as well as on the overall generosity of the system. In order to
+evaluate the potential of the reform in the sustainability of the Spanish pension system
+we compared its effects with those of the 2011 reform, which, among other changes,
+increased the retirement age from 65 to 67.
+The idea of converting the Bismarckian Spanish pension system into a Beveridge
+one is starting to enter public debate. The ﬁnancial crisis in Spain has exacerbated income inequality, not only due to signiﬁcant wage devaluation, but also to
+a high increase in the long-term unemployment rate. In this respect, Conde-Ruiz
+and Profeta (2007) have provided a positive theory on why a Bismarckian or a Beveridgean system may arise. They show that income inequality represents the key
+determinant in social security design and suggest that Beveridgean systems may
+be supported by a voting coalition between low-income individuals, who favour
+its redistributive aspect, and high-income individuals, who support the reduced size
+of the Beveridgean system, which allows them to make more use of private provisions.
+This paper is set up as follows: Sect. 2 discusses the role of the upper limits to
+contribution bases and pension beneﬁts and the institutional aspects of the Spanish
+pension system. The methodology used in our simulations is presented in Sect. 3.1.
+Next, the results related to individual pensions are collected in Sect. 3.2, regarding the
+percentage of new pensions that are affected by both the upper cap and the amount
+to which the pension is limited. The implications regarding the sustainability of the
+
+
+
+pension system are discussed in Sect. 3.3. In Sect. 3.4, the consequences for the nature
+of the system are examined. Finally, we draw our conclusions. Additional results are
+presented in the Appendix, together with the rules for calculating retirement pensions
+in Spain.
+
+2 Bismarck vs Beveridge
+If we examine PAYG pension systems worldwide, we can see that different
+degrees of intragenerational redistribution exist and that there are no completely
+pure Bismarckian systems. There are a number of papers, such as Disney (2004)
+or Conde-Ruiz and Profeta (2007), that have classiﬁed different pension systems in the world as either Bismarckian or Beveridgean.2 Bismarckian systems
+are designed to provide a sufﬁcient retirement income for all workers: from the
+low skilled to the highly skilled. In contrast, the Beveridgean pension system
+aims to ensure a minimum pension and, as a result, requires lower contributions,
+leaving room for the middle classes to add to their pension pot with private savings.
+As shown by Disney (2004) and Conde-Ruiz and Profeta (2007), each system has
+speciﬁc and different characteristics3 which were present at the very beginning of both
+systems. On the one hand, the Beveridgean system has historically been associated
+with lower pension expenditure in terms of GDP compared to Bismarckian systems.
+On the other hand, countries with a Beveridgean system tend to have more developed
+private pension systems and the use of private pension plans is more widespread. The
+aforementioned differences can be seen in the following Fig. 1, in which several countries are classiﬁed by type of pension system according to Disney (2004): Bismarckian
+(BI with a diamond) or Beveridge (BE with star), together with the public and private
+expenditure of each country. It can be observed how Beveridgean countries spend
+about 6 % of their GDP on public pensions, while Bismarckian countries spend on
+average more than 10 % of their GDP. In contrast, the reverse occurs when analysing
+expenditure on private pensions. Countries with a Beveridgean system spend much
+more on private pensions than their Bismarckian counterparts: 3.5 % compared with
+just less than 1 %.
+In the case of the Spanish pension system, it is a contributory or Bismarckian
+system and it has a certain degree of intragenerational redistribution through its minimum pensions. The Social Security system establishes maximum and minimum limits
+to the contributions and pensions, which are set each year by the government. And
+the relation between the lower and upper limits of both pensions and contribution
+bases is one of the key factors in determining the future development of the system.
+
+2 To classify a pension system as either Bismarckian or Beveridge, Conde-Ruiz and Profeta (2007) and
+Disney (2004) deﬁned a Bismarckian index using the correlation between wages and pension received.
+3 A more recent classiﬁcation of countries according to the Bismarkian or Berverdigean nature of the
+
+pension system Krieger and Traub (2013) gives almost the same result as Disney (2004).
+
+
+Fig. 1 Public and private pension expenditure in Bismarckian and Beveridgean countries (% of GDP).
+Source: OECD (2013) and Disney (2004)
+
+2.1 The mechanism of the ‘silent reform’ of the pension system
+The pension system in Spain4 seemed not to have undergone any major reform in the
+two decades before the reform that was approved in 2011,5 in which the retirement age
+was increased to 67 among other changes, and the introduction of the Sustainability
+Factor designed in year 2013.6
+However, even during the period without reforms, and according to some experts,
+the Spanish social security system was undergoing changes caused by the development
+of some of the system’s key parameters, including the maximum and minimum limits
+on pensions and contributions. The pension policy over the last 15 years, as discussed in
+more detail in Sect. 2.2, shows two clear trends: (1) the value of minimum pensions has
+increased in real terms, while maximum pensions have been adjusted with inﬂation—
+4 The Spanish social security system is a PAYG system, and is deﬁned as one in which a retired worker
+receives a pension that is dependent on their employment history (wages, years of contribution to the
+system and retirement age). In 2013, the Sustainability Factor was designed and approved (Law 23/2013
+of 23 December, Reguladora del Factor de Sostenibilidad y del Índice de Revalorización del Sistema de
+Pensiones de la Seguridad Social) and will come into force in 2019. It will take into account the increase
+in life expectancy at age 67 in the calculation of the initial retirement pension.
+5 Prior to the 2011 reform, the two most relevant reforms took place in 1997 and 2002. In 1997 eligibility
+and the reference wage were extended to 15 years and the replacement rate was changed. With the 2002
+reform early retirement was allowed at 61 for workers who had not contributed before 1967 but who had
+a minimum of 30 years of contributions. It also introduced changes to the penalization coefﬁcient linked
+with age of retirement. See more details in Appendix A.
+6 See Diaz-Gimenez and Diaz-Saavedra (2014) and Sanchez-Martin (2014) for an analysis of the impact
+
+of this reform.
+
+
+
+maintaining their value in real terms but reducing their purchasing power in relation
+to the average wage; and (2) minimum contribution bases have been reduced in real
+terms, while the upper limit of contributions has remained almost constant in real
+terms.
+The slight modiﬁcation of these parameters has not received much attention in the
+media or in political arenas because they have been regarded as secondary factors
+to the ﬁnancial sustainability of the pension system. However, as we will see in the
+paper, persistent changes to these parameters will generate signiﬁcant modiﬁcations
+in the distributive structure of the social security system and would inevitably have an
+important impact on both the policy on pensions and their ﬁnancial sustainability. This
+is why it has been called a ‘silent reform’ [amongst others, Boldrin et al. (2000), Jimeno
+(2002), Alonso and Herce (2003), Conde-Ruiz and Alonso (2004) and Conde-Ruiz
+and Jimeno (2004)]. It substantially affects the nature of the social security system
+without reforming any of the criteria that are considered to be the most important ones,
+such as the contribution rate, retirement age, contribution bases, pension formulae,
+etc.
+Despite the fact that the general population would not notice the impact of this
+type of reform at its incipient stage, the consequences would be evident in time. Let
+us look at a scenario in which there is a positive growth rate in productivity and all
+the pensions (including the maximum pension) are adjusted in line with inﬂation.
+If wages (and all contribution bases including the maximum limit) grow steadily at
+the rate of productivity, but the maximum pension threshold is not adjusted in line
+with wages, then the replacement rate (ratio pension / average wage) will decrease
+for individuals entitled to the maximum pension—and the ratio (average pension
+/average productivity) of the system as a whole will also decrease. Therefore, in time,
+pension value would stop increasing at the same rate as wages and would eventually
+reach the cap. Consequently, the number of people receiving the maximum pension
+would increase over time. Moreover, there would be a decrease in the ratio between
+the average pension and average productivity. Nowadays the number of individuals
+who retire with a maximum pension is around 3 %. If this mechanism were taken
+to its extreme, with wages growing at the same rate as productivity (and therefore
+contributions as well), the number of individuals eligible to receive the maximum
+pension would also increase, although the value of the pension would remain constant
+in real terms.
+This result would imply that this sort of reform would transform the system from
+a contributory or Bismarckian system (such as the current Spanish system in which
+pensions depend on past contributions), into a Beveridge system or pure redistributive
+pension system, in which all individuals receive the same pension regardless of their
+contributions. This would mean that the very nature of the pension system would
+change without anyone realising. This critical aspect will be discussed in detail in
+Sect. 3.4. The increasing gap between the limits would also affect the sustainability
+of the system, and, although more individuals would receive the maximum pension
+the generosity of the system would decrease in time because the maximum pension
+
+
+value would remain constant in real terms. This means that not only would the nature
+of the system change, but it would also have important effects on containing pension
+expenditure, as we will see in the next section.
+2.2 Institutional elements
+The Spanish Social Security system establishes maximum and minimum limits to the
+contributions and pensions, which are set each year by the government. Employers and
+employees contribute a percentage of the worker’s wages to the social security system.7
+Contributions are limited by both a ﬂoor bmin and a ceiling bmax . The contribution base
+represents the fraction of labour earnings subject to social security contributions and
+it is linked to wage ω:
+⎧
+⎨ bmin
+ωt
+bt =
+⎩
+bmax
+
+for
+for
+for
+
+ωt < bmin
+bmin ≤ ωt ≤ bmax
+ω > bmax
+
+(1)
+
+At the same time, the Spanish pension system is characterised by having a minimum
+(i.e. pmin ) and a maximum retirement pension (i.e. pmax ). The minimum pension is
+intended for those individuals who are eligible to receive a contributory pension but
+whose contributions are below a certain threshold. This ﬂoor depends on the type of
+pension (retirement, widowhood, disability or orphanage), age (older or younger than
+65) and personal circumstances (with or without dependent spouse), and, moreover,
+there is also an earnings limit. However it does not depend on the number of years of
+contributions. The maximum pension limits the amount that individuals with higher
+pensions would receive.8 The contributory pension that an individual receives can be
+expressed as:
+⎧
+p < pmin
+⎨ pmin for
+p
+for pmin ≤ p ≤ pmax
+P=
+(2)
+⎩
+pmax for
+p ≥ pmax
+These two elements have evolved differently over time. The minimum pension
+value has historically increased in real terms (with signiﬁcant increases in the years
+before the start of the crisis). In contrast, the maximum pension value has remained
+fairly constant in real terms over the past two decades, due to its rising in line
+with inﬂation. Figure 2 shows the trend of the upper limits for both pensions and
+contributions since 1982,9 and the following points are relevant for the simulations carried out in this article: (1) the maximum contribution base has historically
+increased with inﬂation at the same time that the different professional categories
+
+7 The statutory contribution rate for common contingencies is 28.3 %, of which 4.7 % is paid by the worker
+and 23.6 % by the company.
+8 It was established in the year 1984 and it is the same for all pension types and personal circumstances.
+9 For the evolution of the lower limits for contribution bases and pensions, see Conde-Ruiz and González
+
+(2016).
+
+
+
+Fig. 2 Maximum contributions and retirement pensions (euros/year real terms 2006, 1983–2015). a Contribution base. b Retirement pension. Source: Ministry of Employment and Social Security and INE
+
+were grouped together, remaining steady in real terms from the year 2002 onwards.
+It has increased since 2013; (2) the upper limit for the maximum retirement pension
+was established in 1984 and it remained constant (in nominal terms) between 1984
+and 1988. At the same time the prices increased considerably, so the maximum pension dropped a 23.4 % in real terms. Later, it increased in line with inﬂation up until
+2010 but has not followed the trend of real wages. It has dropped in real terms since
+2011.
+In a contributory system, the relation between contributions and pensions (maximum and minimum values) is a key element of the intragenerational redistribution of the pension system and both ratios should be stable and equal to 1.
+For individuals with complete working histories who always had the maximum
+(or minimum) contribution base the corresponding pension should be equal to
+the maximum (or minimum) limit. Figure 3 shows the evolution, since 1984,
+of the ratio between the minimum pension and contribution base values (pension/contribution base) and the same ratio between the maximum values. The
+maximum pension has remained steadily below the maximum contribution cap
+(ratio less than 1) in the last ten years. Since 2000, the minimum pension has
+grown above the minimum contribution limit (ratio greater than 1). In 2015,10
+the maximum pension was 17.1 % lower than the maximum contribution base,
+while the minimum pension was 20.7 % higher than the minimum contribution
+base. This ﬁrst piece of evidence points towards the system already bearing the
+effects of a greater difference between the maximum pension and the maximum
+contribution base. This means that those workers who contribute continuously
+the maximum amount would receive a lower pension from the system than they
+should according to their contributions, and vice versa for those who contribute the
+minimum.
+10 In 2013, the maximum contribution base rose 5 % and the maximum pension 1 %. In 2014 the maximum
+contribution increased by the same amount as in 2013, and all pensions including the maximum limit grew
+by 0.25 %.
+
+Fig. 3 Ratio pension to contribution base—minimum and maximum (1984–2015). Source: Ministry of
+Employment and Social Security and own elaboration
+
+3 From Bismarck to Beveridge: the case of Spain
+The aim of this paper is to analyse the potential effects of a pension reform through
+changes to the maximum limits (contribution bases and pension values) in the coming
+decades up until 2070. We will quantitatively study the potential consequences to the
+Spanish pension system of different growth rates between the maximum contribution
+base and the maximum pension beneﬁt. In particular, we will look at the potential
+effects of such a reform regarding sustainability, as well as its ability to alter the
+nature of the pension system, i.e. to transform a contributory or Bismarckian pension
+system (the current Spanish pension system) to a Beveridgean system. The model
+used is an accounting model with heterogeneous agents and overlapping generations
+in order to project revenues and expenditures of the pension system for the next six
+decades.
+As seen in the previous section, maximum and minimum limits are ﬁxed each year
+by the government. Although it is not possible to capture exactly how the effects
+of these decisions will evolve in time, we are going to set out different possible
+scenarios. First of all, we will assume that both the upper and lower caps for contributions and pensions will grow at the same rate as productivity. This scenario will
+be called ‘scenario 1 or neutral’, i.e. where the mechanism explained in Sect. 2.1
+does not apply. We will also examine three alternative scenarios in which the growth
+rate of the maximum pension beneﬁt is lower than the productivity rate. Speciﬁcally:
+– two ‘middle scenarios’: the maximum contribution base grows alongside productivity, as in the neutral scenario, but the maximum pension increases 50 and 30 %
+
+
+
+of the productivity growth, respectively. They are called scenario 2 or (1, 0.5) and
+scenario 3 or (1, 0.3), respectively.
+– a ‘scenario 4 or extreme scenario’ [or (1, 0)]: the maximum contribution grows at
+the same pace as productivity, as in the neutral scenario, but the maximum pension
+beneﬁt is not indexed with productivity and remains constant in real terms.
+The methodology used for the projections is described in the next section and in
+Sect. 3.2 we present the results obtained concerning the impact of the reforms on: (1)
+the number of new pensions that are capped and (2) the quantity by which the new
+pensions are limited. In order to analyse the impact on individual pensions we will
+focus on pensions obtained by employees (or under the General Regime) who retire at
+the legal age of 65, because it is the most affected group by this sort of reform.11 We
+will also discuss their possible effects on the sustainability of the pension system (Sect.
+3.3) prior to the 2011 reform (in this case we also consider the workers who retire
+early). This will allow us to analyse the potential of this type of reform by comparing
+the results from 2011 obtained in Conde-Ruiz and González (2013) with the same
+model, the same methodology and the same demographic scenario.12 Finally, we will
+highlight the implications of the system through the analysis of its generosity and the
+replacement rate (Sect. 3.4).
+
+3.1 Projection methodology
+The developed model is an accounting projection model with heterogeneous agents
+and overlapping generations, used for the projection of revenues and expenditures of
+the Spanish social security system. It includes a high degree of individual distinction
+(by age, gender, nationality and level of education).13 The simulation period starts in
+2006 and runs over six decades up to 2071.
+Individuals live for 17 periods where every period corresponds to ﬁve calendar
+years. They enter the economy at the age of 15 and live, at most, until the age of 100.
+The maximum potential working life of an individual is therefore ten periods (from
+age 15 to 64), as 65 is the legal retirement age. The maximum period of potential life in
+retirement (for individuals retiring at 65) is seven periods. Individuals are classiﬁed by
+age and also by gender (male and female), educational level (primary school, secondary
+school and tertiary education), and by country of origin (natives and immigrants). So,
+there are a total of 12 different groups of individuals and each one is divided into 17
+subgroups according to age.
+11 Appendix B provides details of these results in case of early retirement between 61 and 64 and for
+self-employed individuals.
+12 It is important to point out that it is not appropriate to compare our results with the impact of the 2013
+reform as generated by other authors (MINECO 2014; Diaz-Gimenez and Diaz-Saavedra 2014; SanchezMartin 2014) because they use a methodology and demographic scenario different to ours.
+13 Model developed in González (2013) and used in Gonzalez et al. (2009) to analyse the impact of the
+
+migration phenomena in the Spanish pension system and in Conde-Ruiz and González (2013) to evaluate
+the pension reform approved in 2011.
+
+
+The model includes a great deal of detail regarding the Spanish pension system,14
+which allows us to differentiate between employees contributing to the general system
+(Régimen General de la Seguridad Social) and self-employed workers contributing to
+the special self-employment scheme (Régimen Especial de Trabajadores Autónomos),
+which are analysed separately. The total number of qualifying years or years of contributions, the contribution bases and the retirement age are elements that determine
+the calculation of an individual’s pension and are all taken into account.
+The simulation strategy is developed in three main phases. Firstly, the population
+projection based on the Cohort Component Population Projection Method with the
+aforementioned heterogeneous agents is employed. Secondly, the reconstruction and
+projection of employment history is carried out using data from the Continuous Sample of Working Histories of Social Security (Muestra Continua de Vidas Laborales,
+MCVL),15 micro data from the Labour Force Survey (LFS), and the corresponding
+data from the National Statistical Institute of Spain (Instituto Nacional de Estadística de España, INE) to obtain the transition probabilities for ﬁve different working
+situations (employed, self-employed, unemployed, disabled and another situation of
+inactivity) according to the different heterogeneous agents considered. During their
+working lives, individuals contribute to the system. Once they retire they receive a
+retirement pension that depends on the terms of their employment history. We also
+take into account that they may generate a widow’s pension when they die. The calculation of the pension expenditure is the third stage of the projection process.
+STAGE 1: Demographic projection The ﬁrst phase of the model consists on the
+projection of the population up to 2071. To calculate this projection we employ the
+
+14 The projection model contains individual heterogeneity and institutional detail that is a noteworthy
+characteristic of this model in comparison with other models used to project pension expenditure in Spain.
+Firstly, it can distinguish age, sex, educational level and nationality [versus other models, such as in Jimeno
+(2003), Diaz-Saavedra (2005), Sanchez-Martin and Sanchez-Marcos (2010), Jimeno et al. (2008), DiazGimenez and Diaz-Saavedra (2006), Diaz-Gimenez and Diaz-Saavedra (2009), Sanchez-Martin (2001) and
+Sanchez-Martin (2010)]. Secondly, as far as we are aware, our model is the ﬁrst to consider ﬁve different
+working situations for any given individual (employed, self-employed, unemployed, disabled and inactive)
+versus papers by Jimeno (2003), Alonso and Herce (2003), Sanchez-Martin (2001), Sanchez-Martin (2010),
+Diaz-Saavedra (2005), Diaz-Gimenez and Diaz-Saavedra (2006), Diaz-Gimenez and Diaz-Saavedra (2009),
+Rojas (2005) and Sanchez-Martin and Sanchez-Marcos (2010). Moreover, this is one of few models that
+employs data gathered from the administrative database called Continuous Sample of Working Histories
+(Gil et al. 2008; Moral-Arce et al. 2008; Herce et al. 2009 also employ this database) to predict accurately
+contributions in accordance with individual heterogeneity. It includes detail at the institutional level that
+allows us to obtain precise data on pension value and incorporates widow’s pensions. The model also takes
+into account other important elements in the system such as the upper and lower cap of both contributions
+and pension beneﬁts; key elements that are being examined in this paper. Other articles that have taken this
+into account to some extent include Jimeno (2003), Sanchez-Martin and Sanchez-Marcos (2010), DiazSaavedra (2005), Diaz-Gimenez and Diaz-Saavedra (2006), Diaz-Gimenez and Diaz-Saavedra (2009) and
+Moral-Arce et al. (2008).
+15 The Continuous Sample of Working Histories is a database created by the Spanish Ministry of Labour
+and Social Affairs that contains records of the working and pension histories of 4 % of the people who,
+at any time in the corresponding wave, had a registered record with the social security system, either as
+contributors or as pensioners. For more details, see Seguridad Social (2006) and Argimón and González
+(2006).
+
+
+
+Cohort Component Population Projection Method. The demographic situation in the
+year 2006 is taken as the starting point in order to be consistent with data from the
+database Muestra Continua de Vidas Laborales (MCVL) for the same year. We adopt
+the overall demographic hypotheses regarding life expectancy (and corresponding
+survival probability) and fertility rates released by the Spanish National Institute of
+Statistics (INE) in its long-term projection scenario up to 2051 [see, INE (2005)]. For
+the period 2051–2071 we assume a stable development of the three variables from
+2051 onwards. The total ﬁgures projected by the INE for total number of births and
+net migration ﬂows are categorised by gender, age and nationality. Moreover, we have
+taken into account the level of education of future generations as it constitutes an
+important factor regarding employability. We assume that all the new generations will
+reach the same level of education as the most educated individuals so far, (i.e. those
+born in 1975 and who were 32 years old in 2007). The implications of this assumption
+mean that the percentage of the labour force with only an elementary level of education
+will decrease and that the percentage of university graduates will increase by ten points
+by 2060 [see, González (2013)].
+STAGE 2: Projection of work history We project both revenue and expenditure
+of the social security system taking into account the assumptions about labour force
+participation, employment and productivity until the year 2051 in line with the macroeconomic scenario used by Spain’s Ministry of Economy and Finance joint exercise
+with the European Commission for long term pension expenditure projection (European Commission 2009a)]. From the year 2051 onwards it is assumed that forecasts
+will remain constant until 2071. Our underlying assumption is that the relevant legislation will not change; therefore the contributions will grow parallel to wages, which
+in turn will grow at the same rate as labour productivity.
+Labor productivity growth rate is the main element of the macroeconomic scenario.
+In the long run, the growth in labor productivity (output per hour worked) broadly
+coincides with TFP growth divided by the labor share (set at 0.65). In particular, the
+EPC assumptions establish that TFP growth rates (for each country) will converge to a
+long-term historical average TFP growth rate recorded in the EU, of 1.1 %. However,
+as a sensitivity exercise, we are going to consider a new scenario for the productivity
+growth rate where the growth rate is 50 % lower in the short run and 12 % lower in
+the long run.16 As we will see along the paper, the effects of the ‘silent reform’ would
+be minor when we consider this alternative scenario with a lower productivity growth
+rate.
+The labor market scenario basically implies an evolution towards a full employment
+situation [unemployment rate of 6.2 % and employment rate (15–64) close to 73 %].
+Women and older workers are responsible of the main increases in the employment
+rate (Table 1).
+
+16 This scenario for the labor productivity growth rate is consistent with the latest assumptions in European
+
+Commission (2015).
+
+
+Table 1 Macroeconomic scenario 2021–2051
+2021
+Labor productivity (growth rate)
+
+2031
+
+2041
+
+2051
+
+2.7
+
+1.9
+
+1.7
+
+1.7
+
+Participation rate (15–64)
+
+75.7
+
+76.5
+
+77.2
+
+77.6
+
+Employment rate (15–64)
+
+71.0
+
+71.8
+
+72.4
+
+72.8
+
+6.2
+
+6.2
+
+6.2
+
+6.2
+
+Unemployment rate (15–64)
+Source: European Commission (2009b)
+
+Individuals between 15 and 64 years of age can be in ﬁve possible situations during their working life: working as an employee, be self-employed,17 unemployed,
+receiving disability beneﬁts or be in another situation of inactivity,18 such as being in
+education. Between the ages of 66 and 99, it is assumed that individuals are retired,
+with or without the right to receive a pension, according to the rules determined by law.
+We have deﬁned 120 different groups of individuals (12 groups divided by gender,
+education and nationality, and 10 by age between 15 and 64) whose contributions to
+the system and their pensions upon retirement we simulate. To reconstruct complete
+working histories we use real work histories from when they started working gathered
+from MCVL data.
+Using the micro data obtained from the Labour Force Survey we calculated transition probabilities for the ﬁve possible situations between ages 15 and 64 in each time
+period of the life cycle according to age, gender, skill and nationality. Then, we estimated the probability of each of the ﬁve work situations conditional on the situation in
+the previous period using a Monte Carlo simulation. The estimation process follows
+a ﬁnite Markov chain that is, for the set of individual characteristics, homogeneous
+across workers and the corresponding conditional transition probability matrix.19
+The transition probabilities obtained are consistent with the situation observed
+for the base year and the expected trend of the average employment rate over the
+projection period. Therefore, the virtual future history is obtained by incorporating
+macroeconomic assumptions and the probability of being in one of the ﬁve labour
+situations, differentiating by age, gender, nationality and educational level, in order to
+calibrate the corresponding rates of activity, employment and unemployment for each
+of the different groups of individuals.
+Finally, retirement patterns of individuals classiﬁed by gender, educational level
+and age are observed through MCVL data. Individuals can retire early (between the
+ages of 61 and 64) or at the ordinary age of 65, differentiating them by gender and
+17 This distinction enables us to apply the characteristics of each scheme regarding retirement, for example
+in the special scheme for self-employed (Régimen Especial de Trabajadores Autónomos, RETA) early
+retirement is not allowed. In Spain, there are several contribution schemes organised by different sectors,
+but we assume the full integration of regimes into two main groups in the future: one for those employed
+within the General Regime (Régimen General, RG) and other for self-employed individuals contributing
+under the Special Scheme for Self-Employed (Régimen Especial de Trabajadores Autónomos, RETA), as
+recommended by the Toledo Pact Commission but not yet implemented.
+18 Including the situation of inactivity is relevant because there are differences by gender, educational level
+and nationality as shown in González (2013).
+19 See, González (2013) for further details.
+
+
+
+level of education. It is important to point out that we do not model the endogenous
+behavioral reactions of individuals to developments in the economic and legal environment; however, we gain in the microeconomic precision and data reliability of our
+simulations carrying out the computational exercise at the highest disaggregated level.
+STAGE 3: Revenues and expenditures projection The model projects the work
+histories of the individuals (according to age, gender, skill and nationality) and their
+contributions to the system. It follows the assumed growth rate of wages (which corresponds to the growth rate of productivity from a macroeconomic scenario). The total
+revenue is equal to the sum of employed, self-employed and unemployed contributions20 [for further details see González (2013)]. Once the work histories of each of
+the 12 different groups (by age, gender, skill and nationality) are obtained, we have
+the key elements to calculate the corresponding retirement pensions: (1) number of
+years of contributions, (2) wages (i.e. the contribution base) and (3) retirement age.
+The average pension beneﬁt for each group is then calculated using these records and
+by applying the legislation.21 Pension expenditure takes into account pensions at 65
+and early retirement between 61 and 64. The total expenditure of the system is the
+sum of expenditure on retirement, widow’s and disability pensions.22
+
+3.2 Impact on individual pensions
+The ﬁrst noticeable effects of different increases in the maximum pension and the
+contribution limits would be an increase in the number of individuals whose pensions
+would have been capped. That is, in the future it is expected that new pensions will be
+higher, not only because wages will also be higher due to their growth in line with productivity, but also because individuals will have better work histories due to improvement of their education level. This is especially true for women, whose increased
+participation in the labour market, together with higher qualiﬁcations, will lead to
+higher pensions in the future. However, if the maximum pension value grew at a lower
+rate than productivity and the maximum contribution base grew alongside productivity,
+it would mean that a greater number of pensions would be capped as time passes.
+In this section, we will analyse the consequences of the widening of the gap between
+the maximum pension value and the maximum contribution base for different groups
+of individuals, bearing in mind that the level of heterogeneity of the model is very
+high since individuals are classiﬁed according to their age, sex, educational level
+and nationality. The analysis in this section will focus on employed people (General
+Regime) who retire at 65 because it is the most affected group by this sort of reform.
+Moreover, our model also allows for the observation of what happens with early
+retirement (age 61–64) and the self-employed. Details about these groups are included
+in Appendix B.
+20 Given the conﬁguration of the Spanish system, a person receiving unemployment beneﬁt generates rights
+for retirement through the contribution.
+21 See Appendix A for more details about the rules on retirement in Spain.
+22 See González (2013) for more detail about survivor’s and disability pensions.
+
+
+Fig. 4 Percentage of new capped pensions. Scenario comparison (2021–2071)
+
+The impact on the percentage of new pensions that are limited by the upper cap
+varies from scenario to scenario, as shown in Fig. 4. The effects start to be evident
+in 2036 in scenario 2 [or scenario (1, 0.5)], in 2031 in scenario 3 [or scenario (1,
+0.3)], and in 2021 in scenario 4 or extreme scenario. In Fig. 4, we show the projected
+trend of percentage of pensioners affected in the coming decades. By 2051, 51 % of
+new pensions would be capped in scenario 2, while in the most extreme scenario this
+proportion rises to 75 %. In this case, scenario 4, the effects would begin in 2021 and
+the percentage of capped pensions would rise over time exceeding 70 % by 2051 and
+reaching 100 % in 2071.
+As we said before, if we have considered a scenario with a lower productivity
+growth rate, the effects of the ‘silent reform’ would be minor. In the case of the new
+capped pensions, the percentage in the extreme case would be 12.8 points lower in
+2050, that is a 62.2 % of total retirement pensions (see Fig. 9a in the Appendix C).
+In a more detailed analysis, included in Table 2, men would be affected more
+than women by the mechanism described in Sect. 2.1 in every scenario. If we take the
+educational level into account, university graduates would have the highest percentage
+of limited pensions. This is to be expected, as graduates have a more complete work
+history and earn higher wages. There are also differences between the categories
+for men and women. However, women’s pensions would be generally less affected,
+although those with higher qualiﬁcations would see their pensions capped. From 2041,
+the percentage of women with a university degree and capped pension beneﬁt is higher
+than for their male equivalents. This is due to improved educational and work histories
+than their older counterparts.
+Once we have obtained the percentages of new pensions affected, it is interesting to
+evaluate their impact on what the average pension is worth. Since a higher percentage
+of capped pensions are to be expected than in the neutral scenario, it is therefore also
+expected that this sort of reform would reduce the value of the average pension of the
+
+
+
+Table 2 Percentage of new capped pensions by scenario, gender and skill
+Scenario 2 (1, 0.5)
+2021
+
+2051
+
+Scenario 3 (1, 0.3)
+2071
+
+2021
+
+2051
+
+Scenario 4 (1, 0)
+2071
+
+2021
+
+2051
+
+2071
+
+Male
+Primary
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+24.7
+
+0.0
+
+25.8
+
+34.7
+
+Secondary
+
+0.0
+
+16.6
+
+15.9
+
+0.0
+
+16.6
+
+15.9
+
+0.0
+
+16.6
+
+25.9
+
+Tertiary
+
+0.0
+
+40.4
+
+39.4
+
+0.0
+
+40.4
+
+39.4
+
+22.8
+
+40.4
+
+39.4
+
+Total
+
+0.0
+
+57.0
+
+55.3
+
+0.0
+
+57.0
+
+80.0
+
+22.8
+
+82.8
+
+100.0
+
+Female
+Primary
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+12.4
+
+0.0
+
+0.0
+
+23.5
+
+Secondary
+
+0.0
+
+0.0
+
+13.1
+
+0.0
+
+13.1
+
+13.1
+
+0.0
+
+13.1
+
+22.2
+
+Tertiary
+
+0.0
+
+45.7
+
+54.3
+
+0.0
+
+54.2
+
+54.3
+
+0.0
+
+54.2
+
+54.3
+
+Total
+
+0.0
+
+45.7
+
+67.4
+
+0.0
+
+67.3
+
+79.8
+
+0.0
+
+67.3
+
+100.0
+
+Table 3 Variation of the average new pension value in each scenario against the neutral one (%, 2021–2071)
+Year
+
+Scenario 2 (1, 0.5)
+
+Scenario 3 (1, 0.3)
+
+Scenario 4 (1, 0)
+
+2021
+
+0.0
+
+0.0
+
+0.0
+
+2031
+
+0.0
+
+−1.3
+
+−6.3
+
+2041
+
+−1.9
+
+−8.5
+
+−19.3
+
+2051
+
+−6.7
+
+−15.6
+
+−30.9
+
+2061
+
+−11.1
+
+−23.3
+
+−40.6
+
+2071
+
+−15.5
+
+−29.4
+
+−49.0
+
+system. For example, within four decades, the value of new pensions could be between
+6.7 and 30.9 % lower than the beneﬁt recognized in the neutral scenario (see Table 3).
+Following the individual details of the model, the value of pensions would decrease
+more for men than for women in any of the proposed scenarios (Table 7 in Appendix
+B). This is because men have higher contribution bases than women for any given
+level of education. Furthermore, if we take skill into account in the case of the extreme
+scenario, the resulting pensions could register a 44 % reduction in their quantity by
+2051. In the case of university graduates, there is nearly a 60 % loss by 2071 (see
+Table 8 in Appendix B).
+If we consider the scenario with a lower labor productivity growth rate, in 2050 the
+decrease in the average new pension value would be halved (in the case of the scenario
+4) with a reduction of a 16.3 % instead of a 30.9 % (see Fig. 9b in Appendix C).
+In Table 4, we compare the potential results of a pension reform as the analysed
+in this article with the reform of the Spanish pension system approved in 201123 in
+order to assess its potential. It is clear that the effects on the average pension are very
+similar to those obtained under scenario 2 or (1, 0.5).
+23 See Appendix A for further details of changes under this reform.
+
+
+Table 4 Variation of the average new pension value by scenario. Comparison with 2011 reform (year 2051)
+Scenario 2 (1, 0.5)
+
+Scenario 3 (1, 0.3)
+
+Scenario 4 (1, 0)
+
+Reform 2011
+(Conde-Ruiz and
+González 2013)
+
+−6.7
+
+−15.6
+
+−30.9
+
+−9.1
+
+Male
+
+−8.8
+
+−17.8
+
+−33.4
+
+−8.1
+
+Female
+
+−4.3
+
+−13.2
+
+−28.0
+
+−10.1
+
+Total
+Gender
+
+Skill
+Primary
+Secondary
+Tertiary
+
+0.0
+
+0.0
+
+−11.7
+
+−11.5
+
+−3.5
+
+−10.1
+
+−24.3
+
+−11.1
+
+−10.3
+
+−23.4
+
+−40.4
+
+−7.4
+
+3.3 Impact on sustainability
+In this section, we will analyse the potential implications that changes in the pension
+system such as those described in this paper would have on the evolution of total
+pension expenditure based on the different scenarios presented. As described in Sect.
+3.1, we obtained the work histories and key elements necessary to calculate retirement
+pensions (number of years of contributions, contribution bases and retirement age).
+Then, we calculated the corresponding average pension for each group and applied the
+corresponding legislation. Total pension expenditure includes retirement pensions at
+65 and early retirement between 61 and 64, taking into account both retirees under the
+employees or General Regime (Régimen General, RG) and under the special scheme
+for self-employed (Régimen Especial de Trabajadores Autónomos, RETA). As we
+have indicated, we will obtain the results based on the Spanish pension system prior
+to the 2011 reform for comparison.
+As expected, the total pension expenditure will increase in the coming decades, not
+only due to higher life expectancy but also due to the fact that pensions will be higher
+because of the improvement of work histories. However, if the maximum contribution
+cap grows at the same rate as productivity and the upper pension limit remains constant
+in real terms (our extreme scenario), the value of the new pensions will be limited,
+as shown in the previous section, which would have implications in terms of the total
+pension expenditure. The difference between the neutral and the extreme scenarios
+would be perceptible from 2031 onwards because there would be a signiﬁcant number
+of retirees at 65 entitled to the maximum pension. In fact, population dynamics plays an
+important role since, as seen in Fig. 5, the maximum number of new pensions is reached
+in 2040, when larger numbers of people (those from the baby boom) would retire and
+the trend of pension expenditure a percentage of GDP would adopt an inverted ‘U’
+shape. At the same time, under the extreme scenario, pension expenditure for new
+pensions would continue to increase until 2046. From that point onwards there would
+be a two-fold effect: the number of new retirement pensions at 65 would be lower
+due to population dynamics, and the type of reform analysed would have its greatest
+impact in 2046.
+
+
+
+Fig. 5 New retirement pensions at 65 and expenditure: extreme and neutral scenarios (2021–2071)
+
+If the characteristics mentioned were to remain constant over time, pension expenditure would be lower. Total expenditure would be lower if the scenario were closer
+to the extreme scenario, and it could reach, in comparison with neutral scenario, 3.2
+percentage points (p.p.) of GDP by the year 2051 (see Table 5). The reason for this is
+obvious: in our model all wages grow in line with productivity and this means that all
+contribution bases (including the maximum) also grow at this rate. This implies that
+the Reference Wage (Base Reguladora) also grows for all individuals, which in turn
+generates the growth of beneﬁt amount. Due to the fact that pensions have a maximum
+limit, a greater number of workers are entitled to the maximum pension. The higher
+the percentage of workers with a maximum pension, the lower the expenditure of the
+system. Moreover, if the maximum pension increase is 30 [scenario 3 or (1, 0.3)] or
+50 [scenario 2 or (1, 0.5)] % of productivity growth, then expenditure would be lower
+from 2041 onwards and, by 2051, it would be down 1.4 p.p. of GDP in scenario 3 and
+0.4 p.p. of GDP in scenario 2.
+Therefore, if the Spanish Pension System were to shift towards a Beveridgean one
+along the lines of the mechanism described in Sect. 2, there would be a signiﬁcant effect
+on containing pension expenditure. As seen in this paper, it could lead to a 3.2 p.p. of the
+GDP reduction of expenditure by 2051 (Table 5) in an extreme scenario, compared with
+the 3.7 p.p. of GDP reduction under the 2011 reform, based on the same methodology
+and the same demographic scenario as in Conde-Ruiz and González (2013).24
+24 We have focused the analyses on the mechanism of the ‘silent reform’ when the maximum pension
+beneﬁt grows at a lower rate than the maximum contribution base and the minimum pension beneﬁt grows
+at the same rate as productivity. If we assume an alternative scenario where the minimum pension remains
+constant in real terms, then the effects over future expenditure would be more pronounced, as can be seen
+in Conde-Ruiz and González (2016).
+
+479
+
+Table 5 Total pension expenditure and reduction by scenario (2021–2071)
+Expenditure (% GDP)
+Year
+
+Reduction (p.p. GDP)
+
+Scenario 1 (neutral)
+
+Scenario 2 (1, 0.5)
+
+Scenario 3 (1, 0.3)
+
+Scenario 4 (1, 0)
+
+2021
+
+9.2
+
+0.0
+
+0.0
+
+0.0
+
+2031
+
+13.4
+
+0.0
+
+0.0
+
+−0.2
+
+2041
+
+20.1
+
+−0.1
+
+−0.5
+
+−1.3
+
+2051
+
+24.3
+
+−0.4
+
+−1.4
+
+−3.2
+
+2061
+
+22.9
+
+−0.8
+
+−2.2
+
+−4.7
+
+2071
+
+21.4
+
+−1.5
+
+−3.3
+
+−6.1
+
+Again, the labor productivity growth rate plays a crucial role on the impact of the
+‘silent reform’. In the scenario with a lower productivity growth rate, the impact over
+total pension expenditure over GDP (in the case of the scenario 4 or extreme scenario)
+is reduced a 40 %. Speciﬁcally, it could lead (in scenario 4) to a 1.4 p.p. of the GDP
+reduction of expenditure by 2051 (see Fig. 9c in the Appendix C).
+If we analyse the revenue of the social security system as a percentage of GDP,
+it is easy to understand that, if all the contribution bases (including the maximum
+contribution base) grow at the same rate as worker productivity (i.e. scenario 1), total
+contributions will remain constant over time. However, it is also possible that an additional impact of the reform described previously could arise if we consider different
+scenarios where the maximum contribution base25 would grow at a higher rate than
+productivity. In this sense, we have considered two alternative scenarios: one where
+the maximum contribution base grows at 1.5 times the productivity growth rate and a
+second scenario where it grows at twice the productivity growth rate. As can be seen in
+Fig. 6, the impact on social security revenues could be signiﬁcant, while in the second
+case it could imply an increase of around 3 percentage points of GDP by the year 2061.
+3.4 Implications for the nature of the system: from Bismarck to Beveridge
+If the process set out in this paper were to adopted, i.e. that the maximum contribution
+cap grows at the same pace as productivity and the upper beneﬁt cap remains constant in
+real terms, it would have a signiﬁcant effect on pension expenditure. However, it would
+also take place at a cost, since it would have important distributional consequences.
+Regarding the generosity of the system (deﬁned as the ratio between average pension
+and productivity),26 the maximum would be reached in 2051 in all scenarios, but in the
+more extreme scenario there would be a lower level of generosity across the system.
+Within four decades, generosity would be the 24.2 % in scenario 2, 23.2 % in scenario
+25 According to data from the Continuous Sample of Working Histories of Social Security, the percentage
+of workers in Spain with the maximum contribution base would be around a 10–15 %. Cuadrado et al. (2011)
+and Bonhomme and Hospido (2012) observed that the 10th percentile of female earnings distribution is
+capped, rising to nearly 20 % for male earnings.
+26 The ratio of total pension expenditure to GDP can be decomposed as a function of three main components:
+demographics, the labour market and the institutional factor. The following equation illustrates the role
+
+
+
+Fig. 6 Revenues under different maximum contribution growth rates (2021–2071)
+
+3 and 21.2 % in scenario 4 or extreme, versus 24.6 % in a neutral scenario (Table 9 in
+Appendix B). Generosity would decline over time in all scenarios from 2051 onwards,
+when the number of pensioners affected increases, and would be most pronounced in
+the extreme scenario (see Fig. 7). This sort of pension reform could become a powerful
+mechanism to avoid the transfer of growth in productivity to pensions. Note that if no
+such changes were made, growth in productivity would transfer to the contribution
+bases (or wages), then to the Reference Wages, and ﬁnally to pensions.
+The impact over the generosity would be a reduction of 3.2 points if we consider the
+scenario with a lower labor productivity growth rate. In this case the ratio of the average
+pension to productivity would be 24.4 % in 2051 (see Fig. 9d in the Appendix C).
+The ratio between pension value and contribution base can provide an insight into
+what would happen to the nature of the system under the type of reform analysed in this
+article. It is known as replacement ratio because it highlights the relation between an
+individual’s pension and their last wage. If the pension system is purely contributory
+or Bismarckian, this ratio remains roughly constant in line with contributions. This
+implies that if someone has a higher salary (i.e. a higher contribution base), he will
+contribute more overall and will be entitled to receive a higher pension. As observed
+in Fig. 8, the ratio is maintained nearly constant in the neutral scenario. In the case of
+Footnote 26 continued
+generosity plays in the institutional factor and so on in the total expenditure as percentage of GDP.
+Elegibility
+
+Generosity
+
+Number of pensions
+Average Pension
+Pension Expenditure
+1
+Pop. >65 years old
+·
+·
+=
+·
+GDP
+Working Age Pop. Employment Rate Pop. >65 years old Average Productivity
+Demographic Factor
+
+123
+
+Labor Market Factor
+
+481
+
+Fig. 7 Ratio of average pension to productivity (2021–2071)
+
+female university graduates the replacement rate increases slightly due to the fact that
+they have more complete work histories, therefore gaining access to higher pensions.
+In a Beveridgean (or pure redistributive pension system) pensions do not depend
+on contributions to the system. As stated previously, in a system of this type, the
+replacement rate decreases with respect to wages because all individuals receive the
+same pension regardless of their salary. Therefore, workers with higher wages have
+a lower replacement rate. This is precisely the result of maintaining the maximum
+pension value constant in real terms, while the maximum contribution base increases
+at the same pace as productivity. Figures 8a, b show these contrasts as reﬂected in our
+extreme scenario for Spanish individuals retiring at 65, in which the replacement rate
+would decrease alongside the level of education.
+The results obtained in this article prove that it would be possible to change the
+nature of the system from a contributive or Bismarckian type to a Beveridgean one.
+The kind of reform analysed in this paper would increase the intragenerational redistribution element in the pension system. This means that apparently small changes
+in some factors could lead to a signiﬁcant structural reform that would completely
+change the nature of the system.27
+Evidently, the reduction in the replacement rate alongside the level of education is
+less pronounced if we consider our scenario with lower productivity growth rate. This
+27 This sort of reform also has implications in terms of the Internal Rate of Return (IRR). Following the
+methodology described in Jimeno and Licandro (1999) and Devesa Carpio et al. (2002) we have calculated
+the IRR for employed people (General Regime) who retire at 65. If the extreme scenario or scenario 4 took
+place, individuals in this group would have 3.4 % IRR as opposed to 4.4 % in the base scenario for the year
+2051. It is noteworthy that this reduction would affect men and women differently. Men would have 2.9
+% IRR in the extreme scenario and 4.0 % in the neutral scenario; meanwhile, women would have 3.9 %
+IRR instead of 4.7 %. Educational background is also a factor and those at higher levels would be the most
+affected.
+
+
+
+Fig. 8 Ratio ﬁrst pension to last contribution base. Neutral and extreme scenario by gender and educational
+level. Year 2051 and 2071
+
+fact proves that the lower the labor productivity growth rate is, the slower the change
+in the nature of the pension system towards a Beveridgean type.
+
+4 Conclusions and discussion
+The Spanish social security system, as well as many other European ones, has to
+face the challenge that an ageing population presents. There is no doubt that the
+average replacement rate (RR) will decline due to ageing pressure. However, there are
+several ways this reduction could be achieved: either by decreasing the RR linearly
+and guaranteeing the contributory element of the system, or by reducing the RR only
+for high earning workers and increasing the redistributive component of the system.
+We have shown that a full implementation of the pension policy that has already been
+adopted by the Spanish current and previous governments would result in the second
+option. This policy consists on increasing maximum pensions in line with inﬂation
+instead of wage or productivity growth. This paper explores the potential effects and
+implications of this theoretical idea and shows that it has relevant effects over the
+generosity of the pension system (by decreasing the ratio between the average pension
+and the average productivity) and its ﬁnancial sustainability. We have shown that
+these changes could have signiﬁcant effects on the expenditure of the system. In the
+most extreme case, it could imply a lower expenditure of 3.2 percentage points of
+GDP by 2051 and 6.1 p.p. of GDP by 2071. This impact is of great importance when
+compared to the effects of the 2011 pension reform. Conde-Ruiz and González (2013)
+demonstrated, using the same methodology and the same demographic scenario as
+in this article, that the 2011 reform (in which the calculation period was extended,
+retirement age was increased to 67 and a modiﬁed replacement rate was applied to the
+reference wage) may imply a 3.7 p.p. of GDP reduction of expenditure by 2051.
+As we have seen, different growth rates between the maximum pension beneﬁt
+and the maximum contribution base constitute per se a potential powerful reform
+mechanism that also has distributional effects. The policy of indexing the maximum
+
+
+pension with inﬂation may seem harmless and may seem not to imply any institutional
+change to the pension system, at least in the early stages. However, it is not the case
+in a context of growing wages (in real terms), as we have shown in this paper. In
+particular, the application of this type of reform could imply, in an extreme scenario,
+an average retirement beneﬁt reduction of 50 % in the long term for workers with a
+tertiary education level. This means that it would reduce the average generosity of the
+pension system and would contribute its the ﬁnancial sustainability.
+However, given that this decrease in the average generosity of the system would
+be achieved by reducing only higher pensions, the reform also increases the degree
+of intragenerational redistribution of the system. Therefore, we have also shown that
+the reform could completely change the nature of the system, transforming it from a
+contributory or Bismarckian system into a pure redistributive or Beveridgean one.
+This result is crucial as it opens the door to a possible reform of the pension system in
+Spain. The intensity of the ageing process will inevitably make the average replacement
+rate drop signiﬁcantly. At the same time, widening income inequality has increased
+political support for lowering the replacement rate only for the highest pensions.
+Regarding this, it is important to point out that the Bismarckian system was originally
+created as a response to the demands of the middle class to provide a sufﬁcient level of
+income in old age. Universal pensions in a pure redistributive system (i.e. Beveridgean)
+were created with the aim of providing a minimum pension equal for all workers, but
+leaving enough room for individuals to add to their pension packages with private savings. Both models already exist in Europe, and the only danger of this kind of change is
+not the change itself, but rather introducing it in a timely manner to give citizens enough
+time to adapt their decision-making regarding savings to the new pension system.
+We have also seen that the labor productivity growth rate plays a crucial role on
+the impact of the ‘silent reform’. In particular, the higher the growth rate is, the lower
+the effects over the sustainability, the level of the pensions and over the changes in the
+nature of the pension system.
+The main limitation of our methodology is that we assume decisions made by
+the workers (retirement age or educational level) are exogenous. In other words, our
+simulations are subject to the ‘Lucas critique’ in the sense that we do not model
+endogenous behavioural reactions of workers to changes in the rules of the social
+security system and their effects over the relative prices. In this respect, our simulation
+does not take into account important implications. This simpliﬁcation has allowed us
+to incorporate a very precise institutional detail of the Spanish pension system within
+the model, as well as a high level of individual heterogeneity amongst individuals.
+We have seen that the ‘silent reform’ generates a strong reduction in the generosity of
+the pension system with a signiﬁcant reduction of the replacement rates, and therefore
+individual decisions over retirement, savings and human capital investment must be
+affected. Individual retirement behavior is largely inﬂuenced by wealth or income
+effects. Several studies [see e.g. Costa (1998), Butler et al. (2005) and Euwals et al.
+(2010)] show that both expected and unexpected decrease in workers’ income or wealth
+induce them to postpone retirement. At the same time, a reduction in the pension
+income combined with the increase in longevity, may induce individuals to save more,
+not only in physical capital, in order to accumulate assets for the retirement period [see
+e.g. Higgins (1998), Kelley and Schmidt (1996), Masson et al. (1998) and Bloom et al.
+
+
+
+(2003)], but also in human capital by training-on-the-job and by learning-by-doing,
+in order to remain active in the labor market for a longer period of time. In a nutshell,
+the reaction of the individuals to the reduction in pension generosity (i.e. delaying
+retirement, increase in private savings and more investment in human capital) will not
+only help them to adapt to the new demographic scenario, but will also reduce the
+problems of ﬁnancial sustainability of the pension system.
