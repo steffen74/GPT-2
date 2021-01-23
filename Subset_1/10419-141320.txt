@@ -1,4 +1,4 @@
-Introduction
+
 There is a long-lasting and ongoing debate about the best method to elicit willingness to pay
 (WTP) for contingent valuation (CV) of non-market goods in environmental [1], agricultural [2,
 3] and health economics [4, 5]. A fundamental issue in this debate is the question whether openor closed-ended methods lead to more reliable results [6–8]. Traditional CV studies rely on an
@@ -13,20 +13,6 @@ payment cards are subject to starting point and range biases (see e.g. [12–14]
 choices are statistically inefficient and may be prone to the ‘yea-saying bias‘, i.e. a tendency to
 accept presented amounts [14–19]. In view of these issues a number of authors have questioned
 the superiority of closed-ended over open-ended methods [7, 8, 14, 17, 20–22].
-
-Data Availability Statement: All data is available on
-the project homepage (https://www.ifw-kiel.de/
-forschung/umwelt/projekte/accept) and from Figshare
-(https://dx.doi.org/10.6084/m9.figshare.3113050.v1).
-Funding: This paper is part of the project ACCEPT,
-which is funded by the German Federal Ministry for
-Education and Research (grant number 01LA1112A).
-The publication of this article was funded by the Open
-Access fund of the Leibniz Association. The funders
-had no role in study design, data collection and
-analysis, decision to publish, or preparation of the
-manuscript.
-
 A particular factor which contributes to noisy or even biased measurements of WTP is preference uncertainty. Preference uncertainty may be caused by incomplete knowledge about the
 features of the object under evaluation or simply by the fact that a person is unsure about her
 own preferences [23–27]. Since individuals are typically unable to gain experience of non-market goods through repeated purchase and consumption, preference uncertainty is highly relevant for CV studies [28]. Due to vagueness of preference, people often have only regions of
@@ -62,7 +48,9 @@ whether this holds also for our study since preference uncertainty is supposedly
 for non-market goods. Our second goal is to compare the performance of Range- and PointWTP for CV studies. In doing so, we use the criterion of theoretical validity of Range-WTP
 and compare it to that of Point-WTP. Therefore, we measure the degree to which WTP values
 are consistent with theoretical expectations. More precisely, we measure other subjective evaluations of our non-market good and test whether they are related to WTP measures in a consistent way (see Section 3.3 for details). We also check for the stability of our results over time. In
-addition, we analyse the test-retest reliability by considering the correlation between the same respondents’ answers at two different points in time. In a broader sense we want to contribute
+addition, we analyse the test-retest reliability by considering the correlation between the same
+
+
 to the issue whether the earlier criticism on open-ended methods can be watered down by eliciting ranges. To the best of our knowledge, no previous paper has compared theoretical validity
 of two open-ended methods. Our third goal is to provide empirical evidence for our test case,
 the avoidance of the use of solar radiation management (SRM), a climate engineering technique that aims to counteract climate change by the injection of sulphate aerosols into the
@@ -93,7 +81,11 @@ between the lower bound (100%), indifference range (50%) and upper bound (0%). A
 ensures incentive compatibility, e.g. if the randomly drawn lottery price is lower than the lower
 bound, then the respondent must buy the good at the drawn lottery price. They conclude that
 Range-WTP yields better predictions for actual buying probabilities than Point-WTP. Dost
-and Wilken [33] build on the Wang et al. [35] approach but drop the elicitation of an indifference point and restrict the assumption of linear decreasing purchase probabilities. They test the range on a study of caffè latte and show that the traditional Point-WTP approach reveals
+and Wilken [33] build on the Wang et al. [35] approach but drop the elicitation of an indifference point and restrict the assumption of linear decreasing purchase probabilities. They test
+
+Fig 1. Imprecise preferences.
+
+
 the midpoint of the range. The only non-market CV study is Hakansson [41]. Hakansson [41]
 elicits the WTP for increasing the number of wild salmon in a Swedish river. She proposes a
 similar approach though, as pointed out above, the interval bounds in her study are not clearly
@@ -131,7 +123,9 @@ same sample [57] and has been addressed in several previous CV studies (e.g. [58
 Methodology and Data
 Ethics statement
 Our data comes from an internet survey organized by a professional survey institute. Participants are registered at this institute and receive a monetary compensation for every survey they
-perform. Our survey only involved questions about sociodemographic data and personal attitudes without e.g. the possibility of losing money or incurring any other harm. Authors
+perform. Our survey only involved questions about sociodemographic data and personal
+
+
 have access to anonymized personal information of respondents (birth date, occupation,
 income class, but not to names, address). All data was provided by the respondents voluntarily,
 i.e. they did not have to answer these questions. All data was anonymized by the survey
@@ -170,7 +164,9 @@ video well or very well.
 After this initial information stage on the subject of SRM, we proceeded to elicit the respondents’ acceptance of SRM. Respondents were asked about their level of agreement (or otherwise) ‘to using SRM to counteract climate change‘. Potential answers ranged from 1 (‘strongly
 disagree’) to 4 (‘strongly agree’). Next, respondents were asked to assess the risks and benefits
 of SRM using a scale from 1 (‘very small’) to 4 (‘very large). Subsequently, we elicited respondents’ WTP, using either the Point-WTP method (Survey A) or the Range-WTP method (Survey B). The WTP questions are described in more detail in section 3.2. We then elicited
-respondents’ emotional response to SRM. Respondents were asked how strongly they experienced various positive reactions (delight, satisfaction, hopefulness, relief) and negative
+respondents’ emotional response to SRM. Respondents were asked how strongly they
+
+
 responses (worry, fear, sadness, anger, annoyance) when thinking about SRM, using a scale
 from 1 (‘not at all’) to 4 (‘strongly’). In our analysis, we summarised negative and positive emotions in a composite index. Finally, we collected information on the respondents’ gender, age,
 income and education. A respondent with a higher-education entrance certificate is coded as
@@ -208,7 +204,9 @@ We also compared and analysed the performance of the range and point methods wit
 to theoretical validity and test-retest reliability. To address theoretical validity, we analyse
 whether the stated WTP values coincide and correlate with other objective or subjective factors.
 Logic suggests that these should be systematically related to the stated WTP values [64]. In this
-way, we not only elicited respondents’ WTP for the avoidance of SRM but also their self-reported acceptance of SRM, their risk perception for SRM and other perception measures.
+way, we not only elicited respondents’ WTP for the avoidance of SRM but also their self-
+
+
 Obviously, these perception measures should be related to the respondents’ WTP. For instance,
 respondents who disagree with the use of SRM or who perceive the risks of SRM as severe
 should display a higher WTP value for the avoidance of SRM. We further analyse the test-retest
@@ -235,7 +233,10 @@ The figures are almost identical for Survey B. Here, 61% of the respondents disa
 the use of SRM and only a minority of 28% agreed. Overall, we find virtually identical levels of
 
 Fig 2. Acceptance of SRM in Survey A (Point-WTP) and Survey B (Range-WTP). Note: The survey asked the following question: ‘Please state your level
-of (dis)agreement with the following statement: We should use SRM to counteract climate change.’acceptance in the two surveys (Wilcoxon rank sum test p = 0.6930). Moreover, the overwhelming majority in both surveys chose EE (86% in Survey A, 90% in Survey B) over SRM.
+of (dis)agreement with the following statement: We should use SRM to counteract climate change.’
+doi:10.1371/journal.pone.0154078.g002
+
+
 Up to this point, both surveys were exactly identical. In fact, we find almost identical levels
 of choice and acceptance of SRM in the two surveys. The results of the two surveys are, therefore, highly consistent. However, when we apply the two methods to eliciting the WTP of
 respondents and compare the WTP figures for both methods, we find major differences. For
@@ -277,7 +278,12 @@ Point-WTP method does not seem to satisfy the theoretical validity criterion.
 Further evidence comes from Fig 3, which visualises the relation between acceptance and
 Point-WTP in a boxplot diagram. Median WTP remains almost unchanged between the categories and is even the same for the categories of ‘strongly disagree’ and ‘somewhat agree’ (EUR
 20). Theoretically, respondents who ‘strongly disagree’ with the use of SRM should state a
-higher WTP than respondents who ‘somewhat agree’ with its use. However, the boxplot diagram does not provide any evidence for this prediction. In fact, we find that median WTP is
+higher WTP than respondents who ‘somewhat agree’ with its use. However, the boxplot
+
+
+doi:10.1371/journal.pone.0154078.g003
+
+diagram does not provide any evidence for this prediction. In fact, we find that median WTP is
 EUR 5 higher for those respondents who ‘somewhat disagree’ than for those who ‘strongly disagree’. This finding again runs counter to theoretical expectations.
 In contrast to our previous result, we find a strong and statistically significant negative correlation of -0.2438 (p-value of 0.000) between acceptance and Range-WTP. We also find highly
 statistically significant correlations between acceptance and the upper bound (correlation of
@@ -298,7 +304,12 @@ statistically significant for respondents aged 49 or above. In sharp contrast to
 Range-WTP, Point-WTP is not correlated with acceptance for any subgroup.
 In summary, we find that Range-WTP is highly correlated with acceptance. In terms of theoretical validity, Range-WTP thus seems to outperform Point-WTP, which is not correlated
 with acceptance at all. Our analysis focuses on the large majority of respondents who chose EE.
-Yet, we find similar results when we focus on respondents who chose SRM instead. The Point-WTP is uncorrelated with acceptance (correlation coefficient 0.1239, p-value 0.2446, N = 90),
+Yet, we find similar results when we focus on respondents who chose SRM instead. The Point-
+
+
+doi:10.1371/journal.pone.0154078.g004
+
+WTP is uncorrelated with acceptance (correlation coefficient 0.1239, p-value 0.2446, N = 90),
 whereas the Range-WTP is positively correlated with acceptance (correlation coefficient
 0.3210, p-value 0.0230, N = 50).
 Perception Measures and Willingness to Pay. We have shown that acceptance is not correlated with Point-WTP but highly negatively correlated with Range-WTP. We now analyse
@@ -324,7 +335,7 @@ cases our results remain qualitatively unchanged. Details are available upon req
 Reliability and stability. In a follow-up surveys, we investigated whether our results were
 reliable and stable over time. First, we analysed the test-retest reliability of the two methods. To
 
-Table 1. Correlation of acceptance and WTP.
+
 Range-WTP
 
 Point-WTP
@@ -495,7 +506,7 @@ As with the original surveys, both follow-up surveys were structured identically
 only with respect to the WTP elicitation method. In follow-up Survey AÃ , respondents were
 again asked to state the Point-WTP, whereas in follow-up Survey BÃ respondents were again
 
-Table 2. Correlation of perception measures and WTP.
+
 Perception measures
 
 Range-WTP
@@ -578,7 +589,7 @@ insignificant (p-value of 0.8621). Accordingly, the Point-WTP again fails to sat
 of theoretical validity. For follow-up Survey BÃ , by contrast, we find that the correlation
 between acceptance and Range-WTP is strong (-0.2036) and highly statistically significant (pvalue of 0.0042). If we restrict the initial samples of Survey A and Survey B to those
 
-Table 3. Correlation of perception measures and WTP.
+
 Perception measures
 
 Range-WTPSurvey A*
@@ -667,7 +678,7 @@ set of respondents. We analysed the test-retest reliability of the two methods a
 whether the stated WTP values correlate over time. Furthermore, we analysed whether our
 results on the theoretical validity of the WTP methods were stable over time.
 
-Our results are as follows: First, the stated WTP for the avoidance of SRM via EE differs
+
 strongly between the two surveys and thus depends on the WTP method used. Mean WTP elicited by the Point-WTP method is EUR 44, whereas mean Range-WTP is EUR 89. In contrast
 to Dost and Wilken [33] we thus cannot find any evidence that the mean of the Range-WTP
 equals the Point-WTP. The main reason for this difference seems to be the fact that Dost and
@@ -700,3 +711,6 @@ to more than one country [10, 41]. Preference uncertainty could be regarded as o
 for the poor empirical performance of open-ended Point-WTP; Range-WTP, at least in our studies,
 improves measurement substantially. Given these results, an important route for future research is
 to compare the performance of open- and closed-ended elicitation of WTP intervals.
+
+
+

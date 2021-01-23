@@ -1,3 +1,4 @@
+
 1 Introduction
 Throughout the last century, there has been a recurrent desire to connect human social evolution to changes in energy consumption [1–4]. The motivation is simple: the laws of thermodynamics dictate that any system that exists far from equilibrium must be supported by a flow of
 energy [5]. Since human societies are non-equilibrium systems, it follows that energy flows
@@ -15,7 +16,8 @@ Stochastic (random) models have been successfully used to link firm dynamics to 
 firm size distribution. Yet there is little understanding of what drives variations in firm dynamics. Using data on firm age and firm size to constrain a stochastic model, I demonstrate that
 firm dynamics are likely related to rates of energy consumption, and I offer a prediction of
 what this relation should look like.
-The second approach is more speculative, and aims to offer a general explanation of why
+
+
 rates of energy consumption are related to institution size. I propose two factors that mediate
 this relation: technological scale and social hierarchy. I hypothesize that increases in energy consumption involve a trend towards the use of technologies that are larger and more complex.
 These increasingly large technologies require the coordination of greater numbers of people.
@@ -56,7 +58,7 @@ advantage [21, 22]. Unfortunately, this approach has struggled to stipulate exac
 argue that the ‘resource-based view’ advances a theory of value that is tautological—resources
 create value because they are (among other things) valuable [23].
 
-In terms of measurability, theories of government size have faired no better than theories of
+
 firm size. One approach is to apply the rational-choice model to the behavior of voters. Government size is treated as a reflection of the preferences of utility maximizing voters [24, 25]. However, without an objective measure of individuals’ internal preferences, this theory is untestable.
 Another approach is to assume that government bureaucracies (or government as a whole)
 are self-serving entities that attempt to maximize their budgets, but are restrained by voters
@@ -98,7 +100,7 @@ consistent with previous research that has focused on the relation between firm 
 per capita [18, 20, 29–31]. However, my focus here on energy use (rather than GDP) is intentional: it is part of a larger effort to ground economic theory in the laws of thermodynamics
 [32], and to root empirical analysis in biophysical (rather than monetary) phenomena [33–36].
 
-Fig 1. Institution size vs. energy use per capita at the international level. This figure shows how different metrics of institution size vary with
+
 energy consumption per capita. Panels A-C analyze variations in firm size by looking at the base, tail, and estimated mean of the firm size
 distribution. Panel D analyzes variations in government size. In order to show as much evidence as possible, panels A, B and D are a mix of time
 series and scatter plot. Lines represent the path through time of individual countries while points represent a country with a single observation.
@@ -112,7 +114,7 @@ and energy consumption. The first approach deals with the ‘how’ question: ho
 changes in firm size occur? To answer this question, I use a stochastic model to illuminate the
 relation between energy use and firm dynamics. The second approach deals with the more difficult ‘why’ question: why is institution size related to energy consumption. To answer this question, I investigate the relation between energy, technological change, and social coordination.
 
-Fig 2. Institution size vs. energy use per capita in the United States. This figure shows the trends for various measures of institution size
+
 in the United States over the last century. Trends mirror those found at the global level. As energy consumption per capita increases, selfemployment rates decline (panel A, note reverse scale), the large firm employment share increases (panel B), mean firm size increases
 (panel C), and the government employment share increases (panel D). Note that government regressions exclude World War II (dotted line).
 For sources and methodology, see S1 Appendix (part A).
@@ -129,7 +131,7 @@ the firm growth rate distribution and comparing them to variations in energy con
 Unfortunately, data constraints make such a comparison difficult. Calculating international
 firm growth rate distributions would require longitudinal data for a large, representative
 
-Fig 3. Synthesizing evidence—firm size vs. energy use per person/worker. This figure combines data from 3 different units of analysis
+
 (nations, sectors, and sub-sectors) to offer a comprehensive picture of the relation between firm size and energy use per capita (or per worker).
 ‘US Industry’ consists of construction and manufacturing sectors, while ‘US Manufacturing Subsectors’ are the smallest subdivisions of the
 manufacturing sector. At the national level, energy use is measured per person, while at the sectoral level, it is measured per worker. In panel A,
@@ -145,7 +147,7 @@ between energy and firm dynamics.
 Firm age data provides an indirect window into firm dynamics. If we assume that new
 firms start at a small size, then we can infer the historic rate of growth of any firm, given its
 
-Fig 4. Using firm age data to estimate international firm dynamics. This figure demonstrates how firm age and mean size data can be used
+
 to restrict the parameter space of a stochastic model. This allows predictions to be made about the relation between energy use and firm
 dynamics. Panel A shows the country-level relation between the fraction of firms under 42 months old vs. energy use per capita (the grey region
 indicates the 99% confidence region of the regression). Panel B shows the country-level relation between the fraction of firms under 42 months
@@ -159,7 +161,9 @@ doi:10.1371/journal.pone.0171823.g004
 current age and size (i.e. a new, large firm likely grew rapidly, while an old, small firm likely
 grew slowly). Fig 4A shows how firm age is related to rates of energy consumption per capita.
 The dataset used here (the GEM database) does not report firm age directly. Instead, it reports
-whether or not a firm is under 42 months of age. I use this data in Fig 4A to calculate the fraction of firms that are under 42 months of age. This fraction tends to decline as energy use
+whether or not a firm is under 42 months of age. I use this data in Fig 4A to calculate the
+
+
 per capita increases.
 This data clearly hints that a systemic relation exists between energy consumption and firm
 dynamics. In the following section, I use a stochastic model to make specific predictions about
@@ -203,7 +207,7 @@ size varies by country and/or through time. However, good data (on which to base
 unavailable. Faced with this lack of knowledge, I choose to make the simplifying assumption
 that firm growth rates do not vary with size.
 
-Assumptions 3 and 4 give meaning to the reflective lower bound. We can interpret this
+
 boundary as a firm birth/death zone. Any firm that passes below L = 1 is assumed to have
 ‘died’. The reflection then represents the ‘birth’ of a new firm of size L = 1. Since all firms that
 ‘die’ are immediately ‘reborn’, this mechanism assumes that the firm birth rate equals the firm
@@ -254,7 +258,7 @@ consumption, while volatility should decline. This result represents a definitiv
 about how firm dynamics should vary with rates of energy consumption. Future empirical
 work can determine if this prediction is correct.
 
-4 The ‘why’ question: Energy, technology and hierarchy
+
 Any attempt to explain why institutions grow must first settle on the appropriate scale: do we
 attempt to explain why individual institutions grow, or do we concern ourselves only with
 changes in average size? The former is almost certainly a futile task, much like offering a general theory to explain why individual species go extinct. The answer is almost certainly, “It is
@@ -296,7 +300,7 @@ hypotheses.
 My focus on technology (hypothesis A) is motivated both by theoretical arguments and by the
 empirical results in Fig 3.
 
-From a theoretical (thermodynamic) perspective, energy ‘consumption’ is best thought of
+
 as a conversion process. For most organisms, this energy conversion process occurs within the
 body via cellular metabolism. Humans are unique among all other organisms in that we have
 developed many inorganic ways of harnessing energy outside our bodies. This inorganic
@@ -347,7 +351,7 @@ undergone increases in scale by factors of one hundred (tanker ships) to factors
 increasing coordination of human labor. For instance, the largest oil refinery in the world,
 located in Jamnagar, India, employs 2500 people on site [50]. Rather than acting autonomously
 
-Table 1. Scale increase of various industrial technologies.
+
 Type
 
 Early Prototype
@@ -450,7 +454,7 @@ To estimate construction labor time from costs, I first note that by the rules o
 accounting, all costs eventually become someone’s income. If we assume that all income
 accrues to labor (i.e. we neglect capitalist income) then we can divide the total cost of a project
 
-Fig 5. Technological scale and social coordination in electricity generation. Panel A shows the time-series relation between the mean
+
 capacity of US power plants and US electricity use per capita. Both series are indexed to 1 in the year 1920 in order to show relative growth.
 Power plants tend to get larger as electricity use per capita increases increases. Panel B shows the fraction of US per capita electricity use
 growth (since 1920) that was met by increases in mean plant size. The dashed line indicates the mean over the period 1920–2015, while the
@@ -465,14 +469,12 @@ use GDP per capita as a measure of average income, giving Eq 5 as my method for 
 labor time.
 Labor Time %
 
-PLOS ONE | DOI:10.1371/journal.pone.0171823 February 8, 2017
 
 Total Cost
 GDP per capita
 
 ð5Þ
 
-Although this method contains some implicit bias/error, I show in S1 Appendix (part G) that
 it is unlikely that this bias/error affects the integrity of the results (largely due to the vast size
 range of power plant studied here).
 Fig 5C applies this method to estimate the construction labor time of approximately 500
@@ -512,7 +514,9 @@ maintain social relations, it follows that egalitarian social organization is no
 method for coordinating large numbers of people.
 One way of increasing group size beyond Dunbar’s number is to organize groups in a way
 that limits human interaction. Turchin and Gavrilets note that this is a key feature of social
-hierarchies, which are characterized by a treelike chain of command [8]. Within a hierarchy an individual must maintain social relations only with his direct superior and direct inferiors.
+hierarchies, which are characterized by a treelike chain of command [8]. Within a hierarchy an
+
+
 Thus, hierarchy allows group size to grow without any corresponding increase in the number
 of human relations (hypothesis D).
 As evidence for this line of reasoning, Turchin and Gavrilets demonstrate that a strong correlation exists between the population of historical agrarian empires and the number of
@@ -552,7 +556,7 @@ In Fig 7 I test this model at the international level. Fig 7A and 7B plot the co
 show different occupation classification regimes). Empirical data is shown in black, while
 model predictions are shown in the background with the span of control indicated by color.
 
-Fig 6. The growth of management as a function of the firm size distribution. This figure graphically
+
 demonstrates how the management fraction increases with firm size (assuming firms are ‘ideal hierarchies’).
 Firms are indicated by boxes (with the exception of single-person firms) with a worker’s hierarchical position
 shown vertically. The span of control—defined as the size ratio between adjacent hierarchical levels—is
@@ -579,7 +583,7 @@ To summarize these findings, a simple hierarchical firm model of society is able
 the observed relation between mean firm size and the management share of employment. The
 changes in mean firm size are achieved by varying the exponent of a firm size power law distribution, while the management fraction of employment is fitted by ‘tuning’ the span of control
 
-Fig 7. Testing the hierarchical model of the firm using managment share of total employment. Panels A and B plot the country-level
+
 relation between the management fraction and mean firm size. Modelled data is also shown in the background, with the span of control
 indicated by color. Panels A and B use different (incommensurable) classification methodologies for ‘management’. Panel A uses ISCO-88
 (which includes legislators, senior officials and managers) while panel B uses ISCO-1968 (which includes administrative and managerial
@@ -593,7 +597,7 @@ range (assumed to be the same both within and between all modelled firms). Impor
 resulting fitted span range is consistent with the existing empirical data on the internal structure of the firm. The success of this model gives support to hypothesis E, and suggests that
 increases in mean firm size are characteristic of a generalized increase in social hierarchy.
 
-4.4 Causality
+
 I have proposed hypotheses A-E as a chain of reasoning connecting energy consumption to
 institution size. But which way does causation run? Do increases in energy consumption cause
 institutions to become larger, or is the reverse true? As I discuss below, it seems likely that causation runs in both directions.
@@ -615,8 +619,9 @@ nations that emerged after the collapse of the Soviet Union (in 1990–91). As t
 employed by the government shrank rapidly, as did energy use per capita. Since the USSR collapse was an institutional
 crisis (not an energy crisis), this suggests that at least in this case, causality runs from institution size to energy
 consumption.
+doi:10.1371/journal.pone.0171823.g008
 
-energy use. During this period, there was no global energy shortage, meaning biophysical
+
 energy constraints can likely be ruled out as a causal factor. Instead, it seems likely that institutional collapse is the driving factor here.
 This case is illustrative because the Soviet economy relied on an unusually high degree of
 government control of production, placing an enormous amount of power in the hands of a
@@ -657,3 +662,6 @@ consistent with the power-based approach to political economy offered by Nitzan 
 [17]. If concentrations of power are at the heart of increases in energy consumption, then the
 theory developed here may be useful for studying a broad range of modern political economic
 phenomena.
+
+
+
