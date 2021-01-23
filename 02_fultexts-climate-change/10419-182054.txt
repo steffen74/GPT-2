@@ -1,0 +1,1835 @@
+
+INTRODUCTION
+
+Many multinational manufacturing companies have
+moved towards becoming service providers. The
+service provider role of the major manufacturers is
+prevalent in sectors like Information and
+Communication Technology (ICT), automotive, and
+aerospace where the companies offer a range of aftersales services. One of the forms of after-sales
+
+services is to provide service parts (also known as
+spare parts and repair parts) for equipment
+maintenance and repairs at customer sites. This study
+is mainly motivated by Service Parts Logistics (SPL)
+systems of ICT equipment manufacturers and service
+providers that support provision of service parts
+under different and short service time commitments
+to the customer base, which is spread over a large
+geographical area. Typically in ICT hardware support
+contracts, depending on the consequences of their
+equipment downtime, customers determine different
+time windows (e.g. 2 hours, 4 hours and 8 hours)
+within which the requested service part(s) should
+reach their sites. The study is, however, generic in
+nature and generates insights that can be relevant for
+cases where the service responses are provided within
+different short time windows and involve the
+provision (or consumption) of stock (e.g. emergency
+infrastructure repairs on the road network).
+Differentiation is not a new topic in inventory
+research. The inventory research relating to
+differentiation dates back to the 1960s. The problem
+of multiple demand classes was introduced by
+Veinott Jr [1], who focused on the question of how
+much to order and when to replenish within a
+periodic review system where, in each period, the
+requests are satisfied in a sequence which is in
+accordance with the priority of their classes. Since
+this study, a stream of service-differentiated research
+has been published, the majority of which is in the
+context of service parts and relates to fill-rate (service
+availability) based differentiation through inventory
+rationing. Time-based service differentiation has
+received comparatively less attention in inventory
+and facility location research. There are few studies
+that consider differentiating customers based on
+different service (supply) time options that they
+choose. Kranenburg and van Houtum [2] consider a
+single facility and multiple customer groups, each
+having a service level equal to the maximum average
+waiting time at the warehouse. The facility has a
+normal and an emergency replenishment option: the
+emergency replenishment mode is used in case of a
+stock-out and is quicker and more expensive. Their
+model seeks to determine the stock level at the
+facility that minimizes the cost (sum of inventory
+Kranenburg and van Houtum [3] study a similar
+system as in [2], but they use a stock rationing policy
+as a means to offer a fill-rate differentiation to the
+customer groups as well. Kranenburg and van
+Houtum [4] extend the model in [2] by considering
+multiple warehouses instead of a single facility
+system. These studies [2-4] only consider customer
+waiting times at warehouses, assuming that
+customers instantly get parts when they are released
+by a warehouse. The travel distance to reach
+customers, which can be an important factor when
+the service times are short (e.g. typically a few hours
+in IT equipment support services), is not considered.
+Apparently the travel time can make a considerable
+difference in the overall service time [5, 6]. Service
+time constraints imply a demand covering issue
+within certain distance ranges associated with the
+maximum service times. The SPL studies that do
+account for service time constraints and warehousecustomer distances for inventory and facility location
+decisions, on the other hand, lack the service
+differentiation aspect [e.g. 7-12].
+The number of stocking facilities in a distribution
+network affects its responsiveness and costs. Setting
+the level of centralization/decentralization in a
+distribution network is a well-argued strategic
+decision and has various trade-offs (see [13]). These
+trade-offs include warehouse-to-customer travelling
+distances, inventory costs, and responsiveness. A
+centralized distribution setup results in lower
+inventory costs as, compared to a decentralized setup,
+it requires a lower inventory level to attain a
+particular service level. On the other hand, a
+decentralized distribution network can result in better
+responsiveness and lower warehouse-to-customer
+travelling distance. The early text books referring to
+stock centralization and decentralization concepts
+include [14, 15]. Key differences between attributes
+of centralized and decentralized strategies for aftersales services are identified in [16, 17]. Studies
+generally assume that a supply in shorter time
+windows results in higher costs (e.g. [16-18]).
+However, the exploration into how different service
+time limits and the demand composition impact on
+distribution costs has been overlooked in the facility
+location literature generally and the SPL literature
+specifically.
+Most SPL studies are focused on the optimization of
+inventory policy parameters. Kennedy et al. [19]
+discuss unique aspects of service parts inventories
+and review the related literature. Muckstadt [20]
+presents details of service parts inventory systems
+and supply chain algorithms, and provides an
+extensive bibliography on the subject. A considerable
+portion of research on service parts inventory
+management has focused on lateral transhipment or
+inventory sharing. Paterson et al. [21] provide a
+comprehensive review of the literature in this area till
+
+2011, while Patriarca et al. [22] outline the more
+recent developments. But despite the significant
+research in SPL, it is reported that there is a gap
+between practice and academic literature in this area.
+Not many companies apply the complex concepts
+that exist in the literature. Several authors have
+mentioned the use of basic inventory management
+techniques for service parts. Ashayeri et al. [23]
+found that their case, a company in the IT sector,
+used the EOQ (Economic Order Quantity) policy for
+consumable service parts inventory management, and
+it had proved to be reliable enough. The survey in
+[24] also indicates that basic, understandable
+inventory management techniques, including the
+EOQ model, are used commonly for service parts.
+Similarly, Huiskonen [25] reports that most basic
+inventory theory and models have been widely
+applied in practice and there is relatively little
+evidence of the use of more sophisticated
+applications, such as multi-echelon models.
+The aim of this work is to provide insights into the
+relationship between service times, distribution setup,
+and inventory and transportation costs in a system
+where parts/materials are supplied within different
+service time windows. In scenarios where there are
+multiple levels of service, there can be two logical
+options to meet the requirements of all customers.
+One is to set up a system that has a uniform
+capability of meeting the toughest requirement for the
+entire customer base. The other is to set up a system
+that has variable capabilities to meet different
+requirements determined by different customers.
+Apparently, apart from being less complex, operating
+a system with a uniform capability (the first option) is
+unappealing. A uniform capability, which is tuned to
+meet the most stringent customer requirement, can
+result in overspending and does not include any
+mechanism to transfer cost benefits to customers
+requiring relaxed services. The problem is analysed
+by developing an estimate cost model considering a
+stylized system under two distinct organizations of
+stocking facilities, namely a hierarchical organization
+and a non-hierarchical organization.
+Many real-world location problems involve facility
+systems that are hierarchical in nature, providing
+multiple levels of service through different types of
+facilities [26]. Expanding a location problem to
+consider more than one level of facility though
+increases the complexity of the problem [27, 28, 29].
+Şahin and Süral [29] and, comparatively recently,
+Farahani et al. [30] have surveyed and classified the
+literature on hierarchical facility location problems.
+The objective of a hierarchical location model can be
+to locate different types of facilities and allocate them
+different types of customers such that some cost is
+minimized [e.g. 31], maximum number of customers
+are covered [e.g. 32], or all customers are covered
+[e.g. 33]. The last objective is rarely investigated, so
+is the consideration of continuous location. The
+being nested and non-nested systems. In a nested
+hierarchy, a higher-level facility provides all the
+services provided by a lower-level facility and at
+least one additional service. While in a non-nested
+hierarchy, facilities at each level offer different
+services. Chistaller’s hierarchical central places is a
+classical nested hierarchical system having a
+hexagonal pattern in a plane with continuous
+customer spread [34, 35]. In this system (Figure 1),
+
+3
+
+‘central places of higher order’ are defined as those
+that serve in a bigger region, in which other central
+places exist. In a higher level, not only the services of
+the higher order are offered, but those of the lower
+orders are also offered. The system comprises
+different circular ranges of central places depending
+on their types. To serve the entire land, a perfect and
+uniform net of central places is created, resulting in a
+hierarchical hexagonal pattern.
+
+Figure 1: Circular range limits in central places system (from [36])
+
+Similar to Chistaller’s hierarchical central places, this
+paper considers a nest hierarchical organization of
+service areas to exploit the opportunity to centralize
+the distribution for demand for longer service time
+windows. This is compared with a non-hierarchical
+system,
+having
+the
+maximum
+level
+of
+decentralization and operating in a uniform fashion
+by distributing from the closest stocking facility
+regardless of the requested service time. The EOQ
+and the one-for-one (S-1, S) inventory policies are
+incorporated to investigate high and low demand
+rates respectively. The analysis focuses on the
+decentralization-centralization
+trade-off
+under
+multiple distance constraints and provides novel
+managerial insights into the service time and service
+cost relationship by considering the spatial aspect.
+The remainder of the paper is organized as follows.
+Section 2 describes the problem and lists the
+assumptions made for the model formulation. Section
+3 presents the model formulation under the
+hierarchical and the non-hierarchical setups. The
+formulation is followed by the analysis in Section 4
+based on various numerical experiments. The paper is
+concluded in Section 5.
+
+2.
+
+PROBLEM
+DESCRIPTION
+ASSUMPTIONS
+
+AND
+
+Consider a set of demand points uniformly spread
+over a large geographical area. Customers have to be
+supplied with parts within different contracted
+service time commitments. A service type is
+associated with a particular maximum duration or a
+time window, translated into a service distance
+constraint, to deliver a part at a demand location. The
+strictness of a service type relates to how short the
+service distance constraint of the service type is; the
+strictest service being the one with the shortest
+service distance constraint. Demand fractions
+correspond to the proportion of total demand linked
+with different service types, such that the sum of all
+demand fractions is 1. In order to meet a service time
+commitment in the entire service area, every client
+location should be within the corresponding service
+distance constraint from at least one service parts
+storage facility. From now on, the paper refers to
+storage facilities, where parts are stored and from
+where they are dispatched to customers, as just
+facilities. Facilities are located to cover the entire
+area efficiently considering the strictest service’s
+distance constraint. Under the non-hierarchical setup
+all facilities offer the full service range in their
+hierarchical setup, though all facilities provide the
+strictest service, only a subset of facilities provide
+services with longer distance constraints, in larger
+service areas, leading to a higher level of
+centralization in the system.
+The aim is to determine the impact of changing the
+service distance constraints and demand fractions of
+different service types on the distribution network
+setup and inventory and transportation costs.
+Following assumptions are made to study the
+problem under the hierarchical and the nonhierarchical (completely decentralized) setups:
+1. The EOQ model is considered for inventory
+ordering. It is a commonly used model for
+inventories and allows a tractable formulation to
+convey the main insights. A cross industry
+exploratory investigation in [37] shows that many
+of the predictions from classical inventory
+models, such as the EOQ model, extend beyond
+individual products to the aggregate firm level.
+Hence, these models can help with high-level
+strategic choices in addition to tactical decisions.
+2. The problem is also formulated and analysed
+under the (S-1, S) inventory policy, which is
+considered to be appropriate for slow moving
+items and is a widely noted inventory policy in
+the SPL literature. The following commonly used
+assumptions are considered for the (S-1, S)
+policy: single item; demand arrives one at a time
+according to the Poisson process; backorders
+allowed; and no capacity constraints on the
+supply (replenishment). It is pertinent to mention
+that under the EOQ based (R, Q) policy, with a
+constraint on stock-out probability during the lead
+time, the order quantity Q can be determined as
+the EOQ and the reorder point R can be
+determined in the same way as the base stock S is
+computed under the (S-1, S) policy.
+3. Demand is assumed to have a uniform spread
+over the area, which is to be covered by a singleechelon distribution system. It can be argued that
+considering a demand area rather than a finite set
+of demand points is more realistic as demand may
+move and increase or decrease. It is also assumed
+that travelling distances are Euclidean and
+proportional to travel time. Examples of studies
+with such simplifying assumptions can be found
+in [36].
+4. It is assumed that the area to be covered to
+provide services is large and that the services
+have to be provided within short time
+commitments. Typically, large IT companies
+cover vast geographical areas for service parts
+distribution through several service facilities.
+Considering that the facility costs are dominating,
+the system comprises the minimum number of
+facilities that can provide the complete demand
+
+5.
+
+6.
+
+3.
+
+coverage considering a service time constraint.
+Cohen et al. [16] suggest that having a high
+number of storage facilities, when the customer
+need is not urgent, is a mismatched SPL strategy.
+Responsiveness comes at a significant cost in a
+typical SPL system [12].
+A regular hexagonal packing of service
+catchment areas is considered, assuming that
+facility points are located efficiently to cover the
+entire area for the strictest service time
+commitment, and that a service request is fulfilled
+by the nearest service facility offering the
+required service. The hexagonal partitioning is
+considered to be efficient when assuming
+Euclidean distances. Out of the shapes that can
+tile a plane with perfect packing, hexagons cover
+the maximum area considering a distance
+constraint from the centre, and have the minimum
+average distance to the centre considering a fixed
+area size [38]. Okabe et al. [36] include a
+Voronoi diagram based computational method for
+determining the efficient location and service
+areas of given number of non-hierarchical facility
+points in an area with different demand density
+functions. Their approximate optimum solutions
+are hexagonal patterns of service areas with
+different concentrations of facilities depending on
+the density functions. Examples of service system
+studies that consider a regular hexagonal pattern
+of service catchment areas for their analysis
+include [39, 40].
+For an analytical treatment, boundary effects and
+rounding off errors are ignored in determining the
+number of facilities. Hence the analysis is an
+approximation. To calculate the number of
+facilities the total area is divided by a facility
+catchment area (a full hexagonal area determined
+according to the maximum distance that can be
+travelled within a committed service time), which
+can result in a fractional number. Secondly,
+packing an area in a plane with full identical
+hexagons may not provide complete coverage,
+and typically, areas on the boundaries of the
+region may need to be covered by partial
+hexagons and need additional facilities. Simply
+dividing an entire service area with a facility
+catchment area can underestimate the number of
+facilities required for the coverage. Nevertheless,
+the boundary effect becomes less significant in
+case of a large overall area covered by a high
+number of regular hexagons [38, 41]. It can be
+shown that the boundary effect diminishes when
+the overall area becomes large, and hence, the
+estimations from the cost formulae improve.
+THE MODEL
+
+The model represents non-hierarchical and
+a shorter time window for a delivery. Let Type 1
+service be the least strict service and Type k service
+be a stricter service than all Type k – i services,
+where 2 ≤ k ≤ m and 1 ≤ i < k. Hence m is the total
+number of service types and a Type m service is the
+strictest service.
+Below is the list of the notations used for formulating
+the demand compositions under the non-hierarchical
+and the hierarchical setups:
+A:
+total area to be served (a large geographical
+area)
+λ:
+total demand in area A, i.e. the total number of
+service calls per unit time
+m:
+total number of service types
+
+f k:
+
+5
+fraction of total demand corresponding to
+m
+
+Type k service, where
+
+∑f
+
+k
+
+=1
+
+k =1
+
+service distance constraint for Type k service,
+sk:
+where k = 1 … m and sm is the shortest distance
+constraint
+n k:
+number of facilities providing Type k service,
+where k = 1 … m and nm is the total number of
+facilities in the system
+3.1 Non-hierarchical setup of service facilities
+The non-hierarchical setup consists of only one
+facility type. All service facilities provide the full
+range of service types, i.e. all Type k services, where
+k = 1 … m. All facility catchment areas are marked
+considering the maximum distance that can be
+covered from a service facility to provide the strictest
+(Type m) service (Figure 2).
+
+Figure 2: Non-hierarchical setup
+
+s
+
+m
+
+sm
+
+Service facility
+Demand location
+Service route for all service types
+
+As sm is the maximum distance that can be covered
+from a service facility to provide a Type m service, it
+is also equal to the edge length of the hexagonal
+service catchment areas of a facility (Figure 2). The
+total number of facilities (nm) is determined as
+A
+
+3 3 ( sm ) 2 / 2 , where 3 3 (sm ) / 2 is the hexagonal
+2
+
+catchment area of a service facility with an edge
+length of sm. As each facility provides the complete
+set of service types, nk is the same for k = 1 … m.
+Consequently, the total demand served by one facility
+is λ/nm.
+3.2. Hierarchical setup of service facilities
+A nested hierarchy of facilities and service areas is
+considered to present a system that avails itself of the
+centres (facility points) of lower level hexagons 1) at
+the middle of the edges of the higher level hexagons,
+or 2) at the corner points of the higher level hexagons
+
+(Figure 3). These two approaches result in different
+ratios between the maximum distances (or service
+time constraints) within the higher and lower level
+hexagons.
+
+Figure 3: Hierarchical hexagonal pattern
+
+s
+
+(1/
+√3)
+s
+
+½s
+s
+
+½s
+
+Figure 4 presents a combination of the two
+approaches of locating lower level hexagons with
+respect
+to
+higher
+level
+hexagons.
+Figure 4: Mixed hierarchical hexagonal pattern
+
+s
+
+(1/√3)½
+s
+½
+s
+
+Figure 5 depicts the hierarchical system considering
+two service types; the strict service and the relaxed
+service (the latter having the longer distance
+constraint). Though the figure depicts a hierarchical
+hexagonal pattern in which the centres of lower level
+hexagons are located at the middle of the edges of
+
+higher level hexagons, the formulation can also be
+used to study the service time ratios resulting from
+the other pattern. The ratio between the different
+service time constraints that the pattern in Figure 5
+
+Figure 5: Two level Hierarchical setup
+
+s1
+
+s1
+
+s2
+=0
+.5s
+
+s2
+
+Higher-level facility
+Lower-level facility
+Demand location
+Relaxed service area boundary
+Strict service area boundary
+Relaxed service route
+Strict service route
+Relaxed and strict service route
+
+The hierarchical setup providing two service time
+options consists of two types of service facilities; the
+higher-level facilities providing both the relaxed and
+the strict services, and the lower-level facilities only
+provide the strict service. A higher-level facility has
+two service catchment areas; the first within the strict
+service distance constraint and the second within the
+relaxed service distance constraint. All customers
+within the first catchment area of a higher-level
+facility can get both types of service from the higherlevel facility, whereas the customers beyond the first
+catchment area and within the second catchment area
+can only get the relaxed service. Unlike higher-level
+facilities, a lower-level facility has only one
+catchment area, which is within the strict service
+
+distance constraint. A lower-level facility can only
+provide the strict service to the customers within its
+catchment area. For the relaxed service, the
+customers within a lower-level facility’s catchment
+area are served by the closest higher-level facility.
+From the notations, s1 and s2 are the maximum
+distances that can be covered from a service facility to
+provide the relaxed and strict services respectively.
+Consequently, s1 and s2 are equal to the edge length of
+a hexagonal catchment area for providing the relaxed
+and the strict services respectively. In the hierarchical
+setup presented in Figure 5, the maximum distance
+distances, if the time constraint for the relaxed service
+is 8 hours, the possible time constraints for the strict
+service can be 4 hours, 2 hours, 1 hour and so on.
+A generic formulation is now presented for a nested
+hierarchical system providing two or more time-based
+service types. The number of facilities providing Type
+A
+,
+k service, i.e. nk, is determined as
+3 3 (sk 2 ) / 2
+2
+
+where 3 3 ( s k ) / 2 is the hexagonal catchment area
+of a service facility for Type k service provision. A
+higher-level facility provides a more relaxed service
+in addition to all the services provided by the lowerlevel facilities. Let Type 1 facilities be the highest
+level facilities providing the complete set of services.
+
+Let Type k facilities be lower-level facilities than all
+Type k – i service facilities, where 2 ≤ k ≤ m and 1 ≤ i
+< k, providing a Type k service and all the services
+that are stricter than Type k service (Table 1). Hence a
+Type m facility is the lowest level facility, only
+providing Type m (the strictest) service, and m is the
+total number of service facility types. For instance,
+assuming a successively inclusive hierarchical system
+providing three service types, a Type 1 service is the
+least strict service, a Type 2 service is stricter than
+Type 1 service, and a Type 3 service is the strictest
+service. In terms of the facility hierarchy, Type 1,
+Type 2, and Type 3 are the types of facilities in
+descending order of their level – Type 1 being the
+highest level facilities and Type 3 being the lowest.
+
+Table 1: Classification of service facilities in nested-hierarchical system
+Type
+1 Type 2 service Type 3 service
+service
+Type 1 service
+
+
+
+facilities provide
+→
+Type 2 service
+
+
+facilities provide
+→
+Type 3 service
+
+facilities provide
+→
+.
+.
+.
+Type m service
+facilities provide
+→
+
+Considering the classification of service facilities
+presented above, the number of Type k facilities is
+estimated as nk – nk-1, where k = 1 … m and n0 = 0.
+For example, the number of Type 3 facilities (i.e. k =
+3) equals n3 – n2, where n3 is the number of facilities
+
+…
+
+Type m service
+
+…
+
+
+
+…
+
+
+
+…
+
+
+.
+.
+.
+
+
+providing the Type 3 service, and n2, the sum of the
+numbers of Type 1 and Type
+2 facilities, is the number of facilities providing a
+Type 2 service.
+Table 2 shows the expressions for the total demand
+
+Table 2: Demand composition in the nested-hierarchical system
+Type 1 service
+Type 2 service
+Type 3 service
+demand
+demand
+demand
+Total demand served by
+n
+n
+Type 1 service facilities =
++ 1 f 2λ
++ 1 f 3λ
+f 1λ
+n2
+
++
+
+n 2 − n1
+f 3λ
+n3
+
++
+
+n1
+f mλ
+nm
+
+…
+
++
+
+n2 − n1
+f mλ
+nm
+
+…
+
+n3 − n 2
+f 3λ
+n3
+
+Total demand served by
+Type 3 service facilities =
+
+Type m service
+demand
+
+…
+
+n3
+
+n 2 − n1
+f 2λ
+n2
+
+Total demand served by
+Type 2 service facilities =
+
+…
+
++
+
+n3 − n2
+f mλ
+nm
+
+.
+.
+.
+
+.
+.
+.
+
+Total demand served by
+Type m service facilities =
+
+nm − nm −1
+f mλ
+nm
+
+f1λ
+
+Total demand =
+
+f2λ
+
+From Table 2, total demand served by all Type k
+service facilities is
+m
+
+∑
+i =k
+
+nk − nk −1
+f i λ where nk – nk-1
+ni
+
+is the total number of Type k facilities such that n0 is
+0. Consequently, total demand served by one Type k
+facility is
+
+1
+nk − nk −1
+
+m
+
+∑
+i =k
+
+nk − nk −1
+fiλ =
+ni
+
+m
+
+fi
+
+i =k
+
+fmλ
+
+Considering the EOQ policy in a centralized system
+(having only one facility), the total inventory order
+and holding cost per unit time is 2rhλ . Within a
+decentralized system, if λi is the demand served by
+service facility i, where i = 1 … n, then assuming that
+each facility applies the EOQ policy, the total
+n
+
+cyclic inventory cost per unit time is
+
+∑
+
+2rhλi .
+
+i =1
+
+i
+
+∑n λ.
+
+f3λ
+
+(1)
+
+3.3 Cost formulations
+The cost functions are formulated considering the
+expressions for the demand composition presented
+above (Sections 3.1 and 3.2), the EOQ policy, and the
+average distance to reach customers in a hexagonal
+area. The problem is studied considering the one-forone (S-1, S) inventory policy in Section 3.4. The
+following additional notations are introduced:
+λ:
+total demand in area A, i.e. the total number
+of service calls per unit time
+r:
+cost per inventory replenishment order
+h:
+holding cost per unit per unit time
+t:
+transportation cost per unit distance
+TICNH: total inventory cost per unit time under the
+non-hierarchical setup
+TICH: total inventory cost per unit time under the
+hierarchical setup
+TTCNH: total transportation cost per unit time under
+the non-hierarchical setup
+TTCH: total transportation cost per unit time under
+the hierarchical setup
+
+Under the non-hierarchical setup, since λ/nm is the
+demand served by one facility (Section 3.1),
+λ is the inventory cost per unit time at one
+2rh
+
+nm
+
+facility. With nm as the total number of facilities we
+get the following inventory cost estimation function
+for the non-hierarchical setup:
+TICNH = nm 2rh λ = 2rhλnm
+
+(2)
+
+nm
+
+Under the hierarchical setup, considering the demand
+served by one Type k facility (1), and the number of
+Type k facilities nk – nk-1, the total inventory cost per
+unit time at Type k facilities is estimated as
+m
+
+2rh
+
+fi
+
+i =k
+
+(nk − nk −1 )
+
+i
+
+∑n
+
+λ . Summing the inventory cost
+
+at all m types of facilities, we obtain:
+m
+
+fi 
+ (n − n ) 2rh
+λ
+k −1
+ k
+ni 
+
+
+k =1 
+i=k
+
+For a two-level hierarchy, i.e. m = 2, the function
+becomes:
+m
+
+TICH =
+
+∑
+
+
+f
+f 
+f
+= n1 2rh 1 + 2 λ + (n2 − n1 ) 2rh 2 λ
+n n 
+n2
+2 
+ 1
+=
+
+TICH
+
+
+2rhλn1 
+
+
+
+f1 +
+
+
+ n
+n
+n1
+f 2 +  2 − 1 1 f 2 
+ n
+n
+
+n2
+ 2
+ 1
+
+
+f1 +
+
+Multiplication factor (TICH):
+
+n
+ n
+n1
+f 2 +  2 − 1 1 f 2
+n
+
+n2
+ 1
+ n2
+
+Considering the two level hierarchical system,
+providing a strict and a relaxed service, three extreme
+cases, or benchmarks, of the inventory cost can be
+identified. 1) When there is only one facility
+providing the service (i.e. a completely centralized
+system), the cyclic inventory cost, as mentioned
+earlier, equals 2rhλ . 2) When there is no demand
+for the strict service, i.e. f2 = 0 and f1 = 1, the
+multiplication factor (4) equals 1, reducing the total
+inventory cost function (3) to
+
+2rhλn1 , i.e. the cost
+
+n1 compared to the
+
+increases by the factor of
+
+completely centralized case. 3) When there is no
+demand for the relaxed service, i.e. f1 = 0 and f2 = 1,
+and hence the system becomes completely
+decentralized, the multiplication factor (4) becomes
+n2 n1 , reducing the inventory cost function to
+
+2rhλn2 . In other words, the cost increases by the
+factor
+
+of
+
+n2
+
+compared
+
+to
+
+(3)
+
+the
+
+completely
+
+centralized case.
+When considering Euclidean travelling distances, a
+uniform geographical distribution of customers, and
+
+(4)
+
+hexagonal service areas with facilities located at their
+centres, the average distance to reach a customer is
+(1/3 + ln3/4)s ≈ 0.60799(s), where s is the edge length
+of the hexagonal service area (see [42] for details on
+the average distance). Under the non-hierarchical
+setup, since sm is the edge length of a service area, the
+average distance to reach a customer is estimated as
+0.60799(sm). Subsequently, the following function
+estimates the transportation cost under the nonhierarchical setup:
+TTCNH = 0.60799 s m λt
+
+(5)
+
+Under the hierarchical setup, considering 0.60799(sk)
+as the average distance to serve a customer for a
+Type k service, where sk is the edge length of a
+hexagonal service area for Type k service, the
+following function estimates transportation cost:
+m
+
+∑ f λs t
+
+= 0.60799
+
+k
+
+k
+
+k =1
+TTCH
+The transportation cost function and the
+multiplication factor for the two-level system are:
+
+
+
+TTCH = 0.60799( f1λs1 + f 2 λs 2 )t = 0.60799λs1t  f1 + f 2 s 2 
+
+
+
+(6)
+
+
+
+Multiplication factor (TTCH):  f1 + f 2 s2 
+
+
+
+(7)
+
+
+
+
+
+s1 
+
+In the two level system, when there is no demand for
+the strict service (f2 = 0) the multiplication factor for
+the transportation cost (7) equals to 1 and the
+transportation cost becomes independent of the ratio
+between the strict and the relaxed service times. With
+the presence of demand for the strict service (f2 > 0),
+the smaller the distance constraint for the strict
+service, resulting in smaller strict service areas, the
+lower the multiplication factor will be.
+Total operating cost per unit time under the nonhierarchical setup is:
+(8)
+TICNH + TTCNH
+While, under the hierarchical setup the cost is:
+
+s1 
+
+TICH + TTCH
+(9)
+3.4 Considering the (S-1, S) inventory policy
+Finally, let L be the replenishment lead time and S be
+the base-stock level at a facility with the (S-1, S)
+inventory policy. The value of S can be determined
+through the steady state probability of the quantity of
+units in resupply. Note that there is a well-known
+relationship between stock-out probability and fillrate (fraction of demand met from stocks on hand)
+under the (S-1, S) inventory policy [20, 43, 44].
+Considering that all the demand is met by one
+facility, the fill-rate under the (S-1, S) policy is equal
+
+∑
+
+e
+
+− λL
+
+x< S
+
+(λL )
+x!
+
+lead
+
+time
+
+(P(λL<S)),
+
+x
+
+,
+
+e
+
+where
+
+− λL
+
+(λL )
+x!
+
+which
+
+is
+
+is
+
+the
+
+4.
+
+m
+
+fi
+
+i =k
+
+The analysis considers two service types, referred to
+as the strict and the relaxed services. Type 1 and
+Type 2 facilities in the hierarchical setup are referred
+to as higher and lower-level facilities respectively.
+The multiplication factors for inventory and
+transportation costs under the hierarchical setup are
+analysed first and then the non-hierarchical and the
+hierarchical setups are investigated and compared
+over different service distance constraints and demand
+compositions.
+Figure 6, based on the multiplication factor for the
+inventory cost (4), and Figure 7, based on the
+multiplication factor for the transportation cost (7),
+illustrate how inventory and transportation costs react
+to the changes in s2/s1 ratio (0.5, 0.25, … 0.002) and
+the demand fractions for the relaxed and strict
+services. A smaller s2/s1 represents a greater time
+difference between both service types, requiring
+comparatively more lower-level facilities and a higher
+level of decentralization. Likewise, a higher value of
+f2 (the proportion of demand for the strict service)
+means that more demand has to be fulfilled from
+lower-level facilities, which are more decentralized.
+Note that the non-hierarchical setup does not provide
+an opportunity to perform this type of analysis as
+entire demand, whether for the strict service or the
+relaxed service, is met in a similar way (from the
+same facilities). This is discussed further in the
+examples.
+
+i
+
+∑n λ
+
+as the
+
+demand over lead time at one Type k facility, where
+m
+
+fi
+
+i=k
+
+i
+
+∑n λ
+
+is the demand faced by one Type k facility
+
+over the unit time (1). The total base stock level in
+the system is then estimated as the sum of the base
+stock levels at all facility types:
+m
+
+∑ (n
+
+k
+
+NUMERICAL ANALYSIS
+
+x
+
+unconditional probability that x units remain in the
+resupply. The value of S is set as the minimum
+integer value for which P(λL<S) is greater than or
+equal to the required fill-rate.
+For the non-hierarchical setup, the base stock level at
+one facility is determined considering the demand
+over lead time faced by one facility (Lλ/nm) and a
+minimum required fill-rate level. The total base stock
+level is then estimated by multiplying the base stock
+level at one facility by the total number of facilities:
+(10)
+n mS
+Under the hierarchical setup, the total base stock
+level at Type k facilities is estimated as the product of
+the number of Type k facilities nk – nk-1 and the base
+stock level Sk at one Type k facility. The base stock
+level Sk is computed considering L
+
+11
+
+− nk −1 )S k
+
+(11)
+
+k =1
+
+Figure 6: Multiplication factor for inventory cost
+
+500
+450
+400
+350
+300
+250
+200
+150
+100
+50
+1
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+f
+
+f2
+
+Inventory in a system increases when s2/s1 decreases
+and/or f2 increases (Figure 6). The maximum
+
+0
+
+0.1
+
+0.3
+
+0.2
+
+0.4
+
+0.5
+
+Ss/Sr
+
+s2/s1
+
+inventory is maintained when s2/s1 is at its minimum
+service distance constraint for the strict service. With
+maximum f2 there is no demand for the relaxed
+service. This requires stocks to be maintained with
+the maximum decentralization as there is no
+allowance to meet demand from longer distances. In
+this scenario, a system under the hierarchical setup
+
+operates similarly to when it is under the nonhierarchical setup. When f2 is at its minimum (i.e. f2
+= 0), the inventory levels are constant and minimum
+as the total demand, composed of only relaxed
+service calls, is met within the larger service areas of
+more centralized higher-level facilities.
+
+Figure 7: Multiplication factor for transportation cost
+
+1
+0.8
+0.6
+0.4
+0.2
+
+0.5
+
+0
+
+0.4
+
+0.2
+
+0.3
+
+0.4
+0.2
+
+0.6
+0.1
+1
+
+Ss/Sr
+
+In contrast to inventory levels, travelling reduces
+when s2/s1 decreases (Figure 7). The minimum
+transportation cost results when s2/s1 is at its
+minimum and f2 is at its maximum (i.e. f2 = 1). As
+stated earlier, a smaller s2/s1 ratio results in more
+lower-level facilities and maximum f2 results in the
+total demand being fulfilled by facilities in smaller
+catchment areas, which in turn results in lower
+average travelling to serve customers. Transportation
+cost is at the maximum level when f2 = 0, irrespective
+of the s2/s1 value, because regardless of the number of
+lower-level facilities, the total demand is served by
+higher-level facilities within larger service areas.
+The results from the computations based on the
+following hypothetical values are presented to further
+illustrate and compare the hierarchical and nonhierarchical setups. Let demand (λ) = 10,000 per
+year, area (A) = 200,000-unit length2 (the area of the
+mainland UK being 229,543 km2), and the relaxed
+service distance constraint (s1) = 100-unit length.
+Two sets of cost parameters values are considered to
+represent a case where inventory cost
+dominates and a case where transportation cost
+dominates. In Case 1, with dominating inventory
+cost, r = 500, h = 50, and t = 0.01. In Case 2, r = 100,
+h = 10, and t = 0.2. The values for the strict service
+distance constraint (s2) and the demand fractions for
+both service types (f2 and f1) are altered for the
+analysis.
+
+s2/s1
+
+0.8
+f
+
+Figure 8 presents the total cost calculations
+(equations (8) and (9)) for varying f2, while retaining
+s1 = 100 and s2 = 50-unit lengths. Under the nonhierarchical setup, the inventory cost (2) and the
+transportation cost (5) remain unaffected by the
+changes in the proportions of demand for both
+service types. Under the hierarchical setup, a lower
+proportion of demand for the strict service results in a
+lower inventory cost (3) while a higher transportation
+cost (6). The hierarchical setup performs better when
+the inventory costs dominate (Figure 8a) as opposed
+to when the transportation cost dominates (Figure
+8b). It can exploit the opportunity to respond to
+relaxed service calls with a higher level of
+centralization, as a longer distance can be covered for
+a delivery. Under the non-hierarchical setup, on the
+other hand, the system cannot exploit this opportunity
+and supplies items to customers with a constant level
+of decentralization, i.e. from the closest facility.
+Higher fraction of demand for the relaxed service
+results in more centralized demand fulfilment within
+larger service areas under the hierarchical setup,
+which reduces the inventory but increases the average
+service distance. The costs under both setups
+converge when the fraction of demand for the strict
+service increases; both setups operating in the
+
+Figure 8: Impact of demand fractions for the strict and relaxed services on costs (s1 = 100; s2 = 50)
+
+130
+125
+
+Tausende
+
+120
+115
+110
+105
+100
+95
+90
+85
+0,1
+
+0,2
+
+0,3
+
+f₂
+
+0,4
+
+0,5
+
+Inv. Cost
+
+Trans. Cost
+
+0,4
+
+0,5
+
+Inv. Cost
+
+0,6
+
+0,7
+
+0,8
+
+0,9
+
+0,6
+
+0,7
+
+0,8
+
+0,9
+
+Trans. Cost
+
+NH: Non-hierarchical; H: Hierarchical
+
+a) Case – 1: Dominating inventory costs
+
+160
+140
+
+Tausende
+
+120
+100
+80
+60
+40
+20
+0
+0,1
+
+0,2
+
+0,3
+
+f₂
+
+NH: Non-hierarchical; H: Hierarchical
+
+b) Case – 2: Dominating transportation cost
+There are two inventory and transportations cost
+benchmarks under the hierarchical setup. The first is
+at the point where there is no demand for the strict
+service (f2 = 0), hence the service is only provided
+from the higher-level facilities in their larger service
+areas, resulting in the lowest inventory cost and the
+highest transportation cost in the system. The second
+is at the point where there is no demand for the
+relaxed service and hence the system operates as a
+non-hierarchical system, resulting in the highest
+
+inventory cost and the lowest transportation cost.
+Both costs vary between these two levels depending
+on the value of f2.
+Figs. 9 and 10 show the impact of service distance
+constraint on the distribution system and the service
+cost. The reduction in the service time constraints
+when s2 is small sharply increases the number of
+
+Facilities
+
+2000
+1500
+1000
+500
+0
+0
+
+20
+
+40
+
+60
+
+s2
+When the distance constraint for the strict service
+decreases (keeping constant the relaxed service
+distance constraint s1 and the proportions of demand
+for both service types, f1 and f2), the inventory cost
+under both setups increases, and so does the
+difference by which the hierarchical setup performs
+better than the non-hierarchical setup in terms of the
+inventory cost (Figure 10). In contrast to the
+inventory cost, the amount by which the nonhierarchical setup performs better than the
+hierarchical setup in terms of the transportation cost
+increases as the strict service distance (s2) decreases.
+
+With a reduction in the time window for the strict
+service, the non-hierarchical setup meets both types
+of demand with a higher decentralization level,
+whereas under the hierarchical setup, the
+decentralization level for the relaxed service does not
+change, making the inventory and transportation
+costs under the hierarchical setup less sensitive to the
+changes in s2. Overall, the hierarchical setup
+performs better in Case 1, in which inventory costs
+dominate, and the non-hierarchical setup performs
+better in Case 2, having a higher transportation cost.
+
+Figure 10 Impact of service distance constraint on inventory and transportation costs (f2 = 0.5; s1 = 100)
+55
+
+16
+
+50
+
+14
+
+45
+
+12
+
+40
+
+10
+
+x 10000
+
+x 10000
+
+35
+30
+25
+
+8
+6
+4
+
+20
+
+2
+
+15
+10
+
+0
+12,5
+
+25
+
+50
+
+12,5
+
+25
+
+s₂
+Inv. Cost
+
+Trans. Cost
+
+50
+
+s₂
+Inv. Cost
+
+Trans. Cost
+
+NH: Non-hierarchical; H: Hierarchical
+
+NH: Non-hierarchical; H: Hierarchical
+
+a) Case – 1: Dominating inventory costs
+
+more demand is fulfilled in the smaller strict service
+areas, and with the reduction in the strict service
+distance constraint, these smaller areas further reduce
+in size (Figure 11). Both these factors increase the
+
+15
+
+level of decentralization, which adversely impacts the
+inventory cost performance while reducing the
+transportation cost.
+
+Figure 11: Impact of service distance constraint on location pattern
+
+s1 = 2s2
+
+s1 = 4s2
+
+Higher-level facility
+
+Strict service area boundary
+
+Lower-level facility
+
+Relaxed service area boundary
+
+Demand location
+
+Strict service route
+Relaxed service route
+
+The final set of results is based on overall inventory
+level computations considering the (S-1, S) inventory
+policy under the modelled non-hierarchical and
+hierarchical setups. The computations consider the
+demand rate of 5 parts per day, fixing the
+replenishment lead-time (L) at 1 day, and considering
+the overall area as 200,000-unit length2.
+(Computations based on the demand rate of 1 part per
+day provided similar insights.) Figure 12 shows the
+effect of varying demand fractions for both services
+on inventory levels with the distance constraints for
+the relaxed and strict services as 100 and 50-unit
+lengths respectively, and the minimum fill-rate level
+as 0.98. The results suggest that inventory levels
+under the hierarchical setup (11) can be higher than
+under the non-hierarchical setup (10). Under the nonhierarchical setup, the demand over the lead time at a
+facility is 0.16, requiring the base-stock level to be 2
+
+to satisfy the minimum fill-rate level of 0.98. As total
+number of facilities (n2) is 30.79, the total inventory
+under the non-hierarchical setup is considered as
+2×30.79 = 62. Under the hierarchical setup, when
+f2 = 0.1, the demand at a lower-level facility is 0.02,
+requiring the base-stock level to be 1, and the
+demand at a higher-level facility is 0.6, requiring the
+base-stock level to be 4. With n2 – n1 = 23.09 and n1
+= 7.698, the total inventory is taken as (1×23.09) +
+(4×7.698) = 54. When f2 = 0.2, lesser demand is
+consolidated at the higher-level facilities (0.55 over
+the lead time), requiring 3 units as the base-stock,
+while more demand is shifted to the lower-level
+facilities (0.03 per unit time), increasing the required
+base-stock level to 2. This increases the overall
+inventory to 70, which is higher than the total
+inventory under the non-hierarchical setup.
+
+consequently require base-stock levels of 2, resulting
+in
+the
+overall
+inventory
+of
+62.
+
+Figure 12: Impact of demand fraction for the strict and relaxed services on inventory (s1 = 100; s2 = 50)
+Inventory (total base stock)
+
+80
+70
+60
+50
+40
+
+Hierarchical
+
+30
+
+Non-hierarchical
+
+20
+
+Completely centralized
+
+10
+0
+0 0,1 0,2 0,3 0,4 0,5 0,6 0,7 0,8 0,9 1
+
+f2
+With equal fractions of demand for both service types
+and the minimum fill-rate level as 0.98, Figure 13
+shows the impact of reducing service distance
+constraints (such that s1 = 2s2) on inventory levels.
+Both setups see an increase in their inventory levels
+as the distance constraint for the strict service
+
+reduces, resulting in a higher number of facilities and
+more decentralization. Again there are instances
+(when s2 = 20 & 50) where the hierarchical setup
+results in more inventory compared to that under the
+non-hierarchical
+setup.
+
+Figure 13: Impact of service time constraint on inventory (f2 = 0.5; s1 = 2s2)
+
+Inventory (total base stock)
+
+900
+800
+700
+600
+500
+400
+
+Hierarchical
+
+300
+
+Non-hierarchical
+
+200
+100
+0
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+s2
+Lastly, Figure 14 presents the inventory level
+computations against varying fill-rate constraint. The
+inventory levels under the hierarchical and nonhierarchical setups increase stepwise when the
+minimum required fill-rate increases, with non-
+
+hierarchical setup performing better in several cases.
+The inventory level in a completely centralized
+system, where there is only one service facility, has
+
+100
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+
+Completely centralized
+
+0,99
+
+0,97
+
+0,95
+
+0,93
+
+0,91
+
+0,89
+
+0,87
+
+0,85
+
+0,83
+
+0,81
+
+0,79
+
+0,77
+
+Non-hierarchical
+
+0,75
+
+Inventory (total base stock)
+
+Figure 14: Impact of required minimum fill-rate level on inventory (s2 = 50, s1 = 100 and f2 = 0.5)
+
+Hierarchical
+
+minimum fill rate
+
+The computations considering (S-1, S) policy provide
+an interesting observation. The results suggest that
+even though the level of centralization is higher
+under the hierarchical setup, the inventory levels
+under the completely decentralized non-hierarchical
+setup can be lower. The reason behind this
+phenomenon is that a slight reduction in demand at a
+facility does not always allow the facility’s base
+stock level to be reduced. Although transforming a
+system from the non-hierarchical setup to the
+hierarchical setup reduces demand at the lower-level
+facilities, the required base stock levels at these
+facilities cannot necessarily be reduced while
+maintaining the minimum fill-rate level. On the other
+hand, the transformation increases demand at higherlevel facilities and can potentially increase the
+required base stock levels at these facilities to
+maintain the minimum fill-rate level. Hence, on the
+whole, this can increase the stocks in the system. The
+SPL systems of two major multinational IT
+equipment manufacturers that the author has studied
+operate in a non-hierarchical way. The above analysis
+shows that a non-hierarchical setup, besides being
+simpler, is not necessarily inferior to a hierarchical
+setup.
+5.
+
+SUMMARY AND CONCLUSION
+
+The presented model and analysis explore the effects
+of different service time constraints on some of the
+important components of distribution cost. The
+results presented in the preceding sections show how
+service time constraints and the proportions of
+demand for different time-based service types can
+impact on inventory and transportation costs.
+Under the EOQ inventory policy, the results show
+that distribution through a hierarchical organization
+of facilities, where customers are not necessarily
+
+served from the nearest stocking point (in order to
+allow a higher level of centralization while adhering
+to service time commitments), can lower the overall
+inventory levels. However, this is at the expense of
+increased transportation cost. Inventory cost
+decreases while transportation cost increases with the
+increase in the demand proportion for the relaxed
+service. In contrast, a non-hierarchical organization
+of service facilities, in which all customers are served
+from the nearest stocking point, can result in a lower
+average distance to reach customers at the expense of
+higher inventory cost. Also, as a non-hierarchical
+system treats all service calls in a similar fashion,
+overall similar inventory and transportation costs are
+incurred in serving customers with different service
+time requirements. The analysis shows that it can be
+beneficial to deploy stocks with high inventory
+related costs in a hierarchical fashion, while
+deploying stocks with low inventory related costs in a
+non-hierarchical fashion.
+The investigation based on the (S-1, S) inventory
+policy gives some counterintuitive outcomes. Besides
+being the costlier option in terms of transportation, a
+hierarchical setup might not necessarily result in a
+lower total base-stock level compared to a nonhierarchical setup. Under the hierarchical setup, due
+to the discrete nature of the (S-1, S) inventory policy,
+inventory levels change stepwise when the demand
+proportions of the service types change; in several
+cases exceeding the required inventory level under
+the non-hierarchical setup. In such cases it can be
+financially better to distribute under a more
+decentralized (and hence more responsive) system as
+both inventory and transportation levels in the system
+can be lower.
+It is important to emphasise the limitations of this
+research approach. Many of the assumptions in this
+a real world system. However, the model provides a
+non-complex tool for analysing distribution cost
+under constrained centralization levels. The analysis
+generates important generic insights which may not
+be generated through studying specific real life setups
+or instances. The insights can be useful to understand
+the likely impacts of different scenarios in timedifferentiated distribution and can aid decisionmaking. The research could be extended in several
+ways, for example by considering inventory sharing
+in overlapping service ranges, service of multiple
+customers in one trip, and fill-rate based
+differentiation.

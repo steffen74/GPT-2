@@ -1,0 +1,1334 @@
+Logistics Research (2018) 11:9
+DOI_10.23773/2018_9
+
+Logistics as a Science – Central Research Questions
+in the Era of the Fourth Industrial Revolution
+Invited Paper based on the Position Paper of the Scientific Advisory Board
+of Bundesvereinigung Logistik (BVL)[1]
+W. Delfmann1, M. ten Hompel2,3, W. Kersten4, T. Schmidt5, W. Stölzle6
+Received: 20 October 2017 / Accepted: 8 July 2018 / Published online: 28 August 2018
+© The Author(s) 2018 This article is published with Open Access at www.bvl.de/lore
+
+ABSTRACT
+
+1
+
+Fourth Industrial Revolution or Industry 4.0 denotes a
+fundamental change on how production and business
+in general is perceived and organized. This paper
+questions the role of logistics within this context and
+raises a claim for a central role in future. It is a revision
+of a current position of the Scientific Advisory Board
+of Bundesvereinigung Logistik (BVL). Based on the
+insight that Logistics 4.0 is a crucial element for the
+implementation of Industry 4.0 three hypotheses are
+derived. In further elaboration, the paper introduces
+a total of 11 key research questions that are of central
+importance to the research community.
+
+In view of the fundamental changes in the economy and
+society resulting from the so-called Fourth Industrial
+Revolution (“Industry 4.0”), it is necessary to reposition
+logistics as a discipline and a science – because it is a
+central element in, and the driving force behind, this
+development. Logistics has developed from being a
+pure service-providing activity – delivering the right
+goods to the right place at the right time – to become
+a key driver of digital and societal change. Topics
+like the Internet of Things and Services, big data or
+autonomous driving are inseparably intertwined with
+logistics today. In this process, logistics as a science
+and an economic sector drives not only the application
+but increasingly also the development of basic methods,
+algorithms and technologies.
+In 2010, the Scientific Advisory Board of BVL
+outlined in detail its understanding of the scientific
+discipline of logistics in a position paper [2]. Building
+on this paper, it now appears a matter of urgency to
+underline the central role of logistics in the context of
+Industry 4.0 (referred to hereinafter as “Logistics 4.0)
+and to reflect on the key challenges facing logistics
+research. With this Position Paper, the Scientific
+Advisory Board of BVL would like to define the central
+questions regarding the future of logistics in the era
+of the Fourth Industrial Revolution with the aim of
+making a fundamental contribution to the discussion,
+organisation and further development of Logistics 4.0.
+In this endeavour, the Scientific Advisory Board
+draws on two central preconditions or core elements
+of Industry 4.0 that will also be essential for the
+future of Logistics 4.0: on the one hand, this concerns
+digitisation, decentralisation and interconnection, and
+on the other, a fundamental shift towards autonomous
+control and organisation, symbolised by the Internet
+of Things and Services. It was in this context that
+the coming of the Fourth Industrial Revolution was
+proclaimed at the time of the Hannover Fair in 2011.
+Frequently described as a “Copernican revolution”,
+this is a priori knowledge – in other words, a logically
+
+KEYWORDS: Logistics 4.0 · Industry 4.0 ·
+Decentralization · Digitization · Human collaboration
+
+W. Delfmann1
+delfmann@wiso.uni-koeln.de
+M. ten Hompel2,3
+tenhompel@iml.fraunhofer.de
+W. Kersten4
+w.kersten@tuhh.de
+T. Schmidt5
+thorsten.schmidt@tu-dresden.de
+W. Stölzle6
+wolfgang.stoelzle@unisg.ch
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Department of Business Policy and Logistics,
+Universität zu Köln
+Chair of Materials Handling and Warehousing,
+Technische Universität Dortmund
+Fraunhofer Institute for Material Flow and Logistics
+IML, Dortmund
+Institute of Business Logistics and General
+Management, Technische Universität Hamburg
+Institute of Material Handling and Industrial
+Engineering, Technische Universität Dresden
+Chair of Logistics Management, University of St.Gallen
+
+shared by major sections of the international scientific
+community.
+This realisation can be roughly described as follows:
+In tomorrow’s world, it will be possible to organise
+logistics more efficiently based on autonomous entities,
+and the degree of corresponding decentralisation and
+self-organisation will grow parallel to the complexity
+and dynamic development of logistics value added
+systems.
+Even if there is no standardised nomenclature on the
+identity of autonomous entities; this view summarises
+such things as “intelligent” containers, smart devices,
+robots, autonomous vehicles etc. that are frequently
+referred to as “cyber-physical systems” and whose
+common feature is a certain (undefined) degree of
+autonomy and that interact with each other and with
+their environment.
+The resulting change is fundamental in nature and
+will affect all sectors and disciplines in logistics –
+from planning and technical organisation through to
+management.
+Against this backdrop, we can derive three core
+hypotheses for Logistics 4.0.
+CORE HYPOTHESES
+Logistics plays an absolutely central role in the
+allencompassing digitisation of the economy and
+society. This means it is even more important as a
+subject of research than was already the case – because
+without adequate logistics the Fourth Industrial
+Revolution is simply inconceivable. Logistics is the
+backbone of these developments. The goal is to create
+flexibly interconnected, complex, distributed systems
+based on a continuous and autonomous exchange
+of data and information between human actors and
+physical, technical objects. Within the context of the
+Fourth Industrial Revolution, the aim is to develop
+industrial systems and networks to the stage where they
+can extensively control themselves within a certain
+technical and organisational framework while adapting
+as flexibly, efficiently and effectively as possible to
+continually changing circumstances.
+The implementation of Industry 4.0 without
+Logistics 4.0 is just as unthinkable as the globalisation
+of the economy without logistics networks that span
+the world. The primary tasks of logistics include not
+only network management but also the structuring
+and control of these networks – both from a scientific
+point of view and in the areas that call for hands-on
+organisation. This leads us to recognise that:
+– Logistics is the prime mover of the Fourth
+Industrial Revolution.
+– Logistics is both the driver and the basis of the
+Fourth Industrial Revolution.
+
+– Logistics calls for a joint theoretical foundation for
+technology and the economy as well as for strategy
+and operations.
+In view of these hypotheses, it is absolutely essential
+that we intensify research into the topic of Logistics
+4.0. The hypotheses also give rise to a whole number of
+central research questions, and finding answers to these
+questions poses a major challenge to logistics research.
+The following pages outline some of the questions that
+are of central importance and address the more specific
+considerations in greater detail.
+RESEARCH QUESTIONS
+1.
+
+Like Industry 4.0, Logistics 4.0 is based
+on a priori knowledge. One research
+question that is still wide open concerns the
+verifiable effects that Industry 4.0 induces
+in logistics in terms of efficiency, flexibility
+and availability.
+The vision of digitisation is penetrating all areas of
+logistics process chains – from production, through
+procurement, to distribution – and therefore driving
+expectations and ideas concerning the possibilities
+associated with the future organisation and
+implementation of processes, installations and systems.
+At the same time, however, there are widely differing
+views on how digitisation will create value added.
+This is an area in which comprehensive
+interconnection of information technology rapidly and
+directly opens up new opportunities. And although the
+absolute data volume in all sectors of the economy has
+been growing apace for quite some time, the fronttoend recording and processing of all company-related
+process data remains a key challenge – and one that,
+with few exceptions, has not yet been successfully
+mastered. Without recourse to all too visionary ideas,
+it is easy to recognise the benefits of the availability
+of faster, more comprehensive and above all errorfree information. Information that is available at short
+notice and suitably processed represents knowledge,
+and enables the recipient to respond more quickly, for
+example, to detect wear at an early stage or to predict
+failures – just some of the central skills needed by an
+agile and efficient company. Moreover, it is undisputed
+that data as such constitutes a value – increasingly so in
+the context of Logistics 4.0. This value can be increased
+both by exchange and by processing. Machine learning
+of the kind employed in Logistics 4.0 for the analysis
+of large data volumes (e.g. predictive analytics) or
+the control of cyber-physical systems (e.g. image and
+speech analysis, gesture recognition) further increases
+the value of the data. The systematic interconnection of
+intelligent process modules lays a promising foundation
+for the interconnection of distributed information
+solid evidence is still needed.
+The general consensus is that the key value added
+provided by Logistics 4.0 is that it permits the
+systematic exploitation of the performance capability
+of digital modules in order to shift operational decisions
+such as the allocation of orders or the creation of
+sequences directly to the process level. This paradigm
+shift towards the autonomy of machines, equipment
+and objects such as workpieces and goods will be a
+key competence in the endeavour to master volatile
+and highly individualized procurement, production and
+distribution activities in years to come.
+This type of system architecture is associated above
+all with two main properties: namely high efficiency
+and great robustness. Despite the potential, these
+properties do not come about by themselves. In the
+case of decentral solutions, efficiency is based on the
+assumption of higher performance capability, as the
+systems (can) react dynamically to changes. However,
+in most cases dynamic behaviour will not be sufficient
+to offset the absence of a global system perspective
+(status overview).
+Due to the high degree of parallelity, it is often also
+assumed that autonomous, decentral systems possess
+great robustness (against failure). This is true, for
+example, where the failure of a monolithic control system
+directly leads to overall system failure. A decentral
+control system may be able to largely compensate for
+the failure of individual components. However, one
+of the factors that is of interest in this connection is
+the time needed to react to failures. Depending on
+the underlying design concept, notification of failure
+information by means of sequential communication
+of individual system participants is characterised by
+systemic inertia. Topical individual questions therefore
+include the following:
+– What scope of decentral decision-making
+is meaningful and expedient? Which global
+information should be kept available in order to
+permit efficient system operation, and under what
+boundary conditions?
+– How does fault information act in decentrally
+controlled systems, and what level of dynamic
+behaviour does a locally interconnected system
+exhibit?
+– Which rules are to be defined for the necessary
+system reactions, and how can a differentiated
+assessment of the performance characteristics at
+different performance points within the system be
+assured?
+– How can decentrally controlled systems
+be modelled in terms of methodology and
+transparency in order to permit valid scientific
+assessment of their expected properties? Is
+supplementing suitable models from information
+science with a physical perspective (including
+
+3
+
+no copying, no deleting of objects) a suitable
+approach?
+2.
+
+Do the conventional ways of developing,
+assessing and launching product, service
+and business model innovations in the
+market constitute an obstacle to Logistics
+4.0? What new approaches can be identified
+in this context, and what are the resulting
+potentials?
+Digitisation has already resulted in far-reaching
+changes to value added chains and business models in
+many different sectors. It is frequently the case that
+entirely new actors outside the established companies
+are the ones who analyse and question the existing
+value added processes in light of the new options
+offered by digitisation and interconnection. One of the
+key characteristics of these changes is the high speed
+of innovation. Prototypes are created and developed in
+rapid succession. Products are launched on the market
+at an early stage with a core functionality, and much
+of the development of additional functions takes place
+after the market launch at the request or on the initiative
+of customers. Detailed milestone and work package
+planning is replaced by agile planning methods like
+“scrum”; microeconomic assessment is based on longterm business cases. The necessary start-up phase is
+financed by venture capital investors interested in value
+appreciation. [3],[4]
+In contrast, innovative logistics technologies,
+solutions and services are generally developed on
+the basis of proven processes and methods for the
+development of products and services and with the
+help of economic efficiency calculations. Although
+development processes have become ever faster in
+recent years, the aim has always been to only bring
+logistics technologies and services onto the market
+when they have reached a high degree of maturity.
+Innovative logistics services are in turn often
+developed in collaboration with pilot customers as
+value added services (contract logistics) and require
+the individualised, customer-specific bundling of
+different logistics services, something that generally
+involves a greater depth of integration. One of the
+elements of these kinds of value added services is the
+close interlinkage of planning and control systems –
+and also of ICT systems – between the relevant actors.
+[5],[6],[7]
+The outsourcing of value added services by shippers
+involves wide-ranging cost efficiency calculations
+that address not only the cost factor but also the
+performance, and in particular the quality standards
+of a logistics service provider, and that also entail a
+process of risk analysis. This applies in similar fashion
+to logistics service providers, who make sometimes
+considerable (up-front) investments in assets – often
+based on customer specifications. The durations of the
+contracts often differ from the amortisation periods
+microeconomic review mechanisms (e.g. market
+analysis [products, customers and competitors],
+forecasts, business cases and investment and cost
+efficiency calculations). [8]
+Business ideas developed in connection with
+Logistics 4.0 often exhibit different characteristics.
+They may, for example, be based on a new device, a
+new app or new software. The primary focus is not
+on the (new) outsourcing of comprehensive physical
+logistics services or the creation of new logistics
+process chains. Instead, decentral intelligence in
+logistics objects permits rapid reaction to changes
+in the logistics environment. This paves the way for
+the replacement of high-powered planning processes
+with smart control mechanisms. Development and
+market launch are often a matter of just a few weeks or
+months. The predictability of the increased benefit for
+the actors in question is also highly limited, however
+– particularly against the backdrop of the strong
+technological momentum. One of the reasons market
+segments become blurred is that digital products
+and services cannot be classified using conventional
+segmentation criteria.
+This means that classic processes for product and
+service development and microeconomic review
+mechanisms are at odds with the characteristic features
+of Logistics 4.0 solutions. Development and market
+launch take too long, and the use of traditional review
+mechanisms may result in a situation in which product,
+service and business model innovations from the world
+of Logistics 4.0 have no prospect of market introduction
+if the classic review mechanisms are applied. [9], [10],
+[11]
+Using the above as a starting point, we can identify
+the following urgent individual questions:
+– Will we see a fundamental change in the value
+added model, and will this be sufficiently taken
+into account by the available approaches to the
+development, assessment and market introduction
+of logistics innovations?
+– Do more recent agile approaches based on the
+trial-and-error principle create greater flexibility
+and increase the market prospects of product,
+service and business model innovations?
+– How do these new approaches have to be organised
+in order to integrate agility and quality demands
+and to build bridges between the actors of
+digitisation and classic logistics service providers
+as well as shippers – to the benefit of both sides?
+– How must alternative review mechanisms be
+organised to ensure not only rapid market launch
+but also adequate risk provisioning for the actors
+in question? How can new review mechanisms of
+this kind be put in place?
+3.
+
+How will the normative and operational
+levels (planning and control) be organised
+
+in future? Will there be separation of these
+two levels in future?
+At its core, the Fourth Industrial Revolution is
+inseparably linked to the introduction of autonomous,
+self-organising entities. This is designed not only to
+pave the way for Industry 4.0 but also to promote the
+emergence of “self-organising adaptive logistics” [12]
+(Logistics 4.0). Following on systematically from this
+a priori knowledge, we arrive at the conclusion that
+the operational, near-realtime control level will in
+future make its own decisions, eventually leading to
+self-organisation in the more distant future. Logically,
+this would result in the decoupling of near-realtime
+operations within logistics systems and networks.
+In order to make decisions on an operational
+level, it is in particular at this level that applicationspecific information must be stored and propagated.
+This information includes, among other things, the
+topology and the layout of material flows and networks,
+strictly defined rules and semantics, and ultimately
+all information that permits decentral, autonomous,
+targeted decisions within the system in question. The
+goal is to achieve greater flexibility and changeability
+on operational level. At the same time, the decoupling
+of the operational and normative levels creates much
+improved options for the standardisation of supply
+chain management. This benefit appears evident but
+has not yet been verified in vivo to date.
+There are a number of basic individual questions in
+this context, including:
+– How can targeted, strategic and efficient action be
+achieved in the distributed systems of Logistics 4.0
+(based on a high number of autonomous entities),
+and how must the (operational) framework for
+action and the target systems of decentral entities
+be organised to achieve favourable properties in
+the overall system?
+– Can business objects, functions and processes
+be standardised on the normative level in an
+application-neutral way by decoupling the
+operational level?
+– What follows classic logistics process chain
+management if processes are implemented on an
+ad-hoc basis?
+4.
+
+What change will there be in the KPIs for
+logistics optimisation?
+For some time now, the dynamic nature of modern
+logistics processes has led to a situation in which
+isolated monitoring of individual KPIs is increasingly
+problematic and, above all, in which the static
+assessment of fixed, company-specific target figures
+can be highly misleading. In supply chains that had
+previously been optimised all too systematically, the
+disruption of supply chains due to occurrences such
+as environmental disasters has resulted in severe
+production losses. Unforeseen changes to the load
+profile or in the structure of goods have even resulted
+load scenario.
+It was not least this factor that gave rise to the
+realisation that the definition of target values must be
+more comprehensive on the whole and, above all, be
+case-specific and flexible. In view of the imminent
+paradigm shift with a departure from deterministic
+decision-making structures and largely preplanned routines in production and distribution, this
+development will pick up even greater pace.
+Current KPIs, concepts and organisational approaches
+will not be simply transferrable to the new control
+models and philosophies that are being discussed across
+a broad front. It will only be possible to generate the
+targeted value added if, alongside the interconnection
+technology, the logic for decisionmaking processes
+such as the determination of priorities or starting times
+is also optimised and developed further. This opens up
+a whole new area in which our current knowledge is
+only rudimentary.
+As is to be expected, the efficiency of decentral
+and autonomous decision processes also depends on
+the required time response. An overly rigid advance
+timing schedule would probably provide little leeway
+for the creation of effective ad-hoc organisations or
+value added networks. Another factor that deserves
+in-depth analysis is the provision of buffer times (and
+also physical buffer positions) and the interplay with
+the required system flexibility. On the whole, therefore,
+it is to be assumed that additional KPIs will have to be
+incorporated in the process and that this will lead to a
+shift in the established weightings.
+Logistics planning and control have always gone hand
+in hand with multi-criterion optimisation. The currently
+dominant underlying and overriding parameters –
+namely, throughput time, stock volume and capacity
+utilisation – must therefore be supplemented by
+additional parameters, including flexibility-focused
+KPIs. The goal is to identify suitable assessment scales
+that can depict the interplay between the contradictory
+indicators in the desired manner.
+Two of the topical questions in this area are:
+– Which models and concepts can be used to arrive
+at a comprehensive assessment of the interplay
+between new technologies and new KPIs or
+requirements?
+– Which relevant KPIs should be included in
+this process in future? What is the relationship
+between classic KPIs like stocks and throughput
+time on the one hand and flexibility indicators like
+the dimensional or service spectrum?
+5.
+
+How will the targeted control and planning
+of interconnected autonomous groups of
+actors with special interests be regulated?
+To date, the discussion of the topic “Industry 4.0” has
+primarily focused on concepts in the area of big data
+and the Internet of Things. The merging of information
+logistics and physical logistics in cyberphysical systems
+
+5
+
+opens up totally new technical perspectives for the
+organisation and operation of complex, flexible value
+added networks. In contrast, there has been far less
+emphasis on questions concerning the organisational
+structuring and the management of these systems – but
+it is the interconnection of widely differing resources
+and actors that constitutes the very core of Industry 4.0.
+All this is based on the idea of flexibly
+interconnected, decentral production capacities,
+autonomously communicating and acting objects and
+infrastructures, and the front-to-end integration of
+physical and information-based systems. These kinds
+of developments increase the complexity of the systems
+exponentially, however. As a result, established,
+conventional methods for the planning and control
+of production and logistics systems are reaching the
+limits of their capability. This applies not only to
+intralogistics but also and in particular within the
+context of cross-company supply chain management
+and the development of logistics infrastructures.
+Conventional logistics systems must be developed into
+“logistics service value networks” [13] – and this poses
+fundamental technical and organisational challenges.
+In value added networks, autonomous actors work
+together to produce and distribute components of
+complex services that are combined (in modular
+fashion) to generate the benefit for the customer. The
+design and coordination of these kinds of distributed
+service systems is one of the major challenges for
+logistics in the interconnected industry of the future.
+Against this backdrop, one of the key questions
+concerns the development of interaction between
+humans and technology in logistics in this changed
+environment. Human (inter-)action will continue
+to be a decisive factor, particularly in decentral and
+increasingly (IT) technology-driven logistics systems.
+The development and utilisation of the potential
+offered by distributed (“virtual”) logistics systems is
+driven by the intra-company and, to an even greater
+degree, the cross-company coordination of the
+utilisation of distributed resources, capacities and
+processes as “services” by (vertical and horizontal)
+value added partners, based on highly developed and
+typically web-based information and communication
+systems. The central challenges lie in the “neutral”
+design of platforms for the common and decentrally
+coordinated utilisation of these kinds of distributed
+resources and in the definition of rules and processes
+for the organisation of these platforms. Logistics
+service providers can play a central role in this process,
+in which the integration of IT and physical logistics will
+be key. The economic characteristics of these systems
+with their many widely differing and sometimes
+competing stakeholders will determine the acceptance
+and success of these systems. Logistics 4.0 will be the
+central element in this respect.
+This raises numerous individual questions – which
+to date have only been addressed tangentially at most
+– How can “market mechanisms” and the
+governance of multiple stakeholders be organised
+and implemented as the central precondition for
+efficient business models in Logistics 4.0?
+– How can standardisation and modularisation
+be employed to master the complexity of
+informational and physical logistics structures and
+processes?
+– In view of decentrally available information,
+how can economic concepts and coordination
+mechanisms be developed for horizontal logistics
+collaborations and marketplaces that can be
+applied in real-life decision-making situations
+with wide-ranging restrictions and that are geared
+towards the targeted improvement in the utilisation
+of logistics resources?
+6.
+
+How must the goals and rules be defined,
+transferred and implemented in the
+distributed and autonomous systems of
+Logistics 4.0?
+The development of hierarchically planned and centrally
+controlled logistics systems towards coordinated,
+decentral and self-controlling autonomous systems
+fundamentally changes the relationship between the
+strategic (or normative) and the operational level. The
+targeted coordination of decentral systems requires
+the stipulation of rules and mechanisms to ensure that
+the decisions that are made decentrally complement
+each other to form a consistent overall concept. Here,
+the aim is to define rules on the normative (planning)
+level that ensure coordination of the operational and
+decentral decisions of the autonomous actors (and
+objects) with the aim of achieving agreed, overriding
+objectives (control). The decentral actors must accept
+these overriding rules, as they are the prerequisite for
+effective coordination. This presupposes agreement on
+their characteristics [14].
+Target criteria and rules have already been
+developed in many technically dominated, distributed
+logistics systems using multi-agent systems, above
+all in the field of intralogistics. The concept of swarm
+intelligence and learning-capable autonomous logistics
+systems is also increasingly the subject of research
+and is already being successfully applied. The more,
+however, that cross-company logistics systems
+with distributed resources and processes as well as
+multiple actors with potentially diverging economic
+objectives come into play, the greater the challenge of
+developing economic goals and rules and of ensuring
+the economic functionality of distributed logistics
+systems – regardless of technical effectiveness and
+efficiency – in the organisation and control of Logistics
+4.0 systems. The efficiency and effectiveness potential
+of distributed logistics resources, and above all the
+flexible use of these resources on demand, can only be
+exploited on the basis of agreed economic rule systems.
+
+In recent times, above all in the field of macroeconomic
+research, major importance has been attached to
+developing so-called market mechanisms, which are
+used in many forms based on the concept of “market
+design”. There is major potential here, specifically for
+the design of distributed logistics systems. Agreeing
+on these types of market mechanisms is a complex
+process, particularly in complex value added networks
+with multiple, economically independent actors with
+potentially diverging objectives and interests; at the
+same time, however, it is precisely this agreement that
+constitutes a central element in the success of Logistics
+4.0 [15].
+Against this backdrop, the following individual
+questions concern some of the basic issues that need
+to be addressed:
+– Which actors will take up the initiative in the
+development of these regulating systems and
+define the criteria for participation and the proper
+functioning of the regulating mechanisms?
+– How can we succeed in ensuring the compatibility
+of the heterogeneous objectives of the participants
+in distributed logistics systems?
+– How can the potential conflict between central
+objective and rule definition on the one hand, and
+decentral autonomy on the other, be handled and
+structured using economic principles and models?
+7.
+
+What will the transition from classic,
+deterministic, hierarchical supply chain
+planning and control to heterarchical,
+probabilistic ad-hoc planning and control
+activities in Logistics 4.0 look like?
+The traditional idea of planning, controlling
+and monitoring logistics networks holistically
+(hierarchically) is designed to achieve the optimum
+overall outcome across company borders. The extreme
+case of integration – from the raw material supplier
+all the way through to the consumer – is geared
+towards the centralised planning and coordination
+of all entities involved in the value added process.
+However, the resulting complexity above all negatively
+impacts on the robustness of the systems. It is almost
+impossible to neutralise system failures, which can
+then threaten overall functionability. Structural
+disruptions and economic crises result in increased
+volatility, uncertainty and complexity, and reduce
+the predictability of logistics operations. In order to
+ensure efficient logistics even in the highly dynamic
+and volatile scenarios encountered in Industry 4.0, one
+factor that also needs to be investigated is the situationspecific need to reduce the level of integration of all
+too narrowly and rigidly coupled systems and of the
+resulting highly vulnerable value added networks
+– and thereby to determine whether measures such
+as targeted risk management designed to decouple
+logistics systems are more likely to achieve the goals
+create value added networks to organise the systems
+of autonomous actors that are geared towards the
+exchange of information and collaboration and that
+are only loosely connected. The answer to the question
+of which degree of coordination and integration is to
+be targeted and is meaningful depends on the specific
+situation in the value added networks. A principle of
+total integration is neither desirable nor practicable.
+In this connection, particular importance is attached
+to increasing adaptivity. Value added networks must
+be seen as complex adaptive systems with intensive
+communication and interdependencies between
+their entities, processes and resources. Associated
+system characteristics include non-linearity, complex
+multidimensional behaviour, evolutionarity and selforganisation. But these systems need coordination
+and decision mechanisms in order to permit adaptive
+and collective behaviour in autonomous, decentralised
+contexts. It is no longer possible to achieve the
+inherent complexity of these kinds of networks
+through maximum possible integration, in other
+words centralised planning and control. [17] It is only
+logical that what is required is a paradigm shift in
+logistics systems towards the decentralised control of
+“intelligent” objects in heterarchical structures – rather
+than, following the traditional mindset – the centralised
+control of “non-intelligent” objects in hierarchical
+structures. [18], [19]
+The reorientation of logistics in science and practice
+towards intelligently coordinated, distributed, more
+decentrally organized constellations of autonomous
+subsystems constitutes a not inconsiderable change in
+focus of logistics organisational principles and criteria.
+Nonetheless, there are already a wide range of research
+approaches, albeit with very different designations, that
+are based on similar principles and that can serve as
+valuable points of reference for the further research and
+development of complex adaptive logistics systems.
+The central individual questions in this regard
+include the following:
+– How can contrasting strengths and weaknesses,
+potentials and risks of integrated and distributed
+systems be assessed more effectively in the context
+of Logistics 4.0, and what would an optimum
+situation-dependent balance look like?
+– How can logistics systems be organised and
+controlled as complex adaptive systems at the
+interface of technology and the economy?
+8.
+
+Will Logistics 4.0 result in different
+principles for resource utilisation (“share
+economy”)?
+Logistics systems have always been geared towards
+increased efficiency. The operation of logistics systems
+often entails high investment (e.g. for facilities such
+as warehouses or hubs as well as transport fleets
+comprising vehicles, conveying systems, aircraft,
+rolling stock, locomotives, ships etc.). Whether
+
+7
+
+efficiency targets can be achieved therefore also
+largely depends on the degree of utilisation of existing
+capacity. [20], [21], [22]
+As a result of a wide range of system-internal
+and system-external framework conditions (such as
+volatility of demand, social legislation, imbalances
+and information deficits), it is almost impossible to
+avoid idle capacities in traditional logistics systems.
+Although electronic freight exchanges promote the
+rapid matching of supply and demand in road freight
+transport and therefore improve capacity utilisation
+at specific points, they are nevertheless focused on
+the utilisation potential of a resource that can be
+assigned to exactly one owner. There is no provision
+for the common, overriding optimisation of resources
+belonging to multiple owners.
+The failed city logistics projects from the 1990s show
+that the joint use of logistics resources (in this case,
+above all trucks and storage space) has, for various
+reasons, not been a success to date. The issue of how
+close to real time it is possible to compile a status
+overview of orders and available resources was not
+the only question that remained unanswered. What
+was also unclear is what logic is needed to assign
+existing orders to available (transport) resources of
+different owners / actors, and how the corresponding
+“contribution mechanisms” should be designed. As a
+result, traditional optimisation approaches still focus
+on utilisation of in-house resources.
+With the help of realtime data and using cyberphysical systems, Logistics 4.0 permits interruptionfree, interconnected communication within flows of
+goods and products. [23], [24], [25]
+Communication in Logistics 4.0 concerns people
+(e.g. drivers, schedulers, management personnel in
+the logistics sector), logistics objects (e.g. goods and
+products, containers, packaging, pallets), logistics
+processes (e.g. transport, transshipment, storage, order
+picking), logistics vehicles and logistics facilities (e.g.
+terminals, hubs). Containers are fitted with digital
+equipment, rendering status information globally
+available in real time. In the field of road freight
+transport, shipment-based scheduling systems are
+linked up to vehicle-based telematics. The intelligent
+processing, interlinking, evaluation and utilisation of
+data for logistics decisions (big data) is seen as the
+enabler of Logistics 4.0. [26], [27]
+This means that the preconditions for a “share
+economy” in logistics appear to be in place: ICT
+solutions permit common access to data by business
+partners (e.g. logistics service providers, shippers,
+subcontractors) via the cloud in real time. This data
+can include sender-related and recipient-related order
+statuses as well as available resources – all on the
+relevant timelines. This creates the tools needed to
+align orders to the available resources of different
+implementation of a “share economy”:
+– How can quality/service standards be ensured if
+logistics services are created with “distributed”
+resources?
+– Which priority rules are suitable for deciding
+which resource should be used for which order
+and when, and how are these rules to be applied?
+– Which governance models can be used to operate a
+“share economy” in logistics? In particular, it must
+be borne in mind that operation of the platform
+(including the decision on the distributed use of
+resources) directly affects resource utilisation and
+therefore the economic success position of the
+actors.
+– What standards need to be met by a “contribution
+system” based on the provision of logistics services
+for a “share economy”, and how can such a system
+be structured?
+– Which areas/logistics services are particularly
+predestined for a “share economy”?
+– What criteria does compliance have to fulfil in
+a “share economy” in logistics? Where are the
+weaknesses – with regard to data access and data
+protection, for example?
+– What is the nature of the trade-off between the
+sharing of information (“privacy”) and efficiency
+gains? What does this trade-off depend on? In the
+case of large-scale reciprocal effects: what does
+this mean for the distribution of public sector and
+private sector tasks?
+
+9.
+
+Humans and autonomous machines will
+in future interact in (social) networks as
+equal partners and cooperate in natural
+environments. What will the sociotechnical
+systems of Logistics 4.0 look like?
+It is particularly in this field that technological
+developments open up major potential for innovation.
+A further aspect of equally central importance is
+that, based on general understanding, Logistics 4.0
+involves the interconnection and digital penetration
+of processes but not necessarily the all-encompassing
+automation of these processes. On the contrary,
+the expectation is that we will see widely diverging
+developmental perspectives for digitised work.
+Automation technologies will by no means determine
+the organisational nature of work but will always be
+associated with a certain amount of creative leeway
+[30].
+The changes to the working world due to
+interconnection and digitisation that are gradually
+emerging in industry, trade and logistics already
+happened some time ago in other sectors – in the
+financial world, for example, with its high-frequency
+stock market. In recent years, employees in these
+sectors have come to terms with the new situation,
+just as major parts of society as a whole have become
+accustomed to the use of digital devices and social
+networks as a matter of course.
+This development opens up new perspectives
+and opportunities, not only for the structuring and
+optimisation of processes but also for integration of
+the work performed by humans. Simple examples
+
+or the performance-based and knowledge-dependent
+management of people in the work process. Today, the
+increasing integration of sensor technology in handling
+equipment and the direct integration of this technology
+in the work process permit hybrid workplaces without
+the previous strict separation of work spaces or the
+temporary shutdown of the corresponding automatic
+functions. Among other things, this exploits the
+potential to master problems and challenges in the area
+of societal development (demographics) – by relieving
+people of the need to perform physically demanding or
+monotonous tasks, for example. In other applications,
+however, human activities can also be transformed
+into process-monitoring or problem-solving tasks.
+The goal is to establish systems for skill development
+as well as for informal learning that anticipate the
+individuality of the person in question and his or her
+cognitive qualities and skills (“cognitive ergonomics”).
+This is the only way it will be possible to utilise the
+individual creativity and flexibility of human beings in
+the sociotechnical context of Logistics 4.0 in a socially
+acceptable manner. The acceptance of a new “manmachine” interaction concept in the vein of Logistics
+4.0 will ultimately determine its long-term success.
+However, this acceptance cannot be promoted or
+even forced on people from the outside but must grow
+gradually over time [32]
+The resulting individual questions concern the three
+essential interfaces of the sociotechnical system of
+Logistics 4.0 (cf. Fig. 1 above), for example:
+– The technology/human interface: which activities
+are meaningful and socially acceptable within the
+framework of Logistics 4.0 and how are they to be
+automated. People and machines act in different
+time frames; how can an understanding of
+
+9
+
+dynamic system behaviour and an understanding
+for autonomous behaviour be promoted (on both
+sides)?
+– The organisation/human interface: what is the
+right, individual scope of management by the
+system? How can human beings be meaningfully
+integrated in decision-making processes?
+– The organisation/technology interface: Logistics
+4.0 is based on decentralisation and new principles
+of autonomous control and self-organisation;
+how can these principles be formulated in a
+technology-compliant manner? Which methods
+and algorithms should be adapted or developed
+for this purpose?
+10.
+
+How will risk and responsibility be shared
+and distributed (“machine responsibility”)?
+In Logistics 4.0, affordable and high-powered sensors,
+actuator technology and information processing enable
+the machines not only to communicate with people but
+also to interact, as well as to interpret and ultimately
+anticipate human behaviour. Interpretation of gestures
+and speech or the measurement of the human pulse
+based on analysis of a video signal are just as much
+part of the current state of the art as eye trackers in
+cars or fitness bracelets complete with motion analysis.
+Techniques and algorithms of artificial intelligence and
+machine learning are increasingly gaining ground, and
+their development points in the direction of autonomous
+action by machines.
+Machines will become “equal” partners in the social
+networks of Logistics 4.0. Avatars and software agents
+will represent humans in the virtual world created by
+these novel social networks (cf. research question 9)
+[33]. In future, “man-machine interaction” (MMI) will
+increasingly resemble interaction between humans. As
+
+high degree.
+In Logistics 4.0, the corresponding technical
+developments will initially extend to relatively simple
+systems like intelligent containers and shelves, smart
+devices and swarms of driverless transport vehicles
+that will have the ability to interact with humans via
+speech, gestures and the interpretation of physiological
+parameters. In the longer term, these systems will
+be joined by cyborgs, autonomous trucks, robots or
+complex machines.
+One topic that is closely related to this question is that
+of context-based learning. Once again, this will concern
+both parties – humans and machines. On the one hand,
+this will be about how individual experience-based
+knowledge is preserved and imparted by humans. On
+the other hand, there is the question of how machines
+learn in the context of natural environments and in
+interaction with humans (e.g. artificial intelligence
+techniques) [34].
+It would be negligent, however, to interpret a positive
+vision of the future interaction between humans and
+machines as a merely technical development. Interaction
+with (partially) autonomously acting machines raises
+questions concerning acceptance, legal assessment and
+the restructuring of the sociotechnical system up to and
+including the ethical perspective.
+“While MMI applications will make many injuries
+and fatalities preventable in future, it is equally likely
+that these applications will also cause harm to some
+people [35]. In this connection, the scientific literature
+also discusses the ethical and legal implications of
+scenarios in which a (partly) autonomous machine
+has to decide between harming two people or groups
+of people – between its own passengers and other
+traffic participants, for example, or between multiple
+other traffic participants [36]. The faster reaction
+times of MMI applications basically means that more
+“damaging events” will be avoidable, and this raises
+two questions: that of the legitimacy and possibly even
+the legality of decisions not to use MMI solutions; and,
+secondly, the question of whether this may result in
+restrictions on human options for action.” [37]
+The following questions are among those that need to
+be answered in an interdisciplinary scientific discourse:
+– How will responsible and targeted action in the
+interaction of humans and machines by structured
+and organised in the common social networks of
+Logistics 4.0?
+– What is the normative standard that machines have
+to submit to in their interaction with one another
+and with humans?
+– What is the categorical imperative of Logistics
+4.0?
+
+11.
+
+What qualifications and competencies does
+Logistics 4.0 require? How will they be
+individually fostered?
+Increasing digitisation and interconnection in Logistics
+4.0 creates major challenges for employees and
+management personnel. With the increasing application
+of advanced information and communication
+technologies in logistics and production, existing work,
+organisation and management structures will be called
+into question by new technological concepts. Added
+to this are the effects of demographic change and the
+differing aptitudes, values and attitudes of the different
+generations [39].
+In Logistics 4.0, simple rule-based work routines
+are increasingly automated. Humans and machines
+work together. The employees are still responsible for
+organisational, creative decisions. Smart devices like
+smartphones, tablets, 3D glasses or wearables enable
+the employees to manage the glut of information and
+to enter into a novel dialogue with intelligent machines
+and products.
+What are the resulting specialist and methodological
+requirements of this development with regard to the
+people employed in the logistics sector? One general
+specialist element will be the integration of production
+and logistics knowledge on the one hand and uptodate IT skills on the other. This calls for additional
+qualification measures in the area with the lower skill
+levels. Concrete requirements will largely depend on
+the function of the employees in question, although age
+will also play a decisive role, as younger employees are
+far more comfortable when it comes to using digital
+technologies.
+Qualification measures for personnel in the era
+of Logistics 4.0 must take account of all groups of
+employees – in other words, not only blue-collar staff
+but also commercial employees and management
+personnel, and the requirements will be different in
+each case. As a result of increased automation, for
+example, blue-collar employees will sometimes be
+faced with the challenge of performing new tasks.
+Commercial personnel will have to learn the necessary
+skills that enable them to handle a more highly
+automated, decentral planning and control approach.
+For their part, management executives need holistic
+business process and IT expertise in order to identify
+and exploit the potential of Logistics 4.0 for their
+company – as well as high-level skills in the area of
+change management and modern employee leadership.
+They must help older employees to understand the
+benefits of Logistics 4.0 while simultaneously arousing
+the interest of employees from Generations Y and Z
+(the so-called digital natives) in their company and
+managing these younger employees in an appropriate
+manner. Moreover, they must create a framework
+for the productive cooperation of older and younger
+employees.
+The resulting qualification needs must be individually
+further training and development programmes.
+Ongoing digitisation in the educational field also
+opens up attractive new options for companies, such as
+online courses, gamification or knowledge platforms.
+It goes without saying that training content must also
+be rapidly established in the areas of school, vocational
+and university education. At the same time, however,
+it is precisely the process of digitisation that also
+paves the way for the development of competencies
+on independent initiative outside the conventional
+education pathways. This aspect should be taken
+into account in the development of concepts for the
+documentation of the individual qualification status for
+Logistics 4.0.
+In view of the above, the following are just some of
+the individual questions that need to be asked:
+– What specialist and methodological demands
+will Logistics 4.0 make on employees in logistics
+– in general and in terms of specific tasks and
+functions?
+– How does digitisation affect employment in
+logistics, and how will this impact the supply
+and demand for specialists and management
+personnel?
+– How can the different knowledge statuses and
+working practices of the different generations
+be combined in a productive way and optimally
+utilised?
+– How does the further training and development
+system need to be adapted in order to address these
+issues?
+CONCLUSION
+The Fourth Industrial Revolution is fundamentally
+changing the face of industry and society, creating
+major challenges for logistics in the reorganisation
+and restructuring of value added systems. Established
+business models and success factors are being called
+into question, and there is a need for new ideas and
+concepts.
+Industry 4.0 is unthinkable without logistics. It is the
+prime mover of the Fourth Industrial Revolution and
+the core element of all successful concepts. Logistics
+will be the key competitive and locational factor for
+industry in the international competition between new
+business models in the area of autonomisation and
+digitisation. More than ever before, logistics research
+is therefore called upon to answer the fundamental
+research questions arising on the road to Logistics 4.0.
+The research questions outlined in this Position
+Paper underline the importance of logistics and IT as
+the central knowledge areas for the implementation of
+the Fourth Industrial Revolution. The wide-ranging
+interrelationships between these two disciplines make
+it expedient to focus above all on interdisciplinary
+concepts. A further aim is to create a common
+
+11
+
+theoretical foundation for technology and economy in
+the concept of Logistics 4.0.
+ACKNOWLEDGMENTS
+The Position Paper underlying this contribution is
+endorsed by all the members of the Scientific Advisory
+Board of Bundesvereinigung Logistik (BVL). The
+authors would like to thank all members for their
+valuable input to this paper.
+REFERENCES
+[1] Delfmann W, Kersten W, ten Hompel M,
+Schmidt T, Stölzle W (2017) Logistik als
+Wissenschaft – zentrale Forschungsfragen in
+Zeiten der vierten industriellen Revolution,
+Positionspapier des Wissenschaftlichen Beirats
+der Bundesvereinigung Logistik (BVL), Bremen,
+ht t ps://w w w.bvl.de/ser vice/publikationen /
+positionen
+[2] Delfmann W, Dangelmaier W, Günthner W,
+Klaus P, Overmeyer, L, Rothengatter W, Weber
+J, Zentes J (2010) Towards a science of logistics:
+cornerstones of a framework of understanding
+of logistics as an academic discipline. Working
+group of the Scientific Advisory Board of
+the German Logistics Association (BVL), in:
+Logistics Research (2), pp 57–63
+[3] Kagermann H (2015) Change through digitization
+– Value creation in the age of Industry 4.0.
+Management of permanent change. Springer
+Fachmedien Wiesbaden, pp 23-45
+[4] Evangelista P, McKinnon A, Sweeney E (2013)
+Technology adoption in small and mediumsized
+logistics providers. Industrial Management &
+Data Systems 113.7:967-989
+[5] Wagner St, Sutter R (2012) A qualitative
+investigation of innovation between third-party
+logistics providers and customers. International
+Journal of Production Economics 140.2:944-958
+[6] Schmidt R, Mohring M, Härting R, Reichstein
+C (2015) Industry 4.0 – potentials for creating
+smart products: empirical research results.
+Abramowicz, W. (ed.) BIS. LNBIP, vol.208,
+pp.16-27. Springer, Heidelberg
+[7] Hermann M, Pentek T, Otto B (2016) Design
+principles for industry 4.0 scenarios: A literature
+review, Working Paper, Technical University of
+Dortmund
+[8] König A, Spinler S (2016) The effect of logistics
+outsourcing on the supply chain vulnerability
+of shippers: Development of a conceptual risk
+management framework. The International
+Journal of Logistics Management 27.1:122-141
+[9] Brettel M, Friederichsen N, Keller M, Rosenberg
+[11]
+
+[12]
+
+[13]
+
+[14]
+
+[15]
+[16]
+
+[17]
+
+[18]
+
+[19]
+
+and network building change the manufacturing
+landscape: An Industry 4.0 Perspective.
+International Journal of Science, Engineering
+and Technology; 8.1: 37-44
+Hofmann, E, Rüsch, M (2017) Industry 4.0 and
+the current status as well as future prospects on
+logistics, Computers in Industry, 89, pp. 23–34
+Zhou K, Liu T (2015) Industry 4.0: towards
+future industrial opportunities and challenges.
+12th international conference on Fuzzy Systems
+and Knowledge Discovery (FSKD), IEE, pp.
+2147-2152
+Kagermann H, Wahlster W, Helbig J (ed.)
+(2013) Umsetzungsempfehlungen für das
+Zukunftsprojekt Industrie 4.0 – Abschlussbericht
+des Arbeitskreises Industrie 4.0, acatech, Use
+Case 5: Selbstorganisierende adaptive Logistik,
+pp 109
+Blau B. (2012) Coordination in Service Value
+Networks: A Mechanism Design Approach
+(Studies on eOrganisation and Market
+Engineering), KIT, Karlsruhe
+Delfmann W, Jaekel F (2012) The Cloud –
+Logistics for the Future? In: Coordinated
+Autonomous Systems. Wissenschaft und
+Praxis im Dialog. 6th International Scientific
+Symposium on Logistics, edited by Delfmann,
+W., Wimmer, Th., Hamburg, pp 5–26
+Roth A (2015) Who Gets What – And Why: The
+New Economics of Matchmaking and Market
+Design, New York
+Delfmann W (2014) Perspektive Cloud Logistik
+– Adaptiv vernetzte Logistiksysteme statt
+totaler Supply Chain Integration, in: Navigation
+durch die komplexe Welt der Logistik, Texte aus
+Wissenschaft und Praxis zum Schaffenswerk von
+Wolf-Rüdiger Bretzke, ed.: Kille, Chr., pp 5–16
+Surana A, Kumara S, Greaves M, Raghavan U,
+Nandini (2005) Supply chain networks: a complex
+adaptive systems perspective. International
+Journal of Production Research 43 (20), pp 4235–
+4265
+Hülsmann M, Cordes Ph (2009) Autonomous
+Co-operation and Control in Complex Adaptive
+Logistic Systems – Contributions and Limitations
+for the Innovation Capability of International
+Supply Networks, in: Lecture Notes of the Institute
+for Computer Sciences, Social Informatics and
+Telecommunications Engineering Volume 4, pp
+1023-1032
+Windt K, Hülsmann M (2007) Understanding
+autonomous cooperation and control in logistics.
+The impact of autonomy on management,
+information, communication and material flow, in:
+Hülsmann, M., Windt, K., (Eds.). Understanding
+autonomous cooperation and control in logistics.
+Springer, Berlin Heidelberg, pp 4-16
+
+[20] Savelsbergh M, van Woensel T (2016) City
+logistics: Challenges and Opportunities.
+Transportation science 50.2 pp 579-590
+[21] Grazia Speranza M (2018) Trends in transportation
+and logistics. European journal of operational
+research 264.3 pp 830-836
+[22] Leismann K, Schmitt M, Rohn H and Baedeker
+C (2013) Collaborative Consumption: Towards
+a Resource-Saving Consumption Culture.
+Resources 2.3 pp 184-203. doi:10.3390/
+resources2030184
+[23] Wang Y., Naim M., Evans L. (2013) Enabling
+Smart Logistics for Service Operations. Springer,
+Berlin, Heidelberg, pp 237-256
+[24] Veit D, Clemons E, Benlian A, Buxmann P, Hess
+T, Kundisch D, Leimeister J M, Loos P, Spann M
+(2014) Business Models. An Information Systems
+Research Agenda. Business & Information
+Systems Engineering 6.1 pp 45-53
+[25] Kagermann H (2015) Change Through
+Digitization – Value Creation in the Age of
+Industry 4.0. Springer Gabler, Wiesbaden, pp 2345
+[26] Resch A, Blecker T (2012) Smart logistics: a
+literature review. Pioneering Supply Chain
+Design A Comprehensive Insight Into Emerging
+Trends, Technologies And Applications. Eul,
+Lohmar pp 91-102
+[27] Grabara J, Kolcun M, Kot S (2014) The role
+of information systems in transport logistics.
+International Journal of Education and Research
+2.2, pp 1-8
+[28] Gomez M, Grand S, Givas S (2015) Digitalisation
+in Logistics and the Role of Cloud Computing:
+How Cloud Computing will Change the Game.”
+Logistics Innovation Technologie 2, pp 4-7
+[29] Zhang X, Van Donk D, van der Vaart T (2016)
+The different impact of inter-organizational
+and intra-organizational ICT on supply chain
+performance. International Journal of Operations
+& Production Management 36.7:803-824
+[30] Bundesministerium für Wirtschaft und Energie
+(ed.): Aspekte der Forschungsroadmap in den
+Anwendungsszenarien, Plattform Industrie 4.0,
+Berlin, 2016, p. 34
+[31] Hirsch-Kreinsen H, ten Hompel M (2016)
+Social Manufacturing and Logistics –
+Arbeit in der digitalisierten Produktion. In:
+Bundesministerium für Wirtschaft und Energie
+(ed.): Arbeiten in der digitalen Welt, Berlin, pp
+6-9
+[32] Grunwald
+A
+(2015)
+Gesellschaftliche
+Risikokonstellationen für autonomes Fahren –
+Analyse, Einordnung und Bewertung. in: Maurer,
+M. et al. (ed.), Autonomes Fahren, Technische,
+rechtliche und gesellschaftliche Aspekte, Berlin,
+pp 661 – 685
+[33] ten Hompel M, Putz M, Nettsträter S (2016)
+
+[35]
+
+[36]
+
+[37]
+
+[38]
+
+[39]
+
+Für ein positives Zukunftsbild von Industrie
+4.0. Dortmund Available online at: www.e3produktion.de
+acatech (ed.): Kompetenzentwicklung Industrie
+4.0 – Erste Ergebnisse und Schlussfolgerungen.
+p. 30, Reihe acatech Dossier, Berlin, April 2016.
+www.acatech.de/de/projekte/projekte/kompetenz
+entwicklungsstudie-industrie-40.htm
+acatech (ed.): Innovationspotenziale der MenschMaschine-Interaktion
+(acatech
+IMPULS),
+Munich, 2016. ISSN: 2195-1829 / ISBN: 978-38316-4497-1
+Lin P (2015) Why Ethics Matters for
+Autonomous Cars. In: Maurer, M. et al. (ed.),
+Autonomes Fahren, Technische, rechtliche und
+gesellschaftliche Aspekte, Berlin, pp 69–85
+Spindler G (2014) Zivilrechtliche Fragen beim
+Einsatz von Robotern. In: Hilgendorf, E. (ed.),
+Robotik im Kontext von Recht und Moral, BadenBaden, pp 63–80
+Zimmerli W (1993) Wandelt sich Verantwortung
+mit technischem Wandel? In: Hans Lenk, Günter
+Ropohl (ed.): Technik und Ethik. 2nd edition.
+Reclam, Stuttgart, pp 92–111
+Kersten W, Koller H, Lödding H (ed.) (2014)
+Industrie 4.0 – Wie intelligente Vernetzung und
+kognitive Systeme unsere Arbeit verändern,
+Berlin
+

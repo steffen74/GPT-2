@@ -1,0 +1,1850 @@
+
+1 Introduction
+Mass production (MP) has been the established manufacturing paradigm for nearly a century. MP initially answered
+to the need of the continuously increasing population around
+the globe, with a gradual improvement in its living standards,
+especially in the developed world, for goods and commodities. However, since the 1980s and with the beginning
+of the new millennium, a saturation of the market towards
+mass produced products is observed. In 2006, Chryssolouris
+states that: ‘‘It is increasingly evident that the era of MP is
+being replaced by the era of market niches. The key to creating products that can meet the demands of a diversiﬁed
+customer base, is a short development cycle yielding low
+cost and high quality goods in sufﬁcient quantity to meet
+demand’’ [1]. Currently, the need for increased product
+variety is intensifying, and customers in many market segments request truly unique products, tailored to their individual taste. Companies are striving to offer product variety
+while trying to produce more with less [2] (i.e. maximise
+their output while minimising the use of materials and
+environmental footprint), while the landscape that they must
+operate in, inﬂicted by the economic recession, has become
+more complex and dynamic than ever.
+In the mass customisation (MC) paradigm, the establishment of which is still an ongoing process, instead of
+treating customers merely as product buyers, a producer
+must consider them as integrated entities in the product
+design and development cycle. In this customer-driven
+environment that is shifting towards online purchases and
+market globalisation, the underlying manufacturing systems
+and chains are heavily affected. Owing to its multidisciplinary nature, the manufacturing domain in general lacks of
+uniﬁed solution approaches [3]. The management of the coevolution of product, process and production on a strategic
+
+
+planning, and control life cycle perspectives within the
+general MC landscape, targeting to the understanding of
+the current situation and identiﬁcation of future developments. For the scope of the paper, areas of supplier
+selection, initial manufacturing network design, supply
+chain coordination, complexity, logistics management,
+inventory and capacity planning and management, lot sizing, enterprise resource planning (ERP), customer relationship management (CRM), and supply chain control are
+reviewed. The purpose is to establish an overview of the
+current status of academic research and pinpoint the challenges that have yet to be addressed by academic work.
+Departing from that, major drivers and enabling technologies are identiﬁed, as well as concepts that can lead to
+a more sustainable implementation of MC are proposed.
+The review is based on structured search in academic
+journals and books, which were retrieved primarily from
+Scopus and Google Scholar databases, using as keywords
+the main ﬁelds of interest of the study, namely: evolution
+of manufacturing paradigms, issues in MC and personalisation environments, the role of simulation for manufacturing, methods and technologies related to product and
+production complexity, and inventory management and
+capacity planning, among others. Academic peer-reviewed
+publications related to the above ﬁelds were selected,
+ranging over a period of 30 years, from 1984 to 2015, with
+only a few notable exceptions. Sciences that were considered in the search were: engineering, management, business, and mathematics. The review was carried out in three
+stages: (1) search in scientiﬁc databases with relevant
+keywords, (2) identiﬁcation of the relevant papers after
+reading their abstract, and (3) full-text reading and
+grouping into research topics. Indicatively, the frequency
+of results from a search with the keywords ‘‘mass customisation’’ or ‘‘product personalisation’’ in the abstract,
+title, and keywords of the article as obtained by the Scopus
+database is depicted in Fig. 1.
+Frequency of "mass customisaƟon" and
+"personalisaƟon" keywords per year (Scopus)
+
+Frequency of appearance
+
+and operational level is a huge challenge. Market globalisation broadens the target audience of a product, while at the
+same time it constitutes supply strategies and logistics’ more
+difﬁcult to manage. Adding to that, the Internet, one of the
+primary enablers of globalisation, allowed online customisation and purchasing, leading to new disruptive purchasing
+models. In their turn, these models affected long-established
+businesses that could not form an online presence fast and
+succumbed to the competition. Moreover, the economic
+recession highlighted the need for quick adaptation to
+demand; companies that could not adapt to the new
+requirements suffered economic losses and their viability
+was challenged. Simultaneously, the decreasing product
+costs and the increase in purchasing power in developing
+countries generated new markets and destabilised demand.
+Finally, the emergence of new materials, new forms of
+production, and key enabling technologies constitute new
+diversiﬁed product features and processes feasible, as well
+as they allow the interconnection between ICT systems,
+humans, and engineering/manufacturing phases.
+It becomes apparent that manufacturers and service providers are presented with numerous external and internal
+drivers and challenges [4] that have a visible impact on the
+smooth operation of the entire value-adding network down to
+each individual manufacturing facility [5]. A root cause for
+these problems is that while the MC paradigm proposes a set
+of practices and solutions for tackling these issues, its practical implementation is still considered as work in progress in
+terms of effectiveness of coordination and collaboration
+between stakeholders, design and planning of networks and
+facilities, and execution and control efﬁciency [6]. An
+enabling solution for realising a cost-effective implementation
+of MC is to properly conﬁgure easily adaptable manufacturing networks, which are capable to handle the complexity and
+disturbances that modern production requirements inﬂict [7].
+Support systems for the design, planning, and control with
+inherent robustness are necessary in order for companies to
+withstand the antagonism through sustainable practices.
+Technology-based business approaches comprise a major
+enabler for the realisation of robust manufacturing systems
+and networks that offer high value-added, user-oriented
+products and services. These qualities are critical for companies in order to master variety and maintain their viability
+[8]. Signiﬁcant work has been conducted on this ﬁeld, yet a
+focused review of the literature regarding the inﬂuence of MC
+practices on different aspects of the manufacturing network
+life cycle is missing. In particular, the lack of dedicated
+reviews on the challenging issues of design, planning, and
+operation of manufacturing networks in the framework of MC
+forms the motivation for conducting this work [9].
+Towards bridging this gap in academic approaches, this
+work reviews the existing literature related to the basic
+aspects of a manufacturing network from its design,
+
+Logist. Res. (2016) 9:2
+
+450
+400
+350
+300
+250
+200
+150
+100
+50
+0
+1985
+
+1995
+
+2005
+
+2015
+
+Year
+
+Fig. 1 Frequency of appearance of the keywords ‘‘mass customisation’’ and ‘‘personalisation’’ in the abstract, title, and keywords of the
+on these topics by the scientiﬁc community, and the
+establishment of MC as a distinct ﬁeld of research. The
+trend resembles a typical hype cycle. In the beginning, the
+abstract concept of MC is born from the realisation that
+product variety is increasing. Then, key enabling technologies, such as the rise of the Internet, web-based collaboration means, and ﬂexible manufacturing systems act
+as a trigger in the spread of MC, quickly reaching a peak
+during late 1990s and early 2000s. Until then, most studies
+are concerned with management and strategic issues of
+MC, failing to address critical MC implementation issues.
+Afterwards, researchers realised that a series of sub-problems ought to be tackled ﬁrst, leading to research indirectly
+associated with MC (e.g. investigation of product family
+modelling techniques). Nevertheless, MC is here to stay,
+therefore, research interest on complete MC solutions starts
+appearing after 2005 and continues up to the current date.
+The rest of the paper is structured as follows. Section 2
+presents the evolution of manufacturing paradigms and
+discusses the recent shift towards customer-centred manufacturing. Section 3 performs a literature review on major
+topics related to the life cycle of manufacturing networks,
+together with the latest advances in ICT for supporting the
+design, planning, and control of manufacturing networks.
+Section 4 summarises the challenges that need to be
+addressed, aided by a generic view of the manufacturing
+landscape of the near future. Finally, Sect. 5 concludes the
+paper.
+
+2 Evolution of manufacturing and current
+challenges
+2.1 Evolution of manufacturing paradigms
+Over time, manufacturing paradigms, driven by the pressure of the environment in which they operate, change in
+character and evolve in patterns (Fig. 2). The various patterns witnessed up to now can be roughly correlated to
+movements between three stages: (1) craft shops that
+employ skilled artisans, (2) long-linked industrial systems
+using rigid automation, and (3) post-industrial enterprises
+characterised by ﬂexible resources and information intensive intellectual work [10]. Prevailing manufacturing
+paradigms are, in chronological order of appearance, the
+following: craft production, American production, mass
+production, lean production, mass customisation, and global manufacturing. Apart from American production, all
+other paradigms are still ‘‘operational’’ today in different
+industrial sectors [11].
+By studying these notable transitions, which are attributed to the pressure applied by social needs, political
+
+Page 3 of 20 2
+
+factors, and advances in technology, it is noticeable that
+factory systems and technologies have been evolving in
+two directions. Firstly, they increased the versatility of the
+allowable products’ variety that they produced. This
+resulted in numerous production innovations, design technology advances, and evolution in management techniques.
+Secondly, companies have extended factories like tools and
+techniques. Factories emerged from ﬁrms that introduced a
+series of product and process innovations that made possible the efﬁcient replication of a limited number of designs
+in massive quantities. This tactic is widely known as
+economies of scale [12]. Factory systems replaced craft
+modes of production as ﬁrms learned how to rationalise
+and product designs as well as standardise production itself
+[13]. Although factory organisations provided higher
+worker and capital productivity, their structure made it
+difﬁcult to introduce new products or processes quickly and
+economically, or to meet the demands of customers with
+distinctive tastes; factory-oriented design and production
+systems have never completely replaced craftsmanship or
+job shops even if the new technologies continue to appear.
+The result, in economic, manufacturing, and design concepts, has been a shift from simple economies of scale, as
+in the conventional MP of a limited number of products, to
+economies of scope and customer integration [14]. It is
+clear that MP factories or their analogues are not appropriate for all types of products or competitive strategies.
+Moreover, they have traditionally worked best for limited
+numbers of variants suited to mass replication and mass
+consumption. The craft approach offers a less efﬁcient
+process, at least for commodity products, but remains
+necessary for technologies that are still new or emerging
+and continues to serve speciﬁc market niches, such as for
+tailoring products for individual needs and luxury or traditional items. A categorisation of the different production
+concepts based on the indicators system reconﬁgurability,
+demand volatility, and product complexity is depicted in
+Fig. 3.
+Today, issues introduced by the shift of business models
+towards online purchasing and customisation [15] must be
+tackled in cost-efﬁcient and sustainable ways in order for
+companies to maintain their competitiveness and create
+value [16]. To respond to consumer demand for higher
+product variety, manufacturers started to offer increased
+numbers of product ‘‘options’’ or variants of their standard
+product [17]. Therefore, practice nowadays focuses on
+strategies and methods for managing product, process, and
+production systems development that are capable of supporting product variety, adaptability, and leanness, built
+upon the paradigms of MC and product personalisation.
+The currently widespread MC is deﬁned as a paradigm for
+‘‘developing, producing, marketing and delivering affordable goods, and services with enough variety and
+
+systems using rigid
+automation
+Industrial RevoluƟon England
+
+Craft shops
+that employ
+skilled
+artisans
+
+Logist. Res. (2016) 9:2
+
+1800
+
+1700
+
+1850
+
+nd
+
+1300
+
+800
+
+700
+
+1955 – Peak of Mass
+ProducƟon
+
+1913
+
+1900
+CraŌ
+ProducƟon
+
+600
+
+American
+ProducƟon
+
+Mass ProducƟon
+
+Start of 2
+Industrial
+RevoluƟon
+ScienƟﬁc
+Management
+System (Taylorism)
+
+Sociotechnical
+System
+
+Fordism
+
+Post-industrial
+information
+intensive
+enterprises with
+p
+flexible resources
+
+1990
+Global Manufacturing
+Networks
+
+Lean ProducƟon/Manufacturing
+1980
+Total
+PrevenƟve
+Maintenance
+
+JIT
+
+Personalised
+ProducƟon
+
+Networks
+Mass CustomizaƟon
+
+Virtual
+MC
+
+ProducƟon
+Networks
+
+Strategic
+Network
+
+Regionalised
+ProducƟon
+2000+
+
+Decentralised
+Mini Factories
+
+Cluster
+Concept
+
+Fig. 2 Evolution of manufacturing paradigms (adapted from [11])
+
+customisation that nearly everyone ﬁnds exactly what they
+want’’ [17]. This is achieved mostly through modularised
+product/service design, ﬂexible processes, and integration
+between supply chain members [18, 19]. MC targets
+economies of scope through market segmentation, by
+designing variants according to a product family architecture and allowing customers to choose between design
+combinations [20]. At the same time, however, MC must
+achieve economies of scale, in a degree compared to that of
+MP, due to the fact that it addresses a mass market.
+Another signiﬁcant objective for companies operating in an
+MC landscape is the achievement of economies of customer integration in order to produce designs that the
+customers really want [14]. On the other hand, personalised
+production aims to please individual customer needs
+through the direct integration of the customer in the design
+
+123
+
+of products. The major differences between the prominent
+paradigms of MP, MC, and personalisation in terms of
+goals, customer involvement, production system, and product structure are depicted in Fig. 4.
+A research conducted in the UK related to automotive
+products revealed that 61 % of the customers wanted their
+vehicle to be delivered within 14 days [21], whereas consumers from North America responded that they could wait
+no longer than 3 weeks for their car, even if it is custom
+built [22]. Such studies point out the importance of
+responsiveness and pro-activeness for manufacturers in
+product and production design.
+During the last 15 years, the number of online purchases
+has increased and recent surveys show that 89 % of the
+buyers prefer shopping online to in-store shopping [23].
+Complexity
+A: Personalized ProducƟon
+B: Mass CustomizaƟon
+C: Mass ProducƟon
+D: Lean Manufacturing
+E: CraŌ ProducƟon
+
+Page 5 of 20 2
+
+E
+
+A
+High System
+Flexibility /
+Reconﬁgurability
+
+B
+D
+
+Stable/
+Forecastle
+Demand
+
+C
+
+VolaƟle /
+Unpredictable
+demand
+
+Low System
+Flexibility
+
+Low Product
+Complexity
+
+Fig. 3 Characterisation of production paradigms based on demand
+structure, product complexity, and product ﬂexibility
+
+Mass producƟon
+
+Customer
+involvement
+ProducƟon
+System
+
+PersonalizaƟon
+
+Economy of
+Scale
+Buy
+
+Choose
+
+Design
+
+Dedicated
+Manufacturing
+System (DMS)
+
+Reconﬁgurable
+Manufacturing
+System (RMS)
+
+On Demand
+Manufacturing
+System
+
+Common
+parts
+
+Goal
+
+Mass
+customizaƟon
+Economy of
+scope
+
+Common Custom
+parts
+parts
+
+Common Custom
+parts
+parts
+
+Value
+diﬀerenƟaƟon
+
+Product
+Structure
+
+Personalized
+Parts
+
+Fig. 4 Differences between production paradigms (adapted from
+[20])
+
+implemented and have proved to be very effective in capturing the pulse of the market [24]. These web-based toolkits
+aim at providing a set of user-friendly design tools that allow
+trial-and-error experimentation processes and deliver
+immediate simulated feedback on the outcome of design
+ideas. Once a satisfactory design is found, the product
+speciﬁcations can be transferred into the ﬁrm’s production
+system and the custom product is subsequently produced
+and delivered to the customer [25]. Still online 2D and 3D
+conﬁgurators do not solve practical issues such as the
+assembly process of these unique variants. Although proposed approaches include e-assembly systems for collaborative assembly representation [26] and web-based
+collaboration systems [27], the research in this area needs to
+be expanded in order to provide tools for assembly representation and product variant customisation. An additional
+constraint is that globalised design and manufacturing often
+
+require the variants for local markets to be generated by
+regional design teams, which use different assembly software and source parts from different supply bases [20]. The
+incorporation of the customers’ unique tastes in the product
+design phase is a fairly new approach to the established
+ways of achieving product variety and entails signiﬁcant
+reorganisation, reconﬁguration, and adaptation efforts for
+the company’s production system. Variety is normally realised at different stages of a product life cycle. It can be
+realised during design, assembly, at the stage of sales and
+distribution, and through adjustments at the usage phase.
+Moreover, variety can be realised during the fabrication
+process, e.g. through rapid prototyping [28].
+It should ﬁnally be noted that naturally, even if the
+trends dictate a shift towards personalised product
+requirements, it should always be considered that forms of
+production such as MP cannot be abandoned for commodities and general-purpose products, raw materials, and
+equipment. After all, paradigms are shaped to serve
+speciﬁc market and economical situations.
+2.2 Globalisation
+Globalisation in manufacturing activities, apart from its
+apparent advantages, introduces a set of challenges. On the
+one hand, a globalised market offers opportunities for
+expanding the sphere of inﬂuence of a company, by widening
+its customer base and production capacity. Information and
+communication technologies (ICT) and the Internet have
+played a signiﬁcant role to that [29]. On the other hand,
+regional particularities greatly complicate the transportation
+logistics and the identiﬁcation of optimum product volume
+procurement, among other. Indicatively, the difﬁculty in
+forecasting product demand was highlighted as early as in
+1986 by the following observation from Intel laboratories:
+when investigating the match between actual call off and the
+actual forecast, they estimated that supply and demand were in
+equilibrium for only 35 min in the period between 1976 and
+1986 [30, 31]. Enterprises started locating their main production facilities in countries with favourable legislation and
+low cost of human labour [32]; thus, the management of the
+supply chain became extremely complex, owing primarily to
+the fact that a great number of business partners have to
+mutually cooperate in order to carry out a project, while being
+driven by opportunistic behaviours. Thus, manufacturing
+networks need to properly coordinate, collaborate, and communicate in order to survive [33].
+On a manufacturing facility level, the impact of supply
+chain uncertainties and market ﬂuctuations is also considerable. The design and engineering analysis of a complex
+manufacturing system is a devious task, and the operation
+of the systems becomes even harder when ﬂexibility and
+reconﬁgurability parameters must be incorporated [34].
+
+
+The process is iterative and can be separated into smaller
+tasks of manageable complexity. Resource requirements,
+resource layout, material ﬂow, and capacity planning are
+some of these tasks [1], which even after decomposition
+and relaxation remain challenging [35]. In particular, in the
+context of production for MC businesses, issues such as
+task-sequence-dependent inter-task times between product
+families are usually ignored, leading to inexact, and in
+many cases non-feasible, planning and scheduling. Even
+rebalancing strategies for serial lines with no other interdependencies is challenging, leaving ample room for
+improvement in order for the inconsistencies between
+process planning and line balancing to be minimised [20].
+From a technological perspective, the increased penetration of ICT in all aspects of product and production life
+cycles enables a ubiquitous environment for the acquisition,
+processing, and distribution of information, which is especially beneﬁcial for a globalised paradigm. With the introduction of concepts like cyber physical systems (CPS) and
+Internet of things (IoT) in manufacturing [36], new horizons
+are presented for improving awareness, diagnosis, prognosis,
+and control. Also, the relatively new paradigm of agentbased computation provides great potential for realising
+desirable characteristics in production, such as autonomy,
+responsiveness, distributiveness, and openness [37].
+
+3 Manufacturing networks life cycle and mass
+customisation
+In this section, the recent advances and the challenges
+presented during the life cycle of a manufacturing network
+are discussed. A typical modern manufacturing network is
+Fig. 5 Manufacturing network
+life cycle
+
+composed of cooperating original equipment manufacturer
+(OEM) plants, suppliers, distribution centres, and dealers
+that produce and deliver ﬁnal products to the market [38].
+The topics discussed include supplier selection, supply
+chain coordination, initial network conﬁguration, manufacturing network complexity, inventory management,
+capacity planning, warehousing, lot sizing, ICT support
+tools, and dynamic process planning, monitoring, and
+control. These topics are in line with the life cycle phases
+of a manufacturing network as reported in [39] (Fig. 5).
+3.1 Supplier selection
+The building blocks of any manufacturing network are the
+cooperating companies. The signiﬁcance of the selection of
+these stakeholders (supplier, vendors) has been indicated as
+early as in 1966 as stressed in [40] and is known as the
+supplier selection problem. This decision-making problem
+is highly challenging since it goes beyond simple comparison of component prices from different suppliers. It is
+often decomposed into sub-problems of manageable complexity, such as formulation of criteria for the selection,
+qualiﬁcation of partners, ﬁnal selection, and feedback
+veriﬁcation. A comprehensive literature review on the issue
+of supplier selection in agile manufacturing chains is
+included in [41]. In Fig. 6, the decomposition of the supplier selection problem into small more manageable
+problems is presented, together with indicative methods for
+solving these sub-problems.
+The supplier selection problem becomes even more
+complicated in the era of MC since a certain level of
+adaptability and robustness is necessary when operating
+within a volatile and rapidly changing environment. The
+
+1. CreaƟon
+IdenƟﬁcaƟon and selecƟon of
+partners, requirements and scope
+Supplier
+SelecƟon
+
+Customer
+Requirements
+Management
+
+Enterprise
+Resource
+Management
+
+2. ConﬁguraƟon
+OperaƟonal rules; deﬁne and
+implement IT infrastructure,
+Enterprise
+Resource
+Management
+
+Manufacturing
+Network
+Life-cycle
+Any other
+necessary
+funcƟon for the
+reconﬁguraƟon
+reasons/needs
+
+123
+
+Capacity
+Planning
+Supply Chain
+Control
+
+LogisƟcs
+Management
+
+Customer
+Requirements
+Management
+
+Inventory
+Management
+
+Complexity
+Management
+
+Enterprise
+Resource
+Management
+
+4. (Re)conﬁguraƟon
+(Re)organizaƟon of the network
+layout with the come in and come
+out of members
+
+IniƟal
+ConﬁguraƟon
+
+Supply chain
+CoordinaƟon
+
+3. OperaƟon
+ExecuƟon and coordinaƟon of
+small more manageable
+problems, and indicative
+methods for solving them
+(adapted from [51])
+
+Page 7 of 20 2
+
+Data
+Simple MulƟ
+MathemaƟcal
+Envelopment
+AƩribute
+Programming
+Analysis
+RaƟng
+
+Criteria for the
+selecƟon
+QualiﬁcaƟon of
+partners
+
+GeneƟc
+Algorithms
+
+Feedback
+veriﬁcaƟon
+Decision-making
+problem
+
+AnalyƟcal
+Hierarchy
+Process
+
+Case Based
+Reasoning
+
+Final selecƟon
+
+Supplier
+SelecƟon
+
+AnalyƟc
+Network
+Process
+
+Fuzzy Set
+Theory
+
+Integrated &
+Hybrid
+Approaches
+
+DecomposiƟon into subproblems of manageable
+complexity
+
+most commonly used criteria in supplier selection studies
+include quality and performance [42]. However, when
+having to deal with unpredictability and ﬂuctuating
+demand, which are common in MC, additional factors need
+to be considered such as management compatibility,
+transparency of operations, strategic direction, reliability,
+and agility [43]. While trying to adhere to eco-friendliness
+directives, frameworks like the one proposed in [44]
+incorporate environmental footprint criteria to green supply
+chain design. Moreover, several other criteria may be relevant according to the design and planning objectives of a
+niche supply chain, which could be identiﬁed using data
+mining methods [45].
+The Internet and web-based platforms are used in recent
+years in order to counterbalance uncertainty, monitor
+altering parameters (e.g. weather in supply routes), and
+proactively adapt to changes [46]. Moreover, several proposed supplier selection models incorporate the relative
+importance of the supplier selection factors depending on
+the types of targeted MC implementation, e.g. for the
+component-sharing modularity type of MC, the requirements for selecting suppliers would not be the same as the
+component-sweeping modularity implementation type
+[47]. Like in the case of a stable low variety production, the
+analytic hierarchy process (AHP) is commonly used as a
+means to solve the multi-criteria decision-making problem
+of supplier selection. Incorporating uncertain information
+about the real world, essentially extending the Dempster–
+Shafer theory, the authors in [48] propose the D-AHP
+method for solving the supplier selection problem. The
+suggested D numbers preference relation encapsulates the
+advantages of fuzziness and handles possible incomplete
+and imprecise information, which is common in humandriven systems such as supply chains. Similarly, a combined analytic hierarchy process—quality function
+deployment (AHP–QFD) framework is described by [49]
+that handles uncertain information, selects suppliers, and
+allocates orders to them. A multi-criteria decision-making
+method to support the identiﬁcation of business-to-business
+
+Commonly uƟlised
+methods for solving
+sub-problems
+
+(B2B) collaboration schemes, especially for supplier
+selection is proposed in [50].
+3.2 Supply chain coordination
+The literature on organisational knowledge creation points
+out that ‘‘coordination’’ plays an important role in combining knowledge from stakeholders [52], while it also
+mediates the relationship between product modularity and
+MC [53]. A report on coordination mechanisms for supply
+chains was compiled in [54].
+Concerning coordination in supply chains, in general,
+two topologies are studied, namely the centralised and the
+decentralised one [11] (Fig. 7). In the ﬁrst, the coordination
+decisions are taken by a central body, often the leading
+supply chain OEM, whereas in the second, each member
+independently makes its own operational decisions. The
+decentralised topology has been proven to improve the
+performance in the context of MC [38, 55]. A supply chain
+that is commissioned to provide a variety of customised
+products requires a total systems approach to managing the
+
+Supply Chain
+Management
+
+Oo
+
+O2
+O1
+
+Ss
+
+D3
+
+S4
+
+OEM
+faciliƟes / plants
+S3
+
+S1
+
+D7
+Dd
+
+Suppliers
+
+S2
+
+(Tier 1, 2,…n)
+D9
+
+C1
+Cc
+
+C6
+
+D4
+D8
+
+D2
+C3
+
+Decentralised Topology
+
+Dealers
+Customers
+
+D1
+C4
+
+D5
+
+C2
+C5
+
+Centralised Topology
+
+Fig. 7 Centralised and decentralised supply chain topologies. In a
+centralised topology, material and information move only downstream. In the decentralised one, material/information can be
+transferred both upstream and downstream to better serve customisation, personalisation, and/or regionalisation [6]
+
+
+entire ﬂow of information, materials, and services in fulﬁlling customer demand [56]. Further incentives have to be
+provided to the members, so as to entice their cooperation
+through the distribution of the beneﬁts of the coordination
+for instance.
+The need for adaptation to the new MC requirements has
+led to the deﬁnition of a novel framework for autonomous
+logistics processes. The concept of autonomous control
+‘‘describes processes of decentralised decision-making in
+heterarchical structures, and it presumes interacting elements in non-deterministic systems, and possess the capability and possibility to render decisions independently
+[57]’’. However, regardless the topology, the alignment of
+the objectives of the different collaborating organisations
+in order to successfully carry out projects, optimise system
+performance, and achieve mutual proﬁts is indispensable
+[58]. While an action plan sufﬁces for the coordination of a
+centralised supply chain, it is inadequate with a decentralised one [59] since entities tend to exhibit opportunistic
+behaviour. Nevertheless, in terms of overall network performance, decentralised topologies have shown great beneﬁts for serving the mass customisation paradigm [6, 7].
+3.3 Initial manufacturing network conﬁguration
+The initial manufacturing network conﬁguration must
+consider the long-term needs of cooperation and often
+determines its success. In a constantly changing environment, the conﬁguration of the manufacturing network must
+be, therefore, ﬂexible and adaptable to external forces. The
+problem has been extensively addressed in the literature
+using approaches classiﬁed in two main categories, namely
+approximation (artiﬁcial intelligence, evolutionary computation, genetic algorithms, tabu search, ant colony optimisation, simulated annealing, heuristics, etc.) and
+optimisation techniques (enumerative methods, Lagrangian
+relaxation, linear/nonlinear integer programming, decomposition methods, etc.) and their hybrids [60, 61] (Fig. 8).
+
+Scope of network
+
+Focusing on agile supply chains, a hybrid analytic network
+process mixed-integer programming model is proposed in
+[62] with uttermost aim the fast reaction to customer
+demands. Fuzzy mathematical programming techniques
+have been employed to address the planning problems for
+multi-period, multi-product supply chains [63]. A coloured
+Petri Nets approach for providing modelling support to the
+supply chain conﬁguration issue is included in [64]. A
+dynamic optimisation mathematical model for multi-objective decision-making for manufacturing networks that
+operated in a MC environment is suggested in [65].
+Still, the accuracy of planning ahead in longer horizons
+is restricted. The incorporation of unpredictable parameters
+in the conﬁguration through a projection of the possible
+setting of the network in the future may lead to unsafe
+results.
+3.4 Inventory management/capacity planning/lot
+sizing
+Inventories are used by most companies as a buffer
+between supply chain stages to handle uncertainty and
+volatile demand. Prior to the 1990s, where the main supply
+chain phases, namely procurement, production, and distribution, were regarded in isolation, companies maintained
+buffers of large inventories due to the lack of regulatory
+mechanisms and feedback [66]. The basis for manufacturing and inventory planning was relatively safe forecasts.
+However, in the era of customisation the basis is actual
+orders and the pursuit is minimisation of inventories. These
+requirements constitute inventory management and
+capacity planning functions very important for a profitable MC implementation.
+In complex distributed systems such as modern manufacturing companies with a global presence, the question of
+optimal dimensioning and positioning of inventory emerges as a challenging research question. Various strategies
+for inventory planning have been reported based on how
+GeneƟc
+Algorithms
+Tabu Search
+Simulated
+Annealing
+
+Flexibility /
+adaptability
+
+DecomposiƟon
+Methods
+
+External Forces,
+
+IniƟal Manufacturing
+Network
+ConﬁguraƟon
+
+Life duraƟon
+Partners
+Long-term
+projecƟons
+
+Linear / nonlinear integer
+programming
+
+Issues to be considered
+simultaneously
+
+ArƟﬁcial
+Intelligence
+Ant Colony
+OpƟmisaƟon
+HeurisƟcs
+Lagrangian
+relaxaƟon
+EnumeraƟve
+Methods
+…
+
+IndicaƟve methods used
+
+Fig. 8 Issues to be considered during the initial manufacturing network conﬁguration and indicative methods used
+
+123
+
+EvoluƟonary
+ComputaƟon
+Simulated
+Annealing
+
+Fig. 9 Methods (indicative)
+used for solving the capacitated
+lot sizing problem (adapted
+from [70])
+
+Branch and
+Bound
+
+Valid
+inequaliƟes
+
+Rounding
+HeurisƟcs
+
+Time-based
+Item-based
+Item-based
+DecomposiƟon DecomposiƟon AggregaƟon
+Capacitated Lot
+Sizing Problem
+
+MetaheurisƟcs
+
+…
+…
+
+Local Search
+Variable
+GeneƟcs, Tabu …
+HeurisƟcs Neighbourhood Search, etc.
+Lagrangian
+RelaxaƟon
+
+Lagrangian
+HeurisƟcs
+
+Lagrangian
+…
+DecomposiƟon
+
+ConstrucƟve Greedy search Improvement
+HeurisƟcs
+HeurisƟcs
+Greedy
+
+…
+
+IndicaƟve methods used
+
+the underlying demand and return processes are modelled
+over time, thus making a distinction between constant,
+continuous time-varying, and discrete time-varying
+demand and return models [67]. Integrated capacity planning methods encompassing stochastic dynamic optimisation models over volatile planning horizons exhibit high
+performance in the context of MC and personalisation [68].
+The DEWIP (decentralised WIP) control mechanism was
+proposed in [69], focusing on establishing control loops
+between work centres for adjusting the WIP levels
+dynamically. Its performance was assessed against other
+well-accepted systems such as LOOR, Conwip, and Polca.
+Methods used for solving the capacitated lot sizing problem are indicatively shown in Fig. 9.
+In particular, in just-in-time (JIT) environments, MC
+impacts the amount of inventory that needs to be carried by
+ﬁrms that supply many part variants to a JIT assembly line.
+In addition, the supply of parts is performed either on
+constant order cycles or more commonly under non-constant cycles [71]. The goal chasing heuristic, pioneered
+within the Toyota production system, seeks to minimise the
+variance between the actual number of units of a part
+required by the assembly line and the average demand rate
+on a product-unit-by-product-unit basis, while applying
+penalties for observed shortages or overages [72]. Of
+course, information sharing and partner coordination systems are a prerequisite for JIT procurements. For instance,
+DELL, which achieved a highly coordinated supply chain
+to respond to MC, communicated its inventory levels and
+replenishment needs on an hourly basis with its key suppliers and required from the latter to locate their facilities
+within a 15-min distance from DELL facilities [73].
+Another consideration during inventory management is the
+type of postponement applied in a company. Studies have
+shown that postponement structures allow ﬁrms to meet the
+increased customisation demands with lower inventory
+levels in the case of time postponement (make-to-order), or
+with shorter lead times in the case of form postponement
+[74]. Also, an assemble-to-order process, a variation of
+
+form postponement, does not hold inventory of the ﬁnished
+product, while in form postponement, ﬁnished goods
+inventory for each distinct product at the product’s
+respective point of customisation is kept [75]. An indicative example is given in the case of Hewlett Packard, where
+using form postponement, the company achieved the
+postponement of the ﬁnal assembly of their DeskJet
+printers to their local distribution centres [76].
+3.5 Logistics management
+Logistics can play a crucial role in optimising the position of the customer order decoupling point and balance
+between demand satisfaction ﬂexibility and productivity
+[77]. In a customer-centric environment, the supply chain
+logistics must be organised and operated in a responsive
+and at the same time cost-effective manner. Customisation of the bundle of product/services is often pushed
+downstream the supply chain logistics, and postponement
+strategies are utilised as an enabler for customisation
+[78]. Maintaining the product in a neutral and noncommitted form for as long as possible, however,
+implicates the logistics process. Traditional logistics
+management systems and strategies need to be revisited
+in the context of customisation, since distribution activities play a key role in achieving high product variety,
+while remaining competitive. Most OEMs form strategic
+alliances with third-party logistic (TPLs) companies. The
+introduction of TPLs in the supply chain serves two
+purposes. First, it acts as a means of reducing the
+complexity of management for an OEM through shifting
+the responsibilities of transportation, and in many times
+customisation, to the TPLs [79]. Second, it extends the
+customisation capabilities as TPLs can actively implement postponement strategies [80]. Postponement strategies with logistics as an enabler are located at the bottom
+of Fig. 10 and can serve all types of customisation, from
+plain shipment to order up to extremes of engineer-toorder or personalisation.
+
+
+Make to
+forecast
+
+Packaging /
+Labelling to
+Order
+
+Final
+manufacturing
+/ Assembling
+to Order
+
+Make to Order
+
+Buy to Order
+
+Engineer to
+Order
+
+Design
+
+Design
+
+Design
+
+Design
+
+Design
+
+Design
+
+Design
+
+Purchasing
+
+Purchasing
+
+Purchasing
+
+Purchasing
+
+Purchasing
+
+Purchasing
+
+Purchasing
+
+FabricaƟon
+
+FabricaƟon
+
+FabricaƟon
+
+FabricaƟon
+
+FabricaƟon
+
+FabricaƟon
+
+FabricaƟon
+
+Assembly
+
+Assembly
+
+Assembly
+
+Assembly
+
+Assembly
+
+Assembly
+
+Assembly
+
+Packaging
+
+Packaging
+
+Packaging
+
+Packaging
+
+Packaging
+
+Packaging
+
+Packaging
+
+DistribuƟon
+
+Pure Postponement
+Purchasing
+Postponement
+
+Shipment to
+Order
+
+DistribuƟon
+
+DistribuƟon
+
+DistribuƟon
+
+DistribuƟon
+
+DistribuƟon
+
+DistribuƟon
+
+Manufacturing
+Postponement
+Assembly
+Postponement
+Packaging
+Postponement
+LogisƟcs
+Postponement
+Pure SpeculaƟon
+StandardisaƟon
+(CentralisaƟon)
+
+Mass CustomisaƟon
+(InternaƟonal Supply Chain)
+
+PersonalisaƟon
+(DecentralisaƟon)
+
+Fig. 10 Postponement strategies for different supply chain structures and logistics (adapted from [81])
+
+Moreover, the management of logistics is a process
+inherently based on communication and collaboration.
+Developments of either function-speciﬁc or all-in-one ICT
+solutions targeted on logistics are analysed in [6, 82]. Tools
+for warehouse and transportation management, ERP, supply chain management (SCM), and information sharing are
+reported under the umbrella of e-logistics. The concept of
+virtual logistics is also proposed for separating the physical
+and digital aspects of logistics operations [83], having
+Internet as an enabling means to handle ownership and
+control of resources.
+3.6 Supply chain control
+The information transferred from one supply chain tier to the
+next in the form of orders is often distorted, a phenomenon
+known as the bullwhip effect. In particular, when customer
+demand is volatile such as the case is in MP, the bullwhip
+effect misguides upstream members of the supply chain in
+their inventory and production decisions [84]. Nevertheless,
+the performance of the supply chain is highly sensitive to the
+control laws used for its operation. The application of the
+wrong control policy may have as a result the ampliﬁcation
+of variance instead on its minimisation. Dynamic modelling
+approaches have been proposed to manage supply chains,
+accounting for the ﬂow of information and material, to
+capture the system dynamics [85]. Multi-agent approaches
+for modelling supply chain dynamics are proposed in [86].
+Software components known as agents represent supply
+chain entities (supplier, dealers, etc.), their constituent control elements (e.g. inventory policy), and their interaction
+protocols (e.g. message types). The agent framework utilises
+
+123
+
+a library of supply chain modelling components that have
+derived after analysis of several diversiﬁed supply chains.
+For instance, a novel oscillator analogy in presented in [87]
+for modelling the manufacturing systems dynamics. The
+proposed analogy considers a single degree of freedom mass
+vibrator and a production system, where the oscillation
+model has as input forces, while the manufacturing system
+has demand as excitation. The purpose is to use this simple
+oscillator analogy to predict demand ﬂuctuations and take
+actions towards alignment.
+Another necessity in supply chain control is the traceability of goods. Traceability methods, essential for perishable products and high-value shipments, exploit the
+radio frequency identiﬁcation (RFID) technology during
+the last years [88, 89]. A traceability system that traces lots
+and activities is proposed by Bechini et al. [90]. The study
+examines the problem from a communication perspective,
+stressing the need to use neutral ﬁle formats and protocols
+such as XML (extended markup language) and SOAP
+(simple object access protocol) in such applications. The
+emerging technology of IoT can provide ubiquitous traceability solutions. Combining data collection methods based
+on wireless sensor network (WSN) with the IoT principles,
+the method proposed in [91] can support the traceability of
+goods in the food industry. In a similar concept, the role of
+an IoT infrastructure for order fulﬁlment in a collaborative
+warehousing environment is examined in [92]. The IoT
+infrastructure is based on RFID, ambient intelligence, and
+multi-agent system, and it integrates a bottom-up approach
+with decision support mechanisms such as self-organisation and negotiation protocols between agents based on a
+more complex as structures and less predictable in their
+dynamic behaviour than stable traditional supply chains.
+Recent complexity studies deal with the emerging aspects
+of increasing complexity of manufacturing activities and
+the dynamic nature of supply chains [93]. The importance
+of managing the complexity in supply chains is evident, as
+recent studies depict that lower manufacturing network
+complexity is associated with reduced costs and overall
+network performance [38, 94]. A complete and comprehensive review of complexity in engineering design and
+manufacturing is presented in [95–97].
+3.7 Simulation and ICT support systems
+for manufacturing networks life cycle
+Robust and ﬂexible ICT mechanisms are rendered necessary
+for improving performance in each of the previous life cycle
+aspects of supply chains and for bridging inter- and intraenterprise collaboration environments. Digital enterprise
+technologies in general represent an established, new synthesis of technologies and systems for product and process
+development and life cycle management on a global basis
+[98] that brings many beneﬁts to companies. For instance, the
+beneﬁts offered by the adoption of virtual engineering
+through the life cycle of production are shown in Fig. 11
+[99]. To manage the huge portfolio of products and variety,
+as well as tracking the expanding customer base, ERP and
+CRM suites are necessary tools. Additionally, cloud technology is already revolutionising core manufacturing
+aspects and provides ample beneﬁts for supply chain and
+manufacturing network life cycle. Cloud technology and the
+IoT are major ICT trends that will reshape the way enterprises function in the years to come [100, 101].
+
+Page 11 of 20 2
+
+and operation phases. A simulation-based method to model
+and optimise supply chain operations by taking into consideration their end-of-life operations is used to evaluate the
+capability of OEMs to achieve quantitative performance
+targets deﬁned by environmental impacts and life cycle
+costs [102]. A discrete event simulation model of a capacitated supply chain is developed and a procedure to
+dynamically adjust the replenishment parameters based on
+re-optimisation during different parts of the seasonal
+demand cycle is explained [103]. A model is implemented
+in the form of Internet-enabled software framework, offering a set of characteristics, including virtual organisation,
+scheduling, and monitoring, in order to support cooperation
+and ﬂexible planning and monitoring across extended
+manufacturing enterprise [58]. Furthermore, the evaluation
+of the performance of automotive manufacturing networks
+under highly diversiﬁed product demand is succeeded
+through discrete event simulation models in [55] with the
+use of multiple conﬂicting user-deﬁned criteria such as lead
+time, ﬁnal product cost, ﬂexibility, annual production volume, and environmental impact due to product transportation. Finally, the application of the mesoscopic simulation
+approach to a real-world supply chain example is illustrated
+utilising the MesoSim simulation software [104, 105].
+Existing simulation-based approaches do not tackle the
+numerous issues of manufacturing network design in a holistic
+integrated manner. The results of individual modules used for
+tackling network design sub-problems often contradict each
+other because they refer to not directly related manufacturing
+information and context (e.g. long-term strategic scheduling
+vs. short-term operational scheduling), while harmonising the
+context among these modules is challenging. This shortcoming hinders the applicability of tools to real manufacturing
+systems as it reduces the trustworthiness of results to the eyes
+of the planner among other reasons.
+
+3.8 Simulation for manufacturing network design
+3.9 Enterprise resource planning
+Literature on ICT-based systems for improving manufacturing networks is abundant and highlights the need for
+increased penetration of ICT systems in design, planning,
+
+Fig. 11 Increased efﬁciency
+through virtual engineering
+approaches (adapted from [99])
+
+An ERP system is a suite of integrated software applications used to manage transactions through company-wide
+
+ReducƟon in Time-toLoss Reduction
+by Virtual
+Engineering
+
+market
+Fewer to no physical
+prototypes
+ExaminaƟon of what-if
+scenarios
+Reusable, extensible
+and sharable designs
+
+procedures, and data sharing between and within functional
+areas [106]. Such ICT systems entail major investments
+and involve extensive efforts and organisational changes in
+companies that decide to employ them. ERP systems are
+becoming more and more prevalent throughout the international business world. Nowadays, in most production
+distribution companies, ERP systems are used to support
+production and distribution activities and they are designed
+to integrate and partially automate ﬁnancial, resource
+management, commercial, after-sale, manufacturing, and
+other business functions into one system around a database
+[107].
+A trend, especially in the mid-market, is to provide
+speciﬁc ERP modules as services. Such need generates the
+challenge for ERP system providers to offer mobile-capable ERP solutions. Another issue is the reporting and
+data analysis, which grows with the information needs of
+users. Research in big data analytics and business intelligence (BI) should become more tightly integrated with
+research and applications of ERP.
+3.10 Customer relationship management
+In Internet-based retailing, which is the preferred business
+model followed in MC, customer information management
+is a necessity. In particular, exploiting consumer data, such
+as purchase history, purchasing habits, and regional purchasing patterns, are the cornerstone of success for any
+company active in MC. In business-to-business and business-to-customer, CRM suites are thus indispensable.
+According to Strauss and Frost [108], CRM involves, as a
+ﬁrst step, research to gain insight so as to identify potential
+and current customers. In a second step, customer information is used to differentiate the customer base according
+to speciﬁc criteria. Finally, the third step involves customised offerings for those customers that are identiﬁed as
+‘‘superior’’ from the previous phase, enabling thus, the
+targeted offering of customised products. During the ﬁrst
+step of identiﬁcation of customers, market research and
+consumer behaviour models are used. In a second phase,
+for establishing differentiation techniques, data mining and
+KPIs assessment are used. Finally, for ﬁne-tuning customisation options, information such as price, variants,
+promotions, and regions are examined [109].
+As Internet becomes ubiquitous in business, CRM has
+been acknowledged as an enabler for better customisation
+since it offers management of the new market model less
+disruptively. Internet-enabled CRM tools also bring the
+customer closer to the enterprise and allow highly
+responsive customer-centred systems without signiﬁcant
+increase in costs [110]. e-CRM implementations have been
+assessed in the study [111]. Noticeably, most major CRM
+
+123
+
+Logist. Res. (2016) 9:2
+
+suite vendors have started providing cloud-based services,
+a business model that suits SMEs that cannot afford huge
+ICT investments. Based on the balanced scorecard method,
+the study in [112] assessed e-CRM performance using 42
+criteria in a number of companies. The results show that a
+successful CRM implementation is associated with tangible outcomes, such as improvements in ﬁnancial indicators,
+customer value, brand image, and innovation. Finally, the
+latest generation of CRM tools, referred to as social CRM,
+exploit social networking technology to harness information about customer insights and engagement.
+3.11 Cloud computing and manufacturing
+A comprehensive deﬁnition of cloud computing is provided
+by the National Institute of Standards and Technology: ‘‘a
+model for enabling ubiquitous, convenient, on-demand
+network access to a shared pool of conﬁgurable computing
+resources (e.g. networks, servers, storage, applications, and
+services) that can be rapidly provisioned and released with
+minimal management effort or service provider interaction’’ [113]. Several applications have been reported in
+recent years where a cloud infrastructure is used to host and
+expose services related to manufacturing, such as: machine
+availability monitoring [114], collaborative and adaptive
+process planning [115], online tool-path programming
+based on real-time machine monitoring [116], manufacturing collaboration and data integration based on the
+STEP standard [117], and collaborative design [118].
+The beneﬁts of cloud for improving manufacturing
+network performance are numerous (Table 1). Cloud can
+offer increased mobility and ubiquitous information to an
+enterprise since the solutions it offers are independent of
+device and location. Moreover, computational resources
+are virtualised, scalable, and available at the time of
+demand. Therefore, the intensive costs for deploying highperformance computing resources are avoided. In addition
+to that, purchasing the application using the model software
+as a service is advantageous for SMEs who cannot afford
+the huge investments that commercial software suites entail
+[119]. However, there are some considerations also
+(Table 1). A main challenge for the adoption of cloud in
+manufacturing is the lack of awareness on security issues.
+This major issue can be addressed using security concepts
+and inherently safe architectures, such as privately
+deployed clouds. The security concept must include
+availability of ICT systems, network security, software
+application security, data security, and ﬁnally operational
+security. Considerable funding is spent by the global
+security software market, in order to alleviate security
+issues. Recent reports show that the expenditure on cloud
+security is expected to rise 13-fold by 2018 [120, 121].
+
+Table 1 Beneﬁts and drawbacks of cloud technology for manufacturing
+Beneﬁts
+
+Drawbacks
+
+Increased mobility that allows decentralised and distributed
+SCM
+
+Lack of standardisation and protocols create hesitation in adoption of Cloud
+solutions
+
+Ubiquitous access to information context empowering decisionmaking
+
+Security and lack of awareness on security issues, especially in SMEs, that are
+part of supply chains/clusters
+
+Device and location independent offering context-sensitive
+visualisation of crucial data relevant to the mfg. network
+
+Privacy issues generate legal concerns, identity management, access control,
+and regulatory compliance
+
+Hidden complexity permits the diffusion of ICT solutions even
+to traditional, averted by disruptive solutions, sectors
+
+Dependence on the cloud provider (provider stops providing services, absence
+of contracts/regulation)
+
+Virtualised and scalable on-demand computational resources
+(problems of varied computational complexity)
+
+Loss of control over data (assuring smaller companies that their data are not
+visible by anyone in the supply chain, but the owner is challenging)
+
+Low cost for SMEs that cannot afford huge ICT investments and
+lack the know-how to maintain them
+
+entrenched ideas, manufacturing processes and models
+caused by the hesitation for the adoption of innovative
+technology. Finally, the lack of standardisation and regulation around cloud hinders its acceptance by the industry
+[122].
+
+4 Challenges for future manufacturing
+MC provides a set of enabling concepts and methods for
+providing the customer with products they desire and for
+organising production resources and networks to realise
+these products. However, on a practical strategic, tactical,
+and operational level, the tools for the realisation of MC
+are under development and reﬁnement and a number of
+issues related to the design of manufacturing networks and
+their management are still not tackled in a holistic integrated manner. Several particular challenges need to be
+addressed as described below. Possible solutions are also
+proposed in the context of supporting a more efﬁcient
+implementation of MC and personalisation.
+4.1 Challenges for the manufacturing network life
+cycle
+Regarding supplier selection, existing frameworks that
+handle both selection of suppliers, order allocation, and
+capacity planning are rare in the literature. Therefore,
+inconsistencies between the design phase and the actual
+implementation of the supply chain are a common issue.
+The problem most commonly treated jointly with supplier
+selection is the order allocation problem, as reported in the
+works of [123–125] among other. Moreover, several studies point out the difﬁculties of coordination between large
+networks of stakeholders. Potential solutions in novel
+approaches to tackling the issues generated in supply chain
+coordination for the procurement of customised products
+
+are proposed, such as in [126], where organisation ﬂatness
+is proposed as a mediator for enhancing MC capability.
+Flatness in cross-plant and cross-functional organisation
+alleviate the need to decisions to pass through multiple
+layers of executives, simplifying coordination and information sharing [127]. Among the several challenges for
+conﬁguring robust manufacturing networks to satisfy MC
+are the need for frameworks that handle the entire order
+fulﬁlment life cycle (from product design to delivery),
+methods to allow easy modelling and experimentation of
+what-if scenarios and deeper examination of the impact of
+product variety on the performance of manufacturing networks. On the ﬁeld of SCM, identifying the beneﬁts of
+collaboration is still a big challenge for many. The deﬁnition of variables, such as the optimum number of partners, investment in collaboration, and duration of
+partnership, are some of the barriers of healthy collaborative arrangements that should be surpassed [128]. Available solutions for lot sizing are following traditional
+approaches and are not able to address the increasing
+complexity of problems arising in the modern manufacturing network landscape. The economic order quantity
+(EOQ), established for more than 100 years, still forms the
+basis of recent lot sizing practices. In setups of complex
+and changeable products, the problem of lot sizing
+becomes extremely complex. Nevertheless, the optimality
+of inventory and capacity planning is often neglected due
+to increased complexity of the supply chain problems
+which comes with higher priority. For instance, in multiagent manufacturing systems, each agent resolves inventory issues in its domain partition level, without clear
+global optimisation overview [37]. Furthermore, the
+broader role of logistics capabilities in achieving supply
+chain agility has not been addressed from a holistic conceptual perspective [129]. Therefore, an open research
+question is the relationship between logistics capabilities
+and supply chain agility. Regarding ERP suites, apart from
+
+implementation costs and disruptions caused in production
+[130]. One reason for the low success rates in ERP
+implementations is attributed to the organisation changes
+needed for the industry that disrupt normal ﬂow of business. Another reason is that production planning, a core
+function handled by currently deployed closed-loop MRPII
+(manufacturing resource planning) and ERP suites, is performed through the fundamental MRP (material requirements planning) logic [1, 131]. This leads to the generation
+of low-detail shop-ﬂoor schedules, assuming inﬁnite production capacity and constant time components, thus
+leading to inﬂated lead times [132]. Challenges on the
+technological level of ERP systems include delivery of
+software as a service, mobile technology, tightly integrated
+business intelligence, and big data analytics [133, 134].
+Challenges in the ﬁeld of product data management (PDM)
+are related to the efﬁciency of these systems with regard to
+studying factors that affect the accessibility of product
+data, for instance, the nature of data in different timeframes
+of a development, the relationship between the maturity of
+the data, and the probability of them being modiﬁed [135].
+The deployment and tight integration of product life cycle
+management (PLM) tools must also be considered since
+they bring an abundance of beneﬁts against current manufacturing challenges. Yet these beneﬁts are still not
+appreciated by many industrial sectors, mainly due to the
+following reasons: (1) they are complex as a concept and
+understanding their practical application is difﬁcult, (2)
+they lack a holistic approach regarding the product life
+cycle and its underlying production life cycle and processes, and (3) the gap between research and industrial
+implementation is discouraging [136]. Concerning CRM,
+although data rich markets can exploit the feedback of
+consumers through social networks to identify user polarity
+towards a product–service, improve its design, and reﬁne a
+product service system (PSS) offering, only few initiatives
+have tapped that potential.
+Further challenges that are related indirectly to the
+previous aspects are discussed hereafter. Concerning individual disparate software modules, it is often observed that
+they contradict each other because they refer to not directly
+related manufacturing information and context. The harmonisation, both on an input/output level and to the actual
+contents of information, is often a mistreated issue that
+hinders the applicability of tools to real-life manufacturing
+systems. Limitations of current computer-aided design
+(CAD) tools include: the complexity of menu items or
+commands, restricted active and interactive assistance
+during design, and inadequate human–computer interface
+design (focused on functionality) [137]. To fulﬁl the needs
+of modern manufacturing processes, computer-aided
+
+123
+
+Logist. Res. (2016) 9:2
+
+process planning should be responsive and adaptive to the
+alterations in the production capacity and functionality.
+Nowadays, conventional computer-aided process planning
+(CAPP) systems are incapable of adjusting to dynamic
+operations, and a process plan, created in advance, is found
+improper or unusable to speciﬁc resources [138]. Highlighted challenges for life cycle assessment (LCA) are
+modularisation and standardisation of environmental proﬁles for machine tools, as well as modelling of ‘‘hidden
+ﬂows’’ and their incorporation in value stream mapping
+tools [139, 140]. Regarding knowledge management and
+modelling, reusable agent-oriented knowledge management frameworks, including the description of agent roles,
+interaction forms, and knowledge description, are missing
+[141]. Moreover, ontologies used for knowledge representation have practical limitations. In case an ontology is
+abstract, its applicability and problem-solving potential
+may be diminished. On the other hand, in the case of very
+speciﬁc ontologies, reasoning and knowledge inference
+capacities are constrained [142]. Furthermore, in the turbulent manufacturing environment, a key issue of modern
+manufacturing execution systems is that they cannot plan
+ahead of time. This phenomenon is named decision myopia
+and causes undoubtedly signiﬁcant malfunctions in manufacturing [143]. In the ﬁeld of layout design and material
+simulation, some commercial software can represent
+decoupling data from 3D model and export them in XML
+or HTML format. While this is an export of properties, it
+cannot fully solve the interoperability and extensibility
+issues since the interoperability depends on how the different software and users deﬁne contents of data models
+[144]. Concerning material ﬂow simulation, it can be very
+time-consuming to build and verify large models with
+standard commercial-off-the-shelf software. Efﬁcient simulation model generation will allow the user to simplify
+and accelerate the process of producing correct and credible simulation models [145]. Finally, while the steady
+decline in computational cost renders the use of simulation
+very cost-efﬁcient in terms of hardware requirements,
+commercial simulation software has not kept up with
+hardware improvements.
+4.2 Solutions for addressing the challenges
+in the future manufacturing landscape
+A view of the manufacturing system of the near future that
+incorporates the latest trends in research and ICT developments and can better support MC is shown in Fig. 12. It
+is envisioned that, fuelled by disruptive technologies such
+as the IoT and cloud technology, entities within supply
+chains will exchange information seamlessly, collaborate
+more efﬁciently, and share crucial data in real time. Data
+
+Strategic
+level
+
+Supply
+chain
+
+Cloud
+
+•
+
+Smart Grid
+
+•
+
+Internet of Things
+
+Smart Buildings
+
+•
+
+TacƟcal
+level
+
+Smart Factory
+
+OperaƟonal
+level
+
+Physical domain
+WSN
+
+Knowledge
+Capture
+
+Cloud
+
+Data exchange
+
+Cloud
+
+WSN
+Scalability in the
+provided services
+
+Cloud
+
+Cyber-physical aggregaƟon
+
+Pillar I - Product-Service
+Design Assessment
+Cyber domain
+Pillar II - Decision-Making
+Engines
+
+InformaƟon Management Layer
+
+Pillar III – ExecuƟon and
+Control
+Design and Decision-making Pillars
+
+IntegraƟon / Interfacing
+
+Legacy
+InformaƟon
+Management
+Systems
+
+PDM/PLM system
+MPM system
+ERP system
+CRM system
+
+•
+
+Internet of Things
+
+•
+
+Internet of Services
+
+•
+
+Internet of People
+
+•
+
+Business Web
+
+•
+
+Experience
+Reuse
+
+Social Web
+
+Legacy
+Modelling,
+CAM / CAPP Planning and
+VisualisaƟon
+Digital Factory
+Systems
+CAD tools
+
+Fig. 12 View of manufacturing in the near future
+
+supported by wireless sensor networks. The information
+will be available on demand and on different degrees of
+granularity empowered by big data analytics. Drilling
+down to speciﬁc machine performance and zooming out to
+supply chain overview will be practically feasible and
+meaningful. The distinction between the physical and the
+digital domains will become less clear. Besides, physical
+resources are already considered as services under the
+cloud manufacturing paradigm. A tighter coupling and
+synchronisation between the life cycles of product, production, resources, and supply chains will be necessary,
+while the distinction between cyber and physical domains
+will become hazier. A discussion on potential directions for
+adhering to this view of manufacturing is provided
+hereafter.
+New technologies and emerging needs render traditional
+SCM and manufacturing network design models obsolete.
+To support manufacturing network design, planning, and
+control, a framework that integrates, harmonises, processes, and synchronises the different steps and productrelated information is needed. The framework will be
+capable of supporting the decision-making procedure on all
+
+organisation levels in an integrated way, ranging from the
+overall management of the manufacturing network, down
+to the shop-ﬂoor scheduling fuelled by big data analytics,
+intuitive visualisation means, smart user interfaces, and
+IoT. An alignment and coordination between supply chain
+logistics and master production schedules with low-level
+shop-ﬂoor schedules is necessary for short-term horizons.
+The framework needs not be restricted on a particular
+manufacturing domain; since it is conceived by addressing
+universal industrial needs, its applicability to contemporary
+systems is domain-independent. The constituents of the
+framework are described hereafter.
+The system will be supported by automated modelbased decision-making methods that will identify optimum
+(or near-optimum) solutions to the sub-problems identiﬁed
+above, such as for the problem of the conﬁguration of
+manufacturing networks capable of serving personalised
+product–services. The method must consider the capabilities of the manufacturing network elements (suppliers of
+different tiers, machining plants, assembly plants, etc.) and
+will indicate solutions to the warehouse sizing problem, to
+the manufacturing plant allocation, and to the
+
+requires interfacing with discrete event simulation models
+of manufacturing networks and assessment of multiple
+conﬂicting and user-deﬁned performance indicators.
+The joint handling of order allocation, supplier selection, and capacity planning is necessary to alleviate
+inconsistencies between the supply chain design and
+implementation phases under a ﬂatness concept. The
+incorporation of the entire order fulﬁlment life cycle is
+additionally envisioned, enhanced with methods that allow
+easy modelling and experimentation on what-if scenarios.
+The relationship between logistics capabilities and supply
+chain agility can also be revealed through this holistic view
+of the constituents of the supply chain.
+Regarding SCM, collaboration concepts based on cloud
+computing and cloud manufacturing are a game changer.
+Through the sharing of both ICT as well as manufacturing
+resources, SMEs can unleash their innovation potential and
+thus compete more easily in the global market.
+Further to that, the measurement and management of the
+manufacturing network complexity should be considered as
+a core strategic decision together with classical objectives
+of cost, time, and quality. Handling a variety of market
+excitations and demand ﬂuctuations is the standard practice
+even today in many sectors, while this trend is only bound
+to intensify. In parallel, a risk assessment engine should
+correlate complexity results and leverage them into tangible risk indicators. Complexity can then be efﬁciently
+channelled through the designed network in the less risky
+and unpredictable manner.
+To address the increasing complexity of problems arising in the modern manufacturing network landscape, the lot
+sizing and material planning need to be tightly incorporated
+to the production planning system. The consideration of
+capacitated production constraints is needed in order to
+reﬂect realistic system attributes. A shared and distributed
+cloud-based inventory record will contain information
+related to MRP and ERP variables (e.g. projected on-hand
+quantities, scheduled order releases and receipts, changes
+due to stock receipts, stock withdrawals, wastes and scrap,
+corrections imposed by cycle counting, as well as static
+data that describe each item uniquely). This record should
+be pervasive and contain dataset groups relevant to intradepartmental variables, as well as datasets visible only to
+suppliers and relevant stakeholders, in order to increase the
+transparency of operations.
+The mistreated issues of deployment and tight integration of PLM, ERP, and CRM tools must also be tackled
+through interfacing of legacy software systems and databases for seamless data exchange and collaboration. Software as a service PLM, ERP, and CRM solutions available
+to be purchased per module will be the ideal ownership
+model since it allows greater degree of customisation of
+
+123
+
+Logist. Res. (2016) 9:2
+
+solutions, more focused ICT deployment efforts, and
+reduced acquisition costs. CAD/CAM, PDM, and MPM
+(manufacturing process management) systems and databases will be interfaced and interact with digital mock-ups
+of the factory and product–services solutions as well for
+synchronising the physical with the digital worlds. In
+addition, the knowledge capturing and exploitation is pivotal in the proposed framework. Product, process, and
+production information is acquired from production steps
+and is modelled and formalised in order to be exploited by
+a knowledge reuse mechanism that utilises semantic reasoning. This mechanism is comprised of an ontological
+model that is queried by the knowledge inference engine
+and allows the retrieval of knowledge and its utilisation in
+design and planning phases. The developments should also
+mediate the deeper examination of the impact of product
+variety on the performance of manufacturing networks.
+In parallel, there is an urgent need of standardisation and
+harmonisation of data representation for manufacturing
+information, for example: the product information (BoM,
+engineering-BoM and manufacturing-BoM [146]), the
+manufacturing processes (bill of processes—BoP) including the manufacturing facilities layout, the associated
+relations (bill of relations—BoR), and related services (Bill
+of Services—BoS) should be pursued through a shared data
+model. Moreover, the product complexity needs to be
+assessed based on functional product speciﬁcations using,
+for instance, design structure matrices (DSM) [147], which
+incorporate components (BoM), the required manufacturing and assembly processes (BoP) including sequences/plans, relationships (BoR), and the accompanying services
+(BoS). The complexity of the product in relation to the
+manufacturing network and service activities (impact on
+delivery time and cost, and effect on the overall reliability)
+will be quantiﬁed and will be incorporated in the decisionmaking process.
+Last but not least, it should be noted that the components
+of the proposed framework must be offered following a
+software as a service delivery method and not as a rigid allaround platform. The framework should act as a cloudbased hub of different solutions, offering web-based
+accessibility through a central ‘‘cockpit’’ and visualisation
+of results through common browser technology and handheld devices (tablets, smartphones, etc.).
+
+5 Conclusions
+The ability to customise a product/service is offered to
+consumers for many years now, while truly unique products will be requested in the near future by users around the
+globe [148] using the Internet as a means of integration in
+at dispersed sites, and the diverse cooperation in networks
+increase the complexity of production [149]. Agility,
+reconﬁgurability, and synchronisation from process up to
+supply chain levels are necessary in order for companies to
+respond effectively to the ever-changing market needs
+[150]. Driven by the ever-increasing need to reduce cost
+and delivery times, OEMs are called to efﬁciently overcome these issues by designing and operating sustainable
+and efﬁcient manufacturing networks.
+This work reviewed the existing literature related to the
+basic aspects of a manufacturing network life cycle within
+the MC landscape. The focus was to study existing practices and highlight the gaps in the current approaches
+related to these aspects of manufacturing network design,
+planning, and operation. Afterwards, the identiﬁcation of
+future directions of academic and industrial research is
+proposed. Departing from that, major drivers and enabling
+technologies are identiﬁed and concepts that can lead to a
+more sustainable implementation of MC are proposed.
+Summing up, the theoretical foundations of MC have
+been laid for many years now [150]. Still, there is an
+apparent gap between the theoretical and the actual application of MC, and bridging this gap is a challenging task
+that needs to be addressed. A safe conclusion reached is
+that the complexity generated in manufacturing activities
+due to the exploding product variety requires a systematic
+approach to be considered during the design, planning, and
+operating of the entire manufacturing system [5]. All in all,
+piecemeal digitalisation of manufacturing network is not a
+viable option; revisiting of the entire supply and manufacturing network life cycle is essential for sustainability.
+The pursuit for a smoother, more efﬁcient, more rewarding,
+and eco-friendly manufacturing is ongoing.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creative
+commons.org/licenses/by/4.0/), which permits unrestricted use,
+distribution, and reproduction in any medium, provided you give
+appropriate credit to the original author(s) and the source, provide a link
+to the Creative Commons license, and indicate if changes were made.
+
+150. Pine BJ (1992) Mass customisation: the new frontier in business

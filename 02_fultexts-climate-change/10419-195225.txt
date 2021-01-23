@@ -1,0 +1,2250 @@
+
+
+1 Introduction
+Recent years have seen increasing calls for evidence-based education policies. In
+fact, academic researchers have been on a quest for such policies for decades—at
+least since the publication of the Coleman Report on the equality of educational
+
+contributions economists have made in the area of evidence-based education
+policies. It also argues that this quest is incomplete, and identiﬁes substantial
+knowledge gaps, some of which are unlikely to be ﬁlled based on the current trends.
+Two notes on the focus of the paper are relevant. First, in keeping with this
+volume, the discussion emphasizes Latin America, although the evidence comes
+from, and the conclusions are meant to apply to, countries in other regions and with
+diverse income levels. Second, the focus is on assessing the skills that individuals
+gain in educational systems before they enter the labor market; less attention is
+placed on the performance of systems in terms of increasing enrollment. This
+focus—which Sect. 2 justiﬁes in more detail—is based on the fact that in Latin
+America, as in other developing regions, much greater strides have been made in
+increasing enrollment. In addition, the region performs at or above what its income
+levels might suggest in terms of enrollment, but lags in terms of measures of skills
+such as test scores.2
+The paper begins by setting out a conceptual framework that serves to organize
+past work and identify remaining gaps. It then considers the evidence, with ﬁve
+main conclusions:
+1.
+
+2.
+
+3.
+
+1
+
+Over the past two decades, much effort has gone into identifying the causal
+effects of school inputs. As Banerjee (2007) suggests, this trend reﬂects a
+substantial effort by economists to ‘‘get into the machine’’—that is, to study
+schools in detail and understand the educational production function. The
+growth in this type of research is a salutary trend, as in many countries the
+implementation of many if not most educational interventions still goes
+unevaluated. It follows that this type of research should be expanded, even if it
+means that some education economists must go further into the machine. For
+example, work on the effectiveness of different types of curricula—a topic far
+aﬁeld from most economists’ training—could not only be quite productive but
+also seem to be a logical extension of current work.
+That said, work that is primarily focused on identifying the causal effects of
+different inputs and interventions—particularly when it originates in small-scale
+experiments—is unlikely to produce a full road map for an evidence-based
+education policy. Speciﬁcally, the sometimes explicit promise of this work has
+been to generate a ranking of inputs and interventions in terms of costeffectiveness, with the rationale that such rankings will one day guide policy
+throughout the developing world (Dhaliwal et al. 2011). For reasons discussed
+below, however, such rankings are unlikely to be stable across or even within
+countries—they may vary with the setting and/or scale of implementation, for
+instance. This also suggests some caution in implementation.
+There has been less work on the effects of educational inputs during the
+preschool stage. The relative scarcity of such work may be a greater constraint
+See Rockoff (2009) for a review of systematic, if isolated, research efforts from the 1920s and 1930s.
+
+2
+
+There is consensus around this diagnosis. For a thorough review see Vegas and Petrow (2008). See also
+
+Page 3 of 30 12
+
+to sound policy recommendations than at ﬁrst appears. For example, if
+educational investments made early in life affect the productivity of
+investments made later (Cunha and Heckman 2007)—and this remains to be
+fully shown—then an evidence-based educational policy will look more
+complicated. In other words, it will have to take into account that part of the
+return to preschool educational investments that may come in the form of
+increasing the returns to educational investments during a later period (e.g.,
+high school). In short, further work on the impact of preschool inputs is
+desirable and may also help to improve policy beyond the preschool sphere.
+There has been progress on understanding the effects of incentives within
+education. For example, there has been signiﬁcant work on the effects of
+introducing competition in school systems. In general, the effects of voucher
+and similar initiatives have not been nearly as robust or positive as most
+economists expected. That said, recent research suggests progress toward
+understanding how the design of policies introducing competition (e.g., school
+vouchers) might be improved. In short, while caution in implementation is
+desirable, further experimentation also seems warranted.
+There is relatively less work surrounding the effects of inputs provided by
+parents and students, both in terms of resources and effort. The key issue here is
+to what extent parental and student effort matter, and how their level responds
+to incentives. Parents are even harder for policymakers to control than school
+administrators or teachers, so understanding incentives is critical. For example,
+the return to skill in the labor market, or in admission to universities, may be
+crucial in terms of determining parents’ and students’ attitudes toward skill
+accumulation. The corollary is that the organization of the educational market,
+and its relation with the labor market, may involve a broad set of institutions
+that set up an educational system for either success or failure. If this is the case,
+then understanding these incentives may be essential not only to school system
+design but also to correctly exploiting all the knowledge gained from
+experimentation. In short, while education economists might want to invest
+energy ‘‘getting into the machine’’, they should not lose sight of the fact that
+broad institutions/incentives may matter (Acemoglu and Robinson 2012).
+
+The next section lays out a basic conceptual framework. Sections 3–6, then
+review research and derive the implications discussed above, and Sect. 7 puts forth
+conclusions.
+
+2 A focus on skills
+This section provides some brief background on why this paper focuses on interventions
+aimed at raising skills rather than interventions aimed at raising enrollment.
+Along an enrollment dimension, the educational systems of Latin American
+countries are not underperformers, at least in a relative sense. Enrollment rates in
+the region are relatively high when one controls for income levels. Figure 1
+rate
+120
+Peru
+
+100
+
+Mexico
+Barbados
+
+Bahamas
+
+80
+60
+40
+All countries
+Latin America
+
+20
+0
+0
+
+5,000 10,000 15,000 20,000 25,000 30,000 35,000 40,000 45,000 50,000
+GDP per capita (U.S. dollars PPP)
+
+Fig. 1 Primary enrollment and per capita income (PPP), 2005. Source: based on data from the UNESCO
+Institute for statistics, http://stats.uis.unesco.org. Accessed on 1 May 2015. PPP purchasing power parity
+
+rates for Latin American countries are at or above levels one would expect given
+incomes.
+Although the result is less stark, the same holds for secondary (Fig. 2) and preprimary (Fig. 3) enrollment rates.
+Further, enrollment rates have been improving over time, and many if not most
+countries in the region have devoted substantial resources to achieve further
+improvements via conditional cash transfer programs. These programs have been
+credibly shown to increase enrollment. In short, this dimension has seen
+improvements, is likely to see more, and has not suffered from a lack of fresh
+resources.
+The situation is quite different, however, in terms of skills, at least as measured
+by test scores. For instance, Fig. 4, drawn from Vegas and Petrow (2008), illustrates
+that in the 2003 Program for International Student Assessment (PISA) math test, not
+only was Latin American performance low, it was also lower given what a linear
+prediction based on GDP per capita would suggest.
+To provide a more qualitative sense of the situation, LLECE (2001) considered
+the percentage of public and private school children who attain different levels of
+reading readiness.3 Roughly, Level 1 refers to a basic literal understanding of
+texts—such as being able to identify the actors in a simple plot. Level 2 is the ability
+to not only understand a text but to express its basic elements in words different
+from those used in the original. Level 3 explores whether children can ‘‘ﬁll in the
+
+3
+
+rate
+120
+100
+Barbados
+80
+
+Bahamas
+Peru
+Mexico
+
+60
+40
+
+All countries
+Latin America
+
+20
+0
+0
+
+5,000 10,000 15,000 20,000 25,000 30,000 35,000 40,000 45,000 50,000
+GDP per capita (U.S. dollars PPP)
+
+Fig. 2 Secondary enrollment and per capita income (PPP), 2005. Source: based on data from the
+UNESCO Institute for statistics, http://stats.uis.unesco.org. PPP purchasing power parity
+
+Net enrollment
+rate
+120
+100
+Mexico
+Barbados
+
+80
+Argentina
+Peru
+
+60
+40
+
+All countries
+Latin America
+
+20
+0
+0
+
+5,000 10,000 15,000 20,000 25,000 30,000 35,000 40,000 45,000 50,000
+GDP per capita U.S. dollars PPP)
+
+Fig. 3 Pre-primary enrollment and per capita income (PPP), 2005. Source: based on data from the
+
+blanks’’ in a text regarding aspects such as assumptions and causation. The majority
+of 3rd and 4th graders in the region have attained proﬁciency at Level 1, although
+more than one in ten children are unable to meet this benchmark in all countries
+save Argentina, Brazil, and Chile. By Level 3, more than half of children fail to
+attend proﬁciency in all countries, except Argentina and Chile. Thus, by this
+objective standard, skills in Latin American are low.
+There is less of a sense of how test scores have evolved historically, as time series
+data on this dimension are harder to come by (although there is a clear upward trend
+in self-reported literacy). In international testing, the region has not made progress,
+with the recent exception of Chile. Beyond this, casual observation suggests that in
+many countries more fresh public resources have been devoted to expanding
+enrollment (e.g., conditional cash transfers have proliferated) than in serious
+undertakings to improve the production of skills. In short, by both relative and
+absolute measures, Latin American educational systems are producing low levels of
+skills. This problem—and the serious challenges that addressing it present—
+accounts for the fact that the remainder of this paper is devoted to this issue.
+
+3 Framework
+Suppose individuals accumulate skills over two periods, preschool and school.
+These can be thought of as corresponding roughly to ages 0-5 and 6-18, and we
+function of:
+•
+
+•
+•
+
+•
+
+•
+
+Their innate ability upon birth, denoted by a0. This is essentially a genetic draw,
+and as its subscript suggests, it is exogenous in terms of decisions made in
+periods 1 and 2.
+Their parents’ endowments, p0. For example, literate parents have an easier time
+teaching their children how to read.
+Their parents’ investments in each period, pt. These investments can take the
+form of activities (e.g., playing with a young child or helping a teenager with
+homework) or expenditure on material inputs (e.g., supplying nutrition or a
+home computer).
+The school-based investments they receive in each period, st. For example, in
+period 1 some children will attend a preschool. In period 2, most children will
+attend primary and perhaps secondary school. These investments may be funded
+by parents (e.g., if the family pays for private schooling) or provided via public
+subsidies (e.g., public schools or vouchers). Note that, like pt, st should be
+thought of as a vector that includes many components, ranging from
+infrastructure to effective teachers or curricular design.
+The individual effort, e2, that individuals exert during period 2. We assume that
+in period 1 children are not conscious of making an effort to learn—this is not
+essential—but that by primary or secondary school students realize that learning
+may require trade-offs such as doing homework instead of playing or working.
+More formally, skill at the end of period 1 is given by:
+h1 ¼ f1 ða0 ; p0 ; s1 ; p1 Þ:
+
+ð1Þ
+
+We will assume that all the arguments in Eq. (1)—except for a0 and p0—are
+endogenous in the sense that they may respond to the level of the others. For
+instance, parents may adjust the level of inputs they provide, p1, if the investment on
+the part of schools, s1, changes. For a speciﬁc example, if their child receives
+thorough reading instruction at school, parents might be less likely to provide it at
+home (Das et al. 2013; Pop-Eleches and Urquiola 2013; Fredriksson et al. 2014).
+Skill at the end of period 2 is given by:
+h2 ¼ f2 ðh1 ; a0 ; p0 ; s2 ; p2 ; e2 Þ:
+
+ð2Þ
+
+The presence of h1 reﬂects that skills acquired in the preschool period may affect
+the production of skills during primary or secondary school (Berlinski et al. 2008,
+2009). Cunha and Heckman (2007) refer to this as self-productivity. Further, Eq. (2)
+is a general expression and does not rule out that the level of any given argument
+affects the impact that others have on skill. For example, children who have attained
+a higher level of skill in the preschool period, h1, may be better positioned to beneﬁt
+from school inputs, s2, such as teacher instruction. These are dynamic complementarities, in the terminology of Carneiro and Heckman (2003) and Cunha and
+on returns, r, and the organization of the school system, o. For example, if parents
+perceive that the accumulation of skills has a high return—say in terms of their
+children eventually gaining admission into a selective university or securing highwage employment—they will be more willing to invest their time and money in
+schooling. Similarly, the organization of the education system may affect parents’
+investment choices. To illustrate, some European and African countries have school
+systems structured such that not all children are entitled to the transition from
+primary into academic secondary schools. Their entry, as the school and class to
+which they are assigned, is contingent on testing performance. Similarly, some
+countries (e.g., Brazil, Chile, and Turkey) rely largely on test-based admissions for
+higher education. Parents may be more willing to pay for tutoring in such settings.
+Assume also that at least some actors responsible for setting the level of school
+investments, st, also respond to returns, r, and the organization of the school system,
+o. For example, the effort teachers and administrators exert might not be
+independent of the incentives they have (Friedman 1955; McMillan 2005; Reback
+et al. 2014). Analogously, the organization of the school system itself might affect
+their decisions. For example, Duﬂo et al. (2011) show that different degrees of
+tracking may affect teachers’ effort or preferences. Finally, it can similarly be
+assumed that the effort students exert may be a function of returns and
+organization—that is, students also respond to incentives.
+
+4 School inputs
+The above discussion highlights that an evidence-based education policy requires
+knowing how skills are determined by many ingredients. To discuss the state of
+knowledge, we begin by looking at the set of ingredients—in the framework in
+Sect. 2—that has received the most attention: the impact of school inputs, s2. This
+will illustrate challenges that arise even when one restricts attention to a single
+argument of Eqs. (1) or (2).
+The interest in school inputs reﬂects the attention that economists give to
+productive efﬁciency. Speciﬁcally, a standard policy question is: are resources in the
+educational sector well allocated in terms of maximizing skills? This is a welldeﬁned question and its analysis can provide direct implications. Addressing it
+requires researchers to address three challenges:
+1.
+2.
+
+3.
+
+Obtaining data on school inputs and outcomes—in other words, measures of the
+different elements of st and of some aspect of ht (e.g., test scores).
+Ascertaining the causal effect of each element of st (i.e., estimating terms like
+qh2/qs2)—in other words, this effect is the change in skill (qh2) induced by the
+change in the amount of the school input (qs2), keeping all other factors
+constant.
+Obtaining information on the costs of each element of st (e.g., books or teacher
+on the result, reallocate budgets such that the ‘‘bang for the buck’’ is equalized
+across inputs.4 At the simplest level, this would provide an evidence-based
+education policy. The next three subsections review how researchers have tackled
+each of these three challenges in recent decades. The remaining subsections address
+complications and knowledge gaps.
+4.1 Data availability
+In its earliest stages, research on the impact of school inputs was held back by the
+ﬁrst challenge: data availability. There was little information on what inputs were
+offered to different schools and children, and there were few available standardized
+measures of skills. In the United States, this situation began to change noticeably
+after the Coleman Report (Coleman et al. 1966).
+Since then, efforts to compile data have intensiﬁed and today even most lowincome countries collect at least some data on school resources and student
+achievement. In addition, initiatives such as the PISA supply data that are
+comparable across countries.5 Nonetheless, the sustained collection of data on skills
+is one area where governments and multilateral agencies should remain vigilant.6
+4.2 Causality
+The second challenge to devising an evidence-based education policy—that related
+to ascertain the causal effects of each input—is methodologically more complex,
+and resources alone do not necessarily solve the problem. The basic problem is that
+unobserved characteristics might inﬂuence both the levels of st and ht that
+individuals display. For example, suppose one notices a signiﬁcant correlation
+between s2 and h2 (e.g., children in schools with low class sizes test well). If s2 is
+correlated with p2—for example, parents willing to spend on small classes might
+generally also be more motivated and willing to help with homework—it will be
+difﬁcult to determine if the better performance is due to the lower class sizes, as
+opposed to greater parental involvement. In the econometric terminology, it will be
+challenging to isolate or identify the causal effect of s2, qh2/qs2. If research cannot
+achieve such identiﬁcation, then no evidence-based policy on school inputs is
+feasible.
+It deserves explicit mention that this identiﬁcation problem is not typically solved
+by the use of statistical techniques such as multivariate regression, multi-level
+models, or propensity score matching.7 However sophisticated, such techniques can
+4
+
+See Levin and McEwan (2001) for a thorough discussion on cost-effectiveness analyses.
+
+5
+
+The PISA is focused on high-income countries. For greater coverage in Latin America, see UNESCO’s
+Latin American Laboratory for Assessment of the Quality of Education testing initiative.
+
+6
+
+Bolivia is one example where efforts are not always sustained. By the mid-1990s Bolivia had
+implemented achievement tests in a representative sample of primary schools, but those tests ceased in
+the mid-2000s.
+
+7
+
+As the saying goes, statistical techniques solve statistical problems, they do not solve identiﬁcation
+factors—such as parental motivation in the example above—to bias estimates.
+The early literature, while producing numerous papers, rarely dealt squarely with
+this fundamental identiﬁcation problem.8 Speciﬁcally, the 1980s and 1990s saw the
+publication of early meta-analyses and literature reviews (Hanushek 1986, 1995;
+Fuller and Clarke 1994) that sought to provide a guide for policy. Although there
+were debates (Hedges et al. 1994; Hanushek 1994) surrounding the validity of these
+reviews, criticism rarely focused on what was actually a central constraint to their
+usefulness: the quality of the available studies they reviewed in terms of isolating
+causal effects. As emphasized in subsequent reviews (Krueger 2003; Glewwe and
+Kremer 2006), inferences drawn from numerous biased estimates may of course still
+be biased.
+Since the early 1990s, research has made signiﬁcant progress in dealing with the
+challenge of causality. The two most common approaches used for this purpose
+have been randomized evaluations and regression discontinuity designs.9 Randomized control trials work by randomly assigning individuals or schools to treatment
+and control groups. The treatment group receives an educational input, st, while the
+control group does not. Random assignment generally ensures that the two groups
+are similar along all dimensions, including unobservable characteristics such as
+parental motivation. Because the only difference between the treatment and control
+group is that the former receives an input while the latter does not, then any
+difference in their outcomes can be attributed to this input.10
+The regression discontinuity design aims for an analogous result. In this case, the
+treatment is not randomly assigned but rather depends on a ‘‘running variable’’. For
+example, schools with average student incomes below a certain threshold might
+receive a school input—say, a school library—whereas schools with incomes above
+this threshold do not. The intuition is that while wealthier schools on average are
+different from low-income schools, very close to the threshold that determines
+treatment, they should be similar. For example, if the threshold were the 50th
+percentile of income, then one might compare schools with income at the 49th
+percentile with those at the 50th percentile. By construction, these two groups of
+schools are very similar in terms of income. Under the assumption that they also are
+similar along dimensions including unobservable characteristics such as parental
+
+8
+
+However, there certainly were exceptions. For example, Rockoff (2009) reviews rigorous studies on
+class size from the 1920s and 1930s. Although this research was not always on a large scale or
+sophisticated by modern standards, it did aim to produce causal estimates.
+
+9
+
+The renewed emphasis on these techniques was part of a broader effort by applied economists, often
+working in areas related to labor and education, to produce causal evidence (Card and Krueger 1992;
+Meyer 2005; Angrist and Lavy 1999; Hoxby 2000; Kremer and Miguel 2004; Duﬂo 2001). Both
+randomization and regression discontinuity had been applied to education topics since much earlier in the
+20th century. Rockoff (2009) reviews work from the 1920s applying randomization to class size, and the
+regression discontinuity method dates to Thistlewaite and Campbell (1960), who analyzed the effect of
+scholarships.
+
+10
+
+input under study.11
+These approaches have permitted arguably causal estimates of the impact of
+numerous educational inputs, including:
+•
+•
+•
+
+•
+•
+•
+•
+•
+•
+
+Class size (Angrist and Lavy 1999; Krueger 1999; Urquiola 2006; Banerjee
+et al. 2007; Duﬂo et al. 2011; Fredriksson et al. 2012)
+Classroom libraries (Abeberese et al. 2012)
+Computers and computer-aided instruction (Linden 2008; Barrera and Linden
+2009; He et al. 2009; Cristia et al. 2012; Malamud and Pop-Eleches 2011; Mo
+et al. 2012)
+Flashcards (He et al. 2009)
+Flipcharts (Glewwe et al. 2004)
+Lump-sum grants to schools (Pradhan et al. 2013; Das et al. 2013; Blimpo et al.
+2011)
+Textbooks (Glewwe et al. 2004; Jamison et al. 1981)
+Tutoring or remedial instruction (Banerjee et al. 2007; Chay et al. 2005)
+Tutoring software (Linden 2008).
+
+The above list is not meant to be exhaustive. For example, Glewwe (2002)
+provides more detail and McEwan (2013) presents an update on randomized
+evaluations and features a meta-analysis.12 In particular, McEwan (2013) classiﬁes
+interventions that have been evaluated via randomized control trials according to the
+magnitude of their impact on test scores. His summary covers not just school inputs
+but other types of interventions covered below. We include all of them in the
+following list for completeness, and then refer back to them:
+•
+•
+•
+
+Close to zero and statistically insigniﬁcant effects: monetary grants and
+deworming.
+Small mean effect sizes that are not always robust to controls: providing
+information to parents and improving school management and supervision.
+Larger effect sizes (in ascending order of estimated impact): instructional
+materials, computers or instructional technology, teacher training, smaller
+classes, smaller learning groups within classes, ability grouping (tracking),
+student and teacher performance incentives, and contract or volunteer teachers.
+
+4.3 Costs and cost-effectiveness
+A third challenge to devising an evidence-based policy in the case of school inputs
+is to have cost information that renders cost-effectiveness comparisons feasible.
+Intuitively, for every element in the vector st (e.g., class size), one asks what the
+11
+For more background see Imbens and Lemieux (2008) and Lee and Lemieux (2010). For discussions
+on complications see McCrary (2008) and Urquiola and Verhoogen (2009).
+12
+
+and resources reallocated across inputs until the ‘‘bang for the buck’’ is equalized
+across inputs. An example of this is provided by Banerjee et al. (2007), who show
+that while computer-assisted instruction improves learning twice as much as a
+remedial teacher, the latter is signiﬁcantly cheaper, and so is still a better
+investment.
+4.4 Bringing it all together
+The above discussion shows that the literature has made signiﬁcant progress in
+terms of producing information on the impact of school inputs. It is clearly desirable
+that such work continues and be expanded. In many countries, expensive school
+input initiatives are still implemented without evaluation. In some cases, these may
+have very small or even negative effects, and ﬁnding out as much is obviously
+useful.
+At the same time, the promise of this type of work has been to guide the choice of
+education inputs. In a salient example, Dhaliwal et al. (2011) consider a number of
+interventions that might increase enrollment. Thus, their emphasis is on enrollment
+rather than skills, but nonetheless a discussion of their paper is useful. Speciﬁcally,
+Dhaliwal et al. (2011) draw on the evaluations done by MIT’s Abdul Latif Jameel
+Poverty Action Lab, along with data on the costs of these interventions. They can
+thus present cost-beneﬁt comparisons that explicitly aim to guide the allocation of
+an educational budget—indeed; the publication is more along the lines of a policy
+brief than an academic paper. To cite one result, the authors suggest that
+expenditure on deworming is much more cost-effective than that on conditional
+cash transfers. This paper thus illustrates the thrust of much of the research on
+school inputs and, therefore, provides a useful setting in which to consider some of
+the challenges to this type of work.
+4.5 Remaining challenges
+4.5.1 External validity
+A ﬁrst, relatively well-understood challenge concerns external validity. Speciﬁcally,
+it might be that the impact of a given school input in one setting does not necessarily
+generalize well to other settings—initial conditions or institutional setups may
+matter. For example, deworming and conditional cash transfers are unlikely to have
+large effects on attainment in areas with low prevalence of worm infections or
+relatively high enrollment rates.
+A related challenge is that comparisons across different contexts will be more
+complicated for some educational outcomes. For example, even if a certain input is
+found to generate a 0.25 standard deviation gain in a certain test in a certain country,
+it is difﬁcult to determine what that would be equivalent to elsewhere. Tests are
+often administered at different levels in different countries, and there may be
+variation across settings regarding the impact of test score gains on, for example,
+challenging in terms of using existing research to construct an evidence-based
+policy for Latin America. The vast majority of experimentation has taken place in
+other settings, and in the extreme the literature may lead one to use parameters that
+do not apply well to the region.
+4.5.2 Behavioral responses and equilibrium effects13
+Pop-Eleches and Urquiola (2013) suggest a different complication in basing policy
+on cost-effectiveness comparisons.14 Speciﬁcally, they suggest that behavioral
+responses and equilibrium effects may render cost-effectiveness rankings such as
+those in Dhaliwal et al. (2011) unstable, even within a given country. The
+complication is that a ranking based on generally small-scale, short-lived
+experiments might not be an accurate guide to the ranking that would emerge if
+it was derived from interventions implemented on a large-scale and sustained basis.
+To illustrate this point, Pop-Eleches and Urquiola (2013) start from the
+observation that while families cannot completely control the inputs their children
+receive at school, s2, they can inﬂuence their level. For example, parents in Latin
+America often pay for private schools with smaller class sizes. Even parents who do
+not use private schools can endeavor to get their children enrolled at (often
+oversubscribed) publicly subsidized Catholic schools that might, for example, offer
+different teacher effectiveness than regular public schools. Let s*2 denote the level
+of school inputs that households target by such actions. Assume it is a function of
+endowments, returns, and levels of skill that children acquired in the preschool
+period:
+sÃ 2 ðh1 ; a0 ; p0 ; r; oÞ:
+
+ð3Þ
+
+Schools in turn make decisions on how to allocate resources to students. For
+example, they might have policies that assign smaller classes or less-experienced
+teachers to weaker students. Formally, suppose they also condition the inputs
+children receive on their preschool achievement and endowments, and on returns:
+s2 ðh1 ; a0 ; p0 ; r; oÞ:
+
+ð4Þ
+
+The deviation between the investments in children actually receives at school and
+the level their parents targeted for them is, therefore, s2 - s*2. As stated in Sect. 2,
+parents can react to what they observe in school in setting their own input levels. For
+instance, parents will know if their child made it into the nontuition-charging
+Catholic school they desired before they have to help with homework that school
+year. For period 2, parental inputs are, therefore, given by:
+
+13
+This section draws on Pop-Eleches and Urquiola (2013). The concepts discussed go back at least
+to the work of the Cowles Commission in the 1950s. See Heckman (2000) for further background.
+14
+
+Now note that experimental and regression discontinuity analyses try to ascertain
+the effect of exogenously changing one element of s2—say class size—while
+holding all other inputs constant. That is, they aim to estimate terms such as:
+oh2 =oðs2 À sÃ 2 Þ ¼ oh2 =os2 ¼ of2 =os2 :
+
+ð5Þ
+
+A ﬁrst point to note, as emphasized by Todd and Wolpin (2003), is that the ‘‘reduced
+form’’ effects estimated by experiments may more typically also reﬂect changes in
+inputs provided by other agents, such as parents. For example, they point out that
+while the Tennessee Student/Teacher Achievement Ratio (STAR) class size
+experiment may have manipulated class size exogenously, parents were free to
+adjust their own effort. Fredriksson et al. (2014) provide a concrete example of such
+reactions. For another example, Das et al. (2013) present evidence from Africa and
+India suggesting that parents respond to their children’s school receiving grants by
+reducing their own ﬁnancial contributions.
+The result is that experiments may actually reveal a ‘‘policy effect’’ that includes
+such parental responses:
+dh2 =dðs2 À sÃ 2 Þ ¼ dh2 =ds2 ¼ of2 =os2 þ of2 =op2 Â op2 =oðs2 À sÃ 2 Þ:
+
+ð6Þ
+
+In other words, the difference between this estimate and that in Eq. (5) is that this
+estimate also contains the indirect behavioral response coming from parents.
+From a policy perspective, this is still a useful estimate of the effect of providing
+a certain input. At the same time, it begins to raise some questions about conducting
+policy using experiments. For example, cost-beneﬁt calculations might require
+ascertaining the relative contributions of school and family inputs. In addition,
+although in the present framework the behavioral response by parents is
+instantaneous, in real-world situations it might take time for parents to notice and
+react to changes in school inputs.15 As a result, the estimated policy effect denoted
+in Eq. (6) could vary with the time at which achievement is measured.
+Pop-Eleches and Urquiola (2013) raise a further complication. Recall that s2 is a
+vector of different school investments. To make things explicit, suppose there are
+two inputs: sx2 and sy2. A randomized experiment might be able to vary one of these,
+while controlling the level of the other. In that case, the resulting impact will still
+resemble Eq. (6). For example, Duﬂo et al. (2011) manipulate the peer quality of the
+classes children have access to, say sx2, while at the same time constraining changes
+to other school inputs (e.g., teachers are randomly assigned to high- or lowachievement classes).
+Now suppose the increase in sx2 originates not in an experiment but from an
+extensive and sustained policy. In such cases not just parents but the school system
+will have a chance to react, and the total effect is:
+
+15
+For example, in Das et al. (2013) the response varies with parents’ information sets in a way that is
+intuitive. When the grants schools receive are unexpected, parents do not adjust their behavior; when they
+¼ of2 =osx 2 þ of2 =osy 2 Â osy 2 =osx 2
+þ of2 =op2 ðop2 =oðsx 2 À sÃx 2 Þ þ op2 =oðsy 2 À sÃy 2 ÞÞ;
+
+ð7Þ
+
+which differs from Eq. (6) in also including responses within the school system.
+Such responses, which Pop-Eleches and Urquiola refer to as ‘‘equilibrium
+effects’’, may only emerge once interventions are taken to scale and sustained for a
+period of time.16 For example, if tracking is sustained, more experienced teachers
+may sort toward the higher achievement classes, and their ability to do so may
+gradually become enshrined in norms or even union contracts.
+To summarize, Todd and Wolpin (2003) make a useful distinction between
+production function parameters (Eq. 3) and policy effects (Eq. 6). This raises some
+complications, but experiments can still provide at least rough guidance on both.
+Pop-Eleches and Urquiola (2013) further emphasize that policy effects might be
+different in situations where behavioral responses take time to unfold, or where
+these responses only appear when certain interventions reach a certain scale—
+Eq. (6) versus Eq. (7).
+This matters because behavioral responses and equilibrium effects may limit the
+ability of extensive experimentation to deliver evidence-based policy. The basic
+argument is that, essentially by design, experimental research deals with small-scale
+intervention. For example, the very fact that a control group must be constructed
+requires some constraint on the scale of implementation. Further, some agents such
+as parents or teachers may not be given time to react, or such reactions may be
+deliberately precluded to identify the causal effect of a school input. Exercises such
+as Dhaliwal et al. (2011) deliver a ranking of interventions under these conditions,
+but the ranking may change as interventions are taken to scale or sustained.
+4.5.3 Long-term effects
+A related challenge arises because the effects of different inputs—whether these
+arise from direct effects or from behavioral responses—may only be observed in the
+long run. In the case of class size, for example, the STAR experiment highlights a
+situation in which early effects on test scores faded out by higher grades, yet effects
+on college attendance emerge later in life (Schanzenbach 2007).
+
+5 Preschool inputs
+While evidence has increased substantially on the effect of inputs in K-12
+schooling—s2 in the framework of Sect. 2—there has been less work identifying the
+causal impact of inputs on preschool outcomes: the effect of s1 on h1. There is
+casual evidence that nutritional and other interventions during the preschool period
+can have a signiﬁcant impact on developing skills, both in developed countries
+16
+One could complicate Eq. (7) further and have sx and sy responding further to parental inputs. This is
+2
+2
+one reason these are labeled equilibrium effects. See, for example, the discussions in Banerjee and Duﬂo
+developing countries (Grantham-McGregor et al. 1994; Behrman et al. 2009;
+Attanasio et al. 2012). That said, there has been less work that focuses on speciﬁc
+inputs and mechanisms.
+As discussed in Sect. 2, further examination of the preschool period raises a host
+of issues in terms of designing policy. For example, it brings into focus the question
+of relative productivities—at what time does an intervention via, say, public
+provision of preschool inputs, best help disadvantaged children? For another
+example, Cunha and Heckman (2007) show that once one allows for skill levels to
+be the product of investments during multiple periods, the information one would
+ideally want to formulate policy grows signiﬁcantly. They point out that such
+considerations may help explain the higher productivity of investments in
+disadvantaged young children relative to productivity of investments in those same
+children when they are older. If at a later period of a child’s life the child’s skill
+level is low, the productivity of inputs directed toward raising those skills may also
+be lower.
+Thus, in addition to establishing the impact of inputs on the development of skills
+in preschool, exploring the existence and magnitude of complementarities is an
+important topic for research. If complementarities are small, then the precise period
+in which children receive investments (say period 1 or 2 in the framework in
+Sect. 2) is not crucial. But if they are large, then the period of investment is indeed
+important. This is a challenging avenue of research. For an interesting example,
+Aizer and Cunha (2012) present evidence on these issues while acknowledging the
+substantial challenges involving both data (human capital is rarely measured at
+multiple points in children’s life) and identiﬁcation (human capital investments by
+parents are endogenous).
+
+6 Parental inputs
+While it has long been recognized that the impact of parental inputs may be crucial
+to skill development—if only because parents have the most contact with children
+early on—there is much less well-identiﬁed evidence of the actual effect of those
+inputs. This reﬂects, among other factors, the fact that it is difﬁcult to
+experimentally manipulate parental activities. Nevertheless, there is work on how
+the home environment affects outcomes for school children (Carneiro et al. 2012).
+There are also emerging but salient examples of experimental work. For example,
+Attanasio et al. (2012, 2013) report on a randomized study in Colombia that changes
+children’s nutritional intake at home, and also tries to manipulate the way children’s
+parents relate to them. The intervention consists of two components: nutrition and
+stimulation. The nutritional component provides ‘‘sprinkles’’ that parents can
+dissolve into food and provide vitamins and minerals. The stimulation component
+consists of weekly sessions by a home visitor who shows a child’s mother different
+types of activities (e.g., songs, rhymes, and games with puzzles and toys) with
+which she can engage the child. The visitor encourages the mother to participate in
+sprinkles, for example, are inexpensive and easy to procure. The stimulation
+training for the mother is carried out by ‘‘lead mothers’’ (madres lideres) selected
+via Colombia’s ‘‘Families in Action’’ (Familias en Accion) Program, which is the
+country’s main conditional cash transfer mechanism. These women have community leadership roles in Families in Action but otherwise have received only the
+relatively brief training provided by the program. An academic paper is not yet
+available on this work, but preliminary results suggest that the stimulation
+component had signiﬁcant positive effects on a range of outcomes relevant to
+cognitive language and motor development, sociability, and inhibitory control.
+There is also little work on parental inputs at later educational stages, although,
+as reviewed above, some recent work explores how different types of parental
+participation respond to changes in the supply of school inputs. The bottom line is
+that better understanding of the supply and impact of parental inputs seems like a
+worthwhile focus for future research.
+
+7 Incentives17
+7.1 School choice and competition
+As the previous sections make clear, education economists have been interested in
+the effect of school inputs on educational achievement. The combination of these
+two concepts has naturally led parts of the research agenda to focus on the concept
+of school productivity. Hoxby (2002) provides a useful deﬁnition of productivity: a
+school that is more productive is one that produces higher achievement per dollar
+spent.
+One reason to focus on productivity is that many school systems have
+experienced declines in productivity, at least when measured with test scores as
+an outcome. For example, Hanushek (1996) describes such a productivity decline in
+US schools—greater expenditure with no test score improvement—and Pritchett
+(2003) suggests that this development is common among member of the
+Organization for Economic Cooperation and Development. Data restrictions make
+it harder to make analogous statements about developing countries, but the prima
+facie evidence is consistent with many of these countries also having increased real
+expenditures with at best small test score gains to show for it.
+An inﬂuential view in economics argues that the way to address this problem is to
+enhance the incentives and competition faced by schools—essentially by strengthening the incentives and rewards captured by in the framework in Sect. 2. Friedman
+(1962), for example, suggested that the State could subsidize schooling—perhaps
+based on equity or efﬁciency considerations—while leaving the actual production of
+schooling to the private sector, thereby strengthening incentives and accountability.
+This general view on how to improve public service delivery is shared by the World
+Bank (2004), which, while not necessarily advocating outright privatization of
+17
+
+the accountability observed in private markets.
+Another reason to explore the potential advantages of private schooling is
+because it is common in the developing world, although the reasons behind this
+depend on the context. In urban areas in Chile, for example, more than 50 % of
+children attend private schools. In such middle-income countries, private enrollment
+rates typically are high if private schools are eligible for signiﬁcant State subsidies.
+In contrast, low-income countries sometimes see increased private schooling with
+little State support, perhaps in response to a public supply that is barely functioning.
+For example, Andrabi et al. (2008) note that by the end of the 1990s, nearly all
+wealthy Pakistani children in urban areas, almost a third of wealthy rural children,
+and close to 10 % of children in the poorest deciles nationally, were studying in
+private schools. In another instance, Kremer and Muralidharan (2006) pointed out
+that about 25 % of children in rural India have access to fee-charging private
+schools. In settings like India and Pakistan, these are mainly for proﬁt schools that
+charge low tuition and operate at low cost by hiring young, single, untrained local
+women as teachers and paying them signiﬁcantly less than the certiﬁed teachers
+more common in public schools.
+The next section turns to the evidence on these issues from voucher programs.
+We follow Epple et al. (2015) in making a distinction between small and large
+voucher programs. They identify small programs as those that place signiﬁcant
+restrictions on who can receive vouchers. The most common restrictions involve
+income or geography—for instance, vouchers may be made available only to lowincome children in a given municipality within a country. By large programs, they
+mean those in which vouchers are distributed country-wide and with minimal
+restrictions on the type of children who can use them.
+A ﬁnal note before proceeding to the evidence is that this area of research—unlike
+those reviewed above—is one in which a disproportionate amount of work has been
+focused on Latin America. This reﬂects the fact that Chile and Colombia provide
+among the most salient examples of large and small voucher systems, respectively.
+7.2 Small programs
+The literature on small voucher programs most frequently asks if there is a
+signiﬁcant advantage in terms of the productivity of private schools. In general,
+there is no consistent evidence of such an advantage. For example, Barrow and
+Rouse (2009) conclude that the best research to date ﬁnds relatively small
+achievement gains for students offered vouchers, most of which are not statistically
+different from zero.18 The studies that lead to such conclusions are often based on
+experimental designs. For example, New York City conducted an experiment in
+18
+See also Neal (2009). This ﬁnding is consistent with a broader literature on the effects of attending a
+higher-achieving school or class on academic performance, even when these transfers occur within a
+given (public or private) sector. Here again several papers ﬁnd little or no effect (Cullen et al. 2005, 2006;
+Clark 2010; Duﬂo et al. 2011; Abdulkadiroglu et al. 2011; Dobbie and Fryer 2011). Some papers ﬁnd
+positive effects (Pop-Eleches and Urquiola 2013; Jackson 2010), but no uniform pattern emerges. The
+research suggests that winning a voucher to attend a private school had a modest and
+statistically insigniﬁcant impact on student learning, not just on average but across
+the distribution of preexisting ability (Mayer et al. 2002; Krueger and Zhu 2004;
+Bitler et al. 2013).19
+There is analogous research in Latin America.20 For example, Angrist et al.
+(2002, 2006) and Bettinger et al. (2008) look at Colombia. For context, from 1992 to
+1997, Colombia operated a secondary school voucher program, a central goal of
+which was to increase secondary (6th–11th grade) enrollment rates by using private
+sector participation to ease public sector capacity constraints that mostly affected
+the poor. As a result, the vouchers were targeted at entering 6th grade students who
+resided in low-income neighborhoods, attended public school, and were accepted at
+a participating private school.
+The initiative was implemented at the municipal level, with the national
+government covering about 80 % of its cost, and municipalities contributing the
+remainder. Resource constraints at both governmental levels resulted in excess
+demand in most jurisdictions. When this happened, the vouchers were generally
+allocated via lotteries.
+These lotteries make it feasible to estimate the causal effect of winning a voucher
+to attend private school. Angrist et al. (2002, 2006) and Bettinger et al. (2008) ﬁnd
+that, in general, lottery winners have better academic and nonacademic outcomes
+than lottery losers. This result holds both for achievement measured using
+administrative data, and for outcomes (such as performance on standardized exams)
+that the researchers themselves measured.
+It should be noted that in terms of identifying whether there is an advantage in
+private schools regarding test scores, the Colombian voucher experiment has a few
+problems. First, the vouchers were renewable contingent on grade completion, and
+thus the program included an incentive component—voucher winners faced a
+stronger reward for doing well at school. Therefore, it is difﬁcult to rule out that the
+superior test performance of lottery winners was due to external incentives rather
+than to their schools’ productivity in terms of testing. Second, both lottery winners
+and losers tended to enroll in private schools, particularly in larger cities. Focusing
+on Bogota and Cali, Angrist et al. (2002) point out that while about 94 % of lottery
+winners attended a private school in the ﬁrst year, so did 88 percent of the losers.
+This is not surprising to the extent that high private enrollment rate in secondary
+school was symptomatic of the very supply bottlenecks that the program was
+implemented to address. Since the reduced-form estimates in these papers are based
+19
+Mayer et al. (2002) and Krueger and Zhu (2004) ﬁnd positive effects for some subgroups, although the
+conclusion depends on how subgroups are deﬁned.
+20
+
+There is a large literature on private/public comparisons in developing countries that extends beyond
+the case of Colombia covered in this subsection. As is the case in the United States, papers meet with
+varying success in terms of establishing credible control groups. Some implement only cross-sectional
+analyses, while others look for explicit sources of exogenous variation. For a review on several countries,
+see Patrinos et al. (2009); for Latin America, see Somers et al. (2004); for Chile, see Bellei (2007) and
+McEwan et al. (2008); for India, see Kingdon (1996); for Indonesia, see Newhouse and Beegle (2006);
+‘‘private with incentives vs. private without incentives’’ effect, rather than the effect
+of private vs. public schooling that the literature typically addresses. Finally, the
+institutional setup implies that many voucher winners (who, again, would have used
+private school even if they did not win the lottery) used the vouchers to ‘‘upgrade’’
+to more expensive private schools. Thus, part of the effect of winning a lottery could
+reﬂect the access to greater resources, as opposed to a true test productivity
+difference.
+7.3 Large programs
+The studies discussed above can be described in economic terminology as taking a
+‘‘partial equilibrium’’ approach in the sense of looking at relatively small
+interventions—for instance, the distribution of vouchers to a small fraction of the
+population. This type of work essentially seeks to identify what would happen if one
+took a small number of children from public schools and transferred them to private
+schools.
+More generally, one would like to consider situations that explore the general
+equilibrium effects of school choice—settings that give an idea of the consequences
+of allowing a large number of private schools to enter the market, along with
+allowing parents to use any of them. This is relevant because the magnitude of a
+‘‘partial equilibrium’’ private advantage like that measured in Colombia may not be
+stable with respect to the private sector’s market share. For example, Hsieh and
+Urquiola (2006) and Bettinger et al. (2008) point out that if the private productivity
+advantage originates in positive peer effects, then the magnitude of this advantage
+may change with growth in the private sector. This in turn reﬂects the fact that the
+composition of students in the private and public sector is likely to change with
+private entry.
+A useful setting to ask such questions is Chile. Speciﬁcally, in 1981 Chile
+introduced a universal voucher scheme that resulted in a substantial increase in
+enrollment in private schools.21 By 2009, about 57 % of all students nationwide
+attended private schools, with voucher schools alone accounting for about 50 %.
+The latter group combined with a public share of 44 % means that about 94 % of all
+children attended effectively voucher-funded institutions.22
+The analytical virtue of this reform is that it provides an example of a large-scale
+introduction of competition; the main drawback is that the simultaneous nationwide
+implementation makes it difﬁcult to establish counterfactuals. As a result, most
+studies have adopted quasi-experimental methodologies. Hsieh and Urquiola (2006)
+apply a difference-in-differences approach to municipalities for the 1982–1996
+period. They ﬁnd that municipalities that experienced faster growth in private sector
+market share show distinct signs of increasing stratiﬁcation (with higher income
+students in the public sector moving to private schools), but do not have higher test
+scores or average years of schooling.
+21
+
+For further institutional details see McEwan and Carnoy (2000) and Urquiola and Verhoogen (2009).
+
+22
+
+of competition on productivity in the sense of Hoxby (2002). Many things were
+changing for Chilean schools during this period, including the distribution of
+students (and hence potential peer effects) and levels of funding.23 Taken at face
+value, however, these ﬁndings suggest that competition had a modest effect on
+average school productivity.24
+This research must also be considered along with aggregate trends. If there is a
+substantial private productivity advantage, then one would expect Chile’s relative
+performance on national and international tests to have improved over the years in
+which large numbers of children were transferred into the private sector.
+Furthermore, one would expect Chile to outperform other countries with similar
+levels of GDP per capita. However, neither of these expectations is supported by the
+data for at least the ﬁrst 25 years of the voucher program.
+As Epple et al. (2015) point out, Chile’s recent performance on international
+testing has been more favorable. This improvement has coincided with a further
+expansion in private schooling. But it also coincides with more growth in GDP per
+capita and educational expenditures, expansions in preschool enrollments, and
+reforms to rules governing university admission. Thus, it is difﬁcult to causally
+assign this recent improvement to the voucher program.
+To summarize, the evidence from developing countries suggests that large-scale
+expansion of the private school sector leads to stratiﬁcation,25 but there is less
+evidence that it leads to substantial gains in average school productivity. This is
+consistent with the lack of a systematic private school advantage referenced above,
+and additionally suggests that the introduction of competition may not by itself have
+a large impact on public school productivity.
+7.4 School choice: further challenges
+When it comes to improving school skills, school choice programs have proved
+somewhat disappointing—the evidence is mixed but clearly not sufﬁcient to consider
+this a silver bullet (Epple et al. 2015). Going forward two questions for research are:
+1.
+
+Why is it that the effects of school choice programs have proven smaller than
+economists might expect?
+
+23
+The value of the school voucher fell signiﬁcantly during the 1980s and grew substantially during the
+1990s.
+24
+Auguste and Valenzuela (2006) and Gallego (2006) analyze cross-sectional data, using instruments for
+the private market share. Auguste and Valenzuela use the distance to a nearby city, and Gallego uses the
+density of priests per diocese (with the reasoning that this lowered the costs of Catholic schools). The
+results from both papers differ from those of Hsieh and Urquiola (2006) in that both ﬁnd that private entry
+results in higher achievement, and concur (in the case of Auguste and Valenzuela—Gallego does not
+analyze the issue) in ﬁnding that it also leads to stratiﬁcation. Again, however, a key issue is the validity
+of the instrumental variables. It is possible, for example, that more motivated parents migrate toward
+cities in search of better schools, or that priests were allocated to communities in a manner correlated with
+characteristics (e.g., population density) that might affect educational achievement.
+25
+
+For other examples of school market liberalization leading to stratiﬁcation see Bjorklund et al. (2005)
+
+How can choice schemes be better designed in terms of generating skill
+improvements?
+
+Some recent theoretical and empirical studies attempt to make headway in this
+direction. At the heart of them is the notion that school choice can only be expected
+to deliver what parents want. In an interesting recent study, Muralidharan and
+Sundararaman (2013) address this issue while combining some elements of the
+partial and general equilibrium approaches described above. Speciﬁcally, the
+authors implement a project in which applicants for vouchers were ﬁrst recruited in
+a number of towns, with two lotteries carried out subsequently. First, some towns
+were selected for distribution of vouchers. Second, within the towns selected for
+treatment, some children were randomly selected to receive the vouchers. This
+allows Muralidharan and Sundararaman (2013) to go beyond the usual comparison
+(lottery-winning individuals versus lottery-losing ones) in most studies. As one
+example, by comparing nonapplicants in towns that did not receive vouchers to
+nonapplicants in towns that did, the authors can get a sense of negative effects on
+children ‘‘left behind’’ in the public sector. In the study, the authors do not ﬁnd
+much evidence of such externalities.
+Moving on to the results for the applicants, Muralidharan and Sundararaman
+found that after 4 years of treatment, lottery winners did not have higher test scores
+than losers in ﬁve of six subjects. Speciﬁcally, they found no effects in Telugu (the
+local language), Maths, English, Science, or Social Studies; in contrast, they did ﬁnd
+signiﬁcantly higher scores in Hindi. Two aspects are of note beyond these reducedform results. First, the results are generally consistent with a differential allocation
+of instruction time: private schools seem to spend more time teaching Hindi than
+other subjects; public schools essentially do not teach Hindi. Second, the results are
+consistent with a productivity advantage for private schools, since these schools
+have lower costs than the public schools the students transferred from.
+However, some questions remain. The ﬁrst is if the positive effects on Hindi are a
+school effect. The paper argues this is the case, but they could also be a peer effect.
+The private schools may offer greater exposure to the children of parents who value
+Hindi, perhaps because they are from other parts of India, or because they live in
+large cities, or because they speak it more at home. As a result, the voucher winners
+might learn more Hindi as a result of being exposed to such children rather than
+because the schools teach it. If the types of parents who use private schools are in
+ﬁxed supply (at least in the short or medium term), the partial versus the general
+equilibrium effects of choice could once again differ.
+A second issue is that the paper suggests that English as a medium of instruction
+disrupts learning, that parents may not realize this is the case, and that intervention
+may be warranted. But another possibility is that parents are aware of this but
+willing to make the sacriﬁce, if for example, English has high labor market returns.
+A broader point this illustrates is that choice is likely to produce more of what
+parents want, and those skills may or may not be the ones along the dimensions of
+what policymakers prefer. MacLeod and Urquiola (2012, 2015) address this issue
+theoretically, and suggest that the impact of school choice programs—and any
+their children go to for two reasons: (1) schools/colleges produce value added,
+enhancing human capital investment, and (2) schools/colleges serve as a signal of
+unobserved ability.
+MacLeod and Urquiola (2012, 2015) show that if this is the case, parents will
+want schools with good reputations, as expected. The key, however, is that schools’
+reputations depend not just on how good they are at teaching, but also on which
+other students are using them. In these situations, for example, rational parents will
+not always choose the high-value-added schools, and rational schools will not
+always choose to compete on value added. These implications are consistent, for
+example, with the well-identiﬁed empirical evidence that selective schools only
+sometimes produce higher learning and value added (Clark 2010; Abdulkadiroglu
+et al. 2011; Pop-Eleches and Urquiola 2013).
+MacLeod and Urquiola (2013) suggest, for example, that a design in which
+schools are forced to use lotteries in selecting students (as in Sweden’s voucher
+scheme or the US charter school system) may raise school productivity more than a
+design that allows private schools to easily turn away students, as does Chile’s
+system. These are system design questions that are not easily analyzed via
+experiments or quasi-experiments, but which may nonetheless be central to
+successfully raising the production of skills.
+7.5 Incentives for parents and students
+In a similar vein, it may be that skill accumulation crucially depends on how system
+design affects the incentives for student or parental effort. For example, it may be
+that unless students are willing to study and learn, no amount of school inputs or
+competition between schools will improve outputs (Bishop 2004). This raises the
+possibility that research should prioritize learning about terms like qh2/qs2 and qh2/
+qe2, and about how system design affects the incentives needed to encourage parents
+and students to supply effort.
+There is also experimental work in this area, through studies that provide rewards
+for students who perform well. The results are somewhat mixed. For example,
+Kremer et al. (2009) ﬁnd positive effects of such rewards, while Li et al. (2010) ﬁnd
+little effect in China (unless rewards are combined with other interventions). The
+mixed evidence in this area lines up with results from developed countries and other
+educational levels (Angrist et al. 2009).
+Rather than focusing on payments for test scores, MacLeod and Urquiola (2015)
+present a model emphasizing that incentives for parental and student effort may
+emerge from the link between educational and labor markets. There is emerging,
+well-identiﬁed empirical evidence consistent with this possibility. For example,
+Jensen (2010) ﬁnds that boys in the Dominican Republic are quite responsive to
+information on the returns to a high school education. A randomized intervention on
+this produced gains on the order of a quarter to a third of a year of schooling.
+Nguyen (2008) ﬁnds qualitatively similar results for Madagascar. A concern with
+these relatively early studies, however, is that the information provided may not
+been reacting to misleading information.
+In more recent work, Jensen (2012) and Oster and Millett (2011) present
+situations in which ‘‘real world’’ information on job opportunities affects student
+investment and behavior. For example, information on the availability of call center
+employment in India (which is open mainly to young women) affects the probability
+that girls remain in school.
+MacLeod and Urquiola (2013) similarly suggest that the organization of the
+school system may affect incentives and effort. For example, systems that generally
+emphasize meritocratic transitions between educational levels (e.g., middle to high
+school in Romania or high school to university in Chile or South Korea) may be
+better placed to extract effort and high human capital investment from students and
+parents. Again, recent research on the economics of education—by placing very
+high priority on identiﬁcation and micro-studies—may be paying insufﬁcient
+attention to these ‘‘big’’ design questions.
+7.6 Teacher incentives
+Another area where the impact of incentives has been explored concerns teacher
+behavior. Muralidharan and Sundararaman (2011) ﬁnd positive effects of teacher
+performance pay on student learning outcomes. Glewwe et al. (2010) ﬁnd analogous
+effects in Kenya, but the impact is focused on incentivized exams. This is similar to
+ﬁndings in the United States. Although not looking directly at the production of
+skills, Duﬂo et al. (2012) ﬁnd that monitoring in the form of pictures/time stamps
+improved teacher attendance.
+There has also been work on the use of contract teachers—instructors who are not
+hired into normal civil service positions and are generally paid substantially less. In
+his review of this work, McEwan (2013) points out that the effects here are
+generally positive. An analytical complication, however, is that the effects are often
+combined with other treatments such as class size reductions (Muralidharan and
+Sundararaman 2010; Duﬂo et al. 2011; Bold et al. 2013), which makes it difﬁcult to
+isolate the effect of contract teachers.
+Three notes are warranted regarding the applications of such ﬁndings to Latin
+America. First, although in many countries of the region contract teachers are rare,
+they are more common in some of the lower income areas where there are contract
+teachers (maestros interinos) who are sometimes hired locally by parent associations. Second, although absenteeism problems seem to be less severe in Latin
+America than in Africa or India, they are certainly not irrelevant, and so these
+interventions may have signiﬁcant returns. Third, this is also an area where the
+equilibrium effect may be quite relevant. For example, in the short run it may be
+possible to increase teachers’ attendance by monitoring them with cameras, or by
+having the ﬂexibility to substitute regular teachers with contract teachers. Over time
+such policies may have unintended effects. To illustrate, using cameras to force
+teachers to show up to work amounts to a reduction in real wages. A signiﬁcant
+proportion of teachers might have signed up for work in remote locations with the
+enforced beyond an experiment, higher nominal wages may be necessary to attract
+comparable teachers to remote locations.
+Finally, while this discussion has treated incentives for students and for teachers
+separately, recent work ﬁnds that there may be important interactions between them.
+Speciﬁcally, Behrman et al. (2015) consider an experiment that provided test-based
+incentives for: (1) students, (2) teachers, and (3) students, teachers, and school
+administrators. They ﬁnd that the third intervention produced the largest effects,
+while the second had no impacts. Exploring such interactions may be an important
+avenue for future research.
+
+8 Conclusion
+Producing an evidence-based policy outline for how educational systems might
+better produce and improve skills is not a simple task. Nevertheless, research has
+made substantial advances in this direction. In particular, the past decades have seen
+progress in terms of data availability and the credible estimation of the causal
+effects of given educational inputs.
+These results provide an initial impression of what an evidence-based policy might
+look like. For example, McEwan (2013) reviews a large number of experiments and
+concludes that the most promising interventions are found in instructional materials,
+computers or instructional technology, teacher training, smaller classes, smaller
+learning groups within classes, ability grouping, student and teacher incentives, and
+contract or volunteer teachers. In contrast, he ﬁnds less impact from monetary grants,
+deworming, providing information to parents, and improving school management and
+supervision. Dhaliwal et al. (2011) look at a different set of interventions, but go a step
+further by incorporating cost information and ranking alternatives based on costeffectiveness comparisons. The type of careful evaluation work these reviews are
+based on is desirable and should be sustained, if only because many relatively
+expensive input initiatives in Latin America are still designed and implemented
+without much reference to planning for evaluation.
+There is a need for analogous research on the impact of educational inputs at the
+preschool stage. Such work is less common, but may be quite important if part of
+the return to preschool investments comes in the form of a greater return to
+investments at later stages of a child’s life. In this case, properly quantifying the
+impact of preschool interventions may be quite valuable.
+Despite such progress, there are likely limits to the extent to which experimental
+and quasi-experimental evaluations—and reviews like those in Dhaliwal et al.
+(2011)—can guide policy. One key issue here is that the rankings that emerge may not
+be stable across or even within countries. For instance, they may vary with the setting
+and/or scale of implementation. This reﬂects issues related to external validity and
+equilibrium effects and suggests that caution in implementation is warranted.
+Further progress on understanding the effects of incentives would be valuable.
+For example, there has been signiﬁcant work on the effects of introducing
+The key challenge in this area is to understand what accounts for this
+disappointment, and what this implies regarding how programs might be better
+designed. The bottom line is that while the evidence is not sufﬁcient to warrant
+widespread adoption of such initiatives, it certainly points to the desirability of
+continued experimentation.
+Additional research on the impact and determinants of parental and student effort is
+also desirable. For example, the returns to skills in the labor market, or in admission to
+universities, may be crucial in terms of determining parents’ and students’ attitudes
+toward skill accumulation. A corollary is that the organization of the educational
+market, and its relation with the labor market, may involve a broad set of institutions
+that sets an educational system up for either success or failure. If this is the case, then
+understanding these incentives is not only desirable in and of itself, but may be
+important to correctly exploit all the knowledge gained from experimentation.
+Lat Am Econ Rev (2015) 24:12
+DOI 10.1007/s40503-015-0026-6
+EDUCATION
+
+Progress and challenges in achieving an evidence-based
+education policy in Latin America and the Caribbean
+Miguel Urquiola1
+
+Published online: 11 November 2015
+Ó The Author(s) 2015. This article is published with open access at Springerlink.com
+
+Abstract This paper reviews the progress economists have made towards
+achieving an evidence-based educational policy, and highlights challenges that
+remain. The ﬁve main ﬁndings are: (1) over the past two decades, much effort has
+gone into identifying the causal effects of school inputs; this work has produced
+results and should be expanded. (2) That said, particularly when it originates in
+small-scale experiments, such work is unlikely to produce a full road map for an
+evidence-based education policy. (3) There has been less work on the effects of
+educational inputs at the pre-school stage, and this may be a greater constraint to
+sound policy than at ﬁrst appears. (4) There has also been progress on understanding
+the effects of incentives within education. (5) There is relatively less work surrounding the effects of inputs provided by parents and students, both in terms of
+resources and effort.
+Keywords
+
+Education policy Á Developing countries
+
+JEL Classiﬁcation
+
+I2
+
+1 Introduction
+Recent years have seen increasing calls for evidence-based education policies. In
+fact, academic researchers have been on a quest for such policies for decades—at
+least since the publication of the Coleman Report on the equality of educational
+
+& Miguel Urquiola
+msu2101@columbia.edu
+1
+
+Columbia University and the National Bureau of Economic Research,
+contributions economists have made in the area of evidence-based education
+policies. It also argues that this quest is incomplete, and identiﬁes substantial
+knowledge gaps, some of which are unlikely to be ﬁlled based on the current trends.
+Two notes on the focus of the paper are relevant. First, in keeping with this
+volume, the discussion emphasizes Latin America, although the evidence comes
+from, and the conclusions are meant to apply to, countries in other regions and with
+diverse income levels. Second, the focus is on assessing the skills that individuals
+gain in educational systems before they enter the labor market; less attention is
+placed on the performance of systems in terms of increasing enrollment. This
+focus—which Sect. 2 justiﬁes in more detail—is based on the fact that in Latin
+America, as in other developing regions, much greater strides have been made in
+increasing enrollment. In addition, the region performs at or above what its income
+levels might suggest in terms of enrollment, but lags in terms of measures of skills
+such as test scores.2
+The paper begins by setting out a conceptual framework that serves to organize
+past work and identify remaining gaps. It then considers the evidence, with ﬁve
+main conclusions:
+1.
+
+2.
+
+3.
+
+1
+
+Over the past two decades, much effort has gone into identifying the causal
+effects of school inputs. As Banerjee (2007) suggests, this trend reﬂects a
+substantial effort by economists to ‘‘get into the machine’’—that is, to study
+schools in detail and understand the educational production function. The
+growth in this type of research is a salutary trend, as in many countries the
+implementation of many if not most educational interventions still goes
+unevaluated. It follows that this type of research should be expanded, even if it
+means that some education economists must go further into the machine. For
+example, work on the effectiveness of different types of curricula—a topic far
+aﬁeld from most economists’ training—could not only be quite productive but
+also seem to be a logical extension of current work.
+That said, work that is primarily focused on identifying the causal effects of
+different inputs and interventions—particularly when it originates in small-scale
+experiments—is unlikely to produce a full road map for an evidence-based
+education policy. Speciﬁcally, the sometimes explicit promise of this work has
+been to generate a ranking of inputs and interventions in terms of costeffectiveness, with the rationale that such rankings will one day guide policy
+throughout the developing world (Dhaliwal et al. 2011). For reasons discussed
+below, however, such rankings are unlikely to be stable across or even within
+countries—they may vary with the setting and/or scale of implementation, for
+instance. This also suggests some caution in implementation.
+There has been less work on the effects of educational inputs during the
+preschool stage. The relative scarcity of such work may be a greater constraint
+See Rockoff (2009) for a review of systematic, if isolated, research efforts from the 1920s and 1930s.
+
+2
+
+There is consensus around this diagnosis. For a thorough review see Vegas and Petrow (2008). See also
+
+Page 3 of 30 12
+
+to sound policy recommendations than at ﬁrst appears. For example, if
+educational investments made early in life affect the productivity of
+investments made later (Cunha and Heckman 2007)—and this remains to be
+fully shown—then an evidence-based educational policy will look more
+complicated. In other words, it will have to take into account that part of the
+return to preschool educational investments that may come in the form of
+increasing the returns to educational investments during a later period (e.g.,
+high school). In short, further work on the impact of preschool inputs is
+desirable and may also help to improve policy beyond the preschool sphere.
+There has been progress on understanding the effects of incentives within
+education. For example, there has been signiﬁcant work on the effects of
+introducing competition in school systems. In general, the effects of voucher
+and similar initiatives have not been nearly as robust or positive as most
+economists expected. That said, recent research suggests progress toward
+understanding how the design of policies introducing competition (e.g., school
+vouchers) might be improved. In short, while caution in implementation is
+desirable, further experimentation also seems warranted.
+There is relatively less work surrounding the effects of inputs provided by
+parents and students, both in terms of resources and effort. The key issue here is
+to what extent parental and student effort matter, and how their level responds
+to incentives. Parents are even harder for policymakers to control than school
+administrators or teachers, so understanding incentives is critical. For example,
+the return to skill in the labor market, or in admission to universities, may be
+crucial in terms of determining parents’ and students’ attitudes toward skill
+accumulation. The corollary is that the organization of the educational market,
+and its relation with the labor market, may involve a broad set of institutions
+that set up an educational system for either success or failure. If this is the case,
+then understanding these incentives may be essential not only to school system
+design but also to correctly exploiting all the knowledge gained from
+experimentation. In short, while education economists might want to invest
+energy ‘‘getting into the machine’’, they should not lose sight of the fact that
+broad institutions/incentives may matter (Acemoglu and Robinson 2012).
+
+The next section lays out a basic conceptual framework. Sections 3–6, then
+review research and derive the implications discussed above, and Sect. 7 puts forth
+conclusions.
+
+2 A focus on skills
+This section provides some brief background on why this paper focuses on interventions
+aimed at raising skills rather than interventions aimed at raising enrollment.
+Along an enrollment dimension, the educational systems of Latin American
+countries are not underperformers, at least in a relative sense. Enrollment rates in
+the region are relatively high when one controls for income levels. Figure 1
+rate
+120
+Peru
+
+100
+
+Mexico
+Barbados
+
+Bahamas
+
+80
+60
+40
+All countries
+Latin America
+
+20
+0
+0
+
+5,000 10,000 15,000 20,000 25,000 30,000 35,000 40,000 45,000 50,000
+GDP per capita (U.S. dollars PPP)
+
+Fig. 1 Primary enrollment and per capita income (PPP), 2005. Source: based on data from the UNESCO
+Institute for statistics, http://stats.uis.unesco.org. Accessed on 1 May 2015. PPP purchasing power parity
+
+rates for Latin American countries are at or above levels one would expect given
+incomes.
+Although the result is less stark, the same holds for secondary (Fig. 2) and preprimary (Fig. 3) enrollment rates.
+Further, enrollment rates have been improving over time, and many if not most
+countries in the region have devoted substantial resources to achieve further
+improvements via conditional cash transfer programs. These programs have been
+credibly shown to increase enrollment. In short, this dimension has seen
+improvements, is likely to see more, and has not suffered from a lack of fresh
+resources.
+The situation is quite different, however, in terms of skills, at least as measured
+by test scores. For instance, Fig. 4, drawn from Vegas and Petrow (2008), illustrates
+that in the 2003 Program for International Student Assessment (PISA) math test, not
+only was Latin American performance low, it was also lower given what a linear
+prediction based on GDP per capita would suggest.
+To provide a more qualitative sense of the situation, LLECE (2001) considered
+the percentage of public and private school children who attain different levels of
+reading readiness.3 Roughly, Level 1 refers to a basic literal understanding of
+texts—such as being able to identify the actors in a simple plot. Level 2 is the ability
+to not only understand a text but to express its basic elements in words different
+from those used in the original. Level 3 explores whether children can ‘‘ﬁll in the
+
+3
+
+rate
+120
+100
+Barbados
+80
+
+Bahamas
+Peru
+Mexico
+
+60
+40
+
+All countries
+Latin America
+
+20
+0
+0
+
+5,000 10,000 15,000 20,000 25,000 30,000 35,000 40,000 45,000 50,000
+GDP per capita (U.S. dollars PPP)
+
+Fig. 2 Secondary enrollment and per capita income (PPP), 2005. Source: based on data from the
+UNESCO Institute for statistics, http://stats.uis.unesco.org. PPP purchasing power parity
+
+Net enrollment
+rate
+120
+100
+Mexico
+Barbados
+
+80
+Argentina
+Peru
+
+60
+40
+
+All countries
+Latin America
+
+20
+0
+0
+
+5,000 10,000 15,000 20,000 25,000 30,000 35,000 40,000 45,000 50,000
+GDP per capita U.S. dollars PPP)
+
+Fig. 3 Pre-primary enrollment and per capita income (PPP), 2005. Source: based on data from the
+
+blanks’’ in a text regarding aspects such as assumptions and causation. The majority
+of 3rd and 4th graders in the region have attained proﬁciency at Level 1, although
+more than one in ten children are unable to meet this benchmark in all countries
+save Argentina, Brazil, and Chile. By Level 3, more than half of children fail to
+attend proﬁciency in all countries, except Argentina and Chile. Thus, by this
+objective standard, skills in Latin American are low.
+There is less of a sense of how test scores have evolved historically, as time series
+data on this dimension are harder to come by (although there is a clear upward trend
+in self-reported literacy). In international testing, the region has not made progress,
+with the recent exception of Chile. Beyond this, casual observation suggests that in
+many countries more fresh public resources have been devoted to expanding
+enrollment (e.g., conditional cash transfers have proliferated) than in serious
+undertakings to improve the production of skills. In short, by both relative and
+absolute measures, Latin American educational systems are producing low levels of
+skills. This problem—and the serious challenges that addressing it present—
+accounts for the fact that the remainder of this paper is devoted to this issue.
+
+3 Framework
+Suppose individuals accumulate skills over two periods, preschool and school.
+These can be thought of as corresponding roughly to ages 0-5 and 6-18, and we
+function of:
+•
+
+•
+•
+
+•
+
+•
+
+Their innate ability upon birth, denoted by a0. This is essentially a genetic draw,
+and as its subscript suggests, it is exogenous in terms of decisions made in
+periods 1 and 2.
+Their parents’ endowments, p0. For example, literate parents have an easier time
+teaching their children how to read.
+Their parents’ investments in each period, pt. These investments can take the
+form of activities (e.g., playing with a young child or helping a teenager with
+homework) or expenditure on material inputs (e.g., supplying nutrition or a
+home computer).
+The school-based investments they receive in each period, st. For example, in
+period 1 some children will attend a preschool. In period 2, most children will
+attend primary and perhaps secondary school. These investments may be funded
+by parents (e.g., if the family pays for private schooling) or provided via public
+subsidies (e.g., public schools or vouchers). Note that, like pt, st should be
+thought of as a vector that includes many components, ranging from
+infrastructure to effective teachers or curricular design.
+The individual effort, e2, that individuals exert during period 2. We assume that
+in period 1 children are not conscious of making an effort to learn—this is not
+essential—but that by primary or secondary school students realize that learning
+may require trade-offs such as doing homework instead of playing or working.
+More formally, skill at the end of period 1 is given by:
+h1 ¼ f1 ða0 ; p0 ; s1 ; p1 Þ:
+
+ð1Þ
+
+We will assume that all the arguments in Eq. (1)—except for a0 and p0—are
+endogenous in the sense that they may respond to the level of the others. For
+instance, parents may adjust the level of inputs they provide, p1, if the investment on
+the part of schools, s1, changes. For a speciﬁc example, if their child receives
+thorough reading instruction at school, parents might be less likely to provide it at
+home (Das et al. 2013; Pop-Eleches and Urquiola 2013; Fredriksson et al. 2014).
+Skill at the end of period 2 is given by:
+h2 ¼ f2 ðh1 ; a0 ; p0 ; s2 ; p2 ; e2 Þ:
+
+ð2Þ
+
+The presence of h1 reﬂects that skills acquired in the preschool period may affect
+the production of skills during primary or secondary school (Berlinski et al. 2008,
+2009). Cunha and Heckman (2007) refer to this as self-productivity. Further, Eq. (2)
+is a general expression and does not rule out that the level of any given argument
+affects the impact that others have on skill. For example, children who have attained
+a higher level of skill in the preschool period, h1, may be better positioned to beneﬁt
+from school inputs, s2, such as teacher instruction. These are dynamic complementarities, in the terminology of Carneiro and Heckman (2003) and Cunha and
+on returns, r, and the organization of the school system, o. For example, if parents
+perceive that the accumulation of skills has a high return—say in terms of their
+children eventually gaining admission into a selective university or securing highwage employment—they will be more willing to invest their time and money in
+schooling. Similarly, the organization of the education system may affect parents’
+investment choices. To illustrate, some European and African countries have school
+systems structured such that not all children are entitled to the transition from
+primary into academic secondary schools. Their entry, as the school and class to
+which they are assigned, is contingent on testing performance. Similarly, some
+countries (e.g., Brazil, Chile, and Turkey) rely largely on test-based admissions for
+higher education. Parents may be more willing to pay for tutoring in such settings.
+Assume also that at least some actors responsible for setting the level of school
+investments, st, also respond to returns, r, and the organization of the school system,
+o. For example, the effort teachers and administrators exert might not be
+independent of the incentives they have (Friedman 1955; McMillan 2005; Reback
+et al. 2014). Analogously, the organization of the school system itself might affect
+their decisions. For example, Duﬂo et al. (2011) show that different degrees of
+tracking may affect teachers’ effort or preferences. Finally, it can similarly be
+assumed that the effort students exert may be a function of returns and
+organization—that is, students also respond to incentives.
+
+4 School inputs
+The above discussion highlights that an evidence-based education policy requires
+knowing how skills are determined by many ingredients. To discuss the state of
+knowledge, we begin by looking at the set of ingredients—in the framework in
+Sect. 2—that has received the most attention: the impact of school inputs, s2. This
+will illustrate challenges that arise even when one restricts attention to a single
+argument of Eqs. (1) or (2).
+The interest in school inputs reﬂects the attention that economists give to
+productive efﬁciency. Speciﬁcally, a standard policy question is: are resources in the
+educational sector well allocated in terms of maximizing skills? This is a welldeﬁned question and its analysis can provide direct implications. Addressing it
+requires researchers to address three challenges:
+1.
+2.
+
+3.
+
+Obtaining data on school inputs and outcomes—in other words, measures of the
+different elements of st and of some aspect of ht (e.g., test scores).
+Ascertaining the causal effect of each element of st (i.e., estimating terms like
+qh2/qs2)—in other words, this effect is the change in skill (qh2) induced by the
+change in the amount of the school input (qs2), keeping all other factors
+constant.
+Obtaining information on the costs of each element of st (e.g., books or teacher
+on the result, reallocate budgets such that the ‘‘bang for the buck’’ is equalized
+across inputs.4 At the simplest level, this would provide an evidence-based
+education policy. The next three subsections review how researchers have tackled
+each of these three challenges in recent decades. The remaining subsections address
+complications and knowledge gaps.
+4.1 Data availability
+In its earliest stages, research on the impact of school inputs was held back by the
+ﬁrst challenge: data availability. There was little information on what inputs were
+offered to different schools and children, and there were few available standardized
+measures of skills. In the United States, this situation began to change noticeably
+after the Coleman Report (Coleman et al. 1966).
+Since then, efforts to compile data have intensiﬁed and today even most lowincome countries collect at least some data on school resources and student
+achievement. In addition, initiatives such as the PISA supply data that are
+comparable across countries.5 Nonetheless, the sustained collection of data on skills
+is one area where governments and multilateral agencies should remain vigilant.6
+4.2 Causality
+The second challenge to devising an evidence-based education policy—that related
+to ascertain the causal effects of each input—is methodologically more complex,
+and resources alone do not necessarily solve the problem. The basic problem is that
+unobserved characteristics might inﬂuence both the levels of st and ht that
+individuals display. For example, suppose one notices a signiﬁcant correlation
+between s2 and h2 (e.g., children in schools with low class sizes test well). If s2 is
+correlated with p2—for example, parents willing to spend on small classes might
+generally also be more motivated and willing to help with homework—it will be
+difﬁcult to determine if the better performance is due to the lower class sizes, as
+opposed to greater parental involvement. In the econometric terminology, it will be
+challenging to isolate or identify the causal effect of s2, qh2/qs2. If research cannot
+achieve such identiﬁcation, then no evidence-based policy on school inputs is
+feasible.
+It deserves explicit mention that this identiﬁcation problem is not typically solved
+by the use of statistical techniques such as multivariate regression, multi-level
+models, or propensity score matching.7 However sophisticated, such techniques can
+4
+
+See Levin and McEwan (2001) for a thorough discussion on cost-effectiveness analyses.
+
+5
+
+The PISA is focused on high-income countries. For greater coverage in Latin America, see UNESCO’s
+Latin American Laboratory for Assessment of the Quality of Education testing initiative.
+
+6
+
+Bolivia is one example where efforts are not always sustained. By the mid-1990s Bolivia had
+implemented achievement tests in a representative sample of primary schools, but those tests ceased in
+the mid-2000s.
+
+7
+
+As the saying goes, statistical techniques solve statistical problems, they do not solve identiﬁcation
+factors—such as parental motivation in the example above—to bias estimates.
+The early literature, while producing numerous papers, rarely dealt squarely with
+this fundamental identiﬁcation problem.8 Speciﬁcally, the 1980s and 1990s saw the
+publication of early meta-analyses and literature reviews (Hanushek 1986, 1995;
+Fuller and Clarke 1994) that sought to provide a guide for policy. Although there
+were debates (Hedges et al. 1994; Hanushek 1994) surrounding the validity of these
+reviews, criticism rarely focused on what was actually a central constraint to their
+usefulness: the quality of the available studies they reviewed in terms of isolating
+causal effects. As emphasized in subsequent reviews (Krueger 2003; Glewwe and
+Kremer 2006), inferences drawn from numerous biased estimates may of course still
+be biased.
+Since the early 1990s, research has made signiﬁcant progress in dealing with the
+challenge of causality. The two most common approaches used for this purpose
+have been randomized evaluations and regression discontinuity designs.9 Randomized control trials work by randomly assigning individuals or schools to treatment
+and control groups. The treatment group receives an educational input, st, while the
+control group does not. Random assignment generally ensures that the two groups
+are similar along all dimensions, including unobservable characteristics such as
+parental motivation. Because the only difference between the treatment and control
+group is that the former receives an input while the latter does not, then any
+difference in their outcomes can be attributed to this input.10
+The regression discontinuity design aims for an analogous result. In this case, the
+treatment is not randomly assigned but rather depends on a ‘‘running variable’’. For
+example, schools with average student incomes below a certain threshold might
+receive a school input—say, a school library—whereas schools with incomes above
+this threshold do not. The intuition is that while wealthier schools on average are
+different from low-income schools, very close to the threshold that determines
+treatment, they should be similar. For example, if the threshold were the 50th
+percentile of income, then one might compare schools with income at the 49th
+percentile with those at the 50th percentile. By construction, these two groups of
+schools are very similar in terms of income. Under the assumption that they also are
+similar along dimensions including unobservable characteristics such as parental
+
+8
+
+However, there certainly were exceptions. For example, Rockoff (2009) reviews rigorous studies on
+class size from the 1920s and 1930s. Although this research was not always on a large scale or
+sophisticated by modern standards, it did aim to produce causal estimates.
+
+9
+
+The renewed emphasis on these techniques was part of a broader effort by applied economists, often
+working in areas related to labor and education, to produce causal evidence (Card and Krueger 1992;
+Meyer 2005; Angrist and Lavy 1999; Hoxby 2000; Kremer and Miguel 2004; Duﬂo 2001). Both
+randomization and regression discontinuity had been applied to education topics since much earlier in the
+20th century. Rockoff (2009) reviews work from the 1920s applying randomization to class size, and the
+regression discontinuity method dates to Thistlewaite and Campbell (1960), who analyzed the effect of
+scholarships.
+
+10
+
+input under study.11
+These approaches have permitted arguably causal estimates of the impact of
+numerous educational inputs, including:
+•
+•
+•
+
+•
+•
+•
+•
+•
+•
+
+Class size (Angrist and Lavy 1999; Krueger 1999; Urquiola 2006; Banerjee
+et al. 2007; Duﬂo et al. 2011; Fredriksson et al. 2012)
+Classroom libraries (Abeberese et al. 2012)
+Computers and computer-aided instruction (Linden 2008; Barrera and Linden
+2009; He et al. 2009; Cristia et al. 2012; Malamud and Pop-Eleches 2011; Mo
+et al. 2012)
+Flashcards (He et al. 2009)
+Flipcharts (Glewwe et al. 2004)
+Lump-sum grants to schools (Pradhan et al. 2013; Das et al. 2013; Blimpo et al.
+2011)
+Textbooks (Glewwe et al. 2004; Jamison et al. 1981)
+Tutoring or remedial instruction (Banerjee et al. 2007; Chay et al. 2005)
+Tutoring software (Linden 2008).
+
+The above list is not meant to be exhaustive. For example, Glewwe (2002)
+provides more detail and McEwan (2013) presents an update on randomized
+evaluations and features a meta-analysis.12 In particular, McEwan (2013) classiﬁes
+interventions that have been evaluated via randomized control trials according to the
+magnitude of their impact on test scores. His summary covers not just school inputs
+but other types of interventions covered below. We include all of them in the
+following list for completeness, and then refer back to them:
+•
+•
+•
+
+Close to zero and statistically insigniﬁcant effects: monetary grants and
+deworming.
+Small mean effect sizes that are not always robust to controls: providing
+information to parents and improving school management and supervision.
+Larger effect sizes (in ascending order of estimated impact): instructional
+materials, computers or instructional technology, teacher training, smaller
+classes, smaller learning groups within classes, ability grouping (tracking),
+student and teacher performance incentives, and contract or volunteer teachers.
+
+4.3 Costs and cost-effectiveness
+A third challenge to devising an evidence-based policy in the case of school inputs
+is to have cost information that renders cost-effectiveness comparisons feasible.
+Intuitively, for every element in the vector st (e.g., class size), one asks what the
+11
+For more background see Imbens and Lemieux (2008) and Lee and Lemieux (2010). For discussions
+on complications see McCrary (2008) and Urquiola and Verhoogen (2009).
+12
+
+and resources reallocated across inputs until the ‘‘bang for the buck’’ is equalized
+across inputs. An example of this is provided by Banerjee et al. (2007), who show
+that while computer-assisted instruction improves learning twice as much as a
+remedial teacher, the latter is signiﬁcantly cheaper, and so is still a better
+investment.
+4.4 Bringing it all together
+The above discussion shows that the literature has made signiﬁcant progress in
+terms of producing information on the impact of school inputs. It is clearly desirable
+that such work continues and be expanded. In many countries, expensive school
+input initiatives are still implemented without evaluation. In some cases, these may
+have very small or even negative effects, and ﬁnding out as much is obviously
+useful.
+At the same time, the promise of this type of work has been to guide the choice of
+education inputs. In a salient example, Dhaliwal et al. (2011) consider a number of
+interventions that might increase enrollment. Thus, their emphasis is on enrollment
+rather than skills, but nonetheless a discussion of their paper is useful. Speciﬁcally,
+Dhaliwal et al. (2011) draw on the evaluations done by MIT’s Abdul Latif Jameel
+Poverty Action Lab, along with data on the costs of these interventions. They can
+thus present cost-beneﬁt comparisons that explicitly aim to guide the allocation of
+an educational budget—indeed; the publication is more along the lines of a policy
+brief than an academic paper. To cite one result, the authors suggest that
+expenditure on deworming is much more cost-effective than that on conditional
+cash transfers. This paper thus illustrates the thrust of much of the research on
+school inputs and, therefore, provides a useful setting in which to consider some of
+the challenges to this type of work.
+4.5 Remaining challenges
+4.5.1 External validity
+A ﬁrst, relatively well-understood challenge concerns external validity. Speciﬁcally,
+it might be that the impact of a given school input in one setting does not necessarily
+generalize well to other settings—initial conditions or institutional setups may
+matter. For example, deworming and conditional cash transfers are unlikely to have
+large effects on attainment in areas with low prevalence of worm infections or
+relatively high enrollment rates.
+A related challenge is that comparisons across different contexts will be more
+complicated for some educational outcomes. For example, even if a certain input is
+found to generate a 0.25 standard deviation gain in a certain test in a certain country,
+it is difﬁcult to determine what that would be equivalent to elsewhere. Tests are
+often administered at different levels in different countries, and there may be
+variation across settings regarding the impact of test score gains on, for example,
+challenging in terms of using existing research to construct an evidence-based
+policy for Latin America. The vast majority of experimentation has taken place in
+other settings, and in the extreme the literature may lead one to use parameters that
+do not apply well to the region.
+4.5.2 Behavioral responses and equilibrium effects13
+Pop-Eleches and Urquiola (2013) suggest a different complication in basing policy
+on cost-effectiveness comparisons.14 Speciﬁcally, they suggest that behavioral
+responses and equilibrium effects may render cost-effectiveness rankings such as
+those in Dhaliwal et al. (2011) unstable, even within a given country. The
+complication is that a ranking based on generally small-scale, short-lived
+experiments might not be an accurate guide to the ranking that would emerge if
+it was derived from interventions implemented on a large-scale and sustained basis.
+To illustrate this point, Pop-Eleches and Urquiola (2013) start from the
+observation that while families cannot completely control the inputs their children
+receive at school, s2, they can inﬂuence their level. For example, parents in Latin
+America often pay for private schools with smaller class sizes. Even parents who do
+not use private schools can endeavor to get their children enrolled at (often
+oversubscribed) publicly subsidized Catholic schools that might, for example, offer
+different teacher effectiveness than regular public schools. Let s*2 denote the level
+of school inputs that households target by such actions. Assume it is a function of
+endowments, returns, and levels of skill that children acquired in the preschool
+period:
+sÃ 2 ðh1 ; a0 ; p0 ; r; oÞ:
+
+ð3Þ
+
+Schools in turn make decisions on how to allocate resources to students. For
+example, they might have policies that assign smaller classes or less-experienced
+teachers to weaker students. Formally, suppose they also condition the inputs
+children receive on their preschool achievement and endowments, and on returns:
+s2 ðh1 ; a0 ; p0 ; r; oÞ:
+
+ð4Þ
+
+The deviation between the investments in children actually receives at school and
+the level their parents targeted for them is, therefore, s2 - s*2. As stated in Sect. 2,
+parents can react to what they observe in school in setting their own input levels. For
+instance, parents will know if their child made it into the nontuition-charging
+Catholic school they desired before they have to help with homework that school
+year. For period 2, parental inputs are, therefore, given by:
+
+13
+This section draws on Pop-Eleches and Urquiola (2013). The concepts discussed go back at least
+to the work of the Cowles Commission in the 1950s. See Heckman (2000) for further background.
+14
+
+Now note that experimental and regression discontinuity analyses try to ascertain
+the effect of exogenously changing one element of s2—say class size—while
+holding all other inputs constant. That is, they aim to estimate terms such as:
+oh2 =oðs2 À sÃ 2 Þ ¼ oh2 =os2 ¼ of2 =os2 :
+
+ð5Þ
+
+A ﬁrst point to note, as emphasized by Todd and Wolpin (2003), is that the ‘‘reduced
+form’’ effects estimated by experiments may more typically also reﬂect changes in
+inputs provided by other agents, such as parents. For example, they point out that
+while the Tennessee Student/Teacher Achievement Ratio (STAR) class size
+experiment may have manipulated class size exogenously, parents were free to
+adjust their own effort. Fredriksson et al. (2014) provide a concrete example of such
+reactions. For another example, Das et al. (2013) present evidence from Africa and
+India suggesting that parents respond to their children’s school receiving grants by
+reducing their own ﬁnancial contributions.
+The result is that experiments may actually reveal a ‘‘policy effect’’ that includes
+such parental responses:
+dh2 =dðs2 À sÃ 2 Þ ¼ dh2 =ds2 ¼ of2 =os2 þ of2 =op2 Â op2 =oðs2 À sÃ 2 Þ:
+
+ð6Þ
+
+In other words, the difference between this estimate and that in Eq. (5) is that this
+estimate also contains the indirect behavioral response coming from parents.
+From a policy perspective, this is still a useful estimate of the effect of providing
+a certain input. At the same time, it begins to raise some questions about conducting
+policy using experiments. For example, cost-beneﬁt calculations might require
+ascertaining the relative contributions of school and family inputs. In addition,
+although in the present framework the behavioral response by parents is
+instantaneous, in real-world situations it might take time for parents to notice and
+react to changes in school inputs.15 As a result, the estimated policy effect denoted
+in Eq. (6) could vary with the time at which achievement is measured.
+Pop-Eleches and Urquiola (2013) raise a further complication. Recall that s2 is a
+vector of different school investments. To make things explicit, suppose there are
+two inputs: sx2 and sy2. A randomized experiment might be able to vary one of these,
+while controlling the level of the other. In that case, the resulting impact will still
+resemble Eq. (6). For example, Duﬂo et al. (2011) manipulate the peer quality of the
+classes children have access to, say sx2, while at the same time constraining changes
+to other school inputs (e.g., teachers are randomly assigned to high- or lowachievement classes).
+Now suppose the increase in sx2 originates not in an experiment but from an
+extensive and sustained policy. In such cases not just parents but the school system
+will have a chance to react, and the total effect is:
+
+15
+For example, in Das et al. (2013) the response varies with parents’ information sets in a way that is
+intuitive. When the grants schools receive are unexpected, parents do not adjust their behavior; when they
+¼ of2 =osx 2 þ of2 =osy 2 Â osy 2 =osx 2
+þ of2 =op2 ðop2 =oðsx 2 À sÃx 2 Þ þ op2 =oðsy 2 À sÃy 2 ÞÞ;
+
+ð7Þ
+
+which differs from Eq. (6) in also including responses within the school system.
+Such responses, which Pop-Eleches and Urquiola refer to as ‘‘equilibrium
+effects’’, may only emerge once interventions are taken to scale and sustained for a
+period of time.16 For example, if tracking is sustained, more experienced teachers
+may sort toward the higher achievement classes, and their ability to do so may
+gradually become enshrined in norms or even union contracts.
+To summarize, Todd and Wolpin (2003) make a useful distinction between
+production function parameters (Eq. 3) and policy effects (Eq. 6). This raises some
+complications, but experiments can still provide at least rough guidance on both.
+Pop-Eleches and Urquiola (2013) further emphasize that policy effects might be
+different in situations where behavioral responses take time to unfold, or where
+these responses only appear when certain interventions reach a certain scale—
+Eq. (6) versus Eq. (7).
+This matters because behavioral responses and equilibrium effects may limit the
+ability of extensive experimentation to deliver evidence-based policy. The basic
+argument is that, essentially by design, experimental research deals with small-scale
+intervention. For example, the very fact that a control group must be constructed
+requires some constraint on the scale of implementation. Further, some agents such
+as parents or teachers may not be given time to react, or such reactions may be
+deliberately precluded to identify the causal effect of a school input. Exercises such
+as Dhaliwal et al. (2011) deliver a ranking of interventions under these conditions,
+but the ranking may change as interventions are taken to scale or sustained.
+4.5.3 Long-term effects
+A related challenge arises because the effects of different inputs—whether these
+arise from direct effects or from behavioral responses—may only be observed in the
+long run. In the case of class size, for example, the STAR experiment highlights a
+situation in which early effects on test scores faded out by higher grades, yet effects
+on college attendance emerge later in life (Schanzenbach 2007).
+
+5 Preschool inputs
+While evidence has increased substantially on the effect of inputs in K-12
+schooling—s2 in the framework of Sect. 2—there has been less work identifying the
+causal impact of inputs on preschool outcomes: the effect of s1 on h1. There is
+casual evidence that nutritional and other interventions during the preschool period
+can have a signiﬁcant impact on developing skills, both in developed countries
+16
+One could complicate Eq. (7) further and have sx and sy responding further to parental inputs. This is
+2
+2
+one reason these are labeled equilibrium effects. See, for example, the discussions in Banerjee and Duﬂo
+developing countries (Grantham-McGregor et al. 1994; Behrman et al. 2009;
+Attanasio et al. 2012). That said, there has been less work that focuses on speciﬁc
+inputs and mechanisms.
+As discussed in Sect. 2, further examination of the preschool period raises a host
+of issues in terms of designing policy. For example, it brings into focus the question
+of relative productivities—at what time does an intervention via, say, public
+provision of preschool inputs, best help disadvantaged children? For another
+example, Cunha and Heckman (2007) show that once one allows for skill levels to
+be the product of investments during multiple periods, the information one would
+ideally want to formulate policy grows signiﬁcantly. They point out that such
+considerations may help explain the higher productivity of investments in
+disadvantaged young children relative to productivity of investments in those same
+children when they are older. If at a later period of a child’s life the child’s skill
+level is low, the productivity of inputs directed toward raising those skills may also
+be lower.
+Thus, in addition to establishing the impact of inputs on the development of skills
+in preschool, exploring the existence and magnitude of complementarities is an
+important topic for research. If complementarities are small, then the precise period
+in which children receive investments (say period 1 or 2 in the framework in
+Sect. 2) is not crucial. But if they are large, then the period of investment is indeed
+important. This is a challenging avenue of research. For an interesting example,
+Aizer and Cunha (2012) present evidence on these issues while acknowledging the
+substantial challenges involving both data (human capital is rarely measured at
+multiple points in children’s life) and identiﬁcation (human capital investments by
+parents are endogenous).
+
+6 Parental inputs
+While it has long been recognized that the impact of parental inputs may be crucial
+to skill development—if only because parents have the most contact with children
+early on—there is much less well-identiﬁed evidence of the actual effect of those
+inputs. This reﬂects, among other factors, the fact that it is difﬁcult to
+experimentally manipulate parental activities. Nevertheless, there is work on how
+the home environment affects outcomes for school children (Carneiro et al. 2012).
+There are also emerging but salient examples of experimental work. For example,
+Attanasio et al. (2012, 2013) report on a randomized study in Colombia that changes
+children’s nutritional intake at home, and also tries to manipulate the way children’s
+parents relate to them. The intervention consists of two components: nutrition and
+stimulation. The nutritional component provides ‘‘sprinkles’’ that parents can
+dissolve into food and provide vitamins and minerals. The stimulation component
+consists of weekly sessions by a home visitor who shows a child’s mother different
+types of activities (e.g., songs, rhymes, and games with puzzles and toys) with
+which she can engage the child. The visitor encourages the mother to participate in
+sprinkles, for example, are inexpensive and easy to procure. The stimulation
+training for the mother is carried out by ‘‘lead mothers’’ (madres lideres) selected
+via Colombia’s ‘‘Families in Action’’ (Familias en Accion) Program, which is the
+country’s main conditional cash transfer mechanism. These women have community leadership roles in Families in Action but otherwise have received only the
+relatively brief training provided by the program. An academic paper is not yet
+available on this work, but preliminary results suggest that the stimulation
+component had signiﬁcant positive effects on a range of outcomes relevant to
+cognitive language and motor development, sociability, and inhibitory control.
+There is also little work on parental inputs at later educational stages, although,
+as reviewed above, some recent work explores how different types of parental
+participation respond to changes in the supply of school inputs. The bottom line is
+that better understanding of the supply and impact of parental inputs seems like a
+worthwhile focus for future research.
+
+7 Incentives17
+7.1 School choice and competition
+As the previous sections make clear, education economists have been interested in
+the effect of school inputs on educational achievement. The combination of these
+two concepts has naturally led parts of the research agenda to focus on the concept
+of school productivity. Hoxby (2002) provides a useful deﬁnition of productivity: a
+school that is more productive is one that produces higher achievement per dollar
+spent.
+One reason to focus on productivity is that many school systems have
+experienced declines in productivity, at least when measured with test scores as
+an outcome. For example, Hanushek (1996) describes such a productivity decline in
+US schools—greater expenditure with no test score improvement—and Pritchett
+(2003) suggests that this development is common among member of the
+Organization for Economic Cooperation and Development. Data restrictions make
+it harder to make analogous statements about developing countries, but the prima
+facie evidence is consistent with many of these countries also having increased real
+expenditures with at best small test score gains to show for it.
+An inﬂuential view in economics argues that the way to address this problem is to
+enhance the incentives and competition faced by schools—essentially by strengthening the incentives and rewards captured by in the framework in Sect. 2. Friedman
+(1962), for example, suggested that the State could subsidize schooling—perhaps
+based on equity or efﬁciency considerations—while leaving the actual production of
+schooling to the private sector, thereby strengthening incentives and accountability.
+This general view on how to improve public service delivery is shared by the World
+Bank (2004), which, while not necessarily advocating outright privatization of
+17
+
+the accountability observed in private markets.
+Another reason to explore the potential advantages of private schooling is
+because it is common in the developing world, although the reasons behind this
+depend on the context. In urban areas in Chile, for example, more than 50 % of
+children attend private schools. In such middle-income countries, private enrollment
+rates typically are high if private schools are eligible for signiﬁcant State subsidies.
+In contrast, low-income countries sometimes see increased private schooling with
+little State support, perhaps in response to a public supply that is barely functioning.
+For example, Andrabi et al. (2008) note that by the end of the 1990s, nearly all
+wealthy Pakistani children in urban areas, almost a third of wealthy rural children,
+and close to 10 % of children in the poorest deciles nationally, were studying in
+private schools. In another instance, Kremer and Muralidharan (2006) pointed out
+that about 25 % of children in rural India have access to fee-charging private
+schools. In settings like India and Pakistan, these are mainly for proﬁt schools that
+charge low tuition and operate at low cost by hiring young, single, untrained local
+women as teachers and paying them signiﬁcantly less than the certiﬁed teachers
+more common in public schools.
+The next section turns to the evidence on these issues from voucher programs.
+We follow Epple et al. (2015) in making a distinction between small and large
+voucher programs. They identify small programs as those that place signiﬁcant
+restrictions on who can receive vouchers. The most common restrictions involve
+income or geography—for instance, vouchers may be made available only to lowincome children in a given municipality within a country. By large programs, they
+mean those in which vouchers are distributed country-wide and with minimal
+restrictions on the type of children who can use them.
+A ﬁnal note before proceeding to the evidence is that this area of research—unlike
+those reviewed above—is one in which a disproportionate amount of work has been
+focused on Latin America. This reﬂects the fact that Chile and Colombia provide
+among the most salient examples of large and small voucher systems, respectively.
+7.2 Small programs
+The literature on small voucher programs most frequently asks if there is a
+signiﬁcant advantage in terms of the productivity of private schools. In general,
+there is no consistent evidence of such an advantage. For example, Barrow and
+Rouse (2009) conclude that the best research to date ﬁnds relatively small
+achievement gains for students offered vouchers, most of which are not statistically
+different from zero.18 The studies that lead to such conclusions are often based on
+experimental designs. For example, New York City conducted an experiment in
+18
+See also Neal (2009). This ﬁnding is consistent with a broader literature on the effects of attending a
+higher-achieving school or class on academic performance, even when these transfers occur within a
+given (public or private) sector. Here again several papers ﬁnd little or no effect (Cullen et al. 2005, 2006;
+Clark 2010; Duﬂo et al. 2011; Abdulkadiroglu et al. 2011; Dobbie and Fryer 2011). Some papers ﬁnd
+positive effects (Pop-Eleches and Urquiola 2013; Jackson 2010), but no uniform pattern emerges. The
+research suggests that winning a voucher to attend a private school had a modest and
+statistically insigniﬁcant impact on student learning, not just on average but across
+the distribution of preexisting ability (Mayer et al. 2002; Krueger and Zhu 2004;
+Bitler et al. 2013).19
+There is analogous research in Latin America.20 For example, Angrist et al.
+(2002, 2006) and Bettinger et al. (2008) look at Colombia. For context, from 1992 to
+1997, Colombia operated a secondary school voucher program, a central goal of
+which was to increase secondary (6th–11th grade) enrollment rates by using private
+sector participation to ease public sector capacity constraints that mostly affected
+the poor. As a result, the vouchers were targeted at entering 6th grade students who
+resided in low-income neighborhoods, attended public school, and were accepted at
+a participating private school.
+The initiative was implemented at the municipal level, with the national
+government covering about 80 % of its cost, and municipalities contributing the
+remainder. Resource constraints at both governmental levels resulted in excess
+demand in most jurisdictions. When this happened, the vouchers were generally
+allocated via lotteries.
+These lotteries make it feasible to estimate the causal effect of winning a voucher
+to attend private school. Angrist et al. (2002, 2006) and Bettinger et al. (2008) ﬁnd
+that, in general, lottery winners have better academic and nonacademic outcomes
+than lottery losers. This result holds both for achievement measured using
+administrative data, and for outcomes (such as performance on standardized exams)
+that the researchers themselves measured.
+It should be noted that in terms of identifying whether there is an advantage in
+private schools regarding test scores, the Colombian voucher experiment has a few
+problems. First, the vouchers were renewable contingent on grade completion, and
+thus the program included an incentive component—voucher winners faced a
+stronger reward for doing well at school. Therefore, it is difﬁcult to rule out that the
+superior test performance of lottery winners was due to external incentives rather
+than to their schools’ productivity in terms of testing. Second, both lottery winners
+and losers tended to enroll in private schools, particularly in larger cities. Focusing
+on Bogota and Cali, Angrist et al. (2002) point out that while about 94 % of lottery
+winners attended a private school in the ﬁrst year, so did 88 percent of the losers.
+This is not surprising to the extent that high private enrollment rate in secondary
+school was symptomatic of the very supply bottlenecks that the program was
+implemented to address. Since the reduced-form estimates in these papers are based
+19
+Mayer et al. (2002) and Krueger and Zhu (2004) ﬁnd positive effects for some subgroups, although the
+conclusion depends on how subgroups are deﬁned.
+20
+
+There is a large literature on private/public comparisons in developing countries that extends beyond
+the case of Colombia covered in this subsection. As is the case in the United States, papers meet with
+varying success in terms of establishing credible control groups. Some implement only cross-sectional
+analyses, while others look for explicit sources of exogenous variation. For a review on several countries,
+see Patrinos et al. (2009); for Latin America, see Somers et al. (2004); for Chile, see Bellei (2007) and
+McEwan et al. (2008); for India, see Kingdon (1996); for Indonesia, see Newhouse and Beegle (2006);
+‘‘private with incentives vs. private without incentives’’ effect, rather than the effect
+of private vs. public schooling that the literature typically addresses. Finally, the
+institutional setup implies that many voucher winners (who, again, would have used
+private school even if they did not win the lottery) used the vouchers to ‘‘upgrade’’
+to more expensive private schools. Thus, part of the effect of winning a lottery could
+reﬂect the access to greater resources, as opposed to a true test productivity
+difference.
+7.3 Large programs
+The studies discussed above can be described in economic terminology as taking a
+‘‘partial equilibrium’’ approach in the sense of looking at relatively small
+interventions—for instance, the distribution of vouchers to a small fraction of the
+population. This type of work essentially seeks to identify what would happen if one
+took a small number of children from public schools and transferred them to private
+schools.
+More generally, one would like to consider situations that explore the general
+equilibrium effects of school choice—settings that give an idea of the consequences
+of allowing a large number of private schools to enter the market, along with
+allowing parents to use any of them. This is relevant because the magnitude of a
+‘‘partial equilibrium’’ private advantage like that measured in Colombia may not be
+stable with respect to the private sector’s market share. For example, Hsieh and
+Urquiola (2006) and Bettinger et al. (2008) point out that if the private productivity
+advantage originates in positive peer effects, then the magnitude of this advantage
+may change with growth in the private sector. This in turn reﬂects the fact that the
+composition of students in the private and public sector is likely to change with
+private entry.
+A useful setting to ask such questions is Chile. Speciﬁcally, in 1981 Chile
+introduced a universal voucher scheme that resulted in a substantial increase in
+enrollment in private schools.21 By 2009, about 57 % of all students nationwide
+attended private schools, with voucher schools alone accounting for about 50 %.
+The latter group combined with a public share of 44 % means that about 94 % of all
+children attended effectively voucher-funded institutions.22
+The analytical virtue of this reform is that it provides an example of a large-scale
+introduction of competition; the main drawback is that the simultaneous nationwide
+implementation makes it difﬁcult to establish counterfactuals. As a result, most
+studies have adopted quasi-experimental methodologies. Hsieh and Urquiola (2006)
+apply a difference-in-differences approach to municipalities for the 1982–1996
+period. They ﬁnd that municipalities that experienced faster growth in private sector
+market share show distinct signs of increasing stratiﬁcation (with higher income
+students in the public sector moving to private schools), but do not have higher test
+scores or average years of schooling.
+21
+
+For further institutional details see McEwan and Carnoy (2000) and Urquiola and Verhoogen (2009).
+
+22
+
+of competition on productivity in the sense of Hoxby (2002). Many things were
+changing for Chilean schools during this period, including the distribution of
+students (and hence potential peer effects) and levels of funding.23 Taken at face
+value, however, these ﬁndings suggest that competition had a modest effect on
+average school productivity.24
+This research must also be considered along with aggregate trends. If there is a
+substantial private productivity advantage, then one would expect Chile’s relative
+performance on national and international tests to have improved over the years in
+which large numbers of children were transferred into the private sector.
+Furthermore, one would expect Chile to outperform other countries with similar
+levels of GDP per capita. However, neither of these expectations is supported by the
+data for at least the ﬁrst 25 years of the voucher program.
+As Epple et al. (2015) point out, Chile’s recent performance on international
+testing has been more favorable. This improvement has coincided with a further
+expansion in private schooling. But it also coincides with more growth in GDP per
+capita and educational expenditures, expansions in preschool enrollments, and
+reforms to rules governing university admission. Thus, it is difﬁcult to causally
+assign this recent improvement to the voucher program.
+To summarize, the evidence from developing countries suggests that large-scale
+expansion of the private school sector leads to stratiﬁcation,25 but there is less
+evidence that it leads to substantial gains in average school productivity. This is
+consistent with the lack of a systematic private school advantage referenced above,
+and additionally suggests that the introduction of competition may not by itself have
+a large impact on public school productivity.
+7.4 School choice: further challenges
+When it comes to improving school skills, school choice programs have proved
+somewhat disappointing—the evidence is mixed but clearly not sufﬁcient to consider
+this a silver bullet (Epple et al. 2015). Going forward two questions for research are:
+1.
+
+Why is it that the effects of school choice programs have proven smaller than
+economists might expect?
+
+23
+The value of the school voucher fell signiﬁcantly during the 1980s and grew substantially during the
+1990s.
+24
+Auguste and Valenzuela (2006) and Gallego (2006) analyze cross-sectional data, using instruments for
+the private market share. Auguste and Valenzuela use the distance to a nearby city, and Gallego uses the
+density of priests per diocese (with the reasoning that this lowered the costs of Catholic schools). The
+results from both papers differ from those of Hsieh and Urquiola (2006) in that both ﬁnd that private entry
+results in higher achievement, and concur (in the case of Auguste and Valenzuela—Gallego does not
+analyze the issue) in ﬁnding that it also leads to stratiﬁcation. Again, however, a key issue is the validity
+of the instrumental variables. It is possible, for example, that more motivated parents migrate toward
+cities in search of better schools, or that priests were allocated to communities in a manner correlated with
+characteristics (e.g., population density) that might affect educational achievement.
+25
+
+For other examples of school market liberalization leading to stratiﬁcation see Bjorklund et al. (2005)
+
+How can choice schemes be better designed in terms of generating skill
+improvements?
+
+Some recent theoretical and empirical studies attempt to make headway in this
+direction. At the heart of them is the notion that school choice can only be expected
+to deliver what parents want. In an interesting recent study, Muralidharan and
+Sundararaman (2013) address this issue while combining some elements of the
+partial and general equilibrium approaches described above. Speciﬁcally, the
+authors implement a project in which applicants for vouchers were ﬁrst recruited in
+a number of towns, with two lotteries carried out subsequently. First, some towns
+were selected for distribution of vouchers. Second, within the towns selected for
+treatment, some children were randomly selected to receive the vouchers. This
+allows Muralidharan and Sundararaman (2013) to go beyond the usual comparison
+(lottery-winning individuals versus lottery-losing ones) in most studies. As one
+example, by comparing nonapplicants in towns that did not receive vouchers to
+nonapplicants in towns that did, the authors can get a sense of negative effects on
+children ‘‘left behind’’ in the public sector. In the study, the authors do not ﬁnd
+much evidence of such externalities.
+Moving on to the results for the applicants, Muralidharan and Sundararaman
+found that after 4 years of treatment, lottery winners did not have higher test scores
+than losers in ﬁve of six subjects. Speciﬁcally, they found no effects in Telugu (the
+local language), Maths, English, Science, or Social Studies; in contrast, they did ﬁnd
+signiﬁcantly higher scores in Hindi. Two aspects are of note beyond these reducedform results. First, the results are generally consistent with a differential allocation
+of instruction time: private schools seem to spend more time teaching Hindi than
+other subjects; public schools essentially do not teach Hindi. Second, the results are
+consistent with a productivity advantage for private schools, since these schools
+have lower costs than the public schools the students transferred from.
+However, some questions remain. The ﬁrst is if the positive effects on Hindi are a
+school effect. The paper argues this is the case, but they could also be a peer effect.
+The private schools may offer greater exposure to the children of parents who value
+Hindi, perhaps because they are from other parts of India, or because they live in
+large cities, or because they speak it more at home. As a result, the voucher winners
+might learn more Hindi as a result of being exposed to such children rather than
+because the schools teach it. If the types of parents who use private schools are in
+ﬁxed supply (at least in the short or medium term), the partial versus the general
+equilibrium effects of choice could once again differ.
+A second issue is that the paper suggests that English as a medium of instruction
+disrupts learning, that parents may not realize this is the case, and that intervention
+may be warranted. But another possibility is that parents are aware of this but
+willing to make the sacriﬁce, if for example, English has high labor market returns.
+A broader point this illustrates is that choice is likely to produce more of what
+parents want, and those skills may or may not be the ones along the dimensions of
+what policymakers prefer. MacLeod and Urquiola (2012, 2015) address this issue
+theoretically, and suggest that the impact of school choice programs—and any
+their children go to for two reasons: (1) schools/colleges produce value added,
+enhancing human capital investment, and (2) schools/colleges serve as a signal of
+unobserved ability.
+MacLeod and Urquiola (2012, 2015) show that if this is the case, parents will
+want schools with good reputations, as expected. The key, however, is that schools’
+reputations depend not just on how good they are at teaching, but also on which
+other students are using them. In these situations, for example, rational parents will
+not always choose the high-value-added schools, and rational schools will not
+always choose to compete on value added. These implications are consistent, for
+example, with the well-identiﬁed empirical evidence that selective schools only
+sometimes produce higher learning and value added (Clark 2010; Abdulkadiroglu
+et al. 2011; Pop-Eleches and Urquiola 2013).
+MacLeod and Urquiola (2013) suggest, for example, that a design in which
+schools are forced to use lotteries in selecting students (as in Sweden’s voucher
+scheme or the US charter school system) may raise school productivity more than a
+design that allows private schools to easily turn away students, as does Chile’s
+system. These are system design questions that are not easily analyzed via
+experiments or quasi-experiments, but which may nonetheless be central to
+successfully raising the production of skills.
+7.5 Incentives for parents and students
+In a similar vein, it may be that skill accumulation crucially depends on how system
+design affects the incentives for student or parental effort. For example, it may be
+that unless students are willing to study and learn, no amount of school inputs or
+competition between schools will improve outputs (Bishop 2004). This raises the
+possibility that research should prioritize learning about terms like qh2/qs2 and qh2/
+qe2, and about how system design affects the incentives needed to encourage parents
+and students to supply effort.
+There is also experimental work in this area, through studies that provide rewards
+for students who perform well. The results are somewhat mixed. For example,
+Kremer et al. (2009) ﬁnd positive effects of such rewards, while Li et al. (2010) ﬁnd
+little effect in China (unless rewards are combined with other interventions). The
+mixed evidence in this area lines up with results from developed countries and other
+educational levels (Angrist et al. 2009).
+Rather than focusing on payments for test scores, MacLeod and Urquiola (2015)
+present a model emphasizing that incentives for parental and student effort may
+emerge from the link between educational and labor markets. There is emerging,
+well-identiﬁed empirical evidence consistent with this possibility. For example,
+Jensen (2010) ﬁnds that boys in the Dominican Republic are quite responsive to
+information on the returns to a high school education. A randomized intervention on
+this produced gains on the order of a quarter to a third of a year of schooling.
+Nguyen (2008) ﬁnds qualitatively similar results for Madagascar. A concern with
+these relatively early studies, however, is that the information provided may not
+been reacting to misleading information.
+In more recent work, Jensen (2012) and Oster and Millett (2011) present
+situations in which ‘‘real world’’ information on job opportunities affects student
+investment and behavior. For example, information on the availability of call center
+employment in India (which is open mainly to young women) affects the probability
+that girls remain in school.
+MacLeod and Urquiola (2013) similarly suggest that the organization of the
+school system may affect incentives and effort. For example, systems that generally
+emphasize meritocratic transitions between educational levels (e.g., middle to high
+school in Romania or high school to university in Chile or South Korea) may be
+better placed to extract effort and high human capital investment from students and
+parents. Again, recent research on the economics of education—by placing very
+high priority on identiﬁcation and micro-studies—may be paying insufﬁcient
+attention to these ‘‘big’’ design questions.
+7.6 Teacher incentives
+Another area where the impact of incentives has been explored concerns teacher
+behavior. Muralidharan and Sundararaman (2011) ﬁnd positive effects of teacher
+performance pay on student learning outcomes. Glewwe et al. (2010) ﬁnd analogous
+effects in Kenya, but the impact is focused on incentivized exams. This is similar to
+ﬁndings in the United States. Although not looking directly at the production of
+skills, Duﬂo et al. (2012) ﬁnd that monitoring in the form of pictures/time stamps
+improved teacher attendance.
+There has also been work on the use of contract teachers—instructors who are not
+hired into normal civil service positions and are generally paid substantially less. In
+his review of this work, McEwan (2013) points out that the effects here are
+generally positive. An analytical complication, however, is that the effects are often
+combined with other treatments such as class size reductions (Muralidharan and
+Sundararaman 2010; Duﬂo et al. 2011; Bold et al. 2013), which makes it difﬁcult to
+isolate the effect of contract teachers.
+Three notes are warranted regarding the applications of such ﬁndings to Latin
+America. First, although in many countries of the region contract teachers are rare,
+they are more common in some of the lower income areas where there are contract
+teachers (maestros interinos) who are sometimes hired locally by parent associations. Second, although absenteeism problems seem to be less severe in Latin
+America than in Africa or India, they are certainly not irrelevant, and so these
+interventions may have signiﬁcant returns. Third, this is also an area where the
+equilibrium effect may be quite relevant. For example, in the short run it may be
+possible to increase teachers’ attendance by monitoring them with cameras, or by
+having the ﬂexibility to substitute regular teachers with contract teachers. Over time
+such policies may have unintended effects. To illustrate, using cameras to force
+teachers to show up to work amounts to a reduction in real wages. A signiﬁcant
+proportion of teachers might have signed up for work in remote locations with the
+enforced beyond an experiment, higher nominal wages may be necessary to attract
+comparable teachers to remote locations.
+Finally, while this discussion has treated incentives for students and for teachers
+separately, recent work ﬁnds that there may be important interactions between them.
+Speciﬁcally, Behrman et al. (2015) consider an experiment that provided test-based
+incentives for: (1) students, (2) teachers, and (3) students, teachers, and school
+administrators. They ﬁnd that the third intervention produced the largest effects,
+while the second had no impacts. Exploring such interactions may be an important
+avenue for future research.
+
+8 Conclusion
+Producing an evidence-based policy outline for how educational systems might
+better produce and improve skills is not a simple task. Nevertheless, research has
+made substantial advances in this direction. In particular, the past decades have seen
+progress in terms of data availability and the credible estimation of the causal
+effects of given educational inputs.
+These results provide an initial impression of what an evidence-based policy might
+look like. For example, McEwan (2013) reviews a large number of experiments and
+concludes that the most promising interventions are found in instructional materials,
+computers or instructional technology, teacher training, smaller classes, smaller
+learning groups within classes, ability grouping, student and teacher incentives, and
+contract or volunteer teachers. In contrast, he ﬁnds less impact from monetary grants,
+deworming, providing information to parents, and improving school management and
+supervision. Dhaliwal et al. (2011) look at a different set of interventions, but go a step
+further by incorporating cost information and ranking alternatives based on costeffectiveness comparisons. The type of careful evaluation work these reviews are
+based on is desirable and should be sustained, if only because many relatively
+expensive input initiatives in Latin America are still designed and implemented
+without much reference to planning for evaluation.
+There is a need for analogous research on the impact of educational inputs at the
+preschool stage. Such work is less common, but may be quite important if part of
+the return to preschool investments comes in the form of a greater return to
+investments at later stages of a child’s life. In this case, properly quantifying the
+impact of preschool interventions may be quite valuable.
+Despite such progress, there are likely limits to the extent to which experimental
+and quasi-experimental evaluations—and reviews like those in Dhaliwal et al.
+(2011)—can guide policy. One key issue here is that the rankings that emerge may not
+be stable across or even within countries. For instance, they may vary with the setting
+and/or scale of implementation. This reﬂects issues related to external validity and
+equilibrium effects and suggests that caution in implementation is warranted.
+Further progress on understanding the effects of incentives would be valuable.
+For example, there has been signiﬁcant work on the effects of introducing
+The key challenge in this area is to understand what accounts for this
+disappointment, and what this implies regarding how programs might be better
+designed. The bottom line is that while the evidence is not sufﬁcient to warrant
+widespread adoption of such initiatives, it certainly points to the desirability of
+continued experimentation.
+Additional research on the impact and determinants of parental and student effort is
+also desirable. For example, the returns to skills in the labor market, or in admission to
+universities, may be crucial in terms of determining parents’ and students’ attitudes
+toward skill accumulation. A corollary is that the organization of the educational
+market, and its relation with the labor market, may involve a broad set of institutions
+that sets an educational system up for either success or failure. If this is the case, then
+understanding these incentives is not only desirable in and of itself, but may be
+important to correctly exploit all the knowledge gained from experimentation.
+Acknowlegments The author thanks Sebastian Galiani, Patrick McEwan, and an anonymous referee for
+useful comments and suggestions. This work was supported by the Inter-American Development Bank
+(IDB). All errors and positions are those of the author and should not be attributed to the IDB.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original
+author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were
+made.
+
+World Bank, Washington, DC

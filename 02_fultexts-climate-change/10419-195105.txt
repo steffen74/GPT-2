@@ -1,0 +1,88 @@
+
+
+Useful life of the product is the duration of time period in which the items remain useful to the
+customer. End user environments, frequency of use are some factors which affect the useful
+life of the product. After its useful life, the product is usually disposed to the environment
+resulting in pollution, landfill or incineration. So, there is the necessity of evolving some
+activities which can control pollution, avoid land filling or incineration and preserve the natural
+resources. One such approach is product recovery operation. By the product recovery operation, we can retrieve the retained used value from the used product. Different product recovery
+options are repair, reuse, refurbishment, remanufacturing, cannibalization and recycling. Using
+these aforesaid options, we can extend the useful life of the product, shown in Fig. 1. The aim
+of the useful life extension of the product is to reduce the environmental impact in long run,
+while increasing the societal and economic value of the product.
+The first step of the product recovery operation is to collect the used products from the end
+users. The used products are then sorted, disassembled, repaired or remanufactured,
+reassembled and sold in the market. From the literature review, we have identified different
+issues which have significant impact in useful life extension of a product. These issues are
+clustered into five main groups such as Design of product, Operational issue, Market of
+remanufactured product, Government legislation and Environmental Consciousness, shown
+in Table 1. The objective of the paper is to study the contextual relationships among the
+identified issues in Table 1. Interpretive Structural Modelling (ISM) along with type −1 Fuzzy
+set theory is used to draw the contextual relationships. Two case examples are considered in
+this paper to illustrate the Fuzzy Interpretive Structural Modelling (FISM) methodology.
+The rest of the paper is organized as follows. In “Fuzzy interpretive structural modelling
+(FISM)”section we discussed on Fuzzy Interpretive structural modelling (FISM). In “Illustration with an example” section we used FISM methodology to find the structural
+relationship between the identified issues for extension of useful life of the product, which
+is followed by discussion and conclusion in fourth and fifth section respectively.
+
+Fuzzy interpretive structural modelling (FISM)
+Multi Criteria Decision Making (MCDM) is classified into two categories, Classical MCDM
+method and Fuzzy MCDM method [27]. In classical MCDM methods individual preferences
+are usually represented by numbers, expressing exact degree of preferences of decision
+makers. On the other hand, in Fuzzy MCDM individual preferences are expressed by linguistic
+Extension of useful life
+
+Raw material
+Extraction
+
+Production
+
+Usage
+
+Disposal
+
+Repair/Reuse
+
+
+79
+
+Table 1 Issues identified from the literature review
+Issues
+
+Sub Issues
+
+1. Operational
+
+Mondal and Mukherjee [2], Galberth and
+Blackburn [3], Teunter et al. [4],
+Wassenhove et al. [5], Guide et al. [6],
+Fergunson et al. [7]; Fleischmann et al.
+[8]; El. Saadany [9]; Fleischmann et al.
+[10]
+Design of fasteners, modular design, design Shu and Flowers [11], Ijomah et al. [12], Go
+et al. [13]; Zwolinski et al. [14], Kimura
+for cleaning (DfC), Design for inspection
+et al. [15], Brennan et al. [16], Desai and
+(DfI), part complexity, minimization of
+Mittal [17]
+number of parts
+Subramaniom et al. [18]; Atasu et al. [19],
+Identification of market, attitude of the
+Parra et al. [20], Ostlin et al. [21], Rathore
+customers, selling price of
+et al. [22]
+remanufactured product.
+Johnson et al. [23]; Xiang and Miang [24]
+
+2. Product design
+
+3.Market of
+remanufactured
+product
+4. Governmental
+Laws &
+Legislations
+5.Environmental
+consciousness
+
+

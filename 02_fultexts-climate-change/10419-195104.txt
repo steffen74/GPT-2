@@ -1,0 +1,1428 @@
+
+
+topics including product design, inventory management, carbon footprint measurement, refunds control, reverse logistics systems management, and coordination between the members
+of channels [1–8]. In this paper, we take a look on pricing and refund policies and collaboration between members in the supply chain when they cooperate for greening initiatives.
+In generally, most of previous studies of GSCM work on qualitative analysis and theoretical
+research where less attentions are paid to quantitative aspects. One of the recent research
+focused on quantitative concept is work of Zhang et al. [9]. They consider a two levels green
+chain that contains a supplier and a producer who produces both types of green and non-green
+products. They investigate the pricing strategies using both cooperative and non-cooperative
+games between the supply chain members. Our assumptions are similar to Zhang et al. [9] by
+this differences that we consider the refund policy as our main contribution in this paper.
+Refund policy plays an important role for firms to ensure the customers that the quality level of
+product can satisfy their expectations [10]. The refund policy can also stimulate customer
+demand [11, 12]. Mukhopadhyay and Setaputra [13] indicate that around 70% of customers
+consider the refund policy of retailer before making purchasing decision.
+In this research we apply a refund strategy in a two levels supply chain consists of one
+supplier and one manufacture who produces both green and non-green products. The
+green products are reusable, energy efficient made with post-consumer materials, have
+reduced toxicity properties, manufactured with minimal environmental impact, and are
+delivered in eco-responsible packaging and containers. The term “green” often refers to
+products, services or practices that allow for economic development while conserving for
+future generation. A green product is one that has less of an environmental impact or is
+less detrimental to human health than the traditional product equivalent. We assume that
+supplier provides two types of raw materials for producing the green and non-green
+products and manufacturer sells both types of products to the customers. Selling price and
+refund amount of both products are determined by the manufacture. If customer is not
+satisfied, can return the product to manufacturer and gets back the refund amount.
+Moreover cooperative and non-cooperative environments between the supply chain
+members are considered.
+In the following sections, in “Literature review” section, the relevant works in two parts;
+GSCM and pricing strategy are reviewed. In “Problem description” section we describe the
+problem and in “Computational and practical results” and “Conclusion” Sections the hybrid
+production mode under non-cooperative and cooperative games are discussed respectively.
+Finally concluding section and future research directions are provided.
+
+Literature review
+The review of research papers in this section is divided in two subsections. In the first part we
+focus on GSCM and in the second part, pricing strategy, refund policy, and coordination
+between supply chain members are reviewed.
+As the first work in GSCM, Navinchandra [14] proposes the idea of green product design,
+for increasing products’ compatibility with the environment and without compromising their
+functions or quality level. Vachon and Klassen [15] focus on the environmental collaboration
+
+51
+
+a new dynamics analysis in terms of market competition, recycling and profit function. Ghosh
+and Shah [17] build game theoretical-based models to compare different structures of twolevel green supply chains. They show how channel structures can affect the selling prices,
+greening levels, and profits. Results showed that when the cooperation between manufacturer
+and the retailer is happen, green innovation could be maximized. Zhang and Liu [18] study the
+effects of green products on market demand of a three stages supply chain including a supplier,
+a producer and a retailer. They consider four models using the Stackelberg model and
+cooperative decision-making process. Li et al. [19] develop a dual channel GSCM model
+and focus on the pricing and greening strategies in both centralized and decentralized cases.
+Giri and Bardhan [20] study the coordination between the member of a two stages supply
+chain consists of a producer and a retailer where the demand of customers depends on both
+environmental friendliness level and retailing price of the product.
+Rao and Holt [21] and Chen et al. [22] study the GSCM usages and their relationships
+between competitiveness and economic performance amongst a group of firms in South East
+Asia. Chiou et al. [23] develop a mathematical model for encouraging the firms to apply the
+GSCM and green innovation in order to enhance the environmental efficiency. Bowen et al.
+[24] study the about desirability and slow implementation of GSCM in practice. Min and Galle
+[25] explore the effects of “green purchasing” on packaging decisions and applying GSCM.
+Olugu et al. [26] develop a group of criteria to evaluate the performance of GSCM. Liang et al.
+[27] develop a seller-buyer supply chain model and use a group of data envelopment analysis
+methods to evaluate the GSCM efficiency. Cao and Zhang [28] develop the green products’
+utility diversity and coordination in the manufacturer- supplier green supply chain. Sheu [29]
+study on the negotiation insides the green supply chain members’ relations that contain
+manufacturers and suppliers. In the next section a review on pricing, refund and coordination
+in supply chain is presented.
+Webster and Weng [30] develop a producer-retailer supply chain model and study a refund
+policy and compared results with the situation that no return is allowed. Taylor [31] combines
+a buyback and rebate contracts to coordinate the supply chain including a producer and a
+wholesaler when the demand rate depend on sales effort. Yue and Raghunathan [32] focus on
+the information asymmetry and refund policy to coordinate the supply chains. Yao et al. [33]
+analyze the influences of price sensitivity factors on refund policy in a coordination problem
+using a mathematical model where the demand rate is stochastic and selling price-dependent.
+Their results indicate that refund policy can improve supply chain performance. He et al. [34]
+focus on a supplier-retailer supply chain contract and coordination and develop a mathematical
+model with stochastic and retail price- and sales effort-dependent demand. Xiao et al. [35]
+developed a mathematical model to coordinate the producer and the retailer of chain where
+refund policy, buyback contract and uncertain demand are assumed. Li et al. [11] consider the
+product quality as an important factor on customer behavior in online direct selling. They have
+developed several models to show the relations among refund policy, quality, and pricing
+decisions of product. Liu et al. [36] extend a Newsvendor mathematical model for a supply
+chain including one producer and one retailer under considering customer returns and uncertain demand. Yoo [37] develop a supplier-producer supply chain model where the supplier is
+risk aversion and study the relationships between decisions of quality levels and refund policy
+
+Jnl Remanufactur (2017) 7:49–76
+
+customer’s decisions. Ringbom and Shy [53] use partial refunds in advance booking in a
+single-echelon supply chain. They propose a developed method for maximizing the profit and
+socially optimal rates of partial refunds on customers’ no-shows and cancellations. Ding and
+Chen [54] investigate the coordination of a three stage supply chain (supplier, manufacture,
+and retailer) in which product with short life cycle is sold. Su [55] develop a supply chain
+model of consumer refund policy and study coordination strategy in the chain. He/she study
+the impact of partial refund policy on the supply chain performance. Xu et al. [56] develop a
+two-stage supply chain including one manufacture and one retailer. The main purpose of this
+model is to determine of the selling price, refund and return deadline set by retailer. They
+assume that the return deadline strategy depends on product lifecycle and the consumer’s
+return rate. Roy et al. [57] and Chen [58] consider a two-layer supply chain that contains a
+manufacturer and a retailer and use the classical newsvendor model for cooperative advertising
+policy. He et al. [59] develop a model to determine optimal refund policies of multi products
+single-period problem in supplier-retailer supply chain under uncertain demand market.
+Majumder and Srinivasan [60] consider the contract leadership in a supply chain
+network, and derive the optimal location for the channel leader. As an extension of Choi
+[61], Choi [62] studies the case with the duopoly common retailer channel and finds that
+product (store) differentiation benefits the manufacturers (retailers) but harms the retailers
+(manufacturers); Choi et al. [63] investigate a CLSC which consists of a retailer, a
+collector, and a manufacturer, and examine the performance of CLSC under different
+channel leadership scenarios. Lee and Staelin [64] investigate the role of vertical strategic
+interaction in driving the optimal channel pricing strategy under three game scenarios.
+Almehdawe and Matin [65] consider a manufacturer and multiple retailers’ setup and
+compare the efficiency of supply chain between the manufacturer-led and the retailer-led
+cases. Numerical analysis appears that retailer dominance generally results in higher
+supply chain efficiency. Gao et al. [66] explore the impact of channel power structure
+on the decisions and performance of a CLSC. The results show that VN structure is the
+most favorable for both the CLSC and consumers when the demand expansion effectiveness of collection effort is relatively low; otherwise, the CLSC with dominant retailer is
+most profitable. Xiao et al. [67] develop game models to explore the quoted delivery
+leadtime, price, and channel structure decisions for a make-to-order duopoly system
+under three game scenarios and discover that decentralization can increase quoted
+leadtime and both manufacturers may choose different channel structures under symmetric duopoly. Xu et al. [68] proposed a game model to analyze the game relationships
+between enterprises and consumers in the home appliance industry. Barari et al. [69]
+presented an evolutionary game model in which the producer manufactured green products and the retailer was responsible for attracting consumers to buy the green products.
+Coordination between the producer and the retailer could balance the environmental and
+commercial benefits. Moriarty and Moran [70] pointed out that there was inevitable
+channel competition between the direct channel and the retail channel. Chiang et al.
+[71] and Tsay and Agrawal [72] showed that channel conflict in the dual-channel supply
+chain threw new challenges to the manufacturer and the retailer. Yao and Liu [73] argued
+that in a dualchannel supply chain, the manufacturer and the retailer sold the same
+products, which would lead to conflict and competition between them. To mitigate
+
+53
+
+could reduce the effect of double marginalization. Fruchter and Tapiero [74] found that a
+manufacturer who has two distribution channels should adopt consistent pricing policies
+across the two channels as his optimal policy. Yao and Liu [73] discussed the pricing
+policies of Bertrand and Stackelberg equilibrium in a dual channel. Cattani et al. [75]
+analyzed consistent pricing strategies between the manufacturer and the retailer. Specifically, the manufacturer and the retailer agreed on the results when the wholesale price
+and sale price were set by the manufacturer to maximize his profit. Huang and
+Swaminathan [76] investigated optimal pricing strategies when a firm distributed a
+product through online and traditional channels. Dan et al. [77] examined pricing policies
+in a dual-channel supply chain in which the retailer provides retail service. Results
+showed that the pricing strategies of the channel members were greatly influenced by
+retail services. Martín-Herran and Taboubi [78] studied pricing decisions and coordination in distribution channels from a dynamic perspective under centralized and
+decentralized models. However, the above papers did not consider the situation in a
+green supply chain management; therefore, a new one into green supply chain
+management.
+According to above literature review there is no research that simultaneously considers a
+two-level supply chain in which both green and non-green products are produced and refund
+policy for both products under both cooperative and non-cooperative strategies are considered.
+Therefore, the main contribution of this paper is modelling the refund and pricing policies in
+the two-level supply chain under hybrid production modes meaning producers produce two
+types of products.
+
+Problem description
+Consider a two stages supply chain with a supplier and a manufacture. This supply chain
+produces two types of products; green and non-green ones. In the aspect of usage and
+functional they have similar but in the price and environmental effects may exist difference
+between those. Also the whole sale prices of raw materials from the wholesaler to the
+manufacture and the production costs of non-green and green items are different.
+The other issue that we consider in this paper is refund policy because the refund can occur
+for both products. In this paper the selling prices and refund amounts of both products directly
+affect the customer’s decision about purchasing and returning the products. If customer is not
+satisfied from the products’ characteristics, can return the product to the manufacturer and
+gives back the refund amount. In the proposed supply chain the supplier has no responsibility
+about the returned products.
+In this supply chain, we focused on two different strategies, cooperation and
+competition between the supplier and the manufacture. In non-cooperative strategy
+we use the Stackelberg model where the supplier and the manufacturer act as the
+leader and follower respectively. In cooperation environment the members join together and can help the supply chain members to enhance their profits. But the main
+issue in a cooperative strategy in this paper is bargaining between the members in
+determining the raw material selling prices of both green and non-green products. In
+
+Jnl Remanufactur (2017) 7:49–76
+
+rg
+Raw material of
+green product
+
+w1
+
+Supplier
+
+cs
+
+Green
+product
+
+cR
+
+Pg
+
+Manufacturer
+Raw material of
+non-green product
+
+w0
+
+customer
+Non-green
+product
+
+cr
+
+Pn
+
+rn
+Fig. 1 Selling product and refund policy in the two-level supply chain
+
+Parameters
+cR
+cr
+cs
+φ1
+φ2
+τ1
+τ2
+ϕ1
+ϕ2
+v
+πm
+πs
+Q
+R
+y1
+y2
+
+Production cost of green item per unit ($/unit)
+Production cost of non-green item per unit ($/unit)
+Supplier fixed cost for green and non-green products ($/order)
+Returned quantity sensitivity to the refund amount for green product
+Returned quantity sensitivity to the refund amount for non-green product
+Returned quantity sensitivity to the selling price of green product
+Returned quantity sensitivity to the selling price of non-green product
+Independent returned quantity of green product (unit)
+Independent returned quantity of non-green product (unit)
+Consumer’s evaluation for products
+The manufacturer’s profit ($)
+Profit of supplier ($)
+Demand quantity (unit)
+Return quantity (unit)
+Utility level sensitivity to the refund amount of green product
+Utility level sensitivity to the refund amount of non-green product
+
+Decision variables
+Pg
+Pn
+rg
+rn
+w1
+w0
+
+Selling price of green product ($)
+Selling price of non-green product ($)
+Refund of green product to be paid by the manufacturer to customer ($)
+Refund of non-green product to be paid by the manufacturer to customer ($)
+Price of raw material of green product ($)
+Price of raw material of non-green product ($)
+
+Obviously we expected that cR > cr , w1 > w0 , Pg > Pn.
+The main difference between green and non-green products to persuade the customer to choose one of them is the selling price, refund amount, and environmental
+values when there is no significant difference in functional usages. We assume that
+the consumer have different consumer valuation for products using Ferrer and
+
+55
+
+product and we define λν , (0 < λ < 1). In Eqs. (1) and (2) we consider the selling
+price and refund amount as important factors of a product that can influence on the
+utility functions. y1 and y2 are the return sensitivity of the utility level that indicates
+the effect of refund amount on the utility functions for green and non-green products.
+v is announced by consumer, but the selling prices, refund amounts, and raw material prices
+of each product are determined by supply chain members. When Ug > Un customers buy the
+green product, otherwise they would prefer non-green one.
+U g ¼ ν−Pg þ y1 rg
+
+ð1Þ
+
+U n ¼ λν−Pn þ y2 rn
+
+ð2Þ
+
+We define the return functions depending on the refund amount and the selling prices for
+green and non-green products as below [11];
+Rg ¼ ϕ1 þ φ1 rg þ τ 1 Pg
+
+ð3Þ
+
+Rn ¼ ϕ2 þ φ2 rn þ τ 2 Pn :
+
+ð4Þ
+
+In the next subsections, the described problem using both cooperative and non-cooperative
+games is modeled. Superscripts N and C denote non-cooperative and cooperative games
+respectively.
+
+Pricing strategy in non-cooperative environment
+In order to implement the non-cooperative strategy the Stackelberg game theory model is used
+where the supplier and the manufacture are assumed to be the leader and follower respectively.
+In the following we calculating the demand for each type of products and solve the optimization problem for obtaining the optimal selling price, refund amount, and raw material price
+of both types of products.
+Demands of green and non-green items are closely related to the customer’s utility function,
+and consumer choose one of the products that satisfies his/her expectations more than the
+another one. So to use the demand function two conditions should be considered: (1) Ug > Un;
+(2) Ug ≤ Un. If Ug > Un the consumer buy the green product, so ν − Pg + y1rg > λν − Pn + y2rn
+P −P þy2 r −y r
+and we have ν > g nð1−λÞn 1 g where v ∼ U[0, A]. Then the demand quantity of green item
+can be calculated using Eq. (5). For simplicity we define k ¼
+A
+
+Qg ¼ 1:∫k
+
+Pg −Pn þy2 rn −y1 rg
+.
+ð1−λÞ
+
+Pn −Pg þ y1 rg −y2 rn
+1
+dv ¼ 1 þ
+ð1−λÞA
+A
+
+ð5Þ
+
+If Ug ≤ Un the consumer buys the non-green product, so Un ≥ 0 i.e. Pn −y2 rn < v < k and the
+λ
+market demand for non-green product can be obtained as below.
+k
+
+Qn ¼ 1:∫ Pn −y2 rn
+λ
+
+λPg −Pn þ y2 rn −λy1 rg
+1
+dv ¼
+ð1−λÞλA
+
+Jnl Remanufactur (2017) 7:49–76
+
+Finally the profit function becomes as follows.
+
+
+
+
+
+Pn −Pg þ y1 rg −y2 rn
+λPg −Pn þ y2 rn −λy1 rg
+max πs ¼ ðw1 −cs Þ: 1 þ
+þ ðw0 −cs Þ:
+w0 ;w1
+ð1−λÞA
+ð1−λÞλA
+
+s:t: :
+
+
+
+1
+À
+Á
+À
+Á
+Pn −Pg þ y1 rg −y2 rn
+−rg ϕ1 þ φ1 rg þ τ 1 Pg C ð7Þ
+Pg −w1 −cR : 1 þ
+B
+ð1−λÞA
+C
+
+
+max πm ¼ B
+@
+A
+λPg −Pn þ y2 rn −λy1 rg
+Pg ;Pn
+−rn ðϕ2 þ φ2 rn þ τ 2 Pn Þ
+þðPn −w0 −cr Þ:
+ð1−λÞλA
+w1 > w0 ; Pg > Pn
+0
+
+Theorem 1 Profit function of manufacturer in hybrid production mode is concave and also
+has a unique optimal solution, when meet the following conditions.
+À
+Á
+A2 τ 2 2λ−λ2 −1 þ 2Að1−λÞðτ 1 y1 þ 2φ1 Þ−y2 > 0
+1
+1
+À
+À
+Á
+Á
+ð1−λÞ Að1−λÞ Aτ 2 −4φ1 −2τ 1 y1 þ y2 < 0
+1
+1
+À
+Á
+A3 λðλ−1Þ τ 2 ðλy1 þ y2 Þ þ 4ðφ1 þ φ2 Þ þ Aλτ 2 ðλ−1Þ þ 2λτ 2 ðτ 1 y1 þ 2φ1 Þ þ 8λφ1 τ 1 τ 2
+1
+2
+2
+
+þA2 λ 8ð1−λÞðφ2 τ 2 y1 þ φ1 τ 2 y2 þ 2φ1 φ2 Þ þ 2y1 y2 τ 1 ðτ 2 ð2−λÞ þ τ 1 Þ þ λy2 ðτ 1 þ τ 2 Þ2
+1
+À
+Á
+À
+Á
+−2A y2 ð2φ1 þ τ 1 y1 Þ þ y2 λð2φ2 þ y2 ðτ 1 þ τ 2 ÞÞ þ y2 y2 þ A2 τ 2 > 0
+2
+1
+2 1
+1
+
+If the above conditions are not met simultaneously, using optimization software the
+problem should be solved.
+
+Proof See Appendix A.
+According to above theorem, the optimal selling price, refund amount, and raw material
+price can be obtained using the first order derivatives of profit function with respect to the
+decision variables as presented in Eqs. (8) to (12).
+3
+
+λA3 ð1−λÞ λτ 2 ðcr þ w0 −w1 −cR Þð2φ1 þ τ 1 y1 Þ þ 4φ1 ð2φ2 þ τ 2 y2 þ ϕ2 λτ 2 Þ
+2
+6
+
+À
+Á7
+7
+6
+6 þλτ 2 y1 þ 4ϕ1 φ2 τ 1 þ τ 1 τ 2 ð2ϕ1 y2 −ϕ2 y1 Þ þ ðcR þ w1 Þ Ay2 ðy1 τ 1 þ 2φ1 Þ þ y2 y2 7
+2
+2
+1 2 7
+6
+
+
+7
+6
+7
+1 6 þA2 λðcr þ w0 −w1 −cR Þ τ 2 y1 ðλτ 2 y1 þ τ 1 y2 Þ þ y2 ð2φ1 þ ϕ1 τ 1 Þ
+2
+7ð8Þ
+PN ¼ 6
+g
+7
+K 6 −Ay y2 ϕ þ λðλ−1ÞðcR þ w1 Þðτ 1 τ 2 ðy y þ 8Þ þ 6φ τ 2 y þ 2φ τ 1 y Þ
+7
+6
+1 2 1
+1 2
+1
+2
+2
+1
+
+7
+6
+7
+6 −2ðλφ τ y −φ τ y Þ þ λy y ðϕ τ ð2−λÞ þ ϕ τ Þ þ 4ϕ φ λy ð1−λÞ
+7
+6
+2 1
+1 2
+1 2 2
+2 1 1
+1 2 1 2
+1
+
+5
+4
+À
+Á
+þλ2 y2 ð2φ2 þ ϕ2 τ 2 Þ þ A λy2 ð2ðcR þ w1 Þ−w0 −cr Þð2φ2 þ y2 τ 2 Þ−φ2 λy2 y2
+1
+1
+1
+2
+
+
+3
+λA3 ðλ−1Þ 8λφ1 φ2 −τ 2 ð2φ2 þ τ 2 y2 Þðcr þ w0 −λðcR þ w1 ÞÞ þ λA2 ð2φ2 τ 1 y1 Þ
+1
+6
+ 7
+7
+6
+6 þ2λðτ 1 φ2 ðy1 þ 2ϕ1 Þ þ τ 2 φ1 ðy2 þ 2ϕ2 ÞÞ þ ϕ2 τ 2 y2 þ λτ 1 τ 2 ðϕ2 y1 þ ϕ1 y2 Þ 7
+1
+7
+6
+
+7
+6
+6 þA2 λτ 2 y2 ððλ−2Þðw0 þ cr Þ þ λðcR þ w1 ÞÞð2φ1 þ y1 Þ þ A2 λy2 ðϕ1 τ 1 þ 2φ1 Þ 7
+2
+7
+
+16
+7
+6
+PN ¼ 6 þλ2 y2 ðϕ τ 2 −2φ Þ þ y λð4ϕ φ ð1−λÞ þ ϕ τ 1 τ 2 ð2−λÞ þ ϕ λτ 2 y Þ
+7 ð9Þ
+n
+2 1
+2
+1
+2
+2
+1
+1 2
+7
+K6
+
+7
+6
+À 2
+Á
+7
+6 þðcr þ w0 Þ −y2 y2 þ A λy ðy τ 2 þ 2φ Þ þ 2y2 ðy τ 1 þ 2φ Þ
+7
+2
+1
+6
+1 2
+1 2
+2 1
+7
+6
+À 2 2
+Á
+7
+6 þA2 τ y þ ð3λ−2Þð2φ λτ y Þ þ ðλ−1Þ8λφ φ
+þ A4 ϕ2 λ2 τ 2 τ 2 ðλ−1Þ2
+5
+4
+1 1
+2
+1 2
+1 2
+1
+À 2
+À 2 2 ÁÁ
+
+57
+
+3
+ 
+y2 ððw þ cR Þðy1 þ Aτ 1 Þ þ AðAτ 1 −y1 þ 2ϕ1 ÞÞ þ λy1 y2 A τ 2 3ðcr þ w0 Þ
+7
+6 2 1
+
+
+7
+6
+7
+6 −2ðw1 þ cR Þ−λA þ 2ϕ2 þ λτ 1 τ 2 A2 y2 ð3λðcR þ w1 Þ−cr −w0 −2w1 Þ
+16
+7
+À
+Á
+rN ¼ 6
+7 ð10Þ
+2
+g
+7
+K 6 þAλðw0 þ cr −w1 −cR Þ 4φ2 y1 −Aτ 2 ðy1 −Aλτ 1 ðλ−1ÞÞ
+À 2 2
+Á
+6
+27
+4 þA3 ðλ−1Þ λ τ 2 ðy1 þ 2ϕ1 Þ þ 2λτ 1 ðτ 2 ðλϕ2 þ y2 Þ þ 2φ2 Þ þ A4 λ2 τ 1 τ 2 ðλ−1Þ 5
+2
+þλA2 ð4φ2 ðλ−1Þðτ 1 ðw1 þ cR Þ−y1 −2ϕ1 Þ þ 2τ 2 y2 ð−2ϕ1 ð1−λÞ þ y1 −2cR τ 1 ÞÞ
+2
+
+3
+y2 ðy2 ðcr þ w0 Þ þ λAð−y2 þ τ 2 ðλA þ w0 þ cr Þ þ 2ϕ2 ÞÞ
+1
+À
+Á
+6 þA3 λð1−λÞ τ 1 τ 2 ðτ 1 ðcr þ w0 −λðcR þ w1 ÞÞ−λðy1 þ 2ϕ1 ÞÞ þ 2ϕ2 τ 2 −4φ1 λτ 2 7
+1
+7
+
+16 
+7
+6
+rN ¼ 6 A2 λτ 1 τ 2 y1 ð3λ−2Þðcr þ w0 Þ−λðw1 þ cR Þ þ τ 2 y2 ð−λðcR þ w1 Þ þ w0 þ cr Þ 7 ð11Þ
+n
+1
+7
+K6
+5
+4 þ4ðλ−1Þðφ τ ðc þ w Þ þ ϕ λð2φ þ τ y Þ þ λτ y y Þ
+0
+1 1
+1 1 2
+2
+1 2 r
+1
+y2 Aðy1 τ 1 ð3λðcR þ w1 Þ−2ðcr þ w0 ÞÞ−4φ1 ðcr þ w0 þ λðw1 þ cR Þ þ 2λy1 ϕ1 ÞÞ
+2
+
+
+K ¼ A2 8λðλ−1Þð2φ1 φ2 þ τ 1 y1 φ2 þ φ1 τ 2 y2 Þ þ 2λτ 1 τ 2 y1 y2 ð2−λÞ
+
+À
+Á
+þ λ2 τ 2 y2 þ τ 2 y2 þ 2λA3 ðλ−1Þ λτ 2 ðy1 τ 1 þ 2φ1 Þ þ τ 2 ð2φ2 þ τ 2 y2 Þ
+2 1
+1 2
+2
+1
+À
+Á
+À
+Á2
+−A 2λy2 ðτ 2 y2 þ 2φ2 Þ þ 2y2 ðτ 1 y1 þ 2φ1 Þ þ y2 y2 þ A2 τ 1 τ 2 λðλ−1Þ
+1
+2
+1 2
+
+ð12Þ
+
+By replacing Eqs. (8) to (12) in supplier’s profit function presented in Eqs. (7) one can
+obtain the selling price of optimal raw material for both green and non-green items.
+ðcs −cR Þ
+2
+
+
+−Aτ 2 ðφ2 þ τ 2 y2 Þ−Aτ 2 λ2 ðφ1 þ τ 1 y1 Þ þ τ 1 τ 2 y2 ðy1 −ϕ1 Þ
+1
+2
+−ϕ1 y1 ðφ2 þ τ 2 y2 Þ
+A
+þ2φ1 ðτ 2 y2 þ φ2 Þ−ϕ2 λτ 2 ðτ 1 y1 þ φ1 Þ−φ2 τ 1 ðϕ1 −y1 Þ
+þ
+4ðφ1 φ2 þ φ2 τ 1 y1 þ φ1 τ 2 y2 þ τ 1 τ 2 y1 y2 Þ
+
+wN ¼
+1
+
+ð13Þ
+
+ðcs −cr Þ
+ð14Þ
+2
+
+
+À
+Á
+−Aλ τ 2 ðφ2 þ τ 2 y2 Þ þ τ 2 ðφ1 þ τ 1 y1 Þ þ φ1 ð2φ2 þ τ 2 y2 Þ
+1
+2
+−ϕ2 y2 ðy1 τ 1 þ φ1 Þ
+Aλ
+þφ2 τ 1 ð−ϕ1 þ 2y1 Þ þ τ 1 τ 2 y2 ðy1 −ϕ1 Þ−ϕ2 τ 2 ðφ1 þ τ 1 y1 Þ
+þ
+4ðφ1 φ2 þ φ2 τ 1 y1 þ φ1 τ 2 y2 þ τ 1 τ 2 y1 y2 Þ
+
+wN ¼
+0
+
+Pricing strategy in cooperative case
+In this section we model and optimize the problem using a cooperative strategy. In this
+strategy, supply chain members join together with the objective of increasing their profits.
+The bargaining between supplier and manufacturer happen when they decide to determine the
+raw material prices for two products. For solving this problem we use Rubinstein bargaining
+model.
+
+Jnl Remanufactur (2017) 7:49–76
+
+
+
+À
+Á
+À
+Á
+Pn −Pg þ y1 rg −y2 rn
+−rg Φ1 þ φ1 rg þ τ 1 Pg
+max π ¼ Pg −cs −cR : 1 þ
+Pg ;Pn
+ð1−λÞA
+
+
+λPg −Pn þ y2 rn −λy1 rg
+þ ðPn −cs −cr Þ:
+−rn ðΦ2 þ φ2 rn Þ þ τ 2 Pn
+ð1−λÞλA
+
+ð15Þ
+
+Theorem 2 Profit function in hybrid production mode and cooperative strategy is concave
+and also has a unique optimal solution, when the following conditions are met.
+À
+Á
+A2 τ 2 2λ−λ2 −1 þ 2Að1−λÞðτ 1 y1 þ 2φ1 Þ−y2 > 0
+1
+1
+À
+À
+Á
+Á
+ð1−λÞ Að1−λÞ Aτ 2 −4φ1 −2τ 1 y1 þ y2 < 0
+1
+1
+À
+Á
+A3 λðλ−1Þ τ 2 ðλy1 þ y2 Þ þ 4ðφ1 þ φ2 Þ þ Aλτ 2 ðλ−1Þ þ 2λτ 2 ðτ 1 y1 þ 2φ1 Þ þ 8λφ1 τ 1 τ 2
+1
+2
+2
+
+þA2 λ 8ð1−λÞðφ2 τ 2 y1 þ φ1 τ 2 y2 þ 2φ1 φ2 Þ þ 2y1 y2 τ 1 ðτ 2 ð2−λÞ þ τ 1 Þ þ λy2 ðτ 1 þ τ 2 Þ2
+1
+À
+Á
+À
+Á
+−2A y2 ð2φ1 þ τ 1 y1 Þ þ y2 λð2φ2 þ y2 ðτ 1 þ τ 2 ÞÞ þ y2 y2 þ A2 τ 2 > 0
+2
+1
+2 1
+1
+
+If the above conditions are met, by setting the first order derivatives of profit functions with
+respect to the decision variables, one can obtain the optimal values as shown in Eq. (16) to
+(20).
+3
+
+λA3 ð1−λÞ λτ 2 ðcr −cR Þð2φ1 þ τ 1 y1 Þ þ 4φ1 ð2φ2 þ τ 2 y2 þ ϕ2 λτ 2 Þ
+2
+7
+6
+
+7
+6
+7
+6 þλτ 2 y1 þ 4ϕ1 φ2 τ 1 þ τ 1 τ 2 ð2ϕ1 y2 −ϕ2 y1 Þ þ y2 ð2φ1 þ ϕ1 τ 1 Þ
+2
+2
+7
+6
+
+
+À 2
+Á7
+6
+1 6 þA2 λðcr −cR Þ τ 2 y1 ðλτ 2 y1 þ τ 1 y2 Þ þ ðcR þ cs Þ Ay2 ðy1 τ 1 þ 2φ1 Þ þ y2 y2 7
+C
+1 2 7 ð16Þ
+Pg ¼ 6
+7
+K 6 −Ay y2 ϕ þ λðλ−1ÞðcR þ cs Þðτ 1 τ 2 ðy y þ 8Þ þ 6φ τ 2 y þ 2φ τ 1 y Þ
+7
+6
+1 2 1
+1 2
+1
+2
+2
+1
+
+7
+6
+7
+6 −2ðλφ τ y −φ τ y Þ þ λy y ðϕ τ ð2−λÞ þ ϕ τ Þ þ 4ϕ φ λy ð1−λÞ
+7
+6
+2 1
+1 2
+1 2 2
+2 1 1
+1 2 1 2
+1
+
+5
+4
+À 2
+Á
+þλ2 y2 ð2φ2 þ ϕ2 τ 2 Þ þ A λy1 ð2cR þ cs −cr Þð2φ2 þ y2 τ 2 Þ−φ2 λy2 y2
+1
+1
+2
+
+
+3
+λA3 ðλ−1Þ 8λφ1 φ2 −τ 2 ð2φ2 þ τ 2 y2 Þðcr þ cs −λðcR þ cs ÞÞ þ λA2 ð2φ2 τ 1 y1 Þ
+1
+6
+7
+7
+6
+6 þ2λðτ 1 φ2 ðy1 þ 2ϕ1 Þ þ τ 2 φ1 ðy2 þ 2ϕ2 ÞÞ þ ϕ2 τ 2 y2 þ λτ 1 τ 2 ðϕ2 y1 þ ϕ1 y2 Þ 7
+1
+7
+6
+
+7
+6
+6 þA2 λτ 2 y2 ððλ−2Þðcs þ cr Þ þ λðcR þ cs ÞÞð2φ1 þ y1 Þ þ A2 λy2 ðϕ1 τ 1 þ 2φ1 Þ 7
+2
+7
+6
+
+16
+7
+PC ¼ 6 þλ2 y2 ðϕ τ 2 −2φ Þ þ y λð4ϕ φ ð1−λÞ þ ϕ τ 1 τ 2 ð2−λÞ þ ϕ λτ 2 y Þ
+7 ð17Þ
+n
+2
+2 1
+2
+1
+2
+2
+1
+1
+7
+K6
+
+7
+6
+À 2
+Á
+7
+6 þðcr þ cs Þ −y2 y2 þ A λy ðy τ 2 þ 2φ Þ þ 2y2 ðy τ 1 þ 2φ Þ
+7
+2
+2
+1
+1
+6
+1 2
+1
+2
+7
+6
+À 2 2
+Á
+2
+6 þA2 τ y þ ð3λ−2Þð2φ λτ y Þ þ ðλ−1Þ8λφ φ
+4
+2 2
+þ A ϕ2 λ τ 1 τ 2 ðλ−1Þ 7
+5
+4
+1 1
+2
+1 2
+1 2
+À
+À
+ÁÁ
+−Aλy1 y2 ðy1 ϕ2 þ y2 ϕ1 Þ−λðcR þ cs Þ Ay2 ðy1 τ 1 þ 2φ1 Þ þ λA2 y2 τ 2
+2
+2 1
+2
+
+3
+ 
+y2 ððcs þ cR Þðy1 þ Aτ 1 Þ þ AðAτ 1 −y1 þ 2ϕ1 ÞÞ þ λy1 y2 A τ 2 3ðcr þ cs Þ
+2
+7
+6
+
+
+7
+6
+7
+6 −2ðcs þ cR Þ−λA þ 2ϕ2 þ λτ 1 τ 2 A2 y2 ð3λðcR þ cs Þ−cr −3cs Þ
+16
+7
+C
+À
+Á
+rg ¼ 6
+7
+7
+6 þAλðcr −cR Þ 4φ2 y1 −Aτ 2 ðy1 −Aλτ 1 ðλ−1ÞÞ þ A4 λ2 τ 1 τ 2 ðλ−1Þ2
+K
+2
+2 Á
+À 2 2
+7
+6
+3
+5
+4 þA ðλ−1Þ λ τ 2 ðy1 þ 2ϕ1 Þ þ 2λτ 1 ðτ 2 ðλϕ2 þ y2 Þ þ 2φ2 Þ
+2
+þλA ð2τ 2 y2 ðy1 −2cR τ 1 −2ϕ1 ð1−λÞÞ þ 4φ2 ðλ−1Þðτ 1 ðcs þ cR Þ−y1 −2ϕ1 ÞÞ
+
+59
+
+3
+y2 ðy2 ðcr þ w0 Þ þ λAð−y2 þ τ 2 ðλA þ w0 þ cr Þ þ 2ϕ2 ÞÞ
+1
+À
+Á
+6 þA3 λð1−λÞ τ 1 τ 2 ðτ 1 ðcr þ w0 −λðcR þ w1 ÞÞ−λðy1 þ 2ϕ1 ÞÞ þ 2ϕ2 τ 2 −4φ1 λτ 2 7
+1
+7
+
+16 
+7
+6
+rN ¼ 6 A2 λτ 1 τ 2 y1 ð3λ−2Þðcr þ w0 Þ−λðw1 þ cR Þ þ τ 2 y2 ð−λðcR þ w1 Þ þ w0 þ cr Þ 7 ð19Þ
+n
+1
+7
+K6
+5
+4 þ4ðλ−1Þðφ τ ðc þ w Þ þ ϕ λð2φ þ τ y Þ þ λτ y y Þ
+0
+1 1
+1 1 2
+2
+1 2 r
+1
+y2 Aðy1 τ 1 ð3λðcR þ w1 Þ−2ðcr þ w0 ÞÞ−4φ1 ðcr þ w0 þ λðw1 þ cR Þ þ 2λy1 ϕ1 ÞÞ
+2
+
+
+K ¼ A2 8λðλ−1Þð2φ1 φ2 þ τ 1 y1 φ2 þ φ1 τ 2 y2 Þ þ 2λτ 1 τ 2 y1 y2 ð2−λÞ
+
+À
+Á
+þ λ2 τ 2 y2 þ τ 2 y2 þ 2λA3 ðλ−1Þ λτ 2 ðy1 τ 1 þ 2φ1 Þ þ τ 2 ð2φ2 þ τ 2 y2 Þ
+2 1
+1 2
+1
+2
+À
+Á
+À
+Á2
+−A 2λy2 ðτ 2 y2 þ 2φ2 Þ þ 2y2 ðτ 1 y1 þ 2φ1 Þ þ y2 y2 þ A2 τ 1 τ 2 λðλ−1Þ
+1
+2
+1 2
+
+ð20Þ
+
+Moreover Eq. (21) shows the profits of supplier and manufacturer in cooperative strategy in
+the hybrid production mode respectively. Cooperative in the supply chain must be caused to
+increase the profits of supplier and manufacturer. According to Eq. (21) the price of raw
+materials (w1 , w0) has an important role to determine how the supply chain profit would be
+allocated between the supplier and manufacturer. The supplier must determine a fair and
+reasonable price of raw material to satisfy the manufacturer’s expectations, because determining the price of raw material leads to increase profit on both sides in the supply chain.
+ 
+πC ¼ ðw1 −cs Þ Qg þ ðw0 −cs ÞðQn Þ
+s
+ð21Þ
+À
+Á  À
+Á
+πC ¼ Pg −cR −w1 Qg −rg ϕ1 þ φ1 rg þ τ 1 Pg þ ðPn −cr −w0 ÞðQn Þ−rn ðϕ2 þ φ2 rn þ τ 2 Pn Þ
+m
+
+Reasonable values of selling price, refund amount, and raw material selling price make the
+both sides in the supply chain sure that their profits in cooperative strategy are not less than
+non-cooperative cases and maximize the profit of the system. So we hope that the profit of
+manufacturer and supplier has increased in the cooperative strategy versus in the noncooperative strategy.
+πC ≥ πN ; πC ≥πN
+s
+s
+m
+m
+
+ð22Þ
+
+By simplifying Eq. (22), we can obtain the minimum and maximum values of raw materials
+selling prices for both green and non-green products as below;
+ð3cs −cR Þð2φ1 þ 2τ 1 y1 Þ þ Aτ 1 ðy1 −ϕ1 −Aτ 1 Þ þ 2Aφ1 −ϕ1 y1
+8ðφ1 þ τ 1 y1 Þ
+
+ð23Þ
+
+wmax ¼
+1
+
+ð5cs −3cR Þð2φ1 þ 2τ 1 y1 Þ þ 3Aτ 1 ðy1 −ϕ1 −Aτ 1 Þ þ 6Aφ1 −3ϕ1 y1
+16ðφ1 þ τ 1 y1 Þ
+
+ð24Þ
+
+wmin ¼
+0
+
+ð3cs −cr Þð2φ2 þ 2τ 2 y2 Þ þ Aλτ 2 ðy2 −ϕ2 −Aλτ 2 Þ þ 2Aλφ2 −ϕ2 y2
+8ðφ2 þ τ 2 y2 Þ
+
+ð25Þ
+
+wmin ¼
+1
+
+ð5cs −3cr Þð2φ2 þ 2τ 2 y2 Þ þ 3Aλτ 2 ðy2 −ϕ2 −Aλτ 2 Þ þ 6Aλφ2 −3ϕ2 y2
+ð26Þ
+16ðφ2 þ τ 2 y2 Þ
+In the other hands in Eqs. (23) to (26) the minimum and maximum amounts of (w0, w1) are
+
+Jnl Remanufactur (2017) 7:49–76
+
+À
+Á
+wants to choose the raw material selling price to be close to wmin ; wmin and the supplier
+1
+0
+wants to be close to wmax ; wmax . For finding the best pricing strategy, the Rubinstein
+1
+0
+bargaining model is used. Rubinstein [80] proved when the infinite periodic offering game
+between two players happen there is a unique sub-game perfect equilibrium.
+θ* ¼
+1
+
+1−δ2
+1−δ1 δ2
+
+ð27Þ
+
+where δ1 and δ2 represent the fixed discounting factors such as members position in market,
+risk- taking and etc. for manufacturer and supplier respectively. If both δ1 and δ2 are
+determined then for both green and non-green products the following Equation can be used.
+wmax −wC
+θ*
+1−δ2
+¼ 1* ¼
+C −wmin
+w
+1−θ1 δ2 ð1−δ1 Þ
+
+ð28Þ
+
+So, according to Eq. (28) one can obtain the optimal selling price of raw material for green
+and non-green products as below;
+w1 C ¼
+
+ð1−Δ2 Þw1 min þ Δ2 ð1−Δ1 Þw1 max
+1−Δ1 Δ2
+
+ð29Þ
+
+ð1−∇2 Þw0 min þ ∇2 ð1−∇1 Þw0 max
+1−∇1 ∇2
+
+ð30Þ
+
+w0 C ¼
+
+where Δi , ∇i, δ1 and δ2 are fixed discounting factors of supply chain member, and i = 1 and
+
+61
+
+Fig. 3 The effect of λ on variables in cooperative game
+
+Computational and practical results
+Consider a two stages supply chain with a supplier and a manufacture. This supply chain
+produces two types of products; green and non-green ones. In the aspect of usage and
+functional they have similar but in the price and environmental effects may exist difference
+between those. Also the whole sale prices of raw materials from the wholesaler to the
+
+Jnl Remanufactur (2017) 7:49–76
+
+Fig. 5 The effect of φ1 on variables in cooperative game
+
+For analyzing the effect of refund policy and hybrid production mode in the proposed twolevel supply chain in both cooperative and non-cooperative strategies between members of the
+supply chain we use some numerical examples. We assume cs = 5$/item, cR = 15$/item, cr =
+10$/item, A = 100 , λ = 0.8, y1 = y2 = 0.9 and refund parameters as ϕ1 = 0.003 , ϕ2 =
+0.002 , φ1 = 0.009 , φ2 = 0.004 , τ2 = 0.0009 , τ1 = 0.0007.
+
+The effect of parameters on profits and decision variables
+The influences of parameters on decision variables, finished product selling price, raw material
+
+63
+
+Fig. 7 The effect of φ2 on variables in cooperative game
+
+non-cooperative games are investigated. From Figs. 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and
+15 one can observe that ever w1 > w0 and Pg > Pn, but the refund amount of green and nongreen products are fluctuated. In Figs. 2 and 3 the effects of λ on decision variables under
+cooperative and non-cooperative strategies are presented. According to these figures the
+finished product selling price and raw material wholesale price of green product are not
+sensitive to the change of λ while non-green product has a direct relationship to the changes.
+φ1 and φ2 almost have the same effects on decision variables as presented in Figs. 4, 5, 6,
+and 7. The decision variables are slightly sensitive with respect to the changes of φ1 and φ2.
+Figs. 8, 9, 10, and 11 show the effects of τ1 and τ2 on decision variables. It is clear that none of
+
+Jnl Remanufactur (2017) 7:49–76
+
+Fig. 9 The effect of τ1 on variables in cooperative game
+
+As presented in Figs. 12 and 13, y1 has direct effect on refund amount especially in
+cooperative strategy. Fig. 14 and 15 demonstrate the effects of y2 on decision variables. When
+y2 < 6.2 in non-cooperative and when y2 < 5.5 in cooperative game, the system does not
+produce the green product and just produce non green one.
+
+Effect of parameters on demands
+The influences of parameters on demands of green and non-green products in both cooperative
+and non-cooperative situations are studied in this section. Figs. 16, 17, 18, 19, 20, 21, and 22
+
+65
+
+Fig. 11 The effect of τ2 on variables in cooperative game
+
+demands amounts in cooperative situation for both products are more than demands in noncooperative one. Figure 16 demonstrates that the λ influences on demands, it shows that the
+green product has a convex behavior and the non-green product has a concave behavior.
+Indeed when λ increases the demand quantity of non-green products first increase and then
+decrease while the demand quantity of green products first decrease and then increase.
+Figure 17 and 18 show the effects of φ1 and φ2, where in Fig. 17 the changes
+have an exponential pattern and by increasing of φ1 the demand quantity of green
+products increase while the demand quantity of non-green one decrease. But the
+patterns of changes with respect to φ2 are completely different and have linear form.
+
+Jnl Remanufactur (2017) 7:49–76
+
+Fig. 13 The effect of y1 on variables in cooperative game
+
+quantity of non-green one rise. The effects of changes of τ1 and τ2 are shown in
+Figs. 19 and 20 and have inverse treatments on demands of green and non-green
+products and the pattern of changes are linear form.
+
+When τ1 increases the demand quantity of green products increase too, but the
+non-green products demands decrease. In the other hand, when τ2 increases the
+demand quantity of green products decreases and the non-green products demands
+
+67
+
+Fig. 15 The effect of y2 on variables in cooperative game
+
+demand of green items as presented in Fig. 21 under exponential patterns. Finally the
+effects of y2 are presented in Fig. 22.
+
+Effect of parameter on profits and refund amount of products
+In this part we analyze the effect of parameters on refund amount of green and non-green
+products and profits of supplier, manufacturer, and system in cooperative and non-cooperative
+situations. From (Table 1) the profit of system in the cooperative case is more than noncooperative one.
+By increasing the value of λ, refund amount of green product and profits in cooperative and
+non-cooperative cases are increased and refund amount of non-green product is decreased.
+Changes of y1 , y2 have direct relations with refund amount and system profits, unless y2 has
+
+Jnl Remanufactur (2017) 7:49–76
+
+Fig. 17 Effect of φ1 on demand of green and non-green product
+
+similar behavior and by increasing them the total profit and refund amount of non-green item is
+reduced. But the refund amount of green product is increased. φ2 and τ2 have a contrariwise
+relationship with the system profit in cooperative and non-cooperative games.
+
+Conclusion
+In the hybrid production supply chain, we propose and develop a decision model by joining
+the pricing strategy, refund policy, and cooperation strategy together. We develop a mathematical model for a two stages chain that contains a supplier and a manufacturer. This supply
+chain produces two types of products; green and non-green products such that they have a
+
+69
+
+Fig. 19 Effect of τ1 on demands of green and non-green product
+
+costs are different. We consider the refund policy for both products, if a customer is not
+satisfied from the product specifications, so he/she is permitted to return the product to the
+manufacture and pays back the refund amount should be determined by the manufacturer.
+We explore and investigate the best decisions under cooperative and non-cooperative
+strategies took place between the members of chain. In non-cooperative situation, we use
+the Stackelberg game such that the supplier acts as a leader and the manufacture acts as a
+follower. Moreover in the cooperative strategy for achieving more profit, they join together. In
+cooperative game we use the Rubinstein bargaining game to determine the fair and reasonable
+raw materials whole sale prices.
+We divide the results in three main parts. In the firth part we investigate on the effect of
+
+Jnl Remanufactur (2017) 7:49–76
+
+Fig. 21 Effect of y1 on demands of green and non-green product
+
+games. In the second part the effects of parameters on demands of green and non-green
+products are studied, and we observe that when cooperation happens between the
+supply chain members, the demands noticeably increase for both products and in the
+third part the profit and refund amount sensitivities of each product are investigated.
+Although in cooperation case, the refund amount of product is increased, but the main
+purpose which is increasing profit is happened.
+We assumed that there is no advertising on green products from the manufacturer
+or government. So encouraging the customers for purchasing the green product by
+
+71
+
+Table 1 effect of parameter on system profits and refund amount in cooperative and non-cooperative game
+À C NÁ
+À C NÁ
+πm ; πm
+πs ; πs
+(πC, πN)
+(RnC, RnN)
+(RgC, RgN)
+λ
+
+y1
+
+y2
+
+φ1(10−3)
+
+φ2(10−3)
+
+τ1(10−4)
+
+τ2(10−4)
+
+0.9
+0.85
+0.8
+0.75
+0.7
+1
+9.5
+0.9
+0.85
+0.8
+1
+9.5
+0.9
+0.85
+0.8
+10
+9.5
+9
+8.5
+8
+5
+4.5
+4
+3.5
+3
+8
+7.5
+7
+6.5
+6
+10
+9.5
+9
+8.5
+8
+
+(0.161,0.099)
+(0.158,0.097)
+(0.154,0.095)
+(0.151,0.094)
+(0.149,0.093)
+(0.163,0.100)
+(0.159,0.098)
+(0.154,0.095)
+(0.149,0.093)
+(0.144,0.09)
+(0.169,0.103)
+(0.162,0.099)
+(0.154,0.095)
+(0.145,0.091)
+(0.135,0.086)
+(0.156,0.096)
+(0.155,0.096)
+(0.154,0.095)
+(0.153,0.095)
+(0.152,0.094)
+(0.139,0.088)
+(0.147,0.092)
+(0.154,0.095)
+(0.162,0.099)
+(0.169,0.103)
+(0.158,0.100)
+(0.156,0.097)
+(0.154,0.095)
+(0.152,0.093)
+(0.150,0.091)
+(0.151,0.094)
+(0.153,0.095)
+(0.154,0.095)
+(0.156,0.096)
+(0.157,0.097)
+
+(0.098,0.070)
+(0.105,0.072)
+(0.112,0.074)
+(0.120,0.077)
+(0.129,0.081)
+(0.124,0.081)
+(0.118,0.078)
+(0.112,0.074)
+(0.106,0.071)
+(0.100,0.068)
+(0.106,0.072)
+(0.109,0.073)
+(0.112,0.074)
+(0.115,0.076)
+(0.119,0.078)
+(0.107,0.072)
+(0.109,0.073)
+(0.112,0.074)
+(0.115,0.076)
+(0.118,0.070)
+(0.127,0.082)
+(0.119,0.078)
+(0.112,0.074)
+(0.104,0.071)
+(0.097,0.067)
+(0.110,0.074)
+(0.111,0.074)
+(0.112,0.074)
+(0.113,0.075)
+(0.114,0.075)
+(0.117,0.079)
+(0.114,0.077)
+(0.112,0.074)
+(0.109,0.072)
+(0.107,0.070)
+
+(6.794,4.859)
+(6.722,4.790)
+(6.646,4.720)
+(6.567,4.649)
+(6.486,4.577)
+(6.773,4.806)
+(6.709,4.763)
+(6.646,4.720)
+(6.584,4.678)
+(6.524,4.638)
+(6.734,4.781)
+(6.693,4.753)
+(6.646,4.720)
+(6.592,4.682)
+(6.529,4.638)
+(6.592,4.678)
+(6.618,4.698)
+(6.646,4.720)
+(6.677,4.744)
+(6.710,4.770)
+(6.540,4.624)
+(6.592,4.670)
+(6.646,4.720)
+(6.702,4.775)
+(6.762,4.836)
+(6.395,4.730)
+(6.642,4.725)
+(6.646,4.720)
+(6.651,4.716)
+(6.656,4.713)
+(6.645,4.743)
+(6.645,4.731)
+(6.646,4.720)
+(6.647,4.710)
+(6.649,4.700)
+
+(11.151,8.724)
+(11.063,8.663)
+(10.965,8.594)
+(10.860,8.519)
+(10.75,8.439)
+(11.184,8.768)
+(11.074,8.680)
+(10.965,8.594)
+(10.859,8.510)
+(10.755,8.427)
+(11.137,8.727)
+(11.057,8.665)
+(10.965,8.594)
+(10.859,8.513)
+(10.736,8.418)
+(10.892,8.537)
+(10.927,8.564)
+(10.965,8.594)
+(11.007,8.627)
+(11.053,8.662)
+(10.835,8.501)
+(10.901,8.548)
+(10.965,8.594)
+(11.028,8.637)
+(11.089,8.677)
+(10.891,8.537)
+(10.931,8.566)
+(10.965,8.594)
+(10.999,8.622)
+(11.032,8.650)
+(10.883,8.524)
+(10.925,8.559)
+(10.965,8.594)
+(11.005,8.628)
+(11.044,8.662)
+
+(17.945,13.583)
+(17.784,13.453)
+(17.611,13.314)
+(17.427,13.167)
+(17.236,13.016)
+(17.958,13.574)
+(17.783,13.443)
+(17.611,13.314)
+(17.443,1.188)
+(17.279,13.065)
+(17.871,13.508)
+(17.750,13.417)
+(17.611,13.314)
+(17.451,13.195)
+(17.265,13.056)
+(17.483,13.215)
+(17.544,13.262)
+(17.611,13.314)
+(17.684,13.370)
+(17.763,13.432)
+(17.185,13.125)
+(17.075,13.219)
+(17.611,13.314)
+(16.960,13.412)
+(16.723,13.513)
+(17.536,13.268)
+(17.573,13.290)
+(17.611,13.314)
+(17.611,13.338)
+(17.649,13.363)
+(17.529,13.267)
+(17.570,13.290)
+(17.611,13.314)
+(17.652,13.338)
+(17.693,13.363)
+
+policy, we consider the refund amount and the selling price of product, while product
+quality level, one of the most important factors to avoid return, is not mentioned. So
+considering quality level as the third factor affecting the both demand and return
+quantities could be of interests.
+

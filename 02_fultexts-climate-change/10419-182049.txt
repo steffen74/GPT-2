@@ -1,0 +1,3670 @@
+
+1 Introduction
+For decades shorter product life cycles, foreign competition and growing product diversity have been forcing manufacturing industry to continually ensure an increasing productivity while, at the same time, providing a high level
+
+of ﬂexibility. Group technology and cellular manufacturing
+have evolved as successful possibilities to meet these requirements [19]. In the context of manufacturing, group technology is deﬁned as concept of grouping heterogeneous parts
+to part families in order to establish efﬁcient production processes [39]. The assignment of parts to part families is usually conducted according to similarities concerning the parts’
+geometry as well as required processes, machines and tools.
+As similar parts are processed together, particularly setup
+times can be reduced signiﬁcantly [39]. Especially the integration of group technology into the concept of lean manufacturing gave impetus for a widespread application in practice [5].
+Based on group technology, cellular manufacturing deﬁnes the grouping of resources and machines to autonomous
+manufacturing cells on the shop ﬂoor [8]. The objective is
+to form independent cells that are capable of processing all
+necessary operations for a set of part families. Hence, intercellular material ﬂow is avoided [39]. Besides the minimization of setup times, the main advantages of cellular manufacturing are lower throughput times, decreasing inventory,
+higher quality and fewer transport processes. With this, cellular manufacturing can constitute a basis for the successful implementation of just-in-time production [43]. Practical
+applications of cellular manufacturing have been reported
+in several areas of industry, such as automotive production
+[33], electronics manufacturing [14] and semiconductor industry [7].
+In cellular manufacturing systems an effective scheduling system is crucial to gain these advantages. While manufacturing cells often constitute a job shop or a ﬂow shop environment, the existence of part families leads to a scheduling task on two levels, usually referred to as group scheduling. On the one hand, a sequence of parts within each part
+within a part family can be integrated into processing times,
+for every changeover of jobs from different part families
+either sequence-independent (SIST) or sequence-dependent
+setup times (SDST) have to be taken into account. As an
+extension of classical scheduling, static group scheduling
+problems with sequence-dependent setup times are known
+to be NP-hard already even for single machine environments
+[25]. Thus, the development and application of heuristics is
+necessary. An effective scheduling system is characterized
+by its ability to reﬂect real production environments and especially its dynamic nature. Accordingly, it should be robust
+concerning diverse changes of shop conditions [24]. Simple
+heuristics based on dispatching rules are able to meet these
+requirements particularly since they are easy to implement
+in real-world manufacturing systems. Thus, they are of high
+relevance for practical applications and considered in this
+study.
+In this paper, the center of attention are two-stage heuristics that are characterized by three distinct major dispatching decisions [32]: First, the transition between two part
+families has to be deﬁned. Exhaustive rules assume that all
+jobs of a family have to be processed before a job from
+a different family is taken into account. In contrast, nonexhaustive rules allow switching of families even though
+parts of the current family are still queuing [21]. As exhaustive rules have shown superior performance compared
+to non-exhaustive rules for group scheduling problems [13],
+this study is limited to exhaustive rules. Second, a decision
+has to be made about which part family is processed. This
+family rule also determines the occurring setup times. Finally, a job rule determines the sequence of jobs within the
+current part family.
+Even though many manufacturing cells are organized as
+job shops, only few publications focus on this type of layout [11]. Meta-heuristic approaches have been proposed for
+scheduling static and deterministic job shop cells recently
+[40,11,38] and static ﬂowshop manufacturing cells still receive various attention [4,18]. However, to the best of our
+knowledge dynamic environments have not been considered
+since the last simulation study by Reddy and Narendran [30]
+and van der Zee et al. [42]. At the same time, several novel
+dispatching rules and recommendations for the design of
+rules have been proven to be efﬁcient in job shop manufacturing systems without part families [36,28]. Still, these
+rules have never been applied to group scheduling problems.
+Especially for sequencing part families no combined dispatching rules have been applied and tested so far. Furthermore, the inﬂuence of a cell’s conﬁguration has not been discussed in detail. In this paper we attempt to close this gap,
+pursuing a threefold objective: First, an detailed overview
+of existing simulation studies in group scheduling environments is given. For the ﬁrst time important results in this
+
+area are summarized in a comprehensive way. This analysis forms the basis for the following identiﬁcation of existing effective group scheduling dispatching rules as well as
+novel rules that have not been taken into account for group
+scheduling so far. Secondly, these rules are compared to each
+other in a dynamic manufacturing environment. By this, the
+most effective scheduling rules concerning the objectives of
+ﬂow time and tardiness can be identiﬁed. Finally, inﬂuencing factors that have not been considered explicitly in literature so far, such as cell conﬁguration and type of setup times,
+are examined in order to give insights on signiﬁcant parameters of a group scheduling production system. To achieve the
+last two objectives a comprehensive simulation study is conducted since simulation is known as suitable method for analyzing complex problems with large amounts of data [29].
+Two different conﬁgurations of cells are used. Besides a
+manufacturing cell with ﬁve machines, that has been widely
+used in literature, a smaller cell with three machines is considered. With this, the proposed study can give helpful insights for effective scheduling systems in practical cellular
+manufacturing environments.
+The remainder of this work is organized as follows: Section 2 gives a detailed overview of previous simulation studies on group scheduling problems. Prior results and the signiﬁcance of various inﬂuencing factors are summarized.
+Based on this, open questions are identiﬁed and the studied
+simulation model is described in Section 3. A well-founded
+selection of exhaustive two-stage heuristics and the chosen
+parameters are presented. Section 4 details the results of the
+conducted simulation study regarding the performance of
+the tested heuristics as well as inﬂuencing factors. Finally,
+in Section 5 essential ﬁndings are summarized and aims for
+future research are pointed out.
+2 Literature review
+Since the ﬁrst study in 1960 [2] until today [36], dispatching
+rules have been widely investigated in literature and are still
+of high relevance for research as well as for practice. While
+in the beginning basic dispatching rules had been tested only since the 1990s the capability of developing powerful
+heuristics by combining rules was exploited [1]. Moreover,
+various inﬂuencing factors for shop performance have been
+analyzed. Other research pointed out the signiﬁcance of an
+integrated process planning and scheduling [34]. Siemiatkowski and Przybylski [37] modeled and investigated process alternatives in cellular manufacturing systems by a simulation study.
+For group scheduling problems several two-stage heuristics were applied and tested in simulation studies since the
+1980s [27,29]. An overview of popular and effective heuristics is given in Table 1. Since different shop types showed
+in the following. As the setup of a simulation study has a
+signiﬁcant impact on the performance of certain rules, basic characteristics and effective dispatching rules are listed
+for each study, too. Fundamental insights and the inﬂuencing factors identiﬁed in these studies are summarized in the
+following.
+Two-stage heuristics versus single-stage dispatching rules
+Mosier, Elvers and Kelly [27] were the ﬁrst to prove the
+dominance of two-stage heuristics over single-stage dispatching rules concerning production-ﬂow-oriented criteria in job
+shop cells. In their simulation study several variations of utilization and setup to processing time ratios were tested. Only
+for due-date-based criteria, the use of single-stage rules could
+partly lead to superior results. However, no due-date-oriented
+family rule was considered [31]. This gap was closed by
+Mahmoodi, Dooley and Starr [23] who studied several duedate-based family rules. Still, two-stage heuristics outperformed single-stage heuristics for all criteria. These results
+were also conﬁrmed for ﬂow shop manufacturing cells by
+Wemmerl¨ v and Vakharia [45]. Besides, two-stage heuriso
+tics showed a signiﬁcantly lower variance compared to single-stage dispatching rules, whose performance is greatly
+determined by system parameters [27,31]. This justiﬁes a
+wide-ranging applicability of dispatching rules within twostage heuristics.
+Exhaustive versus non-exhaustive heuristics Mahmoodi and
+Dooley [21] observed that exhaustive family rules generally
+outperform non-exhaustive rules regarding production-ﬂoworiented criteria. Only for mean tardiness non-exhaustive
+rules could improve cell performance in cells with low utilization and loose due dates. Non-exhaustive rules show two
+contrary effects: a splitting of part families allows more jobs
+to be on time while, at the same time, this results in additional setup operations and, hence, increasing total ﬂow
+time. Furthermore, exhaustive heuristics were proven to be
+more robust regarding changes of inﬂuencing system parameters, in particular concerning the setting of due dates. The
+superiority of exhaustive rules was also conﬁrmed by Frazier
+[13]. Moreover, they are readily understandable and easy to
+implement in practice.
+Number and size of part families Simulation studies conducted by Wemmerl¨ v [43] and Wirth, Mahmoodi and Moso
+ier [46] showed that the advantage of two-stage heuristics
+compared to single-stage dispatching rules decreases with
+an increasing number of part families. This becomes reasonable by considering an extreme example with each family
+consisting of a single job only. Understandably, in this case
+a family rule does not enhance the performance of a job rule.
+Frazier [13] conﬁrms these results in his study for ﬂow shop
+
+3
+
+cells. Furthermore, he states that the number of part families
+does not impact the advantageousness of different two-stage
+heuristics compared to each other.
+A dominating part family with a signiﬁcant higher number of jobs generally leads to lower mean ﬂow times as fewer
+setup operations are necessary [43]. As a result, jobs belonging to this part family are less likely to be tardy. However,
+jobs from smaller part families tend toward a late date of
+completion as the machines are rarely set up for processing
+these part families. Particularly under mean tardiness criterion and a high cell utilization two-stage heuristics are often
+less robust, i. e. their performance differs widely dependent
+on variations of family size [31]. Hence, especially the variation of family size represents a signiﬁcant inﬂuencing factor
+for the selection of dispatching rules.
+Due date setting procedures Russel and Philipoom [32] investigated the effect of different types of due date setting
+procedures. They showed that a heuristic’s performance can
+be inﬂuenced by due date setting procedures signiﬁcantly,
+especially if mean tardiness is minimized. Nevertheless, superior two-stage heuristics remain favorable regardless of
+the chosen strategy. Mean ﬂow time criterion was generally less inﬂuenced by due date setting procedures. Besides,
+Mahmoodi and Dooley [21] report a case in that a nonexhaustive rule is superior compared to an exhaustive rule:
+in a setting with loose due dates the non-exhaustive dynamic
+due-date-based heuristic (DK) rule led to slightly lower mean
+tardiness, while with tight due dates DK and earliest due
+date (EDD) performed similarly.
+Setup times Wemmerl¨ v [43] showed that increasing setup
+o
+times lead to larger ﬂow times for both, priority rules and
+two-stage heuristics. The latter are less inﬂuenced by changes of setup times. In addition, a dominating part family as
+well as increasing setup times lead to a broader spread of
+the performance of heuristics concerning mean ﬂow time.
+Wirth, Mahmoodi and Mosier [46] come to the conclusion
+that the size of setup times has no signiﬁcant impact on the
+performance of a cell but on the ranking of heuristics.
+Cell utilization Furthermore, Wirth, Mahmoodi and Mosier
+[46] proved that cell utilization is crucial for its performance.
+Cells with a low workload generally result in low ﬂow times
+and less tardy jobs. However, the effectiveness of two-stage
+heuristics is less inﬂuenced by a varying cell utilization [31].
+Cell conﬁguration Mahmoodi, Tierney and Mosier [26] disclosed that generally ﬂow shop cells lead to a similar ranking of heuristics compared to job shop cells as presented
+by Mahmoodi, Dooley and Starr [23]. Besides, only few
+dispatching rules have been tested in single machine cells
+author
+
+year
+
+shop
+
+1
+
+¨
+W EMMERL OV [43]
+
+1992
+
+Single
+
+2
+
+M AHMOODI /M ARTIN [25]
+
+1997
+
+Single
+
+MS/SPT
+
+3
+
+RUSSELL /P HILIPOOM [32]
+
+1991
+
+Flow Shop
+
+APT/SPT
+
+4
+
+¨
+W EMMERL OV /VAKHARIA [45]
+
+1991
+
+Flow Shop
+
+5
+
+1992
+
+Flow Shop
+
+MS/SPT
+
+6
+
+F RAZIER [13]
+
+1996
+
+Flow Shop
+
+MJ/SPT
+
+# tested
+heuristics
+
+#families
+
+#operations
+job
+
+#routes
+
+#machines
+
+setup
+
+3
+
+4,8,
+16,32
+
+1
+
+1
+
+1
+
+SIST
+
+FCFS/FCFS
+
+6
+
+3
+
+1
+
+1
+
+1
+
+SDST
+
+EDD/EDD,FCFS/EDD,
+FCFS/SL,FCFS/EDD
+
+22
+
+5
+
+5
+
+1
+
+5
+
+SIST
+
+FCFS/FCFS
+
+4
+
+3,6
+
+5
+
+1
+
+5
+
+SIST
+
+EDD/TSPT
+
+EDD/TSPT
+
+4
+
+3
+
+5
+
+1
+
+5
+
+SDST
+
+EDD/TSPT
+
+MJ/SPT,SPT/SPT
+
+11
+
+4,8
+
+6
+
+1
+
+6
+
+SDST
+
+MJ/SPT,PH/SPT
+
+MJ/SPT,MJ/EDD
+PH/SPT
+
+9
+
+3
+
+5
+
+1
+
+5
+
+SIST
+
+5
+
+4,8
+
+2
+
+1
+
+2,5
+
+SIST
+
+15
+
+3
+
+2-4
+
+6
+
+4
+
+.
+SIST
+
+2
+
+3
+
+19,9
+
+10
+
+39
+
+SDST
+
+FCFS/FCFS
+
+M AHMOODI /T IERNEY /
+M OSIER [26]
+
+superior rules
+mean tardiness
+
+SPT/SPT
+
+mean ﬂow time
+
+% tardy
+
+7
+
+R EDDY /NARANDRAN [30]
+
+2003
+
+Flow Shop
+
+MJ/EDD,PH/SPT
+
+8
+
+VAN DER Z EE /G AALMAN /
+N OMDEN [42]
+
+2011
+
+Flexible
+Flow Shop
+
+MASP AD/SPT
+
+9
+
+M OSIER /E LVERS /
+K ELLY [27]
+
+1984
+
+Job Shop
+
+MW/SPT
+
+F LYNN [12]
+
+1987
+
+Job Shop
+
+FCFS/FCFS
+
+1990a
+
+Job Shop
+
+MS/SPT
+
+EDD/TSPT,EDD/SPT
+
+MS/SPT
+
+9
+
+3
+
+4-5
+
+12
+
+5
+
+SDST
+
+1990b
+
+Job Shop
+
+MS/SPT
+
+EDD/TSPT
+
+MS/SPT,MS/FCFS
+
+6
+
+3
+
+4-5
+
+12
+
+5
+
+SDST
+
+1991
+
+Job Shop
+
+MS/SPT
+
+DK/TSPT
+
+MS/SPT
+
+12
+
+3
+
+4-5
+
+12
+
+5
+
+SDST
+
+1993
+
+Job Shop
+
+MS/SPT
+
+EDD/TSPT,FCFS/FCFS
+
+MS/SPT
+
+5
+
+3
+
+3-5
+
+12
+
+5
+
+SDST
+
+1993
+
+Job Shop
+
+MS/SPT
+
+MS/SPT
+
+MS/SPT
+
+5
+
+3
+
+4-5
+
+12
+
+5
+
+SDST
+
+1994
+
+Job Shop
+
+SL/SPT,SL/SL
+
+MW/SL,SL/SL
+
+12
+
+3
+
+3-5
+
+16
+
+5
+
+SIST
+
+7
+
+SDST
+
+10
+11
+12
+13
+14
+15
+16
+
+M AHMOODI /D OOLEY /
+S TARR [23]
+M AHMOODI /D OOLEY /
+S TARR [22]
+M AHMOODI /D OOLEY [21]
+RUBEN /M OSIER /
+M AHMOODI [31]
+W IRTH /M AHMOODI
+M OSIER [46]
+K ANNAN /LYMAN [17]
+
+MW/SL
+
+SL/SL
+
+4
+
+P ONNAMBALAM /A RAVINDAN/
+DK/EDD,DK/SPT
+17
+1999
+Job Shop
+DK/EDD,DK/FCFS
+DK/EDD,DK/FCFS
+6
+3
+5-7
+54
+R EDDY [29]
+DK/FCFS
+APT = average processing time, DK = dynamic due-date-based heuristic, EDD = earliest due date, FCFS = ﬁrst come ﬁrst serve, MASP AD = minimum weighted work load considering
+similar conclusion were drawn in single machine environments [43]. Hence, a limited impact of the cell conﬁguration
+on the selection of heuristics can be expected. The inﬂuence
+of cell size has not be discussed in detail so far.
+Distribution of inter-arrival and processing times The greatest impact on shop performance concerning mean ﬂow time
+was ascertained by the distribution of inter-arrival and processing times. For an exponential distribution of the arrival
+of jobs Mahmoodi, Tierney and Mosier [26] detected strong
+differences in heuristics’ performance. However, this effect
+is stronger for single-stage heuristics compared to two-stage
+group scheduling heuristics. For uniformly distributed interarrival and processing times the differences between heuristics decrease [43].
+3 Model description
+3.1 Manufacturing environment
+The assumed model of a job shop manufacturing cell by
+Mahmoodi and Dooley [21] has been applied in several publications already [17,46]. Since it is our goal to analyze the
+inﬂuence of several factors on shop performance, the use of
+this model allows a direct comparison of the results to previous studies and eliminates the impact of a novel cell conﬁguration on the performance of heuristics. Furthermore, based
+on various empirical studies the considered cell represents
+a typical size and conﬁguration of real-life manufacturing
+cells [31,42,44]. Nowadays, however, an increasing number of reconﬁgurable machines and a concentration of operations instead of diversiﬁcation often lead to smaller manufacturing cells and lower numbers of operations become
+more relevant. Thus, a second cell with less machines was
+considered additionally. This cell model is also motivated
+by a mid-sized injection molding enterprise, that produces
+composite thermosetting plastic elements and uses a similar
+production system. Besides a closer representation of manufacturing practice, this allows an analysis of the inﬂuence
+of cell size on a manufacturing cell’s performance.
+In the simulation model a set of jobs j ∈ N has to be processed on one or several machines i ∈ M of a manufacturing
+cell. Each job is assigned to a distinct part family f ∈ F. It
+has to be noted that a job is not further speciﬁed and may,
+dependent on the respective production system, also be interpreted as lot consisting of several identical products. Figure 1 displays both considered types of cells consisting of
+ﬁve and three machines, representing limited resources. As
+a job arrives in the system all relevant parameters are set and
+it is assigned to one of three part families as well as a certain route. In the ﬁrst conﬁguration, referred to as 5M, all
+
+5
+
+W S31
+W S21
+
+W S34
+W S24
+
+M1
+
+W S11
+
+W S33
+W S23
+
+W S32
+W S22
+
+M4
+
+W S14
+M3
+
+W S13
+
+W S35
+W S25
+
+M2
+
+W S12
+
+M5
+
+W S15
+
+3M
+
+5M
+
+Fig. 1: Considered model of a job shop manufacturing cell
+
+jobs consist of four to ﬁve operations with predetermined
+machines. Each route starts with an operation either on Machine 1 or Machine 2 and exits on Machine 4 or 5. Furthermore, Machine 3 is considered by all available routes.
+Hence, Machine 3 constitutes a bottleneck that can be used
+as a measure for the utilization of the manufacturing cell
+[27]. Reentrant material ﬂows are not considered. Every machine is able to treat one operation at a time and started jobs
+are not allowed to be disrupted. Moreover, time for transportation is neglected and there are unlimited buffers. The
+second cell conﬁguration considered equally consists of the
+ﬁrst three machines, but Machines 4 and 5 are not taken into
+account anymore. This smaller cell is referred to as 3M. In
+front of every machine three queues are established, one for
+each part family. With this, for a cell with 5 machines there
+are 12 different routes per part family. For the smaller cell
+with 3 machines 4 different routes per part family exist.
+As described above, several job characteristics that inﬂuence the performance of heuristics have been investigated
+very well already and, hence, can provide a practical orientation. In this study, parameters were chosen similarly to
+previous studies in order to secure comparability of results.
+Job arrivals All jobs are released immediately after arrival
+in the system. Inter-arrival times are exponentially distributed.
+This guarantees independence of arrivals of two succeeding
+jobs and is known to model real-world job arrivals realistically [3,41]. The mean value of inter-arrival times was determined by a pilot study using the basic two-stage heuristic
+FCFS/FCFS. With an average inter-arrival time of 70 minutes a medium utilization at Machine 3 of 85% could be
+ensured [21], with utilization being deﬁned as proportion of
+occupancy time and available time of Machine 3.
+Processing times Due to varying material quality and inconstant speed of operation through operation personnel, in reality processing times are often subject to considerable variation. Thus, similar to [31] a third-order Erlang distribution
+with a mean value of 60 minutes was chosen, i.e. processing
+two parts of the same family are assumed to be part of the
+processing times [21]. In contrast, major family setup times
+have to be taken into account as soon as the part family is
+switched. Since the variation of setup times is usually higher
+compared to processing times, a second-order Erlang distribution is used for generating these [25]. Until now, the
+inﬂuence of different setup to processing time ratios has
+been analyzed for either sequence-independent setups [32]
+or sequence-dependent setups [46] only. However, the impact of the type of setup time on the performance of heuristic algorithms has not been studied, yet. Hence, we analyze
+the considered manufacturing cell with sequence-dependent
+as well as sequence-independent setup times.
+– For the case of sequence-independent family setups, a
+mean value of 30 minutes was considered.
+– Sequence-dependent setup times were determined according to the mean values for every changeover from
+a family f to e shown in Table 2.
+
+1
+
+Family e
+2
+
+0.00
+
+15.00
+
+30.00
+
+2
+
+15.00
+
+0.00
+
+45.00
+
+3
+
+30.00
+
+45.00
+
+Family f
+
+Based on the literature review in Section 2 as well as the
+results of recent studies on dispatching rules in classical job
+shop environments, promising novel combinations of family
+and job rules are proposed. All tested combinations are exhaustive heuristics, due to their superior performance. Thus,
+all jobs of a queue have to be processed before a job of another family is taken into account. The tested heuristics are
+as follows:
+
+3
+
+1
+
+0.00
+
+With this, for SIST the mean value of setup to processing time ratio is 0.5, which is in accordance with previous
+studies that chose values between 0.1 [43] and 1.27 [25]. It
+has to be noted, that for SDST setup to processing time ratio
+may differ slightly from 0.5 since the number of setups to a
+certain family may be dependent on the proportion of jobs
+that are assigned to each family.
+Due date Due dates d j for each jobs are determined by Total
+Work Content (TWK) technique [45]. A constant parameter
+K is multiplied with the sum of processing times t ji of a job
+j on all machines i. This value is added to the time of arrival
+T j of job j in the cell:
+m
+
+d j = T j + K · ∑ t ji
+
+Family dominance An inﬂuencing factor, that is analyzed
+in our study, is the dominance of a part family regarding its
+size. In nearly all previous publications arriving jobs are assigned to each part family with an identical probability. Nevertheless, as mentioned before, especially two-stage heuristics are affected by a family’s dominance signiﬁcantly. Hence,
+besides a uniform distribution of jobs to part families, a strong
+dominance of one part family is investigated. The latter is
+accomplished by assigning new jobs with a probability of
+80% to the ﬁrst part family, while 10% of the arriving jobs
+are assigned to each of the other families [31].
+
+3.2 Group scheduling heuristics
+
+Table 2: Sequence-dependent setup times
+[min]
+
+heuristic, several values for K have been tested. K = 4.57
+and K = 4.11 considering conﬁguration 3M and respectively
+5M using sequence-independent setup times with no dominating part families lead to an average tardiness of about
+35%, which was chosen for our simulation study.
+
+(1)
+
+i=1
+
+In general, if the value of K is low, due dates become tight
+and tardiness of jobs increases. In contrast, a high value of
+K leads to loose due dates and ultimately results in no tardiness at all. Due-date-based job and family rules are appropriate to consider this effect. On the basis of the FCFS/FCFS
+
+(1) FCFS/FCFS: This simple heuristic selects the part family that contains the job that arrived ﬁrst at the current
+machine (ﬁrst come ﬁrst serve). All jobs from this part
+family are processed according to their arrival at the queue
+[22]. As one of the ﬁrst group scheduling heuristics that
+has widely been used in previous simulation studies, FCFS/FCFS provides a basis for evaluating other rules.
+(2) MS/SPT: First, the part family requiring minimum setup
+time (MS) is selected. The jobs of this family are sequenced according to shortest processing time dispatching rule (SPT). MS/SPT is known as one of the best rules
+for minimizing mean ﬂow time as well as the proportion
+of tardy jobs in group scheduling environments.
+(3) MS /SPT: Even though recent studies point out the effecMJ
+tiveness of combined dispatching rules [36], these have
+not been applied for scheduling part families, so far. The
+family rule MS is a promising combination. A families e
+MJ
+priority index Pe is determined by the quotient of setup
+time s f ei for a changeover from the currently processed
+family f to e on machine i and the number of jobs nei
+waiting in the queue of family e at machine i. With this,
+Pe =
+
+s f ei
+nei
+
+∀e, f ∈ F, e = f .
+
+(2)
+
+Hence, the minimum setup time per job in a queue decides which family is processed ﬁrst. The performance
+of this dispatching rule is investigated together with SPT
+for sequencing jobs within each family.
+(4) MS /SPT+RPT: An additive combination of SPT rule
+MJ
+and the remaining processing time (RPT, also referred
+to as shortest remaining processing time rule SRPT) also
+led to good results for job shop scheduling [36]. The job
+rule chooses a job j that has the lowest sum of processing times of the current operation u and the processing
+times from the current operation u up to the operation on
+the last subsequent machine m. Hence the priority index
+Pj for each job j is determined by
+m
+
+Pj = t ju + ∑ t ji
+
+∀ j ∈ N.
+
+(3)
+
+i=u
+
+Compared with MS /SPT this newly combined heuristic
+MJ
+serves as a basis for assessing the impact of the job rule
+on the performance of a heuristic.
+(5) EDD/TSPT: The family rule EDD ﬁrst dispatches the
+family that contains the job with earliest due date. All
+jobs of this family are sequenced according to TSPT
+rule (two class truncated SPT). In contrast to the conventional slack rule (SL), jobs with negative or no slack
+are considered ﬁrst and are assigned to a priority queue.
+With CT being the current time and t ju the processing
+time of the current operation u, a job’s j slack SL j is
+deﬁned by
+
+7
+
+Again, part families are sequenced in ascending order
+of Pe , while all jobs are sequenced concerning the TSPT
+rule. This heuristic serves for evaluating the novel family
+¯
+rule SL especially.
+¯
+(7) SL/SL: The SL rule for sequencing jobs within each part
+family is considered, which is promising for due-datebased criteria. With Equation 4 the priority index for a
+job j is given by
+Pj = SL j
+
+∀ j ∈ N.
+
+(6)
+
+It is combined with the new exhaustive family slack rule
+¯
+SL.
+SL
+¯ SL
+(8) SL/ RPT : Likewise, the novel combined RPT job rule,
+that can be seen as slack per unit of remaining processing time, is used for sequencing the jobs within each part
+family. The idea behind this rule is that for jobs with
+a high number of remaining operations (and therewith
+processing time) the probability of waiting times on subsequent machines might be higher compared to jobs with
+less work remaining. Hence, jobs with little slack and a
+high number of following machines are prioritized by
+processing jobs with a minimum priority index Pj at the
+current machine u ﬁrst.
+Pj =
+(9)
+
+SL j
+m
+∑i=u t ji
+
+∀ j ∈ N.
+
+(7)
+
+MS
+MJ /SL:
+
+A combination of a due-date-oriented job rule
+with a family rule that takes setup time related information into account may provide good results for minimizing tardiness related criteria. Hence, the combined MS
+MJ
+rule is used for sequencing families, while SL is applied
+for jobs.
+
+m
+
+SL j = d j − ∑ t ji − CT
+
+∀ j ∈ N.
+
+(4)
+
+i=u
+
+All jobs in the priority queue with SL j ≤ 0 are ordered
+according to SPT [23]. Each job with SL j > 0 belongs to
+a non-priority queue, which is considered only if no job
+with negative or no slack exists. For these jobs, again,
+SPT rule is used. This rule is known to show a high performance concerning the minimization of average tardiness and serves as a benchmark for novel heuristics.
+¯
+(6) SL/TSPT: The total slack of a family has been considered several times in a variety of ways, but always as
+non-exhaustive rule [21]. Since exhaustive rules gener¯
+ally showed superior results, here SL is used in an exhaustive manner. The family priority index Pe at the respective machine i is determined by the total slack of all
+jobs assigned to a certain family divided by the number
+of jobs
+Pe =
+
+∑n (d j − ∑m t ji − CT )
+i=u
+j=0
+nei
+
+∀e ∈ F.
+
+(5)
+
+Summing up, heuristics (3), (4), (6), (7), (8) and (9) have
+not been tested in the past and are considered for the ﬁrst
+time.
+
+3.3 Experimental setup
+The described production environment was implemented using simcron MODELLER. This discrete event simulator has
+been developed for modeling production processes speciﬁcally. In the beginning of every simulation run, the production system is empty and undergoes a warm-up period [15].
+Similar to previous studies, the length of the warm-up period
+was predeﬁned with 2,000 hours. Dependent variables were
+not recorded during this timespan. After the warm-up period
+for each run, 8,000 hours of the manufacturing process were
+simulated [21,22]. Since reliable results can be realized by
+a long duration of a run rather than by frequent reiterations,
+type and part family dominance leads to four scenarios for
+both conﬁgurations 3M and 5M:
+Scenario I: sequence-dependent setup times with no dominating part family
+Scenario II: sequence-independent setup times with no dominating part family
+Scenario III: sequence-dependent setup times with dominance of one part family
+Scenario IV: sequence-independent setup times with dominance of one part family
+In order to achieve statistically precise results 40 runs were
+performed for each conﬁguration. Hence, the number of simulation runs in total is determined by
+2 conﬁgurations· 4 scenarios · 9 heuristics · 40 runs
+= 2, 880 simulation runs.
+
+(8)
+
+Statistical tests are necessary to prove the signiﬁcance of
+different rules or experimental factors. In order to evaluate
+ascertained results for differences in heuristic performance,
+a two-sample t-test was performed for a conﬁdence interval
+of 0.95. Also, a two-way Analysis of Variance (ANOVA) as
+well as a one-way ANOVA for speciﬁc rules were conducted
+to examine possible effects of experimental factors.
+
+3.4 Performance measures
+In order to evaluate the performance of heuristics and the
+impact of inﬂuencing factors a production-ﬂow-oriented as
+well as two due-date-based measures are monitored. Production-ﬂow-oriented performance measures are used to minimize the total work in process (WIP) and, therewith, inventory as well as capital commitment costs [6,16]. In contrast,
+due-date-oriented performance measures aspire a punctual
+completion of jobs in order to minimize contractual penalties and customer discontent [35].
+¯
+1. The minimization of mean ﬂow time F represents the
+ﬁrst objective and equals a job’s time in the system. Flow
+time is a common performance measure in job shop environments. It is deﬁned as the sum of completion times
+C j less the release times r j concerning all jobs j divided
+by the total number of jobs n [10]:
+1
+¯
+F :=
+n
+
+n
+
+1
+
+n
+
+∑ Fj = n ∑ (C j − r j ).
+
+j=1
+
+(9)
+
+j=1
+
+¯
+2. In this study, we consider mean tardiness T as ﬁrst duedate-based performance measure. It is deﬁned as the average difference between the completion time C j and
+due date d j of all jobs j [9]:
+
+1
+¯
+T :=
+n
+
+n
+
+∑ (max
+
+C j − d j ; 0 ).
+
+(10)
+
+j=1
+
+3. Since contractual penalties are not necessarily proportional to tardiness but can be incurred as ﬁxed penalties
+per tardy job, besides mean tardiness the proportion of
+tardy jobs is considered as second due date related performance measure. It is deﬁned as number of tardy jobs
+divided by the total number of jobs:
+
+T# :=
+
+1
+n
+
+n
+
+∑ U j,
+
+with
+
+j=1
+
+U j = 1, if C j > d j
+U j = 0, if C j ≤ d j .
+
+(11)
+
+4 Results and discussion
+4.1 Mean ﬂow time
+General results Table 3 summarizes the average values over
+all studied scenarios and ranks all investigated heuristics
+regarding mean ﬂow time. A line between heuristics indicates differences that are not statistically signiﬁcant according to two-sample t-test. It can be seen that considerable divergences arise subject to the selected heuristic. However,
+Figure 2 shows, that the relative performance of all heuristics comparing 3M and 5M in all scenarios is very similar.
+Furthermore, data conﬁrms the results of previous studies
+that the application of dispatching rules that are calculated
+similarly to the considered optimization criteria are usually
+promising. Due-date-based dispatching rules generally lead
+to higher ﬂow times compared to production-ﬂow-oriented
+rules.
+Results with respect to scenarios All four scenarios lead to
+similar results concerning the ranking of heuristics, showing statistically insigniﬁcant differences only. Overall, either MS/SPT or the novel MS /SPT heuristic perform best,
+MJ
+¯ SL
+followed by the MS /SPT+RPT heuristic. The novel SL/ RPT
+MJ
+heuristic performed as poor as FCFS/FCFS and even showed
+the weakest effectiveness considering family dominance (cf.
+Table 3).
+Inﬂuence of job and family rules However, novel combined
+job rules cannot lead to an improvement of mean ﬂow time
+in general. Out of all production-ﬂow-based rules SPT+RPT
+shows the weakest results compared to single dispatching
+rules. Using MS family rule, SPT job rule leads to between
+MJ
+0.3% (Scenario II - 541.52 vs. 543.27) and 1.4% (Scenario
+
+Table 3: Ranking of heuristics: Mean ﬂow time
+3M
+Ranking
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+No dominating family/SDST
+Scenario I [min]
+
+|
+|
+|
+|
+
+5M
+Ranking
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+538.85
+539.15
+541.37
+553.71
+589.55
+591.95
+622.12
+647.18
+648.80
+444.44
+
+MS
+MJ /SPT
+MS/SPT
+MS
+MJ /SPT+RPT
+MS
+MJ /SL
+¯
+SL/TSPT
+EDD/TSPT
+¯
+SL/SL
+FCFS/FCFS
+¯
+SL/ SL
+RPT
+
+No dominating family/SIST
+Scenario II [min]
+
+|
+|
+|
+|
+
+No dominating family/SDST
+Scenario I [min]
+
+|
+
+|
+
+801.23
+804.98
+823.52
+846.51
+872.87
+875.97
+923.93
+938.83
+939.83
+
+MS
+MJ /SPT
+MS/SPT
+MS
+MJ /SPT+RPT
+MS
+MJ /SL
+¯
+SL/TSPT
+EDD/TSPT
+¯
+SL/SL
+FCFS/FCFS
+¯ SL
+SL/ RPT
+
+541.52
+542.38
+543.27
+562.90
+580.38
+585.70
+604.73
+629.22
+634.62
+444.44
+
+MS
+MJ /SPT
+MS/SPT
+MS
+MJ /SPT+RPT
+MS
+MJ /SL
+EDD/TSPT
+¯
+SL/TSPT
+¯
+SL/SL
+FCFS/FCFS
+¯
+SL/ SL
+
+Family dominance/SDST
+Scenario III [min]
+
+|
+|
+
+|
+
+RPT
+
+No dominating family/SIST
+Scenario II [min]
+
+|
+|
+|
+|
+
+808.45
+809.12
+831.15
+852.60
+853.41
+856.40
+908.22
+923.48
+926.40
+
+MS/SPT
+MS
+MJ /SPT
+MS
+MJ /SPT+RPT
+EDD/TSPT
+MS
+MJ /SL
+¯
+SL/TSPT
+¯
+SL/SL
+FCFS/FCFS
+¯ SL
+SL/ RPT
+
+391.97
+394.62
+400.40
+405.32
+408.05
+412.13
+430.58
+456.32
+481.62
+444.44
+
+MS/SPT
+MS
+MJ /SPT
+MS
+MJ /SPT+RPT
+EDD/TSPT
+¯
+SL/TSPT
+MS
+MJ /SL
+¯
+SL/SL
+FCFS/FCFS
+¯
+SL/ SL
+
+Family dominance/SIST
+Scenario IV [min]
+
+|
+|
+|
+
+RPT
+
+Family dominance/SDST
+Scenario III [min]
+
+|
+|
+
+608.82
+610.17
+621.40
+627.07
+627.47
+647.03
+672.97
+698.67
+722.13
+
+MS
+MJ /SPT
+MS/SPT
+MS
+MJ /SPT+RPT
+EDD/TSPT
+¯
+SL/TSPT
+MS
+MJ /SL
+¯
+SL/SL
+FCFS/FCFS
+¯ SL
+SL/ RPT
+
+418.20
+418.58
+421.62
+426.35
+427.57
+441.12
+450.97
+477.53
+501.95
+444.44
+
+MS
+MJ /SPT
+MS/SPT
+MS
+MJ /SPT+RPT
+EDD/TSPT
+¯
+SL/TSPT
+MS
+MJ /SL
+¯
+SL/SL
+FCFS/FCFS
+¯
+SL/ SL
+RPT
+
+Family dominance/SIST
+Scenario IV [min]
+
+|
+|
+|
+
+640.83
+643.15
+651.70
+654.63
+656.72
+682.81
+698.90
+732.92
+743.20
+
+MS/SPT
+MS
+MJ /SPT
+EDD/TSPT
+¯
+SL/TSPT
+MS
+MJ /SPT+RPT
+MS
+MJ /SL
+¯
+SL/SL
+FCFS/FCFS
+¯ SL
+SL/ RPT
+
+| ... performance differences are not statistically signiﬁcant
+
+SL
+2.7% (Scenario I). Among due-date-based job rules RPT offers the least performance. It is outperformed even by the
+simple FCFS/FCFS heuristic. Moreover, TSPT outperforms
+SL
+RPT by 7.1% (5M, Scenario I) to 15.3% (3M, Scenario III),
+¯
+both tested with SL family rule. This dispatching rule prioritizes jobs with larger remaining work if slack is equal. Thus,
+it prefers jobs with longest processing time while jobs with
+smaller processing times have to wait and, consequently,
+mean ﬂow time is increasing. Apparently, this negative effect dominates the original idea of anticipating possible setup
+operations as described in Section 3.2. An overall improvement of up to 15.3% depending on the chosen job rule indicates a strong impact of the job rule on a heuristic’s performance.
+
+In scenarios of equal sized families, except Scenario II in
+5M conﬁguration, the novel combined MS /SL heuristic outMJ
+perform due-date-oriented heuristics. In Scenarios III and
+¯
+IV, EDD/TSPT and SL/TSPT generally show superior results. This, again, suggests a strong inﬂuence on the performance caused by the job selection rule. If a dominating part
+family queue is chosen TSPT prioritizes according to SPT,
+within priority and non-priority queue. This helps to process
+efﬁcient the jobs of this part family until a time consuming
+setup is required. In case of equal sized families, there are
+more setups which can be better managed by the MS family
+MJ
+rule and the impact of the job rule decreases.
+
+4.2 Mean tardiness
+General results Concerning all scenarios applied to 5M conﬁguration, comparisons of the best and worst heuristics show
+differences between 30.7% (Scenario II) and 38.4% (Scenario I). Considering scenarios with families of the same
+size and 3M conﬁguration, this difference is very similar. A
+dominating family leads to performance differences of even
+up to 49.4% (3M, Scenario III). With MS family rule and
+MJ
+replacing the SPT+RPT job rule by SPT, small improvements of 1.0% (Scenario II) to 3.8% (Scenario IV) can be
+aspired im 3M conﬁguration. But regarding 5M, much more
+improvement of up to 9.2% (Scenario I) can be achieved.
+Results with respect to scenarios In comparison to results
+with ﬂow time objective, for mean tardiness the ranking of
+heuristics varies considerably dependent on the regarded scenario (see Table 4). This implies a signiﬁcant impact of the
+studied inﬂuencing factors. Due-date-based dispatching rules
+are not advantageous in all scenarios. Instead, for sequencedependent setup times and part families of the same size
+(Scenario I) the novel MS /SPT heuristic leads to the lowMJ
+est average tardiness in 5M conﬁguration. MS/SPT, which
+is also an production-ﬂow-oriented rule, follows even with
+a statistically signiﬁcant difference considering 5M conﬁguration. Regarding 3M all heuristics using the MS family rule
+MJ
+¯
+heuristics regarding both conﬁgurations.
+No clear statement can be made about the advantageousness of production ﬂow or due-date-based rules for Scenario II in 5M conﬁguration. Thus, the proposed MS /SPT
+MJ
+¯
+and SL/TSPT heuristics are as efﬁcient as the well known
+MS/SPT and EDD/TSPT heuristics. On the contrary, production-ﬂow-based family rules signiﬁcantly outperform duedate-based family rules in the same scenario considering
+3M. This also applies to both conﬁgurations with respect
+to Scenario I shown in Table 4.
+Both scenarios with family dominance result in a similar ranking in both conﬁgurations. Due-date-based family
+¯
+heuristics like SL/TSPT and EDD/TSPT signiﬁcantly per¯
+formed best, followed by SL/SL, MS/SPT and MS /SPT reMJ
+spectively. Similar to mean ﬂow time criterion, MS /SL is
+MJ
+outperformed by due-date-oriented heuristics in all scenarios of family dominance as well as Scenario II using the
+5M conﬁguration. Remaining scenarios show an opposite
+ranking. Thus, family rules beneﬁt from the consideration of
+setup information in scenarios of equal sized families. This
+is reasonable since setups occur more often in this case. Fi¯
+nally, the novel SL/TSPT shows superior results for scenarios of family dominance and MS /SPT for scenarios of equal
+MJ
+sized families.
+Inﬂuence of job and family rules Applying SL as job rule
+SL
+instead of RPT results in a decrease of average mean tardiness between 12.2% (Scenario II) and 30.4% (Scenario IV)
+considering the 5M and even between 18.0% (Scenario I)
+and 45.6% (Scenario III) using 3M conﬁguration if, at the
+¯
+same time, families are sequenced by SL.
+
+4.3 Proportion of tardy jobs
+General results Table 5 shows the simulation results and
+the ranking of heuristics considering the proportion of tardy
+jobs. A comparison of charts displayed in Figure 3 and Figure 4 shows that the rankings of heuristics are generally
+similar to those gained considering mean tardiness. Furthermore, both conﬁgurations are similar and even comparable
+to the ranking with mean ﬂow time criterion in the case of
+equal sized families (cf. Table 3). Thus, ﬂow-time-oriented
+heuristics like MS /SPT and MS/SPT show best results.
+MJ
+Results with respect to scenarios Scenario II with 5M conﬁguration shows that novel MS /SPT outperforms all other
+MJ
+heuristics signiﬁcantly. Considering all four scenarios and
+both conﬁgurations, in seven out of eight cases the novel
+MS
+MJ /SPT performed superior in respect of the proportion of
+tardy jobs. In contrast, due-date-oriented heuristics performed
+poorly and the novel combination of a ﬂow-time-oriented
+
+¯
+F in min
+900
+
+840
+
+720
+
+600
+
+480
+
+360
+
+240
+
+120
+
+L
+FS SPT SPT RPT SPT SPT ¯ /SL / SRPT
+¯
+/T ¯L/T
+/FC MS/ MS J/ PT+
+SL SL
+D
+M
+FS
+S
+S S
+ED
+M J/
+FC
+
+L
+
+S S
+M J/
+M
+
+M
+
+3M: Uniform families and SDST
+
+5M: Uniform families and SDST
+
+3M: Uniform families and SIST
+
+5M: Uniform families and SIST
+
+3M: Family dominance and SDST
+
+5M: Family dominance and SDST
+
+3M: Family dominance and SIST
+
+5M: Family dominance and SIST
+
+Fig. 2: Results: mean ﬂow time
+family rule and due-date-oriented job rule, MS /SL, is middleMJ
+¯
+ranking. Furthermore, Figure 4 shows, that the novel SL/
+TSPT rule performs more robust than EDD/ TSPT. In Scenario I and Scenario III considering 3M EDD/ TSPT performs very poor while in all other scenarios the performance
+of these two heuristics is similar. The novel combined job
+SL
+rules SPT+RPT and RPT are outperformed by the simple
+SPT and respectively SL rule in all scenarios. FCFS/FCFS
+¯ SL
+and SL/ RPT perform worst. The results show, that the criterion of proportion of tardy jobs is very robust regarding both
+sets of family sizes and setup times. Furthermore, they indicate that a fast production ﬂow is particularly successful to
+achieve less tardy jobs.
+
+4.4 Multi-criteria evaluation
+In order to evaluate whether certain heuristics are dominated by other, the heuristics’ performance considering several performance measures is investigated in this section by
+the use of selected scatter plots with Pareto-fronts, one for
+each Scenario.Considering mean ﬂow time and proportion
+of tardy jobs the rankings of heuristics resemble over all
+scenarios. In case of differences usually one superior rule
+evolves, which is mostly the novel MS /SPT. Exemplarily,
+
+Table 4: Ranking of heuristics: Mean tardiness
+3M
+Ranking
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+No dominating family/SDST
+Scenario I [min]
+
+|
+|
+|
+|
+|
+
+5M
+Ranking
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+67.17
+67.88
+68.03
+68.72
+79.53
+83.92
+87.58
+106.87
+106.95
+444.44
+
+MS
+MJ /SL
+MS
+MJ /SPT
+
+MS/SPT
+MS
+MJ /SPT+RPT
+¯
+SL/TSPT
+EDD/TSPT
+¯
+SL/SL
+¯ SL
+SL/ RPT
+FCFS/FCFS
+
+No dominating family/SIST
+Scenario II [min]
+
+|
+||
+|
+|
+|
+|
+
+No dominating family/SDST
+Scenario I [min]
+
+|
+|
+
+66.08
+68.78
+72.28
+72.80
+75.25
+82.18
+86.47
+99.02
+107.22
+
+MS
+MJ /SPT
+MS/SPT
+MS
+MJ /SL
+MS
+MJ /SPT+RPT
+¯
+SL/TSPT
+EDD/TSPT
+¯
+SL/SL
+¯ SL
+SL/ RPT
+FCFS/FCFS
+
+68.35
+69.02
+69.82
+71.75
+75.78
+76.07
+77.47
+96.68
+99.37
+444.44
+
+MS
+MJ /SPT
+MS
+MJ /SPT+RPT
+
+MS/SPT
+MS
+MJ /SL
+¯
+SL/TSPT
+EDD/TSPT
+¯
+SL/SL
+FCFS/FCFS
+¯ SL
+SL/ RPT
+
+Family dominance/SDST
+Scenario III [min]
+
+|
+||
+|
+|
+|
+
+No dominating family/SIST
+Scenario II [min]
+
+|
+|
+|
+|
+|
+
+68.87
+69.05
+70.38
+71.62
+74.22
+76.00
+79.80
+90.85
+99.32
+
+¯
+SL/TSPT
+MS/SPT
+MS
+MJ /SPT
+EDD/TSPT
+MS
+MJ /SL
+MS
+MJ /SPT+RPT
+¯
+SL/SL
+¯ SL
+SL/ RPT
+FCFS/FCFS
+
+32.43
+33.17
+33.68
+34.82
+35.85
+36.85
+37.27
+41.47
+64.05
+444.44
+
+EDD/TSPT
+¯
+SL/TSPT
+MS/SPT
+¯
+SL/SL
+MS
+MJ /SPT
+MS
+MJ /SL
+MS
+MJ /SPT+RPT
+FCFS/FCFS
+¯ SL
+SL/ RPT
+
+Family dominance/SIST
+Scenario IV [min]
+
+|
+|
+||
+|
+|
+|
+
+Family dominance/SDST
+Scenario III [min]
+
+|
+|
+|
+|
+|
+
+32.98
+33.70
+36.68
+37.33
+37.40
+40.78
+42.00
+42.32
+51.80
+
+¯
+SL/TSPT
+EDD/TSPT
+¯
+SL/SL
+MS
+MJ /SPT
+MS/SPT
+MS
+MJ /SPT+RPT
+FCFS/FCFS
+MS
+MJ /SL
+¯ SL
+SL/ RPT
+
+36.52
+37.65
+39.00
+39.15
+40.38
+41.45
+43.58
+46.85
+67.72
+444.44
+
+¯
+SL/TSPT
+EDD/TSPT
+MS/SPT
+¯
+SL/SL
+MS
+MJ /SPT
+MS
+MJ /SPT+RPT
+MS
+MJ /SL
+FCFS/FCFS
+¯ SL
+SL/ RPT
+
+Family dominance/SIST
+Scenario IV [min]
+
+|
+|
+
+|
+|
+|
+
+37.17
+37.68
+40.85
+42.68
+43.67
+46.56
+47.60
+49.65
+58.68
+
+EDD/TSPT
+¯
+SL/TSPT
+¯
+SL/SL
+MS/SPT
+MS
+MJ /SPT
+MS
+MJ /SL
+MS
+MJ /SPT+RPT
+FCFS/FCFS
+¯ SL
+SL/ RPT
+
+| ... performance differences are not statistically signiﬁcant
+
+this is illustrated in Figure 5. A similar Pareto frontier is
+gained in Scenario I and Scenario II considering mean tardiness and proportion of tardy jobs (see Figure 6). MS /SPT
+MJ
+dominates most often all other heuristics.
+The decision for an superior heuristic is crucial in the
+case of mean tardiness and proportion of tardy jobs, particularly in Scenario III and Scenario IV. Considering Sce¯
+nario III EDD/TSPT and SL/TSPT perform well to minimize mean tardiness, whereas MS /SPT and MS/SPT showed
+MJ
+superior performance considering the proportion of tardy
+jobs. Thus, depending on the priority of criteria the respective rules should be preferred (see Figure 7). Furthermore,
+MS
+MJ /SPT tends to be superior considering the proportion of
+tardy jobs and MS/SPT is more suitable to minimize mean
+tardiness, as shown for example in Figure 8.
+
+4.5 Cell size
+Table 3 indicates less ﬂow time in all scenarios considering
+the three machine conﬁguration. This is reasonable, since
+there are less machines requiring a processing of operations.
+Considering the criterion of mean tardiness and proportion
+of tardy jobs the data of 5M conﬁguration resemble those
+of 3M conﬁguration. This also can be explained by the adjustment of due dates according to Total Work Content technique (TWK) to achieve a similar proportion of tardy jobs
+in both conﬁgurations.
+
+As it is shown in Figure 2, Figure 3 and Figure 4, graphs
+of both conﬁgurations have a similar shape with respect to
+the regarded scenarios. Thus, each scenario inﬂuences both
+conﬁgurations in a very similar manner. The only remarkable difference concerning the minimization of mean tardiness effects the ranking of EDD/TSPT and MS /SPT+RPT in
+MJ
+Scenario II.
+
+Depending on the respective scenario the best performing heuristic compared to worst heuristics leads to between
+12.7% (Scenario II) and 15.7% (Scenario III) lower mean
+ﬂow time in case of ﬁve machines and between 14.7% (Scenario II) and 18.6% (Scenario III) in case of 3 machines.
+Considering all scenarios the difference between the best
+and worst heuristic is always at least 2% greater in the 3M
+conﬁguration compared to 5M. This indicates that in small
+cells the selection of a good heuristic is more crucial. In
+larger cells with a higher number of operations these differences may be alleviated by subsequent stages. At the same
+time, however, statistically signiﬁcant differences in the ranking of heuristics appear less frequent in the three machine
+conﬁguration compared to 5M (cf. Table 3, 4 and 5). Thus,
+differences between the well performing heuristics are less
+3M
+Ranking
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+No dominating family/SDST
+Scenario I [%]
+
+|
+|
+
+|
+
+|
+
+5M
+Ranking
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+23.88
+24.22
+24.25
+25.21
+30.42
+32.01
+37.18
+37.37
+38.04
+444.44
+
+MS
+MJ /SPT
+MS
+MJ /SPT+RPT
+
+MS/SPT
+MS
+MJ /SL
+¯
+SL/TSPT
+¯
+SL/SL
+EDD/TSPT
+¯ SL
+SL/ RPT
+FCFS/FCFS
+
+No dominating family/SIST
+Scenario II [%]
+
+|
+|
+|
+|
+
+No dominating family/SDST
+Scenario I [%]
+
+|
+|
+|
+
+22.02
+22.42
+23.45
+24.38
+28.40
+28.52
+30.93
+35.31
+35.96
+
+MS
+MJ /SPT
+MS/SPT
+MS
+MJ /SPT+RPT
+MS
+MJ /SL
+¯
+SL/TSPT
+EDD/TSPT
+¯
+SL/SL
+¯ SL
+SL/ RPT
+FCFS/FCFS
+
+24.41
+24.67
+25.24
+25.70
+29.07
+29.58
+31.32
+34.53
+35.55
+444.44
+
+MS
+MJ /SPT
+MS/SPT
+MS
+MJ /SPT+RPT
+MS
+MJ /SL
+EDD/TSPT
+¯
+SL/TSPT
+¯
+SL/SL
+¯ SL
+SL/ RPT
+FCFS/FCFS
+
+Family dominance/SDST
+Scenario III [%]
+
+|
+|
+|
+
+No dominating family/SIST
+Scenario II [%]
+
+|
+|
+
+22.37
+22.91
+23.85
+25.02
+26.99
+27.01
+30.64
+33.91
+34.82
+
+MS
+MJ /SPT
+MS/SPT
+MS
+MJ /SPT+RPT
+MS
+MJ /SL
+¯
+SL/TSPT
+EDD/TSPT
+¯
+SL/SL
+¯ SL
+SL/ RPT
+FCFS/FCFS
+
+8.69
+8.80
+8.91
+8.91
+10.10
+10.82
+13.03
+15.54
+18.11
+444.44
+
+Family dominance/SIST
+Scenario IV [%]
+
+MS
+MJ /SPT
+MS/SPT
+MS
+MJ /SPT+RPT
+MS
+MJ /SL
+¯
+SL/TSPT
+¯
+SL/SL
+EDD/TSPT
+FCFS/FCFS
+¯
+SL/ SL
+
+|
+|
+|
+|
+
+RPT
+
+Family dominance/SDST
+Scenario III [%]
+
+|
+|
+|
+|
+
+8.05
+8.10
+8.33
+8.36
+8.99
+9.23
+9.60
+13.49
+15.71
+
+MS/SPT
+MS
+MJ /SPT
+MS
+MJ /SL
+MS
+MJ /SPT+RPT
+EDD/TSPT
+¯
+SL/TSPT
+¯
+SL/SL
+FCFS/FCFS
+¯
+SL/ SL
+RPT
+
+10.26
+10.43
+10.51
+10.56
+11.30
+11.66
+11.98
+17.60
+20.37
+444.44
+
+MS
+MJ /SPT
+MS/SPT
+MS
+MJ /SL
+MS
+MJ /SPT+RPT
+EDD/TSPT
+¯
+SL/TSPT
+¯
+SL/SL
+FCFS/FCFS
+¯
+SL/ SL
+RPT
+
+Family dominance/SIST
+Scenario IV [%]
+
+|
+
+|
+|
+
+9.33
+9.53
+9.65
+9.92
+10.23
+10.42
+10.82
+15.12
+17.32
+
+MS
+MJ /SPT
+MS/SPT
+MS
+MJ /SL
+MS
+MJ /SPT+RPT
+EDD/TSPT
+¯
+SL/TSPT
+¯
+SL/SL
+FCFS/FCFS
+¯
+SL/ SL
+RPT
+
+| ... performance differences are not statistically signiﬁcant
+
+4.6 Analysis of inﬂuencing factors
+Analyzed factors Tables 3, 4 and 5 summarize the substantial impact of the studied inﬂuencing factors, i.e. setup type
+and family dominance. Besides, Table 7 displays the results
+of the conducted analysis of variance (ANOVA) while the
+nomenclature is given in Table 8. With a level of signiﬁcance of 0.95 an inﬂuencing impact is indicated by a value
+F ≥ 3, 9. This value considers the quantity of simulation
+runs per scenario and heuristic as well as the number of
+speciﬁcations per factor. Furthermore, the total spread SST
+consists of several spreads caused by the inﬂuencing factors
+type of setup time (SSSDST /SIST ) as well as family dominance
+(SSeq/dom), their interaction (SSinteraction ) and spread of errors SSE .
+Family dominance In general, a dominating family leads
+to a lower mean ﬂow time and less tardy jobs. As shown
+in Table 7, almost the entire total spread is caused by the
+factor of part family dominance, regardless of the performance measure. Considering mean ﬂow time this proportion is larger in 5M conﬁguration compared to 3M, except
+¯ SL
+for SL/ RPT heuristic. This indicates a stronger factor impact
+of part family dominance in larger cell conﬁgurations. It can
+be explained by a higher number of setup operations if more
+stages are taken into account. Regarding the proportion of
+tardy jobs the impact of family dominance is stronger particularly in the large cell conﬁguration.
+
+The effect size of dominating part families is pointed
+out in Table 9 and Figure 9. It is apparent that the dominance of a certain family has a strong impact on the performance of heuristics. Concerning the ﬁve machine conﬁguration and mean ﬂow time criterion for all heuristics, except
+¯ SL
+for SL/ RPT , over 95% of the total variance can be explained
+by the dominance of families, while this is the case for over
+82% of the variance with mean tardiness criterion and even
+over 97% for proportion of tardy jobs criterion. This implies that the mean tardiness is less inﬂuenced by changes
+of the family dominance compared to ﬂow time and proportion of tardy jobs. However, at the same time, mean tardiness is effected considerably by other inﬂuencing factors,
+such as variances of setup, processing or inter-arrival times,
+which is also indicated by a high spread of unaccountable
+errors (SSE ) as shown in Table 7. According to Table 4, for
+mean ﬂow time and proportion of tardy jobs the ranking of
+heuristics remains unchanged independent of the underlying
+scenario while major differences can be identiﬁed for varying scenarios for mean tardiness. With a dominating family
+due-date-oriented heuristics lead to superior results, whereas
+production-ﬂow-based heuristics performed best in settings
+with equally distributed family sizes.
+
+Type of setup time As shown in Figure 2 SDST average
+to better results compared to SIST with family dominance,
+
+¯
+T in min
+
+100
+40
+80
+30
+60
+20
+40
+10
+20
+
+S
+SL T
+T
+L
+PT RPT SPT SPT
+CF
+¯ /S ¯ / P
+/SP MS J/S
++
+T ¯ /T
+SL SL R
+S/F MS
+L
+D/
+PT
+M
+F
+S
+S S
+ED
+M J/
+FC
+
+L
+FS SPT SPT RPT SPT SPT ¯ /SL / SRPT
+¯
+/T ¯L/T
+/FC MS/ MS J/ PT+
+SL SL
+D
+M
+FS
+S
+S S
+ED
+M J/
+FC
+
+L
+
+S S
+M J/
+M
+
+L
+
+S S
+M J/
+M
+
+M
+
+3M: Uniform families and SDST
+
+5M: Uniform families and SDST
+
+3M: Uniform families and SIST
+
+M
+
+5M: Uniform families and SIST
+
+3M: Uniform families and SDST
+
+5M: Uniform families and SDST
+
+3M: Family dominance and SDST
+
+5M: Family dominance and SDST
+
+3M: Uniform families and SIST
+
+5M: Uniform families and SIST
+
+3M: Family dominance and SIST
+
+5M: Family dominance and SIST
+
+3M: Family dominance and SDST
+
+5M: Family dominance and SDST
+
+3M: Family dominance and SIST
+
+5M: Family dominance and SIST
+
+Fig. 4: Results: Proportion of tardy jobs
+Fig. 3: Results: mean tardiness
+
+reasonable since a dominating family results in fewer changeovers between jobs of different part families and, therewith,
+fewer setups. This also applies to mean tardiness and proportion of tardy jobs in the case of family dominance (see
+Figure 3 and 4). However, the results of Table 7 indicate
+a higher inﬂuence for heuristics with ﬂowtime-based family
+rules compared to other heuristics (i.e. larger value FSDST /SIST ).
+This is plausible since respective heuristics choose the family according to setup information. Still, the inﬂuence of
+the type of setup times remains rather low. Furthermore, the
+type of setup time effects the performance measures much
+less than the family dominance as shown in Table 9. Con¯
+sidering mean ﬂow time criterion even SL/TSPT proves to
+be effected signiﬁcantly by the type of setup time considering both conﬁgurations. The remaining due date-based family rules seem not to be inﬂuenced signiﬁcantly at all (e.g.
+¯ SL
+SL/ RPT ) or a very small inﬂuence is proven to be signiﬁcant
+for only one certain conﬁguration.
+In general, regarding setup type the three ﬂowtime-based
+heuristics MS/SPT, MS /SPT and MS /SPT+RPT and the novel
+MJ
+MJ
+MS
+MJ /SL heuristic are much stronger inﬂuenced by the choice
+of sequence dependent or independent setup times than the
+rest of the tested heuristics. For example the spread caused
+by setup type using MS /SPT is more than 6,000 times higher
+MJ
+
+Mean Tardiness [min]
+
+110
+
+FCFS/FCFS
+MS/SPT
+MS
+MJ /SPT
+MS
+MJ /SPT+RPT
+
+100
+
+EDD/TSPT
+¯
+SL/TSPT
+¯
+SL/SL
+¯
+SL/ SL
+
+90
+
+RPT
+MS
+MJ /SL
+
+80
+
+70
+
+800
+
+850
+
+900
+
+950
+
+Mean ﬂow time [min]
+
+Fig. 5: Pareto Front: 5M Scenario I
+compared to FCFS/FCFS (considering 5M and mean tardiness). Nevertheless, in total only a very small part of total
+spread is inﬂuenced by the setup type.
+Interaction of factors Since the type of setup time has only
+low impact, a spread caused by interaction between both
+factors is very small as well. It should be emphasized that
+spread caused by uncountable errors (SSE ) is much higher
+considering mean tardiness compared to mean ﬂow time or
+proportion of tardy jobs. Hence, the tested heuristics generally show higher performance variability and, therewith, less
+
+FCFS/FCFS
+MS/SPT
+MS
+MJ /SPT
+MS
+MJ /SPT+RPT
+
+35
+
+EDD/TSPT
+¯
+SL/TSPT
+¯
+SL/SL
+
+30
+
+¯ SL
+SL/ RPT
+MS
+MJ /SL
+
+25
+
+70
+
+80
+
+90
+
+100
+
+110
+
+Mean tardiness [min]
+
+Fig. 6: Pareto Front: 5M Scenario II
+55
+
+FCFS/FCFS
+MS/SPT
+MS
+MJ /SPT
+MS
+MJ /SPT+RPT
+
+Mean tardiness [min]
+
+50
+
+EDD/TSPT
+¯
+SL/TSPT
+¯
+SL/SL
+
+45
+
+¯ SL
+SL/ RPT
+
+40
+
+MS
+MJ /SL
+
+tive spread gained by other rules. This means that each effect independently impacts the performance measure. This
+is also indicated by a comparison of scenarios for each ﬂowtime-based family rule with all three performance measures
+(see Tables 3-5). It reveals that SDST always lead to superior results than SIST. In contrast, all due date-based family
+rules as well as the FCFS/FCFS heuristic proved to be better using SIST under equal sized families and SDST under
+family dominance. Apparently, there is a considerably interaction effect of both factors which proved to be signiﬁcant
+by the two-way ANOVA shown in Table 7. This means that
+one factor depends on the level of the other factor. Although
+the testing value FSDST /SIST and the spread SSSDST /SIST of
+the respective heuristics is very small, this might still indicate a signiﬁcant impact for this special case. Therefore, we
+additionally exploited an one-way ANOVA by keeping the
+factor of family dominance constant. Since the impact of
+the type of setup time is uncertain for due date-based family rules and FCFS/FCFS heuristic only (i.e. high interaction
+effects), Table 6 summarizes testing values for these respective heuristics. Therefore, an inﬂuencing impact is indicated
+by an value of F >3,96.
+
+35
+
+600
+
+620
+
+640
+
+660
+
+700
+
+680
+
+720
+
+Table 6: Test values of the one-way ANOVA
+
+740
+
+Mean ﬂow time [min]
+
+¯
+FSDST /SIST FCFS/FCFS EDD/TSPT SL/TSPT
+
+Fig. 7: Pareto Front: 5M Scenario III
+22
+
+FCFS/FCFS
+MS/SPT
+
+Proportion of tardy jobs [%]
+
+20
+
+MS
+MJ /SPT
+MS
+MJ /SPT+RPT
+
+18
+
+EDD/TSPT
+¯
+SL/TSPT
+¯
+SL/SL
+
+16
+
+¯ SL
+SL/ RPT
+
+14
+
+MS
+MJ /SL
+
+¯
+SL/SL
+
+¯ SL
+SL/ RPT
+
+22,5846
+56,1145
+18,2497
+95,9727
+
+11,4895
+43,4767
+9,4290
+6,1402
+
+Mean ﬂow time
+3M Equal
+Dom.
+5M Equal
+Dom.
+
+18,1647
+55,1256
+12,6488
+108,4513
+
+0,5114
+86,5337
+24,0417
+97,5579
+
+¯
+¯
+¯
+¯
+SL/TSPT SL/TSPT SL/TSPT SL/TSPT
+
+Mean Tardiness
+3M Equal
+Dom.
+5M Equal
+Dom.
+
+9,0089
+89,8298
+42,5144
+79,7259
+
+18,6679
+21,7590
+13,7295
+44,5560
+
+11,1278
+32,3545
+38,3179
+10,6768
+
+3,8685
+11,4243
+17,2401
+19,9137
+
+23,9096
+13,2113
+15,1724
+18,2415
+
+8,7058
+4,2137
+12,3424
+10,6738
+
+669,6829
+74,2977
+20,0308
+64,6620
+
+5,7967
+84,0365
+16,8480
+61,9810
+
+3,1386
+37,7342
+0,3861
+49,9023
+
+72,0850
+81,2760
+11,3504
+44,2369
+
+Proportion of tardy jobs
+
+12
+10
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+Mean tardiness [min]
+
+3M Equal
+Dom.
+5M Equal
+Dom.
+
+46,8311
+74,7683
+27,7244
+54,2628
+
+Fig. 8: Pareto Front: 3M Scenario IV
+
+Considering the testing value Finteraction all heuristics and
+scenarios show a signiﬁcant interaction effect of both tested
+factors considering mean ﬂow time. The same applies to the
+proportion of tardy jobs, except for MS /SPT+RPT heuristic
+MJ
+in 3M. Considering mean tardiness, there is no signiﬁcant
+interaction effect for MS /SL heuristic as well as MS /SPT+RPT
+MJ
+MJ
+and MS /SPT in 5M and MS/SPT in 3M. In general, the spread
+MJ
+caused by both factors (SSinteraction ) is much smaller considering ﬂow time based family rules compared to the respec-
+
+The results shown in Table 6 generally prove, that the
+type of setup time signiﬁcantly impacts all three performance
+measures in both conﬁgurations. No statistical signiﬁcant ef¯
+fects are determined only for SL/TSPT considering mean
+¯
+ﬂow time and mean tardiness in 3M as well as SL/SL considering proportion of tardy jobs in both conﬁgurations with
+equal sized families. Furthermore, the type of setup time impacts scenarios with family dominance much more than scenarios with equal sized families, except for EDD/TSPT considering mean tardiness and proportion of tardy jobs in 5M
+Considering the testing value Feq/dom all results show a sig¯ SL
+niﬁcant inﬂuence of the factor family dominance, with SL/ RPT
+leading to the smallest values in almost all scenarios. This
+is reasonable since the respective factor spread SSeq/dom is
+lower and the error spread is higher compared to the respective spread caused by other heuristics. It indicates a generally low robustness or high performance variability of the
+respective heuristic.
+Furthermore, Figure 2, 3 and 4 show a signiﬁcantly higher
+variance concerning the achievement of objectives for mean
+tardiness and proportion of tardy jobs subject to the chosen
+heuristic. This implies that especially for due-date-based criteria the selection of an effective heuristic is crucial. This
+conﬁrms the results by Wemmerl¨ v [43]. In general, the
+o
+novel MS /SPT heuristic shows the least varying performance
+MJ
+¯
+subject to the chosen scenario. The proposed SL/TSPT heuristic is more robust compared to EDD/TSPT, which is known
+as a preferable heuristic so far, but less robust than the novel
+MS
+MJ /SL heuristic.
+
+15
+
+100
+
+90
+
+80
+
+70
+
+S
+SL T
+T
+L
+PT RPT SPT SPT
+CF
+¯ /S ¯ / P
+/SP MS /S
++
+T ¯ /T
+SL SL R
+J
+S/F MS
+D/
+L
+PT
+M
+F
+S
+S S
+ED
+M J/
+FC
+
+L
+
+S S
+M J/
+M
+
+M
+
+3M: Mean ﬂow time
+
+5M: Mean ﬂow time
+
+3M: Mean tardiness
+
+5M: Mean tardiness
+
+3M: Proportion of tardy jobs
+
+5M: Proportion of tardy jobs
+
+Fig. 9: Illustration of effect size concerning family dominance
+
+Table 8: Nomenclature of variance analysis
+Notation
+
+Explanation
+
+SSSDST /SIST
+SSeq/dom
+SSinteraction
+SSE
+SST
+
+spread caused by type of setup
+spread caused by family proportion
+spread caused by both factors
+spread caused by unaccountable errors
+total spread,
+SST = SSSDST /SIST + SSeq/dom + SSinteraction + SSE
+degree of freedom
+νE = scenarios · (runs − 1)
+test value for type of setup,
+
+νE
+FSDST /SIST
+
+FSDST /SIST =
+Feq/dom
+Finteraction
+
+SSSDST /SIST
+SSE /νE
+
+SS
+
+test value for family proportion, Feq/dom = SSeq/dom
+E /νE
+test value for interaction, Finteraction = SSinteraction
+SS /ν
+E
+
+E
+
+If F∗∗∗ >3.9 the impact of the respective inﬂuencing factor is
+statistical signiﬁcant, considering a level of signiﬁcance of 0.95.
+
+Table 9: Effect size concerning family dominance
+2
+ηGD
+
+Mean ﬂow time Mean tardiness
+3M
+5M
+3M
+5M
+
+FCFS/FCFS
+MS/SPT
+MS
+MJ /SPT
+MS
+MJ /SPT+RPT
+EDD/TSPT
+¯
+SL/TSPT
+¯
+SL/SL
+¯ SL
+SL/ RPT
+MS
+MJ /SL
+
+0.9545
+0.9568
+0.9573
+0.9613
+0.9647
+0.9505
+0.9622
+0.9429
+0.9430
+
+0.9616
+0.9656
+0.9688
+0.9621
+0.9736
+0.9758
+0.9767
+0.9120
+0.9632
+
+0.9075
+0.8705
+0.8537
+0.8677
+0.8734
+0.9045
+0.8800
+0.7708
+0.8211
+
+0.9193
+0.8732
+0.8294
+0.8224
+0.8866
+0.8897
+0.9153
+0.7815
+0.8332
+
+% Tardy
+3M
+5M
+0.9701
+0.9794
+0.9778
+0.9735
+0.9171
+0.9799
+0.9805
+0.9598
+0.9676
+
+0.9805
+0.9786
+0.9794
+0.9811
+0.9786
+0.9779
+0.9754
+0.9668
+0.9817
+
+5 Conclusions
+In this study we applied several novel heuristics for dispatching a dynamic job shop manufacturing cell. Based on
+a thorough analysis of previous simulation studies, some research gaps concerning the inﬂuencing factors of the type of
+setup time as well as the dominance of a single part family
+could be identiﬁed and closed. In summary, following conclusions can be drawn:
+– The selection of an effective heuristic is crucial for shop
+performance, particularly concerning mean tardiness and
+partly the proportion of tardy jobs. For mean ﬂow time
+the ranking of heuristics proves to be robust with respect
+to the considered scenarios. In contrast, for mean tardiness criterion the variation regarding the advantageousness of certain heuristics is considerably higher. As an
+exception, production-ﬂow-oriented dispatching heuristics lead to the least tardiness for scenarios with families
+of equal size.
+– The dominance of a part family has a signiﬁcant impact
+on the achievement of objectives. This can be explained
+by fewer setup operations with a dominating family. Scenarios with family dominance are strongly inﬂuenced by
+the type of setup time. In general, the inﬂuence of the
+Mean ﬂow time
+[normalized]
+3M SSSDST /SIST
+SSeq/dom
+SSinteraction
+SST
+SSE
+FSDST /SIST
+Feq/dom
+Finteraction
+5M SSSDST /SIST
+SSeq/dom
+SSinteraction
+SST
+SSE
+FSDST /SIST
+Feq/dom
+Finteraction
+
+MS/SPT
+
+MS
+MJ /SPT
+
+MS
+MJ /SPT+RPT
+
+EDD/TSPT
+
+¯
+SL/TSPT
+
+¯
+SL/SL
+
+¯ SL
+SL/ RPT
+
+0.0136
+151.7669
+1.9858
+159.0000
+5.2337
+
+1.8458
+152.1320
+1.1312
+159.0000
+3.8910
+
+1.4646
+152.2110
+0.9302
+159.0000
+4.3942
+
+1.1844
+152.8462
+0.8288
+159.0000
+4.1406
+
+0.1181
+153.3918
+1.4058
+159.0000
+4.0844
+
+0.3219
+151.1300
+0.7161
+159.0000
+6.8320
+
+0.0115
+152.9942
+1.8312
+159.0000
+4.1631
+
+0.0631
+149.9247
+1.9861
+159.0000
+7.0262
+
+3.1524
+149.9394
+0.8491
+159.0000
+5.0591
+
+0.4064
+4523.7042
+59.1910
+
+74.0021
+6099.3156
+45.3512
+
+51.9946
+5403.6477
+33.0226
+
+44.6247
+5758.5783
+31.2246
+
+4.5115
+5858.7286
+53.6929
+
+7.3496
+3450.8345
+16.3516
+
+0.4317
+1.4000
+5733.0612 3328.7236
+68.6197
+44.0964
+
+97.2045
+4623.4219
+26.1826
+
+0.2939
+152.8927
+2.0271
+159.0000
+3.7862
+
+1.3609
+153.5330
+0.8641
+159.0000
+3.2420
+
+2.1374
+154.0453
+0.8393
+159.0000
+1.9780
+
+1.9891
+152.9712
+0.8265
+159.0000
+3.2132
+
+0.0012
+154.7947
+1.7626
+159.0000
+2.4415
+
+0.0889
+155.1530
+1.4773
+159.0000
+2.2809
+
+65.4847
+168.5691
+7387.7973 12148.9114
+41.5784
+66.1912
+
+96.5738
+7426.8049
+40.1279
+
+FCFS/FCFS
+
+12.1112
+6299.4465
+83.5209
+
+EDD/TSPT EDD/TSPT EDD/TSPT
+Mean tardiness
+[normalized]
+3M SSSDST /SIST
+SSeq/dom
+SSinteraction
+SST
+SSE
+FSDST /SIST
+Feq/dom
+Finteraction
+5M SSSDST /SIST
+SSeq/dom
+SSinteraction
+SST
+SSE
+FSDST /SIST
+Feq/dom
+Finteraction
+
+FSDST /SIST
+Feq/dom
+Finteraction
+5M SSSDST /SIST
+SSeq/dom
+SSinteraction
+SST
+SSE
+FSDST /SIST
+Feq/dom
+Finteraction
+
+0.0526
+145.0146
+1.0731
+159.0000
+12.8596
+
+2.0368
+153.1415
+0.9329
+159.0000
+2.8888
+
+0.0762
+6.0777
+5.0783
+0.6384
+9890.6562 10611.7049 10307.4785 1759.1710
+112.6198
+101.0396
+84.4382
+13.0180
+
+109.9943
+8269.9897
+50.3785
+
+EDD/TSPT EDD/TSPT EDD/TSPT EDD/TSPT EDD/TSPT EDD/TSPT
+
+MS/SPT
+
+MS
+MJ /SPT
+
+MS
+MJ /SPT+RPT
+
+EDD/TSPT
+
+¯
+SL/TSPT
+
+¯
+SL/SL
+
+¯ SL
+SL/ RPT
+
+0.2577
+144.2866
+2.6558
+159.0000
+11.7999
+
+1.6456
+138.4077
+0.4079
+159.0000
+18.5389
+
+0.9422
+135.7324
+0.6225
+159.0000
+21.7029
+
+0.7974
+137.9672
+0.5943
+159.0000
+19.6411
+
+0.1182
+138.8756
+2.9319
+159.0000
+17.0742
+
+0.0032
+143.8157
+0.9922
+159.0000
+14.1889
+
+0.5647
+139.9234
+3.5191
+159.0000
+14.9927
+
+0.3274
+122.5530
+2.7625
+159.0000
+33.3571
+
+4.8819
+130.5492
+0.1749
+159.0000
+23.3941
+
+3.4072
+1907.5374
+35.1108
+
+13.8471
+1164.6667
+3.4322
+
+6.7724
+975.6401
+4.4743
+
+6.3332
+1095.8071
+4.7202
+
+1.0804
+1268.8474
+26.7873
+
+0.0356
+1581.1856
+10.9084
+
+5.8762
+1455.9090
+36.6164
+
+1.5310
+573.1397
+12.9194
+
+32.5542
+870.5488
+1.1662
+
+0.0008
+146.1733
+2.6803
+159.0000
+10.1456
+
+1.2816
+138.8330
+1.0565
+159.0000
+17.8289
+
+4.8456
+131.8781
+0.1770
+159.0000
+22.0993
+
+3.6017
+130.7644
+0.4691
+159.0000
+24.1648
+
+1.0354
+140.9730
+4.0458
+159.0000
+12.9459
+
+0.0738
+141.4658
+3.2281
+159.0000
+14.2324
+
+0.1157
+145.5322
+2.1676
+159.0000
+11.1844
+
+0.0322
+124.2593
+4.4619
+159.0000
+30.2466
+
+1.5232
+132.4822
+0.2088
+159.0000
+24.7857
+
+0.0124
+2247.5829
+41.2127
+
+11.2140
+1214.7697
+9.2443
+
+34.2056
+930.9338
+1.2492
+
+23.2514
+844.1738
+3.0285
+
+12.4766
+1698.7443
+48.7519
+
+0.8084
+1550.5984
+35.3833
+
+1.6145
+2029.8833
+30.2340
+
+0.1663
+640.8809
+23.0126
+
+9.5871
+833.8351
+1.3142
+
+MS/SPT
+
+MS
+MJ /SPT
+
+MS
+MJ /SPT+RPT
+
+EDD/TSPT
+
+¯
+SL/TSPT
+
+¯
+SL/SL
+
+¯ SL
+SL/ RPT
+
+0.7461
+155.7167
+0.2588
+159.0000
+2.2784
+
+0.7992
+155.4629
+0.1947
+159.0000
+2.5432
+
+1.2248
+154.7882
+0.0692
+159.0000
+2.9179
+
+8.0178
+145.8145
+3.3798
+159.0000
+1.7878
+
+0.0544
+155.7990
+0.6163
+159.0000
+2.5303
+
+0.0211
+155.9012
+0.3234
+159.0000
+2.7543
+
+0.0463
+151.7051
+3.5390
+159.0000
+3.7096
+
+0.6830
+153.8457
+0.1932
+159.0000
+4.2781
+
+0.9679
+51.0871
+8652.8303 10661.8398
+109.4827
+17.7206
+
+49.0226
+9536.2835
+11.9459
+
+65.4859
+699.6081
+8275.6998 12723.2462
+3.6993
+294.9071
+
+3.3524
+9605.5439
+37.9980
+
+1.1956
+1.9455
+8830.0645 6379.6569
+18.3165 148.8253
+
+24.9038
+5609.9317
+7.0448
+
+FCFS/FCFS
+
+Proportion of tardy jobs
+FCFS/FCFS
+[normalized]
+3M SSSDST /SIST
+SSeq/dom
+SSinteraction
+SST
+SSE
+
+0.0765
+155.3008
+1.2722
+159.0000
+2.3504
+
+MS
+MJ /SL
+
+0.0173
+154.2501
+1.9517
+159.0000
+2.7809
+
+0.0002
+155.8829
+0.9905
+159.0000
+2.1264
+
+0.7912
+155.5904
+0.1998
+159.0000
+2.4186
+
+0.5416
+155.7178
+0.1657
+159.0000
+2.5749
+
+0.7162
+155.9904
+0.2508
+159.0000
+2.0426
+
+0.0084
+155.5898
+0.8866
+159.0000
+2.5151
+
+0.0061
+155.4899
+0.8232
+159.0000
+2.6807
+
+0.0167
+51.0304
+11436.1373 10035.7441
+72.6677
+12.8901
+
+32.8153
+9434.2224
+10.0405
+
+54.6946
+11913.3987
+19.1529
+
+0.5238
+9650.3272
+54.9930
+
+0.3556
+9048.4673
+47.9066
+
+0.0783
+155.0816
+0.2098
+159.0000
+3.6303
+
+0.0053
+153.7241
+1.0586
+159.0000
+4.2120
+
+MS
+MJ /SL
+
+MS
+MJ /SL
+
+0.6067
+156.0914
+0.0744
+159.0000
+2.2276
+
+3.3664
+0.1949
+42.4852
+6664.0741 5693.4645 10931.1341
+9.0145
+39.2071
+small cells the choice of a good heuristic is more important compared to large cells. Signiﬁcant differences
+between effective heuristics are more frequent in large
+cell conﬁgurations.
+– In general, no signiﬁcant differences could be identiﬁed
+between the family rules MS- and MS as well as between
+MJ
+¯
+SL and EDD. However, for the scenario with no dominating family and SDST, the proposed novel rules lead
+to a substantial improvement considering the mean tardiness. Furthermore, a signiﬁcant improvement through
+MS
+MJ /SPT could be shown in the scenario of no dominating family and SIST considering the proportion of
+tardy jobs. MS /SPT dominates other heuristics most freMJ
+quently. Job rules are proven to have a great impact on
+the heuristics performance. Furthermore, for most simulation runs, combined job rules lead to inferior results
+compared to elementary dispatching rules.
+– While the ranking of heuristics is strongly inﬂuenced by
+¯
+the chosen performance measure, the SL/TSPT heuristic appears to be robust with a satisfying ranking position among all measures and scenarios and even with
+top ranking position in scenarios of family dominance
+taking mean tardiness into account. In total, MS /SPT is
+MJ
+identiﬁed as the preferable heuristic for mean ﬂow time,
+proportion of tardy jobs and even for mean tardiness
+on scenarios of no dominating part family. With family
+¯
+dominance SL/TSPT is a favorable choice to minimize
+mean tardiness.
+¯ SL
+– The well-known FCFS/FCFS and the novel SL/ RPT showed
+the weakest performance regardless of the performance
+measure and the scenario. Thus, they should be avoided
+for practical applications.
+Summing up, it can be concluded that not all heuristics
+that have previously been identiﬁed to be superior (see Table 1) are suitable for dispatching manufacturing cells effectively. Additionally, some novel superior heuristics like
+MS
+¯
+MJ /SPT and SL/TSPT should be considered for future research.
+The presented results also point to interesting directions
+for future research. In particular, a validation of results of
+this work and previous studies with real time data from practical manufacturing environments is necessary. Due to the
+extensive simulation study no signiﬁcant differences concerning the effectiveness of dispatching rules and inﬂuencing factors should be expected. Nevertheless, nearly no case
+study on group scheduling production systems has been reported in literature, which proves theoretical results from
+simulation surveys in practice. Besides, the gained insights
+still have to be veriﬁed for ﬂow shop manufacturing cells.
+Furthermore, the interaction of other inﬂuencing factors and
+their effect on the performance of heuristics should be inte-
+
+17
+
+grated in future simulation studies. Especially, the inﬂuence
+of varying cell conﬁgurations and layouts as well as buffers
+has not been analyzed exhaustively. Even how the proposed
+heuristics are effected by different, well studied parameters
+concerning job arrival, processing times and due dates requires further investigation. An integration of ﬂexible process plans or workforce would increase the applicability of
+these results for real-world manufacturing systems. In this
+paper, different cell conﬁgurations were considered for the
+ﬁrst time. Since previous research included varying cell utilization, further research might concentrate on the impact of
+diverse cell utilization rates with different types of cells.
+In this study we were able to show that combined family
+rules can improve the performance and particularly the robustness of two-stage heuristics. Future research should test
+further combinations of dispatching rules. Moreover, beside
+dispatching rules more sophisticated heuristics, e.g. based
+on constructive heuristics such as NEH, could be tested in
+dynamic environments. Generally, future research should focus on approaches that are able to meet the challenges of
+practical scheduling systems with changing and uncertain
+conditions.

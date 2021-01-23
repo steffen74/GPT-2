@@ -1,0 +1,6616 @@
+
+1 Introduction
+The global slowdown and recent price developments renewed the interest in
+evaluating the effectiveness of monetary policy. It is widely acknowledged that an
+effective monetary policy relies on a well-functioning transmission mechanism. If
+changes in monetary policy rates are quickly and fully transmitted to retail rates, the
+latter have a faster impact on domestic demand and therefore inﬂation (Mishkin
+1995; Becker et al. 2012). Conversely, if retail rates are sticky, the monetary policy
+goals take longer and are harder to achieve. As the Dominican Republic recently
+adopted an inﬂation targeting regime, it is even more relevant to ensure that changes
+in the monetary policy rates are quickly and fully reﬂected in retail rates to
+eventually affect inﬂation.
+The theoretical literature advanced several possible explanations as to why the
+interest rate pass-through may be slow, incomplete, more than complete, or
+asymmetric. These include asymmetric information, menu costs, switching costs,
+risk sharing, ownership of the ﬁnancial system, economic conditions, and bank
+concentration. While the empirical literature for advanced and emerging economies
+is vast, the evidence for the Dominican Republic remains limited.
+In this paper, we estimate the interest rate pass-through for retail rates in the
+Dominican Republic. The contribution to the existing literature is twofold. First, we
+provide a wide spectrum of results for retail rates at different maturities and for a
+recent period, with some analysis of the ﬁscal costs (i.e., public sector borrowing
+costs) associated with monetary policy. Second, we test for asymmetries in the
+adjustment to equilibrium and simulate the symmetric and asymmetric adjustment
+of retail rates to changes in the monetary policy rate.
+We ﬁnd evidence of complete pass-through to retail rates, conﬁrming the
+effectiveness of the monetary policy transmission mechanism. Similarly, our results
+indicate that government domestic bond yields increase when monetary policy
+becomes more contractionary. However, we also ﬁnd evidence of a faster passthrough to lending rates than to deposit rates. Moreover, short-term deposit rates
+respond faster to policy rate cuts with respect to hikes, while short-term lending
+rates respond faster to policy rate hikes with respect to cuts. The theoretical
+literature associates asymmetries in the speed of adjustment to collusive market
+behaviors. Thus, measures to boost competition in the ﬁnancial system could help to
+achieve a symmetric adjustment of retail rates.
+The paper is organized as follows. Section II reviews the theoretical contributions
+explaining rigidities and asymmetries in the interest rate pass-through, comments on
+the institutional features of the ﬁnancial system of the Dominican Republic, and
+discusses the empirical evidence for the country. Section III presents the empirical
+In this section, we brieﬂy review the main theoretical reasons for which retail rates
+may show stickiness or asymmetries when the monetary policy changes. Then, we
+describe the institutional framework of the Dominican banking system and review
+the existing empirical literature on the interest rate pass-through for the Dominican
+Republic.
+2.1 Theoretical contributions
+Stiglitz and Weiss (1981) relate stickiness to asymmetric information. When banks
+perceive the default risk to be high, they are inclined to maintain a large spread
+between lending and deposit rates. However, given that borrowers that accept higher
+rates are likely to be of poor quality and borrowers with less risky investments are
+likely not to borrow if rates increase (i.e., adverse selection), and given that any
+increase of lending rates will give incentives for borrowers to choose riskier projects
+(i.e., moral hazard), any monetary policy rate increase would raise the probability of
+loan default. Thus, banks may decide not to raise their rates albeit their cost for
+getting funds increases, and reach the equilibrium in the loan market by rationing
+credit. As a result, lending rates may be rigid upwards and adjustment may turn out
+to be asymmetric.
+Bernanke et al. (1996) show that ﬁnancial frictions may cause large ﬂuctuations
+in economic activity, and consequently in retail rates. In the presence of asymmetric
+information, lenders may require borrowers to collateralize their assets. In response
+to a monetary policy rate hike, for example, the balance sheets of ﬁrms deteriorate
+owing to the fall in asset prices. As a result, ﬁrms have less ability to borrow, which
+ultimately affects investment. This starts a vicious cycle (i.e., ﬁnancial accelerator)
+where lower economic activity dampens asset prices, which further tightens
+ﬁnancing conditions and reduces economic activity. This mechanism may induce
+overpass-through from the monetary policy rate to the retail rates.1
+De Bondt (2005) uncovers another reason for which asymmetric information
+leads to overpass-through. Banks may react to risks involved in asymmetric
+information by raising interest rates beyond the size of the increase in the policy
+dictated rate, instead of rationing credit. In other words, lending rates must increase
+by an amount greater than the increase in the monetary policy rate to compensate for
+the decrease in the probability of repayment. However, there is a limit to this.
+Beyond some interest rate level, banks will not be able to increase the interest rate
+sufﬁciently to compensate for this risk and all lending will be made to the less risky
+borrowers. However, until this happens, the bank rate on these loans should be very
+sensitive to changes in the market interest rate.
+Rotemberg and Saloner (1987) explain price rigidity by formulating the menu
+costs theory. This predicts that ﬁrms will change their prices only when the beneﬁts
+from doing this are greater than the costs of changing prices (e.g., printing,
+advertising new price lists, communicating to customers, etc.). Hence, if the
+1
+
+associated to changing retail rates are higher than the beneﬁts, banks may opt to
+delay the retail rate changes.2
+Lowe and Rohling (1992) argue that switching costs can cause retail rates
+rigidity. Banks incur costs to collect information about the risk proﬁle and behaviors
+of their customers and these are generally passed on to them as one-off fees. If costs
+associated to switching to a different bank are high enough, customers may decide
+to accept a more penalizing interest rate by their current bank instead of incurring
+these costs. Thus, higher switching costs may imply stickiness of retail rates as well
+as asymmetric adjustment.
+Fried and Howitt (1980) show that banks and customers are better off by sharing
+risk and this increases retail rates rigidity. More speciﬁcally, as movements in
+interest rates affect banks’ and customers’ earnings, banks could offer an
+equilibrium risk-sharing agreement (e.g., an insurance contract) for which banks
+agree to compensate customers in case of unfavorable interest rate movements
+against the payment of a fee. Customers would then hesitate to change banks
+because of this agreement. Similarly, Berger and Udell (1992) highlight the role
+played by implicit contracts for which banks interested in long-term relationships
+are willing to offer more stable interest rates. All these kinds of agreements result in
+stickier retail rates.
+The ownership structure of the ﬁnancial system also plays a role in shaping the
+transmission mechanism of monetary policy. State-owned ﬁnancial institutions are
+often the key in achieving policy objectives of governments, and as a result
+maximizing proﬁt is not their primary aim. In this context, interest rates are likely to
+adjust with a delay due to inefﬁciencies and political considerations, hence causing
+stickiness in interest rate adjustment.
+´
+´
+Egert et al. (2007) and Egert and Macdonald (2009)highlight the role of
+macroeconomic conditions in affecting retail rates stickiness. If volatility is high,
+the information content of policy signals is reduced as noise increases. Consequently, banks would wait more to change their rates. Moreover, the pass-through is
+likely to be faster during high inﬂation periods as prices are adjusted more
+frequently. High economic growth also favors a quicker pass-through as banks ﬁnd
+it easier to pass on changes when conditions are favorable.
+The interest rate pass-through may be asymmetric because bank concentration
+leads to oligopolistic behaviors. On one hand, the collusive behavior hypothesis of
+Hannan and Berger (1991) suggests that following an increase in the monetary
+policy rate, deposit rates could be rigid upwards because higher deposit rates
+represent an additional cost for banks. Similarly, the lending rates could exhibit
+downward rigidity in reaction to a reduction in the monetary policy rate as lower
+lending rates imply lower proﬁts for banks. On the other hand, the adverse customer
+reaction hypothesis indicates that if customers have bargaining power deposit rates
+
+2
+
+De Bondt (2002) and De Bondt et al. (2003) further analyze the role of expectations of future interest
+rates, explaining that the current change in retail rates also depends on the extent to which the monetary
+be rigid upwards when the monetary policy rate increases.
+2.2 Characteristics of the Dominican ﬁnancial system and empirical
+evidence
+The recent history of the Dominican Republic’s monetary policy starts with the
+Monetary and Financial Law of 2002. The law strengthened the institutional
+framework for the conduct of monetary policy by establishing price stability as the
+main central bank’s mandate. Starting in 2004, the central bank moved away from
+exchange rate targeting and transitioned to monetary targeting. In this context, it
+introduced an overnight deposit window and a Lombard facility, which created a
+corridor for the interbank rate. The overnight rate served as signal of the monetary
+policy stance.
+The monetary targeting anticipated the transition to the inﬂation targeting
+regime. While the central bank managed to signiﬁcantly reduce inﬂation and
+stabilize the economy under the monetary targeting, ﬁnancial innovation and
+deregulation as well as ﬁnancial sector reforms generated a growing instability in
+´
+money demand, weakening the relationship between money and inﬂation (Andujar
+2014). To strengthen monetary policy effectiveness, the BCRD adopted an inﬂation
+targeting regime in January 2012. Starting in February 2013, the authorities
+introduced the monetary policy rate as the benchmark rate, which is in the middle of
+a corridor bounded by the one-day deposit and expansion facilities.
+Since the ﬁnancial crisis of 2003–04, the ﬁnancial system developed considerably but remains highly concentrated. As of June 2015, the system is composed of
+65 ﬁnancial entities with assets over 45% of GDP and a loan portfolio of 27% of
+GDP.3,4 Most of the loans go to the commercial sector (58.7%), while the remainder
+is split between personal consumption loans (24%) and mortgage loans (17.3%).
+Commercial and mortgage loans are usually backed by a collateral, which
+contributes to lower the interest rate. In June 2006, the three main banks used to
+represent 57.5% of deposits and 58.2% of loans, while as of June 2015 they
+represent 67.7% of deposits and 69.0% of loans.
+As discussed, the degree of concentration is often associated with collusive
+behavior. This generally translates into high proﬁts for banks as well as asymmetries
+in the adjustment of retail rates to the monetary policy rates. In the Dominican
+Republic, spreads are high at all maturities (6.5% on average for 3-month spread
+over 2006–2015) and vary signiﬁcantly when the monetary policy rate changes.5
+This suggests that deposit and lending rates may either react differently to changes
+in the monetary policy rate, react asymmetrically to lifts and cuts in the monetary
+policy rate, or both.
+3
+
+Ratios to GDP are calculated using the 2014 nominal GDP.
+
+4
+
+The ﬁnancial system consists of 17 commercial banks (85.8% of the system assets), 10 saving and
+credit institutions (11.1% of the system assets), 19 credit unions (1.9% of the system assets), several credit
+corporations (0.3% of the system assets), and a development bank (0.9% of the system assets).
+
+5
+
+While this is true for spreads at all maturities, we present only the 3-month spread in the chart for space
+speciﬁcations, and estimation methodologies vary signiﬁcantly across studies. Most
+of the literature ﬁnds evidence of overpass-through to lending rates, albeit the
+results present a signiﬁcant variation in the estimated pass-through. As for the
+deposit rates, results are generally mixed, with estimates ranging from incomplete to
+overpass-trough.
+´
+´
+Gonzalez Pantaleon (2010) ﬁnds over pass-through of the interbank rate to both
+lending and deposit rates. He employs an error correction model (ECM) to estimate
+a speciﬁcation that includes several explanatory variables. He ﬁnds that the
+Emerging Market Bond Index (EMBI) spread, the reserve requirement coefﬁcient,
+and the Lombard window rate are signiﬁcantly associated to increases in retail rates.
+Rivas (2011) is the ﬁrst to explore asymmetries in the interest rate pass-through
+for the Dominican Republic. With an asymmetric ECM applied to a parsimonious
+speciﬁcation that includes only the interbank rate, he studies the adjustment of the
+retail rates to positive or negative changes in the monetary policy rate. He ﬁnds
+Table 1 Literature for the Dominican Republic
+Author
+
+Empirical
+approach
+
+Sample period
+
+Estimated long-run
+coefﬁcient
+
+Explanatory variables
+
+Gonzalez
+Pantaleon
+(2010)
+
+ECM
+
+Quarterly data
+(1996Q1–2010Q1)
+and monthly data
+(1996M1–2010M4),
+excluding 2003 and
+2004
+
+Loans: 0.96–1.44,
+Deposits:
+0.91–1.23,
+Commercial loans:
+1.04–1.25, Personal
+cons, loans:
+0.96–1.13,
+Mortgage loans:
+1.15–1.45
+
+Interbank rate,
+external interest
+rate, EMBI spread,
+reserve requirement
+coefﬁcient,
+Lombard window
+rate
+
+Rivas (2011)
+
+Asymmetric
+ECM
+
+Monthly data
+(1996M1–2011M8)
+
+Loans: 0.90–1.42
+Deposits: 1.00
+
+Interbank rate
+
+Medina,
+Carrion, and
+Frantischek
+(2011)
+
+Panel
+S-GMM
+
+Annual data (2004–10)
+for 40 countries
+
+Loans (DR): 0.65
+
+Monetary policy rate,
+ﬁnancial
+dollarization,
+exchange rate
+ﬂexibility, size of
+the banking sector,
+banking
+concentration, and
+interactions
+
+Andujar
+(2012)
+
+ECM
+
+Monthly data
+(1996M1–2007M12)
+
+Loans: 0.94,
+Deposits: 0.73–0.77
+
+Interbank rate
+
+Aristy
+Escuder
+(2014)
+
+ADL model
+
+Monthly data
+(2008M1–2014M8)
+
+Loans: 2.66,
+Deposits: 1.65
+
+Monetary policy rate
+(overnight)
+
+BCRD (2015)
+
+N/A
+
+N/A
+
+Loans: 1.06–1.63,
+Deposits: 0.85–0.92
+
+efﬁciency of monetary transmission mechanism in the post-crisis period compared
+to the pre-crisis one. Finally, he does not ﬁnd any evidence of asymmetric
+adjustment.
+Medina Cas et al. (2011) ﬁnd a high degree of stickiness in the pass-through to
+deposit and lending rates. Using a 40-country panel data over the period 2004–2010,
+the authors estimate a dynamic speciﬁcation with system generalized method of
+moments (S-GMM) that includes interaction terms between the monetary policy
+rate and a set of explanatory variables. The authors ﬁnd that although the estimated
+pass-through for the Dominican Republic is incomplete owing to high dollarization
+and limited exchange rate ﬂexibility, it is greater than for Central American
+countries.
+´
+By employing an ECM, Andujar (2012) ﬁnds a complete pass-through to lending
+rates and an incomplete one to deposit rates. Also, his results suggest that starting in
+2005 the monetary transmission mechanism became more efﬁcient and that changes in
+the interbank rate take from four to 5 months to be reﬂected in retail rates. Finally,
+using simulations the author shows that permanent changes in the policy rates are
+associated with a stronger reaction of retail rates compared to temporary changes.
+Aristy Escuder (2014) ﬁnds evidence of overpass-through for both lending and
+deposit rates. More speciﬁcally, he estimates an autoregressive distributed lag
+(ADL) model with a parsimonious speciﬁcation including only the overnight rate.
+His results suggest that the size of the overpass-through is much larger than in the
+existing literature.
+Banco Central de la Republica Dominicana (2015) also ﬁnds overpass-through to
+the lending rates, but incomplete or complete pass-through to the deposit rates.
+While estimation details are not available, the study presents results for a wide range
+of interest rates and for the calculations of the speed of adjustment in months. This
+ranges between one and 2 months for all interest rates, with the exception of the
+6-month lending rate, which adjusts in about 4 months.
+
+3 Empirical strategy
+Let rrt denote the endogenously determined retail rate at time t:
+rrt ¼ a þ b1 mprt þ b2 Xt þ ut ;
+
+ð1Þ
+
+where a is an intercept which denotes a mark-up or mark-down on the retail rate to
+reﬂect market conditions,6 mprt is the monetary policy rate,7 Xt includes a set of
+factors inﬂuencing the retail rate beyond the monetary policy rate, b1 and b2 are the
+6
+
+See Marotta (2009).
+
+7
+
+The monetary policy rate used in the regressions is a proxy of the average monetary policy rate for the
+month. Given that the decision to change or maintain the rate is taken during the last week of the month,
+we assume that the average for the current month is equal to the last month’s value of the monetary policy
+heterogeneity.8
+Departing from most papers in the literature, we employ a richer speciﬁcation with
+the vector of exogenous covariates Xt encompassing ﬁve variables. First, we add the
+reserve requirement coefﬁcient for commercial bank deposits at the central bank in
+local currency as increases in the coefﬁcient correspond to withdrawals of liquidity in
+the ﬁnancial system, resulting in higher retail rates. Second, we also add nonperforming loans (NPLs) as a share of total loans with the aim of capturing increases
+(decreases) in the lending (deposit) rates that compensate higher banks’ losses when
+NPLs increase. Third, we include the average exchange in the event retail rates adjust
+to maintain a stable pace of depreciation rather as a reaction to changes in the
+monetary policy rate. Fourth, we include the EMBI spread as a time-varying measure
+of the risk premium. And ﬁfth, we add the Volatility Index (VIX) to reﬂect external
+market’s volatility (especially advanced economies) expectation for the next
+30 days. The expected effect of the VIX is ambiguous. When volatility in advanced
+economies is high, interest rates may drop as capital ﬂies toward emerging markets
+such as the Dominican Republic, or may go up if volatility is perceived as a global
+issue and capital ﬂies to quality. Finally, we add two dummy variables for regime
+changes. The ﬁrst one is for the inﬂation targeting period and the second is for the
+period in which the monetary policy rate was introduced as a benchmark.
+Our attention falls on the fraction of the change in monetary policy rate reﬂected
+in changes in retail rates over the long run.9 This is expressed by the parameter b2,
+which is close to zero when the transmission mechanism is weak and takes value
+one when the pass-through is complete. As discussed, a bunch of factors may
+prevent the pass-through to be complete, and in some cases, b1 could be higher than
+one, implying overpass-through.
+With the purpose of having a wide glance at the ﬁnancial system, we analyze the
+impact of changes in monetary policy on several retail rates with monthly data over the
+period June 2006–June 2015. In particular, rrt is, alternatively, the deposit or lending
+rate at 90, 180, 360 days, the weighted average rate, as well as the commercial,
+personal consumption, and mortgage lending rate of commercial banks.10 Also, we
+explore the interest rate pass-through from the monetary policy rate to government
+domestic bond rates for instruments at 5, 7, and 10 years, as well as for 10-year
+government bonds issued in the sovereign market. However, since these kinds of
+instruments are not issued every month, we rely on the interest rate in the secondary
+market. Given the reduced sample size, results need to be taken with caution.11
+8
+
+A trend is excluded a priori because there is no theoretical reason for which interest rates should exhibit
+a deterministic time trend (see Hamilton 1994).
+
+9
+
+As we are interested in estimating the pass-through from themonetary policy rate—which is clearly
+exogenous—to retail rates, and to avoid relying on asymptotic properties of the maximum likelihood
+estimation, we opt for a single equation approach rather than a multivariate one.
+
+10
+
+Due to data availability, we limit our analysis to commercial banks, which represent 85.8 percent of
+the ﬁnancial system assets.
+11
+Observations start in May 2009 for the 5-year domestic bonds, February 2010 for the 7-year domestic
+bonds, August 2010 for the 10-year domestic bonds, and April 2010 for the 10-year sovereign bonds, and
+presence of unit roots, estimating Eq. (1) with ordinary least squares would result in
+spurious coefﬁcients. Thus, we ﬁrst test the levels and ﬁrst differences of all series
+for unit root employing the Augmented Dickey Fuller (ADF) test. When the
+hypothesis of unit root cannot be rejected for the levels, we test for cointegration
+between the retail rates and the monetary policy rate using the Engle-Granger test.
+In those groups of data for which cointegration are not found, we estimate the
+following ADL model:
+Drrt ¼ g þ c1 Dmprt þ
+
+n
+X
+
+ci DmprtÀi þ d1 DXt þ
+
+m
+X
+
+i¼1
+
+dk DXtÀk þ
+
+p
+X
+
+fj DrrtÀj þ et ;
+
+j¼1
+
+k¼1
+
+ð2Þ
+where D is the difference operator, g is the constant, c1 is the short-run pass-through
+(i.e., within the same month), dk are the coefﬁcients for the changes in the variables
+of vector Xt and their lags, fj are the coefﬁcients for the changes of the lags of the
+dependent variable, n, m, and p are the maximum number of lags, and et is a white
+noise error term. The long-run pass-through coefﬁcient b1 can be retrieved as
+
+Pn 
+Pp
+j¼1 fj .
+i¼1 = 1 À
+For groups of data sharing a long-run relationship (i.e., cointegrated), Eq. (2) can
+be re-parameterized into an error correction model (ECM) that ties the short-run
+disequilibrium to the long-run equilibrium (Hendry and Nielsen 2007):
+Drrt ¼ g þ c1 Dmprt þ
+
+n
+X
+
+ci DmprtÀi þ d1 DXt þ
+
+i¼1
+
+m
+X
+
+dk DXtÀk þ qutÀ1 þ et ;
+
+ð3Þ
+
+k¼1
+
+where q is the percentage of the previous period deviation from to the long-run
+equilibrium ut - 1 that is corrected in every period t. In other words, it represents the
+speed at which bank rates adjust back to equilibrium after a change in the monetary
+policy rate.12
+Enders and Siklos (2001) show that the Engle–Granger cointegration test is
+misspeciﬁed if adjustment is asymmetric. In particular, they argue that it is a special
+case of the threshold autoregressive (TAR) model, which allows testing for
+asymmetric cointegration. The TAR model can be written as:
+Dut ¼ It q1 utÀ1 þ ð1 À It Þq2 utÀ1 þ
+
+q
+X
+
+cl DutÀl þ vt ;
+
+ð4Þ
+
+l¼1
+
+where It is the Heaviside indicator function such that:
+
+12
+The literature (see Doornik and Hendry 1994) also calculates the mean adjustment lag as ð1 À c1 Þ=q;
+which reveals how many months it takes for the change in the monetary policy rate to be fully reﬂected in
+retail rates. This measure, however, assumes that there is complete pass-through (i.e.,b1 ¼ 1; and that the
+portion of adjustment q is the same every month (rather than being a percentage of previous year
+It ¼
+
+1;
+0;
+
+utÀ1 ! s
+;
+utÀ1 \s
+
+ð5Þ
+
+and q1 and q2 are the estimates if ut-1 is above or below the threshold s, respectively.
+The value of s is unknown and can be estimated using the method illustrated in
+Chan (1993). However, it can also be set a priori. In our case, we set it to zero and
+we also estimate it. Enders and Siklos (2001) propose the U and the t-max statistics
+to test for asymmetric cointegration. The U statistic is an F-statistic testing the null
+hypothesis that q1 = q1 = 0, while the t-max is a t-statistic testing the null
+hypothesis with the largest qi = 0.13 Hence, if the null hypothesis of no cointegration is rejected, we can test the null hypothesis that q1 = q2 by a standard Fstatistic. A rejection of this hypothesis implies asymmetric adjustment.
+Policymakers may be interested in reducing large changes in the retail rates.
+Enders and Granger (1998) and Carner and Hansen (1998) propose a variation of the
+TAR model of Eq. (4), known as momentum TAR (M-TAR) model:
+Dut ¼ Mt q1 utÀ1 þ ð1 À Mt Þq2 utÀ1 þ
+
+q
+X
+
+cl DutÀi þ vt ;
+
+ð6Þ
+
+l¼1
+
+where Mt is an alternative Heaviside indicator function to the one in Eq. (5) such
+that:
+
+1; DutÀ1 ! s
+Mt ¼
+:
+ð7Þ
+0; DutÀ1 \s
+As in the case of the TAR model, we test for asymmetric cointegration both when
+s is set to zero and when it is endogenously determined within the M-TAR
+framework. The interpretation of the TAR and M-TAR models, however, differs.
+The TAR model tests if the deviation from the long-run equilibrium is persistent
+assuming equal magnitudes of positive and negative shocks, whereby the M-TAR
+model tests if the deviation from the long-run equilibrium is persistent irrespective
+of the magnitude of the disequilibrium.
+If asymmetric cointegration is present, the ECM in Eq. (3) can be rewritten as the
+following TAR model:
+Drrt ¼ g þ c1 Dmprt þ
+
+n
+X
+
+ci DmprtÀi þ d1 DXt þ
+
+i¼1
+
+m
+X
+
+dk DXtÀk þ It q1;rr utÀ1
+
+k¼1
+
+þ ð1 À It Þq2;rr utÀ1 þ et ;
+or the following M-TAR model:
+
+13
+
+Note that the necessary conditions for convergence are for the parameters qi to be negative.
+
+
+n
+X
+
+ci DmprtÀi þ d1 DXt þ
+
+i¼1
+
+m
+X
+
+dk DXtÀk þ Mt q1;rr utÀ1 þ ð1
+
+k¼1
+
+À Mt Þq2;rr utÀ1 þ et ;
+ð9Þ
+where q1,rr and q2,rr are the asymmetric speed of adjustment parameters.
+
+4 Results
+We ﬁrst present the baseline results for the interest rate pass-through. Then, we
+present the results accounting for the existence of asymmetries. Finally, we simulate
+the impact of a change in the monetary policy rate on retail rates.
+4.1 Baseline
+We test for unit root and cointegration.14 The results of the ADF test on the levels
+suggest that the null hypothesis of unit root presence cannot be rejected at ﬁve
+percent signiﬁcance level for all series, with the exception of the weighted average
+deposit rate. However, as the evidence of stationarity is not compelling, we proceed
+to test stationarity for ﬁrst differences. After ﬁrst-differencing, the null hypothesis of
+unit root presence is safely rejected for all series. The Engle–Granger test’s null
+hypothesis of no cointegration is rejected for all series combinations except the
+government bond rates, suggesting that the monetary policy rate shares a long-run
+relationship only with the retail rates.
+The results for the estimation of the error correction model for retail rates are
+reported in Table 2. The estimation of Eq. (1) reveals that the pass-through to
+deposit rates is complete, as the long-run coefﬁcient ranges between 1.0 and 1.1.
+Similarly, the pass-through to lending rates is complete, with the long-run
+coefﬁcient ranging from 1.0 to 1.2. To conﬁrm the statistical validity of the ﬁnding
+of complete pass-through, we employ a Wald test with the null hypothesis of the
+long-run pass-through coefﬁcient being different from one. In all cases, we cannot
+reject the null hypothesis.
+Other explanatory variables turn out signiﬁcant. An increase in the EMBI spread
+is unequivocally reﬂected in higher deposit and lending rates. The effect is robust
+across maturities and lending categories. An increase in the reserve requirement
+coefﬁcient is found to have a positive effect on most of the lending rates, consistent
+with a reduction of liquidity. Changes in the NPL ratio are not signiﬁcantly
+associated with retail rates. The exchange rate turns out signiﬁcant only for the
+speciﬁcation of lending rates and personal consumption, suggesting that these
+increase in response to depreciation. Finally, we ﬁnd some evidence of lower
+lending rates owing to heightened advanced economies’ volatility risk, proxied by
+the VIX. However, the effect is relatively small and not robust across maturities.
+14
+
+
+0.851
+
+R squared
+
+Adjusted R squared
+
+0.847
+
+0.859
+
+109
+
+(5.679)
+
+109
+
+1.383
+
+0.029
+
+(0.773)
+
+(5.531)
+
+-1.218
+
+(0.556)
+
+(0.6)
+
+(0.569)
+
+-1.344**
+
+-0.069
+
+(0.018)
+
+(0.014)
+
+-0.260
+
+0.007
+
+-0.025*
+
+(0.082)
+
+(0.067)
+
+(0.119)
+
+0.328***
+
+(0.116)
+
+0.402***
+
+0.008
+
+(0.248)
+
+0.048
+
+-0.385
+
+(0.228)
+
+(0.14)
+
+(0.108)
+
+-0.353
+
+-0.063
+
+(0.083)
+
+-0.068
+
+(0.11)
+
+1.101***
+
+Observations
+
+Constant
+
+Dummy monetary
+policy rate
+introduction
+
+Dummy inﬂation
+targeting
+
+VIX
+
+EMBI
+
+Exchange rate
+
+NPLs
+
+Reserve
+requirement
+coefﬁcient
+
+Monetary policy
+rate
+
+Long-run equation
+
+Weighted
+average
+
+0.835
+
+0.847
+
+109
+
+(4.986)
+
+1.9260
+
+(0.596)
+
+-1.219**
+
+(0.511)
+
+-0.4810
+
+(0.022)
+
+0.0190
+
+(0.078)
+
+0.219***
+
+(0.119)
+
+0.0120
+
+(0.256)
+
+-0.229
+
+(0.091)
+
+-0.0880
+
+(0.095)
+
+1.019***
+
+0.862
+
+0.872
+
+109
+
+(5.445)
+
+-3.734
+
+(0.496)
+
+-1.033**
+
+(0.484)
+
+-0.413
+
+(0.015)
+
+-0.007
+
+(0.069)
+
+0.335***
+
+(0.118)
+
+0.101
+
+(0.237)
+
+-0.226
+
+(0.11)
+
+0.010
+
+(0.082)
+
+1.044***
+
+0.837
+
+0.851
+
+109
+
+(9.119)
+
+-1.596
+
+(0.555)
+
+0.743
+
+(0.584)
+
+-0.038
+
+(0.044)
+
+-0.12***
+
+(0.183)
+
+0.976***
+
+(0.189)
+
+-0.024
+
+(0.344)
+
+0.397
+
+(0.176)
+
+0.359**
+
+(0.15)
+
+1.041***
+
+0.835
+
+0.847
+
+109
+
+(7.73)
+
+1.661
+
+(0.519)
+
+-0.396
+
+(0.545)
+
+0.749
+
+(0.035)
+
+-0.043
+
+(0.114)
+
+0.692***
+
+(0.175)
+
+-0.049
+
+(0.345)
+
+0.262
+
+(0.118)
+
+0.160
+
+(0.113)
+
+1.272***
+
+Six
+months
+
+Three
+months
+
+Six
+months
+
+Three
+months
+
+One year
+
+Lending rates
+
+Deposit rates
+
+Table 2 ECM Estimation for Retail Rates
+
+0.845
+
+0.857
+
+109
+
+(9.327)
+
+-11.463
+
+(0.723)
+
+-0.010
+
+(0.57)
+
+0.165
+
+(0.025)
+
+-0.067***
+
+(0.124)
+
+0.736***
+
+(0.172)
+
+0.202
+
+(0.277)
+
+0.361
+
+(0.202)
+
+0.49**
+
+(0.136)
+
+1.184***
+
+One year
+
+0.879
+
+0.888
+
+109
+
+(6.173)
+
+-10.67*
+
+(0.497)
+
+-0.399
+
+(0.431)
+
+-0.549
+
+(0.027)
+
+-0.046*
+
+(0.134)
+
+0.671***
+
+(0.135)
+
+0.289**
+
+(0.293)
+
+0.421
+
+(0.113)
+
+0.277**
+
+(0.122)
+
+1.185***
+
+Weighted
+average
+
+0.885
+
+0.894
+
+109
+
+(6.003)
+
+-7.030
+
+(0.519)
+
+-0.037
+
+(0.44)
+
+-0.429
+
+(0.029)
+
+-0.051*
+
+(0.141)
+
+0.712***
+
+(0.131)
+
+0.175
+
+(0.293)
+
+0.348
+
+(0.12)
+
+0.263**
+
+(0.13)
+
+1.199***
+
+Commercial
+
+0.788
+
+0.803
+
+109
+
+(8.251)
+
+-16.173 *
+
+(0.622)
+
+-2.065***
+
+(0.54)
+
+-1.055*
+
+(0.031)
+
+0.009
+
+(0.136)
+
+0.496***
+
+(0.182)
+
+0.636***
+
+(0.389)
+
+0.433
+
+(0.155)
+
+0.177
+
+(0.138)
+
+1.061***
+
+Personal
+consumption
+
+Loan category rates
+
+0.890
+
+0.898
+
+109
+
+(7.141)
+
+-0.268
+
+(0.367)
+
+-0.714*
+
+(0.298)
+
+0.300
+
+(0.022)
+
+-0.003
+
+(0.097)
+
+0.513***
+
+(0.144)
+
+0.042
+
+(0.268)
+
+0.145
+
+(0.138)
+
+0.223
+
+(0.103)
+
+0.969***
+
+Mortgage
+targeting
+
+Diff. VIX
+
+Diff. EMBI
+
+Diff. exchange rate
+
+Diff. NPLs
+
+Diff. reserve
+requirement
+coefﬁcient
+
+Diff. monetary
+policy rate
+
+Speed of
+adjustment
+
+0.904
+
+-0.229***
+
+1.051
+
+(0.231)
+
+0.128
+
+(0.237)
+
+0.034
+
+(0.299)
+
+-0.177
+
+(0.011)
+
+-0.088
+
+0.002
+
+(0.015)
+
+(0.093)
+
+(0.079)
+
+-0.008
+
+0.229**
+
+(0.272)
+
+(0.294)
+
+0.275***
+
+0.195
+
+(0.113)
+
+0.096
+
+-0.262**
+
+(0.139)
+
+(0.057)
+
+(0.098)
+
+-0.292**
+
+0.235***
+
+(0.102)
+
+(0.108)
+
+-0.007
+
+0.646***
+
+(0.089)
+
+0.675***
+
+(0.077)
+
+-0.413***
+
+0.858
+
+1.220
+
+Wald test (H0:
+pass-through = 1)
+
+Short-run equation
+
+Weighted
+average
+
+(0.308)
+
+0.867
+
+(0.21)
+
+0.1280
+
+(0.21)
+
+-0.1840
+
+(0.015)
+
+0.026*
+
+(0.086)
+
+0.191**
+
+(0.325)
+
+0.2870
+
+(0.215)
+
+-0.260
+
+(0.061)
+
+0.029
+
+(0.164)
+
+0.479***
+
+(0.116)
+
+-0.328***
+
+0.198
+
+0.803
+
+(0.219)
+
+0.071
+
+(0.21)
+
+-0.110
+
+(0.01)
+
+0.008
+
+(0.082)
+
+0.215**
+
+(0.256)
+
+0.144
+
+(0.101)
+
+-0.305***
+
+(0.035)
+
+0.179***
+
+(0.105)
+
+0.593***
+
+(0.084)
+
+-0.311***
+
+0.533
+
+1.369
+
+(0.191)
+
+0.228
+
+(0.171)
+
+-0.194
+
+(0.039)
+
+-0.042
+
+(0.265)
+
+0.605**
+
+(0.598)
+
+0.222
+
+(0.294)
+
+0.722**
+
+(0.23)
+
+0.013
+
+(0.269)
+
+0.584**
+
+(0.108)
+
+-0.507***
+
+0.276
+
+(0.262)
+
+-0.069
+
+(0.222)
+
+-0.045
+
+(0.042)
+
+0.027
+
+(0.247)
+
+0.301
+
+(0.801)
+
+0.380
+
+(0.397)
+
+-0.483
+
+(0.109)
+
+0.341***
+
+(0.283)
+
+1.168***
+
+(0.112)
+
+-0.843***
+
+2.217*
+
+1.394
+
+Six
+months
+
+Three
+months
+
+Six
+months
+
+Three
+months
+
+One year
+
+Lending rates
+
+Deposit rates
+
+SE of regression
+
+Table 2 continued
+
+(0.362)
+
+0.120
+
+(0.307)
+
+-0.261
+
+(0.029)
+
+0.011
+
+(0.101)
+
+0.120
+
+(0.528)
+
+0.972*
+
+(0.301)
+
+0.294
+
+(0.191)
+
+0.010
+
+(0.169)
+
+0.834***
+
+(0.086)
+
+-0.528***
+
+1.351
+
+1.353
+
+One year
+
+(0.167)
+
+0.169
+
+(0.15)
+
+-0.203
+
+(0.018)
+
+-0.002
+
+(0.109)
+
+0.264**
+
+(0.411)
+
+0.499
+
+(0.16)
+
+0.498***
+
+(0.121)
+
+0.262**
+
+(0.138)
+
+0.812***
+
+(0.086)
+
+-0.294***
+
+1.520
+
+1.067
+
+Weighted
+average
+
+(0.158)
+
+0.167
+
+(0.144)
+
+-0.200
+
+(0.02)
+
+-0.005
+
+(0.111)
+
+0.297***
+
+(0.42)
+
+0.440
+
+(0.16)
+
+0.297*
+
+(0.135)
+
+0.233*
+
+(0.143)
+
+0.8***
+
+(0.08)
+
+-0.289***
+
+1.531
+
+1.081
+
+Commercial
+
+(0.171)
+
+0.110
+
+(0.147)
+
+-0.262*
+
+(0.016)
+
+0.036**
+
+(0.096)
+
+-0.035
+
+(0.485)
+
+1.116**
+
+(0.273)
+
+0.814***
+
+(0.148)
+
+0.212
+
+(0.165)
+
+0.827***
+
+(0.109)
+
+-0.256**
+
+0.439
+
+1.261
+
+Personal
+consumption
+
+Loan category rates
+
+(0.131)
+
+0.071
+
+(0.106)
+
+-0.136
+
+(0.015)
+
+0.015
+
+(0.093)
+
+(0.386)
+
+0.212
+
+(0.142)
+
+0.130
+
+(0.191)
+
+0.104
+
+(0.136)
+
+0.572***
+
+(0.101)
+
+-0.271***
+
+-0.297
+
+0.943
+
+Mortgage
+
+Lat Am Econ Rev (2017) 26:4
+
+0.652
+
+Adjusted R squared
+
+SE of regression
+
+108
+
+0.582
+
+0.345
+
+0.394
+
+108
+
+0.612
+
+0.245
+
+0.302
+
+108
+
+0.534
+
+0.379
+
+0.426
+
+108
+
+1.228
+
+0.261
+
+0.317
+
+108
+
+1.330
+
+0.501
+
+0.538
+1.087
+
+0.351
+
+0.400
+
+108
+
+One year
+
+0.709
+
+0.375
+
+0.422
+
+108
+
+Weighted
+average
+
+0.720
+
+0.354
+
+0.403
+
+108
+
+Commercial
+
+0.825
+
+0.319
+
+0.370
+
+108
+
+Personal
+consumption
+
+Loan category rates
+
+***, **, * Next to a number indicate statistical signiﬁcance at 1, 5 and 10 percent, respectively. Source: Authors’ calculations
+
+Standard errors in parentheses are corrected for heteroskedasticity and autocorrelation with the Newey–West estimator
+
+108
+
+0.392
+
+R squared
+
+Six
+months
+
+Three
+months
+
+Six
+months
+
+Three
+months
+
+One year
+
+Lending rates
+
+Deposit rates
+
+Observations
+
+Table 2 continued
+
+0.638
+
+0.245
+
+0.302
+
+108
+
+Mortgage
+retail rates. The short-run effect of one percentage point increase in the change of
+the monetary policy rate on the change of deposit rates ranges between 0.5 and 0.7
+percentage points. In other words, 50 to 70% of the pass-through is transmitted to
+deposit rates within the same month. The short-run impact on the change in lending
+rates ranges between 0.6 and 0.8 percentage points, with the exception of the shortrun impact for the 6-month lending rate, which is 1.2 percentage points. The latter is
+abnormally high compared to other maturities and the reason may lie with the
+idiosyncratic movements in the 6-month lending rate, therefore results should be
+taken with caution.15 The only maturity for which the short-run impact on the
+lending rate is lower than the one on the deposit rate is the 3-month one, implying a
+decrease in the spread in the short-run.
+The speed of adjustment is higher for lending rates. In general, deviations from
+the long-run equilibrium are more quickly corrected in the case of lending rates as
+the relative speed of adjustment ranges between -0.3 and -0.8, compared to a
+coefﬁcient range between -0.2 and -0.4 for deposit rates.
+Other explanatory variables present results generally consistent with the longterm equation estimations. Changes in the EMBI spread are associated with
+increases in deposit rates and some of the lending rates. Changes in the reserve
+requirement also increase deposit and lending rates, however, these effects are not
+robust across maturities and are not signiﬁcant for lending categories. Somewhat
+different from the results of the long-term estimations, a positive change in the NPL
+ratio is associated with a fall in deposit rates and with increases in lending rates.
+While this ﬁnding is not robust for all rates, it possibly underscores the banks’ need
+to compensate for the fall in proﬁtability that occurs when more loans become nonperforming and losses are provisioned. Finally, changes in the VIX index turn out to
+be signiﬁcant only in raising the change in the personal consumption rate and by a
+minor amount.
+Table 3 presents the results of the ADL estimation in Eq. (2) for the government
+bond rates.16 As expected, changes in the monetary policy rate only affect changes
+in the rates of domestically issued bonds. More speciﬁcally, a change in the
+monetary policy rate by one percentage point is associated with a short-run impact
+on the change of domestically issued bond rates by 0.5–0.6 percentage points,
+depending on the maturity of the instrument. Using the coefﬁcient of the lagged
+differenced dependent variable, we can retrieve the long-run coefﬁcient which
+ranges between 0.8 and 0.9 percentage points. Thus, the pass-through in this case
+seems less than complete.
+
+15
+Alternative estimations using dummy variables for September and October of 2009 present a short-run
+coefﬁcient of 0.8. However, we opt to drop dummies in the baseline speciﬁcations as we have no clear
+reasons for including them.
+16
+Given the short sample and the little variation in the monetary policy rate over it, we also estimate the
+ADL model replacing the monetary policy rate with the interbank rate. The results are similar and
+Domestic
+Five years
+Diff. monetary policy rate
+
+External
+7 years
+
+10 years
+
+10 years
+
+Lag diff. monetary policy rate
+
+0.567***
+
+0.48***
+
+0.447***
+
+-0.009
+
+(0.168)
+
+(0.109)
+
+(0.138)
+
+(0.073)
+-0.104*
+
+Lag diff. dependent variable
+
+0.554***
+
+0.759***
+
+0.463**
+
+(0.184)
+
+(0.181)
+
+(0.195)
+
+(0.06)
+
+-0.493***
+
+-0.325**
+
+-0.210
+
+-0.104*
+
+(0.136)
+
+(0.137)
+
+(0.158)
+
+(0.06)
+
+Diff. reserve requirement coefﬁcient
+
+0.040
+
+0.073
+
+-0.125**
+
+-0.010
+
+(0.719)
+
+(0.047)
+
+(0.057)
+
+(0.023)
+
+Diff. EMBI
+
+0.945**
+
+0.680
+
+0.473
+
+1.018***
+
+(0.44)
+Diff. VIX
+
+(0.459)
+
+(0.347)
+
+(0.08)
+
+-0.074*
+
+-0.019
+
+-0.043**
+
+-0.026***
+
+(0.04)
+
+Constant
+
+(0.02)
+
+(0.007)
+
+0.064
+
+-0.086
+
+0.035
+
+(0.273)
+
+(0.163)
+
+(0.076)
+
+0.298
+
+0.018
+
+0.167
+
+0.031
+
+(0.232)
+
+Dummy monetary policy rate introduction
+
+(0.034)
+
+-0.356
+(0.289)
+
+Dummy inﬂation targeting
+
+(0.183)
+
+(0.181)
+
+(0.058)
+
+-0.120
+
+-0.197
+
+-0.180
+
+-0.075
+(0.062)
+
+(0.198)
+
+(0.212)
+
+(0.118)
+
+Observations
+
+54
+
+41
+
+57
+
+61
+
+R squared
+
+0.398
+
+0.341
+
+0.255
+
+0.682
+
+Adjusted R squared
+
+0.291
+
+0.176
+
+0.131
+
+0.633
+
+SE of regression
+
+0.867
+
+0.593
+
+0.565
+
+0.186
+
+Standard errors in parentheses are corrected for heteroskedasticity and autocorrelation with the Newey–
+West estimator
+***, **, * Next to a number indicate statistical signiﬁcance at 1, 5 and 10 percent, respectively. Source:
+Authors’ calculations
+
+4.2 Asymmetries
+We employ the TAR and M-TAR tests to explore asymmetric cointegration between the
+monetary policy rate and all retail rates.17 As a ﬁrst step, we set the threshold to zero. In
+the case of the TAR test, the null hypothesis of symmetric cointegration cannot be
+rejected. The results are similar in the case of the M-TAR test, as we cannot ﬁnd evidence
+of asymmetric cointegration. As a second step, we let the TAR and M-TAR threshold to
+be endogenously determined. When employing the TAR test, we ﬁnd evidence of
+asymmetric cointegration for the weighted average deposit rate, 3-month, 6-month, and
+1-year lending rates, and the mortgage lending rate. The M-TAR test ﬁnds even stronger
+evidence of asymmetric cointegration, as it rejects the null hypothesis of symmetric
+cointegration for all series, except the 6-month lending rate.
+17
+
+
+-0.002
+(0.093)
+
+-0.29**
+(0.142)
+
+0.127
+(0.283)
+
+0.273***
+(0.081)
+
+-0.010
+(0.014)
+
+-0.086
+(0.295)
+
+0.040
+(0.303)
+
+Speed of adjustment
+below s
+
+Diff. monetary policy
+rate
+
+Diff. reserve
+requirement
+coefﬁcient
+
+Diff. NPLs
+
+Diff. exchange rate
+
+Diff. EMBI
+
+Diff. VIX
+
+Dummy inﬂation
+targeting
+
+Dummy monetary
+policy rate
+introduction
+
+108
+
+-0.32***
+(0.089)
+
+Speed of adjustment
+above s
+
+Short-run equation
+
+Weighted
+average
+
+0.000
+
+Observations
+
+R squared
+
+0.000
+
+108
+
+0.144
+(0.229)
+
+-0.174
+(0.22)
+
+0.001
+(0.011)
+
+0.234**
+(0.094)
+
+0.224
+(0.275)
+
+-0.265**
+(0.113)
+
+0.214***
+(0.067)
+
+0.654***
+(0.094)
+
+-1.109
+(0.087)
+
+-0.287**
+(0.12)
+
+0.000
+
+108
+
+0.1280
+(0.204)
+
+-0.1880
+(0.203)
+
+0.0230
+(0.016)
+
+0.192**
+(0.088)
+
+0.272
+(0.301)
+
+-0.2470
+(0.208)
+
+0.0230
+(0.067)
+
+0.472**
+(0.167)
+
+-0.35**
+(0.162)
+
+-0.268**
+(0.129)
+
+0.000
+
+108
+
+0.080
+(0.215)
+
+-0.117
+(0.206)
+
+0.007
+(0.01)
+
+0.206**
+(0.08)
+
+0.186
+(0.226)
+
+-0.304***
+(0.1)
+
+0.192***
+(0.034)
+
+0.594***
+(0.096)
+
+-0.249***
+(0.08)
+
+-0.356*
+(0.183)
+
+0.000
+
+108
+
+0.230
+(0.218)
+
+-0.237
+(0.208)
+
+-0.044
+(0.031)
+
+0.656***
+(0.216)
+
+0.030
+(0.604)
+
+0.776**
+(0.299)
+
+-0.012
+(0.243)
+
+0.573**
+(0.249)
+
+-0.798***
+(0.155)
+
+-0.375***
+(0.109)
+
+3 months
+
+1 year
+
+3 months
+
+6 months
+
+Lending rates
+
+Deposit rates
+
+Table 4 Asymmetric M-TAR ECM estimation for retail rates
+
+0.000
+
+108
+
+0.128
+(0.357)
+
+-0.270
+(0.302)
+
+0.012
+(0.03)
+
+0.113
+(0.107)
+
+1.018*
+(0.525)
+
+0.267
+(0.302)
+
+0.014
+(0.189)
+
+0.837***
+(0.171)
+
+-0.475***
+(0.124)
+
+-0.518***
+(0.104)
+
+1 year
+
+0.000
+
+108
+
+0.179
+(0.169)
+
+-0.211
+(0.15)
+
+-0.003
+(0.017)
+
+0.246**
+(0.105)
+
+0.520
+(0.409)
+
+0.487***
+(0.157)
+
+0.259**
+(0.121)
+
+0.818***
+(0.13)
+
+-0.232***
+(0.084)
+
+-0.321**
+(0.127)
+
+Weighted
+average
+
+0.000
+
+108
+
+0.188
+(0.158)
+
+-0.116
+(0.146)
+
+-0.007
+(0.022)
+
+0.333***
+(0.109)
+
+-0.001
+(0.003)
+
+0.305*
+(0.169)
+
+0.22*
+(0.126)
+
+0.765***
+(0.156)
+
+-0.38***
+(0.068)
+
+-0.065
+(0.158)
+
+Commercial
+
+0.000
+
+108
+
+0.097
+(0.175)
+
+-0.258*
+(0.141)
+
+0.045***
+(0.016)
+
+-0.036
+(0.082)
+
+0.971**
+(0.404)
+
+0.815***
+(0.282)
+
+0.193
+(0.151)
+
+0.821***
+(0.178)
+
+-0.365***
+(0.105)
+
+-0.153
+(0.136)
+
+Personal
+consumption
+
+Loan category rates
+
+0.000
+
+108
+
+0.076
+(0.129)
+
+-0.131
+(0.11)
+
+0.015
+(0.015)
+
+0.19*
+(0.099)
+
+0.201
+(0.398)
+
+0.133
+(0.138)
+
+0.098
+(0.187)
+
+0.577***
+(0.126)
+
+-0.215***
+(0.073)
+
+-0.311*
+(0.174)
+
+Mortgage
+
+Lat Am Econ Rev (2017) 26:4
+
+2.723**
+
+Wald test (HO: speed of
+adj. above s = speed
+of adj. below s)
+
+-1.234
+
+0.347
+
+0.402
+0.424
+
+0.228
+
+0.293
+-0.530
+
+0.369
+
+0.422
+2.660**
+
+0.327
+
+0.384
+-0.273
+
+0.336
+
+0.393
+
+1 year
+
+-0.613
+
+0.371
+
+0.424
+
+Weighted
+average
+
+1.743*
+
+0.361
+
+0.415
+
+Commercial
+
+1.252
+
+0.326
+
+0.383
+
+Personal
+consumption
+
+Loan category rates
+
+***, **, * Next to a number indicate statistical signiﬁcance at 1, 5 and 10 percent, respectively. Source: Authors’ calculations
+
+Standard errors in parentheses are corrected for heteroskedasticity and autocorrelation with the Newey–West estimator
+
+0.388
+
+Adjusted R squared
+
+3 months
+
+1 year
+
+3 months
+
+6 months
+
+Lending rates
+
+Deposit rates
+
+SE of regression
+
+Table 4 continued
+
+-0.538
+
+0.246
+
+0.310
+
+Mortgage
+Interest Rate Pass-Through on Three-Month Rates
+0.7
+Spread (right axis)
+Deposits
+Loans
+
+1.4
+1.2
+
+1.6
+
+0.6
+0.5
+
+1.6
+
+1.4
+
+0.4
+0.3
+
+1.0
+
+0.2
+0.1
+
+0.8
+
+0.7
+
+Spread (right axis)
+Deposits
+Loans
+
+0.6
+0.5
+0.4
+0.3
+
+1.2
+1.0
+
+0.2
+0.1
+
+0.8
+
+Interest Rate Pass-Through on One-Year Rates
+
+12m
+
+11m
+
+9m
+
+10m
+
+8m
+
+6m
+
+7m
+
+5m
+
+4m
+
+3m
+
+2m
+
+1m
+
+Impact
+
+12m
+
+11m
+
+9m
+
+10m
+
+1.6
+
+7m
+
+0.7
+
+8m
+
+-0.2
+
+6m
+
+0.4
+
+4m
+
+-0.2
+5m
+
+0.4
+3m
+
+0.0
+-0.1
+
+2m
+
+0.6
+
+1m
+
+0.0
+-0.1
+Impact
+
+0.6
+
+-0.2
+
+0.4
+
+-0.2
+Impact
+
+12m
+
+11m
+
+9m
+
+10m
+
+8m
+
+7m
+
+6m
+
+5m
+
+4m
+
+3m
+
+2m
+
+1m
+
+Impact
+
+Interest Rate Pass-Through on Loan Category Rates
+
+12m
+
+0.4
+
+11m
+
+0.0
+-0.1
+10m
+
+0.1
+
+0.6
+9m
+
+0.8
+
+0.0
+-0.1
+
+8m
+
+0.1
+
+0.6
+
+7m
+
+0.8
+
+6m
+
+0.3
+0.2
+
+5m
+
+0.4
+
+1.0
+
+4m
+
+1.2
+
+0.3
+0.2
+
+3m
+
+0.4
+
+1.0
+
+1.4
+
+2m
+
+1.2
+
+Spread (right axis)
+Deposits
+Loans
+
+1m
+
+0.6
+0.5
+
+Interest Rate Pass-Through on Weighted Average Rates
+0.7
+Spread (right axis)
+0.6
+Deposits
+1.4
+0.5
+Loans
+
+1.6
+
+Asymmetric Pass-Through on Three-Month Rates
+1.2
+
+1.6
+Commercial
+Personal consumption
+Mortgage
+
+1.4
+
+1.1
+1.0
+
+1.2
+
+0.9
+
+1.0
+
+0.8
+
+0.8
+
+Deposits--above τ
+Deposits--below τ
+Loans--above τ
+Loans--below τ
+
+0.7
+
+12m
+
+11m
+
+10m
+
+9m
+
+8m
+
+7m
+
+6m
+
+5m
+
+4m
+
+3m
+
+2m
+
+1m
+
+Impact
+
+12m
+
+11m
+
+10m
+
+8m
+
+9m
+
+7m
+
+6m
+
+5m
+
+4m
+
+3m
+
+2m
+
+0.5
+1m
+
+0.6
+
+0.4
+Impact
+
+0.6
+
+Fig. 1 Timing of one percentage point change in the monetary policy rate (percentage points). Notes:
+Deviations above s correspond to monetary policy rate cuts, while deviations below s correspond to
+monetary policy rate hikes. Source: Authors’ calculations
+
+The results of the M-TAR cointegration tests with the endogenously determined
+threshold warrant the use of the asymmetric ECM. Table 4 reports the results of the
+estimation of Eq. (9) for all series but the 6-month lending rate, for which the
+hypothesis of symmetric cointegration cannot be rejected. Our attention falls on the
+speed of adjustment above and below the threshold. If the retail rate is above its
+equilibrium value after a decrease in the monetary policy rate, then the retail rate
+will adjust by the coefﬁcient of the speed of adjustment above s in every period.
+Conversely, if the retail rate is below its equilibrium value after an increase in the
+monetary policy rate, then the lending rate will adjust by the coefﬁcient of the speed
+particular, we employ a Wald test with a null hypothesis for which the speed of
+adjustment above s is equal to the speed of adjustment below s. Our results suggest
+that the speed of adjustment for the 3-month deposit rate is higher when the
+monetary policy rate falls. Conversely, the speed of adjustment for the 3-month
+lending rate is higher when monetary policy rate increases. More speciﬁcally, the
+speed of adjustment for positive deviations is 1.5 times the one for negative
+deviations in the case of deposit rates, suggesting that negative deviations are more
+persistent, whereas the speed of adjustment for negative deviations is two times the
+one for positive deviations in the case of lending rates, suggesting that positive
+deviations are more persistent.
+For rates at higher maturities the two speeds of adjustment coefﬁcients are not
+signiﬁcantly different from each other. However, short maturities provide a better
+measure as loans are typically not collateralized and this allows isolating the
+balance sheet channel (Mishkin 1995). In other words, the pass-through does not
+depend on market price variations that inﬂuence the value of collateral. This
+reinforces the evidence of the results on 3-month rates.
+4.3 Simulation
+To evaluate the effect of an exogenous monetary policy shock, we conduct a
+simulation exercise to generate time paths for retail rates. The policy experiment
+consists of a policy tightening corresponding to an increase by one percentage point
+in the monetary policy rate, starting from a situation in which the system is in
+equilibrium and simulating the adjustment of the retail rates over the following year.
+Figure 1 presents the symmetric adjustment path for all retail rates, as well as the
+asymmetric adjustment path for the 3-month rates.18
+While the symmetric adjustment dynamics for different maturities are slightly
+different, they all imply changes in spreads between 0.0 and 0.2 percentage points
+when the adjustment is completed. On impact, an increase in the monetary policy
+rate generates a negative spread of about 0.1 percentage points only for the 3-month
+rates. The spread, however, halves over time. As the simulated adjustment is
+symmetric by construction, any monetary policy easing implies a reduction in
+banks’ proﬁtability by the same amount during the ﬁrst month.
+Personal consumption and commercial loans are the fastest in incorporating
+monetary policy changes. However, given the lower pass-through for the former, the
+adjustment completes earlier despite a lower speed of adjustment. Mortgage loans,
+possibly because of the higher frequency at which they are taken, display a smaller
+short-run effect from the monetary policy rate change, but their speed of
+convergence to long-run equilibrium is similar to the one of commercial loans.
+Finally, we present the asymmetric adjustment path for the 3-month rates. By
+construction, the short- and long-run impact is the same regardless of whether the
+18
+
+The law of motion for the retail rates is deﬁned as, rrt ¼ c1 þ qðb1 À c1 Þ where c1 is the short-run
+impact of the monetary policy rate from Eq. (3), q is the speed of adjustment from Eq. (3), and b1 is the
+lont-run impact of the monetary policy from Eq. (3). In the case of the asymmetric adjustment, q is
+speeds of adjustments imply that deviations above the threshold (i.e., monetary
+policy rate cuts) are corrected in a much faster fashion than deviations below it (i.e.,
+monetary policy rate hikes) for deposit rates, while the opposite is true for lending
+rates.
+
+5 Conclusions
+This paper investigates the interest rate pass-through of monetary policy rates to
+retail rates in the Dominican Republic. Based on a recent 10-year monthly sample
+from 2006 to 2015, we estimate the interest rate pass-through for deposit and
+lending rates at different maturities and for different loan category rates. Also, we
+explore the costs associated with changes in the monetary policy stance by
+estimating the interest rate pass-through to government bond rates. Finally, we
+investigate if the speed of the monetary transmission mechanism is conditional on
+whether the monetary policy becomes more contractionary or expansionary, and we
+simulate its impact on the retail rates.
+We ﬁnd that while the pass-through to deposit and lending rates is complete,
+conﬁrming the effectiveness of the monetary policy transmission mechanism.
+Government domestic bond rates also react to monetary policy changes. Moreover,
+our results reveal that the pass-through to lending rates is generally faster than to
+deposit rates. Finally, we ﬁnd some evidence of asymmetric adjustment as shortterm deposit rates respond faster to monetary policy rate cuts than hikes, and shortterm lending rates respond faster to monetary policy rate hikes than cuts.
+The theoretical literature explains asymmetric adjustment in the speed of
+adjustment of retail rates with the collusive market hypothesis. In particular, the
+bargaining power of banks could explain why the lending rates exhibit downward
+rigidity to a monetary policy rate cut and upward ﬂexibility to a monetary policy
+rate hike. From a policy perspective, measures to reduce bank concentration and
+boost competition in the ﬁnancial system could be instrumental in enhancing the
+effectiveness of monetary policy transmission mechanism by reducing asymmetries
+in the adjustment of retail rates.
+Lat Am Econ Rev (2017) 26:4
+https://doi.org/10.1007/s40503-017-0041-x
+
+Interest rate pass-through in the Dominican Republic
+Francesco Grigoli1
+
+•
+
+´
+Jose M. Mota2
+
+Received: 29 June 2016 / Revised: 15 March 2017 / Accepted: 17 March 2017 /
+Published online: 5 April 2017
+Ó The Author(s) 2017. This article is an open access publication
+
+Abstract A well-functioning monetary transmission mechanism is critical for
+monetary policy. As the Dominican Republic recently adopted an inﬂation targeting
+regime, it is even more relevant to guarantee that changes in the monetary policy
+rates are quickly and fully reﬂected in retail rates, to eventually inﬂuence aggregate
+demand and inﬂation. This paper estimates the interest rate pass-through of the
+monetary policy rate to retail rates and explores asymmetries in the adjustment. We
+ﬁnd evidence of complete pass-through to retail rates, conﬁrming the effectiveness
+of the monetary policy transmission mechanism. However, our results also suggest a
+faster pass-through to lending rates than to deposit rates and asymmetric adjustments of short-term rates, as deposit rates respond faster to policy rate cuts and
+lending rates respond faster to policy rate hikes. Measures to enhance competition in
+the ﬁnancial system could help to achieve a symmetric adjustment of retail rates.
+
+The views expressed in this paper are those of the author(s) and do not necessarily represent the views of
+the International Monetary Fund (IMF), its Executive Board, the IMF management, or the
+Superintendency of Banks of the Dominican Republic. We thank Svetlana Cerovic, Przemek Gajdeczka,
+Metodij Hadzi-Vaskov, Hibiki Ichiue, Raul Ovalle, Evelio Paredes, Pau Rabanal, Andrew Swiston,
+Apolinar Veloz, and an anonymous referee for helpful comments and suggestions. We are also grateful
+for the suggestions made by participants in the seminars of the Western Hemisphere Department of the
+IMF, the Superintendecy of Banks of the Dominican Republic, and the Ministry of Finance of the
+Dominican Republic, all held in November 2015.
+& Francesco Grigoli
+fgrigoli@imf.org
+´
+Jose M. Mota
+jmota@sb.gob.do
+1
+
+International Monetary Fund, Washington, USA
+
+2
+
+Transmission mechanism
+JEL classiﬁcation numbers E43 Á E52
+
+1 Introduction
+The global slowdown and recent price developments renewed the interest in
+evaluating the effectiveness of monetary policy. It is widely acknowledged that an
+effective monetary policy relies on a well-functioning transmission mechanism. If
+changes in monetary policy rates are quickly and fully transmitted to retail rates, the
+latter have a faster impact on domestic demand and therefore inﬂation (Mishkin
+1995; Becker et al. 2012). Conversely, if retail rates are sticky, the monetary policy
+goals take longer and are harder to achieve. As the Dominican Republic recently
+adopted an inﬂation targeting regime, it is even more relevant to ensure that changes
+in the monetary policy rates are quickly and fully reﬂected in retail rates to
+eventually affect inﬂation.
+The theoretical literature advanced several possible explanations as to why the
+interest rate pass-through may be slow, incomplete, more than complete, or
+asymmetric. These include asymmetric information, menu costs, switching costs,
+risk sharing, ownership of the ﬁnancial system, economic conditions, and bank
+concentration. While the empirical literature for advanced and emerging economies
+is vast, the evidence for the Dominican Republic remains limited.
+In this paper, we estimate the interest rate pass-through for retail rates in the
+Dominican Republic. The contribution to the existing literature is twofold. First, we
+provide a wide spectrum of results for retail rates at different maturities and for a
+recent period, with some analysis of the ﬁscal costs (i.e., public sector borrowing
+costs) associated with monetary policy. Second, we test for asymmetries in the
+adjustment to equilibrium and simulate the symmetric and asymmetric adjustment
+of retail rates to changes in the monetary policy rate.
+We ﬁnd evidence of complete pass-through to retail rates, conﬁrming the
+effectiveness of the monetary policy transmission mechanism. Similarly, our results
+indicate that government domestic bond yields increase when monetary policy
+becomes more contractionary. However, we also ﬁnd evidence of a faster passthrough to lending rates than to deposit rates. Moreover, short-term deposit rates
+respond faster to policy rate cuts with respect to hikes, while short-term lending
+rates respond faster to policy rate hikes with respect to cuts. The theoretical
+literature associates asymmetries in the speed of adjustment to collusive market
+behaviors. Thus, measures to boost competition in the ﬁnancial system could help to
+achieve a symmetric adjustment of retail rates.
+The paper is organized as follows. Section II reviews the theoretical contributions
+explaining rigidities and asymmetries in the interest rate pass-through, comments on
+the institutional features of the ﬁnancial system of the Dominican Republic, and
+discusses the empirical evidence for the country. Section III presents the empirical
+In this section, we brieﬂy review the main theoretical reasons for which retail rates
+may show stickiness or asymmetries when the monetary policy changes. Then, we
+describe the institutional framework of the Dominican banking system and review
+the existing empirical literature on the interest rate pass-through for the Dominican
+Republic.
+2.1 Theoretical contributions
+Stiglitz and Weiss (1981) relate stickiness to asymmetric information. When banks
+perceive the default risk to be high, they are inclined to maintain a large spread
+between lending and deposit rates. However, given that borrowers that accept higher
+rates are likely to be of poor quality and borrowers with less risky investments are
+likely not to borrow if rates increase (i.e., adverse selection), and given that any
+increase of lending rates will give incentives for borrowers to choose riskier projects
+(i.e., moral hazard), any monetary policy rate increase would raise the probability of
+loan default. Thus, banks may decide not to raise their rates albeit their cost for
+getting funds increases, and reach the equilibrium in the loan market by rationing
+credit. As a result, lending rates may be rigid upwards and adjustment may turn out
+to be asymmetric.
+Bernanke et al. (1996) show that ﬁnancial frictions may cause large ﬂuctuations
+in economic activity, and consequently in retail rates. In the presence of asymmetric
+information, lenders may require borrowers to collateralize their assets. In response
+to a monetary policy rate hike, for example, the balance sheets of ﬁrms deteriorate
+owing to the fall in asset prices. As a result, ﬁrms have less ability to borrow, which
+ultimately affects investment. This starts a vicious cycle (i.e., ﬁnancial accelerator)
+where lower economic activity dampens asset prices, which further tightens
+ﬁnancing conditions and reduces economic activity. This mechanism may induce
+overpass-through from the monetary policy rate to the retail rates.1
+De Bondt (2005) uncovers another reason for which asymmetric information
+leads to overpass-through. Banks may react to risks involved in asymmetric
+information by raising interest rates beyond the size of the increase in the policy
+dictated rate, instead of rationing credit. In other words, lending rates must increase
+by an amount greater than the increase in the monetary policy rate to compensate for
+the decrease in the probability of repayment. However, there is a limit to this.
+Beyond some interest rate level, banks will not be able to increase the interest rate
+sufﬁciently to compensate for this risk and all lending will be made to the less risky
+borrowers. However, until this happens, the bank rate on these loans should be very
+sensitive to changes in the market interest rate.
+Rotemberg and Saloner (1987) explain price rigidity by formulating the menu
+costs theory. This predicts that ﬁrms will change their prices only when the beneﬁts
+from doing this are greater than the costs of changing prices (e.g., printing,
+advertising new price lists, communicating to customers, etc.). Hence, if the
+1
+
+associated to changing retail rates are higher than the beneﬁts, banks may opt to
+delay the retail rate changes.2
+Lowe and Rohling (1992) argue that switching costs can cause retail rates
+rigidity. Banks incur costs to collect information about the risk proﬁle and behaviors
+of their customers and these are generally passed on to them as one-off fees. If costs
+associated to switching to a different bank are high enough, customers may decide
+to accept a more penalizing interest rate by their current bank instead of incurring
+these costs. Thus, higher switching costs may imply stickiness of retail rates as well
+as asymmetric adjustment.
+Fried and Howitt (1980) show that banks and customers are better off by sharing
+risk and this increases retail rates rigidity. More speciﬁcally, as movements in
+interest rates affect banks’ and customers’ earnings, banks could offer an
+equilibrium risk-sharing agreement (e.g., an insurance contract) for which banks
+agree to compensate customers in case of unfavorable interest rate movements
+against the payment of a fee. Customers would then hesitate to change banks
+because of this agreement. Similarly, Berger and Udell (1992) highlight the role
+played by implicit contracts for which banks interested in long-term relationships
+are willing to offer more stable interest rates. All these kinds of agreements result in
+stickier retail rates.
+The ownership structure of the ﬁnancial system also plays a role in shaping the
+transmission mechanism of monetary policy. State-owned ﬁnancial institutions are
+often the key in achieving policy objectives of governments, and as a result
+maximizing proﬁt is not their primary aim. In this context, interest rates are likely to
+adjust with a delay due to inefﬁciencies and political considerations, hence causing
+stickiness in interest rate adjustment.
+´
+´
+Egert et al. (2007) and Egert and Macdonald (2009)highlight the role of
+macroeconomic conditions in affecting retail rates stickiness. If volatility is high,
+the information content of policy signals is reduced as noise increases. Consequently, banks would wait more to change their rates. Moreover, the pass-through is
+likely to be faster during high inﬂation periods as prices are adjusted more
+frequently. High economic growth also favors a quicker pass-through as banks ﬁnd
+it easier to pass on changes when conditions are favorable.
+The interest rate pass-through may be asymmetric because bank concentration
+leads to oligopolistic behaviors. On one hand, the collusive behavior hypothesis of
+Hannan and Berger (1991) suggests that following an increase in the monetary
+policy rate, deposit rates could be rigid upwards because higher deposit rates
+represent an additional cost for banks. Similarly, the lending rates could exhibit
+downward rigidity in reaction to a reduction in the monetary policy rate as lower
+lending rates imply lower proﬁts for banks. On the other hand, the adverse customer
+reaction hypothesis indicates that if customers have bargaining power deposit rates
+
+2
+
+De Bondt (2002) and De Bondt et al. (2003) further analyze the role of expectations of future interest
+rates, explaining that the current change in retail rates also depends on the extent to which the monetary
+be rigid upwards when the monetary policy rate increases.
+2.2 Characteristics of the Dominican ﬁnancial system and empirical
+evidence
+The recent history of the Dominican Republic’s monetary policy starts with the
+Monetary and Financial Law of 2002. The law strengthened the institutional
+framework for the conduct of monetary policy by establishing price stability as the
+main central bank’s mandate. Starting in 2004, the central bank moved away from
+exchange rate targeting and transitioned to monetary targeting. In this context, it
+introduced an overnight deposit window and a Lombard facility, which created a
+corridor for the interbank rate. The overnight rate served as signal of the monetary
+policy stance.
+The monetary targeting anticipated the transition to the inﬂation targeting
+regime. While the central bank managed to signiﬁcantly reduce inﬂation and
+stabilize the economy under the monetary targeting, ﬁnancial innovation and
+deregulation as well as ﬁnancial sector reforms generated a growing instability in
+´
+money demand, weakening the relationship between money and inﬂation (Andujar
+2014). To strengthen monetary policy effectiveness, the BCRD adopted an inﬂation
+targeting regime in January 2012. Starting in February 2013, the authorities
+introduced the monetary policy rate as the benchmark rate, which is in the middle of
+a corridor bounded by the one-day deposit and expansion facilities.
+Since the ﬁnancial crisis of 2003–04, the ﬁnancial system developed considerably but remains highly concentrated. As of June 2015, the system is composed of
+65 ﬁnancial entities with assets over 45% of GDP and a loan portfolio of 27% of
+GDP.3,4 Most of the loans go to the commercial sector (58.7%), while the remainder
+is split between personal consumption loans (24%) and mortgage loans (17.3%).
+Commercial and mortgage loans are usually backed by a collateral, which
+contributes to lower the interest rate. In June 2006, the three main banks used to
+represent 57.5% of deposits and 58.2% of loans, while as of June 2015 they
+represent 67.7% of deposits and 69.0% of loans.
+As discussed, the degree of concentration is often associated with collusive
+behavior. This generally translates into high proﬁts for banks as well as asymmetries
+in the adjustment of retail rates to the monetary policy rates. In the Dominican
+Republic, spreads are high at all maturities (6.5% on average for 3-month spread
+over 2006–2015) and vary signiﬁcantly when the monetary policy rate changes.5
+This suggests that deposit and lending rates may either react differently to changes
+in the monetary policy rate, react asymmetrically to lifts and cuts in the monetary
+policy rate, or both.
+3
+
+Ratios to GDP are calculated using the 2014 nominal GDP.
+
+4
+
+The ﬁnancial system consists of 17 commercial banks (85.8% of the system assets), 10 saving and
+credit institutions (11.1% of the system assets), 19 credit unions (1.9% of the system assets), several credit
+corporations (0.3% of the system assets), and a development bank (0.9% of the system assets).
+
+5
+
+While this is true for spreads at all maturities, we present only the 3-month spread in the chart for space
+speciﬁcations, and estimation methodologies vary signiﬁcantly across studies. Most
+of the literature ﬁnds evidence of overpass-through to lending rates, albeit the
+results present a signiﬁcant variation in the estimated pass-through. As for the
+deposit rates, results are generally mixed, with estimates ranging from incomplete to
+overpass-trough.
+´
+´
+Gonzalez Pantaleon (2010) ﬁnds over pass-through of the interbank rate to both
+lending and deposit rates. He employs an error correction model (ECM) to estimate
+a speciﬁcation that includes several explanatory variables. He ﬁnds that the
+Emerging Market Bond Index (EMBI) spread, the reserve requirement coefﬁcient,
+and the Lombard window rate are signiﬁcantly associated to increases in retail rates.
+Rivas (2011) is the ﬁrst to explore asymmetries in the interest rate pass-through
+for the Dominican Republic. With an asymmetric ECM applied to a parsimonious
+speciﬁcation that includes only the interbank rate, he studies the adjustment of the
+retail rates to positive or negative changes in the monetary policy rate. He ﬁnds
+Table 1 Literature for the Dominican Republic
+Author
+
+Empirical
+approach
+
+Sample period
+
+Estimated long-run
+coefﬁcient
+
+Explanatory variables
+
+Gonzalez
+Pantaleon
+(2010)
+
+ECM
+
+Quarterly data
+(1996Q1–2010Q1)
+and monthly data
+(1996M1–2010M4),
+excluding 2003 and
+2004
+
+Loans: 0.96–1.44,
+Deposits:
+0.91–1.23,
+Commercial loans:
+1.04–1.25, Personal
+cons, loans:
+0.96–1.13,
+Mortgage loans:
+1.15–1.45
+
+Interbank rate,
+external interest
+rate, EMBI spread,
+reserve requirement
+coefﬁcient,
+Lombard window
+rate
+
+Rivas (2011)
+
+Asymmetric
+ECM
+
+Monthly data
+(1996M1–2011M8)
+
+Loans: 0.90–1.42
+Deposits: 1.00
+
+Interbank rate
+
+Medina,
+Carrion, and
+Frantischek
+(2011)
+
+Panel
+S-GMM
+
+Annual data (2004–10)
+for 40 countries
+
+Loans (DR): 0.65
+
+Monetary policy rate,
+ﬁnancial
+dollarization,
+exchange rate
+ﬂexibility, size of
+the banking sector,
+banking
+concentration, and
+interactions
+
+Andujar
+(2012)
+
+ECM
+
+Monthly data
+(1996M1–2007M12)
+
+Loans: 0.94,
+Deposits: 0.73–0.77
+
+Interbank rate
+
+Aristy
+Escuder
+(2014)
+
+ADL model
+
+Monthly data
+(2008M1–2014M8)
+
+Loans: 2.66,
+Deposits: 1.65
+
+Monetary policy rate
+(overnight)
+
+BCRD (2015)
+
+N/A
+
+N/A
+
+Loans: 1.06–1.63,
+Deposits: 0.85–0.92
+
+efﬁciency of monetary transmission mechanism in the post-crisis period compared
+to the pre-crisis one. Finally, he does not ﬁnd any evidence of asymmetric
+adjustment.
+Medina Cas et al. (2011) ﬁnd a high degree of stickiness in the pass-through to
+deposit and lending rates. Using a 40-country panel data over the period 2004–2010,
+the authors estimate a dynamic speciﬁcation with system generalized method of
+moments (S-GMM) that includes interaction terms between the monetary policy
+rate and a set of explanatory variables. The authors ﬁnd that although the estimated
+pass-through for the Dominican Republic is incomplete owing to high dollarization
+and limited exchange rate ﬂexibility, it is greater than for Central American
+countries.
+´
+By employing an ECM, Andujar (2012) ﬁnds a complete pass-through to lending
+rates and an incomplete one to deposit rates. Also, his results suggest that starting in
+2005 the monetary transmission mechanism became more efﬁcient and that changes in
+the interbank rate take from four to 5 months to be reﬂected in retail rates. Finally,
+using simulations the author shows that permanent changes in the policy rates are
+associated with a stronger reaction of retail rates compared to temporary changes.
+Aristy Escuder (2014) ﬁnds evidence of overpass-through for both lending and
+deposit rates. More speciﬁcally, he estimates an autoregressive distributed lag
+(ADL) model with a parsimonious speciﬁcation including only the overnight rate.
+His results suggest that the size of the overpass-through is much larger than in the
+existing literature.
+Banco Central de la Republica Dominicana (2015) also ﬁnds overpass-through to
+the lending rates, but incomplete or complete pass-through to the deposit rates.
+While estimation details are not available, the study presents results for a wide range
+of interest rates and for the calculations of the speed of adjustment in months. This
+ranges between one and 2 months for all interest rates, with the exception of the
+6-month lending rate, which adjusts in about 4 months.
+
+3 Empirical strategy
+Let rrt denote the endogenously determined retail rate at time t:
+rrt ¼ a þ b1 mprt þ b2 Xt þ ut ;
+
+ð1Þ
+
+where a is an intercept which denotes a mark-up or mark-down on the retail rate to
+reﬂect market conditions,6 mprt is the monetary policy rate,7 Xt includes a set of
+factors inﬂuencing the retail rate beyond the monetary policy rate, b1 and b2 are the
+6
+
+See Marotta (2009).
+
+7
+
+The monetary policy rate used in the regressions is a proxy of the average monetary policy rate for the
+month. Given that the decision to change or maintain the rate is taken during the last week of the month,
+we assume that the average for the current month is equal to the last month’s value of the monetary policy
+heterogeneity.8
+Departing from most papers in the literature, we employ a richer speciﬁcation with
+the vector of exogenous covariates Xt encompassing ﬁve variables. First, we add the
+reserve requirement coefﬁcient for commercial bank deposits at the central bank in
+local currency as increases in the coefﬁcient correspond to withdrawals of liquidity in
+the ﬁnancial system, resulting in higher retail rates. Second, we also add nonperforming loans (NPLs) as a share of total loans with the aim of capturing increases
+(decreases) in the lending (deposit) rates that compensate higher banks’ losses when
+NPLs increase. Third, we include the average exchange in the event retail rates adjust
+to maintain a stable pace of depreciation rather as a reaction to changes in the
+monetary policy rate. Fourth, we include the EMBI spread as a time-varying measure
+of the risk premium. And ﬁfth, we add the Volatility Index (VIX) to reﬂect external
+market’s volatility (especially advanced economies) expectation for the next
+30 days. The expected effect of the VIX is ambiguous. When volatility in advanced
+economies is high, interest rates may drop as capital ﬂies toward emerging markets
+such as the Dominican Republic, or may go up if volatility is perceived as a global
+issue and capital ﬂies to quality. Finally, we add two dummy variables for regime
+changes. The ﬁrst one is for the inﬂation targeting period and the second is for the
+period in which the monetary policy rate was introduced as a benchmark.
+Our attention falls on the fraction of the change in monetary policy rate reﬂected
+in changes in retail rates over the long run.9 This is expressed by the parameter b2,
+which is close to zero when the transmission mechanism is weak and takes value
+one when the pass-through is complete. As discussed, a bunch of factors may
+prevent the pass-through to be complete, and in some cases, b1 could be higher than
+one, implying overpass-through.
+With the purpose of having a wide glance at the ﬁnancial system, we analyze the
+impact of changes in monetary policy on several retail rates with monthly data over the
+period June 2006–June 2015. In particular, rrt is, alternatively, the deposit or lending
+rate at 90, 180, 360 days, the weighted average rate, as well as the commercial,
+personal consumption, and mortgage lending rate of commercial banks.10 Also, we
+explore the interest rate pass-through from the monetary policy rate to government
+domestic bond rates for instruments at 5, 7, and 10 years, as well as for 10-year
+government bonds issued in the sovereign market. However, since these kinds of
+instruments are not issued every month, we rely on the interest rate in the secondary
+market. Given the reduced sample size, results need to be taken with caution.11
+8
+
+A trend is excluded a priori because there is no theoretical reason for which interest rates should exhibit
+a deterministic time trend (see Hamilton 1994).
+
+9
+
+As we are interested in estimating the pass-through from themonetary policy rate—which is clearly
+exogenous—to retail rates, and to avoid relying on asymptotic properties of the maximum likelihood
+estimation, we opt for a single equation approach rather than a multivariate one.
+
+10
+
+Due to data availability, we limit our analysis to commercial banks, which represent 85.8 percent of
+the ﬁnancial system assets.
+11
+Observations start in May 2009 for the 5-year domestic bonds, February 2010 for the 7-year domestic
+bonds, August 2010 for the 10-year domestic bonds, and April 2010 for the 10-year sovereign bonds, and
+presence of unit roots, estimating Eq. (1) with ordinary least squares would result in
+spurious coefﬁcients. Thus, we ﬁrst test the levels and ﬁrst differences of all series
+for unit root employing the Augmented Dickey Fuller (ADF) test. When the
+hypothesis of unit root cannot be rejected for the levels, we test for cointegration
+between the retail rates and the monetary policy rate using the Engle-Granger test.
+In those groups of data for which cointegration are not found, we estimate the
+following ADL model:
+Drrt ¼ g þ c1 Dmprt þ
+
+n
+X
+
+ci DmprtÀi þ d1 DXt þ
+
+m
+X
+
+i¼1
+
+dk DXtÀk þ
+
+p
+X
+
+fj DrrtÀj þ et ;
+
+j¼1
+
+k¼1
+
+ð2Þ
+where D is the difference operator, g is the constant, c1 is the short-run pass-through
+(i.e., within the same month), dk are the coefﬁcients for the changes in the variables
+of vector Xt and their lags, fj are the coefﬁcients for the changes of the lags of the
+dependent variable, n, m, and p are the maximum number of lags, and et is a white
+noise error term. The long-run pass-through coefﬁcient b1 can be retrieved as
+
+Pn 
+Pp
+j¼1 fj .
+i¼1 = 1 À
+For groups of data sharing a long-run relationship (i.e., cointegrated), Eq. (2) can
+be re-parameterized into an error correction model (ECM) that ties the short-run
+disequilibrium to the long-run equilibrium (Hendry and Nielsen 2007):
+Drrt ¼ g þ c1 Dmprt þ
+
+n
+X
+
+ci DmprtÀi þ d1 DXt þ
+
+i¼1
+
+m
+X
+
+dk DXtÀk þ qutÀ1 þ et ;
+
+ð3Þ
+
+k¼1
+
+where q is the percentage of the previous period deviation from to the long-run
+equilibrium ut - 1 that is corrected in every period t. In other words, it represents the
+speed at which bank rates adjust back to equilibrium after a change in the monetary
+policy rate.12
+Enders and Siklos (2001) show that the Engle–Granger cointegration test is
+misspeciﬁed if adjustment is asymmetric. In particular, they argue that it is a special
+case of the threshold autoregressive (TAR) model, which allows testing for
+asymmetric cointegration. The TAR model can be written as:
+Dut ¼ It q1 utÀ1 þ ð1 À It Þq2 utÀ1 þ
+
+q
+X
+
+cl DutÀl þ vt ;
+
+ð4Þ
+
+l¼1
+
+where It is the Heaviside indicator function such that:
+
+12
+The literature (see Doornik and Hendry 1994) also calculates the mean adjustment lag as ð1 À c1 Þ=q;
+which reveals how many months it takes for the change in the monetary policy rate to be fully reﬂected in
+retail rates. This measure, however, assumes that there is complete pass-through (i.e.,b1 ¼ 1; and that the
+portion of adjustment q is the same every month (rather than being a percentage of previous year
+It ¼
+
+1;
+0;
+
+utÀ1 ! s
+;
+utÀ1 \s
+
+ð5Þ
+
+and q1 and q2 are the estimates if ut-1 is above or below the threshold s, respectively.
+The value of s is unknown and can be estimated using the method illustrated in
+Chan (1993). However, it can also be set a priori. In our case, we set it to zero and
+we also estimate it. Enders and Siklos (2001) propose the U and the t-max statistics
+to test for asymmetric cointegration. The U statistic is an F-statistic testing the null
+hypothesis that q1 = q1 = 0, while the t-max is a t-statistic testing the null
+hypothesis with the largest qi = 0.13 Hence, if the null hypothesis of no cointegration is rejected, we can test the null hypothesis that q1 = q2 by a standard Fstatistic. A rejection of this hypothesis implies asymmetric adjustment.
+Policymakers may be interested in reducing large changes in the retail rates.
+Enders and Granger (1998) and Carner and Hansen (1998) propose a variation of the
+TAR model of Eq. (4), known as momentum TAR (M-TAR) model:
+Dut ¼ Mt q1 utÀ1 þ ð1 À Mt Þq2 utÀ1 þ
+
+q
+X
+
+cl DutÀi þ vt ;
+
+ð6Þ
+
+l¼1
+
+where Mt is an alternative Heaviside indicator function to the one in Eq. (5) such
+that:
+
+1; DutÀ1 ! s
+Mt ¼
+:
+ð7Þ
+0; DutÀ1 \s
+As in the case of the TAR model, we test for asymmetric cointegration both when
+s is set to zero and when it is endogenously determined within the M-TAR
+framework. The interpretation of the TAR and M-TAR models, however, differs.
+The TAR model tests if the deviation from the long-run equilibrium is persistent
+assuming equal magnitudes of positive and negative shocks, whereby the M-TAR
+model tests if the deviation from the long-run equilibrium is persistent irrespective
+of the magnitude of the disequilibrium.
+If asymmetric cointegration is present, the ECM in Eq. (3) can be rewritten as the
+following TAR model:
+Drrt ¼ g þ c1 Dmprt þ
+
+n
+X
+
+ci DmprtÀi þ d1 DXt þ
+
+i¼1
+
+m
+X
+
+dk DXtÀk þ It q1;rr utÀ1
+
+k¼1
+
+þ ð1 À It Þq2;rr utÀ1 þ et ;
+or the following M-TAR model:
+
+13
+
+Note that the necessary conditions for convergence are for the parameters qi to be negative.
+
+
+n
+X
+
+ci DmprtÀi þ d1 DXt þ
+
+i¼1
+
+m
+X
+
+dk DXtÀk þ Mt q1;rr utÀ1 þ ð1
+
+k¼1
+
+À Mt Þq2;rr utÀ1 þ et ;
+ð9Þ
+where q1,rr and q2,rr are the asymmetric speed of adjustment parameters.
+
+4 Results
+We ﬁrst present the baseline results for the interest rate pass-through. Then, we
+present the results accounting for the existence of asymmetries. Finally, we simulate
+the impact of a change in the monetary policy rate on retail rates.
+4.1 Baseline
+We test for unit root and cointegration.14 The results of the ADF test on the levels
+suggest that the null hypothesis of unit root presence cannot be rejected at ﬁve
+percent signiﬁcance level for all series, with the exception of the weighted average
+deposit rate. However, as the evidence of stationarity is not compelling, we proceed
+to test stationarity for ﬁrst differences. After ﬁrst-differencing, the null hypothesis of
+unit root presence is safely rejected for all series. The Engle–Granger test’s null
+hypothesis of no cointegration is rejected for all series combinations except the
+government bond rates, suggesting that the monetary policy rate shares a long-run
+relationship only with the retail rates.
+The results for the estimation of the error correction model for retail rates are
+reported in Table 2. The estimation of Eq. (1) reveals that the pass-through to
+deposit rates is complete, as the long-run coefﬁcient ranges between 1.0 and 1.1.
+Similarly, the pass-through to lending rates is complete, with the long-run
+coefﬁcient ranging from 1.0 to 1.2. To conﬁrm the statistical validity of the ﬁnding
+of complete pass-through, we employ a Wald test with the null hypothesis of the
+long-run pass-through coefﬁcient being different from one. In all cases, we cannot
+reject the null hypothesis.
+Other explanatory variables turn out signiﬁcant. An increase in the EMBI spread
+is unequivocally reﬂected in higher deposit and lending rates. The effect is robust
+across maturities and lending categories. An increase in the reserve requirement
+coefﬁcient is found to have a positive effect on most of the lending rates, consistent
+with a reduction of liquidity. Changes in the NPL ratio are not signiﬁcantly
+associated with retail rates. The exchange rate turns out signiﬁcant only for the
+speciﬁcation of lending rates and personal consumption, suggesting that these
+increase in response to depreciation. Finally, we ﬁnd some evidence of lower
+lending rates owing to heightened advanced economies’ volatility risk, proxied by
+the VIX. However, the effect is relatively small and not robust across maturities.
+14
+
+
+0.851
+
+R squared
+
+Adjusted R squared
+
+0.847
+
+0.859
+
+109
+
+(5.679)
+
+109
+
+1.383
+
+0.029
+
+(0.773)
+
+(5.531)
+
+-1.218
+
+(0.556)
+
+(0.6)
+
+(0.569)
+
+-1.344**
+
+-0.069
+
+(0.018)
+
+(0.014)
+
+-0.260
+
+0.007
+
+-0.025*
+
+(0.082)
+
+(0.067)
+
+(0.119)
+
+0.328***
+
+(0.116)
+
+0.402***
+
+0.008
+
+(0.248)
+
+0.048
+
+-0.385
+
+(0.228)
+
+(0.14)
+
+(0.108)
+
+-0.353
+
+-0.063
+
+(0.083)
+
+-0.068
+
+(0.11)
+
+1.101***
+
+Observations
+
+Constant
+
+Dummy monetary
+policy rate
+introduction
+
+Dummy inﬂation
+targeting
+
+VIX
+
+EMBI
+
+Exchange rate
+
+NPLs
+
+Reserve
+requirement
+coefﬁcient
+
+Monetary policy
+rate
+
+Long-run equation
+
+Weighted
+average
+
+0.835
+
+0.847
+
+109
+
+(4.986)
+
+1.9260
+
+(0.596)
+
+-1.219**
+
+(0.511)
+
+-0.4810
+
+(0.022)
+
+0.0190
+
+(0.078)
+
+0.219***
+
+(0.119)
+
+0.0120
+
+(0.256)
+
+-0.229
+
+(0.091)
+
+-0.0880
+
+(0.095)
+
+1.019***
+
+0.862
+
+0.872
+
+109
+
+(5.445)
+
+-3.734
+
+(0.496)
+
+-1.033**
+
+(0.484)
+
+-0.413
+
+(0.015)
+
+-0.007
+
+(0.069)
+
+0.335***
+
+(0.118)
+
+0.101
+
+(0.237)
+
+-0.226
+
+(0.11)
+
+0.010
+
+(0.082)
+
+1.044***
+
+0.837
+
+0.851
+
+109
+
+(9.119)
+
+-1.596
+
+(0.555)
+
+0.743
+
+(0.584)
+
+-0.038
+
+(0.044)
+
+-0.12***
+
+(0.183)
+
+0.976***
+
+(0.189)
+
+-0.024
+
+(0.344)
+
+0.397
+
+(0.176)
+
+0.359**
+
+(0.15)
+
+1.041***
+
+0.835
+
+0.847
+
+109
+
+(7.73)
+
+1.661
+
+(0.519)
+
+-0.396
+
+(0.545)
+
+0.749
+
+(0.035)
+
+-0.043
+
+(0.114)
+
+0.692***
+
+(0.175)
+
+-0.049
+
+(0.345)
+
+0.262
+
+(0.118)
+
+0.160
+
+(0.113)
+
+1.272***
+
+Six
+months
+
+Three
+months
+
+Six
+months
+
+Three
+months
+
+One year
+
+Lending rates
+
+Deposit rates
+
+Table 2 ECM Estimation for Retail Rates
+
+0.845
+
+0.857
+
+109
+
+(9.327)
+
+-11.463
+
+(0.723)
+
+-0.010
+
+(0.57)
+
+0.165
+
+(0.025)
+
+-0.067***
+
+(0.124)
+
+0.736***
+
+(0.172)
+
+0.202
+
+(0.277)
+
+0.361
+
+(0.202)
+
+0.49**
+
+(0.136)
+
+1.184***
+
+One year
+
+0.879
+
+0.888
+
+109
+
+(6.173)
+
+-10.67*
+
+(0.497)
+
+-0.399
+
+(0.431)
+
+-0.549
+
+(0.027)
+
+-0.046*
+
+(0.134)
+
+0.671***
+
+(0.135)
+
+0.289**
+
+(0.293)
+
+0.421
+
+(0.113)
+
+0.277**
+
+(0.122)
+
+1.185***
+
+Weighted
+average
+
+0.885
+
+0.894
+
+109
+
+(6.003)
+
+-7.030
+
+(0.519)
+
+-0.037
+
+(0.44)
+
+-0.429
+
+(0.029)
+
+-0.051*
+
+(0.141)
+
+0.712***
+
+(0.131)
+
+0.175
+
+(0.293)
+
+0.348
+
+(0.12)
+
+0.263**
+
+(0.13)
+
+1.199***
+
+Commercial
+
+0.788
+
+0.803
+
+109
+
+(8.251)
+
+-16.173 *
+
+(0.622)
+
+-2.065***
+
+(0.54)
+
+-1.055*
+
+(0.031)
+
+0.009
+
+(0.136)
+
+0.496***
+
+(0.182)
+
+0.636***
+
+(0.389)
+
+0.433
+
+(0.155)
+
+0.177
+
+(0.138)
+
+1.061***
+
+Personal
+consumption
+
+Loan category rates
+
+0.890
+
+0.898
+
+109
+
+(7.141)
+
+-0.268
+
+(0.367)
+
+-0.714*
+
+(0.298)
+
+0.300
+
+(0.022)
+
+-0.003
+
+(0.097)
+
+0.513***
+
+(0.144)
+
+0.042
+
+(0.268)
+
+0.145
+
+(0.138)
+
+0.223
+
+(0.103)
+
+0.969***
+
+Mortgage
+targeting
+
+Diff. VIX
+
+Diff. EMBI
+
+Diff. exchange rate
+
+Diff. NPLs
+
+Diff. reserve
+requirement
+coefﬁcient
+
+Diff. monetary
+policy rate
+
+Speed of
+adjustment
+
+0.904
+
+-0.229***
+
+1.051
+
+(0.231)
+
+0.128
+
+(0.237)
+
+0.034
+
+(0.299)
+
+-0.177
+
+(0.011)
+
+-0.088
+
+0.002
+
+(0.015)
+
+(0.093)
+
+(0.079)
+
+-0.008
+
+0.229**
+
+(0.272)
+
+(0.294)
+
+0.275***
+
+0.195
+
+(0.113)
+
+0.096
+
+-0.262**
+
+(0.139)
+
+(0.057)
+
+(0.098)
+
+-0.292**
+
+0.235***
+
+(0.102)
+
+(0.108)
+
+-0.007
+
+0.646***
+
+(0.089)
+
+0.675***
+
+(0.077)
+
+-0.413***
+
+0.858
+
+1.220
+
+Wald test (H0:
+pass-through = 1)
+
+Short-run equation
+
+Weighted
+average
+
+(0.308)
+
+0.867
+
+(0.21)
+
+0.1280
+
+(0.21)
+
+-0.1840
+
+(0.015)
+
+0.026*
+
+(0.086)
+
+0.191**
+
+(0.325)
+
+0.2870
+
+(0.215)
+
+-0.260
+
+(0.061)
+
+0.029
+
+(0.164)
+
+0.479***
+
+(0.116)
+
+-0.328***
+
+0.198
+
+0.803
+
+(0.219)
+
+0.071
+
+(0.21)
+
+-0.110
+
+(0.01)
+
+0.008
+
+(0.082)
+
+0.215**
+
+(0.256)
+
+0.144
+
+(0.101)
+
+-0.305***
+
+(0.035)
+
+0.179***
+
+(0.105)
+
+0.593***
+
+(0.084)
+
+-0.311***
+
+0.533
+
+1.369
+
+(0.191)
+
+0.228
+
+(0.171)
+
+-0.194
+
+(0.039)
+
+-0.042
+
+(0.265)
+
+0.605**
+
+(0.598)
+
+0.222
+
+(0.294)
+
+0.722**
+
+(0.23)
+
+0.013
+
+(0.269)
+
+0.584**
+
+(0.108)
+
+-0.507***
+
+0.276
+
+(0.262)
+
+-0.069
+
+(0.222)
+
+-0.045
+
+(0.042)
+
+0.027
+
+(0.247)
+
+0.301
+
+(0.801)
+
+0.380
+
+(0.397)
+
+-0.483
+
+(0.109)
+
+0.341***
+
+(0.283)
+
+1.168***
+
+(0.112)
+
+-0.843***
+
+2.217*
+
+1.394
+
+Six
+months
+
+Three
+months
+
+Six
+months
+
+Three
+months
+
+One year
+
+Lending rates
+
+Deposit rates
+
+SE of regression
+
+Table 2 continued
+
+(0.362)
+
+0.120
+
+(0.307)
+
+-0.261
+
+(0.029)
+
+0.011
+
+(0.101)
+
+0.120
+
+(0.528)
+
+0.972*
+
+(0.301)
+
+0.294
+
+(0.191)
+
+0.010
+
+(0.169)
+
+0.834***
+
+(0.086)
+
+-0.528***
+
+1.351
+
+1.353
+
+One year
+
+(0.167)
+
+0.169
+
+(0.15)
+
+-0.203
+
+(0.018)
+
+-0.002
+
+(0.109)
+
+0.264**
+
+(0.411)
+
+0.499
+
+(0.16)
+
+0.498***
+
+(0.121)
+
+0.262**
+
+(0.138)
+
+0.812***
+
+(0.086)
+
+-0.294***
+
+1.520
+
+1.067
+
+Weighted
+average
+
+(0.158)
+
+0.167
+
+(0.144)
+
+-0.200
+
+(0.02)
+
+-0.005
+
+(0.111)
+
+0.297***
+
+(0.42)
+
+0.440
+
+(0.16)
+
+0.297*
+
+(0.135)
+
+0.233*
+
+(0.143)
+
+0.8***
+
+(0.08)
+
+-0.289***
+
+1.531
+
+1.081
+
+Commercial
+
+(0.171)
+
+0.110
+
+(0.147)
+
+-0.262*
+
+(0.016)
+
+0.036**
+
+(0.096)
+
+-0.035
+
+(0.485)
+
+1.116**
+
+(0.273)
+
+0.814***
+
+(0.148)
+
+0.212
+
+(0.165)
+
+0.827***
+
+(0.109)
+
+-0.256**
+
+0.439
+
+1.261
+
+Personal
+consumption
+
+Loan category rates
+
+(0.131)
+
+0.071
+
+(0.106)
+
+-0.136
+
+(0.015)
+
+0.015
+
+(0.093)
+
+(0.386)
+
+0.212
+
+(0.142)
+
+0.130
+
+(0.191)
+
+0.104
+
+(0.136)
+
+0.572***
+
+(0.101)
+
+-0.271***
+
+-0.297
+
+0.943
+
+Mortgage
+
+Lat Am Econ Rev (2017) 26:4
+
+0.652
+
+Adjusted R squared
+
+SE of regression
+
+108
+
+0.582
+
+0.345
+
+0.394
+
+108
+
+0.612
+
+0.245
+
+0.302
+
+108
+
+0.534
+
+0.379
+
+0.426
+
+108
+
+1.228
+
+0.261
+
+0.317
+
+108
+
+1.330
+
+0.501
+
+0.538
+1.087
+
+0.351
+
+0.400
+
+108
+
+One year
+
+0.709
+
+0.375
+
+0.422
+
+108
+
+Weighted
+average
+
+0.720
+
+0.354
+
+0.403
+
+108
+
+Commercial
+
+0.825
+
+0.319
+
+0.370
+
+108
+
+Personal
+consumption
+
+Loan category rates
+
+***, **, * Next to a number indicate statistical signiﬁcance at 1, 5 and 10 percent, respectively. Source: Authors’ calculations
+
+Standard errors in parentheses are corrected for heteroskedasticity and autocorrelation with the Newey–West estimator
+
+108
+
+0.392
+
+R squared
+
+Six
+months
+
+Three
+months
+
+Six
+months
+
+Three
+months
+
+One year
+
+Lending rates
+
+Deposit rates
+
+Observations
+
+Table 2 continued
+
+0.638
+
+0.245
+
+0.302
+
+108
+
+Mortgage
+retail rates. The short-run effect of one percentage point increase in the change of
+the monetary policy rate on the change of deposit rates ranges between 0.5 and 0.7
+percentage points. In other words, 50 to 70% of the pass-through is transmitted to
+deposit rates within the same month. The short-run impact on the change in lending
+rates ranges between 0.6 and 0.8 percentage points, with the exception of the shortrun impact for the 6-month lending rate, which is 1.2 percentage points. The latter is
+abnormally high compared to other maturities and the reason may lie with the
+idiosyncratic movements in the 6-month lending rate, therefore results should be
+taken with caution.15 The only maturity for which the short-run impact on the
+lending rate is lower than the one on the deposit rate is the 3-month one, implying a
+decrease in the spread in the short-run.
+The speed of adjustment is higher for lending rates. In general, deviations from
+the long-run equilibrium are more quickly corrected in the case of lending rates as
+the relative speed of adjustment ranges between -0.3 and -0.8, compared to a
+coefﬁcient range between -0.2 and -0.4 for deposit rates.
+Other explanatory variables present results generally consistent with the longterm equation estimations. Changes in the EMBI spread are associated with
+increases in deposit rates and some of the lending rates. Changes in the reserve
+requirement also increase deposit and lending rates, however, these effects are not
+robust across maturities and are not signiﬁcant for lending categories. Somewhat
+different from the results of the long-term estimations, a positive change in the NPL
+ratio is associated with a fall in deposit rates and with increases in lending rates.
+While this ﬁnding is not robust for all rates, it possibly underscores the banks’ need
+to compensate for the fall in proﬁtability that occurs when more loans become nonperforming and losses are provisioned. Finally, changes in the VIX index turn out to
+be signiﬁcant only in raising the change in the personal consumption rate and by a
+minor amount.
+Table 3 presents the results of the ADL estimation in Eq. (2) for the government
+bond rates.16 As expected, changes in the monetary policy rate only affect changes
+in the rates of domestically issued bonds. More speciﬁcally, a change in the
+monetary policy rate by one percentage point is associated with a short-run impact
+on the change of domestically issued bond rates by 0.5–0.6 percentage points,
+depending on the maturity of the instrument. Using the coefﬁcient of the lagged
+differenced dependent variable, we can retrieve the long-run coefﬁcient which
+ranges between 0.8 and 0.9 percentage points. Thus, the pass-through in this case
+seems less than complete.
+
+15
+Alternative estimations using dummy variables for September and October of 2009 present a short-run
+coefﬁcient of 0.8. However, we opt to drop dummies in the baseline speciﬁcations as we have no clear
+reasons for including them.
+16
+Given the short sample and the little variation in the monetary policy rate over it, we also estimate the
+ADL model replacing the monetary policy rate with the interbank rate. The results are similar and
+Domestic
+Five years
+Diff. monetary policy rate
+
+External
+7 years
+
+10 years
+
+10 years
+
+Lag diff. monetary policy rate
+
+0.567***
+
+0.48***
+
+0.447***
+
+-0.009
+
+(0.168)
+
+(0.109)
+
+(0.138)
+
+(0.073)
+-0.104*
+
+Lag diff. dependent variable
+
+0.554***
+
+0.759***
+
+0.463**
+
+(0.184)
+
+(0.181)
+
+(0.195)
+
+(0.06)
+
+-0.493***
+
+-0.325**
+
+-0.210
+
+-0.104*
+
+(0.136)
+
+(0.137)
+
+(0.158)
+
+(0.06)
+
+Diff. reserve requirement coefﬁcient
+
+0.040
+
+0.073
+
+-0.125**
+
+-0.010
+
+(0.719)
+
+(0.047)
+
+(0.057)
+
+(0.023)
+
+Diff. EMBI
+
+0.945**
+
+0.680
+
+0.473
+
+1.018***
+
+(0.44)
+Diff. VIX
+
+(0.459)
+
+(0.347)
+
+(0.08)
+
+-0.074*
+
+-0.019
+
+-0.043**
+
+-0.026***
+
+(0.04)
+
+Constant
+
+(0.02)
+
+(0.007)
+
+0.064
+
+-0.086
+
+0.035
+
+(0.273)
+
+(0.163)
+
+(0.076)
+
+0.298
+
+0.018
+
+0.167
+
+0.031
+
+(0.232)
+
+Dummy monetary policy rate introduction
+
+(0.034)
+
+-0.356
+(0.289)
+
+Dummy inﬂation targeting
+
+(0.183)
+
+(0.181)
+
+(0.058)
+
+-0.120
+
+-0.197
+
+-0.180
+
+-0.075
+(0.062)
+
+(0.198)
+
+(0.212)
+
+(0.118)
+
+Observations
+
+54
+
+41
+
+57
+
+61
+
+R squared
+
+0.398
+
+0.341
+
+0.255
+
+0.682
+
+Adjusted R squared
+
+0.291
+
+0.176
+
+0.131
+
+0.633
+
+SE of regression
+
+0.867
+
+0.593
+
+0.565
+
+0.186
+
+Standard errors in parentheses are corrected for heteroskedasticity and autocorrelation with the Newey–
+West estimator
+***, **, * Next to a number indicate statistical signiﬁcance at 1, 5 and 10 percent, respectively. Source:
+Authors’ calculations
+
+4.2 Asymmetries
+We employ the TAR and M-TAR tests to explore asymmetric cointegration between the
+monetary policy rate and all retail rates.17 As a ﬁrst step, we set the threshold to zero. In
+the case of the TAR test, the null hypothesis of symmetric cointegration cannot be
+rejected. The results are similar in the case of the M-TAR test, as we cannot ﬁnd evidence
+of asymmetric cointegration. As a second step, we let the TAR and M-TAR threshold to
+be endogenously determined. When employing the TAR test, we ﬁnd evidence of
+asymmetric cointegration for the weighted average deposit rate, 3-month, 6-month, and
+1-year lending rates, and the mortgage lending rate. The M-TAR test ﬁnds even stronger
+evidence of asymmetric cointegration, as it rejects the null hypothesis of symmetric
+cointegration for all series, except the 6-month lending rate.
+17
+
+
+-0.002
+(0.093)
+
+-0.29**
+(0.142)
+
+0.127
+(0.283)
+
+0.273***
+(0.081)
+
+-0.010
+(0.014)
+
+-0.086
+(0.295)
+
+0.040
+(0.303)
+
+Speed of adjustment
+below s
+
+Diff. monetary policy
+rate
+
+Diff. reserve
+requirement
+coefﬁcient
+
+Diff. NPLs
+
+Diff. exchange rate
+
+Diff. EMBI
+
+Diff. VIX
+
+Dummy inﬂation
+targeting
+
+Dummy monetary
+policy rate
+introduction
+
+108
+
+-0.32***
+(0.089)
+
+Speed of adjustment
+above s
+
+Short-run equation
+
+Weighted
+average
+
+0.000
+
+Observations
+
+R squared
+
+0.000
+
+108
+
+0.144
+(0.229)
+
+-0.174
+(0.22)
+
+0.001
+(0.011)
+
+0.234**
+(0.094)
+
+0.224
+(0.275)
+
+-0.265**
+(0.113)
+
+0.214***
+(0.067)
+
+0.654***
+(0.094)
+
+-1.109
+(0.087)
+
+-0.287**
+(0.12)
+
+0.000
+
+108
+
+0.1280
+(0.204)
+
+-0.1880
+(0.203)
+
+0.0230
+(0.016)
+
+0.192**
+(0.088)
+
+0.272
+(0.301)
+
+-0.2470
+(0.208)
+
+0.0230
+(0.067)
+
+0.472**
+(0.167)
+
+-0.35**
+(0.162)
+
+-0.268**
+(0.129)
+
+0.000
+
+108
+
+0.080
+(0.215)
+
+-0.117
+(0.206)
+
+0.007
+(0.01)
+
+0.206**
+(0.08)
+
+0.186
+(0.226)
+
+-0.304***
+(0.1)
+
+0.192***
+(0.034)
+
+0.594***
+(0.096)
+
+-0.249***
+(0.08)
+
+-0.356*
+(0.183)
+
+0.000
+
+108
+
+0.230
+(0.218)
+
+-0.237
+(0.208)
+
+-0.044
+(0.031)
+
+0.656***
+(0.216)
+
+0.030
+(0.604)
+
+0.776**
+(0.299)
+
+-0.012
+(0.243)
+
+0.573**
+(0.249)
+
+-0.798***
+(0.155)
+
+-0.375***
+(0.109)
+
+3 months
+
+1 year
+
+3 months
+
+6 months
+
+Lending rates
+
+Deposit rates
+
+Table 4 Asymmetric M-TAR ECM estimation for retail rates
+
+0.000
+
+108
+
+0.128
+(0.357)
+
+-0.270
+(0.302)
+
+0.012
+(0.03)
+
+0.113
+(0.107)
+
+1.018*
+(0.525)
+
+0.267
+(0.302)
+
+0.014
+(0.189)
+
+0.837***
+(0.171)
+
+-0.475***
+(0.124)
+
+-0.518***
+(0.104)
+
+1 year
+
+0.000
+
+108
+
+0.179
+(0.169)
+
+-0.211
+(0.15)
+
+-0.003
+(0.017)
+
+0.246**
+(0.105)
+
+0.520
+(0.409)
+
+0.487***
+(0.157)
+
+0.259**
+(0.121)
+
+0.818***
+(0.13)
+
+-0.232***
+(0.084)
+
+-0.321**
+(0.127)
+
+Weighted
+average
+
+0.000
+
+108
+
+0.188
+(0.158)
+
+-0.116
+(0.146)
+
+-0.007
+(0.022)
+
+0.333***
+(0.109)
+
+-0.001
+(0.003)
+
+0.305*
+(0.169)
+
+0.22*
+(0.126)
+
+0.765***
+(0.156)
+
+-0.38***
+(0.068)
+
+-0.065
+(0.158)
+
+Commercial
+
+0.000
+
+108
+
+0.097
+(0.175)
+
+-0.258*
+(0.141)
+
+0.045***
+(0.016)
+
+-0.036
+(0.082)
+
+0.971**
+(0.404)
+
+0.815***
+(0.282)
+
+0.193
+(0.151)
+
+0.821***
+(0.178)
+
+-0.365***
+(0.105)
+
+-0.153
+(0.136)
+
+Personal
+consumption
+
+Loan category rates
+
+0.000
+
+108
+
+0.076
+(0.129)
+
+-0.131
+(0.11)
+
+0.015
+(0.015)
+
+0.19*
+(0.099)
+
+0.201
+(0.398)
+
+0.133
+(0.138)
+
+0.098
+(0.187)
+
+0.577***
+(0.126)
+
+-0.215***
+(0.073)
+
+-0.311*
+(0.174)
+
+Mortgage
+
+Lat Am Econ Rev (2017) 26:4
+
+2.723**
+
+Wald test (HO: speed of
+adj. above s = speed
+of adj. below s)
+
+-1.234
+
+0.347
+
+0.402
+0.424
+
+0.228
+
+0.293
+-0.530
+
+0.369
+
+0.422
+2.660**
+
+0.327
+
+0.384
+-0.273
+
+0.336
+
+0.393
+
+1 year
+
+-0.613
+
+0.371
+
+0.424
+
+Weighted
+average
+
+1.743*
+
+0.361
+
+0.415
+
+Commercial
+
+1.252
+
+0.326
+
+0.383
+
+Personal
+consumption
+
+Loan category rates
+
+***, **, * Next to a number indicate statistical signiﬁcance at 1, 5 and 10 percent, respectively. Source: Authors’ calculations
+
+Standard errors in parentheses are corrected for heteroskedasticity and autocorrelation with the Newey–West estimator
+
+0.388
+
+Adjusted R squared
+
+3 months
+
+1 year
+
+3 months
+
+6 months
+
+Lending rates
+
+Deposit rates
+
+SE of regression
+
+Table 4 continued
+
+-0.538
+
+0.246
+
+0.310
+
+Mortgage
+Interest Rate Pass-Through on Three-Month Rates
+0.7
+Spread (right axis)
+Deposits
+Loans
+
+1.4
+1.2
+
+1.6
+
+0.6
+0.5
+
+1.6
+
+1.4
+
+0.4
+0.3
+
+1.0
+
+0.2
+0.1
+
+0.8
+
+0.7
+
+Spread (right axis)
+Deposits
+Loans
+
+0.6
+0.5
+0.4
+0.3
+
+1.2
+1.0
+
+0.2
+0.1
+
+0.8
+
+Interest Rate Pass-Through on One-Year Rates
+
+12m
+
+11m
+
+9m
+
+10m
+
+8m
+
+6m
+
+7m
+
+5m
+
+4m
+
+3m
+
+2m
+
+1m
+
+Impact
+
+12m
+
+11m
+
+9m
+
+10m
+
+1.6
+
+7m
+
+0.7
+
+8m
+
+-0.2
+
+6m
+
+0.4
+
+4m
+
+-0.2
+5m
+
+0.4
+3m
+
+0.0
+-0.1
+
+2m
+
+0.6
+
+1m
+
+0.0
+-0.1
+Impact
+
+0.6
+
+-0.2
+
+0.4
+
+-0.2
+Impact
+
+12m
+
+11m
+
+9m
+
+10m
+
+8m
+
+7m
+
+6m
+
+5m
+
+4m
+
+3m
+
+2m
+
+1m
+
+Impact
+
+Interest Rate Pass-Through on Loan Category Rates
+
+12m
+
+0.4
+
+11m
+
+0.0
+-0.1
+10m
+
+0.1
+
+0.6
+9m
+
+0.8
+
+0.0
+-0.1
+
+8m
+
+0.1
+
+0.6
+
+7m
+
+0.8
+
+6m
+
+0.3
+0.2
+
+5m
+
+0.4
+
+1.0
+
+4m
+
+1.2
+
+0.3
+0.2
+
+3m
+
+0.4
+
+1.0
+
+1.4
+
+2m
+
+1.2
+
+Spread (right axis)
+Deposits
+Loans
+
+1m
+
+0.6
+0.5
+
+Interest Rate Pass-Through on Weighted Average Rates
+0.7
+Spread (right axis)
+0.6
+Deposits
+1.4
+0.5
+Loans
+
+1.6
+
+Asymmetric Pass-Through on Three-Month Rates
+1.2
+
+1.6
+Commercial
+Personal consumption
+Mortgage
+
+1.4
+
+1.1
+1.0
+
+1.2
+
+0.9
+
+1.0
+
+0.8
+
+0.8
+
+Deposits--above τ
+Deposits--below τ
+Loans--above τ
+Loans--below τ
+
+0.7
+
+12m
+
+11m
+
+10m
+
+9m
+
+8m
+
+7m
+
+6m
+
+5m
+
+4m
+
+3m
+
+2m
+
+1m
+
+Impact
+
+12m
+
+11m
+
+10m
+
+8m
+
+9m
+
+7m
+
+6m
+
+5m
+
+4m
+
+3m
+
+2m
+
+0.5
+1m
+
+0.6
+
+0.4
+Impact
+
+0.6
+
+Fig. 1 Timing of one percentage point change in the monetary policy rate (percentage points). Notes:
+Deviations above s correspond to monetary policy rate cuts, while deviations below s correspond to
+monetary policy rate hikes. Source: Authors’ calculations
+
+The results of the M-TAR cointegration tests with the endogenously determined
+threshold warrant the use of the asymmetric ECM. Table 4 reports the results of the
+estimation of Eq. (9) for all series but the 6-month lending rate, for which the
+hypothesis of symmetric cointegration cannot be rejected. Our attention falls on the
+speed of adjustment above and below the threshold. If the retail rate is above its
+equilibrium value after a decrease in the monetary policy rate, then the retail rate
+will adjust by the coefﬁcient of the speed of adjustment above s in every period.
+Conversely, if the retail rate is below its equilibrium value after an increase in the
+monetary policy rate, then the lending rate will adjust by the coefﬁcient of the speed
+particular, we employ a Wald test with a null hypothesis for which the speed of
+adjustment above s is equal to the speed of adjustment below s. Our results suggest
+that the speed of adjustment for the 3-month deposit rate is higher when the
+monetary policy rate falls. Conversely, the speed of adjustment for the 3-month
+lending rate is higher when monetary policy rate increases. More speciﬁcally, the
+speed of adjustment for positive deviations is 1.5 times the one for negative
+deviations in the case of deposit rates, suggesting that negative deviations are more
+persistent, whereas the speed of adjustment for negative deviations is two times the
+one for positive deviations in the case of lending rates, suggesting that positive
+deviations are more persistent.
+For rates at higher maturities the two speeds of adjustment coefﬁcients are not
+signiﬁcantly different from each other. However, short maturities provide a better
+measure as loans are typically not collateralized and this allows isolating the
+balance sheet channel (Mishkin 1995). In other words, the pass-through does not
+depend on market price variations that inﬂuence the value of collateral. This
+reinforces the evidence of the results on 3-month rates.
+4.3 Simulation
+To evaluate the effect of an exogenous monetary policy shock, we conduct a
+simulation exercise to generate time paths for retail rates. The policy experiment
+consists of a policy tightening corresponding to an increase by one percentage point
+in the monetary policy rate, starting from a situation in which the system is in
+equilibrium and simulating the adjustment of the retail rates over the following year.
+Figure 1 presents the symmetric adjustment path for all retail rates, as well as the
+asymmetric adjustment path for the 3-month rates.18
+While the symmetric adjustment dynamics for different maturities are slightly
+different, they all imply changes in spreads between 0.0 and 0.2 percentage points
+when the adjustment is completed. On impact, an increase in the monetary policy
+rate generates a negative spread of about 0.1 percentage points only for the 3-month
+rates. The spread, however, halves over time. As the simulated adjustment is
+symmetric by construction, any monetary policy easing implies a reduction in
+banks’ proﬁtability by the same amount during the ﬁrst month.
+Personal consumption and commercial loans are the fastest in incorporating
+monetary policy changes. However, given the lower pass-through for the former, the
+adjustment completes earlier despite a lower speed of adjustment. Mortgage loans,
+possibly because of the higher frequency at which they are taken, display a smaller
+short-run effect from the monetary policy rate change, but their speed of
+convergence to long-run equilibrium is similar to the one of commercial loans.
+Finally, we present the asymmetric adjustment path for the 3-month rates. By
+construction, the short- and long-run impact is the same regardless of whether the
+18
+
+The law of motion for the retail rates is deﬁned as, rrt ¼ c1 þ qðb1 À c1 Þ where c1 is the short-run
+impact of the monetary policy rate from Eq. (3), q is the speed of adjustment from Eq. (3), and b1 is the
+lont-run impact of the monetary policy from Eq. (3). In the case of the asymmetric adjustment, q is
+speeds of adjustments imply that deviations above the threshold (i.e., monetary
+policy rate cuts) are corrected in a much faster fashion than deviations below it (i.e.,
+monetary policy rate hikes) for deposit rates, while the opposite is true for lending
+rates.
+
+5 Conclusions
+This paper investigates the interest rate pass-through of monetary policy rates to
+retail rates in the Dominican Republic. Based on a recent 10-year monthly sample
+from 2006 to 2015, we estimate the interest rate pass-through for deposit and
+lending rates at different maturities and for different loan category rates. Also, we
+explore the costs associated with changes in the monetary policy stance by
+estimating the interest rate pass-through to government bond rates. Finally, we
+investigate if the speed of the monetary transmission mechanism is conditional on
+whether the monetary policy becomes more contractionary or expansionary, and we
+simulate its impact on the retail rates.
+We ﬁnd that while the pass-through to deposit and lending rates is complete,
+conﬁrming the effectiveness of the monetary policy transmission mechanism.
+Government domestic bond rates also react to monetary policy changes. Moreover,
+our results reveal that the pass-through to lending rates is generally faster than to
+deposit rates. Finally, we ﬁnd some evidence of asymmetric adjustment as shortterm deposit rates respond faster to monetary policy rate cuts than hikes, and shortterm lending rates respond faster to monetary policy rate hikes than cuts.
+The theoretical literature explains asymmetric adjustment in the speed of
+adjustment of retail rates with the collusive market hypothesis. In particular, the
+bargaining power of banks could explain why the lending rates exhibit downward
+rigidity to a monetary policy rate cut and upward ﬂexibility to a monetary policy
+rate hike. From a policy perspective, measures to reduce bank concentration and
+boost competition in the ﬁnancial system could be instrumental in enhancing the
+effectiveness of monetary policy transmission mechanism by reducing asymmetries
+in the adjustment of retail rates.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original
+author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were
+made.
+
+Appendix I. Unit root and cointegration test results
+Levels
+
+First differences
+
+No
+intercept,
+no trend
+
+Intercept,
+no trend
+
+Intercept,
+trend
+
+No
+intercept, no
+trend
+
+Intercept,
+no trend
+
+Intercept,
+trend
+
+Monetary policy
+rate
+
+-1.490
+
+-2.266
+
+-2.399
+
+-8.510***
+
+-8.534***
+
+-8.543***
+
+Three-month
+deposit rate
+
+-1.285
+
+-2.910*
+
+-2.999
+
+-7.112***
+
+-7.104***
+
+-7.074***
+
+Six-month deposit
+rate
+
+-1.203
+
+-3.212**
+
+-3.328*
+
+-5.567***
+
+-5.558***
+
+-5.541***
+
+One-year deposit
+rate
+
+-1.331
+
+-3.114**
+
+-3.275*
+
+-6.546***
+
+-6.540***
+
+-6.526***
+
+Weighted average
+deposit rate
+
+-1.355
+
+-3.537**
+
+-3.696**
+
+-5.214***
+
+-5.207***
+
+-5.192***
+
+Three-month
+lending rate
+
+-1.056
+
+-2.516
+
+-2.712
+
+-11.970***
+
+-11.938***
+
+-11.907***
+
+Six-month lending
+rate
+
+-1.079
+
+-2.242
+
+-2.466
+
+-15.009***
+
+-14.971***
+
+-14.907***
+
+One-year lending
+rate
+
+-1.119
+
+-2.442
+
+-2.579
+
+-12.273***
+
+-12.238***
+
+-12.170***
+
+Weighted average
+lending rate
+
+-0.990
+
+-2.314
+
+-2.494
+
+-7.407***
+
+-7.398***
+
+-7.360***
+
+Commercial
+lending rate
+
+-0.968
+
+-2.231
+
+-2.369
+
+-7.576***
+
+-7.561***
+
+-7.531***
+
+Personal
+consumption
+lending rate
+
+-0.833
+
+-2.468
+
+-2.560
+
+-7.804***
+
+-7.792***
+
+-7.746***
+
+Mortgage lending
+rate
+
+-1.175
+
+-2.286
+
+-2.790
+
+-6.050***
+
+-6.063***
+
+-6.014***
+
+Five-year
+government
+domestic bond
+
+-1.962**
+
+-3.113**
+
+-3.414*
+
+-12.655***
+
+-13.009***
+
+-12.787***
+
+Seven-year
+government
+domestic bond
+
+-2.002**
+
+-2.182
+
+-2.577
+
+-6.808***
+
+-7.053***
+
+-6.966***
+
+Ten-year
+government
+domestic bond
+
+-1.458
+
+-0.806
+
+-2.000
+
+-7.556***
+
+-7.696***
+
+-7.643***
+
+Ten-year
+government
+external bond
+
+-1.416
+
+-1.559
+
+-2.024
+
+-6.451***
+
+-6.534***
+
+-6.497***
+
+The null hypothesis is that the series has a unit root. The lagged differences are included in the speciﬁcations to obtain white noise residuals The Schwarz information criterion is used to select the optimal
+lag length
+***, **, * Next to a number indicate statistical signiﬁcance at 1, 5 and 10 percent, respectively Source:
+
+-5.531***
+
+1-year deposit rate
+
+-4.928**
+
+Weighted average deposit rate
+
+-6.185**
+
+3-month lending rate
+
+-6.187***
+
+6-month lending rate
+
+***, **, * Next to a number
+indicate statistical signiﬁcance
+at 1, 5 and 10 percent,
+respectively. Source: Authors’
+calculations
+
+-5.489***
+
+6-month deposit rate
+
+The null hypothesis is that the
+series do not have a
+cointegration relationship. The
+Schwarz information criterion is
+used to select the optimal lag
+length. The critical values are
+from MacKinnon (1991)
+
+3-month deposit rate
+
+-8.774***
+
+1-year lending rate
+
+-6.806***
+
+Weighted average lending rate
+
+-6.741***
+
+Commercial lending rate
+
+-6.373***
+
+Personal consumption lending rate
+
+-6.158***
+
+Mortgage lending rate
+
+-7.324***
+
+5-year government domestic bond
+
+-3.640
+
+7-year government domestic bond
+
+-3.224
+
+10-year government domestic bond
+
+-3.094
+
+10-year government external bond
+
+-3.040
+
+Table 7 Cointegration, TAR and M-TAR tests with threshold set to zero
+TAR
+
+M-TAR
+
+U (q1 = q2 = 0)
+
+F (q1 = q2)
+
+U (M) (q1 =q2 = 0)
+
+F (M) (q1 = q2)
+
+3-month deposit rate
+
+14.588***
+
+0.032
+
+14.648***
+
+0.124
+
+6-month deposit rate
+
+15.649***
+
+0.062
+
+16.393***
+
+1.202
+
+1-year deposit rate
+
+3.406
+
+0.111
+
+3.606
+
+0.480
+
+Weighted average
+deposit rate
+
+18.225***
+
+0.617
+
+18.723***
+
+1.355
+
+3-month lending rate
+
+5.116*
+
+0.481
+
+6.975**
+
+3.823
+
+6-month lending rate
+
+8.884**
+
+0.996
+
+16.393***
+
+1.202
+
+1-year lending rate
+
+20.237***
+
+0.141
+
+3.605
+
+0.480
+
+Weighted average
+lending rate
+
+17.890***
+
+0.015
+
+18.055***
+
+0.260
+
+Commercial lending rate
+
+19.294***
+
+0.048
+
+19.418***
+
+0.228
+
+Personal consumption
+lending rate
+
+2.211
+
+0.018
+
+2.276
+
+0.143
+
+Mortgage lending rate
+
+17.346***
+
+1.393*
+
+18.007***
+
+2.392
+
+The null hypothesis of the test statistic U is that the series do not have a cointegration relationship, and the
+null hypothesis of the test statistic F is that the series have symmetric cointegration relationships. The
+critical values are generated via Monte Carlo simulations. Source: Authors’ calculations
+TAR
+U
+(q1 = q2 = 0)
+
+M-TAR
+F
+(q1 = q2)
+
+s
+
+U
+(q1 = q2 = 0)
+
+F
+(q1 = q2)
+
+s
+
+Three-month deposit rate
+
+15.165***
+
+0.929
+
+-0.613
+
+16.390***
+
+2.835***
+
+0.732
+
+Six-month deposit rate
+
+15.848***
+
+0.367
+
+-0.342
+
+17.084***
+
+2.260***
+
+-0.316
+
+One-year deposit rate
+
+3.649
+
+0.543
+
+-0.727
+
+5.338*
+
+3.694***
+
+0.089
+
+Weighted average
+deposit rate
+
+19.058***
+
+1.851***
+
+-0.525
+
+19.848***
+
+3.022***
+
+0.341
+
+Three-month lending
+rate
+
+6.488**
+
+2.948***
+
+-1.292
+
+7.932**
+
+5.543***
+
+-0.402
+1.417
+
+Six-month lending rate
+
+9.334***
+
+1.752***
+
+0.505
+
+8.806**
+
+0.865
+
+One-year lending rate
+
+21.470***
+
+1.908***
+
+1.188
+
+23.321***
+
+4.562***
+
+0.827
+
+Weighted average
+lending rate
+
+18.243***
+
+0.538
+
+0.853
+
+19.547***
+
+2.469***
+
+-0.577
+
+Commercial lending rate
+
+19.916***
+
+0.951
+
+-0.889
+
+20.300***
+
+1.508**
+
+-0.73
+
+Personal consumption
+lending rate
+
+2.295
+
+0.178
+
+-1.039
+
+4.136
+
+3.682***
+
+0.082
+
+Mortgage lending rate
+
+18.416***
+
+3.012***
+
+-0.583
+
+19.092***
+
+4.033***
+
+-0.024
+
+The null hypothesis of the test statistic U is that the series do not have a cointegration relationship, and the
+null hypothesis of the test statistic F is that the series have symmetric cointegration relationships. s is the
+estimated threshold. The critical values are generated via Monte Carlo simulations. Source: Authors’
+calculations
+***, **, * Next next to a number indicate statistical signiﬁcance at 1, 5 and 10 percent, respectively
+
+Stiglitz JE, Weiss A (1981) Credit rationing in markets with imperfect market information. Am Econ Rev

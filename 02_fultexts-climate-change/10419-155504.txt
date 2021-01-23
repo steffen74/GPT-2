@@ -1,0 +1,651 @@
+
+
+
+collaboration is needed to achieve the business and sustainability targets. The sustainability assessment in the transformation is also discussed to identify applicability of the
+concept in different cases.
+Ten industrial companies with an interest in sustainability, some specifically in the
+remanufacturing business, participated in the project. The companies mainly operate in
+the business-to-business field. They are currently at different stages of development:
+some already active, some just starting or planning. Additionally information from a
+larger group was collected through a survey.
+Chapter 2 describes previous research on remanufacturing and its challenges, collaboration networks and sustainability assessment in remanufacturing. Chapter 3 presents
+the research approach used in the study. Chapter 4 summarizes the results. First the
+remanufacturing barriers as identified by the Finnish industry are shortly reviewed. The
+collaboration forms are analysed through the identification of different actors needed in
+the remanufacturing process and a classification outline for remanufacturing networks
+is presented. Finally experience from a sustainability assessment use case is reported.
+Chapter 5 contains the conclusions and way forward.
+
+Overview of previous research on remanufacturing, collaboration networks
+and sustainability
+Remanufacturing
+
+Remanufacturing is one form of product end-of-life strategies, often called 6R: reduce,
+reuse, recycle, recover, redesign, remanufacture [2]. Remanufacturing can be seen as
+the ultimate form of recycling: it reuses more of the assets put into a product or component than recycling. In recycling, large amounts of energy and labour are lost [3].
+Through remanufacturing, materials and energy can be saved and less waste is produced. The idea is not to refit the product or product part for the same user but
+systematically to take back end-of- life goods and reuse them or their components
+for new users.
+There are several definitions of remanufacturing, for example:
+“recycling by manufacturing ‘good as new’ products from used products” [4].
+“the process of restoring a non-functional, discarded, or traded-in product to like-new
+condition” [5].
+Recently, “circular economy”, defined as “an industrial system that is restorative or
+regenerative by intention and design” [3], has attracted increasing interest in industry
+and society. A circular economy is not based on consumption but on restorative use.
+Remanufacturing can be considered one route for a circular economy.
+Remanufacturing has been performed in some form for decades, but as an industrial
+activity it is mainly well known in specific industrial fields and a few geographical areas.
+Examples of successful cases can be found in literature, for example [6]. In Finnish
+industry and society, awareness of remanufacturing and its potential is low.
+Remanufacturing is referred to as a “win-win-win” situation: the customers pay less
+for the remanufactured products or components, remanufacturing companies earn
+more and the environment benefits [7]. As a whole, remanufacturing contributes to all
+
+and energy resources, reduces waste and landfill, creates skilled jobs and produces
+substantial savings for the customers.
+Lund and Hauser [5] identify several benefits of remanufacturing at societal level: it
+makes products more widely available at lower prices, it contributes to conservation of
+materials and energy, and it provides employment income and skill acquisition and
+expertise, which can lead to additional business opportunities for repair, remanufacture
+or manufacture, thus providing local employment and training.
+The barriers to remanufacturing have been widely discussed in remanufacturing
+research. The following three types of challenges have been identified [7, 8]:
+(1)Challenges related to the collection of used products / availability of cores. To
+establish remanufacturing, a sufficient volume of cores (used products or
+components to be remanufactured) needs to be available and collected for
+remanufacturing. This process is also called Reverse Logistics.
+(2)Challenges related to remanufacturing processes (remanufacturing phase). There
+may be technical challenges. It may be difficult to ensure the required quality, or
+the costs and lead time may be too high. It is often difficult to identify the potential
+products for which remanufacturing is profitable, technically feasible and really
+sustainable [9].
+(3)Challenges related to the demand for remanufactured products [8] and
+redistribution [7]. One major challenge of demand is to ensure customers’
+acceptance and trust in remanufactured products.
+A challenge related to all these phases is the difficulty of balancing the supply and
+demand [7–10]. Remanufacturing companies do not usually have control over the
+quantity, quality and timing of the returned products.
+
+Collaboration networks and remanufacturing
+
+In the current business environment, companies are not able to have all the competencies
+and capabilities they need in one company. Thus, they need to establish collaboration with
+other companies. Through collaboration networks, enterprises aim to gain benefits
+and competitive advantages [11]. They focus on their core competencies and develop
+relationships with external enterprises to acquire the knowledge and resources required to
+serve customers.
+The typical drivers of collaboration [11, 12] are also present in remanufacturing:
+companies need to achieve sufficient volume and cost-efficiency, flexibility and quality,
+and they cannot have all the capabilities in one organization. In addition to the internal
+processes (performed inside the factory walls) of remanufacturing, there are external
+processes: core collection and the forward supply chain that delivers the remanufactured products to customers [9]. Thus, the collaborative network approach and the
+developments in the field could also support companies as they strive to set up collaboration for remanufacturing.
+In the past few decades, there have been several research initiatives in Europe in the
+field of Collaborative Networks (CN) [11, 12]. Most of the CN research has focused on
+
+chains. The research has tried to overcome the challenges of collaboration, such as
+potentially conflicting objectives, insufficient common understanding, management of
+competencies and capabilities, alignment of processes and practices, and the exchange
+and sharing of information. The need to create long-term collaboration and to develop
+preparedness for it has been emphasized [12].
+There are different types of companies that perform remanufacturing depending on
+the relationship to the original equipment manufacturer (OEM). Three categories are
+typically distinguished [13, 14]: 1) the OEM (Original Equipment Manufacturer)
+performs the remanufacturing itself, 2) it is performed by contracted ‘official’ contractors/agents or 3) by independent or third-party operators. Even if, in addition to
+remanufacturing, partners for reverse and forward logistics are needed, the type
+affects how the whole remanufacturing network is built. This can be seen in the
+analysis of the SME remanufacturing network typology by the German-Brazilian
+project BRAGECRIM, which was running alongside and in collaboration with the
+DemaNET project. The main categories of networks that have been identified include
+three subcategories controlled by OEMs, four by subcontractors and three independent
+[15]. BRAGECRIM performed the analysis from the viewpoint of a single company and its
+products: what kinds of partners are involved in the remanufacturing of the company’s
+products.
+Lind et al. [16] have studied networking in remanufacturing in the automotive industry. They specifically address the relationships in core collection based on the classification of Östlin [9]. This includes ownership-based, service-contract, direct-order,
+deposit-based, credit-based, buy-back and voluntary-based forms. In addition to these
+seven relationship types, Lind et al. [16] identify one additional type: reman-contract
+relationship. The advantages and disadvantages of the types in the automotive industry
+are analysed.
+Yang et al. [17] have developed a remanufacturing resource selection framework to
+manage the information on the remanufacturing resources and support rapid and
+accurate selection of resources in the remanufacturing network. To reduce the uncertainty and complexity of remanufacturing operations, a new search mechanism based
+on semantic web services is presented.
+
+Remanufacturing and sustainability assessment
+
+There are several methods to assess the sustainability of a product. One is life cycle
+assessment (LCA) [18, 19], which is based on life cycle thinking, i.e. the whole life cycle
+of the product is taken into account. This begins with raw material extraction and conversion, and continues with manufacturing, distribution and use and/or consumption. The
+life cycle ends with the so-called end-of-life stage, including re-use, remanufacturing,
+recycling of materials, energy recovery or disposal. Figure 1 represents the principle
+of life cycle thinking.
+The basis of life cycle thinking is to avoid shifting the environmental burden. This
+means minimizing the impacts at one stage of the life cycle or in one environmental
+impact category while avoiding increasing the impacts at other life cycle stages. For example, saving energy during the use stage may increase the amount of material needed in
+
+Fig. 1 Principle of life cycle thinking
+
+The European Commission has recently launched the Environmental Footprinting
+Initiative [20], which is designed to harmonize the many different methodologies available
+to calculate and communicate environmental information for products (the Product
+Environmental Footprint, PEF) and organizations (the Organisation Environmental Footprint, OEF) throughout their life cycles. The environmental footprint methodology has
+been developed based on existing, well-established, tested and widely used methods,
+standards and guidelines.
+Environmental assessment includes several stages. Setting system boundaries is one
+of the most critical issues in any environmental assessment study. It can determine if
+the study has positive or negative impacts on the environment. There are many ways to
+conduct the environmental assessment of remanufacturing, especially when it comes to
+comparisons. The following categories for setting system boundaries can be found in
+literature [21]:
+1. Comparing one manufacturing cycle with one remanufacturing cycle. The focus is
+on a strict comparison of the difference between employing remanufacturing and
+manufacturing.
+2. Comparing the full life cycle with remanufacturing replacing the manufacturing
+stage but including the take-back stage. This is a comparison between two full life
+cycles: one ‘normal’ product life cycle and another in which manufacturing is
+replaced with remanufacturing with the inclusion of the take-back stage.
+3. Comparing one life cycle with manufacturing + one life cycle with remanufacturing
+with two life cycles with manufacturing (at least one life cycle is needed before
+remanufacturing is possible).
+4. Comparing the different number of times the product is being remanufactured.
+A lack of good quality data is usually one of the biggest challenges when conducting environmental assessments, and this also applies to remanufacturing activities. There is
+often a need to acquire life cycle data from the different parts of the supply chain, and this
+
+in the literature usually include the following environmental impact indicators: energy
+consumption, global warming potential and resource depletion.
+The global warming potential (generally known as carbon footprint) describes the
+greenhouse gases that are released during the life cycle of a product or system. Currently,
+it is generally recommended to base the carbon footprint calculations on LCA studies.
+Simply described, the carbon footprint can be seen as part of a full LCA. The most important greenhouse gases are fossil carbon dioxide (CO2), methane (CH4) and nitrous
+oxide (N2O). Greenhouse gases are converted into carbon dioxide equivalents (CO2 eq.)
+by multiplying them by factors given by the Intergovernmental Panel on Climate Change
+(IPCC). The CO2 equivalents are then totalled and reported as global warming potential.
+In contrast to global warming, resource depletion does not have a similar widely
+accepted methodology. Resources are commonly divided into renewable resources and
+non-renewable resources.
+
+Research approach
+As mentioned in Chapter 1, the research has been performed as part of the Finnish
+Green Growth programme in collaboration with two Finnish universities and the
+participating ten companies. The high level research questions were the following:
+1. How remanufacturing can best be applied in Finnish industry? How does the
+Finnish remanufacturing concept look like?
+To analyse this, the following subtopics were analysed: What are the benefits to
+resource efficiency and business? What are the challenges and requirements? What
+kind of new actors, companies and services are needed? How does a
+remanufacturing system/ network look like?
+2. How remanufacturing can be implemented and promoted in Finnish industry and
+society?
+For this question the customer viewpoint as well as the drivers, incentives and
+business models were studied. Actions as a development path towards the
+promotion of remanufacturing in Finland were generated. Additionally an
+assessment model to increase understanding about the applicability of
+remanufacturing was developed.
+This paper does not cover all the questions and results of the project. The main
+topics here are the assessment of resource efficiency and the analysis of networking in
+remanufacturing. The development path is documented in [22] and the assessment
+model in [23] and [24].
+In the research, findings from previous literature and the views and information of
+the Finnish industrial companies were used. Some information was also received
+through a survey from Finnish companies external to the project. Four of the case
+companies currently have some commercial remanufacturing activities. One of them
+just started a new remanufacturing factory for specific product components. It was also
+important to identify the needs of the companies which have not yet been able to start
+remanufacturing in their business field. The companies have different potential roles.
+
+Another is a potential service provider in remanufacturing but does not yet have any
+activities or experience in this field.
+The research started with two parallel streams:
+– A literature review of the remanufacturing benefits, challenges, processes and
+systems applied, and its sustainability aspects. Experience and successful use cases
+were also collected and analysed from the literature.
+– The collection of industrial views, experience, challenges and future visions from
+the participating companies through semi-structured interviews and discussions.
+The observations and conclusions were further discussed with the companies in
+workshops.
+For the sustainability assessment topic, a case study was carried out on how LCA is
+applied to assess the differences in the environmental impacts between a life cycle of a
+classic product and a remanufactured product.
+To identify the collaboration forms in remanufacturing, the Finnish case studies and
+use cases from the literature were analysed. The different actors and their roles both in
+internal and external processes of remanufacturing as well as the partner managing the
+network were identified when possible. The information was not always available for all
+the process phases in the use case descriptions. As a whole the analysis included the 5
+Finnish cases and 17 cases from literature [6, 8, 25–31].
+Additionally, to extend the information base, a web survey of Finnish companies was carried out in collaboration with the Brazilian-German research project BRAGECRIM [15].
+The survey had previously been carried out by Berlin Technical University and Sao Paulo
+University for companies in German, Brazil and some other countries in Europe and the
+Americas. The main research question behind the survey was to analyse the networking
+forms of companies, but additionally some background information as well as information
+about the motivation and challenges were asked. The Finnish version of the survey shared a
+similar structure but it was translated in Finnish language and slightly adapted with
+additional questions relating to the awareness about remanufacturing. For this paper, only
+the results from Finnish companies are used. The combined results are reported in [15].
+The invitation to the Finnish survey was sent via e-mail to approx. 250 professionals
+working mostly in manufacturing in different industrial companies in Finland. It
+received a total of 33 replies. The typical respondent was part of the top management
+of a mid-sized or large international company and responsible for the overall management,
+production or product development. Most of the companies operated in the sector of industrial machinery, electric and electronic equipment, furniture industry, heavy industrial
+vehicles or metal industry.
+
+Results
+Remanufacturing barriers identified by Finnish companies
+
+Even if remanufacturing is widespread in a few limited fields or geographical areas, it is
+a small-scale activity in others. This is partly because the raw materials or components
+are currently not expensive enough to motivate remanufacturing, the awareness of
+
+
+
+In Chapter 2, the challenges related to the main phases of remanufacturing (core collection, remanufacturing, demand for remanufactured products) were presented based
+on previous research. The challenges identified by the project case companies were
+mainly in line with these observations. Other types of challenges could also be identified, related to management and business (for example, cost-effectiveness and pricing),
+legislation and IPR issues [23].
+One of the main criteria for the Finnish case companies to start remanufacturing was
+sufficient volume. For some of the companies, this could be managed through the
+selection of suitable components or modules for remanufacturing. Some of the companies suffered from low volumes outside their primary market areas, or their volume
+as the manufacturer of large and heavy products was currently too low. In addition to
+the mentioned challenges, the companies highlighted the need for market understanding and knowing the local government regulations. The companies also experienced a
+need for resources and knowledge when developing new remanufacturing processes:
+technical information and test specifications are needed, and the products should be
+better designed for reuse and remanufacturing.
+The survey mentioned in Chapter 3 also included questions on remanufacturing barriers. The results for barriers are shown below in Fig. 2 as percentages of the companies
+that regarded the mentioned barrier realistic in the survey. The biggest challenges for
+remanufacturing are seen as coming from costs in general, product features and specifications (products have not been designed to be remanufactured), insufficient market
+demand (for some products) and competition with own new products. In addition to
+the options in the survey, the following barriers were mentioned:
+– Security products need to be new rather than ‘fixed from old’.
+– The authorities consider the remanufactured product not to be equal to a new one.
+
+27%
+
+Difficulty in acquiring products or parts at their end-of-life
+
+18%
+
+High complexity of the remanufacturing process
+
+High costs associated with remanufacturing products
+
+45%
+
+Characteristics of the product hinder remanufacturing
+
+45%
+
+36%
+
+Remanufactured products compete with brand new products
+
+39%
+
+Low demand for remanufactured products
+
+36%
+
+High costs associated with reverse logistics
+
+Other
+
+
+– The products and customers are scattered around the globe.
+– Required product approvals increase the cost or risk for the contractor.
+One question concerned the terminology related to remanufacturing. The respondents
+were mostly familiar with the terms factory-refurbishing, recycling and energy recovery.
+Remanufacturing was not known across the responses, though one-third of the companies
+conducted remanufacturing or worked with a company that did. Even if a remanufactured
+product is generally seen as equivalent to the new product, when considering the quality
+and warranties given, a large portion of respondents still saw the remanufactured products as inferior to newly manufactured equivalents. The remanufacturing terminology in
+the Finnish language is not established and clear to all. Thus, one barrier to extending
+remanufacturing in Finland is a lack of awareness and knowledge.
+The identified barriers were used to define development actions to promote remanufacturing in Finland [22].
+
+Collaboration in remanufacturing
+Actors and roles in remanufacturing
+
+Along with the regular manufacturing supply chain actions, remanufacturing includes
+activities that are not present in new product manufacturing. Some of these are related
+to the reverse logistics process, including core acquisition, others are related to the
+specific stages of the remanufacturing process, and yet others to the markets for remanufactured products. These different areas, in which the individual actors and activities
+appear along with the internal and external remanufacturing processes, are illustrated
+in Fig. 3.
+The internal processes include the activities for the actual remanufacturing (from disassembly to testing of remanufactured products). In some cases the same partner takes
+care of the whole internal process, sometimes specialized actors are used for some
+phases (for example testing). Also storage and transportation may be needed in the
+internal processes.
+The external processes take place in two phases and directions: one is for the acquisition
+of cores and the other one to sell and distribute the remanufactured products to end users
+
+RECYCLING
+
+SOURCE OF THE
+CORE
+
+ENDUSER
+
+Alternative
+usage / waste
+
+PRODUCT DESIGN
+
+New products
+
+Customer
+Remanufacturing
+External process
+
+Remanufactured
+products
+
+Used product
+(cores)
+
+Remanufacturing
+External process
+
+COLLECTING AND
+RECEIVING CORES
+
+FUNDING AND
+DEPOSITS
+Reverse supply chain
+
+Forward supply chain
+
+Remanufacturing
+Internal process
+
+REMANUFACTURING
+STORAGE
+TRANSPORTATION
+
+
+(Fig. 3). The core collection can be in the hands of a remanufacturing partner or organized
+through specific partners (for example, maintenance partners in the case of remanufacturing spare parts). Similarly, there are several potential routes to the customers on the sales
+and distribution side. These tasks offer potential for additional roles and services, as the
+company performing the real remanufacturing is not always able or the best option to take
+care of the logistics. For example, wholesalers, transport and warehousing services, maintenance partners, partners for inspection, cleaning, etc. are needed, depending on the
+scope of the collaboration. Offering the products as a service instead of selling them
+is a promising route to enhance the application of remanufacturing, as core collection
+is guaranteed and the customer is interested in the service performance, not the novelty
+of the products. The service provider may be a specific company or the OEM.
+Types of networks in remanufacturing
+
+The three main categories of remanufacturing mentioned above (OEM, contracted,
+independent) usually determine which partner controls the remanufacturing activity or
+acts as “the remanufacturing network manager”. However, one leading partner typically
+cannot perform all the activities needed in the remanufacturing processes, but it may
+build different types of networks around itself.
+The collected descriptions of remanufacturing use cases (see chapter 3) were analysed
+to identify which partners and roles are present or needed in the remanufacturing
+external and internal processes and which partner acts as the network manager. Based
+on the challenges of the Finnish use cases, also potential collaboration forms to support
+them when developing remanufacturing activities were outlined. This lead to the
+following scheme for the classification of collaboration forms in remanufacturing.
+In OEM remanufacturing, the OEMs remanufacture their own products, which arrive
+from service centres, trade-ins, retailers or end-of-lease contracts. Thus, for the external
+remanufacturing processes, collaboration with customer service and logistics partners is
+prevalent. The remanufacturing process could be integrated with the ordinary manufacturing process. In many cases, the OEMs collaborate with some of the same partners in
+remanufacturing as in new product manufacturing. This kind of remanufacturing network
+could be called OEM-centric remanufacturing network. It is managed and controlled by
+the OEM. In this way, the OEM can take care of its brand, keep the customer relationship
+and ensure the quality of the remanufactured products or components.
+The companies involved in the DemaNET project that were already active in remanufacturing followed the OEM approach, that is, the OEM managed the remanufacturing.
+Analyses of their processes, however, showed, that the one with the widest range of
+remanufacturing activities does not perform the whole remanufacturing process alone
+but has partners in both the internal and external processes. It seems that this partnering has been an essential prerequisite for the success and expansion of the remanufacturing operations. In this case, the partners in the remanufacturing network are
+part of the network of new product manufacturing: most of them also participate in
+the logistics, manufacturing or maintenance activities of new products. Only a few
+specific sites or centres for remanufacturing have been created.
+In the case of contracted remanufacturers, the internal remanufacturing is performed
+by an outside company, not the OEM itself, based on a contract between the OEM and
+
+a sub-form of the OEM-centric remanufacturing network, as the OEM is still in the controlling role.
+Independent remanufacturers usually provide their services in fields in which the
+OEM is not deeply involved in direct customer support (such as out-of-warranty automotive) or simply concentrate on new sales. These independent remanufacturers,
+which remanufacture products with little contact with the OEM, need to buy or collect
+cores for their process. To become efficient, these remanufacturers often operate in a
+specific industrial segment (such as the automotive sector) where they can reach a sufficient volume. The companies often focus on a specific process, for example, there
+may be partners focusing on the collection of used products, their disassembly or logistics. Thus, collaboration is also needed in independent remanufacturing, often in the
+form of Industry-specific remanufacturing networks.
+Industry-specific networks could also help in cases, where the volumes of a single OEM
+are not high enough to create a remanufacturing system. This is also the situation with
+many Finnish companies, especially as their customers are geographically distributed and
+the collection and handling of the used products does not reach sufficient volume in the
+region. Collaboration between OEMs in the same industrial field, for example through
+common contracted remanufacturers, could enable them to perform remanufacturing of
+the used products and, potentially, thereby enlarge their markets to different customer
+groups. In this case, manufacturers of similar or closely related products could create
+common reverse logistics and/or remanufacturing and thus reach sufficient volume. The
+basis for collaboration could be the same customer field or similar products. One option
+is to collaborate only in the core collection and to perform the remanufacturing themselves, another is to share resources also in internal remanufacturing. Similar products
+probably require similar remanufacturing technologies, which supports collaboration.
+Even if this option looks attractive, many companies consider it impossible because of
+competition and fear of losing their brand or market position. However, there are examples of collaboration between competitors. In some cases the collaboration only involves
+the collection of cores, such as ink cartridges in Japan [8].
+One way to build up industry-specific remanufacturing could be based on independent
+remanufacturers, which often select a specific industrial field in which to operate. They
+could either remanufacture components for a range of products or focus on specific products with a high brand and value also as a used product. In most cases, they also need
+collaboration with other companies to build up the remanufacturing processes.
+Sometimes, collaboration based on the same geographical area would be beneficial
+and Location-based remanufacturing networks are applied. A Finnish SME case company
+manufacturing heavy machines had identified the need for collaboration in remanufacturing and reuse of old products and was looking for partners in Central Europe to start the
+activity. There are already examples of local remanufacturing centres for heavy products,
+where products from different manufacturers are remanufactured and often also updated
+to comply with, for example, new energy regulations [32]. These are sometimes also called
+Remanufacturing parks. In this collaboration, with high enough volumes, some partners
+could specialize in a definite remanufacturing process phase (disassembly, cleaning, etc.),
+which could support cost-efficiency. When talking about remanufacturing parks, the
+remanufacturing operations are often located in the same neighbourhood or site to allow
+
+
+
+As a more general term, eco-industrial park is used for plants and activities in which
+businesses cooperate with each other and with the local community to reduce waste and
+pollution and share resources (such as information, materials, water, energy, infrastructure
+and natural resources) efficiently to increase economic gains and improve environmental
+quality. The result of expanding the idea of a remanufacturing park into a more distributed environment could be called a Remanufacturing Ecosystem. The concept of a business ecosystem is used to describe how the collaboration between different companies
+resembles biological ecosystems: the different partners have different roles and are
+dependent on each other. The business ecosystem concept is often considered a looser
+form of collaboration compared with collaborative networks. On the other hand, it is a
+wider concept that includes customers, authorities and other organizations that exist in
+the business environment.
+A summary of the described network types is presented in Table 1. Networking is
+necessary for the Finnish industry to extend remanufacturing further but it is often difficult to identify potential partners for the collaboration, especially when going outside
+Finland. It can be observed that as there is a wide variety of products, needs and cases,
+there is also a wide variety of potential collaborative networks in remanufacturing. It is
+not the same thing to remanufacture a high volume of low value components as a low
+volume of high value products. The collaboration may include only some or all the processes. The collaboration may support overcoming some of the challenges, for example
+the challenge of core collection, achieving sufficient volume and balancing the supply
+and demand. It may also contribute to the accumulation of knowledge and experience
+regarding remanufacturing.
+Discussion on sustainability assessment for remanufacturing
+
+Based on the Finnish survey (mentioned in Chapter 3), 68 % of the companies say that
+a reduction in environmental impacts is one of the most important motivation factors
+for remanufacturing. The opportunity for new growth or business was seen as important
+(72 %). When asked about the role of environmental legislation as a decision factor
+Table 1 Remanufacturing network types
+Network type
+
+Partners
+
+Driver
+
+Customers
+
+OEM-centric
+remanufacturing
+network
+
+Some of the same partners as
+in new product manufacturing;
+maintenance partners, service
+providers, logistic partners
+
+The OEM can take care of its
+brand, manage the customer
+relationship and ensure the
+quality of the remanufactured
+products
+
+OEM customers;
+end-users through
+maintenance service
+
+Industry-specific
+remanufacturing
+networks
+
+Independent remanufacturers
+operate in a specific industrial
+segment, e.g. the automotive
+sector; products originate from
+different OEMs
+
+Increased volume; the volumes
+of a single OEM are not high
+enough; member companies
+specialize in and focus on a
+specific remanufacturing process
+
+End-users in a specific
+industrial segment;
+service companies in
+the segment
+
+Location-based
+remanufacturing
+networks Ecoindustrial parks
+
+Collaboration based on the same
+geographical area; partners for
+specific technologies or
+remanufacturing process phases
+
+Location close to customers
+and/or OEMs; flexible
+collaboration; minimized
+transportation needs
+
+End-users, OEMs,
+municipality
+
+Includes all stakeholders;
+balancing the supply and
+demand
+
+Included in the ecosystem; active in the
+return of cores
+
+Remanufacturing Partners with different roles that
+Ecosystem
+depend on each other; also
+
+
+
+towards remanufacturing, it was not seen as important: 58 % of the companies said
+that new environmental legislation did not influence the decisions towards remanufacturing. On the other hand, 42 % said that they were not sure or did not know. This
+is because not all the respondents were familiar with the remanufacturing concept.
+The remanufacturing term was familiar to less than half (47 %) of the respondents
+and only 17 % of the companies said that remanufacturing was shown in their responsibility reports.
+One reason for this may be that the term remanufacturing is not included in the
+terms of legislation, e.g. the directive on End of Life Vehicles (ELV) [33] does not
+include remanufacturing in spite of the fact that this directive determines how recyclability
+and recoverability rates should be calculated for vehicles.
+Warranty can be seen as one of the key social indicators of a remanufactured product
+[34]. The warranty of a remanufactured product is proposed to maintain the performance
+of the product to be as good as new, which offers a social benefit to the customer.
+Employment is another important social indicator because of higher regional employment. Jobs in remanufacturing business are desirable, and the most experienced staff is
+required for the jobs.
+Life cycle methodology was applied to analyse the sustainability of remanufacturing
+(component remanufacturing) using the approach of two life cycles, as seen in Fig. 4.
+The classic product life cycle means two new products (two similar life cycles) while
+the remanufactured product life cycle includes one new product and one remanufactured product life cycle. Remanufacturing is one form of circular economy and closed
+loop recycling system. Closed loop recycling means that the material goes to the same
+product system as it was in before.
+The main differences between the material flows of a remanufactured product life
+cycle and a classic product life cycle (manufacturing versus remanufacturing) come
+from avoided material melting when remanufacturing and also at the end-of-life stage
+when a multi-material recycling process is not needed. This was the main source for
+sustainability increase also in the case study: it leads to material and energy savings,
+and carbon dioxide and other emissions are also lower. According to several studies,
+the energy savings of remanufacturing are 20-80 %. On the other hand, some studies
+have shown that remanufacturing does not save energy for every product. The energy
+savings in the case studies of project DemaNET were about 50 %.
+
+CLASSIC PRODUCT LIFE CYCLE
+
+REMANUFACTURED PRODUCT LIFE CYCLE
+
+Raw materials
+
+Raw materials
+
+Manufacturing
+
+Manufacturing
+
+Use
+
+Use
+Remanufacturing
+
+EOL
+
+Recycling
+
+Incineration
+
+Landfill
+
+Recycling
+
+Reuse
+
+Test
+
+EOL
+Test
+
+Recollection
+Incineration
+
+
+Primary production of metals is energy intensive. Most metals can be recycled efficiently, and less energy is used in secondary production than in primary production.
+When metals are recycled, there is a clear reduction in environmental impacts. This is
+due to the fact that recycling of metals lowers the demand for primary metals as raw
+materials. Remanufacturing is still the ultimate form of recycling because remanufacturing
+needs less melting and other processes for the metals than is the case for recycling.
+
+Conclusions and way forward
+Within the IMS programme (Intelligent Manufacturing Systems), a vision and roadmap
+for sustainable manufacturing was developed in 2010 [35]. In the vision sustainability is
+seen as a competitive factor for future industries. The roadmap [35] recognizes remanufacturing as a route to extending product life towards an “eternal life cycle”. Remanufacturing also belongs to the circular economy concept [3].
+This paper has studied remanufacturing with two main focus areas: promoting remanufacturing through collaboration networks and assessing the sustainability effects of remanufacturing. Both themes support the identification of future actions to widen the
+application of the remanufacturing concept. Finnish industrial companies are networked
+already in new product manufacturing. In remanufacturing they often need to acquire
+new partners for example for the reverse logistics and actions requiring specific competences (for example cleaning and disassembly). For companies interested in remanufacturing, it is important to understand that they do not need to perform all the additional
+activities required by remanufacturing (compared to new product manufacturing).
+Instead, they can benefit from collaboration and there are several possibilities how to
+organize the remanufacturing activities. The paper gives an outline for remanufacturing
+network classification. Especially for SMEs it is often difficult to find the key partners to start and manage the remanufacturing activities. A future challenge is to
+understand how to identify and encourage companies to become accelerators or
+generators for remanufacturing networks. More information about how the remanufacturing activities have really started in different industrial fields is needed. This
+information was available only for few cases.
+Companies are usually interested in measuring the sustainability impacts of their
+activities. In the test case assessment it was seen that it is quite laborious for the companies to identify the necessary information for the LCA studies. Missing information
+was also one of the limitations in the sustainability assessment case study. Further
+development is needed to develop lighter but still sufficiently reliable methods to assess
+the sustainability aspects in remanufacturing.
+To progress in remanufacturing, measures are needed on several levels. These may
+include governmental and legal actions, such as environmental standards, waste penalties and incentives from taxation. Barriers and challenges need to be solved at company
+level. On the whole, systemic changes in product design, customer attitudes, business
+models and value networks are needed. Awareness and knowledge about remanufacturing need to be built and disseminated. Here ‘success stories’ of remanufacturing and
+benchmarking with others would be helpful to create interest and encourage actors to
+come up with the innovations required by the circular economy. These actions have
+been studied in the Finnish national DemaNET project and reported as a “development
+
+is needed both for technology, system creation and business development. The identified topics include for example design for multiple life cycles, value addition through
+remanufacturing, customer participation and network creation and management.

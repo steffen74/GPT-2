@@ -1,0 +1,565 @@
+
+
+proposed as a new paradigm for sustainable development, showing potentials to generate new
+business opportunities in worldwide economies, to increase a long-term competitive advantage
+[1] and to significantly increment resource efficiency in manufacturing. The application of
+closed-loop business models may enable to exploit materials potentials within multiple cycles,
+reducing emissions, energy requirement and resource consumption, ultimately preserving the
+welfare of next generations.
+Focusing on the operational perspective of circular economy, remanufacturing is acknowledged among the most beneficial end-of-life product regeneration strategies. Indeed, it provides the possibility of preserving post-use products or components functions, regenerating
+them to their as-good-as-new conditions [2]. Although remanufacturing is gaining interest due
+to its profitability and environmental benefits, the related instability, uncertainties and complexity [3], particularly at an operational level, undermines its growth.
+With the objective of providing increased robustness to remanufacturing processes while
+limiting inventory levels, this work proposes an innovative simulation framework for
+predicting the performance of remanufacturing systems operating under various production
+control policies within a digital environment, before the implementation in the real system. The
+proposed tool provides remanufacturing business stakeholders with an effective solution which
+supports the management of remanufacturing systems under evolving production targets, thus
+lowering the exposition of companies to input disturbances and uncertainties. Such objectives
+are pursued through the proposition of a generic and reconfigurable simulation model, which
+exploits a modular approach. The characteristics of each process module are customized in
+order to capture the features of typical remanufacturing processes, including disassembly,
+inspection, cleaning, regeneration, functional testing and re-assembly. Moreover, in the proposed simulation environment, the ability to compose different remanufacturing system
+architectures is provided, while maintaining an adequate level of detail to capture the main
+dynamics characterizing the system’s behaviour. The model is also enriched with the capability
+of handling different production control policies. The ultimate aim of this work is to support
+the design, reconfiguration and management of robust remanufacturing systems, adaptable to
+variable production targets and input post-use product flows and conditions.
+The remainder of this paper is structured as follows. In the next section, a literature review
+on remanufacturing planning and control methods is provided, also highlighting the existing
+gaps and limitations. In section 3, the scientific approach proposed in this paper is outlined and
+the detailed description of the simulation model is proposed. Numerical validations through
+comparison with existing performance evaluation methods, targeted to a sub-set of low
+complexity system configurations, are also provided. In section 4, the application to a real
+remanufacturing industrial case is demonstrated, and potential benefits are discussed. In
+section 5, the main conclusions are drawn.
+
+Literature review
+Since decades, simulation is a well-known approach for business forecasts and development, mainly applied to the manufacturing domain. In-spite of the complexity of
+remanufacturing and the related uncertainties and disturbances, relatively little effort has
+
+141
+
+were circumscribed to specific, case-dependent assumptions, which imply difficulties in
+the adaptation and generalization of the presented solutions over different remanufacturing
+scenarios. Among these works, Souza and Ketzenberg modelled the operations occurring
+in remanufacturing activities [6] and focused their efforts on determining the optimal longrun product mix, maximizing profit subject to a service time constraint [7]. Moreover,
+Zhang, Ong and Nee tackled the problem of process planning and scheduling through the
+application of a simulation-based framework, optimized by a genetic algorithm [8].
+The concept of modularity has been largely deployed in the field of manufacturing, both at
+product and production system design level, and its application provided significant benefits in
+terms of manufacturing costs and lead times [9] [10]. In material flow simulation, modularity
+represents an effective way of reducing model development times. Smith and Valenzuela
+considered the development of modular templates to ease, foster and accelerate the deployment
+of simulation in specific domains [11]. The authors asserted that significant complexities in
+modular models are hidden within the templates, enhancing an easy and fast implementation of
+the simulation. Using standard modules and formalized interfaces, a complex system can be
+modelled easily and effectively with an emergent approach, deploying modules selection and
+integration. However, the complexity in capturing the important characteristics of the process
+modules and defining the right level of details have resulted in limited applications of modular
+simulation models in remanufacturing, privileging modelling approaches, dedicated to specific
+system settings. Martínez and Bedia developed process modules for the case of Just in Time
+(JIT) manufacturing processes [12]. They applied them to the modelling of a U-shaped line, in
+order to show the appositeness of the developed model. Lee and Choi designed a modular
+reconfigurable simulation-based framework for the creation of planning and scheduling
+systems within a manufacturing context [13]. Applications of modular simulation models to
+remanufacturing systems are not being developed so far. A topic that has barely been
+considered in material flow simulation models for remanufacturing systems, is the application
+of production control policies, meant to reduce the variability that remanufacturing plants are
+exposed to. The approaches in literature aim at finding a generic optimal policy or at looking in
+detail to the production release of a particular station, mainly the disassembly one. Some of
+these works are based on analytical models [14]. For example, Veerakamolmal and Gupta
+developed a procedure that sequences multiple and single-product batches through disassembly and retrieval operations to minimize machines idle time and make-span, determining lot
+sizes according to the number of arrivals per product in a given time period [15]. Moreover,
+Gupta and Al-Turki introduced the so-called Flexible Kanban System (FKS), which uses an
+algorithm to dynamically and systematically manipulate the number of Kanban in order to
+offset the blocking and starvation caused by uncertainties during a production cycle [16].
+Korugan and Gupta suggested the application of a single-stage pull type control mechanism
+with adaptive Kanban and state-independent routing of demand information, for the management of a hybrid production system [17]. Furthermore, Tang and Teunter explored the
+economic lot-scheduling problem (ELSP) within the context of remanufacturing. Their challenge was to determine both the lot size and the sequence of production for each product
+minimizing the holding and set-up costs [14]. Other attempts are based on heuristic models.
+Among these, Teunter, Kasparis and Tang developed a mixed-integer program to solve the
+economic lot-scheduling problem with returns (ELSPR) when manufacturing and
+
+
+stocks in a material requirements planning (MRP) production system and the impact of the
+location of buffer inventory on remanufacturing performance [20]. In a later work, Guide and
+Srivastava evaluated, through simulation, the performance of four order release strategies –
+level, local load oriented, global load oriented, and batch – and two priority scheduling rules –
+first-come-first-served (FCFS) and EDD – towards five performance criteria, over a real case
+[21]. Guide, Souza, and Van der Laan used simulation to prove results from an analytical
+model. They found that, under certain capacity and process restrictions, delaying a component
+to the shop after disassembly never improves the system’s performance [22]. The provided
+results show margins of improvement thanks to the production control, nevertheless affected
+by the specificity of the context and external uncertainty.
+Analysing in detail the simulated remanufacturing systems found in literature, it is visible
+how strictly connected they are either to a single case or to a specific industry. Moreover, the
+simulations aim at providing detailed assessment focusing on single stations, losing the
+attention over the entire system, or vice versa. In general, research could benefit from simulation
+models that – on the one hand – are general and easily adaptable to different industries and – on
+the other – are able to handle great performance granularity both at system and at station level.
+As highlighted by this analysis, production control management in remanufacturing has never
+been tackled by flexible, modular and easily reconfigurable simulation models, thus undermining
+their effective design and implementation in industrial settings. To fill this gap, this paper
+proposes a new user-friendly simulation environment, which predicts the relevant performance
+measures of remanufacturing systems as a function of the applied production control policy. The
+suggested method paves the way to the design and management of robust remanufacturing
+systems that can better suit evolving target demands and post-use product conditions.
+
+The proposed simulation model
+The research has been methodologically approached following pre-defined steps for a simulation study [23], as reported in Fig. 1.
+Due to the objective of having a generic simulation framework, the main difference concerns
+the data collection step. Hence, data are not recorded before implementing the model, rather
+throughout the setting phase. When system data are needed, user interfaces enable recording
+them and embed the flexibility for adapting the system according to the specified values.
+
+Model Conceptualization
+The whole model architecture relies upon a conceptual framework built with a Class Diagram in
+Unified Modeling Language (UML). Already rooted in such representation, is the modularity: it
+implies the development of System Modules, intended as self-independent packages of objects
+playing distinctive roles. Having a pre-defined modular framework implies three main benefits:
+i. Starting the implementation from an already coded set of tasks and logics represents a
+saving of time.
+ii. Modularity implies flexibility, which is fundamental to react in unstable scenarios as
+
+143
+
+Fig. 1 Steps for a simulation study
+
+The developed framework enables modelling the remanufacturing processes through a
+product-oriented architecture. Indeed, each System Module – which is deployed to build up
+the process representation – does not represent a physical resource, but its respective carried
+activity. It means that, if a resource is available in more than one technological path of cores, or
+target components, the respective System Module is replicated in the simulation framework as
+
+
+Fig. 2 Multi-Stage control, VSM representations
+
+Each System Module is embedded with a Module_Kanban, a built-in frame, able to handle
+six different production control policies in two distinctive environments, namely Absence of
+Demand and Presence of Demand, which differ for controlling production taking into account
+– or not – the demand for finished goods [7]. Moreover, the six available policies refer to those
+described by Liberopoulos [24]. No WIP Control represents the full-speed-working configuration, in which cores are processed as soon as the needed resource is available. Flowline sets a
+control over the production through a blocking mechanism, by capping buffer sizes. In
+addition to these policies, other notorious Kanban-driven controls are taken into account, such
+as: Control at station level, ConWIP, Multi-Stage and Echelon (Figs. 2 and 3).
+In the Control at Workstation level, the WIP amount is directly managed at every process
+stage, oppositely, in the ConWIP Control, the WIP is regulated at system level. In-between the
+last two shown policies, the Multi-Stage and Echelon control, can be reasonable trade-offs
+between their respective pros and cons. These configurations have a user-defined number of
+control points, however, in the last one, Kanban are not detached from the product before
+entering in the subsequent stage. For this reason, it leads to a global control over WIP and not a
+
+145
+
+Model Description
+As anticipated, the model hereby is a pre-defined framework, in which the remanufacturing
+process can be represented following a guided path where the user can specify the data of
+the analysed system. Throughout such procedure, the whole architecture is built, putting
+together the required System Modules. Within these Frames, the Module_Kanban regulates the behaviour of the material flowing across the related System Module by
+coordinating authorization cards, according to the rules of the chosen production control
+policy. The following paragraph focuses on the characteristics and functions associated
+with System Modules and Module_Kanban.
+
+System Modules and Functioning
+Starting from Steinhilper’s work [25] and extending the identified processes related to
+remanufacturing for modelling reasons, the identified System Modules are: Sorting, Inspection, Cleaning, Reconditioning, Disassembly, Reassembly and Outsourcing (Fig 4).
+Each System Module is conceptually made of two different parts: the former, with the socalled homologous objects, which are the same independently from the System Module in
+question, needed for interfacing each module with the system; the latter, which concerns
+objects and methods that are peculiar of the process associated.
+The target architecture and the correct production mechanism are obtained leveraging on
+similar interfaces and adaptable controlling methods, which together constitute the homologous objects. Interfaces are developed exploiting Siemens Tecnomatix® specific library
+objects: they are characterized from common names or labels, and enable the communication
+with system-level controlling methods. The aforementioned adaptable methods are programmed through the so-called anonymous identifiers, which are coding elements able to
+point at specific objects or entities, without specifying their location in absolute terms, rather
+referring to the method they embed or they trigger.
+The homologous objects, reported in Fig. 5, are in charge of:
+
+&
+&
+&
+&
+&
+&
+
+Connecting to other System Modules.
+Managing the selected production control policy, through Module_Kanban.
+Managing the resource queue, batch release and task execution.
+Updating M1 available capacity, before and after the task is performed.
+Modelling the transportation time from a buffer to the performer task.
+Requesting and setting of System Module input data, which are processing and set up time,
+amount of equal resources, handling and resource batch size, entry and exit time and set up
+
+
+Fig. 5 System Module’s interfaces
+
+As mentioned, one part of the internal structure of System Modules changes in order to
+perform the specific set of activities they are in charge of. The following paragraphs point out
+the differences between them.
+At system level, a wide set of key performance indicators monitors the logistic performances of the material flow in the simulation. The recorded KPIs are mainly drawn from Hopp
+and Spermann [26]. Particularly, three KPIs areas are encompassed: throughput rate, work in
+progress (WIP) and throughput time. Table. 1 reports how the implemented KPIs cover
+different hierarchical levels of the system. On top of them, the actual throughput and the
+resource utilization are recorded.
+
+Sorting The first System Module under analysis, represented in Fig. 6, deals with the sorting
+phase; generally, this process has the main function of characterizing a product over certain
+factors of interest. Converted to programming functionalities, this module allows the user to
+define – during the setting stage – some attributes, the range of possible values and their
+occurrence percentages. Afterwards, during the simulation run, entities are given different
+attribute values, according to the defined occurrences.
+One consequence of being labelled with a certain attribute value is that the product could be
+accepted, rejected or reworked according to a certain detail, such as the presence of a specific
+qualitative defect. The second consequence is the possibility of having a different processing time
+for one of the successive task, which depends on a product feature as well. An example could be
+the level of rust characterizing a core, inversely proportionated to its removal process time.
+Inspection This System Module represents the process of accepting, discarding or defining a
+rework path for a certain product. During a remanufacturing process, this activity occurs
+several times throughout the process, in order to ensure the target quality level. The Inspection
+module can be used independently at different stages of the process (Fig 7).
+In case the process entails a scrap rate higher than zero, and the part under analysis is an
+already disassembled component, the user has the possibility to re-order the component as
+new. In this case – with a delay that has to be defined – the component is addressed directly at
+its respective buffer prior to the reassembly stage. This possibility is given because an
+Table 1 Model KPIs at system level
+Work in Progress
+System level
+
+Efficiency
+WS level
+
+Throughput rate
+
+Throughput time
+
+Inventory Type
+Avg Wip in Kanban
+loop
+Buffer level
+
+Th_Rate_Mean
+Th_Rate_StDev
+UB_Rate
+Th_Rate_Efficiency
+-
+
+Th_Time_Mean
+Th_Time_StdDev
+
+147
+
+Fig. 6 Sorting Module
+
+unbalanced scrap rate for different components could lead to an uneven storage level across
+them.
+
+Cleaning and Reconditioning In this model, Cleaning and Reconditioning Modules are
+conceptually identical. This decision reflects the fact that, although the carried out process is
+different, when the target of the simulation is the evaluation of logistic performances, what
+matters of the model is the time delay occurring due to the represented activity. None of these
+two stages has features affecting the material flow behaviour, from the time needed for
+processing. For this reason, one System Module would be enough for representing both
+families of activities: despite that, two separate System Modules have been built for the sake
+of comprehensiveness (Figs. 8 and 9).
+Outsourcing This module aims at representing those process phases which are performed
+externally to the company. It simulates the outsourcing time, that is the time components spend
+out of the system.
+Unlike the other System Modules, this one does not contain all the homologous Objects
+
+
+Fig. 8 Cleaning Module
+
+policies management, such as Module_Kanban deployment. In fact, the products are sent out
+of the company boundaries, as it is not feasible to attach Kanban on them, or it would be
+incoherent to detach authorization cards since outsourced parts account for the overall WIP
+amount. Secondly, having as main interest the outsourcing time, only two Lines –
+Internal_path and External_Path – have been included, simulating the logistic time needed
+to ship and receive the outsourced components batch. Additionally, the user has the possibility
+to consider more than one outsourcer for the same component, with different times and batches
+characteristics (Fig 10).
+
+Disassembly The Disassembly is the System Module in which the decomposition of the
+Core into its Components occurs. This process is modelled with more details because the
+decisions taken at this stage – e.g. Target Components – affect the entire remanufacturing
+process (Fig 11).
+The functioning of the module is structured in order to assure the user a high flexibility in
+simulating different disassembly scenarios, enabling sensitivity analysis of the system under
+the variation of one or more of its input data. This flexibility is aligned with the generality and
+comprehensiveness of the required data as input of the module, in order to cover a broad range
+of disassembly configurations, giving the user multiple levers of intervention for a deep
+understanding of the operations. Overall, in addition to the aforementioned data needed for
+
+149
+
+Fig. 10 Outsourcing Module
+
+i. Disassembly level, determining the target components to be remanufactured
+ii. Disassembly task sequence, with the related processing and setup times
+iii. Disassembly line balancing, allocating tasks to workstations
+Indeed, another relevant characteristic of the Disassembly is the presence of subframes Station, shown in Fig. 12, representing disassembly manual workstations.
+According to the line-balancing problem logics, the user can simulate the allocation
+of disassembly tasks over different stations. A further variable available to the user,
+concerning the workstations, is the amount of human resource and the respective
+allocation and sequence of tasks performed.
+Finally, in this phase, it is possible to understand clearly the product-oriented
+architecture used for modelling the system. In fact, from this step on, the flow of
+Entities is divided because each target component follows its own technological
+routing until the reassembly stage. For this reason, Disassembly provides an amount
+
+
+Fig. 12 Disassembly Station
+
+Reassembly Differently from Disassembly, which has been modelled as a humanbased process, the Reassembly has been conceived considering the introduction of
+automatization. The range of reassembly configurations is wide. The module is
+structured in order to be able to represent at least the three main typologies of
+reassembly configurations:
+&
+&
+&
+
+Fixed position, in case the product is assembled in a single site, rather than being moved
+through a set of assembly stations.
+Assembly line, meant as a fixed and unique path where the product is progressively
+assembled.
+Decoupled Assembly stations, where each phase of the assembly process of a product type
+is assigned to a specific station.
+
+The three categories mentioned are not modeling configurations that the user can
+select as baseline layout. On the contrary, they are theoretical structures that could
+be achieved leveraging on the number of Stations and the batch release
+mechanism.4
+The module is characterized by the convergence of target components’ material
+flows, moving into the sequence of reassembly stations specified by the user. In
+analogy with Disassembly, the module is provided with the sub-frame Station, which
+is replicated as many times as specified and which is in charge of modelling the
+assembly of assigned components. Furthermore, the module is provided with the subframe New_Components that has the possibility to reorder those components that are
+designed as non-target during the disassembly phase (Figs. 13 and 14).
+
+
+151
+
+the system-level design codes tune each Module_Kanban accordingly, activating or
+
+Fig. 13 Reassembly Module
+
+deactivating them. If a Module_Kanban is deactivated, material flow simply crosses it without
+any effect. If activated, it represents the point in which material entities are bundled with a
+production – or demand – of Kanban anytime this is available (Fig. 15).
+The implemented controlling methods are in charge of the following activities:
+
+&
+&
+&
+&
+&
+
+Bundling of incoming entities in the System Module with production Kanban: as soon as a
+Kanban is available, it is attached to the entity and the bundle is sent downward.
+Detachment of Kanban: according to the implemented control policy, Module_Kanban
+manages the detachment of Kanban.
+Collection of spare Kanban: once Kanban are freed, they get sent back to their original
+Module_Kanban and start circulating again.
+Management of rework processes and scrap: if an entity requires to be re-processed,
+Module_Kanban controls its access to the process according to Kanban availability.
+Demand Kanban control: in Presence of Demand policies, if a station is specified by the
+user as the demand decoupling point, demand Kanban are sent to the station according to
+customers’ demand rate. Entities are processed only if a customer requires it. This
+mechanism works together with components’ final warehouses, which forward customers’
+
+
+Fig. 15 Module_Kanban insight
+
+The selection of the control policy made by the user triggers the entire tuning of the model.
+In fact, Module_Kanban dynamically handles material flows according to the central settings
+provided by system-level controlling method.
+
+Verification and validation
+Once the simulation framework is developed, the goal of the verification is to check the formal
+correctness of the model. This step has been accomplished through the simulator debugger, the
+usage of software animations and the monitoring of the simulator’s events list.
+
+153
+
+precisely, with a Markov Chain based method and Queuing Network. For each peer comparison, the questioned models must be aligned in terms of functioning hypothesis.
+The figure below reports the validation process performed over a semi-open Jackson
+Network. This model is solvable using a Convolution algorithm and enables to represent a
+ConWIP system, thanks to the introduction of a fictitious resource Node0, which transform the
+network from an open one into a closed one. Since the mechanism behind the functioning of
+the Module_Kanban is the same throughout the different implemented policies, the validation
+of the ConWIP configuration was enough to assert that the management of Kanban flow
+properly performs over all the token-based configurations.
+The validation entailed the construction of the two equivalent systems shown in Fig. 17,
+evaluated over their expected throughput. Precisely, after proving the Gaussian distribution of
+the values from the simulation runs, a hypothesis test over the throughput equivalence has been
+performed. Results conclude that the tested features can be considered validated (Fig 18).
+
+Application to a real case study
+The developed model has been deployed for supporting performances forecasting of an
+independent Chinese remanufacturer, aiming at improving the operations through the application of production control policies. The product under analysis is a turbocharger made of
+eight target components. The process is the following: cores are collected, inspected and
+disassembled; then, each liberated target component follows its own process, made of
+cleaning, inspection and reconditioning, until it reaches the reassembly phase, which precedes
+the final testing and packaging one. The company faces problems due to input materials
+uncertainty and processes variability. In the first case, in spite of the abundance of cores, the
+arrival pace is not predictable enough to grant a smooth flow. In the second, given that
+
+
+depends on the product’s quality – the higher the instability of such parameter is, the wider is
+the distributions of the processing times are.
+Using the data from the Value Stream Mapping (VSM) of the case under analysis, a process
+has been modelled through the developed simulation tool, as represented in Fig. 19.
+Objective of the case has been to provide the customer with a sensitivity analysis of the
+average throughput time under the variation of the deployed token-based control policy. The
+evaluation is performed considering two different time references, related to distinct systems,
+which differ depending on the inclusion or not of the initial buffer, i.e. the one after the Source.
+The first, the Throughput Time, takes into account the time spent by cores from the initial
+buffer on, while the second, the Process Time, only considers the average time spent once the
+core outgoes on that buffer and enters the first inspection. The reason behind this choice is that
+the control policies have a direct impact only on the portion of system below the initial buffer,
+whereas the amount of parts stored there – hence the time spent – is not directly controllable,
+being also a consequence of the arrivals distributions.
+All the four token-based control policies have been applied in simulation and, each policy
+has been evaluated both in Absence and Presence of Demand situation. In the last case, the only
+demand point set has been the initial inspection process. On the contrary, in both cases, the
+selection of control points and the respective number of Kanban to be managed has been carried
+out heuristically, in order to streamline the material flow. Such goal is achievable considering
+the technological routing of each component and the respective sojourn time. Afterward, the
+resources utilization and batch sizing policy have been considered for fine-tuning the decisions.
+The simulation experiments excluded the data gathered during the ramp up time, which
+amount has been computed according to the methodology of Heidelberger and Welch [27].
+Each experiment, performed once per policy type, has been set of thirty runs, to guarantee the
+normality of output data according to the central limit theorem [28]. Finally, the company,
+according to its needs, has defined the runs’ length.
+The implementation of production policies was effective over the Process Time reduction: as
+shown in Fig. 20, all the token-based policies improved the process time both in average values
+and in related standard deviation. Of course, performances variation between policies is due to
+the intrinsic nature of policies themselves. However, the choice of the appropriate solution
+depends on the targets and constraints set by the company. For instance, if the objective
+parameter is the average Process Time, then the best solution is the Multi-Stage control, in
+presence of demand. Differently, in case a stable Process Time is required, an Echelon control,
+also in presence of demand would be suggested. In general, control policies performed better in
+combination with the demand-pull mechanism: this is due to less unrequired material that enters
+the system, avoiding its overloading and making the overall process leaner.
+
+Clients
+ObservaƟons
+Expected Th
+Actual TH
+Error
+
+10
+30
+2092,15
+2092,07
+0,0042%
+
+15
+30
+2448,67
+2448,73
+-0,0026%
+
+20
+30
+2664,69
+2665,23
+-0,0205%
+
+25
+30
+2804,01
+2803,93
+0,0027%
+
+30
+30
+2897,82
+2897,23
+0,0201%
+
+40
+30
+3009,65
+3008,77
+0,0294%
+
+50
+30
+3069,10
+3068,7
+0,0131%
+
+Actual StDev
+z(α/2) = z(0,975)
+Lower Bound Th
+Upper Bound Th
+
+2,56
+1,96
+2087,06
+2097,07
+
+3,29
+1,96
+2442,29
+2455,17
+
+4,32
+1,96
+2656,77
+2673,70
+
+6,18
+1,96
+2791,82
+2816,05
+
+6,09
+1,96
+2885,30
+2909,16
+
+9,19
+1,96
+2990,76
+3026,77
+
+9,72
+1,96
+3049,64
+
+155
+
+Fig. 19 Turbocharger model
+
+Regardless of the obtained results, it is worth mentioning that the cooperation of
+modularization, product-oriented simulation and flow control at module level, through
+Module_Kanban, has represented an effective solution for the management of different
+production control policies. Additionally, the modular approach sharply grasps high level of
+descriptive detail thanks to the coding complexity embedded in the model. Such accuracy is
+expressed by the wide KPIs overview provided by simulation experiments.
+
+Conclusions and Outlook
+In this work – differently from previous researchers – the simulation model has not been used
+to validate thesis about the application of production-control policies in remanufacturing.
+Reversely, having seen the goodness of their application, a simulation model able to handle
+them in detail and available to support customized analysis, has been developed.
+Downward the design, development, validation and application of the model, it is possible to
+assert that the cooperation of modularization, product-oriented architecture and flow control at
+module level – through Module_Kanban – represents, for remanufacturing systems, an effective
+solution for the management of different production control policies. This was achieved due to
+the inclusion inside the System Modules of the Module_Kanban; the Module_Kanban, in fact, is
+connected on one side to the system level – represented from the module M_Demand – while on
+the other side it is rooted inside each product operation, allowing a tight and precise control on
+them. Additionally, the modular approach has been useful to keep the representation simple,
+despite the great modelling complexity rooted within and across System Modules, enabling the
+
+
+level of system description could be achieved taking into account the environmental performances that are tailored over remanufacturing activities [29].
+Going into the margin for further researches, the feeling acquired throughout the work is
+that Remanufacturing still sees a lack of knowledge when it comes to merging the aspects
+related to business modelling and the operational field. It would be interesting to understand
+how decisions at a former level, for example concerning the kind of contracts for the return of
+cores, could be matched with decisions at operational level. Among which, as seen, the
+production-control policies.
+

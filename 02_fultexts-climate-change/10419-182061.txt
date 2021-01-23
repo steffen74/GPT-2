@@ -1,0 +1,2571 @@
+
+INTRODUCTION
+
+Horizontal cooperations are collaboration between
+firms operating at the same level in the market [6,
+149] and thus under absence of primary performance
+relations [99, 107]. In contrast to vertical cooperations
+the relation between firms in horizontal cooperations
+is not in the axis of product flow but transversely,
+linking competitors or firms producing complements
+[11, 22]. Similar types of processes and a close
+resemblance between the customers of the firms are
+typical [103]. The aim of horizontal cooperations
+is to create a situation that benefits the cooperating
+firms more than solitary activities [33, 110]. To sum
+it up horizontal cooperations can be defined as interorganizational cooperation between two or more firms
+operating at the same level in the market and sharing
+commonalities in processes or customer needs in such
+a way that all involved parties can benefit from the
+cooperation for example due to economies of scale and
+use of synergies. Such cooperations have witnessed a
+fast-growing interest of practitioners and researchers
+alike particularly in emerging economies, as they
+provide a viable way for firms to enhance their market
+lower levels of reciprocal interdependencies, horizontal
+cooperations usually display greater opportunism
+than vertical cooperations [107, 117]. Accordingly,
+horizontal cooperations are considered more complex
+than vertical cooperations and extremely difficult to
+govern [150], which is also reflected in failure rates
+of up to 70 % [133, 145]. As a result, the identification
+of suitable governance mechanisms to restrain
+opportunism and improve performance are essential
+in horizontal cooperations. Appropriate governance
+mechanisms result in long-term stability and superior
+economic results [37, 86]. However, while research on
+different governance mechanisms like transactional
+and relational governance mechanisms in vertical
+cooperations is well established in [53, 82, 83, 86,
+154, 159, 161] only few contributions have been made
+in regards to the different governance mechanisms
+applicable to horizontal cooperations [123, 144, 145].
+One component affecting the governance of
+horizontal cooperations is the perception of
+environmentaluncertaintiessurroundingtheindividual
+companies. Several studies reveal that environmental
+uncertainty moderates the effectiveness of governance
+mechanisms [18, 111, 146, 155]. Luo [88] for example
+finds that poor performance of cooperations is more
+likely to arise in emerging economies, where contract
+law is not enforced and information cannot be verified
+easily. Subsequently cooperations in emerging
+economies face major challenges in governance.
+This makes the identification and understanding
+of effective governance mechanisms for horizontal
+cooperations crucial in emerging economies, as they
+differ significantly from the mechanisms in developed
+countries [7, 82]. To date, however, little theoretical
+or empirical work has addressed the role of perceived
+environmental uncertainty on different governance
+mechanisms in horizontal cooperations.
+The market chosen as object of investigation is the
+logistics market in Africa and the Middle East. As
+Mason et al. [92] state, the overall pressure on logistics
+service providers (LSPs) is increasing. Consequently,
+this development is even more threatening for
+firms in environments marked by high uncertainty.
+Furthermore, the logistics market itself as a typical
+representative of the service market rather than a
+goods market is confronted with high uncertainties
+in the daily business. Additionally, the growing
+importance of the logistics market in Africa not only
+locally but on a macroeconomic level is underlined
+by the CFO of a globally active LSP doing business
+in Africa and Middle East. By his own account, the
+growth of business in these regions is above average
+despite the fact that the infrastructure in most regions
+is poorly developed. All this makes LSP in Africa
+and the Middle East a noteworthy research object
+and appropriate for answering the research gap by
+empirically investigating the moderating effect of
+
+perceived environmental uncertainty on transactional
+and relational governance mechanisms in horizontal
+cooperations.
+For this, a partial least squares (PLS) analysis
+was employed to test the hypotheses in a model,
+encompassing relational and transactional forms
+of governance as well as the moderating effect of
+environmental uncertainty. The model is based on
+a sample of 181 LSP that are engaged in horizontal
+cooperations and operating in multiple countries
+across Africa and the Middle East. An overview of the
+companies is appended. The results of the empirical
+analysis are then discussed based on a review of the
+extant literature and further verified through expert
+interviews. Finally, implications for practice and
+guidance for future research are provided.
+2
+
+LITERATURE REVIEW
+
+Horizontal cooperations have shown to be an
+emerging research field with various contributions
+being made by scholars towards different levels
+of analysis (e.g. [33, 94, 115]). Wilhelm [118], who
+found evidence through case studies and interviews
+that relational aspects such as regular meetings can
+reduce the competitive tension in horizontal supply
+chain relations in the automotive industry, has made
+an illustrative contribution to this research field. More
+recently, Muñoz-Villamizar et al. [100] developed a
+formal mathematical modeling approach to visualize
+the effects of horizontal collaboration in urban freight
+transportation, which is then applied to a case study.
+A commonly used denominator in research has been
+the governance of horizontal cooperations as they
+are more vulnerable to opportunism. For horizontal
+cooperations between LSPs, restraining opportunism
+is even more essential due to the idiosyncrasy of the
+industry, as competitive advantage between LSPs is
+often based on process-related knowledge that can
+easily be absorbed and imitated by cooperation partners
+[124]. Furthermore, the general results from Badri et
+al. [7] show the dissimilarity of mature and emerging
+markets concerning performance under uncertain
+conditions. In a study developing a framework for
+horizontal LSP cooperations, Verstrepen et al. [142]
+accentuate that control mechanisms of horizontal
+cooperations can positively influence the cooperation
+without examining their effects quantitatively. In
+2011, Wallenburg and Raue examined relational and
+formal governance mechanisms in horizontal LSP
+cooperations to control conflicts. Their results indicate
+that relational and formal mechanisms govern conflict
+between partners, with relational governance having
+the higher impact. Most recently, Schmoltzi and
+Wallenburg [123] examined the effect of operational
+governance in horizontal LSP cooperations and
+found support that operational governance positively
+and mutual influence. However, these studies leave
+out the interrelation between transactional and
+relational governance and do not take into account
+the moderating effects of environmental uncertainty
+on the effectiveness of relational and transactional
+governance mechanisms in horizontal LSP
+cooperations.
+2.1
+Environmental Uncertainty
+In vertical cooperations however, several contributions
+examine the effects of environmental uncertainty
+on governance instruments. Zhou and Poppo [162],
+for example, examine the role of the transactional
+mechanism contracts and the relational mechanism
+trust in Chinese buyer-supplier relationships. Their
+results reveal that the effectiveness of the individual
+governance mechanism is dependent on the level of
+environmental uncertainty. Wang et al. [146] recently
+examined the moderating effect of environmental
+uncertainty on contracts and trust in supply chain
+relationships. In similarity to previous findings, Zhou
+and Poppo [162] found a positive effect for trust, but
+no significant positive effect on contracts. Another
+recent contribution on the effects of environmental
+uncertainty has been made by Wong et al. [155], who
+provide empirical evidence of a contingency effect of
+environmental uncertainty on supply chain integration
+and operational performance.
+2.2
+Transactional Governance
+In the extant literature, in particular in the supply chain
+context, it is commonly held that transaction based
+governance mechanisms are of special importance
+to restrain opportunism and improve performance
+within a business relation (e.g.; [111]). Scholars have
+frequently drawn on transaction cost economics
+(TCE), developed by Williamson in 1975, to show how
+transaction mechanisms can suppress opportunism
+in cooperations. Transactional mechanisms are
+manifested either in jointly agreed contractual
+paragraphs or in transaction-specific investments
+[86]. Srinivasan and Brush [128], for instance, identify
+contracts as a transactional mechanism to safeguard
+cooperations and drive supplier performance. Van
+Hoek [141] examines economic exchanges that cover
+customer-specific LSP service arrangements, such
+as final assembly or warehousing activities, and
+finds that they are positively related to the existence
+of formal contracts. Transactional mechanisms
+entailing transaction-specific investments were
+found to increase the performance in buyer-supplier
+relationships [86]. In another work, Vivek et al. [143]
+examined the role of different forms of transactional
+governance in cooperations and found that transactionspecific investments increase the mutual dependence
+of the partners.
+
+3
+
+2.3
+Relational Governance
+To address shortcomings of transactional mechanisms,
+researchers have studied governance mechanisms
+based upon the reciprocal and reinforcing nature of
+social relationships [14]. A number of contributions
+have been made with respect to individual aspects
+of relational governance mechanisms. These studies
+mainly focus on trust as a relational governance
+instrument. Dyer and Chu [36] examine whether
+trust operates as a self-enforcing safeguard in vertical
+cooperation settings and find that trust is particularly
+valuable as a governance mechanism. This is due to
+certain value-creating behaviors, which in turn lead
+to even higher levels of trust. Besides trust, in a study
+on buyer-supplier relationships by Gao et al. [45],
+commitment was identified as an important relational
+element to govern that exchange.
+In addition to trust and commitment, researchers such
+as McEvily and Marcus [93] mention embeddedness
+as a further element of relational governance. The role
+of embeddedness to govern cooperations has been
+examined in the steel and semiconductor industry by
+Rowley et al. [121], who found mixed results regarding
+the positive effect on the performance in horizontal
+supplier networks. In a recent contribution on
+organizational difference, cooperation performance
+and relational mechanisms, Lavie et al. [79] stress the
+mutually reinforcing nature of the individual elements
+trust, embeddedness and commitment, consequently
+referring to them as a unified relational mechanisms
+definition. While individual aspects of relational-based
+governance have also been examined in horizontal
+cooperations (e.g. [150]), the unified relational
+mechanisms notion has not yet been examined as a
+governance tool in horizontal cooperation settings.
+2.4
+Interaction Effect
+A number of contributions have been made with
+respect to interaction effects of transactional and
+relational governance. Poppo and Zenger [111]
+empirically confirm that transactional and relational
+governance function as complements. However, the
+authors do not examine their joint usage. In a study
+by Ferguson et al. [39], transactional and relational
+governance forms are examined as a socioeconomic
+interaction problem, and governance is based upon
+a transactional-relational continuum ranging from
+close ties based on trust, reciprocity and interaction
+towards contractual governance mechanisms. Among
+the few academic studies dealing with transactional
+and relational mechanisms as well as their interaction,
+Liu et al. [86] are more comprehensive. They provide
+a wide-ranging framework to examine the individual
+and joint effectiveness of the two different governance
+mechanisms on the relationship performance, and find
+CONCEPTUAL MODEL
+
+Transaction costs, social relations, and environmental
+uncertainties are commonly used to explain the
+behavior of firms in economic exchanges [163]. This is
+supported by further empirical studies on governance
+in cooperations, which showed that governance
+mechanisms entail relational and transactional
+mechanisms [18, 55, 162] and are moderated by their
+external environment [146]. Hence, environmental
+uncertainty moderates the effectiveness of relational
+and transactional governance mechanisms [18, 111].
+To develop the causal relationships of the model,
+transaction cost theory as well as social exchange
+served as basis, as both these theories may provide
+helpful insights on the adoption of governance
+mechanisms in horizontal cooperations under
+environmental uncertainty [84, 86, 162].
+This section, based on relevant research literature,
+contains definitions and the operationalization
+of the environmental uncertainty’s effect on
+the performance of cooperations. Subsequently,
+the effectiveness of transactional and relational
+mechanisms as governance tools are operationalized
+individually. For both of them a positive effect on
+cooperation performance is assumed. In addition, a
+description and operationalization of the moderating
+effect of environmental uncertainty on transactional
+and relational mechanisms is given. The underlying
+hypothesis is that the two governance mechanisms
+become more important under environmental
+uncertainty. Figure 1 schematically outlines the
+conceptual model and related hypotheses.
+
+3.1
+Environmental Uncertainty
+Environmental uncertainty requires exchange partners
+to constantly monitor their external situation and adapt
+their operations and strategies accordingly [101]. This
+is particularly apparent in emerging economies which
+tend to have higher levels of economic volatility [135],
+weak infrastructure and poor functioning institutions
+[60, 95]. For firms operating in emerging economies,
+environmental uncertainties are characterized by the
+lack of strong legal frameworks or binding social
+norms, as well as difficulties in verification of market
+information and unclear governmental regulations,
+which increases the potential for opportunism [88].
+These environmental uncertainties cannot be ignored
+as they impact the performance of cooperating firms
+[146]. Therefore, the first proposal is:
+H1.
+
+Environmental uncertainty has a negative
+impact on the performance of horizontal LSP
+cooperations.
+
+3.2
+
+Transaction mechanisms and moderating
+effects of environmental uncertainty
+Transactional mechanisms are derived from economic
+rationality and emphasize governing economic
+exchanges through monitoring and incentivebased structures in order to reduce opportunistic
+behavior [151]. A major instrument of transactional
+mechanisms that safeguards economic exchanges are
+formal contracts [152]. Contracts, however, require
+the existence of solid institutions to guarantee their
+effectiveness. In most emerging economies, these
+solid institutions do not exist, making the enforcement
+
+Transaction Mechanisms
+ICT
+Investments
+Asset
+Investments
+
+Transaction
+Specific
+Investments
+
+Interaction Effect
+
+H 2a
+
+Transactional Mechanisms
+X
+Relational Mechanisms
+
+H 2b
+
+Environmental
+Uncertainty
+
+H 1
+
+H 3b
+
+Relational
+Commitment
+
+H 3a
+
+Relationship
+Embeddedness
+
+Relationships
+
+Relationship
+Trust
+Relational Mechanisms
+
+Fig. 1: Structural equation model
+
+Cooperation
+Performance
+
+emerging economies, transaction-specific investments
+may thus act as a substitute to contracts and compensate
+the relatively weaker contractual governance [86].
+Transaction-specific investments can therefore be seen
+as an important incentive tool in economic exchanges
+[147], as they create interdependences between
+partners by fostering non-opportunistic behavior [62].
+In a logistics and supply chain context, transactionspecific investments can encompass investments
+into assets such as the integration of Information
+and Communication Technologies (ICT) as well as
+investments into assets that help to align processes
+between LSPs and reduce transactional uncertainties
+[3, 158]. One of the main purposes of ICT investments
+are the realization of real-time transmissions and
+processing of information required for decision
+making [113], thus facilitating cooperations between
+LSPs [71]. Besides technically enabling cooperation,
+investments into ICT also reduce transaction costs and
+transaction risks [66].
+Joint investments of LSPs into logistics assets are
+another factor of transaction-specific investments that
+substantially reduce the individual purchasing costs
+[37] and serve as an important reason for LSPs to
+engage in horizontal partnerships [28]. In the present
+context, transaction specific investments into logistics
+assets may encompass assets such as a warehouse
+facility, trucks, warehouse-handling equipment, or
+fuel [19]. In referring to the unified transactional
+governance mechanisms, the following hypothesis is
+derived:
+H2a. Transactional governance mechanisms are
+positively related to the performance of
+horizontal LSP cooperations.
+An overview of literature regarding the relation
+between individual transactional governance
+mechanisms and the performance of horizontal LSP
+cooperations as well as the individual relational
+governance mechanisms and the performance of
+horizontal LSP cooperations is included in the
+appendix as supplement.
+Environmental uncertainty presents operational
+challenges to LSPs due to difficulties in decision
+making for activities like transport volume
+and shipment schedule [148]. For cooperations,
+environmental uncertainty cannot be ignored [146],
+as the effect of transactional governance on a firm’s
+performance may vary under the high pressure
+of environmental uncertainty. Higher levels of
+environmental uncertainty encourage firms to
+maintain flexibility [47] in order to effectively adapt
+to disruptions in the flow of goods whilst maintaining
+service levels [129]. ICT integration and sharing
+of logistics assets to counteract environmental
+uncertainty can achieve flexibility in horizontal LSP
+cooperations. It also improves the ability of LSPs to
+
+5
+
+generate and disseminate information in response to
+the changing environment in their logistics operations.
+The continuous exchange of information between
+cooperation partners about transported goods enables
+LSPs to swiftly re-route them in case of any external
+disturbance, thus ensuring the efficient physical flow
+of goods even under environmental uncertainty.
+In horizontal LSP cooperations the sharing of assets
+provides individual LSPs with operational flexibility
+to adapt to highly volatile markets and to reduce the
+uncertainty about future prospects [104].
+If fluctuations in transportation volume are high,
+the benefits of shared assets increase as the costs
+for the individual LSP are reduced. If cooperation
+partners share their assets, goods can easily be shifted
+between different warehouses and transported via
+different routes, depending on the environmental
+contingencies. Further, joint investments into
+warehouses or trucks by cooperating LSPs signal
+the cooperation partners sincerity of the cooperation
+and at the same time reduce the dependence on
+individually owned assets, thus increasing flexibility.
+However, if the environment is predictable it reduces
+the need to adapt to disruptions and constantly
+monitor the cooperation relationships, thus mitigating
+the need of ICT integration and the joint investment
+into logistics assets with cooperation partners.
+Therefore, it can be argued that the effectiveness of
+transactional governance mechanisms is subject to the
+influence of environmental uncertainty. Specifically,
+transactional governance mechanisms enhance the
+performance of horizontal LSP cooperations under
+uncertain environmental conditions, as they increase
+the flexibility and promote transparency of each
+individual LSP [154]. Hence, it is proposed that:
+H2b. The relationship between transactional
+governance and cooperation performance is
+moderated by environmental uncertainty, such
+that the impact of the transactional governance
+mechanisms is positive and stronger the higher
+the environmental uncertainty is.
+3.3
+
+Relational mechanisms and moderating
+effects of environmental uncertainty
+According to social exchange theory, relational
+mechanisms deal with the roles of social interactions
+and socially embedded relationships in economic
+exchanges like horizontal cooperations [52, 137]. The
+most essential distinction between social exchanges
+and economic transactions is that the former entails
+unspecified obligations whereas the latter rests on
+formal contracts that specify the exact terms of
+exchange [159]. Governance emerges from the values
+and processes found in these social interactions
+and socially embedded relationships in economic
+exchanges [80, 45] as they prevent opportunism and
+thus reduce transaction costs [37]. In prior academic
+this Ferguson [39] as well as Lavie et al. [79] suggest
+that most relational mechanisms can be associated
+with either trust, embeddedness or commitment. This
+distinction in three mechanisms shall be applied in the
+following.
+In inter-organizational cooperations social exchange
+scholars define trust as “the expectation of exchange
+partners that the other parties can be relied on, will
+behave as predicted and act fairly in the cooperation”
+[160, p. 143]. This view of interorganizational trust
+implies that the exchange parties rely on trust in risky
+and uncertain economic conditions [162]. The more the
+exchange partners trust each other, the more they feel
+assured that their cooperation partners will cooperate
+in good faith, rather than behave opportunistically
+[36]. Trust is therefore considered an essential
+characteristic of relational governance mechanisms of
+cooperations in emerging economies [162].
+In social exchange theory, the notion of relational
+embeddedness is strongly shared by scholars in the
+areas of strategic management, organizational theory
+and organizational economics [72, 137, 139, 140]. It
+defines the degree to which social attachment and
+interpersonal ties drive economic relationships [52].
+Through the repeated face-to-face interactions among
+exchange partners, interpersonal ties can develop and
+exploitation of exchange partners is less likely to occur
+in the cooperation [57, 137]. Particularly, embeddedness
+mitigates risks inherent in exchange situations under
+environmental uncertainty, by developing safeguards
+such as the exchange of information between
+cooperating firms [163]. Embeddedness therefore acts
+as a relational governance mechanism in horizontal
+cooperations in emerging economies.
+A further relational governance mechanism is
+the commitment between cooperation partners.
+Commitment can be defined as ‘‘an implicit or
+explicit pledge of relational continuity between
+exchange partners’’ [35, p. 19], and acts as an intrinsic
+motivation for partnering firms to be dedicated to
+their cooperation by establishing lasting, reciprocal
+responsibilities [91]. Consequently, the commitment
+between partners in cooperative relationships acts
+as an important governance mechanism to deter
+opportunism.
+Horizontal cooperations usually display lower
+levels of dependence than vertical cooperations.
+This suggests that individual norms such as trust
+alone might not overcome the fear of opportunism
+[153]. Consequently, individual aspects of relational
+mechanisms in horizontal LSP cooperation must be
+supported by further governance mechanisms. In
+fact, studies by McEvily and Marcus [93] have shown
+that the individual aspects of relational mechanisms
+are highly interrelated and often mutually reinforcing
+rather than independent. Trust between cooperation
+partners, for example, nurtures the commitment
+
+between them, which in turn encourages partners
+to strive for a continuation of their cooperation [51].
+Therefore, and in accordance with the unified construct
+of relational mechanisms the next hypothesis is:
+H3a. Relational governance mechanisms are
+positively related to the performance of
+horizontal LSP cooperations.
+The high uncertainty characteristics of emerging
+economies are likely to reinforce the role of social
+relationships as a governance mechanism. People in
+emerging economies traditionally rely on personal
+contacts and networks rather than on formal
+mechanisms to coordinate horizontal exchange
+relationships [89]. When firms encounter increased
+environmental uncertainty, they tend to count on
+personal relationships to gain cooperation partners
+and work through the unforeseen contingencies.
+Social relationships let LSPs develop commitment,
+embeddedness and trust with other LSPs, which
+reduces the costs for monitoring the relationships as
+partner firms will find each other more trustworthy
+in conducting business transactions, and thus become
+more cooperative [79]. These costs are particularly
+high if the environmental conditions are uncertain as
+regular changes and volatility in commodities such as
+fuel provide ample opportunities for opportunism in
+horizontal cooperations. Social relationships are hence
+an essential component to govern horizontal exchange,
+particularly when it is too costly for the partner firms
+to account for all unforeseen contingencies in the
+cooperation [148].
+In addition to reducing the costs related to
+monitoring the behavior of cooperation partners,
+social relationships increase the transparency across
+the cooperation so that individual LSPs can plan
+and justify their decisions under environmental
+uncertainty [146]. These relational mechanisms
+provide cooperation partners with the flexibility to
+cope with environmental uncertainties that arise in
+emerging economies. According to social exchange
+theory perspective, social relationships can improve
+partner cooperation due to the reciprocal interest by
+collaborating firms to build beneficial relationships.
+This interest is more obvious under environmental
+uncertainty when firms are obliged to return favors to
+partners to assist in difficult conditions [148]. If strong
+social relationships exist, LSPs facing highly volatile
+market conditions are more willing to adapt to their
+partners’ needs and make concessions towards other
+LSPs in order to counterbalance the volatility. This
+flexibility helps LSPs to mitigate exchange hazards
+under uncertainty and strengthens the performance
+of cooperations [87]. Consequently, it can be assumed
+that in emerging economies relational mechanisms are
+more effective to prevent opportunism than in stable
+economic conditions. The corresponding hypothesis
+and cooperation performance is moderated
+by environmental uncertainty, such that
+the impact of the relational governance
+mechanisms is positive and stronger the higher
+the environmental uncertainty is.
+3.4
+
+Interaction effect of transactional and
+relational mechanisms
+In practice it appears that many effective cooperations
+use multiple governance mechanisms simultaneously
+rather than relying only on transactional or relational
+mechanisms [37]. Although it is commonly agreed that
+transactional and relational governance mechanisms
+interact with each other it is subject of controversy
+whether they are substitutes [37, 156] or complements
+[87, 111, 146]. Some scholars like Wuyts and
+Geyskens [156] argue that transactional and relational
+mechanisms may be less effective when used together
+than when used separately to govern cooperations
+as transactional mechanisms in combination with
+relational mechanisms can result in a vicious circle of
+distrust and retribution. However, other researchers
+claim that transactional and relational aspects of
+governance may be complements, as they do not suffice
+to hinder opportunism when applied individually [87,
+163].
+As such transactional governance mechanisms
+generally provide a tangible framework by making
+transaction-specific investments within which
+intangible relational mechanisms can perform and
+compensate the legal and institutional hazards in
+emerging economies [86]. This is acknowledged
+by previous research, which has well documented
+the beneficial effects on business performance if
+cooperations are not solely governed by one form of
+governance, but by multiple mechanisms jointly [86,
+126, 143, 146, 162].
+Due to the indistinct interaction effect between
+a transactional and a relational mechanism, it is
+considered as a control variable for the performance
+impact in horizontal cooperations.
+4
+
+RESEARCH DESIGN
+
+4.1
+Questionnaire development
+Prior to data collection, content and face validity of
+the questionnaire were tested in four sequential steps
+[132]. First, an item-sorting process was used in which
+five Ph.D. scholars correctly matched the individual
+measurement items with their intended constructs
+at a rate exceeding 90%. This is deemed acceptable
+to offer evidence for content validity [97, 106].
+Second, in personal interviews lasting between thirty
+minutes and two hours, eight scholars in the field of
+management and logistics who were familiar with the
+constructs tested the survey instrument for structure,
+
+7
+
+completeness, clarity, and appropriateness in an
+academic setting. Third, a panel of five CEOs of LSPs
+from South Africa, Kenya, Botswana, Oman and the
+UAE reviewed the survey instrument. These interviews
+in particular served to check the overall validity of
+questions in varying economic environments [94]. In
+the fourth step, a pre-test for the survey instrument
+was carried out on a random sample taken from the
+original database to assess the construct variances
+captured by the measurement items. Based upon the
+received feedback from the three steps modifications
+were made at each step. This procedure ensured the
+survey instrument had substantive validity to be
+understandable and relevant to LSP practices in Africa
+and Middle Eastern countries.
+4.2
+Data collection
+There are two reasons that led to the decision to
+focus on data from LSPs operating in multiple African
+and Middle Eastern countries. First, these countries
+represent emerging economies that usually display
+higher levels of environmental uncertainty. Second,
+few empirical studies have focused on countries within
+these two regions. For example, Hoskisson et al. [60]
+and Acquaah [1] state that there is a lack of research
+dealing with the African and Middle Eastern region.
+Furthermore, among emerging economies the regions
+of Africa and the Middle East are of special interest
+due to their steadily increasing economic importance.
+Besides diversification of the trading partners in
+geographical aspects, investments in infrastructure
+and changes towards a more open policy between
+countries strengthen the overall economy in general
+and the logistics service sector specifically [2]. For
+2017, the inflows of foreign direct investments to
+African countries are expected to increase by about
+10%. Several trade agreements and partnerships,
+both inter- and intraregional, underpin the efforts of
+the countries towards stronger integration in global
+trade [136]. Drivers of this positive development
+are increased demand stemming from the domestic
+market as well as improvements in the area of business
+environment. Opportunities for growth are attributed
+to improvement and utilization of business clusters
+[2], which in turn are strongly related to horizontal
+cooperations [81].
+Besides the general economic situation of the region,
+there are considerations to be taken into account that
+base on a firms’ perspective. Several large European
+LSPs do not have own subsidiaries in countries on the
+African continent or in the Middle East. The reason is
+the relatively low transport volume compared to the
+western market. Instead of investing in own assets in
+these regions they make intense use of small LSPs to
+be able to offer logistics services to their customers
+in the western market whenever needed. Although
+the logistics market in Africa and the Middle East is
+a niche market, the European firms need to offer this
+pledge of service.
+The specification of a multi-country in contrast to
+a single-country study allows consideration of data
+from not only one specific country but a diverse set of
+countries and thus a comparison between them. The
+number of countries considered in a multi-country
+study in recent literature across disciplines varies
+between two [40] and 44 [70] or even up to 70 in case
+of the World Health Survey by the WHO. For example,
+Görg et al. [50] perform their study in supply chain
+context in 19 countries of Sub-Saharan Africa. This
+multi-country approach was supported by the fact
+that the sample was based on the participant list of an
+annual meeting of LSPs. As largest event of its kind
+in the African and Middle Eastern Region, it attracts
+numerous market participants and a representative
+sample of LSPs across multiple countries of the
+African continent as well as the Middle Eastern
+Region. Further, by employing a multi-country study, a
+high grade of generalizability as well as transferability
+of the results is reached, which might not be possible
+when conducting a single-country study [59, 68].
+Consequently, the true state of businesses across
+regions is described more accurately [116] in a multicountry study.
+The sample frame consists of 2454 LSPs covered
+under the International Standard of Industrial
+Classification of All Economic Activities (ISIC)
+Revision 4 class codes 4923, 5012, 5120 and 5210. After
+excluding 336 entries for missing or wrong addresses,
+the survey was sent to a total of 2118 firms. Senior
+managers (CEOs and general managers) were invited
+via a personalized email to complete an online survey,
+as they usually tend to be the most knowledgeable
+people when it comes to horizontal cooperations [144].
+The questionnaire was translated into English and
+back again by another person. There were two main
+reasons for this approach. First, Africa and the Middle
+East host numerous different languages and dialects
+that could impossibly be realized in a questionnaire
+at reasonable expense. Furthermore, the study aims
+to question international active firms. By setting up
+the questionnaire in English, the local firms whose
+employees are not capable of English are excluded
+from the study. After setting up the questionnaire in
+this way, the questionnaire was emailed to the sample
+frame in June 2013.
+Three weeks after the initial mailing, personalized
+reminder e-mails were sent to all potential participants.
+Those who did not respond within six to eight weeks
+after the initial mailing received a reminder telephone
+call to improve the response rate [43]. The number of
+181 firms from the target regions that sent complete
+and usable responses constitutes a response rate of
+8.4 percent. This level is not uncommon for emerging
+markets [60] and in line with previous research
+papers in the emerging environment context [34]. To
+
+grant balance of the sample regarding firm size, the
+demographics (firm size) of the sample was checked
+following Wallenburg and Raue [144]. The distribution
+of respondents is depicted in attachment A of this
+paper.
+4.3
+Measures
+All constructs introduced in Section 3 and displayed in
+Figure 1 constitute latent variables that require indirect
+measurement [24]. The constructs were all measured
+using a multi-item seven-point Likert scale. As the
+constructs of the study are management practices
+which reflect their indicators [31] they were drafted
+with the exemption of the performance construct as
+reflective measures. For the measurement of assets as
+part of the transaction mechanisms, scales from Buvik
+and John [16] were employed, while the ICT construct
+was measured with scales from Prajogo et al. [114] and
+Tallon and Pinsonneault [131].
+The relational governance mechanisms made up by
+embeddedness, trust and commitment were measured
+with scales used by Heide and Miner [57], Lawson et
+al. [80] and Liu et al. [86]. The measurement of trust
+made use of items from Nyaga et al. [102] and Morgan
+and Hunt [98]. For commitment, scales used by Morgan
+and Hunt [98]; Benton and Maloni [12]; Goo et al. [49];
+and Lavie et al. [79] went into action. Environmental
+uncertainty was measured with the scale of Tseng
+and Lee [135]. All measures were slightly adapted in
+wording to fit the research context.
+The measurement of performance in cooperations
+has gained much attention from researchers [4, 85, 122].
+A single performance measurement cannot sufficiently
+describe the positive effects of cooperations. Therefore,
+researchers distinguish between several performance
+measures to examine cooperation success. The
+approach used in this paper draws on the work done
+by Schmoltzi and Wallenburg [123], who list financial
+performance measures based on accounting measures
+[17] and cost reductions [77], operational measures
+such as logistics efficiency [44], and organizational
+effectiveness measures [12, 67]. Based on the extended
+literature research, these dimensions provide support
+for reasonable comprehensiveness of the construct.
+For the performance construct measurement, a proven
+approach was chosen. It specifies to rely on executives’
+perceptions of their firms’ performance [e.g. 67, 84].
+Consequently, utilizing a Type II MIMIC-model
+[31], the performance construct was measured as a
+second order formative construct that is represented
+by the lead items of financial, cost, operational and
+perceptual performance dimensions. The model is
+represented in Figure 2.
+Since only one respondent from all the contacted
+companies provided the data for the study, concerns of
+common method variance may be raised. Therefore,
+Harman’s single-factor test was applied in order to
+examine the possibility of common method variance
+
+0.120
+
+FiPe1
+
+0.088
+
+FiPe2
+
+0.133
+
+FiPe3
+
+0.159
+
+FiPe4
+
+0.329
+
+CoPe1
+
+0.186
+
+CoPe2
+
+0.199
+
+CoPe3
+
+0.219
+
+CoPe4
+
+0.298
+
+OpPe1
+
+0.247
+
+OpPe2
+
+0.192
+
+OpPe3
+
+0.461
+
+RePe1
+
+0.190
+
+RePe2
+
+0.257
+
+RePe3
+
+0.938
+0.955
+0.931
+0.917
+
+Financial
+Performance
+0.435
+
+0.819
+0.902
+0.895
+0.884
+
+Cost
+Performance
+
+0.838
+0.868
+0.899
+
+Operational
+Performance
+
+0.734
+0.900
+0.862
+
+R2=0.952
+
+0.321
+
+0.247
+
+Cooperation
+Performance
+(2nd order refl.)
+
+Cooperation
+Performance
+(1st order form.)
+
+0.976
+
+FiPe2
+0.519
+0.285
+0.289
+0.193
+
+CoPe2
+OpPe3
+
+Relationship
+Performance
+
+RePe2
+
+0.222
+
+Fig. 2: Results for the formative performance model
+in one general factor accounting for the majority of
+covariance in the variables. A factor analysis showed
+that there is no such general factor that accounted for
+the majority of the variance in the tested variables. Less
+than 39% variance was extracted by a single factor with
+half of the items revealing factor loadings well below
+.5. This result indicates that the dataset does not suffer
+from a common method variance problem [109]. To
+further confirm the representativeness of the sample,
+a chi-square test was conducted. The examination
+of difference between the late and the early bird of
+respondents across number of cooperation partners
+(χ2 = .186; p = .714), duration of cooperations (χ2 = .383;
+p = .814), and firm size (χ2 = .434; p = .858) suggests
+that the taken sample is not noticeably different on
+Trust
+
+Nyaga
+2010
+Morgan
+1994
+Lavie
+2011
+Morgan
+1994
+Wallenburg
+2011
+Heide
+1992
+Lawson
+2008
+Prajago
+2011
+Tallon
+2011
+Tseng
+2010
+Tang
+2011
+Wong
+2011
+Swamidass
+1987
+
+Commitment
+
+Nyaga
+2010
+1
+
+Morgan
+1994
+
+-.700**
+
+Lavie
+2011
+
+certain characteristics than nonresponding firms, as
+non-response bias is not evident in the sample [132].
+Convergence of the measurement model and
+differentiation of the latent exogenous constructs
+were tested via a multitrait multimethod (MTMM)
+matrix [8]. The latent exogenous constructs were
+measured using items from at least two different
+authors for trust, commitment, embeddedness, ICT
+and environment. The MTMM matrix as displayed in
+Table 1 indicates that the individual measurements per
+construct are higher correlated among each other than
+they are correlated with other constructs. As such, it is
+reasonable that the measurement model is convergent
+and the individual constructs do measure different
+traits of the measurement model [8].
+
+Embeddedness
+
+Morgan
+1994
+
+Wallenburg
+2011
+
+ICT
+
+Heide
+1992
+
+Prajago
+2011
+
+Environment
+
+1
+
+-.204
+
+**
+
+.321**
+
+-.305
+
+**
+
+**
+
+.794**
+
+.336**
+
+.859**
+
+.692**
+
+-.508
+
+**
+
+.716
+
+**
+
+.521
+
+**
+
+.544
+
+**
+
+.547**
+
+-.484
+
+**
+
+.671
+
+**
+
+.386
+
+**
+
+.478
+
+**
+
+**
+
+-.221**
+
+.315**
+
+.056
+
+**
+
+**
+
+Tallon
+2011
+
+Tseng
+2010
+
+Tang
+2011
+
+Wong
+2011
+
+Swamidass
+1987
+
+1
+
+-.292**
+
+Lawson
+2008
+
+-.286
+
+.425
+
+.368
+
+1
+
+.205
+
+.131
+**
+
+.254
+
+1
+
+.388
+
+.283
+
+**
+
+.841**
+
+1
+
+.222**
+
+.095
+**
+
+1
+
+.249**
+
+**
+
+**
+
+.304
+
+.512
+
+1
+.531**
+*
+
+1
+
+-.158
+
+.067
+
+.015
+
+-.068
+
+.109
+
+-.042
+
+-.077
+
+.167
+
+.106
+
+1
+
+-.291**
+
+.203*
+
+.082
+
+.013
+
+.176*
+
+.056
+
+.009
+
+.201*
+
+.161
+
+.985**
+
+*
+
+**
+
+-.158
+
+.067
+
+.015
+
+-.068
+
+.109
+
+-.042
+
+-.077
+
+.167
+
+.106
+
+1.000
+
+-.259**
+
+.147
+
+-.007
+
+-.086
+
+.111
+
+.028
+
+-.037
+
+.194*
+
+.140
+
+**
+
+Notes: Correlations between /among dimensions of the same construct in bold print
+
+Table 1: Multi Trait Multi Method measurement
+
+.931
+
+1
+.985**
+.930
+
+**
+
+1
+.931**
+
+assessed separately. An analysis of the individual
+item reliabilities, the convergent validity and the
+discriminant validity allows to assess the acceptability
+of the reflective constructs [105]. A bootstrapping
+procedure with 250, 500 and 1000 resamples taken
+from the original sample ascertains the significance
+of the parameter estimates of the research model. The
+results are consistent across all bootstrap samples. As
+
+shown in Table 2, all estimates of the outer loadings
+exhibit sufficient t-values and exceed the recommended
+threshold for item loadings of .7, indicating that more
+than one-half of the item’s variance can be attributed
+to the construct [58].
+To assess construct reliability, Cronbach’s alpha
+value (α) was determined [9]. The α-value for all
+constructs was well above the suggested cut-off value
+of .7, indicating sufficient reliability [26]. Similarly,
+the composite reliability (CR) for all constructs was
+
+Overview of indicators and measures of reliability and validity.
+Constructs and Indicators
+outer loadings
+point estimation
+Embeddedness (α= .79, AVE= .72,CR= .88)
+
+t-value
+
+95% confidence intervall
+Upper
+Lower
+bound
+bound
+
+EMB02
+
+The responsibility for making sure the relationship works for both of us an this
+supplier is shared jointly.
+
+EMB03
+
+In most aspects of this relationship the parties are jointly responsible for getting
+things done.
+
+Trust (α= .73, AVE= .65,CR= .85)
+TRU01
+
+This supplier/buyer considers our welfare as well as its own.
+
+TRU02
+
+In our relationship, my cooperation partners (major supplier) can be counted on to
+do what is right.
+
+TRU03
+
+19.072
+
+.774
+
+.786
+
+.917
+
+49.778
+
+.912
+
+.918
+
+.838
+
+19.584
+
+.829
+
+.842
+
+.805
+
+22.509
+
+.801
+
+.812
+
+.858
+
+38.042
+
+.856
+
+.862
+
+.752
+
+13.417
+
+.743
+
+.759
+
+.817
+
+11.070
+
+.788
+
+.809
+
+.840
+
+16.609
+
+.821
+
+.836
+
+.762
+
+16.593
+
+.760
+
+.773
+
+.828
+
+21.079
+
+.819
+
+.830
+
+.806
+
+19.962
+
+.798
+
+.809
+
+.771
+
+16.266
+
+.762
+
+.776
+
+.838
+
+33.653
+
+.835
+
+.842
+
+.835
+
+29.747
+
+.832
+
+.840
+
+15.034
+
+.785
+
+.800
+
+.872
+
+24.991
+
+.862
+
+.873
+
+.866
+
+32.600
+
+.860
+
+.868
+
+.844
+
+28.756
+
+.840
+
+.849
+
+.843
+
+In this relationship, the parties work together to solve problems.
+
+.777
+
+.796
+
+EMB01
+
+4.422
+
+.767
+
+.823
+
+.911
+
+4.806
+
+.845
+
+.901
+
+.850
+
+4.321
+
+.767
+
+.825
+
+.830
+
+4.430
+
+.740
+
+.795
+
+We trust this supplier keeps our best interests in mind.
+
+Committment (α= .73, AVE= .65,CR= .84)
+COM01
+
+The relationship that my firm has with our cooperation partners deserves our firm's
+maxim efforts to maintain.
+
+COM02
+
+We are committed to preserve good relationshisp with our cooperation partners
+
+COM03
+
+The relationship we have with our cooperation partners is something we intend to
+maintain indefinately
+
+Asset Alignment (α= .87, AVE= .67,CR= .91)
+AA01
+
+My company has upgraded its logistical facilities (storage, transportation or
+information systems, and the like) in order to deal efficiently with partners
+
+AA02
+
+My company has committed time and resources to conform to our partner’s
+requirements regarding logistical performance
+My company has committed time and resources to develop an acceptable quality
+assurance program in this partnership
+
+AA03
+AA04
+
+AA05
+
+My company has made investments to restructure and integrate our logistical
+facilities with our partner’s logistical facilities
+We have made a substantial investments in shipping and storage (distribution)
+facilities tailored for our partners
+
+Information and Communication Technology Integration (α= .87, AVE= .71,CR= .91)
+ICT01
+ICT02
+ICT03
+ICT04
+
+Inter-organizational coordination is achieved using electronic links
+We have electronic mailing capabilities with our cooperation partners
+We use electronic transfer of purchase orders, invoices, and/or funds with
+cooperation partners
+We use advanced information systems to track and/or expedite shipments
+
+Environmental Uncertainty (α= .88, AVE= .67,CR= .91)
+ENU02
+ENU03
+ENU04
+ENU05
+
+Laws to regulate international businesses is predictable
+Laws to regulate local businesses is predictable
+Import tariffs are predictable
+Enforcement of existing laws is predictable
+
+α – Cronbach’s alpha; AVE – average variance explained; CR – composite reliability
+
+
+assessed. All of the observed CR values were greater
+than .8, and as such above the suggested cut-off value
+of .6 [9, 58]. Average variance extracted (AVE) was
+used to test for convergent validity in the data set. All
+AVE values were found above the cut-off value of .5,
+as recommended by Henseler et al. [61] and Fornell
+and Larcker [42]. Table 2 shows the results for the
+assessed α, CR and AVE values.
+In order to evaluate discriminant validity, AVE was
+used. As Table 3 indicates, the square root of the
+AVE of each construct is higher than its correlations
+with all other constructs. In consequence, it can be
+concluded that none of the constructs shares more
+variance with another construct than with its own
+indicators and the model thus exhibits sufficient levels
+of discriminant validity [58]. Finally, by ensuring a
+comprehensive foundation of the research model in the
+relevant literature and the review of the survey with
+industry experts and academic scholars as pointed out
+in Section 4.1, content validity is covered.
+Construct
+ASS
+
+COM
+
+EMB
+
+ENV
+
+ICT
+
+Asset
+
+.816
+
+Committment
+
+.316
+
+.807
+
+Embeddedness
+
+.394
+
+.473
+
+.846
+
+Environment
+
+.141
+
+.049
+
+-.019
+
+.859
+
+ICT
+
+.407
+
+.232
+
+.489
+
+.066
+
+.845
+
+Trust
+
+.451
+
+.446
+
+.617
+
+.110
+
+.367
+
+TRU
+
+.806
+
+Square root of AVE on diagonal in bold face
+
+Table 3: Correlation Matrix of the Latent Variables
+To assess reliability and validity of the second-order
+formative performance constructs, the item weights,
+multicolinearity between items, and the nomological
+validity of the formative construct was examined
+[105]. The magnitude of all item weights are greater
+than .10 and the sign of the item weight is consistent
+with the underlying theory [105]. The Variance
+Inflation Factor (VIF) shows all item values are less
+than 3.3 [30].This indicates that multi-collinearity
+does not seem to pose a problem. Further, all four
+items are significant at the .001 level. Correlation of
+the formative items with other constructs of the model
+according to the hypothesized causal model served
+as test for nomological validity [31]. The results
+indicate positive and highly significant relationships
+between cooperation performance and transactional
+and relational governance mechanisms, signaling the
+validity of the cooperation performance construct.
+The results of the formative items are shown in Table
+4.
+
+Measurement property of formative construct
+
+95% confidence interval
+
+Construct
+
+Item Weight
+
+Lower
+
+Upper
+
+VIF
+
+7.990
+
+Bound
+.283
+
+Bound
+.299
+
+1.883
+
+13.068
+
+.509
+
+.521
+
+1.630
+
+.289
+
+8.325
+
+.285
+
+.298
+
+1.372
+
+.193
+
+5.260
+
+.182
+
+.197
+
+1.206
+
+Performance
+[CoPe3]
+
+.285
+
+[FiPe2]
+
+.519
+
+[OpPe4]
+[RePe3]
+
+T-stat
+
+Table 4: Measurement property of formative
+construct
+4.4
+Data Analysis
+For the dataset and model specification at hand partial
+least squares (PLS) has been used as the appropriate
+an appropriate algorithm for testing the hypotheses of
+the research model. It is a variance-based structural
+equation modeling (SEM) approach that increasingly
+gains traction in the business literature as an
+alternative means to traditional covariance-based
+SEM techniques [105]. While some publications like
+Rönkkö and Evermann [120] question the relevance of
+PLS as a statistical measurement tool because of the
+lack of a test of the overall model fit, it nevertheless
+provides a better methodological fit concerning the
+measurement model for the sample.
+PLS avoids the problems inherent in small sample
+sizes below the threshold of 250 observations that is
+recommended for covariance-based SEM techniques
+[48]. Further, compared with covariance-based SEM
+techniques, PLS provides more conservative estimates
+of the individual path coefficients and does not require
+normally distributed data [20]. In addition, moderating
+effects and higher order factors as specified in the
+current research model require a larger number of
+parameter estimates in covariance-based SEM models
+compared to PLS-SEM techniques, as covariancebased SEM techniques may lead to identification and
+convergence issues [105].
+PLS also has an advantage over covariance-based
+SEM techniques when formative constructs are part
+of the research model, as covariance-based SEM
+techniques may lead to unidentified models [65].
+Therefore, the variance-based PLS approach seems
+more suitable, as small sample sizes, moderating
+effects, and higher order formative constructs are
+present [105]. For the calculations, the software tool
+SmartPLS, version 2.0 [119] was used. The results of
+the estimation for the structural model are displayed
+Investments
+Asset
+Investments
+
+0.540
+
+0.650
+
+Transaction
+Specific
+Investments
+
+Interaction Effect
+
+-0.199
+
+Transactional Mechanisms
+X
+Relational Mechanisms
+
+0.579
+
+Environmental
+Uncertainty
+
+R2=0.698
+
+Cooperation
+Performance
+(1st order form.)
+
+-0.571
+
+0.136
+
+0.616
+
+Relational
+Commitment
+Relationship
+Embeddedness
+Relationship
+Trust
+
+0.337
+
+0.464
+
+0.026
+
+Relationships
+
+0.409
+
+Relational Mechanisms
+
+Fig. 3: Results of the empirical model
+The R 2 value of the endogenous latent variable
+performance (R 2 =.698) must be considered substantial
+[20] as the performance of horizontal exchange
+relationships is impacted by many other aspects
+besides transactional and relational governance.
+While Cruijssen et al. [28] specifically examine
+horizontal LSP cooperations and identify, among
+others, joint purchases, process alignment and service
+extension as drivers for cooperation performance,
+other researchers name knowledge development [61],
+information sharing [128] or information processing
+capabilities [13] as success factors in cooperations.
+Cohen’s f 2 was used to further evaluate the effect
+sizes, and the predictive relevance using the Stone-
+
+Geisser Criteria Q2 for the latent variables of the
+structural model [45, 130]. The effect size f 2 describes
+the increase in R 2 relative to the proportion of variance
+of the endogenous construct that remains unexplained
+[25]. As can be seen in Table 5 for the endogenous
+variable performance, the f 2 of the transaction-based
+governance construct is close to medium. The f 2 of
+relational based governance signifies large effects;
+while the f 2 of environmental uncertainty exhibits
+only small effects [25].
+To evaluate the prediction relevance of the structural
+model, a blindfolding procedure with an omission
+distance of 5 was applied [58]. The resulting Q 2
+values for the endogenous constructs are all larger
+
+latent variable scores
+Construct
+
+2
+
+Q
+
+2
+
+f
+
+PER
+
+95% confidence interval
+Mean
+
+STDV
+
+lower
+
+upper
+
+AAS
+
+0.666
+
+2.00
+
+1.04
+
+0.85
+
+2.19
+
+ICT
+
+0.714
+
+1.90
+
+1.26
+
+1.03
+
+2.14
+
+COM
+
+0.651
+
+1.56
+
+0.70
+
+0.57
+
+1.69
+
+EMB
+
+0.715
+
+1.69
+
+0.80
+
+0.65
+
+1.84
+
+TRU
+
+0.650
+
+2.06
+
+0.97
+
+0.79
+
+2.24
+
+TRA
+
+0.484
+
+0.119
+
+1.97
+
+0.95
+
+0.77
+
+2.14
+
+SOC
+
+0.455
+
+0.927
+
+1.74
+
+0.66
+
+0.54
+
+1.87
+
+ENV
+
+0.731
+
+0.073
+
+3.47
+
+1.66
+
+1.35
+
+3.77
+
+of the structural model [41]. Table 5 also reports the
+latent variable scores and respective 95% confidence
+intervals.
+5
+
+DISCUSSION OF RESULTS
+
+The results of this research provide empirical
+evidence that environmental uncertainty has a strong
+negative effect on the performance of horizontal
+cooperations, and positively moderates the effect of
+transactional and relational governance mechanisms.
+5.1
+
+Environmental uncertainty and
+performance
+Hypothesis H1, proposing a direct negative impact
+of environmental uncertainty on cooperating
+performance, is supported. The economic environment
+firms are operating in naturally has a significant
+effect on the performance. When uncertainties
+in institutional settings exist, the performance of
+cooperations is significantly negatively impacted. This
+is confirmed by the given structural equation model
+that identifies a strong negative effect (b = -.571). As
+the study focuses on Africa and the Middle East as
+representing regions for emerging economies, there
+are certain peculiarities to be taken into account. In
+comparison to other emerging economies, there is
+also the influence of the recent economic growth to
+be considered. Increase in geographic diversity as well
+as improvement of infrastructural and political issues
+lead to new opportunities but at the same time pose
+challenges for the firms. This is due to the enhanced
+momentum in the market and the corresponding
+volatility. For the validation of the findings, personal
+interviews with key informants from three companies
+represented in the sample were conducted. The first
+interview partner from the sample was the president
+of a LSP (company A), responsible for managing
+a network of LSP partners that cover the African
+continent. The second interview partner was the
+managing director (MD) of a LSP (company B) based
+in Oman that cooperates with several LSP’s in other
+Middle Eastern countries as well as one LSP in Africa
+and two in Europe. A third interview was conducted
+with a board member of a globally operating LSP
+(company C) that has extensive relationships with
+local LSPs in both Africa and the Middle East. That
+interview partner was also part of the expert panel
+that reviewed the survey instrument. The three
+interview partners were confronted with the specific
+findings of the analysis and were asked to comment
+on these, based on their personal experience. All three
+interview partners agreed that unstable institutions
+make it little attractive for LSPs to operate in these
+countries. In particular, they mentioned that the
+contingency costs for the constant monitoring of the
+
+13
+
+uncertainties increase in exchange relationships in
+emerging countries.
+Notwithstanding, there is evidence for an increase
+of the relationships quality’s effect on performance the
+more environmental uncertainty increases, as former
+research shows [23]. This implies that maintaining a
+close interorganizational relationship can be beneficial
+in uncertain environments despite the rising costs. A
+casedependent treatment of the cost-benefit ratio is
+suggested.
+5.2
+
+Transactional governance and the
+moderating effect of uncertainty
+A further finding in the sample of companies is that
+transactional governance by itself has a detrimental
+effect on the cooperation performance (b = -.199).
+Therefore, Hypothesis 2a must be rejected. This is
+surprising, given the fact that most prior research on
+transactional mechanisms found them to be beneficial
+to the performance of cooperations [e.g. 78, 82,
+125]. A possible explanation is the nature of these
+exchanges. As previous research found horizontal
+relationships to be more conflicting in nature than
+vertical relationships [117]. In cases of environmental
+stability, contracts may be required to govern these
+exchanges. The interview partners generally agreed
+that investments into relationship-specific assets,
+particularly ICT, are cost and time intensive and
+frequently subject to conflict between cooperation
+partners. Hence, instead of a positive effect on the
+performance, transactional mechanisms can actually
+display damaging effects. Further, LSPs are driven by
+process specific know-how. Hence, interpersonal ties
+rather than transactional mechanisms usually govern
+the exchanges between them.
+Supporting Hypothesis 2b, the empirical results show
+that economic uncertainty significantly moderates the
+effectiveness of transactional governance (b = .579)
+on the cooperation performance. Only when the
+environment is uncertain, transactional governance
+mechanisms do create strong positive effects on
+the performance of horizontal cooperations. This
+can be explained by the nature of the two examined
+dimensions of transactional-based governance. They
+permit operational flexibility and faster information
+exchange between partners, thus ensuring a constant
+adaption to the changing environment. The fast
+exchange of information powered by aligned ICT
+systems provides cooperation partners the flexibility
+to swiftly adapt to changing economic conditions.
+Further, joint ICT and asset investments enable LSP
+partnerships to optimize and streamline the processes.
+This is in line with findings by Wong et al. [154],
+who found that mechanisms such as simplification
+of procedures and processes are an effective tool to
+mitigate uncertainties in unpredictable environments.
+So can, according to the interview partners,
+space ensure a high level of service quality, even if
+external conditions vary. For a single LSP, warehouse
+space is an inflexible asset as it is difficult to reallocate
+to other locations if the economic settings change or
+transport demand diminishes in a region. However,
+with cooperation partners a LSP does not need to
+lease an entire warehouse but can lease space in a
+warehouse operated by one of its cooperation partners.
+This provides the individual LSP with operational
+flexibility and an incentive to maintain cooperative
+ties to other LSPs. As mentioned before, LSP in the
+African and Middle Eastern region are often used by
+large European LSPs not owning subsidiaries in the
+respective region. This comes along with opportunities
+for the small LSPs as well as the dependency from
+their European contracting authority. In the following
+high flexibility as can be gained by transaction-based
+governance is advantageous.
+The results are in line with these statements as
+well as findings of Wong et al. [154], who state that,
+due to the collaborative relationships amongst them,
+LSPs can maintain an operational flexibility in
+varying economic conditions. The strong moderating
+effect of environmental uncertainty was reaffirmed
+by the interview partners, as all three agreed that
+transactional governance mechanisms are beneficial
+and referred to them as an “anchor” that stabilizes
+the exchange relationships in a constantly changing
+environment.
+The relationship between transaction-specific
+investments and environmental uncertainty is also
+shown in Figure 4, which highlights the slopes for low
+(β = -.778), medium (β = -.199) and high (β = .380)
+levels of the moderating effects of environmental
+uncertainty on the transactional governance. In case
+of low environmental uncertainty (one standard
+
+deviation below the mean factor score), transactionspecific investments display a strong negative effect
+on the performance. Even when the environmental
+uncertainty is moderate (mean factor score), it
+negatively affects the effectiveness of transactionspecific investments. Only when uncertainty is high
+(one standard deviation above the mean factor score),
+the negative impacts tilts over and transaction-specific
+investments show a positive effect on the performance
+of horizontal cooperations.
+Joint investments into assets (b = .650) present a
+slightly higher impact on the transactional governance
+mechanisms than investments in ICT (b =.540). The
+interviewee from company A explained this fact
+with the relative ease of implementation compared
+to ICT investments. Joint investments into assets can
+mean to simply share an employee, a truck or some
+warehouse space with other LSPs, while investments
+into joint ICT are more complex as they require
+common systems and EDI interfaces. Company B
+shared a similar view, as they had initially only little
+ICT interfaces to cooperation partners. However, over
+time and due to increased customer demand, common
+EDI interfaces with other LSPs were established.
+The interview partner from company C, in contrast,
+indicated that his company builds up extensive ICT
+links in the form of EDI connections and interfaces
+to the transportation system of cooperation partners.
+According to the interviewee, this is mostly due
+to the global network of that LSP and the resulting
+requirements for data transparency.
+This is supported by a current study by Krishnan
+et al. [73] investigating the interrelation of
+environmental and behavioral uncertainty with
+under high environmental uncertainty. Therefore,
+according mechanisms can be of major help for
+firms under uncertain conditions in responding to
+the environmental impacts they are facing. As a
+supplementary measure, Raue and Wieland [115]
+found that different transactional mechanisms can act
+as substitutes when firms aim at accessing tangible
+resources through cooperation. In case of intangible
+resources being the subject of interest, the investigated
+transactional mechanisms are merely complements.
+In both cases, transactional mechanisms support the
+firms’ cooperative relation.
+5.3
+
+Relational governance and the moderating
+effect of uncertainty
+Relational-based governance mechanisms exhibit
+little to no effect on competitive success. (b = .026).
+Therefore, Hypothesis 3a must be rejected. The
+insignificant effectiveness of relational governance
+might be for the characteristics of the LSP industry,
+where the process know-how is easy to absorb and
+imitate by cooperation partners. This reduces the
+effectiveness of relational governance to hinder
+opportunism and drive cooperation performance.
+The interviewee from company A confirmed this, by
+citing that his company employs multiple governance
+forms, ranging from transactional to relational. Based
+on his experience relational mechanisms alone are not
+adequate to deter opportunism.
+As the unified relational construct contains three
+elements, they might act as substitutes, thus reducing
+the initial positive effect of relational governance. The
+interview partner from company C pointed out that
+commitment may also have detrimental effects, as it
+might attach his company to an inferior cooperation
+partner. However, if the external conditions are
+
+15
+
+uncertain, relational governance becomes much more
+important. This is due to the fact that legal contracts
+as governance method cannot cover all aspects that
+might arise in uncertain conditions [21].
+This is in line with Hypothesis 3b, which states that
+environmental uncertainty positively moderates the
+effectiveness of relational governance mechanisms on
+the cooperation performance (b = .616). Social ties such
+as trust become main control mechanisms in uncertain
+conditions that arise in emerging economies, as they
+support cooperation partners to manage unforeseeable
+situations [37]. The interviews confirm this strong
+moderating effect, since it was explicitly stated by the
+interview partners that in their experience uncertain
+conditions necessitate personal contacts to manage
+and govern relationships. According to company B,
+relational ties form immaterial assets that hold their
+partnerships together and are much more flexible than
+contracts or material assets. Differences in the strategy
+of the cooperation or operational changes can be solved
+by personal dialogue rather than time-consuming
+renegotiations of contracts. The interview partner
+from company C further mentioned that it regularly
+hosts conferences with all its cooperation partners
+to exchange required information and strengthen the
+relational ties among all cooperating LSPs.
+The effects are also displayed in Figure 5, which
+shows the relationship of relational governance and
+different levels of environmental uncertainty similar
+to Figure 4. At low levels of environmental uncertainty
+(one standard deviation below the mean factor score)
+relational governance has a detrimental effect on the
+performance (β = .590), while at medium levels of
+uncertainty (mean factor score) relational governance
+shows no significant effect (β = .026). Similar to the
+results displayed in Figure 4, only at high levels of
+uncertainty (one standard deviation above the mean
+
+in horizontal cooperations.
+All three dimensions of relational governance
+included in the model exhibit strong positive effects
+(commitment (b = .337), embeddedness (b = .464),
+trust (b = .409)) on the aggregated relational
+mechanisms construct. All three interview partners
+could support this finding. Particularly the interview
+partners from company A and B stressed the fact that
+embeddedness and trust can act as substitutes for more
+formal governance methods or even can make legal
+contracts obsolete. While the interview partner from
+company C put forward compliances requirements
+that make further governance methods mandatory, he
+confirmed that as logistics services are mainly people
+driven, embeddedness and trust play a vital role in
+exchange relationships. The commitment to partners
+was seen as an important fact by all three interview
+partners, yet to a lesser extent than the other two
+aspects of relational governance. The unified relational
+mechanisms construct has no significant impact on
+the performance, thus the second hypothesis must be
+rejected.
+Opposing to these findings derived from the
+captured data former research found evidence that
+environmental uncertainty hinders firms to make use of
+trust-based governance mechanisms [73]. As the study
+at hand focused mainly on the interplay of behavioral
+and environmental uncertainty, it might have
+happened, that relational mechanisms are relatively
+ineffective under high environmental uncertainty
+compared to transactional mechanisms. Still they can
+constitute a viable alternative solution. Another study,
+which focuses on new business ventures in a transition
+economy, namely China, concludes that the ability to
+benefit from business relations moderates the negative
+effects of environmental uncertainty and thus supports
+firms to grow by enhancing their performance [127].
+In regards to the control variable, there was a slight
+positive impact on the performance by the joint
+usage of relational and transactional mechanisms.
+Previous studies examining the interaction of these
+two governance mechanisms came to opposing
+conclusions, with some studies finding a support
+for them acting as complements [86] while other
+results found them acting as substitutes [156]. If
+transactional mechanisms are reinforced by relational
+mechanisms such as trust and close personal ties,
+they are usually more effective, as they are designed
+with the continuation of the cooperation in mind.
+These findings are however not surprising, given
+the fact that transactional mechanisms are made up
+by the construct’s relationship-specific investments
+into assets and ICT, which usually require trust and
+commitment by individual partners towards the
+cooperation.
+
+In the experience of the interview partner from
+company B and consistent with his assertions on
+the observed effects for transactional governance
+mechanisms, horizontal LSP cooperations initially
+do not require heavy investments at the beginning
+of a cooperation, while at later stages the need for
+transactional based governance increases. Over
+time, as the number of cooperation fields is extended
+the number of contact partners grows and contacts
+become more impersonal. Accordingly, the need
+for transactional-based governance increases.
+Consequently, and in line with the interview
+partners’ opinion, the joint practice of transactional
+and relational governance is most effective, as an
+individual LSP operates cooperations at different
+maturity stages with various cooperation partners.
+This applies especially in the case of African and
+Middle Eastern LSP, as the economy is in a transition
+phase, including market volatility, growth and changes
+in the market environment. This development is a
+driver for joint usage of transactional and relational
+governance mechanisms as aforementioned.
+6
+
+CONCLUSION AND FURTHER
+RESEARCH
+
+The empirical results of the presented study indicate
+that environmental uncertainty has a strong negative
+effect on performance for cooperations between
+LSPs. In particular, the findings suggest that due
+to the characteristics of horizontal cooperations,
+relational and transactional mechanisms show
+no, or even a detrimental effect at low levels of
+uncertainty. This effect tilts over at high level of
+uncertainty, where environmental uncertainty would
+suppress high performance of individual LSPs.
+This finding is in stark contrast to previous studies
+on vertical cooperations, which do not find such a
+strong dependence of governance instruments on the
+economic environment.
+The theoretical and practical contribution of the
+study at hands is based in its explorative character
+and focus on a topic of increasing importance. As the
+spreading of production sites all over the world along
+with globally distributed customers for reasons of cost
+or quality control is gaining more and more weight in
+the future, the sector of logistics comes under pressure
+to fulfill increased demands. To meet these demands
+cooperations are a key success factor. Especially
+under the conditions typical for emerging markets,
+firms can profit from the synergies realized through
+cooperations. As outlined before, research on vertical
+cooperations is at a satisfactory level. In contrast, there
+are hardly scientific results to be found on horizontal
+cooperation, which is particularly important to
+strengthen a certain segment of the industry namely
+competing firms operating at the same level in the
+it widens the understanding of firms’ performance
+changes due to individual management decisions
+as well as their combined effects. Especially the
+latter is of major interest under consideration of the
+inconclusive findings of previous research in regard of
+interaction effects between relational and transactional
+governance mechanisms.
+6.1
+Managerial & theoretical implications
+As the flow of commodities spreads to new markets
+and LSPs from emerging economies extend their
+service range, horizontal relationships with other
+LSPs become increasingly critical to a firm’s success
+in these economies. Subsequently small-sized LSPs,
+which are typically found in emerging economies,
+are more likely to bundle their resources and tender
+on larger contracts that can normally only be tendered
+for by larger sized LSPs [142]. The results suggest that
+executives of LSPs in emerging economies should
+consider environmental contingencies when making
+decisions about using transactional and relational
+governance mechanisms to manage collaborations. In
+particular, as the perceived external risks are manifold,
+executives should emphatically use trust, commitment
+and embeddedness to open up communication and
+ensure the joint development of inter-personal and
+inter-firm ties among participants.
+Since relational mechanisms and contracts can be
+viewed as substitutes [146], executives are unlikely to
+rely upon contracts in highly uncertain environments.
+At the same time, joint investments can act as a
+substitute for written agreements, as they increase
+the break up cost in case of opportunistic behavior.
+Executives should thus invest into the connectivity
+of their respective ICT systems. In addition, the joint
+utilization of assets like truck capacity or warehouse
+space signals a dedication to the relationship and
+acts as cohesive factor for horizontal relationships.
+However, if the economic conditions surrounding the
+horizontal cooperation are stable, executives should
+consider other governance mechanisms like written
+agreements and contracts, as transaction-specific
+investments and relational forms are not sufficient to
+suppress opportunism in this context.
+Another lesson learned from this study is that the
+differentiation between the two examined governance
+mechanisms does not significantly affect the success
+of these relationships. As LSPs aim to decrease
+opportunism and improve cooperation performance,
+the executives should consider using relational
+mechanisms alongside transactional mechanisms.
+However, as most LSPs operating in emerging
+economies are small in size and cash restricted,
+executives might not have the financial means or
+manpower for far-reaching alignment of their ICT
+systems or assets. Consequently, relational governance
+aspects seem more viable under such circumstances.
+However, as the economies and institutions progress
+
+17
+
+and become more stable, other means of governance
+might become more applicable. As many LSPs
+operating in emerging economies rapidly extend
+their business relationships to more industrialized
+countries, they might move towards a more legalbased way of governance instead of utilizing relational
+and transactional governance mechanisms.
+When focusing less on direct application of the
+results in form of managerial implications but more
+on implications for theory, namely transaction cost
+theory and social exchange theory, some light is shed
+on the complex relation between diverse governance
+mechanisms and firms’ performance under the
+influence of environmental uncertainty. As the
+results of the study show, transactional governance
+mechanisms as well as relational mechanisms do
+not show positive effects under low environmental
+uncertainty concerning firm performance. This is
+in line with transaction cost theory, which assumes
+a rise in dependence between firms when high
+transaction-specific costs occur. Hereby, the incentive
+for opportunistic behavior would also rise. As the aim
+of economically motivated organizations like firms
+is the restraint of opportunism, transactions with
+high specificity are avoided as a rule. Only under the
+assumption of high environmental uncertainty, which
+in transaction cost theory induces stronger endeavor
+for integration activities, an according reaction
+among the sample was observed. As the integration
+in the form of transaction comes with the detriment
+of losing flexibility and binding capital, the degree
+to which transactional governance is employed is
+kept low as long as possible. Thus, the study provides
+empirically substantiated proof for the influencing
+character of environmental uncertainty when it
+comes to the application of transactional governance
+mechanisms. Similar results could be observed for
+relational mechanisms, belonging to the field of social
+exchange theory. This implies that such governance
+mechanisms are also used to a higher degree mainly
+due to the pressure originating from the environmental
+uncertainty. As former research showed the effectivity
+of relational governance in principal, the study at
+hand extends this knowledge and shows the increase
+in performance under uncertainty when applying
+relational governance mechanisms. Even though,
+an interaction effect of transactional and relational
+mechanisms could not be determined, it becomes
+clear, that effectivity of both individually is increased
+under environmental uncertainty. These findings could
+be the first step to support the explanation approach
+in social exchange theory, stating that relational
+governance develops only slowly over a period. Thus,
+for relatively young horizontal cooperations the
+transactional mechanisms are the preferred instrument
+as governance mechanism while in older relationships
+The results of this study have some limitations that
+may be worthwhile to explore in future research. In
+particular, only five different governance constructs
+were investigated, of which two can be allocated to
+transactional mechanisms and three to relational
+mechanisms. This leaves space for future research to
+explore the influence of other governance constructs
+that are either related to transaction cost theory or
+social exchange theory such as contracts or previous
+business relations. In addition, governance mechanisms
+based on other theories might be worthwhile to
+explore. A limitation of the research study is that
+the data collection was restricted to an emerging
+economies setting and is therefore a limiting factor
+for the generalization of the findings. For example,
+the impact of the different governance mechanisms
+on the performance of horizontal LSP cooperations
+might differ between emerging economies and more
+industrialized and mature economies. Future research
+thus may extend this study to more industrialized
+regions, to ensure the generalizability of the results
+and to detect potential effects specific for emerging
+economies.
+Although a broad aspect of emerging economies
+was covered, this approach has the limitation that
+relational governance mechanisms may depend on
+the specific culture inherent to the persons involved,
+or the specific institutional setting these persons are
+acting in. For example, different participants from the
+sample operate in different institutional settings and
+hence build a heterogeneous group. Same applies for
+the issue with differences in response behavior due
+to cultural differences among the participants of the
+study. Institutional setting and culture, both might lead
+to a bias but this is one of the limitations characteristic
+for a multi-country study, which often is a crosscultural study at the same time. To remedy this an
+avenue for future research may be to examine whether
+the empirical results for the governance mechanisms
+identified in this paper are generally applicable by
+examining differences between two or more countryby-country samples in Africa and the Middle East.
+Additionally, it would be interesting to examine if
+the respective impact of relational and transactional
+governance mechanisms on the performance differ
+between horizontal LSP cooperations and horizontal
+cooperations in other industries.
+Other starting points for future research might be
+in-depth case studies. Those, for example, would
+help to further understand how specific facets of
+environmental uncertainty affect the different
+governance mechanisms. Such a more narrow
+research design would also allow for specific
+practical recommendations applicable for firms
+showing sufficient match to the surveyed firms for
+example in regards to size or managerial structures.
+Further research using longitudinal data would also
+be a worthwhile approach to examine the impact of
+
+environmental uncertainty on the different governance
+mechanisms over time. In particular, for the relational
+aspects of governance this approach could provide
+promising insights.

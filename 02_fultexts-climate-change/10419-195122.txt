@@ -1,0 +1,1021 @@
+
+
+Introduction
+Wind energy has become a significant resource for many electric utility systems. Wind
+turbines are the fastest developing technology to harness that energy. The maintenance costs
+associated with wind turbines are very high due to their structure, the remote locations where
+they are installed, and the hard-to-access components [7]. However, the high maintenance cost
+is not the only difficulty associated with sustaining wind turbines. The productivity loss that
+results from the failure of wind turbines is also very high because of the loss of energy they
+produce per unit time. Thus, it is imperative that wind turbines are maintained in a timely and
+proactive manner. This study proposes embedding sensors into wind turbines. These sensors
+can monitor the wind turbines while they are in operation and provide condition information
+about their components. The data acquired from the sensors can subsequently be used to detect
+the deterioration of the components and potentially predict failures before they occur. This can
+decrease the maintenance cost because it negates the need for an inspection. In addition, the
+required repair operations can be performed before the failure, resulting in less downtime and
+less productivity loss cost.
+Sensors also add value to wind turbine EOL processing. They provide vital condition
+information about the components of wind turbines and, subsequently, facilitate EOL processing decisions related to whether to recycle, refurbish, and/or remanufacture the components
+prior to disassembly. Similar to the maintenance aspect, when sensors are embedded into wind
+turbines, the inspection operation is eliminated since the conditions of the components are
+known by means of the embedded sensors. These benefits increase the profit that can be
+generated from wind turbines that are at the end of their useful life cycles [50].
+This study aimed to assess the economic benefits associated with embedding sensors into
+wind turbines. To compare these benefits, regular wind turbine (RWT) and sensor-embedded
+wind turbine (SEWT) systems were modeled using discrete event simulation. A design of
+experiments study was used to compare the performance measures of these systems. Pairwise
+t-tests were also performed to determine whether the SEWT systems offer significant value
+over RWT systems.
+
+Literature review
+This paper employs sensor embedded products in closed-loop supply chain systems. This
+section provides literature review about operations in closed-loop supply chains and sensor
+embedded products. A systematic review of the studies relevant to environmental issues in
+reverse supply chains that were published before 1998 was developed by Gungor and Gupta
+[18]. This was later extended by Ilgin and Gupta with a further study that covered the period
+1998–2010 [23] and classified the papers published during that period in the area of environmentally conscious manufacturing and product recovery (ECMPRO) into several categories
+including product design, reverse and closed-loop supply chains, remanufacturing and disassembly. Gupta [19] presented an overview of reverse supply chains and issues involved in their
+implementation. More recently, Ilgin et al. [31] presented a further state-of-the-art survey of
+
+133
+
+perspective framework for reverse logistics based on stakeholders’ theory. Hatcher et al. [22]
+presented a literature review on design for remanufacture while Priyono et al. [54] provided a
+systematic review on disassembly for remanufacturing. For additional information on
+remanufacturing, see the book by Ilgin and Gupta [28].
+
+Logistics of used products
+The logistical operations associated with closed-loop supply chains span several processes
+including collecting used products from the customers and collection centers, transporting
+these products to the EOL facilities, and routing vehicles between collection centers, customer
+locations, and EOL facilities. Several articles have been published that study the logistics of
+used products and these are reviewed in this subsection.
+Dethloff [9] proposed a solution to the vehicle routing problem in the form of a heuristic
+procedure that consisted of simultaneous delivery and pickup processes. He later extended
+this study by considering backhauling in the vehicle routing problem and applied the same
+heuristics to solve this problem before presenting a comparison of the two vehicle routing
+problems [10]. Alshamrani et al. [1] used a heuristic procedure with different sub-rules to
+solve a similar vehicle routing problem involving deliveries and pickups. The authors
+presented a case study in which they examined the processes operated by the American Red
+Cross to deliver and pick up blood. Mourão and Almeida [42] proposed a method of
+solving the vehicle routing problem within the context of the collection of household refuse
+in Lisbon, Portugal. They modeled the problem as a capacitated arc routing problem and
+proposed a model based on the route-first cluster-second method that consisted of a threephase heuristics procedure. They concluded that this method generated a near optimal
+solution. Mourão and Amado [43] modeled the same problem as that studied in the work of
+Mourão and Almeida [42] as a mixed capacitated arc routing problem and solved the
+problem by using a new heuristics procedure.
+Blanc et al. [2] analyzed different network design scenarios for recycling EOL vehicles at
+Auto Recycling Netherland (ATN). Recycling vehicles incur high transportation costs; as such,
+it is important to identify an optimal method of transporting the used vehicles. Thus, they
+modeled the problem as vehicle routing problem. Blanc et al. [3] adapted a heuristics
+procedure that used route generation and set partitioning to solve the vehicle routing problem
+with multi-depot pickup and deliveries. They applied this method to solve the problem
+described in the ATN case study. Krikke et al. [38] developed a new methodology to collect
+dismantled materials from EOL vehicles. Within this methodology, the inventory was monitored, and dismantled materials were grouped as MUST and CAN orders. MUST materials
+were collected when there was an order, while CAN materials could only be collected if the
+capacity and routing of the vehicles allowed. This problem was solved by applying the set
+partitioning and route generation method. Again, the proposed procedure was applied to solve
+the problem described in the ATN case study. Schultmann et al. [58] presented a similar
+vehicle routing problem within a case study in Germany.
+Gribkovskaia et al. [17] used improvement heuristics and tabu search to solve the single
+vehicle routing problem with pickups and deliveries by modeling the problem as a mixed
+integer programming model. Kim et al. [36] presented a vehicle routing problem study that
+
+
+
+Disassembly scheduling
+During the disassembly operation, a product is separated into its components and subassemblies [21]. Due to the high costs associated with disassembly operations, it is crucial that an
+optimal disassembly schedule is determined when disassembling products. The disassembly
+operation is important for closed-loop supply chains; as such, disassembly scheduling literature becomes of interest to this study.
+Kim et al. [34] presented a disassembly scheduling problem with multiple product structures and common parts. They aimed to fulfill the demand for components by disassembling
+the root items from the products while minimizing the costs associated with disassembly; e.g.,
+setup, inventory, and disassembly costs. The problem was solved by using heuristics with
+linear programming relaxation. Kim et al. [35] enhanced Kim et al.’s previous study [34] by
+introducing another phase to the existing solution method. After finding an initial solution
+through the use of linear programming relaxation, a dynamic programming algorithm with a
+look-ahead check was adopted to improve this solution. Kim et al. [37] developed a branch
+and bound algorithm integrated with Lagrangian relaxation to solve the disassembly scheduling problem with single product types that have no parts commonality. They also included a
+comparison between the results of the proposed algorithm and the previous heuristics study.
+Kim and Xirouchakis [33] modified the problem by addressing stochastic demand and limited
+resource capacity. A Lagrangian heuristic was used to solve the problem. Lee et al. [39]
+introduced an integer programming model to obtain solutions for disassembly scheduling
+problems for single or multi-product types with parts commonality.
+Stuart and Christina [59] proposed the use of priority rules when scheduling product
+disassembly. In their study, the disassembled components and materials were recycled to
+generate revenue. The priority rules were applied to the products in disassembly queues so
+that maximum revenue could be generated by optimally scheduling the disassembly of each
+product. The researchers used a discrete event simulation to model the problem and evaluated
+the results based on the product turnover. Rios and Stuart [55] enhanced the previous study by
+including the plastic demand for recycling. Brander and Forsberg [4] studied the lot-scheduling
+problem for a disassembly facility. Based on the heuristic method proposed in this study, the
+disassembly frequencies of each individual item were calculated by optimizing the profit. This
+information facilitated the effectiveness of the disassembly scheduling. Prakash et al. [53]
+introduced a constraint-based simulated annealing algorithm to find a disassembly schedule by
+optimizing the inventory levels. More recently, Tian and Zhang [60] examined a capacitated
+disassembly scheduling and pricing problem, in which the disassembly yield of returned
+products depends on their acquisition prices.
+
+Maintenance
+Operational maintenance procedures have a direct impact on the profitability of closed-loop
+supply chain systems. Manufacturers have employed several maintenance strategies, including
+corrective maintenance, preventive maintenance, proactive maintenance, and predictive maintenance, to sustain products for longer periods. This paper tests a predictive maintenance
+
+135
+
+monitored. The use of sensors in electric power transformers can help monitor vibrations.
+According to Efthymiou et al. [15], maintenance can cover 60 to 75% of the total life cycle
+cost of a manufacturing system. They proposed a platform that facilitated the use of sensors
+with multiple sensing abilities rather than simple ones. This platform had three phases: data
+acquisition and analysis, knowledge management, and maintenance dashboard. The researchers asserted that data acquisition and analysis in the form of ARIMA models would
+help capture the failures and estimate the remaining useful lives of the equipment. Rodriguez
+and Perez [56] introduced a patented sensor that was capable of extracting information from
+the structural deformation that results from wind damage to the blades. They attributed the
+common causes of this damage to incident wind direction, force or velocity, and vibration.
+
+Intelligent products
+RFID-attached and sensor-embedded products are named as intelligent products in the literature. Meyer et al. [41] published a review of intelligent products within which they highlighted the various ways in which these products have been identified in the literature. According to
+McFarlane et al. [40], an intelligent product has the following properties:
+
+&
+&
+&
+&
+&
+
+Processes a unique identification
+Is capable of communicating effectively with its environment
+Can retain or store data about itself
+Deploys a language to display its features, production requirements, etc.
+Is capable of participating in or making decisions relevant to its own destiny.
+
+Meyer et al. [41] reviewed the use of intelligent products in different areas such as manufacturing, supply chains, asset management, and product life-cycle management. They described
+how intelligent products can help improve manufacturing operations in terms of production
+planning and control and developing customized products. They are also useful in supply
+chains for sending goods, re-routing deliveries, and ensuring security. In addition, intelligent
+product systems can also deliver satisfactory maintenance to the customers and efficiently
+manage the product life cycle, both of which are beneficial. Last, but not least, the researchers
+concluded that the EOL management of intelligent products is economically viable.
+Since sensors-embedded products are used in this paper, the relevant literature is reviewed
+here. Cheng et al. [6] introduced a Generic Embedded Device (GED) that can be installed into
+the manufactured products. GEDs can capture data, update this data with real-time information, and then transmit it to the system. The data can be used for two purposes: improving
+maintenance performance and estimating the remaining life of the equipment. Chang and
+Hung [5] used sensors to sense the temperature and humidity inside concrete structures and
+stored this information within a RFID system. Technical details of the system and the
+mechanism by which it measured the temperature and humidity were explained in the article.
+This study provided an example of the use of sensors to collect information about the
+environment in which products have been used. Like concrete structures, sensors can also
+be placed into appliances. Schmidt and van Laerhoven [57] explained the kind of information
+sensors could capture and how this information can be valuable to users. Sensors can provide
+
+
+
+Vadde et al. [61] proposed the use of sensors to track products during their life cycles and
+estimate the conditions of the product components. Ilgin and Gupta [24] enhanced the ideas
+presented by Vadde et al. and used the information collected by sensors to improve the EOL
+processing performance of the products. They analyzed the economic impact sensors had on
+the disassembly and inspection operations of EOL products. A series of papers (Ilgin and
+Gupta [25–27]; Ilgin et al. [29, 30]; Zhang et al. [62]) experimented with this by embedding
+sensors in different product combinations and studied their economic impact on their respective systems.
+Ondemir and Gupta [45, 46, 48] presented a study that employed sensor-embedded
+products within a disassembly-to-order (DTO) and remanufacturing-to-order system. This
+system incorporated a disassembly operation, which was triggered by remanufactured product,
+component or material demand. The researchers applied different methods to solve this
+problem, such as integer programming, fuzzy goal programming, and an Internet of Things
+approach. Ondemir et al. [49] and Ondemir and Gupta [47] studied a DTO and repair-to-order
+system. This system fulfills demand by repairing products and components instead of
+remanufacturing. In another study, Ondemir and Gupta, [44] suggested fulfilling demand by
+refurbishing products.
+Dulman and Gupta [11, 12] enhanced the idea of using sensors within closed-loop supply
+chains. These systems involved collecting EOL products, disassembling them, dividing the
+components into several quality levels, and subsequently selling remanufactured products,
+refurbished components, and recycled materials. Dulman and Gupta [13, 14] proposed the use
+of sensors to upgrade the maintenance experience of the products. They found that sensors
+provided condition information about the products and this information was used to estimate
+failures and, thereby, allowing appropriate preventative action to be taken in advance of the
+failure.
+
+System description
+In this section, the maintenance operations and EOL processing of wind turbines and the
+details of the RWT and SEWT systems that were modeled in the study are explained. Once
+wind turbines are sold and installed, they start producing energy. The manufacturers’ goal is to
+ensure the turbines remain in operation and, thus, energy production is maintained so that the
+buyers can also generate sustained levels of profit out of the wind turbines. One way in which
+manufacturers achieve this is by performing regular maintenance.
+When wind turbines no longer produce reasonable amount of energy, they are returned to
+the manufacturers for EOL processing. At this stage, the products are remanufactured,
+refurbished or recycled based on the conditions of the components. If the components are in
+reusable condition, remanufacturing or refurbishing options are chosen. Otherwise, they are
+recycled or disposed of based on the materials they contain. Figure 1 illustrates the overall life
+cycle of the wind turbines and the EOL processing flow.
+
+Maintenance of wind turbines
+
+137
+
+Fig. 1 Maintenance and EOL life-cycle scheme of wind turbines
+
+the RWT systems, the wind turbines were checked twice a year based on the preventive
+maintenance strategy. However, unexpected failures might also happen. If the wind
+turbines fail, the service team provided the required maintenance service, and any failed
+components were replaced with new ones. Once they complete their life cycles, the
+turbines are disassembled and sent to an EOL processing facility. Figure 2 shows the
+wind turbine life cycle.
+
+Maintenance of RWT systems
+Figure 3 presents the flowchart of the maintenance activities involved in the RWT systems.
+The standard RWT process modeled in this study was as follows. The repair personnel team
+arrives on site at the location where the wind turbines are installed. They inspect the wind
+turbines and determine the cause of failure. Based on the type of failure, the manufacturer is
+notified, and the required service operations are determined. The failed components are
+replaced with new ones so that the EOL conditions of these failed components are better.
+Service operations are only provided when the wind turbines fail. Preventive maintenance is
+also provided by inspecting the conditions of the wind turbines twice a year.
+The failures incur a productivity loss because the wind turbines do not produce energy
+during the failure and service period. Within this study, productivity loss was calculated as a
+function of the annual energy production and the time between the time of failure and service
+completion. The productivity loss was added to the overall maintenance cost. The maintenance
+cost also included inspection and material replacement costs. Inspection costs were incurred
+when determining failures and failed components. Material replacement cost was deemed to be
+
+
+
+Fig. 3 Maintenance operations of RWT systems
+
+Maintenance of SEWT systems
+Figure 4 illustrates the flowchart of the maintenance activities for the SEWT. The sensors are
+embedded into the wind turbines and subsequently track the performance and condition of the
+components during their use. By interpreting the data collated by the sensors, the operators
+predict failures before they occur, thereby negating the need for an additional inspection to
+determine the cause of a failure. When the sensors detect a potential failure, a signal is
+transmitted to the manufacturer. Repair personnel provide the required service on site.
+In the SEWT systems, the period of failure and service was less than that of the RWT
+systems. As such, they incurred less productivity loss, and this is a major benefit of using
+
+139
+
+provide the operators with vital information about which components have failed, thereby
+negating the need for an inspection process.
+
+Wind turbine EOL processes
+After the wind turbines complete their life cycles, they are disassembled and transported to the
+EOL facility. EOL processing commences with the disassembly process, which is completed
+on the customer site following the operator’s inspection. The parts are then reused, recycled or
+disposed of based on the materials they contain. The components that are to be sold as used
+subassemblies or used to remanufacture wind turbines are inspected to determine their quality
+level. The inspection process is not required for the SEWT systems because the required
+condition information is provided by the sensors.
+
+EOL processes of RWT systems
+This section explains the details of the disassembly and inspection processes for the RWT
+systems. In RWT systems, each subassembly is disassembled and transported to the EOL
+facility. Within the study, the disassembly cost was determined to be the combination of
+the time taken to disassemble the subassemblies and the labor costs incurred in doing so.
+Since the subassemblies of wind turbines are heavy and of a large size, the cost of
+transporting subassemblies is high. Thus, the transportation cost was also considered in
+the calculations of the total cost of EOL wind turbine processing. Once the subassemblies
+arrive at the EOL facility, they are inspected to determine the reusability of the subassemblies and the accompanying quality levels. As such, the inspection cost applied in this
+study was the combination of the inspection time and the labor costs. If the subassemblies
+are reusable, they are sent to proper reprocessing locations such as resale or
+remanufacturing. Figure 5 shows the flowchart of the disassembly and inspection processes for the RWT systems.
+
+EOL processes of SEWT systems
+Embedding sensors into wind turbines changes the flow of EOL processing since they provide
+condition information about the products and this data can be used to inform the plan for
+disassembling subassemblies. Figure 6 illustrates the details of the disassembly and inspection
+processes of the SEWT systems.
+First, the reusability information of the subassemblies is retrieved from sensors and is used
+to delay disassembly until a reusable subassembly in the following disassembly sequence is
+identified. In the case of wind turbines, the tower is disassembled first and then the rotor blade,
+nacelle, gearbox, and generator. If the rotor blade is not in a reusable condition, it is not
+disassembled. However, if the nacelle is reusable, they are disassembled together. The purpose
+of this approach is to reduce the disassembly costs by allowing the destructive disassembly of
+any subassemblies that are not reusable and by combining the disassembly of the subassemblies. Furthermore, the data collated by the sensor can be used to perform an upfront inventory
+check for each quality level. If the subassemblies are reusable, they are labeled with their
+
+
+
+Fig. 5 RWT systems disassembly and inspection processes
+
+quality level subassembly is sent to the relevant reprocessing location; for example, resale or
+remanufacturing.
+
+Reprocessing operations
+Reprocessing starts once disassembly and inspection are complete. For disassembled subassemblies, three quality levels are used to categorize their quality:
+
+&
+&
+&
+
+High quality (HQ): Expected to last 12–15 years.
+Medium quality (MQ): expected to last 9–12 years.
+Low quality (LQ): expected to last 6–9 years.
+
+Figure 7 illustrates the HQ-subassembly flow. If the HQ remanufactured wind turbine inventory level is not at its maximum level, the disassembled subassembly is sent to HQ
+remanufacturing buffer area. Otherwise, the manufacturer checks the maximum HQsubassembly inventory for subassembly sales. If the subassembly meets the maximum HQsubassembly inventory level, the manufacturer sends the subassembly for use in MQ processes
+instead of recycling it because these HQ subassemblies can increase the quality level of MQ
+subassemblies and can generate more revenue if the manufacturer remanufactures them or sells
+them as used subassemblies. This is also applicable at the MQ level. If the HQ subassemblies
+are not used at the MQ level, they are sent to the LQ level instead of being recycled. If HQ
+subassemblies are not used at any of the quality levels, they are either recycled or disposed of
+
+141
+
+Fig. 6 SEWT systems disassembly and inspection processes
+
+Like HQ-level flow, MQ- and LQ-level flows are also considered in this study. The MQlevel flow considers MQ- and LQ-level subassemblies, while the LQ-level flow considers only
+LQ-level subassemblies.
+In the study, a closed-loop supply chain system for wind turbines was modeled, and its
+performance was evaluated. The analysis took into consideration both the maintenance and the
+EOL processing of the wind turbines. Since EOL processing follows the life cycle of the wind
+turbines, maintenance is crucial. Replacing components as a means of maintaining the lifespan
+
+
+
+Fig. 7 HQ-subassembly flow for recycle, resale and remanufacturing
+
+If the subassemblies are used for remanufacturing, they are stored in the remanufacturing
+buffer area respective to their quality level. Once a set is complete that contains one from each
+component type, the components are assembled. The assembly process adds to the assembly
+cost. The remanufactured wind turbines remain in the remanufactured wind turbine inventory.
+When there is a demand for the parts, the manufacturer sells them. If demand is lacking, they
+remain in the inventory, and the holding costs are increased.
+Within the study, it was assumed that the demands in the systems followed a Poisson distribution
+and the systems receive demands for each quality level of remanufactured wind turbine or subassemblies. If the inventory is sufficient to fulfill the demand, the manufacturer sells the remanufactured
+wind turbines and generates revenue. Otherwise, the manufacturer places the units in a backordered
+status, incurring backordering costs. Figure 8 illustrates the wind turbine remanufacturing process,
+demand flows, and the effect of remanufacturing and demands on the revenue and cost.
+
+Design of Experiments Study
+The RWT and SEWT systems assessed in this study and the differences between them were
+introduced in the previous section. This section provides details of the design of experiments
+study that was conducted within this work. The goal of the design of experiments study was to
+determine the economic contribution the sensors make to the closed-loop supply chains
+
+143
+
+Fig. 8 Remanufacturing flow of wind turbines
+
+It was determined that 63 factors could have an impact on the performance measures that
+were relevant to this study. By choosing two levels for 63 factors, a full factorial design would
+require 9.223372E + 18 experiments. It was not reasonable to conduct this many experiments
+within the scope of this study. As such, an orthogonal arrays method was chosen for the
+factorial design. With this method, a subset of experiments was chosen. For 63 factors with 2
+levels, the orthogonal arrays method suggested 64 experiments. Specifically, L64(263) orthogonal array [52] was used for the factorial design in the design of experiments study. The data
+required to conduct the experiments was referenced from the study conducted by OrtegonMosquera [51].
+Table 1 shows the price factors for remanufactured wind turbines and subassemblies. HQand MQ-level factors were included in the factorial design. LQ-level prices were excluded
+because their impact on the performance measure was not considered to be significant.
+The factorial design included the disassembly times and the costs of the subassemblies, as
+shown in Table 2.
+The factorial design also included the inspection times and costs of the subassemblies, as
+shown in Table 3.
+Tables 4, 5, and 6 show the probability distributions. The reusability chance and quality
+level distributions can be seen in Table 4. As can be seen in Table 4, only HQ and MQ-level
+components were used in the factorial design. LQ-level probabilities were excluded from the
+factorial design. They are shown in Table 5 separately.
+Table 1 Remanufactured wind
+turbine and subassembly prices
+
+Factor
+
+Level 1
+
+Level 2
+
+HQ Wind turbine ($)
+HQ Tower ($)
+HQ Rotor blade ($)
+HQ Nacelle ($)
+HQ Gear box ($)
+HQ Generator ($)
+MQ Wind turbine ($)
+MQ Tower ($)
+MQ Rotor blade ($)
+MQ Nacelle ($)
+MQ Gear box ($)
+MQ Generator ($)
+
+40,000
+3000
+1750
+1500
+1750
+1200
+30,000
+2000
+1250
+1200
+1250
+1000
+
+35,000
+2500
+1500
+1350
+1500
+1100
+25,000
+1500
+1000
+
+Table 2 Disassembly cost and
+time factors
+
+
+
+Factor
+
+Level 1
+
+Level 2
+
+Disassembly cost ($/min)
+Tower disassembly time (min)
+Rotor blade disassembly time (min)
+Nacelle disassembly time (min)
+Gear box disassembly time (min)
+Generator disassembly time(min)
+
+3
+60
+10
+10
+10
+10
+
+2
+45
+8
+8
+8
+8
+
+In the systems assessed in this study, it was assumed that exceeding the renewal-time
+threshold would have a negative impact on the return condition of the subassemblies. The
+quality level distribution of the subassemblies when the renewal-time threshold was exceeded
+is shown in Table 6.
+The additional factors that were relevant to the maintenance aspect of the modeled systems
+are presented in Table 7. The recognition of failure and service activation processes were
+included in the factors. It was assumed that they would have a significant impact on the
+maintenance costs because they incur productivity losses, which reduce energy production.
+Productivity loss resulting in lower energy production was considered to be a significant factor.
+Moreover, the inspection time it takes to determine the failure was also of importance because
+this increases the inspection cost of the RWT systems, while the inspection process is
+eliminated in the SEWT systems by means of sensors. This inspection cost is, therefore, of
+significance when determining the economic benefits of the sensors.
+Demands for the remanufactured wind turbines and subassemblies were also included in the
+factorial design. Table 8 shows these factors. The demands followed a Poisson distribution and
+had annual Poisson rates. As mentioned previously, the LQ-level components were not
+included in the factorial design because they were deemed to have an insignificant impact
+on the performance measures.
+The factorial design included the remanufacturing process, which included the factors
+associated with assembly time, assembly cost, and scrap revenue. The scrap revenue was
+calculated in dollars per ton, as Table 9 shows.
+In the maintenance part of the systems, the subassemblies were replaced once they failed.
+The material costs for the replacement of the subassemblies was included in the factorial
+design as Table 10 shows.
+Arena 14.7 [32] discrete event simulation software was used to model the RWT and SEWT
+systems and run the experiments. A verification technique that consisted of running the
+experiments with extreme values was also used so that the models were verified as to whether
+they were going to provide the expected outcomes. The models were run for 9125 days, which
+corresponded to 25 years. Since the expected life time of the wind turbines was 20 years and
+this study considered EOL processing of the wind turbines, this run length was deemed to be
+Table 3 Inspection cost and time
+factors
+
+Factor
+
+Level 1
+
+Level 2
+
+Inspection cost ($/min)
+Tower inspection time (min)
+Rotor blade inspection time (min)
+Nacelle inspection time (min)
+Gear box inspection time (min)
+Generator inspection time(min)
+
+1
+5
+10
+20
+10
+10
+
+0.75
+4
+8
+
+Table 4 Probability factors
+
+145
+
+Factor
+
+Level 1(%)
+
+Level 2(%)
+
+Usable tower
+Usable rotor blade
+Usable nacelle
+Usable gear box
+Usable generator
+HQ Tower return
+MQ Tower return
+HQ Rotor blade return
+MQ Rotor blade return
+HQ Nacelle return
+MQ Nacelle return
+HQ Gear box return
+MQ Gear box return
+HQ Generator return
+MQ Generator return
+
+90
+90
+90
+90
+90
+55
+30
+55
+30
+55
+30
+55
+30
+55
+30
+
+80
+80
+80
+80
+80
+50
+30
+50
+30
+50
+30
+50
+30
+50
+30
+
+sufficient to produce reliable experiment results. Each model was run 64 times, equating to the
+number of experiments conducted, for both RWT and SEWT systems. In addition to the data
+related to the factors described above, additional data was used to run the experiments, which
+is shown in Appendix (see Tables 14, 15, 16, 17, 18, and 19).
+During the experimental phase, several performance measures were determined and collected as outputs of the simulation models. By using these measures, it was possible to
+determine the economic contribution the sensors made to the closed-loop supply chain
+systems. Both maintenance and EOL processes were taken into consideration in the systems.
+With regard to maintenance processes, the maintenance cost of the wind turbines was collected
+as a measure. For the EOL processes, the potential profit that could be earned from EOL
+processing of the wind turbines was observed. The formulas that helps to calculate the
+performance measures can be seen below.
+Maintenance cost ¼ Labor Cost þ Productivity Loss Cost þ Material Replacement Cost
+Total Profit ¼ Total Revenue–Total Cost
+Total Revenue ¼ Sales Revenue þ Scrap Revenue
+Total Cost ¼ Collection Cost þ Disassembly Cost þ Inspection Cost þ Remanufacturing
+Cost þ Holding Cost þ Backordering Cost þ Disposal Cost þ Transportation Cost
+Sensor Value ¼ ðMaintenance Cost Savings þ Total Profit ImprovementÞ=Total Number of Sensors
+
+Results and analysis
+This section presents the experiment results and statistical analyses of these results. Table 11
+shows the mean values of the performance measures including EOL profit per wind turbine,
+Table 5 Low quality subassembly
+probabilities
+
+Factor
+
+Level 1(%)
+
+Level 2(%)
+
+LQ Tower return
+LQ Rotor blade return
+LQ Nacelle return
+LQ Gear box return
+LQ Generator return
+
+15
+15
+15
+15
+15
+
+20
+20
+
+Table 6 Quality level probabilities
+when renewal-time threshold is
+exceeded
+
+
+
+Factor
+
+Level 1(%)
+
+Level 2(%)
+
+HQ Tower return
+MQ Tower return
+LQ Tower return
+HQ Rotor blade return
+MQ Rotor blade return
+LQ Rotor blade return
+HQ Nacelle return
+MQ Nacelle return
+LQ Nacelle return
+HQ Gear box return
+MQ Gear box return
+LQ Gear box return
+HQ Generator return
+MQ Generator return
+LQ Generator return
+
+25
+30
+45
+25
+30
+45
+25
+30
+45
+25
+30
+45
+25
+30
+45
+
+20
+30
+50
+20
+30
+50
+20
+30
+50
+20
+30
+50
+20
+30
+50
+
+maintenance cost per wind turbine, disassembly cost, inspection cost, and total profit of the
+systems. The EOL profits per wind turbine for the SEWT and RWT systems were $8121.04
+and $8039.90 respectively. This was the profit that could be made by processing the wind
+turbines after they completed their life cycles. The maintenance costs per wind turbine for the
+SEWT and RWT systems were $61,577.40 and $110,850.00 respectively. These figures
+denoted the amount of expenditure that was required to maintain the wind turbines during
+their life cycles. The disassembly costs, inspection costs, and total profit of both systems are
+also presented in Table 11.
+The mean values of the systems presented in Table 11 shows that the SEWT systems
+performed better than the RWT systems for each of the performance measures. It was
+important to test this performance statistically to determine its significance level. As such, a
+pairwise t-test was performed. This particular test was chosen because it allows the analysis of
+the mean differences and compares the experiments as pairs for both systems. Comparing the
+experiments as pairs was important because the orthogonal arrays method uses a specific
+factorial design and experiments should be paired to produce unbiased results. Table 12 shows
+the t-test results including mean differences and p-values for each performance measure.
+The mean difference in EOL profit per wind turbine between the SEWT and RWT systems
+assessed in this study was $81.13. The p-value was 0.2328, meaning that the difference
+between the two systems was not statistically significant. In accordance with that, the total
+profit difference between the systems was also not statistically significant. The mean difference
+in maintenance cost per wind turbine was −49,272.64, meaning that the manufacturers could
+save $49,272.64 through the use of the SEWT system. The p-value was less than 0.0001 and,
+as such, the maintenance cost difference between the systems was extremely statistically
+
+Table 7 Maintenance factors
+
+Factor
+
+Level 1
+
+Level 2
+
+Recognition of failure and service activation
+Inspection time of failure (min)
+(Normally distributed)
+Labor cost
+Productivity loss cost
+
+10 days
+(40,3)
+
+7 days
+(30,3)
+
+$45/h
+$12/h
+
+Table 8 Remanufactured wind
+turbine and subassembly demands
+
+147
+
+Level 1
+
+Level 2
+
+HQ Wind turbine (/year)
+MQ Wind turbine (/year)
+HQ Tower (/year)
+MQ Tower (/year)
+HQ Rotor blade (/year)
+MQ Rotor blade (/year)
+HQ Nacelle (/year)
+MQ Nacelle (/year)
+HQ Gear box (/year)
+MQ Gear box (/year)
+HQ Generator (/year)
+MQ Generator (/year)
+
+Table 9 Remanufacturing assembly and scrap revenue factors
+
+Factor
+
+5
+3
+5
+3
+5
+3
+5
+3
+5
+3
+5
+3
+
+4
+2
+4
+2
+4
+2
+4
+2
+4
+2
+4
+2
+
+Factor
+
+Level 1
+
+Level 2
+
+Wind turbine remanufacturing time (day)
+Assembly cost($/min)
+Scrap revenue ($/ton)
+
+1
+4
+60
+
+0.75
+3
+50
+
+significant. The disassembly cost and inspection cost differences between the two systems
+were also statistically significant. These statistics are presented in Table 12.
+The EOL profit improvement and maintenance cost savings between the SEWT and
+RWT systems were combined to calculate the sensor value. According to this calculation,
+the mean value of the sensor was $49,353.77. This means that the use of sensors in a
+closed-loop wind turbine supply chain could contribute as much as $49,353.77. Table 13
+presents the additional results of the pairwise t-test including the confidence intervals of
+the performance measures.
+
+Conclusions
+Information retrieval from products has become popular in recent years. Embedding sensors
+into products and tracking them during their use phase is one very popular information retrieval
+method. This study compared two closed-loop supply chain systems for wind turbines, SEWT
+and RWT systems, to test the performance of the sensors and calculate the economic contribution they could make to closed-loop supply chain systems. The results of the experiments
+conducted in this study showed that the sensors enhanced the maintenance performance of the
+wind turbine systems by estimating the failures. The sensors delivered maintenance cost
+savings as high as $49,272.64 in SEWT systems relative to RWT systems. In addition, the
+Table 10 Subassembly replacement costs for maintenance
+
+Factor
+
+Level 1
+
+Level 2
+
+Tower ($)
+Rotor blade ($)
+Nacelle ($)
+Gear box ($)
+Generator ($)
+
+4000
+2500
+2000
+2500
+1500
+
+3500
+2000
+
+
+
+Table 11 Experiment results for sewt and rwt systems
+Measure
+
+SEWT system ($)
+
+RWT system ($)
+
+EOL profit / Wind turbine
+Maintenance cost / Wind turbine
+Total profit
+Disassembly cost
+Inspection cost
+
+8121.04
+61,577.40
+812,103.50
+20,941.84
+42.88
+
+8039.90
+110,850.00
+803,990.20
+22,125.00
+4287.50
+
+Table 12 Pairwise T-test results for mean difference
+Measure
+
+Mean difference (SEWT-RWT) ($)
+
+P-Value
+
+Sensor value
+EOL profit / Wind turbine
+Maintenance cost / Wind turbine
+Total profit
+Disassembly cost
+Inspection cost
+
+49,353.77
+81.13
+−49,272.64
+8113.38
+−1183.16
+−4244.63
+
+N/A
+0.2328
+<0.0001
+0.2328
+<0.0001
+<0.0001
+
+use of sensors increased the total profit of the EOL processing of the wind turbines. As such, the
+results of this study indicate that embedding sensors into wind turbines can represent a
+commercially viable means of reducing the cost of maintaining wind turbines as well as
+increasing the EOL profit that can be generated when they complete their useful lives.
+This study has illustrated that sensors provide economic benefits to wind turbines systems.
+In addition, they are also helpful in supply chain management of such systems. Supply and
+demand planning can be improved by means of sensors because the products are tracked
+throughout their life cycles. Sensors are also helpful to designers who can use the information
+derived from them to increase the reliability of the components as sensors can track changes in
+their conditions and possible reasons behind such changes.
+This research assumed that sensors will be able to provide reliable information during the
+use-phase of wind turbines. However, if sensors are unreliable, they could lead to inaccurate
+data. Since wind turbines can be expensive, inaccurate data on the conditions of their
+components could result in replacing components more frequently than necessary or conversely not replacing components when necessary. Any of these situations is undesirable and may
+reduce or eliminate all the benefits that are expected from sensors. Thus, one idea of future
+work is to conduct a study to assess the reliability of the sensors and recommend methods to
+mitigate such situations.
+Table 13 95% Confidence interval of mean difference
+Measure
+
+95% Confidence interval of mean difference (SEWT-RWT)
+Lower limit ($)
+
+Sensor value
+EOL profit / Wind turbine
+Maintenance cost / Wind turbine
+Total profit
+Disassembly cost
+Inspection cost
+
+Upper limit ($)
+
+47,250.63
+−53.45
+−51,386.32
+−5345.22
+−1295.52
+−4411.71
+
+51,456.91
+215.72
+−47,158.95
+
+149
+
+Appendix
+Table 14 LQ Remanufactured
+wind turbine and subassembly
+prices
+
+Table 15 LQ Remanufactured
+wind turbine and subassembly
+demands
+
+LQ Wind turbine ($)
+LQ Tower ($)
+LQ Rotor blade ($)
+LQ Nacelle ($)
+LQ Gear box ($)
+LQ Generator ($)
+
+15,000
+1000
+750
+900
+750
+750
+
+(Follows poisson distribution)
+LQ Wind turbine (/year)
+LQ Tower (/year)
+LQ Rotor blade (/year)
+LQ Nacelle (/year)
+LQ Gear box (/year)
+LQ Generator (/year)
+
+Table 16 Maintenance data
+
+Table 17 Subassembly replacement times for maintenance
+
+Failure rate (year) (Poisson distribution)
+Expected lifetime (year)
+Annual energy production ($/year)
+Preventive maintenance cost (Twice per year) $
+
+Table 19 Production and cost data
+
+1
+20
+5,909,091
+67,545
+
+(Normally distributed) (Mean, standard deviation)
+Tower (min)
+Rotor blade (min)
+Nacelle (min)
+Gear box (min)
+Generator (min)
+
+Table 18 Subassembly failure
+probabilities (%)
+
+2
+2
+2
+2
+2
+2
+
+(120,5)
+(20,2)
+(20,2)
+(20,2)
+(20,2)
+
+Tower failure
+Rotor blade failure
+Nacelle failure
+Gear box failure
+Generator failure
+
+0.5
+26.5
+36
+17
+20
+
+Wind turbine interarrival time (day) (Exponential)
+Disposal cost ($/ton)
+Holding cost rate
+Backordering cost rate
+
+3
+
+
+
+In: Gupta SM, Lambert AJD (eds) Environment conscious manufacturing. CRC Press, Boca Raton, p

@@ -1,0 +1,2499 @@
+
+
+1 Introduction
+Due to the technological enhancement of additive manufacturing (AM) over the past years, AM starts to replace
+subtractive production technologies. In some ﬁelds of use,
+AM is competitive, because it reduces production costs and
+at the same time improves the range of features of components. But if one production technology is replaced by
+another, this can change production and logistics processes
+as well. Still it appears that the focus in research is on
+improving the actual AM production technology, although
+industry and academia are aware of possible broader
+implications of AM, e.g. on supply networks. Potential
+implications of AM on supply networks are discussed.
+Tuck et al. [17], Fawcett and Waller [8], Cottrill [6],
+Christopher and Ryals [5] and Waller and Fawcett [18]
+study and evaluate implications of AM, but they are of a
+qualitative nature. We are not aware of study that measures
+impacts of AM on supply networks and quantiﬁes these
+effects. Only a few quantitative assessments like a case
+
+
+study of Khajavi et al. [13] on a spare parts supply chain in
+the aeronautics industry are available, which, however,
+focuses on accounting issues. Quantifying the impact of
+AM on supply networks appears to be important in order to
+support managerial decisions on the structure of the future
+supply network.
+The contribution of this study is as follows: We
+quantify the effects of AM on a two-stage supply network.
+Raw material is transported from sources (e.g. a port) to
+production sites and then to customer locations. We
+model this problem as a well-known multi-stage facility
+location problem. A data set of 700 instances is generated
+that covers a broad range of geographical distributions of
+the nodes in the network. The effect of AM is integrated
+by using different buy-to-ﬂy ratios, which represent the
+efﬁciency of material usage in a production process. By
+comparing less efﬁcient buy-to-ﬂy ratios (i.e. traditional
+production) with more efﬁcient ratios (i.e. AM), we can
+compare different optimal network conﬁgurations. This is
+done for each of the 700 instances. Four indicators measure the performance of the generated networks. In contrast to our previous study [3], the evaluation is
+signiﬁcantly extended: instead of six instances, a set of
+700 instances is generated and used for testing. We
+included several more structures in these instances, in
+particular with respect to the geographical distribution of
+nodes as well as a different clustering of nodes. In our
+previous study, the geographical distribution of the nodes
+was roughly based on the network structures in Germany
+and USA. In this contribution, the geographical distribution of the different nodes is created more abstractly (i.e.
+not based on any country’s supply structure) and more
+systematically. Therefore, broader and validated statements are possible.
+This article is structured in ﬁve sections. After this
+introduction, Sect. 2 will give a brief overview of AM and
+describe technological aspects which probably will have
+implications on the structure of supply networks. Section 3
+introduces our two-stage supply network together with a
+facility location-allocation model. In particular, the generation of the used data set is described. In Sect. 4, we
+present and analyse the results of a computational study.
+Section 5 concludes the paper.
+
+
+
+2.1 Deﬁnition of additive manufacturing
+Within the scientiﬁc community, there is a set of several
+synonyms for AM and the technology, respectively. Nevertheless, AM is the most often used term. It is an umbrella
+term for many different technologies. AM usually is divided into subcategories dependent for what the AM technology is used for. These subcategories are rapid
+manufacturing for producing serial parts, rapid prototyping
+for producing prototypes and models, and rapid tooling for
+production tools for production like moulds. However, in
+the non-scientiﬁc community AM is a rather unknown
+term. The most common mainstream term is 3D printing
+[21]. Therefore, 3D printing is the more often used term
+overall. According to the mainstream term parts are printed
+using ink (being equivalent to AM production using raw
+material).
+Regardless of the many different synonyms in the scientiﬁc and non-scientiﬁc community, there is no overallagreed deﬁnition on AM, respectively, on 3D printing until
+now. In this contribution, we follow Gebhardts deﬁnition,
+wherein AM is ‘‘...a layer-based automated fabrication
+process for making scaled 3-dimensional physical objects
+directly from 3D-CAD data without using part-depending
+tools’’ [9].
+The industrial development and research on AM started
+mid of the twentieth century [4]. But AM is not a new
+technology in general or was invented at that time. A ﬁrst
+patent which could be considered AM at least partly
+reaches back to 1903 [16]. In the past, the technology was
+especially used for producing models or prototypes. In this
+case, it is referred to as rapid prototyping. With the ongoing
+development of AM, the technology is capable of printing
+ﬁnal products today. Therefore, classical production technologies could be replaced by AM [6].
+Currently, companies as well as research institutions
+work hard on the further development of the technology
+itself and set up new business models using AM for production. The most popular branches for using AM are the
+aerospace industry and the medical engineering. For
+example, there is research going on to replace parts like
+brackets or engine sensors of an air plane, and dental
+implants [1, 9, 10].
+2.2 Functional integration
+
+2 Implications of additive manufacturing
+The concept of AM is introduced. Section 2.1 explains the
+term AM. Among the advantages of AM discussed in the
+literature, two will be explained in detail, that is, functional
+integration of parts in Sect. 2.2 and a higher resource
+efﬁciency for production in Sect. 2.3.
+
+123
+
+When using classical production technologies, usually
+several production steps have to be performed and several
+precursors have to be assembled to get the ﬁnal product.
+Because of that the production planning becomes more
+complex. But with AM this is going to change. AM enables
+may be produced in a single production step [11]. An
+assembly of precursors is not necessary. Therefore, the
+number of production steps decreases and production
+planning will be simpliﬁed.
+This functional integration has not to be limited to a
+single company. Imagine original equipment manufacturers (OEMs) printing the ﬁnal product in one production
+step. Precursors that were originally produced by a supplier
+are directly integrated in the AM process. Therefore, actors
+could drop out of the supply network and its structure will
+change.
+2.3 Higher resource efﬁciency
+For AM processes, only the material that is actually needed
+for the ﬁnal part is used. Regardless of the dedicated
+technical process, the unused raw material can be (re-)used
+for the later production of other parts. Therefore, less
+material is required [19], and AM may increase the
+resource efﬁciency during production. Classical production
+on the other hand has a rather low resource efﬁciency.
+There, over 80 % of material is removed from the work
+piece [11].
+Especially in the aerospace industry, this effect is
+referred to as buy-to-ﬂy ratio. The term refers to the weight
+ratio of ‘‘...wrought material that is purchased as a block
+that is required to form a complex part’’ [11]. Our computational experiments do not address aerospace production in particular but AM production in general.
+Nevertheless, we will use the term in this paper for
+addressing resource efﬁciency.
+
+3 An optimization model for a two-stage supply
+network
+For quantifying the effects of AM on supply networks, a
+facility location-allocation model was used. The main
+characteristics of the considered supply network are discussed in Sect. 3.1. In Sect. 3.2, the corresponding facility
+location-allocation model is introduced. Section 3.3
+explains how the test data for our 700 test instances has
+been created.
+3.1 Deﬁnition of supply network
+We assume a stylized two-stage supply network. According to
+Sect. 2.2, manufacturing of products requires one production
+step only. This should apply for both, AM and classical
+production technologies. In our model, the different technologies are represented by different buy-to-ﬂy ratios (see
+Sect. 3.3.2). A buy-to-ﬂy ratio a of 5 means that ﬁve units of
+
+Page 3 of 14
+
+13
+
+Fig. 1 Basic structure of supply network
+
+material are bought and thereof only one unit goes into the
+ﬁnal product. Therefore, the focus is on a two-stage supply
+network that consists of three types of nodes: source nodes,
+production sites, and customers (see Fig. 1). On the ﬁrst stage
+of such a network, the raw materials are transported from the
+source nodes (e.g. a harbour) to the production sites. There,
+the raw material is transformed into a ﬁnal product. Afterwards, the ﬁnal products are transported from the production
+sites to the customers on the second stage of the network.
+The raw material to manufacture a ﬁnal product is
+assumed to be homogenous. Precursors are also not considered. The amount of the transported goods (raw material
+and ﬁnal products) is measured in tonnes. The costs for
+transporting the materials and ﬁnal products are calculated
+as tonne-kilometres (tkm) using the distance in kilometres
+weighted by the weight of goods to be transported.
+A source node can supply multiple production sites. A
+production site can supply multiple customers. However,
+the demand of a customer has to be fulﬁlled by only one
+production site. Furthermore, a storage of raw materials or
+ﬁnal products at the production sites is forbidden. The
+production sites have a capacity restriction on the number
+of products to be manufactured. In contrast, transport
+relations between the nodes have no capacities. This is
+reasonable, because network design is a rather long-term
+problem and transport capacities, in particular road transport, are usually easily adaptable.
+3.2 Two-stage capacitated facility location problem
+According to Sect. 2.3, the use of AM might reduce the
+required raw materials in order to produce ﬁnal products.
+Therefore, quantity of goods to be transported will change.
+But this change is not the only implication for the supply
+network. Beyond that the questions arises whether the
+locations of our facilities are still adequate in order to
+supply our customers if AM is applied within the network?
+In the operations research literature, this question is a well
+studied. There, the problem is classiﬁed as a facility location problem. Many models for this problem are discussed,
+and a comprehensive survey is presented by Klose
+and Drexl [14].
+
+
+
+
+In order to model the two-stage supply network at hand,
+we decided to use the two-stage capacitated facility location problem (TSCFLP) in the formulation presented by
+Klose and Drexl [14] with a slight adjustment. In the
+TSCFLP, we are given a set N of nodes. N is divided into a
+set I of source nodes, a set J of potential production sites,
+and a set K of customer locations.
+XX
+XX
+X
+min z1 ¼
+tij xij þ
+dk ckj zkj þ
+fj yj
+ð1Þ
+i2I j2J
+
+s.t.
+
+X
+
+k2k j2J
+
+zkj ¼ 1
+
+j2J
+
+8k 2 K
+
+ð2Þ
+
+j2J
+
+X
+
+sj y j !
+
+j2J
+
+X
+
+X
+
+ð3Þ
+
+dk
+
+k2K
+
+dk zkj
+
+sj yj
+
+8j 2 J
+
+ð4Þ
+
+k2K
+
+X
+
+xij
+
+8i 2 I
+
+pi
+
+ð5Þ
+
+guarantees that the capacity of a production site sufﬁces to
+satisfy the demand of the customers supplied by this production site. The capacity of a source has to be larger than
+the transport volume of the assigned production sites (5).
+Restriction (6) deﬁnes the ﬂow balance, and the inﬂow of
+each production site has to be equal to the outﬂow. Storage
+is not possible. Constraint (7) ensures that a source does not
+supply more raw materials than required by an open production site. Restriction (8) guarantees that a production
+site is open if it supplies goods to a customer location.
+Constraints (9) to (11) deﬁne the decision variables.
+In contrast to the model of Klose and Drexl [14], we
+include the parameter a in restriction (6). This parameter is
+denoted as buy-to-ﬂy ratio. It indicates the efﬁciency of the
+production process, and lower values of a stand for a higher
+efﬁciency. This parameter is changed during the computational experiments in order to introduce the higher
+resource efﬁciency of AM into the model.
+
+j2J
+
+X
+
+xij ¼
+
+j2J
+
+X
+
+xij 2 N0
+
+ð6Þ
+
+k2K
+
+xij À pi yj
+zkj À yj
+
+3.3 Generation of test data
+8j 2 J
+
+adk zkj
+
+0
+0
+
+8i 2 I; j 2 J
+8k 2 K;
+
+8i 2 I;
+
+yj 2 f0; 1g
+
+8j 2 J
+
+8j 2 J
+
+8j 2 J
+
+zkj 2 f0; 1g 8k 2 K;
+
+ð7Þ
+ð8Þ
+ð9Þ
+
+•
+
+8j 2 J
+
+The nodes of a supply network, in particular
+•
+
+ð10Þ
+
+•
+
+ð11Þ
+
+The capacity of source i and production site j are given by
+pi (i 2 I) and sj (j 2 JÞ, respectively. For each customer
+location k 2 K the demand dk is given. The ﬁxed cost for
+opening a production site j is given by fj (j 2 J). The
+transport costs on the ﬁrst stage of a network are given by
+tij with i 2 I and j 2 J. On the second stage of a network,
+the transport costs per unit from a production site j 2 J to a
+customer location k 2 K are given by ckj .
+The decision variables are xij , yj , and zkj
+(i 2 I; j 2 J; k 2 K). xij indicates the transport volume in
+tonnes from source node i to production site j. The binary
+variable yj indicates if a production site is in use yj ¼ 1
+(referred to as open) or not yj ¼ 0. The binary variable zjk
+indicates if production site j supplies customer location
+k. The TSCFLP is given by (1) to (11).
+The objective function (1) minimizes the total costs that
+are made up from the transport costs on the ﬁrst and the
+second stage of the network plus the costs for opening a
+production site. Constraint (2) ensures that each customer
+is supplied by exactly one production site. Constraint (3)
+ensures that the open production sites on the whole are able
+to satisfy the demand of all customers. Constraint (4)
+
+123
+
+The parameters of the TSCFLP represent the required input
+data for our experiments. The following parameters were
+considered:
+
+•
+•
+
+The number of source nodes, production nodes, and
+customer nodes as well as
+The geographical distribution of these nodes,
+
+The buy-to-ﬂy ratio a, and
+Some other parameters, whose values were ﬁxed for all
+instances.
+
+We studied seven node allocations, twenty-ﬁve different
+geographical distributions, and four buy-to-ﬂy ratios. As a
+consequence, 700 instances of the TSCFLP have been
+created. This allows a much more in-depth analysis of AM
+effects on supply networks as a previous study of ours [3]
+which uses only six instances.
+3.3.1 Locating nodes of supply networks
+A supply network consists of three types of nodes: source
+nodes, production nodes, and customer nodes. Just as [3],
+the total number of nodes in a network was set to 90. Most
+instances of the TSCFLP with 90 or less nodes are solved
+via state-of-the-art mixed-integer programming (MIP)
+solvers within a few minutes. Table 1 shows the seven used
+allocations of source nodes, production nodes, and customer nodes.
+The conﬁguration of a supply network is not only
+
+Table 1 Seven studied allocations of 90 nodes into source, production, and customer nodes
+Allocation
+
+# Source nodes
+
+# Production nodes
+
+# Customer
+nodes
+
+A1
+
+10
+
+20
+
+60
+
+A2
+
+10
+
+60
+
+20
+
+A3
+A4
+
+20
+20
+
+10
+60
+
+60
+10
+
+A5
+
+30
+
+30
+
+30
+
+A6
+
+60
+
+20
+
+10
+
+A7
+
+60
+
+10
+
+20
+
+geographical distribution of these network nodes. The
+geographical distribution of nodes affects signiﬁcantly
+supply relationships between nodes and therefore transport
+costs. An equal distribution of nodes over the grid lacks
+practical relevance in many cases. We assumed there are
+clusters of nodes. For example, production sites may be
+clustered in industrial parks which may be close to source
+nodes (i.e. seaports) or far away in the hinterland. A
+clustering of source nodes could be supported by geographical characteristics, e.g. access to the sea. Clusters
+could also form because of urbanization which might imply
+fallow lands in other areas of a country. Different clusters
+of the three node types were considered in order to take
+some of these characteristics into account.
+To generate a node set which is geographical distributed, we assumed a 100 Â 100 grid. Given an allocation
+Ai (i ¼ 1; . . .; 7) the nodes were placed randomly and
+independently of each other on the grid. As Fig. 2 shows,
+the x-axis and the y-axis were divided into segments with a
+width of 10 units, respectively. 100 squares emerged. For
+each node, ﬁrst a square was selected. The selection
+probability of this square followed a normal distribution.
+Mean and standard deviation of the normal distribution
+depended on the desired positions of the clusters. However,
+for each type of node the same normal distribution was
+applied. Second, after the square was chosen, the exact
+location within the 10 Â 10-square was equally likely.
+Figure 2 shows an example, where a cluster of nodes
+was generated in the north-east region. On both axes, the
+mean of the normal distribution was set to 75 and the
+standard deviation was set to 20. Sixty nodes are placed
+randomly. As intended by the used normal distribution, a
+cluster of nodes in the north-east area emerged.
+A node distribution in a network is identiﬁed by
+quadruple (nw, ne, sw, se). Each element of the quadruple
+represents the desired position of a node cluster.
+nw, ne, sw, and se denote the north-west, north-east, southwest, and south-east region of the grid. Possible values of
+nw, ne, sw, se are S; P; C; ; indicating a source node, a
+production node, a customer node, or no clustering.
+
+13
+
+Combinations of S, P and C were possible. Graphically,
+this can be illustrated like one of the squares in Fig. 4.
+For all instances, source nodes and customer nodes were
+placed in one cluster, respectively. However, for production nodes we created a set of instances with one cluster
+and another set with two clusters. This allowed us to study
+more realistic network structures. Note, using more than
+two clusters with the given allocations (see Table 1) leads
+to little additional insights, because the node locations
+become similar to the equal distribution case.
+Grids with one cluster of production nodes. From all
+possible combinations of single production clusters on the
+grid, only eleven are considered. The main reason to
+exclude cluster combinations from the study is rotational
+symmetry among the quadruples. An example for rotational symmetry of clusters is given in Fig. 3. Symmetric
+quadruples do not have to be considered because they
+represent no unique arrangement of clusters.
+Figure 4 shows all network structures consisting of only
+one cluster per type of node which were used for the computational experiments (C1–C11). In addition, the structure
+C11 was created where all nodes are evenly distributed.
+Grids with two clusters of production nodes. Other
+things being equal, the probability distribution used to
+place the production nodes differs in this setting. Two
+production clusters were generated using two individual
+probability distributions from the single cluster case.
+However, for each segment of the axis the higher probability of both probabilities was determined. It was squared
+and standardized to 100 % for all segments of the axis.
+Figure 5 shows an example of the corresponding probabilities on the axes and two clusters of production nodes in
+the north-east and the south-east regions.
+When two production clusters are diagonal to each
+other, a slightly different treatment was required. Diagonal
+means either production clusters in the nw and se regions or
+production clusters in the ne and sw regions. If an unwanted region is selected for placing a production site (i.e.
+after drawing random numbers for the x-axis and the
+y-axis), we dismissed this decision in 85 % of all accounts.
+By this, an almost uniform spread of production sites over
+the grid in both diagonal cases was avoided.
+We created instances for 14 different cluster combinations (see Fig. 4, C12–C25). All of them contain two production clusters. Other cluster combinations were excluded
+from the test due to rotational symmetry considerations.
+3.3.2 Buy-to-ﬂy ratio a
+The buy-to-ﬂy ratio expresses the resource efﬁciency of a
+production process. According to Heck et al. [12], Lindemann et al. [15], and Arcam-AB [2], the buy-to-ﬂy ratio for
+AM varies between almost a ¼ 1 and a ¼ 3. For
+
+
+
+
+Fig. 2 Example distribution of
+60 nodes using normal
+distributions on the x-axis and
+y-axis, respectively
+
+•
+
+Fig. 3 Comparison of rotationally symmetric distributions of clusters
+
+subtractive production, the buy-to-ﬂy ratio varies between
+a ¼ 10 and a ¼ 40 as reported by Dutta and Froes [7] and
+Whittaker and Froes [20] for real-world scenarios. Four
+different buy-to-ﬂy ratios were considered to allow for a
+broad spectrum, i.e. a was set to 2, 5, 10 and 20.
+
+Cost fj for opening a production site j 2 J were set to
+fj :¼ 5000. This value equals the average tkm for a
+transport in the supply network from a source node to
+customer node. The average distance between all
+source nodes and all production sites as well as all
+production sites and all customers is 50 km each. The
+customers demand is uniform randomly drawn between
+1 and 100; therefore, the average demand per customer
+is 50. We assumed the best possible buy-to-ﬂy ratio
+a ¼ 1, i.e. the average transported material is 50 tones
+on both stages of transport. Therefore, the average tone
+kilometres are 2500 on each stage of transport, in sum
+5000.
+The demand dk of each customer k 2 K was drawn
+uniform randomly between 1 and 100.
+
+3.3.3 Other parameters
+
+•
+
+The TSCFLP allows to set different capacities for sources
+pi and production sites sj , cost for opening production sites
+fj as well as demand of customers dk . All of these were set
+once and are constant for all instances. The values are:
+
+4 A computational study
+
+•
+•
+
+Capacities pi of each source node i 2 I were unlimited,
+i.e. pi :¼ 99;999;999 and have therefore no impact.
+Capacities sj of each production site j 2 J were uniform
+randomly drawn between 100 and 500.
+
+123
+
+The 700 instances of the TSCFLP (cf. Sects. 3.2, 3.3) are
+solved by the mixed-integer programming solver CPLEX
+12.5.1 from IBM. To measure the performance of a supply
+
+3.
+
+4.
+
+13
+
+z3 :¼ z1st : z2nd the proportion of total costs z1st arising
+3
+3
+3
+on the ﬁrst stage versus costs z2nd arising on the second
+3
+stage of the supply network.
+P
+i2I;j2J tij xij
+1st
+P
+z3 :¼ P
+i2I;j2J tij xij þ
+j2J;k2K dk ckj zkj
+P
+j2J;k2K dk ckj zkj
+P
+z2nd :¼ P
+3
+i2I;j2J tij xij þ
+j2J;k2K dk ckj zkj
+P
+z4 :¼ j2J yj , the number of open production sites.
+
+When discussing the results of our computational study
+in the next section, we focus on these four indicators.
+4.2 Discussion of results
+
+Fig. 4 Studied grids with one (C1 –C11 ) and two (C12 –C25 ) clusters of
+production nodes
+
+All 700 instances have been solved by the mixed-integer
+programming solver CPLEX 12.5.1 from IBM. First, the
+results for 308 instances with one production cluster are
+discussed in Sect. 4.2.1. Next, we analyse the results of 392
+instances with two production clusters in Sect. 4.2.2.
+It goes without saying that the discussion of the effects
+of AM on the structure of supply networks is only valid for
+the instances at hand used for our stylized model. Nevertheless, this provides a new method of analysing effects of
+AM on network structures.
+4.2.1 Analysis of networks with one production cluster
+
+results of the computational experiments are discussed in
+Sect. 4.2.
+4.1 Performance indicators
+The structural effects of AM on supply networks are
+measured and discussed by means of the indicators z1 to z4 :
+1.
+2.
+
+z1 , the total costs of the network as deﬁned by the
+TSCFLP’s objective function (1).
+P
+1
+z2 :¼ jKj ð j2J;k2K dk ckj zkj Þ, the average transport costs
+per customer on the second stage of the supply
+network. The second stage considers transports
+between production sites and customer locations only.
+The ﬁrst-stage transportation costs between source
+nodes and production sites are not considered because
+a lower buy-to-ﬂy ratio requires less raw materials
+which obviously reduces the ﬁrst-stage transportation
+cost. However, the demand of the customers is
+independent of the buy-to-ﬂy ratio which is why the
+transport volume on the second stage is constant.
+Therefore, z2 might provide useful information about
+to what extent transport costs are affected by different
+locations of production sites.
+
+Recall, an improved buy-to-ﬂy ratio means a higher resource
+efﬁciency of the production process and corresponds to a
+lower value of a. Table 2 shows the rounded median indicator values for the 308 single production cluster instances
+of the TSCFLP. The instances are divided into four groups
+with different buy-to-ﬂy ratios of a ¼ 2; 5; 10; 20. So, each
+group comprises 77 different networks. In addition, Fig. 6
+shows the median and the 10 and 90 % quantile of the
+indicators z1 to z4 for different buy-to-ﬂy ratios. For the sake
+of an easy comparison, the results are normalized with the
+results for a ¼ 20 deﬁned as 100 percent.
+Looking at the median z1 , the total costs decrease in all
+cases with an improved (i.e. lower) buy-to-ﬂy ratio. In
+addition, even the quantiles are always below the median
+value for a ¼ 20 (see Fig. 6). We conclude that in 80 % of
+all compared instances an improved buy-to-ﬂy ratio—that
+is, a switch to AM production—will reduce total costs of
+the network.
+Concerning z2 , an improvement of a will lead to lower
+transportation costs between production sites and customer
+locations on average per customer. However, with the
+given data the quantiles always reach the median of the
+a ¼ 20-case (see Fig. 6). But different from the effects
+
+
+
+
+Fig. 5 Example distribution of
+60 nodes with two production
+clusters
+
+Table 2 Median of the performance indicators with four buy-to-ﬂy
+ratios for 77 instances
+Indicator
+
+Buy-to-ﬂy Ratio a
+a¼2
+
+a¼5
+
+a ¼ 10
+
+a ¼ 20
+125,940
+
+z1
+
+49,408
+
+64,489
+
+84,437
+
+z2
+
+1,217
+
+1,429
+
+1,471
+
+1,523
+
+z3
+
+30:70
+
+43:57
+
+54:46
+
+68:32
+
+z4
+
+3
+
+3
+
+3
+
+3
+
+observed by means of z1 , a lower a will not always reduce
+z2 .
+With respect to z3 , the proportion of transportation costs
+on the ﬁrst stage and on the second stage shifts to the
+second stage. However, using AM changes the proportion
+of tkm required on the ﬁrst stage versus those required on
+the second stage of the supply network in the same way.
+This might be counter-intuitive, because z2 indicated a total
+reduction in transport costs on the second stage. The reason
+for this is that the buy-to-ﬂy ratio a leads to signiﬁcantly
+stronger reduction in the required tkm on the ﬁrst stage.
+Especially for a ¼ 2, the quantile range is very broad (see
+
+123
+
+Fig. 6). Compared to a ¼ 20, the share of tkm for a ¼ 2 on
+the second stage is over three times higher.
+The number of open production sites z4 is slightly
+reduced using a better a. Because the values of the other
+performance indicators change a lot more depending on a,
+we conclude that the number of production sites used does
+not affect the costs of the supply network much. However,
+when applying a better buy-to-ﬂy ratio in the network,
+other possible production sites are opened and therefore the
+structure changes.
+Apart from an overall analysis, a more detailed view on
+the cluster structures as well as on the allocation of nodes
+shows that the results are especially dependent on the
+number of the customers and clusters of at least two types
+of nodes. Table 3 shows the median values of the performance indicators classiﬁed for the allocation of numbers
+and clusters of nodes.
+In case of an allocation A1 and A3 (see Table 3), there
+are 60 customers to be supplied. On the other hand, the
+number of production sites is rather low with 10 or 20,
+respectively. To fulﬁl the demand of the customers, 9
+production sites have to be opened. Only little cost
+
+13
+
+Fig. 6 Median and quantile of
+performance indicators for
+different a relatively to a ¼ 20
+
+that if there are only few possible production sites to
+choose from, using AM improves the supply network only
+marginal. There are different allocations from production
+sites to customers, but overall the beneﬁt through the use of
+AM is low, because either way almost every production
+site has to be opened to fulﬁl the customer’s demand.
+If production sites and customers are located in the same
+region of the grid, AM, respectively a lower a, results in
+high cost reductions. This is the case for clusters C8 and C9
+(see Table 3). There, production sites and customers are
+located in the same region. By applying a lower a especially, the average transport costs per customer on the
+second stage of the supply network drop at least 17 up to
+30 percent. We conclude that even though the production
+sites and customers are already clustered in the same region
+the production sites move closer to the customers with a
+lower a.
+Summarizing the computational experiments of the 308
+single cluster instances, we conclude that the general
+results of Barz et al. [3] on the effects of AM on supply
+networks are reﬂected in our experiments, too. The total
+costs decrease, the proportion of transports costs shifts
+towards the second stage of transport, the costs of transport
+between production sites and the customer locations on
+average per customer drop and the number of production
+sites used is relatively steady. Additional conclusions are
+drawn from the different geographical distributions of the
+nodes and varying numbers of each node type. The biggest
+improvements by using AM production arise if the number
+of possible production sites to chose from is high. However, the number of production sites changes rarely.
+
+Furthermore, the effect of AM is large, if the clusters of
+two types of nodes are located nearby at the same geographical area. This is especially true for production sites
+and customer locations, which are close together. Vice
+versa the change to AM production in networks with only
+few production sites to chose, and/or clusters located at
+different spots, results in minor beneﬁts. With respect to
+supply network effects, AM production has the highest
+impact if the supply network is ﬂexible, i.e. if it is possible
+to change locations of the production sites.
+4.2.2 Analysis of networks with two production clusters
+The aggregated results for the two production cluster case
+are given in Table 5. It indicates the median of the indicator
+values for 392 test instances.
+A better buy-to-ﬂy ratio, i.e. using AM, improves the
+performance indicators. That is, total costs z1 reduce, the
+average tkm per customer on the second stage of transport
+z2 reduce, and a shift of transport share towards the second
+stage z3 occurs. The number of required production sites z4
+remains unchanged. Compared to grids with one production cluster the total cost z1 is signiﬁcantly lower. The other
+performance indicators z2 , z3 , and z4 are approximately on
+the same level.
+If subtractive production technologies are used, we
+conclude that supply networks consisting of two production
+clusters are superior compared to single production cluster
+networks. Analogous to one production cluster grids, the
+use of AM reduces the total costs of the supply network.
+Since the number of opened production sites remains
+
+
+82,612
+
+21,160
+
+43,087
+
+A4
+
+A5
+
+A6
+
+A7
+
+56,136
+
+251,274
+
+A3
+
+47,706
+
+51,261
+
+48,704
+
+51,896
+
+47,597
+
+49,408
+
+41,205
+51,884
+
+30,317
+
+39,939
+
+C1
+
+C2
+
+C3
+
+C4
+
+C5
+
+C6
+
+C7
+
+C8
+C9
+
+C10
+
+C11
+
+Cluster
+
+63,483
+
+47,597
+
+A2
+
+50,346
+
+36,375
+
+55,979
+68,658
+
+64,489
+
+63,483
+
+65,742
+
+59,254
+
+67,383
+
+67,302
+
+68,783
+
+55,979
+
+24,949
+
+103,604
+
+28,285
+
+349,079
+
+304,122
+
+Allocation
+A1
+222,072
+
+64,613
+
+43,881
+
+76,080
+93,516
+
+89,624
+
+82,933
+
+74,422
+
+77,179
+
+90,039
+
+96,302
+
+89,540
+
+70,788
+
+29,494
+
+124,653
+
+32,618
+
+528,937
+
+77,179
+
+474,792
+
+88,923
+
+54,926
+
+114,555
+143,233
+
+139,886
+
+125,940
+
+86,717
+
+106,879
+
+135,349
+
+147,584
+
+126,811
+
+103,695
+
+39,272
+
+174,999
+
+36,973
+
+936,130
+
+106,879
+
+824,128
+
+a ¼ 20
+
+881
+
+711
+
+816
+968
+
+1,321
+
+1,166
+
+1,526
+
+1,523
+
+1,423
+
+1,442
+
+1,677
+
+1,042
+
+1,178
+
+1,515
+
+1,423
+
+1,930
+
+1,006
+
+1,541
+
+a¼2
+
+a ¼ 10
+
+a¼2
+
+a¼5
+
+z2
+
+z1
+
+1,012
+
+868
+
+981
+1,400
+
+1,468
+
+1,450
+
+1,849
+
+1,758
+
+1,573
+
+1,432
+
+1,973
+
+1,174
+
+1,217
+
+1,572
+
+1,423
+
+1,932
+
+1,357
+
+1,754
+
+a¼5
+
+1,255
+
+872
+
+1,056
+1,440
+
+1,471
+
+1,732
+
+2,452
+
+1,866
+
+1,677
+
+1,432
+
+2,058
+
+1,252
+
+1,476
+
+1,732
+
+1,523
+
+1,932
+
+1,452
+
+1,760
+
+a ¼ 10
+
+1,277
+
+933
+
+1,130
+1,440
+
+1,478
+
+1,904
+
+2,567
+
+1,881
+
+1,677
+
+1,582
+
+2,058
+
+1,414
+
+1,476
+
+1,996
+
+1,523
+
+1,932
+
+1,486
+
+1,764
+
+a ¼ 20
+
+30:70
+
+26:74
+
+35:65
+49:51
+
+26:74
+
+38:62
+
+23:77
+
+29:71
+
+40:60
+
+24:76
+
+21:79
+
+26:74
+
+18:82
+
+32:68
+
+15:85
+
+46:54
+
+33:67
+
+51:49
+
+a¼2
+
+z3
+
+43:57
+
+33:67
+
+43:57
+46:54
+
+40:60
+
+51:49
+
+34:66
+
+45:55
+
+48:52
+
+43:57
+
+39:61
+
+44:56
+
+30:70
+
+43:57
+
+30:70
+
+68:32
+
+40:60
+
+68:32
+
+a¼5
+
+Table 3 Median of the performance indicators for different allocations and clusters for one production cluster networks
+
+50:50
+
+46:54
+
+60:40
+63:37
+
+55:45
+
+63:37
+
+29:71
+
+40:60
+
+65:35
+
+53:47
+
+50:50
+
+58:42
+
+42:58
+
+55:45
+
+29:71
+
+81:19
+
+50:50
+
+80:20
+
+a ¼ 10
+
+64:36
+
+61:39
+
+71:29
+78:22
+
+71:29
+
+74:26
+
+40:60
+
+51:49
+
+79:21
+
+66:34
+
+60:40
+
+66:34
+
+55:45
+
+69:31
+
+35:65
+
+90:10
+
+67:33
+
+88:12
+
+a ¼ 20
+
+3
+
+2
+
+3
+3
+
+2
+
+3
+
+3
+
+2
+
+2
+
+3
+
+3
+
+2
+
+1
+
+4
+
+1
+
+9
+
+3
+
+9
+
+a¼2
+
+z4
+
+3
+
+2
+
+3
+3
+
+2
+
+3
+
+3
+
+2
+
+3
+
+3
+
+3
+
+2
+
+2
+
+4
+
+2
+
+9
+
+3
+
+9
+
+a¼5
+
+3
+
+3
+
+3
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+4
+
+3
+
+3
+
+1
+
+5
+
+2
+
+9
+
+3
+
+9
+
+a ¼ 10
+
+3
+
+3
+
+3
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+4
+
+3
+
+3
+
+1
+
+5
+
+1
+
+9
+
+3
+
+9
+
+a ¼ 20
+
+13
+Page 10 of 14
+
+79,341
+
+22,459
+
+48,348
+
+A3
+
+A4
+
+A5
+
+A6
+
+A7
+
+64,944
+45,919
+
+43,017
+
+53,475
+
+59,338
+
+42,525
+
+45,000
+
+59,206
+
+42,735
+
+54,993
+
+54,190
+
+46,154
+
+36,143
+
+50,542
+
+36,810
+
+C12
+C13
+
+C14
+
+C15
+
+C16
+
+C17
+
+C18
+
+C19
+
+C20
+
+C21
+
+C22
+
+C23
+
+C24
+
+C25
+
+Cluster
+
+205,873
+
+A1
+
+A2
+
+Allocation
+
+46,405
+
+60,773
+
+44,186
+
+59,077
+
+69,361
+
+71,736
+
+57,130
+
+65,705
+
+53,534
+
+52,913
+
+68,120
+
+69,919
+
+96,953
+56,701
+
+59,925
+
+26,756
+
+106,044
+
+27,184
+
+330,062
+
+55,924
+
+303,477
+
+453,284
+
+62,205
+
+74,540
+
+53,116
+
+81,511
+
+93,904
+
+94,825
+
+74,860
+
+71,642
+
+67,725
+
+65,589
+
+80,653
+
+84,671
+
+141,343
+74,673
+
+73,091
+
+31,753
+
+135,976
+
+29,888
+
+520,304
+
+73,856
+
+92,139
+
+102,058
+
+70,975
+
+129,255
+
+125,952
+
+119,651
+
+110,321
+
+85,351
+
+75,739
+
+88,746
+
+98,016
+
+110,227
+
+192,123
+110,522
+
+100,037
+
+39,388
+
+191,002
+
+38,893
+
+920,179
+
+97,241
+
+716,504
+
+a ¼ 20
+
+881
+
+1,337
+
+759
+
+1,101
+
+1,447
+
+1,418
+
+927
+
+1,478
+
+1,455
+
+962
+
+1,380
+
+1,260
+
+1,747
+1,104
+
+1,120
+
+1,240
+
+1,183
+
+1,122
+
+1,516
+
+1,114
+
+1,303
+
+a¼2
+
+a ¼ 10
+
+a¼2
+
+a¼5
+
+z2
+
+z1
+
+891
+
+1,339
+
+796
+
+1,163
+
+1,766
+
+1,709
+
+1,220
+
+1,498
+
+1,731
+
+962
+
+1,764
+
+1,762
+
+2,032
+1,135
+
+1,467
+
+1,255
+
+1,332
+
+1,260
+
+1,544
+
+1,203
+
+1,504
+
+a¼5
+
+923
+
+1,345
+
+947
+
+1,241
+
+2,190
+
+2,488
+
+1,361
+
+1,992
+
+1,767
+
+950
+
+2,285
+
+1,828
+
+2,352
+1,214
+
+1,531
+
+1,369
+
+1,716
+
+1,396
+
+1,551
+
+1,378
+
+1,764
+
+a ¼ 10
+
+923
+
+1,345
+
+956
+
+1,241
+
+2,458
+
+2,665
+
+1,448
+
+2,089
+
+1,768
+
+1,069
+
+2,285
+
+2,100
+
+2,352
+1,366
+
+1,710
+
+1,380
+
+2,082
+
+1,708
+
+1,566
+
+1,608
+
+1,876
+
+a ¼ 20
+
+31:69
+
+23:77
+
+33:67
+
+36:64
+
+35:65
+
+48:52
+
+40:60
+
+24:76
+
+29:71
+
+38:62
+
+32:68
+
+42:58
+
+37:63
+31:69
+
+26:74
+
+20:80
+
+43:57
+
+21:79
+
+48:52
+
+30:70
+
+56:44
+
+a¼2
+
+z3
+
+51:49
+
+42:58
+
+46:54
+
+55:45
+
+47:53
+
+38:62
+
+45:55
+
+37:63
+
+33:67
+
+51:49
+
+49:51
+
+40:60
+
+57:43
+51:49
+
+36:64
+
+39:61
+
+47:53
+
+29:71
+
+68:32
+
+41:59
+
+65:35
+
+a¼5
+
+Table 4 Median of the performance indicators for different allocations and clusters for two production cluster networks
+
+67:33
+
+59:41
+
+53:47
+
+71:29
+
+43:57
+
+46:54
+
+49:51
+
+41:59
+
+34:66
+
+67:33
+
+50:50
+
+57:43
+
+44:56
+66:34
+
+44:56
+
+42:58
+
+54:46
+
+32:68
+
+80:20
+
+47:53
+
+75:25
+
+a ¼ 10
+
+78:22
+
+72:28
+
+66:34
+
+78:22
+
+54:46
+
+47:53
+
+66:34
+
+53:47
+
+50:50
+
+74:26
+
+66:34
+
+72:28
+
+60:40
+75:25
+
+56:44
+
+54:46
+
+66:34
+
+48:52
+
+88:12
+
+62:38
+
+85:15
+
+a ¼ 20
+
+3
+
+2
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+2
+
+2
+
+2
+
+3
+
+3
+3
+
+3
+
+1
+
+4
+
+1
+
+9
+
+2
+
+9
+
+a¼2
+
+z4
+
+3
+
+3
+
+3
+
+3
+
+3
+
+2
+
+3
+
+3
+
+2
+
+3
+
+2
+
+3
+
+3
+3
+
+3
+
+1
+
+4.5
+
+1
+
+9
+
+2
+
+9
+
+a¼5
+
+3
+
+3
+
+3
+
+3
+
+3
+
+2
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+3
+
+3
+
+1
+
+4
+
+1
+
+9
+
+3
+
+9.5
+
+a ¼ 10
+
+4
+
+3
+
+3
+
+3
+
+4
+
+3
+
+3
+
+3
+
+4
+
+2
+
+3
+
+3
+
+3
+3
+
+3
+
+1.5
+
+5
+
+1
+
+9
+
+3
+
+10
+
+a ¼ 20
+
+
+Page 11 of 14
+13
+
+
+
+
+Table 5 Median of the performance indicators with four buy-to-ﬂy
+ratios for 98 instances
+Indicator
+
+Buy-to-ﬂy ratio a
+a¼2
+
+a¼5
+
+a ¼ 10
+
+a ¼ 20
+110,805
+
+z1
+
+53,303
+
+65,760
+
+81,373
+
+z2
+
+1,224
+
+1,338
+
+1,503
+
+1,711
+
+z3
+z4
+
+35:65
+3
+
+46:54
+3
+
+55:45
+3
+
+66:34
+3
+
+unchanged and the average tkm per customer on the second
+stage of transport drop, we conclude that production sites
+are opened closer to the customer, too.
+Table 6 compares the performance indicators of one and
+two production cluster networks; the values for a ¼ 20 are
+ﬁxed to 100 % and the remaining values are scaled
+accordingly. Roughly speaking, the effects are similar to
+those shown in Fig. 6. From a more pairwise comparison of
+corresponding indicator values, one can conclude that
+networks with two production clusters proﬁt stronger from
+the introduction of AM than one production cluster grids.
+Again, the number of open productions sites z4 remains
+unchanged independently of the chosen a-value.
+Table 4 shows the performance indicators for allocations A1 to A7 and clusters C12 to C25 for two production
+cluster networks. The effect of AM appears to superpose
+the different geographical layouts, because the performance values behave in a similar way like those in Table 3
+for the one production cluster case.
+Looking at the two production clusters grids C23 , C25
+and the one production cluster grids C10 , the performance
+indicators have the lowest, i.e. the best values. In these
+cases, the clusters are highly concentrated in one region of
+the grid, i.e. number of nodes located in this region is very
+high and very low in the other regions. Therefore, the
+transport distances are low and also the total costs in this
+supply networks are low as well. Nevertheless, introducing
+AM might still lead to signiﬁcant beneﬁts, see e.g. the
+reduction in total costs z1 of C23 . So, if a supply network is
+already highly competitive due to favourably geographical
+node distribution, it can and will still highly beneﬁt from
+AM.
+
+4.2.3 Other cost effects
+Our computational experiments focus on the structure and
+transport costs of a supply network and how it changes if
+AM as a production technology is introduced within this
+network. Other costs and cost effects, which are directly
+linked to the production of the part, are not considered
+within the computational experiments. For example, these
+cost (effects) could be raw material costs, economies of
+scale, etc. Although we did not consider these costs and
+cost effects, respectively, a few general statements concerning these are possible.
+Direct production costs are independently of the production site used. Imagine raw material costs. If AM is
+used less raw material and therefore less transports from
+sources to production sites are needed. The transport costs
+will drop. On the other hand, the costs for raw material for
+AM may be higher because of higher technical requirements. Both aspects inﬂuence production costs. However,
+these effects will always arise regardless of the production
+site used.
+Concerning economies of scale, we assumed a constant
+demand of the customers in our simulation experiments.
+Therefore, the production volume is constant as well.
+Because of that economies of scale do not arise regardless
+of the production technology used. But if the production
+volume at a production site is increased to generate
+economies of scale, this will ceteris paribus lead to
+increased transports from/to this dedicated production site
+and therefore to higher transport costs. Therefore, the
+consideration of economies of scale is only reasonable, if
+the savings in production costs itself exceed the increased
+transport costs.
+
+5 Conclusion and outlook
+Additive manufacturing (AM) disseminates more and more
+and replaces or complements classic subtractive manufacturing processes. This will also affect the organization of
+today’s supply networks. To the knowledge of the authors,
+there are little approaches that try to quantify potential
+
+Table 6 Medians of the performance indicators for different a relative to a ¼ 20 (in per cent)
+Indicator
+
+One production cluster
+
+Two production clusters
+
+a¼2
+
+a¼5
+
+a ¼ 10
+
+a ¼ 20
+
+a¼2
+
+a¼5
+
+a ¼ 10
+
+a ¼ 20
+
+z1
+
+43.4
+
+54.3
+
+70.1
+
+100.0
+
+40.9
+
+52.5
+
+70.6
+
+100.0
+
+z2
+
+81.8
+
+95.2
+
+100.0
+
+100.0
+
+75.2
+
+91.3
+
+100.0
+
+100.0
+
+z3
+
+224.4
+
+184.0
+
+147.4
+
+100.0
+
+212.7
+
+180.0
+
+143.7
+
+100.0
+
+z4
+
+100.0
+
+100.0
+
+100.0
+
+100.0
+
+100.0
+
+100.0
+
+100.0
+
+100.0
+
+study provides a novel framework on how to measure these
+potential effects. We used a well-known facility locationallocation problem to model a two-stage supply network.
+An extensive test data set of 700 instances has been created
+which provides the basis for our experiments. These
+instances represent a wide variety of geographical constellations of a supply network. In particular, different
+types of clusters of source nodes, production sites, and
+customer locations are included. A main assumption for
+our experiments was that AM increases the resource efﬁciency of a production process: the same amount of output
+is generated with less input material. This is implemented
+by the buy-to-ﬂy ratio a. Given equal customer demand,
+the buy-to-ﬂy ratio is the main factor that inﬂuences the
+amount of goods to be transported in a supply network. To
+measure important effects, we introduced four performance
+indicators.
+Our computational experiments provide insights into the
+effects of AM on supply networks. Increasing the resource
+efﬁciency through AM can have a signiﬁcant impact on the
+structure of supply networks. Our experiments conﬁrm in
+general that production sites will be located closer to the
+customers. Therefore, the total tonne-kilometres as well as
+the required tonne-kilometres per customer decrease,
+which decreases the overall transportation costs. This study
+supports the ﬁndings suggested by Barz et al. [3]. However,
+Barz et al. [3] used a tiny test data set only, i.e. six handmade test instances. The experiments presented provide a
+broader foundation which improves the validity and the
+insights of the results signiﬁcantly. For this reason, however, we also observed that not all supply networks change
+in the same way; the intensity of the effects can vary
+strongly. In order that a supply network beneﬁts from AM
+it is important that switching production sites is easy, that
+is, there has to be a high number of possible production
+sites selectable and the switching costs have to be low
+enough. The observed effects result from a comparison of
+production processes with a high resource efﬁciency versus
+processes with a low resource efﬁciency. The next stage
+would be to also model transition effects which arise from
+switching from subtractive to additive manufacturing, e.g.
+higher costs for machinery or slower time of production or
+maybe even changes in the production programme or the
+customer demand. Of course, supply networks with a more
+generalized network structure than our used two-stage
+network should also be investigated in the future.

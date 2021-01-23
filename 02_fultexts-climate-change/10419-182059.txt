@@ -1,0 +1,2069 @@
+
+Transportation is one of the activities in which
+perishable food products may suffer mechanical
+damage, which translates into a substantial loss of
+quality and product value. The main source of this type
+of damage in transportation is vibration, influenced,
+among others factors, by road conditions, a factor that
+can be considered in the vehicle routing problem. To
+address this issue, we propose a multi-objective model
+that seeks to minimize the damaged products during
+transport and the distance traveled by vehicles. To
+evaluate the model, we examined 10 instances adapted
+from the literature for the vehicle routing with time
+windows. Small size instances were solved using an
+augmented -constraint method (AUGMECON) and
+for large size instances, we applied a non-dominated
+sorting genetic algorithm (NSGA-II). The results
+allowed us to observe the relationship between the
+damaged products and the distance traveled and
+showed that the proposed solution approaches are
+capable of providing feasible routes considering
+trade-offs between these objectives. Hence, our model
+provides decision makers with a tool for an effective
+determination of vehicle routes that considers the
+damage that perishable food products may experience
+during transport.
+
+Vehicle routing is one of the operational decisions
+in product logistics [20]. This decision is faced each
+day by thousands of companies and organizations
+engaged in the delivery and collection of products
+[12]. Food distribution especially has additional
+challenges related to transportation, in areas such as
+quality, safety, and sustainability of products [2]. This
+first area shows the changes throughout the supply
+chain until products reach the final consumer, which
+influences customer satisfaction. Additionally, during
+distribution the perishable nature of food products
+plays an important role in the distribution costs
+because the timely delivery of these type of products
+affects the delivery operator’s co stand the retailer’s
+revenues [23].
+Perishable food products, such as fresh fruits and
+vegetables, are susceptible to mechanical damage
+(bruises, cuts, punctures, abrasions) at different
+stages of the distribution network: from collecting
+centers to packing houses, then to distribution
+centers, and finally from this centers to retailers [46].
+This damage affects the product’s appearance and
+increases their susceptibility to decay and the growth
+of microorganisms [33], which may also increase
+their chance of being rejected and ultimately wasted.
+During transport, this mechanical damage is mainly
+caused by vehicle vibrations, which are influenced by
+various factors such as distance, speed, load, truck
+characteristics, such as the suspension and number of
+axles, and road roughness [6]. This last factor refers
+to the superficial characteristics of the roads on which
+the vehicle travels, which affects the dynamic of the
+load [4, 25, 27, 57].
+The natural and fast decay experienced by
+perishable food and the increasing customer demands
+for high-quality products, encourage the inclusion of
+perishability issues in the vehicle routing problem.
+In this research, we analyze the impact of perishable
+products’ damage in vehicle routing. For this purpose,
+we include in the problem the aforementioned damage
+to which these products are susceptible during transit,
+which affects the product’s quality defined not only
+by the physical properties of food but also by the way
+products are perceived by the consumer [21].
+
+KEYWORDS vehicle routing problem · time
+windows · perishable food products · mechanical
+damage · road conditions · multi-objective
+Maria Paula Buelvas Padilla
+mbuelvaspadilla77@correo.unicordoba.edu.co
+Paula Andrea Nisperuza Canabal
+paannica2795@gmail.com
+Jorge Mario Lopez Pereira
+jotalopez@correo.unicordoba.edu.co
+Helman Enrique Hernandez Riaño
+hhernandez@correo.unicordoba.edu.co
+1
+
+Universidad de Cordoba,
+Carrera 6 No. 76-103,
+Montera - Cordoba, Colombia
+
+framework where two objectives are proposed:
+minimize the total damaged products and the distance
+traveled. To cope with the first objective, the model
+considers a damage rate assigned according to road
+conditions. To explore the proposed trade-off and deal
+with the hard task of providing feasible routes, we solve
+five 10-customer instances using an improved version
+of the -constraint method. Afterwards, we solve five
+well-known Solomon [49] instances with 50 customers
+using a multi-objective evolutionary algorithm, as the
+exact method fails to generate feasible solutions in
+reasonable computational time.
+The remainder of this paper is organized as follows.
+In the following section, we provide an overview of
+the related literature. Section 3 and 4 describe the
+methodology and the computational experiments,
+respectively. The results are later analyzed in section 5.
+Finally, we summarize the main findings and provide
+some ideas for future research in section 6.
+
+The vehicle routing problem (VRP) has been
+widely studied in the literature. This problem in its
+traditional version, known as capacitated vehicle
+routing problem, seeks to determine a set of feasible
+routes to satisfy a set of transportation requests at the
+minimum cost given a fleet of vehicles. In its extension
+that includes time windows (VRPTW) each client
+service must take place within a known time interval.
+For a deeper description of the properties, solutions,
+methods, extensions, and applications of the vehicle
+routing problem, the reader may refer to Toth and Vigo
+[54]. The following review will focus on the vehicle
+routing problem for the distribution of perishable
+food products, mechanical damage during transport,
+the modeling of road conditions and multi-objective
+vehicle routing.
+
+and penalties for time window violations. Osvald
+and Stirn [40] formulate a VRPTW considering
+perishability as a critical factor, where the travel
+times depend on distance and time of day; this model
+considers the negative effect of perishability in the
+overall distribution cost, estimating the loss of quality
+on the load as a function of time. Chen, Hsueh, and
+Chang [10] combine the scheduling problem with
+the VRPTW; in their paper, the perishable goods
+have a decay rate, and their initial price is negatively
+affected by the product decay when finally delivered.
+Amorim and Almada-Lobo [3] present a multiobjective VRPTW that studies different scenarios
+and describes the cost-freshness trade-off. To deal
+with perishability, the shelf life of the most perishable
+product contained in the customers’ requests is
+known, and this parameter is used to maximize the
+average freshness of the demanded products. Recently
+Wang, Wang, Ruan, and Zhan [60] consider a VRPTW
+model with the same objectives, where the loss of
+freshness is calculated using a nonlinear freshness
+factor; as a novelty the authors consider temporalspatial distance to solve the problem. So far, only Li,
+He, Zheng, Huang, and Fan [32] have acknowledged
+road conditions and their influence in the deterioration
+and bruising in the distribution of fresh fruits and
+vegetables. In their study, with the aim to minimize
+the total cost in a VRPTW with soft time windows,
+they propose a single objective model that includes a
+coefficient of road surface evenness for four different
+road types; this coefficient is added in the objective
+function to calculate the running cost. Finally, they use
+an improved genetic algorithm to solve a 12-customer
+instance, and they conclude that considering road
+irregularities can significantly influence total delivery
+costs compared with traditional VRP models. In
+contrast with the work of Li, we propose a multiobjective model with hard time windows, include
+small and large size instances and use two solution
+methods to solve each instance size.
+
+2.1
+
+2.2
+
+2
+
+LITERATURE REVIEW
+
+Vehicle routing problem for perishable food
+products
+In the last several years, the distribution of perishable
+food products has received special attention, and
+various authors have addressed it as a vehicle routing
+problem. As noted by Amorim and Almada-Lobo
+[3], some of the authors focus on the distribution of
+perishable food without explicitly taking into account
+quality loss, degradation (loss of freshness), or decay of
+products; such is the case of Tarantilis and Kiranoudis
+[52, 53], who deal with the distribution of milk and
+meat, and Faulin [18], who applied a procedure in a
+routing problem to optimize food delivery. On the
+other hand, perishability is explicitly modeled by
+authors such as Hsu, Hung, and Li [23], who develop
+a stochastic VRPTW dealing with the randomness
+proper to the delivery of this type of product, with the
+objective of minimizing the inventory, energy costs,
+
+Mechanical damage during transport and
+road conditions
+The effect of vibrations during transport and the
+mechanical damage that they can cause in perishable
+food has been widely studied for different products,
+as shown in Table 1. Several authors consider the
+relationship among road conditions,vibration, and
+mechanical damage in perishable food, including
+Schoorl and Holt [27, 43], who propose a model to
+predict the damage to horticultural products during
+transport, taking into account elements such as the
+road profile, tires, chassis and suspension of the
+vehicle, packaging, and the cushioning of the load. In
+this study, a direct relationship was observed between
+the road profile and damage. Jarimopas, Singh, and
+Saengnil [25] measure the vibration levels for two
+different types of trucks in Thailand and their effect
+show that both factors have a significant influence on
+product damage. In their experiment greater damage
+was caused by unpaved roads, followed by concrete
+highways and then asphalt roads. Zhou, Su, Yan and
+Li [62] also evaluated the effect of vibration levels on
+the mechanical damage to pears under using different
+road conditions such as highways, main, secondary,
+tertiary, and unpaved roads. As a point to highlight,
+different acceleration levels for the vibration were
+obtained for different roads. Pretorius and Steyn [41]
+experiment with different road conditions in Africa:
+national, provincial, and gravel roads were used in
+this study, which concludes that as road roughness
+increases, more vibrations occur and more energy must
+be absorbed by the vehicle, which can trigger more
+damage to the transported products. Steyn et al. [50]
+evaluate the effect of rural roads conditions on tomato
+transport in California; in their research, they observe a
+direct relationship between the percentage of damaged
+goods, road roughness, and transportation costs. As
+one of the conclusions, the authors state that damage
+and failure levels can be related to road conditions for
+the development of performance indicators and their
+implementation in freight transport models.
+Table 1: Papers by product dealing with
+vibrations during transport and their effect
+on mechanical damage
+Product
+
+Author
+
+Peaches
+Tangerines
+Tomatoes
+
+Vergano, Testin and Newall [58]
+Jarimopas et al. [25]
+Hinsch, Slaughter, Craig and
+Thompson [22], Olorunda and Tung
+[38], Singh and Singh [45], Steyn et
+al. [50], Van Zeebroeck [56]
+Chaiwong [8]
+Acican, Alibaş, and Özelkök [1],
+Eissa and Azam [4], Chonhenchob
+et al. [11], Schoorl and Holt [43],
+Soleimani and Ahmadi [48],
+Van Zeebroeck et al. [57], Vursavus
+and Ozguven [59].
+Berardinelli et al. [7], Zhou et al. [62]
+Shahbazi, Rajabipour, Mohtasebi and
+Rae [44]
+Tabatabaekoloor, Hashemi and
+Taghizade [51]
+Berardinelli et al.[6]
+
+Strawberries
+Apples
+
+Pears
+Watermelons
+Kiwis
+Eggs
+
+2.3
+Modeling road conditions
+In this article, when referring to road conditions or
+roughness, we refer to the unevenness of the road. The
+road roughness indices are single values to evaluate
+and manage road systems. These are calculated using
+mathematical equations and measured road profiles.
+Two very widespread internationally recognized
+
+3
+indices are the International Roughness Index (IRI)
+and the ISO 8606:1995 specification index. The IRI
+is the most commonly used standardized roughness
+measurement and its use is more appropriate when
+road roughness is looked at in relation to vehicle
+operating costs, riding quality, dynamic wheel loads
+and overall surface conditions [24]. The mathematical
+model to obtain this index is a system of differential
+equations derived from a dynamic system of masses,
+spring, and dampers [31]. The ISO specification index
+is obtained using the fit of a parametric function to
+a measured profile’s Power Spectral Density (PSD)
+(a set of distribution frequencies with accompanied
+amplitudes) [31]. To a better understanding of models
+for road roughness, the reader may refer to Lemken
+[31], Klas and Krzysztof [29]. When examining the
+influence of road conditions on cargo damage, the IRI
+is used by only a few papers. Pretorius and Steyn [41]
+experiment with the average IRI values of national,
+provincial and gravel roads to study the damage during
+transportation and Steyn et. al [50] use the IRI as a
+riding quality indicator to analyze the effect of road
+conditions on the potential damage to tomatoes. To do
+so, once the dominant frequencies for each road types
+were obtained, a laboratory simulation was executed
+to show the relationship of damage percentage to
+road roughness. In general, when addressing road
+conditions, most of the authors obtain representative
+frequencies for each road and then simulate these
+frequencies in a laboratory setting [1, 22, 50].
+2.4
+Multi-objective vehicle routing
+Because in real-life cases, most of the problems in
+logistics have a multi-objective nature, the inclusion
+of more than one objective in the VRP has gained
+more attention in the last years. Jozefowiez, Semet
+and Talbi [28] elaborated a classification of objectives
+according to the components of the problem i.e. the
+tour, the node/arc activity and the resources. In their
+review, the most common objective related to the tour
+is to minimize the cost of the solutions in terms of
+distance traveled or time; other approaches include the
+minimization of the makespan, tour balance and so
+on. Node-related objectives include the maximization
+of customer satisfaction or customer waiting times.
+The most frequent resource-related objective is the
+minimization of the number of vehicles as addressed
+by Sivaram et al. [47].
+In the last decade growing environmental
+concerns regarding the economic activity has been
+transferred to the field of transport and logistics.
+Thus, environmental targets have been added to the
+economic targets in the vehicle routing problem.
+Some common objectives include minimizing the
+CO2 emissions [19, 55], minimizing the emission of
+air pollutants such as NOx [36], and minimizing fuel
+consumption [17, 37, 42]. Regarding multi-objective
+vehicle routing problems with perishable issues, only a
+and Kuo [30] addresses a bi-objective model with the
+purpose of minimizing total cost and balancing the
+load in each vehicle.
+Most of the reviewed works consider time as the
+main factor in perishable food quality loss. In this
+paper, we consider road conditions as a factor affecting
+product quality. Thus, this study will extend the
+scope into a multi-objective problem by considering
+another objective corresponding to the minimization
+of the damaged product. Then, the model will seek to
+obtain a trade-off between the damaged products, by
+minimizing the time spent in bad conditions roads,
+and the distance traveled. For this purpose, unlike
+the only related work including road conditions, we
+rely on data found in the transportation literature
+on the damaged products under three different road
+conditions. Then we analyze the inclusion of this
+factor on the solution structure, and, finally provide
+some managerial insights.
+3
+
+METHODOLOGY
+
+In the following section, we explain the notation and
+model formulation for the multi-objective vehicle
+routing problem considering road conditions and later
+describe in detail the -constraint method and NSGAII used to respectively solve the small and large size
+instances.
+3.1
+Notation and model formulation
+This section describes a vehicle routing problem with
+time windows for the distribution of a perishable
+product. Road conditions and their effect on the load
+
+are considered in the model with the inclusion of
+a parameter later explained based on the results of
+Jarimopas et al. [25].
+The problem can be defined on a directed graph
+where
+denotes
+the set of vertices,
+the set of customers, and
+represents the arc set.
+The vertices and
+correspond to the depot
+where a homogeneous fleet of vehicles of size
+with capacity is assumed to be stationed. To each
+vertex
+, there is an associated nonnegative
+demand
+, a hard time window
+that represents the earliest and latest times for
+service to customer to start (the depot also has a
+time window corresponding to the scheduling horizon
+of the problem), and non-negative service times
+. Associated with each arc there
+is a distance
+and a travel time
+that represents
+the time it takes the vehicle to travel from to .
+A damage rate
+that indicates the ratio of damage
+produced per load unit per unit of time is associated
+equals
+to each arc. The binary decision variable
+1 if vertex is traversed after by the vehicle and
+indicates the start of service
+otherwise. Variable
+of vehicle at vertex . Finally, an auxiliary variable
+is added to accumulate the percentage of damaged
+products delivered at the vertex , the initial damage
+is considered to be zero
+.
+According to the given notation, the mathematical
+formulation can be stated as follows:
+(1)
+(2)
+
+Subject to:
+(3)
+
+(4)
+
+(5)
+(6)
+(7)
+
+
+(9)
+(10)
+(11)
+(12)
+(13)
+
+The objective function (1) minimizes the
+accumulated damaged products along the routes. The
+objective function (2) minimizes the distance covered
+by the vehicle. Constraints (3) state that each customer
+is visited by exactly one vehicle. Constraints in (4)
+indicate that the vehicles must start from the depot.
+The flow conservation in each vertex is ensured by
+constraints (5), while time windows are enforced
+through constraints (6) and (7). Regarding the vehicle
+capacity, constraints in (8) force it to be respected by
+not allowing the sum of the demands on a given route
+to exceed it. The set of constraints in (9) accumulates
+
+the damage of the products for each client based on the
+previously traveled arcs. The constraints in (10) and
+(11) avoid all the accumulated damaged percentage
+of products per client to exceed the demand of each
+client. Finally, constraints from (11) to (13) define the
+domains of the remaining decision variables. Figure
+1 illustrates the parameters of the problem. In the
+Figure, road conditions are assigned to each arc. In
+this particular solution, formed by the routes D-5-31-D and D-2-4-D, the dashed lines show the parts of
+the route in which the damage to products takes place.
+
+[e2 , l2]
+
+2
+1
+
+tD2
+
+4
+
+D
+
+Asphalt
+Concrete
+
+3
+
+Laterite
+
+5
+
+Time Window
+
+To explore the proposed trade-off, first, an exact
+method is used to solve the 10 customer instances.
+Afterwards, the model is tested in large size instances
+by employing an approximate method. This will allow
+us to obtain the set of equally important solutions for
+each problem.
+3.2.1 Small-size instances
+To solve the 10-customer instances, we employ an
+improved version of the -constraint method, which
+is one of the best-known methods to solve multiobjective problems [13]. It basically consists of
+creating a single-objective model where only one of
+the objective functions will be optimized, and the
+remaining functions become constraints in the model
+[16]. The AUGMECON method is an improved version
+of the -constraint method that avoids the production
+of weakly Pareto optimal solutions and also redundant
+iterations [34]. This method is applied for 10-customer
+instances as follows:
+Step 1. Create a payoff table to obtain the range
+of each one of the
+objectives. This is
+done by optimizing each objective individually
+and finding the values of the other objective
+functions at this optimal point. Then, the range
+corresponds to the interval between the ideal
+and the worst value. To overcome the ambiguity
+of obtaining non-Pareto optimal solutions
+under the presence of alternative optima the
+use of lexicographic optimization for every
+objective function is used.
+Step 2. Choose one objective function
+as the main objective and transform the others
+into constraints.
+Step 3. Divide the range of each th objective
+equal intervals using
+function into
+equidistant step points.
+Step 4. Solve the AUGMECON mathematical
+model in equation (13) separately for each
+combination of step points in the objective
+function. In the model
+is a small number
+usually between
+and
+, where is
+the feasiblearea of the original problem, is a
+slack variable for the objective function , and
+is the length of the objective function’s range.
+(14)
+
+To solve the 10 customer instances, we decided to
+optimize
+and transform
+into a constraint. Then,
+according to (13), our problem becomes:
+(15)
+
+To perform step 3, the range of was divided into
+a 100 equal intervals. Algorithm 1 shows the pseudocode to find the Pareto front with the AUGMECON
+method. In it the values
+and
+represent the
+theoretical worst and best values for the first objective,
+respectively. These values are shown in Table 2 per
+instance for all the objectives.
+Algorithm 1 Pseudo-code to find the Pareto front with
+the AUGMECON method.
+1:
+for all instances do
+2:
+3:
+4:
+5:
+6:
+7:
+8:
+9:
+10:
+
+while
+Solve
+
+do
+with exact solver
+
+end while
+end for
+return Pareto solutions for all instances
+Table 2: Payoff table
+
+Instance
+1
+2
+3
+4
+5
+
+F1
+16.83
+13.83
+8.62
+6.95
+6.99
+
+F2
+286
+159
+306
+145
+144
+
+F1
+24.84
+49.27
+19.48
+25.13
+32.04
+
+F2
+485
+311
+462
+260
+321
+
+3.2.2. Large-size instances
+To test the model in larger size instances we employ
+a non-dominated sorting genetic algorithm (NSGAII). This algorithm has been used in several multiobjective VRP variants [3, 9, 26, 35] and widely
+applied in different problems, showing competitive
+results when compared to other multi-objective
+evolutionary algorithms [15]. The readers are refereed
+to Deb, Agrawal, Pratap, and Meyarivan [14] for more
+details on the NSGA-II. The NSGA-II structure is
+
+3.2.2.2 Evaluation and decoding.
+Because the order of serving customers in a
+chromosome may lead to infeasible routes, the
+evaluation was designed to not let solutions violate any
+constraint. The evaluation starts assigning customers
+to routes in the permutation order. When a customer
+cannot be served in the route, because of capacity or
+time windows violations, a new route is created. In
+Figure 3 customers 1 and 2 can be sequentially served
+and form a route leaving customers 5, 4 and 3, which
+can be sequentially served, into the next route.
+
+Begin: initialize
+population of size N
+Evaluation
+Fast non-dominated sorting
+and crowding distance
+
+Stoping criteria
+met?
+
+Stop
+
+YES
+
+Report final
+population
+NO
+Crowded
+Tournament
+Selection
+Crossover
+Mutation
+Evaluation
+Combine parent
+and Offspring
+Fast non-dominated
+sorting, and crowding
+distance
+
+Selection of the first
+N individuals
+
+Figure 2: Flowchart of NSGA-II
+3.2.2.1 Encoding and initial population.
+To represent a solution, we use a permutation encoding
+where every chromosome is a string of numbers
+from 1 to the number of customers representing the
+sequence in which they are assigned to the routes.
+Figure 3 shows the solution representation. The initial
+population of size N is randomly generated.
+
+1
+
+2
+
+5
+
+4
+
+3
+
+Route 1: 0-1-2-0
+Route 2: 0-5-4-3-0
+
+Figure 3: Solution representation and decoding.
+3.2.2.3 Selection and elitism.
+To rank the population in the algorithm, we implement
+two operators called fast non-dominated sorting and
+crowding distance [14]. After the population is ranked,
+according to a fitness equal to its non-domination
+level, a binary tournament selection takes place. In this
+tournament, two individuals are randomly selected
+and their ranks compared. Then the individual with
+lower rank is selected. In case the solutions belong to
+the same front, the solution with the greater crowded
+distance is chosen.
+3.2.2.4 Crossover.
+After two chromosomes are randomly selected
+as parents, they are crossed by employing an
+specialized operator known as “Best Route Cost
+Route Crossover”(BCRC), which looks forward
+simultaneously tominimize the number of vehicles
+and distance while checking feasibility constraints
+[39, 47].To execute this operator, first one random
+route is selected from each parent, and then the
+customers in each chosen route are removed from the
+opposite parent to create the offspring, as shown in
+Figure 4, (part a). Next, each removed customer in the
+route is reinserted in the best feasible position (the one
+resulting in total minimum cost routes) to create the
+offspring. If no feasible insertion is found for a given
+Parent 1
+1
+
+2
+
+3
+
+4
+
+6
+
+7
+
+8
+
+9
+
+10
+
+5
+
+8
+
+a)
+
+1
+
+2
+
+9
+
+1
+
+6
+
+7
+
+4
+
+3
+
+10
+
+2
+
+9
+
+1
+
+6
+
+7
+
+4
+
+3
+
+5
+
+Parent 2
+
+Parent 1
+2
+
+3
+
+4
+
+6
+
+7
+
+Remove
+
+4
+6
+
+10
+
+5
+
+4
+
+2
+
+10
+
+8
+
+7
+
+Insert
+
+1
+
+9
+
+8
+
+3
+
+Child 1
+
+8
+
+8
+
+9
+
+10
+
+5
+
+2
+
+1
+
+Remove
+
+7
+
+6
+
+9
+4
+
+3
+
+Child 2
+
+10
+
+5
+
+9
+
+Insert
+
+Infeasible insertion
+Feasible insertion
+
+5
+
+Child 1
+
+b)
+
+Child 2
+1
+
+2
+
+6
+
+7
+
+8
+
+9
+
+10
+
+5
+
+2
+
+1
+
+6
+
+7
+
+4
+
+3
+
+10
+
+5
+
+Child 1
+
+Child 2
+
+1
+
+4
+
+2
+
+6
+
+7
+
+8
+
+9
+
+10
+
+5
+
+2
+
+9
+
+1
+
+3
+
+Insert
+
+6
+
+7
+
+4
+
+3
+
+10
+
+5
+
+8
+
+Insert
+
+Child 2
+c)
+1
+
+2
+
+4
+
+6
+
+7
+
+8
+
+9
+
+10
+
+5
+
+2
+
+4
+
+6
+
+7
+
+8
+
+9
+
+10
+
+9
+
+5
+
+2
+
+1
+
+6
+
+7
+
+4
+
+3
+
+10
+
+Child 1
+d)
+
+5
+Child 2
+
+1
+
+3
+
+8
+
+9
+
+2
+
+1
+
+6
+
+7
+
+4
+
+3
+
+10
+
+5
+
+Figure 4. BCRC crossover.
+
+3.2.2.5. Mutation.
+If the mutation rate is met, a swap mutation is applied.
+In this mutation technique, two positions on the
+chromosome are randomly selected, and their values
+are interchanged, as in Figure 5.
+1
+
+4
+
+5
+
+2
+
+3
+
+1
+
+2
+
+5
+
+Figure 5: Mutation operator.
+
+4
+
+3
+
+3.2.2.6 Offspring evaluation, sort, and selection of
+the first N individuals.
+After cross-over and mutation, the offspring
+population is evaluated. Then, at iteration , parent
+and offspring populations
+are combined to form a
+larger population . In this step, fast non-dominated
+sorting is applied to create the next iteration population
+with the same size as . To do so, fronts are
+added to the population in increasing rank order. A
+crowding sort procedure is performed in case a front
+can not be fully inserted in the new population
+.
+
+Non-dominated sorting
+F1
+Pt
+
+Crowding
+distance
+sorting
+
+Pt+1
+
+F2
+
+F3
+Qt
+Rt
+
+Rejected
+
+Figure 6: Schematic procedure of NSGA-II.
+
+4
+
+COMPUTATIONAL EXPERIMENTS
+
+In order to perform the computational experiments, as
+previously mentioned, we will use small and large size
+instances. The first group of small instances will allow
+us to observe the existence of the trade-off and easily
+analyze the impact on the solution structure. On the
+other hand, we test five large Solomon [49] instances
+under four different scenarios (road combinations) to
+further analyze the impact of road conditions in the
+VRPTW.
+For all instances, to relate the damage in the load
+with the road conditions, we used the results by
+Jarimopas et al. [25], who obtained the average
+damage percentage per load unit for two vehicle types
+in three road conditions corresponding to laterite,
+asphalt, and concrete roads. From these results we
+selected the average damage percentage in the two-ton
+truck at a speed of
+for the three different road
+conditions. Then, the average damage was divided by
+30 minutes, corresponding to the time at which the
+author conducted his experiment for each combination
+of speed and road condition, to obtain a rate in terms
+of time that we denominated . Table 3 shows the
+average damage per load unit percentages [25] and
+the
+for each road type. Finally, in every instance
+according to the road types present and considering
+that finding a specific road is equally probable, a
+damage rate was associated to each arc.
+Table 3: Average damage and damage rate
+Road
+Average damage
+Pi j
+type
+(%/ load unit) [25] (% / min * load unit)
+Laterite
+8.67
+0.289
+Asphalt
+2
+0.067
+Concrete
+4.67
+0.156
+
+In the following, we report on results for the small,
+and large size instances, respectively.
+4.1
+Small-size instances
+Due to the absence of instances from the literature for
+this problem (with the inclusion of road types), and with
+the aim to validate the model, we proceeded to create
+new small size instances based on the ones proposed
+by Solomon for the VRPTW. Because the minimum
+number of customers in Solomon’s instances is 25,
+to create each 10-customer instance, the number of
+needed customers was randomly selected from the 25
+customer instances following a uniform distribution.
+Table 4 shows the selected 25-customer instances and
+the customers per instance.
+Table 4: Instances and selected clients
+Instance
+RC201
+RC205
+RC105
+C105
+C207
+
+Customers
+{10; 19; 5; 7; 6; 3; 16; 22; 2; 25}
+{16; 21; 17; 11; 2; 8; 13; 22; 7; 3}
+{9; 25; 21; 13; 3; 11; 2; 15; 16; 4}
+{3; 23; 22; 8; 12; 5; 15; 25; 9; 7}
+{1; 5; 16; 17; 25; 2; 18; 7; 9; 23}
+
+The small instances were solved using the
+AUGMECON method. For each 10-customer
+instances, 100 runs were performed by changing the
+values according to the different ranges. The MIP
+model for all the instances was coded in GAMS 23.6
+and optimally solved (0% GAP) with the solver CBC
+on a notebook with an Intel Dual I3 4005U processor
+at 1.7 GHz and 4 GB RAM running Windows 10
+Home. Figure 7 shows the results for all 10-customer
+instances. The obtained graphs allow us to observe a
+conflict between the objectives and show the tradeoff between delivering fewer damaged products
+and traveling shorter distances, under different road
+400
+200
+15
+
+20
+Damage
+Instance 3
+
+5
+
+10
+
+30
+Damage
+Instance 4
+
+15
+
+20
+
+40
+
+50
+
+200
+100
+
+0
+
+10
+
+Damage
+Instance 5
+
+400
+Distance
+
+20
+
+300
+
+400
+300
+
+200
+0
+10
+
+25
+
+Distance
+
+Distance
+
+500
+
+Instance 2
+
+400
+Distance
+
+Distance
+
+600
+
+20
+
+30
+
+Damage
+
+200
+0
+
+0
+
+10
+
+20
+Damage
+
+30
+
+40
+
+Figure 7: Pareto fronts for 10-customer instances.
+
+To exemplify the change in the solution structure
+Figure 8 shows solutions for instance 1 in three cases:
+a) when the distance is minimized , b) when there is a
+trade-off between the objectives and c) when damage
+is minimized. It can be noted that, unlike a), solutions
+b) and c) select alternate arcs in order to avoid long
+bad conditions roads. As a result both solutions yield
+an increase in distance. Additionally, more routes are
+observed in c) than in cases a) or b).
+4.2
+Large-size instances
+Instances C101, C202, R204, RC206, and C206 were
+randomly selected for evaluation. After, the NSGAII was coded in MATLAB 2014a, and each instance
+was executed according to the parameters in Table
+5. To select the crossover and mutation rates, we rely
+on the literature where this problem has been tested,
+showing good results with high crossover rates and
+low mutation rates [39, 47]. To choose the population
+size, tests were executed changing the population from
+100 to 350 using a 50 individuals step.
+
+Table 5: Parameters of the NSGA-II.
+Parameter
+Crossover rate
+Mutation rate
+Running time
+Population size
+
+Value
+0.95
+0.05
+30 min
+100
+
+Each instance was executed for four different
+scenarios characterized by different road combinations
+as shown in Table 6. That is, the quantity of damaged
+products in every scenario is expected to be different.
+In scenario 1, each road type has a participation of one
+third of all arcs. Scenarios 2, 3, and 4 are formed by
+combinations of two road types, each of which has 50%
+of the arcs. As shown in our experiment, no scenario
+including only one type of road was considered.This is
+because when the roads are homogeneous (one type),
+the problem becomes a classical VRPTW. In that case,
+time could be considered the main factor influencing
+perishability. Each scenario was executed three times,
+
+a)
+
+c)
+
+Minimum distance
+Distance: 286
+Damage: 24.84
+
+Minimum damage
+Distance: 485
+Damage: 16.84
+
+b)
+
+Distance-Damage trade-off
+Distance: 319
+Damage: 19.16
+
+Asphalt
+
+Concrete
+
+Laterite
+
+Figure 8: Change in solution structure under cases , and .
+sorted to form a final approximation to the Pareto
+front. Figure 9 shows the results for all 50-customer
+instances in all the scenarios.
+Table 6: Road types combinations for each scenario
+Scenario
+1
+2
+3
+4
+
+Laterite
+
+
+
+
+Concrete
+
+
+
+Asphalt
+
+
+
+
+
+
+Table 7 shows the average values for both objectives
+in each scenario for all 50-customer instances. It
+is possible to observe that, for every instance, less
+damage takes place in scenario 2, where roads are
+formed by a combination of asphalt and concrete
+roads. In contrast, scenario 4 showed the highest
+average damage corresponding to the combination of
+laterite and concrete roads. On average, the damaged
+
+products increased 111% when changing from scenario
+2 to scenario 4 for all instances. Thus, we can say that
+the road conditions play an important role in the final
+number of damaged products. Regarding scenarios
+1 and 3, in four of five instances scenario 3 showed
+less damaged products, only in instance C202 was the
+average damage greater in scenario 1 than scenario 3.
+Finally, it can be noted that distances values between
+the best an worst scenario (from left to right) are
+similar in each instance, but the number of damaged
+products increases according to the road combination
+of each scenario.
+These results can also be observed in Figure 9 where
+equally efficient solutions per instance and scenario
+are shown, providing diverse useful alternatives to the
+decision maker. The difference in damage among the
+given scenarios can be easily observed because the
+Pareto fronts from lesser to greater damage go from
+1200
+
+C202
+
+1500
+
+Distance
+
+Distance
+
+1000
+800
+600
+
+1000
+
+500
+
+400
+200
+
+0
+
+20
+
+40
+Damage
+
+60
+
+0
+
+80
+
+R204
+
+1000
+
+Distance
+
+Distance
+
+100
+Damage
+
+800
+700
+
+200
+
+RC206
+
+1000
+800
+
+0
+
+50
+
+100
+150
+Damage
+
+200
+
+250
+
+600
+20
+
+40
+
+60
+80
+Damage
+
+C206
+
+1200
+
+Scenario 1
+Scenario 2
+Scenario 3
+Scenario 4
+
+1000
+800
+600
+400
+200
+
+150
+
+1200
+
+600
+
+Distance
+
+50
+
+1400
+
+900
+
+500
+
+0
+
+0
+
+50
+
+100
+Damage
+
+150
+
+200
+
+Figure 9: Pareto fronts of all scenarios for 50-customer instances.
+
+100
+
+
+Table 7: Average damage and distance by scenario.
+Instance
+
+C101
+
+C202
+
+R204
+
+RC206
+
+C206
+
+5
+
+Scenario
+1
+2
+3
+4
+1
+2
+3
+4
+1
+2
+3
+4
+1
+2
+3
+4
+1
+2
+3
+4
+
+Damage
+(Average)
+28.68
+22.87
+33.62
+47.83
+51.32
+32.81
+44.12
+81.53
+65.75
+47.18
+62.51
+93.84
+61.41
+42.89
+49.52
+87.9
+52.35
+38.11
+44.59
+73.49
+
+MANAGERIAL IMPLICATIONS
+
+It is possible to analyze the results from two
+perspectives: an economic perspective, where a penalty
+on the price for the damaged products can take place to
+quantify the effect in the total cost, and another where
+the damage could be seen as an intangible measure of
+customer satisfaction. In the first case, we could assign
+a coefficient to the first objective to quantify the cost
+of delivering damaged products. In the second case,
+because we want to maximize customer satisfaction, it
+would be equivalent to minimizing damaged products,
+which the first objective naturally does.
+The first case might depend on parameters like the
+penalty percentage
+on the product’s price for
+the incurred damage and the product’s price
+. It
+is also possible to calculate the cost for the traveled
+distance by including a constant
+representing the
+transportation cost per kilometer, which will allow us
+
+Damage
+increase
+25.4%
+47.0%
+109.1%
+56.4%
+34.5%
+148.5%
+39.4%
+32.5%
+98.9%
+43.2%
+15.5%
+104.9%
+37.4%
+17.0%
+92.8%
+
+Distance
+(Average)
+614.59
+559.98
+590.62
+644
+582.82
+606.07
+601.19
+607.93
+674.82
+654.99
+649.75
+674.1
+797.77
+818.79
+808.7
+791.32
+552.16
+535.35
+619.31
+613.7
+
+Distance
+variation
+9.8%
+5.5%
+15.0%
+-3.8%
+-0.8%
+0.3%
+3.0%
+-0.8%
+2.9%
+-2.6%
+-1.2%
+-3.4%
+3.1%
+15.7%
+14.6%
+
+to obtain the participation of the damage in the total
+cost. As an example, let’s consider the parameters in
+Table 8 and the solutions for all instances under three
+different cases like the ones in Figure 8 (minimum
+distance, minimum damage, and a trade-off). Given
+those parameters, the economic loss due to damaged
+products can be calculated according to (15). Table 9
+shows the related costs under cases a, b, and c for all
+instances. For the following analysis, we used scenario
+1 (with the participation of the three road types) for
+50-customer instances.
+Table 8: Parameters to calculate costs.
+Parameter
+c1(USD / km) [5]
+dp (%)
+p (USD / load unit)
+
+Value
+0.78
+30
+
+2
+
+3
+
+4
+
+5
+
+C101
+
+C202
+
+R204
+
+RC206
+
+C206
+
+Damaged
+products
+24.84
+
+Distance
+
+a
+1
+
+Case
+
+286
+
+Damage
+Loss (USD)
+37.26
+
+Distance
+Cost (USD)
+223.08
+
+b
+c
+a
+b
+c
+a
+b
+c
+a
+b
+c
+a
+b
+c
+a
+b
+c
+a
+b
+c
+a
+b
+c
+a
+b
+c
+a
+b
+c
+
+19.16
+16.82
+49.27
+18
+13.83
+19.82
+10.89
+8.61
+25.13
+10.85
+6.94
+32.03
+12.06
+6.99
+44.22
+27.44
+22.88
+125.59
+34.82
+28.05
+153.19
+71.88
+43.16
+101.06
+62.68
+46.64
+115.89
+69.16
+28.79
+
+319
+485
+159
+211
+311
+306
+345
+462
+145
+166
+260
+144
+219
+321
+363.24
+591.28
+945.63
+363.42
+707.31
+988.87
+545.4
+604.05
+939.22
+635.02
+754.88
+1108.34
+378.27
+735
+1048.63
+
+28.74
+25.24
+73.90
+27
+20.74
+29.74
+16.32
+12.91
+37.69
+16.27
+10.41
+48.04
+18.09
+10.48
+66.34
+41.16
+34.32
+188.385
+52.23
+42.075
+229.785
+107.82
+64.74
+151.59
+94.02
+69.96
+173.835
+103.73
+43.185
+
+248.82
+378.3
+124.02
+164.58
+242.58
+238.68
+269.1
+360.36
+113.1
+129.48
+202.8
+112.32
+170.82
+250.38
+283.33
+461.2
+737.59
+283.46
+551.70
+771.31
+425.41
+471.15
+732.59
+495.31
+588.80
+864.50
+295.05
+573.71
+817.93
+(16)
+
+As seen in Table 9 the damaged products are greater in
+the 50-customer instances than 10-customer instances.
+Nevertheless, the average participation in the total
+transportation cost (damage loss and distance cost) is
+similar, being 13% and 17% for 10-and 50-customer
+instances, respectively. When addressed from an
+
+economic perspective, because both objectives are
+in cost terms, the problem reduces to finding the
+minimum cost, which can be done by calculating the
+costs in all the solutions on the Pareto front set using
+
+Table 10: Damage reduction and distance increase
+when changing from case to in scenario 1.
+Instance
+1
+2
+3
+4
+5
+C101
+C202
+R204
+RC206
+C206
+
+Damage
+reduction (%)
+2.2%
+14.2%
+4.0%
+7.1%
+9.5%
+2.0%
+10.6%
+11.3%
+3.9%
+3.4%
+
+Table 11: Average damage per instance and
+participation in total demand.
+
+Distance
+increase (%)
+11.5%
+32.7%
+12.7%
+14.4%
+52.0%
+62.8%
+94.7%
+10.8%
+18.9%
+57.7%
+
+It is more suitable to analyze the proposed tradeoff from a customer satisfaction perspective. In this
+case, it is useful to take into account the percentage
+of damaged-product reduction when the trade-off is
+considered, in order to compare it with the increase
+in traveled distance. For example, Table 10 shows
+the percentage of damage reduction and increase of
+distance when changing from scenario to . Then, as
+an example, it is up to the decision maker in instance
+3 whether to sacrifice a 12.7% increase over the
+minimum distance to gain a 4% reduction in damage.
+The trade-off is likely to be accepted when greater
+damage reduction is achieved rather than a case, such
+in instance 5 where a large increase in distance resulted
+in little change to damage. To ease the decision, a
+manager could consider to accepting the trade-off
+under certain situations, like when the reduction and
+increase are greater or less than a percentage.
+Regarding the average damage for 10-and
+50-customer instances the percentage of damaged
+products in relation to the total demand is shown in
+Table 11. There we can observe that there is not a
+wide difference in the average percentage of damaged
+load for the different instance sizes. However, the
+10-customer instances showed a slightly greater (1.4%)
+average percentage of damaged load than 50-customer
+instances.
+Solomon’s instances are clustered in six classes
+[39] C1, C2, R1, R2, RC1, and RC2. C-categorized
+problems are clustered geographically or according to
+time windows. Problems in category R have customer
+locations uniformly distributed, and RC instances
+have a hybrid nature. In addition problems C1, R1
+and RC1 have narrow time windows. Considering
+this classification, clustered instances (C and RCtype) showed less average damage percentage than
+the R204 instance. Similarly, the evaluated instance
+with narrow time windows (C101) showed less average
+damage than instances of type C2, R2 and RC2, which
+have wider time windows.
+
+Instance
+
+Demand
+
+1
+2
+3
+4
+5
+C101
+C202
+R204
+RC206
+C206
+6
+
+Average
+Damage
+19.1
+22.3
+12.0
+14.5
+16.0
+28.7
+51.3
+65.8
+61.4
+52.4
+
+250
+220
+220
+200
+210
+860
+860
+721
+970
+860
+
+Percentage
+of total
+demand
+8%
+11%
+6%
+8%
+8%
+4%
+6%
+10%
+7%
+7%
+
+CONCLUSIONS
+
+In this paper, the authors proposed a model for a vehicle
+routing problem that deals with the distribution of a
+perishable product. The model addressed two distinct
+objectives: the minimization of damaged products and
+the minimization of the distance traveled. To achieve
+the first objective, the damage caused during transit
+under different road conditions was considered based
+on data found in the literature. The inclusion of this
+factor is relevant due to the products’ perishability and
+the effects thatmechanical damage may have on the
+consumer-perceived quality.
+To cope with the stated multi-objective problem,
+first five 10-customer instances from the literature
+were adapted and then solved using the AUGMECON
+method. Because the employed exact solution method
+presented limitations by not being able to find efficient
+solutions for large-size instances in reasonable time,
+five large Solomon instances were solved using an
+evolutionary algorithm. The results allowed us to
+observe trade-offs between the objectives and show
+that the proposed solutions methods are capable
+of finding sets of equally efficient solutions for the
+problem. For large instances, four different scenarios
+were explored. As a result, scenario 2 where only
+asphalt and concrete roads are present, showed the least
+damaged products. The results were analyzed from
+two perspectives: the economic, where the damage was
+quantified in terms of costs and expressed in relation
+with the transportation cost, and a perspective when
+the proposed trade-off is more suitable, where the
+perishable nature of the product is highly important to
+the planner in order to improve customer satisfaction.
+In general, the proposed model could be used
+on a small scale when products are transported to
+wholesale distributors, factories, distribution centers,
+the mentioned trade-off will depend on the extend
+to which the decision-maker is willing to improve
+customer satisfaction.
+The application of the model in real life is limited by
+the available information on the road conditions and
+the associated mechanical damage to the products, as
+well as by the study of the effects of different factors
+on damage during transport. Future work shall be
+devoted to ascertaining the damage to different kinds
+of perishable food products under different road
+conditions and to better understand damage-causing
+factors such as vehicle speed, vehicle characteristics,
+and packaging, to ease their consideration on the
+vehicle routing problem. Finally, further research
+could focus on the resolution of larger instances of
+the problem and the development of variants to the
+proposed model, such as the use of a heterogeneous
+fleet of vehicles or multiproduct delivery.
+ACKNOWLEDGEMENT
+The authors would like to thank the Universidad de
+Córdoba for their support to the project FI-04-16,
+from which this article is part, and to the ananymous
+reviewers for their valuable comments and suggestions
+to improve the paper.

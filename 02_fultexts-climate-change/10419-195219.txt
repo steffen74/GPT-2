@@ -1,0 +1,5925 @@
+
+There are basically two reasons why governments in developed countries have taken
+a strong interest in the determinants of educational quality over the last 50 years.
+First, improving academic outcomes have been proven to have a positive impact on
+economic growth (Barro 2001; Barro and Lee 2012; Hanushek and Kimko 2000;
+Hanushek and Woessmann 2012). Second, public expenditure on education is one of
+the largest public budget items, and the public sector is the main provider of
+education in most countries. Governments are not concerned solely with improving
+academic results, however, they mean to do so with the current educational
+resources, that is, through efﬁciency gains. The main reason is that public
+expenditure on education has grown over recent years in many countries, without
+leading to better academic results.
+Particularly, the Uruguayan government has increased the country’s investment
+in education considerably over the last decade. Public expenditure on education
+accounted for 3.5 % of Uruguay’s GDP in 2000, whereas 10 years later it had risen
+to 4.5 %.1 But this signiﬁcant budgetary effort has not been accompanied by
+adequate reforms and public policies leading to better educational achievement in
+public schools. Conversely, the Uruguayan education system has entered into
+stagnation and recession in recent years, particularly at the public secondary
+education level, which has recorded high repetition and dropout rates as well as a
+steady decline in academic performance. For example, the repetition rate from 1st to
+4th grades in public schools has increased between 2003 and 2012 from 21.3 to
+27 % while the attainment rate was reduced from 72.7 to 67.4 % in the same
+period.2 In addition, as evidenced by the latest results published in the PISA 2012
+(Programme for International Student Assessment) Report from the OECD
+(Organisation for Economic Co-operation and Development), results in public
+schools remain steady across the ﬁrst three waves in which Uruguay has
+participated, showing a downward trend in the last cycle (416, 420, 419 and 399
+average points in 2003, 2006, 2009 and 2012, respectively).
+As a consequence of these poor results, the Uruguayan public educational system
+problems are a recurring concern, not only for educational policymakers and the
+government, but also for teachers and families involved in the education process. In
+many cases, the discussion primarily still focuses on increasing public resources
+expended on education; however, there is no concluding empirical evidence in the
+economics of education literature to show that a higher level of resources leads per
+se to better results (Hanushek 2003).
+These ﬁndings reveal that the solution to Uruguay’s educational problem is not
+simply to pour additional resources into the system; instead it is necessary to review
+and change some existing practices and educational policies that are not effective. In
+this sense, the main concern of educational policy makers in Uruguay should be to
+improve the quality of teaching and academic outputs with the currently available
+
+1
+
+The GDP grew by 37 % in real terms over this period [Uruguayan Central Bank (BCU)].
+
+2
+
+of educational inefﬁciencies.
+Using the databases of different international programs,3 many researchers have
+performed speciﬁc analyses of the main sources of inefﬁcient behavior in the
+educational production process using student and school contextual variables
+´
+(Wilson 2005; Afonso and St. Aubyn 2006; De Jorge and Santın, 2010; Cordero
+et al. 2011; Perelman and Santin 2011; Crespo-Cebada et al. 2014).4
+Semiparametric two-stage models were popularized by Ray (1991) and McCarty
+and Yaisawarng (1993) and are among the best-known models for explaining the
+sources of inefﬁciency.5 The ﬁrst stage of this approach prescribes the use of a Data
+Envelopment Analysis (DEA) model to estimate a production frontier, which
+deﬁnes both the efﬁcient and inefﬁcient units. In the second stage, a regression
+technique is applied to explain the identiﬁed inefﬁcient behaviors taking into
+account contextual variables. Two-stage models differ primarily in the regression
+model speciﬁed in the second stage to explain efﬁciency scores. The most
+commonly applied methodology is the censored regression model (the so-called
+Tobit regression), followed by ordinary least squares (OLS) and truncated
+regression. Recently, Simar and Wilson (2007, 2011) proposed a new estimation
+methodology for the second stage based on the use of bootstrapping to overcome
+some drawbacks of these conventional estimation models. We apply the Simar and
+Wilson (2007) two-stage approach as our baseline model in this research, but, as the
+discussion about which is the best model to be run in the second-stage regression is
+ongoing, we also run other second-stage speciﬁcations proposed in the literature in
+order to check the robustness of our conclusions.
+Finally, it is noteworthy that even though there are several international
+educational efﬁciency studies for the OECD countries, research in the Latin
+American context is scant. To the best of our knowledge, there are no studies using
+this efﬁciency approach for the Uruguayan case. In Uruguay, interest has
+traditionally focused on education system coverage rates, the system’s redistributive
+effect and its impact on poverty and growth rather than the quality of the services
+´
+´
+provided and the academic outputs (Llambı and Perera 2008; Llambı et al. 2009;
+´
+Fernandez 2009).
+Therefore, the main aim of this paper is to explore the sources of inefﬁciencies in
+Uruguayan secondary schools in order to provide new valuable and complementary
+evidence for the current national debate about which educational practices and
+policies could contribute to improving school academic results with the current
+resources. For this purpose, we apply a semiparametric two-stage DEA approach to
+PISA 2009 and 2012 data in order to compare the results between the two periods.
+The paper is organized as follows. Section 2 presents the main methodological
+concepts. Section 3 brieﬂy describes the Uruguayan education system, the PISA
+3
+
+These programs include PISA, TIMSS (Trends in International Mathematics and Science Study), IALS
+(International Assessment of Literacy Survey) and PIRLS (Progress in International Reading Literacy
+Study).
+
+4
+
+´
+˜
+See Worthington (2001) and Mancebon and Muniz (2003) for a detailed review of educational
+efﬁciency studies with other country-speciﬁc databases.
+
+5
+
+results. Finally, Sect. 5 discusses the conclusions of this research and their
+implications for educational policy makers.
+
+2 Methodology
+2.1 The educational production function
+The educational production function framework refers to the relationship between
+inputs and outputs for a given production technology. The theoretical approach used
+in this paper for linking resources to educational outcomes at school level is based
+on the well-known educational production function proposed by Levin (1974),
+Hanushek (1979) and Hanushek et al. (2013):
+Ai ¼ f ðBi ; Si Þ;
+
+ð1Þ
+
+where subindex i refers to school, and Ai represents the educational output vector for
+school i. This output is normally measured through the students’ average scores in
+standardized tests. On the other hand, educational inputs are divided into Bi, which
+denotes average student family and socio-economic background, and Si, which are
+school educational resources.
+The educational production function is frequently estimated considering the
+possible existence of inefﬁcient behaviors in schools. Differences in efﬁciency may
+be due to multiple factors, such as poor teacher motivation, teaching and class
+organization issues, teacher quality or school management. Although all these
+factors are not direct inputs, they may affect student performance signiﬁcantly. In
+this case, we estimate a production frontier where fully efﬁcient schools would
+belong to the educational production frontier. These relatively efﬁcient units
+achieve the maximum observed result given their resource allocation. However,
+inefﬁcient units do not belong to the estimated frontier, and their inefﬁciency level
+is measured by the radial distance between each school and the constructed frontier.
+The production frontier to be estimated at school level would be
+Ai ¼ f ðBi ; Si Þ Á ui ;
+
+ð2Þ
+
+where 0 \ ui B 1 denotes the efﬁciency level of school i. Values of ui = 1 imply
+that the analyzed schools are fully efﬁcient, meaning that given the initial input
+endowment and the existing technology, these schools are maximizing their outputs
+and managing correctly the available school inputs. Values ui B 1 would indicate
+that the school is inefﬁcient, and therefore the efﬁciency rate, hi = 1/ui indicates the
+amount by which the actual output should be multiplied to reach the frontier in
+which case the school would be fully efﬁcient.
+In short, three types of variables are involved in the production process:
+educational outputs (Ai), educational inputs (Bi, Si) and the estimated efﬁciency
+level (ui) for each school. Ray (1991) and McCarty and Yaisawarng (1993) were the
+DEA model which measures technical efﬁciency, whereas a regression analysis
+conducted in the second stage seeks out the main explanatory factors of efﬁciency.
+A more detailed description of the two-stage methodology follows.
+2.2 First stage: measuring efﬁciency through a DEA-BCC model
+The measurement of efﬁciency is associated with Farrel’s concept of technical
+efﬁciency (Farrell 1957). Farrell deﬁnes the production frontier as the maximum
+level of output that a decision-making unit (DMU) can achieve given its inputs and
+the technology (output orientation). In practice, the true production frontier and the
+technology is not known and should be estimated from the relative best practices
+observed in the sample.
+There are basically two main groups of techniques for estimating the production
+frontier: parametric, or econometric approaches (see Battese and Coelli 1988, 1992,
+1995 for a review), and nonparametric methods based on mathematical optimization
+models. Although the use of parametric approaches has increased in education in the
+last decades,6 nonparametric methods have been the most extensively applied
+methods for measuring educational efﬁciency.
+Since the pioneering work by Charnes et al. (1978), 1981) and Banker et al.
+(1984),7 the DEA model has been widely used to measure efﬁciency in many areas
+of public expenditure. The main reason for its widespread application is its
+ﬂexibility, and the fact that it accounts for multiple outputs and inputs, unknown
+production technology and missing price information, which makes it to well suited
+to the peculiarities of the public sector. The technique applies a linear optimization
+program to obtain a production frontier that includes all the efﬁcient units and their
+possible linear combinations. As a result, the estimated efﬁciency score for each
+DMU is a relative measure calculated using all the production units that are
+compared. The formulation of the output-oriented DEA program under variable
+returns to scale (DEA-BBC model) for each analyzed unit is
+hDEA ¼ maxf hi j h yi
+i
+k;h
+
+Yk; xi ! Xk; n 10 k ¼ 1; k ! 0; 8i ¼ 1; . . .; ng;
+
+ð3Þ
+
+where for the ith DMU, hi C 1 is the efﬁciency score, yi is the output vector (q 9 1)
+and xi is the input vector (p 9 1), and thus X and Y are the respective input
+(p 9 n) and output (q 9 n) matrices. The (n 9 1) vector k contains the virtual
+weights of each unit determined by the problem solution. When hi = 1 the analyzed
+unit belongs to the frontier (is fully efﬁcient), whereas hi [ 1 indicates that the ith
+unit is inefﬁcient, hi being the radial distance between the ith unit and the frontier. In
+other words, hi indicates the equiproportional expansion over outputs needed to
+reach the frontier. Therefore, the higher the score value hi is, the greater the inefﬁciency level is.
+
+6
+
+See, for example, Perelman and Santin (2011) and Crespo-Cebada et al. (2014).
+
+7
+
+illustrate an output-oriented
+DEA
+
+A
+
+B
+
+C
+
+D
+
+E
+
+F
+
+G
+
+H
+
+Output 1 (y1)
+
+y2/x
+
+5
+
+3
+
+1
+
+2
+
+5
+
+4
+
+3
+
+5
+
+6
+
+6.5
+
+5
+
+2
+
+5
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+Efﬁciency (hi)
+
+7
+
+6
+
+1
+
+Input 1 (x)
+Source: authors’ own
+elaboration
+
+6.5
+
+Output 2 (y2)
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1.2273
+
+1.2273
+
+1.0715
+
+E
+
+F'
+
+•
+
+6
+5
+
+F
+
+D
+
+•
+
+•H
+
+H'
+C
+
+4
+3
+
+B
+
+• G'
+
+2
+
+G
+
+1
+0
+
+A
+
+0
+
+2
+
+4
+
+6
+
+y1/x
+
+Fig. 1 An output-oriented BCC-DEA. Source: authors’ own elaboration
+
+In order to brieﬂy illustrate a DEA model let assume the following simple twooutput single-input setting where it is assumed that eight DMUs, A, B, C, D, E, F,
+G and H have an equal single-input x to produce outputs y1 and y2. The data and the
+efﬁciency index measured by DEA are showed in Table 1.
+DEA runs eight linear programming problems (Eq. 3), one for each of the eight
+DMUs contained in our example in order to construct a piecewise linear frontier
+with best performers which envelops the other inefﬁcient DMUs. Figure 1 shows
+this production frontier where A, B, C, D and E are efﬁcient DMUs hA = hB =
+hC = hD = hE = 1 because they lie on the boundary of the production frontier;
+whereas, being interior points, F, G and H are inefﬁcient units
+hF [ 1; hG [ 1; hH [ 1.
+DEA measures inefﬁciency as the radial distance from the inefﬁcient unit to the
+frontier. For example, the performance of DMU F is measured projecting this unit
+upwards to point F0 , a linear combination of DMUs D and E, with output 1 and
+output 2 equal to 2.4546 and 6.1365, respectively. DEA calculates the efﬁciency of
+DMU F as hF = OF0 /OF = 1.2273. This result means that DMU F could increase
+all its outputs proportionally multiplying its actual outputs level by 1.2273 with its
+^
+The estimated efﬁciency scores hi are regressed on a vector Z = (z1, z2, …, zk) of
+school and student contextual variables, which are not inputs but are related to the
+learning process:
+^
+hi ¼ f ðZi ; bi Þ
+
+ð4Þ
+
+The most used estimation method in this second stage is the censored regression
+model (Tobit), followed by ordinary least squares (OLS),8 from which the main
+explanatory factors of the efﬁciency scores can be drawn9:
+^
+^
+hi ¼ f ðZi ; bi Þ þ ei
+
+ð5Þ
+
+Xue and Harker (1999) were the ﬁrst to argue that these conventional regression
+models applied in the second stage yield biased results because the efﬁciency scores
+^
+estimated in the ﬁrst stage (hi ) are serially correlated. Accordingly, there has been a
+lively debate in recent years about which would be the most accurate model to apply
+in this second stage in order to provide consistent estimates. According to Simar and
+Wilson (2007), the efﬁciency rates estimated by the DEA model in the ﬁrst stage are
+correlated by construction (as they are relative measures), and therefore estimates
+from conventional regression methods (Eq. 5) would be biased. Additionally, the
+possible correlation of the contextual variables Zi with the error term ei in Eq. (5) is
+another source of bias.
+Simar and Wilson (2007) state that bootstrapping can overcome these drawbacks.
+In their paper, the authors propose two algorithms10 that incorporate the bootstrap
+procedure in a truncated regression model. They run a Monte Carlo experiment to
+examine and compare the performance of these two algorithms, and they prove that
+both bootstrap algorithms outperform conventional regression methods (Tobit and
+truncated regressions without bootstrapping), yielding valid inference methods. For
+small samples (problems with fewer than 400 units and up to three outputs and three
+inputs), Algorithm #1 ﬁts results better than Algorithm #2, which is more efﬁcient
+as of samples that exceed 800 units.11 Since the samples analyzed in our research
+are made up of around a hundred schools, we apply the simple Algorithm #1, which
+is described below.12
+
+8
+
+Some authors actually estimate both models simultaneously to verify results robustness.
+
+9
+
+For a detailed review of estimation methods used in the second stage of semiparametric models, see
+Simar and Wilson (2007).
+
+10
+The authors propose a simple Algorithm #1 and a double Algorithm #2. The difference lies in the fact
+that Algorithm #2 incorporates an additional bootstrap in the ﬁrst stage, which amends the estimates of
+the efﬁciency scores.
+11
+
+For a more detailed analysis of the results, see Simar and Wilson (2007, p. 45).
+
+12
+
+et al. (2010) took up the discussion about the use of OLS, Tobit and fractional
+regression models in the second stage. Unlike Hoff (2007), who concluded that both
+(Tobit and OLS) models yield consistent estimations, McDonald (2009) showed that
+only the Tobit produces consistent results. Meanwhile, Banker and Natarajan (2008)
+provided a statistical model which yields consistent second-stage OLS estimations.
+Simar and Wilson (2011) again took part in the ongoing debate and concluded that
+only the truncated regression and, under very particular and unusual assumptions, the
+OLS model provides consistent estimates. Further, they proved that in both cases
+only bootstrap methods were capable of statistical inference.
+From the above, we conclude that the research community does not yet totally
+agree about which is(are) the most consistent regression model(s) because this
+conclusion depends on previous assumptions about the data generation process. For
+this reason, we have chosen to estimate four alternative regression models in the
+second stage and compare the results. First, we specify the conventional Tobit
+(censored regression model), as it is the most commonly used in the literature. Then,
+for the sake of robustness, we estimate three regression models applying the
+bootstrap procedure: Algorithm #1 proposed by Simar and Wilson (2007) based on a
+3.1 Brief description of the Uruguayan education system
+The Uruguayan national education system is composed of four levels: 3 years of
+pre-primary education (3–5 years old), 6 years of primary education (6–11 years
+old), 6 years of secondary education (12–17 years old), and college education at the
+end of secondary education. Secondary education is divided into 3 years of lower
+secondary education (Ciclo Basico Comun) and 3 years of upper secondary
+´
+´
+education (Bachillerato). Compulsory education covers 14 years from the last
+2 years of pre-primary education (4 and 5 years old), through primary school, to the
+end of secondary education.13
+In terms of public and private education production, the public sector takes
+absolute primacy over the private sector. In 2011, 84.5 % of high school students
+attended public schools (Education Observatory, National Administration of Public
+Education). This highlights how important the performance of public institutions is
+for national academic results, and therefore the need to benchmark schools and to
+assess both the management and the teaching practices implemented by these
+schools.
+Uruguay has historically occupied a leading position in Latin America in terms of
+educational achievement, according to the main standard indicators and international studies. However, the Uruguayan education system (particularly the
+secondary and tertiary levels) is currently undergoing a phase of stagnation and
+recession. The major budgetary effort made by the government in the ﬁrst decade of
+the twenty-ﬁrst century has not been accompanied by effective reforms and policies
+to improve educational outcomes.
+The results of PISA 2009 and 2012 corroborate that Uruguay is still in an
+advantageous position within the region,14 but also conﬁrm that results have not
+improved compared to previous waves. In addition, test scores in the three
+analyzed areas (mathematics, reading and science) are more highly dispersed than
+in other countries, which mirror the high social segmentation of the education
+system. Comparing student’s performance by the schools socio-economic context
+in PISA 2012, it is noteworthy that while almost 89 % of students who attended to
+schools in ‘‘very unfavorable circumstances’’ do not reach the minimum
+‘‘competence threshold’’ deﬁned by the OECD in mathematics,15 this ﬁgure
+
+13
+
+Art. 10 of the General Education Law N. 18,437 of December 12, 2008.
+
+14
+
+PISA 2009 showed that Uruguay was the Latin American country with the best results for mathematics
+and was second placed in science and reading (after Chile). In PISA 2012 Uruguay is placed in the third
+position in the three evaluated areas between all Latin American countries that participated in this wave.
+15
+PISA deﬁnes six competencies levels and states that basic skills are obtained at Level 2. In the case of
+mathematics Level 2 threshold is described as follows: ‘‘At Level 2 students can interpret and recognize
+situations in contexts that require no more than direct inference. They can extract relevant information
+from a single source and make use of a single representational model. Students at this level can employ
+basic algorithms, formulae, procedures, or conventions. They are capable of direct reasoning and making
+circumstances’’.17 By contrast, analyzing the percentage of top-scoring students
+(performance levels four to six) deﬁned by PISA analysts, we ﬁnd that this
+proportion rises to almost 30 % of students in ‘‘very favorable circumstances’’,
+whereas students from ‘‘very unfavorable circumstances’’ account for less than
+1 %. This heterogeneity may be the consequence of differences not only in the
+initial resources endowment but also of efﬁciency. It is essential to explore the
+sources of such differences in order to improve academic outputs in more
+inefﬁcient schools and to reduce inequalities in the education system.
+3.2 PISA databases and model speciﬁcation
+PISA 2009 and 2012 are the fourth and ﬁfth edition of an initiative that the OECD
+started up in the late 1990s to assess 15-year-old students. The assessment focuses
+on measuring the extent to which students are able to apply their knowledge and
+skills to fulﬁll future real-life challenges rather than evaluating how well they have
+mastered a speciﬁc school curriculum. The evaluation addresses three knowledge
+areas: reading, mathematical and scientiﬁc literacy, and each wave tests in depth a
+major domain. In 2000 and in 2009 the major domain was reading, in 2003 it was
+mathematics, in 2006 science and ﬁnally, in 2012, it is again mathematics. In
+addition to academic achievement data, the PISA database contains a vast amount of
+information about students, their households and the schools they attend. Uruguay
+took part in PISA 2009 (2012) assessing 5927 (5315) students from (232) 180 public
+and private schools.
+To perform the DEA model one of the main requirements is that the evaluated
+decision-making units should be as homogeneous as possible (Dyson et al. 2001).
+To estimate the production frontier and the efﬁciency indexes the technique assumes
+that all units operate under the same production technology and therefore under
+similar context and circumstances. In order to analyze homogenous schools, the
+original PISA databases were reﬁned. Firstly, we assume that technologies in public
+and private sector are different due to different legal, organizational and curricular
+contexts and therefore, management drivers also differ in the two schools type. Two
+frontiers should be estimated, one for each sector. Unfortunately, the sample size of
+private schools is small to carry out a speciﬁc analysis of this sector so, we only
+analyze public schools. Secondly, we eliminate schools which only offer basic
+secondary education (1st, 2nd and 3rd year of high school) or only offer upper
+secondary education (4th, 5th and 6th year of high school). The cut-off age between
+the two cycles in Uruguay is just 15 years old and, since PISA evaluates students of
+this age, those students attending schools where only basic secondary education is
+offered are inevitably repeaters and, on the contrary, students attending schools
+16
+National Administration of Public Education (ANEP), ‘‘Informe Ejecutivo Preliminar Uruguay en
+PISA 2012’’. Available at http://www.anep.edu.uy/anep/index.php/presentaciones-2012.
+17
+
+Schools are classiﬁed into ﬁve levels of socio-economic context based on the quintile distribution of
+the average socio-economic background of the students who attend to these schools (the average ESCS
+PISA index for each school). Levels are deﬁned as ‘‘Very unfavorable’’ (the bottom quintile),
+in schools where only basic secondary education is imparted, 100 % of the assessed
+students in PISA are repeaters in at least one previous course and, in those schools
+where only upper secondary education is imparted, 100 % of the assessed students
+are on the right course. Therefore, these institutions are not comparable when
+estimating the production frontier.
+In sum, this analysis is carried out for 169 mixed public schools (98 from PISA
+2009 and 71 from PISA 2012) which provide both cycles of secondary education.
+For comparative and robustness purposes, we perform the same analysis for PISA
+2009 and PISA 2012 waves separately. Additionally, we run the model for both
+databases in a pool18 including contextual variables simultaneously available in the
+two waves in order to check whether or not technical efﬁciency has changed
+signiﬁcantly over the two periods.
+3.3 Outputs, inputs and contextual variables
+3.3.1 Outputs
+It is difﬁcult to empirically quantify the education received by an individual,
+especially when the focus is on analyzing its quality beyond the years of education.
+However, there is a consensus in the literature about considering the results from a
+standardized test as educational outputs, as they are difﬁcult to forge and, above all,
+they are taken into account by parents and politicians when making decisions on
+education. In this research, we selected two variables as outputs of the educational
+process: the average results in reading (Read_mean) and mathematics
+(Maths_mean).19
+3.3.2 Inputs
+Regarding educational inputs, three variables were selected taking into account the
+educational production function in Eq. (1). They represent the classical inputs in
+education economics required to carry out the learning process: students (raw
+material), teachers (human capital) and infrastructure (physical capital).20 A
+previous requirement for a variable to be considered as an input in an efﬁciency
+analysis is that it has to be positively correlated with all outputs. This monotonicity
+assumption (Coelli et al. 2005) implies that if we give more input to a DMU then we
+will expect to obtain equal or more quantity of outputs than in the previous situation
+or, in other words, additional units of an input will not decrease output. The
+following inputs were included in the ﬁrst stage of the DEA:
+
+18
+
+This analysis was suggested by a referee to explore extra sources of variation (especially temporal).
+
+19
+
+The result for science has been omitted since it provides little additional information to the reading and
+mathematical results. Besides, DEA becomes less discriminative as more dimensions are added to the
+problem (curse of dimensionality); therefore, we prioritize parsimony by choosing only two outputs.
+20
+
+
+•
+
+Lat Am Econ Rev (2015) 24:5
+
+Parental education (PARED): is an index that reﬂects the higher parental
+education expressed by the number of years of schooling according to the
+International Standard Classiﬁcation of Education (ISCED-1997, OECD).21 It
+therefore represents the quality of the ‘raw material’ to be transformed through
+the learning process.
+School educational resources (SCHRES): is an index of the quality of the school
+resources constructed from the school’s principal responses. It is therefore
+associated with the physical and human capital. The index was computed from
+the responses by principals to several questions related to the scarcity or lack of
+ten educational resources22 including teachers, educational material and
+infrastructures. The school receives one point for each item for which the
+principal’s answer is that the school is not deﬁcient ‘at all’. The maximum
+(minimum) score for each school is ten (zero) points, which indicates an
+excellent (dreadful) educational input.23
+Proportion of fully certiﬁed teachers (PROPCERT): this index reﬂects the
+quality of teachers, and therefore the school’s human capital. The index is
+constructed by dividing the total number of certiﬁed teachers (with a teaching
+degree)24 by the total number of teachers. This variable is especially relevant in
+the case of Uruguay since not all teachers have received the teaching training
+required to qualify as teachers.
+
+As mentioned above, it is necessary to check the monotonicity assumption in
+order to ensure a correct DEA model speciﬁcation. Table 2 presents the bivariate
+correlations of the selected outputs and inputs where all correlations are positive.
+3.3.3 Contextual variables
+The distinction between an educational input (ﬁrst stage) and an explanatory
+variable of inefﬁciency or contextual variable (second stage) can be confusing. In
+this research we have considered that a variable is an explanatory factor of
+efﬁciency, and not an educational input, when it is not strictly essential to produce
+education but it can affect academic results through the efﬁciency term. These
+variables fulﬁll one or some of these conditions:
+1.
+
+The variable reﬂects some key aspect of school management and organization
+and/or the teaching–learning processes enacted in the classrooms.
+
+21
+In the case of Uruguay the equivalent scale used to compute the years of schooling is the following:
+ISCED 1 equals to 6 years; ISCED 2 equals to 9 years; ISCED Level 3A, 3B, 3C or 4 equals to 12 years;
+ISCED 5B equals to 15 years; and ISCED 5A or 6 equals to 17 years of schooling.
+22
+The item included are: ‘Qualiﬁed science teachers’, ‘Qualiﬁed mathematics teachers’, ‘Qualiﬁed
+reading teachers’, ‘Any other personal support’, ‘Science laboratory equipment’, ‘Instructional materials’,
+‘Computers’, ‘Internet connectivity’, ‘Software’, ‘Library materials’.
+23
+This variable has been rescaled so the minimum value is one in order to avoid zero values in the
+empirical analysis.
+24
+Certiﬁed teachers in Uruguay are required to complete a 4-year degree at the Instituto de Profesores
+PARED
+2009
+
+SCHRES
+
+PROPCERT
+
+0.014
+
+0.373**
+
+0.023
+
+0.393**
+
+Maths_mean
+
+0.585**
+
+0.122
+
+0.116
+
+0.479**
+
+0.188
+
+0.180
+
+Maths_mean
+
+0.544**
+
+0.048
+
+0.263**
+
+Read_mean
+
+Pool
+
+0.588**
+0.633**
+
+Read_mean
+
+2012
+
+Maths_mean
+Read_mean
+
+0.545**
+
+0.091
+
+0.297**
+
+** Statistical signiﬁcance at 1 % (bilateral). Sample size PISA 2009 = 71; PISA 2012 = 98;
+pool = 169. Source: own elaboration based on PISA 2009 and PISA 2012 data
+
+2.
+3.
+4.
+
+The variable is dichotomous, categorical or does not have a continuous
+measurement scale.
+The monotonicity assumption does not hold in practice, i.e., the selected
+variable does not show a positive correlation with academic outcomes.
+The variable is an indicator based on opinions with a high degree of subjectivity
+and difﬁcult to contrast.
+
+Building upon this criteria, we select ﬁfteen contextual variables25 (Z vector in
+Eqs. 4 and 5) associated with students and schools. Most of contextual variables
+appear in PISA 2009 and 2012; however, there are some variables that are only
+available in one wave. To be more precise we employ 12 (13) variables with PISA
+2012 (2009) to run the second stage regression analysis. Finally, we only use the ten
+contextual variables that were collected in both waves.
+3.3.3.1 Contextual variables included only in PISA 2009
+•
+•
+
+•
+
+25
+
+TEST: a dummy variable that takes the value one when students are assessed by
+teachers through tests, quizzes or exams more often than once a month.
+HOMEWORK: a dummy variable which refers to the assessment tools as well
+as the frequency with which they are applied. In this case, the variable takes
+value one when the students are assessed by means of homework every month.
+Both Tests and Homework are expected to have a positive effect on school
+efﬁciency.
+EXTREADING: the percentage of students in the school who spend between
+one and 2 h per day reading for pleasure after school. It is understood that
+reading contributes to the student learning process, as it helps to improve
+spelling, reading comprehension and understanding skills. It is expected
+therefore to have a positive effect on school efﬁciency.
+
+•
+
+•
+
+STUCHECK: percentage of students in the school that have answered yes to the
+statement ‘When I study mathematics, I make myself check to see if I remember
+the work I have already done’. This variable reﬂects the learning skills acquired
+along the student’s academic life.
+STUIMPORT: percentage of students in the school that have answered yes to
+the statement ‘When I study for a mathematics test, I try to work out what the
+most important parts to learn are’. As in the previous case, this variable also
+reﬂects the learning skills acquired along the student’s academic life.
+
+3.3.3.3 Contextual variables included in both databases and in the pool
+•
+•
+
+•
+•
+•
+•
+
+PERIOD: dummy variable that takes value one if the student belongs to PISA
+2012. This variable is only included in the pool.
+PCTCORRECT: percentage of students assessed in the school who are in the
+academic year that a 15-year student should really be in. This variable reﬂects
+the grade-retention policy, and is another focus of attention in current
+educational discussions because there is no consensus about its net effect on
+educational results.
+TEACHVOC: dummy variable that takes value one if the institution is a
+vocational technical school.
+RURAL: dummy variable that takes value one if the institution is located in a
+town with less than 3000 inhabitants.
+CITY: dummy variable that takes value one if the institution is located in a town
+with more than 100,000 inhabitants.
+TEACHSTU: the number of teachers per hundred students. Some research
+includes class size as an educational input in the ﬁrst stage, but we have decided
+to use it as an explanatory variable of efﬁciency since there is still no conclusive
+evidence about the real effect of this variable on student results.26 Furthermore,
+this variable does not show a positive correlation with the analyzed outputs.
+
+Finally, we incorporate a number of variables associated with school autonomy
+and management in terms of budget allocation, curriculum development, disciplinary policies and student assessment practices. There are no expected a priori
+positive or negative relationships between these variables and school efﬁciency,
+since empirical evidence emerging from international comparisons does not provide
+conclusions that are applicable to all education systems (OECD 2013b).
+•
+
+26
+
+Curr_author: a dummy variable which takes the value one when the national
+authorities have a considerable responsibility for determining the content of the
+courses.
+•
+•
+
+Page 15 of 28 5
+
+Disc_author: a dummy variable which takes the value one when the national
+authorities have a considerable responsibility for establishing student disciplinary policies.
+Budget_ppal: a dummy variable which takes the value one when the school
+principal has a considerable responsibility for distributing the school budget.
+Budget_author: a dummy variable which takes the value one when the national
+authorities have a considerable responsibility for distributing the school budget.
+Asses_author: a dummy variable which takes the value one when the national
+authorities have a considerable responsibility for establishing student assessment
+policies.
+
+Table 3 shows the main descriptive statistics of all selected variables: outputs,
+inputs and contextual variables.
+
+4 Results
+4.1 First stage analysis
+Figure 2 illustrates the distribution of efﬁciency scores, hi in Eq. (1), estimated by
+the output-oriented DEA-BCC model for the three data sets. Results show that
+between 2009 and 2012 the percentage of fully efﬁcient schools in Uruguay dropped
+from 27 to 21 %. The average estimated efﬁciency score also decreases over this
+period from 1.087 in PISA 2009 to 1.116 in PISA 2012. This means that, on
+average, educational results in public schools could be increased in 2012 by 11.6 %
+given the available resources. Moreover, more than 16 % of the schools in 2012
+could improve their results by over 20 % to reach the frontier while this percentage
+represented 13 % in 2009. Finally half of schools could improve outcomes by over
+10 % with their current inputs in 2012 what represent an important decrease in
+results taking into account that barely one out of three schools belonged to this
+inefﬁcient group in 2009.
+Table 4 shows, as an example of the potential beneﬁts of measuring inefﬁciency,
+the most inefﬁcient schools with estimated efﬁciency scores greater than 1.20 for
+PISA 2012, i.e., where outputs could be increased by more than 20 % if they were
+fully efﬁcient. All these schools perform far below the Uruguayan means in PISA
+2012 (409 in mathematics and 411 in reading); whereas, if they were fully efﬁcient,
+most of them would be above these national averages. In fact, some schools would
+even signiﬁcantly exceed these averages in both subjects (e.g., schools 2, 4, 6 and
+10).
+An alternative way to evaluate the potential gains due to inefﬁciencies reduction
+is by comparing the actual distribution of students into PISA proﬁciency levels
+deﬁned by the OECD with the potential distribution that would be observed once
+inefﬁcient schools reached the frontier. Table 5 shows the percentage of students
+under (over) proﬁciency level 1 (level 4) and level 2 (level 5) in mathematics,
+reading and in at least one of the two evaluated disciplines in the two periods.
+
+Students’ highest parental education level expressed as years of schooling
+
+Read_mean
+
+Proportion of fully certiﬁed teachers in the school
+
+SCHRES
+
+PROPCERT
+
+School located in a city with more than 100,000 inhabitants
+
+Number of teachers per 100 students
+
+National authorities have a considerable responsibility for determining the content of the courses
+
+National authorities has a considerable responsibility for establishing student disciplinary policies
+
+The school’s principal has a considerable responsibility for distributing the school budget
+
+National authorities have a considerable responsibility for distributing the school budget
+
+National authorities have a considerable responsibility for establishing the students assessment policies
+
+TEACHSTU
+
+Curr_authora
+
+Disc_authora
+
+Budget_ppala
+
+Budget_authora
+
+Asses_authora
+
+a
+
+For dummy variables, the mean represents the proportion of schools in each category
+
+Source: own elaboration based on PISA 2009 and PISA 2012
+
+School located in a town with less than 3000 inhabitants
+
+RURALa
+
+CITYa
+
+Percentage of students who try to work out what the most important parts to learn are (mathematics)
+
+STUIMPORT
+
+Percentage of students in the appropriate year
+
+Percentage of students who check to see if I remember the work I have already done (mathematics)
+
+STUCHECK
+
+Vocational technical school
+
+Percentage of students in the appropriate year
+
+EXTREADING
+
+TEACHVOCa
+
+Student’s assessment through monthly homework
+
+HOMEWORK
+
+PCTCORRECT
+
+Student’s assessment through tests with frequency more than one per month
+
+TEST
+
+Explanatory variables
+
+School Educational Resources Index
+
+PARED
+
+Inputs
+
+School average score in reading
+
+Maths_mean
+
+Outputs
+
+Variable
+
+Table 3 Descriptive statistics of outputs, inputs and explanatory variables of efﬁciency
+
+0.80
+
+0.57
+
+0.53
+
+0.63
+
+0.84
+
+7.67
+
+0.09
+
+0.14
+
+0.31
+
+0.55
+
+–
+
+–
+
+0.09
+
+0.14
+
+0.13
+
+0.53
+
+4.94
+
+9.65
+
+390.7
+
+398.0
+
+0.41
+
+0.50
+
+0.50
+
+0.48
+
+0.37
+
+3.27
+
+0.29
+
+0.35
+
+0.46
+
+0.26
+
+–
+
+–
+
+0.06
+
+0.35
+
+0.34
+
+0.18
+
+2.71
+
+1.56
+
+53.6
+
+49.0
+
+0.68
+
+0.66
+
+0.30
+
+0.65
+
+0.72
+
+7.48
+
+0.10
+
+0.13
+
+0.32
+
+0.55
+
+0.32
+
+0.25
+
+–
+
+–
+
+–
+
+0.52
+
+5.31
+
+10.15
+
+380.5
+
+382.1
+
+Mean
+
+Mean
+
+SD
+
+2012
+
+2009
+
+0.47
+
+0.48
+
+0.46
+
+0.48
+
+0.45
+
+2.49
+
+0.30
+
+0.34
+
+0.47
+
+0.24
+
+0.09
+
+0.09
+
+–
+
+–
+
+–
+
+0.20
+
+3.04
+
+1.40
+
+54.3
+
+44.7
+
+SD
+
+0.75
+
+0.61
+
+0.43
+
+0.64
+
+0.79
+
+7.59
+
+0.09
+
+0.14
+
+0.31
+
+0.55
+
+–
+
+–
+
+–
+
+–
+
+–
+
+0.52
+
+5.09
+
+9.86
+
+386.4
+
+391.3
+
+Mean
+
+Pool
+
+0.44
+
+0.49
+
+0.50
+
+0.48
+
+0.41
+
+2.96
+
+0.29
+
+0.34
+
+0.47
+
+0.25
+
+–
+
+–
+
+–
+
+–
+
+–
+
+0.19
+
+2.85
+
+1.51
+
+54.0
+
+47.8
+
+SD
+students below proﬁciency level 2 (the minimum ‘competence threshold’ deﬁned by
+OECD) in mathematics (reading) could be reduced from 67.2 to 48.5 % in
+mathematics and from 58.8 to 42.9 % in reading. Moreover, the actual percentage
+of students who is below proﬁciency level 2 in at least one of the two evaluated areas
+would decline from 73.5 to 57.4 %. By contrast, analyzing the percentage of topscoring students (performance levels four to six) deﬁned by PISA analysts, we ﬁnd
+that this proportion could be doubled from 12.6 to 24.5 % and from 13.6 to 26.9 % in
+mathematics and reading tests, respectively. Indeed, these ﬁgures would be close to
+those actually observed in some OECD countries (e.g., United States 24.6 %, Sweden
+24.4 % or Italy 26.7 % in mathematics). It is also important to note here the decline of
+PISA 2012 results with respect PISA 2009. Table 5 clearly shows how the actual
+number of top performers in at least one area was almost 11 percentage points higher
+in 2009 than in 2012. As a consequence, the potential percentage of students that
+could become top performers decreased too from 42.9 % in PISA 2009 to 35 % in
+PISA 2012. Results are closely related when we turn our attention to the comparison
+of students under the minimum competence threshold in mathematics or reading. In
+this case, we observe that the actual percentage of students without the minimum level
+of competences rose from 63.9 % in PISA 2009 to 73.5 % in PISA 2012 while the
+potential to lift students out of poor results decreased between the 2 years.
+4.2 Second-stage analysis
+
+% Schools
+
+In a second stage, the estimated efﬁciency scores are regressed over the contextual
+variables using four model speciﬁcations: the truncated regression with bootstrap
+proposed by Simar and Wilson (2007), the conventional Tobit, the Tobit regression
+with bootstrap and, ﬁnally, the OLS model with bootstrap. Results are shown for
+
+40%
+35%
+30%
+25%
+20%
+15%
+10%
+5%
+0%
+
+1.00 -1.1
+
+1.1-1.2
+
+1.2-1.3
+
+PISA 2009
+
+Fully
+Efficient
+0.27
+
+0.40
+
+0.19
+
+0.09
+
+1.3 or
+more
+0.05
+
+PISA 2012
+
+0.21
+
+0.28
+
+0.34
+
+0.08
+
+0.08
+
+Pool
+
+0.17
+
+0.34
+
+0.27
+
+0.14
+
+0.09
+
+Fig. 2 Estimated efﬁciency scores distribution (DEA-BBC). Values equal to one represent full efﬁcient
+units. Higher values of the estimated score imply more inefﬁciency. Source: authors’ estimates using
+School
+ID
+
+Estimated
+efﬁciency
+
+Actual
+mathematics
+
+Actual
+reading
+
+Target
+mathematics
+
+Target
+reading
+
+1
+
+1.52
+
+291
+
+224
+
+442
+
+341
+
+2
+
+1.47
+
+308
+
+305
+
+452
+
+448
+
+3
+
+1.39
+
+307
+
+271
+
+427
+
+377
+
+4
+
+1.38
+
+324
+
+313
+
+447
+
+433
+
+5
+
+1.36
+
+302
+
+273
+
+411
+
+371
+
+6
+
+1.34
+
+323
+
+328
+
+433
+
+440
+
+7
+
+1.28
+
+344
+
+309
+
+440
+
+395
+
+8
+
+1.27
+
+318
+
+321
+
+404
+
+408
+
+9
+
+1.27
+
+319
+
+290
+
+405
+
+368
+
+10
+
+1.26
+
+365
+
+355
+
+460
+
+448
+
+11
+
+1.22
+
+318
+
+315
+
+388
+
+385
+
+12
+
+1.21
+
+349
+
+347
+
+422
+
+420
+
+Source: authors’ estimations using PISA 2012 data
+
+Table 5 Actual and potential percentage of students into PISA proﬁciency levels
+Description
+
+2009
+
+2012
+
+Actual %
+Students under the minimum ‘‘competence
+threshold’’ in mathematics
+
+Potential %
+
+Actual %
+
+Potential %
+
+54.7
+
+41.5
+
+67.2
+
+48.5
+
+Top-performing students in mathematics
+
+20.7
+
+30.7
+
+12.6
+
+24.5
+
+Students under the minimum ‘‘competence
+threshold’’ in reading
+
+49.7
+
+38.2
+
+58.8
+
+42.9
+
+Top-performing students in reading
+
+21.9
+
+31.3
+
+13.6
+
+26.9
+
+Students under the minimum ‘‘competence
+threshold’’ in at least one area
+
+63.9
+
+52.4
+
+73.5
+
+57.4
+
+Top-performing students in at least one area
+
+29.8
+
+42.9
+
+19.0
+
+35.0
+
+Source: authors’ estimations based on PISA 2009 and PISA 2012 databases
+
+cross-sections of PISA 2009, PISA 2012 and the pool in Tables 6, 7 and 8,
+respectively.
+From the comparative analysis of the four speciﬁed models we can conclude that
+there are no major discrepancies between the results. The sign, magnitude and
+signiﬁcance of almost all variables are similar in all models and databases, implying
+that any educational policy recommendations derived from them would be basically
+the same regardless the second-stage regression model ﬁnally chosen adding
+robustness to these ﬁndings. Taking into account this general conclusion, we will
+consider the speciﬁcation proposed by Simar and Wilson (2007) as the baseline for
+
+0.00
+
+0.06
+
+0.00
+
+-0.04
+
+-0.03
+
+-0.01
+
+TEACHVOCc
+
+RURALc
+
+CITYc
+
+TEACHSTU
+
+Curr_authorc
+
+Disc_authorc
+
+Asses_authorc
+
+Budget_authorc
+
+Budget_ppalc
+
+1.17
+
+0.00
+
+0.01
+
+EXTREADING
+
+Constant
+
+0.04
+
+-0.07
+
+HOMEWORKc
+
+0.05
+
+0.03
+
+0.03
+
+0.02
+
+0.03
+
+0.03
+
+0.03
+
+0.03
+
+0.19
+
+0.03
+
+0.03
+
+-0.04
+
+0.05
+
+-0.20
+
+PCTCORRECT
+
+21.34***
+
+-0.20
+
+-1.25
+
+-1.64*
+
+0.07
+
+1.76*
+
+-0.04
+
+-0.05
+
+0.27
+
+1.56
+
+0.05
+
+-2.41**
+
+-1.42
+
+-4.28***
+
+1.242
+
+0.019
+
+-0.009
+
+-0.021
+
+-0.020
+
+0.019
+
+-0.004
+
+-0.002
+
+0.057
+
+0.105
+
+-0.146
+
+-0.060
+
+-0.100
+
+-0.257
+
+0.074
+
+0.040
+
+0.037
+
+0.035
+
+0.046
+
+0.059
+
+0.009
+
+0.054
+
+0.056
+
+0.041
+
+0.265
+
+0.033
+
+0.056
+
+0.066
+
+SE
+
+16.86***
+
+0.49
+
+-0.23
+
+-0.61
+
+-0.44
+
+0.32
+
+-0.47
+
+-0.04
+
+1.02
+
+2.58***
+
+-0.55
+
+-1.82*
+
+-1.79*
+
+-3.91***
+
+z
+
+Coef.
+
+t
+
+Coef.
+
+SE
+
+Truncated ? bootstrapb
+
+Conventional Tobita
+
+TESTc
+
+Explanatory variables
+
+Table 6 Efﬁciency drivers: second-stage estimations (PISA 2009)
+
+1.167
+
+-0.005
+
+-0.033
+
+-0.040
+
+0.002
+
+0.060
+
+0.000
+
+-0.002
+
+0.009
+
+0.043
+
+0.010
+
+-0.069
+
+-0.039
+
+-0.196
+
+Coef.
+
+0.069
+
+0.029
+
+0.030
+
+0.027
+
+0.037
+
+0.042
+
+0.005
+
+0.050
+
+0.037
+
+0.032
+
+0.220
+
+0.034
+
+0.032
+
+0.053
+
+SE
+
+Tobit ? bootstrapa
+
+17.03***
+
+-0.18
+
+-1.08
+
+-1.47
+
+0.06
+
+1.43
+
+-0.03
+
+-0.04
+
+0.25
+
+1.34
+
+0.05
+
+-2.02***
+
+-1.23
+
+-3.72***
+
+z
+
+1.173
+
+0.008
+
+-0.022
+
+-0.025
+
+-0.004
+
+0.028
+
+0.000
+
+-0.011
+
+0.004
+
+0.042
+
+-0.049
+
+-0.037
+
+-0.040
+
+-0.149
+
+Coef.
+
+0.049
+
+0.021
+
+0.023
+
+0.020
+
+0.029
+
+0.025
+
+0.004
+
+0.043
+
+0.027
+
+0.024
+
+0.150
+
+0.019
+
+0.023
+
+0.040
+
+SE
+
+OLS ? bootstrap
+
+24.11***
+
+0.38
+
+-0.93
+
+-1.21
+
+-0.15
+
+1.11
+
+0.04
+
+-0.25
+
+0.14
+
+1.76*
+
+-0.33
+
+-1.95*
+
+-1.75*
+
+-3.70***
+
+z
+
+Lat Am Econ Rev (2015) 24:5
+
+0.086
+
+0.012
+
+SE
+
+z
+
+Coef.
+
+SE
+
+Coef.
+
+t
+
+Truncated ? bootstrapb
+
+Conventional Tobita
+
+0.100
+
+Coef.
+0.010
+
+SE
+
+Tobit ? bootstrapa
+z
+
+Truncated regression model with 26 left-truncated observations at value 1
+
+Censored regression model with 26 left-censored observations at value 1
+
+0.085
+
+Coef.
+
+SE
+
+OLS ? bootstrap
+z
+
+Dummy variables. Reference categories for school dummies are: non-vocational technical school; school located in a town with more than 3000 and less than 100,000
+inhabitants; students are assessed through test with monthly frequency or less; students are assessed through homework with frequency less than monthly; the national
+authorities do not have a considerable responsibility for determining the content of the courses or establishing student disciplinary policies or distributing the school budget
+or establishing the students assessment policies; the school principal does not have a considerable responsibility for distributing the school budget; the school board does
+not have a considerable responsibility for distributing the school budget
+
+c
+
+b
+
+a
+
+*** p \ 0.01
+
+** p \ 0.05
+
+* p \ 0.10
+
+Source: authors’ estimations using PISA 2009 data
+
+‘Coef.’ is the estimated coefﬁcient. SE is the robust standard error of the estimated coefﬁcient. Number of schools = 98
+
+/sigma
+
+Explanatory variables
+
+Table 6 continued
+
+Constant
+
+0.025
+
+-0.074
+
+0.006
+
+Disc_authorc
+
+Budget_authorc
+
+0.030
+
+Curr_authorc
+
+Asses_authorc
+
+-0.001
+
+0.001
+
+-0.075
+
+TEACH_stu
+
+CITYc
+
+RURALc
+
+0.089
+
+0.030
+
+0.032
+
+0.039
+
+0.036
+
+0.033
+
+0.007
+
+0.045
+
+0.046
+
+0.039
+
+0.170
+
+0.013
+
+-0.285
+
+STUimport
+
+TEACHVOCc
+
+0.068
+
+0.144
+
+-0.152
+
+-0.598
+
+PCTCORRECT
+
+-2.25**
+
+16.46***
+
+-2.70***
+
+-2.36**
+
+0.65
+
+0.17
+
+0.92
+
+-0.10
+
+0.02
+
+-1.63
+
+0.33
+
+-1.68*
+
+-4.16***
+
+-0.176
+
+1.634
+
+-0.125
+
+-0.074
+
+0.026
+
+-0.016
+
+0.026
+
+-0.009
+
+0.080
+
+-0.012
+
+0.022
+
+-0.478
+
+-0.735
+
+0.132
+
+0.053
+
+0.048
+
+0.072
+
+0.064
+
+0.053
+
+0.011
+
+0.069
+
+0.075
+
+0.057
+
+0.248
+
+0.280
+
+0.108
+
+SE
+
+12.37***
+
+-2.36**
+
+-1.56
+
+0.36
+
+-0.25
+
+0.49
+
+-0.82
+
+1.16
+
+-0.16
+
+0.39
+
+-1.97**
+
+-2.62**
+
+-1.65*
+
+z
+
+Coef.
+
+t
+
+Coef.
+
+SE
+
+Truncated ? bootstrapb
+
+Conventional Tobita
+
+STUcheck
+
+Explanatory variables
+
+Table 7 Efﬁciency drivers: second-stage estimations (PISA 2012)
+
+1.467
+
+-0.082
+
+-0.074
+
+0.025
+
+0.006
+
+0.030
+
+-0.001
+
+0.001
+
+-0.075
+
+0.013
+
+-0.285
+
+-0.598
+
+-0.152
+
+Coef.
+
+0.102
+
+0.035
+
+0.037
+
+0.047
+
+0.044
+
+0.039
+
+0.008
+
+0.065
+
+0.078
+
+0.046
+
+0.195
+
+0.181
+
+0.075
+
+SE
+
+Tobit ? bootstrapa
+
+14.34***
+
+-2.35**
+
+-1.99**
+
+0.53
+
+0.14
+
+0.77
+
+-0.09
+
+0.01
+
+-0.97
+
+0.27
+
+-1.46
+
+-3.31***
+
+-2.04**
+
+z
+
+1.453
+
+-0.079
+
+-0.067
+
+0.033
+
+-0.003
+
+0.022
+
+0.000
+
+0.004
+
+-0.055
+
+0.007
+
+-0.279
+
+-0.534
+
+-0.142
+
+Coef.
+
+0.089
+
+0.028
+
+0.030
+
+0.037
+
+0.033
+
+0.034
+
+0.007
+
+0.045
+
+0.039
+
+0.040
+
+0.172
+
+0.157
+
+0.066
+
+SE
+
+OLS ? bootstrap
+
+16.35***
+
+-2.80***
+
+-2.22**
+
+0.89
+
+-0.09
+
+0.64
+
+-0.02
+
+0.08
+
+-1.43
+
+0.17
+
+-1.62*
+
+-3.40***
+
+-2.14**
+
+z
+
+Lat Am Econ Rev (2015) 24:5
+
+0.096
+
+0.012
+
+SE
+
+z
+
+Coef.
+
+SE
+
+Coef.
+
+t
+
+Truncated ? bootstrapb
+
+Conventional Tobita
+
+0.097
+
+Coef.
+0.008
+
+SE
+
+Tobit ? bootstrapa
+z
+
+Truncated regression model with 16 left-truncated observations at value 1
+
+Censored regression model with 16 left-censored observations at value 1
+
+0.089
+
+Coef.
+
+SE
+
+OLS ? bootstrap
+z
+
+Dummy variables. Reference categories for school dummies are: non-vocational technical school; school located in a town with more than 3000 and less than 100,000
+inhabitants; the national authorities do not have a considerable responsibility for determining the content of the courses or establishing student disciplinary policies or
+distributing the school budget or establishing the students assessment policies; the school principal does not have a considerable responsibility for distributing the school
+budget
+
+c
+
+b
+
+a
+
+*** p \ 0.01
+
+** p \ 0.05
+
+* p \ 0.10
+
+Source: authors’ estimations using PISA 2012 data
+
+‘Coef.’ is the estimated coefﬁcient. SE is the robust standard error of the estimated coefﬁcient. Number of schools = 71
+
+/sigma
+
+Explanatory variables
+
+Table 7 continued
+
+0.042
+
+0.019
+
+0.020
+
+0.025
+
+0.021
+
+0.023
+
+0.003
+
+0.033
+
+0.028
+
+0.023
+
+0.042
+
+3.88***
+
+29.25***
+
+-1.85*
+
+-1.15
+
+0.23
+
+-0.89
+
+2.05**
+
+-0.29
+
+-0.42
+
+-1.12
+
+2.25**
+
+-5.91***
+
+0.093
+
+0.104
+
+1.272
+
+-0.068
+
+-0.051
+
+-0.004
+
+0.013
+
+0.053
+
+-0.005
+
+0.018
+
+0.003
+
+0.080
+
+-0.351
+
+0.025
+
+0.010
+
+0.054
+
+0.029
+
+0.032
+
+0.036
+
+0.033
+
+0.033
+
+0.005
+
+0.044
+
+0.042
+
+0.034
+
+0.062
+
+3.76***
+
+23.58***
+
+-2.34**
+
+-1.62
+
+-0.10
+
+0.40
+
+1.61
+
+-1.00
+
+0.40
+
+0.07
+
+2.37**
+
+-5.66***
+
+z
+
+0.103
+
+1.217
+
+-0.034
+
+-0.024
+
+0.006
+
+-0.019
+
+0.048
+
+-0.001
+
+-0.014
+
+-0.031
+
+0.053
+
+-0.246
+
+0.067
+
+Coef.
+
+0.007
+
+0.044
+
+0.020
+
+0.022
+
+0.027
+
+0.023
+
+0.025
+
+0.004
+
+0.034
+
+0.029
+
+0.024
+
+0.043
+
+0.018
+
+SE
+
+Tobit ? bootstrapa
+
+Truncated regression model with 16 left-truncated observations at value 1
+
+Censored regression model with 16 left-censored observations at value 1
+
+2.18**
+
+27.75***
+
+-1.76*
+
+-1.09
+
+0.21
+
+-0.84
+
+1.95*
+
+-0.25
+
+-0.40
+
+-1.09
+
+0.094
+
+1.221
+
+-0.035
+
+-0.021
+
+0.000
+
+-0.011
+
+0.035
+
+-0.001
+
+-0.017
+
+-0.028
+
+0.051
+
+-0.216
+
+0.016
+
+Coef.
+
+0.039
+
+0.016
+
+0.018
+
+0.023
+
+0.020
+
+0.020
+
+0.003
+
+0.031
+
+0.022
+
+0.022
+
+0.037
+
+3.820
+
+SE
+
+OLS ? bootstrap
+
+3.82***
+
+31.24***
+
+-2.17**
+
+-1.13
+
+-0.01
+
+-0.54
+
+1.73*
+
+-0.18
+
+-0.56
+
+-1.27
+
+2.31**
+
+-5.79***
+
+z
+
+Dummy variables. Reference categories for school dummies are: PISA 2009 database; non-vocational technical school; school located in a town with more than 3000
+and less than 100,000 inhabitants; the national authorities do not have a considerable responsibility for determining the content of the courses or establishing student
+disciplinary policies or distributing the school budget or establishing the students assessment policies; the school principal does not have a considerable responsibility for
+distributing the school budget
+
+c
+
+b
+
+a
+
+*** p \ 0.01
+
+** p \ 0.05
+
+* p \ 0.10
+
+3.76***
+-5.72***
+
+z
+
+‘Coef.’ is the estimated coefﬁcient. SE is the robust standard error of the estimated coefﬁcient. Number of schools = 169
+
+Source: authors’ estimations using PISA 2009 and PISA 2012 databases
+
+0.103
+
+/sigma
+
+Budget_ppalc
+
+1.217
+
+-0.034
+
+Budget_authorc
+
+Constant
+
+0.006
+
+-0.024
+
+Asses_authorc
+
+0.048
+
+-0.019
+
+Disc_authorc
+
+TEACH_stu
+
+Curr_authorc
+
+-0.014
+
+-0.001
+
+CITYc
+
+-0.031
+
+RURALc
+
+TEACHVOCc
+
+0.067
+
+-0.246
+
+SE
+
+Coef.
+
+SE
+
+Coef.
+
+t
+
+Truncated ? bootstrapb
+
+Conventional Tobita
+
+PCTCORRECT
+
+Periodc
+
+Explanatory variables
+
+Table 8 Efﬁciency drivers: second-stage estimations (pool)
+
+Lat Am Econ Rev (2015) 24:5
+estimation. First, school location does not seem to affect the efﬁciency (RURAL and
+CITY). On average, schools in rural areas or small villages have worse educational
+outcomes than those located in bigger cities. The fact that the town size does not
+affect signiﬁcantly the efﬁciency implies that the higher results are due to a greater
+allocation of educational resources and not to a better use of them. Likewise, the
+teacher–student ratio (TEACHSTU) does not affect either school’s efﬁciency.
+Second, hardly any of the variables associated with school autonomy are
+signiﬁcant (except for Budget_ppal). Decentralizing the responsibility of establishing the disciplinary policies (Disc_author) and assessment practices (Asses_author)
+or determining the content of the courses (Curr_author) does not seem to affect
+school efﬁciency. This is an interesting ﬁnding, since the decentralization issue is
+part of most current education discussions. International evidence shows that
+decentralization is successful in countries where there is also a school accountability
+practice properly regulated and with standardized criteria (Hanushek et al. 2013;
+OECD 2013b). This is not the case of Uruguay, where there is great heterogeneity in
+accountabilities and where, in many cases, there is not even a systematic way of
+presenting them.
+Therefore, the results of this research could be associated with this international
+evidence, which points out that decentralization would only have positive effects on
+improving academic results if it is carried out accompanied by an appropriate
+accountability system. Another possible interpretation of this result lies in the fact
+that the autonomy indexes were computed from the principals’ responses and their
+perceived autonomy and therefore might not be reﬂecting the true degree of
+autonomy they actually have. In Uruguay, public high schools generally have low
+levels of autonomy; however, the variables included in this analysis show certain
+degree of variance (Table 3). This fact could suggest some distortion between
+reality and principals’ perceptions regarding their responsibility and autonomy.
+By contrast, the fact that the school’s principal has a considerable responsibility
+for distributing the school budget (Budget_ppal) has a strong signiﬁcant positive
+effect on efﬁciency in PISA 2012 and in pool estimations. Therefore, this result
+would suggest that to give the responsibility of allocating the school budget to the
+school’s principal would be an appropriate policy, at least in the case of secondary
+schools in Uruguay.
+Third, there is a group of variables associated with students and teaching
+practices that are systematically signiﬁcant and show the expected sign. Firstly, the
+percentage of students that are in the right year (PCTCORRECT) appears to be a
+positive and signiﬁcant driver of efﬁciency in both databases separately and in the
+pool. This result calls into question the adequacy of current Uruguayan graderetention policies at all levels of the education system. Uruguay has one of the
+highest repetition rates in the region, which contrasts with international test results
+which show this country to be one of the region’s top performers. Therefore, it
+would perhaps be better to attempt to identify younger (primary education) students
+who are at risk of repeating and provide them with additional support early on in
+order to prevent grad retention. Secondly, the dummy variable that indicates
+are more inefﬁcient. Uruguayan high schools have on average better average
+academic results than technical schools. This result seems to point out that
+secondary high schools perform better due to a better management and not only
+because they have higher initial input endowments.
+Thirdly, other interesting variables only appear in one PISA. On one hand,
+according to PISA 2009 estimations, student assessment methods and their
+frequency appear to positively inﬂuence efﬁciency. Indeed, schools where teachers
+assess their students continuously by setting conventional tests or exams (TEST)
+more often than once a month or by means of the homework made monthly
+(HOMEWORK) perform better than schools that do not make use of this tool or do
+so with a frequency other than once a month. At early ages homework needs to be
+set daily to establish students’ study habits, but 15-year-olds should be set
+homework at less regular intervals to complement regular individual study. So,
+monthly homework to assess learning seems to positively affect students’ results.
+On the other hand, regarding PISA 2012 both variables associated with student’s
+study skills in mathematics (STUcheck and STUimport) have a positive impact on
+efﬁciency. These variables reﬂect the students skills acquired over their academic
+life and thus, this ability could be associated with classroom teaching techniques
+adopted by teachers. Thus, it would be desirable to promote these learning
+techniques both in the classroom and at home. This means, not only to work at
+school but also to foster families’ commitment to support students work at home.
+Although this research is focused in secondary education, such practices should be
+encouraged from the beginning of the student’s academic life in previous cycles,
+when students are assimilating the learning techniques to be used throughout their
+academic life and when it is most effective to impact on their non-cognitive skills
+(Heckman and Kautz 2013).
+Finally, it is worth to highlight that the coefﬁcient associated to the time period
+variable (PERIOD) points out to a signiﬁcant drop in efﬁciency results in 2012 with
+respect to 2009 even after controlling for other contextual covariates also related
+with efﬁciency. From Table 3 it is straightforward to conclude that over this period
+mean outputs signiﬁcantly decreased while mean inputs clearly increased (PARED
+and SCHRES) or remained almost constant (PROPCERT). This decline in
+performance cannot be easily explained but should alert the Uruguayan educational
+system how to invert this result to gain efﬁciency.
+
+5 Discussion and conclusions
+Modern countries agree about the need and importance of having a more and better
+educated population in order to ensure economic growth based on the high
+productivity of a skilled labor force. The high percentage of public spending on
+education is a reﬂection of this conviction. During the last decade the Uruguayan
+government has made a huge effort to increase educational resources; however,
+academic results have not improved. On the contrary, public education system
+the system instead of exploring how to make better use of available inputs, i.e., how
+to achieve a more efﬁcient education system. This situation raises two open
+questions. Are Uruguayan public secondary schools efﬁcient? Which policies and
+practices should be promoted in order to increase school efﬁciency? As far as we
+know, however, this issue has yet to be analyzed for the Uruguayan education
+system. This is the main aim of this research.
+Our ﬁndings corroborate the presence of inefﬁcient behaviors in public secondary
+schools. According to PISA 2012 results we conclude that with the current inputs
+schools could have increased their academic results on average by 11.6 % if
+adequate educational policies and practices had been designed by national
+authorities and implemented by schools. Furthermore, if schools were fully
+efﬁcient, the percentage of students below proﬁciency level 2 (the minimum
+‘competence threshold’ deﬁned by OECD) could be reduced from 67 to 49 % in
+mathematics and from 59 to 43 % in reading. By contrast, the percentage of topscoring students (performance levels four to six), could be doubled from 12 to 24 %
+and from 14 to 27 % in mathematics and reading tests, respectively.
+In addition, the second-stage analysis yields interesting evidence for planning
+and implementing effective policies to improve the efﬁciency of the Uruguayan
+public secondary education. The ﬁrst noteworthy conclusion is that just increasing
+educational resources (e.g., reducing class size through recruiting more teachers)
+does not appear to be an appropriate policy because it does not have a positive and
+signiﬁcant effect on school efﬁciency. By contrast, the results suggest that the
+national discussion and action on increasing education system efﬁciency should
+focus on reviewing the current grade-retention policies and the teaching techniques.
+Second, this research evidences that inefﬁciency is higher where there is a higher
+percentage of repeating students. So, students at risk of repetition should be
+identiﬁed at an early age and provided with extra support with the aim of preventing
+future school failure. Third, promoting teaching and learning techniques to enhance
+students’ study skills evidences positive effects on results. In addition, student
+assessment methods and their frequency appear to positively inﬂuence efﬁciency.
+Indeed, schools where teachers assess their students continuously by setting
+monthly homework or through test or exams more than once a month perform better
+than schools that do not make use of this tool or do so with other frequency. So,
+continuous monthly assessments seems to positively affect students’ results. Fourth,
+the fact that the school principal had a considerable responsibility for distributing
+the school budget (Budget_ppal) has a strong signiﬁcant positive effect on
+efﬁciency. Therefore, this result suggests that it is a good practice to deliver the
+responsibility of allocating the school budget to the school principal.
+Finally, we ﬁnd a signiﬁcant decline in efﬁciency results in Uruguay between the
+two analyzed periods. In other words, educational outputs in the last years have
+decreased despite the effort that Uruguayan authorities made putting more public
+expenditure in the system. Therefore it seems necessary to reach a large
+commitment from all stakeholders involved in the educational process in order to
+educational problem in public high schools in Uruguay from an efﬁciency
+viewpoint, providing some potential practices and policies that positively affect
+academic results. In this respect, this paper reports preliminary ﬁndings, and more
+research is, of course, still needed. For example, a qualitative and in depth analysis
+of the most efﬁcient and inefﬁcient schools could provide additional useful
+information about how to implement efﬁcient practices and avoid the inefﬁcient
+ones.
+Lat Am Econ Rev (2015) 24:5
+DOI 10.1007/s40503-015-0019-5
+ORIGINAL RESEARCH
+
+Measuring the efﬁciency of public schools in Uruguay:
+main drivers and policy implications
+´
+Daniel Santın1 • Gabriela Sicilia1
+
+Received: 21 July 2014 / Revised: 18 December 2014 / Accepted: 16 April 2015 /
+Published online: 5 May 2015
+Ó The Author(s) 2015. This article is published with open access at Springerlink.com
+
+Abstract The aim of this research is to explore the existence of inefﬁcient behaviors in public high schools in Uruguay and identify its potential drivers. To do
+so, we perform a two-stage model using PISA 2009 and 2012 databases. In the ﬁrst
+stage, we use Data Envelopment Analysis (DEA) to estimate efﬁciency scores,
+which are then regressed on school and student contextual variables. This second
+stage is carried out using four alternative models: a conventional censored regression and three different regression models based on the use of bootstrapping recently proposed in the literature. Our results show that educational efﬁciency in
+Uruguayan high schools signiﬁcantly dropped in nine percentage points between
+2009 and 2012. In terms of educational policy recommendations, in order to reduce
+the inefﬁciencies in the evaluated public schools in Uruguay, the focus should be
+put on reducing grade-retention levels and promoting teaching–learning techniques
+that enhance student’s mathematics study skills and assessing students continuously
+through test and homework throughout the academic year. In this vein, our ﬁndings
+also show positive effects on public schools’ efﬁciency of providing the responsibility in the distribution of the school budget to school principals.
+Keywords Public secondary education Á Technical efﬁciency Á Performance-based
+reforms Á PISA Á DEA
+JEL Classiﬁcation
+
+I21 Á C14 Á H52
+
+& Gabriela Sicilia
+gabriels@ucm.es
+1
+
+Department of Applied Economics VI, Complutense University of Madrid,
+´
+There are basically two reasons why governments in developed countries have taken
+a strong interest in the determinants of educational quality over the last 50 years.
+First, improving academic outcomes have been proven to have a positive impact on
+economic growth (Barro 2001; Barro and Lee 2012; Hanushek and Kimko 2000;
+Hanushek and Woessmann 2012). Second, public expenditure on education is one of
+the largest public budget items, and the public sector is the main provider of
+education in most countries. Governments are not concerned solely with improving
+academic results, however, they mean to do so with the current educational
+resources, that is, through efﬁciency gains. The main reason is that public
+expenditure on education has grown over recent years in many countries, without
+leading to better academic results.
+Particularly, the Uruguayan government has increased the country’s investment
+in education considerably over the last decade. Public expenditure on education
+accounted for 3.5 % of Uruguay’s GDP in 2000, whereas 10 years later it had risen
+to 4.5 %.1 But this signiﬁcant budgetary effort has not been accompanied by
+adequate reforms and public policies leading to better educational achievement in
+public schools. Conversely, the Uruguayan education system has entered into
+stagnation and recession in recent years, particularly at the public secondary
+education level, which has recorded high repetition and dropout rates as well as a
+steady decline in academic performance. For example, the repetition rate from 1st to
+4th grades in public schools has increased between 2003 and 2012 from 21.3 to
+27 % while the attainment rate was reduced from 72.7 to 67.4 % in the same
+period.2 In addition, as evidenced by the latest results published in the PISA 2012
+(Programme for International Student Assessment) Report from the OECD
+(Organisation for Economic Co-operation and Development), results in public
+schools remain steady across the ﬁrst three waves in which Uruguay has
+participated, showing a downward trend in the last cycle (416, 420, 419 and 399
+average points in 2003, 2006, 2009 and 2012, respectively).
+As a consequence of these poor results, the Uruguayan public educational system
+problems are a recurring concern, not only for educational policymakers and the
+government, but also for teachers and families involved in the education process. In
+many cases, the discussion primarily still focuses on increasing public resources
+expended on education; however, there is no concluding empirical evidence in the
+economics of education literature to show that a higher level of resources leads per
+se to better results (Hanushek 2003).
+These ﬁndings reveal that the solution to Uruguay’s educational problem is not
+simply to pour additional resources into the system; instead it is necessary to review
+and change some existing practices and educational policies that are not effective. In
+this sense, the main concern of educational policy makers in Uruguay should be to
+improve the quality of teaching and academic outputs with the currently available
+
+1
+
+The GDP grew by 37 % in real terms over this period [Uruguayan Central Bank (BCU)].
+
+2
+
+of educational inefﬁciencies.
+Using the databases of different international programs,3 many researchers have
+performed speciﬁc analyses of the main sources of inefﬁcient behavior in the
+educational production process using student and school contextual variables
+´
+(Wilson 2005; Afonso and St. Aubyn 2006; De Jorge and Santın, 2010; Cordero
+et al. 2011; Perelman and Santin 2011; Crespo-Cebada et al. 2014).4
+Semiparametric two-stage models were popularized by Ray (1991) and McCarty
+and Yaisawarng (1993) and are among the best-known models for explaining the
+sources of inefﬁciency.5 The ﬁrst stage of this approach prescribes the use of a Data
+Envelopment Analysis (DEA) model to estimate a production frontier, which
+deﬁnes both the efﬁcient and inefﬁcient units. In the second stage, a regression
+technique is applied to explain the identiﬁed inefﬁcient behaviors taking into
+account contextual variables. Two-stage models differ primarily in the regression
+model speciﬁed in the second stage to explain efﬁciency scores. The most
+commonly applied methodology is the censored regression model (the so-called
+Tobit regression), followed by ordinary least squares (OLS) and truncated
+regression. Recently, Simar and Wilson (2007, 2011) proposed a new estimation
+methodology for the second stage based on the use of bootstrapping to overcome
+some drawbacks of these conventional estimation models. We apply the Simar and
+Wilson (2007) two-stage approach as our baseline model in this research, but, as the
+discussion about which is the best model to be run in the second-stage regression is
+ongoing, we also run other second-stage speciﬁcations proposed in the literature in
+order to check the robustness of our conclusions.
+Finally, it is noteworthy that even though there are several international
+educational efﬁciency studies for the OECD countries, research in the Latin
+American context is scant. To the best of our knowledge, there are no studies using
+this efﬁciency approach for the Uruguayan case. In Uruguay, interest has
+traditionally focused on education system coverage rates, the system’s redistributive
+effect and its impact on poverty and growth rather than the quality of the services
+´
+´
+provided and the academic outputs (Llambı and Perera 2008; Llambı et al. 2009;
+´
+Fernandez 2009).
+Therefore, the main aim of this paper is to explore the sources of inefﬁciencies in
+Uruguayan secondary schools in order to provide new valuable and complementary
+evidence for the current national debate about which educational practices and
+policies could contribute to improving school academic results with the current
+resources. For this purpose, we apply a semiparametric two-stage DEA approach to
+PISA 2009 and 2012 data in order to compare the results between the two periods.
+The paper is organized as follows. Section 2 presents the main methodological
+concepts. Section 3 brieﬂy describes the Uruguayan education system, the PISA
+3
+
+These programs include PISA, TIMSS (Trends in International Mathematics and Science Study), IALS
+(International Assessment of Literacy Survey) and PIRLS (Progress in International Reading Literacy
+Study).
+
+4
+
+´
+˜
+See Worthington (2001) and Mancebon and Muniz (2003) for a detailed review of educational
+efﬁciency studies with other country-speciﬁc databases.
+
+5
+
+results. Finally, Sect. 5 discusses the conclusions of this research and their
+implications for educational policy makers.
+
+2 Methodology
+2.1 The educational production function
+The educational production function framework refers to the relationship between
+inputs and outputs for a given production technology. The theoretical approach used
+in this paper for linking resources to educational outcomes at school level is based
+on the well-known educational production function proposed by Levin (1974),
+Hanushek (1979) and Hanushek et al. (2013):
+Ai ¼ f ðBi ; Si Þ;
+
+ð1Þ
+
+where subindex i refers to school, and Ai represents the educational output vector for
+school i. This output is normally measured through the students’ average scores in
+standardized tests. On the other hand, educational inputs are divided into Bi, which
+denotes average student family and socio-economic background, and Si, which are
+school educational resources.
+The educational production function is frequently estimated considering the
+possible existence of inefﬁcient behaviors in schools. Differences in efﬁciency may
+be due to multiple factors, such as poor teacher motivation, teaching and class
+organization issues, teacher quality or school management. Although all these
+factors are not direct inputs, they may affect student performance signiﬁcantly. In
+this case, we estimate a production frontier where fully efﬁcient schools would
+belong to the educational production frontier. These relatively efﬁcient units
+achieve the maximum observed result given their resource allocation. However,
+inefﬁcient units do not belong to the estimated frontier, and their inefﬁciency level
+is measured by the radial distance between each school and the constructed frontier.
+The production frontier to be estimated at school level would be
+Ai ¼ f ðBi ; Si Þ Á ui ;
+
+ð2Þ
+
+where 0 \ ui B 1 denotes the efﬁciency level of school i. Values of ui = 1 imply
+that the analyzed schools are fully efﬁcient, meaning that given the initial input
+endowment and the existing technology, these schools are maximizing their outputs
+and managing correctly the available school inputs. Values ui B 1 would indicate
+that the school is inefﬁcient, and therefore the efﬁciency rate, hi = 1/ui indicates the
+amount by which the actual output should be multiplied to reach the frontier in
+which case the school would be fully efﬁcient.
+In short, three types of variables are involved in the production process:
+educational outputs (Ai), educational inputs (Bi, Si) and the estimated efﬁciency
+level (ui) for each school. Ray (1991) and McCarty and Yaisawarng (1993) were the
+DEA model which measures technical efﬁciency, whereas a regression analysis
+conducted in the second stage seeks out the main explanatory factors of efﬁciency.
+A more detailed description of the two-stage methodology follows.
+2.2 First stage: measuring efﬁciency through a DEA-BCC model
+The measurement of efﬁciency is associated with Farrel’s concept of technical
+efﬁciency (Farrell 1957). Farrell deﬁnes the production frontier as the maximum
+level of output that a decision-making unit (DMU) can achieve given its inputs and
+the technology (output orientation). In practice, the true production frontier and the
+technology is not known and should be estimated from the relative best practices
+observed in the sample.
+There are basically two main groups of techniques for estimating the production
+frontier: parametric, or econometric approaches (see Battese and Coelli 1988, 1992,
+1995 for a review), and nonparametric methods based on mathematical optimization
+models. Although the use of parametric approaches has increased in education in the
+last decades,6 nonparametric methods have been the most extensively applied
+methods for measuring educational efﬁciency.
+Since the pioneering work by Charnes et al. (1978), 1981) and Banker et al.
+(1984),7 the DEA model has been widely used to measure efﬁciency in many areas
+of public expenditure. The main reason for its widespread application is its
+ﬂexibility, and the fact that it accounts for multiple outputs and inputs, unknown
+production technology and missing price information, which makes it to well suited
+to the peculiarities of the public sector. The technique applies a linear optimization
+program to obtain a production frontier that includes all the efﬁcient units and their
+possible linear combinations. As a result, the estimated efﬁciency score for each
+DMU is a relative measure calculated using all the production units that are
+compared. The formulation of the output-oriented DEA program under variable
+returns to scale (DEA-BBC model) for each analyzed unit is
+hDEA ¼ maxf hi j h yi
+i
+k;h
+
+Yk; xi ! Xk; n 10 k ¼ 1; k ! 0; 8i ¼ 1; . . .; ng;
+
+ð3Þ
+
+where for the ith DMU, hi C 1 is the efﬁciency score, yi is the output vector (q 9 1)
+and xi is the input vector (p 9 1), and thus X and Y are the respective input
+(p 9 n) and output (q 9 n) matrices. The (n 9 1) vector k contains the virtual
+weights of each unit determined by the problem solution. When hi = 1 the analyzed
+unit belongs to the frontier (is fully efﬁcient), whereas hi [ 1 indicates that the ith
+unit is inefﬁcient, hi being the radial distance between the ith unit and the frontier. In
+other words, hi indicates the equiproportional expansion over outputs needed to
+reach the frontier. Therefore, the higher the score value hi is, the greater the inefﬁciency level is.
+
+6
+
+See, for example, Perelman and Santin (2011) and Crespo-Cebada et al. (2014).
+
+7
+
+illustrate an output-oriented
+DEA
+
+A
+
+B
+
+C
+
+D
+
+E
+
+F
+
+G
+
+H
+
+Output 1 (y1)
+
+y2/x
+
+5
+
+3
+
+1
+
+2
+
+5
+
+4
+
+3
+
+5
+
+6
+
+6.5
+
+5
+
+2
+
+5
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+Efﬁciency (hi)
+
+7
+
+6
+
+1
+
+Input 1 (x)
+Source: authors’ own
+elaboration
+
+6.5
+
+Output 2 (y2)
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1.2273
+
+1.2273
+
+1.0715
+
+E
+
+F'
+
+•
+
+6
+5
+
+F
+
+D
+
+•
+
+•H
+
+H'
+C
+
+4
+3
+
+B
+
+• G'
+
+2
+
+G
+
+1
+0
+
+A
+
+0
+
+2
+
+4
+
+6
+
+y1/x
+
+Fig. 1 An output-oriented BCC-DEA. Source: authors’ own elaboration
+
+In order to brieﬂy illustrate a DEA model let assume the following simple twooutput single-input setting where it is assumed that eight DMUs, A, B, C, D, E, F,
+G and H have an equal single-input x to produce outputs y1 and y2. The data and the
+efﬁciency index measured by DEA are showed in Table 1.
+DEA runs eight linear programming problems (Eq. 3), one for each of the eight
+DMUs contained in our example in order to construct a piecewise linear frontier
+with best performers which envelops the other inefﬁcient DMUs. Figure 1 shows
+this production frontier where A, B, C, D and E are efﬁcient DMUs hA = hB =
+hC = hD = hE = 1 because they lie on the boundary of the production frontier;
+whereas, being interior points, F, G and H are inefﬁcient units
+hF [ 1; hG [ 1; hH [ 1.
+DEA measures inefﬁciency as the radial distance from the inefﬁcient unit to the
+frontier. For example, the performance of DMU F is measured projecting this unit
+upwards to point F0 , a linear combination of DMUs D and E, with output 1 and
+output 2 equal to 2.4546 and 6.1365, respectively. DEA calculates the efﬁciency of
+DMU F as hF = OF0 /OF = 1.2273. This result means that DMU F could increase
+all its outputs proportionally multiplying its actual outputs level by 1.2273 with its
+^
+The estimated efﬁciency scores hi are regressed on a vector Z = (z1, z2, …, zk) of
+school and student contextual variables, which are not inputs but are related to the
+learning process:
+^
+hi ¼ f ðZi ; bi Þ
+
+ð4Þ
+
+The most used estimation method in this second stage is the censored regression
+model (Tobit), followed by ordinary least squares (OLS),8 from which the main
+explanatory factors of the efﬁciency scores can be drawn9:
+^
+^
+hi ¼ f ðZi ; bi Þ þ ei
+
+ð5Þ
+
+Xue and Harker (1999) were the ﬁrst to argue that these conventional regression
+models applied in the second stage yield biased results because the efﬁciency scores
+^
+estimated in the ﬁrst stage (hi ) are serially correlated. Accordingly, there has been a
+lively debate in recent years about which would be the most accurate model to apply
+in this second stage in order to provide consistent estimates. According to Simar and
+Wilson (2007), the efﬁciency rates estimated by the DEA model in the ﬁrst stage are
+correlated by construction (as they are relative measures), and therefore estimates
+from conventional regression methods (Eq. 5) would be biased. Additionally, the
+possible correlation of the contextual variables Zi with the error term ei in Eq. (5) is
+another source of bias.
+Simar and Wilson (2007) state that bootstrapping can overcome these drawbacks.
+In their paper, the authors propose two algorithms10 that incorporate the bootstrap
+procedure in a truncated regression model. They run a Monte Carlo experiment to
+examine and compare the performance of these two algorithms, and they prove that
+both bootstrap algorithms outperform conventional regression methods (Tobit and
+truncated regressions without bootstrapping), yielding valid inference methods. For
+small samples (problems with fewer than 400 units and up to three outputs and three
+inputs), Algorithm #1 ﬁts results better than Algorithm #2, which is more efﬁcient
+as of samples that exceed 800 units.11 Since the samples analyzed in our research
+are made up of around a hundred schools, we apply the simple Algorithm #1, which
+is described below.12
+
+8
+
+Some authors actually estimate both models simultaneously to verify results robustness.
+
+9
+
+For a detailed review of estimation methods used in the second stage of semiparametric models, see
+Simar and Wilson (2007).
+
+10
+The authors propose a simple Algorithm #1 and a double Algorithm #2. The difference lies in the fact
+that Algorithm #2 incorporates an additional bootstrap in the ﬁrst stage, which amends the estimates of
+the efﬁciency scores.
+11
+
+For a more detailed analysis of the results, see Simar and Wilson (2007, p. 45).
+
+12
+
+et al. (2010) took up the discussion about the use of OLS, Tobit and fractional
+regression models in the second stage. Unlike Hoff (2007), who concluded that both
+(Tobit and OLS) models yield consistent estimations, McDonald (2009) showed that
+only the Tobit produces consistent results. Meanwhile, Banker and Natarajan (2008)
+provided a statistical model which yields consistent second-stage OLS estimations.
+Simar and Wilson (2011) again took part in the ongoing debate and concluded that
+only the truncated regression and, under very particular and unusual assumptions, the
+OLS model provides consistent estimates. Further, they proved that in both cases
+only bootstrap methods were capable of statistical inference.
+From the above, we conclude that the research community does not yet totally
+agree about which is(are) the most consistent regression model(s) because this
+conclusion depends on previous assumptions about the data generation process. For
+this reason, we have chosen to estimate four alternative regression models in the
+second stage and compare the results. First, we specify the conventional Tobit
+(censored regression model), as it is the most commonly used in the literature. Then,
+for the sake of robustness, we estimate three regression models applying the
+bootstrap procedure: Algorithm #1 proposed by Simar and Wilson (2007) based on a
+3.1 Brief description of the Uruguayan education system
+The Uruguayan national education system is composed of four levels: 3 years of
+pre-primary education (3–5 years old), 6 years of primary education (6–11 years
+old), 6 years of secondary education (12–17 years old), and college education at the
+end of secondary education. Secondary education is divided into 3 years of lower
+secondary education (Ciclo Basico Comun) and 3 years of upper secondary
+´
+´
+education (Bachillerato). Compulsory education covers 14 years from the last
+2 years of pre-primary education (4 and 5 years old), through primary school, to the
+end of secondary education.13
+In terms of public and private education production, the public sector takes
+absolute primacy over the private sector. In 2011, 84.5 % of high school students
+attended public schools (Education Observatory, National Administration of Public
+Education). This highlights how important the performance of public institutions is
+for national academic results, and therefore the need to benchmark schools and to
+assess both the management and the teaching practices implemented by these
+schools.
+Uruguay has historically occupied a leading position in Latin America in terms of
+educational achievement, according to the main standard indicators and international studies. However, the Uruguayan education system (particularly the
+secondary and tertiary levels) is currently undergoing a phase of stagnation and
+recession. The major budgetary effort made by the government in the ﬁrst decade of
+the twenty-ﬁrst century has not been accompanied by effective reforms and policies
+to improve educational outcomes.
+The results of PISA 2009 and 2012 corroborate that Uruguay is still in an
+advantageous position within the region,14 but also conﬁrm that results have not
+improved compared to previous waves. In addition, test scores in the three
+analyzed areas (mathematics, reading and science) are more highly dispersed than
+in other countries, which mirror the high social segmentation of the education
+system. Comparing student’s performance by the schools socio-economic context
+in PISA 2012, it is noteworthy that while almost 89 % of students who attended to
+schools in ‘‘very unfavorable circumstances’’ do not reach the minimum
+‘‘competence threshold’’ deﬁned by the OECD in mathematics,15 this ﬁgure
+
+13
+
+Art. 10 of the General Education Law N. 18,437 of December 12, 2008.
+
+14
+
+PISA 2009 showed that Uruguay was the Latin American country with the best results for mathematics
+and was second placed in science and reading (after Chile). In PISA 2012 Uruguay is placed in the third
+position in the three evaluated areas between all Latin American countries that participated in this wave.
+15
+PISA deﬁnes six competencies levels and states that basic skills are obtained at Level 2. In the case of
+mathematics Level 2 threshold is described as follows: ‘‘At Level 2 students can interpret and recognize
+situations in contexts that require no more than direct inference. They can extract relevant information
+from a single source and make use of a single representational model. Students at this level can employ
+basic algorithms, formulae, procedures, or conventions. They are capable of direct reasoning and making
+circumstances’’.17 By contrast, analyzing the percentage of top-scoring students
+(performance levels four to six) deﬁned by PISA analysts, we ﬁnd that this
+proportion rises to almost 30 % of students in ‘‘very favorable circumstances’’,
+whereas students from ‘‘very unfavorable circumstances’’ account for less than
+1 %. This heterogeneity may be the consequence of differences not only in the
+initial resources endowment but also of efﬁciency. It is essential to explore the
+sources of such differences in order to improve academic outputs in more
+inefﬁcient schools and to reduce inequalities in the education system.
+3.2 PISA databases and model speciﬁcation
+PISA 2009 and 2012 are the fourth and ﬁfth edition of an initiative that the OECD
+started up in the late 1990s to assess 15-year-old students. The assessment focuses
+on measuring the extent to which students are able to apply their knowledge and
+skills to fulﬁll future real-life challenges rather than evaluating how well they have
+mastered a speciﬁc school curriculum. The evaluation addresses three knowledge
+areas: reading, mathematical and scientiﬁc literacy, and each wave tests in depth a
+major domain. In 2000 and in 2009 the major domain was reading, in 2003 it was
+mathematics, in 2006 science and ﬁnally, in 2012, it is again mathematics. In
+addition to academic achievement data, the PISA database contains a vast amount of
+information about students, their households and the schools they attend. Uruguay
+took part in PISA 2009 (2012) assessing 5927 (5315) students from (232) 180 public
+and private schools.
+To perform the DEA model one of the main requirements is that the evaluated
+decision-making units should be as homogeneous as possible (Dyson et al. 2001).
+To estimate the production frontier and the efﬁciency indexes the technique assumes
+that all units operate under the same production technology and therefore under
+similar context and circumstances. In order to analyze homogenous schools, the
+original PISA databases were reﬁned. Firstly, we assume that technologies in public
+and private sector are different due to different legal, organizational and curricular
+contexts and therefore, management drivers also differ in the two schools type. Two
+frontiers should be estimated, one for each sector. Unfortunately, the sample size of
+private schools is small to carry out a speciﬁc analysis of this sector so, we only
+analyze public schools. Secondly, we eliminate schools which only offer basic
+secondary education (1st, 2nd and 3rd year of high school) or only offer upper
+secondary education (4th, 5th and 6th year of high school). The cut-off age between
+the two cycles in Uruguay is just 15 years old and, since PISA evaluates students of
+this age, those students attending schools where only basic secondary education is
+offered are inevitably repeaters and, on the contrary, students attending schools
+16
+National Administration of Public Education (ANEP), ‘‘Informe Ejecutivo Preliminar Uruguay en
+PISA 2012’’. Available at http://www.anep.edu.uy/anep/index.php/presentaciones-2012.
+17
+
+Schools are classiﬁed into ﬁve levels of socio-economic context based on the quintile distribution of
+the average socio-economic background of the students who attend to these schools (the average ESCS
+PISA index for each school). Levels are deﬁned as ‘‘Very unfavorable’’ (the bottom quintile),
+in schools where only basic secondary education is imparted, 100 % of the assessed
+students in PISA are repeaters in at least one previous course and, in those schools
+where only upper secondary education is imparted, 100 % of the assessed students
+are on the right course. Therefore, these institutions are not comparable when
+estimating the production frontier.
+In sum, this analysis is carried out for 169 mixed public schools (98 from PISA
+2009 and 71 from PISA 2012) which provide both cycles of secondary education.
+For comparative and robustness purposes, we perform the same analysis for PISA
+2009 and PISA 2012 waves separately. Additionally, we run the model for both
+databases in a pool18 including contextual variables simultaneously available in the
+two waves in order to check whether or not technical efﬁciency has changed
+signiﬁcantly over the two periods.
+3.3 Outputs, inputs and contextual variables
+3.3.1 Outputs
+It is difﬁcult to empirically quantify the education received by an individual,
+especially when the focus is on analyzing its quality beyond the years of education.
+However, there is a consensus in the literature about considering the results from a
+standardized test as educational outputs, as they are difﬁcult to forge and, above all,
+they are taken into account by parents and politicians when making decisions on
+education. In this research, we selected two variables as outputs of the educational
+process: the average results in reading (Read_mean) and mathematics
+(Maths_mean).19
+3.3.2 Inputs
+Regarding educational inputs, three variables were selected taking into account the
+educational production function in Eq. (1). They represent the classical inputs in
+education economics required to carry out the learning process: students (raw
+material), teachers (human capital) and infrastructure (physical capital).20 A
+previous requirement for a variable to be considered as an input in an efﬁciency
+analysis is that it has to be positively correlated with all outputs. This monotonicity
+assumption (Coelli et al. 2005) implies that if we give more input to a DMU then we
+will expect to obtain equal or more quantity of outputs than in the previous situation
+or, in other words, additional units of an input will not decrease output. The
+following inputs were included in the ﬁrst stage of the DEA:
+
+18
+
+This analysis was suggested by a referee to explore extra sources of variation (especially temporal).
+
+19
+
+The result for science has been omitted since it provides little additional information to the reading and
+mathematical results. Besides, DEA becomes less discriminative as more dimensions are added to the
+problem (curse of dimensionality); therefore, we prioritize parsimony by choosing only two outputs.
+20
+
+
+•
+
+Lat Am Econ Rev (2015) 24:5
+
+Parental education (PARED): is an index that reﬂects the higher parental
+education expressed by the number of years of schooling according to the
+International Standard Classiﬁcation of Education (ISCED-1997, OECD).21 It
+therefore represents the quality of the ‘raw material’ to be transformed through
+the learning process.
+School educational resources (SCHRES): is an index of the quality of the school
+resources constructed from the school’s principal responses. It is therefore
+associated with the physical and human capital. The index was computed from
+the responses by principals to several questions related to the scarcity or lack of
+ten educational resources22 including teachers, educational material and
+infrastructures. The school receives one point for each item for which the
+principal’s answer is that the school is not deﬁcient ‘at all’. The maximum
+(minimum) score for each school is ten (zero) points, which indicates an
+excellent (dreadful) educational input.23
+Proportion of fully certiﬁed teachers (PROPCERT): this index reﬂects the
+quality of teachers, and therefore the school’s human capital. The index is
+constructed by dividing the total number of certiﬁed teachers (with a teaching
+degree)24 by the total number of teachers. This variable is especially relevant in
+the case of Uruguay since not all teachers have received the teaching training
+required to qualify as teachers.
+
+As mentioned above, it is necessary to check the monotonicity assumption in
+order to ensure a correct DEA model speciﬁcation. Table 2 presents the bivariate
+correlations of the selected outputs and inputs where all correlations are positive.
+3.3.3 Contextual variables
+The distinction between an educational input (ﬁrst stage) and an explanatory
+variable of inefﬁciency or contextual variable (second stage) can be confusing. In
+this research we have considered that a variable is an explanatory factor of
+efﬁciency, and not an educational input, when it is not strictly essential to produce
+education but it can affect academic results through the efﬁciency term. These
+variables fulﬁll one or some of these conditions:
+1.
+
+The variable reﬂects some key aspect of school management and organization
+and/or the teaching–learning processes enacted in the classrooms.
+
+21
+In the case of Uruguay the equivalent scale used to compute the years of schooling is the following:
+ISCED 1 equals to 6 years; ISCED 2 equals to 9 years; ISCED Level 3A, 3B, 3C or 4 equals to 12 years;
+ISCED 5B equals to 15 years; and ISCED 5A or 6 equals to 17 years of schooling.
+22
+The item included are: ‘Qualiﬁed science teachers’, ‘Qualiﬁed mathematics teachers’, ‘Qualiﬁed
+reading teachers’, ‘Any other personal support’, ‘Science laboratory equipment’, ‘Instructional materials’,
+‘Computers’, ‘Internet connectivity’, ‘Software’, ‘Library materials’.
+23
+This variable has been rescaled so the minimum value is one in order to avoid zero values in the
+empirical analysis.
+24
+Certiﬁed teachers in Uruguay are required to complete a 4-year degree at the Instituto de Profesores
+PARED
+2009
+
+SCHRES
+
+PROPCERT
+
+0.014
+
+0.373**
+
+0.023
+
+0.393**
+
+Maths_mean
+
+0.585**
+
+0.122
+
+0.116
+
+0.479**
+
+0.188
+
+0.180
+
+Maths_mean
+
+0.544**
+
+0.048
+
+0.263**
+
+Read_mean
+
+Pool
+
+0.588**
+0.633**
+
+Read_mean
+
+2012
+
+Maths_mean
+Read_mean
+
+0.545**
+
+0.091
+
+0.297**
+
+** Statistical signiﬁcance at 1 % (bilateral). Sample size PISA 2009 = 71; PISA 2012 = 98;
+pool = 169. Source: own elaboration based on PISA 2009 and PISA 2012 data
+
+2.
+3.
+4.
+
+The variable is dichotomous, categorical or does not have a continuous
+measurement scale.
+The monotonicity assumption does not hold in practice, i.e., the selected
+variable does not show a positive correlation with academic outcomes.
+The variable is an indicator based on opinions with a high degree of subjectivity
+and difﬁcult to contrast.
+
+Building upon this criteria, we select ﬁfteen contextual variables25 (Z vector in
+Eqs. 4 and 5) associated with students and schools. Most of contextual variables
+appear in PISA 2009 and 2012; however, there are some variables that are only
+available in one wave. To be more precise we employ 12 (13) variables with PISA
+2012 (2009) to run the second stage regression analysis. Finally, we only use the ten
+contextual variables that were collected in both waves.
+3.3.3.1 Contextual variables included only in PISA 2009
+•
+•
+
+•
+
+25
+
+TEST: a dummy variable that takes the value one when students are assessed by
+teachers through tests, quizzes or exams more often than once a month.
+HOMEWORK: a dummy variable which refers to the assessment tools as well
+as the frequency with which they are applied. In this case, the variable takes
+value one when the students are assessed by means of homework every month.
+Both Tests and Homework are expected to have a positive effect on school
+efﬁciency.
+EXTREADING: the percentage of students in the school who spend between
+one and 2 h per day reading for pleasure after school. It is understood that
+reading contributes to the student learning process, as it helps to improve
+spelling, reading comprehension and understanding skills. It is expected
+therefore to have a positive effect on school efﬁciency.
+
+•
+
+•
+
+STUCHECK: percentage of students in the school that have answered yes to the
+statement ‘When I study mathematics, I make myself check to see if I remember
+the work I have already done’. This variable reﬂects the learning skills acquired
+along the student’s academic life.
+STUIMPORT: percentage of students in the school that have answered yes to
+the statement ‘When I study for a mathematics test, I try to work out what the
+most important parts to learn are’. As in the previous case, this variable also
+reﬂects the learning skills acquired along the student’s academic life.
+
+3.3.3.3 Contextual variables included in both databases and in the pool
+•
+•
+
+•
+•
+•
+•
+
+PERIOD: dummy variable that takes value one if the student belongs to PISA
+2012. This variable is only included in the pool.
+PCTCORRECT: percentage of students assessed in the school who are in the
+academic year that a 15-year student should really be in. This variable reﬂects
+the grade-retention policy, and is another focus of attention in current
+educational discussions because there is no consensus about its net effect on
+educational results.
+TEACHVOC: dummy variable that takes value one if the institution is a
+vocational technical school.
+RURAL: dummy variable that takes value one if the institution is located in a
+town with less than 3000 inhabitants.
+CITY: dummy variable that takes value one if the institution is located in a town
+with more than 100,000 inhabitants.
+TEACHSTU: the number of teachers per hundred students. Some research
+includes class size as an educational input in the ﬁrst stage, but we have decided
+to use it as an explanatory variable of efﬁciency since there is still no conclusive
+evidence about the real effect of this variable on student results.26 Furthermore,
+this variable does not show a positive correlation with the analyzed outputs.
+
+Finally, we incorporate a number of variables associated with school autonomy
+and management in terms of budget allocation, curriculum development, disciplinary policies and student assessment practices. There are no expected a priori
+positive or negative relationships between these variables and school efﬁciency,
+since empirical evidence emerging from international comparisons does not provide
+conclusions that are applicable to all education systems (OECD 2013b).
+•
+
+26
+
+Curr_author: a dummy variable which takes the value one when the national
+authorities have a considerable responsibility for determining the content of the
+courses.
+•
+•
+
+Page 15 of 28 5
+
+Disc_author: a dummy variable which takes the value one when the national
+authorities have a considerable responsibility for establishing student disciplinary policies.
+Budget_ppal: a dummy variable which takes the value one when the school
+principal has a considerable responsibility for distributing the school budget.
+Budget_author: a dummy variable which takes the value one when the national
+authorities have a considerable responsibility for distributing the school budget.
+Asses_author: a dummy variable which takes the value one when the national
+authorities have a considerable responsibility for establishing student assessment
+policies.
+
+Table 3 shows the main descriptive statistics of all selected variables: outputs,
+inputs and contextual variables.
+
+4 Results
+4.1 First stage analysis
+Figure 2 illustrates the distribution of efﬁciency scores, hi in Eq. (1), estimated by
+the output-oriented DEA-BCC model for the three data sets. Results show that
+between 2009 and 2012 the percentage of fully efﬁcient schools in Uruguay dropped
+from 27 to 21 %. The average estimated efﬁciency score also decreases over this
+period from 1.087 in PISA 2009 to 1.116 in PISA 2012. This means that, on
+average, educational results in public schools could be increased in 2012 by 11.6 %
+given the available resources. Moreover, more than 16 % of the schools in 2012
+could improve their results by over 20 % to reach the frontier while this percentage
+represented 13 % in 2009. Finally half of schools could improve outcomes by over
+10 % with their current inputs in 2012 what represent an important decrease in
+results taking into account that barely one out of three schools belonged to this
+inefﬁcient group in 2009.
+Table 4 shows, as an example of the potential beneﬁts of measuring inefﬁciency,
+the most inefﬁcient schools with estimated efﬁciency scores greater than 1.20 for
+PISA 2012, i.e., where outputs could be increased by more than 20 % if they were
+fully efﬁcient. All these schools perform far below the Uruguayan means in PISA
+2012 (409 in mathematics and 411 in reading); whereas, if they were fully efﬁcient,
+most of them would be above these national averages. In fact, some schools would
+even signiﬁcantly exceed these averages in both subjects (e.g., schools 2, 4, 6 and
+10).
+An alternative way to evaluate the potential gains due to inefﬁciencies reduction
+is by comparing the actual distribution of students into PISA proﬁciency levels
+deﬁned by the OECD with the potential distribution that would be observed once
+inefﬁcient schools reached the frontier. Table 5 shows the percentage of students
+under (over) proﬁciency level 1 (level 4) and level 2 (level 5) in mathematics,
+reading and in at least one of the two evaluated disciplines in the two periods.
+
+Students’ highest parental education level expressed as years of schooling
+
+Read_mean
+
+Proportion of fully certiﬁed teachers in the school
+
+SCHRES
+
+PROPCERT
+
+School located in a city with more than 100,000 inhabitants
+
+Number of teachers per 100 students
+
+National authorities have a considerable responsibility for determining the content of the courses
+
+National authorities has a considerable responsibility for establishing student disciplinary policies
+
+The school’s principal has a considerable responsibility for distributing the school budget
+
+National authorities have a considerable responsibility for distributing the school budget
+
+National authorities have a considerable responsibility for establishing the students assessment policies
+
+TEACHSTU
+
+Curr_authora
+
+Disc_authora
+
+Budget_ppala
+
+Budget_authora
+
+Asses_authora
+
+a
+
+For dummy variables, the mean represents the proportion of schools in each category
+
+Source: own elaboration based on PISA 2009 and PISA 2012
+
+School located in a town with less than 3000 inhabitants
+
+RURALa
+
+CITYa
+
+Percentage of students who try to work out what the most important parts to learn are (mathematics)
+
+STUIMPORT
+
+Percentage of students in the appropriate year
+
+Percentage of students who check to see if I remember the work I have already done (mathematics)
+
+STUCHECK
+
+Vocational technical school
+
+Percentage of students in the appropriate year
+
+EXTREADING
+
+TEACHVOCa
+
+Student’s assessment through monthly homework
+
+HOMEWORK
+
+PCTCORRECT
+
+Student’s assessment through tests with frequency more than one per month
+
+TEST
+
+Explanatory variables
+
+School Educational Resources Index
+
+PARED
+
+Inputs
+
+School average score in reading
+
+Maths_mean
+
+Outputs
+
+Variable
+
+Table 3 Descriptive statistics of outputs, inputs and explanatory variables of efﬁciency
+
+0.80
+
+0.57
+
+0.53
+
+0.63
+
+0.84
+
+7.67
+
+0.09
+
+0.14
+
+0.31
+
+0.55
+
+–
+
+–
+
+0.09
+
+0.14
+
+0.13
+
+0.53
+
+4.94
+
+9.65
+
+390.7
+
+398.0
+
+0.41
+
+0.50
+
+0.50
+
+0.48
+
+0.37
+
+3.27
+
+0.29
+
+0.35
+
+0.46
+
+0.26
+
+–
+
+–
+
+0.06
+
+0.35
+
+0.34
+
+0.18
+
+2.71
+
+1.56
+
+53.6
+
+49.0
+
+0.68
+
+0.66
+
+0.30
+
+0.65
+
+0.72
+
+7.48
+
+0.10
+
+0.13
+
+0.32
+
+0.55
+
+0.32
+
+0.25
+
+–
+
+–
+
+–
+
+0.52
+
+5.31
+
+10.15
+
+380.5
+
+382.1
+
+Mean
+
+Mean
+
+SD
+
+2012
+
+2009
+
+0.47
+
+0.48
+
+0.46
+
+0.48
+
+0.45
+
+2.49
+
+0.30
+
+0.34
+
+0.47
+
+0.24
+
+0.09
+
+0.09
+
+–
+
+–
+
+–
+
+0.20
+
+3.04
+
+1.40
+
+54.3
+
+44.7
+
+SD
+
+0.75
+
+0.61
+
+0.43
+
+0.64
+
+0.79
+
+7.59
+
+0.09
+
+0.14
+
+0.31
+
+0.55
+
+–
+
+–
+
+–
+
+–
+
+–
+
+0.52
+
+5.09
+
+9.86
+
+386.4
+
+391.3
+
+Mean
+
+Pool
+
+0.44
+
+0.49
+
+0.50
+
+0.48
+
+0.41
+
+2.96
+
+0.29
+
+0.34
+
+0.47
+
+0.25
+
+–
+
+–
+
+–
+
+–
+
+–
+
+0.19
+
+2.85
+
+1.51
+
+54.0
+
+47.8
+
+SD
+students below proﬁciency level 2 (the minimum ‘competence threshold’ deﬁned by
+OECD) in mathematics (reading) could be reduced from 67.2 to 48.5 % in
+mathematics and from 58.8 to 42.9 % in reading. Moreover, the actual percentage
+of students who is below proﬁciency level 2 in at least one of the two evaluated areas
+would decline from 73.5 to 57.4 %. By contrast, analyzing the percentage of topscoring students (performance levels four to six) deﬁned by PISA analysts, we ﬁnd
+that this proportion could be doubled from 12.6 to 24.5 % and from 13.6 to 26.9 % in
+mathematics and reading tests, respectively. Indeed, these ﬁgures would be close to
+those actually observed in some OECD countries (e.g., United States 24.6 %, Sweden
+24.4 % or Italy 26.7 % in mathematics). It is also important to note here the decline of
+PISA 2012 results with respect PISA 2009. Table 5 clearly shows how the actual
+number of top performers in at least one area was almost 11 percentage points higher
+in 2009 than in 2012. As a consequence, the potential percentage of students that
+could become top performers decreased too from 42.9 % in PISA 2009 to 35 % in
+PISA 2012. Results are closely related when we turn our attention to the comparison
+of students under the minimum competence threshold in mathematics or reading. In
+this case, we observe that the actual percentage of students without the minimum level
+of competences rose from 63.9 % in PISA 2009 to 73.5 % in PISA 2012 while the
+potential to lift students out of poor results decreased between the 2 years.
+4.2 Second-stage analysis
+
+% Schools
+
+In a second stage, the estimated efﬁciency scores are regressed over the contextual
+variables using four model speciﬁcations: the truncated regression with bootstrap
+proposed by Simar and Wilson (2007), the conventional Tobit, the Tobit regression
+with bootstrap and, ﬁnally, the OLS model with bootstrap. Results are shown for
+
+40%
+35%
+30%
+25%
+20%
+15%
+10%
+5%
+0%
+
+1.00 -1.1
+
+1.1-1.2
+
+1.2-1.3
+
+PISA 2009
+
+Fully
+Efficient
+0.27
+
+0.40
+
+0.19
+
+0.09
+
+1.3 or
+more
+0.05
+
+PISA 2012
+
+0.21
+
+0.28
+
+0.34
+
+0.08
+
+0.08
+
+Pool
+
+0.17
+
+0.34
+
+0.27
+
+0.14
+
+0.09
+
+Fig. 2 Estimated efﬁciency scores distribution (DEA-BBC). Values equal to one represent full efﬁcient
+units. Higher values of the estimated score imply more inefﬁciency. Source: authors’ estimates using
+School
+ID
+
+Estimated
+efﬁciency
+
+Actual
+mathematics
+
+Actual
+reading
+
+Target
+mathematics
+
+Target
+reading
+
+1
+
+1.52
+
+291
+
+224
+
+442
+
+341
+
+2
+
+1.47
+
+308
+
+305
+
+452
+
+448
+
+3
+
+1.39
+
+307
+
+271
+
+427
+
+377
+
+4
+
+1.38
+
+324
+
+313
+
+447
+
+433
+
+5
+
+1.36
+
+302
+
+273
+
+411
+
+371
+
+6
+
+1.34
+
+323
+
+328
+
+433
+
+440
+
+7
+
+1.28
+
+344
+
+309
+
+440
+
+395
+
+8
+
+1.27
+
+318
+
+321
+
+404
+
+408
+
+9
+
+1.27
+
+319
+
+290
+
+405
+
+368
+
+10
+
+1.26
+
+365
+
+355
+
+460
+
+448
+
+11
+
+1.22
+
+318
+
+315
+
+388
+
+385
+
+12
+
+1.21
+
+349
+
+347
+
+422
+
+420
+
+Source: authors’ estimations using PISA 2012 data
+
+Table 5 Actual and potential percentage of students into PISA proﬁciency levels
+Description
+
+2009
+
+2012
+
+Actual %
+Students under the minimum ‘‘competence
+threshold’’ in mathematics
+
+Potential %
+
+Actual %
+
+Potential %
+
+54.7
+
+41.5
+
+67.2
+
+48.5
+
+Top-performing students in mathematics
+
+20.7
+
+30.7
+
+12.6
+
+24.5
+
+Students under the minimum ‘‘competence
+threshold’’ in reading
+
+49.7
+
+38.2
+
+58.8
+
+42.9
+
+Top-performing students in reading
+
+21.9
+
+31.3
+
+13.6
+
+26.9
+
+Students under the minimum ‘‘competence
+threshold’’ in at least one area
+
+63.9
+
+52.4
+
+73.5
+
+57.4
+
+Top-performing students in at least one area
+
+29.8
+
+42.9
+
+19.0
+
+35.0
+
+Source: authors’ estimations based on PISA 2009 and PISA 2012 databases
+
+cross-sections of PISA 2009, PISA 2012 and the pool in Tables 6, 7 and 8,
+respectively.
+From the comparative analysis of the four speciﬁed models we can conclude that
+there are no major discrepancies between the results. The sign, magnitude and
+signiﬁcance of almost all variables are similar in all models and databases, implying
+that any educational policy recommendations derived from them would be basically
+the same regardless the second-stage regression model ﬁnally chosen adding
+robustness to these ﬁndings. Taking into account this general conclusion, we will
+consider the speciﬁcation proposed by Simar and Wilson (2007) as the baseline for
+
+0.00
+
+0.06
+
+0.00
+
+-0.04
+
+-0.03
+
+-0.01
+
+TEACHVOCc
+
+RURALc
+
+CITYc
+
+TEACHSTU
+
+Curr_authorc
+
+Disc_authorc
+
+Asses_authorc
+
+Budget_authorc
+
+Budget_ppalc
+
+1.17
+
+0.00
+
+0.01
+
+EXTREADING
+
+Constant
+
+0.04
+
+-0.07
+
+HOMEWORKc
+
+0.05
+
+0.03
+
+0.03
+
+0.02
+
+0.03
+
+0.03
+
+0.03
+
+0.03
+
+0.19
+
+0.03
+
+0.03
+
+-0.04
+
+0.05
+
+-0.20
+
+PCTCORRECT
+
+21.34***
+
+-0.20
+
+-1.25
+
+-1.64*
+
+0.07
+
+1.76*
+
+-0.04
+
+-0.05
+
+0.27
+
+1.56
+
+0.05
+
+-2.41**
+
+-1.42
+
+-4.28***
+
+1.242
+
+0.019
+
+-0.009
+
+-0.021
+
+-0.020
+
+0.019
+
+-0.004
+
+-0.002
+
+0.057
+
+0.105
+
+-0.146
+
+-0.060
+
+-0.100
+
+-0.257
+
+0.074
+
+0.040
+
+0.037
+
+0.035
+
+0.046
+
+0.059
+
+0.009
+
+0.054
+
+0.056
+
+0.041
+
+0.265
+
+0.033
+
+0.056
+
+0.066
+
+SE
+
+16.86***
+
+0.49
+
+-0.23
+
+-0.61
+
+-0.44
+
+0.32
+
+-0.47
+
+-0.04
+
+1.02
+
+2.58***
+
+-0.55
+
+-1.82*
+
+-1.79*
+
+-3.91***
+
+z
+
+Coef.
+
+t
+
+Coef.
+
+SE
+
+Truncated ? bootstrapb
+
+Conventional Tobita
+
+TESTc
+
+Explanatory variables
+
+Table 6 Efﬁciency drivers: second-stage estimations (PISA 2009)
+
+1.167
+
+-0.005
+
+-0.033
+
+-0.040
+
+0.002
+
+0.060
+
+0.000
+
+-0.002
+
+0.009
+
+0.043
+
+0.010
+
+-0.069
+
+-0.039
+
+-0.196
+
+Coef.
+
+0.069
+
+0.029
+
+0.030
+
+0.027
+
+0.037
+
+0.042
+
+0.005
+
+0.050
+
+0.037
+
+0.032
+
+0.220
+
+0.034
+
+0.032
+
+0.053
+
+SE
+
+Tobit ? bootstrapa
+
+17.03***
+
+-0.18
+
+-1.08
+
+-1.47
+
+0.06
+
+1.43
+
+-0.03
+
+-0.04
+
+0.25
+
+1.34
+
+0.05
+
+-2.02***
+
+-1.23
+
+-3.72***
+
+z
+
+1.173
+
+0.008
+
+-0.022
+
+-0.025
+
+-0.004
+
+0.028
+
+0.000
+
+-0.011
+
+0.004
+
+0.042
+
+-0.049
+
+-0.037
+
+-0.040
+
+-0.149
+
+Coef.
+
+0.049
+
+0.021
+
+0.023
+
+0.020
+
+0.029
+
+0.025
+
+0.004
+
+0.043
+
+0.027
+
+0.024
+
+0.150
+
+0.019
+
+0.023
+
+0.040
+
+SE
+
+OLS ? bootstrap
+
+24.11***
+
+0.38
+
+-0.93
+
+-1.21
+
+-0.15
+
+1.11
+
+0.04
+
+-0.25
+
+0.14
+
+1.76*
+
+-0.33
+
+-1.95*
+
+-1.75*
+
+-3.70***
+
+z
+
+Lat Am Econ Rev (2015) 24:5
+
+0.086
+
+0.012
+
+SE
+
+z
+
+Coef.
+
+SE
+
+Coef.
+
+t
+
+Truncated ? bootstrapb
+
+Conventional Tobita
+
+0.100
+
+Coef.
+0.010
+
+SE
+
+Tobit ? bootstrapa
+z
+
+Truncated regression model with 26 left-truncated observations at value 1
+
+Censored regression model with 26 left-censored observations at value 1
+
+0.085
+
+Coef.
+
+SE
+
+OLS ? bootstrap
+z
+
+Dummy variables. Reference categories for school dummies are: non-vocational technical school; school located in a town with more than 3000 and less than 100,000
+inhabitants; students are assessed through test with monthly frequency or less; students are assessed through homework with frequency less than monthly; the national
+authorities do not have a considerable responsibility for determining the content of the courses or establishing student disciplinary policies or distributing the school budget
+or establishing the students assessment policies; the school principal does not have a considerable responsibility for distributing the school budget; the school board does
+not have a considerable responsibility for distributing the school budget
+
+c
+
+b
+
+a
+
+*** p \ 0.01
+
+** p \ 0.05
+
+* p \ 0.10
+
+Source: authors’ estimations using PISA 2009 data
+
+‘Coef.’ is the estimated coefﬁcient. SE is the robust standard error of the estimated coefﬁcient. Number of schools = 98
+
+/sigma
+
+Explanatory variables
+
+Table 6 continued
+
+Constant
+
+0.025
+
+-0.074
+
+0.006
+
+Disc_authorc
+
+Budget_authorc
+
+0.030
+
+Curr_authorc
+
+Asses_authorc
+
+-0.001
+
+0.001
+
+-0.075
+
+TEACH_stu
+
+CITYc
+
+RURALc
+
+0.089
+
+0.030
+
+0.032
+
+0.039
+
+0.036
+
+0.033
+
+0.007
+
+0.045
+
+0.046
+
+0.039
+
+0.170
+
+0.013
+
+-0.285
+
+STUimport
+
+TEACHVOCc
+
+0.068
+
+0.144
+
+-0.152
+
+-0.598
+
+PCTCORRECT
+
+-2.25**
+
+16.46***
+
+-2.70***
+
+-2.36**
+
+0.65
+
+0.17
+
+0.92
+
+-0.10
+
+0.02
+
+-1.63
+
+0.33
+
+-1.68*
+
+-4.16***
+
+-0.176
+
+1.634
+
+-0.125
+
+-0.074
+
+0.026
+
+-0.016
+
+0.026
+
+-0.009
+
+0.080
+
+-0.012
+
+0.022
+
+-0.478
+
+-0.735
+
+0.132
+
+0.053
+
+0.048
+
+0.072
+
+0.064
+
+0.053
+
+0.011
+
+0.069
+
+0.075
+
+0.057
+
+0.248
+
+0.280
+
+0.108
+
+SE
+
+12.37***
+
+-2.36**
+
+-1.56
+
+0.36
+
+-0.25
+
+0.49
+
+-0.82
+
+1.16
+
+-0.16
+
+0.39
+
+-1.97**
+
+-2.62**
+
+-1.65*
+
+z
+
+Coef.
+
+t
+
+Coef.
+
+SE
+
+Truncated ? bootstrapb
+
+Conventional Tobita
+
+STUcheck
+
+Explanatory variables
+
+Table 7 Efﬁciency drivers: second-stage estimations (PISA 2012)
+
+1.467
+
+-0.082
+
+-0.074
+
+0.025
+
+0.006
+
+0.030
+
+-0.001
+
+0.001
+
+-0.075
+
+0.013
+
+-0.285
+
+-0.598
+
+-0.152
+
+Coef.
+
+0.102
+
+0.035
+
+0.037
+
+0.047
+
+0.044
+
+0.039
+
+0.008
+
+0.065
+
+0.078
+
+0.046
+
+0.195
+
+0.181
+
+0.075
+
+SE
+
+Tobit ? bootstrapa
+
+14.34***
+
+-2.35**
+
+-1.99**
+
+0.53
+
+0.14
+
+0.77
+
+-0.09
+
+0.01
+
+-0.97
+
+0.27
+
+-1.46
+
+-3.31***
+
+-2.04**
+
+z
+
+1.453
+
+-0.079
+
+-0.067
+
+0.033
+
+-0.003
+
+0.022
+
+0.000
+
+0.004
+
+-0.055
+
+0.007
+
+-0.279
+
+-0.534
+
+-0.142
+
+Coef.
+
+0.089
+
+0.028
+
+0.030
+
+0.037
+
+0.033
+
+0.034
+
+0.007
+
+0.045
+
+0.039
+
+0.040
+
+0.172
+
+0.157
+
+0.066
+
+SE
+
+OLS ? bootstrap
+
+16.35***
+
+-2.80***
+
+-2.22**
+
+0.89
+
+-0.09
+
+0.64
+
+-0.02
+
+0.08
+
+-1.43
+
+0.17
+
+-1.62*
+
+-3.40***
+
+-2.14**
+
+z
+
+Lat Am Econ Rev (2015) 24:5
+
+0.096
+
+0.012
+
+SE
+
+z
+
+Coef.
+
+SE
+
+Coef.
+
+t
+
+Truncated ? bootstrapb
+
+Conventional Tobita
+
+0.097
+
+Coef.
+0.008
+
+SE
+
+Tobit ? bootstrapa
+z
+
+Truncated regression model with 16 left-truncated observations at value 1
+
+Censored regression model with 16 left-censored observations at value 1
+
+0.089
+
+Coef.
+
+SE
+
+OLS ? bootstrap
+z
+
+Dummy variables. Reference categories for school dummies are: non-vocational technical school; school located in a town with more than 3000 and less than 100,000
+inhabitants; the national authorities do not have a considerable responsibility for determining the content of the courses or establishing student disciplinary policies or
+distributing the school budget or establishing the students assessment policies; the school principal does not have a considerable responsibility for distributing the school
+budget
+
+c
+
+b
+
+a
+
+*** p \ 0.01
+
+** p \ 0.05
+
+* p \ 0.10
+
+Source: authors’ estimations using PISA 2012 data
+
+‘Coef.’ is the estimated coefﬁcient. SE is the robust standard error of the estimated coefﬁcient. Number of schools = 71
+
+/sigma
+
+Explanatory variables
+
+Table 7 continued
+
+0.042
+
+0.019
+
+0.020
+
+0.025
+
+0.021
+
+0.023
+
+0.003
+
+0.033
+
+0.028
+
+0.023
+
+0.042
+
+3.88***
+
+29.25***
+
+-1.85*
+
+-1.15
+
+0.23
+
+-0.89
+
+2.05**
+
+-0.29
+
+-0.42
+
+-1.12
+
+2.25**
+
+-5.91***
+
+0.093
+
+0.104
+
+1.272
+
+-0.068
+
+-0.051
+
+-0.004
+
+0.013
+
+0.053
+
+-0.005
+
+0.018
+
+0.003
+
+0.080
+
+-0.351
+
+0.025
+
+0.010
+
+0.054
+
+0.029
+
+0.032
+
+0.036
+
+0.033
+
+0.033
+
+0.005
+
+0.044
+
+0.042
+
+0.034
+
+0.062
+
+3.76***
+
+23.58***
+
+-2.34**
+
+-1.62
+
+-0.10
+
+0.40
+
+1.61
+
+-1.00
+
+0.40
+
+0.07
+
+2.37**
+
+-5.66***
+
+z
+
+0.103
+
+1.217
+
+-0.034
+
+-0.024
+
+0.006
+
+-0.019
+
+0.048
+
+-0.001
+
+-0.014
+
+-0.031
+
+0.053
+
+-0.246
+
+0.067
+
+Coef.
+
+0.007
+
+0.044
+
+0.020
+
+0.022
+
+0.027
+
+0.023
+
+0.025
+
+0.004
+
+0.034
+
+0.029
+
+0.024
+
+0.043
+
+0.018
+
+SE
+
+Tobit ? bootstrapa
+
+Truncated regression model with 16 left-truncated observations at value 1
+
+Censored regression model with 16 left-censored observations at value 1
+
+2.18**
+
+27.75***
+
+-1.76*
+
+-1.09
+
+0.21
+
+-0.84
+
+1.95*
+
+-0.25
+
+-0.40
+
+-1.09
+
+0.094
+
+1.221
+
+-0.035
+
+-0.021
+
+0.000
+
+-0.011
+
+0.035
+
+-0.001
+
+-0.017
+
+-0.028
+
+0.051
+
+-0.216
+
+0.016
+
+Coef.
+
+0.039
+
+0.016
+
+0.018
+
+0.023
+
+0.020
+
+0.020
+
+0.003
+
+0.031
+
+0.022
+
+0.022
+
+0.037
+
+3.820
+
+SE
+
+OLS ? bootstrap
+
+3.82***
+
+31.24***
+
+-2.17**
+
+-1.13
+
+-0.01
+
+-0.54
+
+1.73*
+
+-0.18
+
+-0.56
+
+-1.27
+
+2.31**
+
+-5.79***
+
+z
+
+Dummy variables. Reference categories for school dummies are: PISA 2009 database; non-vocational technical school; school located in a town with more than 3000
+and less than 100,000 inhabitants; the national authorities do not have a considerable responsibility for determining the content of the courses or establishing student
+disciplinary policies or distributing the school budget or establishing the students assessment policies; the school principal does not have a considerable responsibility for
+distributing the school budget
+
+c
+
+b
+
+a
+
+*** p \ 0.01
+
+** p \ 0.05
+
+* p \ 0.10
+
+3.76***
+-5.72***
+
+z
+
+‘Coef.’ is the estimated coefﬁcient. SE is the robust standard error of the estimated coefﬁcient. Number of schools = 169
+
+Source: authors’ estimations using PISA 2009 and PISA 2012 databases
+
+0.103
+
+/sigma
+
+Budget_ppalc
+
+1.217
+
+-0.034
+
+Budget_authorc
+
+Constant
+
+0.006
+
+-0.024
+
+Asses_authorc
+
+0.048
+
+-0.019
+
+Disc_authorc
+
+TEACH_stu
+
+Curr_authorc
+
+-0.014
+
+-0.001
+
+CITYc
+
+-0.031
+
+RURALc
+
+TEACHVOCc
+
+0.067
+
+-0.246
+
+SE
+
+Coef.
+
+SE
+
+Coef.
+
+t
+
+Truncated ? bootstrapb
+
+Conventional Tobita
+
+PCTCORRECT
+
+Periodc
+
+Explanatory variables
+
+Table 8 Efﬁciency drivers: second-stage estimations (pool)
+
+Lat Am Econ Rev (2015) 24:5
+estimation. First, school location does not seem to affect the efﬁciency (RURAL and
+CITY). On average, schools in rural areas or small villages have worse educational
+outcomes than those located in bigger cities. The fact that the town size does not
+affect signiﬁcantly the efﬁciency implies that the higher results are due to a greater
+allocation of educational resources and not to a better use of them. Likewise, the
+teacher–student ratio (TEACHSTU) does not affect either school’s efﬁciency.
+Second, hardly any of the variables associated with school autonomy are
+signiﬁcant (except for Budget_ppal). Decentralizing the responsibility of establishing the disciplinary policies (Disc_author) and assessment practices (Asses_author)
+or determining the content of the courses (Curr_author) does not seem to affect
+school efﬁciency. This is an interesting ﬁnding, since the decentralization issue is
+part of most current education discussions. International evidence shows that
+decentralization is successful in countries where there is also a school accountability
+practice properly regulated and with standardized criteria (Hanushek et al. 2013;
+OECD 2013b). This is not the case of Uruguay, where there is great heterogeneity in
+accountabilities and where, in many cases, there is not even a systematic way of
+presenting them.
+Therefore, the results of this research could be associated with this international
+evidence, which points out that decentralization would only have positive effects on
+improving academic results if it is carried out accompanied by an appropriate
+accountability system. Another possible interpretation of this result lies in the fact
+that the autonomy indexes were computed from the principals’ responses and their
+perceived autonomy and therefore might not be reﬂecting the true degree of
+autonomy they actually have. In Uruguay, public high schools generally have low
+levels of autonomy; however, the variables included in this analysis show certain
+degree of variance (Table 3). This fact could suggest some distortion between
+reality and principals’ perceptions regarding their responsibility and autonomy.
+By contrast, the fact that the school’s principal has a considerable responsibility
+for distributing the school budget (Budget_ppal) has a strong signiﬁcant positive
+effect on efﬁciency in PISA 2012 and in pool estimations. Therefore, this result
+would suggest that to give the responsibility of allocating the school budget to the
+school’s principal would be an appropriate policy, at least in the case of secondary
+schools in Uruguay.
+Third, there is a group of variables associated with students and teaching
+practices that are systematically signiﬁcant and show the expected sign. Firstly, the
+percentage of students that are in the right year (PCTCORRECT) appears to be a
+positive and signiﬁcant driver of efﬁciency in both databases separately and in the
+pool. This result calls into question the adequacy of current Uruguayan graderetention policies at all levels of the education system. Uruguay has one of the
+highest repetition rates in the region, which contrasts with international test results
+which show this country to be one of the region’s top performers. Therefore, it
+would perhaps be better to attempt to identify younger (primary education) students
+who are at risk of repeating and provide them with additional support early on in
+order to prevent grad retention. Secondly, the dummy variable that indicates
+are more inefﬁcient. Uruguayan high schools have on average better average
+academic results than technical schools. This result seems to point out that
+secondary high schools perform better due to a better management and not only
+because they have higher initial input endowments.
+Thirdly, other interesting variables only appear in one PISA. On one hand,
+according to PISA 2009 estimations, student assessment methods and their
+frequency appear to positively inﬂuence efﬁciency. Indeed, schools where teachers
+assess their students continuously by setting conventional tests or exams (TEST)
+more often than once a month or by means of the homework made monthly
+(HOMEWORK) perform better than schools that do not make use of this tool or do
+so with a frequency other than once a month. At early ages homework needs to be
+set daily to establish students’ study habits, but 15-year-olds should be set
+homework at less regular intervals to complement regular individual study. So,
+monthly homework to assess learning seems to positively affect students’ results.
+On the other hand, regarding PISA 2012 both variables associated with student’s
+study skills in mathematics (STUcheck and STUimport) have a positive impact on
+efﬁciency. These variables reﬂect the students skills acquired over their academic
+life and thus, this ability could be associated with classroom teaching techniques
+adopted by teachers. Thus, it would be desirable to promote these learning
+techniques both in the classroom and at home. This means, not only to work at
+school but also to foster families’ commitment to support students work at home.
+Although this research is focused in secondary education, such practices should be
+encouraged from the beginning of the student’s academic life in previous cycles,
+when students are assimilating the learning techniques to be used throughout their
+academic life and when it is most effective to impact on their non-cognitive skills
+(Heckman and Kautz 2013).
+Finally, it is worth to highlight that the coefﬁcient associated to the time period
+variable (PERIOD) points out to a signiﬁcant drop in efﬁciency results in 2012 with
+respect to 2009 even after controlling for other contextual covariates also related
+with efﬁciency. From Table 3 it is straightforward to conclude that over this period
+mean outputs signiﬁcantly decreased while mean inputs clearly increased (PARED
+and SCHRES) or remained almost constant (PROPCERT). This decline in
+performance cannot be easily explained but should alert the Uruguayan educational
+system how to invert this result to gain efﬁciency.
+
+5 Discussion and conclusions
+Modern countries agree about the need and importance of having a more and better
+educated population in order to ensure economic growth based on the high
+productivity of a skilled labor force. The high percentage of public spending on
+education is a reﬂection of this conviction. During the last decade the Uruguayan
+government has made a huge effort to increase educational resources; however,
+academic results have not improved. On the contrary, public education system
+the system instead of exploring how to make better use of available inputs, i.e., how
+to achieve a more efﬁcient education system. This situation raises two open
+questions. Are Uruguayan public secondary schools efﬁcient? Which policies and
+practices should be promoted in order to increase school efﬁciency? As far as we
+know, however, this issue has yet to be analyzed for the Uruguayan education
+system. This is the main aim of this research.
+Our ﬁndings corroborate the presence of inefﬁcient behaviors in public secondary
+schools. According to PISA 2012 results we conclude that with the current inputs
+schools could have increased their academic results on average by 11.6 % if
+adequate educational policies and practices had been designed by national
+authorities and implemented by schools. Furthermore, if schools were fully
+efﬁcient, the percentage of students below proﬁciency level 2 (the minimum
+‘competence threshold’ deﬁned by OECD) could be reduced from 67 to 49 % in
+mathematics and from 59 to 43 % in reading. By contrast, the percentage of topscoring students (performance levels four to six), could be doubled from 12 to 24 %
+and from 14 to 27 % in mathematics and reading tests, respectively.
+In addition, the second-stage analysis yields interesting evidence for planning
+and implementing effective policies to improve the efﬁciency of the Uruguayan
+public secondary education. The ﬁrst noteworthy conclusion is that just increasing
+educational resources (e.g., reducing class size through recruiting more teachers)
+does not appear to be an appropriate policy because it does not have a positive and
+signiﬁcant effect on school efﬁciency. By contrast, the results suggest that the
+national discussion and action on increasing education system efﬁciency should
+focus on reviewing the current grade-retention policies and the teaching techniques.
+Second, this research evidences that inefﬁciency is higher where there is a higher
+percentage of repeating students. So, students at risk of repetition should be
+identiﬁed at an early age and provided with extra support with the aim of preventing
+future school failure. Third, promoting teaching and learning techniques to enhance
+students’ study skills evidences positive effects on results. In addition, student
+assessment methods and their frequency appear to positively inﬂuence efﬁciency.
+Indeed, schools where teachers assess their students continuously by setting
+monthly homework or through test or exams more than once a month perform better
+than schools that do not make use of this tool or do so with other frequency. So,
+continuous monthly assessments seems to positively affect students’ results. Fourth,
+the fact that the school principal had a considerable responsibility for distributing
+the school budget (Budget_ppal) has a strong signiﬁcant positive effect on
+efﬁciency. Therefore, this result suggests that it is a good practice to deliver the
+responsibility of allocating the school budget to the school principal.
+Finally, we ﬁnd a signiﬁcant decline in efﬁciency results in Uruguay between the
+two analyzed periods. In other words, educational outputs in the last years have
+decreased despite the effort that Uruguayan authorities made putting more public
+expenditure in the system. Therefore it seems necessary to reach a large
+commitment from all stakeholders involved in the educational process in order to
+educational problem in public high schools in Uruguay from an efﬁciency
+viewpoint, providing some potential practices and policies that positively affect
+academic results. In this respect, this paper reports preliminary ﬁndings, and more
+research is, of course, still needed. For example, a qualitative and in depth analysis
+of the most efﬁcient and inefﬁcient schools could provide additional useful
+information about how to implement efﬁcient practices and avoid the inefﬁcient
+ones.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use,
+distribution, and reproduction in any medium, provided you give appropriate credit to the original
+author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were
+made.
+
+Xue M, Harker PT (1999) Overcoming the inherent dependency of DEA efﬁciency scores: a bootstrap

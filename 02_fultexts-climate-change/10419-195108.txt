@@ -1,0 +1,2634 @@
+Jnl Remanufactur (2017) 7:113–137
+DOI 10.1007/s13243-017-0036-4
+RESEARCH
+
+Designing distribution systems with reverse flows
+Ayse Cilacı Tombus1 · Necati Aras2 · Vedat Verter3
+¸
+¸
+
+Received: 4 April 2017 / Accepted: 21 July 2017 / Published online: 4 October 2017
+© Springer Science+Business Media B.V. 2017
+
+Introduction
+The second half of the twentieth century witnessed the global rise of a consumption-based
+economy. This trend resulted in an ever-increasing threat to environmental sustainability. Environmentally conscious manufacturing, waste reduction and product recovery have
+emerged as alternative means of coping with this significant societal problem. In this paper,
+we focus on supply chains with product recovery, which aim at capturing the remaining
+economical value in used, unsold, or obsolete products. Based on a survey of nine case
+studies on product recovery processes in different industries, Fleischmann et al. [11] highlight the following common activities: (i) collection of used products, (ii) inspection and
+separation of the recoverable returns and those that need to be disposed due to economic
+and/or technological reasons, (iii) reprocessing the returns, which involves reuse, recycling,
+remanufacturing or repair, and (iv) redistribution of the recovered materials, components or
+products. From a logistics viewpoint, these activities create a reverse flow of goods from
+consumers toward upstream layers of the supply chain. The simultaneous presence of forward and reverse flows cause unique challenges for supply chain design, which we tackle in
+this paper. To this end, we provide an analytical framework for making structural decisions
+pertaining to distribution systems with reverse flows.
+Under pressure from environmental groups and society at large, governments are
+increasingly involved in regulating product recovery, because it can serve as an effective mechanism for sustaining the environment. The WEEE legislation in the European
+Union [36] that became effective in February 2014, for example, requires manufacturers to establish environmentally sound recovery processes including remanufacturing for
+used electrical and electronic equipment. On the other hand, an increasing number of companies have been implementing comprehensive programs in order to reap the potential
+benefits of remanufacturing. According to the United States International Trade Commission report prepared in October 2012 (USITC Publication 4356, [34]), United States was
+the world’s largest remanufacturer during the period of 2009-2011 with the total value
+of remanufactured products exceeding $43 billion. Furthermore, the most remanufacturing intensive industries in the United States comprise aerospace, electrical and electronic
+equipment, locomotives, machinery, medical devices, motor vehicle parts, office furniture,
+and retreaded tires. Thanks to HP’s reuse and recycling programs, more than 80% of ink
+cartridges and 38% of LaserJet toner cartridges are produced with recycled plastic [14].
+Moreover, HP Planet Partners have recycled more than 3.3 billion pounds of products
+since 1987. Xerox reports that their combined returns programs including equipment resale
+and remanufacturing along with parts and consumable reuse and recycling prevented over
+38,000 metric tons of waste in 2003 which otherwise would end up in landfills [37].
+Managing the flow of returned products from customer zones to remanufacturing facilities often involves the establishment and operation of return centers. A return center
+typically offers scale economies in dealing with returned products in much the same way
+a distribution center plays a role in the distribution networks. It is well understood that the
+
+115
+
+facilities whereas the rest are either sent to recycling facilities or to landfill and incineration
+sites for disposal.
+A significant majority of the research on the design of reverse logistics (RL) networks
+has focused on the structural decisions regarding the reverse distribution networks. The
+location and sizing decisions associated with only the collection, inspection, recycling and
+remanufacturing facilities are incorporated in the proposed mathematical formulations. A
+recent and comprehensive review on these papers, which do not incorporate the configurational decisions pertaining to the forward distribution network, can be found in [1, 13].
+There are 31 papers that are immediately relevant to our research since they incorporate the
+flows in both directions in making design decisions. We discuss this stream of research in
+more detail in the next section.
+This paper’s main contribution is a methodology for designing closed-loop supply chains
+(CLSCs) i.e., making structural decisions pertaining to both the forward and reverse distribution networks simultaneously. To this end, we incorporate the presence of reverse
+flows, return centers and remanufacturing facilities in the well-known (single-commodity)
+production-distribution system design model. Using our modeling framework, we address
+two important strategic questions. “Is there a significant benefit due to designing forward
+and reverse networks simultaneously rather than sequentially?” and “Under which conditions can the return centers be co-located with remanufacturing facilities rather than being
+established at the downstream echelons of the supply chain?” Through extensive computational experiments, we find that the general level of capacity utilization in remanufacturing
+facilities is a key factor determining the potential benefits of the integrated design approach.
+We also observe that the most appropriate echelon for return centers that perform inspection
+and separation heavily depends on the overall quality and quantity of the returns collected
+at the customer zones. On the algorithmic front, we study the effectiveness of Lagrangian
+relaxation in solving the CLSC design models presented in the paper. Our computational
+experiments indicate that the Lagrangian relaxation is more efficient than CPLEX for
+large-scale problem instances.
+The remainder of the paper is organized as follows. An overview of the most relevant literature is provided in the next section. “The basic model” presents the integrated model for
+designing distribution systems with reverse flows and “Solution methodology” outlines the
+Lagrangian heuristic for this problem. In “Computational experiments”, we implement the
+heuristic in solving a realistic case study and demonstrate its computational efficiency for
+large-scale problem instances. “Integrated versus sequential design” is devoted to the comparison of alternative approaches to CLSC design in order to demonstrate the advantages of
+the proposed integrated approach. “Where to locate the return centers?” extends the basic
+model to determine whether the firm can benefit from establishing the return centers at the
+upstream echelon co-located with the remanufacturing facilities. We finish the paper with
+some concluding remarks.
+
+Detailed overview of the literature
+The design of a CLSC is in fact related to the notion of supply chain integration (SCI). SCI
+represents the level at which a producer works together with its partners in the supply chain
+to generate an effective and efficient flow of products, information, services and value to
+
+Jnl Remanufactur (2017) 7:113–137
+
+latter one involves considering the integration of problems at different decision levels. For
+example, tackling the supplier selection problem together with the network design problem
+is horizontal integration since both problems occur at the strategic level. Addressing network
+design problem while taking into account vehicle routing issues for a distribution company
+can be seen as vertical integration. In our setting, the design of CLSC where configurational
+decisions concerning both forward and reverse networks are involved is clearly horizontal
+integration because the corresponding decisions are all pertinent to the strategic level.
+In this section, we focus on 31 papers that are immediately relevant to our work due to
+their focus on the design of distribution systems with reverse flows by incorporating facility location decisions. These papers are given in Table 1 and categorized with regard to
+the network structure modeled, i.e., whether the designed network includes return centers
+(RC), remanufacturing facilities (RmF), manufacturing plants (P) and/or distribution centers
+(DC). We would like to emphasize that facility types called collection centers and inspection centers in some studies are treated under the name “RC”. In Table 1, we also indicate
+what type of uncertainty is taken into account in the model, the solution approach/algorithm
+adopted, and whether the proposed methodology is implemented in a real-life case.
+In an early effort, Mar´n and Pelegrin [22] extended the simple plant location problem to
+ı
+define the return plant location problem where each manufacturing plant to be established
+also serves as a collection center for customer returns. A more realistic extension of this very
+basic network is considered in Beamon and Fernandes [5] where the manufacturing plants
+serve the customer demand via warehouses and receive the returns via collection centers
+and warehouses. Fleischmann et al. [12] compare the sequential and integrated approaches
+for the design decisions and by analyzing two hypothetical examples inspired by real-life
+industrial cases the authors conclude that the reverse flows have a significant impact on the
+overall network structure only when the forward and reverse channels differ in a considerable way with respect to geographical distribution or cost structure. The authors also point
+out that return volumes constitute a key factor in the design decisions.
+Salema et al. [29] offer an alternative formulation where the flow variables are represented at two levels (i.e., plant-warehouse and warehouse-customer) rather than the
+single level formulation of flow variables in Fleischmann et al. [12] (i.e., plant-warehousecustomer). In solving two cases, based on a document-office company in Spain and copier
+remanufacturing in Europe, the authors used the CPLEX solver within GAMS Suite. An
+extended model is also provided for the capacitated and multi-product version of the design
+problem, which was implemented for only two products during the case analysis. Salema
+et al. [31] is an effort to incorporate tactical decisions, such as production and inventory levels, in the integrated RL network design. Extending their earlier formulation to represent a
+set of macro and micro time periods, Salema et al. [31] demonstrate that the arising model
+can handle fairly large problem instances encountered in practice. Later on, Salema et al.
+[32] build upon their previous work and propose a generalized model that yields a tactical
+plan for acquisition, production, storage and distribution in a predefined time horizon in
+addition to designing the supply chain considering simultaneously the forward and reverse
+flows.
+In perhaps the most detailed case study for integrated RL network design, Krikke
+et al. [17] focus on the forward and reverse supply chains of refrigerators and evaluate three
+
+117
+
+Table 1 Studies on closed-loop supply chain network design
+Paper Facility types
+
+uncertainty
+
+Solution algorithm
+
+Case study
+
+[12]
+
+–
+
+Commercial solver
+
+Paper, copier
+
+[17]
+
+–
+
+Commercial solver
+
+Refrigerator
+
+[5]
+
+–
+
+Commercial solver
+
+–
+
+[29]
+
+–
+
+Commercial solver
+
+Office document
+
+[30]
+
+Demand, return
+
+Commercial solver
+
+Office document
+
+[16]
+
+–
+
+Genetic algorithm
+
+–
+
+[21]
+
+–
+
+Lagrangian heuristic
+
+–
+
+[28]
+
+–
+
+Lagrangian heuristic
+
+–
+
+[20]
+
+Demand, return
+
+Exact
+
+–
+
+[35]
+
+–
+
+Benders decomposition –
+
+[40]
+
+–
+
+Commercial solver
+
+[18]
+
+–
+
+Tabu search
+
+–
+
+[8]
+
+–
+
+Commercial solver
+
+–
+
+[31]
+
+–
+
+Commercial solver
+
+Office document
+
+[25]
+
+Demand, return, var. costs
+
+Commercial solver
+
+–
+
+[19]
+
+Demand, return
+
+Heuristic
+
+–
+
+[26]
+
+–
+
+Memetic algorithm
+
+–
+
+[32]
+
+–
+
+Commercial solver
+
+Glass
+
+[10]
+
+–
+
+Benders decomposition –
+
+[38]
+
+–
+
+Genetic agorithm
+
+–
+
+[39]
+
+–
+
+Genetic algorithm
+
+Steel
+
+[23]
+
+–
+
+Commercial solver
+
+–
+
+[15]
+
+–
+
+Commercial solver
+
+–
+
+[27]
+
+Demand, return
+
+Commercial solver
+
+–
+
+[3]
+
+Demand, return
+
+Commercial solver
+
+–
+
+[9]
+
+–
+
+Genetic algorithm
+
+–
+
+[6]
+
+Market size, return, recov. rate
+
+L-shaped, SAA
+
+Home appliances
+
+[7]
+
+–
+
+Genetic algorithm
+
+Cartridge
+
+[2]
+
+Demand
+
+Fuzzy programming
+
+Electronic equipment
+
+[24]
+
+Demand, return rate, return quality Commercial solver
+
+Tire
+
+[33]
+
+–
+
+–
+
+RC RmF P DC
+
+Genetic algorithm
+
+–
+
+centers. The authors develop a multi-period model to determine the opening, expansion, and
+closing decisions of the warehouses and repair centers over time. Lu and Bostel [21] provide
+an mixed-integer linear (MILP) formulation where the customer zones are directly served
+from manufacturing or remanufacturing facilities, whereas reverse flows go through intermediate centers (that perform cleaning, disassembly, testing and sorting) on their way to the
+remanufacturing facilities. The MILP model formulated by Sahyouni et al. [28] extends the
+model of [22] in the sense that hybrid facilities are established to be utilized in both forward
+and reverse logistics operations. Lagrangian relaxation is used to solve the developed model.
+
+Jnl Remanufactur (2017) 7:113–137
+
+reverse channels. Their objective is to determine the locations of the collection centers and
+remanufacturing facilities along with the forward and reverse flows such that the sum of the
+¨
+processing, transportation, and facility location costs are minimized. Easwaran and Uster
+[10] incorporate capacitated Hybrid Centers (HCs) and Hybrid Sourcing Facilities (HSFs)
+into their existing models. HCs can play the role of both DCs and/or RCs and HSFs perform
+both manufacturing of new products and remanufacturing of used products. The aim of the
+developed model is to determine the best locations of the HSFs and the HCs as well as the
+best flow of products in the CLSC network.
+Zhou and Wang [40] present a very similar model to that of Fleischmann et al. [12] in
+which returns can be repaired at centralized return centers and sent back to the warehouses
+to satisfy the customer demand. Lee and Dong [18] develop a Tabu search based heuristic for integrated RL network design in end-of-lease computers. In their model, there is a
+single OEM who wants to establish a set of capacitated hybrid processing facilities that
+serve as both DCs as well as collection centers. The same authors deal with a multi-period
+location and allocation model where optimal locations for forward processing facilities, collection centers, and hybrid processing are sought under demand and return uncertainty [19].
+The solution approach adopted is based on sample average approximation method combined with a simulated annealing heuristic. Pishvaee et al. [25] investigate an integrated
+forward/reverse logistics network design problem in which the production/recovery centers,
+distribution/collection centers, and disposal centers are considered while taking into account
+the uncertainties about the demand, number of returns and variable costs. Pishvaee et al.
+[26] examine the effect of the capacity levels on logistics network efficiency and responsiveness by formulating a multi-objective, multi-stage forward/reverse logistics network
+design including production, distribution, collection/inspection, recovery and disposal facilities with multiple capacity levels. Wang and Hsu [38] propose a CLSC network including
+recovery and landfilling rates to integrate environmental issues into a traditional logistics
+system.
+Zhang et al. [39] address a dynamic capacitated production planning problem in a steel
+¨
+company by means of a multi-echelon, multi-period and multi-product CLSC model. Ozkır
+and Baslıgil [23] incorporate material recovery, component recovery and product recovery
+¸
+processes into design of a CLSC network to increase system profitability. Keyvanshokooh
+et al. [15] study a multi-echelon, multi-period, multi-commodity and capacitated integrated
+forward/reverse logistics network concerning the quality levels of the returned products and
+acquisition price offered according to return type. The paper by Rosa et al. [27] proposes
+a multi-period CLSC network model by allowing the locations of plants, DCs and RCs
+to be changed. The capacities of all the facilities can also be modified (i.e., increased or
+decreased) during the planning horizon. The deterministic model is then extended to a robust
+optimization model by taking into account the uncertainty in demand and return. Amin and
+Zhang [3] first formulate a deterministic MILP model where plants and collection centers
+are opened and then extend it to a stochastic bi-objective model with demand and return
+uncertainty. As the solution approach, they apply -constraint method and weighted sums
+method.
+Demirel et al. [9] examine a multi-period and multi-part MILP model for a capacitated
+CLSC network under deterministic demand. They contribute to the literature by incorporating second-hand sales, incremental incentives and inventory policies in the return
+streams of the CLCS network as well as the trade-offs between virgin parts and used
+
+119
+
+studies on CLSC network design and focus on the following two questions: How do the
+uncertainties in market size, return quantities and recovery rate affect the profitability of
+the CLSC and how is product recovery strategy influenced by the consumer perception
+of remanufactured products and variable cost structure. To this end, the authors develop a
+stochastic mixed-integer quadratic model use a solution approach based on an integration
+of the integer L-shaped decomposition with sample average approximation which enables
+to handle many scenarios.
+Shi et al. [33] develop a multi-objective an MILP model for a CLSC network design
+problem. In addition to the overall costs, the model optimizes overall carbon emissions and
+the responsiveness of the network. An improved genetic algorithm based on the framework
+of nondominated sorting genetic algorithm (NSGA II) is developed to obtain Pareto-optimal
+solutions. In their paper, Pedram et al. [24] examine a CLSC model for tire industry with
+demand and return uncertainty where both forward and reverse chain consists of three layers. In particular, collection centers, retreading centers and recycling centers constitute the
+facilities in the reverse channel. Amin and Baki [2] propose a bi-objective CLSC model
+in which one objective is on-time delivery maximization from the suppliers and the other
+objective is profit maximization. There exists uncertainty in the demand and factors such as
+exchange rates and customs duties are also taken into account which differentiates this study
+from other works. Moreover, a case study is presented involving electrical and electronic
+equipments.
+As can be seen, the first research question we pose is partially examined by Fleischmann
+et al. [12] where two different real CLSCs are compared and it is shown that integrated
+design may be beneficial depending on the difference between forward and reverse channels. However, there is no systematic analysis regarding the amount of the resulting benefit
+based on the relevant parameters. Our paper is an attempt towards filling this gap. The sec¨
+ond research question we investigate is somehow covered in Easwaran and Uster [10]. But,
+in that paper DCs are necessarily co-located with RCs, which means that once an RC is colocated with a remanufacturing facility, there is also a DC established there. We believe that
+this is rather a restrictive assumption. Therefore, in our paper, we look at the co-location
+issue only in terms of the facilities handling reverse flows, i.e., remanufacturing facilities
+and RCs.
+
+The basic model
+In this section, we present a basic model that incorporates reverse flows as well as the associated RCs in the distribution network design problem. Based on a set of existing plants
+(each with given manufacturing and remanufacturing capacities) and a set of customer zones
+(each with given demand and return quantities for a single product), the model determines
+the optimal number and location of the DCs and RCs so as to minimize the total cost of
+establishing and operating this closed-loop network. The model requires that all the demand
+is met and all the returns are collected at the customer zones. Therefore, the total number
+of manufactured and remanufactured products must be sufficient to satisfy the demand at
+the customer zones and the total remanufacturing capacity must be large enough to process
+all the remanufacturable returns. We assume no capacity limit for the DCs and RCs to be
+
+Jnl Remanufactur (2017) 7:113–137
+
+These costs can be omitted from the model since the total quantities to be manufactured and
+remanufactured are pre-determined. The basic model is extended in the sequel to also
+incorporate the location decisions pertaining to the establishment of remanufacturing
+facilities.
+Using the index set i for plants, j for DCs as well as RCs and k for customer zones, we
+define the following decision variables:
+Yj =
+Tj =
+
+Xj k
+Wkj
+Uij
+Vj i
+
+=
+=
+=
+=
+
+1
+0
+1
+0
+
+if a DC is located at site j
+otherwise
+if an RC is located at site j
+otherwise
+
+annual amount shipped from DC j to customer zone k
+annual amount shipped from customer zone k to RC j
+annual amount shipped from plant i to DC j
+annual amount shipped from RC j to plant i
+
+The following is the list of model parameters, which are also depicted in Fig. 1.
+fj
+gj
+cij
+ej k
+cj i
+ekj
+dk
+rk
+α
+si
+ai
+
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+(annualized) fixed cost of opening a DC at site j
+(annualized) fixed cost of opening an RC at site j
+cost of shipping one unit from plant i to DC j
+cost of shipping one unit from DC j to customer zone k
+cost of shipping one unit from RC j to plant i
+cost of shipping one unit from customer zone k to RC j
+annual demand at customer zone k
+annual return at customer zone k
+recovery ratio (fraction of returns found to be remanufacturable after inspection)
+manufacturing capacity of plant i
+remanufacturing capacity of plant i
+
+
+121
+
+Problem P
+ZP = min
+
+f j Yj +
+j
+
+g j Tj +
+j
+
+cij Uij +
+i
+
+j
+
+ej k Xj k +
+j
+
+k
+
+j
+
+i
+
+c j i Vj i +
+
+k
+
+j
+
+ekj Wkj
+
+s.t.
+Xj k = dk
+
+∀k
+
+(1)
+
+Wkj = rk
+
+∀k
+
+(2)
+
+Uij
+
+∀j
+
+(3)
+
+Vj i
+
+∀j
+
+(4)
+
+Vj i ≤ si
+
+∀i
+
+(5)
+
+Uij
+
+∀i
+
+(6)
+
+∀i
+
+(7)
+
+∀j, k
+
+(8)
+
+j
+
+j
+
+Xj k =
+k
+
+i
+
+Wkj =
+
+α
+k
+
+i
+
+Uij −
+j
+
+j
+
+Vj i ≤
+j
+
+j
+
+Vj i ≤ ai
+j
+
+Xj k ≤ dk Yj
+Wkj ≤ rk Tj
+Xj k , Wkj , Uij , Vj i ≥ 0
+Yj , Tj ∈ {0, 1}
+
+∀j, k
+
+(9)
+
+∀i, j, k
+
+(10)
+
+∀j
+
+(11)
+
+The objective function includes the transportation cost of both forward and reverse flows
+and the fixed cost of opening DCs and RCs. Constraints (1) ensure that the demand of
+each customer is satisfied, whereas constraints (2) impose that all the returns are collected.
+Due to the existing manufacturing and remanufacturing capacities, single-sourcing of each
+customer by a DC and/or an RC cannot be expected. Constraints (3) and (4) are the flow
+conservation equations at DCs and RCs, respectively. Note that the amount of returns to be
+shipped from an RC to the plants is only a fraction of the returns arriving at the RC, denoted
+by α, and the remainder of the returns are to be disposed of. Since this recovery ratio is
+a proxy for the overall quality of returns, α does not vary with the RC location. Thus, the
+total amount of disposals is pre-determined and by assuming that the unit disposal costs are
+the same at all RCs we leave disposal costs out of the model. Constraints (5) ensure that
+the number of manufactured products is bounded by the manufacturing capacity, whereas
+constraints (7) guarantee that remanufacturing capacity is not exceeded at each plant. In
+order to sustain the closed-loop nature of the network, each plant needs to remanufacture
+all the incoming returns and ship them off to the DCs as part of the forward flows. Since
+remanufacturing is cheaper than manufacturing on the average, each plant will naturally
+prioritize processing the returns from RCs. Nonetheless, lower transportation costs between
+
+Jnl Remanufactur (2017) 7:113–137
+
+open DCs and open RCs, respectively. Constraints (10) and (11) are the nonnegativity and
+integrality constraints, respectively.
+Note that our model allows the possibility of co-locating a DC and an RC at the same
+candidate site j . This happens when Yj = Tj = 1, and the opening costs of both types of
+center is added up. In other words, we implicity assume that in case a center serves as both a
+DC and an RC, no cost benefit can be realized. However, the model can easily be modified to
+reflect this situation. Another remark is the addition of constraints (12) to the model, which
+are obtained by adding constraints (5) and (7). Although redundant from the viewpoint of
+model formulation, constraints (12) tighten the lower bounds (LB) of the subproblems that
+arise due to Lagrangian relaxation of P .
+Uij ≤ si + ai
+
+∀i
+
+(12)
+
+j
+
+Solution methodology
+In this section, we present a Lagrangian heuristic (LH) to solve the proposed CLSC network
+design model.
+
+Lagrangian heuristic
+LH involves relaxing constraints (1), (2), (3), (4), (5) and (6) with multipliers λk , θk , μj ,
+πj , γi , and βi , respectively. Naturally, γi and βi are required to be nonnegative. After the
+rearrangement of the terms, we obtain the relaxed problem RP as follows:
+Problem RP
+= min
+
+ZRP
+
+f j Yj +
+j
+
++
+
+gj Tj +
+j
+
+cij + γi − βi − μj Uij
+i
+
+j
+
+ej k + λk + μj Xj k +
+j
+
+k
+
+j
+
++
+k
+
+j
+
+ekj + θk + απj Wkj −
+
+i
+
+cj i − πj − γi + βi Vj i
+λk dk −
+
+k
+
+γi s i −
+i
+
+θk rk
+k
+
+subject to (7)–(12).
+Problem RP can be decomposed into the following four subproblems where each subproblem represents the flow between two consecutive echelons in either the forward or the
+reverse network.
+Problem RP1
+ZRP1 = min
+
+f j Yj +
+j
+
+ej k + λk + μj Xj k
+j
+
+k
+
+s.t.
+(8)
+(10)
+(11)
+
+Xj k ≤ dk Yj
+Xj k ≥ 0
+Yj ∈ {0, 1}
+
+
+123
+
+Problem RP2
+ZRP2 = min
+s.t.
+(10)
+(12)
+
+cij + γi − βi − μj Uij
+i
+
+j
+
+Uij ≥ 0
+Uij ≤ si + ai
+
+∀i, j
+∀i
+
+j
+
+It is important that constraints (12) ensure finite values for variables Uij in subproblem RP2 .
+In the absence of (12), the Uij values and hence RP2 will be unbounded.
+Problem RP3
+ZRP3 = min
+s.t.
+(9)
+(10)
+(11)
+
+g j Tj +
+j
+
+k
+
+j
+
+Wkj ≤ rk Tj
+Wkj ≥ 0
+Tj ∈ {0, 1}
+
+ekj + θk + απj Wkj
+∀j, k
+∀j, k
+∀j
+
+Problem RP4
+ZRP4 = min
+
+j
+
+s.t.
+(7)
+
+i
+
+cj i − πj − γi + βi Vj i
+
+Vj i ≤ ai
+
+∀i
+
+j
+
+(10)
+Vj i ≥ 0
+∀i, j
+All the four subproblems can be solved by inspection as shown in Appendix 1, and the
+objective value of the relaxed problem provides a lower bound on the optimal objective
+value ZP of the original problem P for any multiplier vectors λ, θ , μ, π , γ , and β. To find
+the best lower bound, we have to solve the Lagrangian dual:
+max
+
+λk ,θk ,μj ,πj ,γi ≥0,βi ≥0
+
+ZRP = ZRP1 + ZRP2 + ZRP3 + ZRP4 −
+
+λk dk −
+k
+
+γi s i −
+i
+
+θk rk
+k
+
+We use subgradient optimization in updating the multipliers at each iteration of the algorithm, which terminates after t0 iterations or a pre-specified CPU time. A formal statement
+of the Lagrangian heuristic is provided in Appendix 2. The solutions to RP1 and RP3 prescribe a set of open DCs and a set of open RCs. By fixing the binary variables to represent
+these open DCs and RCs, a feasible solution for problem P can be found by solving a simple
+transshipment problem. If the binary location variables for distribution centers and return
+centers (i.e., variables Yj and Tj ) are set to known values as a result of solving subproblems RP1 and RP3, then the MILP problem P reduces to linear programming problem with
+continuous decision variables representing the amount of flow between plants and DCs as
+well as DCs and customer zones in the forward network, and between customer zones and
+RCs as well as RCs and plants in the reverse network. Since it is a linear program, it can
+U
+be easily solved using commercial solver CPLEX. The objective value of this solution ZP B
+provides an upper bound (UB) on the optimal objective value of P.
+
+
+Jnl Remanufactur (2017) 7:113–137
+
+A realistic case study
+We study the performance of LH in solving a realistic case study that is based on the copier
+remanufacturing case in Fleischmann et al. [12]. The original case models 50 European
+cities with a population of over 500,000 as customer zones. In an effort to use up-to-date
+population data, we searched wikipedia.org and nationsonline.org and identified 63 European cities with more than 500,000 inhabitants, 27 of which are the national
+capitals. We assume that there is a plant at each of the 27 capitals, and the 63 major cities
+constitute the set of alternative sites for the DCs and RCs to be established. Consequently,
+our case is an I27,63,63 instance of the network design problem.
+The model parameters were set to the values in Fleischmann et al. [12]. The fixed costs of
+establishing DCs and RCs are fj =1,500,000 and gj = 500,000 Euros. The unit transport
+costs per kilometer are cij = 0.0045, ej k = 0.01, cj i = 0.005 and ekj = 0.003 Euro. The
+demand per 1,000 inhabitants is 10 units (i.e., dk = population /100), whereas the return and
+recovery ratios are τ = 0.6 and α = 0.5, respectively. Since there is no capacity information
+in the original case, we experimented with three capacity levels for the manufacturing and
+remanufacturing facilities at each plant. Let n denote the number of plants. We compute the
+three alternative capacity levels using the formulae below:
+
+ai =
+
+a ατ
+
+k dk
+
+n
+
+and si =
+
+s
+
+k dk
+
+− nai
+
+(13)
+
+n
+
+where the capacity parameters (a , s ) take the values (1.5, 1.2), (3.0, 2.4), and (4.5, 3.6)
+for low, medium, and high capacity levels, respectively.
+Table 2 compares the performance of LH with that of CPLEX. The percent deviation
+from the optimal objective value z is denoted by “%” and it is calculated as 100 × (U B −
+z)/z. We observe that the problem instance becomes more difficult to solve as the manufacturing and remanufacturing capacities are reduced. For the most challenging instance,
+which has the lowest capacity levels, LH provides a solution that is within 6.1 percent of
+the optimal solution obtained by CPLEX, albeit it requires about twice the computation
+time. Perhaps more importantly, CPLEX requires almost triple the time to solve the low
+capacity instance compared to that of the high capacity instance, whereas the computational
+requirement increases only 27% for the proposed algorithm.
+By studying the optimal sets of DC and RC locations, we conclude that the model is not
+robust with respect to the manufacturing and remanufacturing capacity levels. It is optimal
+
+Table 2 Results for the case study
+Capacity
+
+CPLEX
+
+Level
+
+z
+
+Lagrangian relaxation
+CPU
+
+LB
+
+UB
+
+%
+
+CPU
+
+Low
+
+14,993.4
+
+40.97
+
+13,442.5
+
+15,912.5
+
+6.13
+
+77.75
+
+Medium
+
+14,118.0
+
+22.72
+
+12,850.6
+
+14,641.9
+
+3.71
+
+73.75
+
+High
+
+13,716.6
+
+14.84
+
+12,692.6
+
+13,998.1
+
+
+125
+
+to establish three DCs and co-locate the RCs with these facilities for all capacity levels.
+Two out of three sites are common for the low and medium capacities, whereas a set of
+completely different cities is used for the high capacity levels. We also find that the model
+is not robust with respect to the solution quality. While LH provides solutions between
+2% and 6.1% of the optimal objective value as the capacity levels are varied, none of the
+sites in the heuristic solution are the same as those in the optimal solution of the same
+instance. We also solved the case with lower return and recovery ratios i.e., τ = 0.3 and
+α = 0.2, respectively. The optimal solution in this case is to open a single RC at the same
+location regardless of the capacity levels (of course, the optimal DC sites do not change).
+Interestingly, this dominant single RC site is not included in any of the three solutions for
+the original τ = 0.6 and α = 0.5 instance. This implies that a greedy heuristic may not
+work well for this closed-loop supply chain design problem.
+This I27,63,63 problem can be considered as a medium-scale instance, and we demonstrate
+the performance of the proposed Lagrangian relaxation procedure in solving large-scale
+instances in the next section.
+
+Solving large-scale problem instances
+We generate 24 problem instances by fixing the number of plants at 20 and setting the number of customer zones to 100, 200, 400, and 800. Since each customer zone is considered
+as an alternative DC/RC site, we in fact can group these 24 instances in four sets which we
+call I20,100,100 , I20,200,200 , and I20,400,400 in the sequel. The (x, y) coordinates for the plants,
+potential DC/RC sites and customer zones in each set are generated through uniformly distributed random numbers in [0, 1]. The unit transportation costs are estimated using the
+Euclidean distance between the facility pairs in consecutive echelons. Therefore, the unit
+costs of forward and reverse flows are equal for a given pair of sites. For example, the unit
+cost of shipping goods from plant 1 to a DC at site 2 (c12 ) is the same as the unit cost of
+transporting returned products from an RC at site 2 to plant 1 (c21 ). The demand at each
+customer zone is generated from a uniform distribution between 50 and 100 units. For the
+ease of exposition we assume that the return ratio τ = rk /dk is the same for all k. For each
+set, we compute three manufacturing and remanufacturing capacity levels using (13) and
+use two levels for the fixed costs of establishing DCs and RCs. These are set at $50 and $75,
+respectively as the low level and $500 and $750, respectively as the high level. The return
+ratio and the recovery ratio are taken as τ = 0.5 and α = 0.5, respectively. The Lagrangian
+heuristic has been coded in Matlab 7.4.0 R2007a and the computational experiments were
+run on a computer with Intel Xeon CPU X5460 at 3.16 GHz processor and 16 GB of RAM.
+We set a 7,200 seconds time limit for CPLEX.
+Table 3 reports on our computational results of the closed-loop supply chain design problem. Four instances could not be solved to optimality within the allowed CPU time. For
+these more challenging instances, the best solutions identified by CPLEX are reported in
+the table (each indicated by “∗”).
+Table 3 confirms our earlier observation that problem complexity increases as the capacity levels are reduced. In addition, we found out that problem instances with higher fixed
+costs are more difficult than their counterparts with lower fixed costs. Accordingly, CPLEX
+
+Jnl Remanufactur (2017) 7:113–137
+
+Table 3 Performance of LH for large-sized problems
+Problem
+
+CPLEX
+
+Level
+
+z
+
+CPU
+
+LB
+
+UB
+
+%
+
+CPU
+
+Low
+
+Low
+
+2772.6
+
+86.84
+
+2521.6
+
+2949.5
+
+6.38
+
+100.89
+
+Low
+
+Medium
+
+2483.5
+
+4.42
+
+2443.6
+
+2487.7
+
+0.17
+
+122.44
+
+Low
+
+High
+
+2436.8
+
+1.89
+
+2392.0
+
+2436.8
+
+0.00
+
+137.09
+
+High
+
+Low
+
+6262.7
+
+726.30
+
+5237.6
+
+6536.5
+
+4.36
+
+88.06
+
+High
+
+Medium
+
+5637.7
+
+181.81
+
+5002.9
+
+5783.5
+
+2.59
+
+87.77
+
+High
+
+High
+
+5401.8
+
+80.86
+
+4951.4
+
+5490.2
+
+1.64
+
+83.53
+
+Low
+
+Low
+
+4019.8
+
+758.27
+
+3616.0
+
+4155.0
+
+3.36
+
+783.50
+
+Low
+
+20-200-200
+
+Capacity
+
+Cost
+20-100-100
+
+Fixed
+
+LH
+
+Medium
+
+3744.8
+
+21.20
+
+3706.1
+
+3766.5
+
+0.58
+
+743.86
+
+Low
+
+3723.1
+
+11.16
+
+3661.1
+
+3756.8
+
+0.90
+
+525.89
+
+Low
+
+9297.0
+
+7200*
+
+7507.9
+
+9647.4
+
+3.77
+
+413.53
+
+High
+
+Medium
+
+8340.4
+
+5365.36
+
+7315.4
+
+8545.6
+
+2.46
+
+390.08
+
+High
+
+High
+
+7985.9
+
+3767.36
+
+7181.6
+
+8092.6
+
+1.34
+
+386.17
+
+Low
+
+Low
+
+5802.8
+
+3011.91
+
+4848.0
+
+5982.6
+
+3.10
+
+8055.53
+
+Low
+
+20-400-400
+
+High
+
+High
+
+Medium
+
+5308.1
+
+89.94
+
+5079.4
+
+5606.3
+
+5.62
+
+4848.52
+
+Low
+
+High
+
+5278.1
+
+10.28
+
+4981.8
+
+5809.9
+
+10.08
+
+3165.80
+
+High
+
+Low
+
+20,058.8
+
+7200*
+
+9945.0
+
+14,017.1
+
+−30.12
+
+3669.97
+
+High
+
+Medium
+
+17,013.6
+
+7200*
+
+9988.4
+
+12,099.9
+
+−28.88
+
+2491.27
+
+High
+
+High
+
+11,914.7
+
+7200*
+
+9887.1
+
+11,679.9
+
+−1.97
+
+2761.83
+
+LH performs better than CPLEX for the three “high fixed cost” instances of the largest
+scale problems we have solved (indicated by the negative % values in Table 3). Notably,
+the solutions provided by the proposed Lagrangian heuristic for two I20,400,400 instances are
+29–30% better than the best solution identified by CPLEX and these heuristic solutions are
+obtained by spending much less computational time.
+
+Integrated versus sequential design
+In the previous sections we studied an integrated design approach, which involves simultaneous decisions regarding the location of DCs and RCs as well as forward and reverse
+flows in the closed-loop supply chain. An alternative to our approach is sequential design,
+which involves first making the DC location and forward flow decisions without incorporating the reverse flows, and then configuring the reverse supply chain by taking the forward
+chain structure as given [12]. This is particularly relevant for the firms with an existing forward supply chain and considering the launch of product recovery initiatives. In this section,
+we compare these two approaches in an effort to highlight the potential benefits of integrated design. We address the following question: “Is there a significant difference between
+
+127
+
+∗
+no reverse flows in this formulation, i.e., Vj i = 0. Also, the optimal forward flows Uij are
+used in constraints (6 ) of PR to limit the reverse flows into a plant.
+
+PF : min
+
+f j Yj +
+j
+
+s.t
+
+cij Uij +
+i
+
+(1), (3), (8)
+Uij ≤ si
+Xj k , Uij ≥ 0
+Yj ∈ {0, 1}
+
+PR : min
+
+∀i, j, k
+∀j
+
+g j Tj +
+j
+
+j
+
+(2), (4), (7), (9)
+∗
+Vj i ≤ Uij
+j
+
+i
+
+ej k Xj k
+j
+
+∀i
+
+j
+
+s.t
+
+j
+
+c j i Vj i +
+∀i
+
+k
+
+(5 )
+(10)
+(11)
+k
+
+j
+
+ekj Wkj
+
+(6 )
+
+j
+
+Wkj , Vj i ≥ 0
+Tj ∈ {0, 1}
+
+∀i, j, k
+∀j
+
+(10)
+(11)
+
+In comparing the integrated and sequential design approaches, we first study the impact of
+the quantity and quality of the returns. Note that the return ratio τ at the customer zones
+is a measure of return quantity, whereas the recovery ratio α at the RCs is a proxy for
+return quality. For the ease of studying the solutions in detail and tracking the changes
+during the parametric analysis, we use a randomly generated I5,10,20 instance with fixed
+costs (fj , gj ) = (50, 50). The total demand k dk = 1455 for this instance, and hence
+the total amount of reverse flows into the plants is 1455ατ . Although the other 15 I5,10,20
+instances we have solved are not discussed here in the interest of space, we remark that the
+observed patterns are similar.
+We set recovery ratio α = 0.6, manufacturing capacity si = 300, and remanufacturing
+capacity ai = 200 for all plants, while varying the return ratio τ in the range (0, 1] with
+increments of 0.1. Table 4 depicts the (optimal) total costs for integrated and sequential
+design as well as the associated forward and reverse cost components. The last column indicates
+the percent cost savings that can be achieved by integrated design under each scenario.
+Table 4 Impact of varying return ratio τ for α = 0.6
+τ
+
+Integrated design cost
+
+Sequential design cost
+
+Percent
+
+Forward
+
+Reverse
+
+Total
+
+Forward
+
+Reverse
+
+Total
+
+Saving
+
+0.1
+
+828.2
+
+111.8
+
+940.0
+
+855.5
+
+111.8
+
+967.4
+
+2.8
+
+0.2
+
+800.1
+
+173.6
+
+973.7
+
+855.5
+
+173.6
+
+1029.2
+
+5.4
+
+0.3
+
+764.1
+
+246.8
+
+1010.9
+
+855.5
+
+246.8
+
+1102.3
+
+8.3
+
+0.4
+
+748.0
+
+303.2
+
+1051.2
+
+855.5
+
+303.2
+
+1158.8
+
+9.3
+
+0.5
+
+737.7
+
+360.7
+
+1098.3
+
+855.5
+
+360.7
+
+1216.2
+
+9.7
+
+0.6
+
+737.7
+
+427.0
+
+1164.7
+
+855.5
+
+427.0
+
+1282.6
+
+9.2
+
+0.7
+
+737.7
+
+487.8
+
+1225.5
+
+855.5
+
+487.8
+
+1343.4
+
+8.8
+
+0.8
+
+738.0
+
+541.4
+
+1279.3
+
+855.5
+
+541.4
+
+1396.9
+
+8.4
+
+0.9
+
+738.6
+
+601.2
+
+1339.8
+
+855.5
+
+601.2
+
+1456.7
+
+8.0
+
+1
+
+763.8
+
+685.1
+
+1448.9
+
+855.5
+
+685.1
+
+
+Jnl Remanufactur (2017) 7:113–137
+
+Table 5 Open DCs and RCs in integrated and sequential designs
+τ
+Integ.
+
+For.
+
+Design Rev.
+Seq.
+
+For.
+
+Design Rev.
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.6
+
+0.7
+
+0.8
+
+0.9
+
+1.0
+
+6,7,9,10
+
+6,7,9
+
+3,6,7
+
+1,3,6
+
+1,3,6
+
+1,3,6
+
+1,3,6
+
+1,3,6
+
+1,3,6
+
+1,3,6
+
+6
+
+6
+
+6
+
+3,6
+
+3,6
+
+3,6
+
+3,6,7
+
+3,6,7
+
+3,6,7
+
+3,6,7
+
+7,9,10
+
+7,9,10
+
+7,9,10
+
+7,9,10 7,9,10
+
+7,9,10
+
+7,9,10
+
+7,9,10
+
+7,9,10
+
+7,9,10
+
+6
+
+6
+
+6
+
+3,6
+
+3,6
+
+3,6,7
+
+3,6,7
+
+3,6,7
+
+3,6,7
+
+3,6
+
+In the sequential approach, the optimal objective value of the forward problem does not
+vary with the return ratio τ because reverse flows are not incorporated in PF . The reverse
+logistics costs, however, increase with τ in both approaches since more returns need to be
+shipped back from customer zones. More importantly, the optimal reverse costs in the two
+approaches are the same in Table 4, whereas the optimal forward cost of the integrated
+design is always lower than that of the sequential design. That is, the cost disadvantage of
+the sequential design approach is due to the forward network (i.e., DC locations and forward
+flows) rather than the reverse network (i.e., RC locations and reverse flows). The open DCs
+and RCs in both designs are depicted in Table 5. Note that the integrated design has the
+ability to adapt the forward network configuration according to the return ratio.
+We now focus on the costs related to forward flows. In Table 4, the optimal forward cost
+first decreases and then increases with respect to the return ratio τ . This can be explained
+in terms of the overall level of remanufacturing capacity utilization. Clearly, remanufacturing capacity is under-utilized for low values of τ . For example, when τ = 0.2 only
+174 units need to be remanufactured which amounts to 17.5 percent utilization of the overall remanufacturing capacity (given that α = 0.6, ai = 200 and there are five plants
+in this instance). Therefore, as τ increases, the additional returns can be sent to those
+remanufacturing facilities that are in the plants with smaller forward costs. Thus, the remanufacturing capacity at such plants provides additional capability to serve the customer
+demand through cheaper forward channels (e.g., plant-DC combinations) and to reduce the
+forward costs. When these remanufacturing facilities are fully utilized, however, further
+increases of τ make the use of expensive forward channels inevitable (in Table 4 when
+τ > 0.7). The forward cost curve behaves similarly for other values of α as shown in
+Fig. 2. For α = 0.2 and 0.4 the forward cost curves are nonincreasing since the remanufacturing capacity remains significantly under-utilized as the return ratio increases. Also,
+for α = 0.8 there is no feasible solution to the integrated problem when τ > 0.9. This
+is because the total remanufacturing capacity is insufficient to process all the recoverable
+returns (i.e., 1455 × 0.8 × 0.9 = 1048 > 1000 = 5 × 200). In Fig. 3, the forward cost is
+depicted as a function of the recovery ratio α for fixed values of the return ratio τ. Note that
+the forward cost curves in Figs. 2 and 3 demonstrate the same patterns. This is expected
+since it is the product of the return ratio and the recovery ratio that determines the number of
+items to be remanufactured and consequently the overall utilization of the remanufacturing
+capacity.
+Based on the above observations, we shift our focus on the effect of manufacturing capacity si and remanufacturing capacity ai on the percent cost difference between the integrated
+and sequential design approaches. For this set of experiments, we fix τ = 0.5 and α = 0.6
+
+129
+
+Fig. 2 Forward cost of the integrated design for varying return ratios
+
+We vary the remanufacturing capacity ai while manufacturing capacity is fixed at
+si = 300. The optimal costs provided by the two design approaches as well as the percent
+cost differences are depicted in Table 6. At ai = 90, the total remanufacturing capacity of
+450 is still sufficient to process all the 437 recoverable returns (i.e., 1455×0.5×0.6). Consistent with our earlier observations, the increase in remanufacturing capacity has no impact
+on the total forward cost in sequential design and the total reverse costs are the same for
+both approaches. The reverse costs decrease as remanufacturing capacity increases since
+the cheaper reverse channels (e.g., RC-plant combinations) can be used for a larger portion
+of the recoverable returns. More importantly, Table 6 confirms our earlier findings regarding the impact of remanufacturing capacity utilization on the forward costs of integrated
+design. Increasing ai reduces the overall utilization level, which enables increased use of
+the remanufacturing facilities at plants with smaller forward costs.
+Our computational experiments on the same problem instance to study the impact of
+varying the manufacturing capacity si are summarized in Table 7. We observe that for
+a given value of the remanufacturing capacity ai the cost savings obtained by integrated
+design decrease as the manufacturing capacity increases. Although increasing manufacturing capacity enables the use of cheaper plant-DC combinations in both integrated and
+sequential design, the forward costs decrease faster in the latter case. This can be attributed
+
+Jnl Remanufactur (2017) 7:113–137
+
+Table 6 Impact of varying remanufacturing capacity ai for si = 300
+Integrated design cost
+
+Sequential design cost
+
+Percent
+
+ai
+
+Forward
+
+Reverse
+
+Total
+
+Forward
+
+Reverse
+
+Total
+
+Saving
+
+90
+
+793.7
+
+434.9
+
+1228.6
+
+855.5
+
+434.9
+
+1290.4
+
+4.8
+
+100
+
+778.9
+
+417.2
+
+1196.1
+
+855.5
+
+417.2
+
+1272.7
+
+6.0
+
+150
+
+752.2
+
+378.5
+
+1130.7
+
+855.5
+
+378.5
+
+1234.0
+
+8.4
+
+200
+
+737.7
+
+360.7
+
+1098.3
+
+855.5
+
+360.7
+
+1216.2
+
+9.7
+
+250
+
+731.0
+
+354.0
+
+1085.0
+
+855.5
+
+354.0
+
+1209.6
+
+10.3
+
+300
+
+731.0
+
+354.0
+
+1085.0
+
+855.5
+
+354.0
+
+1209.6
+
+10.3
+
+deciding the forward network structure. Again, the reverse costs are the same for both design
+approaches.
+During the computational experiments, we observed that optimal configuration and cost
+of the reverse network seem to be robust with respect to the design approach. Note that the
+same sets of RCs are opened by both integrated and sequential approaches under all τ , α and
+capacity values in Tables 4–7. Parametric analysis on the other I5,10,20 instances we studied
+by varying τ values confirm this observation.
+
+Where to locate the return centers?
+The preceding discussion assumes that the firm has a policy of locating RCs in the second echelon. An alternative strategy would be to co-locate the RCs with remanufacturing
+facilities in the first echelon. This option has the fixed cost advantage due to the possible
+scale economies associated with co-location. These savings, however, may be offset by the
+Table 7 Impact of varying manufacturing capacity si
+Integrated design
+
+Sequential design
+
+Forw.
+
+Rev.
+
+Total
+
+Open
+
+Forw.
+
+Rev.
+
+Total
+
+Open
+
+Percent
+
+ai
+
+si
+
+Cost
+
+Cost
+
+Cost
+
+DCs
+
+Cost
+
+Cost
+
+Cost
+
+DCs
+
+Diff.
+
+100
+
+300
+
+778.9
+
+417.2
+
+1196.1
+
+3,6,7
+
+855.5
+
+417.2
+
+1272.7
+
+7,9,10
+
+6.0
+
+325
+
+771.4
+
+417.2
+
+1188.6
+
+1,3,6,9
+
+832.7
+
+417.2
+
+1249.9
+
+6,7,9,10
+
+4.9
+
+350
+
+766.0
+
+417.2
+
+1183.2
+
+1,3,6,9
+
+800.8
+
+417.2
+
+1218.0
+
+6,7,9
+
+2.9
+
+375
+
+757.6
+
+417.2
+
+1174.8
+
+1,3,6
+
+774.9
+
+417.2
+
+1192.1
+
+3,6,7
+
+1.5
+
+300
+
+752.2
+
+378.5
+
+1130.7
+
+1,3,6,9
+
+855.5
+
+378.5
+
+1234.0
+
+7,9,10
+
+8.4
+
+325
+
+746.6
+
+378.5
+
+1125.0
+
+1,3,6
+
+832.7
+
+378.5
+
+1211.2
+
+6,7,9,10
+
+7.1
+
+350
+
+737.7
+
+378.5
+
+1116.1
+
+1,3,6
+
+800.8
+
+378.5
+
+1179.3
+
+6,7,9
+
+5.4
+
+375
+
+728.8
+
+378.5
+
+1107.3
+
+1,3,6
+
+774.9
+
+378.5
+
+1153.4
+
+3,6,7
+
+4.0
+
+300
+
+737.7
+
+360.7
+
+1098.3
+
+1,3,6
+
+855.5
+
+360.7
+
+1216.2
+
+7,9,10
+
+9.7
+
+325
+
+728.8
+
+360.7
+
+1089.5
+
+1,3,6
+
+832.7
+
+360.7
+
+1193.3
+
+6,7,9,10
+
+8.7
+
+350
+
+720.1
+
+360.7
+
+1080.8
+
+1,3,6
+
+800.8
+
+360.7
+
+1161.5
+
+6,7,9
+
+6.9
+
+375
+
+711.4
+
+360.7
+
+1072.0
+
+1,3,6
+
+774.9
+
+360.7
+
+1135.6
+
+3,6,7
+
+5.6
+
+
+131
+
+increased transportation costs since the unrecoverable returns are no longer disposed of at
+the second echelon. In this section, we address the question “Under which conditions would
+the integration of inspection and remanufacturing operations be beneficial?”
+In order to compare the two policies mentioned above, we extend our original model
+(which assumes remanufacturing capability at all plants) so as to identify the optimal locations for remanufacturing. This can easily be incorporated in Problem P by defining a new
+binary variable Hi which takes the value one if a remanufacturing facility is located at plant
+i and zero otherwise. We also let hi denote the fixed cost of opening a remanufacturing facility at plant i. The resulting downstream problem PD represents the policy of locating RCs in
+the second echelon. To capture the decisions pertaining to the establishment of remanufacturing capacity at the existing plants, constraints (7) need to be modified as (7 ) . Problem
+PD can be solved via the Lagrangian heuristic presented in “Solution methodology”.
+PD : min
+
+fj Yj +
+j
+
+gj Tj +
+j
+
+hi Hi +
+i
+
+s.t. (1)–(6), (8)–(10)
+Vj i ≤ ai Hi
+
+cij Uij +
+i
+
+j
+
+ejk Xjk +
+j
+
+k
+
+j
+
+∀i
+
+j
+
+Yj , Tj , Hi ∈ {0, 1}
+
+i
+
+cji Vji +
+
+k
+
+j
+
+ekj Wkj
+
+(7 )
+
+∀i, j
+
+(11 )
+
+In formulating the upstream problem PU we assume that the returns are sent from customer zones to the RCs at the remanufacturing facilities through the DCs. This is a plausible
+assumption in many cases since the firms often use the same vehicles to deliver customer
+orders and collect returns. As a result, the DCs serve as consolidation centers for returns
+from different customer zones. We define a new variable Li = 1 if an RC and a remanufacturing facility is co-located at plant i and zero otherwise. The fixed cost of this integrated
+facility is represented by li . The following formulation of the upstream problem PU also
+reflects that the unrecoverable returns are disposed of at the first echelon.
+PU : min
+
+f j Yj +
+j
+
+li Li +
+i
+
+cij Uij +
+i
+
+j
+
+s.t (1), (2), (3), (8), (10)
+Wkj = Vj i
+k
+
+Uij − α
+
+j
+
+ej k Xj k +
+j
+
+k
+
+j
+
+i
+
+c j i Vj i +
+
+∀j
+∀i
+∀i
+
+(6 )
+
+∀i
+
+(7 )
+
+∀j, k
+∀i, j
+
+ekj Wkj
+
+(5 )
+
+Uij
+
+j
+
+(4 )
+
+V j i ≤ si
+
+i
+
+k
+
+(9 )
+(11 )
+
+j
+
+Vj i ≤
+
+α
+j
+
+α
+
+j
+
+Vj i ≤ ai Li
+
+j
+
+Wkj ≤ rk Yj
+Yj , Li ∈ {0, 1}
+
+In the computational experiments we use the same I5,10,20 instance with the following
+parameter values: si = 300, ai = 200, fj , gj , hi = (50, 75, 100). We calculate the optimal cost of the upstream and downstream models for return ratio τ and recovery ratio α in
+the range (0, 1] with increments of 0.2 and li ∈ {125, 150, 175}. Table 8 shows the results
+in terms of the percent cost difference with respect to the downstream model. That is, the
+
+Jnl Remanufactur (2017) 7:113–137
+
+Table 8 Percent cost advantage of the upstream model
+Recovery ratio α
+li
+
+0.3
+
+0.2
+
+0.1
+
+5.2
+
+4.2
+
+150
+
+−2.0
+
+−2.0
+
+−2.2
+
+1.0
+
+0.0
+
+−4.2
+
+−4.3
+
+−4.4
+
+−3.2
+
+−4.3
+
+0.5
+
+4.4
+
+2.5
+
+5.3
+
+5.4
+
+150
+
+−1.5
+
+0.6
+
+−1.4
+
+−0.1
+
+0.1
+
+−3.6
+
+−3.3
+
+−5.2
+
+−5.4
+
+−5.2
+
+175
+
+3.1
+
+4.9
+
+5.5
+
+6.1
+
+8.2
+
+150
+
+1.2
+
+1.3
+
+0.6
+
+0.1
+
+1.6
+
+125
+
+−0.7
+
+−2.4
+
+−4.4
+
+−5.8
+
+−5.1
+
+175
+
+8.6
+
+7.9
+
+7.8
+
+7.0
+
+–
+
+150
+
+5.2
+
+3.1
+
+2.1
+
+0.8
+
+–
+
+125
+
+1.8
+
+−1.6
+
+−3.6
+
+−5.3
+
+–
+
+175
+
+10.9
+
+8.0
+
+11.7
+
+–
+
+–
+
+150
+
+7.6
+
+3.5
+
+5.5
+
+–
+
+–
+
+125
+
+τ = 1.0
+
+1.0
+
+125
+
+τ = 0.8
+
+0.8
+
+175
+
+τ = 0.6
+
+0.6
+
+125
+τ = 0.4
+
+0.4
+
+175
+τ = 0.2
+
+0.2
+
+4.3
+
+−0.9
+
+−0.6
+
+–
+
+–
+
+We observe that when there is no fixed cost advantage (i.e., li = gj + hi = 175), the
+downstream location of RCs is always better because PD involves less transportation costs
+due to the early disposal of unrecoverable returns. Naturally, the upstream model exhibits
+better performance as the fixed cost advantage increases, particularly when li = 125. In
+general, higher values of the recovery ratio α and lower values of the return ratio τ favor the
+upstream model since the number of unrecoverable returns is smaller in such cases. Note
+that for fixed α higher values of τ mean more returns that need to be disposed of. This is
+why the downstream location of RCs is still preferable for α = 0.2 and τ = 0.8 or 1.0 when
+li = 125. Based on these observations, we conclude that for any combination of α and τ ,
+the choice between downstream and upstream location policies depends on the fixed cost
+advantage associated with co-locating an RC and a remanufacturing facility. The impact of
+increasing return ratio and recovery ratio parameters on the location policy of RCs, however,
+is complicated by the presence of remanufacturing capacity. The critical issue is whether the
+reverse system needs additional RCs to accommodate the increase in the number of returns.
+The discrete nature of these decisions prevents us from observing a clear trend in terms of
+locating the RCs in the second echelon or together with the remanufacturing facilities in the
+first echelon. The conclusions drawn from the experiments on this I5,10,20 remain valid for
+the other instances we have studied.
+
+133
+
+reverse networks simultaneously. This enables the firm to take into account the remanufactured items at its plants when planning the shipments to the distribution centers. Our
+computational experiments show that the proposed Lagrangian relaxation procedure is
+efficient in solving problems of the size encountered by managers. The quality of the
+solutions provided by the algorithm is particularly encouraging.
+In comparing our integrated approach with the sequential approach for designing distribution networks with reverse flows, we found out that the cost advantages of the former
+can reach 10 percent. Interestingly, the reverse network structure seems to be robust to the
+design approach and the cost difference is mainly due to the forward network configuration. This suggests that the ability of the forward network to adapt itself to the presence
+of reverse flows is the main advantage of the integrated design approach. In the event that
+the firm already has an established forward network, the integrated solution can serve as a
+target configuration for the existing distribution centers to converge in the long run.
+The level of remanufacturing capacity utilization turns out to be a key determinant of the
+potential benefits that can be achieved via the integrated approach. This relates to the ability
+of the firm to ship the recoverable returns to the remanufacturing facilities at the plants with
+cheaper distribution center connections. During our computational experiments, we consistently observed that the benefits of the integrated model first increase and then decrease as
+the return ratio increases. For high values of the return ratio, the cost difference between
+the integrated and sequential approaches is minimal. Note that this confirms the findings of
+Fleischmann et al. [12] since the forward and reverse network structures become similar as
+the return ratio approaches to one. While [12] explain the potential benefits of the integrated
+approach mainly on the basis of cost structures, however, our analysis highlights the difference between the degrees of freedom in designing the forward and reverse networks (the
+latter being much smaller because the number of facilities is typically less) as another significant factor. The integrated approach is most beneficial for medium values of the return
+ratio. We also observed that the firm can benefit from the scope economies associated with
+conducting the inspection and separation operations at the upstream echelon as the overall
+quality of the returns at the customer zones increases.

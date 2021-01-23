@@ -1,0 +1,913 @@
+
+Open Access
+
+Performance measurement and KPIs for
+
+which can reduce both the cost of producing products, and their environmental impact,
+e.g. the amount of energy and raw materials used in their production, and the avoidance or postponement of waste sent to landfill.
+Key Performance Indicators (KPI) are management techniques employed to enable
+efficient and effective business monitoring, and are generally acknowledged to be a set
+of measures critical to the current and future success of any organization [1, 2]. In the
+view of Parmenter [1] “Performance indicators (PIs) tell you what to do. KPIs tell you
+what to do to increase performance dramatically”.
+While remanufacturing shares many similarities to traditional manufacturing, such as
+batch or flow production and the use of machine tools etc., it also contains unique
+challenges which can render the use of traditional KPIs inadequate for supporting some
+business goals. These challenges and complexities often include incomplete product
+knowledge, the need to source, disassemble and inspect cores to identify those suitable
+for remanufacture, while balancing the uncertain supply chain. Measuring progress
+against these additional challenges via Key Performance Indicators has appeared
+in academic research [3, 4] but is underdeveloped industrially, when compared to
+manufacturing.
+The research presented in this paper has been carried out as part of the PREMANUS
+project (Product Remanufacturing Service System), a European ICT project concerned
+with developing an on-demand middleware to support End-of-Life decision making
+and consequent remanufacturing, combining product information and product services
+within one service-oriented architecture. As the title indicates, the project supports the
+servitization of remanufacturing [5], and has created the ICT architecture and tools required to do this, particularly supporting strategic and operational decision making (a
+review of over 40 decision making tools and techniques for remanufacturing is provided by Goodall [6]). The general aim of the work reported in this paper was to design
+a set of KPI’s to assist remanufactures to enhance their businesses performance. Within
+the project context, these KPIs are being used to measure and validate performance
+gains during the two industrial pilots.
+The following subsection provides a brief background into the use of KPIs, before
+leading into the Method section, which introduces Kaplan and Norton’s wellestablished ‘Balanced Scorecard’ approach [7]. The abstracted Results are displayed
+both as a table of KPIs, and as a diagram representing a remanufacturing ‘KPI toolbox’,
+from which scorecards can be produced, tailored for individual remanufacturing scenarios. Scorecards for the two industrial use-cases are presented in the Conclusion section. Between these two sections is a Discussion on how particular reman challenges
+have led to the selected performance measures.
+
+Introduction to KPIs
+
+This subsection introduces Key Performance Indicators as a fundamental Performance
+Measurement tool, and outlines common KPIs used in general business scenarios.
+KPIs should be used as a management aid to analyse an organization’s present
+performance and to develop strategies for improvement. They must be deployed at the
+organisational level that has the authority and expertise to take the required action [2].
+
+other organizations or as a comparison over time [1, 2]. Parmenter also states a KPI
+should ideally be a non-financial measure (i.e. not expressed in terms of currency).
+Characteristics of KPIs are [1, 2]:
+ Accountability: KPIs should be associated with the manager or team responsible for
+
+
+
+
+
+
+the measure’s outcome.
+Easily assimilated: KPIs should be quantifiable, accurate, and their meaning
+understood by everyone within the organization. The measures should be
+calculated from data which can be readily collected without undue cost.
+Timely: KPIs should be measured frequently, reflecting current priorities.
+Relevant: The measures should support strategic organizational objectives.
+Consistent: KPIs should not conflict with other performance measures.
+
+The optimum number of KPIs is, unanimously in the literature, fewer than 20:
+Kaplan and Norton [8] recommend fewer than 20 KPIs, Parmenter [1] about 10, while
+Hope and Fraser [9] and Price Waterhouse Coopers [10] suggest fewer than 10 KPIs.
+KPIs may be classified into result/driver [11] and lead/lag. KPI measures may consider activity drivers (such as quality, flexibility, resource utilization and innovation) or
+the results of activities (e.g. competitiveness, financial performance). Lead KPIs predict
+future performance and enable future trends to be identified. Lag indicators present
+historical results. Parmenter [1] redefines lead/lag indicators as past-, current-, or
+future-focused measures. Current measures are monitored daily, past measures over
+the past week or month and future measures consider initiatives targeting the next
+day/week/month.
+To derive a set of KPIs Price Waterhouse Coopers [10] recommend choosing those
+measures which the Board uses to manage the business. KPIs should be selected
+through discussions with stakeholders (employees, managers, customers) [12] and related to the business objectives (strategy) [2, 12] so as to enable progress to be assessed
+against these objectives both internally and externally [10].
+The KPIs should form a balanced set, for example, “measures of efficiency should be
+set against measures of effectiveness, and measures of cost against quality and user perception” [2]. KPIs should also be placed in context, showing trends as well as the absolute performance [10]. KPIs may change over time as business priorities are revised,
+and should be reviewed and updated accordingly [2, 10, 13]. Parmenter [1] believes that
+KPIs should be linked to Balanced Scorecard perspectives (see Methods section).
+
+Methods
+The requirements for remanufacture in this project have been collated and identified
+through various information sources comprising: a literature review, two detailed industrial case studies, formal (two) and informal (two) interviews with industrially-based
+remanufacturing experts at production manager level or higher, and wider discussions
+with the industry at a UK parliamentary networking event (2014) and two World
+Remanufacturing Summits, (USA 2014, The Netherlands 2015). An iterative analysis
+process was used to establish the KPIs. Based upon the challenges, business priorities
+and strategies in each area, KPIs were either selected from established published KPIs,
+
+within the research group and wider consortium and, of course, with the industrial
+partners themselves, in order to confirm KPI complementarity and minimise conflicts.
+
+The balanced scorecard approach
+
+The methodology adopted for this research is based upon the balanced scorecard approach. This tried-and-tested approach, which provides a framework for translating
+business strategies into performance measures, was developed by Robert Kaplan and
+David Norton, and first published in “The Balanced Scorecard – Measures that drive
+performance” in the Harvard Business Review in 1992 [7]. It built on several decades of
+prior work in the USA and France and was notable at the time for adding non-financial performance measures to the traditional financial metrics, giving managers a more ‘balanced’
+view of organizational performance. The Balanced Scorecard enables a top down implementation of the company’s strategies enabling individuals to understand how productivity
+supports the overall system. It addresses current and future success, enabling a focus on
+critical measures and providing a balance between internal measures like operating income,
+and external measures like new product development. Emphasis on the different perspectives will vary across companies; hence different businesses will require different scorecards
+[14, 15]. Six areas are included within this study to measure a remanufacturing business,
+these are;
+1.
+2.
+3.
+4.
+5.
+6.
+
+Finance
+Customers & Quality
+Internal processes
+Innovation & improvement
+Employee satisfaction
+Environment
+
+Financial goals are linked to growth and profitability. To satisfy customers, goals for
+timeliness, quality, performance, and service are required. Processes which impact most
+upon the customer and the company’s core competencies should be prioritised.
+Innovation and improvement activities consider product and process innovation and
+specific improvement goals. Parmenter [1] adds two extra perspectives: environment
+and community, and employee satisfaction. Environment and community initiatives
+feed into customer perceptions and enable links to future employees. The employee
+perspective considers staff recognition and satisfaction surveys, aiding a positive company culture and enhanced staff retention.
+
+Results
+A toolbox of KPIs has been compiled to cover general remanufacturing (Table 1
+and Fig. 1) from which a balanced scorecard should be drawn, tailored for individual cases (as in the CRF and SKF use cases described later). In the figures, bordered boxes indicate the reman-specific KPIs compiled and formulated by the
+author. The general production KPIs recommended are described in Table 2, while
+recommended environmental (eco) KPIs are listed in Table 3. Datasheets for
+
+Page 5 of 17
+
+Table 1 Recommended KPI’s for remanufacturing
+Category
+
+General KPIs (Table 2)
+
+Remanufacturing KPIs (Tables 4–11)
+
+Finance
+
+• Product Margin (PM)
+
+❖ New Component Cost (NCC)
+
+Customers & Quality
+
+➢ Quotation Accuracy (QA)
+
+• Core/Product Value Ratio (CPV)
+➢ Lead Time (LT)
+❖ Number of Concessions (NC)
+• Work In Progress (WIP)
+
+• Salvage Rate by Product (SRP)
+
+• Cycle Time (CT)
+
+❖ Salvage Rate by Component (SRC)
+
+• Hours Per Unit (HPU)
+
+❖ Core / Product Ratio(CPR)
+
+❖ Overall Equipment Effectiveness (OEE)
+
+❖ Core Class Distribution (CCD)
+
+Innovation
+
+• Number of Managed mBOMs (BOM)
+
+❖ Core Class Assessment (CCA)
+
+Employee
+
+• Personnel Saturation (PS)
+
+Environment (Table 5)
+
+❖ Total Waste (TW)
+
+Process
+
+❖ Direct Energy Consumption (ECD)
+○ Indirect Energy Consumption (ECI)
+○ Materials Used (MU)
+○ Recycled Materials Used (RMU)
+○ Water Withdrawal (WW)
+○ Total GHG emissions (GHG)
+➢ Used by SKF for LoVol/HiVal independent remanufacturing start-up
+❖ Used by CRF for established HiVol/LoVal OEM remanufacture
+• Used in both remanufacturing scenarios
+○ Used by neither remanufacturing scenario but included for completeness
+
+New Components Cost NCC Table 4
+Core / Product Value Ratio CPV Table 5
+Core / Product Ratio CPR Table 6
+Core Class Distribution CCD Table 7
+Core Class Assessment CCA Table 8
+Product Salvage Rate SRP Table 9
+Component Salvage Rate SRC Table 10
+Core Disposal Rate CDR Table 11
+
+
+Table 2 Recommended General Production KPIs
+Finance
+Product Margin (PM)
+
+Margin on each product remanufactured, expressed as a percentage.
+
+Customers
+Quotation Accuracy (QA)
+
+The percentage difference between an estimated cost and the actual cost.
+Negative values indicate an actual cost turned out to be higher than was
+estimated; positive values indicate an over-estimate.
+
+Lead Time (LT)
+
+Production LT calculated as the time elapsed for specific operations, for example
+for the assembly stage of products being remanufactured. Order Fulfilment Lead
+Time is theoretically the total aggregated time from all processes, plus delays.
+
+Quality
+
+This KPI measures the number of validated requests of component design
+modification to the OEM. The component design modifications are proposed
+by the plant to enable the component reuse and increase the salvage. They are
+validated and maintained centrally by the manufacturing department in an OEM.
+On the other hand increasing the number of concessions could imply a loss of
+quality, thus the objective is primarily to monitor the concessions but not
+promote their increase.
+
+Number of Concessions (NC)
+
+Process
+Work In Progress (WIP)
+
+Cost of cores and components in (and committed to) production, normally
+including direct labour and manufacturing overheads.
+
+Cycle Time (CT)
+
+Cycle time is the total time from the beginning to the end of a process; usually
+the whole remanufacturing process.
+
+Hours Per Unit (HPU)
+
+Workload involved in producing the equivalent of one unit of product.
+
+Overall Equipment
+Effectiveness (OEE)
+
+A set of non-financial metrics which reflect manufacturing success. Measures the
+extent to which existing machines and equipment are producing the desired or
+theoretical maximum output. OEE is a high level composite KPI that measures
+output based on capacity, taking into account process availability, efficiency and
+quality.
+
+Innovation
+Number of mBOMs (BOM)
+
+The number of manufacturing BOMs managed in the plant. It reflects the size of
+the portfolio of product families managed in the plant.
+
+Employees
+Personnel Saturation (PS)
+
+Proportion of extra individuals needed to work on a particular product or
+production line to cover all required operations and skills.
+
+Table 3 Recommended Environmental (Eco) KPIs
+Materials Used (MU) Total amount of material by weight or volume used in remanufacturing, including
+materials purchased from external suppliers or from internal sources.
+Recycled Material
+Used (RMU)
+
+Total percentage of recycled material used in remanufacturing process, i.e. material
+which has comes from recycled waste stream.
+
+Direct Energy
+Total amount of energy used, derived from primary sources. Use of energy is one of
+Consumption (ECD) the main drivers of impacts caused by a company’s activities.
+Indirect Energy
+Consumption (ECI)
+
+Total amount of energy used, through purchase of electricity, gas, heat, steam etc.
+
+Total Water
+Withdrawal (WW)
+
+Total volume of water withdrawn for internal use in the company’s processes
+and activities.
+
+Total Green House
+Gas Emission (GHG)
+
+Greenhouse gas emissions include both direct (gases included in Kyoto Protocol emitted)
+and indirect (as a result of activities performed by the company). Indirect emissions can
+be obtained by collecting data from relevant emissions-releasing activities (e.g. electricity
+use, water supply, fuel used, waste treatment, waste disposal/recycling) and multiplying
+them for conversion factors (DEFRA, 2012).
+
+Total Waste (TW)
+
+
+Table 4 New Components Cost KPI
+New Components Cost (NCC)
+KPI Description
+
+This KPI family concerns the cost of new components used during the remanufacturing
+process. New components can be obtained from a number of sources, here, examples
+sources from Fiat are ranked from lowest to highest cash cost, and longest to shortest LT:
+• Fiat (OEM) Powertrain plant manufacturing new engines (Powertrain component
+cost KPIs: Pcc)
+• Fiat (OEM) Spare parts and service department (Aftersales component cost KPIs: Acc)
+• Third party i.e. open market suppliers (Supplier component cost KPIs: Scc)
+
+Purpose (strategic) Reduce costs by increase salvage rate, through cost visibility, by highlighting external
+component-sourcing costs.
+Calculation
+
+KPIs can be expressed as aggregate costs:
+Sum of the absolute costs for all components from each of the three sources, e.g.:
+• ∑Pcc = total € in a given period
+• ∑Acc = total € for a given remanufactured product
+Or ratios and proportions, e.g.:
+• Scc / total reman costs for a given product = % costs of supplied components in a
+remanufactured product
+• %Pcc, %Acc, %Scc of remanufactured cores / period = composite % of new
+components over time
+• ∑Pcc, Acc, Scc / remanufacturing costs / period = new component costs as a proportion
+of total reman costs over time
+
+Data Source
+
+ERP systems, purchasing and finance systems
+
+Target
+
+Decrease
+
+Discussion
+In this section aspects of performance management distinct to remanufacturing are
+discussed. The particular challenges of remanufacturing in general are presented and
+discussed first, illustrating some of the background work within the project, with each
+subsection leading to recommendations for performance measurement approaches and
+some example solution areas.
+Business operations cover most production and supply chain management functions. In remanufacturing there are intrinsic uncertainties in planning, scheduling
+and control of such functions [16] [17] (stock planning and control, process planning
+and scheduling, disassembly value, by-products management and matching, reverselogistics, product knowledge). The three challenges listed below fall within the domains of
+market supply and demand (Cores, and remanufactured products, respectively), and
+reverse-logistics.
+
+Table 5 Core / Product Value Ratio KPI
+Core / Product Value Ratio (CPV)
+KPI Description
+
+This KPI measures the ratio of the Cost of the Cores at the point of acquisition, and the
+Price at which the remanufactured Product is sold.
+
+Purpose (strategic)
+
+Ensure sourcing of high value cores.
+
+Calculation
+
+CPV = ( ∑ CoreCost(i)/ProductPrice(i))/n
+
+Data Source
+
+Sales systems and production management systems
+
+Target
+
+Below 1 and falling, to an equilibrium with NCC (and others)
+
+
+Table 6 Core / Product Ratio KPI
+Core / Product Ratio (CPR)
+KPI Description
+
+This KPI tracks the average number of cores used to produce one remanufactured
+product (or equivalent).
+It considers Work in Progress and stock-piled mid-build products as well as output, therefore
+reflecting current status, and enabling use as a live / tracking KPI where the data streams exist,
+as well as a more traditional summative / retrospective KPI for periodic review.
+The objective is to decrease the number of cores processed for a given output; the
+number of finished remanufactured products.
+The inverse, the Product / Core Ratio (PCR), can be used instead, in the form of a percentage
+or indicative fraction of a remanufactured product produced for each Core processed with in
+the plant.
+Although the advantages of either metric over the other are quite subtle, the recommendation
+is that CPR, being focussed around the product rather than the core, is conceptually simpler and
+creates a stronger message, i.e.: CPR 1.8 “We have to process almost 2 cores for each product
+we can sell”, or PCR 55 % “From each Core we process we get just over half a product”
+PCR as a percentage < 100 % offers another way of abstracting Core value away from
+absolute cash cost.
+
+Purpose (strategic) Encouraging the sourcing of higher-quality cores. Also rewards improvements in
+remanufacturing process efficiency, but should be carefully considered and balanced
+with process time and cost e.g. the Hour Per Unit KPI.
+C
+Calculation
+CPR¼
+PþSþWIP
+PCR¼
+
+PþSþWIP
+C
+
+C = Cores processed, P = Products shipped, S = Stocked mid-build products,
+WIP = Work-in-Progress
+Data Source
+
+Sales systems and production management systems
+
+Target
+
+1 (one)
+
+Supply, demand, and reverse logistics
+Uncertain core arrival time
+
+Although there are no universal patterns for the availability of Cores across industries
+and geographical boundaries, there are specific patterns for specific industries or businesses. For instance, wind turbine related remanufacturing sees Core availability rise
+outside windy seasons, when wind farms are less productive.
+There are also many ways to provide incentives to smoothing Core availability times,
+for instance, by replacement or return discount methods. The ideal is to smooth
+out peaks and troughs of Core arrival time so that efficient capacity planning can
+be achieved.
+
+Table 7 Core Class Distribution KPI
+Core Class Distribution (CCD)
+KPI Description
+
+The KPI displays the Core Class Distribution for selected products. For incoming products, it
+gives an indication of the value of the Cores in stock. During remanufacturing, it indicates
+the value of the WIP. The objective is to increases the number of Class A cores.
+
+Purpose (strategic) Improve value of cores in stock
+Improve WIP value
+Calculation
+
+CCD = (1.00 × number of Class A cores + 0.30 × number of Class B cores + 0.15 × number of
+Class C cores) / total number of cores
+
+Data Source
+
+Production management systems
+
+Target
+
+
+Page 9 of 17
+
+Table 8 Core Class Assessment KPI
+Core Class Assessment (CCA)
+KPI Description
+
+Accuracy of the process of estimating core quality and condition. Differences between
+initial estimates and actual core class assignment (after disassembly and inspection)
+are aggregated.
+CRF use the following Core classes:
+A: complete, B: incomplete, C: incomplete with major flaw.
+Other remanufacturing businesses use similar simplified techniques, while some (especially
+high value product operations) bypass this step completely, some moving straight to cost
+and time estimations.
+In the case of CRF, an estimated Core Class will be computed remotely (using product-usage
+metrics). The Core Class is then assigned at the engine entrance in the plant, and revised after
+disassembly and inspection. The case of class under-estimation indicates lower product value,
+an inaccurate model, and potential loss of opportunities. The case of class over-estimation
+indicates added costs or lost resource. A penalty index is given to every accuracy error, with a
+higher penalty index given to negative values (penalising the sourcing of low-value cores).
+
+Purpose (strategic) Ensure sourcing of high value cores & accurate forecasting
+X
+CCA ¼
+CCAðiÞ Â pðiÞ
+Calculation
+CCAðiÞ ¼ Actual CCðiÞ–Estimated CCðiÞ
+Core Classes : A ¼ 100; B ¼ 70; C ¼ 10
+CCA
+p
+
+CCA
+
+p
+
+−30
+
+−2
+
+30
+
+1
+
+−60
+
+−4
+
+60
+
+2
+
+−90
+
+−6
+
+90
+
+3
+
+Data Source
+
+Sales systems and production management systems
+
+Target
+
+0 (zero)
+
+A ‘Core supply smoothness’ KPI would be useful to some businesses, and could be
+based upon the standard deviation of elapsed time between Core arrivals (in a suitable
+metric, e.g. days, weeks, months). Potential solutions include the right mix of ‘make to
+stock’ and ‘make to order’ [18].
+Uncertain product demand
+
+This uncertainty directly affects price, quantity, and availability of remanufactured
+products. There are ways to smooth demand patterns by building stable customer
+Table 9 Product Salvage Rate KPI
+Product Salvage Rate (SRP)
+KPI Description This KPI measures the percentage of reused components in a product, family of products, or a
+moving average of all products.
+Purpose
+(strategic)
+
+Improve plant RoI by decreasing total remanufacturing costs.
+
+Calculation
+
+Product level: Product Salvage Rate (SRP):
+
+An excellent overall KPI influenced by many factors and also useful if used as a P-KPI for
+identifying those products or product families most successfully remanufactured.
+SRP(i) = r × ∑ SRP(j)
+Where i is the product and j is a main components of the product r is the percentage of the
+main component costs with respect to the total product costs
+Operational level: Overall Product Salvage Rate (OSRP):
+OSRP(i) = mean( ∑ SRP(i))
+Where i is the instance in a set of selected products
+
+Data Source
+
+Production management systems
+
+
+Table 10 Component Salvage Rate KPI
+Component Salvage Rate (SRC)
+KPI Description
+
+This KPI measures the percentage of components and/or subassemblies salvaged. The higher
+this percentage, normally the lower the total cost of remanufacturing, due to minimising
+purchasing costs.
+Some remanufacturers include salvaged components as those that are placed in stock; most
+only include components that end up on shipped products. If used in tandem with a stock
+efficiency KPI and/or NCC, the latter can be an effective general measure; however the former
+is preferable if a metric focussed on component salvageability is required.
+
+Purpose
+(strategic)
+
+Improve plant RoI by decreasing total remanufacturing costs.
+
+Calculation
+
+SRC(i) = Number of reused components of type i / total number of these components
+entering the plant
+
+Data Source
+
+Production management systems
+
+Target
+
+100 %
+
+relationship and implementing a lean production philosophy [19] to reduce cost while
+maintaining quality. The study of demand pattern here is fundamental. Core Cost /
+Product Price (simplified to Core / Product Value ratio, or CPV) will provide a catchall KPI encompassing many of these market factors (dependent as it is on the cost of
+acquiring cores and the price achieved for remanufactured products, alongside general
+production efficiency). Relevant KPIs could also draw from missed sales (or value) due
+to e.g. price mismatch, limited stock, long lead time, inadequate warranty, lean metrics
+such as stock level, and quality measures such as the number of customer complaints
+and returned products within warranty.
+Uncertain logistics costs
+
+Most of this group of uncertainties are intrinsic to the remanufacturing industry. The
+relevant contributing process Performance Indicators include the specific costs and
+times related to collection, storage, disassembly, washing and inspection.
+For businesses beyond a certain scale, solutions may lie in utilising buffer storage to
+enable batch processing through disassembly-cleaning-inspection etc. via intelligent
+Table 11 Core Disposal Rate KPI
+Core Disposal Rate (CDR)
+KPI Description
+
+The percentage mass of cores which do not get remanufactured or whose components are
+not salvaged or sold on. Components sold for material recycling are included in this
+remanufacturing-specific version of the Mass Balance KPI.
+
+Purpose (strategic) The overall objective is to maximise profitability while minimising environmental impact,
+through reflecting the effectiveness of the:
+• Remanufacturing process
+• Core acquisition process
+• Scrap material processing and sales process
+Calculation
+
+Expressed as a percentage of the mass of incoming Core material which is not sold or recycled.
+CDR = Waste/(Mass of Incoming Cores + Mass of New Components)
+Waste = Mass of Incoming Cores − Mass of Invoiced Goods
+(Mass of Invoiced Goods includes: remanufactured products and components, components
+sold unprocessed and for recycling)
+
+Data Source
+
+Sales and purchasing databases, MES, waste handling contractors.
+
+Target
+
+Falling target. When remanufacturing, Core acquisition, and scrap material sales processes
+
+production grouping [20]. Success in this area will be reflected in many of the higher
+level general production engineering KPIs listed in the previous section, such as Hours
+Per Unit and Personnel Saturation.
+
+Uncertain core condition
+
+There has been substantial progress in monitoring and recording operational condition
+during the use-phase of a product’s lifecycle (collecting field data). However, due to a
+combination of complexity in operational environments, a lack of effective technologies
+in covering the complexity, and a lack of apparent economic incentives, such efforts
+often run short of providing full information on the conditions of the cores.
+Core condition is a very important factor in remanufacturing, and many relevant
+KPIs can be deployed to cover the range of Core-related activity.
+The PREMANUS project is enabling early Core condition assessment based on a
+combination of integrated condition monitoring, field data, in-situ inspection, and intelligent analysis of historic data for a range of similar products. In order to streamline
+high-volume remanufacturing operations, ‘classes’ or quality bands will often be
+employed. Improving the accuracy of this process would be monitored through a Core
+Class Assessment (CCA) or similar KPI.
+Monitoring the success of the Core acquisition process, with the aim of maximising
+the proportion of high value Cores will be tracked through a Core Class Distribution
+(CCD) KPI. Cores can be at the centre of (or at least a reference for) measuring the efficiency of other remanufacturing processes, such as waste disposal, through a Core
+Disposal Rate (CDR) KPI, also encouraging improved environmental performance.
+Potential solutions being developed within the project include a quick and basic condition inspection (before the often lengthy complete disassembly cleaning and inspection
+process), combined with strategic use of incomplete product life data. The success of
+these solutions and, again, the wider remanufacturing process can be tracked through
+variance in the Core / Product Value Ratio (CPV) KPI. Warning of a decline in on-going
+Core condition would be triggered by increases in the New Component Cost (NCC) and
+Core / Product Ratio (CPR) KPIs.
+
+Uncertain disassembly level
+
+With familiar cores (via either the OEM or knowledge gathering during previous exposure
+recorded at disassembly), one can plan the economically appropriate level of disassembly
+for each model based on; subassembly condition, component value, replacement value /
+time, and disassembling process costs, plus risks / value of damage in disassembly.
+If possible, performance measures for cost and time should be calculated for discrete
+stages in the disassembly process, via an Activity Based Costing or similar methodology, but focussing on the cost of new component sourcing and man-hours before,
+and only if necessary, considering materials, consumables and allocated overheads.
+Uncertain disassembly / assembly processes required, depending on the condition of
+components, is a sub problem of the above disassembly-level challenge, but focusing
+on process aspects. It might also affect and be affected by workstation layout, operator
+deployment and other factors. Potential KPIs include remanufacturing Lead Time (LT),
+
+Short notice period of component demand
+
+In remanufacturing, defective components are often only discovered after disassembly, cleaning and inspection. There is then pressure to replace these components as soon as possible (through repair or replacement) in order to minimise
+Lead Time (LT) and Work in Progress (WIP), but often with a cost penalty.
+There are ways to solve the problem. Pre-disassembly inspection (such as endoscopic inspection) and Lifecycle Management information analysis belong to a group
+of information related solutions; spare component / Core stock management belongs
+to another category of buffering techniques; but are also information related.
+The most relevant high level KPI is Lead Time but this is affected by a great
+many factors and only by activities on critical paths. New Component Cost (NCC)
+is a useful mediating indicator, as sourcing new components is often the expensive
+‘solution’ to achieving short lead times. Salvage Rate by Component (SRC) will
+highlight successful sourcing of used or reworked components from stock. A more
+focussed KPI that considers ‘accuracy of predicted component need’ (maximise),
+and ‘time between component need prediction and point of assembly’ (also maximise) is also recommended, to target this particular problem.
+Benefit and cost indices can also be used to respectively encourage knowledge management activities and penalise responsive rather than pro-active decisions. These can
+include factors such as:
+ The value gained through retaining and using product design information (for
+
+independent, non-OEM remanufacturers)
+ The value of using product life cycle information to predict component demand
+ The cost penalty attributed to a delay or long lead times
+
+Uncertain quantity of salvaged components
+
+If a disassembled Core is not remanufactured its salvageable components may be
+retained, therefore uncertainty is most related to stock decisions and level control.
+For established remanufacturing businesses, the recurrence of certain models of
+Core should be apparent. In these cases the most relevant measurements concern
+the time held in stock or rate of reuse for particular salvaged components. These
+can also be aggregated to give an overall view of stock performance, with the value
+of salvaged component stock also calculated as a complimentary measure.
+The two KPIs that will be most useful in monitoring improvements here are New
+Component Cost (NCC) and Core / Product Ratio (CPR). NCC measures the cost and
+source of new components needed to complete the remanufacture of products, and will
+reduce as the use of salvaged components increases (in this case, as a result of having
+the right components available from stock on demand).
+CPR indicates how many Cores are processed to produce each remanufactured
+product. This reveals the number of components coming into the system (e.g. a
+CPR of 2 would indicate a surplus of 1 set of components for every 2 Cores entering the system). Salvage Rate by Component (SRC) is an important compliment to
+
+Conclusions
+The following sections summarise the requirements and related KPIs prioritised by an independent (non-OEM) wind turbine gearbox remanufacturing business pilot, and by the
+research arm of an automotive OEM for its established engine remanufacturing plant.
+
+Wind turbine gearbox remanufacturing at SKF (Fig. 2)
+
+This use-case represents three distinctive business and production scenarios:
+ Low-volume, high-value ( < 100 units per year, > €100 k per reman unit)
+ Non-OEM products (not SKF Cores, no official partnership with gearbox OEMs)
+ Start-up business (business unit started as a one-year feasibility study)
+
+In contrast, high-volume remanufacturers ( > 1000 units per year) can often look to
+small efficiencies gained in repetitive production processes that, when multiplied by
+high volumes, provide worthwhile cost savings, and an acceptable return on investment. These industries, such as automotive, often have particularly small margins on
+the manufacture of components, due to the maturity and competitiveness of the sector.
+Project and batch production operations, such as low-volume high-value asset remanufacturing, often have the opportunity to look elsewhere to maximise profit (e.g. by
+maximising sales price through differentiated and value-added offerings). This is especially true in industries that are still developing, such as remanufacturing. The quoting
+process is much more important here, as obviously there is a lot more at stake when
+profit comes from a small number of high-value projects. Also related is the need to
+build customer relationships – a critical process for start-ups. Estimate accuracy is the
+main concern here, with customer lead-time (LT) also important. Building supplier relationships and, later, integrated supply chains, would be the next priority. Knowledge
+management is especially important with independent start-up remanufacturers. KPIs
+measuring rate or frequency of knowledge re-use, and the value gained by it should be
+investigated.
+The low volumes enable the business priorities listed in Table 12 to be addressed.
+The associated KPIs can be recorded for both individual units (product instances) and
+aggregated to calculate the average values for product types, families or for remanufacturing processes. Many of the business priorities can be KPIs in their own right (see
+
+
+Page 14 of 17
+
+Table 12 Priorities and KPIs for LoVol/HiVal independent remanufacturing start-up
+Finance
+
+Innovation
+
+Margin: PM, CPV
+
+Adaptability: BOM
+
+Revenue: (HPU, WIP, SRP)
+Customers & Quality
+
+Employee
+
+Success rate for offers: QA, (BOM)
+
+Utilisation: PS
+
+Response time to customer: LT
+
+Knowledge sharing: PS, (BOM)
+
+Processes
+
+Environmental
+
+Throughput time: CT
+
+Waste: CDR
+
+Technical errors: HPU
+SRP, WIP
+
+Background section) but the more-specific, further-reaching and easier-to-calculate
+KPIs listed are those recommended.
+
+Automotive-class engine remanufacturing at Fiat (Fig. 3)
+
+The CRF / Fiat remanufacturing use-case is characterised by the following features:
+ High-volume, low-value (< €10 k per unit, > 1000 units per year)
+ OEM products (carried out by or in close partnership with the Core OEM)
+ Established businesses ( > 10 years)
+
+In addition to a standard set of high level business KPIs (Table 13), specific process
+KPIs defined as technical or product KPIs are aggregated according to criteria such as
+the period, the family of engine, or remanufacturing phase. Plant managers compare
+the price at which a Core is acquired with its estimated value on arrival at the plant,
+and again after disassembly and full inspection. Core / Product Value Ratio (CPV) can
+be calculated and used at this product instance level, as well as a good catch-all
+medium-term monitoring KPI for both general plant performance and to track trends
+in product families.
+Most other process KPIs are taken from general production engineering: Overall
+Equipment Effectiveness, an old but still common hierarchy of metrics to evaluate how
+
+Page 15 of 17
+
+Table 13 Priorities and KPIs for established HiVol/LoVal OEM remanufacturer
+Finance
+
+Innovation
+
+Net engine margin: PM, CPV, (OEE)
+
+Adaptability: BOM
+
+Revenue: (HPU, WIP, SRP)
+
+Core management: CCA, (CCD, CPR)
+
+Purchasing costs: NCC
+Customers & Quality
+
+Employee
+
+Offering: (BOM)
+
+Utilisation: PS
+
+NC
+
+Knowledge sharing: PS, (BOM)
+
+Processes
+
+Environmental
+
+Throughput: CT
+
+Scrap rate: CDR, TW
+
+Technical errors: HPU, (NC)
+
+Energy: ECD
+
+Salvage: SRC, SRP
+OEE, WIP, CPR, CCD
+
+reduction in the immobilised capital (Cores, engine bases, semi-assembled engines and
+components); Number of concessions (also called exceptions); Cycle-time, of specific
+operations or the whole reman process; and Number of Managed mBOMs, measuring
+the number of product families managed in the plant and reflecting a multitude of
+cross-category benefits (e.g. flexibility, workforce training, customer responsiveness).
+Reman-specific KPIs focus around core/product and salvage ratios. The broad objective to decrease the number of Cores acquired with respect to the number of engines
+remanufactured is monitored at high level, via Core / Product Ratio, and at a more detailed level via Salvage Rate. Either or both an engine perspective (percentage of salvage
+for each, or a specific family of remanufactured engine) or a component perspective
+(percentage of each component salvaged for remanufacturing) can be useful. In all
+three cases, the objective should be to increase the ratio of reused components over
+new components in the remanufactured engine, leveraging the incoming cores quality.
+Core acquisition quality management is a particular focus of CRF (but not necessarily
+typical of the industry). It requires separate monitoring, via a custom-made ‘Core Class
+Distribution’ KPI. Aggregating over several Cores, the objective is to increase the percentage of Class ‘A’ Cores (highest quality) with respect to other classes.
+Abbreviations
+BOM: Bill of Materials; CCA: Core Class Assessment; CCD: Core Class Distribution; CDR: Core Disposal Rate; CPR: Core /
+Product Ratio; CT: Cycle Time; CPV: Core / Product Value (Ratio); HPU: Hours Per Unit; ICT: Information and Communication
+Technology; KPI: Key Performance Indicator; LCA: Life Cycle Analysis; LT: Lead Time; NC: Number of Concessions; NCC: New
+Component Costs (and Source); OEE: Overall Equipment Effectiveness; PM: Product Margin; PS: Personnel Saturation;
+QA: Quotation Accuracy; SRC: Component Salvage Rate; SRP: Product Salvage Rate; WIP: Work In Progress.
+Authors’ contributions
+IG carried out the majority of the research, analysis, KPI formulation and editorial work. PG assisted throughout the
+project, specifically with the interviews and the paper’s production, CP provided introduction and method section
+drafts, and YP provided the discussion section draft. AW and PC advise on the project and were involved in its
+conception. JM and FD established the pre-project performance measurement strategies within their respective
+companies. All authors read and approved the final manuscript.
+Authors’ information
+IG is a Senior Researcher and Lecturer in Engineering Design at the Wolfson School of Mechanical and Manufacturing
+Engineering, Loughborough University. Coining the term ‘Interactive Optimisation’ to describe his specialism within
+the field of Humanised Computational Intelligence, he applies this approach to generative and evolutionary CAD,
+
+has a BEng in Product Design and Manufacture, and a PhD in Genetic Algorithms for Evolutionary Design, the latter
+becoming the EvoShape CAD application.
+PG is a Research Associate in the Wolfson School. He graduated from Loughborough University in 2010 with a MEng
+in Mechanical Engineering and in 2015 with a PhD in Remanufacturing Decision Support. His current research interests
+include intelligent manufacturing, remanufacture, product service systems and data analytics.
+YP is a Research Associate with research interests including production planning and control, and information and
+systems engineering in manufacturing.
+CP is a Research Associate with over fifteen years research experience in applying artificial intelligence and information
+modelling techniques to engineering problems. She joined the School of Mechanical and Manufacturing Engineering
+at Loughborough University in 2008. Her research interests include intelligent manufacturing, process modelling,
+ontologies, and knowledge management and verification.
+PC is Professor of Manufacturing Processes and Dean of the Wolfson School, where he also leads the Interconnection
+Research Group. He is also the Director of the EPSRC’s Innovative electronics Manufacturing Research Centre and the
+EPSRC Centre for Doctoral Training in Embedded Intelligence. He has previously worked for the Fisher Body Overseas
+Corporation, National Physical Laboratory and GMC. Active in research, training and consultancy in electronics manufacture
+and packaging since 1990, and holding substantive research awards from the UK’s EPSRC, DTI, and TSB and from the
+European Commission, he has published widely in this field. His interests lie in: manufacturing processes; simulation;
+sensing, actuation and control; process-materials interactions; manufacturing knowledge management and utilisation,
+remanufacturing of high value assets and products, wireless sensor networks and embedded intelligent systems.
+AW is Professor of Intelligent Systems in the Wolfson School. He obtained a First Class Honours degree in Physics and
+a Ph.D. in Astrophysics from Leeds University. Following research at Cambridge University he became a faculty
+member at Loughborough University in 1995. His interests include embedded intelligence, adaptive informatics and
+the generation of novel manufacturing systems and services for industrial control and monitoring. He has generated
+more than 70 research proposals funded by UK, EU government and industry and is co-author of around 180 refereed
+journal and conference papers. His exploitation activities involve the directorship of four spin out companies servicing
+novel control and monitoring solutions within the automotive, electronics, aerospace and healthcare domains.
+JM is a project manager in the Process Research department of the FIAT Research Centre (CRF), where his work
+primarily concerns the optimisation of industrial processes (Manufacturing and Remanufacturing, Logistics, Product
+Development). He is involved in many internal projects within the FIAT Group, particularly in the areas of plant
+logistics and manufacturing. He has previously been involved with several international research programmes in the
+area of Supply Chain and Production Management.
+FD is a program manager within business development at SKF. Formerly he was responsible for co-managing a gearbox
+re-manufacturing business unit and implementing a management system for the remanufacturing process. Prior to this he
+studied mechanical engineering and economics, receiving a both a diploma and a Master of Business Engineering.

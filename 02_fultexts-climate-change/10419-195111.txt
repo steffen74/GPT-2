@@ -1,0 +1,546 @@
+
+
+Introduction
+A supply chain in its traditional form (forward supply chain), is a mixture of processes to fulfill
+
+Jnl Remanufactur (2017) 7:181–198
+
+cellphone reverse logistics (RL). RL is referred to all recovery activities related to a service or a
+product after the transaction. The final aim is to optimize the efficiency of the aftermarket
+elements [36]. Rogers and Tibben-Lembke [37] explained RL as the procedure related to
+planning and controlling the flows of materials, inventory, final products, and related information efficiently starting from consuming and then going to the sources for cost saving or
+achieving sustainability. Managing the returned products plays important role in supply chains
+because of both economic and environmental effects. Some literature papers have been
+published about this topic (e.g. [1, 2, 13, 17]).
+
+E-waste and cellphone
+E-waste is related to every waste that comes from or affected by electronic devices. E-waste is
+a prominent challenge in modern communities [28]. It includes some materials (e.g., Mercury,
+Lead, Arsenic) that can be harmful for wildlife and/or humans. E-waste is an important
+problem regarding computers and wireless technologies due to the challenges in discarding
+those products. Just 2% of America’s trashes in landfills are related to E-waste. However, Ewaste causes 70% of the total toxic wastes [40]. It is increasing four times faster than the other
+types of wastes, but just 12.5% of it is recovered [42]. The tools related to information and
+communication technology (ICT) (e.g., personal computers, cellphones, and printers)
+accounted for 7% of E-waste in 2014 [5, 18].
+There are some truths on the flip side of the mentioned facts. The majority of the
+components of a cellphone can be recycled. More specifically, 15% of Glasses and Ceramics,
+40% of Plastics, and 15% of Coppers are recyclable [31]. Based on U.S. Environmental
+Protection Agency [43], for each 1 million cellphones that are recycled, 772 lbs. of Silver,
+35,274 lbs. of Copper, 33 lbs. of Palladium, and 75 lbs. of Gold are recyclable. The most of
+what is called “E-waste” is really not waste. They are entire electronic parts or devices that
+have the potential to be reused or recycled because of their materials.
+Increasing trend in demands of E-waste recycling, and associated recovery options provide
+economic opportunities such as creating careers and developing businesses. Focusing on
+Canada, E-waste recyclers and organizations are active in most of the provinces. Ontario
+was the home of four main companies in E-waste and recycling fields in 2000. In 2004, there
+were fourteen major companies in these fields in Ontario. The increasing trend shows the
+importance of reverse logistic management. We focus on RL of cellphones in this paper
+particularly in the three provinces of Canada.
+
+Research contributions and methods
+To our knowledge, there are very few research investigations related to RL of cellphones
+particularly in Canada. Considering the geographical locations in the map of Canada, Nova
+Scotia (in Eastern Canada), Ontario (in Mid Canada), and British Columbia (in Western
+Canada) are good representatives for RL of cellphones in the country. As a result, we focus
+on these three provinces in this research. We observed that there are not sufficient scientific
+investigations in the literature concentrating RL of cellphones in Ontario, British Colombia,
+and Nova Scotia. It is noticeable that there are several unexplored areas in RL of cellphones
+
+183
+
+questions: Which parts of cellphones can be recovered? What are the characteristics of
+cellphone RLs in Canada? What are the issues in this subject? What are the effects of
+cannibalization of cellphone RLs? To answer these questions, we examine the main recovery
+choices (i.e., reusing, repairing, remanufacturing, and recycling) related to cellphones. We
+discuss the pricing concerns of the remanufactured and returned cellphones in a novel system.
+In addition, current Canadian federal and provincial policies related to recycling cellphones are
+discussed. The method of finding characteristics of reverse logistics is based on the current
+cellphones recovery practices. In addition, other papers in the literature and reliable sources are
+utilized in this research. We also analyze short case studies based on the methods provided by
+Voss et al. [45].
+In “Literature review” section, we provide a literature review related to RL of cellphones. In
+“Cellphone” section, the recoverable components of cellphones are discussed. “Reverse supply
+chain networks of cellphones in Canada” section provides some information about End of Life
+(EoL) practices of cellphones in Canada, and statistics on cellphone return in Canada (as
+subsections). In “National and provincial programs of Cellphone reverse logistics” section, we
+examine how the RL process is managed in the three provinces. “Case studies” section
+consists of two case studies related to RL of cellphones. In “Effects of cannibalization”
+section, the effects of cannibalization on RL of cellphones are discussed. Finally, conclusions
+and recommendations are provided in “Conclusions” section.
+
+Literature review
+Research about cellphones emerged almost 19 years ago when the products were targeted
+by European policy makers [9]. Five major enterprises including Ericsson, Alcatel,
+Motorola, Panasonic, and Nokia formed ECTEL Environmental Task Group. They conducted a pilot project in six months to find useful information about the returning
+processes of small electronics. They aimed to implement a mobile phone collection,
+redistribution, and finally recycling infrastructure. In addition, they wanted to encourage
+all parties (e.g., retailers, waste authorities, distributors, and recyclers) to participate in the
+return chain.
+There were some publications that were produced by ECTEL. Useful information such as
+recommendations for management of end-of-life cellphones [10], and life-cycle energy management for recycling and returning cellphones [30] were provided in those papers. In a study
+that was conducted by Geyer et al. [16], an optimal end-of-life (EoL) management decision
+was recommended for cellphones sold in U.S., considering the law and the trends in international design that affect economy and environment. In that project, three end-of-life management choices were considered including reusing the cellphones, reusing the parts, and
+recycling the materials. The authors showed the importance of having a minimum reuse rate
+to obtain a good economic growth. They concluded that each policy should be assessed based
+on both economic and environmental impacts on the society. Geyer and Doctori Blass [15]
+investigated the business impacts of reusing and recycling cellphones according to the data
+gathered in 2003 in U.K., and in 2006 in U.S. They illustrated that although reusing cellphones
+has a positive effect on the profit, there is no guarantee to have more profit through recycling
+
+Jnl Remanufactur (2017) 7:181–198
+
+the problems in the system are low recovery amount via the official networks, large
+growing secondary markets due to the potential values of the cellphones, and uneven
+logistics and supply chain systems for the returned cellphones. Moreira de Moraesa et al.
+[32] evaluated two RL scenarios related to cellphones utilizing life-cycle assessment
+(LCA) method. The first scenario was a recycling one in Brazil where only the batteries
+were recycling. The other components of the cellphones were outsourcing to Europe. On
+the other hand, the total recovery activities were in Brazil in the second scenario. The
+authors indicated that the second scenario had a lower possible negative effects because
+of the reducing Photochemical Oxidation, Acidification, Eutrophication, and utilizing
+clean energies and technologies. Besides, the second scenario could produce socioeconomic benefits via selling the recovered materials, and generating occupations and
+incomes. Pandian [33] evaluated the performance of an RL company via an agentbased system. They took into account the main elements in the RL as agents that can
+act independently. Some agents included collector, sorting, remanufacturing, recycler,
+distributor, and supplier agents. They measured the individual performances of each
+agent. Furthermore, they provided some recommendations to advance the performances
+of the agents.
+Some papers have been published related to recycling the cellphones. Huisman [21] applied
+an environmental evaluation method for recycling the cellphones. Guide et al. [20] provided
+some information about a remanufacturing cellphone company in U.S. Franke et al. [14]
+provided a hybrid solution approach for remanufacturing mobile phones by combining
+discrete-event simulation and optimization methods. Guide and Van Wassenhove [19]
+analyzed different types of returns such as end-of-use return in markets. Dedrick et al.
+[11] developed a new method for analyzing three types of phones. Some practical
+information related to cellphone industry have been provided in their paper. Jayant
+et al. [24] applied a hybrid decision-making method including AHP and TOPSIS to
+select the best cellphone service provider in a reverse supply chain case. Sarath et al. [38]
+published a comprehensive paper about waste management of cellphone and related
+issues. They provided a useful review focusing on management of mobile phone waste,
+consumer behavior, economic aspect of cell phone recovery, and recovery options for
+different materials of cellphone. They mentioned in the conclusions that more research
+papers should be published about this topic. Velmurugan [44] reviewed and analyzed
+health and environmental effects of remanufacturing cellphones. Argenta et al. [4]
+discussed recycling the components of cellphones (e.g., LCD screens). John et al. [25]
+investigated a reverse logistics network for mobile phones and digital cameras.
+The mentioned journal papers and articles have emphasized the environmental effects
+of recycling cellphones, and the associated recovery choices such as reusing and
+remanufacturing. However, they have overlooked how the speed of technological improvement is affecting cellphone RL, and the role of the fast growing secondary market
+in the RL management. Furthermore, we observed that the investigations performed and
+the papers published or available, mostly include the time from the beginning of
+cellphone recycling when the E-Waste topic started being addressed, and miss out on
+the quick technological development of cellphone in the most recent years. Besides, the
+majority of the peer-reviewed journal publications in this field have provided theoretical
+
+185
+
+Cellphone
+Cellphones can be categorized to feature phones and smart phones. Feature phones provide
+basic functionality of a cellphone. Other than calling and receiving calls, these basic functions
+may include internet access, camera, music player, etc. They are usually low priced and
+somewhere in between the basic cellphone, and cellphone with advanced functionality like
+integrated apps and multitasking features. On the other hand, smart phones are cellphones
+with advanced computing capabilities that run on Mobile Operating Systems (OS). The OS
+(e.g., IOS by Apple, Android by Google) offer advanced Application Programming Interfaces
+(APIs) to permit other applications (popularly known as ‘App’) to run on cellphones. These
+applications have better integration with the phone’s OS and hardware, than the general feature
+phones [39]. Smart phones typically have bigger screens with touch screen options.
+
+The recoverable components of cellphones
+About 10 to 12 key physical parts exist in a standard cellphone. Some parts such as
+display, camera, battery, and charger can be remanufactured. These components can be
+disassembled easily, and can be utilized in manufacturing cellphones for the primary or
+the secondary markets [12]. 500 to 1000 components exist in a standard cellphone. They
+are made of diverse substances and materials [26]. More than 30 metals have been
+utilized in a cellphone such as Silver, Gold, and exceptional earth metals. The potential
+recycling rate is 50% in half of them. Among 20% to 35% of the materials of a cellphone
+are missing when the cellphone is shredded and melted down in the recycling process.
+
+Jnl Remanufactur (2017) 7:181–198
+
+Characteristics of cellphone from RL perspective
+Cellphones have some characteristics that are important from RL viewpoint. Light weight is one of
+them. The weights of cellphones mostly are around 110 to 185 g. Short life span is the other
+characteristic. They are usually around 18 to 24 months. The demands for new cellphones
+compounded by fast changing technology permit the producers to bring newer products that lead
+to quicker refurbishing and recycling requirements. The other feature is occupying a limited space.
+It is noticeable that an individual may have some cellphones at the same time, dissimilar to the
+bigger products such as refrigerators. Ease of shipment is the other attribute of cellphones. As a
+result, it is convenient to sell them in a local secondary market via online channels such as Kijiji,
+eBay, and Craigslist. Another fact about cellphone is that the owners often do not throw them away.
+In addition, cellphones have better resell and recycling values than the other types of E-waste. The
+other feature is that the third-party companies manage collecting the cellphones to gain profit.
+
+Recovery options of cellphones
+The general recovery choices for a returned product are repairing, reusing, reconditioning,
+remanufacturing, recycling, and parts harvesting [22]. These six options are called 5R1P.
+Repairing: Repair is defined as replacing or fixing a specific faulty component. The rest
+of the product requires minimum changes.
+Reusing: If a retuned cellphone has working conditions, it can be reused. In some cases, it
+may require simple repackaging and cleaning. This type of return may consist of the
+products that are returned within the valid return period, or the products that are sold via
+websites such as Kijiji.
+Reconditioning: In some cases, a product may require some cleaning or surface
+polishing. These processes usually are done on the surfaces.
+Remanufacturing: A definition of remanufacturing is a collection of the processes to
+restore a discarded and non-functional product to have a product similar to a new one
+[29]. Remanufacturing of cellphone is the process of giving it a new life after EoL. It is
+the most significant recovery choice in terms of process and time.
+Recycling: It includes the process of material restoration by different methods such as
+melting the material (e.g., glass and plastic), and producing new products. Cellphones can
+be recycled and produce some materials.
+
+Issues and research gaps with recovery of cellphones
+We can divide recovery of cellphones into collection of cellphones, and recovery of cellphones
+from the returned devices. In this section, we review some topics associated with the recovery
+of cellphones.
+
+Lack of awareness about cellphone recycling
+
+187
+
+Lack of efficiency of RL
+Efficient and effective RL processes for cellphones are vital to recover greater number of
+cellphones which are going into the landfill or being kept at home.
+
+Cost
+It is hard to compensate the costs of collection, testing, inspection, refurbishment, and
+redistribution with the profit obtained from selling the recycled materials or remanufactured
+products. The low returning cost compared to the residual values of cellphones encourages the
+consumers to return the used cellphones.
+
+Lack of incentive
+In most cases, there is not sufficient incentive for the consumers to return the
+cellphones. In several situations, the incentive offered is so minor that they do not feel
+the urge to return or recycle their cellphones. Greater monetary value for cellphone
+returning, and more education about the significance of recycling can change the
+mindset of consumers.
+
+Price of resalable cellphones
+There is no standard price for selling used cellphones. As a result, consumers often
+are confused about buying or selling used cellphones. For instance, an old cellphone
+without touchscreen features may have zero resale value, but an iPhone 5 may have
+significant values.
+
+Role of technology
+Technology plays an important role in determining the residual values of cellphones.
+Cellphones are become outdated quickly because of the fast technological progresses. Consequently, cellphones lose their demands as well as the prices rapidly.
+
+Role of contracts with carriers
+The contracts offered by the carriers are important factors. Carriers often encourage trade in
+and recycling programs. They usually offer hardware upgrades which permit the current
+customers to have newer cellphones without any upfront cost. These choices have two
+implications. The older cellphones become obsolete, many times well before the end of their
+useful life. In addition, being locked to the carriers’ networks, they are simply stored or kept
+away without being utilized in most cases.
+
+Brand of cellphone
+
+Jnl Remanufactur (2017) 7:181–198
+
+Reverse supply chain networks of cellphones in Canada
+The players contribute in forward and reverse supply chains of cellphones can be categorized
+as follows: a) Users: Users are the buyers or consumers that utilize cellphones. In RL, the
+flows of cellphones begin from users. b) Carriers: They distribute cellphones. Carriers are the
+wireless service providers that provide connection between cellphones and wireless networks.
+In several situations, they own the network. c) Manufacturers: They design and produce
+cellphones.
+
+EoL practices of cellphones in Canada
+Currently, the used cellphones are being disposed in four different ways including keep, reuse,
+recycle, and garbage (landfill). Figure 2 shows the flows of RL cellphones in Canada. We
+describe the details in the subsections.
+
+Keep (Store)
+In this subcategory, the users either just store cellphones away, or they still use them for diverse
+purposes.
+
+Reuse
+Reuse occurs when a cellphone is repurposed, or reused, or resold. Cellphones can be used for
+calling emergency services (e.g. 911). Elderly persons or victims of domestic violence may
+
+189
+
+portion of cellphones are resold in secondary markets such as eBay and Kijiji. Some consumers prefer to donate them to charity where they are further reused. Some cellphones are
+gifted to friends or family for reusing. Several cellphones that are stolen or lost are reused.
+
+Recycle
+The popularity of recycling cellphones has increasing trend. Some recycling programs are
+available such as a) Take-back or trade-in programs (e.g. Bell, Best Buy, Apple). b) Recycling
+programs (e.g. recycle my cell). c) Other techniques and methods for collection (e.g. recycling
+for profit businesses like Orchard.ca). The collected cellphones via these programs are
+managed in three main ways: 1) Refurbish: The cellphones collected are reconditioned, tested
+for defect and functionality, and sold to consumers. 2) Dismantle and parts recycled:
+Cellphones are dismantled, and parts are reused. 3) Smelter: Cellphones are disassembled
+and sold for components, or passed on to a smelter (material reconstruction). Some materials
+such as Gold, Copper, Platinum, Silver, Iron, Nickel, and Zinc can be obtained. In one metric
+ton of old cellphones without batteries (about 8800 cellphones), there are approximately 7
+pounds of Silver, 308 pounds of Copper, and half pound of Gold [35].
+
+E-Waste
+The numbers of cellphones going to landfills have dropped significantly in recent years.
+Availability of recovery options and government regulations are the main reasons.
+
+Statistics on cellphone return in Canada
+There is not very precise available data about cellphone returns in Canada. Table 1 shows the
+cellphone return data in Canada and the three provinces.
+
+National and provincial programs of Cellphone reverse logistics
+We focus on three provinces that are geographically appropriate for representing Canada. The
+provinces include British Columbia in the west, Nova Scotia in the east, and Ontario in the
+middle as representatives of the whole country. For two of these three provinces, Recycle My
+Cell handles all types of cellphone recycling programs. For some provinces like Ontario, there
+are some profit and non-profit organizations that are involved in the cellphones recycling.
+
+Provincial policies and procedures
+Extended Producer Responsibility (EPR) is a national initiative that targets different types of
+cellphones and electronics. Recycle My Cell is a free national recycling program that has been
+focused on cellphones in this initiative. This program is mandatory in Prince Edward Island,
+18
+17
+20
+
+5E
+F
+F
+F
+
+Put them
+in the garbage
+25
+34 E
+26
+19
+
+Took or sent them to a
+depot or drop-off centre
+19
+30 E
+18
+17 E
+
+Returned them to
+a supplier or retailer
+
+Had dead or unwanted cellular phones to dispose of (%)
+
+F: Too unreliable to be published, E: Use with caution
+
+Canada
+Nova Scotia
+Ontario
+British Columbia
+
+Had dead or unwanted cellular
+phones to dispose of
+
+8
+F
+10
+15 E
+
+Donated or gave
+them away
+
+Table 1 Disposal of E-waste adopted from Statistics Canada, URL: http://www.statcan.gc.ca/pub/11-526-x/2013001/t018-eng.htm
+
+F
+F
+F
+F
+
+Repaired or
+sold them
+
+44
+25 E
+41
+46
+
+Still had
+them
+
+2E
+F
+F
+F
+
+Other
+
+191
+
+labels. Recycle My Cell has received approval from Nova Scotia in 2008, and British
+Columbia in 2009. In addition, it has been officially recognized as the approved cellphone
+stewardship program in Manitoba, Prince Edward Island, New Brunswick, Newfoundland and
+Labrador, Saskatchewan in 2009, and Alberta in 2011. In the other provinces of Canada, it
+operates on a voluntary basis [23].
+
+Cellphone recycling in Ontario
+Ontario Electronic Stewardship (OES) manages the recycling of cellphones in Ontario via four
+channels including OES service providers, collection events, retailers, and municipals. Furthermore, there is an opportunity for participation in Recycle My Cell which is a national
+cellphone recycling program in Canada. Some carriers such as Fido, Bell, Rogers, and some
+manufacturers such as Sony, Blackberry, and Samsung have participating programs with
+Recycle My Cell. Figure 3 displays an overview of cellphone recovery in Canada. Currently,
+Recycle My Cell have over 4000 drop-off locations in Canada.
+
+Cellphone recycling in British Columbia
+Recycling Council of British Columbia (RCBC) is the main organization that manages the
+product stewardship in British Columbia (BC). Currently, Recycle My Cell program is applied
+in BC. Before it, Call2Recycle® was the only free battery and cellphone collection program in
+this province.
+The returned cellphones are refurbished and resold in BC when these recovery options are
+possible. A portion of profit from reselling them is assigned to Kids Help Phone program. The
+rest of the collected products are transported free of charge to consolidation facilities where the
+batteries and the other components of cellphones are separated. Then, they are sent to be
+recycled. The recycling facility separates the reusable metals from the batteries, and prepares
+them for reuse in new products such as stainless steel and batteries. The objective is to
+minimize the materials that are sent to landfills from battery and cellphones.
+Recycle My Cell has received regulatory approval from the province of BC, and has acted
+as the official cellphone stewardship program in the province. Figure 4 provides an overview
+of cellphone recycling in BC. There are some programs and websites related to recycling
+electronic devices, but all of them drive traffic to Recycle My Cell.
+
+Cellphone recycling in Nova Scotia
+Similar to BC, Nova Scotia (NS) cellphone RL program was initially coped by
+Call2Recycle®. Then, the Recycle My Cell was formally recognized as the official cellphone
+stewardship program in 2009 in NS. In addition to cellphone, all types of electronic wastes are
+delivered to Recycle My Cell. Some organizations (e.g. DivertNS which is a non-profit
+organization) work in collaborations with the official recycling organizations. They work
+under the department of Nova Scotia Environmental Waste Resource Management. Figure 5
+illustrates some facts about cellphone recovery in NS.
+The quantity of the devices recovered in the three provinces can be found in Figs. 3, 4 and
+
+Jnl Remanufactur (2017) 7:181–198
+
+Figure 3 Cellphone recovery in Canada, URL: http://www.recyclemycell.ca/facts-and-figures/
+
+Case studies
+Case studies are useful tools for analyzing problems [45]. Some companies are active in
+RL of cellphones in Canada. Some of them are involved in reselling used cellphones,
+and the others are responsible for recycling them. We select one company from each
+
+193
+
+Fig. 4 Cellphone recovery in BC, URL: https://www.cwta.ca/wp-content/uploads/2016/09/Recycle-My-Cell2015-Annual-Report-for-British-Columbia_For-Submission.pdf
+
+Orchard Labs Inc.
+Orchard is an e-commerce corporation located in Toronto, Ontario. It purchases and sells used
+cellphones in North America. Orchard began its business by producing different apps for
+iPhone that were run thorough diagnostics test for the used cellphones. The company provides
+reports including some information such as the values of cellphones in real-time [27]. Orchard
+
+Jnl Remanufactur (2017) 7:181–198
+
+Fig. 5 Cellphone recovery in NS, URL: https://www.cwta.ca/wp-content/uploads/2016/07/Recycle-My-Cell2015-Annual-Report-for-Nova-Scotia_For-Submission.pdf
+
+iPhone’s seller. Orchard expanded its business into the U.S. market in 2015 by creating a
+facility in San Francisco [6]. Then, it started a business with Public Mobile to provide
+refurbished cellphones for the customers of Canadian wireless carriers.
+Telus obtained ownership of Public Mobile in 2013, and Orchard was restructured as a
+wireless carrier depending on Telus. Orchard’s remanufacturing lines have been extended for
+the products of Samsung, Apple, BlackBerry, and HTC. Innovation has been utilized by
+
+195
+
+Greentec Inc.
+Greentec processes waste electrical and electronic equipment under supervision of Ontario
+electronic stewardship program. The company is well-known in recycling electronic devices.
+Greentec processes cellphones that are collected according to Recycle My Cell program. The
+facility of the company (150,000 sq. ft.) is located in Cambridge, Ontario. It is equipped with
+“electronic waste mining” that can process electronic devices, and can produce materials such
+as glass, metal, and plastics. These materials can be used in manufacturing new products.
+Qualifying procedures are applied for all products that enter Greentec’s facility to decide the
+returned cellphones are appropriate for recovery activities such as reusing, recycling, and
+refurbishing. Reusing is preferred because it consumes minimum resources, but it is not possible
+in most cases. Majority of the returned cellphones are dismantled and recycled. Appropriate
+dismantling is crucial to make sure that the hazardous materials such as Mercury and battery are
+not released to landfills. Valuable materials such as Aluminum, Steel, Copper, plastics, and glass
+are processed as raw materials for forthcoming manufacturing. The obtained materials are used
+to produce new products such as bottles, pipes, automotive components, electronic devices,
+house sidings, carpets, and kitchen countertops. Greentec works based on zero landfill policy.
+
+Effects of cannibalization
+Cannibalization occurs in the pricing strategy stage, and refers to the decrease in sales volume or
+revenue in addition to the market share because of the introduction of a new service or product
+[46]. A company that adopts this strategy competes against itself. There are some reasons that a
+company may adopt this strategy. A company may would like to rise its market share by
+gambling that introducing the new product will harm other competitors more than the company
+itself. The other possibility is that the company may believe that the new product will sell better
+than the first one, or is sellable to a different type of purchaser. The other reason is the company
+may want its products to reach different types of customers. This is a commonly used strategy
+by the majority of cellphone companies such as Samsung and Apple. For instance, when Apple
+introduced iPad, it took sales away from the original Macintosh, but ultimately led to an
+expanded market for consumer computing hardware. In the circumstances that newer iPhone
+models are introduced, the cannibalization may occur related to the new products (iPhone 7),
+and the classical products (iPhone 6). In this case, there is a competition among the demands of
+iPhone 7 and iPhone 6 as long as they are substitutable for the consumers. In other words, more
+sale of iPhone 7 can lead to reduction in sale of iPhone 6. The other case of cannibalization is
+about the sale of digital cameras [41]. The Camera and Imaging Products Association reported a
+36% sales decrease in digital camera sales in 2013 which can be attributed to the growth of
+smartphone sales over the same period that was 38% up according to the market research of firm
+IDC. Furthermore, cannibalization is important for an Original Equipment Manufacturer
+(OEM) because resale can be a threat to sales of new cellphones.
+
+
+Jnl Remanufactur (2017) 7:181–198
+
+chain. We examined the Canadian cellphone recycling and RL system focusing on three
+provinces including British Columbia to represent Western Canada, Ontario to represent
+Middle Canada, and Nova Scotia to represent Eastern Canada. The other provinces of Canada
+implement similar cellphone recycling programs. We believe that although our focus was
+restricted to the mentioned three provinces, the results of this research are applicable to the
+other provinces of Canada.
+In this paper, we provided answers for the research questions mentioned in the first
+section. Our goal was to create an outline of the current situation in Canadian used
+cellphone market to provide readers some understanding and a tool for comparison.
+We discussed the importance of cellphone RL as well as the differences between
+cellphones and the other electronic devices from an RL perspective. We observed
+some barriers in the recovery of cellphones which affect the RL flow. Besides, we
+examined the EoL practices of cellphones in Canada in addition to the federal and
+provincial policies. We observed that the RL of cellphone is largely affected by
+collection processes and sources of returned cellphones. From the statistics and the
+other observations, it is evident that the collection rate is not substantial compared to
+the expectation.
+We feel that RL processes in Canada suffer from lack of incentive or motivation for
+recycling or reusing used cellphones. Businesses are often guided by money making opportunity and lacks in social responsibility because in some cases, there is less profit involved in
+selling refurbished products. The investment for a vendor to sell used cellphones instead of
+new ones is not feasible in most cases. For a consumer, incentive for returning a cellphone is
+quite low, and social responsibility is often outweighed due to the lack of awareness. More
+incentive for buy-back or trade-in with improved communication with customers can help to
+gain momentum in collection.
+The activities of organizations that manage recycling (for-profit or non-profit), as well as
+the reselling companies have not been properly streamlined. Therefore, the RL of cellphones
+loses efficiency at different points. A more streamlined and efficient collection system
+would allow vendors, manufacturers, remanufacturers, and recyclers to gain scale to
+justify investments in more advanced and larger facilities resulting in greater profit.
+The manufacturers, distributors, RL companies along with regulators need to take
+more concerted efforts to avoid quality leakage and achieve greater efficiency in
+different steps of reverse supply chain. For instance, more efficient take-back program, or greater commitment in selling used devices, or improving pre-sorting before
+going to shredding to catch more reusable phones and materials can improve efficiency of RL. In addition, stricter intervenes of regulatory bodies, whether municipal
+or provincial, can improve the efficiency. Although Recycle My Cell has emerged as
+the single biggest company to represent cellphone recycling, and most of the returned
+cellphones are funneled into this company, just some provinces have approved it. In
+our opinions, Ontario may need some regulations similar to Nova Scotia or British
+Columbia.
+We believe that the lack of education about cellphone recycling plays a very important role
+behind the low rate of collections. The campaigns organized by different companies are often
+not visible enough to draw attention. Increased visibility in recycling campaigns and customer
+
+197
+
+We learned from two case studies (Greentec and Orchard) that businesses can position themselves in the right places of RL cycle contributing to the efficiency of the process without
+compromising on profitability.
+This research is qualitative. We realized that it is very difficult to collect reliable data and
+information about RL of cellphones. We noticed that the information is either insufficient or
+incomplete or data is not dependable to draw decisive conclusions. One of the reasons for this
+deficiency is the low number of investigations in this field. Consequently, we feel that more
+quantitative research and analyses of real life scenarios are essential about RL of cellphones.
+Moreover, there is not much research about inspection and quality issues of used cellphones
+which is necessary to improve the reusability and collection system. Thus, more works need to
+be done. Finally, empirical studied should be conducted to find the most effective ways to
+organize the reverse supply chain of cellphones, and to compare the RLs of cellphone in
+different countries.
+Acknowledgments The authors would like to thank the editor and referees for the comments and feedback that
+improved the paper. In addition, they would like to thank Dr. Cory Searcy because of the valuable comments for
+improving this research.
+
+for innovation and policy. Environ Innov Soc Trans 21:69–79

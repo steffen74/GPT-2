@@ -1,0 +1,1281 @@
+
+
+1 Introduction
+The dramatic use of communication technologies (wired
+and wireless), embedded systems as well as increasing
+penetration of the Internet has not only revolutionalized
+human lives, but also reshaped almost all types of business
+
+models and processes [1]. M2M communication is one of
+the emerging technologies which offers ubiquitous connectivity among intelligent devices, hence is one of the
+major enablers of the Internet-of-Things (IoTs) vision [2].
+IoT is an innovative concept which offers to connect smart
+devices often called things endowed with several sensing,
+automation as well as computing capabilities, with the
+Internet [3]. Resultantly, the connected devices are revolutionalizing the future cyber physical systems, yielding
+several applications. Moreover, the mobile network operators are partnering with industrial organizations in order to
+bring forth innovative IoT services to facilitate end consumers. For instance, M2M applications include intelligent
+transportations, logistics and supply chain management,
+e-health, smart metering, surveillance and security, smart
+cities, and home automation [4–6]. Thus, M2M communication is foreseen to reshape the business of operators,
+service providers, M2M enterprises, and M2M enablers [7].
+Vodafone revealed that M2M communication is
+becoming one of the driving forces for businesses which
+inspires to bring forth innovative solutions almost in every
+sector such as logistics, automotive industry, cities, homes,
+schools, and workplaces [8]. Approximately 90 % of the
+companies worldwide have adopted M2M technology and
+imparted it as one of the most favorable technologies for
+achieving noticeable outcomes. Automotive industry is one
+of the top sectors for adopting M2M technology. Approximately 32 and 17 % increasing growth rates for adopting
+M2M technology have been noticed in automotive and
+logistic sectors, respectively, as shown in Fig. 1. Thus, ITS
+and logistics are considered as one of the potential M2M
+users worldwide [9]. In addition, NOKIA forecasted that
+the use of M2M technology in automotive industry and
+logistical processes will dominate other applications in the
+future [10]. One of the major motivations is to deliver a
+fully managed infrastructure which primarily guarantees,
+e.g., safe and secure driving, in time delivery, smart
+monitoring, and tracking of assets. Resultantly, this can
+revolutionize the existing methods of transportation and
+freight movements. In addition, optimum system performance can be achieved by reducing factor of costs, pollution and emission of harmful gases.
+Mobile M2M communication greatly differs from traditional human-to-human (H2H) communication in terms
+of trafﬁc density, data packet size, and quality of service
+(QoS) requirements [11]. For instance, an experimental
+study done in [12] shows that M2M trafﬁc exhibits a signiﬁcantly different behavior than the traditional smartphone trafﬁc in various aspects. For example, unlike
+traditional mobile trafﬁc, M2M is an uplink1 dominant
+trafﬁc which particularly generates bursty trafﬁc volumes.
+1
+
+Sending information from M2M devices to base station.
+
+123
+
+Logist. Res. (2016) 9:15
+
+AdopƟon of M2M technology in industry – 2015
+
+Energy and UƟliƟes
+AutomoƟve
+
+Retail
+
+19%
+
+17%
+
+Consumer electronics
+
+37%
+32%
+
+28%
+29%
+
+e-healthcare
+LogisƟcs
+
+32%
+
+Manufacturing
+
+Fig. 1 An illustration of leading industries adoption M2M technology worldwide, based on the Vodafone report 2015 [8]
+
+Besides, it also exhibits unique characteristics such as an
+increasing device volume, sending small payloads, the
+demand for various mobility proﬁles, time-controlled, and
+mainly delay tolerant. Since the spectrum for mobile networks will remain a scarce resource, efﬁcient utilization of
+radio spectrum is one of its major requirements. Therefore,
+the objective of this paper is to exploit LTE-Advanced RNs
+to multiplex small-sized M2M data packets in order to
+ensure efﬁcient LTE-Advanced radio resource utilization
+and thus to support a large number of devices.
+The rest of the paper is structured as follows. We ﬁrstly
+present an overview of the leading communication technologies used in ITS and logistics, followed by a generic
+overview of the two latest technologies, i.e., the Institute of
+Electrical and Electronics Engineers (IEEE) 802.11p and
+3GPP LTE-Advanced in Sect. 2. An overview of major
+M2M services in ITS and logistics are discussed in Sect. 2.
+Then, we discuss problem deﬁnitions by highlighting how
+LTE-Advanced resources can be used inefﬁciently by
+smart M2M devices in Sect. 3. Section 4 presents the
+proposed uplink M2M data multiplexing scheme [13]. The
+simulation environment and parameter settings are presented in Sect. 5. We discuss our simulation results in
+Sect. 6. In the end, conclusions are drawn in Sect. 7. In
+addition, a list of most frequently used acronyms is presented in Table 1.
+
+2 Mobile M2M communications
+This section presents an overview of ETSI (European
+Telecommunications Standards Institute) M2M architecture followed by the major M2M use cases and services in
+transportation and logistics.
+2.1 ETSI M2M architectural overview
+The high-level ETSI M2M network architecture is shown
+in Fig. 2 [14]. The major components of mobile M2M
+communication architecture include the device, communication as well as server domains. The primary functionality
+
+Table 1 List of used abbreviations
+Abbreviation
+
+Acronym
+
+MAC
+
+Medium Access Control
+
+MME
+
+Mobility Management Entity
+
+PHY
+
+Physical Layer
+
+PRB
+
+Physical Resource Block
+
+QCI
+
+QoS Class Identiﬁers
+
+RLC
+
+Radio Link Control
+
+RRC
+
+Radio Resource Control
+
+SAE
+
+System Architecture Evolution
+
+S-GWs
+
+Serving Gateways
+
+SGSN
+
+Serving GPRS Support Node
+
+TTI
+WLAN
+
+Transmission Time Interval
+Wireless Local Area Network
+
+WPAN
+
+Wireless Personal Area Network
+
+WSN
+
+Wireless Sensor Network
+
+as the internal temperature and humidity level of a container, position and speed of a vehicle, and fuel consumption. The role of the communication network is to
+create a communication path between the devices and
+servers through either wired or wireless networks such as
+Digital Subscriber Line (DSL) and cellular networks (e.g.,
+LTE-Advanced), respectively. Finally, the server domain
+consists of a middleware layer where the collected packets
+go through several application services and later are used
+by related agencies. Thus, M2M technology employs
+wired, wireless, and hybrid communication opportunities
+among devices to ensure a fully automatic acquisition,
+processing, and transmission of data. Thus, M2M represents a broad next-generation technology that is primarily
+incorporated in modern automobile industries to improve
+the ease, safety, and quality of human life. The wired
+access technologies provide less delay, high throughput
+and are more reliable. Despite the aforementioned capabilities, wired systems cannot be used in transport and
+logistical systems due to several limitations such as lack of
+scalability, cost efﬁciency, and mobility. However, abovementioned limitations can be overcome by incorporating
+wireless (cellular) technologies to achieve maximum system efﬁciency and reliability.
+Recently, the key emerging wireless technologies used
+in modern transport and logistical systems include IEEE
+802.11p [15] (standardized to support vehicular communication) and 3GPP2 LTE-Advanced mobile networks [16].
+IEEE 802.11p is achieved by making few advancements in
+well-known 802.11 Wireless Local Area Network (WLAN)
+technology. It is also considered as the most feasible
+2
+
+3rd Generation Partnership Project—3GPP—is the leading standardization organization for mobile networks.
+
+15
+
+technology for Vehicular Ad hoc Networks (VANET).
+IEEE 802.11p wireless access introduces minimum delay
+in ITS. However, its employment is limited due to its
+decentralized nature. The recent research has revealed that
+maximum operating efﬁciency of IEEE 802.11p can be
+achieved by supporting it with the LTE-Advanced mobile
+networks. The main features of LTE-Advanced technology
+include wide availability of modules/devices, system
+existence, decreased costs as well as easy deployment.
+Since the cellular modules and sensors are easily available,
+e.g., in vehicles, the applications of LTE-Advanced mobile
+networks are dramatically increasing in automotive sector.
+The authors in [16–18] compared the performance of
+two different technologies under varying channel and
+trafﬁc load conditions. Moreover, several issues due to
+decentralized nature of IEEE 802.11p are highlighted in
+[16]. For instance, the main shortcomings are less reliability due to uncoordinated Medium Access Control
+(MAC) procedures, risk of network congestion, higher
+vehicle mobility, and low scalability. Moreover, the number of network-connected vehicles adversely affect the
+performance of the standard system. On the other hand,
+LTE-Advanced networks are more reliable, scalable, and
+capable of supporting higher density of vehicles. In addition, the authors analyzed the performance of the above
+technologies in terms of delay, reliability, scalability, and
+mobility support. The authors concluded that 3GPP LTEAdvanced systems are more efﬁcient in terms of high
+scalability and mobility support than IEEE 802.11p standard. However, it is further concluded that the performance
+of IEEE 802.11p is more sensitive during increased density, trafﬁc load, and higher mobility.
+2.2 M2M use cases
+Mobile M2M communication offers manifold applications
+and services in modern transport and logistical processes
+such as onboard security, trafﬁc and infrastructure management, ﬂeet management, and route planning [19]. In
+case of an emergency, the collected data are sent to other
+vehicles as well as infrastructure to gain immediate attention. To avoid further incidents, communication between
+the infrastructure and the vehicles must be very fast to
+detect emergency messages and deliver warning messages
+immediately. Similarly, trafﬁc and infrastructure management play a prominent role in handling the problem of road
+congestion. It tackles the problem by providing two-way
+communication opportunities between vehicles and
+infrastructure. Vehicles can send status updates about the
+position, speed, fuel consumption, and delivery status
+reports to the infrastructure and can also receive relevant
+instructions about road accidents and emergency braking
+system [20]. Moreover, M2M communications support
+
+
+Logist. Res. (2016) 9:15
+
+Backend server (e.g.,
+transportaƟon
+control center)
+Gateway
+
+DeNB: Donor eNB
+Downlink:
+Uplink:
+
+Mobile communicaƟon
+domain (e.g., LTEAdvanced)
+DeNB
+
+ApplicaƟon domain
+(e.g., ITS and
+logisƟcs)
+
+DeNB
+
+DeNB
+
+DeNB
+Smart sensors deployed to
+monitor temperature, humidity,
+pressure, power, water, etc.
+
+Inventory
+
+Accidental/emergency
+uplink informaƟon
+
+Downlink informaƟon
+unicast/broadcast to
+all devices (vehicles)
+
+Vehicles cross talk for on-board
+security, status update, ﬂeet
+management, etc.
+
+Warehouse management
+(monitoring all sensors deployed
+for various metering operaƟons)
+
+Fig. 2 ETSI mobile M2M communication architecture along with an overview of major M2M applications in intelligent transportation and
+logistics, based on [14]
+
+several operations such as tracking of a stolen vehicle,
+trafﬁc reports, and route planning as well as infotainment
+services [6]. For instance, to recover a stolen vehicle, SVT
+(Stolen Vehicle Tracking) service providers request data
+about the location from Telematic Control Unit (TCU)
+located inside the vehicle. In addition, drivers are also
+updated by sending reports regarding trafﬁc in a particular
+region so that they can change or plan new routes in case of
+trafﬁc jam or an emergency. Furthermore, infotainment
+services aim to provide news/information to drivers and
+passengers through mobile TV, web-browsing, etc.
+Fleet management is also one of the major M2M
+applications in logistics [9]. The movements of vehicles,
+containers, buses, and cars are being tracked regularly
+through devices which collect data of the location, vehicle
+speed, temperature, distribution progress, fuel consumption
+and send this information to monitoring servers. Through
+regular monitoring, several activities of the system can be
+performed in an efﬁcient way. For instance, the goods
+which are transported from one place to another are monitored regularly in order to accomplish in time delivery and
+to handle any undesirable situation during shipment processes. The cargo moves across several regions; therefore,
+it must be monitored in order to stay updated. Moreover,
+reporting gives the exact location of the freight, and thus
+the conditions of the objects can be easily monitored. In
+applications such as warehouse management, ﬂeet management, robotics, and control systems, alarms are also
+used to detect critical or emergency situations.
+
+123
+
+In addition to the above applications, M2M communication provides additional services in logistics such as
+decreased operational cost, high inventory ﬂexibility,
+increased supply chain visibility, and reduced loss of
+vehicles and containers [21]. In supply chains, M2M
+technology enables tracking the status of goods in real-time
+via M2M devices. This increasing visibility allows for
+signiﬁcant reduction in uncertainties in supply chain [22].
+Similarly, in a warehouse, M2M devices can be deployed
+to track the inventory so that stockholders and enterprises
+can respond to the market dynamics and to decide when to
+reﬁll and when to go on sale. Moreover, cross talk among
+vehicles can also be effective to get immediate assistance.
+Additionally, direct delivery of inventory from one vehicle
+to another without storing it in a warehouse can also be
+accomplished through mutual information sharing. Consequently, it can signiﬁcantly reduce the required space of
+warehouse, customer’s waiting time as well as the operational costs for business entities.
+
+3 Problem descriptions
+Mobile systems such as LTE-Advanced are mainly
+designed to support the increasing traditional mobile trafﬁc
+by enabling improved broadband services [23]. For
+instance, Ericsson in its mobility report [24] anticipates
+Zero padding (%)
+
+80.00
+70.00
+60.00
+50.00
+40.00
+30.00
+20.00
+10.00
+0.00
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+15
+
+values, e.g., 20–26 representing favorable channel conditions, the capacity of the PRB increases. However, small
+packets with increasing percentage of padded zeros are
+transmitted. This shows that more packets can be accommodated per PRB under favorable channel conditions in
+the given exemplary scenarios. Since mobile radio
+resources are valuable assets and scarcely available, it is
+required to ensure efﬁcient utilization of radio resources for
+M2M communications.
+
+Device payload (%)
+
+90.00
+
+UƟlizaƟon/PRB in %
+
+Page 5 of 11
+
+12
+
+14
+
+16
+
+18
+
+20
+
+22
+
+24
+
+26
+
+MCS Index
+
+4 Proposed M2M data multiplexing
+Fig. 3 An example illustration of inefﬁcient PRB utilization for
+M2M communication
+
+massive mobile trafﬁc, several enhancements in existing
+LTE systems [25] such as Relay Nodes (RNs) [26], massive Multiple Input–Multiple Output (MIMO) systems
+[27], and femto cells [28] were introduced to fulﬁll the
+IMT-Advanced (International Mobile Telecommunications
+Advanced) demands of maximum throughput of upto 1
+Gbps in downlink and 500 Mbps in uplink [29]. On the
+other hand, mobile standards are foreseen as an attractive
+option to support future M2M applications such as in
+transportation, logistics, smart city, and living [2]. Several
+forecasts have also reported a considerable market growth
+for M2M device volume, making quality of service provisioning a huge challenge [10]. Consequently, mobile
+networks will not be able to support the increasing number
+of M2M devices worldwide [30].
+According to 3GPP, the smallest unit of the radio
+spectrum allocatable to a single device is 1 PRB3 which is
+capable of transmitting several hundred bits under favorable channel conditions. However, allocating 1 PRB to a
+single M2M device used in transportation/logistics could
+signiﬁcantly degrade radio spectrum utilization
+[13, 19, 31]. This is due to the fact that the capacity of a
+PRB can be much higher than the actual size of the device
+payload under favorable channel conditions. Figure 3
+illustrates how inefﬁciently a PRB can be utilized when a
+device sends small-sized packets when experiencing good
+channel conditions. An exemplary device payload of 4
+bytes is considered in order to evaluate the utilization of a
+PRB against all the possible values of the Modulation and
+Coding Scheme (MCS). A PRB utilization efﬁciency is
+evaluated in terms of percentage of the actual payload and
+the padded zeros with respect to MCS index. It can be seen
+from Fig. 3 that with the lower MCS values depicting
+unfavorable channel conditions, the PRB capacity is
+smaller, and therefore, it is fully utilized to transmit the
+given payload. On the other hand, with the higher MCS
+3
+
+Physical Resource Block.
+
+In the proposed data multiplexing scheme, the small-sized
+M2M data packets are multiplexed at the Packet Data
+Convergence Protocol (PDCP) layer of the RN. A highlevel illustration of E-UTRAN (Evolved UMTS Terrestrial
+Radio Access Network) architecture with the functionalities of LTE-Advanced relaying is depicted in Fig. 4. The
+RN communicates with devices using access link (Uu),
+whereas it communicates with DeNB using backhaul link
+(Un). Thus, it behaves like an eNB toward the M2M
+devices, whereas it acts as a UE toward the DeNB.
+The RN PDCP is selected to aggregate M2M packets in
+order to maximize the multiplexing gain. This increasing
+multiplexing gain is achieved without aggregating the
+additional overheads such as those from the PDCP, Radio
+Link Control (RLC), and Medium Access Control (MAC).
+A high-level illustration of the proposed scheme is given in
+Fig. 5. Generally, the PDCP layer is a part of LTE air
+interface control and user plane protocols. It exists in the
+UE, Donor eNB (DeNB), and in the RN. The major
+functionalities of PDCP layer for the user plane include
+header compression and decompression, user data transfer,
+delivery of upper layer Packet Data Units (PDUs) in
+sequence, and retransmission of PDCP Service Data Units
+(SDUs). Moreover, the control plane services include
+ciphering and integrity protection and transfer of control
+plane data. The proposed multiplexing scheme can also be
+applied at the lower layers of the RN such as RLC and
+MAC on the Uu interface or in the PDCP of Un interface.
+However, in these cases, the multiplexing gain will be
+reduced due to the multiplexing of additional headers along
+with the original small-sized data packets [13].
+A multiplexing buffer is created at the RN PDCP layer
+which multiplexes the incoming packets according to the
+available service rate which is equal to Transport Block
+Size (TBS)—RN Un protocol overheads in terms of bits
+per TTI, as shown in Fig. 5. The Un protocol overhead
+includes 12, 28, and 4 bytes for GTP (GPRS Tunneling
+Protocol), UDP (User Datagram Protocol)/IP, and layer 2,
+respectively. The multiplexed packet is sent to the RN GTP
+over the Un link. The additional overheads such as from
+
+
+Logist. Res. (2016) 9:15
+
+ApplicaƟon
+server
+
+Serving
+gateway
+(S-GW)
+
+Overcoming
+shadowing problems
+
+(DeNB) (RN)
+
+Un
+
+Uu
+
+Un
+
+(M2M)
+
+Uu
+
+Un
+
+Uu
+
+Hotspot coverage for ITS and
+logisƟcal operaƟons
+
+Coverage extensions
+Fig. 4 An illustration of LTE-Advanced relaying technology. Re-drawn based on [26])
+
+ApplicaƟon
+TCP/UDP
+
+GTP
+
+UDP
+
+IP
+
+IP
+
+PDCP
+
+PDCP
+
+PDCP
+
+RLC
+
+RLC
+
+IP
+
+RLC
+
+GTP
+
+UDP
+
+λN
+
+λ1 λ2 λ 3
+PDCP
+RLC
+
+UDP
+
+IP
+
+IP
+
+GTP
+
+UDP
+
+MUX
+
+GTP
+
+RLC
+
+IP
+
+Layer 2
+MAC
+
+MAC
+
+MAC
+
+MAC
+
+MAC
+
+PHY
+
+PHY
+
+PHY
+
+PHY
+
+PHY
+
+M2M device
+
+RN
+
+DeNB
+
+PHY
+
+aGW
+
+Fig. 5 A high-level illustration of the proposed multiplexing scheme along with protocols stack of the M2M device, RN, and DeNB
+
+the GTP, UDP/IP, PDCP, and RLC are added. The block
+diagram of the data differentiating algorithm at the DeNB
+is given in Fig. 6. From the physical layer of the RN, the
+multiplexed packets are sent to the DeNB over the Un
+interface, as depicted in Fig. 5.
+The multiplexing approach signiﬁcantly improves PRB
+utilization. However, there are certain constraints regarding
+latency requirements of high priority M2M trafﬁc such as
+accidental information, emergency alerting, and e-health.
+This is due to the fact that each packet waits until the size
+of the buffer B is equal to the available TBS—RN Un
+protocol overheads. In a highly loaded scenario, the waiting time is not long due to a high arrival rate. However, in a
+
+123
+
+low loaded scenario, there is a comparatively longer delay
+due to the low arrival rate. Consequently, the performance
+of delay sensitive M2M applications can be degraded. To
+tackle this issue, an expiry timer, Tmax is introduced. The
+timer is set with a ﬁxed value such as 10 ms in the current
+implementation. This means that the buffer serves the
+multiplexed packet after 10 ms at the latest. The value of
+the timer could also be adaptive, i.e., it can change its value
+according to priorities of the incoming packets. For this
+purpose, the algorithm must be fully aware of various
+priorities of M2M applications.
+In this work, a ﬁxed RN is implemented and used to
+
+15
+
+Start
+Router
+
+Packet arrival at the PDCP layer
+of the DeNB
+
+DeNB
+
+Remote
+server
+
+Backhaul link
+
+Access
+gateway
+
+Access link
+RN
+
+Identify the destination IP of the
+received packet
+
+If
+(incoming packet IP ==
+DeNB IP)
+
+X2
+
+False The received packet belongs
+to the standalone user
+n
+M2M devices
+
+True
+
+Send the packet to GTP-U
+
+The received packet belongs
+to the RN
+
+Send to GTP-U via IP and
+UDP
+
+Fig. 7 Project editor of the LTE-Advanced-based model developed
+in the RIVERBED Modeler simulator
+
+•
+•
+
+The overall service rate is l ¼ lPRB Â 5ðPRBsÞ b/s.
+So, the system utilization q can be given as
+Utilization;
+
+Tunnel each packet again
+and route towards aGW
+
+•
+
+q¼
+
+Arrival rate k
+¼
+Service rate l
+
+ð1Þ
+
+Utilization;
+
+De-tunnel to extract the
+original transmitted
+standalone packets
+
+q¼
+
+N Â 656
+321600
+
+ð2Þ
+
+Moreover, the maximum number of devices served can
+be given as follows,
+Nmax ¼
+
+end
+
+q Â 321600
+656
+
+ð3Þ
+
+Fig. 6 Block diagram of the data differentiating algorithm at the
+DeNB
+
+5 Simulation model and parameters
+in ITS and logistics (i.e., for onboard security and
+metering purposes). The position of the RN corresponds
+to an MCS of 16, whereas 5 PRBs are allocated to RN to
+serve M2M trafﬁc. The given values of MCS and PRBs
+correspond to TB size of 1608 bits per TTI. Since a TTI
+is of 1-ms duration, the TB size can also be given as
+1608000 bits/s. According to the 3GPP standardizations,
+the capacity of a single PRB varies according to the
+MCS. Therefore, under the given values of MCS and
+PRBs, 321 bits per TTI or 321000 bits/s can be sent
+within a single PRB. In general, the system utilization, q
+can be determined in terms of the arrival rate, k and the
+service rate, l. Additionally, the maximum number of
+served devices, Nmax can be determined according to the
+following procedure,
+•
+•
+•
+
+The size of the each transmitted M2M packet per
+second is Psize ¼ 656 bits.
+The arrival rate k due to N number of devices is
+ðN Â 656Þb=s.
+The service rate per PRB is lPRB ¼ 321000 b/s.
+
+The Optimized Network Engineering Tool (OPNET)
+Modeler which is newly named as RIVERBED Modeler is
+used as a primary modeling, simulation, and analysis tool
+for this research. It provides a simulation environment for
+the performance measurements of communication networks [32]. The project editor of the LTE-Advanced-based
+model developed in the simulator with several nodes along
+with LTE-Advanced functionalities and protocols is shown
+in Fig. 7. Additionally, an RN is implemented and placed
+within the coverage of DeNB to relay and multiplex M2M
+data trafﬁc. The DeNB is responsible to connect UEs/M2M
+devices with the transport network, thus includes both radio
+interface and transport protocols to communicate with
+UEs/M2M devices and the core network, respectively. The
+radio protocols trafﬁc coming from aGW toward the RN.
+The remote server and the aGW (access gateway) are
+interconnected with an Ethernet link with an average delay
+of 20 ms. Moreover, aGW acts as the tunneling point for
+the downlink and uplink trafﬁc coming from PDN-GW and
+DeNB, respectively. The aGW node protocols include the
+
+
+Logist. Res. (2016) 9:15
+
+Table 2 Simulation parameters
+Parameters
+
+Values
+
+Simulation length
+
+1000 s
+
+eNB coverage radius
+
+350 m
+
+Min. eNB UE distance
+
+35 m
+
+Max terminal power
+
+work. Later, we discuss our simulation results in detail with
+varying load conditions. In this work, we consider M2M
+devices used in ITS and logistics in order to generate
+uplink trafﬁc.
+
+23 dBm
+
+Terminal speed
+
+120 km/h
+
+Mobility model
+
+Random way point (RWP)
+
+Frequency reuse factor
+
+1
+
+Transmission bandwidth
+
+5 MHz
+
+No. of PRBs
+
+25
+
+MCS
+
+QPSK, 16QAM, 64QAM,
+
+Channel models
+Path loss
+
+Pathloss, slow fading, fast fading
+128:1 þ 37:6 log10 ðRÞ, R in km
+
+Slow fading
+
+Log-normal shadowing, correlation
+1, deviation 8 dB
+
+Fast fading
+
+Jakes-like method [33]
+
+RN parameters
+PRBs for RN
+
+5
+
+Corresponding MCS
+
+16
+
+TBS
+
+1608 bits
+
+Simulated scenarios
+
+No multiplexing, multiplexing
+without timer, and multiplexing
+with timer
+
+Timer expiry values
+
+10 ms (Sect. 6.2)
+
+Timer expiry values
+
+5, 10 and 20 ms (Sect. 6.3)
+
+Type of RN
+
+Fixed
+
+M2M Trafﬁc model [34]
+Message size
+
+1 s (constant)
+
+The scenarios are simulated according to three major categories, i.e., no multiplexing, multiplexing without timer,
+and multiplexing with timer. In the ﬁrst category, M2M
+data packets are relayed in uplink without multiplexing. In
+the second category, the data packets from all the active
+devices are multiplexed at the RN before being sent to the
+DeNB. However, in this category, no expiry timer is considered to control the multiplexing process, and the multiplexed packet is served when its size is large enough to
+utilize full capacity of the available spectrum. In the third
+category, an expiry timer is introduced in order to limit the
+multiplexing delay especially in the low loaded scenarios.
+In this case, the multiplexed packet is served after Tmax at
+the latest. Each category is further divided into several
+scenarios. The scenarios are simulated for both load conditions (i.e., low and high). In the low loads, the number of
+devices, N, is kept 200 in the ﬁrst scenario. The value of
+N is incremented by 200 in the subsequent scenarios till the
+limiting case, i.e., when all 5 PRBs are fully utilized. In
+high loads, 28004 devices are placed in the ﬁrst scenario,
+and the number is also incremented by 200 in the subsequent scenarios.
+
+38 bytes (constant) at the device PDCP
+
+Inter-send time
+
+6.1 Simulation scenarios description
+
+Internet Protocol (IP) and Ethernet. The aGW and DeNB
+nodes (names as eNB1..) communicate through IP routers
+(R1..). QoS parameters at the Transport Network (TN)
+ensure QoS parameterization and trafﬁc differentiation.
+The user movement in a cell is emulated by the mobility
+model by periodically updating the location of the user.
+The user mobility information is stored in the global user
+database (Global-UE-List). The channel model parameters
+for the air interface include path loss, slow fading, and fast
+fading models. In this paper, the simulation modeling
+mainly focuses on the user plane to perform E2E performance evaluations. Furthermore, Table 2 presents a
+detailed description of simulation parameters and settings.
+
+6.2 Simulation results
+The simulation results for the mean number of used PRBs
+with 95 % conﬁdence interval (CI) are illustrated in Figs. 8
+and 9 for the low and high load conditions, respectively.
+The values of the upper and lower bound of CI are very
+small in most of the scenarios as shown in Figs. 8 and 9.
+These PRBs are used by RN to transmit the multiplexed
+data toward the DeNB.
+The simulation results clearly show the efﬁcient utilization of PRBs in uplink with the proposed multiplexing
+scheme. For instance, in the no multiplexing scenario with
+400 devices, the arrival rate at the PHY layer of the RN is
+262.4 bit/TTI which almost utilize 1 PRB. However, in the
+case of multiplexing, only half of the PRBs are used to
+serve the 400 devices, see Fig. 8. Similarly, without multiplexing, the RN serves nearly 2400 devices with 5 PRBs
+in uplink, which is actually the limiting case as shown in
+
+6 Results and discussion
+4
+
+This section investigates the performance of the proposed
+multiplexing scheme in the low and high loaded scenarios.
+We ﬁrstly describe all scenarios which are simulated in this
+
+123
+
+5 PRBs are allocated to RN in order to serve M2M devices. These
+PRBs are fully utilized when the number of devices is raised to 2600
+without multiplexing. So the high load scenarios start with 2800
+
+Mean PRBs used
+
+4.00
+
+15
+
+0.03
+
+No mulƟplexing
+
+No mulƟplexing
+
+MulƟplexing without Ɵmer
+
+Mean E2E delay [s]
+
+5.00
+
+Page 9 of 11
+
+MulƟplexing with Ɵmer
+
+3.50
+3.00
+2.50
+2.00
+1.50
+
+MulƟplexing without Ɵmer
+0.02
+
+MulƟplexing with Ɵmer
+
+0.01
+
+1.00
+0.50
+
+0.00
+200 400 600 800 1000 1200 1400 1600 1800 2000 2200 2400 2600
+
+0.00
+
+M2M devices
+
+200 400 600 800 1000 1200 1400 1600 1800 2000 2200 2400 2600
+
+M2M devices
+
+Fig. 8 A comparison of mean PRBs used with and without data
+multiplexing in low loaded scenarios. Tmax ¼ 10 ms
+
+Fig. 10 A comparison of packet mean E2E delay in low loaded
+scenarios. Tmax ¼ 10 ms
+
+0.03
+
+4.50
+
+Mean PRBs used
+
+4.00
+3.50
+3.00
+
+No mulƟplexing
+
+2.50
+
+MulƟplexing without Ɵmer
+
+2.00
+
+Mean E2E delay [s]
+
+5.00
+
+No mulƟplexing
+MulƟplexing without Ɵmer
+MulƟplexing with Ɵmer
+
+0.02
+
+0.01
+
+MulƟplexing with Ɵmer
+
+1.50
+0.00
+
+1.00
+
+2800
+
+0.50
+
+3000
+
+3200
+
+3400
+
+3600
+
+3800
+
+4000
+
+4200
+
+4400
+
+M2M devices
+
+0.00
+2800
+
+3000
+
+3200
+
+3400
+
+3600
+
+3800
+
+4000
+
+4200
+
+4400
+
+M2M devices
+
+Fig. 9 Comparing simulation results of mean PRBs used with and
+without data trafﬁc multiplexing in high loaded scenarios.
+Tmax ¼ 10 ms
+
+Fig. 8. However, in case of multiplexing, the number of
+devices served by the RN nearly doubles, i.e., approximately 4200 devices are served as depicted in Fig. 9. This
+is due to the fact that in the case of no multiplexing, each
+data packet contains an additional Un air interface overhead of GTP, UDP, IP, and layer 2. The additional overhead causes an extra PRB usage and overall reduces the
+PRB utilization efﬁciency. Moreover, in low loaded scenarios such as with 200 devices (see Fig. 8), the average
+number of PRBs used is slightly higher in the case of
+multiplexing with timer. This is due to the fact that the RN
+serves the trafﬁc at the latest after 10 ms, and thus, the PRB
+is not necessarily used with its maximum capacity due to
+the low arrival rate. However, in high load scenarios, the
+timer has almost no impact, and a nearly equal number of
+PRBs is used with and without timer.
+Figures 10 and 11 show the simulation results of the
+mean packet E2E delay in low and high load scenarios,
+respectively. The results show that the value of packet E2E
+
+Fig. 11 Comparing packet mean E2E delay in high loaded scenarios
+with timer expiry, Tmax ¼ 10 ms
+
+delay is higher in the case of multiplexing for low loads as
+shown in Fig. 10. This increase in delay time is due to less
+arriving packets especially in the low loaded scenarios. The
+buffer aggregates packets until its size plus the additional
+Un overhead is equal to the available TBS. However, the
+use of an expiry timer limits the delay by serving the
+aggregated packets at the latest after 10 ms. On the other
+hand, in high loaded scenarios, the E2E delay is slightly
+higher compared to the case of no multiplexing, see
+Fig. 11. This is due to high arrival rate and the buffer
+aggregates the incoming packets to make a large aggregated packet within less time. Moreover, the value of the
+E2E delay is very large in fully loaded scenarios as
+depicted in Fig. 10, when the RN utilizes all 5 PRBs with
+the maximum capacity.
+6.3 Impact of timer expiry on data multiplexing
+In this section, we investigate the impact of timer expiry,
+Tmax on mean PRB utilization and E2E delay by varying
+input trafﬁc. However, we only consider low loaded scenarios due to the fact that the timer expiry has almost no
+
+1.40
+
+Tmax = 05 ms
+Tmax = 10 ms
+Tmax = 15 ms
+
+1.20
+
+Mean PRBs used
+
+Logist. Res. (2016) 9:15
+
+1.00
+0.80
+0.60
+0.40
+0.20
+0.00
+100
+
+200
+
+300
+
+400
+
+500
+
+600
+
+700
+
+800
+
+900
+
+1000
+
+M2M devices
+
+Fig. 12 A comparison of packets mean E2E delay
+
+0.010
+
+Tmax = 05 ms
+
+Mean E2E delay [s]
+
+0.009
+
+Tmax = 10 ms
+
+0.008
+
+Tmax = 15 ms
+
+0.007
+0.006
+0.005
+0.004
+0.003
+0.002
+0.001
+
+average, as it allows more packets to be multiplexed before
+timer expiry. Resultantly, it increases the multiplexing
+gain. Additionally, it is further noted that larger values of
+Tmax has almost no affect on PRBs used in the case of high
+loads. For instance, when N ¼ 1000, the average values of
+PRBs used are 1.219 and 1.213 for the maximum waiting
+time of 10 and 15 ms, respectively.
+Similarly, Fig. 13 compares the simulation results of the
+mean E2E delay for the given timer expiry values. As
+discussed in the beginning, the larger values of waiting
+time, Tmax , increase the mean packet E2E delay, particularly in the low loaded scenarios. However, the effect
+reduces with the larger values of N . For instance, in the
+low loaded scenario when N ¼ 100, the given values of
+maximum waiting time introduce a mean E2E delay of
+0.0045, 0.0070, and 0.0095 ms, respectively. Since the
+effect of timer on the multiplexing process decreases due to
+the increasing arrival rate, the mean E2E delay values are
+reduced to 0.00368, 0.00416, and 0.00419, respectively, for
+N ¼ 1000. Furthermore, it is noted that the values of mean
+E2E delay for Tmax of 10 and 15 ms are almost similar.
+Moreover, the impact of timer expiry completely vanishes
+when input trafﬁc load is increased beyond 1000, as discussed earlier in Figs. 10 and 11.
+
+0.000
+100
+
+200
+
+300
+
+400
+
+500
+
+600
+
+700
+
+800
+
+900
+
+1000
+
+M2M devices
+
+Fig. 13 A comparison of packets mean E2E delay
+
+affect on PRB utilization and mean E2E delay in high
+loaded scenarios in the multiplexing process, as discussed
+earlier in Figs. 10 and 11. In general, the mean value of
+used PRBs decreases and E2E delay increases for larger
+values of the timer expiry. Additionally, this trade-off is
+heavily dependent on the arrival rate, as discussed earlier.
+In this work, 10 scenarios are simulated in order to
+evaluate the impact of timer expiry on the multiplexing
+process. In the ﬁrst scenario, 100 M2M devices are considered to generate input trafﬁc. The number of devices is
+incremented by 100 in the subsequent scenarios. The above
+scenarios are simulated for the timer expiry values of 5, 10,
+and 15 ms. The simulation results of mean number of used
+PRBs and E2E delay are compared for the given values of
+maximum waiting time. Figures 12 and 13 compare the
+simulation results of mean PRB utilization and E2E delay,
+respectively. Figure 12 shows that less PRBs are used in
+the case of larger values of Tmax , when the arrival rate is
+kept constant. For instance, in the ﬁrst scenario with
+N ¼ 100, average numbers of PRBs used are 0.48, 0.27,
+and 0.20 for the timer expiry values of 5, 10, and 15 ms,
+respectively. It shows that for the larger values of maximum waiting time, less number of PRBs is used on
+
+123
+
+7 Conclusion
+The latest 3GPP LTE-Advanced networks have primarily
+focused on dominating non-cellular technologies to support
+M2M applications also in the future. Since automotive
+applications and logistical processes demand wide coverages, increased data rates, high reliability, and low costs,
+LTE-Advanced is considered as the ready-to-use technology to fulﬁll the future M2M service requirements. Nevertheless, the major challenge is to support the myriad of
+devices sending small-sized data and thus inefﬁciently
+utilizing radio resources (PRBs). Since the spectrum for
+mobile networks will remain a scarce resource, new concepts for new trafﬁc type demand careful planning and
+evaluation. In this paper, the data multiplexing scheme is
+proposed to overcome the risk of inefﬁcient PRB utilization for mobile M2M trafﬁc. Our results show that
+approximately 40 % more M2M devices in ITS and
+logistics are served under the present system settings as
+compared to the state of the art without the use of multiplexing approach. Additionally, the QoS provisioning of
+the M2M trafﬁc is ensured by considering an expiry timer
+which minimizes the multiplexing delays especially in low
+loaded scenarios. More importantly, approximately 60 %
+of PRB utilization is improved for a maximum timer expiry
+value of 15 ms especially in low loaded scenarios. Thus,
+very useful scheme for network operators as well as service
+providers.

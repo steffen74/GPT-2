@@ -1,0 +1,9651 @@
+Lat Am Econ Rev (2016) 25:2
+DOI 10.1007/s40503-016-0032-3
+ORIGINAL RESEARCH
+
+Production risk and adoption of irrigation technology:
+evidence from small-scale farmers in Chile
+
+
+Since the green revolution, agriculture in developing countries has experienced a
+technological transformation process principally driven by an increasing demand for
+agricultural products. It has triggered a massive increase in the adoption of new
+technologies, such as the use of chemical inputs, pesticides, traditional irrigation,
+and high-yielding seed varieties, with signiﬁcant beneﬁts in terms of productivity
+and poverty reduction (Evenson and Gollin 2003). However, concerns have lately
+been raised on the grounds of sustainability, as the intensive use has consequences
+for environment and human health (Ruttan 2002).
+The adoption of traditional irrigation methods has shown to be beneﬁcial to
+reduce farmers’ vulnerability to weather conditions, making production and
+incomes more stable. However, traditional irrigation has also increased the pressure
+on water reservoirs and created pollution problems.1
+The aim of this paper is to study the effect of production risk on irrigation
+technology choices and discuss adoption of modern irrigation in settings where most
+rural households depend exclusively on rainfall for water supply. This is a particular
+feature in developing countries and zones characterized by abundance of
+precipitation.2 We argue that the latter may give rise to potential sample selection
+problems in irrigation choices, which needs to be considered when analyzing the
+association between production risk and farm technology adoption. For modeling
+these irrigation choices, we as an example use agricultural census data of potato
+family farmers in Chile.
+Chile has the challenge to transform the Chilean agricultural sector into a worldwide agricultural production and food powerhouse (MINAGRI 2006). However,
+such a transformation process requires incorporating small holder family farmers
+into productive agricultural units not only serving themselves (home-production)
+but as integrated highly productive active agents contributing to the achievement of
+this objective. The Agricultural Development Institute (ADI) has continually
+provided technical support to the family agriculture in areas such as investment in
+human and productive capital, credit provision, access to markets, recuperation of
+eroded soil and irrigation. In spite of this effort and progress observed in the last
+decade, the technological gap between large and small-scale farmers persists. For
+example, 89 % of total land under modern irrigation systems is held by larger
+farmers (FAO 2009). This fact is what motivates this study to analyze the factors
+explaining the slow adoption process among small-scale farmers, where the main
+focus is on the importance of differences in production risk faced by small versus
+large farmers.
+1
+
+Too much water poured on the ground by traditional irrigation systems may provoke a saturation
+process, making excess water ﬂow over the land along with pollutants derived from the remains of
+pesticides and fertilizers.
+
+2
+
+In the context of locations suffering from water scarcity, conﬂicting water use and insufﬁcient levels of
+investment in water supply infrastructure, the adoption of water-saving technologies arises as one
+alternative to increase efﬁciency in water use and minimize contamination problems. Furthermore, watersaving technologies contributes to enhance productivity and quality of production through a more uniform
+straight forward. Risk-averse farmers may not adopt modern irrigation if it raises
+production risk by increasing yield variability too much. In contrast, if the new
+technology has the potential to attenuate variability in economic outcomes, then it
+would be more rapidly adopted among risk-averse small scale farmers. Even though
+literature on adoption of modern irrigation technology is well-documented, there is
+little evidence concerning production risk and irrigation choices. Two exceptions are
+Koundouri et al. (2006) and Torkamani and Shajari (2008). Both studies ﬁnd support
+of a positive and signiﬁcant effect of production risk on adoption decisions, arguing
+that new irrigation technology is a risk-decreasing input. However, both studies were
+carried out in settings where the knowledge of irrigation beneﬁts is well-known and the
+new technology seems to show some degree of consolidation, which only allow to
+model changes from traditional to modern irrigation systems.
+In Chile the pre-conditions are different. Due to abundance of precipitation
+mainly in the southern territories in Chile, around 83 % of potato farmers do not use
+irrigation, which amounts to 66 % of registered farming land. Exploiting these
+differences in natural pre-conditions, we follow Foudi and Erdlenbruch (2012)
+applying a sample selection approach to study the risk-decreasing properties of
+irrigation under joint estimation of production and production risk. However, to our
+knowledge, no previous studies have extended this approach to the decision of
+shifting from conventional farming to modern irrigation technologies.
+Moreover, in light of the high drought risk observed in Chile understanding the
+underlying mechanisms of irrigation adoption is of fundamental value. Historically
+droughts are frequent and affect 25 % of the continental territory. Furthermore,
+climate change studies estimate an intensiﬁcation of aridity in the north zone,
+advances of the desert toward the south, and less precipitation in the central zone at
+the end of the 21st century (FAO 2010). Thus, the augment in temperature and
+decline in precipitation along with an increasing demand for water resources foresee
+a higher drought risk for the next decades. Therefore, improvements in water
+efﬁciency by the adoption of modern technology are likely to become essential to
+reduce the vulnerability of agriculture in the future.
+The rest of the article is organized as follows: Sect. 2 reviews the main
+arguments enhanced by literature as determinants of technology adoption. Section 3
+describes the empirical strategy and data used to carry out this study. Section 4
+presents the main results, and Sect. 5 concludes the article.
+
+2 Conceptual framework on adoption of new technology
+There is an extensive literature aimed at explaining the process of technology
+adoption.3 Lower adoption rates are generally associated with imperfections in credit
+markets, information, agro-ecological characteristics, input and output markets as
+3
+The determinants of modern irrigation have been examined by Caswell and Zilberman (1985), Negri
+and Brooks (1990), Shrestha and Gopalakrishnan (1993), Green et al. (1996), Skaggs (2001), Foltz
+mainly observed in developing countries (Feder et al.1985; Bardhan and Udry 1999).
+A key element relates to the reduced credit opportunities farmers face. Lack of
+access to credit in rural areas arises as a consequence of asymmetric information
+and enforcement problems in the lender-borrower relation. This is particularly
+augmented among small farmers in developing countries due to the lack of sufﬁcient
+collateral (Udry 1994). Thus, when innovations require signiﬁcant levels of
+investment, credit constraints may turn out to be a limiting factor in adoption
+decisions. In addition, as the diffusion of innovation is scarce and fails to reach
+potential users, farmers may face trouble in obtaining the maximum beneﬁt from
+shifting to modern technologies. The optimal use of new production methods
+involves adoption of new technologies to the local conditions, which implies a
+costly learning process (Foster and Rosenzweig 1995). Imperfect knowledge about
+the usage of new technology constitutes a barrier that delays the adoption process.
+Furthermore, it is expected that new technologies are more likely to be adopted in
+rural zones with better support infrastructure and localized near main commercial
+centers, in which the availability of both complementary inputs and maintenance
+services are more abundant (Sunding and Zilberman 2001). In addition, tenurial
+arrangements that characterize the landlord-tenant relationship and land rent
+contracts can affect adoption decisions. For instance, small farmers without land of
+their own and facing short-term land contracts are less probable to adopt innovations
+since they may be unable to enjoy the long-term beneﬁts of doing so (Bahduri
+1973). Finally, agro-ecological characteristics that capture environmental heterogeneity are essential to attain a better understanding of the process of adopting
+sustainable agricultural technologies (Dinar and Yaron 1990; Lee 2005). In
+particular, modern irrigation methods have a higher relative advantage in zones with
+lower land quality which lower water-holding capacity (Caswell and Zilberman
+1986; Dinar and Zilberman 1991).
+In relation to household characteristics, variables that control for differences in
+farm size, off-farm opportunities, human capital, and gender play an important role
+to capture the intra-household dynamic in explaining adoption levels (Doss 2006).
+One key factor less explored in literature is the role of risk in adopting new
+technology (Foster and Rosenzweig 2010). Rural households must deal with highincome ﬂuctuations as exposed to a variety of uncontrollable factors such as climate
+conditions, economic ﬂuctuations, policy uncertainty, and individual-speciﬁc
+shock4 (Bardhan and Udry 1999; Dercon 2002). In this context, decision making
+under uncertainty is characterized by risk because some possible outcomes have an
+undesired effect. If we assume farmers are risk averse, they would adjust their
+4
+
+First, climatic risk may trigger harvest failure as a result of occurrences of unexpected events from
+nature such as drought, ﬂood or frost. Second, the inherent volatility of the agricultural market explained
+mainly by ﬂuctuations in demand and supply generates another source of income variation via price
+uncertainty. Third, given the fact that farmers make most decisions in advance far before the ﬁnal product
+is sold in the market, prices are not known at the time choices regarding the production process are made.
+Fourth, the recurrent need that governments face to change the direction of agricultural policy produces a
+further risk component that enhances the uncertainty in investment decisions. Fifth, individual shock may
+arise, for instance, when households are hit by an illness or unexpected death of one of its members whose
+(Dercon 2002). However, when credit and insurance markets are absent or
+incomplete, poor farmers characterized by limited landholdings, few assets, and
+lower schooling face serious constraints to smooth consumption.5 Consequently, it
+is expected that farmers depend on ex-ante management strategies to smooth
+income, which would imply preferences for traditional technology with lower
+expected returns. It may be true for new irrigation methods that due to higher
+exigencies of knowledge in its use, adoption would raise the likelihood of failure in
+spite of higher expected beneﬁts. However, modern irrigation technology is also
+recognized for being a risk-decreasing input when reducing dependence on rainfall
+and water availability, which make yields more stable. Koundouri et al. (2006) and
+Torkamani and Shajari (2008) found a positive effect of production risk on
+switching from traditional to modern irrigation technology, supporting a riskdecreasing effect.
+
+3 Agricultural sector and family farming in Chile
+In this paper, we examine the effect of production risk on irrigation choices,
+focusing on a sample of family farmers in Chile among which modern irrigation is
+an incipient agricultural practice. The agricultural sector is important in Chile,
+accounting for 3.5 % of the Gross Domestic Product (GDP) and employing around
+12 % of the country’s labor force. More than 50 % of production is commercialized
+in international markets, which makes the sector highly dependent on world market
+prices. The sector beneﬁts from huge climate diversity, which allows an ample
+range of cropping activities. This agro-ecological diversity is considered one of the
+Chile’s main comparative advantages. Some major agriculture products consist of
+fruits, including grapes, apples, pears, peaches, and berries; horticulture, including
+garlic, onions, and asparagus; and cereal and tuber such as wheat, maize, and
+potatoes.
+Family agricultural production represents one-third of Agricultural Gross
+Domestic Product (AGDP) and contributes with 1.2 % of the GDP in Chile. In
+addition, this segment controls 85 % of the farms in the country, and generates
+60,000 direct and indirect jobs, beneﬁting 1.2 million of people. Furthermore,
+family agricultural producers are one of the main food suppliers in the country,
+providing around 60 % of food consumed in the domestic markets (INDAP 2011).
+Family farmers are characterized by being mainly involved in traditional farming
+activities such as annual crops, horticulture, and extensive cattle farming. They
+operate small plots at low levels of working capital and often face credit constraints.
+For simpliﬁcation, the Ministry of Agriculture deﬁnes family farmers as those
+holding 12 hectares or less of basic irrigation (HBI) (FAO 2009). We follow this
+deﬁnition in this paper.
+5
+
+Alternatively, poor farmers get involved in informal risk–coping mechanisms based on agreements
+made by members of the same group or community to support each other in the case of shocks. In
+addition, farmers also cope with risk by generating incomes from off-farm activities or by receiving
+This study uses data from the VII National Agriculture and Forestry Census carried
+out in Chile (INE 2007).6 All data is at the household level, except for tenancy
+status, which was collected at the plot level. Household level data is combined with
+location level data for soil and climate characteristics.
+The Census only reports information on output and input variables for annual
+crops. Farmers involved in other economically relevant cropping activities, such as
+fruit trees and horticulture, were unfortunately not asked to report production and
+input volumes. Given that our framework relies on the estimation of the production
+function to compute risk measures, our data is not suitable to investigate the
+association between irrigation technology and production risk to a larger segment of
+Chile’s agricultural sector, other than farms growing annual crops. In spite of the
+limitations outlined above, census data allow us to deal with a recurring problem
+observed in site-speciﬁc data, in which a few villages or areas are surveyed, and data
+lack sufﬁcient variation capturing the agricultural potential (Doss 2006). The
+Census gives us an exceptional opportunity to exploit the climate diversity that
+characterizes the Chilean territory. Due to its unusual length and the diversity of its
+landscapes and ecosystems, Chile has many distinct climates, ranging from desert to
+frosty polar in the extreme south. A national coverage of the Census running more
+than 4000 km from north to south guarantees a unique setting to study the role of
+natural pre-conditions (rainfall and soil characteristics) in the identiﬁcation of
+selection into irrigation.
+We choose to focus on potato farming. The choice of this crop relies on the
+economic and social importance for agricultural income-dependent farmers. This
+crop is the third more relevant annual crop in term of surface and occupies the
+second position when production value is taken into account. Apart from its
+economic relevance, potato farming is important from a social perspective due to
+the fact that it demands great amounts of labor mainly during harvest season, which
+is particularly transcendental in those zones with higher unemployment. Moreover,
+this crop extends across the whole territory and its distribution can clearly be
+organized in agro-climatic zones well differentiated (INIA 2006). This feature
+allows us to pick up agricultural potential with more precision. Another issue is that
+we are not able to distinguish amounts of inputs per crop. Thus, to ensure a clean
+association between observed inputs and potato production, we decided to focus on
+the sample of potato farmers whose entire land is allocated to this crop. This
+resulted in a sample of 7274 observations.
+Farmers report number of hectares irrigated by different irrigation systems. We
+aggregate this information into three irrigation statuses: non-irrigation, traditional
+
+6
+
+The Agricultural and Forestry Census is conducted each 10 years. The previous Census was carried out
+in 1997. To our knowledge, the 2007 Census was not designed to be able to track a sub-sample of rural
+households from previous waves. The latter does not allow us to conduct differences in differences
+techniques while controlling for unobserved time-invariant effects. However, it is highly likely that
+structural changes affecting differently irrigators and non-irrigators have taken place in such a long
+Page 7 of 37 2
+
+Category
+
+N°
+
+%a
+
+Hectares
+
+% Hectares
+
+No-irrigation
+
+6083
+
+83.0
+
+4094
+
+65.6
+
+Irrigation
+
+1245
+
+17.0
+
+2146.1
+
+34.4
+
+1175
+
+94.4
+
+1852.5
+
+86.3
+
+Flood
+
+417
+
+35.5
+
+692
+
+37.4
+
+Furrow
+
+1139
+
+61.5
+
+Traditional
+Source: Own elaboration based
+on Censual data, 2007
+a
+
+Traditional irrigation does not
+add up 100 % because some
+farmers adopt more than one
+irrigation system. Moreover,
+some farmers use both
+traditional and modern
+irrigation. In this case, they are
+deﬁned as modern irrigators
+
+831
+
+70.7
+
+Other
+
+17
+
+1.4
+
+21.5
+
+1.2
+
+Modern
+
+70
+
+5.6
+
+293.6
+
+13.7
+
+Sprinkler
+
+53
+
+75.7
+
+215
+
+73.2
+
+Center pivot
+
+2
+
+2.9
+
+64
+
+21.8
+
+Drip
+
+8
+
+11.4
+
+6.6
+
+2.2
+
+Micro sprinkler
+
+7
+
+10.0
+
+8
+
+2.7
+
+irrigation and modern irrigation.7 Table 1 shows the number of farmers and hectares
+that fall into each category of irrigation.
+The ﬁgures show that 17 % of farmers (and 34.4 % of farmed land) use some
+system of irrigation. In addition, modern irrigation is adopted by 5.6 % of irrigators,
+covering 13.7 % of the total irrigated hectares. Regarding traditional irrigation,
+farmers using furrow technology amount to 70.7 % of the total (and 61.5 % as
+measured by irrigated hectares). On the other hand, sprinkler technology seems to
+be the more broadly used system among modern irrigators since three out of four
+adopt this method. Table 2 depicts the summary statistics for inputs, environmental,
+and location variables by irrigation category. Table 3 shows descriptive statistics for
+farmers’ characteristics and institutional aspects by irrigation category.
+Production yield increases as irrigation becomes more sophisticated. The same is
+true for cultivated area, indicating that irrigation is more likely to be adopted by
+large farmers. Irrigators mostly reside in zones with lower levels of precipitation. In
+particular, both modern and traditional irrigators predominate in the central zone.
+Conversely, non-irrigators are mainly located in southern locations, which
+experience the highest levels of rainfall.
+Education seems to be important to explain adoption of modern technology.
+Furthermore, modern irrigators seem more agricultural income-dependent than
+farmers using traditional irrigation. In addition, only 28.5 % of farmers report to
+have used credit instruments. In relation to extension services, 38.6 % of farmers
+with improved irrigation methods state to have received extension services in the
+last 2 years, which compares to the 8 and 16 % observed among traditional
+irrigators and non-irrigators, respectively. There is a clear trend for irrigators to
+participate in organizations. Whereas participation reaches around 30 % among
+irrigated farms, this ﬁgure is only 15 % among non-irrigators. Regarding land
+property status, owning land with a registered title and rented land is more likely
+among irrigators. While this amount is around 90 % of total land among irrigated
+farms, it constitutes only 34.6 % of land held by non-irrigators.
+7
+
+Eleven farmers report to have both traditional and modern irrigation. Given the reduced number of
+
+Capital (Chilean pesosa)
+
+84 %
+
+6.14
+
+Total labor (N°)
+
+Draft mechanical
+
+36.70
+
+17.0 %
+
+17.0 %
+
+South zone
+
+Source: Own elaboration based on Censual data, 2007
+
+1 US$ corresponds to approximately 500 Chilean pesos
+
+70
+
+64.0 %
+
+0.26
+
+0.858
+
+43.0 %
+
+-0.27
+
+513.8
+
+8,778,120
+
+7.30
+
+9.94
+
+100.8
+
+Central zone
+
+Observations
+
+351,117.10
+10,693.16
+
+208.7
+
+North zone
+
+Location variables
+
+Soil quality (ratio)
+
+Skewness
+
+Standard deviation
+
+963.1
+
+Draft animal
+
+Rainfall (mm)
+
+0
+
+15 %
+
+No use
+
+Fertilizer machine use
+
+4.76
+
+24.93
+
+13,636.14
+
+18,721.30
+
+1153
+
+0.0 %
+
+78.0 %
+
+22.0 %
+
+43.0 %
+
+-0.043
+
+189.9
+
+467.3
+
+7%
+
+0.05 %
+
+91 %
+
+3,394,974
+
+4.18
+
+1.47
+
+4.44
+
+11,791.30
+
+0.23
+
+0.818
+
+90.7
+
+343.7
+
+7,209,798
+
+6.76
+
+3.09
+
+12.73
+
+8734.11
+
+41,402.10
+
+Std Dev
+
+Mean
+
+Mean
+
+Std Dev
+
+Traditional irrigation
+
+Modern irrigation
+
+Cultivated land
+
+Total surface (hectares)
+
+Yield (kilos/hectares)
+
+Production (kilos)
+
+Category
+
+6051
+
+59.0 %
+
+40.0 %
+
+0.03 %
+
+44.0 %
+
+0.033
+
+220.3
+
+1460.7
+
+2.4 %
+
+0.03 %
+
+97 %
+
+2,408,747
+
+3.46
+
+0.66
+
+15.81
+
+11,227.95
+
+9033.70
+
+Mean
+
+Non-irrigators
+
+Table 2 Mean and standard deviation for inputs, environmental and location variables per irrigation category
+
+0.24
+
+0.794
+
+30.4
+
+473
+
+4,253,057
+
+4.57
+
+1.89
+
+25.25
+
+8531.67
+
+48,555.60
+
+Std Dev
+
+7274
+
+49.0 %
+
+47.0 %
+
+3.0 %
+
+44.0 %
+
+0.018
+
+215.3
+
+1319.5
+
+3.3 %
+
+0.04 %
+
+96 %
+
+2,608,270
+
+3.59
+
+0.83
+
+14.08
+
+11,341.29
+
+11,739.50
+
+Mean
+
+Whole sample
+
+0.24
+
+0.79
+
+48.1
+
+405.9
+
+4,932,854
+
+5.01
+
+2.54
+
+24.21
+
+8591.53
+
+61,987.70
+
+Std Dev
+Category
+
+Modern irrigation
+
+Traditional
+irrigation
+
+Non-irrigators
+
+Whole simple
+
+N°
+
+Mean
+
+N°
+
+N°
+
+N°
+
+Age
+
+–
+
+54.44
+
+–
+
+55.03
+
+–
+
+56.36
+
+–
+
+56.13
+
+Male
+
+55
+
+79.0 %
+
+876
+
+76.0 %
+
+4236
+
+70.0 %
+
+5165
+
+71.0 %
+
+Reside in plot
+
+54
+
+77.0 %
+
+657
+
+57.0 %
+
+4780
+
+79.0 %
+
+5528
+
+76.0 %
+
+Mean
+
+Mean
+
+Mean
+
+Education
+No education
+
+2
+
+2.9 %
+
+67
+
+5.80 %
+
+163
+
+2.70 %
+
+233
+
+3.20 %
+
+Incomplete
+elementary
+
+29
+
+41.4 %
+
+548
+
+47.50 %
+
+3685
+
+60.90 %
+
+4263
+
+58.60 %
+
+Complete
+elementary
+
+8
+
+11.4 %
+
+209
+
+18.10 %
+
+938
+
+15.50 %
+
+1157
+
+15.90 %
+
+Incomplete
+secondary
+
+9
+
+12.9 %
+
+90
+
+7.80 %
+
+411
+
+6.80 %
+
+516
+
+7.10 %
+
+Complete
+secondary
+
+6
+
+8.6 %
+
+122
+
+10.60 %
+
+381
+
+6.30 %
+
+509
+
+7%
+
+Incomplete
+technical
+
+0
+
+0.0 %
+
+6
+
+0.50 %
+
+24
+
+0.40 %
+
+29
+
+0.40 %
+
+Complete
+technical
+
+11
+
+15.7 %
+
+55
+
+4.80 %
+
+248
+
+4.10 %
+
+313
+
+4.30 %
+
+Incomplete
+college
+
+1
+
+1.4 %
+
+12
+
+1%
+
+48
+
+0.80 %
+
+58
+
+0.80 %
+
+Complete
+college
+
+4
+
+5.7 %
+
+44
+
+3.80 %
+
+151
+
+2.50 %
+
+196
+
+2.70 %
+
+Dependence
+[75
+
+25
+
+35.7 %
+
+205
+
+17.80 %
+
+1355
+
+22.40 %
+
+1586
+
+21.80 %
+
+[50 and \75
+
+12
+
+17.1 %
+
+98
+
+8.50 %
+
+714
+
+11.80 %
+
+829
+
+11.40 %
+
+[25 and \50
+
+13
+
+18.6 %
+
+186
+
+16.10 %
+
+1222
+
+20.20 %
+
+1426
+
+19.60 %
+
+\25
+
+20
+
+28.6 %
+
+664
+
+57.60 %
+
+2753
+
+45.50 %
+
+3433
+
+47.20 %
+
+Credit
+
+43
+
+61.40 %
+
+224
+
+19.40 %
+
+1767
+
+29.20 %
+
+2073
+
+28.50 %
+
+73.6 %
+
+24034.8
+
+67.6 %
+
+68,787.3
+
+31.8 %
+
+94,213.6
+
+37.1 %
+
+Secure tenure (hectares)
+Own with
+registered
+title
+
+1391.5
+
+Rented
+
+305.5
+
+16.2 %
+
+7625.5
+
+21.4 %
+
+6004.6
+
+2.8 %
+
+13,935.6
+
+5.5 %
+
+Occupied
+
+18.1
+
+1.0 %
+
+10.5
+
+0.0 %
+
+64,069.9
+
+29.6 %
+
+64,098.5
+
+25.2 %
+
+Other
+
+174.6
+
+9.20 %
+
+3884.4
+
+11.00 %
+
+77,717.9
+
+35.90 %
+
+81,776.9
+
+32.20 %
+
+Extension
+services
+
+27
+
+38.60 %
+
+92
+
+8%
+
+974
+
+16.10 %
+
+1091
+
+15 %
+
+Participation in
+organizations
+
+22
+
+31.40 %
+
+351
+
+30.40 %
+
+914
+
+15.10 %
+
+1287
+
+17.70 %
+
+Average number
+per locality
+
+–
+
+76
+
+–
+
+321
+
+–
+
+546
+
+–
+
+945
+
+Observations
+
+70
+
+1153
+
+6051
+
+7274
+
+irrigation category, and Table 5 explores changes in water rights uses across water
+sources and type of irrigation, respectively.
+Up to 44 % of non-irrigators report to have wells as water source in the plot.
+Differences in costs associated with water extraction between surface and ground
+water sources naturally impose a restriction to adopt irrigation. However, these
+restrictions seem to be less important for the adoption of modern irrigation. Wasting
+water becomes much more costly when pumped from ground water sources8 and the
+availability of water sources other than rivers may promote adoption of new
+technology (Caswell and Zilberman 1986).
+Around 85 % of water sources held by non-irrigators fall into categories
+classiﬁed as insecure tenancy—title is in process of regularization or use de facto—
+in contrast to that observed in both modern and traditional irrigation. Undoubtedly,
+usage rights are crucial to create correct incentives to undergo innovations that
+require time to become proﬁtable.
+
+5 Estimation procedure
+The procedure to analyze the effect of production risk on adoption decisions follows
+two steps. In the ﬁrst stage, we estimate the moments of a production function to
+proxy production risk. In the second stage, the estimated moments are incorporated
+to explain adoption of modern irrigation in discrete choice models.
+5.1 Production risk
+The moments of the production distribution are estimated by following a sequential
+procedure in which production is regressed against a set of inputs (Antle 1983;
+Antle 1987).9 The model is speciﬁed as follows.10
+yi ¼ f ðxi ; zi ; hj ; bÞ þ ei ;
+
+ð1Þ
+
+where i = 1…N denotes individual farmers, yi is the logarithm of output (potatoes)
+measured in kilos, xi is a vector of conventional inputs including land, labor, capital,
+and fertilizer. Land is measured in hectares,11 labor is the sum of both family and
+hired labor, and capital is the value of physical assets.12 All these variables are
+8
+
+If we assume that the marginal cost of water is closely associated with the energy cost of pumping
+water, there is a positive relation between depth of water sources and extraction costs.
+
+9
+
+Due to lack of data on prices, we proxy production risk by the moments of production function rather
+than the moments of the proﬁt function as Koundouri et al. (2006) do. This assumption lies in the linear
+relationship between the moments of proﬁt and production function valid under price-taker individuals.
+
+10
+
+We used a Translog functional form which assumes inputs in levels, squares and cross variables.
+
+11
+
+1 hectares = 2.5 acres.
+
+12
+
+The capital variable was built using information with respect to ownership of draft mechanical capital.
+These were weighted considering market prices. For the construction of the capital variable, we
+considered the following tools and machinery: Ploughs trucks, vans, carts, choppers, harvesters,
+Water Source
+
+Modern
+irrigation
+
+Traditional
+irrigation
+
+N°
+
+%a
+
+N°
+
+Well
+
+17
+
+24.3
+
+105
+
+Spring
+
+16
+
+22.9
+
+118
+
+River
+
+25
+
+35.7
+
+625
+
+8
+
+11.4
+
+184
+
+Stream
+
+Nonirrigators
+%a
+
+Whole
+simple
+
+N°
+
+%a
+
+N°
+
+%a
+
+8.9
+
+57
+
+44.9
+
+179
+
+13.0
+
+10.0
+
+33
+
+26.0
+
+167
+
+12.2
+
+53.2
+
+19
+
+15.0
+
+669
+
+48.8
+
+15.7
+
+30
+
+23.6
+
+222
+
+16.2
+
+Seasonal regulation reservoir
+
+1
+
+1.4
+
+19
+
+1.6
+
+0
+
+0.0
+
+20
+
+1.5
+
+Yearly regulation reservoir
+
+2
+
+2.9
+
+62
+
+5.3
+
+0
+
+0.0
+
+64
+
+4.7
+
+Lake
+
+0
+
+0.0
+
+1
+
+0.1
+
+0
+
+0.0
+
+1
+
+0.1
+
+Lagoon
+
+1
+
+1.4
+
+2
+
+0.2
+
+0
+
+0.0
+
+3
+
+0.2
+
+Other
+
+5
+
+7.1
+
+93
+
+7.9
+
+8
+
+6.3
+
+106
+
+7.7
+
+Source: Own elaboration based on Censual data, 2007
+a
+
+It does not add up 100 % because some farmers have more than one water source
+
+expressed in logarithms. We proxy the amount of fertilizer by including a categorical variable that takes the value zero (0) if the farmer does not use any fertilizer
+machine, one (1) if the farmer uses a draft animal fertilizer machine and two (2) if
+the farmer uses a draft mechanical fertilizer machine. Zi is a vector of farmers’
+characteristics including age (expressed in logarithm), education13 and agricultural
+dependence.14 Additionally, we include variables (hj) to capture variations in soil
+quality and rainfall15 (expressed in logarithm) in locality j as well as regional
+differences. Soil quality is measured by the percentage of non-eroded and slightly
+eroded soil16 and rainfall was constructed as the cumulative precipitations in the
+season 2010–2011. Unobserved regional differences are picked up by including
+13
+
+It takes the value of 0 if the farmer has no formal education, 1 if s/he has partially completed
+elementary school, 2 if s/he has completed elementary education, 3 if s/he has partially completed high
+school, 4 if s/he graduated from high school, 5 if s/he has partially completed a technical program, 6 if
+s/he has completed a technical program, 7 if s/he has partially completed her/his university education and
+8 if s/he graduated from college/university.
+14
+It takes the value 3 if the agricultural income represents 75 % or more of household income, 2 when
+the proportion is between 50 and 75 %, 1 if it is between 25 and 50 % and 0 if this percentage is less than
+25 %.
+15
+Rainfall data were obtained from agro-climate information provided by the Chilean Institute of
+Meteorological Information (CIMI 2011) between the agricultural seasons 1999–2000 and 2005–2006.
+Climate measures per location were obtained by matching locations with the nearest meteorological
+stations. Unfortunately, information for regions VIII, IX, X and XIV are not available in the agro-climate
+yearbooks with the same level of detail as the rest of the zones. For these cases, we used information
+available in climate yearbooks collected from meteorological stations situated at airports.
+16
+Information on erosion was used as a proxy for land quality. It was extracted from a recent study
+conducted by the Center of Information in Natural Resources (CIREN 2010), addressed at determining
+the current and potential erosion of soils in Chile. The methodology for determining the level of erosion
+integrates a set of soil, topographic, climatic and biological characteristics. Thus, erosion will be more
+severe to the extent that soils are more porous and sandier, ﬁelds are more sloped and hold less vegetation
+
+45.1
+
+100.0
+
+100.0
+
+75.8
+
+57.9
+
+40.8
+
+82.7
+
+39.8
+
+38.1
+
+10.2
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+10.0
+
+21.1
+
+3.0
+
+12.3
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+1.3
+
+0.0
+
+0.0
+
+0.0
+
+50.0
+
+Source: Own elaboration based on Censual data, 2007
+
+20.0
+
+45.4
+
+Other
+
+0.0
+
+Lake
+
+100.0
+
+50.0
+
+Yearly
+reservoir
+
+Lagoon
+
+50.0
+
+100.0
+
+64.0
+
+River
+
+Seasonal
+reservoir
+
+12.5
+
+Stream
+
+47.1
+
+Spring
+
+4.7
+
+4.3
+
+0.0
+
+0.0
+
+8.1
+
+21.1
+
+1.6
+
+5.9
+
+0.8
+
+2.9
+
+0.7
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+3.3
+
+0.0
+
+0.0
+
+0.0
+
+6.7
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+25.0
+
+4.0
+
+6.3
+
+5.9
+
+2.2
+
+4.3
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+1.6
+
+1.0
+
+2.5
+
+10.5
+
+Traditional
+(%)
+
+9.5
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+20.0
+
+0.0
+
+0.0
+
+14.0
+
+Nonirrigated
+(%)
+
+45.3
+
+60.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+25.0
+
+32.0
+
+81.3
+
+47.1
+
+26.4
+
+35.5
+
+0.0
+
+0.0
+
+14.5
+
+21.1
+
+54.3
+
+10.1
+
+55.1
+
+42.9
+
+Traditional
+(%)
+
+Modern
+(%)
+
+Nonirrigated
+(%)
+
+Modern
+(%)
+
+Nonirrigated
+(%)
+
+Modern
+(%)
+
+Traditional
+(%)
+
+Modern
+(%)
+
+Traditional
+(%)
+
+Use de facto
+
+Title in process of regularization
+
+Rented
+
+Registered in Real State Registrar or
+in the public land registry of the
+General Bureau of water
+
+Well
+
+Water
+source
+
+Table 5 Water rights status per irrigation category
+
+74.8
+
+75.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+60.0
+
+73.7
+
+93.9
+
+71.9
+
+Nonirrigated
+(%)
+(iid) error term.
+Under expected proﬁt maximization, explanatory variables are assumed to be
+exogenous, and thereby ordinary least squares (OLS) of (1) produce consistent and
+efﬁcient estimates of the parameter vector b (Koundouri et al. 2006). The s central
+moment of production conditioned on inputs about its mean is deﬁned as:
+ls ð:Þ ¼ Ef½yð:Þ À l1 s g;
+
+ð2Þ
+
+^
+where l1 denotes the mean of production. Thereby, the estimated errors ei ¼
+yi À f ðxi ; zi ; hi ; bÞ from (1) are estimates of the ﬁrst moment of the production
+^
+distribution. To compute estimates of the second moment, the estimated errors e are
+squared and regressed on the same set of inputs as in (1):
+
+^i
+e2 ¼ gðxi ; zi ; hi ; dÞ þ ei :
+
+ð3Þ
+
+OLS provides consistent estimates of the parameter d, and the predicted values
+are consistent estimates of the second moment of production distribution (Antle
+1983). Estimation of the third moment follows the same procedure. This approach
+exploits the use of cross-sectional data assuming that the moments vary among
+farmers depending on input level, farms’ characteristics and environmental
+conditions. Conditional moments are thereby used as measures of volatility to rank
+farmers in terms of production risk.
+5.2 Irrigation choices
+In the second stage, the estimated moments are incorporated as explanatory
+variables in a discrete choice model. Additional control variables include a dummy
+denoting if the farmer is male; farmers’ age measured in years (in log); farmers’
+level of education; a categorical variable that captures the degree of dependence on
+agricultural activity; a dummy variable indicating if the farmer lives in the plot; the
+farm’s size measured in total hectares (expressed in a logarithm); capital value of
+agricultural machinery and tools (expressed in a logarithm); secure tenure measured
+by the ratio between the sum of family-own hectares and rental land over total
+hectares; a dummy variable indicating if the farmer had access to credit during the
+last 2 years; a dummy variable indicating participation in any agricultural
+organization; a dummy variable denoting if the farmer received extension services
+during the last 2 years; percentage of non-eroded and slightly eroded soil; number
+of both modern and traditional adopters per locality regardless of crops; and a set of
+dummy variables to control for unobserved spatial differences in technology choice
+across zones.
+We propose three alternative models. First, we model irrigation decisions as an
+ordered choice such that each category corresponds to a superior level of irrigation
+technology. One may expect a monotonic relationship between risk production
+measures and speciﬁc irrigation technologies as the capability of irrigation methods
+to reduce production risk increases with the level of technicality. Second, we
+traditional irrigator seems quite evident, gains from adopting modern irrigation for a
+former traditional irrigator are more unclear as new technology involves
+uncertainty. Finally, we discuss potential selection problems when analyzing the
+shift from traditional to modern irrigation. We argue that the choice and economic
+beneﬁts of irrigation adoption depend on natural pre-conditions to irrigate. Thus,
+when considering only irrigation data, we might lose track of some people who are
+eligible to adopt modern irrigation. If this characteristic is systematic, our standard
+probit estimation may lead to inconsistent estimates (Wooldridge 2010). We,
+therefore, also estimate a binary response model with sample selection (Van de Ven
+et al. 1981) to address this problem. Denoting Y as the irrigation decision observed
+with the value of 1 if the farmer irrigates and 0 otherwise, the selection equation can
+be expressed as follows:
+h 0
+i
+h
+i
+Â
+Ã
+0
+Pr½Yi ¼ 1 ¼ Pr YiÃ [ 0 ¼ Pr w u þ ni [ 0 ¼ Pr ni \w2 u ;
+ð4Þ
+where YiÃ corresponds to a latent variable that depends on a set of variables w,
+among which we include those to allow for identiﬁcation of the vector u. Basically,
+we argue that selection into irrigation mainly lies in the fact that despite the presence of water resources in the farm, a signiﬁcant number of farmers do not make use
+of these water courses for irrigation. Tables 4 and 5 show that the type of water
+source and water rights statuses may play a role here. Thus, we assume that irrigation decisions respond to the availability of water sources in the farm and
+moments of rainfall distribution. We account for water sources by deﬁning a
+dummy variable that takes the value of 1 if the farm holds at least one source for
+irrigation.
+
+6 Results
+Estimation of the selection equation is depicted in Table 6. As expected,
+accessibility to water sources plays a crucial role in explaining the shift from
+complete reliance on rainfall to adoption of irrigation systems. Furthermore, farmers
+who reside in locations with lower levels of precipitation, higher variance, and
+Table 6 Estimates of the
+selection equation
+
+Variables
+
+Probit with sample selection
+Irrigation = 1
+
+Water source
+
+4.63 (0.39)***
+
+Rainfall
+
+-0.95 (0.16)***
+
+Standard errors in parentheses
+
+Standard deviation of rainfall
+
+0.005 (0.001)***
+
+Independent variables of the
+selection equation are not shown
+due to space reasons
+
+Skewness of rainfall
+
+0.31 (0.12)**
+
+*** p \ 0.01, ** p \ 0.05,
+* p \ 0.1
+
+123
+
+Athrho
+
+1.13 (0.39)**
+
+LR test (q = 0)
+
+13.21**
+
+literature before. For example, Negri et al. (2005) examines the independent effects
+of climatic mean and variance on the probability of adopting irrigation in USA. The
+authors ﬁnd that higher temperatures and less rainfall increase irrigation, and most
+importantly that the tails of precipitation distributions and water availability are
+primary determinants of presence of irrigation. Furthermore, Foudi and Erdlenbruch
+(2012) study the role of irrigation as a self-insurance instrument in the management
+of production risk in France. They ﬁnd that irrigation decision depends on the
+decision to purchase yield insurance as well as the mean and variance of water
+availability. We compute a likelihood ratio test assuming under the null hypothesis
+q = 0, that is, the log-likelihood for the probit model with the sample selection is
+equal to the sum of the log-likelihoods of estimating a probit model for modern
+irrigation and the selection equation separately. The evidence rejects the null
+hypothesis suggesting that farmers irrigating may not be a random sub-sample of
+total rural households, which supports the use of data on non-irrigators to correct for
+sample selection.
+We employ a Translog functional form to estimate the parameters of the
+production function. Results are not shown but can be obtained from the authors
+upon request. We use these estimates to compute the moments of the production
+function, which are our proxies for production risk in the irrigation choice models.
+Table 7 reports the estimated coefﬁcients and standard errors in parenthesis for the
+irrigation choice models.18 The ﬁrst column shows the estimated coefﬁcients that
+result from modeling irrigation as a binary variable. Column 2 depicts the estimates
+for the ordered probit model, which assumes an order in irrigation choice. The third
+column shows the estimated parameters for the multinomial probit model. We
+assume non-irrigation status as the baseline. Column 4 shows the estimated
+coefﬁcients for the model of modern irrigation for the selected sample of irrigators.
+In this case, non-irrigators were dropped from the sample. Column 5 presents the
+results for the model of adoption of new technology conditioned on whether a
+farmer is already an irrigator. Regardless of the approach used, education, capital,
+extension, credit access, number of adopters, and rainfall are statistically signiﬁcant
+to explain adoption of irrigation in general, and modern irrigation in particular.19
+17
+A regional analysis based on agro-ecological zones with similar underlying natural conditions can be
+an alternative manner to account for the initial choice of irrigation. Unfortunately, there is not enough
+information on the irrigation status to reach convergence in the estimations for agro-ecological zones (no
+non-irrigators in the north region and very few irrigators in the south). The later suggests that the ‘‘nonirrigation’’ status in some regions may lead to issues of colinearity. Alternatively, we replicate all the
+estimations considering only those regions where each irrigation status is observed. This implied to drop
+Regions VI, X and XIV from our sample. Yet, the results remain essentially unchanged. Results are
+shown in Appendix 1.
+18
+Due to the inclusion of generated regressors in adoption equations in the form of moments of the
+production distribution, standard errors were corrected using bootstrapping techniques.
+19
+Multicollinearity is always a concern. For instance, education is most likely highly correlated with
+income variables such as the percentage of income coming from agriculture, capital and land can ease
+access to credit, etc. However, correlation coefﬁcients show of correlations. We obtained a coefﬁcient of
+0.16 for land and credit, 0.22 for land and capital and 0.27 for dependence on agriculture and capital. The
+0.521 (0.143)***
+
+0.039 (0.017)**
+
+St. Dev.
+
+Skewness
+
+0.085 (0.035)**
+
+0.009 (0.004)**
+
+0.138 (0.036)***
+
+Land
+
+0.0012 (0.000)***
+
+0.205 (0.070)**
+
+0.0019 (0.0001)***
+
+-0.0007 (0.0006)
+
+Participation
+
+N° irrigat (T)
+
+N° irrigat (M)
+
+-0.652 (0.154)***
+
+-1.191 (0.067)***
+
+1.151 (0.300)***
+
+Soil quality
+
+Rainfall
+
+North zone
+
+Environmental factors
+
+0.098 (0.054)*
+
+0.161 (0.087)*
+
+Credit
+
+0.375 (0.098)
+
+-0.885 (0.052)***
+
+-0.138 (0.117)
+
+-0.001 (0.0003)***
+
+0.213 (0.071)***
+
+0.260 (0.088)***
+
+0.223 (0.095)**
+
+0.235 (0.098)**
+
+Extension
+
+0.239 (0.068)***
+
+-0.005 (0.024)
+
+Secure tenure
+
+Institutional aspects
+
+0.008 (0.003)**
+
+0.017 (0.029)
+
+Dependence
+
+Capital
+
+0.062 (0.013)***
+
+0.053 (0.0532)
+
+0.068 (0.016)***
+
+0.123 (0.072)*
+
+Reside in farm
+
+-0.117 (0.084)
+
+0.129 (0.055)**
+
+0.005 (0.016)
+
+0.154 (0.125)
+
+0.018 (0.018)
+
+Ordered probit?
+Level: 1, 2, 3
+
+Education
+
+0.133 (0.073)*
+
+-0.164 (0.105)
+
+Gender
+
+Age
+
+Household characteristics
+
+0.036 (0.029)
+
+Mean
+
+Moments of production distribution
+
+Variables
+
+Table 7 Estimates of the models of technology adoption
+
+2.249 (5.865)
+
+-0.383 (0.237)
+
+-0.813 (0.457)*
+
+0.0029 (0.001)**
+
+0.001 (0.000)***
+
+0.056 (0.180)
+
+0.638 (0.181)***
+
+0.639 (0.184)***
+
+0.650 (16.302)
+
+0.366 (0.099)***
+
+0.025 (0.012)*
+
+0.017 (0.070)
+
+0.399 (0.227)*
+
+0.144 (0.036)***
+
+0.209 (0.294)
+
+0.055 (0.192)
+
+-0.013 (0.040)
+
+-0.325 (0.351)
+
+0.053 (0.077)
+
+Modern
+
+Multinomial probit
+
+1.599 (5.867)
+
+-1.791 (0.094)***
+
+-0.924 (0.226)***
+
+-0.002 (0.0008)**
+
+0.002 (0.0002)***
+
+0.355 (0.105)***
+
+0.006 (0.136)
+
+0.112 (0.158)
+
+0.261 (0.131)**
+
+0.121 (0.050)**
+
+0.009 (0.006)
+
+0.028 (0.043)
+
+0.128 (0.108)
+
+0.071 (0.028)**
+
+-0.321 (0.159)**
+
+0.224 (0.108)**
+
+0.068 (0.024)**
+
+0.844 (0.195)***
+
+0.050 (0.046)
+
+Traditional
+
+-0.524 (0.310)*
+
+0.661 (0.454)
+
+0.002 (0.0009)***
+
+-0.001 (0.0002)***
+
+-0.213 (0.200)
+
+0.457 (0.22)**
+
+0.481 (0.238)**
+
+0.601 (0.470)
+
+0.117 (0.089)
+
+0.029 (0.013)**
+
+-0.016 (0.080)
+
+0.695 (0.241)***
+
+0.131 (0.0472)***
+
+0.192 (0.348)
+
+-0.261 (0.233)
+
+-0.108 (0.034)***
+
+-1.129 (0.292)***
+
+0.135 (0.100)
+
+Probit on selected sample
+Modern irrigation = 1
+
+-0.404 (0.295)
+
+0.586 (0.480)
+
+0.002 (0.0009)**
+
+-0.0011 (0.0002)***
+
+-0.136 (0.182)
+
+0.475 (0.204)**
+
+0.434 (0.224)*
+
+0.497 (7.043)
+
+0.121 (0.082)
+
+0.0254 (0.012)**
+
+-0.0006 (0.0751)
+
+0.647 (0.239)***
+
+0.125 (0.045)***
+
+0.139 (0.324)
+
+-0.235 (0.223)
+
+-0.087 (0.032)***
+
+-0.943 (0.271)***
+
+0.1498 (0.092)
+
+Probit with sample selection
+Modern irrigation = 1
+
+-2.246 (0.495)
+
+7274
+
+Cut2
+
+-4.636 (0.530)***
+
+-0.859 (0.131)
+
+Ordered probit?
+Level: 1, 2, 3
+
+Observations
+
+Cut1
+
+-0.530 (0.131)***
+
+6.435 (0.693)***
+
+South zone
+
+Probit
+Irrigation = 1
+
+Constant
+
+Variables
+
+Table 7 continued
+
+7274
+
+-2.555 (16.397)
+
+-0.794 (0.250)***
+
+Modern
+
+Multinomial probit
+
+10.117 (1.027)***
+
+-28.95 (3.388)***
+
+Traditional
+
+1223
+
+-2.873 (1.430)**
+
+Probit on selected sample
+Modern irrigation = 1
+
+1223
+
+-2.823 (7.087)
+
+Probit with sample selection
+Modern irrigation = 1
+
+Lat Am Econ Rev (2016) 25:2
+adoption. Similar results have been found in developing countries in the literature
+before. For example, He et al. (2007) investigate the determinants of farmers’
+decisions to adopt rainwater harvesting and supplementary irrigation technology in
+China, ﬁnding that socioeconomic characteristics such as age and education, and
+institutional factors associated with extension, assistance, training, and credit
+services affect positively irrigation adoption decisions. Household resource
+endowment variables, showing the ability of farmers to operate their land, were
+also found signiﬁcant in explaining farm irrigation decisions in Ghana (Dessalegn
+2005). Results conﬁrm the role of education as a complement to adoption when it is
+knowledge intensive, and beneﬁts are linked to farmers’ management capacity.
+Furthermore, they enhance the importance of access to credit in decisions that
+involve ﬁnancing needs. Finally, the implementation of water-saving technologies
+demands more knowledge about environmental factors, i.e. evaporation conditions,
+to reach efﬁciency in water application, which makes extension services from
+government agencies be more crucial.
+Furthermore, the number of adopters of both traditional and modern irrigation at
+the local level is also signiﬁcant. This result is in line with the literature addressing
+the role of social learning spillover on adoption of new technology among farmers
+that belong to related networks or adjacent geographical areas. For example, Foster
+and Rosenzweig (1995) ﬁnd that neighbors’ experience inﬂuence rates of adoption
+and proﬁtability of high-yielding varieties (HYV) in India. The later suggests that
+farmers involved in a bigger network of experienced farmers with new technology
+are more likely to adopt the new technology and are relatively more proﬁtable.
+Furthermore, Conley and Udry (2010) investigate the role of social learning in the
+diffusion of a new agricultural technology in Ghana. They ﬁnd support of farmers
+adjusting their inputs in accordance with those of their neighbors who were
+surprisingly successful in previous periods. Finally, Bandiera and Rasul (2006)
+present evidence on how farmers’ decisions to adopt a new crop relate to the
+adoption choices of their network of family and friends in Mozambique. The
+authors ﬁnd farmers are more likely to adopt when other farmers in their network
+also adopt.
+When looking at the results from the probit model and ordered probit model
+(column 1 and column 2, respectively), we also ﬁnd signiﬁcant effects of gender,
+farm size, secure tenure, and participation in organization. Gender differences in
+technology adoption are discussed in Ndiritu et al. (2014). The authors ﬁnd a gender
+gap in the adoption pattern for some farm technologies in Kenya, indicating the
+existence of certain socioeconomic inequalities and barriers for female farmers.
+Furthermore, the larger the farm is the more probable adoption of irrigation
+technology. Just et al. (1980) show that given the information and transactions costs
+associated with innovations, as these costs increase, the critical size that make the
+adoption proﬁtable also increases. The latter implies that new technology, which
+involves larger information/transactions costs are less likely to be adopted by
+smaller farmers. Empirical works conﬁrm this prediction (Negri and Brooks 1990;
+Shrestha and Gopalakrishnan 1993; Skaggs 2001; Daberkow and Mcbride 2003;
+contracts are more likely to irrigate. Similar results are found in the literature before.
+For example, Soule et al. (2000) investigate the inﬂuence of land tenure on the
+adoption of conservation practices in US. They ﬁnd that the owner-operators are
+more likely to adopt practices that provide beneﬁts over the longer term.
+Furthermore, Gebremedhin and Swinton (2003) examine the role of land tenure
+security in investing in soil conservation in northern Ethiopia. They ﬁnd that
+adoption of technologies associated with long-term investment such as stone
+terraces was positively inﬂuenced by land tenure security. These ﬁndings conﬁrm
+the importance of designing tenancy arrangements that guarantee rights to enjoy
+long-term beneﬁts derived from implementing technological innovations.
+In addition, results show that farmers participating in agrarian organizations are
+more likely to use irrigation. Participation in organization may serve as a vehicle for
+the adaptation, likely because transmission and diffusion of knowledge on new
+technologies are fostered in organizations. These results are in line with Isham
+(2002). The author ﬁnds that households with ethnically based and participatory
+social afﬁliations in Tanzania may be more likely to diffuse new information
+successfully and therefore to adopt new technologies.
+We also explore the interactions between some institutional aspects and
+household characteristics in our adoption models (see Table 8). In particular, we
+interact age, education, and farm size with the institutional variables secure tenure,
+extension, and credit. We ﬁnd that extension services are more likely to promote
+adoption of irrigation among smaller farmers. This is important for focalizing
+extension resources. When studying the switch from non-irrigation to modern
+irrigation, extension services also play a role here, and access to credit seems to help
+less educated and small farmers more. The latter suggests that institutional aspects
+are more important for less favored farmers (small and less educated farmers). We
+do not ﬁnd signiﬁcant results for the interacted variables when studying the switch
+from traditional to modern irrigation.
+There are some discrepancies in the results concerning the variables (1) residence
+in the farm, (2) soil quality, and (3) production risk measures. Regarding (1), results
+show that farmers who reside at the farm premises are more likely to adopt
+irrigation technology. In particular, farmers are more willing to shift from nonirrigation to the new technology, as shown by the multinomial probit, and change
+from traditional irrigation to new technology, as suggested by the probit model with
+sample selection. These results may be consistent with information diffusion
+arguments (Foster and Rosenzweig 1995) Bandiera and Rasul 2006), as interactions
+and networks associated with farming activities are more likely to happen on-farm.
+Moreover, results from the multinomial probit model show that both traditional
+and modern irrigation are promoted in zones with poorer soil conditions, probably
+as a means to deal with these disadvantageous characteristics. However, soil quality
+considerations do not seem to drive shifts from traditional to modern irrigation.
+Results are in line with previous studies ﬁnding that modern irrigation technologies
+are more likely used in locations with relatively low land quality (Caswell and
+0.0436 (0.0160)***
+
+0.0241 (0.0714)
+
+0.00966
+(0.00458)**
+
+0.0757 (0.0950)
+
+Capital
+
+0.0351 (0.323)
+
+0.138 (0.348)
+
+0.0196 (0.311)
+
+Edad 9 Secure tenure
+
+Edad 9 Credit
+
+0.216 (0.0821)***
+
+Edad 9 Extension
+
+0.262 (1.258)
+
+Credit
+
+Participation
+
+0.117 (0.235)
+
+0.135 (0.279)
+
+-0.102 (0.256)
+
+0.0992 (0.0581)*
+
+-0.147 (0.951)
+
+-0.480 (1.409)
+
+Secure tenure
+
+0.788 (1.012)
+
+-0.378 (1.130)
+
+0.264 (1.266)
+
+-0.00394 (0.0241)
+
+Extension
+
+Institutional aspects
+
+Land
+
+0.00870 (0.00354)**
+
+0.0207 (0.0312)
+
+Dependence
+
+0.106 (0.0412)**
+
+0.0612 (0.0564)
+
+0.118 (0.0534)**
+
+0.129 (0.0738)*
+
+Education
+
+Reside in farm
+
+-0.0813 (0.237)
+
+0.137 (0.0711)*
+
+-0.228 (0.299)
+
+Gender
+
+Age
+
+Household characteristics
+
+0.127 (0.0570)**
+
+0.00728 (0.0119)
+
+0.552 (0.130)***
+
+Skewness
+
+0.170 (0.0968)*
+
+0.0392 (0.0284)
+
+St. Dev.
+
+0.0196 (0.0206)
+
+Ordered probit?
+Level: 1, 2, 3
+
+Mean
+
+Moments of production distribution
+
+Variables
+
+0.453 (0.626)
+
+-0.611 (0.653)
+
+-0.830 (1.228)
+
+0.00871 (0.174)
+
+-0.901 (2.535)
+
+3.051 (2.662)
+
+3.549 (4.951)
+
+0.599 (0.294)**
+
+0.0269 (0.0111)**
+
+-0.000804
+(0.0692)
+
+0.542 (0.205)***
+
+0.122 (0.186)
+
+0.812 (1.216)
+
+0.0614 (0.179)
+
+0.00930 (0.0317)
+
+-0.0352 (0.286)
+
+0.0770 (0.0826)
+
+Modern
+
+Multinomial probit
+
+Table 8 Estimates of the models of technology adoption with interactions
+
+-0.561 (0.483)
+
+0.477 (0.554)
+
+0.190 (0.478)
+
+0.337 (0.123)***
+
+2.460 (1.954)
+
+-2.089 (2.252)
+
+-0.228 (1.873)
+
+0.101 (0.139)
+
+0.00894 (0.00693)
+
+0.0160 (0.0473)
+
+0.169 (0.109)
+
+0.162 (0.0784)**
+
+-0.496 (0.441)
+
+0.220 (0.106)**
+
+0.0861 (0.0255)***
+
+1.000 (0.205)***
+
+0.0519 (0.0425)
+
+Traditional
+
+0.743 (0.807)
+
+-0.256 (0.946)
+
+-2.524 (2.475)
+
+-0.0558 (0.192)
+
+-2.204 (3.304)
+
+1.552 (3.881)
+
+9.854 (10.35)
+
+0.466 (0.367)
+
+0.0253 (0.0136)*
+
+0.0189 (0.0844)
+
+0.558 (0.222)**
+
+-0.0997 (0.286)
+
+2.608 (2.427)
+
+-0.347 (0.217)
+
+-0.0458 (0.0404)
+
+-0.630 (0.338)*
+
+0.155 (0.0919)*
+
+Probit on selected
+sample
+Modern
+irrigation = 1
+
+0.621 (0.741)
+
+0.0569 (0.852)
+
+-2.248 (1.939)
+
+-0.131 (0.178)
+
+-1.669 (3.016)
+
+0.129 (3.490)
+
+8.578 (8.106)
+
+0.520 (0.356)
+
+0.0259 (0.0123)**
+
+-0.0155 (0.0766)
+
+0.672 (0.207)***
+
+-0.117 (0.241)
+
+1.985 (1.884)
+
+-0.286 (0.199)
+
+-0.0820 (0.0340)**
+
+-0.906 (0.287)***
+
+0.172 (0.0841)**
+
+Probit with sample
+selection
+Modern irrigation = 1
+N° irrigat (M)
+
+1.125 (0.302)***
+
+-0.559 (0.129)***
+
+6.442 (1.289)***
+
+North zone
+
+South zone
+
+Constant
+
+-0.894 (0.102)***
+
+0.363 (0.123)***
+
+-0.886 (0.0511)***
+
+-0.133 (0.110)
+
+-0.00144
+(0.000304)***
+
+0.00127
+(5.56e-05)***
+
+-0.0401 (0.0510)
+
+-0.139 (0.0614)**
+
+0.109 (0.0737)
+
+-0.0493 (0.0354)
+
+0.0131 (0.0449)
+
+-0.0378 (0.0432)
+
+Ordered probit?
+Level: 1, 2, 3
+
+*** p \ 0.01, ** p \ 0.05, * p \ 0.1
+
+Bootstrapped standard errors in parentheses, 1000 replications
+
+7274
+
+-1.954 (1.019)*
+
+Cut 2
+
+Observations
+
+Cut 1
+
+7274
+
+-4.349 (1.019)***
+
+-1.184 (0.0680)***
+
+Soil quality
+
+Rainfall
+
+Environmental factors
+
+0.00431 (0.0696)
+
+0.00197
+(8.40e-05)***
+
+Land 9 Credit
+
+N° irrigat (T)
+
+0.109 (0.0987)
+
+-0.191 (0.0809)**
+
+Land 9 Secure tenure
+
+Land 9 Extension
+
+0.0160 (0.0588)
+
+-0.0798 (0.0492)
+
+Education 9 Extension
+
+Education 9 Credit
+
+-0.0403 (0.0566)
+
+Probit
+Irrigation = 1
+
+Education 9 Secure
+tenure
+
+Variables
+
+Table 8 continued
+
+7274
+
+-2.908 (5.131)
+
+1.777 (0.577)***
+
+-0.716 (0.181)***
+
+-0.872 (0.355)**
+
+0.00317
+(0.000889)***
+
+0.00158
+(0.000240)***
+
+-0.230 (0.129)*
+
+-0.242 (0.140)*
+
+0.0212 (0.293)
+
+-0.157 (0.0849)*
+
+-0.0624 (0.102)
+
+0.102 (0.189)
+
+Modern
+
+Multinomial probit
+
+11.34 (1.894)***
+
+1.419 (0.426)***
+
+-1.941 (0.0968)***
+
+-1.004 (0.202)***
+
+-0.00160
+(0.000699)**
+
+0.00302
+(0.000120)***
+
+0.118 (0.111)
+
+-0.285 (0.130)**
+
+0.0863 (0.146)
+
+-0.149 (0.0812)*
+
+0.0473 (0.0953)
+
+-0.0862 (0.0834)
+
+Traditional
+
+1223
+
+-17.38 (10.31)*
+
+0.474 (0.353)
+
+0.831 (0.173)***
+
+0.542 (0.404)
+
+0.00310
+(0.000825)***
+
+-0.00121
+(0.000240)***
+
+-0.181 (0.144)
+
+0.179 (0.163)
+
+-0.209 (0.378)
+
+-0.0997 (0.106)
+
+-0.00933 (0.132)
+
+0.261 (0.289)
+
+Probit on selected
+sample
+Modern
+irrigation = 1
+
+1223
+
+-9.377 (7.925)
+
+-0.373 (0.277)
+
+0.530 (0.373)
+
+0.00232 (0.000792)***
+
+-0.00114
+(0.000226)***
+
+-0.186 (0.133)
+
+0.158 (0.148)
+
+-0.353 (0.364)
+
+-0.115 (0.0970)
+
+0.0487 (0.120)
+
+0.279 (0.243)
+
+Probit with sample
+selection
+Modern irrigation = 1
+
+Lat Am Econ Rev (2016) 25:2
+positively affects the shift from non-irrigation to adoption of traditional technology.
+In other words, our ﬁndings suggest that the greater the variance of production, the
+higher the probability farmers will implement traditional irrigation systems.
+Similarly, a greater value in the skewness of production entails a higher probability
+of implementing traditional irrigation. This last ﬁnding tells us that farmers care
+about downside yield risk, assigning negative weights to production distribution that
+show higher probabilities of obtaining lower production values. On the other hand,
+adoption of modern irrigation responds negatively to increases in both variance and
+skewness of production when having traditional irrigation as baseline. Results are
+robust to regional differences (see Appendix 2).20 The latter entails that farmers are
+less willing to shift to modern irrigation when experiencing less certain yields and
+higher downside risks. While results regarding traditional irrigation support the
+well-known decreasing-risk properties of irrigation, ﬁndings on modern irrigation
+are not in line with the ability of new technology to hedge against production risk
+highlighted in the literature before (Koundouri et al. 2006; Torkamani and Shajari
+2008).
+To verify if these ﬁndings can be applicable to larger segment of the Chile’s
+agricultural sector, we conduct a series of robustness checks. First, we replicate our
+results using information on wheat small-scale farmers. Wheat is one of the most
+important crops in Chile, comprising more than 50 % of the total hectares devoted
+to annual crops, and grown in the whole country in diverse climate and soil
+conditions. To allow enough information in all the irrigation categories, we, here,
+were less restrictive than in the potato case. We selected those farmers that reported
+to devote more than 90 % of their hectares to wheat farming. This is an issue in the
+sense that we cannot guarantee that the inputs observed in the data are indeed used
+in the wheat production process as in the potato case. This is crucial for estimating
+production risk measures such that results must be interpreted with caution. Results
+are shown in Appendix 3. We ﬁnd similar evidence as in the case of potato farmers.
+Adoption of traditional irrigation is more likely to occur among farmers with high
+production risk. However, the risk-reducing effect of modern irrigation technology
+remains unclear. Second, to gain efﬁciency, we pool observations of farmers
+allocating 100 % of land to either potato or wheat. Although the pooling exercise
+seems to be reasonable, issues regarding the association between inputs and outputs
+can emerge again when potatoes and wheat are not necessarily grown using the
+same inputs (or we do not observe that). Results are shown in Appendix 4. We ﬁnd
+support for previous ﬁndings. Traditional irrigation seems to be risk-decreasing
+from the perspective of non-irrigators while the switch from traditional to modern
+irrigation increases production risk. Third, potato and wheat farming are more
+resilient and less water demanding than other crops such that results regarding the
+switch from no-irrigation to traditional irrigation (and not modern irrigation)
+reducing production risk may respond to this speciﬁc characteristic. To explore this
+further, we replicate the results for rice farming, a water-intensive crop. However,
+20
+Due to the inexistence of modern irrigation observations in some regions, we were not capable to
+small, and it is not spread out the whole territory, which reduces climate variation.
+The Census reports 1534 rice farmers mainly located in the central–south regions in
+Chile. The majority of them use traditional irrigation (96 %) and only a small
+fraction (4 %) modern irrigation. Farmers without irrigation methods amount to
+1.56 %. Given the structure of irrigation adoption in rice farming, it is not possible
+to control for pre-conditions applying sample selection models such that decisions
+narrow down to a switch from traditional to modern irrigation. One caveat is that we
+cannot ensure that irrigation is associated with rice farming since many of the rice
+farmers grow jointly other crops. When applying the criterion of 100 % land
+allocation in rice to ensure association between inputs and rice output, we end up
+with very few observations (86), of which only one farmer reports to use modern
+irrigation. The low adoption of modern irrigation among more water intensive crops
+suggests that the insufﬁcient techniﬁcation in irrigation is a general problem in the
+agricultural sector in Chile. Having those data issues in mind, we replicate the
+results for those farmers that report to grow rice (see Appendix 5). We do not ﬁnd
+signiﬁcant results for the second and/or third moments of the production
+distribution, although coefﬁcients are negative.
+Lack of support of the risk-reducing effect of modern technology may imply that
+farmers in Chile are facing problems regarding seeing the virtues of water-saving
+technologies as risk-decreasing inputs, probably due to the higher uncertainty
+observed in the earlier stages of diffusion. The optimal use of methods of modern
+irrigation may depend on certain characteristics of soil and climate that are speciﬁc
+to a particular farm and inﬂuence the quantities of water required to achieve
+efﬁciency in water application. The structure of this relationship may be more
+difﬁcult to determine in earlier stages. In fact, new irrigation technology in Chile is
+indeed in an early phase of the technological cycle, where lower levels of
+knowledge and diffusion may possibly be adding an additional uncertain component
+that would offset the advantages of modern irrigation. In contrast, when analyzing
+the adoption of traditional irrigation, we are looking at shifts from a natural state of
+non-irrigation toward the use of water input. In particular, this technological change
+seems to be more developed in Chile and has likely reached a phase of maturity in
+the technological cycle. The latter supports the importance of improving the
+understanding and modeling of irrigation choices in settings in which rainfed
+agriculture is still predominant, as typical in developing countries.
+Finally, we evaluate the predictive ability of models looking at the percentage of
+correct predictions.21 Appendix 6 shows these results. Percentages of correct
+predictions range from 87 to 96 %, and univariate models explaining modern
+irrigation choices, having as a baseline traditional irrigation, perform better than
+multivariate models. Correct predictions as estimating a probit model for modern
+irrigation choices increases signiﬁcantly from 1 to 29 %. Correcting for sample
+21
+A prediction is assumed correct when the estimated probabilities of observing a determined irrigation
+status surpass 50 %. Predictions for modern irrigators in the probit model with sample selection were
+computed using conditional probabilities—that is, probability of success conditional on selection.
+Furthermore, non-irrigation predictions for this model correspond to those computed using estimates of
+Furthermore, prediction in all of the remainder irrigation statuses also improves.
+The latter suggests that modeling non-irrigation as one more level of technology
+may be inappropriate when there exists speciﬁc natural pre-conditions that drive
+non-irrigation choices. Thus, it seems reasonable to control for these pre-conditions
+before studying changes from conventional to new irrigation technology.
+
+7 Conclusion
+New irrigation technology can improve productivity by attaining higher efﬁciency
+in water application, which also brings external beneﬁts in the form of water
+conservation. Furthermore, new irrigation methods hold numerous advantages in
+zones with limiting environmental conditions, i.e. water scarcity and lower soil
+quality. In this paper, we study the effect of production risk on the adoption of
+irrigation. A large fraction of rural households in developing countries does not use
+either modern or traditional irrigation and is completely exposed to climatic
+variations. This gives rise to the question on how to include non-irrigators when
+estimating irrigation choices. We discuss results from an ordered, unordered, and
+sample selection models.
+The results indicate that farmers with a higher educational level, larger capital,
+credit access, receiving extension services, and those who reside in the plot and in
+communes with larger number of adopters are more likely to adopt modern
+irrigation. On the other hand, results for production risk depend on the type of
+irrigation technology. Whereas production risk promotes adoption of traditional
+irrigation, it seems to be an obstacle when assessing shifts from traditional to
+modern irrigation. Credit access, extension services and production variance seem
+to be more important in terms of magnitude.
+However, a couple of caveats deserve attention. First, given the cross-sectional
+nature of our data, we are not able to fully explore dynamics in irrigation decisions.
+These may be important, especially in examining the role of economic and policy
+changes on adoption of modern irrigation. Second, our results may be crop-speciﬁc
+since water needs are supposed to vary across different cropping activities. For
+example, potato and wheat are relatively more resistant to water stress than other
+crops such as rice and fruits and therefore a switch from conventional to modern
+irrigation methods may be more likely to be risk-decreasing in these last cases. Even
+though we did ﬁnd sufﬁcient evidence for our sample of rice farmers, data issues do
+not allow us to state plausibly whether our results can be extrapolated to other
+relatively more water-demanding cropping activities. Further research examining
+how results vary across different crops is needed.
+Despite these considerations, our ﬁndings have important implications for the
+success of government interventions to address concerns of the low rate of adoption
+of new irrigation technology. First, adoption of irrigation indeed reduces risk;
+however, we found that farmers may experience an increase in production risk when
+switching from traditional to modern irrigation methods. This increased risk may be
+technological cycle. The latter prevents the full exploitation of the advantages of
+modern irrigation in terms of high productivity and lower production volatility. Our
+results suggest that policy interventions through extension programs providing
+adoption-related information and easing access to credit are necessary to induce
+faster adoption and diffusion among small-scale farmers. Second, we found
+evidence in favor of sample selection correction as analyzing irrigation choices.
+Therefore, controlling for pre-conditions that determine irrigation before analyzing
+changes in technology is crucial to achieve a better understanding on irrigation
+choices in developing countries where non-irrigators still remain as a signiﬁcant part
+of the rural population. Finally, another important implication of our empirical
+ﬁndings is that climate change, which is expected to increase temperature and
+reduce precipitations in Chile, is likely to have a material effect on the agricultural
+sector. More speciﬁcally, it may increase drought risk and therefore reduce crop
+yields. Thereby, adoption of more efﬁcient irrigation technologies is crucial to
+manage the higher climate risk expected for the coming years.
+Acknowledgements This study was funded by the Research Support Fund, University of Bio-Bio,
+Project DIUBB 1567172/RS and Project GI 160317/EF. The authors thank valuable comments received
+at the seminar of the Development Economics Research Group (DERG), Department of Economics and
+Department of Food and Resource Economics, University of Copenhagen, and Nordic Conference in
+Development Economics, Gothenburg, Sweden. Special thanks go to Finn Tarp, Benedikte Bjerge and
+Marcela Jaime for their valuable comments on earlier versions. The article was also improved by helpful
+comments from anonymous referees and the editor. The usual caveats apply.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons license, and indicate if changes were made.
+
+Appendix 1
+0.104 (0.024)***
+
+Skewness
+
+-0.009 (0.030)
+
+0.0128 (0.004)***
+
+0.164 (0.038)***
+
+Reside in plot
+
+Dependence
+
+Capital
+
+Land
+
+0.201 (0.083)**
+
+0.091 (0.060)
+
+0.181 (0.103)*
+
+0.119 (0.098)
+
+Credit
+
+-0.506 (0.156)***
+
+-1.11 (0.068)***
+
+Soil quality
+
+Rainfall
+
+-0.850 (0.056)***
+
+-0.017 (0.131)
+
+-0.0014(0.0003)***
+
+-0.001 (0.0006)*
+
+N° irrigat (M)
+
+Environmental factors
+
+0.001 (0.00006)***
+
+0.183 (0.081)**
+
+0.001 (0.0001)***
+
+Participation
+
+N° irrigat (T)
+
+0.229 (0.102)**
+
+0.283 (0.098)***
+
+Extension
+
+0.277 (0.073)***
+
+0.103 (0.032)***
+
+0.0100 (0.003)***
+
+-.0017 (0.025)
+
+0.068 (0.057)
+
+0.057 (0.016)***
+
+-0.088 (0.091)
+
+Secure tenure
+
+Institutional aspects
+
+0.059 (0.020)***
+
+0.098 (0.075)
+
+Education
+
+0.082 (1.43)
+
+-0.135 (0.113)
+
+Gender
+
+Age
+
+0.106 (0.065)
+
+0.033 (0.019)*
+
+0.903 (0.183)***
+
+Household head characteristics
+
+0.257 (0.142)*
+
+0.078 (0.042)*
+
+St. Dev.
+
+0.058 (0.027)**
+
+Ordered probit?
+Level: 1, 2, 3
+
+Mean
+
+Moments of production distribution
+
+Variables
+
+-0.513 (0.219)**
+
+-0.413 (0.492)
+
+0.002 (0.001)**
+
+0.0013 (0.0002)***
+
+0.200 (0.218)
+
+0.567 (0.217)**
+
+0.586 (0.232)**
+
+0.776 (32.17)
+
+0.407 (0.096)***
+
+0.041 (0.014)**
+
+-0.018 (0.082)
+
+0.681 (0.242)**
+
+0.173 (0.045)***
+
+0.185 (0.329)
+
+-0.145 (0.221)
+
+0.079 (0.071)
+
+0.367 (0.505)
+
+0.231 (0.118)**
+
+Modern
+
+Multinomial probit
+
+Table 9 Estimates of the models of adoption in selected regions
+
+-1.682 (0.102)
+
+-0.742 (0.218)***
+
+-0.002 (0.0009)**
+
+0.002 (0.0002)***
+
+0.270 (0.112)**
+
+0.006 (0.142)
+
+0.128 (0.159)
+
+0.344 (0.144)**
+
+0.154 (0.052)**
+
+0.012 (0.006)**
+
+-0.0091 (0.043)
+
+0.064 (0.109)
+
+0.052 (0.031)*
+
+-0.257 (0.165)
+
+0.214 (0.120)*
+
+0.158 (0.037)***
+
+1.410 (0.274)***
+
+0.083 (0.062)
+
+Traditional
+
+0.378 (0.500)
+
+0.0030 (0.001)***
+
+-0.0012(0.0002)***
+
+-0.003 (0.218)
+
+0.480 (0.230)**
+
+0.429 (0.255)*
+
+0.535 (0.486)
+
+0.222 (0.103)**
+
+0.0292 (0.014)**
+
+0.040 (0.085)
+
+0.603 (0.271)**
+
+0.142 (0.049)***
+
+0.364 (0.367)
+
+-0.345 (0.276)
+
+-0.027 (0.056)
+
+-0.471 (0.417)
+
+0.190 (0.121)
+
+Probit on selected sample
+Modern irrigation = 1
+
+0.335 (0.471)
+
+0.002 (0.0009)**
+
+-0.001 (0.0002)***
+
+-0.079 (0.193)
+
+0.502 (0.229)**
+
+0.388 (0.227)*
+
+0.028 (0.079)
+
+0.148 (0.087)*
+
+0.023 (0.013)*
+
+0.028 (0.079)
+
+0.742 (0.248)***
+
+0.139 (0.048)***
+
+0.185 (0.367)
+
+-0.285 (0.244)
+
+-0.086 (0.048)*
+
+-0.856 (0.358)**
+
+0.197 (0.105)*
+
+Probit with sample selection
+Modern irrigation = 1
+3461
+
+*** p \ 0.01, ** p \ 0.05, * p \ 0.1
+
+Bootstrapped standard errors in parentheses, 1000 replications
+
+Observations
+
+-1.744 (0.528)
+
+Cut 1
+
+Cut 2
+
+3461
+
+-4.201 (0.563)***
+
+1.325 (0.303)***
+
+5.619 (0.700)***
+
+North zone
+
+Probit
+Irrigation = 1
+
+Constant
+
+Variables
+
+Table 9 continued
+
+3461
+
+-2.540 (32.35)
+
+2.031 (5.46)
+
+Modern
+
+Multinomial probit
+
+8.820 (1.046)***
+
+1.763 (5.460)
+
+Traditional
+
+1006
+
+-9.134 (2.12)**
+
+0.329 (0.311)
+
+Probit on selected sample
+Modern irrigation = 1
+
+1006
+
+-2.970 (7.413)
+
+-0.436 (0.299)
+
+Probit with sample selection
+Modern irrigation = 1
+
+Lat Am Econ Rev (2016) 25:2
+0.0418 (0.0329)
+
+0.00546 (0.00470)
+
+0.102 (0.0349)***
+
+Dependence
+
+Capital
+
+Land
+
+0.115 (0.101)
+
+0.256 (0.0969)***
+
+0.225 (0.0920)**
+
+0.183 (0.0880)**
+
+Secure
+tenure
+
+Extension
+
+Credit
+
+Participation
+
+Institutional aspects
+
+0.0701 (0.0179)***
+
+0.130 (0.0757)*
+
+Reside in
+plot
+
+-0.178 (0.117)
+
+Age
+
+Education
+
+0.108 (0.0723)
+
+Gender
+
+0.0836
+
+-0.00985 (0.0336)
+
+-0.259 (0.311)
+
+0.0657 (0.0806)
+
+Modern
+
+Multinomial probit
+
+0.0646 (0.0137)***
+
+0.0879 (0.0603)
+
+0.246 (0.0688)***
+
+0.272 (0.0773)***
+
+0.148 (0.0789)*
+
+0.0810 (0.0260)***
+
+0.00615 (0.00359)*
+
+0.0290 (0.0250)
+
+0.0906 (0.0570)
+
+0.0286 (0.173)
+
+0.561 (0.177)***
+
+0.604 (0.179)***
+
+0.674 (0.338)**
+
+0.386 (0.0712)***
+
+0.0276 (0.0112)**
+
+0.0161 (0.0689)
+
+0.440 (0.201)**
+
+0.145 (0.0387)***
+
+0.145 (0.299)
+
+(0.0576)
+
+-0.122 (0.0927)
+
+(0.179)
+
+0.122**
+
+0.00890 (0.0127)
+
+0.0332 (0.0172)*
+
+Skewness
+
+Household head characteristics
+
+0.222 (0.102)**
+
+0.0546 (0.0291)*
+
+0.529 (0.140)***
+
+St. Dev.
+
+0.0294 (0.0211)
+
+Ordered probit?
+Level: 1, 2, 3
+
+Mean
+
+Moments of production distribution
+
+Variables
+
+Table 10 Estimates of the models of adoption with regional variables
+
+See Table 10.
+
+Appendix 2
+
+0.335 (0.125)***
+
+-0.0893 (0.140)
+
+0.124 (0.151)
+
+0.105 (0.148)
+
+0.163 (0.0516)***
+
+0.00492 (0.00703)
+
+0.0210 (0.0485)
+
+0.197 (0.110)*
+
+0.0692 (0.0267)***
+
+-0.376 (0.171)**
+
+(0.106)
+
+0.186*
+
+0.0695 (0.0265)***
+
+0.906 (0.213)***
+
+0.0658 (0.0427)
+
+Traditional
+
+0.0678 (0.191)
+
+0.461 (0.206)**
+
+0.455 (0.224)**
+
+0.642 (0.424)
+
+0.204 (0.0849)**
+
+0.0277 (0.0137)**
+
+0.0616 (0.0846)
+
+0.526 (0.223)**
+
+0.123 (0.0436)***
+
+0.346 (0.387)
+
+(0.215)
+
+-0.295
+
+-0.0593 (0.0417)
+
+-0.722 (0.349)**
+
+0.132 (0.0922)
+
+Probit on selected
+sample
+Modern irrigation = 1
+
+0.0917 (0.187)
+
+0.488 (0.200)**
+
+0.438 (0.217)**
+
+0.556 (0.401)
+
+0.198 (0.0818)**
+
+0.0230 (0.0132)*
+
+0.0566 (0.0819)
+
+0.531 (0.217)**
+
+0.122 (0.0426)***
+
+0.277 (0.377)
+
+(0.207)
+
+-0.281
+
+-0.0573 (0.0400)
+
+-0.701 (0.337)**
+
+0.140 (0.0874)
+
+Probit with sample
+selection
+Modern irrigation = 1
+
+2.182 (0.850)**
+
+Constant
+
+Cut 2
+
+7274
+
+-0.118 (0.625)
+
+-2.496 (0.624)***
+
+-1.046 (0.189)***
+
+0.446 (0.131)***
+
+-1.282 (0.125)***
+
+-0.594 (0.0885)***
+
+0.451 (0.0846)***
+
+0.986 (0.158)***
+
+0.472 (0.194)**
+
+-0.565 (0.0678)***
+
+0.165 (0.117)
+
+-0.000954
+(0.000323)***
+
+0.00104 (6.13e-05)***
+
+Ordered probit?
+Level: 1, 2, 3
+
+*** p \ 0.01, ** p \ 0.05, * p \ 0.1
+
+Bootstrapped standard errors in parentheses, 1000 replications
+
+Observations
+
+7274
+
+-0.807 (0.237)***
+
+Region 14
+
+Cut 1
+
+-0.999 (0.158)***
+
+-0.489 (0.107)***
+
+Region 9
+
+2.251 (0.400)***
+
+0.756 (0.108)***
+
+Region 7
+
+Region 10
+
+2.222 (0.405)***
+
+Region 5
+
+Region 13
+
+1.445 (0.441)***
+
+Region 4
+
+Regional dummies
+
+-0.268 (0.155)*
+
+-0.562 (0.0935)***
+
+Soil quality
+
+Rainfall
+
+Environmental factors
+
+0.00182
+(9.35e-05)***
+
+Probit
+Irrigation = 1
+
+N° irrigat (T)
+
+Variables
+
+Table 10 continued
+
+7274
+
+9.926 (1.078)***
+
+0.510 (0.207)**
+
+-0.451 (0.534)
+
+2.304 (0.773)***
+
+0.898 (0.749)
+
+-0.665 (0.190)***
+
+-1.317 (0.391)***
+
+0.00275
+(0.000885)***
+
+0.00173
+(0.000249)***
+
+Modern
+
+Multinomial probit
+
+-0.650 (1.950)
+
+-0.320 (0.150)**
+
+0.846 (0.150)***
+
+2.445 (0.618)***
+
+0.134 (0.578)
+
+-1.750 (0.106)***
+
+-0.766 (0.212)***
+
+-0.00122
+(0.000728)*
+
+0.00290
+(0.000128)***
+
+Traditional
+
+1211
+
+-9.466 (2.331)***
+
+0.506 (0.329)
+
+0.209 (0.394)
+
+1.163 (0.454)**
+
+0.883 (0.205)***
+
+0.234 (0.450)
+
+0.00297 (0.000824)***
+
+-0.00114
+(0.000282)***
+
+Probit on selected
+sample
+Modern irrigation = 1
+
+1211
+
+-8.212 (2.334)***
+
+6.259 (3,430)
+
+0.566 (0.313)*
+
+0.223 (0.396)
+
+1.039 (0.452)**
+
+0.712 (0.208)***
+
+0.168 (0.443)
+
+0.00268 (0.000806)***
+
+-0.000943
+(0.000270)***
+
+Probit with sample
+selection
+Modern irrigation = 1
+
+Lat Am Econ Rev (2016) 25:2
+0.048 (0.011)***
+
+0.248 (0.039)***
+
+-0.000156
+(0.000178)
+
+0.258 (0.0446)***
+
+0.0831 (0.0273)***
+
+Education
+
+Reside in
+farm
+
+Dependence
+
+Capital
+
+Land
+
+0.0931 (0.055)*
+
+0.230 (0.056)***
+
+0.0165 (0.068)
+
+0.551 (0.046)***
+
+Secure tenure
+
+Extension
+
+Credit
+
+Participation
+
+Institutional aspects
+
+-8.83e-05 (0.0002)
+
+-0.017 (0.039)
+
+Gender
+
+Age
+
+0.408 (0.039)***
+
+0.049 (0.068)
+
+0.279 (0.059)***
+
+0.088 (0.053)*
+
+0.078 (0.026)***
+
+0.224 (0.041)***
+
+-0.0001 (0.0002)
+
+0.233 (0.035)***
+
+0.040 (0.010)***
+
+-0.013 (0.037)
+
+-6.44e-05 (0.0002)
+
+-0.0181 (0.084)
+
+0.075 (0.088)
+
+Skewness
+
+Household characteristics
+
+0.215 (0.221)
+
+0.218 (0.031)***
+
+0.386 (0.228)*
+
+St. Dev.
+
+0.186 (0.028)***
+
+Ordered probit?
+Level: 1, 2, 3
+
+Mean
+
+Moments of production distribution
+
+Variables
+
+0.181 (0.186)
+
+0.243 (0.201)
+
+0.828 (0.153)***
+
+0.113 (0.196)
+
+0.246 (0.069)***
+
+0.168 (0.124)
+
+-0.00137
+(0.0113)
+
+0.615 (0.169)***
+
+0.073 (0.036)**
+
+0.037 (0.178)
+
+0.0001 (0.033)
+
+-0.199 (0.247)
+
+-0.579 (0.649)
+
+0.180 (0.0791)**
+
+Modern
+
+Multinomial probit
+
+Table 11 Estimates of the models of technology adoption (Wheat farmers)
+
+See Table 11.
+
+Appendix 3
+
+0.819 (0.0680)***
+
+-0.0189 (0.101)
+
+0.238 (0.0832)***
+
+0.128 (0.0824)
+
+0.105 (0.039)***
+
+0.386 (0.066)***
+
+-0.000218
+(0.000252)
+
+0.328 (0.058)***
+
+0.065 (0.015)***
+
+-0.031 (0.058)
+
+-0.0001 (0.0003)
+
+0.173 (0.126)
+
+0.743 (0.331)**
+
+0.306 (0.0452)***
+
+Traditional
+
+-0.262 (0.194)
+
+0.241 (0.221)
+
+0.542 (0.163)***
+
+-0.100 (0.233)
+
+0.190 (0.081)**
+
+-0.175 (0.146)
+
+-0.001 (0.034)
+
+0.217 (0.186)
+
+0.059 (0.037)
+
+0.111 (0.208)
+
+0.001 (0.037)
+
+-0.294 (0.254)
+
+-1.061 (0.685)
+
+0.019 (0.077)
+
+Probit on selected
+sample
+Modern irrigation = 1
+
+-0.251 (0.246)
+
+0.374 (0.266)
+
+0.504 (0.184)***
+
+-0.0824 (0.272)
+
+0.164 (0.0901)*
+
+-0.299 (0.145)**
+
+-0.0005 (0.025)
+
+0.209 (0.224)
+
+0.069 (0.041)*
+
+0.160 (0.239)
+
+0.0007 (0.103)
+
+-0.201 (0.275)
+
+-1.091 (0.692)
+
+0.023 (0.092)
+
+Probit with sample
+selection
+Modern irrigation = 1
+
+-0.247 (0.170)
+
+1.126 (0.433)***
+
+North zone
+
+South zone
+
+Constant
+
+-0.157 (0.180)
+
+0.538 (0.211)**
+
+-0.399 (0.055)***
+
+-0.123 (0.094)
+
+-0.002 (0.0003)***
+
+0.0009
+(2.68e-05)***
+
+Ordered probit?
+Level: 1, 2, 3
+
+*** p \ 0.01, ** p \ 0.05, * p \ 0.1
+
+Bootstrapped standard errors in parentheses, 1000 replications
+
+8254
+
+Cut 2
+
+Observations
+
+1.245 (0.449)***
+
+Cut 1
+
+8254
+
+-0.900 (0.447)**
+
+-0.240 (0.0967)**
+
+-0.453 (0.0528)***
+
+Soil quality
+
+Rainfall
+
+Environmental factors
+
+0.001 (3.07e-05)***
+
+Probit
+Irrigation = 1
+
+N° irrigat (T)
+
+Variables
+
+Table 11 continued
+
+8254
+
+-1.991 (1.772)
+
+-0.0101 (0.302)
+
+1.011 (0.893)
+
+-0.362 (0.195)*
+
+-0.198 (0.353)
+
+0.002 (0.0003)**
+
+(0.195) 0.0003
+
+Modern
+
+Multinomial probit
+
+1.628 (0.637)**
+
+-0.583 (0.300)*
+
+0.433 (0.286)
+
+-0.651 (0.077)***
+
+-0.306 (0.141)**
+
+-0.004
+(4.41e-05)***
+
+0.002 (0.0776)***
+
+Traditional
+
+2035
+
+-2.760 (1.646)*
+
+-0.022 (0.454)
+
+0.614 (0.486)
+
+0.094 (0.158)
+
+0.366 (0.346)
+
+0.004 (0.0008)***
+
+-0.001 (0.0005)**
+
+Probit on selected
+sample
+Modern irrigation = 1
+
+2035
+
+-3.826 (1.768)**
+
+-0.114 (0.515)
+
+0.295 (2.823)
+
+0.485 (0.377)
+
+0.004 (0.001)***
+
+-0.0009 (0.0004)**
+
+Probit with sample
+selection
+Modern irrigation = 1
+
+Lat Am Econ Rev (2016) 25:2
+-0.0891 (0.0386)**
+
+0.0848 (0.0101)***
+
+-0.0531 (0.0398)
+
+-0.000486
+(0.000220)**
+
+Age
+
+Education
+
+Reside in
+farm
+
+Dependence
+
+0.108 (0.0562)*
+
+0.118 (0.0577)**
+
+0.138 (0.0642)**
+
+Secure tenure
+
+Extension
+
+Credit
+
+0.167 (0.0532)***
+
+0.171 (0.0516)***
+
+0.132 (0.0509)***
+
+0.556 (0.0470)***
+
+0.610 (0.0522)***
+
+Potato farmer
+
+Institutional aspects
+
+Land
+
+0.205 (0.0388)***
+
+0.0315 (0.0267)
+
+0.227 (0.0464)***
+
+0.0157 (0.0305)
+
+Capital
+
+-0.000467
+(0.000203)**
+
+-0.0387 (0.0358)
+
+0.0738 (0.00885)***
+
+-0.0774 (0.0347)**
+
+-0.000226
+(0.000175)
+
+Gender
+
+-0.000188
+(0.000157)
+
+0.0405 (0.00807)***
+
+0.0404 (0.00940)***
+
+Skewness
+
+Household characteristics
+
+0.482 (0.0693)***
+
+0.120 (0.0181)***
+
+0.503 (0.0814)***
+
+St. Dev.
+
+0.105 (0.0162)***
+
+Ordered probit?
+Level: 1, 2, 3
+
+Mean
+
+Moments of production distribution
+
+Variables
+
+0.279 (0.131)**
+
+0.680 (0.148)***
+
+0.508 (0.251)**
+
+1.436 (0.206)***
+
+0.349 (0.0867)***
+
+0.365 (0.106)***
+
+-0.00182 (0.00367)
+
+0.165 (0.146)
+
+0.141 (0.0295)***
+
+-0.160 (0.159)
+
+-0.000884
+(0.000726)
+
+0.0358 (0.0251)
+
+0.205 (0.234)
+
+0.141 (0.0651)**
+
+Modern
+
+Multinomial probit
+
+0.166 (0.0955)*
+
+0.0711 (0.0863)
+
+0.121 (0.0809)
+
+0.803 (0.0748)***
+
+-0.00934 (0.0448)
+
+0.292 (0.0685)***
+
+-0.000704
+(0.000315)**
+
+-0.0906 (0.0575)
+
+0.113 (0.0147)***
+
+-0.117 (0.0550)**
+
+-0.000271
+(0.000250)
+
+0.0510 (0.0137)***
+
+0.676 (0.118)***
+
+0.168 (0.0261)***
+
+Traditional
+
+Table 12 Estimates of the models of technology adoption (Pooling potato and wheat farmers)
+
+See Table 12.
+
+Appendix 4
+
+0.205 (0.133)
+
+0.407 (0.179)**
+
+0.579 (0.306)*
+
+1.017 (0.208)***
+
+0.300 (0.0954)***
+
+0.0843 (0.111)
+
+-0.00221 (0.00550)
+
+0.272 (0.155)*
+
+0.0970 (0.0312)***
+
+-0.0394 (0.161)
+
+-0.000668 (0.000768)
+
+-0.0138 (0.0234)
+
+-0.479 (0.214)**
+
+0.184 (0.0716)**
+
+Probit on selected
+sample
+Modern irrigation = 1
+
+0.151 (0.125)
+
+0.387 (0.171)**
+
+0.569 (0.292)*
+
+0.797 (0.198)***
+
+0.275 (0.0902)***
+
+0.0164 (0.104)
+
+-0.00181 (0.00713)
+
+0.348 (0.146)**
+
+0.105 (0.0297)***
+
+-0.109 (0.143)
+
+-0.000702 (0.000686)
+
+-0.0180 (0.0217)
+
+-0.420 (0.193)**
+
+0.194 (0.0686)***
+
+Probit with sample
+selection
+Modern irrigation = 1
+-0.809 (0.0957)***
+
+4.441 (0.321)***
+
+South zone
+
+Constant
+
+Cut2
+
+14,086
+
+-0.605 (0.287)**
+
+-3.277 (0.287)***
+
+6.688 (0.460)***
+
+-0.705 (0.0785)***
+
+0.660 (0.101)***
+
+-0.802 (0.0363)***
+
+-0.0373 (0.0684)
+
+-0.00260
+(0.000226)***
+
+0.00123
+(2.65e-05)***
+
+0.407 (0.0376)***
+
+Ordered probit?
+Level: 1, 2, 3
+
+*** p \ 0.01, ** p \ 0.05, * p \ 0.1
+
+Bootstrapped standard errors in parentheses, 1000 replications
+
+Observations
+
+14,086
+
+1.052 (0.145)***
+
+North zone
+
+Cut1
+
+-0.197 (0.0761)***
+
+-0.981 (0.0413)***
+
+Soil quality
+
+Rainfall
+
+Environmental factors
+
+0.570 (0.0443)***
+
+0.00146
+(3.18e-05)***
+
+N° irrigat (T)
+
+Probit
+Irrigation = 1
+
+Participation
+
+Variables
+
+Table 12 continued
+
+14,086
+
+-2.762 (1.278)**
+
+-0.350 (0.186)*
+
+1.649 (0.377)***
+
+-0.384 (0.152)**
+
+-0.194 (0.284)
+
+0.000219 (0.000729)
+
+0.000956
+(0.000139)***
+
+0.412 (0.130)***
+
+Modern
+
+Multinomial probit
+
+6.688 (0.460)***
+
+-2.121 (0.289)***
+
+1.440 (0.203)***
+
+-1.437 (0.0592)***
+
+-0.288 (0.110)***
+
+-0.00492
+(0.000411)***
+
+0.00208
+(4.54e-05)***
+
+0.854 (0.0649)***
+
+Traditional
+
+2703
+
+-8.543 (1.278)***
+
+2.251 (0.446)***
+
+0.551 (0.303)*
+
+0.801 (0.143)***
+
+0.550 (0.304)*
+
+0.00268 (0.000661)***
+
+-0.000729
+(0.000135)***
+
+0.0543 (0.130)
+
+Probit on selected
+sample
+Modern irrigation = 1
+
+2703
+
+-3.078 (0.688)***
+
+2.449 (0.439)***
+
+-0.382 (0.230)*
+
+0.528 (0.285)*
+
+0.00193 (0.000637)***
+
+-0.000648
+(0.000133)***
+
+0.0580 (0.124)
+
+Probit with sample
+selection
+Modern irrigation = 1
+
+Lat Am Econ Rev (2016) 25:2
+See Table 13.
+Table 13 Estimates of the
+models of technology adoption
+for rice farmers
+
+Variables
+
+Probit on selected sample
+Modern irrigation = 1
+
+Moments of production distribution
+Mean
+
+0.174 (0.624)
+
+St. Dev.
+
+-0.484 (1.118)
+
+Skewness
+
+-0.0798 (0.267)
+
+Household characteristics
+Gender
+
+-0.000576 (0.000825)
+
+Age
+
+-0.202 (0.195)
+
+Education
+
+0.0312 (0.0416)
+
+Reside in farm
+
+0.0696 (0.179)
+
+Dependence
+
+-0.00207 (0.00573)
+
+Capital
+
+0.230* (0.120)
+
+Land
+
+0.0139 (0.112)
+
+Institutional aspects
+Secure tenure
+
+0.842 (0.525)
+
+Extension
+
+0.168 (0.187)
+
+Credit
+
+0.0586 (0.129)
+
+Participation
+
+0.423*** (0.153)
+
+N° irrigat (T)
+
+-0.000289 (0.000230)
+
+N° irrigat (M)
+
+0.00799*** (0.00284)
+
+Environmental factors
+Soil quality
+
+-0.463 (0.606)
+
+Bootstrapped standard errors in
+parentheses, 1000 replications
+
+Rainfall
+
+0.0999 (0.599)
+
+Constant
+
+-3.195 (3.696)
+
+*** p \ 0.01, ** p \ 0.05,
+* p \ 0.1
+
+Observations
+
+See Table 14.
+Table 14 Correct predictions for adoption models per irrigation category
+Probit
+Irrigation = 1
+(%)
+
+Ordered
+probit?
+Level: 1, 2,
+3 (%)
+
+Multinomial
+probit (%)
+
+Probit on
+selected
+sample
+Modern
+irrigation = 1
+(%)
+
+Probit with
+sample
+selection
+Modern
+irrigation = 1
+(%)
+
+Correct
+predictions
+
+94.6
+
+93.6
+
+94.2
+
+95.1
+
+96.1
+
+Nonirrigation
+
+98.0
+
+98.8
+
+98.2
+
+–
+
+99.2
+
+Traditional
+irrigation
+
+–
+
+71.9
+
+79.2
+
+93.5
+
+99.3
+
+Modern
+irrigation
+
+–
+
+1.4
+
+1.4
+
+28.6
+
+42.9
+
+Irrigation
+status
+
+Whole sample
+
+Selected sample
+Correct
+predictions
+
+89.6
+
+87.1
+
+88.7
+
+95.1
+
+95.5
+
+Non
+irrigation
+
+96.3
+
+96.5
+
+96.6
+
+–
+
+97.6
+
+Traditional
+irrigation
+
+–
+
+67.9
+
+73.5
+
+99.5
+
+99.4
+
+Modern
+irrigation
+
+–
+
+1.7
+
+1.7
+
+24.1
+
+32.8
+
+Predictions on non-irrigation choices in the probit model with sample selection correspond to selection
+equation predictions
+
+Zilberman D, Khanna M, Lipper L (1997) Economics of new technologies for sustainable development.
+Lat Am Econ Rev (2016) 25:2
+DOI 10.1007/s40503-016-0032-3
+ORIGINAL RESEARCH
+
+Production risk and adoption of irrigation technology:
+evidence from small-scale farmers in Chile
+´
+Cesar Salazar1 • John Rand2
+
+Received: 27 March 2015 / Accepted: 6 July 2016 / Published online: 21 July 2016
+Ó The Author(s) 2016. This article is published with open access at Springerlink.com
+
+Abstract In most developing countries non-irrigation status often dominates
+adoption of traditional and modern irrigation technology. In this paper, we study the
+effect of production risk on irrigation technology choice among small-scale farmers
+in Chile, applying sample selection and discrete choice models. We ﬁnd that more
+educated farmers, with credit access, receiving extension services, and living in
+communes with more adopters are more likely to use modern irrigation techniques.
+Moreover, production risk is often associated with adoption of traditional irrigation,
+and this risk often undermines a shift to more modern irrigation systems. Controlling for pre-conditions that determine irrigation choices clearly improves our
+understanding of small-scale farmer irrigation adoption decisions and we argue that
+weaker knowledge about and lower automatic diffusion of modern irrigation is a
+main obstacle for improving small-scale farmer productivity.
+Keywords Production risk Á Irrigation Á Technology adoption
+JEL Classiﬁcation D8 Á O13 Á Q15 Á Q55
+
+´
+& Cesar Salazar
+csalazar@ubiobio.cl
+John Rand
+John.Rand@econ.ku.dk
+1
+
+´
+´
+Department of Economics and Finance and ‘Analisis Economico Sectorial Aplicado’ Research
+´
+Group, University of Bio–Bio, Avenida collao 1202, Concepcion, Chile
+
+2
+
+Since the green revolution, agriculture in developing countries has experienced a
+technological transformation process principally driven by an increasing demand for
+agricultural products. It has triggered a massive increase in the adoption of new
+technologies, such as the use of chemical inputs, pesticides, traditional irrigation,
+and high-yielding seed varieties, with signiﬁcant beneﬁts in terms of productivity
+and poverty reduction (Evenson and Gollin 2003). However, concerns have lately
+been raised on the grounds of sustainability, as the intensive use has consequences
+for environment and human health (Ruttan 2002).
+The adoption of traditional irrigation methods has shown to be beneﬁcial to
+reduce farmers’ vulnerability to weather conditions, making production and
+incomes more stable. However, traditional irrigation has also increased the pressure
+on water reservoirs and created pollution problems.1
+The aim of this paper is to study the effect of production risk on irrigation
+technology choices and discuss adoption of modern irrigation in settings where most
+rural households depend exclusively on rainfall for water supply. This is a particular
+feature in developing countries and zones characterized by abundance of
+precipitation.2 We argue that the latter may give rise to potential sample selection
+problems in irrigation choices, which needs to be considered when analyzing the
+association between production risk and farm technology adoption. For modeling
+these irrigation choices, we as an example use agricultural census data of potato
+family farmers in Chile.
+Chile has the challenge to transform the Chilean agricultural sector into a worldwide agricultural production and food powerhouse (MINAGRI 2006). However,
+such a transformation process requires incorporating small holder family farmers
+into productive agricultural units not only serving themselves (home-production)
+but as integrated highly productive active agents contributing to the achievement of
+this objective. The Agricultural Development Institute (ADI) has continually
+provided technical support to the family agriculture in areas such as investment in
+human and productive capital, credit provision, access to markets, recuperation of
+eroded soil and irrigation. In spite of this effort and progress observed in the last
+decade, the technological gap between large and small-scale farmers persists. For
+example, 89 % of total land under modern irrigation systems is held by larger
+farmers (FAO 2009). This fact is what motivates this study to analyze the factors
+explaining the slow adoption process among small-scale farmers, where the main
+focus is on the importance of differences in production risk faced by small versus
+large farmers.
+1
+
+Too much water poured on the ground by traditional irrigation systems may provoke a saturation
+process, making excess water ﬂow over the land along with pollutants derived from the remains of
+pesticides and fertilizers.
+
+2
+
+In the context of locations suffering from water scarcity, conﬂicting water use and insufﬁcient levels of
+investment in water supply infrastructure, the adoption of water-saving technologies arises as one
+alternative to increase efﬁciency in water use and minimize contamination problems. Furthermore, watersaving technologies contributes to enhance productivity and quality of production through a more uniform
+straight forward. Risk-averse farmers may not adopt modern irrigation if it raises
+production risk by increasing yield variability too much. In contrast, if the new
+technology has the potential to attenuate variability in economic outcomes, then it
+would be more rapidly adopted among risk-averse small scale farmers. Even though
+literature on adoption of modern irrigation technology is well-documented, there is
+little evidence concerning production risk and irrigation choices. Two exceptions are
+Koundouri et al. (2006) and Torkamani and Shajari (2008). Both studies ﬁnd support
+of a positive and signiﬁcant effect of production risk on adoption decisions, arguing
+that new irrigation technology is a risk-decreasing input. However, both studies were
+carried out in settings where the knowledge of irrigation beneﬁts is well-known and the
+new technology seems to show some degree of consolidation, which only allow to
+model changes from traditional to modern irrigation systems.
+In Chile the pre-conditions are different. Due to abundance of precipitation
+mainly in the southern territories in Chile, around 83 % of potato farmers do not use
+irrigation, which amounts to 66 % of registered farming land. Exploiting these
+differences in natural pre-conditions, we follow Foudi and Erdlenbruch (2012)
+applying a sample selection approach to study the risk-decreasing properties of
+irrigation under joint estimation of production and production risk. However, to our
+knowledge, no previous studies have extended this approach to the decision of
+shifting from conventional farming to modern irrigation technologies.
+Moreover, in light of the high drought risk observed in Chile understanding the
+underlying mechanisms of irrigation adoption is of fundamental value. Historically
+droughts are frequent and affect 25 % of the continental territory. Furthermore,
+climate change studies estimate an intensiﬁcation of aridity in the north zone,
+advances of the desert toward the south, and less precipitation in the central zone at
+the end of the 21st century (FAO 2010). Thus, the augment in temperature and
+decline in precipitation along with an increasing demand for water resources foresee
+a higher drought risk for the next decades. Therefore, improvements in water
+efﬁciency by the adoption of modern technology are likely to become essential to
+reduce the vulnerability of agriculture in the future.
+The rest of the article is organized as follows: Sect. 2 reviews the main
+arguments enhanced by literature as determinants of technology adoption. Section 3
+describes the empirical strategy and data used to carry out this study. Section 4
+presents the main results, and Sect. 5 concludes the article.
+
+2 Conceptual framework on adoption of new technology
+There is an extensive literature aimed at explaining the process of technology
+adoption.3 Lower adoption rates are generally associated with imperfections in credit
+markets, information, agro-ecological characteristics, input and output markets as
+3
+The determinants of modern irrigation have been examined by Caswell and Zilberman (1985), Negri
+and Brooks (1990), Shrestha and Gopalakrishnan (1993), Green et al. (1996), Skaggs (2001), Foltz
+mainly observed in developing countries (Feder et al.1985; Bardhan and Udry 1999).
+A key element relates to the reduced credit opportunities farmers face. Lack of
+access to credit in rural areas arises as a consequence of asymmetric information
+and enforcement problems in the lender-borrower relation. This is particularly
+augmented among small farmers in developing countries due to the lack of sufﬁcient
+collateral (Udry 1994). Thus, when innovations require signiﬁcant levels of
+investment, credit constraints may turn out to be a limiting factor in adoption
+decisions. In addition, as the diffusion of innovation is scarce and fails to reach
+potential users, farmers may face trouble in obtaining the maximum beneﬁt from
+shifting to modern technologies. The optimal use of new production methods
+involves adoption of new technologies to the local conditions, which implies a
+costly learning process (Foster and Rosenzweig 1995). Imperfect knowledge about
+the usage of new technology constitutes a barrier that delays the adoption process.
+Furthermore, it is expected that new technologies are more likely to be adopted in
+rural zones with better support infrastructure and localized near main commercial
+centers, in which the availability of both complementary inputs and maintenance
+services are more abundant (Sunding and Zilberman 2001). In addition, tenurial
+arrangements that characterize the landlord-tenant relationship and land rent
+contracts can affect adoption decisions. For instance, small farmers without land of
+their own and facing short-term land contracts are less probable to adopt innovations
+since they may be unable to enjoy the long-term beneﬁts of doing so (Bahduri
+1973). Finally, agro-ecological characteristics that capture environmental heterogeneity are essential to attain a better understanding of the process of adopting
+sustainable agricultural technologies (Dinar and Yaron 1990; Lee 2005). In
+particular, modern irrigation methods have a higher relative advantage in zones with
+lower land quality which lower water-holding capacity (Caswell and Zilberman
+1986; Dinar and Zilberman 1991).
+In relation to household characteristics, variables that control for differences in
+farm size, off-farm opportunities, human capital, and gender play an important role
+to capture the intra-household dynamic in explaining adoption levels (Doss 2006).
+One key factor less explored in literature is the role of risk in adopting new
+technology (Foster and Rosenzweig 2010). Rural households must deal with highincome ﬂuctuations as exposed to a variety of uncontrollable factors such as climate
+conditions, economic ﬂuctuations, policy uncertainty, and individual-speciﬁc
+shock4 (Bardhan and Udry 1999; Dercon 2002). In this context, decision making
+under uncertainty is characterized by risk because some possible outcomes have an
+undesired effect. If we assume farmers are risk averse, they would adjust their
+4
+
+First, climatic risk may trigger harvest failure as a result of occurrences of unexpected events from
+nature such as drought, ﬂood or frost. Second, the inherent volatility of the agricultural market explained
+mainly by ﬂuctuations in demand and supply generates another source of income variation via price
+uncertainty. Third, given the fact that farmers make most decisions in advance far before the ﬁnal product
+is sold in the market, prices are not known at the time choices regarding the production process are made.
+Fourth, the recurrent need that governments face to change the direction of agricultural policy produces a
+further risk component that enhances the uncertainty in investment decisions. Fifth, individual shock may
+arise, for instance, when households are hit by an illness or unexpected death of one of its members whose
+(Dercon 2002). However, when credit and insurance markets are absent or
+incomplete, poor farmers characterized by limited landholdings, few assets, and
+lower schooling face serious constraints to smooth consumption.5 Consequently, it
+is expected that farmers depend on ex-ante management strategies to smooth
+income, which would imply preferences for traditional technology with lower
+expected returns. It may be true for new irrigation methods that due to higher
+exigencies of knowledge in its use, adoption would raise the likelihood of failure in
+spite of higher expected beneﬁts. However, modern irrigation technology is also
+recognized for being a risk-decreasing input when reducing dependence on rainfall
+and water availability, which make yields more stable. Koundouri et al. (2006) and
+Torkamani and Shajari (2008) found a positive effect of production risk on
+switching from traditional to modern irrigation technology, supporting a riskdecreasing effect.
+
+3 Agricultural sector and family farming in Chile
+In this paper, we examine the effect of production risk on irrigation choices,
+focusing on a sample of family farmers in Chile among which modern irrigation is
+an incipient agricultural practice. The agricultural sector is important in Chile,
+accounting for 3.5 % of the Gross Domestic Product (GDP) and employing around
+12 % of the country’s labor force. More than 50 % of production is commercialized
+in international markets, which makes the sector highly dependent on world market
+prices. The sector beneﬁts from huge climate diversity, which allows an ample
+range of cropping activities. This agro-ecological diversity is considered one of the
+Chile’s main comparative advantages. Some major agriculture products consist of
+fruits, including grapes, apples, pears, peaches, and berries; horticulture, including
+garlic, onions, and asparagus; and cereal and tuber such as wheat, maize, and
+potatoes.
+Family agricultural production represents one-third of Agricultural Gross
+Domestic Product (AGDP) and contributes with 1.2 % of the GDP in Chile. In
+addition, this segment controls 85 % of the farms in the country, and generates
+60,000 direct and indirect jobs, beneﬁting 1.2 million of people. Furthermore,
+family agricultural producers are one of the main food suppliers in the country,
+providing around 60 % of food consumed in the domestic markets (INDAP 2011).
+Family farmers are characterized by being mainly involved in traditional farming
+activities such as annual crops, horticulture, and extensive cattle farming. They
+operate small plots at low levels of working capital and often face credit constraints.
+For simpliﬁcation, the Ministry of Agriculture deﬁnes family farmers as those
+holding 12 hectares or less of basic irrigation (HBI) (FAO 2009). We follow this
+deﬁnition in this paper.
+5
+
+Alternatively, poor farmers get involved in informal risk–coping mechanisms based on agreements
+made by members of the same group or community to support each other in the case of shocks. In
+addition, farmers also cope with risk by generating incomes from off-farm activities or by receiving
+This study uses data from the VII National Agriculture and Forestry Census carried
+out in Chile (INE 2007).6 All data is at the household level, except for tenancy
+status, which was collected at the plot level. Household level data is combined with
+location level data for soil and climate characteristics.
+The Census only reports information on output and input variables for annual
+crops. Farmers involved in other economically relevant cropping activities, such as
+fruit trees and horticulture, were unfortunately not asked to report production and
+input volumes. Given that our framework relies on the estimation of the production
+function to compute risk measures, our data is not suitable to investigate the
+association between irrigation technology and production risk to a larger segment of
+Chile’s agricultural sector, other than farms growing annual crops. In spite of the
+limitations outlined above, census data allow us to deal with a recurring problem
+observed in site-speciﬁc data, in which a few villages or areas are surveyed, and data
+lack sufﬁcient variation capturing the agricultural potential (Doss 2006). The
+Census gives us an exceptional opportunity to exploit the climate diversity that
+characterizes the Chilean territory. Due to its unusual length and the diversity of its
+landscapes and ecosystems, Chile has many distinct climates, ranging from desert to
+frosty polar in the extreme south. A national coverage of the Census running more
+than 4000 km from north to south guarantees a unique setting to study the role of
+natural pre-conditions (rainfall and soil characteristics) in the identiﬁcation of
+selection into irrigation.
+We choose to focus on potato farming. The choice of this crop relies on the
+economic and social importance for agricultural income-dependent farmers. This
+crop is the third more relevant annual crop in term of surface and occupies the
+second position when production value is taken into account. Apart from its
+economic relevance, potato farming is important from a social perspective due to
+the fact that it demands great amounts of labor mainly during harvest season, which
+is particularly transcendental in those zones with higher unemployment. Moreover,
+this crop extends across the whole territory and its distribution can clearly be
+organized in agro-climatic zones well differentiated (INIA 2006). This feature
+allows us to pick up agricultural potential with more precision. Another issue is that
+we are not able to distinguish amounts of inputs per crop. Thus, to ensure a clean
+association between observed inputs and potato production, we decided to focus on
+the sample of potato farmers whose entire land is allocated to this crop. This
+resulted in a sample of 7274 observations.
+Farmers report number of hectares irrigated by different irrigation systems. We
+aggregate this information into three irrigation statuses: non-irrigation, traditional
+
+6
+
+The Agricultural and Forestry Census is conducted each 10 years. The previous Census was carried out
+in 1997. To our knowledge, the 2007 Census was not designed to be able to track a sub-sample of rural
+households from previous waves. The latter does not allow us to conduct differences in differences
+techniques while controlling for unobserved time-invariant effects. However, it is highly likely that
+structural changes affecting differently irrigators and non-irrigators have taken place in such a long
+Page 7 of 37 2
+
+Category
+
+N°
+
+%a
+
+Hectares
+
+% Hectares
+
+No-irrigation
+
+6083
+
+83.0
+
+4094
+
+65.6
+
+Irrigation
+
+1245
+
+17.0
+
+2146.1
+
+34.4
+
+1175
+
+94.4
+
+1852.5
+
+86.3
+
+Flood
+
+417
+
+35.5
+
+692
+
+37.4
+
+Furrow
+
+1139
+
+61.5
+
+Traditional
+Source: Own elaboration based
+on Censual data, 2007
+a
+
+Traditional irrigation does not
+add up 100 % because some
+farmers adopt more than one
+irrigation system. Moreover,
+some farmers use both
+traditional and modern
+irrigation. In this case, they are
+deﬁned as modern irrigators
+
+831
+
+70.7
+
+Other
+
+17
+
+1.4
+
+21.5
+
+1.2
+
+Modern
+
+70
+
+5.6
+
+293.6
+
+13.7
+
+Sprinkler
+
+53
+
+75.7
+
+215
+
+73.2
+
+Center pivot
+
+2
+
+2.9
+
+64
+
+21.8
+
+Drip
+
+8
+
+11.4
+
+6.6
+
+2.2
+
+Micro sprinkler
+
+7
+
+10.0
+
+8
+
+2.7
+
+irrigation and modern irrigation.7 Table 1 shows the number of farmers and hectares
+that fall into each category of irrigation.
+The ﬁgures show that 17 % of farmers (and 34.4 % of farmed land) use some
+system of irrigation. In addition, modern irrigation is adopted by 5.6 % of irrigators,
+covering 13.7 % of the total irrigated hectares. Regarding traditional irrigation,
+farmers using furrow technology amount to 70.7 % of the total (and 61.5 % as
+measured by irrigated hectares). On the other hand, sprinkler technology seems to
+be the more broadly used system among modern irrigators since three out of four
+adopt this method. Table 2 depicts the summary statistics for inputs, environmental,
+and location variables by irrigation category. Table 3 shows descriptive statistics for
+farmers’ characteristics and institutional aspects by irrigation category.
+Production yield increases as irrigation becomes more sophisticated. The same is
+true for cultivated area, indicating that irrigation is more likely to be adopted by
+large farmers. Irrigators mostly reside in zones with lower levels of precipitation. In
+particular, both modern and traditional irrigators predominate in the central zone.
+Conversely, non-irrigators are mainly located in southern locations, which
+experience the highest levels of rainfall.
+Education seems to be important to explain adoption of modern technology.
+Furthermore, modern irrigators seem more agricultural income-dependent than
+farmers using traditional irrigation. In addition, only 28.5 % of farmers report to
+have used credit instruments. In relation to extension services, 38.6 % of farmers
+with improved irrigation methods state to have received extension services in the
+last 2 years, which compares to the 8 and 16 % observed among traditional
+irrigators and non-irrigators, respectively. There is a clear trend for irrigators to
+participate in organizations. Whereas participation reaches around 30 % among
+irrigated farms, this ﬁgure is only 15 % among non-irrigators. Regarding land
+property status, owning land with a registered title and rented land is more likely
+among irrigators. While this amount is around 90 % of total land among irrigated
+farms, it constitutes only 34.6 % of land held by non-irrigators.
+7
+
+Eleven farmers report to have both traditional and modern irrigation. Given the reduced number of
+
+Capital (Chilean pesosa)
+
+84 %
+
+6.14
+
+Total labor (N°)
+
+Draft mechanical
+
+36.70
+
+17.0 %
+
+17.0 %
+
+South zone
+
+Source: Own elaboration based on Censual data, 2007
+
+1 US$ corresponds to approximately 500 Chilean pesos
+
+70
+
+64.0 %
+
+0.26
+
+0.858
+
+43.0 %
+
+-0.27
+
+513.8
+
+8,778,120
+
+7.30
+
+9.94
+
+100.8
+
+Central zone
+
+Observations
+
+351,117.10
+10,693.16
+
+208.7
+
+North zone
+
+Location variables
+
+Soil quality (ratio)
+
+Skewness
+
+Standard deviation
+
+963.1
+
+Draft animal
+
+Rainfall (mm)
+
+0
+
+15 %
+
+No use
+
+Fertilizer machine use
+
+4.76
+
+24.93
+
+13,636.14
+
+18,721.30
+
+1153
+
+0.0 %
+
+78.0 %
+
+22.0 %
+
+43.0 %
+
+-0.043
+
+189.9
+
+467.3
+
+7%
+
+0.05 %
+
+91 %
+
+3,394,974
+
+4.18
+
+1.47
+
+4.44
+
+11,791.30
+
+0.23
+
+0.818
+
+90.7
+
+343.7
+
+7,209,798
+
+6.76
+
+3.09
+
+12.73
+
+8734.11
+
+41,402.10
+
+Std Dev
+
+Mean
+
+Mean
+
+Std Dev
+
+Traditional irrigation
+
+Modern irrigation
+
+Cultivated land
+
+Total surface (hectares)
+
+Yield (kilos/hectares)
+
+Production (kilos)
+
+Category
+
+6051
+
+59.0 %
+
+40.0 %
+
+0.03 %
+
+44.0 %
+
+0.033
+
+220.3
+
+1460.7
+
+2.4 %
+
+0.03 %
+
+97 %
+
+2,408,747
+
+3.46
+
+0.66
+
+15.81
+
+11,227.95
+
+9033.70
+
+Mean
+
+Non-irrigators
+
+Table 2 Mean and standard deviation for inputs, environmental and location variables per irrigation category
+
+0.24
+
+0.794
+
+30.4
+
+473
+
+4,253,057
+
+4.57
+
+1.89
+
+25.25
+
+8531.67
+
+48,555.60
+
+Std Dev
+
+7274
+
+49.0 %
+
+47.0 %
+
+3.0 %
+
+44.0 %
+
+0.018
+
+215.3
+
+1319.5
+
+3.3 %
+
+0.04 %
+
+96 %
+
+2,608,270
+
+3.59
+
+0.83
+
+14.08
+
+11,341.29
+
+11,739.50
+
+Mean
+
+Whole sample
+
+0.24
+
+0.79
+
+48.1
+
+405.9
+
+4,932,854
+
+5.01
+
+2.54
+
+24.21
+
+8591.53
+
+61,987.70
+
+Std Dev
+Category
+
+Modern irrigation
+
+Traditional
+irrigation
+
+Non-irrigators
+
+Whole simple
+
+N°
+
+Mean
+
+N°
+
+N°
+
+N°
+
+Age
+
+–
+
+54.44
+
+–
+
+55.03
+
+–
+
+56.36
+
+–
+
+56.13
+
+Male
+
+55
+
+79.0 %
+
+876
+
+76.0 %
+
+4236
+
+70.0 %
+
+5165
+
+71.0 %
+
+Reside in plot
+
+54
+
+77.0 %
+
+657
+
+57.0 %
+
+4780
+
+79.0 %
+
+5528
+
+76.0 %
+
+Mean
+
+Mean
+
+Mean
+
+Education
+No education
+
+2
+
+2.9 %
+
+67
+
+5.80 %
+
+163
+
+2.70 %
+
+233
+
+3.20 %
+
+Incomplete
+elementary
+
+29
+
+41.4 %
+
+548
+
+47.50 %
+
+3685
+
+60.90 %
+
+4263
+
+58.60 %
+
+Complete
+elementary
+
+8
+
+11.4 %
+
+209
+
+18.10 %
+
+938
+
+15.50 %
+
+1157
+
+15.90 %
+
+Incomplete
+secondary
+
+9
+
+12.9 %
+
+90
+
+7.80 %
+
+411
+
+6.80 %
+
+516
+
+7.10 %
+
+Complete
+secondary
+
+6
+
+8.6 %
+
+122
+
+10.60 %
+
+381
+
+6.30 %
+
+509
+
+7%
+
+Incomplete
+technical
+
+0
+
+0.0 %
+
+6
+
+0.50 %
+
+24
+
+0.40 %
+
+29
+
+0.40 %
+
+Complete
+technical
+
+11
+
+15.7 %
+
+55
+
+4.80 %
+
+248
+
+4.10 %
+
+313
+
+4.30 %
+
+Incomplete
+college
+
+1
+
+1.4 %
+
+12
+
+1%
+
+48
+
+0.80 %
+
+58
+
+0.80 %
+
+Complete
+college
+
+4
+
+5.7 %
+
+44
+
+3.80 %
+
+151
+
+2.50 %
+
+196
+
+2.70 %
+
+Dependence
+[75
+
+25
+
+35.7 %
+
+205
+
+17.80 %
+
+1355
+
+22.40 %
+
+1586
+
+21.80 %
+
+[50 and \75
+
+12
+
+17.1 %
+
+98
+
+8.50 %
+
+714
+
+11.80 %
+
+829
+
+11.40 %
+
+[25 and \50
+
+13
+
+18.6 %
+
+186
+
+16.10 %
+
+1222
+
+20.20 %
+
+1426
+
+19.60 %
+
+\25
+
+20
+
+28.6 %
+
+664
+
+57.60 %
+
+2753
+
+45.50 %
+
+3433
+
+47.20 %
+
+Credit
+
+43
+
+61.40 %
+
+224
+
+19.40 %
+
+1767
+
+29.20 %
+
+2073
+
+28.50 %
+
+73.6 %
+
+24034.8
+
+67.6 %
+
+68,787.3
+
+31.8 %
+
+94,213.6
+
+37.1 %
+
+Secure tenure (hectares)
+Own with
+registered
+title
+
+1391.5
+
+Rented
+
+305.5
+
+16.2 %
+
+7625.5
+
+21.4 %
+
+6004.6
+
+2.8 %
+
+13,935.6
+
+5.5 %
+
+Occupied
+
+18.1
+
+1.0 %
+
+10.5
+
+0.0 %
+
+64,069.9
+
+29.6 %
+
+64,098.5
+
+25.2 %
+
+Other
+
+174.6
+
+9.20 %
+
+3884.4
+
+11.00 %
+
+77,717.9
+
+35.90 %
+
+81,776.9
+
+32.20 %
+
+Extension
+services
+
+27
+
+38.60 %
+
+92
+
+8%
+
+974
+
+16.10 %
+
+1091
+
+15 %
+
+Participation in
+organizations
+
+22
+
+31.40 %
+
+351
+
+30.40 %
+
+914
+
+15.10 %
+
+1287
+
+17.70 %
+
+Average number
+per locality
+
+–
+
+76
+
+–
+
+321
+
+–
+
+546
+
+–
+
+945
+
+Observations
+
+70
+
+1153
+
+6051
+
+7274
+
+irrigation category, and Table 5 explores changes in water rights uses across water
+sources and type of irrigation, respectively.
+Up to 44 % of non-irrigators report to have wells as water source in the plot.
+Differences in costs associated with water extraction between surface and ground
+water sources naturally impose a restriction to adopt irrigation. However, these
+restrictions seem to be less important for the adoption of modern irrigation. Wasting
+water becomes much more costly when pumped from ground water sources8 and the
+availability of water sources other than rivers may promote adoption of new
+technology (Caswell and Zilberman 1986).
+Around 85 % of water sources held by non-irrigators fall into categories
+classiﬁed as insecure tenancy—title is in process of regularization or use de facto—
+in contrast to that observed in both modern and traditional irrigation. Undoubtedly,
+usage rights are crucial to create correct incentives to undergo innovations that
+require time to become proﬁtable.
+
+5 Estimation procedure
+The procedure to analyze the effect of production risk on adoption decisions follows
+two steps. In the ﬁrst stage, we estimate the moments of a production function to
+proxy production risk. In the second stage, the estimated moments are incorporated
+to explain adoption of modern irrigation in discrete choice models.
+5.1 Production risk
+The moments of the production distribution are estimated by following a sequential
+procedure in which production is regressed against a set of inputs (Antle 1983;
+Antle 1987).9 The model is speciﬁed as follows.10
+yi ¼ f ðxi ; zi ; hj ; bÞ þ ei ;
+
+ð1Þ
+
+where i = 1…N denotes individual farmers, yi is the logarithm of output (potatoes)
+measured in kilos, xi is a vector of conventional inputs including land, labor, capital,
+and fertilizer. Land is measured in hectares,11 labor is the sum of both family and
+hired labor, and capital is the value of physical assets.12 All these variables are
+8
+
+If we assume that the marginal cost of water is closely associated with the energy cost of pumping
+water, there is a positive relation between depth of water sources and extraction costs.
+
+9
+
+Due to lack of data on prices, we proxy production risk by the moments of production function rather
+than the moments of the proﬁt function as Koundouri et al. (2006) do. This assumption lies in the linear
+relationship between the moments of proﬁt and production function valid under price-taker individuals.
+
+10
+
+We used a Translog functional form which assumes inputs in levels, squares and cross variables.
+
+11
+
+1 hectares = 2.5 acres.
+
+12
+
+The capital variable was built using information with respect to ownership of draft mechanical capital.
+These were weighted considering market prices. For the construction of the capital variable, we
+considered the following tools and machinery: Ploughs trucks, vans, carts, choppers, harvesters,
+Water Source
+
+Modern
+irrigation
+
+Traditional
+irrigation
+
+N°
+
+%a
+
+N°
+
+Well
+
+17
+
+24.3
+
+105
+
+Spring
+
+16
+
+22.9
+
+118
+
+River
+
+25
+
+35.7
+
+625
+
+8
+
+11.4
+
+184
+
+Stream
+
+Nonirrigators
+%a
+
+Whole
+simple
+
+N°
+
+%a
+
+N°
+
+%a
+
+8.9
+
+57
+
+44.9
+
+179
+
+13.0
+
+10.0
+
+33
+
+26.0
+
+167
+
+12.2
+
+53.2
+
+19
+
+15.0
+
+669
+
+48.8
+
+15.7
+
+30
+
+23.6
+
+222
+
+16.2
+
+Seasonal regulation reservoir
+
+1
+
+1.4
+
+19
+
+1.6
+
+0
+
+0.0
+
+20
+
+1.5
+
+Yearly regulation reservoir
+
+2
+
+2.9
+
+62
+
+5.3
+
+0
+
+0.0
+
+64
+
+4.7
+
+Lake
+
+0
+
+0.0
+
+1
+
+0.1
+
+0
+
+0.0
+
+1
+
+0.1
+
+Lagoon
+
+1
+
+1.4
+
+2
+
+0.2
+
+0
+
+0.0
+
+3
+
+0.2
+
+Other
+
+5
+
+7.1
+
+93
+
+7.9
+
+8
+
+6.3
+
+106
+
+7.7
+
+Source: Own elaboration based on Censual data, 2007
+a
+
+It does not add up 100 % because some farmers have more than one water source
+
+expressed in logarithms. We proxy the amount of fertilizer by including a categorical variable that takes the value zero (0) if the farmer does not use any fertilizer
+machine, one (1) if the farmer uses a draft animal fertilizer machine and two (2) if
+the farmer uses a draft mechanical fertilizer machine. Zi is a vector of farmers’
+characteristics including age (expressed in logarithm), education13 and agricultural
+dependence.14 Additionally, we include variables (hj) to capture variations in soil
+quality and rainfall15 (expressed in logarithm) in locality j as well as regional
+differences. Soil quality is measured by the percentage of non-eroded and slightly
+eroded soil16 and rainfall was constructed as the cumulative precipitations in the
+season 2010–2011. Unobserved regional differences are picked up by including
+13
+
+It takes the value of 0 if the farmer has no formal education, 1 if s/he has partially completed
+elementary school, 2 if s/he has completed elementary education, 3 if s/he has partially completed high
+school, 4 if s/he graduated from high school, 5 if s/he has partially completed a technical program, 6 if
+s/he has completed a technical program, 7 if s/he has partially completed her/his university education and
+8 if s/he graduated from college/university.
+14
+It takes the value 3 if the agricultural income represents 75 % or more of household income, 2 when
+the proportion is between 50 and 75 %, 1 if it is between 25 and 50 % and 0 if this percentage is less than
+25 %.
+15
+Rainfall data were obtained from agro-climate information provided by the Chilean Institute of
+Meteorological Information (CIMI 2011) between the agricultural seasons 1999–2000 and 2005–2006.
+Climate measures per location were obtained by matching locations with the nearest meteorological
+stations. Unfortunately, information for regions VIII, IX, X and XIV are not available in the agro-climate
+yearbooks with the same level of detail as the rest of the zones. For these cases, we used information
+available in climate yearbooks collected from meteorological stations situated at airports.
+16
+Information on erosion was used as a proxy for land quality. It was extracted from a recent study
+conducted by the Center of Information in Natural Resources (CIREN 2010), addressed at determining
+the current and potential erosion of soils in Chile. The methodology for determining the level of erosion
+integrates a set of soil, topographic, climatic and biological characteristics. Thus, erosion will be more
+severe to the extent that soils are more porous and sandier, ﬁelds are more sloped and hold less vegetation
+
+45.1
+
+100.0
+
+100.0
+
+75.8
+
+57.9
+
+40.8
+
+82.7
+
+39.8
+
+38.1
+
+10.2
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+10.0
+
+21.1
+
+3.0
+
+12.3
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+1.3
+
+0.0
+
+0.0
+
+0.0
+
+50.0
+
+Source: Own elaboration based on Censual data, 2007
+
+20.0
+
+45.4
+
+Other
+
+0.0
+
+Lake
+
+100.0
+
+50.0
+
+Yearly
+reservoir
+
+Lagoon
+
+50.0
+
+100.0
+
+64.0
+
+River
+
+Seasonal
+reservoir
+
+12.5
+
+Stream
+
+47.1
+
+Spring
+
+4.7
+
+4.3
+
+0.0
+
+0.0
+
+8.1
+
+21.1
+
+1.6
+
+5.9
+
+0.8
+
+2.9
+
+0.7
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+3.3
+
+0.0
+
+0.0
+
+0.0
+
+6.7
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+25.0
+
+4.0
+
+6.3
+
+5.9
+
+2.2
+
+4.3
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+1.6
+
+1.0
+
+2.5
+
+10.5
+
+Traditional
+(%)
+
+9.5
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+20.0
+
+0.0
+
+0.0
+
+14.0
+
+Nonirrigated
+(%)
+
+45.3
+
+60.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+25.0
+
+32.0
+
+81.3
+
+47.1
+
+26.4
+
+35.5
+
+0.0
+
+0.0
+
+14.5
+
+21.1
+
+54.3
+
+10.1
+
+55.1
+
+42.9
+
+Traditional
+(%)
+
+Modern
+(%)
+
+Nonirrigated
+(%)
+
+Modern
+(%)
+
+Nonirrigated
+(%)
+
+Modern
+(%)
+
+Traditional
+(%)
+
+Modern
+(%)
+
+Traditional
+(%)
+
+Use de facto
+
+Title in process of regularization
+
+Rented
+
+Registered in Real State Registrar or
+in the public land registry of the
+General Bureau of water
+
+Well
+
+Water
+source
+
+Table 5 Water rights status per irrigation category
+
+74.8
+
+75.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+60.0
+
+73.7
+
+93.9
+
+71.9
+
+Nonirrigated
+(%)
+(iid) error term.
+Under expected proﬁt maximization, explanatory variables are assumed to be
+exogenous, and thereby ordinary least squares (OLS) of (1) produce consistent and
+efﬁcient estimates of the parameter vector b (Koundouri et al. 2006). The s central
+moment of production conditioned on inputs about its mean is deﬁned as:
+ls ð:Þ ¼ Ef½yð:Þ À l1 s g;
+
+ð2Þ
+
+^
+where l1 denotes the mean of production. Thereby, the estimated errors ei ¼
+yi À f ðxi ; zi ; hi ; bÞ from (1) are estimates of the ﬁrst moment of the production
+^
+distribution. To compute estimates of the second moment, the estimated errors e are
+squared and regressed on the same set of inputs as in (1):
+
+^i
+e2 ¼ gðxi ; zi ; hi ; dÞ þ ei :
+
+ð3Þ
+
+OLS provides consistent estimates of the parameter d, and the predicted values
+are consistent estimates of the second moment of production distribution (Antle
+1983). Estimation of the third moment follows the same procedure. This approach
+exploits the use of cross-sectional data assuming that the moments vary among
+farmers depending on input level, farms’ characteristics and environmental
+conditions. Conditional moments are thereby used as measures of volatility to rank
+farmers in terms of production risk.
+5.2 Irrigation choices
+In the second stage, the estimated moments are incorporated as explanatory
+variables in a discrete choice model. Additional control variables include a dummy
+denoting if the farmer is male; farmers’ age measured in years (in log); farmers’
+level of education; a categorical variable that captures the degree of dependence on
+agricultural activity; a dummy variable indicating if the farmer lives in the plot; the
+farm’s size measured in total hectares (expressed in a logarithm); capital value of
+agricultural machinery and tools (expressed in a logarithm); secure tenure measured
+by the ratio between the sum of family-own hectares and rental land over total
+hectares; a dummy variable indicating if the farmer had access to credit during the
+last 2 years; a dummy variable indicating participation in any agricultural
+organization; a dummy variable denoting if the farmer received extension services
+during the last 2 years; percentage of non-eroded and slightly eroded soil; number
+of both modern and traditional adopters per locality regardless of crops; and a set of
+dummy variables to control for unobserved spatial differences in technology choice
+across zones.
+We propose three alternative models. First, we model irrigation decisions as an
+ordered choice such that each category corresponds to a superior level of irrigation
+technology. One may expect a monotonic relationship between risk production
+measures and speciﬁc irrigation technologies as the capability of irrigation methods
+to reduce production risk increases with the level of technicality. Second, we
+traditional irrigator seems quite evident, gains from adopting modern irrigation for a
+former traditional irrigator are more unclear as new technology involves
+uncertainty. Finally, we discuss potential selection problems when analyzing the
+shift from traditional to modern irrigation. We argue that the choice and economic
+beneﬁts of irrigation adoption depend on natural pre-conditions to irrigate. Thus,
+when considering only irrigation data, we might lose track of some people who are
+eligible to adopt modern irrigation. If this characteristic is systematic, our standard
+probit estimation may lead to inconsistent estimates (Wooldridge 2010). We,
+therefore, also estimate a binary response model with sample selection (Van de Ven
+et al. 1981) to address this problem. Denoting Y as the irrigation decision observed
+with the value of 1 if the farmer irrigates and 0 otherwise, the selection equation can
+be expressed as follows:
+h 0
+i
+h
+i
+Â
+Ã
+0
+Pr½Yi ¼ 1 ¼ Pr YiÃ [ 0 ¼ Pr w u þ ni [ 0 ¼ Pr ni \w2 u ;
+ð4Þ
+where YiÃ corresponds to a latent variable that depends on a set of variables w,
+among which we include those to allow for identiﬁcation of the vector u. Basically,
+we argue that selection into irrigation mainly lies in the fact that despite the presence of water resources in the farm, a signiﬁcant number of farmers do not make use
+of these water courses for irrigation. Tables 4 and 5 show that the type of water
+source and water rights statuses may play a role here. Thus, we assume that irrigation decisions respond to the availability of water sources in the farm and
+moments of rainfall distribution. We account for water sources by deﬁning a
+dummy variable that takes the value of 1 if the farm holds at least one source for
+irrigation.
+
+6 Results
+Estimation of the selection equation is depicted in Table 6. As expected,
+accessibility to water sources plays a crucial role in explaining the shift from
+complete reliance on rainfall to adoption of irrigation systems. Furthermore, farmers
+who reside in locations with lower levels of precipitation, higher variance, and
+Table 6 Estimates of the
+selection equation
+
+Variables
+
+Probit with sample selection
+Irrigation = 1
+
+Water source
+
+4.63 (0.39)***
+
+Rainfall
+
+-0.95 (0.16)***
+
+Standard errors in parentheses
+
+Standard deviation of rainfall
+
+0.005 (0.001)***
+
+Independent variables of the
+selection equation are not shown
+due to space reasons
+
+Skewness of rainfall
+
+0.31 (0.12)**
+
+*** p \ 0.01, ** p \ 0.05,
+* p \ 0.1
+
+123
+
+Athrho
+
+1.13 (0.39)**
+
+LR test (q = 0)
+
+13.21**
+
+literature before. For example, Negri et al. (2005) examines the independent effects
+of climatic mean and variance on the probability of adopting irrigation in USA. The
+authors ﬁnd that higher temperatures and less rainfall increase irrigation, and most
+importantly that the tails of precipitation distributions and water availability are
+primary determinants of presence of irrigation. Furthermore, Foudi and Erdlenbruch
+(2012) study the role of irrigation as a self-insurance instrument in the management
+of production risk in France. They ﬁnd that irrigation decision depends on the
+decision to purchase yield insurance as well as the mean and variance of water
+availability. We compute a likelihood ratio test assuming under the null hypothesis
+q = 0, that is, the log-likelihood for the probit model with the sample selection is
+equal to the sum of the log-likelihoods of estimating a probit model for modern
+irrigation and the selection equation separately. The evidence rejects the null
+hypothesis suggesting that farmers irrigating may not be a random sub-sample of
+total rural households, which supports the use of data on non-irrigators to correct for
+sample selection.
+We employ a Translog functional form to estimate the parameters of the
+production function. Results are not shown but can be obtained from the authors
+upon request. We use these estimates to compute the moments of the production
+function, which are our proxies for production risk in the irrigation choice models.
+Table 7 reports the estimated coefﬁcients and standard errors in parenthesis for the
+irrigation choice models.18 The ﬁrst column shows the estimated coefﬁcients that
+result from modeling irrigation as a binary variable. Column 2 depicts the estimates
+for the ordered probit model, which assumes an order in irrigation choice. The third
+column shows the estimated parameters for the multinomial probit model. We
+assume non-irrigation status as the baseline. Column 4 shows the estimated
+coefﬁcients for the model of modern irrigation for the selected sample of irrigators.
+In this case, non-irrigators were dropped from the sample. Column 5 presents the
+results for the model of adoption of new technology conditioned on whether a
+farmer is already an irrigator. Regardless of the approach used, education, capital,
+extension, credit access, number of adopters, and rainfall are statistically signiﬁcant
+to explain adoption of irrigation in general, and modern irrigation in particular.19
+17
+A regional analysis based on agro-ecological zones with similar underlying natural conditions can be
+an alternative manner to account for the initial choice of irrigation. Unfortunately, there is not enough
+information on the irrigation status to reach convergence in the estimations for agro-ecological zones (no
+non-irrigators in the north region and very few irrigators in the south). The later suggests that the ‘‘nonirrigation’’ status in some regions may lead to issues of colinearity. Alternatively, we replicate all the
+estimations considering only those regions where each irrigation status is observed. This implied to drop
+Regions VI, X and XIV from our sample. Yet, the results remain essentially unchanged. Results are
+shown in Appendix 1.
+18
+Due to the inclusion of generated regressors in adoption equations in the form of moments of the
+production distribution, standard errors were corrected using bootstrapping techniques.
+19
+Multicollinearity is always a concern. For instance, education is most likely highly correlated with
+income variables such as the percentage of income coming from agriculture, capital and land can ease
+access to credit, etc. However, correlation coefﬁcients show of correlations. We obtained a coefﬁcient of
+0.16 for land and credit, 0.22 for land and capital and 0.27 for dependence on agriculture and capital. The
+0.521 (0.143)***
+
+0.039 (0.017)**
+
+St. Dev.
+
+Skewness
+
+0.085 (0.035)**
+
+0.009 (0.004)**
+
+0.138 (0.036)***
+
+Land
+
+0.0012 (0.000)***
+
+0.205 (0.070)**
+
+0.0019 (0.0001)***
+
+-0.0007 (0.0006)
+
+Participation
+
+N° irrigat (T)
+
+N° irrigat (M)
+
+-0.652 (0.154)***
+
+-1.191 (0.067)***
+
+1.151 (0.300)***
+
+Soil quality
+
+Rainfall
+
+North zone
+
+Environmental factors
+
+0.098 (0.054)*
+
+0.161 (0.087)*
+
+Credit
+
+0.375 (0.098)
+
+-0.885 (0.052)***
+
+-0.138 (0.117)
+
+-0.001 (0.0003)***
+
+0.213 (0.071)***
+
+0.260 (0.088)***
+
+0.223 (0.095)**
+
+0.235 (0.098)**
+
+Extension
+
+0.239 (0.068)***
+
+-0.005 (0.024)
+
+Secure tenure
+
+Institutional aspects
+
+0.008 (0.003)**
+
+0.017 (0.029)
+
+Dependence
+
+Capital
+
+0.062 (0.013)***
+
+0.053 (0.0532)
+
+0.068 (0.016)***
+
+0.123 (0.072)*
+
+Reside in farm
+
+-0.117 (0.084)
+
+0.129 (0.055)**
+
+0.005 (0.016)
+
+0.154 (0.125)
+
+0.018 (0.018)
+
+Ordered probit?
+Level: 1, 2, 3
+
+Education
+
+0.133 (0.073)*
+
+-0.164 (0.105)
+
+Gender
+
+Age
+
+Household characteristics
+
+0.036 (0.029)
+
+Mean
+
+Moments of production distribution
+
+Variables
+
+Table 7 Estimates of the models of technology adoption
+
+2.249 (5.865)
+
+-0.383 (0.237)
+
+-0.813 (0.457)*
+
+0.0029 (0.001)**
+
+0.001 (0.000)***
+
+0.056 (0.180)
+
+0.638 (0.181)***
+
+0.639 (0.184)***
+
+0.650 (16.302)
+
+0.366 (0.099)***
+
+0.025 (0.012)*
+
+0.017 (0.070)
+
+0.399 (0.227)*
+
+0.144 (0.036)***
+
+0.209 (0.294)
+
+0.055 (0.192)
+
+-0.013 (0.040)
+
+-0.325 (0.351)
+
+0.053 (0.077)
+
+Modern
+
+Multinomial probit
+
+1.599 (5.867)
+
+-1.791 (0.094)***
+
+-0.924 (0.226)***
+
+-0.002 (0.0008)**
+
+0.002 (0.0002)***
+
+0.355 (0.105)***
+
+0.006 (0.136)
+
+0.112 (0.158)
+
+0.261 (0.131)**
+
+0.121 (0.050)**
+
+0.009 (0.006)
+
+0.028 (0.043)
+
+0.128 (0.108)
+
+0.071 (0.028)**
+
+-0.321 (0.159)**
+
+0.224 (0.108)**
+
+0.068 (0.024)**
+
+0.844 (0.195)***
+
+0.050 (0.046)
+
+Traditional
+
+-0.524 (0.310)*
+
+0.661 (0.454)
+
+0.002 (0.0009)***
+
+-0.001 (0.0002)***
+
+-0.213 (0.200)
+
+0.457 (0.22)**
+
+0.481 (0.238)**
+
+0.601 (0.470)
+
+0.117 (0.089)
+
+0.029 (0.013)**
+
+-0.016 (0.080)
+
+0.695 (0.241)***
+
+0.131 (0.0472)***
+
+0.192 (0.348)
+
+-0.261 (0.233)
+
+-0.108 (0.034)***
+
+-1.129 (0.292)***
+
+0.135 (0.100)
+
+Probit on selected sample
+Modern irrigation = 1
+
+-0.404 (0.295)
+
+0.586 (0.480)
+
+0.002 (0.0009)**
+
+-0.0011 (0.0002)***
+
+-0.136 (0.182)
+
+0.475 (0.204)**
+
+0.434 (0.224)*
+
+0.497 (7.043)
+
+0.121 (0.082)
+
+0.0254 (0.012)**
+
+-0.0006 (0.0751)
+
+0.647 (0.239)***
+
+0.125 (0.045)***
+
+0.139 (0.324)
+
+-0.235 (0.223)
+
+-0.087 (0.032)***
+
+-0.943 (0.271)***
+
+0.1498 (0.092)
+
+Probit with sample selection
+Modern irrigation = 1
+
+-2.246 (0.495)
+
+7274
+
+Cut2
+
+-4.636 (0.530)***
+
+-0.859 (0.131)
+
+Ordered probit?
+Level: 1, 2, 3
+
+Observations
+
+Cut1
+
+-0.530 (0.131)***
+
+6.435 (0.693)***
+
+South zone
+
+Probit
+Irrigation = 1
+
+Constant
+
+Variables
+
+Table 7 continued
+
+7274
+
+-2.555 (16.397)
+
+-0.794 (0.250)***
+
+Modern
+
+Multinomial probit
+
+10.117 (1.027)***
+
+-28.95 (3.388)***
+
+Traditional
+
+1223
+
+-2.873 (1.430)**
+
+Probit on selected sample
+Modern irrigation = 1
+
+1223
+
+-2.823 (7.087)
+
+Probit with sample selection
+Modern irrigation = 1
+
+Lat Am Econ Rev (2016) 25:2
+adoption. Similar results have been found in developing countries in the literature
+before. For example, He et al. (2007) investigate the determinants of farmers’
+decisions to adopt rainwater harvesting and supplementary irrigation technology in
+China, ﬁnding that socioeconomic characteristics such as age and education, and
+institutional factors associated with extension, assistance, training, and credit
+services affect positively irrigation adoption decisions. Household resource
+endowment variables, showing the ability of farmers to operate their land, were
+also found signiﬁcant in explaining farm irrigation decisions in Ghana (Dessalegn
+2005). Results conﬁrm the role of education as a complement to adoption when it is
+knowledge intensive, and beneﬁts are linked to farmers’ management capacity.
+Furthermore, they enhance the importance of access to credit in decisions that
+involve ﬁnancing needs. Finally, the implementation of water-saving technologies
+demands more knowledge about environmental factors, i.e. evaporation conditions,
+to reach efﬁciency in water application, which makes extension services from
+government agencies be more crucial.
+Furthermore, the number of adopters of both traditional and modern irrigation at
+the local level is also signiﬁcant. This result is in line with the literature addressing
+the role of social learning spillover on adoption of new technology among farmers
+that belong to related networks or adjacent geographical areas. For example, Foster
+and Rosenzweig (1995) ﬁnd that neighbors’ experience inﬂuence rates of adoption
+and proﬁtability of high-yielding varieties (HYV) in India. The later suggests that
+farmers involved in a bigger network of experienced farmers with new technology
+are more likely to adopt the new technology and are relatively more proﬁtable.
+Furthermore, Conley and Udry (2010) investigate the role of social learning in the
+diffusion of a new agricultural technology in Ghana. They ﬁnd support of farmers
+adjusting their inputs in accordance with those of their neighbors who were
+surprisingly successful in previous periods. Finally, Bandiera and Rasul (2006)
+present evidence on how farmers’ decisions to adopt a new crop relate to the
+adoption choices of their network of family and friends in Mozambique. The
+authors ﬁnd farmers are more likely to adopt when other farmers in their network
+also adopt.
+When looking at the results from the probit model and ordered probit model
+(column 1 and column 2, respectively), we also ﬁnd signiﬁcant effects of gender,
+farm size, secure tenure, and participation in organization. Gender differences in
+technology adoption are discussed in Ndiritu et al. (2014). The authors ﬁnd a gender
+gap in the adoption pattern for some farm technologies in Kenya, indicating the
+existence of certain socioeconomic inequalities and barriers for female farmers.
+Furthermore, the larger the farm is the more probable adoption of irrigation
+technology. Just et al. (1980) show that given the information and transactions costs
+associated with innovations, as these costs increase, the critical size that make the
+adoption proﬁtable also increases. The latter implies that new technology, which
+involves larger information/transactions costs are less likely to be adopted by
+smaller farmers. Empirical works conﬁrm this prediction (Negri and Brooks 1990;
+Shrestha and Gopalakrishnan 1993; Skaggs 2001; Daberkow and Mcbride 2003;
+contracts are more likely to irrigate. Similar results are found in the literature before.
+For example, Soule et al. (2000) investigate the inﬂuence of land tenure on the
+adoption of conservation practices in US. They ﬁnd that the owner-operators are
+more likely to adopt practices that provide beneﬁts over the longer term.
+Furthermore, Gebremedhin and Swinton (2003) examine the role of land tenure
+security in investing in soil conservation in northern Ethiopia. They ﬁnd that
+adoption of technologies associated with long-term investment such as stone
+terraces was positively inﬂuenced by land tenure security. These ﬁndings conﬁrm
+the importance of designing tenancy arrangements that guarantee rights to enjoy
+long-term beneﬁts derived from implementing technological innovations.
+In addition, results show that farmers participating in agrarian organizations are
+more likely to use irrigation. Participation in organization may serve as a vehicle for
+the adaptation, likely because transmission and diffusion of knowledge on new
+technologies are fostered in organizations. These results are in line with Isham
+(2002). The author ﬁnds that households with ethnically based and participatory
+social afﬁliations in Tanzania may be more likely to diffuse new information
+successfully and therefore to adopt new technologies.
+We also explore the interactions between some institutional aspects and
+household characteristics in our adoption models (see Table 8). In particular, we
+interact age, education, and farm size with the institutional variables secure tenure,
+extension, and credit. We ﬁnd that extension services are more likely to promote
+adoption of irrigation among smaller farmers. This is important for focalizing
+extension resources. When studying the switch from non-irrigation to modern
+irrigation, extension services also play a role here, and access to credit seems to help
+less educated and small farmers more. The latter suggests that institutional aspects
+are more important for less favored farmers (small and less educated farmers). We
+do not ﬁnd signiﬁcant results for the interacted variables when studying the switch
+from traditional to modern irrigation.
+There are some discrepancies in the results concerning the variables (1) residence
+in the farm, (2) soil quality, and (3) production risk measures. Regarding (1), results
+show that farmers who reside at the farm premises are more likely to adopt
+irrigation technology. In particular, farmers are more willing to shift from nonirrigation to the new technology, as shown by the multinomial probit, and change
+from traditional irrigation to new technology, as suggested by the probit model with
+sample selection. These results may be consistent with information diffusion
+arguments (Foster and Rosenzweig 1995) Bandiera and Rasul 2006), as interactions
+and networks associated with farming activities are more likely to happen on-farm.
+Moreover, results from the multinomial probit model show that both traditional
+and modern irrigation are promoted in zones with poorer soil conditions, probably
+as a means to deal with these disadvantageous characteristics. However, soil quality
+considerations do not seem to drive shifts from traditional to modern irrigation.
+Results are in line with previous studies ﬁnding that modern irrigation technologies
+are more likely used in locations with relatively low land quality (Caswell and
+0.0436 (0.0160)***
+
+0.0241 (0.0714)
+
+0.00966
+(0.00458)**
+
+0.0757 (0.0950)
+
+Capital
+
+0.0351 (0.323)
+
+0.138 (0.348)
+
+0.0196 (0.311)
+
+Edad 9 Secure tenure
+
+Edad 9 Credit
+
+0.216 (0.0821)***
+
+Edad 9 Extension
+
+0.262 (1.258)
+
+Credit
+
+Participation
+
+0.117 (0.235)
+
+0.135 (0.279)
+
+-0.102 (0.256)
+
+0.0992 (0.0581)*
+
+-0.147 (0.951)
+
+-0.480 (1.409)
+
+Secure tenure
+
+0.788 (1.012)
+
+-0.378 (1.130)
+
+0.264 (1.266)
+
+-0.00394 (0.0241)
+
+Extension
+
+Institutional aspects
+
+Land
+
+0.00870 (0.00354)**
+
+0.0207 (0.0312)
+
+Dependence
+
+0.106 (0.0412)**
+
+0.0612 (0.0564)
+
+0.118 (0.0534)**
+
+0.129 (0.0738)*
+
+Education
+
+Reside in farm
+
+-0.0813 (0.237)
+
+0.137 (0.0711)*
+
+-0.228 (0.299)
+
+Gender
+
+Age
+
+Household characteristics
+
+0.127 (0.0570)**
+
+0.00728 (0.0119)
+
+0.552 (0.130)***
+
+Skewness
+
+0.170 (0.0968)*
+
+0.0392 (0.0284)
+
+St. Dev.
+
+0.0196 (0.0206)
+
+Ordered probit?
+Level: 1, 2, 3
+
+Mean
+
+Moments of production distribution
+
+Variables
+
+0.453 (0.626)
+
+-0.611 (0.653)
+
+-0.830 (1.228)
+
+0.00871 (0.174)
+
+-0.901 (2.535)
+
+3.051 (2.662)
+
+3.549 (4.951)
+
+0.599 (0.294)**
+
+0.0269 (0.0111)**
+
+-0.000804
+(0.0692)
+
+0.542 (0.205)***
+
+0.122 (0.186)
+
+0.812 (1.216)
+
+0.0614 (0.179)
+
+0.00930 (0.0317)
+
+-0.0352 (0.286)
+
+0.0770 (0.0826)
+
+Modern
+
+Multinomial probit
+
+Table 8 Estimates of the models of technology adoption with interactions
+
+-0.561 (0.483)
+
+0.477 (0.554)
+
+0.190 (0.478)
+
+0.337 (0.123)***
+
+2.460 (1.954)
+
+-2.089 (2.252)
+
+-0.228 (1.873)
+
+0.101 (0.139)
+
+0.00894 (0.00693)
+
+0.0160 (0.0473)
+
+0.169 (0.109)
+
+0.162 (0.0784)**
+
+-0.496 (0.441)
+
+0.220 (0.106)**
+
+0.0861 (0.0255)***
+
+1.000 (0.205)***
+
+0.0519 (0.0425)
+
+Traditional
+
+0.743 (0.807)
+
+-0.256 (0.946)
+
+-2.524 (2.475)
+
+-0.0558 (0.192)
+
+-2.204 (3.304)
+
+1.552 (3.881)
+
+9.854 (10.35)
+
+0.466 (0.367)
+
+0.0253 (0.0136)*
+
+0.0189 (0.0844)
+
+0.558 (0.222)**
+
+-0.0997 (0.286)
+
+2.608 (2.427)
+
+-0.347 (0.217)
+
+-0.0458 (0.0404)
+
+-0.630 (0.338)*
+
+0.155 (0.0919)*
+
+Probit on selected
+sample
+Modern
+irrigation = 1
+
+0.621 (0.741)
+
+0.0569 (0.852)
+
+-2.248 (1.939)
+
+-0.131 (0.178)
+
+-1.669 (3.016)
+
+0.129 (3.490)
+
+8.578 (8.106)
+
+0.520 (0.356)
+
+0.0259 (0.0123)**
+
+-0.0155 (0.0766)
+
+0.672 (0.207)***
+
+-0.117 (0.241)
+
+1.985 (1.884)
+
+-0.286 (0.199)
+
+-0.0820 (0.0340)**
+
+-0.906 (0.287)***
+
+0.172 (0.0841)**
+
+Probit with sample
+selection
+Modern irrigation = 1
+N° irrigat (M)
+
+1.125 (0.302)***
+
+-0.559 (0.129)***
+
+6.442 (1.289)***
+
+North zone
+
+South zone
+
+Constant
+
+-0.894 (0.102)***
+
+0.363 (0.123)***
+
+-0.886 (0.0511)***
+
+-0.133 (0.110)
+
+-0.00144
+(0.000304)***
+
+0.00127
+(5.56e-05)***
+
+-0.0401 (0.0510)
+
+-0.139 (0.0614)**
+
+0.109 (0.0737)
+
+-0.0493 (0.0354)
+
+0.0131 (0.0449)
+
+-0.0378 (0.0432)
+
+Ordered probit?
+Level: 1, 2, 3
+
+*** p \ 0.01, ** p \ 0.05, * p \ 0.1
+
+Bootstrapped standard errors in parentheses, 1000 replications
+
+7274
+
+-1.954 (1.019)*
+
+Cut 2
+
+Observations
+
+Cut 1
+
+7274
+
+-4.349 (1.019)***
+
+-1.184 (0.0680)***
+
+Soil quality
+
+Rainfall
+
+Environmental factors
+
+0.00431 (0.0696)
+
+0.00197
+(8.40e-05)***
+
+Land 9 Credit
+
+N° irrigat (T)
+
+0.109 (0.0987)
+
+-0.191 (0.0809)**
+
+Land 9 Secure tenure
+
+Land 9 Extension
+
+0.0160 (0.0588)
+
+-0.0798 (0.0492)
+
+Education 9 Extension
+
+Education 9 Credit
+
+-0.0403 (0.0566)
+
+Probit
+Irrigation = 1
+
+Education 9 Secure
+tenure
+
+Variables
+
+Table 8 continued
+
+7274
+
+-2.908 (5.131)
+
+1.777 (0.577)***
+
+-0.716 (0.181)***
+
+-0.872 (0.355)**
+
+0.00317
+(0.000889)***
+
+0.00158
+(0.000240)***
+
+-0.230 (0.129)*
+
+-0.242 (0.140)*
+
+0.0212 (0.293)
+
+-0.157 (0.0849)*
+
+-0.0624 (0.102)
+
+0.102 (0.189)
+
+Modern
+
+Multinomial probit
+
+11.34 (1.894)***
+
+1.419 (0.426)***
+
+-1.941 (0.0968)***
+
+-1.004 (0.202)***
+
+-0.00160
+(0.000699)**
+
+0.00302
+(0.000120)***
+
+0.118 (0.111)
+
+-0.285 (0.130)**
+
+0.0863 (0.146)
+
+-0.149 (0.0812)*
+
+0.0473 (0.0953)
+
+-0.0862 (0.0834)
+
+Traditional
+
+1223
+
+-17.38 (10.31)*
+
+0.474 (0.353)
+
+0.831 (0.173)***
+
+0.542 (0.404)
+
+0.00310
+(0.000825)***
+
+-0.00121
+(0.000240)***
+
+-0.181 (0.144)
+
+0.179 (0.163)
+
+-0.209 (0.378)
+
+-0.0997 (0.106)
+
+-0.00933 (0.132)
+
+0.261 (0.289)
+
+Probit on selected
+sample
+Modern
+irrigation = 1
+
+1223
+
+-9.377 (7.925)
+
+-0.373 (0.277)
+
+0.530 (0.373)
+
+0.00232 (0.000792)***
+
+-0.00114
+(0.000226)***
+
+-0.186 (0.133)
+
+0.158 (0.148)
+
+-0.353 (0.364)
+
+-0.115 (0.0970)
+
+0.0487 (0.120)
+
+0.279 (0.243)
+
+Probit with sample
+selection
+Modern irrigation = 1
+
+Lat Am Econ Rev (2016) 25:2
+positively affects the shift from non-irrigation to adoption of traditional technology.
+In other words, our ﬁndings suggest that the greater the variance of production, the
+higher the probability farmers will implement traditional irrigation systems.
+Similarly, a greater value in the skewness of production entails a higher probability
+of implementing traditional irrigation. This last ﬁnding tells us that farmers care
+about downside yield risk, assigning negative weights to production distribution that
+show higher probabilities of obtaining lower production values. On the other hand,
+adoption of modern irrigation responds negatively to increases in both variance and
+skewness of production when having traditional irrigation as baseline. Results are
+robust to regional differences (see Appendix 2).20 The latter entails that farmers are
+less willing to shift to modern irrigation when experiencing less certain yields and
+higher downside risks. While results regarding traditional irrigation support the
+well-known decreasing-risk properties of irrigation, ﬁndings on modern irrigation
+are not in line with the ability of new technology to hedge against production risk
+highlighted in the literature before (Koundouri et al. 2006; Torkamani and Shajari
+2008).
+To verify if these ﬁndings can be applicable to larger segment of the Chile’s
+agricultural sector, we conduct a series of robustness checks. First, we replicate our
+results using information on wheat small-scale farmers. Wheat is one of the most
+important crops in Chile, comprising more than 50 % of the total hectares devoted
+to annual crops, and grown in the whole country in diverse climate and soil
+conditions. To allow enough information in all the irrigation categories, we, here,
+were less restrictive than in the potato case. We selected those farmers that reported
+to devote more than 90 % of their hectares to wheat farming. This is an issue in the
+sense that we cannot guarantee that the inputs observed in the data are indeed used
+in the wheat production process as in the potato case. This is crucial for estimating
+production risk measures such that results must be interpreted with caution. Results
+are shown in Appendix 3. We ﬁnd similar evidence as in the case of potato farmers.
+Adoption of traditional irrigation is more likely to occur among farmers with high
+production risk. However, the risk-reducing effect of modern irrigation technology
+remains unclear. Second, to gain efﬁciency, we pool observations of farmers
+allocating 100 % of land to either potato or wheat. Although the pooling exercise
+seems to be reasonable, issues regarding the association between inputs and outputs
+can emerge again when potatoes and wheat are not necessarily grown using the
+same inputs (or we do not observe that). Results are shown in Appendix 4. We ﬁnd
+support for previous ﬁndings. Traditional irrigation seems to be risk-decreasing
+from the perspective of non-irrigators while the switch from traditional to modern
+irrigation increases production risk. Third, potato and wheat farming are more
+resilient and less water demanding than other crops such that results regarding the
+switch from no-irrigation to traditional irrigation (and not modern irrigation)
+reducing production risk may respond to this speciﬁc characteristic. To explore this
+further, we replicate the results for rice farming, a water-intensive crop. However,
+20
+Due to the inexistence of modern irrigation observations in some regions, we were not capable to
+small, and it is not spread out the whole territory, which reduces climate variation.
+The Census reports 1534 rice farmers mainly located in the central–south regions in
+Chile. The majority of them use traditional irrigation (96 %) and only a small
+fraction (4 %) modern irrigation. Farmers without irrigation methods amount to
+1.56 %. Given the structure of irrigation adoption in rice farming, it is not possible
+to control for pre-conditions applying sample selection models such that decisions
+narrow down to a switch from traditional to modern irrigation. One caveat is that we
+cannot ensure that irrigation is associated with rice farming since many of the rice
+farmers grow jointly other crops. When applying the criterion of 100 % land
+allocation in rice to ensure association between inputs and rice output, we end up
+with very few observations (86), of which only one farmer reports to use modern
+irrigation. The low adoption of modern irrigation among more water intensive crops
+suggests that the insufﬁcient techniﬁcation in irrigation is a general problem in the
+agricultural sector in Chile. Having those data issues in mind, we replicate the
+results for those farmers that report to grow rice (see Appendix 5). We do not ﬁnd
+signiﬁcant results for the second and/or third moments of the production
+distribution, although coefﬁcients are negative.
+Lack of support of the risk-reducing effect of modern technology may imply that
+farmers in Chile are facing problems regarding seeing the virtues of water-saving
+technologies as risk-decreasing inputs, probably due to the higher uncertainty
+observed in the earlier stages of diffusion. The optimal use of methods of modern
+irrigation may depend on certain characteristics of soil and climate that are speciﬁc
+to a particular farm and inﬂuence the quantities of water required to achieve
+efﬁciency in water application. The structure of this relationship may be more
+difﬁcult to determine in earlier stages. In fact, new irrigation technology in Chile is
+indeed in an early phase of the technological cycle, where lower levels of
+knowledge and diffusion may possibly be adding an additional uncertain component
+that would offset the advantages of modern irrigation. In contrast, when analyzing
+the adoption of traditional irrigation, we are looking at shifts from a natural state of
+non-irrigation toward the use of water input. In particular, this technological change
+seems to be more developed in Chile and has likely reached a phase of maturity in
+the technological cycle. The latter supports the importance of improving the
+understanding and modeling of irrigation choices in settings in which rainfed
+agriculture is still predominant, as typical in developing countries.
+Finally, we evaluate the predictive ability of models looking at the percentage of
+correct predictions.21 Appendix 6 shows these results. Percentages of correct
+predictions range from 87 to 96 %, and univariate models explaining modern
+irrigation choices, having as a baseline traditional irrigation, perform better than
+multivariate models. Correct predictions as estimating a probit model for modern
+irrigation choices increases signiﬁcantly from 1 to 29 %. Correcting for sample
+21
+A prediction is assumed correct when the estimated probabilities of observing a determined irrigation
+status surpass 50 %. Predictions for modern irrigators in the probit model with sample selection were
+computed using conditional probabilities—that is, probability of success conditional on selection.
+Furthermore, non-irrigation predictions for this model correspond to those computed using estimates of
+Furthermore, prediction in all of the remainder irrigation statuses also improves.
+The latter suggests that modeling non-irrigation as one more level of technology
+may be inappropriate when there exists speciﬁc natural pre-conditions that drive
+non-irrigation choices. Thus, it seems reasonable to control for these pre-conditions
+before studying changes from conventional to new irrigation technology.
+
+7 Conclusion
+New irrigation technology can improve productivity by attaining higher efﬁciency
+in water application, which also brings external beneﬁts in the form of water
+conservation. Furthermore, new irrigation methods hold numerous advantages in
+zones with limiting environmental conditions, i.e. water scarcity and lower soil
+quality. In this paper, we study the effect of production risk on the adoption of
+irrigation. A large fraction of rural households in developing countries does not use
+either modern or traditional irrigation and is completely exposed to climatic
+variations. This gives rise to the question on how to include non-irrigators when
+estimating irrigation choices. We discuss results from an ordered, unordered, and
+sample selection models.
+The results indicate that farmers with a higher educational level, larger capital,
+credit access, receiving extension services, and those who reside in the plot and in
+communes with larger number of adopters are more likely to adopt modern
+irrigation. On the other hand, results for production risk depend on the type of
+irrigation technology. Whereas production risk promotes adoption of traditional
+irrigation, it seems to be an obstacle when assessing shifts from traditional to
+modern irrigation. Credit access, extension services and production variance seem
+to be more important in terms of magnitude.
+However, a couple of caveats deserve attention. First, given the cross-sectional
+nature of our data, we are not able to fully explore dynamics in irrigation decisions.
+These may be important, especially in examining the role of economic and policy
+changes on adoption of modern irrigation. Second, our results may be crop-speciﬁc
+since water needs are supposed to vary across different cropping activities. For
+example, potato and wheat are relatively more resistant to water stress than other
+crops such as rice and fruits and therefore a switch from conventional to modern
+irrigation methods may be more likely to be risk-decreasing in these last cases. Even
+though we did ﬁnd sufﬁcient evidence for our sample of rice farmers, data issues do
+not allow us to state plausibly whether our results can be extrapolated to other
+relatively more water-demanding cropping activities. Further research examining
+how results vary across different crops is needed.
+Despite these considerations, our ﬁndings have important implications for the
+success of government interventions to address concerns of the low rate of adoption
+of new irrigation technology. First, adoption of irrigation indeed reduces risk;
+however, we found that farmers may experience an increase in production risk when
+switching from traditional to modern irrigation methods. This increased risk may be
+technological cycle. The latter prevents the full exploitation of the advantages of
+modern irrigation in terms of high productivity and lower production volatility. Our
+results suggest that policy interventions through extension programs providing
+adoption-related information and easing access to credit are necessary to induce
+faster adoption and diffusion among small-scale farmers. Second, we found
+evidence in favor of sample selection correction as analyzing irrigation choices.
+Therefore, controlling for pre-conditions that determine irrigation before analyzing
+changes in technology is crucial to achieve a better understanding on irrigation
+choices in developing countries where non-irrigators still remain as a signiﬁcant part
+of the rural population. Finally, another important implication of our empirical
+ﬁndings is that climate change, which is expected to increase temperature and
+reduce precipitations in Chile, is likely to have a material effect on the agricultural
+sector. More speciﬁcally, it may increase drought risk and therefore reduce crop
+yields. Thereby, adoption of more efﬁcient irrigation technologies is crucial to
+manage the higher climate risk expected for the coming years.
+Acknowledgements This study was funded by the Research Support Fund, University of Bio-Bio,
+Project DIUBB 1567172/RS and Project GI 160317/EF. The authors thank valuable comments received
+at the seminar of the Development Economics Research Group (DERG), Department of Economics and
+Department of Food and Resource Economics, University of Copenhagen, and Nordic Conference in
+Development Economics, Gothenburg, Sweden. Special thanks go to Finn Tarp, Benedikte Bjerge and
+Marcela Jaime for their valuable comments on earlier versions. The article was also improved by helpful
+comments from anonymous referees and the editor. The usual caveats apply.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons license, and indicate if changes were made.
+
+Appendix 1
+0.104 (0.024)***
+
+Skewness
+
+-0.009 (0.030)
+
+0.0128 (0.004)***
+
+0.164 (0.038)***
+
+Reside in plot
+
+Dependence
+
+Capital
+
+Land
+
+0.201 (0.083)**
+
+0.091 (0.060)
+
+0.181 (0.103)*
+
+0.119 (0.098)
+
+Credit
+
+-0.506 (0.156)***
+
+-1.11 (0.068)***
+
+Soil quality
+
+Rainfall
+
+-0.850 (0.056)***
+
+-0.017 (0.131)
+
+-0.0014(0.0003)***
+
+-0.001 (0.0006)*
+
+N° irrigat (M)
+
+Environmental factors
+
+0.001 (0.00006)***
+
+0.183 (0.081)**
+
+0.001 (0.0001)***
+
+Participation
+
+N° irrigat (T)
+
+0.229 (0.102)**
+
+0.283 (0.098)***
+
+Extension
+
+0.277 (0.073)***
+
+0.103 (0.032)***
+
+0.0100 (0.003)***
+
+-.0017 (0.025)
+
+0.068 (0.057)
+
+0.057 (0.016)***
+
+-0.088 (0.091)
+
+Secure tenure
+
+Institutional aspects
+
+0.059 (0.020)***
+
+0.098 (0.075)
+
+Education
+
+0.082 (1.43)
+
+-0.135 (0.113)
+
+Gender
+
+Age
+
+0.106 (0.065)
+
+0.033 (0.019)*
+
+0.903 (0.183)***
+
+Household head characteristics
+
+0.257 (0.142)*
+
+0.078 (0.042)*
+
+St. Dev.
+
+0.058 (0.027)**
+
+Ordered probit?
+Level: 1, 2, 3
+
+Mean
+
+Moments of production distribution
+
+Variables
+
+-0.513 (0.219)**
+
+-0.413 (0.492)
+
+0.002 (0.001)**
+
+0.0013 (0.0002)***
+
+0.200 (0.218)
+
+0.567 (0.217)**
+
+0.586 (0.232)**
+
+0.776 (32.17)
+
+0.407 (0.096)***
+
+0.041 (0.014)**
+
+-0.018 (0.082)
+
+0.681 (0.242)**
+
+0.173 (0.045)***
+
+0.185 (0.329)
+
+-0.145 (0.221)
+
+0.079 (0.071)
+
+0.367 (0.505)
+
+0.231 (0.118)**
+
+Modern
+
+Multinomial probit
+
+Table 9 Estimates of the models of adoption in selected regions
+
+-1.682 (0.102)
+
+-0.742 (0.218)***
+
+-0.002 (0.0009)**
+
+0.002 (0.0002)***
+
+0.270 (0.112)**
+
+0.006 (0.142)
+
+0.128 (0.159)
+
+0.344 (0.144)**
+
+0.154 (0.052)**
+
+0.012 (0.006)**
+
+-0.0091 (0.043)
+
+0.064 (0.109)
+
+0.052 (0.031)*
+
+-0.257 (0.165)
+
+0.214 (0.120)*
+
+0.158 (0.037)***
+
+1.410 (0.274)***
+
+0.083 (0.062)
+
+Traditional
+
+0.378 (0.500)
+
+0.0030 (0.001)***
+
+-0.0012(0.0002)***
+
+-0.003 (0.218)
+
+0.480 (0.230)**
+
+0.429 (0.255)*
+
+0.535 (0.486)
+
+0.222 (0.103)**
+
+0.0292 (0.014)**
+
+0.040 (0.085)
+
+0.603 (0.271)**
+
+0.142 (0.049)***
+
+0.364 (0.367)
+
+-0.345 (0.276)
+
+-0.027 (0.056)
+
+-0.471 (0.417)
+
+0.190 (0.121)
+
+Probit on selected sample
+Modern irrigation = 1
+
+0.335 (0.471)
+
+0.002 (0.0009)**
+
+-0.001 (0.0002)***
+
+-0.079 (0.193)
+
+0.502 (0.229)**
+
+0.388 (0.227)*
+
+0.028 (0.079)
+
+0.148 (0.087)*
+
+0.023 (0.013)*
+
+0.028 (0.079)
+
+0.742 (0.248)***
+
+0.139 (0.048)***
+
+0.185 (0.367)
+
+-0.285 (0.244)
+
+-0.086 (0.048)*
+
+-0.856 (0.358)**
+
+0.197 (0.105)*
+
+Probit with sample selection
+Modern irrigation = 1
+3461
+
+*** p \ 0.01, ** p \ 0.05, * p \ 0.1
+
+Bootstrapped standard errors in parentheses, 1000 replications
+
+Observations
+
+-1.744 (0.528)
+
+Cut 1
+
+Cut 2
+
+3461
+
+-4.201 (0.563)***
+
+1.325 (0.303)***
+
+5.619 (0.700)***
+
+North zone
+
+Probit
+Irrigation = 1
+
+Constant
+
+Variables
+
+Table 9 continued
+
+3461
+
+-2.540 (32.35)
+
+2.031 (5.46)
+
+Modern
+
+Multinomial probit
+
+8.820 (1.046)***
+
+1.763 (5.460)
+
+Traditional
+
+1006
+
+-9.134 (2.12)**
+
+0.329 (0.311)
+
+Probit on selected sample
+Modern irrigation = 1
+
+1006
+
+-2.970 (7.413)
+
+-0.436 (0.299)
+
+Probit with sample selection
+Modern irrigation = 1
+
+Lat Am Econ Rev (2016) 25:2
+0.0418 (0.0329)
+
+0.00546 (0.00470)
+
+0.102 (0.0349)***
+
+Dependence
+
+Capital
+
+Land
+
+0.115 (0.101)
+
+0.256 (0.0969)***
+
+0.225 (0.0920)**
+
+0.183 (0.0880)**
+
+Secure
+tenure
+
+Extension
+
+Credit
+
+Participation
+
+Institutional aspects
+
+0.0701 (0.0179)***
+
+0.130 (0.0757)*
+
+Reside in
+plot
+
+-0.178 (0.117)
+
+Age
+
+Education
+
+0.108 (0.0723)
+
+Gender
+
+0.0836
+
+-0.00985 (0.0336)
+
+-0.259 (0.311)
+
+0.0657 (0.0806)
+
+Modern
+
+Multinomial probit
+
+0.0646 (0.0137)***
+
+0.0879 (0.0603)
+
+0.246 (0.0688)***
+
+0.272 (0.0773)***
+
+0.148 (0.0789)*
+
+0.0810 (0.0260)***
+
+0.00615 (0.00359)*
+
+0.0290 (0.0250)
+
+0.0906 (0.0570)
+
+0.0286 (0.173)
+
+0.561 (0.177)***
+
+0.604 (0.179)***
+
+0.674 (0.338)**
+
+0.386 (0.0712)***
+
+0.0276 (0.0112)**
+
+0.0161 (0.0689)
+
+0.440 (0.201)**
+
+0.145 (0.0387)***
+
+0.145 (0.299)
+
+(0.0576)
+
+-0.122 (0.0927)
+
+(0.179)
+
+0.122**
+
+0.00890 (0.0127)
+
+0.0332 (0.0172)*
+
+Skewness
+
+Household head characteristics
+
+0.222 (0.102)**
+
+0.0546 (0.0291)*
+
+0.529 (0.140)***
+
+St. Dev.
+
+0.0294 (0.0211)
+
+Ordered probit?
+Level: 1, 2, 3
+
+Mean
+
+Moments of production distribution
+
+Variables
+
+Table 10 Estimates of the models of adoption with regional variables
+
+See Table 10.
+
+Appendix 2
+
+0.335 (0.125)***
+
+-0.0893 (0.140)
+
+0.124 (0.151)
+
+0.105 (0.148)
+
+0.163 (0.0516)***
+
+0.00492 (0.00703)
+
+0.0210 (0.0485)
+
+0.197 (0.110)*
+
+0.0692 (0.0267)***
+
+-0.376 (0.171)**
+
+(0.106)
+
+0.186*
+
+0.0695 (0.0265)***
+
+0.906 (0.213)***
+
+0.0658 (0.0427)
+
+Traditional
+
+0.0678 (0.191)
+
+0.461 (0.206)**
+
+0.455 (0.224)**
+
+0.642 (0.424)
+
+0.204 (0.0849)**
+
+0.0277 (0.0137)**
+
+0.0616 (0.0846)
+
+0.526 (0.223)**
+
+0.123 (0.0436)***
+
+0.346 (0.387)
+
+(0.215)
+
+-0.295
+
+-0.0593 (0.0417)
+
+-0.722 (0.349)**
+
+0.132 (0.0922)
+
+Probit on selected
+sample
+Modern irrigation = 1
+
+0.0917 (0.187)
+
+0.488 (0.200)**
+
+0.438 (0.217)**
+
+0.556 (0.401)
+
+0.198 (0.0818)**
+
+0.0230 (0.0132)*
+
+0.0566 (0.0819)
+
+0.531 (0.217)**
+
+0.122 (0.0426)***
+
+0.277 (0.377)
+
+(0.207)
+
+-0.281
+
+-0.0573 (0.0400)
+
+-0.701 (0.337)**
+
+0.140 (0.0874)
+
+Probit with sample
+selection
+Modern irrigation = 1
+
+2.182 (0.850)**
+
+Constant
+
+Cut 2
+
+7274
+
+-0.118 (0.625)
+
+-2.496 (0.624)***
+
+-1.046 (0.189)***
+
+0.446 (0.131)***
+
+-1.282 (0.125)***
+
+-0.594 (0.0885)***
+
+0.451 (0.0846)***
+
+0.986 (0.158)***
+
+0.472 (0.194)**
+
+-0.565 (0.0678)***
+
+0.165 (0.117)
+
+-0.000954
+(0.000323)***
+
+0.00104 (6.13e-05)***
+
+Ordered probit?
+Level: 1, 2, 3
+
+*** p \ 0.01, ** p \ 0.05, * p \ 0.1
+
+Bootstrapped standard errors in parentheses, 1000 replications
+
+Observations
+
+7274
+
+-0.807 (0.237)***
+
+Region 14
+
+Cut 1
+
+-0.999 (0.158)***
+
+-0.489 (0.107)***
+
+Region 9
+
+2.251 (0.400)***
+
+0.756 (0.108)***
+
+Region 7
+
+Region 10
+
+2.222 (0.405)***
+
+Region 5
+
+Region 13
+
+1.445 (0.441)***
+
+Region 4
+
+Regional dummies
+
+-0.268 (0.155)*
+
+-0.562 (0.0935)***
+
+Soil quality
+
+Rainfall
+
+Environmental factors
+
+0.00182
+(9.35e-05)***
+
+Probit
+Irrigation = 1
+
+N° irrigat (T)
+
+Variables
+
+Table 10 continued
+
+7274
+
+9.926 (1.078)***
+
+0.510 (0.207)**
+
+-0.451 (0.534)
+
+2.304 (0.773)***
+
+0.898 (0.749)
+
+-0.665 (0.190)***
+
+-1.317 (0.391)***
+
+0.00275
+(0.000885)***
+
+0.00173
+(0.000249)***
+
+Modern
+
+Multinomial probit
+
+-0.650 (1.950)
+
+-0.320 (0.150)**
+
+0.846 (0.150)***
+
+2.445 (0.618)***
+
+0.134 (0.578)
+
+-1.750 (0.106)***
+
+-0.766 (0.212)***
+
+-0.00122
+(0.000728)*
+
+0.00290
+(0.000128)***
+
+Traditional
+
+1211
+
+-9.466 (2.331)***
+
+0.506 (0.329)
+
+0.209 (0.394)
+
+1.163 (0.454)**
+
+0.883 (0.205)***
+
+0.234 (0.450)
+
+0.00297 (0.000824)***
+
+-0.00114
+(0.000282)***
+
+Probit on selected
+sample
+Modern irrigation = 1
+
+1211
+
+-8.212 (2.334)***
+
+6.259 (3,430)
+
+0.566 (0.313)*
+
+0.223 (0.396)
+
+1.039 (0.452)**
+
+0.712 (0.208)***
+
+0.168 (0.443)
+
+0.00268 (0.000806)***
+
+-0.000943
+(0.000270)***
+
+Probit with sample
+selection
+Modern irrigation = 1
+
+Lat Am Econ Rev (2016) 25:2
+0.048 (0.011)***
+
+0.248 (0.039)***
+
+-0.000156
+(0.000178)
+
+0.258 (0.0446)***
+
+0.0831 (0.0273)***
+
+Education
+
+Reside in
+farm
+
+Dependence
+
+Capital
+
+Land
+
+0.0931 (0.055)*
+
+0.230 (0.056)***
+
+0.0165 (0.068)
+
+0.551 (0.046)***
+
+Secure tenure
+
+Extension
+
+Credit
+
+Participation
+
+Institutional aspects
+
+-8.83e-05 (0.0002)
+
+-0.017 (0.039)
+
+Gender
+
+Age
+
+0.408 (0.039)***
+
+0.049 (0.068)
+
+0.279 (0.059)***
+
+0.088 (0.053)*
+
+0.078 (0.026)***
+
+0.224 (0.041)***
+
+-0.0001 (0.0002)
+
+0.233 (0.035)***
+
+0.040 (0.010)***
+
+-0.013 (0.037)
+
+-6.44e-05 (0.0002)
+
+-0.0181 (0.084)
+
+0.075 (0.088)
+
+Skewness
+
+Household characteristics
+
+0.215 (0.221)
+
+0.218 (0.031)***
+
+0.386 (0.228)*
+
+St. Dev.
+
+0.186 (0.028)***
+
+Ordered probit?
+Level: 1, 2, 3
+
+Mean
+
+Moments of production distribution
+
+Variables
+
+0.181 (0.186)
+
+0.243 (0.201)
+
+0.828 (0.153)***
+
+0.113 (0.196)
+
+0.246 (0.069)***
+
+0.168 (0.124)
+
+-0.00137
+(0.0113)
+
+0.615 (0.169)***
+
+0.073 (0.036)**
+
+0.037 (0.178)
+
+0.0001 (0.033)
+
+-0.199 (0.247)
+
+-0.579 (0.649)
+
+0.180 (0.0791)**
+
+Modern
+
+Multinomial probit
+
+Table 11 Estimates of the models of technology adoption (Wheat farmers)
+
+See Table 11.
+
+Appendix 3
+
+0.819 (0.0680)***
+
+-0.0189 (0.101)
+
+0.238 (0.0832)***
+
+0.128 (0.0824)
+
+0.105 (0.039)***
+
+0.386 (0.066)***
+
+-0.000218
+(0.000252)
+
+0.328 (0.058)***
+
+0.065 (0.015)***
+
+-0.031 (0.058)
+
+-0.0001 (0.0003)
+
+0.173 (0.126)
+
+0.743 (0.331)**
+
+0.306 (0.0452)***
+
+Traditional
+
+-0.262 (0.194)
+
+0.241 (0.221)
+
+0.542 (0.163)***
+
+-0.100 (0.233)
+
+0.190 (0.081)**
+
+-0.175 (0.146)
+
+-0.001 (0.034)
+
+0.217 (0.186)
+
+0.059 (0.037)
+
+0.111 (0.208)
+
+0.001 (0.037)
+
+-0.294 (0.254)
+
+-1.061 (0.685)
+
+0.019 (0.077)
+
+Probit on selected
+sample
+Modern irrigation = 1
+
+-0.251 (0.246)
+
+0.374 (0.266)
+
+0.504 (0.184)***
+
+-0.0824 (0.272)
+
+0.164 (0.0901)*
+
+-0.299 (0.145)**
+
+-0.0005 (0.025)
+
+0.209 (0.224)
+
+0.069 (0.041)*
+
+0.160 (0.239)
+
+0.0007 (0.103)
+
+-0.201 (0.275)
+
+-1.091 (0.692)
+
+0.023 (0.092)
+
+Probit with sample
+selection
+Modern irrigation = 1
+
+-0.247 (0.170)
+
+1.126 (0.433)***
+
+North zone
+
+South zone
+
+Constant
+
+-0.157 (0.180)
+
+0.538 (0.211)**
+
+-0.399 (0.055)***
+
+-0.123 (0.094)
+
+-0.002 (0.0003)***
+
+0.0009
+(2.68e-05)***
+
+Ordered probit?
+Level: 1, 2, 3
+
+*** p \ 0.01, ** p \ 0.05, * p \ 0.1
+
+Bootstrapped standard errors in parentheses, 1000 replications
+
+8254
+
+Cut 2
+
+Observations
+
+1.245 (0.449)***
+
+Cut 1
+
+8254
+
+-0.900 (0.447)**
+
+-0.240 (0.0967)**
+
+-0.453 (0.0528)***
+
+Soil quality
+
+Rainfall
+
+Environmental factors
+
+0.001 (3.07e-05)***
+
+Probit
+Irrigation = 1
+
+N° irrigat (T)
+
+Variables
+
+Table 11 continued
+
+8254
+
+-1.991 (1.772)
+
+-0.0101 (0.302)
+
+1.011 (0.893)
+
+-0.362 (0.195)*
+
+-0.198 (0.353)
+
+0.002 (0.0003)**
+
+(0.195) 0.0003
+
+Modern
+
+Multinomial probit
+
+1.628 (0.637)**
+
+-0.583 (0.300)*
+
+0.433 (0.286)
+
+-0.651 (0.077)***
+
+-0.306 (0.141)**
+
+-0.004
+(4.41e-05)***
+
+0.002 (0.0776)***
+
+Traditional
+
+2035
+
+-2.760 (1.646)*
+
+-0.022 (0.454)
+
+0.614 (0.486)
+
+0.094 (0.158)
+
+0.366 (0.346)
+
+0.004 (0.0008)***
+
+-0.001 (0.0005)**
+
+Probit on selected
+sample
+Modern irrigation = 1
+
+2035
+
+-3.826 (1.768)**
+
+-0.114 (0.515)
+
+0.295 (2.823)
+
+0.485 (0.377)
+
+0.004 (0.001)***
+
+-0.0009 (0.0004)**
+
+Probit with sample
+selection
+Modern irrigation = 1
+
+Lat Am Econ Rev (2016) 25:2
+-0.0891 (0.0386)**
+
+0.0848 (0.0101)***
+
+-0.0531 (0.0398)
+
+-0.000486
+(0.000220)**
+
+Age
+
+Education
+
+Reside in
+farm
+
+Dependence
+
+0.108 (0.0562)*
+
+0.118 (0.0577)**
+
+0.138 (0.0642)**
+
+Secure tenure
+
+Extension
+
+Credit
+
+0.167 (0.0532)***
+
+0.171 (0.0516)***
+
+0.132 (0.0509)***
+
+0.556 (0.0470)***
+
+0.610 (0.0522)***
+
+Potato farmer
+
+Institutional aspects
+
+Land
+
+0.205 (0.0388)***
+
+0.0315 (0.0267)
+
+0.227 (0.0464)***
+
+0.0157 (0.0305)
+
+Capital
+
+-0.000467
+(0.000203)**
+
+-0.0387 (0.0358)
+
+0.0738 (0.00885)***
+
+-0.0774 (0.0347)**
+
+-0.000226
+(0.000175)
+
+Gender
+
+-0.000188
+(0.000157)
+
+0.0405 (0.00807)***
+
+0.0404 (0.00940)***
+
+Skewness
+
+Household characteristics
+
+0.482 (0.0693)***
+
+0.120 (0.0181)***
+
+0.503 (0.0814)***
+
+St. Dev.
+
+0.105 (0.0162)***
+
+Ordered probit?
+Level: 1, 2, 3
+
+Mean
+
+Moments of production distribution
+
+Variables
+
+0.279 (0.131)**
+
+0.680 (0.148)***
+
+0.508 (0.251)**
+
+1.436 (0.206)***
+
+0.349 (0.0867)***
+
+0.365 (0.106)***
+
+-0.00182 (0.00367)
+
+0.165 (0.146)
+
+0.141 (0.0295)***
+
+-0.160 (0.159)
+
+-0.000884
+(0.000726)
+
+0.0358 (0.0251)
+
+0.205 (0.234)
+
+0.141 (0.0651)**
+
+Modern
+
+Multinomial probit
+
+0.166 (0.0955)*
+
+0.0711 (0.0863)
+
+0.121 (0.0809)
+
+0.803 (0.0748)***
+
+-0.00934 (0.0448)
+
+0.292 (0.0685)***
+
+-0.000704
+(0.000315)**
+
+-0.0906 (0.0575)
+
+0.113 (0.0147)***
+
+-0.117 (0.0550)**
+
+-0.000271
+(0.000250)
+
+0.0510 (0.0137)***
+
+0.676 (0.118)***
+
+0.168 (0.0261)***
+
+Traditional
+
+Table 12 Estimates of the models of technology adoption (Pooling potato and wheat farmers)
+
+See Table 12.
+
+Appendix 4
+
+0.205 (0.133)
+
+0.407 (0.179)**
+
+0.579 (0.306)*
+
+1.017 (0.208)***
+
+0.300 (0.0954)***
+
+0.0843 (0.111)
+
+-0.00221 (0.00550)
+
+0.272 (0.155)*
+
+0.0970 (0.0312)***
+
+-0.0394 (0.161)
+
+-0.000668 (0.000768)
+
+-0.0138 (0.0234)
+
+-0.479 (0.214)**
+
+0.184 (0.0716)**
+
+Probit on selected
+sample
+Modern irrigation = 1
+
+0.151 (0.125)
+
+0.387 (0.171)**
+
+0.569 (0.292)*
+
+0.797 (0.198)***
+
+0.275 (0.0902)***
+
+0.0164 (0.104)
+
+-0.00181 (0.00713)
+
+0.348 (0.146)**
+
+0.105 (0.0297)***
+
+-0.109 (0.143)
+
+-0.000702 (0.000686)
+
+-0.0180 (0.0217)
+
+-0.420 (0.193)**
+
+0.194 (0.0686)***
+
+Probit with sample
+selection
+Modern irrigation = 1
+-0.809 (0.0957)***
+
+4.441 (0.321)***
+
+South zone
+
+Constant
+
+Cut2
+
+14,086
+
+-0.605 (0.287)**
+
+-3.277 (0.287)***
+
+6.688 (0.460)***
+
+-0.705 (0.0785)***
+
+0.660 (0.101)***
+
+-0.802 (0.0363)***
+
+-0.0373 (0.0684)
+
+-0.00260
+(0.000226)***
+
+0.00123
+(2.65e-05)***
+
+0.407 (0.0376)***
+
+Ordered probit?
+Level: 1, 2, 3
+
+*** p \ 0.01, ** p \ 0.05, * p \ 0.1
+
+Bootstrapped standard errors in parentheses, 1000 replications
+
+Observations
+
+14,086
+
+1.052 (0.145)***
+
+North zone
+
+Cut1
+
+-0.197 (0.0761)***
+
+-0.981 (0.0413)***
+
+Soil quality
+
+Rainfall
+
+Environmental factors
+
+0.570 (0.0443)***
+
+0.00146
+(3.18e-05)***
+
+N° irrigat (T)
+
+Probit
+Irrigation = 1
+
+Participation
+
+Variables
+
+Table 12 continued
+
+14,086
+
+-2.762 (1.278)**
+
+-0.350 (0.186)*
+
+1.649 (0.377)***
+
+-0.384 (0.152)**
+
+-0.194 (0.284)
+
+0.000219 (0.000729)
+
+0.000956
+(0.000139)***
+
+0.412 (0.130)***
+
+Modern
+
+Multinomial probit
+
+6.688 (0.460)***
+
+-2.121 (0.289)***
+
+1.440 (0.203)***
+
+-1.437 (0.0592)***
+
+-0.288 (0.110)***
+
+-0.00492
+(0.000411)***
+
+0.00208
+(4.54e-05)***
+
+0.854 (0.0649)***
+
+Traditional
+
+2703
+
+-8.543 (1.278)***
+
+2.251 (0.446)***
+
+0.551 (0.303)*
+
+0.801 (0.143)***
+
+0.550 (0.304)*
+
+0.00268 (0.000661)***
+
+-0.000729
+(0.000135)***
+
+0.0543 (0.130)
+
+Probit on selected
+sample
+Modern irrigation = 1
+
+2703
+
+-3.078 (0.688)***
+
+2.449 (0.439)***
+
+-0.382 (0.230)*
+
+0.528 (0.285)*
+
+0.00193 (0.000637)***
+
+-0.000648
+(0.000133)***
+
+0.0580 (0.124)
+
+Probit with sample
+selection
+Modern irrigation = 1
+
+Lat Am Econ Rev (2016) 25:2
+See Table 13.
+Table 13 Estimates of the
+models of technology adoption
+for rice farmers
+
+Variables
+
+Probit on selected sample
+Modern irrigation = 1
+
+Moments of production distribution
+Mean
+
+0.174 (0.624)
+
+St. Dev.
+
+-0.484 (1.118)
+
+Skewness
+
+-0.0798 (0.267)
+
+Household characteristics
+Gender
+
+-0.000576 (0.000825)
+
+Age
+
+-0.202 (0.195)
+
+Education
+
+0.0312 (0.0416)
+
+Reside in farm
+
+0.0696 (0.179)
+
+Dependence
+
+-0.00207 (0.00573)
+
+Capital
+
+0.230* (0.120)
+
+Land
+
+0.0139 (0.112)
+
+Institutional aspects
+Secure tenure
+
+0.842 (0.525)
+
+Extension
+
+0.168 (0.187)
+
+Credit
+
+0.0586 (0.129)
+
+Participation
+
+0.423*** (0.153)
+
+N° irrigat (T)
+
+-0.000289 (0.000230)
+
+N° irrigat (M)
+
+0.00799*** (0.00284)
+
+Environmental factors
+Soil quality
+
+-0.463 (0.606)
+
+Bootstrapped standard errors in
+parentheses, 1000 replications
+
+Rainfall
+
+0.0999 (0.599)
+
+Constant
+
+-3.195 (3.696)
+
+*** p \ 0.01, ** p \ 0.05,
+* p \ 0.1
+
+Observations
+
+See Table 14.
+Table 14 Correct predictions for adoption models per irrigation category
+Probit
+Irrigation = 1
+(%)
+
+Ordered
+probit?
+Level: 1, 2,
+3 (%)
+
+Multinomial
+probit (%)
+
+Probit on
+selected
+sample
+Modern
+irrigation = 1
+(%)
+
+Probit with
+sample
+selection
+Modern
+irrigation = 1
+(%)
+
+Correct
+predictions
+
+94.6
+
+93.6
+
+94.2
+
+95.1
+
+96.1
+
+Nonirrigation
+
+98.0
+
+98.8
+
+98.2
+
+–
+
+99.2
+
+Traditional
+irrigation
+
+–
+
+71.9
+
+79.2
+
+93.5
+
+99.3
+
+Modern
+irrigation
+
+–
+
+1.4
+
+1.4
+
+28.6
+
+42.9
+
+Irrigation
+status
+
+Whole sample
+
+Selected sample
+Correct
+predictions
+
+89.6
+
+87.1
+
+88.7
+
+95.1
+
+95.5
+
+Non
+irrigation
+
+96.3
+
+96.5
+
+96.6
+
+–
+
+97.6
+
+Traditional
+irrigation
+
+–
+
+67.9
+
+73.5
+
+99.5
+
+99.4
+
+Modern
+irrigation
+
+–
+
+1.7
+
+1.7
+
+24.1
+
+32.8
+
+Predictions on non-irrigation choices in the probit model with sample selection correspond to selection
+equation predictions
+
+Zilberman D, Khanna M, Lipper L (1997) Economics of new technologies for sustainable development.

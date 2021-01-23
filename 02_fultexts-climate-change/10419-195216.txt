@@ -1,0 +1,5953 @@
+
+One of the reasons for the existence of compulsory contributory pension schemes is
+to ensure that income earners save out part of their incomes to cover for their
+expenditure needs when they retire from labor markets. The implicit assumption
+behind the need for a compulsory regime is that otherwise people would not save
+enough if the decision is left only on a voluntary basis. However, social security
+(SS) programs are also used as tools to redistribute income from the better-off to the
+worst-off. In the light of this second objective, it is usually the case that pension
+formulas include, to a less or more extent, some redistributive components (e.g.
+minimum pensions). Moreover, even retirement regimes based on the principle of
+actuarial fairness, like individual accounts deﬁned contribution (IA-DC) programs,
+may also incorporate non-actuarial redistributive ingredients.
+Also, SS programs redistribute income through more subtle mechanisms. High
+mortality rates affect mostly to low-income workers when uniﬁed mortality tables
+are used (Garrett 1995; Duggan et al. 1995; Beach and Davis 1998). Government
+transfers to ﬁnance SS tend to favor the population covered by the programs which,
+as Rofman et al. (2008) point out, in developing countries tend to be the better-off.
+Low densities of contribution mean that some workers are left ineligible for beneﬁts
+which, as shown in Forteza et al. (2009) and Berstein et al. (2006), are mostly lowincome earners.
+The aim of achieving a more progressive redistribution of income through the
+design of pension regimes might collide with the objective of having systems that
+are self-funded. This trade-off has been present along the history of almost all
+pension programs around the world, Latin-America has not been the exception.
+Examples of this have been the regimes changes in Argentina (2004–2008), Chile
+(2008), Brazil (1988, 2003), Uruguay (2008) and Bolivia (2008), among others.
+As explained by Bertranou et al. (2011), the reform in Chile has its origin in the
+evidence that the system of individual accounts as designed in 1981 would meant
+that most pensioners would obtain very low beneﬁts when compared with their
+incomes before retirement, with the most affected groups being low-income earners,
+seasonal workers, self-employed, and mostly women. To avoid this scenario, the
+reform of 2008 introduced a solidarity pension ﬁnanced by the government, it also
+implemented different measures to increase the system coverage, especially among
+the most vulnerable groups mentioned above, and thirdly it looked at to improve the
+rate of return of the individual accounts through more competition among the fund
+administrators and the reduction of administrative fees. In the case of Brazil, the
+reform of 1988 introduced the concept of universal coverage, the no-discrimination
+against the rural population, and the protection of the real value of beneﬁts. With
+these aims, a non-contributory pension was introduced for people with disabilities or
+older than 65-year-old that were in a situation of extreme poverty. While the reform
+of 2003 looked at the harmonization of the many pension regimes in order to
+minimize the inequalities between the general regime and the special ones. In
+Uruguay, in 2008, the government introduced a series of changes to the pension
+system looking at allowing that older people with insufﬁcient contributions could
+while for unemployed workers with 28 years of contribution and 58-year-old it was
+implemented an unemployment subsidy for a maximum period of 2 years. Also, a
+non-contributory old-age pension was implemented for those in a more vulnerable
+social situation.1 Finally, in the case of Bolivia, in 2008 it was implemented a
+universal non-contributory pension for all citizens 60 years or older which is
+ﬁnanced with revenues that are not related to contributions made by workers and/or
+employers.2 However, a challenge that needs to deal with is the huge unbalance
+between the contributory and non-contributory pillars of the system.
+Moving to the case of Argentina, which is the objective of this study, during the
+ﬁrst half of the 2000s there was a series of changes aimed at increasing the
+proportion of the population with a pension beneﬁt through the implementation of
+several moratoriums allowing people which had not fulﬁlled with the required years
+of contribution to have access to a pension beneﬁt. However, in 2008, at the peak of
+the world economic crisis, there took place an structural change, with the
+abolishment of the mixed-system that was in place since 1994, and replaced by a
+publicly administered pay-as-go deﬁned-beneﬁt (PAYG-DB) scheme.3 The ofﬁcial
+reason put by the government behind this change was the intention of protecting the
+value of the funds saved in the individual accounts, which had lost a great deal
+because of the world economic crisis.4 However, another reason, maybe even more
+important than the previous one, was the need by Federal Government, which was
+unable to have access to world capital markets, of getting control over an
+accumulated fund of around 29 billion USD, and not least important an annual ﬂow
+of nearly 4 billion USD in contributions previously diverted into the system of
+individual accounts.
+As can be appreciated from the examples just mentioned, in most cases the
+objectives behind the reforms were to increase the share of the population covered
+by the system and also to increase the replacement ratio of beneﬁts. In what follows,
+we focus on the Argentine case, more particularly in the redistribution stemming
+from the fact that low-income workers tend to have systematically shorter
+contribution histories.5 With this aim, we assess the implicit redistribution of the
+Argentine pension program on a lifetime basis. Using household surveys we
+simulate lifetime declared labor income and ﬂows of contributions and beneﬁts, and
+1
+
+Results from Forteza and Mussio (2012), Fajnzylber (2011) and Zylberstajn (2011) show that from a
+intra-generational perspective, SS in Uruguay, Chile and Brazil induces to a more progressive
+redistribution of lifetime income. Moncarz (2011) reports that for Mexico the pension system is almost
+neutral from a distributional point of view.
+
+2
+
+This pension is ﬁnanced with a 30 % of revenues from a direct tax on hydrocarbons, and also with the
+dividends from privatized public enterprises.
+
+3
+
+The abolishment of the individual account part of the pension system took place in a record time of just
+over a month.
+
+4
+
+A not minor reason behind the losses suffered by the funds accumulated in the individual accounts
+during the year 2008, was the sharp reduction in the value of the public bonds issued by the Federal
+Government which constituted by far the most important component of the investment portfolio. This
+overexposure in government bonds was often the result of a government imposition on fund
+administrators.
+
+5
+
+indexes are used to assess the distribution and redistribution implicit in the system.
+The main ﬁnding is that the current PAYG-DB system in Argentina appears to be
+slightly regressive, especially in the case of women working in the private sector,
+these results are robust to the use of alternative discount rates and deﬁnitions of preand post-social security wealth (SSW). If income from informal jobs is also
+accounted for, the system becomes slightly progressive. A similar result emerges
+under a weak enforcement of the system rules.
+Our main ﬁnding that a solidarity system as the PAYG-DB that is in place in
+Argentina is regressive appears to be at odds with the preconception that from a
+distributional point of view this type of arrangements are more progressive than a
+system with individual accounts, which almost by deﬁnition are actuarially fair. A
+possible explanation for our result that the PAYG-DB system does not improve
+income distribution is that if soft eligibility conditions were required, the system
+would be unbalanced from a ﬁnancial point of view since contributions from current
+workers would not be sufﬁcient to honor beneﬁt payments, so the system requires
+strict eligibility conditions, especially in terms of the number of years of
+contributions, as well as low replacement ratios. This characteristic in an
+environment where informal job is widely present, at least for some population
+groups, means that many are left behind when reaching the age of retirement. This
+question, which is not present in a framework of individual accounts, mostly affects
+low-income earners, who are less likely to show compliance with the requirements
+for access to a retirement.
+The paper is organized as follows. Section 2 presents the conceptual framework.
+A brief description of the old-age pension program is presented in Sect. 3. Section 4
+describes the data, while Sect. 5 presents the methodology. The main results are
+discussed in Sect. 6, while Sect. 7 summarizes the main ﬁndings.
+2 Conceptual framework6
+Micro-simulations of lifetime labor income and SS contributions and beneﬁts are
+used to assess SS redistribution. The focus in this paper is on intra-generational
+redistribution: one cohort, current pension rules. Even when they are not less
+important, we do not analyse inter-generational transfers (e.g. between current
+workers and current beneﬁciaries), nor among those reached by the system, either
+because they have contributed during their working life and/or have access to a
+beneﬁt, and those that are never included by the system.
+The individual is considered as the unit of analysis, but redistribution in the SS
+system may look very different at the family level. Gustman and Steinmeier (2001)
+ﬁnd out that when analysed at the individual level, the US social security looks very
+6
+
+This section summarizes part of the proposal of the project ‘‘Assessing Implicit Redistribution
+within Social Insurance Systems’’ developed with the support of the World Bank, which included ﬁvecase studies: Argentina and Mexico (Moncarz 2011), Brazil (Zylberstajn 2011), Chile (Fajnzylber 2011)
+and Uruguay (Forteza and Mussio 2012). A summary of these ﬁve-country studies can be found
+level. Sadly, the lack of appropriate data impedes us to follow this route. Also, an
+element that may reduce the difference between outcomes when considering the
+family or the individual as the unit of analysis, is that differently from the US
+system, the Argentinean case only allows for a ‘‘survivor beneﬁt’’, while in the case
+of the US there is a ‘‘spouse beneﬁt’’ which is paid even before the main beneﬁciary
+dies. Gustman and Steinmeier (2001) ﬁnd that the ‘‘spouse beneﬁt’’ is quantitatively
+important, and implies more a transfer within the family itself than between
+families.
+Ideally, the assessment of the redistributive impact of social security programs
+should be based on the comparison of income distribution with and without social
+security. This is not the same as comparing pre- and post-social security income (i.e.
+income minus contributions plus beneﬁts), because social security is likely to induce
+changes in work hours, savings, wages and interest rates. One possible drawback of
+these models is the assumption of full rationality, something that has been subject to
+much controversy, especially regarding long-run decisions like those involved in
+social security. After all, the most appealed rationale for pension programs is
+individuals’ myopia (Diamond 2005, chap. 4). In turn, much of ﬁscal incidence
+analysis is done on the non-behavioral type of assumption (Sutherland 2001;
+Immervoll et al. 2006). It is usually performed under the assumption that pre-tax
+income is not affected by the tax system. The approach proposed here is closer to
+the literature pioneered by Gruber and Wise (1999, 2004), who designed and
+computed a series of indicators of SS incentives to retire assuming no explicit
+behavioral responses.
+The optimization models have the obvious advantage of incorporating behavioral
+responses, so not only the direct effects of policies are considered, but also the
+indirect effects that go through behavioral changes. However, in order to keep
+things manageable, these theoretically ambitious models necessarily make highly
+stylized assumptions regarding not only individual preferences and constraints, but
+also social security programs. Given the goals of the proposed research, this is a
+serious drawback. Non-behavioral micro-simulations are based on exogenously
+given work histories and geared to providing insights on the social security transfers
+that emerge from those histories. Thanks to their relative simplicity, non-behavioral
+models allow for a much more detailed speciﬁcation of the policy rules and work
+histories than inter-temporal optimization models. An additional advantage of
+micro-simulations is that the effects are straightforward, so no black-box issues
+arise. At the very least, it can be expected to capture the ﬁrst-order impact effects of
+social security on income distribution. The micro-simulation modeling can thus be
+seen as a ﬁrst step in a more ambitious research program that incorporates
+behavioral responses in a more advanced phase.
+
+3 The Argentinean pension and unemployment programs
+´
+With small variations, Diamond (2006), Valdes-Prieto (2006), Lindbeck and
+actuarial fairness.
+PAYG programs are totally unfunded and so they lie at one extreme of the degree
+of funding dimension. In these programs, beneﬁts are entirely ﬁnanced by the
+current ﬂow of contributions and there are no funds to back pension rights. At the
+other extreme lie programs in which accrued pension rights are fully backed by
+previous contributions. Individual savings accounts are the most common form of
+fully funded pension schemes. In this case, pension rights are linked to accumulated
+ﬁnancial assets in the individual account.
+In the second dimension, pension programs are usually classiﬁed as DB or DC. In
+a DC program, contributions are ﬁxed and beneﬁts are residually determined,
+adjusted to ensure ﬁnancial sustainability. In a DB program, beneﬁts are ﬁxed—or
+more commonly the relation between earnings and pension is settled in a formula––
+and contributions are adjusted endogenously.
+The third dimension refers to the link between individual contributions and
+beneﬁts. The program is actuarially fair if the expected sum of discounted beneﬁts
+and contributions are equal. It is said to be ‘‘non-actuarial’’ if there is no link
+between contributions and beneﬁts.
+Most PAYG pension programs are DB and non-actuarial, and individual savings
+accounts are in principle fully funded, DC and actuarially fair. But other
+combinations are also possible. Non-ﬁnancial-deﬁned-contributions pension programs––also known as notional accounts––are totally unfunded (e.g. PAYG), and
+yet they are DC and also exhibit high degrees of actuarial fairness. Many DB
+programs have reserves that back pension rights, particularly so when programs are
+relatively young.
+PAYG-DB programs usually have some in-built redistributive components, like
+minimum and maximum pensions, so they are often considered to be better
+equipped in principle to perform redistribution than more actuarial DC programs
+(Palmer, 2006). Pure individual savings accounts are actuarially fair and hence, by
+construction, do not perform redistribution. In this light, if pension programs are
+expected to alleviate poverty and reduce inequality in all age (Barr 2001), PAYGDB programs have an advantage over individual savings accounts. However, in the
+real world it is not always clear whether PAYG-DB programs are effective in
+alleviating poverty or reducing income inequality in old age. Also many saving
+accounts programs are complemented with redistributive non-actuarial components,
+like minimum pension guarantees and matching contributions. Therefore, whether a
+program contributes to reducing inequality is an empirical issue.
+In the US there has been an active debate over how progressive social security is
+in practice. Gustman and Steinmeier (2001) on redistribution at the individual vs.
+family level. Garrett (1995), Duggan et al. (1995) and Beach and Davis (1998) on
+mortality rates. In developing countries, at least two additional factors may
+contribute to reduce the ability of social security to ameliorate poverty and reduce
+income inequality in old age. First, social security coverage is mostly limited to the
+better-off (Rofman et al. 2008). Also governments often subsidize social security
+and, given that coverage is very low among low-income individuals, these subsidies
+no pension beneﬁts at all (Forteza and Ourens 2012).
+3.1 A brief history of Argentina’s social security7
+In Argentina, the ﬁrst pension funds appeared in the early of the 20th century (in
+1904, the employees of the public administration, in 1905, the railway workers).
+Between 1916 and 1930 the system extended to other activities, covering most
+public employees; the ﬁnancial, banking and insurance sector; journalists; printing
+industry; merchant seamen and aviation workers. Despite the expansion of pension
+funds, the overall coverage was quite limited, and also there was a high
+heterogeneity among the different sectors, in terms retirement age, amount of
+contributions, and beneﬁts. However, one common feature was that of individual
+capitalization.
+Between 1944 and 1954 the system was extended further covering almost all
+formal workers, although there was still a marked heterogeneity across sectors. This
+last feature changed in 1954, when the system moved from one of individual
+accounts to a one of PAYG type, also a progressive element was introduced with
+low- and medium-wage workers receiving higher replacement ratios at retirement.
+Another feature was that the system, due to its relative youth, enjoyed a ﬁnancial
+surplus, but this would change quickly.
+In 1958, it was introduced the mobility in beneﬁts, with a guarantee of 82 % of
+the taxable wage that the beneﬁciary received before retirement. This element meant
+a certain homogenization of beneﬁts among the different sectors, and the
+abolishment of the progressive component introduced with the 1954 reform. Also,
+and perhaps the most important development, it was that with the maturation of the
+system, and due to the existence of a high proportion of informal workers and high
+levels of evasion in the payment of contributions, the system began to experience
+deﬁcits. These deﬁcits led to a new reform in 1969, which involved the merge of the
+various pension funds, and the introduction of a centralized management, this last
+change in fact meant cross-sector transfers from those programs with surplus to
+those with deﬁcits. The reform also introduced more stringent conditions to access
+to a beneﬁt, with the increase of the minimum age and the number of years of
+contributions. Also, the beneﬁt would be a function of the worker’s earnings history,
+calculated as an average of the best 3 years of salaries during the last 10 years of
+work, which led to the replacement ratio to be between 70 and 82 %. The mobility
+of the beneﬁts was maintained. However, all these changes meant only a temporary
+relief to the ﬁnancial imbalances.
+In 1980 a new reform contributed signiﬁcantly to increase the system’s deﬁcit,
+with the elimination of employer contributions, and its replacement with resources
+from the collection of the value added tax. The growing of informal employment,
+evasion, and the greater maturity of the system led to the primary deﬁcit to reach
+60 % of total expenditures. This meant that in the eighties the system was almost
+
+7
+
+contributions.
+Another reform, that meant a paradigm change, took place in October 1993 with
+the reintroduction of the system of individual accounts that would coexist with the
+public system. Under this mixed-system, the retirement beneﬁt of the PAYG-DB
+pillar was conformed of three parts, a ﬂat payment, a beneﬁt based on contributions
+made before the reform, and another based on contributions made after the reform.
+The latter two components were calculated based on the years of contributions and
+the average wage received in the last years of work before retirement. For those who
+chose to migrate to, or new workers that choose the system of individual accounts,
+the total beneﬁt also consisted of three parts. The same ﬂat payment paid in the
+public pillar, a payment based on the contributions made to the public system, and
+other payment using the funds accumulated in the individual account. The ﬁrst two
+components were the responsibility of the public sector. After a minimum period in
+one system, workers had the option to switch between systems. Even under the
+individual account system there were some redistributive components through the
+payment of a ﬂat beneﬁt, as well as the existence of a minimum pension. Beneﬁts
+paid by both systems that were the responsibility of the public sector, were ﬁnanced
+with contributions from employers and from workers belonging to the public pillar.
+In the late 2008, at the peak of the global ﬁnancial crisis, and under the ofﬁcial
+excuse that the balances in the individual accounts were rapidly losing much of their
+value, a last reform took place, and the individual account system was abolished.
+However, the most general belief was that the measure was heavily inﬂuenced by
+the needs of funding by the Federal Government. At that moment of the
+abolishment, the funds accumulated in the individual account system were about 29
+billions USD, but not less than half of that amount was public bonds issued by the
+Government itself. These funds were used to constitute the Fondo de Garantıa de
+´
+´
+Sustentabilidad8 administered by the Administracion Nacional de Seguridad Social9
+(ANSES). However, maybe the most important issue was that the Government, by
+the intermediation of the ANSES, was able to take control over approximately, 4
+billions USD each year in contributions made by employees that had in the past
+chosen the individual account system.10
+3.2 The current system
+At the present time, there still coexist several retirement systems. On the one hand
+there is the national system which covers private sector workers and federal public
+employees, as well as people that work in the public sector in some provinces. At
+the sub-national level, several provinces have their own systems which cover
+provincial and municipal public employees; more or less half of these systems were
+merged with the national system during the second half of the 1990s. Finally,
+8
+
+Sustainability Guarantee Fund.
+
+9
+
+National Social Security Administration.
+
+10
+
+With the abolishment of the individual account system, the ANSES has become one of the most
+lawyers, etc., have their own systems that are organized at a provincial level. Even
+more, both at the national and sub-national levels there is a wide number of speciﬁc
+regimes covering speciﬁc activities, for instance the judiciary, university
+researchers, etc. Finally, an additional component that has gained importance in
+recent years is the widespread grant of non-contributory pensions.11 However, due
+to data availability, the analysis here will concentrate only on the general regime
+under the administration of the ANSES, which is the one with the largest
+coverage.12
+More speciﬁcally, the current system is regulated by the Law 24241. The
+conditions salaried workers must meet to be entitled to a retirement beneﬁt are the
+following13:
+•
+•
+•
+
+A minimum of 30 years of contributions
+To be 65-year-old for men and 60-year-old for women. Women, if they choose
+to, can continue working until they are 65-year-old.
+People who do not meet the minimum years of contributions, can compensate
+each year of missing contribution with two additional years of work, counted
+after reaching the minimum retirement age.
+
+People who do not meet the previous conditions can access an old-retirement
+pension if:
+•
+•
+•
+
+They are at lest 70-year-old.
+Have a minimum of 10 years of contributions.
+Have 5 years of contributions in the 8-year period previous to retirement.
+
+The health and social security system is funded by contributions made by
+workers and employers. Workers contribute an 11 % of the gross salary, while
+employers contribute a 16 % to the retirement pillar of the social security system. In
+June 2011, the maximum gross salary to calculate both contributions was A$
+16213.72 (US$ 3925.85), while the minimum wage was $A 498.89 (US$ 120.79).
+Workers also contribute a 6 % for health insurance and 1 % in case they choose to
+afﬁliate to a trade union. Employers contribute an 8 % for health insurance.14
+11
+Lustig and Pessino (2012) show that non-contributory pensions as a share of GDP rose by 2.2 % points
+between 2003 and 2009, while Argentina’s total social spending as a share of GDP increased by 7.6 %
+points. The authors show that the increase in the weight of non-contributory pensions entailed a
+redistribution of income to the poor, and from the formal sector pensioners with above minimum pensions
+to the beneﬁciaries of the pension moratorium launched in 2004. At the moment of writing this paper a
+new moratorium was launched, expecting to reach about half million new pensioners.
+12
+This regime represents, approximately, between 75 and 80 % of all beneﬁciaries, including survivor
+beneﬁts.
+13
+
+We exclude from the analysis people working under any other regime than salaried workers, such as
+self-employed.
+14
+Employees’ contributions to health insurance are 3 % for their own coverage and another 3 % to
+ﬁnance health insurance for those already retired. Employers’ contributions are also divided, but in this
+unemployment insurance15 and the labor accident coverage.
+With respect to the beneﬁts, the monthly payment is divided into two parts:
+•
+
+•
+
+•
+
+A ﬂat beneﬁt known as universal basic pension (PBU). In June 2011, the PBU
+was A$ 667.92 (US$ 161.72). If the person retired under the old-age pension
+scheme, the PBU is 70 % of the full amount.
+A compensatory payment (PC) that is equal to 1.5 % for each year of
+contribution, or fraction above 6 months (with a maximum of 35 years) of the
+average real gross salary (including the worker contributions to the social
+security system but excluding the employer contributions) during the last
+10 years before retirement. To calculate the average gross salary, periods in
+which the person was not working are excluded. Despite of the legal norm
+makes reference to the 10 years previous retirement, it is customary to consider
+the last 120 positive remunerations previous retirement. In June 2011, the
+maximum amount a person was entitled to receive under the PC was A$
+10507.90 (US$ 2544.28).
+In June 2011, the System guarantied a minimum pension of A$ 1434.29 (US$
+347.28).
+
+4 Data
+The data source is the Encuesta Permanente de Hogares (EPH) for the period
+1995–2003.16 The EPH is a household survey that in its previous design was carried
+out twice a year, usually in the months of April/May and October. Each household,
+and all its individuals, was surveyed four consecutive times after which they were
+dropped from the survey. In each survey, a quarter of households were replaced.
+The sample we work with includes only individuals that have been observed the
+four times and that at least in one occasion have declared themselves as employed or
+unemployed. Working this way we feel we can approximate better the individual
+effects that are crucial for our simulations.
+The variable that identiﬁes the contributing status to the social security is
+available only for salaried employees. Thus, the sample will not include people that
+have declared a different employment status than salaried employees, when
+15
+Unemployment insurance only covers private sector workers. However, the degree of coverage, both
+in terms of number of beneﬁciaries as well as in monetary terms is very low.
+16
+From the second half of 2003 the EPH was subject to an important methodological change that
+impedes us to extend the period of analysis, also because of the timing when households are surveyed, the
+new EPH is less suitable for the purposes of the present study. Additionally, a second but not less
+important reason for not using the new EPH, especially for the most recent years, is the growing
+suspicions about the quality and truthfulness of the ofﬁcial statistics produced by the Instituto Nacional de
+´
+Estadısiticas y Censos. Stating with consumer price statistics in 2007, ofﬁcial statistics has been since
+subject to increasing scrutiny with growing accusations of tampering with the data. In 2009, in the middle
+of the world economic crisis, suspicions also felt on poverty ﬁgures, and in the most recent years,
+opportunities they were surveyed.
+Because of the potential differences in the system coverage for the different types
+of workers, the public and private sectors will be considered separately, as well as
+men and women. Because of the low number of observations for each individual, we
+cannot model, with a minimum degree of conﬁdence, the transitions between the
+private and public sectors, so we consider only individuals that when employed did
+not change sectors. We only include individuals aged between 18- and 69-year-old
+the four times they were surveyed. In Tables 1, 2, 3 and 4, we present some
+descriptive statistics. The main picture is the high incidence of the not-contributing/working status, especially in the private sector, mostly for women.
+
+5 Methodology
+5.1 Estimation of contribution status
+As it is clear from the sample description, there are an important percentage of cases
+in which the individual is working but not contributing. This behavior is more
+evident for those working in the private sector, especially for women. Because of
+this characteristic that emerges from our sample, and under the assumption that
+Table 1 Sample sizes
+
+Sector
+Public
+
+Private
+
+Female
+
+5,784
+
+11,069
+
+Male
+
+5,417
+
+12,445
+
+Gender
+
+Source: own based on EPH
+
+Table 2 Distribution of
+samples depending on having
+contributed at least in one out of
+the four possible occasions
+
+Public
+
+Private
+
+Female
+
+Male
+
+Female
+
+Male
+
+Contributed at least one time
+No
+Source: own based on EPH
+
+13.8
+
+5.7
+
+61.9
+
+26.8
+
+Yes
+
+86.2
+
+94.3
+
+38.1
+
+73.2
+
+Table 3 Sample working
+status (%)
+
+Public
+Female
+
+Private
+Male
+
+Female
+
+Male
+
+Working status
+Not working
+Source: own based on EPH
+
+12.8
+
+5.7
+
+41.3
+
+17.8
+
+Working
+
+87.2
+
+94.3
+
+58.7
+
+status (%)
+
+Public
+
+Private
+
+Female
+
+Male
+
+Female
+
+Male
+
+Does not contribute
+
+20.5
+
+10.9
+
+72.3
+
+41.1
+
+Contribute
+
+79.5
+
+89.1
+
+27.7
+
+58.9
+
+8.8
+
+5.5
+
+52.7
+
+28.3
+
+91.2
+
+94.5
+
+47.3
+
+71.7
+
+(a) All sample
+Contribution status
+
+(b) Conditional on working
+Contribution status
+Does not contribute
+Source: own based on EPH
+
+Contribute
+
+those individuals that contribute are not a random draw of the working population,
+we use the Heckman selection model to control the bias that would emerge if the
+contribution status were estimated without controlling for the probability that an
+individual could have a job but does not contribute to social security. In particular,
+we estimate the following model:
+Lit ¼ bL Xit þ eL
+it
+
+ð1Þ
+
+Cit ¼ bC Yit þ eC
+it
+
+ð2Þ
+
+where, Lit is a dummy variable equal to 1 if individual i is working and zero
+otherwise; Cit is a dummy variable equal to 1 if, conditional on working (Lit = 1),
+individual i contributes and zero otherwise; Xit is a set of variables that explain the
+probability of individual i working; Yit is a set of variables that explain the probability of individual i contributing; t stands for a semester.
+Under the assumptions of the Heckman selection model, eL and eC are correlated
+it
+it
+with each other, such that the estimation of Eq. (2) without taking consideration of
+(1) would render a biased estimation of vector bC .
+Our aim with Eqs. (1) and (2) is to project the probability of an individual
+working, and conditional on working the probability of contributing to social
+security. Both of these probabilities surely depend on individual’s unobserved
+characteristics. To try controlling this unobserved characteristic in our simulations,
+we assume that the error terms in Eqs. (1) and (2) are composed of two parts:
+e L ¼ gL þ uL
+it
+i
+it
+
+ð3Þ
+
+e C ¼ gC þ uC :
+it
+i
+it
+
+ð4Þ
+
+Equations (1) and (2) are estimated using the Heckman selection estimator, so
+the individual effects gL and gC are recovered as follows:
+i
+i
+
+P Ti 
+^L
+t¼1 Lit À b Xit
+^i
+gL ¼
+ð5Þ
+gC ¼
+
+
+P Ti 
+^C
+^
+t¼1 Cit À b Yit À kIMRit
+Ti
+
+ð6Þ
+
+^
+/ðbL Xit Þ
+where IMR are the inverse Mills ratio which are deﬁned as IMRit ¼ U bL X , where /
+ð ^ it Þ
+^
+and U stand for the normal pdf and cdf, respectively; k is the selectivity effect. Since
+L
+^
+^i
+our aim is also to recover the individual effects, gi and gC , the contribution status
+(Eq. 2) is assumed to be linear in its arguments, while for the working status (Eq. 1),
+which is estimated with a probit speciﬁcation, we work with its lineal projection.
+Equations (1) and (2) allow us to model, in a pretty much ad hoc way, transitions
+between informal and formal jobs. Sadly, the short time frame that each individual
+is observed, does not allows us to use a proper transition model. Finally, another
+element to keep in mind is that, since we are working with a non-behavioral model,
+we do not control for the role that Social Security might have on the choice between
+having a formal or informal job.
+
+5.1.1 In sample simulations
+The probability of individual i working at moment t is calculated as:
+^it ^
+^i
+PL ¼ bL Xit þ gL :
+
+ð7Þ
+
+^it
+^
+Then, the simulated working status is deﬁned as Lit ¼ 1 if PL [ drawL and 0
+it
+L
+otherwise, where drawit is a realization from a uniform (0, 1) distribution for each
+period t.
+^i
+The probability of individual i, with individual effect gC and conditional on being
+working, contributing in time t is calculated as follows:
+^
+^
+^it
+^i
+PC ¼ bC Yit þ kIMRit þ gC :
+
+ð8Þ
+
+^
+Then, conditional on Lit ¼ 1, the contribution status for individual i in time t is
+^it ¼ 1 if PC [ drawC ; and 0 otherwise, where drawC is a realization
+^it
+deﬁned as C
+it
+it
+from a uniform (0, 1) distribution for each period t.
+5.1.2 Out of sample simulations
+Since in this case the individual effects gL and gC are not directly observed, they are
+i
+i
+generated as follows:
+~i
+^ ~i
+gL ¼ rgL zL
+
+ð9Þ
+
+~i
+^ ~i
+gC ¼ rgC zC
+
+ð10Þ
+
+^i
+^i
+^
+^
+where rgL and rgC are the standard deviations of the individual effects gL and gC
+respectively, and zL and zC are both pseudo-random draws from a Standard Normal
+~i
+~i
+~it ^
+~i
+PL ¼ bL Xit þ gL :
+
+ð11Þ
+
+~
+~it
+Then, the simulated working status is deﬁned as Lit ¼ 1 if PL [ drawL and 0
+it
+L
+otherwise, where drawit is a realization from a uniform (0, 1) distribution for each
+period t.
+Then, the probability of contributing is calculated as:
+^
+^
+~it
+~i
+PC ¼ bC Yit þ kIMRit þ gC
+
+ð12Þ
+
+where t now stands for a month.
+~
+Then, conditional on Lit ¼ 1, the contribution status for individual i in month t is
+~it ¼ 1 if PC [ drawC ; and 0 otherwise, where drawC is a realization
+~it
+deﬁned as: C
+it
+it
+from a uniform (0, 1) distribution for each period t.
+5.2 Projection of labor income
+We estimate a maximum likelihood switching model17 which describes the behavior
+of an agent with two regression equations and a criterion function, Iit that determines
+which regime the agent i faces at time t.
+Iit ¼ 0
+
+if
+
+cZit þ uit
+
+Iit ¼ 1
+
+if
+
+cZit þ uit [ 0
+
+0
+
+Regime 0 ðLit ¼ 1; Cit ¼ 0Þ : ln wit ¼ b0 Xit þ e0
+it
+
+if Iit ¼ 0
+
+ð13Þ
+
+Regime 1 ðLit ¼ 1; Cit ¼ 1Þ : ln wit ¼ b1 Xit þ e1
+it
+
+if Iit ¼ 1:
+
+ð14Þ
+
+Given that our main goal is to project income, we are particularly interested in
+exploring the impact on wages of time invariant and deterministic covariates, like
+age and education. In the equations above wit is the log of real wage18 received by
+person i in time t (semester); Xit is a set of regressors of personal characteristics, age
+and education; and the unemployment rate. As long as we expect wit to be
+stationary, we do not introduce any deterministic time trend in the equation. Zit
+includes the same variables as the Xit plus a dummy variable, which works as the
+exclusion restriction, equal to one if individual i is 65 years Á older for men, and
+or
+À
+60 years or older for women. The error terms uit ; e0 ; and e1 are assumed to have
+it
+it
+a trivariate normal distribution.
+As with the working and contributing equations, to improve the goodness of our
+simulations, we assume that wages are also a function of some individual
+unobserved characteristics, which are time invariant and constant across regimes.
+As explained before, each individual in the sample is observed at most four times in
+which he/she can be in regime 0 (working but not contributing) or regime 1
+17
+
+We use Stata command movestay (Lokshin and Sajaia 2004).
+
+18
+
+individual effect mi is recovered as follows:
+P Ti
+P Ti
+^
+^
+t¼1 ðwit À E ðwit jIit ¼ 0; Xit ÞÞ þ
+t¼1 ðwit À Eðwit jIit ¼ 1; Xit ÞÞ
+^
+:
+ð15Þ
+mi ¼
+Ti
+Conditional expectations in (13) and (14) are, respectively:
+^
+^
+^ ^
+Eðwit jIit ¼ 0; Xit Þ ¼ Xit b0 À r0 q0
+
+^
+/ðcZit Þ
+^
+1 À UðcZit Þ
+
+^
+/ðcZit Þ
+^
+^
+^ ^
+Eðwit jIit ¼ 1; Xit Þ ¼ Xit b1 þ r1 q1
+^
+UðcZit Þ
+
+ð16Þ
+
+ð17Þ
+
+^
+^
+where r0 and r1 are the estimated standard deviations of the errors e0 and e1
+it
+it
+^
+^
+respectively; while q0 and q1 are the estimated correlation coefﬁcients between uit
+and e0 and e1 , respectively. /(…) and U(…) are the normal pdf and cdf,
+it
+it
+respectively.
+Predictions according to Eqs. (13) and (14) can only be computed for the
+individuals in the sample, e.g. individuals for which we can compute the individual
+effects. But the model is used to predict the labor income ﬂow of ‘‘newborn’’
+individuals. In this case, we simulate the individual effects19:
+~
+^~
+m i ¼ r m zi
+
+ð18Þ
+
+^
+^ ~
+where rm is the standard deviation of the individual effect vi . zi is a pseudo-random
+draw from a Standard Normal distribution. Thus, the labor income stream of the
+newborn individuals is computed as follows:
+^
+~ ^ ^
+~
+ln wit ¼ Xit b0 þ mi À r0 q0
+
+^
+/ðcZit Þ
+^
+1 À UðcZit Þ
+
+^
+~ ^ ^
+~
+ln wit ¼ Xit b1 þ mi þ r1 q1
+
+^
+/ðcZit Þ
+^
+UðcZit Þ
+
+~
+~
+if Lit ¼ 1 and Cit ¼ 0
+~
+~
+if Lit ¼ 1 and Cit ¼ 1:
+
+ð19Þ
+
+ð20Þ
+
+5.3 Computation of SS contributions and beneﬁts
+Based on the simulated work and income histories, we compute social contributions
+and beneﬁts according to the existing laws as described in Sect. 3. We assume that
+individuals leave no survivors and suffer no sickness or disability. We also assume
+that all individuals claim their retirement beneﬁts as soon as they are eligible to do
+so.
+
+19
+The implicit assumption here is that the distribution of the individual effects does not vary with age or
+and distribution indexes
+The expected pre-SS lifetime labor income is the present value of the expected
+simulated labor income:
+
+W ðr Þ ¼
+
+a¼rÀ1
+X
+
+pðaÞW ðaÞð1 þ qÞÀa
+
+ð21Þ
+
+a¼0
+
+where, r is age at retirement; pðaÞ is the probability of worker’s survival at age a;
+W ðaÞ is total labor cost (including employee and employer contributions) at age a; q
+is the discount rate (we use a 3 % rate).
+We compute the lifetime SSW as an indicator of SS transfers. SSW is the present
+value of expected net transfers to SS. It can be obtained as the sum of the discounted
+expected ﬂows of old-age pensions ðPBÞ net of contributions ðSSCÞ.
+SSW ¼ PB À SSC
+PB ¼
+
+a¼max age
+X
+
+ð22Þ
+
+pðaÞBða; r Þð1 þ qÞÀa
+
+ð23Þ
+
+pðaÞC ðaÞð1 þ qÞÀa
+
+ð24Þ
+
+a¼r
+
+SSC ¼
+
+a¼rÀ1
+X
+a¼0
+
+where, max age is the maximum potential age; Bða; r Þ is the amount of retirement
+beneﬁts at age a conditional on retirement at age r; and C ðaÞ is the amount of
+contributions (both by the employee and the employer) to the SS at ages a, excluding health insurance contributions.
+
+Finally, the expected post-SS lifetime labor income is deﬁned as W ðr Þ þ SSW:
+
+6 Results
+As pointed out in Sect. 3, even when is possible a priori to distinguish between the
+distributional effects of different SS arrangements, it becomes mostly an empirical
+matter. In our case, to assess the redistributive impact of social security we use some
+descriptive statistics of pre-SS lifetime labor income, SSW, and SSW to pre-SS
+labor income ratio. We also calculate two additional indexes, the Gini coefﬁcient
+(for pre- and post-SS lifetime labor incomes) and the Reynolds–Smolensky-type
+index of net redistributive effect (Lambert 1993, p 256). This index assesses the
+redistributive impact of a program computing the area between the Lorenz preprogram income and the concentration post-program income. A positive (negative)
+value indicates that the program reduces (increases) inequality.20
+20
+The Gini coefﬁcients and the Reynolds–Somelinsky index were estimated using DASP (Araar and
+individuals, starting at an age of 18-year-old. Each individual potentially work until
+he/she is 69-year-old (inclusive) if he/she does not retire earlier. The maximum age
+an individual lives is 100-year-old. In Eqs. (1, 2) and (13, 14) two dummies are
+included to control for the level of education (see Tables 5, 7 for a deﬁnition of
+these variables). These dummies are assigned following the proportion in the
+samples used for the estimation of Eqs. (1, 2). Even when some education levels are
+completed at an age older than 18, we assume that the proportion of population with
+such level of education has it from the beginning of the simulated period. In the case
+of the selection equation we also include a dummy variable equal to one if the
+individual is male/female and 65/60 years or older.21
+Table 5 reports the results for the working and contribution status equations. In
+results do not reported here we obtained that for women in the private sector the
+IMR was not statistically signiﬁcant, also the selection model generates too low
+simulated contribution densities when comparing with observed ones. Thus, for
+women in the private sector, we estimate Eqs. (1) and (2) without assuming the two
+error terms are correlated between them.
+For the most of the variables we obtain the expected signs. In the case of the age
+effect, the interpretation is more difﬁcult since this variable enter the regression
+through a cubic polynomial, a better picture is given by Fig. 1 that shows the
+observed and in-sample simulated densities. The goodness of ﬁt is quite high when
+measured by the proportion of correct predictions for the in-sample simulations (see
+Table 6). In Fig. 2 we compare observed contribution densities with out-of-sample
+simulations, here again the goodness of ﬁt appear to be quite high.
+With regards to the income equation, the results are reported in Table 7. As
+expected the education dummies are positive and increasing in the level of
+education, they are always statistically signiﬁcant. For the age coefﬁcients these are
+mostly also signiﬁcant.
+Tables 8, 9 and 10 show some statistics about the simulated populations in
+relation to the history of contribution and access to a retirement beneﬁt. We assume
+that each individual retires as soon as he/she meets the required conditions. Thus, it
+comes as no surprise that the average age of retirement is close to the minimum
+required age, especially in the case of men (see Table 8). Table 9 shows that the
+proportion of the simulated populations that access to a retirement beneﬁt,
+excluding those that never contributed, is higher for public workers. Also, a higher
+proportion of men access to a beneﬁt than women, independently of the sector they
+work in, but this difference is very much important in the case of the private sector,
+which does not come as a surprise since for women in the private sector our sample
+shows only a 27.7 % of cases with a declared contribution status (this percentage
+goes up to 47.3 % when the reference group are those that declare a working status),
+while for men the percentage is 58.9 % (71.7 %). Finally, in Table 10 we report the
+average years of contributions of the simulated populations. The average length of
+21
+Even when the household survey has a wide range of additional variables, both at the individual and
+the household levels, we are restricted to using deterministic variables that can be predicted over the life
+
+0.1169*** (0.008)
+
+0.1155*** (0.015)
+
+0.0063*** (0.002)
+
+Age 3c
+
+Education 2d
+
+Education 3e
+
+Unemployment
+
+-0.7907***
+(0.111)
+
+0.0866*** (0.032)
+
+0.2004 (0.403)
+
+40,914
+
+Uncensored
+
+-4.4216***
+(0.204)
+
+-0.1426** (0.072)
+
+-0.0417***
+(0.003)
+
+4.0525*** (0.391)
+
+25,980
+
+-0.9925***
+(0.089)
+
+0.0063*** (0.001)
+
+0.4909*** (0.008)
+
+0.3260*** (0.006)
+
+0.9212*** (0.150)
+
+-1.4818***
+(0.183)
+
+f
+
+e
+
+d
+
+c
+
+b
+
+a
+
+44,276
+
+-0.0657 (0.079)
+
+-0.0484** (0.024)
+
+-0.0047***
+(0.001)
+
+0.2277*** (0.007)
+
+0.0734*** (0.005)
+
+0.4363*** (0.155)
+
+-0.7821***
+(0.179)
+
+0.0427*** (0.007)
+
+Working
+
+20,426
+
+1,242
+
+21,668
+
+1.0414*** (0.262)
+
+-0.4630***
+(0.083)
+
+-0.0001 (0.001)
+
+0.0314*** (0.009)
+
+0.0426*** (0.008)
+
+-0.0520 (0.263)
+
+0.1480 (0.381)
+
+-0.0071 (0.018)
+
+Contribution
+
+Male
+
+Public sector
+
+Dummy equal to one if the individual is 65-year-old or more for men, and 60 or more for women
+
+Complete tertiary-university
+
+Complete high school/incomplete tertiary-university
+
+(Age^3)/100,000
+
+(Age^2)/1,000
+
+Working and contribution equations were estimated independently of each other
+
+* Signiﬁcant at 10 %; **signiﬁcant at 5 %; ***signiﬁcant at 1 %
+
+Source: own calculations
+
+49,780
+
+8,866
+
+Censored
+
+Constant
+
+Observations
+
+0.9004*** (0.301)
+
+IMR
+
+Elderlyf
+
+-0.0706***
+(0.015)
+
+-0.0110 (0.020)
+
+Age
+
+Age 2b
+
+0.0755*** (0.007)
+
+0.3991*** (0.017)
+
+Contribution
+
+-7.5029***
+(0.466)
+
+Contribution
+
+Working
+
+a
+
+Male
+
+Private sector
+
+Table 5 Results of Eqs. (1) and (2)
+
+-8.7631***
+(0.510)
+
+-0.2581** (0.115)
+
+-0.0145** (0.006)
+
+0.0415 (0.045)
+
+-0.2042***
+(0.035)
+
+9.5028*** (0.836)
+
+-15.0138***
+(1.043)
+
+0.7288*** (0.041)
+
+Working
+
+20,164
+
+2,972
+
+23,136
+
+1.6982** (0.689)
+
+-1.0536***
+(0.216)
+
+0.0093** (0.004)
+
+-0.0578 (0.055)
+
+0.0210 (0.034)
+
+0.0323 (0.598)
+
+0.4328 (0.864)
+
+-0.0364 (0.041)
+
+Contribution
+
+Female
+
+-4.5652***
+(0.460)
+
+-0.1213 (0.102)
+
+-0.0141** (0.006)
+
+0.7419*** (0.028)
+
+0.3428*** (0.027)
+
+3.0991*** (0.817)
+
+-5.8119***
+(0.969)
+
+0.3281*** (0.037)
+
+Working
+
+Private-Male
+
+Public-Female
+
+Public-Male
+
+0
+
+.5
+
+1
+
+0
+
+.5
+
+1
+
+Private-Female
+
+18 23 28 33 38 43 48 53 58 63 68
+
+18 23 28 33 38 43 48 53 58 63 68
+
+age
+Observed
+
+(b)
+
+Simulated
+
+Private-Male
+
+Public-Female
+
+Public-Male
+
+18 23 28 33 38 43 48 53 58 63 68
+
+18 23 28 33 38 43 48 53 58 63 68
+
+.2
+
+.4
+
+.6
+
+.8
+
+1
+
+.2
+
+.4
+
+.6
+
+.8
+
+1
+
+Private-Female
+
+age
+Observed
+
+Simulated
+
+Fig. 1 Observed and in-sample simulated contribution densities by age. a Share of overall sample.
+right predictions
+
+Private sector
+
+Public sector
+
+Female
+
+Male
+
+Female
+
+Male
+
+Not working
+
+76.2
+
+66.2
+
+70.9
+
+69.0
+
+Working
+
+83.4
+
+90.6
+
+94.8
+
+96.6
+
+Total
+
+80.4
+
+86.3
+
+91.8
+
+95.0
+
+Does not contribute
+
+93.5
+
+82.6
+
+83.2
+
+75.5
+
+Contributes
+
+86.0
+
+88.3
+
+94.9
+
+95.7
+
+Total
+
+91.4
+
+86.0
+
+92.5
+
+93.5
+73.5
+
+(a) Working status
+
+(b) Contribution status
+
+(c) Contribution status (conditional on working)
+Does not contribute
+The simulated status matches
+the observed status
+Source: own calculations
+
+92.6
+
+82.4
+
+82.3
+
+Contributes
+
+86.0
+
+88.3
+
+94.9
+
+95.7
+
+Total
+
+89.5
+
+86.6
+
+93.8
+
+94.4
+
+contributions is longer in the public than in the private sector (considering all
+individuals, regardless of whether they have access to a retirement beneﬁt). This
+outcome is surely a reﬂection of the higher labor stability of public workers relative
+to private ones. Because of men need to contribute, at least, until they are 65-yearold while for women the minimum age is 60 years, men contribute more than
+women. When we restrict the analysis only to individuals that access to a pension
+beneﬁt, the years of contributions are in all cases above the minimum requirement.
+With regards to the redistributive effects of the social security system, we ﬁrst
+present the results for a benchmark case in which we work with the following
+assumptions, which are standard in the literature:
+•
+•
+
+A discount rate of 3 %.
+Pre- and post-SS lifetime labor incomes are calculated considering only labor
+~
+~
+income subject to contributions (Lit ¼ 1 and Cit ¼ 1).
+
+After discussing the results of the baseline scenario we run different sensitivity
+analyses:
+•
+•
+•
+
+•
+•
+
+Two alternative discount rates are considered: 1 and 2 %.
+Pre- and post-SS lifetime labor incomes are calculated excluding employer and
+employee contributions.
+Pre- and post-SS lifetime labor incomes are calculated not only including labor
+income subject to contributions, but also labor income from informal jobs over
+~
+~
+which no contributions are made (Lit ¼ 1 and Cit ¼ 0).
+A scenario that considers a weak enforcement of the eligibility conditions.
+A counterfactual exercise in which we assume that all labor is formal, so every
+
+Private-Male
+
+Public-Female
+
+Public-Male
+
+0
+
+.5
+
+1
+
+0
+
+.5
+
+1
+
+Private-Female
+
+18 23 28 33 38 43 48 53 58 63 68
+
+18 23 28 33 38 43 48 53 58 63 68
+
+age
+Observed
+
+Simulated
+
+(b)
+Private-Male
+
+Public-Female
+
+Public-Male
+
+.2
+
+.4
+
+.6
+
+.8
+
+1
+
+.2
+
+.4
+
+.6
+
+.8
+
+1
+
+Private-Female
+
+18 23 28 33 38 43 48 53 58 63 68
+
+18 23 28 33 38 43 48 53 58 63 68
+
+age
+Observed
+
+Simulated
+
+Fig. 2 Observed and out-of-sample simulated contribution densities by age. a Share of overall sample.
+b Share of sample with a working status. Note the unemployment rates used for the simulated densities
+are 15.3 for men and 17.4 for women. These ﬁgures are the average rates for the period covered by the
+Constant
+
+4.7306***
+(0.114)
+
+0.6985***
+(0.015)
+
+0.3142***
+(0.007)
+
+5.3670***
+(0.177)
+
+0.6139***
+(0.026)
+
+0.4319***
+(0.019)
+
+1.8444***
+(0.278)
+
+13.7157
+(21.958)
+
+-3.0300
+(6.660)
+
+-2.7132
+(5.109)
+
+-27.9807
+(48.226)
+
+53.3424
+(90.187)
+
+19,483
+
+0.1455
+(2.863)
+
+3.1601**
+(1.403)
+
+0.7707***
+(0.107)
+
+0.4311***
+(0.088)
+
+5.0675**
+(2.424)
+
+-8.5124**
+(3.581)
+
+0.4562***
+(0.173)
+
+Contributes
+
+19,184
+
+5.5498***
+(0.487)
+
+0.9950***
+(0.043)
+
+0.3298***
+(0.031)
+
+2.1535**
+(0.936)
+
+-2.7686**
+(1.106)
+
+0.1169***
+(0.041)
+
+Does not contribute
+
+Female
+
+4.9795***
+(0.226)
+
+0.5269***
+(0.013)
+
+0.3584***
+(0.013)
+
+1.6586***
+(0.318)
+
+-2.9035***
+(0.407)
+
+0.1642***
+(0.017)
+
+Contributes
+
+d
+
+c
+
+b
+
+a
+
+Complete tertiary-university
+
+Complete high school/incomplete tertiary-university
+
+(Age^3)/100,000
+
+(Age^2)/1,000
+
+* Signiﬁcant at 10 %; **signiﬁcant at 5 %; ***signiﬁcant at 1 %
+
+Source: own calculations
+
+For men in the public sector the Stata command movestay did not converge to a solution, so in this case we run two Heckman regressions. In the ﬁrst regression, the
+dependent variable in the selection equation was a dummy variable equal to 1 if individual i had an informal job, while in the second regression the dummy variable was
+equal to 1 if individual i had a formal job
+
+24,214
+
+6.5077***
+(0.179)
+
+0.5319***
+(0.031)
+
+0.2279***
+(0.017)
+
+0.1830
+(0.310)
+
+-2.8788***
+(0.341)
+
+-3.0915
+(5.191)
+
+19,483
+
+0.9304***
+(0.047)
+
+Education 3d
+
+38,228
+
+0.3346***
+(0.017)
+
+Education 2c
+
+1.7768***
+(0.193)
+
+-0.5632
+(0.381)
+
+0.1432***
+(0.013)
+
+Observations
+
+2.2647***
+(0.362)
+
+Age 3b
+
+-3.3804***
+(0.235)
+
+0.0379**
+(0.015)
+
+35.1362
+(48.537)
+
+-4.4763***
+(0.438)
+
+Age 2a
+
+0.1941***
+(0.009)
+
+IMR
+
+0.2601***
+(0.017)
+
+Age
+
+Does not contribute
+
+Does not contribute
+
+Does not contribute
+
+Contributes
+
+Male
+
+Female
+
+Male
+
+Contributes
+
+Public sector
+
+Private sector
+
+Table 7 Results of Eqs. (13) and (14)
+Group
+
+Years
+
+Private-female
+
+63.2
+
+Private-male
+
+65.3
+
+Public-female
+
+61.8
+
+Public-male
+
+65.2
+
+Unemployment rate used in simulations: 8 %
+People retire as soon as they meet the required conditions
+Source: own calculations
+
+Table 9 Proportion of simulated populations that access to a retirement beneﬁt
+Group
+
+a
+
+b
+
+Private-female
+
+22.0
+
+26.2
+
+Private-male
+
+60.4
+
+61.4
+
+Public-female
+
+77.8
+
+77.9
+
+Public-male
+
+92.7
+
+92.7
+
+Unemployment rate used in simulations: 8 %
+Source: own calculations
+a Includes people that did not contribute while working
+b Excludes people that did not contribute while working
+Table 10 Average number of years of contribution of simulated populations
+Group
+
+a
+
+b
+
+c
+
+Private-female
+
+12.9
+
+15.4
+
+31.2
+
+Private-male
+
+29.1
+
+29.6
+
+37.5
+
+Public-female
+
+29.1
+
+29.1
+
+32.8
+
+Public-male
+
+37.6
+
+37.6
+
+38.8
+
+Unemployment rate used in simulations: 8 %
+People retire as soon as they meet the required conditions
+Source: own calculations
+a Includes people that do not access to a retirement beneﬁt, independently of the contribution status while
+working
+b Includes people that do not access to a retirement beneﬁt, only with a contributing status while working
+c Includes only people who access to a retirement beneﬁt
+
+6.1 The baseline scenario
+In Table 11, we present some descriptive statistics for the simulated populations for
+the pre-SS lifetime labor income, SSW, and SSW to pre-SS lifetime labor income
+ratio. Average expected pre-SS lifetime labor income goes between 111.2 thousand
+US dollars)
+Pre-SS labor income
+
+SSW
+
+SSW/pre-SS labor income
+
+Private-male
+Mean
+
+219.1
+
+-36.2
+
+-18.0
+
+3.2
+
+-119.6
+
+-21.5
+
+Median
+
+176.6
+
+-28.2
+
+-16.6
+
+P99
+
+793.0
+
+-0.7
+
+-14.0
+
+1.6
+
+-1.1
+
+-0.2
+
+P1
+
+Skewness
+Private-female
+Mean
+
+111.2
+
+-16.6
+
+-19.0
+
+0.4
+
+-74.9
+
+-21.5
+
+P1
+Median
+P99
+
+61.6
+
+-13.1
+
+-21.5
+
+626.4
+
+-0.1
+
+-9.5
+
+2.5
+
+-1.7
+
+1.2
+
+263.4
+
+-40.8
+
+-15.6
+
+Skewness
+Public-male
+Mean
+
+34.6
+
+-112.6
+
+-21.5
+
+Median
+
+P1
+
+229.0
+
+-35.2
+
+-15.5
+
+P99
+
+834.2
+
+-7.4
+
+-12.6
+
+1.6
+
+-0.9
+
+-1.6
+
+Skewness
+Public-female
+Mean
+
+189.1
+
+-19.5
+
+-12.1
+
+7.2
+
+-69.5
+
+-21.5
+
+Median
+
+153.5
+
+-14.0
+
+-9.9
+
+P99
+
+667.9
+
+-1.6
+
+-7.1
+
+1.6
+
+-1.6
+
+-1.1
+
+P1
+
+Skewness
+Source: own calculations
+
+case of men, the difference between public and private sector is quite less important
+than for the case of women, 20 % in the case of men against a 70 % for women. Men,
+on average, have a higher pre-SS lifetime labor income than women, especially in the
+private sector with an average value 97 % higher than that of women, while in the
+public sector the difference is 39 %. This important difference against women in the
+private sector is a reﬂection of their much lower probability of working.
+The simulated populations show a large degree of income dispersion given by the
+ratio between the average income of the 99 and 1 percentile. These differences are
+much important in the private sector, and for women than for men. As expected, the
+distributions are skewed to the right, with the median pre-SS lifetime labor income
+consistently lower than the mean values.
+It comes as no surprise that the average SSW is never positive since there is an
+important part of contributions, those made by the employer that has no effect on the
+amount of the pension beneﬁt, while the PBU, which is not related to the
+thousand (women in the private sector). SSW is considerably more negative for men
+than for women, with 2.1–1 relation in the public sector and 2.2–1 in the private sector.
+The differences between public and private sectors are less important, either for men
+(10 %) or for women (20 %). Measured by the difference between percentiles 1 and
+99, within each category, SSW shows a higher dispersion among men than among
+women. On average, the SSW to pre-SS lifetime labor income ratio ranges from
+-19 % among women in the private sector to -12.1 % among women in the public
+sector. Ranked by this ratio, there is an important dispersion, as for percentile 1 the
+ratio is about -21.5 %, while for percentile 99 its range is between -14 and -7.1 %.
+The results just summarized show that social security redistributes wealth in the
+case of Argentina. We now move to look in what direction this redistribution goes.
+Figure 3 show the relationship between pre-SS lifetime labor income and SSW. The
+negative slope would suggest that the redistribution is progressive, the greater the
+pre-SS labor income the lower is SSW. However, it is possible to observe a certain
+degree of dispersion, which reﬂects some sort of redistribution but which does not
+reduce inequality. Similar results were found for Brazil (Zylberstajn 2011) and
+Uruguay (Forteza and Mussio 2012).22 Liebman (2001) points out to the same issue
+for the United States. Also, there appears to be different sub-groups within each of
+the four population groups.
+Table 12 reports the Gini coefﬁcients for pre- and post-SS lifetime labor
+incomes. The results show that the system is regressive for men in the private sector
+and women in the public sector (in both cases the Gini increases a 1.5 %,
+approximately 0.6 ppt.); while not surprisingly there is a considerable regressiveness for women in the private sector (the Gini increases a 2.9 %, 1.7 ppt.). For men
+in the public sector the system is slightly progressive (the Gini falls 0.2 %, 0.05
+ppt.).
+The same pattern emerges when looking at the Reynolds–Smolensky-type index
+(see Table 13). The index is negative for the ﬁrst three groups, especially for women
+in the private sector, while it is positive for men in the public sector.
+The failure of the current Argentinean PAYG-DB social security program to
+reduce inter-generational inequality represents a puzzle. The vesting period
+condition might help explain it. A possible explanation for our results is that as
+Forteza et al. (2009) show, large segments of the population have a low
+probability of having contributed 30 or more years when they reach retirement
+ages, and this probability is particularly low among low-income individuals.
+Forteza and Ourens (2012) show that the implicit rate of return on contributions
+paid to these programs is very low when individuals have short contribution
+histories. Hence, low-income individuals might be getting a bad deal from social
+security because they have short histories of contribution. Figure 4 shows the
+kernel densities for the average labor cost per year of contribution distinguishing
+between people that contributed to the system and do not get a retirement beneﬁt
+and those who do. It is very clear from the simulated data that low-wage earners
+22
+For Chile, Fajnzylber (2011) ﬁnds out that the introduction in 2008 of a non-contributory component
+
+Private-Female
+
+Public-Male
+
+Public-Female
+
+SSW (thousands June 2011 USD)
+
+0
+-50
+-100
+-150
+
+0
+-50
+-100
+-150
+1500
+
+1000
+
+500
+
+0
+
+1500
+
+1000
+
+500
+
+0
+
+pre-SS labor income (thousands June 2011 USD)
+Fig. 3 Social security wealth and lifetime labor income. Source: own calculations
+
+have a much lower chance of fulﬁlling with the conditions the system requires to
+obtain a pension at the age of retirement.23
+6.2 Sensitivity analysis24
+6.2.1 Discount rates
+The use of a 3 % discount rate is a standard practice in the literature. In Table 14 we
+report also the redistributive effects of using two alternative discount rates: 1 and
+2 %. A lower discount rate gives more weight to the income received during the
+retirement years in relation to the income received in the earlier years of the
+working life. Given that a high proportion of individuals do not fulﬁll the conditions
+23
+
+~i
+A very parsimonious linear probability model such as Ri ¼ d1 gC þ d2 lnðwi Þ þ ui , where Ri ¼ 1 if the
+
+~i
+person get a retirement beneﬁt, and zero otherwise, gC is the simulated individual ﬁxed effect obtained
+from Eq. (1), and wi is the average wage (including employer and employee contributions) per year of
+
+contribution, explains a large proportion of the probability of getting a pension, with a 1 % increase in the
+average wage increasing the probability of getting a pension between 0.07 and 0.30 % depending on the
+type of worker and the sector, if we exclude women in the private sector the effect ranges between 0.20
+and 0.30 %.
+24
+Unless it is explicitly stated otherwise, each sensitivity analysis maintains the assumptions
+of the baseline scenario, with the exception of the assumption which is the subject of the sensitivity
+Page 27 of 35 2
+
+Estimate
+
+LB (95 %)
+
+UB (95 %)
+
+Private-female
+Pre-SS
+
+0.5830
+
+0.5763
+
+0.5897
+
+Post-SS
+
+0.6001
+
+0.5934
+
+0.6067
+
+Private-male
+Pre-SS
+
+0.4280
+
+0.4226
+
+0.4334
+
+Post-SS
+
+0.4343
+
+0.4286
+
+0.4399
+
+Public-female
+Pre-SS
+
+0.3998
+
+0.3947
+
+0.4048
+
+Post-SS
+
+0.4056
+
+0.4004
+
+0.4109
+
+Public-male
+Pre-SS
+Source: own calculations
+
+0.3405
+
+0.3359
+
+0.3451
+
+Post-SS
+
+0.3400
+
+0.3352
+
+0.3448
+
+Table 13 Reynolds–Smolensky index of effective progression
+Private-female
+
+-1.6805
+
+Private-male
+
+-0.6208
+
+Public-female
+
+-0.5591
+
+Public-male
+
+0.0579
+
+Source: own calculations
+
+for a retirement beneﬁt, which are also those with lower income during their
+working life, it is not a surprise that the system become much more regressive when
+using lower discount rates for the three groups the system is already regressive when
+using a discount rates of 3 % (men and women in the private sector, and women in
+the public sector), while progressiveness increases when the system is already
+progressive under a discount rate of 3 % (men in the public sector).
+6.2.2 Alternative measures of pre- and post-SS lifetime labor incomes
+The percentage of total labor cost represented by contributions made by workers and
+employers is substantial, 27 % of the taxable wage, and 30 % of the net wage
+received by the employees. This is probably an important reason for our result that
+SSW is negative in all cases. The inclusion of contributions by employees and
+employers in the formulas for pre- and post-SS lifetime labor incomes assumes
+implicitly that the burden of contributions falls on workers, this strategy is probably
+the most common in the literature, however the distribution of the burden is clearly
+an empirical issue (Saez et al. 2012).
+
+0
+
+0
+
+.05
+
+.05
+
+.1
+
+.1
+
+.15
+
+.15
+
+Private-Male
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100 120 140 160
+
+0
+
+20
+
+40
+
+80
+
+100 120 140 160
+
+Public-Female
+
+0
+
+0
+
+.05
+
+.05
+
+.1
+
+.1
+
+.15
+
+.15
+
+Public-Male
+
+60
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100 120 140 160
+With R. Benefit
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100 120 140 160
+
+Without R. Benefit
+
+Thousands USD dollars (at June 2011 prices)
+
+Fig. 4 Density distributions of average labor cost per year of contribution (includes employee and
+employer contributions). Source: own calculations
+
+contributions. Working in this way, pension beneﬁts are treated as any other social
+program and we ignore the contributions in the calculation. We consider no
+behavioral responses, in the sense that we assume that wages are not affected
+regardless of how pre- and pos-SS lifetime labor incomes are deﬁned.
+The results of excluding contributions from pre- and post-SS lifetime labor
+incomes are reported in Table 15. As we can see, the results are not homogeneous
+across the four population groups, with SS becoming more regressive for women in
+the private sector, more progressive for men in the public sector, while for men in
+the private sector and women in the public sector there is a reduction in the
+regressivity of SS.
+6.2.3 The role of informal labor income
+An important element of the labor market in Argentina is the high participation of
+informal jobs, over which no contributions are made. The inclusion into pre- and
+post-SS lifetime labor incomes of earnings from jobs for which there were no
+contributions, informal income, means an important reduction in the Gini
+coefﬁcients of pre- and post-SS lifetime labor incomes. This result derives from
+the fact that those for whom informal income is an important part of their pre-SS
+lifetime labor earnings are mostly low-wage earners, so the inclusion of this type of
+income increases the participation of the low end of the income distribution.
+Also, with the inclusion of informal labor the redistributive nature of the system
+Discount rate (%)
+
+Private sector
+
+Public sector
+
+Female
+
+Male
+
+Female
+
+Male
+
+1
+
+0.5703
+
+0.4218
+
+0.3870
+
+0.3388
+
+2
+
+0.5768
+
+0.4248
+
+0.3934
+
+0.3396
+
+3
+
+0.5830
+
+0.4280
+
+0.3998
+
+0.3405
+
+1
+
+0.6013
+
+0.4322
+
+0.3973
+
+0.3359
+
+2
+
+0.5999
+
+0.4328
+
+0.4012
+
+0.3381
+
+3
+
+0.6001
+
+0.4343
+
+0.4056
+
+0.3400
+
+(A) Gini coefﬁcients
+Pre-SS
+
+Post-SS
+
+Discount rate
+1%
+
+2%
+
+3%
+
+(B) Reynolds–Smolensky index of effective progression
+Private-female
+
+-3.0083
+
+-2.2569
+
+-1.6805
+
+Private-male
+
+-1.0168
+
+-0.7912
+
+-0.6208
+
+Public-female
+
+-0.9557
+
+-0.7312
+
+-0.5591
+
+0.2947
+
+0.1600
+
+0.0579
+
+Public-male
+Source: own calculations
+
+Table 15 Redistributive effects under alternative deﬁnitions of pre- and post-SS lifetime labor incomes
+Private sector
+Female
+
+Public sector
+Male
+
+Female
+
+Male
+
+(A) Gini coefﬁcients
+Total labor costs and contributionsa
+Pre-SS
+
+0.5830
+
+0.4280
+
+0.3998
+
+0.3405
+
+Post-SS
+
+0.6001
+
+0.4343
+
+0.4056
+
+0.3400
+
+Pre-SS
+
+0.5830
+
+0.4280
+
+0.3998
+
+0.3405
+
+Post-SS
+
+0.6018
+
+0.4330
+
+0.4054
+
+0.3366
+
+Net salary and no contributions
+
+(B) Reynolds–Smolensky index of effective progression
+Total labor costs and contributionsa
+
+-1.6805
+
+-0.6208
+
+-0.5591
+
+0.0579
+
+Net salary and no contributions
+
+-1.8423
+
+-0.4865
+
+-0.5269
+
+0.3925
+
+Source: own calculations
+a
+
+Baseline scenario
+
+public sector, and it becomes also now progressive for men and women in the
+private sector, while the negative effect observed in the public sector for women is
+now just one-third of the value obtained when only formal jobs were taken into
+account. The same results emerge when using the Reynolds–Smolensky-type index,
+Private sector
+Female
+
+Public sector
+Male
+
+Female
+
+Male
+
+(A) Gini coefﬁcients
+Total labor costs and contributions
+Pre-SS
+
+0.5454
+
+0.3715
+
+0.3604
+
+0.3198
+
+Post-SS
+
+0.5434
+
+0.3658
+
+0.3622
+
+0.3158
+
+Pre-SS
+
+0.5052
+
+0.3416
+
+0.3422
+
+0.3097
+
+Post-SS
+
+0.5279
+
+0.3517
+
+0.3553
+
+0.3083
+
+Net salary and no contributions
+
+(B) Reynolds–Smolensky index of effective progression
+Total labor costs and contributions
+Net salary and no contributions
+
+0.2369
+
+0.5936
+
+-0.1510
+
+0.4125
+
+-2.2467
+
+-0.9935
+
+-1.2844
+
+0.1443
+
+Source: own calculations
+
+main improvement of the inclusion of the informal income takes place in the private
+sector, especially for women, where the incidence of informal labor is much
+important.
+An interesting result from the inclusion of informal income arises when we use
+the alternative deﬁnitions of pre- and post-SS lifetime labor incomes, which exclude
+employee and employer contributions. Now, with the only exception of men in the
+public sector, the SS system is always regressive, and moreover, the regressivity of
+the system is stronger than when informal income is excluded. This result can be
+explained by the fact that when pre- and post-SS lifetime labor incomes exclude
+employee and employer contributions, Social Security works like an untied transfer
+program improving the conditions of those who beneﬁt from it,25 which as we saw
+earlier (see Fig. 4) are the ones with higher wages, since low-wage workers are less
+likely to fulﬁll the conditions to access a retirement beneﬁt.
+6.2.4 A weak enforcement of the law
+A de facto progressive component, maybe one of the most important, is the weak
+enforcement of the law, in particular with regards to if a person fulﬁlls the minimum
+requirements to access a retirement beneﬁt. To account for the de facto application of
+the law we run an alternative scenario under a weak enforcement of the conditions to
+access to a beneﬁt. We assume that everyone that having worked, when reaching
+70-year-old does not have access to a retirement beneﬁt, is granted the PBU. As
+reported in Table 17, not surprisingly, a scenario with a weak enforcement of the law
+reduces importantly the regressiveness of the system. This improvement is of a larger
+magnitude in the private than in the public sector, and for women than for men. These
+results are mainly driven by the lower probability that people in the private sector,
+and particularly women, have of fulﬁlling the conditions to access to a retirement
+25
+Let us remember that we assume no behavioral response, so wages are not affected regardless of how
+Page 31 of 35 2
+
+Pre-SS
+
+Post-SS
+
+(A) Gini coefﬁcients
+Private-female
+
+0.5830
+
+0.5851
+
+Private-male
+
+0.4280
+
+0.4311
+
+Public-female
+
+0.3998
+
+0.4022
+
+Public-male
+
+0.3405
+
+0.3394
+
+(B) Reynolds–Smolensky index of effective progression
+Private-female
+
+-0.3030
+
+Public-female
+Source: own calculations
+
+-0.1927
+
+Private-male
+
+-0.2279
+
+Public-male
+
+0.1158
+
+beneﬁt. It emerges clearly and once again without to be a surprise, the case of women
+in the private sector, which as shown before have a much lower probability of
+obtaining a retirement beneﬁt if the law is strictly enforced.
+6.2.5 A counterfactual with no informal jobs
+Finally, we run a scenario under the assumption that there are no informal jobs, so
+every time an individual is working we assume he/she contributes to SS. In this
+case, we use the results of the labor status equation (Eq. 1) to calculate the working
+histories. Then we estimate a new single-equation random effect model to generate
+the income histories.26 Working this way has the drawback that for those individuals
+in the sample who are in an informal job, we use their observed wage, instead of the
+wage he/she would have received if he/she would have had a formal job. This would
+bias downward the individual effect for these individuals, and so also their
+simulated income history.
+As Table 18A shows, there is an important increase in the share of population
+that would have access to a retirement beneﬁt (see Table 9 for a comparison with
+the baseline scenario). With regards to the distributive impacts of SS, now the
+system is almost neutral, showing a slight progressiveness (see Table 18B) but for
+women in the private sector. However, in this last case the Gini coefﬁcient increases
+only 0.4 %, just a seventh of the increase obtained for the baseline scenario. This
+last result makes very clear the importance of reducing the incidence of informal
+labor.
+Finally, an issue that cannot be ignored, as it is essential for all the results
+presented above, is the effect of using for the estimates of a data set that goes back
+to before the year for which the simulations are run, and perhaps even more
+important when a different legal framework was in place.2728 From a purely
+practical perspective, and as pointed out before, one of the reasons for not working
+26
+
+The results for these estimates are available upon request.
+
+27
+
+I thank to two anonymous referees for bringing this point to my attention.
+
+28
+
+Group
+
+%
+
+(A) Proportion of simulated populations that access to a retirement beneﬁt
+Private-female
+
+67.64
+
+Private-male
+
+95.45
+
+Public-female
+
+91.98
+
+Public-male
+
+99.12
+Pre-SS
+
+Post-SS
+
+Private-female
+
+0.5181
+
+0.5203
+
+Private-male
+
+0.3326
+
+0.3294
+
+Public-female
+
+0.3752
+
+0.3689
+
+Public-male
+
+0.3191
+
+0.3170
+
+(B) Gini coefﬁcients
+
+Unemployment rate used in simulations: 8 %
+Source: own calculations
+
+with a more recent period of time for the estimation of our equations is that starting
+in the second half of 2003 the EPH was subject to an important methodological
+change that impedes us to extend the period of analysis. Also, because of the timing
+when households are surveyed, the new EPH is less suitable for the purposes of the
+present study.29 A second reason, but by no means less important, is the growing
+suspicions about the quality and truthfulness of the ofﬁcial statistics, which
+originally was limited to consumer prices, and which later extended to statistics
+about poverty, employment, and ﬁnally also to GDP ﬁgures.
+The implicit assumption for using our data for the estimation of the working and
+contribution statuses is that changes in the legal framework governing the retirement
+beneﬁts of the social security system had no effect on labor market and contribution
+behavior, or at least they were not as important to change the results substantially.
+To grasp an idea of how strong is this assumption of no behavioral response, in an
+exercise which we do not report here because of matter of space,30 we simulated the
+working and contribution densities for the period 2009–2011,31 when the new
+retirement regime was in place, using the estimates reported in Table 5. For the four
+population groups we were able to replicate the age patterns of working and
+contributions densities observed during 2009–2001. Additionally, for men both in
+29
+In the old EPH, each individual in a household was surveyed during four consecutive times. Under the
+new EPH, each individual is surveyed also four times, but now instead of these being consecutive with an
+equal lapse of between surveys, each person is included into the sample during two consecutive quarters,
+then is dropped the next two quarters, and ﬁnally included again for two additional quarters. The different
+lapses of time between surveys, 3 months between the ﬁrst and the second and between the third and the
+fourth, and 6 months between the second and the third, introduces an additional difﬁculty in the
+estimations.
+30
+
+These are available from the author upon request.
+
+31
+
+for women in the case of the contribution status, especially in the public sector,
+simulated densities are lower than the observed ones. Thus, considering that one of
+the main reasons for our results is that an important proportion of individuals fail to
+comply with the requirement about the minimum number of years of contributions,
+especially in the case of women, the regressiveness of social security as reported
+previously should be interpreted as a worst-case scenario. However, having said the
+latter, taking into account the robustness of the results to the different sensitivity
+analysis, especially the one that allows for a weak enforcement of the law, and even
+more the counterfactual with no informal labor, the main message which is that, in
+its current state, the retirement beneﬁt pillar of social security in Argentina would
+not be working as an effective and efﬁcient tool to pursue a more progressive intragenerational distribution of income, remains the most likely outcome.
+
+7 Concluding remarks
+Argentina social security system, based on a PAYG-DB scheme, appears to be
+regressive, especially for women working in the private sector. This result is robust
+to using alternative discount rates, and to different deﬁnitions of pre-and post-SS
+lifetime labor incomes.
+The main ﬁnding that the system appears to be regressive constitutes, a priori, a
+puzzle, that might ﬁnd explanation in the lower probability that low-income earners
+have of accessing to a retirement beneﬁt as reported in Forteza et al. (2009). This
+effect is much more important in the case of the private sector, especially for
+women.
+As pointed out in Sect. 1, our results are at odds with the idea that PAYG-DB
+systems are mostly progressive, while systems based on individual accounts are
+mostly neutral. One possible explanation for the results we obtain here is that, to the
+system to be ﬁnancially sustainable, there is a need for strict eligibility conditions,
+as well as low rates of replacement. Thus, the fact that low-wage earners, especially
+women in the private sector, have a high probability of working in the informal
+sector plays a crucial role, since they cannot fulﬁll the conditions for accessing to a
+retirement beneﬁt loosing all their contributions.
+To grasp an idea of the role of eligibility conditions, we run some alternative
+simulations. First, we obtain that the system becomes slightly progressive when
+inequality measures are calculated on the basis of income that also include that
+derived from jobs for which people do not make contributions.32 This result is
+explained by the fact that according to our simulations are low-earner individuals,
+who show lower probabilities of being entitled for a retirement beneﬁt, the ones that
+derive most of their labor income from jobs for which they do not make
+contributions. This last result means that low-earner workers have low incentives to
+look for jobs in the formal sector, with the negative externalities that this kind of
+32
+This result is reversed when pre- and post-SS lifetime incomes are deﬁned such that we exclude
+Second, when we assume a weak enforcement of the social security law, the PAYGDB system becomes less regressive. These changes are more likely for women than
+for men and in the private than in the public sector. Both cases could be explained,
+once again, because women and those working in the private sector have lower
+probability of fulﬁlling the conditions to have access to a retirement beneﬁt. Finally,
+assuming the removal of the informal labor market, the system becomes almost
+neutral, even showing a small level of progressivity.
+Lat Am Econ Rev (2015) 24:2
+DOI 10.1007/s40503-015-0016-8
+ORIGINAL RESEARCH
+
+Implicit redistribution within Argentina’s social
+security system: a micro-simulation exercise
+Pedro E. Moncarz
+
+Received: 6 June 2014 / Revised: 21 October 2014 / Accepted: 24 January 2015 /
+Published online: 22 March 2015
+Ó The Author(s) 2015. This article is published with open access at Springerlink.com
+
+Abstract The intra-generational redistribution in the Argentinean pension program is assessed in a lifetime basis. Using household surveys, the lifetime ﬂows of
+labor income, contributions and retirement beneﬁts are simulated. Then, the expected present values of pre- and post-social security labor income are computed.
+The results show that the pay-as-you-go deﬁned-beneﬁt system appears to be regressive, especially for women in the private sector. The results are robust to the use
+of alternative discount rates and different deﬁnitions of pre- and post-social security
+wealth. When income from informal jobs is taken into account, the system becomes
+slightly progressive. A weak enforcement of the law makes the system less regressive. Finally, in a counterfactual scenario in which there is no informal labor,
+the system becomes almost neutral, even showing a small level of progressivity.
+Keywords
+
+Social security Á Redistribution Á Micro-simulations Á Argentina
+
+JEL Classiﬁcation
+
+H50 Á H55
+
+I am indebted to Alvaro Forteza for his helpful comments and guidance throughout the process that led
+´
+´
+to the completion of this research, I also want to thank Marıa Laura Garcıa for providing invaluable
+information, and to the participants at the IARIW-IBGE conference on ‘‘Income, Wealth and Well-being
+in Latin America’’ (San Pablo, 2013), 32nd IARIW General Conference (Boston, 2012), XXVII Jornadas
+´
+de Economıa (Montevideo, 2012), 16th Annual LACEA Meeting (Santiago de Chile, 2011) and
+´
+´
+workshops at the Departamento de Economıa (Universidad de la Republica, 2011) and Instituto de
+´
+´
+Economıa y Finanzas (Universidad Nacional de Cordoba, 2010). I appreciate the ﬁnancial assistance
+provided by the International Association for Research in Income and Wealth (IARIW). As usual I’m
+solely responsible for all remaining errors.
+P. E. Moncarz (&)
+´
+´
+Facultad de Ciencias Economicas, Universidad Nacional de Cordoba, Consejo Nacional de
+´
+´
+´
+´
+Investigaciones Cientıﬁcas y Tecnicas, Av. Valparaıso s/n, Ciudad Universitaria, 5016 Cordoba,
+Argentina
+One of the reasons for the existence of compulsory contributory pension schemes is
+to ensure that income earners save out part of their incomes to cover for their
+expenditure needs when they retire from labor markets. The implicit assumption
+behind the need for a compulsory regime is that otherwise people would not save
+enough if the decision is left only on a voluntary basis. However, social security
+(SS) programs are also used as tools to redistribute income from the better-off to the
+worst-off. In the light of this second objective, it is usually the case that pension
+formulas include, to a less or more extent, some redistributive components (e.g.
+minimum pensions). Moreover, even retirement regimes based on the principle of
+actuarial fairness, like individual accounts deﬁned contribution (IA-DC) programs,
+may also incorporate non-actuarial redistributive ingredients.
+Also, SS programs redistribute income through more subtle mechanisms. High
+mortality rates affect mostly to low-income workers when uniﬁed mortality tables
+are used (Garrett 1995; Duggan et al. 1995; Beach and Davis 1998). Government
+transfers to ﬁnance SS tend to favor the population covered by the programs which,
+as Rofman et al. (2008) point out, in developing countries tend to be the better-off.
+Low densities of contribution mean that some workers are left ineligible for beneﬁts
+which, as shown in Forteza et al. (2009) and Berstein et al. (2006), are mostly lowincome earners.
+The aim of achieving a more progressive redistribution of income through the
+design of pension regimes might collide with the objective of having systems that
+are self-funded. This trade-off has been present along the history of almost all
+pension programs around the world, Latin-America has not been the exception.
+Examples of this have been the regimes changes in Argentina (2004–2008), Chile
+(2008), Brazil (1988, 2003), Uruguay (2008) and Bolivia (2008), among others.
+As explained by Bertranou et al. (2011), the reform in Chile has its origin in the
+evidence that the system of individual accounts as designed in 1981 would meant
+that most pensioners would obtain very low beneﬁts when compared with their
+incomes before retirement, with the most affected groups being low-income earners,
+seasonal workers, self-employed, and mostly women. To avoid this scenario, the
+reform of 2008 introduced a solidarity pension ﬁnanced by the government, it also
+implemented different measures to increase the system coverage, especially among
+the most vulnerable groups mentioned above, and thirdly it looked at to improve the
+rate of return of the individual accounts through more competition among the fund
+administrators and the reduction of administrative fees. In the case of Brazil, the
+reform of 1988 introduced the concept of universal coverage, the no-discrimination
+against the rural population, and the protection of the real value of beneﬁts. With
+these aims, a non-contributory pension was introduced for people with disabilities or
+older than 65-year-old that were in a situation of extreme poverty. While the reform
+of 2003 looked at the harmonization of the many pension regimes in order to
+minimize the inequalities between the general regime and the special ones. In
+Uruguay, in 2008, the government introduced a series of changes to the pension
+system looking at allowing that older people with insufﬁcient contributions could
+while for unemployed workers with 28 years of contribution and 58-year-old it was
+implemented an unemployment subsidy for a maximum period of 2 years. Also, a
+non-contributory old-age pension was implemented for those in a more vulnerable
+social situation.1 Finally, in the case of Bolivia, in 2008 it was implemented a
+universal non-contributory pension for all citizens 60 years or older which is
+ﬁnanced with revenues that are not related to contributions made by workers and/or
+employers.2 However, a challenge that needs to deal with is the huge unbalance
+between the contributory and non-contributory pillars of the system.
+Moving to the case of Argentina, which is the objective of this study, during the
+ﬁrst half of the 2000s there was a series of changes aimed at increasing the
+proportion of the population with a pension beneﬁt through the implementation of
+several moratoriums allowing people which had not fulﬁlled with the required years
+of contribution to have access to a pension beneﬁt. However, in 2008, at the peak of
+the world economic crisis, there took place an structural change, with the
+abolishment of the mixed-system that was in place since 1994, and replaced by a
+publicly administered pay-as-go deﬁned-beneﬁt (PAYG-DB) scheme.3 The ofﬁcial
+reason put by the government behind this change was the intention of protecting the
+value of the funds saved in the individual accounts, which had lost a great deal
+because of the world economic crisis.4 However, another reason, maybe even more
+important than the previous one, was the need by Federal Government, which was
+unable to have access to world capital markets, of getting control over an
+accumulated fund of around 29 billion USD, and not least important an annual ﬂow
+of nearly 4 billion USD in contributions previously diverted into the system of
+individual accounts.
+As can be appreciated from the examples just mentioned, in most cases the
+objectives behind the reforms were to increase the share of the population covered
+by the system and also to increase the replacement ratio of beneﬁts. In what follows,
+we focus on the Argentine case, more particularly in the redistribution stemming
+from the fact that low-income workers tend to have systematically shorter
+contribution histories.5 With this aim, we assess the implicit redistribution of the
+Argentine pension program on a lifetime basis. Using household surveys we
+simulate lifetime declared labor income and ﬂows of contributions and beneﬁts, and
+1
+
+Results from Forteza and Mussio (2012), Fajnzylber (2011) and Zylberstajn (2011) show that from a
+intra-generational perspective, SS in Uruguay, Chile and Brazil induces to a more progressive
+redistribution of lifetime income. Moncarz (2011) reports that for Mexico the pension system is almost
+neutral from a distributional point of view.
+
+2
+
+This pension is ﬁnanced with a 30 % of revenues from a direct tax on hydrocarbons, and also with the
+dividends from privatized public enterprises.
+
+3
+
+The abolishment of the individual account part of the pension system took place in a record time of just
+over a month.
+
+4
+
+A not minor reason behind the losses suffered by the funds accumulated in the individual accounts
+during the year 2008, was the sharp reduction in the value of the public bonds issued by the Federal
+Government which constituted by far the most important component of the investment portfolio. This
+overexposure in government bonds was often the result of a government imposition on fund
+administrators.
+
+5
+
+indexes are used to assess the distribution and redistribution implicit in the system.
+The main ﬁnding is that the current PAYG-DB system in Argentina appears to be
+slightly regressive, especially in the case of women working in the private sector,
+these results are robust to the use of alternative discount rates and deﬁnitions of preand post-social security wealth (SSW). If income from informal jobs is also
+accounted for, the system becomes slightly progressive. A similar result emerges
+under a weak enforcement of the system rules.
+Our main ﬁnding that a solidarity system as the PAYG-DB that is in place in
+Argentina is regressive appears to be at odds with the preconception that from a
+distributional point of view this type of arrangements are more progressive than a
+system with individual accounts, which almost by deﬁnition are actuarially fair. A
+possible explanation for our result that the PAYG-DB system does not improve
+income distribution is that if soft eligibility conditions were required, the system
+would be unbalanced from a ﬁnancial point of view since contributions from current
+workers would not be sufﬁcient to honor beneﬁt payments, so the system requires
+strict eligibility conditions, especially in terms of the number of years of
+contributions, as well as low replacement ratios. This characteristic in an
+environment where informal job is widely present, at least for some population
+groups, means that many are left behind when reaching the age of retirement. This
+question, which is not present in a framework of individual accounts, mostly affects
+low-income earners, who are less likely to show compliance with the requirements
+for access to a retirement.
+The paper is organized as follows. Section 2 presents the conceptual framework.
+A brief description of the old-age pension program is presented in Sect. 3. Section 4
+describes the data, while Sect. 5 presents the methodology. The main results are
+discussed in Sect. 6, while Sect. 7 summarizes the main ﬁndings.
+2 Conceptual framework6
+Micro-simulations of lifetime labor income and SS contributions and beneﬁts are
+used to assess SS redistribution. The focus in this paper is on intra-generational
+redistribution: one cohort, current pension rules. Even when they are not less
+important, we do not analyse inter-generational transfers (e.g. between current
+workers and current beneﬁciaries), nor among those reached by the system, either
+because they have contributed during their working life and/or have access to a
+beneﬁt, and those that are never included by the system.
+The individual is considered as the unit of analysis, but redistribution in the SS
+system may look very different at the family level. Gustman and Steinmeier (2001)
+ﬁnd out that when analysed at the individual level, the US social security looks very
+6
+
+This section summarizes part of the proposal of the project ‘‘Assessing Implicit Redistribution
+within Social Insurance Systems’’ developed with the support of the World Bank, which included ﬁvecase studies: Argentina and Mexico (Moncarz 2011), Brazil (Zylberstajn 2011), Chile (Fajnzylber 2011)
+and Uruguay (Forteza and Mussio 2012). A summary of these ﬁve-country studies can be found
+level. Sadly, the lack of appropriate data impedes us to follow this route. Also, an
+element that may reduce the difference between outcomes when considering the
+family or the individual as the unit of analysis, is that differently from the US
+system, the Argentinean case only allows for a ‘‘survivor beneﬁt’’, while in the case
+of the US there is a ‘‘spouse beneﬁt’’ which is paid even before the main beneﬁciary
+dies. Gustman and Steinmeier (2001) ﬁnd that the ‘‘spouse beneﬁt’’ is quantitatively
+important, and implies more a transfer within the family itself than between
+families.
+Ideally, the assessment of the redistributive impact of social security programs
+should be based on the comparison of income distribution with and without social
+security. This is not the same as comparing pre- and post-social security income (i.e.
+income minus contributions plus beneﬁts), because social security is likely to induce
+changes in work hours, savings, wages and interest rates. One possible drawback of
+these models is the assumption of full rationality, something that has been subject to
+much controversy, especially regarding long-run decisions like those involved in
+social security. After all, the most appealed rationale for pension programs is
+individuals’ myopia (Diamond 2005, chap. 4). In turn, much of ﬁscal incidence
+analysis is done on the non-behavioral type of assumption (Sutherland 2001;
+Immervoll et al. 2006). It is usually performed under the assumption that pre-tax
+income is not affected by the tax system. The approach proposed here is closer to
+the literature pioneered by Gruber and Wise (1999, 2004), who designed and
+computed a series of indicators of SS incentives to retire assuming no explicit
+behavioral responses.
+The optimization models have the obvious advantage of incorporating behavioral
+responses, so not only the direct effects of policies are considered, but also the
+indirect effects that go through behavioral changes. However, in order to keep
+things manageable, these theoretically ambitious models necessarily make highly
+stylized assumptions regarding not only individual preferences and constraints, but
+also social security programs. Given the goals of the proposed research, this is a
+serious drawback. Non-behavioral micro-simulations are based on exogenously
+given work histories and geared to providing insights on the social security transfers
+that emerge from those histories. Thanks to their relative simplicity, non-behavioral
+models allow for a much more detailed speciﬁcation of the policy rules and work
+histories than inter-temporal optimization models. An additional advantage of
+micro-simulations is that the effects are straightforward, so no black-box issues
+arise. At the very least, it can be expected to capture the ﬁrst-order impact effects of
+social security on income distribution. The micro-simulation modeling can thus be
+seen as a ﬁrst step in a more ambitious research program that incorporates
+behavioral responses in a more advanced phase.
+
+3 The Argentinean pension and unemployment programs
+´
+With small variations, Diamond (2006), Valdes-Prieto (2006), Lindbeck and
+actuarial fairness.
+PAYG programs are totally unfunded and so they lie at one extreme of the degree
+of funding dimension. In these programs, beneﬁts are entirely ﬁnanced by the
+current ﬂow of contributions and there are no funds to back pension rights. At the
+other extreme lie programs in which accrued pension rights are fully backed by
+previous contributions. Individual savings accounts are the most common form of
+fully funded pension schemes. In this case, pension rights are linked to accumulated
+ﬁnancial assets in the individual account.
+In the second dimension, pension programs are usually classiﬁed as DB or DC. In
+a DC program, contributions are ﬁxed and beneﬁts are residually determined,
+adjusted to ensure ﬁnancial sustainability. In a DB program, beneﬁts are ﬁxed—or
+more commonly the relation between earnings and pension is settled in a formula––
+and contributions are adjusted endogenously.
+The third dimension refers to the link between individual contributions and
+beneﬁts. The program is actuarially fair if the expected sum of discounted beneﬁts
+and contributions are equal. It is said to be ‘‘non-actuarial’’ if there is no link
+between contributions and beneﬁts.
+Most PAYG pension programs are DB and non-actuarial, and individual savings
+accounts are in principle fully funded, DC and actuarially fair. But other
+combinations are also possible. Non-ﬁnancial-deﬁned-contributions pension programs––also known as notional accounts––are totally unfunded (e.g. PAYG), and
+yet they are DC and also exhibit high degrees of actuarial fairness. Many DB
+programs have reserves that back pension rights, particularly so when programs are
+relatively young.
+PAYG-DB programs usually have some in-built redistributive components, like
+minimum and maximum pensions, so they are often considered to be better
+equipped in principle to perform redistribution than more actuarial DC programs
+(Palmer, 2006). Pure individual savings accounts are actuarially fair and hence, by
+construction, do not perform redistribution. In this light, if pension programs are
+expected to alleviate poverty and reduce inequality in all age (Barr 2001), PAYGDB programs have an advantage over individual savings accounts. However, in the
+real world it is not always clear whether PAYG-DB programs are effective in
+alleviating poverty or reducing income inequality in old age. Also many saving
+accounts programs are complemented with redistributive non-actuarial components,
+like minimum pension guarantees and matching contributions. Therefore, whether a
+program contributes to reducing inequality is an empirical issue.
+In the US there has been an active debate over how progressive social security is
+in practice. Gustman and Steinmeier (2001) on redistribution at the individual vs.
+family level. Garrett (1995), Duggan et al. (1995) and Beach and Davis (1998) on
+mortality rates. In developing countries, at least two additional factors may
+contribute to reduce the ability of social security to ameliorate poverty and reduce
+income inequality in old age. First, social security coverage is mostly limited to the
+better-off (Rofman et al. 2008). Also governments often subsidize social security
+and, given that coverage is very low among low-income individuals, these subsidies
+no pension beneﬁts at all (Forteza and Ourens 2012).
+3.1 A brief history of Argentina’s social security7
+In Argentina, the ﬁrst pension funds appeared in the early of the 20th century (in
+1904, the employees of the public administration, in 1905, the railway workers).
+Between 1916 and 1930 the system extended to other activities, covering most
+public employees; the ﬁnancial, banking and insurance sector; journalists; printing
+industry; merchant seamen and aviation workers. Despite the expansion of pension
+funds, the overall coverage was quite limited, and also there was a high
+heterogeneity among the different sectors, in terms retirement age, amount of
+contributions, and beneﬁts. However, one common feature was that of individual
+capitalization.
+Between 1944 and 1954 the system was extended further covering almost all
+formal workers, although there was still a marked heterogeneity across sectors. This
+last feature changed in 1954, when the system moved from one of individual
+accounts to a one of PAYG type, also a progressive element was introduced with
+low- and medium-wage workers receiving higher replacement ratios at retirement.
+Another feature was that the system, due to its relative youth, enjoyed a ﬁnancial
+surplus, but this would change quickly.
+In 1958, it was introduced the mobility in beneﬁts, with a guarantee of 82 % of
+the taxable wage that the beneﬁciary received before retirement. This element meant
+a certain homogenization of beneﬁts among the different sectors, and the
+abolishment of the progressive component introduced with the 1954 reform. Also,
+and perhaps the most important development, it was that with the maturation of the
+system, and due to the existence of a high proportion of informal workers and high
+levels of evasion in the payment of contributions, the system began to experience
+deﬁcits. These deﬁcits led to a new reform in 1969, which involved the merge of the
+various pension funds, and the introduction of a centralized management, this last
+change in fact meant cross-sector transfers from those programs with surplus to
+those with deﬁcits. The reform also introduced more stringent conditions to access
+to a beneﬁt, with the increase of the minimum age and the number of years of
+contributions. Also, the beneﬁt would be a function of the worker’s earnings history,
+calculated as an average of the best 3 years of salaries during the last 10 years of
+work, which led to the replacement ratio to be between 70 and 82 %. The mobility
+of the beneﬁts was maintained. However, all these changes meant only a temporary
+relief to the ﬁnancial imbalances.
+In 1980 a new reform contributed signiﬁcantly to increase the system’s deﬁcit,
+with the elimination of employer contributions, and its replacement with resources
+from the collection of the value added tax. The growing of informal employment,
+evasion, and the greater maturity of the system led to the primary deﬁcit to reach
+60 % of total expenditures. This meant that in the eighties the system was almost
+
+7
+
+contributions.
+Another reform, that meant a paradigm change, took place in October 1993 with
+the reintroduction of the system of individual accounts that would coexist with the
+public system. Under this mixed-system, the retirement beneﬁt of the PAYG-DB
+pillar was conformed of three parts, a ﬂat payment, a beneﬁt based on contributions
+made before the reform, and another based on contributions made after the reform.
+The latter two components were calculated based on the years of contributions and
+the average wage received in the last years of work before retirement. For those who
+chose to migrate to, or new workers that choose the system of individual accounts,
+the total beneﬁt also consisted of three parts. The same ﬂat payment paid in the
+public pillar, a payment based on the contributions made to the public system, and
+other payment using the funds accumulated in the individual account. The ﬁrst two
+components were the responsibility of the public sector. After a minimum period in
+one system, workers had the option to switch between systems. Even under the
+individual account system there were some redistributive components through the
+payment of a ﬂat beneﬁt, as well as the existence of a minimum pension. Beneﬁts
+paid by both systems that were the responsibility of the public sector, were ﬁnanced
+with contributions from employers and from workers belonging to the public pillar.
+In the late 2008, at the peak of the global ﬁnancial crisis, and under the ofﬁcial
+excuse that the balances in the individual accounts were rapidly losing much of their
+value, a last reform took place, and the individual account system was abolished.
+However, the most general belief was that the measure was heavily inﬂuenced by
+the needs of funding by the Federal Government. At that moment of the
+abolishment, the funds accumulated in the individual account system were about 29
+billions USD, but not less than half of that amount was public bonds issued by the
+Government itself. These funds were used to constitute the Fondo de Garantıa de
+´
+´
+Sustentabilidad8 administered by the Administracion Nacional de Seguridad Social9
+(ANSES). However, maybe the most important issue was that the Government, by
+the intermediation of the ANSES, was able to take control over approximately, 4
+billions USD each year in contributions made by employees that had in the past
+chosen the individual account system.10
+3.2 The current system
+At the present time, there still coexist several retirement systems. On the one hand
+there is the national system which covers private sector workers and federal public
+employees, as well as people that work in the public sector in some provinces. At
+the sub-national level, several provinces have their own systems which cover
+provincial and municipal public employees; more or less half of these systems were
+merged with the national system during the second half of the 1990s. Finally,
+8
+
+Sustainability Guarantee Fund.
+
+9
+
+National Social Security Administration.
+
+10
+
+With the abolishment of the individual account system, the ANSES has become one of the most
+lawyers, etc., have their own systems that are organized at a provincial level. Even
+more, both at the national and sub-national levels there is a wide number of speciﬁc
+regimes covering speciﬁc activities, for instance the judiciary, university
+researchers, etc. Finally, an additional component that has gained importance in
+recent years is the widespread grant of non-contributory pensions.11 However, due
+to data availability, the analysis here will concentrate only on the general regime
+under the administration of the ANSES, which is the one with the largest
+coverage.12
+More speciﬁcally, the current system is regulated by the Law 24241. The
+conditions salaried workers must meet to be entitled to a retirement beneﬁt are the
+following13:
+•
+•
+•
+
+A minimum of 30 years of contributions
+To be 65-year-old for men and 60-year-old for women. Women, if they choose
+to, can continue working until they are 65-year-old.
+People who do not meet the minimum years of contributions, can compensate
+each year of missing contribution with two additional years of work, counted
+after reaching the minimum retirement age.
+
+People who do not meet the previous conditions can access an old-retirement
+pension if:
+•
+•
+•
+
+They are at lest 70-year-old.
+Have a minimum of 10 years of contributions.
+Have 5 years of contributions in the 8-year period previous to retirement.
+
+The health and social security system is funded by contributions made by
+workers and employers. Workers contribute an 11 % of the gross salary, while
+employers contribute a 16 % to the retirement pillar of the social security system. In
+June 2011, the maximum gross salary to calculate both contributions was A$
+16213.72 (US$ 3925.85), while the minimum wage was $A 498.89 (US$ 120.79).
+Workers also contribute a 6 % for health insurance and 1 % in case they choose to
+afﬁliate to a trade union. Employers contribute an 8 % for health insurance.14
+11
+Lustig and Pessino (2012) show that non-contributory pensions as a share of GDP rose by 2.2 % points
+between 2003 and 2009, while Argentina’s total social spending as a share of GDP increased by 7.6 %
+points. The authors show that the increase in the weight of non-contributory pensions entailed a
+redistribution of income to the poor, and from the formal sector pensioners with above minimum pensions
+to the beneﬁciaries of the pension moratorium launched in 2004. At the moment of writing this paper a
+new moratorium was launched, expecting to reach about half million new pensioners.
+12
+This regime represents, approximately, between 75 and 80 % of all beneﬁciaries, including survivor
+beneﬁts.
+13
+
+We exclude from the analysis people working under any other regime than salaried workers, such as
+self-employed.
+14
+Employees’ contributions to health insurance are 3 % for their own coverage and another 3 % to
+ﬁnance health insurance for those already retired. Employers’ contributions are also divided, but in this
+unemployment insurance15 and the labor accident coverage.
+With respect to the beneﬁts, the monthly payment is divided into two parts:
+•
+
+•
+
+•
+
+A ﬂat beneﬁt known as universal basic pension (PBU). In June 2011, the PBU
+was A$ 667.92 (US$ 161.72). If the person retired under the old-age pension
+scheme, the PBU is 70 % of the full amount.
+A compensatory payment (PC) that is equal to 1.5 % for each year of
+contribution, or fraction above 6 months (with a maximum of 35 years) of the
+average real gross salary (including the worker contributions to the social
+security system but excluding the employer contributions) during the last
+10 years before retirement. To calculate the average gross salary, periods in
+which the person was not working are excluded. Despite of the legal norm
+makes reference to the 10 years previous retirement, it is customary to consider
+the last 120 positive remunerations previous retirement. In June 2011, the
+maximum amount a person was entitled to receive under the PC was A$
+10507.90 (US$ 2544.28).
+In June 2011, the System guarantied a minimum pension of A$ 1434.29 (US$
+347.28).
+
+4 Data
+The data source is the Encuesta Permanente de Hogares (EPH) for the period
+1995–2003.16 The EPH is a household survey that in its previous design was carried
+out twice a year, usually in the months of April/May and October. Each household,
+and all its individuals, was surveyed four consecutive times after which they were
+dropped from the survey. In each survey, a quarter of households were replaced.
+The sample we work with includes only individuals that have been observed the
+four times and that at least in one occasion have declared themselves as employed or
+unemployed. Working this way we feel we can approximate better the individual
+effects that are crucial for our simulations.
+The variable that identiﬁes the contributing status to the social security is
+available only for salaried employees. Thus, the sample will not include people that
+have declared a different employment status than salaried employees, when
+15
+Unemployment insurance only covers private sector workers. However, the degree of coverage, both
+in terms of number of beneﬁciaries as well as in monetary terms is very low.
+16
+From the second half of 2003 the EPH was subject to an important methodological change that
+impedes us to extend the period of analysis, also because of the timing when households are surveyed, the
+new EPH is less suitable for the purposes of the present study. Additionally, a second but not less
+important reason for not using the new EPH, especially for the most recent years, is the growing
+suspicions about the quality and truthfulness of the ofﬁcial statistics produced by the Instituto Nacional de
+´
+Estadısiticas y Censos. Stating with consumer price statistics in 2007, ofﬁcial statistics has been since
+subject to increasing scrutiny with growing accusations of tampering with the data. In 2009, in the middle
+of the world economic crisis, suspicions also felt on poverty ﬁgures, and in the most recent years,
+opportunities they were surveyed.
+Because of the potential differences in the system coverage for the different types
+of workers, the public and private sectors will be considered separately, as well as
+men and women. Because of the low number of observations for each individual, we
+cannot model, with a minimum degree of conﬁdence, the transitions between the
+private and public sectors, so we consider only individuals that when employed did
+not change sectors. We only include individuals aged between 18- and 69-year-old
+the four times they were surveyed. In Tables 1, 2, 3 and 4, we present some
+descriptive statistics. The main picture is the high incidence of the not-contributing/working status, especially in the private sector, mostly for women.
+
+5 Methodology
+5.1 Estimation of contribution status
+As it is clear from the sample description, there are an important percentage of cases
+in which the individual is working but not contributing. This behavior is more
+evident for those working in the private sector, especially for women. Because of
+this characteristic that emerges from our sample, and under the assumption that
+Table 1 Sample sizes
+
+Sector
+Public
+
+Private
+
+Female
+
+5,784
+
+11,069
+
+Male
+
+5,417
+
+12,445
+
+Gender
+
+Source: own based on EPH
+
+Table 2 Distribution of
+samples depending on having
+contributed at least in one out of
+the four possible occasions
+
+Public
+
+Private
+
+Female
+
+Male
+
+Female
+
+Male
+
+Contributed at least one time
+No
+Source: own based on EPH
+
+13.8
+
+5.7
+
+61.9
+
+26.8
+
+Yes
+
+86.2
+
+94.3
+
+38.1
+
+73.2
+
+Table 3 Sample working
+status (%)
+
+Public
+Female
+
+Private
+Male
+
+Female
+
+Male
+
+Working status
+Not working
+Source: own based on EPH
+
+12.8
+
+5.7
+
+41.3
+
+17.8
+
+Working
+
+87.2
+
+94.3
+
+58.7
+
+status (%)
+
+Public
+
+Private
+
+Female
+
+Male
+
+Female
+
+Male
+
+Does not contribute
+
+20.5
+
+10.9
+
+72.3
+
+41.1
+
+Contribute
+
+79.5
+
+89.1
+
+27.7
+
+58.9
+
+8.8
+
+5.5
+
+52.7
+
+28.3
+
+91.2
+
+94.5
+
+47.3
+
+71.7
+
+(a) All sample
+Contribution status
+
+(b) Conditional on working
+Contribution status
+Does not contribute
+Source: own based on EPH
+
+Contribute
+
+those individuals that contribute are not a random draw of the working population,
+we use the Heckman selection model to control the bias that would emerge if the
+contribution status were estimated without controlling for the probability that an
+individual could have a job but does not contribute to social security. In particular,
+we estimate the following model:
+Lit ¼ bL Xit þ eL
+it
+
+ð1Þ
+
+Cit ¼ bC Yit þ eC
+it
+
+ð2Þ
+
+where, Lit is a dummy variable equal to 1 if individual i is working and zero
+otherwise; Cit is a dummy variable equal to 1 if, conditional on working (Lit = 1),
+individual i contributes and zero otherwise; Xit is a set of variables that explain the
+probability of individual i working; Yit is a set of variables that explain the probability of individual i contributing; t stands for a semester.
+Under the assumptions of the Heckman selection model, eL and eC are correlated
+it
+it
+with each other, such that the estimation of Eq. (2) without taking consideration of
+(1) would render a biased estimation of vector bC .
+Our aim with Eqs. (1) and (2) is to project the probability of an individual
+working, and conditional on working the probability of contributing to social
+security. Both of these probabilities surely depend on individual’s unobserved
+characteristics. To try controlling this unobserved characteristic in our simulations,
+we assume that the error terms in Eqs. (1) and (2) are composed of two parts:
+e L ¼ gL þ uL
+it
+i
+it
+
+ð3Þ
+
+e C ¼ gC þ uC :
+it
+i
+it
+
+ð4Þ
+
+Equations (1) and (2) are estimated using the Heckman selection estimator, so
+the individual effects gL and gC are recovered as follows:
+i
+i
+
+P Ti 
+^L
+t¼1 Lit À b Xit
+^i
+gL ¼
+ð5Þ
+gC ¼
+
+
+P Ti 
+^C
+^
+t¼1 Cit À b Yit À kIMRit
+Ti
+
+ð6Þ
+
+^
+/ðbL Xit Þ
+where IMR are the inverse Mills ratio which are deﬁned as IMRit ¼ U bL X , where /
+ð ^ it Þ
+^
+and U stand for the normal pdf and cdf, respectively; k is the selectivity effect. Since
+L
+^
+^i
+our aim is also to recover the individual effects, gi and gC , the contribution status
+(Eq. 2) is assumed to be linear in its arguments, while for the working status (Eq. 1),
+which is estimated with a probit speciﬁcation, we work with its lineal projection.
+Equations (1) and (2) allow us to model, in a pretty much ad hoc way, transitions
+between informal and formal jobs. Sadly, the short time frame that each individual
+is observed, does not allows us to use a proper transition model. Finally, another
+element to keep in mind is that, since we are working with a non-behavioral model,
+we do not control for the role that Social Security might have on the choice between
+having a formal or informal job.
+
+5.1.1 In sample simulations
+The probability of individual i working at moment t is calculated as:
+^it ^
+^i
+PL ¼ bL Xit þ gL :
+
+ð7Þ
+
+^it
+^
+Then, the simulated working status is deﬁned as Lit ¼ 1 if PL [ drawL and 0
+it
+L
+otherwise, where drawit is a realization from a uniform (0, 1) distribution for each
+period t.
+^i
+The probability of individual i, with individual effect gC and conditional on being
+working, contributing in time t is calculated as follows:
+^
+^
+^it
+^i
+PC ¼ bC Yit þ kIMRit þ gC :
+
+ð8Þ
+
+^
+Then, conditional on Lit ¼ 1, the contribution status for individual i in time t is
+^it ¼ 1 if PC [ drawC ; and 0 otherwise, where drawC is a realization
+^it
+deﬁned as C
+it
+it
+from a uniform (0, 1) distribution for each period t.
+5.1.2 Out of sample simulations
+Since in this case the individual effects gL and gC are not directly observed, they are
+i
+i
+generated as follows:
+~i
+^ ~i
+gL ¼ rgL zL
+
+ð9Þ
+
+~i
+^ ~i
+gC ¼ rgC zC
+
+ð10Þ
+
+^i
+^i
+^
+^
+where rgL and rgC are the standard deviations of the individual effects gL and gC
+respectively, and zL and zC are both pseudo-random draws from a Standard Normal
+~i
+~i
+~it ^
+~i
+PL ¼ bL Xit þ gL :
+
+ð11Þ
+
+~
+~it
+Then, the simulated working status is deﬁned as Lit ¼ 1 if PL [ drawL and 0
+it
+L
+otherwise, where drawit is a realization from a uniform (0, 1) distribution for each
+period t.
+Then, the probability of contributing is calculated as:
+^
+^
+~it
+~i
+PC ¼ bC Yit þ kIMRit þ gC
+
+ð12Þ
+
+where t now stands for a month.
+~
+Then, conditional on Lit ¼ 1, the contribution status for individual i in month t is
+~it ¼ 1 if PC [ drawC ; and 0 otherwise, where drawC is a realization
+~it
+deﬁned as: C
+it
+it
+from a uniform (0, 1) distribution for each period t.
+5.2 Projection of labor income
+We estimate a maximum likelihood switching model17 which describes the behavior
+of an agent with two regression equations and a criterion function, Iit that determines
+which regime the agent i faces at time t.
+Iit ¼ 0
+
+if
+
+cZit þ uit
+
+Iit ¼ 1
+
+if
+
+cZit þ uit [ 0
+
+0
+
+Regime 0 ðLit ¼ 1; Cit ¼ 0Þ : ln wit ¼ b0 Xit þ e0
+it
+
+if Iit ¼ 0
+
+ð13Þ
+
+Regime 1 ðLit ¼ 1; Cit ¼ 1Þ : ln wit ¼ b1 Xit þ e1
+it
+
+if Iit ¼ 1:
+
+ð14Þ
+
+Given that our main goal is to project income, we are particularly interested in
+exploring the impact on wages of time invariant and deterministic covariates, like
+age and education. In the equations above wit is the log of real wage18 received by
+person i in time t (semester); Xit is a set of regressors of personal characteristics, age
+and education; and the unemployment rate. As long as we expect wit to be
+stationary, we do not introduce any deterministic time trend in the equation. Zit
+includes the same variables as the Xit plus a dummy variable, which works as the
+exclusion restriction, equal to one if individual i is 65 years Á older for men, and
+or
+À
+60 years or older for women. The error terms uit ; e0 ; and e1 are assumed to have
+it
+it
+a trivariate normal distribution.
+As with the working and contributing equations, to improve the goodness of our
+simulations, we assume that wages are also a function of some individual
+unobserved characteristics, which are time invariant and constant across regimes.
+As explained before, each individual in the sample is observed at most four times in
+which he/she can be in regime 0 (working but not contributing) or regime 1
+17
+
+We use Stata command movestay (Lokshin and Sajaia 2004).
+
+18
+
+individual effect mi is recovered as follows:
+P Ti
+P Ti
+^
+^
+t¼1 ðwit À E ðwit jIit ¼ 0; Xit ÞÞ þ
+t¼1 ðwit À Eðwit jIit ¼ 1; Xit ÞÞ
+^
+:
+ð15Þ
+mi ¼
+Ti
+Conditional expectations in (13) and (14) are, respectively:
+^
+^
+^ ^
+Eðwit jIit ¼ 0; Xit Þ ¼ Xit b0 À r0 q0
+
+^
+/ðcZit Þ
+^
+1 À UðcZit Þ
+
+^
+/ðcZit Þ
+^
+^
+^ ^
+Eðwit jIit ¼ 1; Xit Þ ¼ Xit b1 þ r1 q1
+^
+UðcZit Þ
+
+ð16Þ
+
+ð17Þ
+
+^
+^
+where r0 and r1 are the estimated standard deviations of the errors e0 and e1
+it
+it
+^
+^
+respectively; while q0 and q1 are the estimated correlation coefﬁcients between uit
+and e0 and e1 , respectively. /(…) and U(…) are the normal pdf and cdf,
+it
+it
+respectively.
+Predictions according to Eqs. (13) and (14) can only be computed for the
+individuals in the sample, e.g. individuals for which we can compute the individual
+effects. But the model is used to predict the labor income ﬂow of ‘‘newborn’’
+individuals. In this case, we simulate the individual effects19:
+~
+^~
+m i ¼ r m zi
+
+ð18Þ
+
+^
+^ ~
+where rm is the standard deviation of the individual effect vi . zi is a pseudo-random
+draw from a Standard Normal distribution. Thus, the labor income stream of the
+newborn individuals is computed as follows:
+^
+~ ^ ^
+~
+ln wit ¼ Xit b0 þ mi À r0 q0
+
+^
+/ðcZit Þ
+^
+1 À UðcZit Þ
+
+^
+~ ^ ^
+~
+ln wit ¼ Xit b1 þ mi þ r1 q1
+
+^
+/ðcZit Þ
+^
+UðcZit Þ
+
+~
+~
+if Lit ¼ 1 and Cit ¼ 0
+~
+~
+if Lit ¼ 1 and Cit ¼ 1:
+
+ð19Þ
+
+ð20Þ
+
+5.3 Computation of SS contributions and beneﬁts
+Based on the simulated work and income histories, we compute social contributions
+and beneﬁts according to the existing laws as described in Sect. 3. We assume that
+individuals leave no survivors and suffer no sickness or disability. We also assume
+that all individuals claim their retirement beneﬁts as soon as they are eligible to do
+so.
+
+19
+The implicit assumption here is that the distribution of the individual effects does not vary with age or
+and distribution indexes
+The expected pre-SS lifetime labor income is the present value of the expected
+simulated labor income:
+
+W ðr Þ ¼
+
+a¼rÀ1
+X
+
+pðaÞW ðaÞð1 þ qÞÀa
+
+ð21Þ
+
+a¼0
+
+where, r is age at retirement; pðaÞ is the probability of worker’s survival at age a;
+W ðaÞ is total labor cost (including employee and employer contributions) at age a; q
+is the discount rate (we use a 3 % rate).
+We compute the lifetime SSW as an indicator of SS transfers. SSW is the present
+value of expected net transfers to SS. It can be obtained as the sum of the discounted
+expected ﬂows of old-age pensions ðPBÞ net of contributions ðSSCÞ.
+SSW ¼ PB À SSC
+PB ¼
+
+a¼max age
+X
+
+ð22Þ
+
+pðaÞBða; r Þð1 þ qÞÀa
+
+ð23Þ
+
+pðaÞC ðaÞð1 þ qÞÀa
+
+ð24Þ
+
+a¼r
+
+SSC ¼
+
+a¼rÀ1
+X
+a¼0
+
+where, max age is the maximum potential age; Bða; r Þ is the amount of retirement
+beneﬁts at age a conditional on retirement at age r; and C ðaÞ is the amount of
+contributions (both by the employee and the employer) to the SS at ages a, excluding health insurance contributions.
+
+Finally, the expected post-SS lifetime labor income is deﬁned as W ðr Þ þ SSW:
+
+6 Results
+As pointed out in Sect. 3, even when is possible a priori to distinguish between the
+distributional effects of different SS arrangements, it becomes mostly an empirical
+matter. In our case, to assess the redistributive impact of social security we use some
+descriptive statistics of pre-SS lifetime labor income, SSW, and SSW to pre-SS
+labor income ratio. We also calculate two additional indexes, the Gini coefﬁcient
+(for pre- and post-SS lifetime labor incomes) and the Reynolds–Smolensky-type
+index of net redistributive effect (Lambert 1993, p 256). This index assesses the
+redistributive impact of a program computing the area between the Lorenz preprogram income and the concentration post-program income. A positive (negative)
+value indicates that the program reduces (increases) inequality.20
+20
+The Gini coefﬁcients and the Reynolds–Somelinsky index were estimated using DASP (Araar and
+individuals, starting at an age of 18-year-old. Each individual potentially work until
+he/she is 69-year-old (inclusive) if he/she does not retire earlier. The maximum age
+an individual lives is 100-year-old. In Eqs. (1, 2) and (13, 14) two dummies are
+included to control for the level of education (see Tables 5, 7 for a deﬁnition of
+these variables). These dummies are assigned following the proportion in the
+samples used for the estimation of Eqs. (1, 2). Even when some education levels are
+completed at an age older than 18, we assume that the proportion of population with
+such level of education has it from the beginning of the simulated period. In the case
+of the selection equation we also include a dummy variable equal to one if the
+individual is male/female and 65/60 years or older.21
+Table 5 reports the results for the working and contribution status equations. In
+results do not reported here we obtained that for women in the private sector the
+IMR was not statistically signiﬁcant, also the selection model generates too low
+simulated contribution densities when comparing with observed ones. Thus, for
+women in the private sector, we estimate Eqs. (1) and (2) without assuming the two
+error terms are correlated between them.
+For the most of the variables we obtain the expected signs. In the case of the age
+effect, the interpretation is more difﬁcult since this variable enter the regression
+through a cubic polynomial, a better picture is given by Fig. 1 that shows the
+observed and in-sample simulated densities. The goodness of ﬁt is quite high when
+measured by the proportion of correct predictions for the in-sample simulations (see
+Table 6). In Fig. 2 we compare observed contribution densities with out-of-sample
+simulations, here again the goodness of ﬁt appear to be quite high.
+With regards to the income equation, the results are reported in Table 7. As
+expected the education dummies are positive and increasing in the level of
+education, they are always statistically signiﬁcant. For the age coefﬁcients these are
+mostly also signiﬁcant.
+Tables 8, 9 and 10 show some statistics about the simulated populations in
+relation to the history of contribution and access to a retirement beneﬁt. We assume
+that each individual retires as soon as he/she meets the required conditions. Thus, it
+comes as no surprise that the average age of retirement is close to the minimum
+required age, especially in the case of men (see Table 8). Table 9 shows that the
+proportion of the simulated populations that access to a retirement beneﬁt,
+excluding those that never contributed, is higher for public workers. Also, a higher
+proportion of men access to a beneﬁt than women, independently of the sector they
+work in, but this difference is very much important in the case of the private sector,
+which does not come as a surprise since for women in the private sector our sample
+shows only a 27.7 % of cases with a declared contribution status (this percentage
+goes up to 47.3 % when the reference group are those that declare a working status),
+while for men the percentage is 58.9 % (71.7 %). Finally, in Table 10 we report the
+average years of contributions of the simulated populations. The average length of
+21
+Even when the household survey has a wide range of additional variables, both at the individual and
+the household levels, we are restricted to using deterministic variables that can be predicted over the life
+
+0.1169*** (0.008)
+
+0.1155*** (0.015)
+
+0.0063*** (0.002)
+
+Age 3c
+
+Education 2d
+
+Education 3e
+
+Unemployment
+
+-0.7907***
+(0.111)
+
+0.0866*** (0.032)
+
+0.2004 (0.403)
+
+40,914
+
+Uncensored
+
+-4.4216***
+(0.204)
+
+-0.1426** (0.072)
+
+-0.0417***
+(0.003)
+
+4.0525*** (0.391)
+
+25,980
+
+-0.9925***
+(0.089)
+
+0.0063*** (0.001)
+
+0.4909*** (0.008)
+
+0.3260*** (0.006)
+
+0.9212*** (0.150)
+
+-1.4818***
+(0.183)
+
+f
+
+e
+
+d
+
+c
+
+b
+
+a
+
+44,276
+
+-0.0657 (0.079)
+
+-0.0484** (0.024)
+
+-0.0047***
+(0.001)
+
+0.2277*** (0.007)
+
+0.0734*** (0.005)
+
+0.4363*** (0.155)
+
+-0.7821***
+(0.179)
+
+0.0427*** (0.007)
+
+Working
+
+20,426
+
+1,242
+
+21,668
+
+1.0414*** (0.262)
+
+-0.4630***
+(0.083)
+
+-0.0001 (0.001)
+
+0.0314*** (0.009)
+
+0.0426*** (0.008)
+
+-0.0520 (0.263)
+
+0.1480 (0.381)
+
+-0.0071 (0.018)
+
+Contribution
+
+Male
+
+Public sector
+
+Dummy equal to one if the individual is 65-year-old or more for men, and 60 or more for women
+
+Complete tertiary-university
+
+Complete high school/incomplete tertiary-university
+
+(Age^3)/100,000
+
+(Age^2)/1,000
+
+Working and contribution equations were estimated independently of each other
+
+* Signiﬁcant at 10 %; **signiﬁcant at 5 %; ***signiﬁcant at 1 %
+
+Source: own calculations
+
+49,780
+
+8,866
+
+Censored
+
+Constant
+
+Observations
+
+0.9004*** (0.301)
+
+IMR
+
+Elderlyf
+
+-0.0706***
+(0.015)
+
+-0.0110 (0.020)
+
+Age
+
+Age 2b
+
+0.0755*** (0.007)
+
+0.3991*** (0.017)
+
+Contribution
+
+-7.5029***
+(0.466)
+
+Contribution
+
+Working
+
+a
+
+Male
+
+Private sector
+
+Table 5 Results of Eqs. (1) and (2)
+
+-8.7631***
+(0.510)
+
+-0.2581** (0.115)
+
+-0.0145** (0.006)
+
+0.0415 (0.045)
+
+-0.2042***
+(0.035)
+
+9.5028*** (0.836)
+
+-15.0138***
+(1.043)
+
+0.7288*** (0.041)
+
+Working
+
+20,164
+
+2,972
+
+23,136
+
+1.6982** (0.689)
+
+-1.0536***
+(0.216)
+
+0.0093** (0.004)
+
+-0.0578 (0.055)
+
+0.0210 (0.034)
+
+0.0323 (0.598)
+
+0.4328 (0.864)
+
+-0.0364 (0.041)
+
+Contribution
+
+Female
+
+-4.5652***
+(0.460)
+
+-0.1213 (0.102)
+
+-0.0141** (0.006)
+
+0.7419*** (0.028)
+
+0.3428*** (0.027)
+
+3.0991*** (0.817)
+
+-5.8119***
+(0.969)
+
+0.3281*** (0.037)
+
+Working
+
+Private-Male
+
+Public-Female
+
+Public-Male
+
+0
+
+.5
+
+1
+
+0
+
+.5
+
+1
+
+Private-Female
+
+18 23 28 33 38 43 48 53 58 63 68
+
+18 23 28 33 38 43 48 53 58 63 68
+
+age
+Observed
+
+(b)
+
+Simulated
+
+Private-Male
+
+Public-Female
+
+Public-Male
+
+18 23 28 33 38 43 48 53 58 63 68
+
+18 23 28 33 38 43 48 53 58 63 68
+
+.2
+
+.4
+
+.6
+
+.8
+
+1
+
+.2
+
+.4
+
+.6
+
+.8
+
+1
+
+Private-Female
+
+age
+Observed
+
+Simulated
+
+Fig. 1 Observed and in-sample simulated contribution densities by age. a Share of overall sample.
+right predictions
+
+Private sector
+
+Public sector
+
+Female
+
+Male
+
+Female
+
+Male
+
+Not working
+
+76.2
+
+66.2
+
+70.9
+
+69.0
+
+Working
+
+83.4
+
+90.6
+
+94.8
+
+96.6
+
+Total
+
+80.4
+
+86.3
+
+91.8
+
+95.0
+
+Does not contribute
+
+93.5
+
+82.6
+
+83.2
+
+75.5
+
+Contributes
+
+86.0
+
+88.3
+
+94.9
+
+95.7
+
+Total
+
+91.4
+
+86.0
+
+92.5
+
+93.5
+73.5
+
+(a) Working status
+
+(b) Contribution status
+
+(c) Contribution status (conditional on working)
+Does not contribute
+The simulated status matches
+the observed status
+Source: own calculations
+
+92.6
+
+82.4
+
+82.3
+
+Contributes
+
+86.0
+
+88.3
+
+94.9
+
+95.7
+
+Total
+
+89.5
+
+86.6
+
+93.8
+
+94.4
+
+contributions is longer in the public than in the private sector (considering all
+individuals, regardless of whether they have access to a retirement beneﬁt). This
+outcome is surely a reﬂection of the higher labor stability of public workers relative
+to private ones. Because of men need to contribute, at least, until they are 65-yearold while for women the minimum age is 60 years, men contribute more than
+women. When we restrict the analysis only to individuals that access to a pension
+beneﬁt, the years of contributions are in all cases above the minimum requirement.
+With regards to the redistributive effects of the social security system, we ﬁrst
+present the results for a benchmark case in which we work with the following
+assumptions, which are standard in the literature:
+•
+•
+
+A discount rate of 3 %.
+Pre- and post-SS lifetime labor incomes are calculated considering only labor
+~
+~
+income subject to contributions (Lit ¼ 1 and Cit ¼ 1).
+
+After discussing the results of the baseline scenario we run different sensitivity
+analyses:
+•
+•
+•
+
+•
+•
+
+Two alternative discount rates are considered: 1 and 2 %.
+Pre- and post-SS lifetime labor incomes are calculated excluding employer and
+employee contributions.
+Pre- and post-SS lifetime labor incomes are calculated not only including labor
+income subject to contributions, but also labor income from informal jobs over
+~
+~
+which no contributions are made (Lit ¼ 1 and Cit ¼ 0).
+A scenario that considers a weak enforcement of the eligibility conditions.
+A counterfactual exercise in which we assume that all labor is formal, so every
+
+Private-Male
+
+Public-Female
+
+Public-Male
+
+0
+
+.5
+
+1
+
+0
+
+.5
+
+1
+
+Private-Female
+
+18 23 28 33 38 43 48 53 58 63 68
+
+18 23 28 33 38 43 48 53 58 63 68
+
+age
+Observed
+
+Simulated
+
+(b)
+Private-Male
+
+Public-Female
+
+Public-Male
+
+.2
+
+.4
+
+.6
+
+.8
+
+1
+
+.2
+
+.4
+
+.6
+
+.8
+
+1
+
+Private-Female
+
+18 23 28 33 38 43 48 53 58 63 68
+
+18 23 28 33 38 43 48 53 58 63 68
+
+age
+Observed
+
+Simulated
+
+Fig. 2 Observed and out-of-sample simulated contribution densities by age. a Share of overall sample.
+b Share of sample with a working status. Note the unemployment rates used for the simulated densities
+are 15.3 for men and 17.4 for women. These ﬁgures are the average rates for the period covered by the
+Constant
+
+4.7306***
+(0.114)
+
+0.6985***
+(0.015)
+
+0.3142***
+(0.007)
+
+5.3670***
+(0.177)
+
+0.6139***
+(0.026)
+
+0.4319***
+(0.019)
+
+1.8444***
+(0.278)
+
+13.7157
+(21.958)
+
+-3.0300
+(6.660)
+
+-2.7132
+(5.109)
+
+-27.9807
+(48.226)
+
+53.3424
+(90.187)
+
+19,483
+
+0.1455
+(2.863)
+
+3.1601**
+(1.403)
+
+0.7707***
+(0.107)
+
+0.4311***
+(0.088)
+
+5.0675**
+(2.424)
+
+-8.5124**
+(3.581)
+
+0.4562***
+(0.173)
+
+Contributes
+
+19,184
+
+5.5498***
+(0.487)
+
+0.9950***
+(0.043)
+
+0.3298***
+(0.031)
+
+2.1535**
+(0.936)
+
+-2.7686**
+(1.106)
+
+0.1169***
+(0.041)
+
+Does not contribute
+
+Female
+
+4.9795***
+(0.226)
+
+0.5269***
+(0.013)
+
+0.3584***
+(0.013)
+
+1.6586***
+(0.318)
+
+-2.9035***
+(0.407)
+
+0.1642***
+(0.017)
+
+Contributes
+
+d
+
+c
+
+b
+
+a
+
+Complete tertiary-university
+
+Complete high school/incomplete tertiary-university
+
+(Age^3)/100,000
+
+(Age^2)/1,000
+
+* Signiﬁcant at 10 %; **signiﬁcant at 5 %; ***signiﬁcant at 1 %
+
+Source: own calculations
+
+For men in the public sector the Stata command movestay did not converge to a solution, so in this case we run two Heckman regressions. In the ﬁrst regression, the
+dependent variable in the selection equation was a dummy variable equal to 1 if individual i had an informal job, while in the second regression the dummy variable was
+equal to 1 if individual i had a formal job
+
+24,214
+
+6.5077***
+(0.179)
+
+0.5319***
+(0.031)
+
+0.2279***
+(0.017)
+
+0.1830
+(0.310)
+
+-2.8788***
+(0.341)
+
+-3.0915
+(5.191)
+
+19,483
+
+0.9304***
+(0.047)
+
+Education 3d
+
+38,228
+
+0.3346***
+(0.017)
+
+Education 2c
+
+1.7768***
+(0.193)
+
+-0.5632
+(0.381)
+
+0.1432***
+(0.013)
+
+Observations
+
+2.2647***
+(0.362)
+
+Age 3b
+
+-3.3804***
+(0.235)
+
+0.0379**
+(0.015)
+
+35.1362
+(48.537)
+
+-4.4763***
+(0.438)
+
+Age 2a
+
+0.1941***
+(0.009)
+
+IMR
+
+0.2601***
+(0.017)
+
+Age
+
+Does not contribute
+
+Does not contribute
+
+Does not contribute
+
+Contributes
+
+Male
+
+Female
+
+Male
+
+Contributes
+
+Public sector
+
+Private sector
+
+Table 7 Results of Eqs. (13) and (14)
+Group
+
+Years
+
+Private-female
+
+63.2
+
+Private-male
+
+65.3
+
+Public-female
+
+61.8
+
+Public-male
+
+65.2
+
+Unemployment rate used in simulations: 8 %
+People retire as soon as they meet the required conditions
+Source: own calculations
+
+Table 9 Proportion of simulated populations that access to a retirement beneﬁt
+Group
+
+a
+
+b
+
+Private-female
+
+22.0
+
+26.2
+
+Private-male
+
+60.4
+
+61.4
+
+Public-female
+
+77.8
+
+77.9
+
+Public-male
+
+92.7
+
+92.7
+
+Unemployment rate used in simulations: 8 %
+Source: own calculations
+a Includes people that did not contribute while working
+b Excludes people that did not contribute while working
+Table 10 Average number of years of contribution of simulated populations
+Group
+
+a
+
+b
+
+c
+
+Private-female
+
+12.9
+
+15.4
+
+31.2
+
+Private-male
+
+29.1
+
+29.6
+
+37.5
+
+Public-female
+
+29.1
+
+29.1
+
+32.8
+
+Public-male
+
+37.6
+
+37.6
+
+38.8
+
+Unemployment rate used in simulations: 8 %
+People retire as soon as they meet the required conditions
+Source: own calculations
+a Includes people that do not access to a retirement beneﬁt, independently of the contribution status while
+working
+b Includes people that do not access to a retirement beneﬁt, only with a contributing status while working
+c Includes only people who access to a retirement beneﬁt
+
+6.1 The baseline scenario
+In Table 11, we present some descriptive statistics for the simulated populations for
+the pre-SS lifetime labor income, SSW, and SSW to pre-SS lifetime labor income
+ratio. Average expected pre-SS lifetime labor income goes between 111.2 thousand
+US dollars)
+Pre-SS labor income
+
+SSW
+
+SSW/pre-SS labor income
+
+Private-male
+Mean
+
+219.1
+
+-36.2
+
+-18.0
+
+3.2
+
+-119.6
+
+-21.5
+
+Median
+
+176.6
+
+-28.2
+
+-16.6
+
+P99
+
+793.0
+
+-0.7
+
+-14.0
+
+1.6
+
+-1.1
+
+-0.2
+
+P1
+
+Skewness
+Private-female
+Mean
+
+111.2
+
+-16.6
+
+-19.0
+
+0.4
+
+-74.9
+
+-21.5
+
+P1
+Median
+P99
+
+61.6
+
+-13.1
+
+-21.5
+
+626.4
+
+-0.1
+
+-9.5
+
+2.5
+
+-1.7
+
+1.2
+
+263.4
+
+-40.8
+
+-15.6
+
+Skewness
+Public-male
+Mean
+
+34.6
+
+-112.6
+
+-21.5
+
+Median
+
+P1
+
+229.0
+
+-35.2
+
+-15.5
+
+P99
+
+834.2
+
+-7.4
+
+-12.6
+
+1.6
+
+-0.9
+
+-1.6
+
+Skewness
+Public-female
+Mean
+
+189.1
+
+-19.5
+
+-12.1
+
+7.2
+
+-69.5
+
+-21.5
+
+Median
+
+153.5
+
+-14.0
+
+-9.9
+
+P99
+
+667.9
+
+-1.6
+
+-7.1
+
+1.6
+
+-1.6
+
+-1.1
+
+P1
+
+Skewness
+Source: own calculations
+
+case of men, the difference between public and private sector is quite less important
+than for the case of women, 20 % in the case of men against a 70 % for women. Men,
+on average, have a higher pre-SS lifetime labor income than women, especially in the
+private sector with an average value 97 % higher than that of women, while in the
+public sector the difference is 39 %. This important difference against women in the
+private sector is a reﬂection of their much lower probability of working.
+The simulated populations show a large degree of income dispersion given by the
+ratio between the average income of the 99 and 1 percentile. These differences are
+much important in the private sector, and for women than for men. As expected, the
+distributions are skewed to the right, with the median pre-SS lifetime labor income
+consistently lower than the mean values.
+It comes as no surprise that the average SSW is never positive since there is an
+important part of contributions, those made by the employer that has no effect on the
+amount of the pension beneﬁt, while the PBU, which is not related to the
+thousand (women in the private sector). SSW is considerably more negative for men
+than for women, with 2.1–1 relation in the public sector and 2.2–1 in the private sector.
+The differences between public and private sectors are less important, either for men
+(10 %) or for women (20 %). Measured by the difference between percentiles 1 and
+99, within each category, SSW shows a higher dispersion among men than among
+women. On average, the SSW to pre-SS lifetime labor income ratio ranges from
+-19 % among women in the private sector to -12.1 % among women in the public
+sector. Ranked by this ratio, there is an important dispersion, as for percentile 1 the
+ratio is about -21.5 %, while for percentile 99 its range is between -14 and -7.1 %.
+The results just summarized show that social security redistributes wealth in the
+case of Argentina. We now move to look in what direction this redistribution goes.
+Figure 3 show the relationship between pre-SS lifetime labor income and SSW. The
+negative slope would suggest that the redistribution is progressive, the greater the
+pre-SS labor income the lower is SSW. However, it is possible to observe a certain
+degree of dispersion, which reﬂects some sort of redistribution but which does not
+reduce inequality. Similar results were found for Brazil (Zylberstajn 2011) and
+Uruguay (Forteza and Mussio 2012).22 Liebman (2001) points out to the same issue
+for the United States. Also, there appears to be different sub-groups within each of
+the four population groups.
+Table 12 reports the Gini coefﬁcients for pre- and post-SS lifetime labor
+incomes. The results show that the system is regressive for men in the private sector
+and women in the public sector (in both cases the Gini increases a 1.5 %,
+approximately 0.6 ppt.); while not surprisingly there is a considerable regressiveness for women in the private sector (the Gini increases a 2.9 %, 1.7 ppt.). For men
+in the public sector the system is slightly progressive (the Gini falls 0.2 %, 0.05
+ppt.).
+The same pattern emerges when looking at the Reynolds–Smolensky-type index
+(see Table 13). The index is negative for the ﬁrst three groups, especially for women
+in the private sector, while it is positive for men in the public sector.
+The failure of the current Argentinean PAYG-DB social security program to
+reduce inter-generational inequality represents a puzzle. The vesting period
+condition might help explain it. A possible explanation for our results is that as
+Forteza et al. (2009) show, large segments of the population have a low
+probability of having contributed 30 or more years when they reach retirement
+ages, and this probability is particularly low among low-income individuals.
+Forteza and Ourens (2012) show that the implicit rate of return on contributions
+paid to these programs is very low when individuals have short contribution
+histories. Hence, low-income individuals might be getting a bad deal from social
+security because they have short histories of contribution. Figure 4 shows the
+kernel densities for the average labor cost per year of contribution distinguishing
+between people that contributed to the system and do not get a retirement beneﬁt
+and those who do. It is very clear from the simulated data that low-wage earners
+22
+For Chile, Fajnzylber (2011) ﬁnds out that the introduction in 2008 of a non-contributory component
+
+Private-Female
+
+Public-Male
+
+Public-Female
+
+SSW (thousands June 2011 USD)
+
+0
+-50
+-100
+-150
+
+0
+-50
+-100
+-150
+1500
+
+1000
+
+500
+
+0
+
+1500
+
+1000
+
+500
+
+0
+
+pre-SS labor income (thousands June 2011 USD)
+Fig. 3 Social security wealth and lifetime labor income. Source: own calculations
+
+have a much lower chance of fulﬁlling with the conditions the system requires to
+obtain a pension at the age of retirement.23
+6.2 Sensitivity analysis24
+6.2.1 Discount rates
+The use of a 3 % discount rate is a standard practice in the literature. In Table 14 we
+report also the redistributive effects of using two alternative discount rates: 1 and
+2 %. A lower discount rate gives more weight to the income received during the
+retirement years in relation to the income received in the earlier years of the
+working life. Given that a high proportion of individuals do not fulﬁll the conditions
+23
+
+~i
+A very parsimonious linear probability model such as Ri ¼ d1 gC þ d2 lnðwi Þ þ ui , where Ri ¼ 1 if the
+
+~i
+person get a retirement beneﬁt, and zero otherwise, gC is the simulated individual ﬁxed effect obtained
+from Eq. (1), and wi is the average wage (including employer and employee contributions) per year of
+
+contribution, explains a large proportion of the probability of getting a pension, with a 1 % increase in the
+average wage increasing the probability of getting a pension between 0.07 and 0.30 % depending on the
+type of worker and the sector, if we exclude women in the private sector the effect ranges between 0.20
+and 0.30 %.
+24
+Unless it is explicitly stated otherwise, each sensitivity analysis maintains the assumptions
+of the baseline scenario, with the exception of the assumption which is the subject of the sensitivity
+Page 27 of 35 2
+
+Estimate
+
+LB (95 %)
+
+UB (95 %)
+
+Private-female
+Pre-SS
+
+0.5830
+
+0.5763
+
+0.5897
+
+Post-SS
+
+0.6001
+
+0.5934
+
+0.6067
+
+Private-male
+Pre-SS
+
+0.4280
+
+0.4226
+
+0.4334
+
+Post-SS
+
+0.4343
+
+0.4286
+
+0.4399
+
+Public-female
+Pre-SS
+
+0.3998
+
+0.3947
+
+0.4048
+
+Post-SS
+
+0.4056
+
+0.4004
+
+0.4109
+
+Public-male
+Pre-SS
+Source: own calculations
+
+0.3405
+
+0.3359
+
+0.3451
+
+Post-SS
+
+0.3400
+
+0.3352
+
+0.3448
+
+Table 13 Reynolds–Smolensky index of effective progression
+Private-female
+
+-1.6805
+
+Private-male
+
+-0.6208
+
+Public-female
+
+-0.5591
+
+Public-male
+
+0.0579
+
+Source: own calculations
+
+for a retirement beneﬁt, which are also those with lower income during their
+working life, it is not a surprise that the system become much more regressive when
+using lower discount rates for the three groups the system is already regressive when
+using a discount rates of 3 % (men and women in the private sector, and women in
+the public sector), while progressiveness increases when the system is already
+progressive under a discount rate of 3 % (men in the public sector).
+6.2.2 Alternative measures of pre- and post-SS lifetime labor incomes
+The percentage of total labor cost represented by contributions made by workers and
+employers is substantial, 27 % of the taxable wage, and 30 % of the net wage
+received by the employees. This is probably an important reason for our result that
+SSW is negative in all cases. The inclusion of contributions by employees and
+employers in the formulas for pre- and post-SS lifetime labor incomes assumes
+implicitly that the burden of contributions falls on workers, this strategy is probably
+the most common in the literature, however the distribution of the burden is clearly
+an empirical issue (Saez et al. 2012).
+
+0
+
+0
+
+.05
+
+.05
+
+.1
+
+.1
+
+.15
+
+.15
+
+Private-Male
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100 120 140 160
+
+0
+
+20
+
+40
+
+80
+
+100 120 140 160
+
+Public-Female
+
+0
+
+0
+
+.05
+
+.05
+
+.1
+
+.1
+
+.15
+
+.15
+
+Public-Male
+
+60
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100 120 140 160
+With R. Benefit
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100 120 140 160
+
+Without R. Benefit
+
+Thousands USD dollars (at June 2011 prices)
+
+Fig. 4 Density distributions of average labor cost per year of contribution (includes employee and
+employer contributions). Source: own calculations
+
+contributions. Working in this way, pension beneﬁts are treated as any other social
+program and we ignore the contributions in the calculation. We consider no
+behavioral responses, in the sense that we assume that wages are not affected
+regardless of how pre- and pos-SS lifetime labor incomes are deﬁned.
+The results of excluding contributions from pre- and post-SS lifetime labor
+incomes are reported in Table 15. As we can see, the results are not homogeneous
+across the four population groups, with SS becoming more regressive for women in
+the private sector, more progressive for men in the public sector, while for men in
+the private sector and women in the public sector there is a reduction in the
+regressivity of SS.
+6.2.3 The role of informal labor income
+An important element of the labor market in Argentina is the high participation of
+informal jobs, over which no contributions are made. The inclusion into pre- and
+post-SS lifetime labor incomes of earnings from jobs for which there were no
+contributions, informal income, means an important reduction in the Gini
+coefﬁcients of pre- and post-SS lifetime labor incomes. This result derives from
+the fact that those for whom informal income is an important part of their pre-SS
+lifetime labor earnings are mostly low-wage earners, so the inclusion of this type of
+income increases the participation of the low end of the income distribution.
+Also, with the inclusion of informal labor the redistributive nature of the system
+Discount rate (%)
+
+Private sector
+
+Public sector
+
+Female
+
+Male
+
+Female
+
+Male
+
+1
+
+0.5703
+
+0.4218
+
+0.3870
+
+0.3388
+
+2
+
+0.5768
+
+0.4248
+
+0.3934
+
+0.3396
+
+3
+
+0.5830
+
+0.4280
+
+0.3998
+
+0.3405
+
+1
+
+0.6013
+
+0.4322
+
+0.3973
+
+0.3359
+
+2
+
+0.5999
+
+0.4328
+
+0.4012
+
+0.3381
+
+3
+
+0.6001
+
+0.4343
+
+0.4056
+
+0.3400
+
+(A) Gini coefﬁcients
+Pre-SS
+
+Post-SS
+
+Discount rate
+1%
+
+2%
+
+3%
+
+(B) Reynolds–Smolensky index of effective progression
+Private-female
+
+-3.0083
+
+-2.2569
+
+-1.6805
+
+Private-male
+
+-1.0168
+
+-0.7912
+
+-0.6208
+
+Public-female
+
+-0.9557
+
+-0.7312
+
+-0.5591
+
+0.2947
+
+0.1600
+
+0.0579
+
+Public-male
+Source: own calculations
+
+Table 15 Redistributive effects under alternative deﬁnitions of pre- and post-SS lifetime labor incomes
+Private sector
+Female
+
+Public sector
+Male
+
+Female
+
+Male
+
+(A) Gini coefﬁcients
+Total labor costs and contributionsa
+Pre-SS
+
+0.5830
+
+0.4280
+
+0.3998
+
+0.3405
+
+Post-SS
+
+0.6001
+
+0.4343
+
+0.4056
+
+0.3400
+
+Pre-SS
+
+0.5830
+
+0.4280
+
+0.3998
+
+0.3405
+
+Post-SS
+
+0.6018
+
+0.4330
+
+0.4054
+
+0.3366
+
+Net salary and no contributions
+
+(B) Reynolds–Smolensky index of effective progression
+Total labor costs and contributionsa
+
+-1.6805
+
+-0.6208
+
+-0.5591
+
+0.0579
+
+Net salary and no contributions
+
+-1.8423
+
+-0.4865
+
+-0.5269
+
+0.3925
+
+Source: own calculations
+a
+
+Baseline scenario
+
+public sector, and it becomes also now progressive for men and women in the
+private sector, while the negative effect observed in the public sector for women is
+now just one-third of the value obtained when only formal jobs were taken into
+account. The same results emerge when using the Reynolds–Smolensky-type index,
+Private sector
+Female
+
+Public sector
+Male
+
+Female
+
+Male
+
+(A) Gini coefﬁcients
+Total labor costs and contributions
+Pre-SS
+
+0.5454
+
+0.3715
+
+0.3604
+
+0.3198
+
+Post-SS
+
+0.5434
+
+0.3658
+
+0.3622
+
+0.3158
+
+Pre-SS
+
+0.5052
+
+0.3416
+
+0.3422
+
+0.3097
+
+Post-SS
+
+0.5279
+
+0.3517
+
+0.3553
+
+0.3083
+
+Net salary and no contributions
+
+(B) Reynolds–Smolensky index of effective progression
+Total labor costs and contributions
+Net salary and no contributions
+
+0.2369
+
+0.5936
+
+-0.1510
+
+0.4125
+
+-2.2467
+
+-0.9935
+
+-1.2844
+
+0.1443
+
+Source: own calculations
+
+main improvement of the inclusion of the informal income takes place in the private
+sector, especially for women, where the incidence of informal labor is much
+important.
+An interesting result from the inclusion of informal income arises when we use
+the alternative deﬁnitions of pre- and post-SS lifetime labor incomes, which exclude
+employee and employer contributions. Now, with the only exception of men in the
+public sector, the SS system is always regressive, and moreover, the regressivity of
+the system is stronger than when informal income is excluded. This result can be
+explained by the fact that when pre- and post-SS lifetime labor incomes exclude
+employee and employer contributions, Social Security works like an untied transfer
+program improving the conditions of those who beneﬁt from it,25 which as we saw
+earlier (see Fig. 4) are the ones with higher wages, since low-wage workers are less
+likely to fulﬁll the conditions to access a retirement beneﬁt.
+6.2.4 A weak enforcement of the law
+A de facto progressive component, maybe one of the most important, is the weak
+enforcement of the law, in particular with regards to if a person fulﬁlls the minimum
+requirements to access a retirement beneﬁt. To account for the de facto application of
+the law we run an alternative scenario under a weak enforcement of the conditions to
+access to a beneﬁt. We assume that everyone that having worked, when reaching
+70-year-old does not have access to a retirement beneﬁt, is granted the PBU. As
+reported in Table 17, not surprisingly, a scenario with a weak enforcement of the law
+reduces importantly the regressiveness of the system. This improvement is of a larger
+magnitude in the private than in the public sector, and for women than for men. These
+results are mainly driven by the lower probability that people in the private sector,
+and particularly women, have of fulﬁlling the conditions to access to a retirement
+25
+Let us remember that we assume no behavioral response, so wages are not affected regardless of how
+Page 31 of 35 2
+
+Pre-SS
+
+Post-SS
+
+(A) Gini coefﬁcients
+Private-female
+
+0.5830
+
+0.5851
+
+Private-male
+
+0.4280
+
+0.4311
+
+Public-female
+
+0.3998
+
+0.4022
+
+Public-male
+
+0.3405
+
+0.3394
+
+(B) Reynolds–Smolensky index of effective progression
+Private-female
+
+-0.3030
+
+Public-female
+Source: own calculations
+
+-0.1927
+
+Private-male
+
+-0.2279
+
+Public-male
+
+0.1158
+
+beneﬁt. It emerges clearly and once again without to be a surprise, the case of women
+in the private sector, which as shown before have a much lower probability of
+obtaining a retirement beneﬁt if the law is strictly enforced.
+6.2.5 A counterfactual with no informal jobs
+Finally, we run a scenario under the assumption that there are no informal jobs, so
+every time an individual is working we assume he/she contributes to SS. In this
+case, we use the results of the labor status equation (Eq. 1) to calculate the working
+histories. Then we estimate a new single-equation random effect model to generate
+the income histories.26 Working this way has the drawback that for those individuals
+in the sample who are in an informal job, we use their observed wage, instead of the
+wage he/she would have received if he/she would have had a formal job. This would
+bias downward the individual effect for these individuals, and so also their
+simulated income history.
+As Table 18A shows, there is an important increase in the share of population
+that would have access to a retirement beneﬁt (see Table 9 for a comparison with
+the baseline scenario). With regards to the distributive impacts of SS, now the
+system is almost neutral, showing a slight progressiveness (see Table 18B) but for
+women in the private sector. However, in this last case the Gini coefﬁcient increases
+only 0.4 %, just a seventh of the increase obtained for the baseline scenario. This
+last result makes very clear the importance of reducing the incidence of informal
+labor.
+Finally, an issue that cannot be ignored, as it is essential for all the results
+presented above, is the effect of using for the estimates of a data set that goes back
+to before the year for which the simulations are run, and perhaps even more
+important when a different legal framework was in place.2728 From a purely
+practical perspective, and as pointed out before, one of the reasons for not working
+26
+
+The results for these estimates are available upon request.
+
+27
+
+I thank to two anonymous referees for bringing this point to my attention.
+
+28
+
+Group
+
+%
+
+(A) Proportion of simulated populations that access to a retirement beneﬁt
+Private-female
+
+67.64
+
+Private-male
+
+95.45
+
+Public-female
+
+91.98
+
+Public-male
+
+99.12
+Pre-SS
+
+Post-SS
+
+Private-female
+
+0.5181
+
+0.5203
+
+Private-male
+
+0.3326
+
+0.3294
+
+Public-female
+
+0.3752
+
+0.3689
+
+Public-male
+
+0.3191
+
+0.3170
+
+(B) Gini coefﬁcients
+
+Unemployment rate used in simulations: 8 %
+Source: own calculations
+
+with a more recent period of time for the estimation of our equations is that starting
+in the second half of 2003 the EPH was subject to an important methodological
+change that impedes us to extend the period of analysis. Also, because of the timing
+when households are surveyed, the new EPH is less suitable for the purposes of the
+present study.29 A second reason, but by no means less important, is the growing
+suspicions about the quality and truthfulness of the ofﬁcial statistics, which
+originally was limited to consumer prices, and which later extended to statistics
+about poverty, employment, and ﬁnally also to GDP ﬁgures.
+The implicit assumption for using our data for the estimation of the working and
+contribution statuses is that changes in the legal framework governing the retirement
+beneﬁts of the social security system had no effect on labor market and contribution
+behavior, or at least they were not as important to change the results substantially.
+To grasp an idea of how strong is this assumption of no behavioral response, in an
+exercise which we do not report here because of matter of space,30 we simulated the
+working and contribution densities for the period 2009–2011,31 when the new
+retirement regime was in place, using the estimates reported in Table 5. For the four
+population groups we were able to replicate the age patterns of working and
+contributions densities observed during 2009–2001. Additionally, for men both in
+29
+In the old EPH, each individual in a household was surveyed during four consecutive times. Under the
+new EPH, each individual is surveyed also four times, but now instead of these being consecutive with an
+equal lapse of between surveys, each person is included into the sample during two consecutive quarters,
+then is dropped the next two quarters, and ﬁnally included again for two additional quarters. The different
+lapses of time between surveys, 3 months between the ﬁrst and the second and between the third and the
+fourth, and 6 months between the second and the third, introduces an additional difﬁculty in the
+estimations.
+30
+
+These are available from the author upon request.
+
+31
+
+for women in the case of the contribution status, especially in the public sector,
+simulated densities are lower than the observed ones. Thus, considering that one of
+the main reasons for our results is that an important proportion of individuals fail to
+comply with the requirement about the minimum number of years of contributions,
+especially in the case of women, the regressiveness of social security as reported
+previously should be interpreted as a worst-case scenario. However, having said the
+latter, taking into account the robustness of the results to the different sensitivity
+analysis, especially the one that allows for a weak enforcement of the law, and even
+more the counterfactual with no informal labor, the main message which is that, in
+its current state, the retirement beneﬁt pillar of social security in Argentina would
+not be working as an effective and efﬁcient tool to pursue a more progressive intragenerational distribution of income, remains the most likely outcome.
+
+7 Concluding remarks
+Argentina social security system, based on a PAYG-DB scheme, appears to be
+regressive, especially for women working in the private sector. This result is robust
+to using alternative discount rates, and to different deﬁnitions of pre-and post-SS
+lifetime labor incomes.
+The main ﬁnding that the system appears to be regressive constitutes, a priori, a
+puzzle, that might ﬁnd explanation in the lower probability that low-income earners
+have of accessing to a retirement beneﬁt as reported in Forteza et al. (2009). This
+effect is much more important in the case of the private sector, especially for
+women.
+As pointed out in Sect. 1, our results are at odds with the idea that PAYG-DB
+systems are mostly progressive, while systems based on individual accounts are
+mostly neutral. One possible explanation for the results we obtain here is that, to the
+system to be ﬁnancially sustainable, there is a need for strict eligibility conditions,
+as well as low rates of replacement. Thus, the fact that low-wage earners, especially
+women in the private sector, have a high probability of working in the informal
+sector plays a crucial role, since they cannot fulﬁll the conditions for accessing to a
+retirement beneﬁt loosing all their contributions.
+To grasp an idea of the role of eligibility conditions, we run some alternative
+simulations. First, we obtain that the system becomes slightly progressive when
+inequality measures are calculated on the basis of income that also include that
+derived from jobs for which people do not make contributions.32 This result is
+explained by the fact that according to our simulations are low-earner individuals,
+who show lower probabilities of being entitled for a retirement beneﬁt, the ones that
+derive most of their labor income from jobs for which they do not make
+contributions. This last result means that low-earner workers have low incentives to
+look for jobs in the formal sector, with the negative externalities that this kind of
+32
+This result is reversed when pre- and post-SS lifetime incomes are deﬁned such that we exclude
+Second, when we assume a weak enforcement of the social security law, the PAYGDB system becomes less regressive. These changes are more likely for women than
+for men and in the private than in the public sector. Both cases could be explained,
+once again, because women and those working in the private sector have lower
+probability of fulﬁlling the conditions to have access to a retirement beneﬁt. Finally,
+assuming the removal of the informal labor market, the system becomes almost
+neutral, even showing a small level of progressivity.
+Open Access This article is distributed under the terms of the Creative Commons Attribution License
+which permits any use, distribution, and reproduction in any medium, provided the original author(s) and
+the source are credited.
+
+Zylberstajn E (2011) Assessing implicit redistribution in the Brazilian social security system. Working

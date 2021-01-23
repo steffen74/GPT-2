@@ -1,0 +1,972 @@
+
+
+Introduction
+Two classifications of supply chains include forward (traditional) supply chains, and reverse
+supply chains. Reverse logistics (RL) has been studies in some research papers. RL is a
+combination of logistic activities ranging from used products that returned by people to
+products that become usable in the market [20, 23, 26]. Recovery activities are performed
+on returned products. These recovery activities include the acquisition of used products,
+reverse logistics, product disposition, repair or remanufacturing, remarketing, and recycling
+[26, 43, 52]. The goal of RL is to gain economic and environmental values from returned
+products; however, the aim of forward (traditional) logistics is to provide products for
+customers [2]. A combination of forward and reverse logistics forms closed-loop supply chain
+(CLSC) networks [5, 26, 38, 54]. Paper recycling and copier remanufacturing are two
+instances of CLSCs [21]. Figure 1 illustrates a general CLSC network.
+The pallet industry has become an indispensable part of distribution supply chains because
+it can aid in the efficient and reliable transportation of products. It is estimated that 2 billion
+pallets are used in the US market every day [12]. There are various types of pallets like solid
+wood, plastic, paper, metal, and wood-based composite pallets. Wooden pallets and plastic
+pallets are more popular than other kinds. Looking at the pallet market of North America, the
+sales of new and refurbished pallets will expand significantly [53].
+The major advantages of wooden pallets are low material and production costs, which
+obtained an estimated 90 to 95% pallet market share in the US [12]. On the other hand, plastic
+pallets have advantages, such as durability, handling safety, quality, and low cost per use [46].
+Using both wooden and plastic pallets involves economic and environmental factors.
+This research has three main objectives. First, it aims to provide a unique overview of the
+pallet industry including wooden and plastic pallets. In addition, this paper discusses a novel
+perspective on the reverse logistics of pallets. The second objective is identifying and
+
+Fig. 1 A general closed-loop supply chain network (forward supply chain
+
+
+155
+
+analyzing strengths, weaknesses, opportunities, and threats related to establishing a company’s
+plastic pallet reverse logistics system in an innovative way. We have searched peer-reviewed
+international journals (through well-known websites such as Elsevier, Taylor & Francis,
+Springer, and Google Scholar) and some well-known databases to collect data related to
+plastic pallets. The third objective is to develop an optimization model which maximizes
+profit, and find the best facility locations in a pallet reverse logistics network.
+The second section presents a literature review related to wooden and plastic pallets. Third
+section is devoted to the problem statement, and in the fourth section discusses the characteristics of plastic pallets. Next, in the fifth section introduces the forward supply chains of plastic
+pallets. Then, the sixth section investigates the reverse supply chains of plastic pallets. The
+seventh section provides a SWOT (strengths, weaknesses, opportunities, threats) analysis for a
+specific company. A mathematical model and its application are provided in the eighth section.
+Lastly, in the ninth section discusses conclusions.
+
+Literature review
+Some literature review publications have focused on CLSC networks and reverse logistics
+(e.g., [2, 20, 24–26, 38]).
+There are several types of pallets used in markets, such as metal, plastic, solid wood, soft
+wood, corrugate paperboard, and wood composite pallets. Pallets of different materials have
+their own merits and can meet certain customers’ specific needs. The advantages of solid wood
+pallets include better stacking and purchase prices compared to plastic pallets. For instance,
+some plastic pallets may be five times more expensive than comparable wooden pallets.
+However, plastic pallets have become the new product of the pallet industry [13]. The literature
+of pallets including wooden and plastics pallets are reviewed in this section.
+
+Wooden pallets
+There are four general types of wooden pallets, including solid wood (oak species), softwood
+(southern pine species), composite wood-plastic, and paperboard wood. Two sanitation and
+sterilization regulatory standards are used internationally, which are the International Standard
+for Phytosanitary Measures (ISPM), and the International Plant Protection Convention (IPPC).
+Approaches for sanitizing wooden pallets generally include heat treatment, fumigation (by using
+methyl bromide), and the ISPM 15 [10]. There are three general end-of-life options for wooden
+pallets. The first option is mulching, which is a recycling option. Technically, mulching is
+downcycling, which is a demanding application due to the need for transportation and additional
+energy. The second end-of-life option for wooden pallets is landfilling. This option can recover
+energy since the anaerobic decomposition of wood generates methane gas, which can be captured
+by modern landfill systems. The last option, incineration, also can recover energy, but it results in
+the emission of greenhouse gases [10]. However, combusting wooden pallets that have been
+treated with methyl bromide will liberate toxic and irritating chemicals [10].
+Wooden pallets have a long history that has permeated various industries in our daily lives.
+Wooden pallets are known for being environmentally friendly due to their easy biological
+
+
+
+life-span, recycling, and industry capacity. Using the nonparametric Wilcoxon test, Buehlmann
+et al. [12] presented an assessment of recycling and industry capacity because of a proposed
+ban on landfilling wooden pallets in North Carolina. North Carolina’s legislature had proposed
+banning the landfilling of pallets for several years. The researchers made several noteworthy
+discoveries. Firstly, the majority of pallets that have been used in the USA are solid wood
+pallets [12]. Secondly, in the USA, the program for recycling wooden pallets produces an
+estimated 450 million new pallets annually, and the stock is replenished every 4 years [12].
+Thirdly, Buehlmann et al.’s survey identified four major recycling options for wooden pallets:
+20% of pallets received by a recycling operation were reused, 45% were refurbished, 19%
+were recycled, and 16% were carried to ground [12]. Lastly, more than half of respondents in
+the industry (according the researcher’s survey) thought that a ban on landfilling pallets was a
+good idea. Only 18% pointed out that it is a bad idea [12].
+Some researchers have also analyzed carbon footprint comparisons using wooden pallets.
+Alvarez and Rubio [4] used the EUR-flat wooden pallet as a research sample, and they
+concluded that the compound method based on financial accounts (MC3, an acronym derived
+from método compuesto de las cuentas contables) is better than the process-based analysis
+method. The details of their findings can be divided into three aspects: Firstly, greenhouse gas
+emissions shown in MC3 are 22% higher than the emissions shown in the process-based
+analysis. Secondly, the process-based analysis shows greater detail in the first life-cycle phase
+than the MC3 method. Thirdly, the MC3 method drastically reduces calculation time. Alvarez
+and Rubio also mentioned that the MC3 method analysis includes physical, organizational,
+and operational boundaries.
+Some researchers have focused on the problem of loading wooden pallets. For instance,
+Nakandala et al. [41] examined an optimization model for the loading problem by using a
+genetic algorithm and fuzzy logic methods. Terno et al. [50] used the three-dimensional
+solution approach to load a set of distinct products with specific quantities on pallets while
+minimizing the number of pallets needed. Tornese et al. [51] analyzed the carbon footprint in
+the remanufacturing processes of the returned pallets. They analyzed the data obtained from 12
+centers in North America.
+Many researchers have analyzed materials [16, 19, 31, 42, 47] in addition to handling
+processes and disposal methods [9, 10, 22, 49]. A few researchers have considered the
+activities in the manufacturing stage [1, 30, 42]. Table 1 shows a summary of related papers.
+
+Plastic pallets
+In this paper, we focus on the forward and reverse supply chains of plastic pallets. Plastic
+pallets are made of different types of plastics. They are manufactured and applied frequently in
+Europe and US, spurred by the adoption of the ISPM 15. Based on the regular standards in
+wood packaging industry, the material should be fumigated or heat treated according to the
+ISPM 15 guidelines. The European Pallet Association which has been established in 1991,
+manages the standards for European pallets. The pallets utilized to export products from US
+should also meet these standards. Some American and European companies consider plastic as
+a useful alternative to the wooden material that is used in shipping and packaging pallets.
+Nakandala et al. [41]
+Terno et al. [50]
+Alvarez and Rubio [4]
+Scheerer et al. [46]
+Bush et al. [14]
+Elia and Gnoni [18]
+Kim et al. [31]
+Corbière-Nicollier
+et al. [16]
+Emiliani and Stec [19]
+Singh and Walker [47]
+Bilbao et al. [10]
+Gasol et al. [22]
+Sreenual et al. [49]
+Abbott [1]
+Kellenberger et al. [30]
+Ng et al. [42]
+
+Authors
+
+✔
+✔
+✔
+✔
+✔
+✔
+✔
+✔
+
+✔
+✔
+✔
+✔
+✔
+✔
+✔
+✔
+✔
+
+Wooden
+pallets
+
+Type
+
+✔
+
+✔
+✔
+
+Plastic
+pallets
+
+Table 1 Classification of some papers
+
+✔
+
+Assessment
+of recycling
+
+✔
+✔
+
+Loading
+problem
+
+✔
+
+Assessment
+of greenhouse
+gas emission
+
+✔
+✔
+
+Assessment
+of material
+
+✔
+
+Closed-loop
+system for pallet
+management
+
+✔
+✔
+
+✔
+✔
+
+Material
+analysis
+
+✔
+✔
+✔
+
+✔
+✔
+✔
+
+Handling processes and Manufacturing
+disposal practices
+stage
+
+
+
+Fig. 2 Plastic pallets
+
+In addition to the literature on wooden pallets, a few papers have focused on plastic
+pallets. Bush et al. [14] discussed pallet recycling and material substitution. They provided
+information about trends in the use of new wood materials and in the recovery of pallets.
+The authors also discuss plastic recovery in their paper. In an important publication, Clarke
+[15] provided useful information about the pallet industry; pallet terminology; pallet
+materials (wood, plastic, composite wood, paper-based, and metal pallets); and factors
+regarding the balance design of pallets (including strength, stiffness, durability, functionality, and price). Aldaz-Carroll and Raballan [3] examined pallets to illustrate the impact of
+multiple standards on trade costs. These authors also discussed the reasons for having
+different pallet sizes and the related costs, and they considered exporters from less
+developed countries. Bilbao et al. [10] discussed the characteristics of both wooden and
+plastic pallets. Their investigation included an overview of the pallet industry, pallet
+design, pallet materials, embodied energy, sustainable development, and life-cycle assessments. The authors used a mathematical model (mixed-integer linear programming) to
+design a system that determines the combinations of pallets (type, quantity, and pallet
+management system) for product distribution and that balances environmental impacts and
+costs overall. Michel [39] provided the results of a survey on pallet trends, including
+purchasing decisions, wooden pallet trends, and the coexistence of block and stringer
+pallets. Table 2 classifies some papers on plastic pallets. In summary, there are a few
+papers in the literature that have focused on plastic pallet supply chain investigations.
+
+Problem statement
+A company in the province of Nova Scotia, Canada, is a recycler/manufacturer of new and
+used pallets, crates, dunnage, and other wooden packaging materials. The company is certified
+via the CFIA for the production of heat-treated wooden packaging materials in both new and
+Clarke [15]
+Bilbao et al. [10]
+Aldaz-Carroll and
+Raballan [3]
+Michel [39]
+
+Authors
+
+Plastic
+pallets
+
+✔
+✔
+✔
+✔
+
+✔
+
+Wooden
+pallets
+
+✔
+✔
+✔
+✔
+
+✔
+
+Type
+
+Table 2 Some papers about plastic pallets
+
+✔
+
+✔
+✔
+✔
+
+Materials Advantages and
+disadvantages
+
+✔
+✔
+
+Processes and
+energy consumption
+
+✔
+
+✔
+
+✔
+✔
+✔
+✔
+
+Market segmentation Price
+and trends
+
+✔
+
+Captive or closed-loop
+warehouse environments
+
+✔
+
+Recycling
+options
+
+
+
+During its operations with used wooden pallets, the company experienced the issue of
+plastic pallets accumulating with no obvious reuse or recycling options. Numerous
+facilities with which the company is in contact have also accumulated these pallets. The
+company thinks that this is a widespread problem within Nova Scotia. It has attempted to
+move these pallets back into the supply stream but has had little success due to the
+nonstandard size of most of the pallets and the fact that most operations have storage
+and handling equipment geared towards standard-size wooden pallets. It appears that a lot
+of countries importing to this area use plastic pallets, especially large Asian importers. If
+this is a trend that continues, the province will likely see a steady increase in the amount of
+surplus plastic pallets with no apparent reuse opportunities in place. The company is
+interested in establishing a reverse logistics system for plastic pallets. The managers are
+eager to know strengths, weaknesses, opportunities, and threats related to this topic. In
+addition, they are interested in knowing the best facility locations in a pallet CLSC
+network which is shown in Fig. 3. Suppliers provide the materials for the manufacturer.
+The manufacturer can remanufacture and manufacture the pallets. The pallets are
+transported to distributors by the manufacturer. After that, they are sent to customers
+(transportation companies). Some pallets are returned to recycling centers after use. A
+portion of the returned pallets are disposed. Others are transported to the producer to be
+remanufactured.
+Both strategic and planning factors play important roles in this network. Strategic decisions
+comprise determining the selected supplier(s), the selected location(s) for the plant(s), the
+selected distributor(s) to distribute the products, and the selected recycling center(s). Planning
+decisions contain the quantity of the purchased products from each supplier, and the quantity
+of every part in the network.
+
+Characteristics of plastic pallets
+The majority of the manufacturing materials of plastic pallets are different resin formulations.
+Some of these can be recovered, and some cannot. There are three common materials used for
+plastic pallets in the market: high-density polyethylene (HDPE) reinforced plastic, polyethylene terephthalate (PET) reinforced plastic, and resin formulations [10, 14, 39].
+Third-party service is an important area in the pallet industry. Manufacturers realized
+that customers need more service to beyond only serve begin and end with supporting
+and protecting a load of plastic pallets, and that’s why they provide a third-party service
+for pallet disposal [14].
+
+Distributors
+Suppliers
+
+Customers
+
+Manufacturer
+Recycling centers
+
+
+161
+
+As stated before, another important fact is that the price of plastic pallets is higher than
+the price of regular wooden pallets. Plastic pallets may cost five times as much as the cost
+of similar wooden pallets [14]. Depending on the different kinds of materials used in
+plastic pallets (e.g., HDPE), each plastic pallet is usually around three to six times the price
+of wooden pallets [15].
+The most popular manufacturing process for plastic pallets is structural foam molding.
+Other manufacturing processes are also used in different situations based on their advantages
+and disadvantages. These processes contain injection molding, rotational molding, profile
+extrusion, compression molding, and thermoforming [15]. Foam molding and injection
+molding are the best ways to manufacture high volumes of standard plastic pallets, while
+profile extrusion and rotational molding are more suitable for manufacturing one hundred
+pallets in a unique design [15].
+Some publications in the literature have pointed out the advantages and disadvantages of
+plastic pallets as compared with other types of pallets. The commonly accepted advantages of
+plastic pallets are durability, cleanliness, lack of fasteners, lack of bugs, weather resistance, and
+design potential [15]. General disadvantages are higher prices, difficulties with making
+prototypes, low friction, low stiffness, and lack of repair options [15]. Plastic pallets are
+generally in captive or closed-loop warehouse environments, and usually 50% or more of
+plastic pallets are reusable in some Asian countries [15].
+Energy is an important factor in producing pallets. The manufacturing of HDPE plastic
+pallets requires an energy-intensive polymer injection molding procedure or another
+thermoforming operation. In contrast, transforming oak boards into pallets merely needs
+simple cutting and assembly with no energy investment [10]. Choosing between plastic or
+wooden pallets is a decision among using more energy-intensive plastic pallets for long time,
+and using less energy-intensive wooden pallets in a short time.
+Unlike wooden pallets, plastic pallets do not need to meet the requirements of the IPPC or
+the ISPM 15 internationally [10]. There are generally three options for retired plastic pallets,
+including recycling (which is achieved through a downcycling process), incineration (which
+produces some energy), and landfilling (which does not produce energy or utilize recycling
+because the pallets do not decompose) [10].
+
+The forward supply chains of plastic pallets
+A forward supply chain involves sending products from suppliers to manufacturers and
+then distributers, retailers, and finally customers. Relative associations, plastic pallet
+industry in Canada, and the manufacturing processes of plastic pallets are described in
+this section.
+
+Relative associations
+There are some associations that play indispensable roles in the supply chains of pallets. The
+Canadian Plastics Industry Association (CPIA) is a nonprofit organization that aims at
+providing leadership on policies and pivotal issues regarding the life cycle of plastics. The
+
+
+
+As the USA has a geographical advantage in the pallet industry, millions of Canadians
+utilize pallets that were produced in the USA. The Reusable Plastic Container and Pallet
+Association (RPCPA) has grown significantly. The RPCPA has covered all supply chain
+partners such as distributors, retailers, and end-users, with a commitment to the value and
+message of reuse since 1999 [29].
+There are some wooden pallet relative associations that play important roles in the supply
+chains of pallets. For instance, the Canadian Pallet Council (CPC) provides an exchange
+system for wooden pallets. In this system, members of the CPC have the responsibility to
+repair damaged pallets at particular locations. In general, there are two kinds of wooden pallet
+management: One is a pallet exchange program, which means maintaining a running tally of
+pallets; the other one is renting pallets. Some retailers have joined CPC’s pallet exchange
+program, such as Sobeys, Shoppers Drug Mart, and Metro Inc. (Ontario and Quebec).
+Divert NS (formerly known as RRFB Nova Scotia) is a nonprofit corporation in Nova
+Scotia that is working to improve the province’s environment, economy, and quality of life
+through recovery activities, such as reusing and recycling. Thanks to the efforts of Divert NS,
+Nova Scotia has been the province with the highest beverage container recycling rate in
+Canada. In addition to managing beverage recycling containers, Divert NS provides funding to
+support local environmental protection activities.
+
+The plastic pallet industry in Canada
+Plastic pallets are used frequently across the whole food industry. It is not difficult to imagine
+how many plastic pallets travel highways every day to transport meats, fruits, and other foods.
+Plastic pallets have such advantages as durability, cleanliness, and light weight. Therefore,
+pallets have lots of market shares, particularly in big Canadian grocery and franchising
+companies, such as Sobeys, No-Frills, NSLC, Superstore, Burger King, Subway, McDonalds,
+etc. Generally, most plastic pallets are used in closed-loop supply chain networks, which
+means empty plastic pallets go back and forth between points in the supply chain [11, 15, 36].
+Manufacturers of plastic pallets have spread out through domestic and international markets,
+including the USA, Europe, Asia, etc. The majority of domestic plastic pallet manufacturers
+are located outside of Nova Scotia.
+
+The manufacturing processes of plastic pallets
+As stated previously, there are six general processes for making plastic pallets, each with their
+own advantages and disadvantages regarding costs, time cycles, technical requirements, etc.
+These processes include structural foam molding, thermoforming, rotational molding, highpressure injection molding, compression molding, and profile extrusion.
+In high-pressure injection molding, two major parts of an injection are molded: a mold and
+a heated barrel with a rotating screw. The virgin plastic (usually copolymer polypropylene or
+high-density polyethylene resin) and colorants are melted together in the barrel. After that, the
+melted plastic is injected into the mold, which is used to champ it together, and high force
+pressure is applied [33].
+Structural foam molding is a kind of low-pressure injection molding with a mold that can be
+
+163
+
+In compression molding, different types of recycled materials can be used, including
+various plastics, rubbers, synthetic resins, and other recycled waste products. There are two
+steps for this process. The first step is loading two-piece molds with materials manually,
+robotically, or through extruders. Once loaded, a press forces the mold closed, and pressure
+forces the materials to fill the mold cavity [33].
+Rotational molding usually begins with loading granular or powdered plastic materials into
+a shell-like mold. Two perpendicular planes heat and rotate the mold to distribute and fuse the
+materials to the mold. The materials for this process usually are linear low-density polyethylene and cross-linked polyethylene [17].
+Profile extrusion is a process that is like the construction of wooden pallets. Industrial
+regrind, post-consumer recycled materials, and even wood fiber can be the raw materials in
+this process [48]. Raw materials are melted and forced through an extruder. After cooling
+down, the extruded materials are cut to size like lumber and fastened with nails, screws, glue,
+or heat welds [57].
+
+The reverse supply chains of plastic pallets
+In a reverse supply chain, customers return products to remanufacturers. This section discusses
+some points related to the reverse supply chains of plastic pallets.
+Based on our research, it is hard to estimate the total number of plastic pallets that are
+circulated/received in Nova Scotia. In our opinion, the best way to find an answer is preparing
+a survey and distributing it in certain areas. For example, we could mail the survey to the store
+managers of grocery stores located in Halifax (the capital of Nova Scotia). The following
+questions could be asked in the survey: How many plastic pallets are distributed and stored per
+day? Do the plastic pallets need to be transported directly back to the suppliers? Is the
+distribution of plastic pallets managed by a third-party logistics company? In addition, the
+survey could provide useful information about plastic pallet SWOT factors, which include
+strengths, weaknesses, opportunities, and threats.
+As mentioned in the previous sections, there are very few plastic pallet manufacturers located in Nova Scotia. Furthermore, the supply chains of plastic pallets cross
+national and international boundaries because of the role plastic pallets play in the
+distribution of products.
+Generally, every plastic pallet is part of at least one reverse supply chain system because the
+main material in plastic pallets is polyethylene, which is almost 100% recycled content
+material. Plastic pallets play a critical role for all firms, especially for logistics service
+providers (LSPs) [37]. Closed-loop and open-loop pallet management systems are widespread.
+The variation in reverse logistics processes is the major reason that closed-loop networks are
+complex in the plastic pallet industry.
+Reverse logistics of pallets exists in some organizations. Elia and Gnoni [18] utilized
+an observation approach to analyze the reverse supply chains of pallets. The authors
+studied thirty Italian LSPs. The reverse supply chain models in these thirty companies
+stipulated that the LSPs could choose to return empty pallets if they wish, but the reverse
+flows of empty pallets have to be managed from downstream companies to upstream
+
+
+
+flows to an empty pallet storage system can take three forms: new pallets shipped from
+pallet suppliers, old pallets gained from the unloading activities of palletized deliveries
+from upstream customers, and old pallets returned to an LSP’s storage center from its
+downstream customers (e.g., final retailers). Some of the outbound pallet flows from the
+LSP’s storage are defective old pallets that usually are sent for disposal or sent to
+companies for recycling.
+Without LSPs’ involvement, the most common reverse supply chain of plastic pallets
+usually performs as part of the closed-loop systems of assembly plants returning containers
+and pallets to vendors. Witt in the 1990s published many articles indicating that plastic pallets
+involved 10% of the total pallet use market in America [56]. During that period, that market
+was based on a closed-loop system in which clean pallets were required. There were some
+managers among plastic pallet producers that pointed out that the closed-loop system was the
+key to both environmental and economic developments [55].
+After decades of development in the plastic pallet industry, and instead of only
+providing warranties for products, lots of plastic pallet manufacturers now provide
+various customer care services, such as account management, product tracking, product
+washing, product repair, and recycling programs. In other words, nowadays the manufacturers of plastic pallets customize not only their products but also reverse supply
+chains in order to maximize profits.
+Buckhorn Canada Inc. is a plastic pallet manufacturer that is one of North America’s leaders
+related to reusable plastic packaging systems. Buckhorn provides a closed-loop system for its
+plastic products, which the company calls product management options. These options include
+tracking, washing, repair, and recycling programs.
+Defective plastic pallets can be reground into small portions and reused in other products or
+pallets based on desired applications. Some manufacturers use a lot of recycled plastics in their
+products, which always depends on the requirements of the products. However, some manufacturers do not regrind their own products [55].
+
+SWOT analysis
+SWOT analysis is applied in this research. The aim of the SWOT analysis in this paper is to
+help the company under study to develop strategic planning for transferring its manufacture of
+wooden pallets to the manufacture of plastic pallets.
+SWOT analysis is a well-known technique and strategic management tool. Several
+researchers have utilized SWOT analyses [6, 7, 40, 44]. Typically, SWOT analysis can
+be inserted into a SWOT matrix, which some experts consider a consequence of an
+organization’s internal and external diagnoses [27]. The analyzer first considers internal
+strengths and weaknesses (at the 2*2 grid). Then, the bottom of the SWOT grid
+including opportunities and threats are considered [45]. SWOT analysis has been
+extensively applied in different disciplines to investigate problems from a strategic
+planning perspective [35]. Helms and Nixon [28] stated that, over the past decade,
+the SWOT analysis approach has concentrated on analyzing companies to recommend
+strategic activities. Generally, the SWOT analysis approach can help portray what
+
+165
+
+Table 3 The SWOT factors
+Strengths (internal)
+Weaknesses (internal)
+W1. Shortage of staff
+S1. Extensive manufacturing knowledge and
+W2. Lack of investment
+experience in pallet industry
+W3. Limitations in the company’s current
+S2. Access to lots of land and space
+transportation and delivery system
+S3. The location of the company
+S4. Access (connection) to potential customers
+Opportunities (external)
+Threats (external)
+T1. The monopoly market due to large companies
+O1. Lack of local competitors
+T2. Fluctuation in the Canadian dollar exchange rate
+O2 Knowledge of the local market and businesses
+T3. Competition between internal wooden
+O3. Provincial and national funding support
+and plastic pallets
+O4. The benefits of the plastic pallet industry
+O5. The reception of many retired plastic pallets
+
+Strengths (internal)
+S1. Extensive manufacturing knowledge and experience in the pallet industry: The
+majority of the company’s internal strengths derive from experiences related to wooden
+pallet manufacturing. The company has a long history of manufacturing wooden pallets.
+Both wooden pallets and plastic pallets are subcategories of the pallet industry. As a
+result, there are some similarities in their manufacturing processes.
+S2. Access to lots of land and space: Since it is located on a big piece of land, the
+company has lots of space for setting up new facilities, warehouses, and machines to
+manufacture plastic pallets.
+S3. The location of the company: The company has a good location. It is only a few
+minutes away from a main highway in Nova Scotia. In addition, it is located in the middle
+of the province and close to the capital of the province (Halifax).
+S4. Access (connection) to potential customers: The company has already gained some
+market share in the provinces of Nova Scotia and New Brunswick. The market share can
+be converted into potential customers for plastic pallets.
+
+Weaknesses (internal)
+W1. Shortage of staff: The company has a small staff. In addition, there is a lack of
+internal experts on the field of manufacturing plastic pallets. The company should
+hire more staff, especially experts, in the future in order to be successful in the plastic
+pallet industry.
+W2. Lack of investment: The company’s current machinery and equipment are devoted to
+the manufacture of wooden pallets. The company should invest more in order to be
+successful in the plastic pallets industry. Investment may be a challenge for the company
+because of its size.
+W3. Limitations in the company’s current transportation and delivery system:
+Currently, the maximum traveling distance and distribution of products for the
+
+
+
+Opportunities (external)
+O1. Lack of local competitors: There are no industrial competitors located in Nova Scotia
+that manufacture plastic pallets. Therefore, the company has the potential to be the first
+local supplier of plastic pallets.
+O2. Knowledge of the local market and businesses: The company is familiar with
+the local economic situation. As a result, it is able to be flexible and responsive
+to the trends of local changes. Nova Scotia is one of the largest seafood output
+provinces on the east coast of North America, which can be an advantage for the
+company if it wants to enter the new market based on the logistic services of the
+seafood industry.
+O3. Provincial and national funding support: Plastic pallets can be a new
+manufacturing product in Nova Scotia since there is no local company competitor. The majority of plastic pallet materials can be recycled. Thus, plastic pallet
+businesses and research are eligible for some of the environmental protection
+programs operated by nonprofit corporations and research agencies. For instance,
+Divert NS has a solid waste diversion program that includes the recycling of
+plastic products.
+O4. The benefits of the plastic pallet industry: As mentioned previously, plastic pallets
+have several benefits such as their ability to be easily sanitized, their resistance to odor,
+their lack of splintering, and their light weight [34]. Since 1997, these benefits have
+caused plastic pallets to become more and more popular in grocery distribution companies, and the trend of using plastic pallets has gone up. We believe that it is a good
+moment for the company to produce these products because of the rising status of the
+plastic pallet industry.
+O5. The reception of many retired plastic pallets: Luckily, the company has gained lots of
+retired plastic pallets because there are some plastic pallets among the returned wooden
+pallets. The company has a good opportunity to do value-added manufacturing with these
+free initial materials.
+
+Threats (external)
+T1. The monopoly market due to large companies: There are some big plastic pallet
+manufacturers that are well-known and powerful in the grocery and fast-food industries. It
+will be difficult for the company to compete with such large and powerful companies in
+terms of price and market share.
+T2. Fluctuation in the Canadian dollar exchange rate: The fluctuation of the Canadian dollar exchange rate is another threat if the company enters the international
+market. Significant changes in the exchange rate can hurt the profits of the company
+because this company is a global company and it will be competing with other
+global pallet companies.
+T3. Competition between internal wooden and plastic pallets: Producing and selling
+
+167
+
+The optimization model
+A CLSC of pallets has been provided in the third section (see Fig. 3). The purpose is
+determining the best locations of the facilities in the network for the mentioned company.
+To configure the pallet CLSC network, an optimization model which is a mixed-integer linear
+programming one is developed. Table 4 includes the information.
+"
+
+
+
+Max z ∑ ∑ ∑ f j − H j Erk T rkj − ∑ Ai X i þ ∑ Br Y r þ ∑ C l Z l þ ∑ ∑ ∑ psj þ D j Esi Psij
+
+
+r k j
+
+r
+
+i
+
+s i
+
+l
+
+j
+
+À
+
+Á
+À
+Á
+þ ∑ ∑ ∑ F j þ G j Eir Qirj þ ∑ ∑ ∑ M j E kl U klj þ ∑ ∑ ∑ −a j þ b j Eli V lij þ ∑ N s W s
+i r
+
+j
+
+k l
+
+j
+
+l i
+
+j
+
+s
+
+Table 4 Details of the model
+Sets
+S: suppliers, (1 ... s ... S)
+I: potential plants locations, (1 ... i ... I)
+R: potential distributers locations, (1 ... r ... R)
+L: potential recycling centers locations, (1 ... l ... L)
+J: products (pallets), (1 ... j ... J)
+K: customers locations, (1 ... k ... K)
+Parameters
+fj: selling price related to product j
+Ns: fixed-cost, supplier s
+Cl: fixed-cost, recycling center l
+Ai: fixed-cost, plant i by the manufacturer
+Br: fixed-cost related to selling products through the distributer r
+psj: purchasing cost of product j from supplier s
+Dj: transportation cost of product j per km between plants and suppliers
+Esi: the distance between locations s and i
+aj: cost saving of product j (due to product recovery)
+bj: transportation cost of product j per km among plants and recycling centers
+dkj: demand of customer k for product j
+Fj: production cost related to product j
+ej: percentage of the product j that is recoverable
+mij: capacity, plant i for product j
+glj: capacity, recycling center l for product j
+xrj: capacity, distributer r for product j
+osj: capacity, supplier s for product j
+tkj: returned product j of customer k
+Gj: transportation cost, product j per km among distributers and plants
+Hj: transportation cost, product j per km among customers and distributers
+Mj: transportation cost, of product j per km among recycling centers and customers
+Variables
+Zl: 1, if the recycling center which is located in site l is utilized to supply used pallets, 0, otherwise
+Yr: 1, if the distributer which is located in site r is utilized to sell the pallets, 0, otherwise
+Xi: 1, if a plant of the manufacturer is located and set up at potential site i, 0, otherwise
+Ws: 1, if the supplier s is selected, 0, otherwise
+Psij: number of product j purchased for plant i from supplier s
+Trkj: number of product j sold by distributer r to customer k
+Vlij: number of returned product j from recycling center l to plant i
+Uklj: number of returned product j from customer k to recycling center l
+
+
+
+Subject to
+∑ Qirj ≥ ∑ T rkj
+i
+
+j; r
+
+ð1Þ
+
+j; i
+
+ð2Þ
+
+k
+
+∑ Psij þ ∑ V lij ¼ ∑ Qirj
+s
+
+r
+
+l
+
+∑ T rkj ≥ ∑ U klj
+r
+
+ð3Þ
+
+j; k
+
+l
+
+∑ T rkj ≤ d kj
+
+j; k
+
+ð4Þ
+
+r
+
+∑ V lij ≤ e j ∑ U klj
+i
+
+ð5Þ
+
+j; l
+
+k
+
+∑ U klj ¼ tkj
+
+j; k
+
+ð6Þ
+
+r
+
+ð7Þ
+
+i
+
+ð8Þ
+
+l
+
+∑ ∑ Qirj ≤ Y r ∑ xrj
+j
+
+i
+
+j
+
+∑ ∑ Psij þ ∑ ∑ V lij ≤ X i ∑ mij
+s j
+
+j
+
+l
+
+j
+
+∑ ∑ Psij ≤ W s ∑ osj
+j
+
+i
+
+∑ ∑ U klj ≤ Z l ∑ g lj
+k
+
+s
+
+ð9Þ
+
+j
+
+j
+
+l
+
+ð10Þ
+
+j
+
+X i ; Y r ; Z l ; W s ∈ f0; 1g
+Psij ; Qirj ; T rkj ; U klj ; V lij ≥ 0
+
+s; l; r; i
+
+ð11Þ
+
+l; k; r; i; s; j
+
+ð12Þ
+
+The objective is to maximize the profit in the CLSC network. The selling price is
+
+169
+
+and return, respectively. Constraints (5, 7, 8, 9, 10) are about opening facilities. Binary and
+nonnegative variables are considered in Constraints (11, 12).
+The mathematical formulation has been utilized for configuration of a CLSC in Nova
+Scotia, Canada. The map of Nova Scotia has been illustrated in Fig. 4. There are three
+main regions in Nova Scotia including Cape Breton, Halifax, and Queens. It is assumed
+that the demand of market k for product j (dkj) is 1 % of population of the market. We
+utilized the data in 2011 census of Canada to estimate the population. It is supposed that
+the return (fkj) is 10 % of the demand. Two kinds of pallets are considered in this
+application. Furthermore, there are three potential suppliers in Sydney, Truro, and Yarmouth. Two potential plants are in Amherst and Halifax. Two distributors are potential
+distributors located in Port Hawkesbury and Stewiacke. Besides, there are two recycling
+centers (Liverpool and Kentville). The transportation style is considered truck. The
+distances among the potential locations including suppliers, retailers, plants, markets,
+and recycling centers are obtained using Maps in Google. Other parameters have been
+written in Table 5.
+To find the solution of the optimization model, General Algebraic Modeling System
+(GAMS) is applied. The solution is found in 0.015 s. It includes 62 single variables, 40 single
+equations, 239 non-zero elements, and 9 discrete variables. Figure 5 illustrates the optimal
+network for the first product. We concentrate on the first product to avoid any confusion.
+Supplier 1 is selected which is located in Sydney because of the good price. Halifax is chosen
+as the plant location. Besides, Distributor 2 in Stewiacke is selected. In addition, the second
+recycling center in Kentville is chosen.
+Some sensitivity analyses and discussions can be used to validate the model. According
+to the results, Supplier 1 is selected. The purchasing cost from Supplier 1 is 3. We change
+the purchasing cost of product j from Supplier 1, and we assign 5 to it. Then, the problem
+
+
+
+Table 5 Some data
+Ns: 1000
+tj: 60
+Ai: 300,000
+Hj: 0.003
+Br: 1500
+Cl: 1500
+ej: 0.5
+
+Gj: 0.003
+aj: 3
+Mj: 0.003
+glj: 100,000
+Fj: 8
+bj: 0.003
+orj: 100,000
+
+mij: 500,000
+Dj: 0.003
+xsj: 400,000
+p1j: 3
+p2j: 5
+p3j: 4
+
+product j from Supplier 3 is 4. This result shows that the low cost is an important factor in
+purchasing decision of the model. Besides, it illustrates that the mathematical model works
+correctly as is expected.
+
+Conclusions
+Plastic pallets have become an essential transportation tool, especially in food supply chains.
+The reverse supply chains of plastic pallets are critical from economic and environmental
+perspectives. Billions of plastic pallets are on the road every day which are valuable from
+economic viewpoint. Due to the various types of materials in plastic pallets (e.g., HDPE and
+PET), the pallets have no natural decomposition in some cases. As a result, used plastic pallets
+can potentially pollute our environment.
+In summary, three main elements have been considered in this paper: a) This paper first
+introduced the closed-loop supply chains of plastic pallets. In addition, this paper presented a
+review on related literature with a focus on the pallet industry in Canada. Discussions then
+followed on related problems in a specific company, the characteristics of plastic pallets, and
+
+Fig. 5 The optimal CLSC network in Nova Scotia (forward flow
+Manufacturer
+Distributor,
+Market,
+Recycling center
+
+, reverse flow
+
+
+171
+
+the forward supply chains of plastic pallets. The discussion on forward supply chains included
+relative associations, the plastic pallet industry in Canada, and the manufacturing processes of
+plastic pallets. We also provided useful information about the reverse supply chains of plastic
+pallets and related recovery options. b) Using SWOT technique, we identified four strengths,
+three weaknesses, five opportunities, and three threats regarding the company’s potential
+establishment of a recovery system for plastic pallets. These factors should be considered
+for the similar companies that would like to move to plastic pallet businesses. c) We developed
+an optimization model to configure a pallet CLSC network. The network was formulated
+considering different types of suppliers, plant locations, distribution locations, recycling
+locations, products, and customer locations. Several similar network problems can be solved
+by the proposed general mathematical model.
+Based on our analysis, we provide the following recommendations for the company under
+study, which is active in the wooden pallet industry and interested in establishing an RL plastic
+pallet system:
+1. Forming a partnership with a big plastic pallet manufacturer: We suggest that the company
+partner and collaborate with an existing plastic pallet manufacturer. A big company will
+have a lot of experience in this field. In addition, this partnership could reduce the
+financial burden of running plastic pallet CLSCs.
+2. Forming a partnership with a local company to enter the local market: We suggest that the
+company partner with a local economically developed company (such as a local seafood
+export company) in order to rent or sell plastic pallets to this company. This partnership
+would help the company enter the new plastic pallet market quickly. In addition, the
+partnership could be helpful in reducing the transportation cost of empty plastic pallets.
+3. Establishing a system for determining the price of both new and returned plastic pallets:
+Usually, it is not a challenge to set the price of new products. However, the prices of
+returned products depend on various factors, such as the quality of the returned products.
+Because of the variation in the quality of returned plastic pallets, it will be a challenge to
+determine their prices. Therefore, it is necessary to have a systematic approach in this case.
+4. Establishing a system for the inspection and separation of returned products: It will be
+useful to create a reasonable system to separate and inspect different returned products
+because of differences in their qualities. With this system, the company could save money
+and decrease time spent during reverse logistics.
+5. Forecasting the demand of plastic pallets (in Nova Scotia and greater Atlantic Canada):
+Since plastic pallets can be utilized instead of wooden pallets, and the demand for plastic
+pallets is unknown, we recommend that the company forecast the demand of plastic
+pallets in the area before starting this business. This forecast can help the company to
+estimate the capacity of its facilities.
+6. Hiring new staff and providing training programs for current staff: It will be useful for the
+company to train current staff (training related to plastic pallets manufacturing), recruit
+new staff who are good at the management of plastic pallets, and hire technical experts on
+manufacturing plastic pallets. One of the notable weaknesses identified in the SWOT
+analysis is the shortage of staff (W1).
+7. Considering cannibalization and its effects: The cannibalization concept occurs in the
+
+
+
+(plastic pallets) and traditional products (wooden pallets). In this case, the demand for
+plastic pallets and wooden pallets will be in competition as long as they are substitutable
+for customers. In other words, an increase in the sale of plastic pallets can lead to a
+decrease in the sale of wooden pallets.
+This paper provides a unique perspective on the reverse logistics and recovery options of
+plastic pallets in Canada. Future research for this paper can include applying more
+quantitative and mathematical models to analyze the reverse logistics of plastic pallets
+with focus on uncertainty. Appropriate models for forecasting demand can be developed in
+this field.
+Acknowledgments The authors would like to thank Divert NS for providing support for this project. In addition,
+they would like to thank the editor and reviewers for the excellent comments that improved the quality of the paper.
+
+55. Witt C (1990) Pallets: wood isn't the only answer. Mater Handl Eng 45(11):70

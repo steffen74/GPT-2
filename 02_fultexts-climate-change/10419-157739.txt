@@ -1,0 +1,1072 @@
+1 Introduction
+Since manufacturing ﬁrms increasingly focus on their core
+business activities, an efﬁcient supply chain plays a major
+role in generating competitive advantages. However, suppliers too often lack the capability to perform adequately.
+In response, manufacturers across a wide range of industries are implementing supplier development programmes
+to improve supply chain performance [48]. According to
+[22, p. 206], supplier development is deﬁned as any effort
+by a buying ﬁrm to improve a supplier’s performance and/
+or capabilities to meet the manufacturing ﬁrm’s short- and/
+or long-term supply needs.
+In accordance with the relational view as proposed
+by [10], activities of supplier development, in which ﬁrms
+convert general-purpose resources such as money, people
+skills, or managerial knowledge into relationship-speciﬁc
+resources, represent a rent-generating process. However,
+relationship-speciﬁc resources are difﬁcult or even impossible to redeploy outside the particular business relationship [54]. Thus, ﬁrms may see resources committed to
+supplier development as vulnerable to opportunistic expropriation [51]. Following this line of reasoning, supplier
+development activities with high levels of asset speciﬁcity
+should be safeguarded against the hazards of partner
+opportunism [27]. Here, contracts in terms of formalized,
+legally binding agreements that explicitly specify the
+
+
+obligations of each ﬁrm, are usually viewed as the primary
+means of safeguarding, particularly in a dynamically
+evolving environment [2, 7]. The drawback of long-term
+contracts is, as the degree of uncertainty increases, both
+specifying ex ante all possible contingencies and verifying
+ex post the performance of the business partner becomes
+increasingly difﬁcult [54]. Therefore, ﬁrms might be reluctant to sign long-term contracts, which potentially diminishes the ﬁrms’ propensity to invest in supplier development
+activities and thus impedes the manufacturer’s initial strategy to enhance supply chain performance [37].
+Given this background, the purpose of our research is to
+analyse the impact of dynamically extending a contract to
+mitigate possible contractual hazards. In addition, we seek to
+answer the following questions: How does the contract
+period, i.e., planning horizon, affect ﬁrms’ willingness to
+commit relationship-speciﬁc resources to supplier development? Does receding horizon control offer a straightforward
+method for dynamically extending the planning horizon,
+while simultaneously facilitating value generation within
+supplier development? Further, how should receding horizon control be arranged to optimize supply chain proﬁt?
+By answering these questions, the contribution of our
+paper is threefold. Firstly, we formulate a continuous-time
+optimal control problem characterizing the supplier development investment decision. We conduct a detailed study,
+showing that the incentives for ﬁrms to participate in supplier
+development critically depend on the contract period. Secondly, given the fact that long-term contracts entail certain
+risks, e.g., a lack of ﬂexibility, we utilize receding horizon
+control and show that the supplier development process can
+be enhanced by dynamically extending the contract, see [43]
+for the basic idea of prediction-based control. Based on this
+result, a one-to-one map is derived linking the contract period to the optimal level of supplier development (collaboration). The insight gained from these considerations allows
+to either increase the supply chain efﬁciency or realize the
+same level of collaboration while being obliged to a shorter
+contract period. Finally, we present a simple strategy slightly
+modifying the proposed receding horizon control scheme in
+order to avoid pathological behaviour of the supply chain.
+This allows to realize the optimal level of collaboration while
+avoiding unnecessary transaction costs. The remainder of
+this paper is structured as follows. Firstly, the related literature is brieﬂy reviewed in Sect. 2. Then, in Sect. 3 the basic
+optimal control problem is described. In the subsequent
+Sect. 4, the dependence of the control policy on the contract
+period is studied in detail. In Sect. 5, a receding horizon
+scheme is proposed and analysed before the effectiveness of
+the developed methodology is demonstrated by means of a
+numerical case study in Sect. 6 before conclusions are
+drawn.
+
+
+
+
+
+2 Related literature
+The topic of supplier development has received considerable attention from researchers in the past two decades.
+Previous research has provided good insights into the use
+of certain activities [47], the antecedents [22], critical
+success factors [27, 49], and the prevalence of supplier
+development in practice [24, 41].
+Supplier development has been applied in various ﬁelds
+of application [44]. Within the automotive industry, Toyota initially began providing on-site assistance to help
+suppliers implement the Toyota Production System [39].
+Other manufacturers have followed this collaborative
+approach to develop suppliers’ performance and/or capabilities, including Boeing, Chrysler, Daimler, Dell, Ford,
+General Motors, Honda, Nissan, Siemens, and Volkswagen
+[34, 38]. Typically, manufacturing ﬁrms use a variety of
+supplier development activities, e.g., providing performance feedback, training suppliers’ personnel, furnishing
+temporary on-site support to enhance further interaction,
+providing equipment and tools, or even dedicating capital
+resources to suppliers [47, 50].
+Empirical studies support that supplier development is a
+key factor to attenuate inefﬁciencies within the supply
+chain and, thus, strategically contributes to strengthen the
+manufacturer’s competitiveness [28, 40]. Beneﬁts resulting
+from supplier development include, e.g., improvements in
+cost efﬁciency, product quality and/or lead time [17, 25].
+However, [23] note that ﬁrms’ success in supplier development varies. In particular, relationship-speciﬁc investments lead, in general, to a more satisfactory outcome.
+Further, [22] shows that the ﬁrms’ propensity to participate
+in supplier development activities is higher if a continuation of the relationship is expected. Here, [49] adds that
+supplier development is more effective in mature as
+opposed to initial phases of relationship life cycles.
+According to [10], appropriate safeguard mechanisms
+may inﬂuence both transaction costs and the willingness of
+ﬁrms to commit relationship-speciﬁc resources to supplier
+development, a condition that could be an important source
+of competitive advantage. In the ﬁrst case, ﬁrms achieve an
+advantage by incurring lower transaction costs to realize a
+given level of supplier development speciﬁcity. In the
+second case, ﬁrms create relational rents by attaining a
+higher level of asset speciﬁcity [9, 46]. Following this line
+of reasoning, the ﬁrms’ ability to align a considerable level
+of relationship-speciﬁc investments with an appropriate
+safeguard mechanism could enhance efﬁciency and effectiveness of supplier development activities and thereby
+should be critical to the success of supplier development.
+Scholars usually distinguish between two classes of
+
+14
+
+enforcement of agreements, e.g., legal contracts, whereas
+the second relies on self-enforcing agreements, e.g., relational norms, that make long-term gains from the ongoing
+relationship exceed potential short-term payoffs from acting opportunistically [8, 45]. Here, it has been suggested
+that self-enforcing agreements are a less costly and more
+effective means of safeguarding relationship-speciﬁc
+investments in comparison with formal contracts [1, 35].
+Despite the signiﬁcant methodological and theoretical
+contributions of these streams of research, empirical evidence shows that formal contracts are still viewed as the
+primary means of safeguarding against the hazards of
+partner opportunism, particular in an ambiguous environment [2, 7]. However, contract research is moving away
+from a narrow focus on contract structure and its safeguarding function towards a broader focus that also
+highlights adaptation and coordination as shown in [42].
+In [53] it is even suggested that contracts function as
+relationship management tools.
+Nevertheless, the application of formal decision-making
+models proposed for assisting ﬁrms in contract negotiations
+in order to adequately safeguard relationship-speciﬁc
+investments has received limited attention in the supplier
+development literature [3]. Without understanding the
+impact of the contract period on the ﬁrms’ incentives to
+commit relationship-speciﬁc resources to supplier development, its return will be negligible, perhaps even leading
+to the premature discontinuation of such collaborative costreduction efforts.
+The trend to utilize mathematical models in general and
+control theory in particular in decision-making within
+supply chains is clearly visible [18] and [16]. Here, model
+predictive control (MPC), also termed receding (rolling)
+horizon control, plays a predominant role due to its ability
+to deal with nonlinear constrained multi-input multi-output
+systems on the one hand, see, e.g., [6, 14], and its inherent
+robustness on the other hand, see [31, 32, 57] for details.
+Consequently, MPC is a well-established strategy to deal
+with uncertainties in supply chains, see, e.g., [33, 52] and
+[19]. In this paper, MPC is ﬁrst used in supplier development to mitigate possible contractual hazards by dynamical
+extending the contract, see also our preliminary study [55].
+
+the coefﬁcients a [ 0 and b [ 0 denote the prohibitive
+price and the price elasticity of the commodity, respectively. This market condition is comparable with an
+oligopolistic or monopolistic market structure, in which a
+ﬁrm can increase market demand by lowering the sale
+price. Similar approaches to specify the price distribution
+curve have been proposed by [4, 20, 27].
+
+3 Model description
+
+J ¼ JM þ JS ¼
+
+We consider a particular supply chain consisting of a single
+manufacturer M and a single supplier S, in which M
+assembles components from S and sells the ﬁnal product to
+the market. We restrict ourselves to the linear price distribution curve pðdÞ ¼ a À bd, which establishes a connection between the production quantity d and the sale
+price p, in order to streamline the upcoming analysis. Here,
+
+It is supposed that the manufacturer wants to decrease the
+supplier’s unit production costs cS by conducting supplier
+development projects to increase the market share if that
+increases the overall proﬁt of the supply chain. To this end,
+the sustainable effect of supplier development on the
+
+3.1 Basic model
+It is supposed that the decision-making process is structured such that M determines the quantity supplied to the
+market obeying the paradigm of proﬁt maximization. Note
+that we do not distinguish market demand from the production quantity of the manufacturer because the market
+price is endogenous to the quantity sold. Moreover, the
+supplier produces the components to satisfy the demand d
+and thus does not decide on the production quantity.
+Because the manufacturer’s goal is proﬁt maximization, the
+production quantity d chosen by M is determined by
+differentiating
+d Á ðpðdÞ À cM À cSC Þ
+
+ð1Þ
+
+with respect to d and setting the resulting expression equal
+to zero, i.e.,
+!
+
+ð2Þ
+
+pðdÞ À cM À cSC À bd ¼ 0;
+
+which yields the optimum production quantity d H ¼
+and the optimal sale price pðdH Þ ¼ aþcM þcSC .
+2
+Here, cM and cSC denote the manufacturer’s unit production costs and the supply costs per unit charged by S,
+respectively. We further assume that the supplier wants to
+earn a ﬁxed proﬁt margin r. Thus, the supply costs cSC
+consist of the supplier’s ﬁxed proﬁt margin r and the
+supplier’s unit production costs cS , i.e., cSC ¼ r þ cS . This
+assumption is not completely new: Honda Motor Company, e.g., ﬁrst learns extensively about a suppliers cost
+structure and then speciﬁes a target price that combines
+both the suppliers unit production cost and a percent
+margin [29]. Similar approaches to specify the supply costs
+have been proposed by [4, 21, 27]. Summing up, the supply
+chain proﬁt is given by
+aÀcM ÀcSC
+2b
+
+ða À cM À cSC Þ2 a À cM À ðr þ cS Þ
+r
+þ
+2b
+4b
+ða À cM À cS Þ2 À r 2
+¼
+:
+4b
+
+
+
+
+3.2 Solution of the optimal control problem
+
+Table 1 List of parameter
+Symbol
+
+Description
+
+Value
+
+T
+
+Contract period
+
+60
+
+a
+
+Prohibitive price
+
+200
+
+b
+
+Price elasticity
+
+0.01
+
+cM
+
+Variable cost per unit (M)
+
+70
+
+c0
+
+Variable cost per unit (S)
+
+100
+
+r
+
+Fixed proﬁt margin (S)
+
+15
+
+cSD
+
+Supplier development cost per unit
+
+100,000
+
+x
+
+Resource availability
+
+1
+
+m
+
+Learning rate
+
+À0:1
+
+supplier’s unit production costs cS is modelled by
+cS ðxÞ ¼ c0 xm ,1 where c0 [ 0 denotes the supplier’s unit
+production cost at the outset, m\0 characterizes the supplier’s learning rate, and x deﬁnes the cumulative number
+of realized supplier development projects. The latter is
+modelled as a time-dependent function x : ½0; T ! R ! 0
+governed by the ordinary differential equation
+_
+xðtÞ :¼
+
+d
+xðtÞ ¼ uðtÞ;
+dt
+
+xð0Þ ¼ x0 ¼ 1;
+
+ð3Þ
+
+Pontryagin’s maximum principle, see, e.g., [26], is used
+analogously to [20] to solve the optimal control problem
+introduced in the preceding subsection. To formulate the
+necessary optimality conditions, we require the so-called
+Hamiltonian H, which is deﬁned as
+Hðx; u; kÞ :¼
+
+ða À cM À c0 xm Þ2 À r 2
+À cSD u þ ku:
+4b
+
+ð5Þ
+
+From the necessary conditions, we obtain the system
+dynamics
+_
+xH ðtÞ ¼ Hk ðxH ðtÞ; uH ðtÞ; kðtÞÞ ¼ uH ðtÞ;
+the so-called adjoint k : ½0; T ! R, which is characterized
+by
+mc0 xH ðtÞmÀ1 ða À cM À c0 xH ðtÞm Þ
+_
+;
+kðtÞ ¼ ÀHx ðxH ðtÞ; uH ðtÞ; kðtÞÞ ¼
+2b
+
+ð6Þ
+and the transversality condition
+kðTÞ ¼ 0:
+
+ð7Þ
+
+1
+
+with u 2 L ðR ! 0 ; ½0; xÞ. Here, u(t) describes the number
+of supplier development projects at time t; with capacity
+bound x [ 0 to reﬂect limited availability of resources in
+terms of time, manpower, or budget. Similar models of cost
+reduction through learning have been proposed by
+[4, 11, 20, 27, 56].
+The costs of supplier development are integrated into the
+proposed model by a penalization term cSD uðtÞ, cSD ! 0.
+Overall, this yields the supply chain’s proﬁt function
+J SC : u 7! R
+Z T
+ða À cM À c0 xðtÞm Þ2 À r 2
+JT ðu; x0 Þ :¼
+À cSD uðtÞdt
+4b
+0
+ð4Þ
+for a given time interval [0, T], which must be maximized
+subject to the control constraints 0 uðtÞ x, t 2 ½0; TÞ,
+and the system dynamics (3). The contract period T is of
+particular interest since investments into the cost structure
+of the supply chain require their amortization during the
+runtime of the contractual agreement. A summary of the
+parameters is given in Table 1.
+
+1
+
+Because supplier development is most often used as of the end of
+the growth stage as opposed to initial stages of a product’s life cycle,
+we consider solely the learning that occurs through the cumulative
+number of realized supplier development projects without considering
+further effects, e.g., total number of units produced [5, 30].
+
+
+
+The solution uH : ½0; TÞ ! ½0; x of the optimal control
+problem exhibits the structural property
+(
+x if t\tH
+H
+ð8Þ
+u ðtÞ :¼
+0 if t ! tH
+depending on the (optimal) switching time tH 2 ½0; T,
+which is characterized by the equation
+mc0 ðx0 þ xtH ÞmÀ1 ða À cM À c0 ðx0 þ xtH Þm Þ
+cSD
+¼ H
+:
+2b
+ðt À TÞ
+ð9Þ
+In the following, (9) is called switching condition. Indeed,
+since the cost function is (strictly) convex and the system
+dynamics are governed by a linear ordinary differential
+equation, it can be shown that this condition is necessary
+and sufﬁcient for the considered problem, see [36] for a
+detailed derivation. We emphasize that the switching
+time tH characterizes the optimal time of collaboration
+since every investment in supplier development up to tH
+results in an increased proﬁt while expenditures spent
+after tH do not amortize during the contract period and are,
+thus, not economically reasonable within the considered
+setting.
+The optimal value function VT ðx0 Þ of the problem under
+consideration reads
+VT ðx0 Þ :¼
+
+sup
+u2L1 ð½0;TÞ;½0;xÞ
+
+SC
+
+4
+
+Adjoint variable λ(t)
+
+15
+
+x 10
+
+10
+
+5
+
+0
+
+λ(t)
+cSD
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+Time t
+Fig. 1 The adjoint k : ½0; T ! R ! 0 computed based on the parameters given in Table 1
+
+14
+
+cooperate with a different supplier instead of adhere to the
+already existing business relation, see, e.g., [12] and [36]
+for the considered setting with multiple suppliers. Here,
+however, it is supposed that continuation of the collaboration is preferable since our focus is on the arrangement of
+the manufacturer/supplier cooperation. Hence, Option 1
+corresponds to the scenario, in which supplier development
+cannot increase proﬁtability within the supply chain and
+the cooperation with another supplier acting on the market
+is also not economically reasonable. Hence, we focus on
+the second case within this paper.
+Here, from the speciﬁc structure (8) of the optimal
+control function we can conclude that all investments up to
+time tH pay off during the contract period. Then, taking
+into account the already reduced supply costs given by
+cSC ðtÞ ¼ r þ c0 xðtH Þm with
+!m
+Z H
+t
+
+c0 xðtH Þm ¼ c0 x0 þ
+
+uH ðsÞdt
+
+¼ c0 ð1 þ xtH Þm ;
+
+0
+
+where the expression on the right-hand side is maximized
+_
+subject to xðtÞ ¼ uðtÞ, xð0Þ ¼ x0 . VT : R [ 0 ! R maps the
+initial value x0 to the optimal value. The index T indicates
+the contract period and can be considered as a parameter—
+an interpretation, which is crucial for the upcoming
+analysis.
+Evidently, investments (in the cost structure) pay off in
+the long run: while all the effort is spent directly at the
+beginning of the collaboration, the resulting cost decreasing effect is exploited during the remainder of the contract
+period.
+H
+
+Remark 1 At the switching time t , the marginal revenue
+of further investments in supplier development (given by
+the adjoint variable k) equals the marginal costs (given by
+cSD ) as indicated in Fig. 1. This reasoning is expressed by
+the switching condition (9).
+
+4 Interplay of switching time and contract period
+If the desired contract between manufacturer M and supplier S ranges over the interval [0, T], two cases can be
+distinguished:
+1.
+
+2.
+
+The (optimal) switching time is given by tH ¼ 0
+meaning that investments in supplier development do
+not pay off during the contract period.
+A switching time tH [ 0 represents the scenario where
+investing into supplier development amortizes during
+the contract period.
+
+After determining the outcome of a potential collaboration
+over the interval [0, T], the overall market situation has to
+be taken into account, e.g., does it make (more) sense to
+
+further effort in terms of uðtÞ [ 0, t 2 ½tH ; TÞ, does not lead
+to an increased proﬁt. The latter holds true since cost-reduction efforts after tH do not amortize within the
+remaining time interval of at most length T À tH and are,
+thus, not economically reasonable. We show that a prolongation of the contract period yields an augmentation of
+the investments in supplier development, which corresponds to an increased switching time tH . A proof of
+Lemma 1 is given in ‘‘Appendix 8’’.
+Lemma 1 Suppose that the contract period T is chosen
+(long enough) such that tH ¼ tH ðTÞ [ 0 holds. In addition,
+let the condition
+ð1 À mÞða À cM À c0 Þ þ c0 m ! 0
+
+ð10Þ
+
+hold. Then prolonging the contract period T, T [ T, implies a strictly larger switching time tH ¼ tH ðTÞ,
+i.e., tH ðTÞ [ tH ðTÞ.
+Remark 2 The assumptions of Lemma 1 imply the
+inequality a À cM À c0 À r [ 0 as a by-product because the
+manufacturer cannot realize a proﬁt per unit sold otherwise
+(prohibitive price is greater than the production cost per
+unit at time t ¼ 0 from the manufacturer’s point of view).
+Hence, the seemingly technical Condition (10) links the
+supplier’s production costs c0 with the difference of proﬁt
+per unit a À cM À c0 by the learning rate m. Note that the
+assumptions of Lemma 1 can be easily veriﬁed for a given
+dataset of parameters.
+Lemma 1 shows that investments in supplier development are extended if the contract period is prolonged.
+Hence, the collaboration continues after the previously
+determined switching time tH . As a result, the supplier’s
+
+4
+
+x 10
+
+13
+
+3.5
+
+12
+
+3
+
+t (T )
+
+Fig. 2 Optimal switching
+time tH ¼ tH ðTÞ in dependence
+of the length of the contract T ¼
+T þ i Á DT (T ¼ 60, DT ¼ 3 and
+i ¼ 0; 1; . . .; 7)
+
+
+
+SC
+JT +i·ΔT(u; x0 )
+
+14
+
+2.5
+2
+
+11
+
+10
+
+1.5
+1
+
+0
+
+5
+
+10
+
+Switching time t
+
+unit production costs are further decreased, the quantity
+offered is increased and the supply chain proﬁt per time
+unit grows. The argument that a longer contract period
+leads to larger switching times can also be validated
+numerically as visualized in Fig. 2. Here, we observe that
+the supply costs cSC ðtÞ ¼ r þ c0 xðtÞm are further reduced
+if both the manufacturer and the supplier agree on a
+longer contract period. The relation between the contract
+period T and the optimal switching time tH ðTÞ is almost
+linear.2
+In summary and according to the initial question how
+does the contract period, i.e., planning horizon, affect
+ﬁrms’ willingness to commit relationship-speciﬁc resources
+to supplier development, the ﬁndings show that the supply
+chain partners’ incentives to commit relationship-speciﬁc
+resources, i.e., to invest in cost-reduction efforts, critically
+depend on the length of the contract period.
+
+5 Successive prolongation of the contract period
+The beneﬁts of an increased switching time come along
+with the inﬂexibility resulting from long-term contracts. In
+this section, we propose a methodology for assisting supply
+chain partners in contract negotiations to achieve the
+beneﬁts of long-term contracts while committing themselves only to agreements of a certain, prespeciﬁed (collaboration) time period. To this end, it is assumed that the
+manufacturer and the supplier are only content to make
+contracts of length T. If the collaboration is successful for a
+certain amount of time ½0; DTÞ, DT tH , they might agree
+to renew the contract on the time interval ½DT; T þ DT.
+Before we continue the discussion, let us brieﬂy sketch
+the computation of the (optimal) control function uH : ½DT; T þ DTÞ ! ½0; x. Here, the proﬁt function
+has to be maximized based on the new (initial) state xðDTÞ,
+2
+
+Indeed, the slope of the curve is slightly increasing.
+
+
+
+15
+
+20
+
+9
+60
+
+65
+
+70
+
+75
+
+80
+
+Contract period T
+
+SC
+i.e., JT ðÁ; xðDTÞÞ is considered. Since DT tH holds by
+assumption, the new initial state xðDTÞ is given by
+Z DT
+ð11Þ
+xðDTÞ ¼ xð0Þ þ
+uH ðsÞdt ¼ x0 þ DT Á x
+0
+
+in view of Property (8). Hence, the proﬁt on the new
+contract period ½DT; T þ DT is determined by maximizing
+Z T
+~
+ða À cM À c0 xðtÞm Þ2 À r 2
+JT ðu; xðDTÞÞ ¼
+À cSD uðtÞdt
+4b
+0
+subject to uðtÞ 2 ½0; x, t 2 ½0; TÞ and the differential
+~
+equation (3) with initial condition xð0Þ ¼ xðDTÞ ¼
+~
+x0 þ xDT. Here, we used the notation x to distinguish the
+previously computed (state) trajectory xðÁ; x0 Þ and its
+~
+counterpart xðÁ; xðDTÞÞ depending on the new initial condition xðDTÞ. Another option is to use the time invariance
+_
+of the linear differential equation xðtÞ ¼ uðtÞ, which allows
+to rewrite the proﬁt functional as
+Z TþDT
+ða À cM À c0 xðtÞm Þ2 À r 2
+À cSD uðtÞdt
+4b
+DT
+with initial value xðDTÞ given by (11) at initial time DT.
+We point out that the resulting trajectory deviates from the
+previously computed one already before time T. In conclusion, the implemented control strategy on ½0; T þ DTÞ is
+given by
+(
+SC
+uH ðtÞ maximizing JT ðÁ; x0 Þ
+t 2 ½0; DTÞ
+uðtÞ :¼
+;
+H
+SC
+u ðtÞ maximizing JT ðÁ; xðDTÞÞ t ! DT
+ð12Þ
+i.e., the ﬁrst piece of the old policy concatenated with the
+newly negotiated strategy. This strategy yields an optimal
+policy on the time span ½0; T þ DTÞ. Hence, the same
+overall supply chain proﬁt is reached without the hazards
+of being committed already at the beginning (time 0) as
+
+Proof Since the proﬁt JTþDT ðu; x0 Þ on the considered
+time interval ½0; T þ DT with u from (12) is the sum of
+Z DT
+ða À cM À c0 xðtÞm Þ2 À r 2
+À cSD x dt
+4b
+0
+Z
+
+TþDT
+
+DT
+
+ða À cM À c0 xðtÞm Þ2 À r 2
+À cSD uðtÞdt;
+4b
+
+the dynamic programming principle yields the equality
+JTþDT ðu; x0 Þ ¼ VTþDT ðx0 Þ;
+which completes the proof.
+
+12
+9
+6
+3
+0
+
+0
+
+3
+
+6
+
+9
+
+12
+
+15
+
+Planed collaboration interval
+Fig. 3 Application of Algorithm 1 to compute the optimal switching
+^
+times for T ¼ 60 and changing initial conditions x. The lengths of the
+collaboration intervals are decreasing
+
+and
+þ
+
+15
+
+Time t
+
+Corollary 1 Let the optimal switching time tH determined by Condition (9) be strictly greater than zero. Furthermore, let DT, DT\tH , be given. Then, the control
+strategy deﬁned in (12) and the corresponding supply
+chain proﬁt on ½0; T þ DT equal their counterparts
+obtained by maximizing JTþDT ðu; x0 Þ with respect
+to u : ½0; T þ DTÞ ! ½0; x
+
+14
+
+h
+
+5.1 Receding horizon control
+The idea of an iterative prolongation of collaboration
+contracts can be algorithmically formalized as receding
+horizon control (RHC) also known as model predictive
+control.
+
+Upon start, the manufacturer M and the supplier S agree
+on a collaboration for a given contract period of length
+^
+T. Firstly, the status quo—represented by x—is analysed.
+Secondly, the optimal switching time tH is computed based
+^
+on the initial state x and T, cf. Step (2). This yields the
+optimal control strategy deﬁned by (13), of which the ﬁrst
+piece uH j½0;DTÞ is applied. Then, the manufacturer and the
+supplier meet again at time t þ DT to negotiate a new
+contract. This initiates the process again, i.e.. the
+
+previously described steps are repeated, which is referred
+to as receding horizon principle. Note that since the
+underlying system dynamics are time invariant, the newly
+^
+(measured) initial state x represents all information
+required. In particular, no knowledge regarding the previously applied control is needed to solve the adapted
+switching condition of Step (2) with respect to tH . Figure 3
+illustrates the outcome of Algorithm 1 with prediction
+horizon T ¼ 60 (contract period) and control horizon DT ¼ 3 (time step) based on the parameters given in
+Table 1.
+
+Firstly (t ¼ 0), the original optimal control problem is
+solved resulting in tH % 9:21. Then, uH  x is applied on
+the time interval ½0; DTÞ. Secondly (t ¼ DT), the collaboration is prolonged to tH % 9:74. Thirdly (t ¼ 2DT), the
+switching time is shifted to tH % 10:27. Still, t ¼ 3DT tH
+^
+holds. Hence, the (measured) initial state x is given by
+x0 þ tx ¼ x0 þ 3DTx. Here, Step (2) of Algorithm (1)
+yields tH % 10:79, i.e., the collaboration stops within the
+time frame ½t; t þ DTÞ. If the RHC scheme is further
+
+
+applied, there occur collaboration intervals of shrinking
+length.
+As already discussed in Sect. 5, if the contract is not
+renewed, uH ðtÞ is set to zero for t ! tH % 9:21. In contrast
+to that, the RHC scheme prolongs the collaboration and,
+thus, increases the supply chain proﬁt. To be more precise,
+the proﬁt generated by Algorithm 1 on ½0; T þ iDT,
+i 2 f0; 1; 2; . . .; T=DTg,
+T=DTþiÀ1 Z ðkþ1ÞDT
+X
+ða À cM À c0 xðtÞm Þ2 À r 2
+À cSD uðtÞdt
+4b
+kDT
+k¼0
+is greater than its counterpart JT ðuH ; x0 Þ þ ViDT ðxH ðTÞÞ
+consisting of the maximum of the original cost function VT ðx0 Þ ¼ JT ðuH ; x0 Þ and a second (optimally operated) contract on ½T; T þ iDT based on the reached cost
+structure
+represented
+by xH ðTÞ ¼ x0 þ tH x % x0 þ
+9:21x ¼ 10:21. In particular, this assertion holds in comparison with simply sticking to the cost structure based on
+tH ðTÞ, i.e.,
+Z TþiDT
+ða À cM À c0 xðtH ðTÞÞm Þ2 À r 2
+H
+dt:
+JT ðu ; x0 Þ þ
+4b
+T
+ð14Þ
+While an increased switching time tH may already
+increase the proﬁtability within a supply chain during the
+considered time span, the achieved cost reduction sustains. Hence, if the collaboration between the manufacturer and the supplier lasts, the obtained effect is a
+sustainable one.
+In summary and referring to the question how does
+receding horizon control offer a straightforward method
+for dynamically extending the planning horizon, the ﬁndings show that dynamically extending contracts enhance
+the supplier development process, because value generation is facilitated while both the manufacturer and the
+supplier gain ﬂexibility due to shorter contract periods.
+5.2 Optimal point of collaboration
+As observed in Fig. 3, the collaboration can stop within the
+time interval ½t; t þ DTÞ meaning that the prerequisite DT tH is no longer satisﬁed at time t. This leads to a
+sequence of collaboration times of shrinking length.
+Summing up all of these intervals on the inﬁnite horizon
+yields a total collaboration time of approximately 11.18
+time units. Hence, the total collaboration time is increased
+by 21.3 %. However, since the collaboration intervals are
+becoming comparably short, implementing this strategy
+may be impracticable. Here, we propose two remedies: If
+the new collaboration period at time t ¼ kDT, i.e., tH À t,
+is below a certain threshold value,
+
+
+
+
+
+1.
+
+2.
+
+set tH ¼ t in order to save negotiation costs, which
+would probably outweigh the achievable earning
+growth. For the presented example, the supplier
+development programme stops at 10.79 (still an
+increase of approximately 17.2 %) if the threshold is 1.
+^
+measure the current state x ¼ xðtÞ and compute the
+optimal cost structure for contract periods of length T
+by solving
+
+
+mc0 T xmÀ1 ða À cM À c0 xm Þ þ 2bcSD ¼ 0
+
+x ^
+with respect to x. Then, set tH ¼ t þ ð À xÞ=x. In the
+considered example at time t ¼ 4DT, the measured
+^
+
+state is x ¼ 10:79 while x % 11:18. Hence, a collaboration of length 0.39 time units is ﬁxed. At all
+upcoming time instants, tH ¼ t holds because the
+optimal cost structure for contract periods of
+length T ¼ 60 is already reached.
+
+Clearly, the threshold should be chosen such that the proﬁt
+increase outweighs the negotiation costs.
+Thus, Algorithm 1 allows both the manufacturer and the
+supplier to prolong their supplier development programme
+without binding themselves for a time span longer
+than T and, thus, provides more ﬂexibility.
+Remark 3 Algorithm 1 is a simpliﬁed version. Indeed, the
+time step DT may vary in time, e.g., longer time steps in
+the beginning (for example, DT ¼ tH in the considered
+setting), and shorter ones later on. For details on the socalled time-varying control horizon, we refer to [15].
+In summary and with regard to the question how should
+receding horizon control be arranged to optimize supply
+chain proﬁt, two strategies are presented in order to make
+the proposed receding horizon scheme, cf. Algorithm 1,
+applicable even if negotiation costs are taken into account.
+
+6 Numerical results
+As seen in the previous section, applying the receding
+horizon Algorithm 1 dynamically extends the collaboration
+within the supply chain and, thus, generates additional
+proﬁt within the supply chain. Next, we conduct a
+numerical case study to obtain further managerial insights.
+To this end, we compare the outcome J HH of the proposed algorithm based on the second option presented in
+Sect. 5.2 and the supply chain proﬁt resulting from the
+control
+(
+x for t\tH ðTÞ
+uðtÞ ¼
+ð15Þ
+0 for t ! tH ðTÞ
+
+considered on [0, 60] and, then, utilizing the achieved cost
+structure cSC ðtÞ ¼ x0 þ tH x on [60, 120] without further
+investments in supplier development. The corresponding
+proﬁt is given by (14).
+To fully understand the impact of receding horizon
+control on the supply chain proﬁt in depth, we ﬁrst vary the
+following parameters of Table 1
+
+Second, we are interested in the interplay of the supplier’s learning rate m and receding horizon control. Thus,
+based on the parameters of Table 1, we perform a sensitivity analysis with respect to the parameter m with
+m 2 fÀ0:15; À0:14; À0:13; À0:12; À0:11;
+À 0:1; À0:09; À0:08; À0:07; À0:06; À0:05g:
+Applying Algorithm 1 (T ¼ 60, DT ¼ 3), Fig. 5 shows
+both the optimal switching time tH (without receding
+horizon control) compared to the optimal switching time
+tHH (with receding horizon control) in dependence of
+m (left), and the proﬁt growth with respect to the switching
+time for different learning rates (right). Again, the computations are based on a simulation of 120 time units. Here,
+we observe that the impact of receding horizon control
+decreases for lower learning rates.
+Hence, the results infer that especially ﬁrms in highlearning industries, e.g., technology-based industries, beneﬁt most from applying the proposed receding horizon
+scheme.
+
+a 2 f192:5; 195; 197:5; 200; 202:5; 205; 207:5g;
+b 2 f0:007; 0:008; 0:009; 0:01; 0:011; 0:012; 0:013g;
+cSD 2 f70000; 80000; 90000; 100000; 110000; 120000; 130000g;
+x 2 f0:7; 0:8; 0:9; 1; 1:1; 1:2; 1:3g;
+m 2 fÀ0:13; À0:12; À0:11; À0:1; À0:09; À0:08; À0:07g
+
+resulting in a total number of 75 = 16,807 instances. For
+each parameter combination, we then evaluate the respective proﬁts.
+The depicted histogram in Fig. 4 shows the absolute
+frequency with which a percentage of proﬁt increase is
+observed within our parameter set. The mean value
+is 3.36 % with a standard deviation of 1.06 %. In conclusion, receding horizon control signiﬁcantly improves the
+proﬁtability of the considered supply chain.
+
+7 Conclusion
+
+Number of instances
+
+4000
+
+In this paper, we investigated the impact of the contract
+period on supplier development. In particular, we showed
+that the supply chain partners’ incentives to commit relationship-speciﬁc resources, i.e., to invest in cost-reduction
+efforts, critically depend on the length of the contract
+period.
+Given the fact that long-term contracts entail certain
+risks, we proposed a receding horizon control scheme to
+mitigate possible contractual hazards. In addition, we
+showed that dynamically extending contracts enhance the
+supplier development process, because value generation is
+facilitated while both the manufacturer and the supplier
+gain ﬂexibility due to shorter contract periods. Furthermore, we presented two strategies in order to make the
+
+3000
+
+2000
+
+1000
+
+0
+
+0
+
+2
+
+4
+
+6
+
+8
+
+Proﬁt increase ratio (%)
+Fig. 4 Proﬁt increase ratio in percent
+
+5
+
+20
+
+5
+
+t (m)
+t (m)
+Earning growth
+
+10
+
+5
+
+0
+
+x 10
+
+4
+
+15
+
+Switching time
+
+Fig. 5 Optimal switching time
+tH and tHH with respect to the
+parameter m (left) and earning
+growth with respect to the
+switching time tH for different
+values of m (right)
+
+14
+
+3
+2
+1
+
+−0.14
+
+−0.12
+
+−0.1
+
+−0.08
+
+Parameter m
+
+−0.06
+
+0
+
+0
+
+5
+
+10
+
+15
+
+20
+
+Switching time t
+
+
+
+
+proposed receding horizon scheme, cf. Algorithm 1,
+applicable even if negotiation costs are taken into account.
+Finally, we veriﬁed the reliability of the application by
+performing Algorithm 1 for an extensive parameter set and
+demonstrated that receding horizon control leads to a signiﬁcant proﬁt increase within the supply chain. Moreover,
+by means of a sensitivity analysis with respect to the
+learning rate, we showed that especially ﬁrms in highlearning industries beneﬁt since supplier development
+programmes play a predominant role in order to optimize
+the cost structure of the supplier network.
+The study is based on a simple model to focus on the
+impact of dynamical decision-making in supplier development. Clearly, a more elaborated model with less stringent assumptions like, e.g., a linear price distribution,
+should be studied in the future. Moreover, the combination
+of the proposed dynamic strategy with decentralized
+approaches is of great importance and deserved a detailed
+analysis, see, e.g., the negotiation-based coordination
+mechanism proposed in [36]. Another interesting direction
+for future research is to expand our study to a network
+perspective, in which the supply chain consists of more
+than a single manufacturer and a single supplier, see,
+e.g., [13], where two manufacturers are engaged in the
+development of a supplier.

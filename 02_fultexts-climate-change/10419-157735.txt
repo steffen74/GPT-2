@@ -1,0 +1,1180 @@
+
+1 Introduction
+The ever-growing population worldwide and their consumption of basic need goods (such as fast-moving consumer goods, beverages, cleaning products) pose new
+challenges for research in distribution planning. These
+goods are commonly produced in batches due to their low
+unit volume. In order to meet the requirements for high
+consumption rate, optimum distribution plans for batch
+products have to be generated across different locations.
+An effective and efﬁcient management of batch ﬂow leads
+to huge savings in absolute terms for both the companies
+and the consumers [10]. Additionally, the growth in road
+trafﬁc and the use of road freight transport raise the level of
+emitted greenhouse gases (GHG) in the environment. As
+one of today’s top market concerns, all aspects of an
+organization’s logistics must be green [15]. This shift
+towards greening the supply chain through an environmentally friendly logistics network design is not only to
+abide by governmental regulations but also to meet customers’ expectations and social responsibilities [22].
+Distribution planning can support decision making by
+generating the optimum routes, minimizing the total
+transportation costs as well as saving energy and, consequently, GHG emissions. The optimum delivery routes for
+each vehicle are generated at the tactical level (route
+planning) and the optimum delivery velocities at the
+operational level (schedule planning). Therefore, the model
+described in this paper is formulated as two-stage
+stochastic model. The model integrates the decisions made
+
+impact of transport activities. Also, GHG emissions under
+uncertainties are incorporated as a function of randomly
+selected delivery velocities at different distribution routes
+within the supply network. The vehicle velocity has the
+most signiﬁcant effects on fuel consumption [20]. Thus,
+optimal speed could lead to greater reduction of CO2
+emissions and fuel consumption for a given routing plan
+[6].
+Although there are a number logistics models in the
+literature, there is a lack of research into real-life applications underpinned by case studies [23]. The current study
+validates a newly developed green logistics model via two
+real-world case studies of multinational organizations
+drawn from the batch process industry.
+This paper is organized as follows: Sect. 2 reviews the
+extant literature on implementation of green logistics
+models in batch distribution. This section also describes the
+case studies and the background to the study. Section 3
+deﬁnes the methodology and the development of optimum
+distribution routes, optimum delivery velocities and related
+CO2 emissions. Computational results and discussions are
+presented in Sect. 4. Finally, the conclusions and main
+ﬁndings are highlighted in Sect. 5.
+
+2 Greening batch distribution: literature review
+There has been a marked increase in the consumption of
+goods produced using batch processes. This has resulted in
+a commensurate rise in production and related distribution
+operations [21]. Consequently, these related distribution
+operations have contributed immensely to the total global
+transport emissions. According to Buehler and Pucher [2],
+a ﬁfth of worldwide GHG emissions are due to transport
+activities. In fact, the transportation sector will be the
+second largest emitter accounting for 24 % of the total EU
+emissions in 2020. Therefore, there is a renewed sense of
+urgency to investigate the environmental parameters during
+transport operations and develop appropriate distribution
+planning models [12]. Scheduling most of the distribution
+plans is based on the vehicle routing problem (VRP) [17].
+The VRP is a classical combinatorial optimization problem
+that has become a key component of distribution and
+logistics management. Through VRPs, the reduction in
+total vehicle’s travelled distance, by itself, provides environmental beneﬁts. This is due to the reduction in fuel
+consumption, the consequent drop in pollutants and resultant shorter lead times [3, 5, 7].
+In recent research contributions, there have been a
+number of models suggested to minimize the emissions of
+GHG associated with vehicle routing problems based on
+vehicle velocities. The velocity of vehicles is the major
+
+
+
+
+
+determinant of environmental emissions for a speciﬁc
+vehicle load [6]. The usage of speed to minimize emissions
+in VRP models can be classiﬁed into two main categories:
+the ﬁrst is the set of models where vehicle speeds are inputs
+to the model and the second consists of models where
+vehicle speed values are optimized and used as decision
+variables.
+Furthermore, Kumar et al. [13] pointed out the
+necessity of implementing integrated optimization models that combine operational and environmental costs
+elements in real case studies. Moreover, implementing
+these models in real environment plays a vital role in
+exploring their validity in achieving environmentally
+sustainable logistics practices [9]. As an application of
+green logistics concept in the batch process industry,
+Ubeda et al. [23] examined aspects of green transportation at the operational level where vehicles speeds are
+inputs and proposed some green changes within the VRP
+based on a case study at one of the leading distribution
+companies in Spain. They found that an average saving of
+25.5 % in CO2 emissions was possible due to reduction in
+used routes compared to the prevailing situation in that
+company at the time.
+Moreover, Pishvaee et al. [19] proposed a bi-objective
+fuzzy mathematical programming model for green logistics
+design under uncertain conditions. Their model integrated
+the transportation and production strategic decisions, and
+its applicability was examined in an industrial case study.
+As their decisions were at the strategic level, velocity
+speeds were reported as inputs as well. In contrast, Maden
+et al. [14], using vehicle speed as decision variables,
+minimized the total vehicle emissions per unit distance
+required for distribution operations. A CO2 saving of
+around 7 % was recorded using a tabu search algorithm.
+Similarly, Qian and Eglese [20] minimized the fuel emissions in a road network where speed of each vehicle along
+each road in its path is treated as decision variables.
+The integrated model presented in this paper is novel
+given that velocity values were used both as inputs and
+decision variables in an optimization model. A two-stage
+stochastic model is designed to generate the global optimum solution for both tactical and operational decision
+levels. In the ﬁrst stage, the vehicle velocities are known
+only within certain bounds and considered as inputs to the
+model. The optimum values for these velocities are
+uncertain at this stage. Once the optimum routes are
+known, the delivery velocities are used as decision variables in the second stage. The optimum delivery velocities
+which correspond to the minimum emission values are then
+generated. Integrating emission values within the modelling of distribution plans is essential in order to achieve a
+sustainable balance between economic and environmental
+studies is as crucial as developing these approaches and
+models, data were collected from two real-world case
+studies of multinational batch process companies. In each
+case study, data used for the numerical analysis belong to
+one full month of activities. The data showed a regular
+trend.
+In the next sections, we will focus on generating the
+optimal vehicle routing that would enable reduction of the
+environmental impact by optimizing the distribution planning. Thereafter, we will propose a practical framework
+which considers both tactical and operational decisions.
+We will also discuss the implementation of this framework
+using the two case studies.
+
+3 Methodology and case studies
+In this section, the methodology used to handle batch
+distributions is described. This section composes two
+subsections: deﬁning the environmental values and developing the mathematical model. Afterwards, the model is
+implemented in two case studies from batch process
+industry in order to verify the applicability of the model in
+practice. The characteristics of the test problems and some
+implementation details are described. The optimal delivery
+routes sequencing, the corresponding numbers of required
+delivery trucks and the optimum delivery speeds required
+to achieve the environmental targets were then determined.
+3.1 Environmental values
+Although there is no standard way to measure the values of
+fuel consumption and GHG emissions for a mobile source,
+a number of formulas could be applied to easily calculate
+their approximate values. Generally, there are two ways to
+calculate CO2 emissions: fuel-based or distance-based
+methodology [23]. While the fuel-based method is more
+reliable, the distance-based method is more popular due to
+the type of the data required. The distance-based method of
+estimating CO2 emissions will be used in this article due to
+readily available data. Two recorded values are required to
+calculate emissions based on this method: the distance
+travelled (Dlk) and fuel consumption (EMlk) by vehicles
+[23]. Additionally, this research used values of velocities
+instead of distances.
+Delivery velocities are deﬁned as vectors of uncertain
+values on each route (between any two nodes in the network) in each period. This vector can be mathematically
+formulated as follows: X = (MinV, MaxV) where
+MinV and MaxV correspond to the minimum and maximum vehicle velocity. It is expected that each vehicle is
+driven with velocity (Vtlk) and results in amount of
+
+Page 3 of 10 9
+
+emissions (Etlk). A range of MinE and MaxE corresponds
+to a range of delivery vehicle velocities MaxVtlk (x) and
+MinVtlk (x) where x is a given value of uncertain
+parameters. If these values are not practically applicable,
+penalties for overage emissions Flk (paid to the governments) and that for underage emissions Glk (associated with
+delivery delays for customers) are imposed. The idea
+behind this deﬁnition of penalties is to obtain meaningful
+combinations of companies and customers concerns. From
+the companies’ perspective, the goal is to deliver the batches to different customers as efﬁciently as possible
+(concerning economic cost and overage emissions which
+are paid to the governments). From the customers’ point of
+view, the main concern is to reliably receive the deliveries
+on time. Therefore, the objective function has emissions
+limits and stochastic travel velocities, leading to stochastic
+arrival times.
+3.2 The mathematical formulation
+The proposed study presents a research methodology with a
+mathematical core based on both the economic and environmental data as well as the capacity constraints. Six-step
+procedure was applied to realize the proposed solution
+methodology as shown in Fig. 1. The ﬁrst step is to build a
+model which captures the properties of the production
+process and its corresponding ﬂows of materials. The
+second step is to extract all the required data in order to
+generate feasible production plans at minimum costs.
+Afterwards, the decision-maker at the plant uses this data
+as well as further knowledge or expectations about the
+current and future situation on the shop ﬂoor to generate a
+set of assumptions. These inputs are called scenarios. Then,
+an initial solution is generated for each given scenario. The
+ﬁfth step is to analyse the production schedule and interactive modiﬁcations of the developed model based on the
+experience and knowledge of the decision-maker and the
+feasibility of the production plans. The sixth and last step
+in this procedure is to approve the generated solution. This
+approval is based on the decision-maker evaluation for all
+available alternatives. In reality, these steps should be
+followed by execution and updating.
+In order to fulﬁl the demand of customers in L locations,
+there are several products P which are produced and
+grouped into batches during T time periods. The distribution problem is modelled on a full graph G = (V, L), where
+V = {1, 2,…,n} as the set of vertices, and L = {(l,k): l,
+k[L, l = k} as the set of arcs. The formulated problem
+exhibits the following characteristics: (a) known homogeneous ﬂeet size (each vehicle has a capacity indicated by
+CAP), (b) single depot (denoted as Vo), (c) deterministic
+demand (each customer has a certain demand Atlp which
+should be delivered by their due dates DDp), (d) oriented
+
+
+2. REQUIRED DATA EXTRACTING
+2. REQUIRED DATA EXTRACTING
+Ecnomic and Enviromental Data
+Ecnomic and Enviromental Data
+
+3. SCENARIOS GENERATION
+3. SCENARIOS GENERATION
+Implementation Case Study Approach
+Implementation Case Study Approach
+
+4. INITIAL SOLUTION GENERATION
+4. INITIAL SOLUTION GENERATION
+Exact Algorithm
+Exact Algorithm
+
+5. SCHEDULES ANALYSIS AND
+5. SCHEDULES ANALYSIS AND
+MODIFICATIONS
+MODIFICATIONS
+
+no
+
+6. SCENARIOS
+APPROVAL
+
+yes
+
+SCHEDULES EXECUTING AND UPDATING
+SCHEDULES EXECUTING AND UPDATING
+
+s:t: Ax ¼ b
+
+ð2Þ
+
+T ðxÞx þ WyðxÞ ¼ hðxÞ
+
+ð3Þ
+
+x ! 0;
+
+1. MODEL BUILDING
+1. MODEL BUILDING
+A Two-stage Stochastic Programming Formulation
+A Two-stage Stochastic Programming Formulation
+Mathematical Model
+Mathematical Model
+
+ð4Þ
+
+yðxÞ ! 0
+
+The objective function contains a deterministic term cT x
+and the expectation of the second-stage objective
+qðxÞT yðxÞ taken over all realizations of the random event
+x. The ﬁrst-stage decisions are represented by the vector x
+and matrices c, b and A. In the second stage, a number of
+random events x 2 X (X denotes the set of all possible
+scenarios and x a particular scenario) may be realized. For
+each x, the value yðxÞ is the solution of a linear programme. For a given realization x, the second-stage
+problem data qðxÞ; hðxÞ; and T ðxÞ become known. Each
+component of q; h; and T is thus a possible random
+variable.
+In the developed stochastic optimization model, the
+delivery velocities and their corresponding greenhouse
+gas emissions are considered as uncertain parameters. The
+second-stage decision variables are Etlk ðxÞ the total
+carbon emissions value in route between locations l and k
+in time period t. Total produced carbon emissions over
+(OEtlk ðxÞ) and under (UEtlk ðxÞ) are the permissible limits
+in route between locations l and k in time period t; Etlk ðxÞ
+are deﬁned. Additionally, we deﬁne binary decision
+variables Ztlk (l = k), equal to 1 if and only if the route f
+location l to location k will be used in time period t and 0
+otherwise. Given the previous problem deﬁnition, the
+resulting formulation is given in the following steps by
+(5)–(20).
+XX
+min
+DClk Á Dlk Á Ztlk þ Ex ½QðX; H; Z; xÞ
+ð5Þ
+t2T p2P
+
+Fig. 1 Research methodology
+
+X
+
+Ztlk ¼ 1
+
+8 k 2 Lnf1; lg;
+
+t2T
+
+ð6Þ
+
+Ztlk ¼ 1
+
+8 l 2 Lnf1; kg;
+
+8t2T
+
+ð7Þ
+
+l2L
+
+network (n nodes represent geographically customer locations L separated by distance Dlk), (e) the transportation
+cost from the depot to these locations can vary (a unit
+transportation cost DClk is a function of the vehicle travelled distance for delivering the customer orders) and
+(f) objective: minimizing total distribution costs.
+Given this uncertainty, the two-stage stochastic programming model is developed because the model deals
+with two levels of decisions. Both stages present the tactical and operational decisions. The uncertainties are
+mostly found in the operational stage since most operational parameters are not fully known when the tactical
+decisions have to be made. The scenario-based approach is
+used in this paper to model the problem under uncertainty.
+The compact form of the stochastic model can be stated as
+follows [1, 18]:
+Â
+Ã
+min z ¼ cT x þ En min qðxÞT yðxÞ
+ð1Þ
+
+
+
+X
+k2L
+
+X
+
+Atkp !
+
+p2P
+
+X
+
+Atlp À CAP þ CAP Á ðZtkl þ Ztlk Þ
+
+8 t 2 T;
+
+8k2L
+
+p2P
+
+ð8Þ
+X
+
+Atkp
+
+CAP À
+
+p2P
+
+CAP À
+
+X
+
+!
+Qtkp
+
+Á Zt1k
+
+8 t 2 T;
+
+8k2L
+
+p2P
+
+ð9Þ
+X
+
+Atlp À
+
+p2P
+
+X
+
+Qtlp À
+
+p2P
+
+X X
+
+Qtip Á Ztil ! 0 8 t 2 T;
+
+8l2L
+
+p2P i2Lnf1g
+
+ð10Þ
+X
+
+Atlp
+
+CAP
+
+ð11Þ
+
+8 l 2 L; t 2 T
+
+p2P
+
+X
+k2Lnf1g
+
+Zt1k À 0:99 !
+
+X Qtlp
+CAP
+l2Lnf1g
+
+8 t 2 T;
+
+8p2P
+
+Atlp ! 0
+
+Page 5 of 10 9
+
+8l2L
+
+8 l 2 L;
+
+ð13Þ
+
+8 t 2 T;
+
+8p2P
+
+ð14Þ
+
+where Q (X,H,Z,x) is the optimal value of the following
+second-stage problem:
+Min QðX; H; Z; xÞ
+X X X
+¼
+½ðEMlk Á Bl Þ Á Vtlk ðxÞ þ Flk Á OEtlk ðxÞ þ Glk Á UEtlk ðxÞ
+l2L k2Lnflg t2T
+
+ð15Þ
+Min Vtlk ðxÞ Á Ztlk
+8 t 2 T;
+X
+
+Vtlk ðxÞ
+
+8 l 2 L;
+
+Max Vtlk ðxÞ Á Ztlk
+
+8 k 2 Lnflg;
+
+EMlk Á Vtlk ðxÞ ¼ Etlk ðxÞ
+
+8x2X
+
+ð16Þ
+
+8 t 2 T;
+
+l2L
+
+8 l 2 L;
+
+8 k 2 Lnflg;
+
+8x2X
+
+OEtlk ðxÞ ! Etlk ðxÞ À Max E Á Ztlk
+8 l 2 L;
+
+8 k 2 Lnflg;
+
+8 t 2 T;
+
+8x2X
+
+UEtlk ðxÞ ! Min E Á Ztlk À Etlk ðxÞ 8 t 2 T;
+8 l 2 L; 8 k 2 Lnflg; 8 x 2 X
+OEtlk ðxÞ; UEtlk ðxÞ; Vtlk ðxÞ !
+8 l 2 L;
+
+8 k 2 Lnflg;
+
+ð17Þ
+ð18Þ
+ð19Þ
+
+8 t 2 T;
+
+8x2X
+
+ð20Þ
+
+Equation (5) is the objective function to be minimized
+including the total distribution costs of distribution across
+the tactical stage, in addition to the expectation of the
+second-stage (recourse value) problem across the operational stage. Constraints (6) and (7) ensure that each
+location [except the depot] is visited exactly once in each
+time period. Furthermore, constraints (8), (9) and (10)
+generate the optimal route sequencing. Moreover, constraint (11) controls the delivering capacity, while constraint (12) ensures that enough vehicles are sent out of
+the depot. Constraint (13) sets the binary restrictions for
+the ﬁrst-stage binary variables, and constraint (14) is the
+non-negativity constraint for all ﬁrst-stage continuous
+variables.
+The second-stage objective function (15) minimizes the
+total costs associated speed and their related emissions,
+penalties for overage and underage emissions. Constraint
+(16) ensures that the chosen velocity at each route in each
+time period at each scenario is between the realized minimum and maximum velocities on that route. Constraint
+(17) calculates the total emissions level of each chosen
+route. Constraints (18) and (19) calculate the overage or
+underage emissions, respectively, based on the comparison
+between the actual emissions that would result due to the
+chosen velocity and the standard emissions limits. Constraint (20) is the non-negativity constraint for the secondstage variables.
+
+3.3 Case studies
+In order to check the applicability of the developed model
+in practice as identiﬁed in Sect. 3.2, a qualitative approach
+has been used based on a case study analysis. The mathematical model is tested in various scenarios of real-world
+case studies from batch process industry. The case studies
+selection approach has been motivated based on the
+information-oriented process [8]. In this approach, the
+information content should be withdrawn into two phases:
+preliminary set of companies’ selection and participation
+willingness in research.
+In the ﬁrst phase, online database containing information about multinational companies was used. The selection
+of the initial set of companies was based on the following
+speciﬁc criteria: (a) producing in batches, (b) providing
+different in the range of batches, (c) foster a vocation to
+social responsibility and environmental-friendly management, (d) involved in previous research projects in order to
+facilitate the information ﬂow and (e) their data follow a
+regular trend, except during the holidays. Thus, sample of
+those data can be generalized to represent the batch process
+industry. A list of nine companies was selected as possible
+cases due to these criteria.
+In the second phase, an enquiry was conducted to secure
+the acceptance of companies to participate in this research
+and to check the above listed criteria. Out of ﬁve companies agreed to be involved in the case study investigation,
+only two case studies from batch process industry are
+suitable for this research.
+The ﬁrst case study was conducted in one of the world’s
+leading companies in the ﬁeld of foods and beverages
+processing industry with employs more than 1500
+employees. This company is a single huge plant with seven
+departments. Currently, the core business of the company
+includes processing and distribution of wide range of dairy
+and frozen products packaged under more than 40 brand
+names. Across 62 countries around the world, these products are ordered in batches. In 2005, the company was
+determined to be one step ahead on social responsibility
+and environmental-friendly management issues. It started
+by using new materials during the production processes,
+importing eco-efﬁciency methods and increasing employee
+involvement. Recently, the management has focused on
+developing solutions which consider the environmental
+impact of their distribution activities particularly in the
+ﬁeld of reducing emission-related issues.
+The second case study was conducted in a multinational
+consumer goods company and manufacturer of product
+ranges including personal care, household cleaning, laundry detergents, prescription drugs and disposable nappies.
+
+more than 80 brands across more than 70 countries all over
+the world. Since 1999, the company has provided products
+of superior quality and value that improve the lives of the
+world’s consumers. Their sustainability objective is to
+create industry-leading value with consumer-preferred
+brands and products while conserving resources, protecting
+the environment and improving the social conditions. By
+2010, the company has reduced the total CO2 emissions by
+about 14 % per unit of production. Currently, they focus to
+make progress by optimizing the distribution routes and
+involving economic, environmental and social sustainability objectives during the planning and distribution
+processes.
+In both case studies, demand and supply follow a regular
+trend. Based on the customers’ demands, the number of
+required delivery vehicles is calculated. The current distribution strategy is to ship all the requirements of the
+target customer using homogeneous trucks, single-size
+vehicles and single-delivery shipment. All batches are
+packaged in a standard load pack before distribution. The
+unit load stacked at each pallet is 7 kg. Therefore, the
+amount of each product carried in a pallet varies from one
+product type to another. This amount differs depending on
+the batch type, dimensions and size. Each vehicle is a
+twenty-foot equivalent unit. The numbers of pallets that
+can ﬁt on a vehicle are 11. For the used heavy duty trucks
+which emit four times more than passenger cars on average
+[11], GHG emissions values are 1.726 kg CO2 per vehiclemile, 0.021 g CH4 per vehicle-mile and 0.017 g N2O per
+vehicle-mile at the average velocity (50 mph) (Climate
+Leaders GHG Inventory [4]). These values demonstrate
+that CO2 represents more than 99 % by mass of all the
+gaseous components of exhaust. Based on these values, the
+emission factor (Bl) is estimated for each case study.
+
+4 Implementation, results and discussions
+In this section, we will discuss results obtained from the
+implementation of the mathematical model in the case
+studies. Furthermore, the quality of the stochastic programming solution will be compared to those obtained
+using a deterministic approach. Then, the decision of the
+delivery velocities and related CO2 emissions as environmental parameter will be numerically analysed.
+In the ﬁrst case study, the model was implemented in
+the liquid department. The selection of this department
+was based on its good reputation with about 30 % of the
+market share. Within that department, three types of liquids are produced: long-life processed milk, ﬂavoured
+milk and long-life juices. Each of these liquids is packaged under different brand names with different volumes.
+
+
+
+
+
+The second case study was carried out in the beauty, hair
+and personal care liquids section. The developed model
+was implemented in the shampoo department (of the
+liquids section) which brought the company about 8 % of
+its income.
+All the required characteristics which are related to
+demand, routes, depot, distribution nodes and vehicles
+were collected. These characteristics generate the inputs to
+the mathematical model as shown in Fig. 2 and Table 1.
+Figure 2 shows that the geographical ﬁeld (to scale) of
+each case study represents the distance between all pairs of
+nodes including the depot (manufacturing facility). All the
+possible connections between nodes have been taken into
+consideration while generating the distribution network.
+Any node can be served directly from the depot or after
+another delivery points according to the optimum routes
+and vehicle capacity. Moreover, speed limits of these
+routes were noted and used to calculate the emission-related values.
+The model is solved using the standard sequential linear
+programming. As the model class is an integer linear
+programming (ILP), the global optimum solution is stated
+using branch and bound algorithm (i.e. the solver type is
+branch and bound). The model is linear in both the ﬁrst and
+second stages. All computations were run using the
+LINGOÒ 10.0 optimization package on a machine with
+CORETM i5 2.6 GHz processor and 4 GB RAM under
+Windows 7 Enterprise.
+For the distribution decisions, distribution plans were
+generated. These plans were then presented in the form of
+the optimal delivery routes. These routes should be driven
+to distribute the production quantities to the different
+locations according to customers’ needs. The values of the
+binary decision variable Ztlk yielded these distribution
+routes. The results of the second stage were also optimized.
+The values of the optimum velocity and its related emission
+quantities were determined. These values are yielded only
+when the route is selected—when the vehicles’ routing
+decision variable value Ztlk equals one. The main results are
+summarized in Table 2.
+After obtaining the optimal solution, the analysis of the
+outcomes is performed to show the importance of modelling the presented framework in this way. This analysis
+involves: (a) evaluating the usefulness of the stochastic
+modelling approach instead of a deterministic one and
+(b) sensitivity analysis of the velocity because it is the
+most inﬂuential model parameter around the optimal
+values.
+Commonly, due to the computational difﬁculty of
+solving the stochastic models, the usefulness of the
+stochastic modelling approach is always questionable. To
+check the suitability of using stochastic programming, the
+
+2nd case study
+1st case study
+L1
+
+L6
+
+L3
+L4
+
+Depot
+
+L2
+
+Depot
+L1
+
+L6
+
+L4
+
+L7
+
+L2
+
+L5
+
+L3
+
+L5
+
+Fig. 2 Geographical ﬁeld of case studies to scale
+
+Table 1 Case study characteristics
+
+min
+
+Character
+
+First case study
+14,505
+
+16,6215
+
+Time periods
+
+2
+
+3
+
+Number of batches families
+
+7
+8
+
+7
+
+X X X
+
+½ðEMlk Á Bl Þ
+
+l2L k2Lnflg t2T
+
+ÁV0tlk þ Flk Á OEtlk þ Glk Á UEtlk 
+MinVtlk Á Ztlk
+
+MaxVtlk Á Ztlk
+
+ð21Þ
+
+8 t 2 T;
+
+8 l 2 L;
+
+8 k 2 Lnflg
+
+10
+
+Nodes (including depot)
+
+DClk Á Dlk Á Ztlk þ
+
+t2T p2P
+
+Second case study
+
+Weekly demand (batches)
+
+XX
+
+X
+
+V0tlk
+
+ð22Þ
+EMlk Á V0tlk ¼ Etlk
+
+8 t 2 T;
+
+8 l 2 L;
+
+8 k 2 Lnflg
+
+l2L
+
+deterministic optimization problem are quantiﬁed. For
+stochastic models, when multiple runs of the models are
+averaged out, it still cannot be concluded that the output
+will also be the same. But after looking at the deﬁnition of
+the models and how the results are produced, it is possible
+to get a better understanding of how models will behave
+under different inputs and different scenarios [24].
+In order to obtain the deterministic values of the
+developed model, the stochastic values of the delivery
+velocities and their related emission values are replaced by
+their average values. Therefore, the environmental objective function and constraints will be reformulated as
+follows:
+
+Table 2 Main computational
+results
+
+Character
+
+ð23Þ
+OEtlk ! Etlk À MaxE Á Ztlk
+8 k 2 Lnflg
+
+8 t 2 T;
+
+8 l 2 L;
+
+UEtlk ! MinE Á Ztlk À Etlk
+8 k 2 Lnflg
+
+8 t 2 T;
+
+8 l 2 L;
+
+OEtlk ; UEtlk ! 0
+
+8 t 2 T;
+
+8 l 2 L;
+
+ð24Þ
+ð25Þ
+
+8 k 2 Lnflg
+
+ð26Þ
+
+Furthermore, two values should be calculated: the
+expected recourse problem (RP) solution value and the
+expected result of using the expected value (EEV). RP is
+the generated value when a model is solved using the real
+values. EEV corresponds to one particular scenario in
+
+First case study
+
+Second case study
+
+Total variables (integers)
+
+10,702 (177)
+
+18,413 (229)
+
+Constraints
+
+13,042
+
+22,408
+
+Number of iterations till optimality
+
+945,891
+
+15,065
+
+Objective function value €
+
+288,508.6
+
+460,304.3
+
+Total number of generated routes
+
+5
+
+16
+
+
+Table 3 VSS results for
+different tested scenarios
+
+Number of scenarios
+
+VSS value €
+
+(VSS/RP) %
+
+10
+
+287,292
+
+324,797
+
+37,506
+
+13.055
+
+288,509
+
+320,230
+
+31,722
+
+10.995
+
+30
+
+289,202
+
+315,840
+
+26,638
+
+9.211
+
+40
+
+289,287
+
+307,590
+
+18,303
+
+6.327
+
+50
+
+289,590
+
+304,341
+
+14,751
+
+5.093
+
+10
+
+460,577
+
+508,680
+
+48,103
+
+10.444
+
+20
+
+460,304
+
+499,780
+
+39,476
+
+8.576
+
+30
+
+460,453
+
+495,655
+
+35,202
+
+7.645
+
+40
+
+459,925
+
+484,368
+
+24,444
+
+5.315
+
+50
+
+Second case study
+
+EEV value €
+
+20
+
+First case study
+
+RP value €
+
+460,267
+
+481,360
+
+21,093
+
+4.583
+
+which the corresponding expected value (EV) replaced the
+observation of the random values. The difference between
+the RP and EEV is deﬁned as the value of the stochastic
+solution (VSS). The VSS is the concept that precisely
+measures the quality of a decision [1].
+To display these values, datasets of 10, 20, 30, 40 and 50
+scenarios were tested. Table 3 shows the values of running
+these numbers of scenarios and their corresponding running
+time. For each dataset, the RP, EEV and VSS values are calculated. Moreover, the VSS as a percentage of the overall RP
+solution is reported. Since all VSS have positive values,
+dealing with uncertainty really matters. Therefore, optimal
+solutions are sensitive to the value of the random elements.
+The difference between the optimal solution (generated from
+the stochastic modelling) and the expected solution (generated
+form the deterministic modelling) is between 13 and 4 percentages for datasets of 10, 20, 30, 40 and 50 scenarios. The
+VSS values verify the signiﬁcance and beneﬁts of using the
+stochastic modelling approach. In the deterministic model, the
+average delivery velocity (km/h) was 75 and the average
+emission factor (kg CO2/km/h) was 1.2 in both case studies.
+Moreover, the delivery velocity of the base in the second
+stage in the developed stochastic model is examined. The
+generated emissions during distribution depend mainly on
+the delivery velocity as mentioned earlier. The optimum
+transporting velocity values were generated in the case
+studies. When the required batches are delivered faster than
+the optimum, more emissions are generated which is
+directly proportional to emission costs. Table 4 shows the
+effect of changing the delivery velocities in the distribution
+phases on the total cost.
+Results show that the change of the velocity negatively
+or positively results in the increase in the value of the total
+cost. However, decreasing the velocity parameter increases
+the costs at a higher rate more than the effect of increasing
+this factor. The optimal solution guarantees that the output
+schedule generated with the least cost value. The conclusion is that the optimum solution is more sensitive to
+decreasing the delivery velocity time than increasing it.
+
+
+
+Table 4 Change of objective cost value in response to change of
+velocity
+Velocity
+changing
+(%)
+
+% of the
+environmental/total
+cost
+
+Sensitivity
+coefﬁcient in the
+environmental
+cost
+
+Sensitivity
+coefﬁcient in
+the total cost
+
+-25
+
+32.07
+
+1.35
+
+0.43
+
+-20
+
+32.02
+
+1.08
+
+0.34
+
+-15
+
+31.96
+
+0.81
+
+0.25
+
+-10
+
+31.90
+
+0.54
+
+0.17
+
+-5
+
+31.84
+
+0.27
+
+0.08
+
+0
+
+31.78
+
+0.00
+
+0.00
+
+5
+
+31.84
+
+0.24
+
+0.07
+
+10
+
+31.89
+
+0.49
+
+0.15
+
+15
+
+31.94
+
+0.74
+
+0.23
+
+20
+25
+
+32.00
+32.05
+
+0.98
+1.23
+
+0.31
+0.39
+
+The total cost surges when the velocities fall due to rise in
+the lateness penalty. On the other hand, when the velocities
+increase, the total cost escalates due to heightened level of
+the emission penalty.
+In sum, the results of the model analysis show that it can
+generate the optimal solution for the batch process industry.
+This is veriﬁed and successfully implemented in two real-life
+industrial case studies that prove the model’s capability as a
+decision support system which addresses both routing and
+scheduling distribution decisions. Using the previous scenarios, the ﬂexibility of the proposed integrated green model
+is proved while taking into consideration most of the special
+features in the batch process industry.
+
+5 Conclusions
+The main goal of this study is to show the potential of the
+introduction of a green logistics model in batch process
+values and the related emissions has been proved.
+On the one hand, the importance of optimizing transport
+planning was shown in cost and emission savings. Based
+on the results, a batch process facility improves its efﬁciency objectives from economic and ecological perspectives. On the other hand, the optimal transporting velocity
+ranges should be strictly observed during logistics physical
+activities. Due to the uncertain dynamic environment,
+controlling delivery velocities is not that easy in practice.
+For these reasons, extra costs must be incurred in training
+and education of human resources who are involved in the
+distribution processes in order to increase their level of
+green awareness and knowledge. This could be studied in
+depth for further research.
+Furthermore, the proposed model supports academic
+green logistics models and real-world supply chain decision making in batch process industry. Developing and
+implementing the proposed green logistics model provide a
+practical tool which links being green and being economically successful. Within the globalized market, greening
+the batch supply chain through an environmentally friendly
+logistics network design guarantees competitive advantages and meets the customers’ expectations and social
+responsibilities requirements.
+In addition, the model can also be applied to other
+companies in order to assess the accuracy of the conclusions reached in this paper. Further research may also lead
+to ﬁnding cleaner routes, through the development of exact
+or approximate algorithms. Additionally, adding other
+sources of uncertainties within the distribution phases will
+positively enrich the credibility of this model. In this
+dynamic environment, uncertainties are represented by the
+gap between the planned and actual system status. This gap
+shows a new challenge for the management of complex and
+dynamics supply chain processes. Finally, deﬁning a useable way to obtain real measures for CO2 emissions will
+highly improve the accuracy of the results and therefore the
+decision of the driver during delivery.
+There are many prospects for further research on this
+work. One is involving the green aspects in the production
+stage, rather than just in the distribution phase. A second
+addition could be using different emission estimation ways
+and comparing them altogether. A third extension is adding
+other sources of uncertainty, such as the production costs
+and capacities. A fourth and ﬁnal direction could be calculating the effect of considering the social criteria such as
+improving labour conditions and human rights.

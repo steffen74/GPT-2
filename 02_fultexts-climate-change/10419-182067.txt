@@ -1,0 +1,1795 @@
+
+Second query
+
+TOPIC (electric OR hybrid OR “plug-in hybrid” OR
+“fuel cell”)
+
+TOPIC (electric OR hybrid OR “plug-in hybrid” OR
+“fuel cell”)
+
+AND TOPIC (vehicle OR van OR truck)
+
+AND TOPIC (vehicle OR van OR truck)
+
+AND TOPIC (urban OR city)
+
+AND TOPIC (“last mile”)
+
+AND TOPIC (freight OR distribution OR logistics)
+This group of subsets refers to all possibilities in the
+combinations between two types of vehicles (BEVs
+and HEVs) and two UFT markets (retail and express/
+post) including the empty set (unspecified). The total
+number of the subsets in this group is derived from the
+product of the subsets’ numbers of two vehicle types
+and two UFT markets (  2 ∙ 22 = 16 ). The brackets in
+2
+some subsets represent that the elements in the brackets
+are one subset. For instance, in the subset: (BEVs,
+HEVs) - Retail, the two vehicle types are considered
+as one subset in the set V and the retail market is the
+subset in the set M. This subset presents a situation that
+the two vehicle types can be simultaneously employed
+in the same UFT market. Following this example, the
+combinations between four types of ECVs and five UFT
+markets generate 512 possibilities in the set CECV-UFT.
+This number implies that assessment of satisfactory
+match for increasing the market penetration of ECVs
+also has to consider the diversity outlined in this
+section.
+3	METHODOLOGY
+This paper applies a Systematic Literature Review
+(SLR) to accomplish its goal. The SLR is preferred
+because it provides a rigorous and systematic protocol
+to search and select scientific articles related to a
+particular topic as well as analyzing and synthesizing
+contributions of such articles to derive findings [51–53].
+Conducting this rigorous protocol enable reviews to
+minimize the risk of bias and obtain transparent as well
+as reasonable conclusions [54]. This paper adapts the
+SLR methodology from Benetti et al. [51]. It comprises
+five steps, which are a statement of objective, selecting
+sources, selecting keywords and articles, classification
+and summarization of results.
+Statement of Objective: The objective of carrying
+the SLR is to identify the primary focus of existing
+works and the extent of diversity (the number of ECVUFT combinations) already considered in the literature.
+The role of this identification is to collect evidences for
+exploring the significance of studying the diversity in
+the employment of ECVs in UFT.
+
+Selecting Sources: The literature is searched
+mainly in four academic databases, which are Web
+of Science, Scopus, IEEE Explore and Springer Link.
+These databases are preferred because they cover
+multidisciplinary journals, books, and conference
+proceedings. In addition, searching articles in these
+databases enables us to track and understand state of
+the art comprehensively in regard to the employment
+of ECVs in UFT.
+Selecting Keywords and Articles: This step specifies
+keywords to use in searching relevant literature from
+databases, as well as criteria for filtering articles. Thus,
+to search the literature on the employment of ECVs in
+UFT, the keywords “electric”, “vehicle”, “urban”, and
+“freight” (Table 4) are specified. In addition to these
+keywords, there are synonyms, such as van and truck
+(vehicle), city (urban), and distribution, logistics as well
+as last mile (freight). These synonyms are also used
+in querying the databases. Furthermore, the related
+terms, such as hybrid, plug-in hybrid, and fuel cell are
+also considered in the query. Each database is searched
+using two queries. The specified key terms are searched
+in titles, abstracts, and keywords of the literature.
+After specifying the keywords, a search process is
+conducted to select articles. Four criteria including time
+span, language, repetitions, and pertinence are applied
+to filter the articles. Firstly, a time span to search for
+the latest literature is chosen. As far as the world has
+approximately increased their attention on ECVs in
+UFT since last decade, then this paper uses a time
+span that ranges from 2007 to 2018. Further criterion
+concerns articles published in the English language. To
+this effect, the two queries were conducted in the four
+databases to yield 2752 articles. Further filtration of the
+articles involves checking for redundancy (repetitions).
+Deleting redundant resulted in a total of 1957 articles.
+An additional task involves examining titles and
+abstracts of such articles to identify their pertinence.
+Since some articles focus on studying buses, bikes,
+tricycles, passenger cars, rail and sea transport,
+which are irrelevant to the ECVs and the UFT, such
+impertinent articles are excluded. In the end, a total of
+on the primary focus of the article. Accordingly, base
+criteria for this classification are the areas of focus,
+and the issue addressed in each article (as presented
+in Table 5).
+Summarizing Results: Finally, the areas of focus,
+the number of ECV-UFT combinations considered in
+the literature, the publication years, countries of origin,
+and subject areas are illustrated as the results by using
+tables and diagrams. The goal of summarizing these
+results is to enable further analysis.
+4	RESULTS
+This section presents results obtained after searching
+and filtering the literature. The analysis of results
+falls in the following categories: years of publication;
+country of origin; subject areas; thematic description,
+
+and; existing ECV-UFT combinations. Beginning
+with years of publication, Fig. 2 shows the number
+of articles published per year (from 2007 to March of
+2018). The figure portrays that publications addressing
+issues related to ECVs in UFT had increased in a period
+between the years 2014 to 2017.
+The second consideration entails analysis of results
+in a perspective of countries in which the publications
+originated (Fig. 3). As far as authors of articles may
+originate from different countries, this figure is
+plotted in terms of the affiliations of first authors. In
+a summarized form, a total of 47 published articles
+originated from Europe; eight articles originated from
+North America, three articles originated from Asia.
+South America and Africa had one article each.
+Furthermore, Fig. 4 summarizes the subject areas of
+these articles as part of the results. These areas are
+determined by journal subjects in whom these articles
+are published. Notably, different categories of the
+same subject area, such as the transportation category
+
+18
+
+Number of articles
+
+16
+14
+12
+10
+8
+6
+4
+2
+0
+
+2007 2009 2011 2012 2013 2014 2015 2016 2017 2018*
+
+Year
+
+Fig. 2: Number of articles in each year
+12
+
+Number of articles
+
+10
+8
+6
+4
+2
+0
+
+Country of origin
+
+
+and the urban studies category in social science are
+considered as a one-subject area, namely social
+science. In addition, some journals involve more than
+one subject area. For example, the journal Transport
+Research Part D involves two subject areas: social
+science and environmental science. To this effect, all
+these subject areas, which are involved in the same
+journal, are also counted in Fig. 4.
+The thematic description of reviewed articles involves
+three main aspects: area of focus, issues addressed, and
+approach or method used (Table 5). This description
+reveals that existing literature has focused mainly on
+four areas to address fifteen issues. The four areas are
+feasibility, adaptations of logistics concept, adaptations
+of vehicle concept, and support of stakeholders.
+Fig. 4: Percentage of subject areas in the articles
+selected by the SLR
+Table 5: Thematic description of the articles
+Area of Focus Issue Addressed
+
+Competitiveness of employing ECVs
+in UFT
+
+Simulation, case study
+
+[25, 26, 74–82, 66–73]
+
+Simulation
+
+[14, 16, 83–89]
+
+Simulation, case study
+
+[90–94]
+
+ICT
+
+Machine learning
+
+[95, 96]
+
+Charging-while-driving
+
+Simulation
+
+[97]
+
+Multi-city urban logistic model
+
+Simulation
+
+[98]
+
+Sharing parking places
+
+Simulation
+
+[99]
+
+Day and night delivery
+
+Supporting
+stakeholders
+
+[7, 9, 63–65, 55–62]
+
+UCCs + BEVs
+
+Adapting
+vehicle
+concept
+
+Review, survey, case study,
+the system of innovation
+
+EVRP
+
+Adapting
+logistics
+concept
+
+Literature
+
+Limitations and opportunities
+Feasibility
+
+Approach/Method
+
+Simulation
+
+[100]
+
+New architecture
+
+Simulation
+
+[101, 102]
+
+Improvement of the control system
+
+Simulation
+
+[103]
+
+Size of onboard energy for HEVs
+
+Simulation
+
+[104]
+
+Preferences of transport companies
+for ECVs
+
+Survey
+
+[8, 105]
+
+Business model
+
+-
+
+[106]
+
+Proper choice of ECVs for UFT
+
+Multi-criteria analysis
+
+and competitiveness of this employment were mainly
+discussed. The second area focuses on the adaption of
+existing logistics concept. Several possible solutions
+were proposed by adapting the existing logistics
+concept to fit the characteristics of ECVs. Similarly,
+some other possible solutions adapted existing vehicle
+concepts to satisfy the requirements of UFT in the
+third area. Finally, to facilitate the employment of
+ECVs in UFT, the fourth area explored possible
+solutions for supporting stakeholders. According
+to the number of articles in each area, there are 32
+articles (53%) studied the feasibility of ECVs, 20
+articles (33%) adapted logistics concept, 4 articles
+(7%) adapted vehicle concepts, and the rest of 4 articles
+(7%) explored solutions for supporting stakeholders.
+Among these articles, three of them in the area of
+supporting stakeholders are related to the satisfactory
+match. Besides, there is no articles directly studied the
+diversity in the employment of ECVs in UFT.
+
+In spite of this, the diversity in the employment of
+ECVs in UFT may be indirectly considered in the
+literature. To present the extent of the diversity has
+been indirectly studied in the literature, the ECVUFT combinations, which have been discussed in the
+extracted 60 articles, are subsequently summarized in
+Table 6. The number of each ECV-UFT combination
+appeared in the literature and in which topics these
+ECV-UFT combinations have been studied are
+introduced in this table.
+In total, the 60 articles involved 16 ECV-UFT
+combinations. Some articles considered only one
+vehicle type in one UFT market, such as BEVsRetail and HEVs-Express/post. On the contrary, some
+articles discussed diverse vehicle types in various
+UFT markets, such as (BEVs, HEVs, PHEVs)-(Retail,
+Express/post). These diverse vehicle types and
+various UFT markets in the brackets are respectively
+regarded as one subset. Furthermore, the results show
+that operating BEVs in an unspecified UFT (BEVUnspecified) is the most popular combination studied
+
+Table 6: Existing ECV-UFT combinations
+ECV
+
+UFT
+
+BEVs
+
+Frequency
+
+Feasibility
+
+Logistics
+
+Vehicles
+
+Stakeholders
+
+Unspecified
+
+31
+
+√
+
+√
+
+√
+
+√
+
+BEVs
+
+Retail
+
+9
+
+√
+
+√
+
+
+
+√
+
+BEVs
+
+Express/post
+
+3
+
+
+
+√
+
+
+
+
+
+BEVs
+
+Retail, Express/post
+
+3
+
+√
+
+√
+
+√
+
+
+
+HEVs
+
+Unspecified
+
+2
+
+√
+
+
+
+
+
+
+
+BEVs
+
+2
+
+√
+
+
+
+
+
+
+
+HEVs
+
+Retail, Express/post,
+HoReCa, Construction, Waste
+Express/post
+
+1
+
+
+
+
+
+√
+
+
+
+BEVs
+
+Waste
+
+1
+
+√
+
+
+
+
+
+
+
+BEVs
+
+Retail, HoReCa
+
+1
+
+
+
+√
+
+
+
+
+
+BEVs
+
+1
+
+√
+
+
+
+
+
+
+
+1
+
+√
+
+
+
+
+
+
+
+BEVs, HEVs
+
+Retail, Express/post,
+Construction
+Retail, Express/post,
+HoReCa, Waste
+Unspecified
+
+1
+
+√
+
+
+
+
+
+
+
+BEVs, PHEVs
+
+Unspecified
+
+1
+
+√
+
+
+
+
+
+
+
+BEVs, HEVs,
+PHEVs
+
+Retail, Express/post
+
+1
+
+
+
+√
+
+
+
+
+
+BEVs, HEVs,
+PHEVs
+
+Retail, HoReCa
+
+1
+
+√
+
+
+
+
+
+
+
+BEVs, HEVs,
+PHEVs, FCEVs
+
+Unspecified
+
+1
+
+√
+
+
+
+
+
+
+
+has appeared in entire four topics. Following the
+BEV-Unspecified combination, the BEV-Retail and
+the BEV-Express/post combinations have attracted
+relative high attention. Besides, the area of feasibility
+has involved the most types of ECV-UFT combinations
+(75%) appeared in the literature in comparison with the
+other three areas.
+5	DISCUSSION
+This section presents discussion to increase an
+understanding conveyed by analyzed results. The
+discussion takes into account the main areas of focus
+and the existing ECV-UFT combinations. As a result
+of this discussion, future research works, which once
+addressed can increase market penetration of ECVs in
+UFT, are accordingly proposed.
+According to results in Fig. 3, the majority of the
+continents have paid the attention on the employment
+of ECVs in UFT. In these continents, Europe and North
+America seem ahead of other continents. Furthermore,
+results on the subject areas (Figure 4) show that
+dealing with the employment of ECVs in UFT involves
+interdisciplinary studies. To this effect, improving
+employment of ECVs requires involving not only
+studies in the social science, engineering, computer
+science, and environmental science but also energy,
+psychology, decision science, business, management,
+and accounting.
+5.1	
+
+Employment of ECVs in UFT –
+the Primary Focus
+In dealing with the employment of ECVs in UFT,
+the literature appears to focus primarily on four
+areas, namely: feasibility, adaptations of logistics
+concept, adaptations of vehicle concept, and support
+of stakeholders (Table 5). Therefore, subsequent
+subsections present respective discussions.
+5.1.1	Feasibility
+In a standpoint of feasibility, the literature has identified
+the limitations, opportunities, and competitiveness of
+employing ECVs in UFT. In identifying these issues,
+most of such literature relies on the survey, case study,
+simulation as research methods. The literature identifies
+many opportunities, which drive the employment of
+ECVs in UFT. Some of these opportunities are the
+positive environmental performance (low emissions,
+noise, and energy consumption) and the positive social
+attitude (drivers and freight operators) [60–62, 64].
+Some other opportunities are the financial incentives
+(subsidies, tax exemption) and the non-financial
+incentives, such as preferential parking for ECVs,
+initiating repair centers for ECVs, allowing ECVs to
+drive on high occupancy or bus lanes, and privileges of
+accessing to low emission zones in city centers [7, 9].
+
+11
+
+Besides such opportunities, the literature has also
+identified limitations, which hinder the employment of
+ECVs in UFT. The limitations include:
+•	 Cost: high purchase price, battery price,
+infrastructure costs [57, 60–62, 64]
+•	 Technology: long charging time, limited driving
+range, payload capacity, battery lifetimes [57, 58,
+60, 63, 64]
+•	 Infrastructure: networks, diverse types of
+charging stations (battery charging with cables,
+battery swapping, or battery wireless charging),
+compatibility, grid issues [56, 60]
+In addition to outlined matters, there are other issues.
+These issues comprise security, limited availability
+of vehicles, few proper business models and lack
+of a comprehensive understanding between freight
+operators and policy makers [9, 60, 61, 65].
+The literature evaluates competitive advantages to
+employ ECVs in UFT, as compared to diesel commercial
+vehicles. The evaluation of this competitiveness
+focuses mainly on the economic and environmental
+perspectives. The economic perspective discusses
+the impact of the purchase cost, battery cost, fuel
+cost, and financial incentives for the competitiveness.
+The environmental perspective deals with some
+performances, such as CO2 emissions and energy
+consumption. The results of the evaluation show that
+the competitive advantages of ECVs depend on their
+powertrains and GVW. In general, the light-duty BEVs
+are the most competitive vehicles to operate in some
+parts of UFT, such as express/post market [68, 69,
+72]. For the medium-duty vehicles, diesel commercial
+vehicles remain the most interesting solution from
+the financial point of view [67, 75]. In the segment of
+heavy-duty vehicles, HEVs are more competitive with
+running in city areas rather than highway [67, 70].
+As one of the implications in the area of feasibility,
+it can be implied that the replacement of diesel
+commercial vehicles with ECVs in UFT appears
+possible. Additionally, some solutions and research
+perspectives have been suggested to address the issues
+raised by the studies on the feasibility. For example,
+from the economic point of view, the literature [24, 25,
+66, 68, 75] proposes to reduce the battery cost and the
+purchase price; to raise the fuel price (diesel and petrol),
+and; increase vehicle utilization (traveled distance
+per year per vehicle). From the technological point of
+view, it is recommended to develop Information and
+Communications Technology (ICT), infrastructures
+(networks and inductive systems), as well as EVRP by
+taking into account fleet sizes and charging strategies
+[7, 56, 57, 60, 63]. From the policies’ point of view,
+Taefie et al. [9] suggest to implement a city toll on the
+long-term and allow drivers with a class B license to
+drive ECVs over 3.5t. In addition, Roumboutsos et al.
+[55] suggest transferring leadership from central to
+municipal authorities for promoting the employment
+in literature have focused on adapting the existing
+logistics concepts, which are primarily designed for
+operating diesel commercial vehicles. The limited
+battery capacities of BEVs, as one of the characteristics,
+have been mainly discussed in this perspective of
+logistics. Schneider et al. [16], Guo et al. [88], and
+Panagiotis et al. [89] have formulated the EVRP in the
+condition of recharging BEVs at depots and available
+charging stations en route. On the contrary, Conrad and
+Figliozzi [14] and Aggoune-Mtalaa et al. [85] proposed
+vehicle routing models to recharge BEVs at customer
+locations rather than recharging stations. In exclusion
+of these articles that focus on homogeneous fleets,
+Van Duin et al. [83], Mirhedayatian and Yan [86], as
+well as Rezgui et al. [87] have investigated the EVRP
+with heterogeneous fleets. In addition to literature
+addressing the EVRP, Deflorio and Castello [97] study
+a concept of charging-while-driving to assess traffic
+and energy performance of electric power systems for
+dynamically charging ECVs while driving. Schau et
+al. [96] and Kretzschmar et al. [95] adapted existing
+ICT systems to predict the range of BEVs for fitting the
+limitation of battery capacities. Thus, to fit the limited
+battery capacities, the studies on the EVRP, the ICT,
+and the charging-while-driving have been conducted
+in the area of adapting logistics concept.
+To further fit the characteristics of ECVs into UFT,
+some works focused on innovating logistics concept.
+The combinations of UCCs and BEVs are one of the
+innovative logistics concepts. This concept suggested
+to constructing UCCs in relative proximity to the
+urban areas and replacing diesel commercial vehicles
+with BEVs to deliver goods in the cities [90, 91]. In
+this context, the limited driving range of BEVs is not a
+restriction anymore, because the daily traveled distance
+is shorter than the driving range [94]. Moreover,
+although the low payload capacity of BEVs led to more
+traffic, the total distance traveled, and CO2 emissions
+were reduced by conducting this concept [90–92, 94].
+In addition to the concept of UCCs, Faccio and Gamberi
+[98] introduced an innovative distribution network to
+integrate the distribution of goods in a cluster of linked
+small cities. Furthermore, to decrease the congestion
+resulting from the limited parking spaces, Boussier et
+al. [99] modeled a management process of the parking
+places sharing between car drivers and dedicated
+areas of goods deliveries. Besides, to reduce the total
+cost and increase the utilization of ECVs, Taefi [100]
+proposed an innovative combination of the day and
+night delivery by using BEVs. Given these points, to
+support the employment of ECVs in terms of their
+existing limitations, some works are contributing to
+this support by adapting the existing logistics concepts.
+
+5.1.3	 Adaptations of Vehicle Concept and
+Supporting Stakeholders
+To improve existing limitations of ECVs for satisfying
+the requirement of UFT, there are some works focused
+on the area of adapting vehicle concepts. For example,
+to fit the diverse delivery tasks in UFT, Andaloro et
+al. [101] defined and developed a flexible and modular
+light-duty BEVs with high payload capacity and a
+rolling chassis, which allows the integration with
+different powertrains and different upper bodies (vans
+or box vans). Molfino et al. [102] designed a new
+architecture for light-duty BEVs to autonomously load
+and unload palletized or boxed goods. Clarembaux et
+al. [103] improved the perception and control system
+of light-duty BEVs for parking/docking process. In
+addition, to adapt medium-duty HEVs to the parcel
+and delivery service, Lewis et al. [104] studied a fuel
+cell HEV to properly size the fuel cell and battery by
+using real-world operational data and duty cycles.
+On the whole, to improve the limitations of ECVs
+for efficiently delivering goods in diverse UFT, the
+flexible and modular BEVs, the autonomous loading
+and unloading, the intelligent parking/docking, the
+high payload capacity, and the proper size of fuel cell
+and battery in HEVs have been studied in the adaption
+of vehicle concept.
+Besides the vehicle and logistics concept, the possible
+solutions for supporting stakeholders have been explored
+as well. For instance, to support authorities increasing
+their understanding on the limitations of adopting ECVs
+in UFT, Lebeau et al. [8, 105] investigated the choice
+behavior of transport companies for BEVs by applying
+survey and conjoint based choice analysis. To support
+transport companies selecting appropriate BEVs for
+UFT, Watróbski et al. [50] proposed a unique approach
+in terms of multi-criteria analysis and discussed
+as well as ranked 36 available BEVs in the market.
+Furthermore, to support authorities employing ECVs
+in large scale, Cheng and Liu [106] provided a business
+operating model, which respectively considered
+different practitioners (battery plants, energy supply
+companies, automobile companies) as individual
+operating companies, to compare and discuss their
+advantages and disadvantages. To sum up, in the area
+of supporting stakeholders, the existing works studied
+the preferences of stakeholders for ECVs, proposed
+approaches of selecting proper ECVs, and discussed
+possible business models to facilitate the employment
+of ECVs in UFT.
+5.1.4	 Trend in the Literature
+Regarding the percentage of articles in each area
+(section 4), it appears that there is an unbalanced and a
+quite distinct focus in the literature. In particular, 53%
+of total articles focused on the area about the feasibility
+of ECVs. Moreover, there are 33% of total articles
+considered the adaptions of logistics concept. The least
+focus is seen in the adaptation of vehicle concept (7%)
+
+18
+
+Number of articles
+
+16
+14
+12
+10
+8
+6
+4
+2
+0
+
+2007
+
+2009
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+2017
+
+2018*
+
+Year
+Feasibility
+
+Logistics
+
+Vehicles
+
+Stakeholders
+
+Fig. 5: Number of articles in each area
+reveal that many studies focus on addressing the
+feasibility of ECVs as the main area. In spite of this,
+upon observing the number of articles in each area of
+focus from 2007 to March 2018 (Fig. 5), there is a trend
+of shifting the attention from the area of feasibility to
+other areas.
+Since 2015, the areas of focus have been enriched. The
+attention has started to be paid not only on the area of
+feasibility but also on the rest of three areas. It indicates
+that exploration of possible solutions to accelerate the
+employment of ECVs in UFT has gradually become a
+focus since the feasibility of employing ECVs in UFT
+has been widely accepted in academia. Accordingly,
+the areas of adapting logistics and vehicle concepts as
+well as supporting stakeholders have been increasingly
+studied in the literature. Although the majority of
+articles still focus on feasibility studies, the Fig. 5 shows
+that the trend of shifting the attention to the other areas
+has emerged in the existing works. This trend implies
+that the areas of focus may shift to exploring possible
+solutions in the context of the feasibility of some ECVUFT combinations that have been studied.
+5.2	 Existing ECV-UFT Combinations
+Although there are four areas of focus, which studied
+the employment of ECVs in UFT, the diversity in the
+employment, from which the satisfactory match can
+be obtained, have been overlooked. To explore the
+significance of the diversity and to what extent the
+diversity has been indirectly involved in the literature,
+the number of existing ECV-UFT combinations is
+counted in Section 4. The result shows that there are
+16 ECV-UFT combinations studied in the 60 articles.
+To render this result comparable with the number of
+total ECV-UFT combinations (512), the all possible
+subsets in these 16 ECV-UFT combinations are further
+derived. The procedure of deriving the subsets is same
+as the formation of the 512 ECV-UFT combinations.
+
+For instance, the combination of the three vehicle
+types (BEVs, HEVs, PHEVs) and the two UFT markets
+(Retail, Express/post) constitutes 32 (  3 ∙ 22 ) possible
+2
+subsets including empty sets. In total, there are 236
+possibilities derived from the calculation of all possible
+subsets in each of the 16 ECV-UFT combinations.
+Since some subsets are repeatedly calculated, there
+are finally 82 possible ECV-UFT combinations derived
+from the existing 16 ECV-UFT combinations exclusive
+of the repeated subsets. The details of the 82 possible
+ECV-UFT combinations are shown in Appendix Table
+8. Obviously, in comparison with the total number of
+ECV-UFT combinations, the 82 possible ECV-UFT
+combinations accounts for only a small portion of this
+total number (16%). This percentage indicates that the
+literature has paid least attention to many other possible
+ECV-UFT combinations (approximately 84%).
+The least attention paid by the literature may lead to
+the low market penetration of ECVs. In other words,
+the results derived from few specific ECV-UFT
+combinations in the literature may only contribute
+to understanding and solving few specific scenarios.
+For instance, in the area of feasibility, few ECVUFT combinations were examined. It leads to a
+limited understanding concerning the feasibility of
+the rest of ECV-UFT combinations. This shortage
+of comprehensive understanding may result in the
+hesitation of decision-makers in considering the
+employment of ECVs in UFT. To this effect, this
+hesitation may influence the market penetration of
+ECVs.
+Furthermore, in the areas of adapting logistics and
+vehicle concepts as well as supporting stakeholders,
+studies on few specific ECV-UFT combinations may
+only provide few specific solutions. For instance,
+according to the results obtained from Table 6, the
+most popular ECV-UFT combination is the BEV
+solutions proposed from this combination may only
+contribute to a few specific decision-makers, who
+intend to employ BEVs. Similarly, this limited range
+of possible solutions may also influence the market
+penetration.
+Given these points, the little diversity studied in the
+literature may hinder the improvement of the market
+penetration of ECVs in UFT. To this effect, three
+articles in Table 5 emphasizes the significance of taking
+into account the diversity as follows. Lebeau et al. [67]
+revealed the opportunities of reducing costs of UFT by
+including different fuel types of commercial vehicles
+in a fleet. Watróbski et al. [50] stated the importance of
+considering the specificity of the delivery tasks in UFT
+to properly choose BEVs. Christensen et al. [77] noticed
+the significance of the diversity and investigated the
+suitable commercial sectors of UFT to employ BEVs.
+5.3	 Future Research
+Towards increasing the market penetration of ECVs in
+UFT, future research may firstly focus on extending
+the range of studies about the ECV-UFT combinations.
+This extension in the future research contains the
+ECV-UFT combinations, which have not been studied
+in the literature yet. For instance, taking into account
+the HEVs and PHEVs to complete the delivery tasks
+in construction and waste markets (Table 7) can be a
+part of the extension. Furthermore, in this extension,
+it is essential to examine the feasibility of these ECVUFT combinations. The results of the studies on the
+feasibility may provide researchers and practitioners
+a comprehensive view about other possible ECV-UFT
+combinations. In a long-term perspective, the range of
+this extension may also integrate the FCEVs into the
+UFT.
+Some projects have initiated this extension. For
+instance, in National Renewable Energy Laboratory,
+the performance of the heavy-duty HEVs and the
+medium-duty PHEVs have been evaluated in retail
+and express/post market [107]. Additionally, FREVUE
+project has demonstrated light-, medium-, and heavyduty BEVs in entire five markets of UFT [108, 109].
+
+For the ECV-UFT combinations, whose feasibility
+has been studied in the literature, the future research
+may focus on shifting the attention to the exploration
+of possible solutions in the perspectives of logistics,
+vehicles, and stakeholders. In other words, after
+confirming the feasibility of some ECV-UFT
+combinations, the studies about these ECV-UFT
+combinations may step into other areas of focus
+concerning the possible solutions to facilitate the
+market penetration.
+Similarly, after extending the ECV-UFT
+combinations and examining the feasibility of these
+non-existing ECV-UFT combinations in the literature,
+the future research may focus on adapting the logistics
+and vehicle concepts regarding these extended ECVUFT combinations. In these two areas, the existing
+logistics and vehicle concepts are adapted to fit the
+context of diverse ECV-UFT combinations. These
+innovative adaptions may provide possible solutions
+to encourage researchers and practitioners taking
+into consideration the employment of ECVs in UFT.
+Besides, the solutions for supporting stakeholders
+(policy makers, freight operators, or grid managers),
+such as incentives, practical methodologies, and new
+business models, may also a potential perspective for
+future research.
+As a part of possible solutions for supporting
+stakeholders, the future research may focus on the
+assessment and selection of the satisfactory match
+between the feasible ECV-UFT combinations. As stated
+in section 2.3, although some works [8, 50] considered
+the diverse types of ECVs and various requirements
+of markets in UFT, appropriate methodologies for
+assessing the diverse ECV-UFT combinations and
+selecting the satisfactory match have not been proposed
+and discussed yet. Accordingly, to increase the market
+penetration of ECVs, the extension of ECV-UFT
+combinations in the four areas of focus as well as the
+assessment of the diversity to obtain the satisfactory
+match between the ECVs and the UFT are primary
+future research work.
+
+Table 7: Examples of possible ECV-UFT combinations in future research
+ECV – UFT combinations
+
+ECV – UFT combinations
+
+ECV – UFT combinations
+
+HEV – Construction
+
+PHEV – Construction
+
+(HEV, PHEV) – Construction
+
+HEV – Waste
+
+PHEV – Waste
+
+(HEV, PHEV) – Waste
+
+HEV – (Construction, Waste)
+
+PHEV – (Construction, Waste)
+
+
+6	CONCLUSION
+
+ACKNOWLEDGMENTS
+
+This paper provides an overview of the literature
+addressing the employment of ECVs in UFT. It
+focuses primarily on the diversity, which results from
+the match between diverse types of ECVs and various
+delivery tasks in UFT. This diversity is denoted as
+ECV-UFT combinations in this paper. The goal of the
+present paper is to explore the significance of studying
+such diversity for increasing the market penetration
+of ECVs. To achieve this goal, a systematic literature
+review is applied. This review involves identifying the
+primary areas of focus and the extent of the diversity
+in the literature.
+According to the topics and issues addressed in
+the literature, reviewed articles fall into four areas of
+focus, which are the feasibility of ECVs, adaptions of
+logistics concepts, adaptions of vehicle concepts, and
+support of stakeholders. In addition, by observing the
+number of articles in each area within a decade, the
+attention of studying the employment of ECVs in UFT
+is shifting from examining the feasibility of ECVs to
+the exploration of possible solutions in the perspectives
+of logistics, vehicles, and stakeholders. In spite of this,
+the diversity in the employment of ECVs in UFT has
+been overlooked in these existing works.
+The number of existing ECV-UFT combinations
+is accordingly calculated to indirectly present the
+extent of the diversity in the literature. The results
+show little consideration on potentials underlying
+diversity in the employment of ECVs in UFT. This
+little diversity may be among factors impacting the
+market penetration of ECVs on account of lacking a
+comprehensive view. This incomprehensive view may
+result in a hesitation of decision-makers to consider the
+employment of ECVs in UFT. Given these points, the
+present paper has contributed to proposing the concept
+regarding the diversity, reviewing the state of the art
+in the employment of ECVs in UFT, and presenting
+the significance of the diversity for obtaining the
+satisfactory match to increase the market penetration.
+Although these insights are deduced by means of a
+strict scientific methodology, it is acknowledged that
+this review in this emerged research field may not be
+exhausted. The reason for this non-exhausted review is
+that some works in academic databases may have been
+omitted, when we conducted this review.
+For the future research, it is worth paying attention on
+the diversity by extending the ECV-UFT combinations in
+the four areas of focus. For the ECV-UFT combinations,
+which have not been studied in the literature yet, the
+future research may focus on examining the feasibility
+of these ECV-UFT combinations. After increasing the
+understanding on the feasibility of the majority of ECVUFT combinations, the future research may rank the
+feasibility of the ECV-UFT combinations. For the high
+ranked ECV-UFT combinations, the future research
+may step into the exploration of possible solutions in
+the perspectives of logistics, vehicles, and stakeholders.
+
+The authors would like to acknowledge the support of
+China Scholarship Council (CSC) and International
+Graduate School for Dynamics in Logistics (IGS) at
+the University of Bremen.
+Compliance with ethical standards
+Conflict of interest: The authors declare that they have
+no conflict of interest.
+REFERENCE
+	 1. 	Dablanc L (2009) FREIGHT TRANSPORT FOR
+DEVELOPMENT TOOLKIT: Urban Freight
+	 2. 	
+MDS Transmodal Limited (2012) DG MOVE
+European Commission : Study on Urban Freight
+Transport
+	 3. 	
+Comi A, Donnelly R, Russo F (2013) Urban
+Freight Models. Elsevier Inc.
+	 4. 	Taniguchi E (2013) Management for Sustainable
+and Liveable Cities. https://www.rvo.nl/sites/
+default/files/2014/09/Urban Freight Transport
+Management-Taniguchi.pdf. Accessed 23 Apr
+2018
+	 5. 	
+European Commission (2011) WHITE PAPER
+Roadmap to a Single European Transport Area
+– Towards a competitive and resource efficient
+transport system
+	 6. 	Chan CC, Bouscayrol A, Chen K (2010) Electric
+, Hybrid , and Fuel-Cell Vehicles : Architectures
+and Modeling. IEEE Trans Veh Technol 59:589–
+598
+	 7. 	
+Pelletier S, Jabali O, Laporte G, et al (2016)
+50th Anniversary Invited Article—Goods
+Distribution with Electric Vehicles: Review and
+Research Perspectives. Transp Sci 50:3–22
+	 8. 	
+Lebeau P, Macharis C, Mierlo J Van (2016)
+Exploring the choice of battery electric vehicles in
+city logistics : A conjoint-based choice analysis.
+Transp Res Part E Logist Transp Rev 91:245–258
+. doi: 10.1016/j.tre.2016.04.004
+	 9. 	Taefi TT, Kreutzfeldt J, Held T, Fink A (2016)
+Supporting the adoption of electric vehicles in
+urban road freight transport – A multi-criteria
+analysis of policy measures in Germany. Transp
+Res Part A Policy Pract 91:61–79 . doi: 10.1016/j.
+tra.2016.06.003
+	10.	International Council on Clean Transportation
+(2017) European Vehicle Market Statistics
+Pocketbook 2017/18
+	 	
+11. Alexander D, Jerram L (2017) Executive
+Summary: Market Data Electric Drive Trucks
+	12. 	Sierzchula W (2014) Factors influencing fleet
+manager adoption of electric vehicles. Transp Res
+Part D Transp Environ 31:126–134 . doi: 10.1016/j.
+Freight Electric Vehicles Schemes: A Systematic
+Case Study Approach with Examples from
+Denmark, Germany, the Netherlands, Sweden
+and the UK. In: Dynamics in Logistics. pp 495–
+504
+	14. 	
+Conrad R, Figliozzi M (2011) The recharging
+vehicle routing problem. Proc 2011 Ind Eng Res
+Conf
+	 15. 	Sevgi Erdog˘an, Miller-hooks E (2012) A Green
+Vehicle Routing Problem. Transp Res Part E
+Logist Transp Rev 48:100–114 . doi: 10.1016/j.
+tre.2011.08.001
+	16. 	
+Schneider M, Stenger A, Goeke D, et al (2014)
+The Electric Vehicle-Routing Problem with Time
+Windows and Recharging Stations. Transp Sci
+48:500–520
+	17. 	Goeke D, Schneider M (2015) Routing a mixed
+fleet of electric and conventional vehicles.
+Eur J Oper Res 245:81–99 . doi: 10.1016/j.
+ejor.2015.01.049
+	18. 	
+Hiermann G, Puchinger J, Ropke S, Hartl RF
+(2016) The Electric Fleet Size and Mix Vehicle
+Routing Problem with Time Windows and
+Recharging Stations. Eur J Oper Res 252:995–
+1018 . doi: 10.1016/j.ejor.2016.01.038
+	19. 	Lu L, Han X, Li J, et al (2013) A review on the
+key issues for lithium-ion battery management in
+electric vehicles. J Power Sources 226:272–288 .
+doi: 10.1016/j.jpowsour.2012.10.060
+	20. 	
+Kelouwani S, Agbossou K, Dubé Y, Boulon L
+(2013) Fuel cell plug-in hybrid electric vehicle
+anticipatory and real-time blended-mode energy
+management for battery life preservation. J
+Power Sources 221:406–418 . doi: 10.1016/j.
+jpowsour.2012.08.016
+	21. 	
+Anseán D, Dubarry M, Devie A, et al (2016)
+Fast charging technique for high power
+LiFePO4batteries: A mechanistic analysis
+of aging. J Power Sources 321:201–209 . doi:
+10.1016/j.jpowsour.2016.04.140
+	22. 	Melaina MW (2014) Retail Infrastructure Costs
+Comparison for Hydrogen and Electricity for
+Light-Duty Vehicles. SAE Tech Pap Ser. doi:
+10.4271/2014-01-1969
+	23. 	Namdeo A, Tiwary A, Dziurla R (2014) Spatial
+planning of public charging points using
+multi-dimensional analysis of early adopters
+of electric vehicles for a city region. Technol
+Forecast Soc Change 89:188–200 . doi: 10.1016/j.
+techfore.2013.08.032
+	24. 	
+Feng W, Figliozzi M (2013) An economic and
+technological analysis of the key factors affecting
+the competitiveness of electric commercial
+vehicles : A case study from the USA market.
+Transp Res PART C 26:135–145 . doi: 10.1016/j.
+trc.2012.06.007
+
+	 25. 	Davis BA, Figliozzi MA (2013) A methodology to
+evaluate the competitiveness of electric delivery
+trucks. Transp Res Part E 49:8–23 . doi: 10.1016/j.
+tre.2012.07.003
+	26. 	Macharis C, Van Mierlo J, Van Den Bossche P
+(2007) Combining Intermodal Transport With
+Electric Vehicles: Towards More Sustainable
+Solutions. Transp Plan Technol 30:311–323 . doi:
+10.1080/03081060701395618
+	27. 	
+Melo S, Baptista P, Costa Á (2015) Comparing
+the use of small sized electric vehicles with diesel
+vans on city logistics. Procedia - Soc Behav Sci
+111:1265–1274 . doi: 10.1016/j.sbspro.2015.01.728
+	28. 	Browne M, Allen J, Leonardi J (2011) Evaluating
+the use of an urban consolidation centre and
+electric vehicles in central London. IATSSR
+35:1–6 . doi: 10.1016/j.iatssr.2011.06.002
+	29. 	FREVUE Objectives. https://frevue.eu/about-us/
+objectives/. Accessed 23 Apr 2018
+	30. 	
+ALICE / ERTRAC Urban mobility WG (2014)
+Urban Freight research roadmap
+	 31. 	Oliveira GD, Dias LMC, Santos PCS dos (2015)
+Modelling Consumer Preferences for Electric
+Vehicles in Portugal: an Exploratory Study.
+Manag Environ Qual An Int J 26:929–950
+	32. 	Schoemaker J, Allen J, Huschebeck M, Monigl J
+(2006) Quantification of Urban Freight Transport
+Effects I
+	33. 	Camargo Pérez J, Carrillo MH, Montoya-Torres
+JR (2015) Multi-criteria approaches for urban
+passenger transport systems: a literature review.
+Ann Oper Res 226:69–87 . doi: 10.1007/s10479014-1681-8
+	34. 	Zubaryeva A, Thiel C, Zaccarelli N, et al (2012)
+Spatial multi-criteria assessment of potential
+lead markets for electrified vehicles in Europe.
+Transp Res Part A Policy Pract 46:1477–1489 .
+doi: 10.1016/j.tra.2012.05.018
+	 	
+35. Safaei Mohamadabadi H, Tichkowsky G,
+Kumar A (2009) Development of a multicriteria assessment model for ranking of
+renewable and non-renewable transportation
+fuel vehicles. Energy 34:112–125 . doi: 10.1016/j.
+energy.2008.09.004
+	36. 	
+Vahdani B, Zandieh M, Tavakkoli-Moghaddam
+R (2011) Two novel FMCDM methods for
+alternative-fuel buses selection. Appl Math Model
+35:1396–1412 . doi: 10.1016/j.apm.2010.09.018
+	37. 	
+Tzeng GH, Lin CW, Opricovic S (2005) Multicriteria analysis of alternative-fuel buses for
+public transportation. Energy Policy 33:1373–
+1383 . doi: 10.1016/j.enpol.2003.12.014
+	38. 	
+Ziegler A (2012) Individual characteristics and
+stated preferences for alternative energy sources
+and propulsion technologies in vehicles: A
+discrete choice analysis for Germany. Transp Res
+Part A Policy Pract 46:1372–1385 . doi: 10.1016/j.
+The European Parliament and of the Council
+(2007) Establishing a Framework for the
+Approval of Motor Vehicles and their Trailers,
+and of Systems, Components and Separate
+Technical Units Intended for such Vehicles
+	 	
+40. U.S. Department of Energy’s Clean Cities
+Program (2017) Alternative Fuels Data Center:
+Maps and Data - Vehicle Weight Classes &
+Categories.
+https://www.afdc.energy.gov/data/
+sea rch?q=Veh icle+Weig ht+Classes+%26+
+Categories. Accessed 23 Apr 2018
+	 41. 	Yanqiang M (2014) City Logistics in China – An
+Empirical Study from An Emerging-MarketEconomy Country. Technische Universität
+Darmstadt
+	 42. 	OECD (2003) Delivering the Goods: 21st Century
+Challenges to Urban Goods Transport
+	 43. 	CIVITAS (2015) Smart choices for cities Making
+Making urban freight logistics more sustainable
+	 	
+44. Teo JSE, Taniguchi E, Qureshi AG (2012)
+Evaluating City Logistics Measure in
+E-Commerce with Multiagent Systems. Procedia
+- Soc Behav Sci 39:349–359 . doi: 10.1016/j.
+sbspro.2012.03.113
+	45. 	Taniguchi E, Kawakatsu S, Tsuji H (2000) New
+Co-Operative System Using Electric. Urban
+Transp Environ 21st Century VI WIT Press
+Southampton, 201–210
+	46. 	Abel H, Karrer R (2005) BESTUFS Deliverable
+D2.1 - Best practice handbook Year
+	47. 	
+Visser J, Nemoto T, Browne M (2014) Home
+Delivery and the Impacts on Urban Freight
+Transport : A Review. Procedia - Soc Behav Sci
+125:15–27 . doi: 10.1016/j.sbspro.2014.01.1452
+	48. 	Alternative Fuels Data Center (2018) All-Electric
+Vehicles. http://www.afdc.energy.gov/vehicles/
+electric_basics_ev.html. Accessed 23 Apr 2018
+	49. 	
+Alternative Fuels Data Center (2018) Fuel Cell
+Electric Vehicles. https://www.afdc.energy.gov/
+vehicles/fuel_cell.html. Accessed 23 Apr 2018
+	50. 	Wątróbski J, Małecki K, Kijewska K, et al (2017)
+Multi-Criteria Analysis of Electric Vans for City
+Logistics. Sustainability 9:1453 . doi: 10.3390/
+su9081453
+	 	
+51. Benetti G, Caprino D, Della Vedova ML,
+Facchinetti T (2016) Electric load management
+approaches for peak load reduction: A systematic
+literature review and state of the art. Sustain Cities
+Soc 20:124–141 . doi: 10.1016/j.scs.2015.05.002
+	52. 	
+Oliveira JB, Lima RS, Montevechi JAB (2016)
+Perspectives and relationships in Supply Chain
+Simulation: A systematic literature review. Simul
+Model Pract Theory 62:166–191 . doi: 10.1016/j.
+simpat.2016.02.001
+	53. 	
+Oliveira CM De, Albergaria R, Bandeira DM
+(2017) Sustainable Vehicles-Based Alternatives
+in Last Mile Distribution of Urban Freight
+Transport : A Systematic Literature Review. doi:
+10.3390/su9081324
+
+17
+
+	 	
+54. Daudi M, Hauge JB, Thoben KD (2016)
+Behavioral factors influencing partner trust in
+logistics collaboration: a review. Logist Res 9:1–
+11 . doi: 10.1007/s12159-016-0146-7
+	 55. 	Roumboutsos A, Kapros S, Vanelslander T (2014)
+Green city logistics: Systems of Innovation to
+assess the potential of E-vehicles. Res Transp Bus
+Manag 11:43–52 . doi: 10.1016/j.rtbm.2014.06.005
+	56. 	
+Juan AA, Mendez CA, Faulin J, et al (2016)
+Electric vehicles in logistics and transportation:
+A survey on emerging environmental, strategic,
+and operational challenges. Energies 9:1–21 . doi:
+10.3390/en9020086
+	 	
+57. Iwan S, Kijewska K, Kijewski D (2014)
+Possibilities of Applying Electrically Powered
+Vehicles in Urban Freight Transport. Procedia
+- Soc Behav Sci 151:87–101 . doi: 10.1016/j.
+sbspro.2014.10.010
+	58. 	Taefi T, Kreutzfeldt J, Held T, et al (2015)
+Comparative Analysis of European examples of
+Freight Electric Vehicles Schemes. A systematic
+case study approach with examples from
+Denmark, Germany, The Netherlands, Sweden
+and the UK. In: Dynamics in Logistics. pp 495–
+504
+	 59. 	Taefi TT, Kreutzfeldt J, Fink A (2016) Yielding
+a treasure: A transition management approach to
+electric urban freight vehicles in Germany. In:
+EVS 2016 - 29th International Electric Vehicle
+Symposium
+	 	
+60. Quak H, Nesterova N, Van Rooijen T (2016)
+Possibilities and Barriers for Using Electricpowered Vehicles in City Logistics Practice. In:
+Transportation Research Procedia. Elsevier B.V.,
+pp 157–169
+	61. 	
+Quak H, Nesterova N, Van Rooijen T, Dong Y
+(2016) Zero Emission City Logistics: Current
+Practices in Freight Electromobility and
+Feasibility in the Near Future. In: Transportation
+Research Procedia. Elsevier B.V., pp 1506–1515
+	 	
+62. Quak H, Nesterova N (2014) Towards Zero
+Emission Urban Logistics: Challenges and Issues
+for Implementation of Electric Freight Vehicles
+in City Logistics. Sustain Logist 6:265–294 . doi:
+10.1108/EL-01-2014-0022
+	63. 	
+Morganti E, Browne M (2018) Technical and
+operational obstacles to the adoption of electric
+vans in France and the UK  An operator
+:
+perspective. Transp Policy 63:90–97 . doi:
+10.1016/j.tranpol.2017.12.010
+	64. 	Wang M, Thoben KD (2017) Sustainable Urban
+Freight Transport: Analysis of Factors Affecting
+the Employment of Electric Commercial
+Vehicles. Dyn Logist 255–265 . doi: 10.1007/9783-319-45117-6_23
+	 	
+65. Klumpp M, Abidi H, Marner T (2014)
+Qualification Hurdles and Chances for
+E-Mobility. Int J TRAFFIC Transp Eng 4:253–
+Electric Commercial Vehicle Fleets: A Case Study
+of Economic and Technological Factors Affecting
+the Competitiveness of Electric Commercial
+Vehicles in the USA. Procedia - Soc Behav Sci
+39:702–711 . doi: 10.1016/j.sbspro.2012.03.141
+	 67. 	Lebeau P, De Cauwer C, Van Mierlo J, et al (2015)
+Conventional, Hybrid, or Electric Vehicles: Which
+Technology for an Urban Distribution Centre?
+Sci World J 2015: . doi: 10.1155/2015/302867
+	68. 	Lebeau P, Macharis C, Van Mierlo J, Lebeau K
+(2015) Electrifying light commercial vehicles for
+city logistics? A total cost of ownership analysis.
+Eur J Transp Infrastruct Res 15:551–569
+	 69. 	Melo S, Baptista P, Costa Á (2014) Comparing the
+Use of Small Sized Electric Vehicles with Diesel
+Vans on City Logistics. Procedia - Soc Behav Sci
+111:350–359 . doi: 10.1016/j.sbspro.2014.01.068
+	 70. 	Daw CS, Gao Z, Smith DE, et al (2013) Simulated
+Fuel Economy and Emissions Performance
+during City and Interstate Driving for a HeavyDuty Hybrid Truck. SAE Int J Commer Veh
+6:161–182 . doi: 10.4271/2013-01-1033
+	 	
+71. Duarte G, Rolim C, Baptista P (2016) How
+battery electric vehicles can contribute to
+sustainable urban logistics: A real-world
+application in Lisbon, Portugal. Sustain Energy
+Technol Assessments 15:71–78 . doi: 10.1016/j.
+seta.2016.03.006
+	72. 	
+Macharis C, Lebeau P, Mierlo J Van, Lebeau
+K (2014) Electric versus conventional vehicles
+for logistics: A total cost of ownership. In:
+2013 World Electric Vehicle Symposium and
+Exhibition, EVS 2014
+	 73. 	Krutilla K, Graham JD (2012) Are Green Vehicles
+Worth the Extra Cost? The Case of DieselElectric Hybrid Technology for Urban Delivery
+Vehicles. J Policy Anal Manag 31:501–532 . doi:
+10.1002/pam.21641
+	 74. 	Vonolfen S, Affenzeller M, Beham A, et al (2011)
+Simulation-based evolution of municipal glasswaste collection strategies utilizing electric
+trucks. LINDI 2011 - 3rd IEEE Int Symp Logist
+Ind Informatics, Proc 177–182 . doi: 10.1109/
+LINDI.2011.6031142
+	 75. 	Taefi TT, Stütz S, Fink A (2017) Assessing the
+cost-optimal mileage of medium-duty electric
+vehicles with a numeric simulation approach.
+Transp Res Part D Transp Environ 56:271–285 .
+doi: 10.1016/j.trd.2017.08.015
+	 	
+76. Rizet C, Cruz C, Vromant M (2016) The
+Constraints of Vehicle Range and Congestion for
+the Use of Electric Vehicles for Urban Freight in
+France. In: Transportation Research Procedia.
+Elsevier B.V., pp 500–507
+	 	
+77. Christensen L, Klauenberg J, Kveiborg O,
+Rudolph C (2017) Research in Transportation
+Economics Suitability of commercial transport
+for a shift to electric mobility with Denmark and
+
+Germany as use cases. Res Transp Econ 64:48–
+60 . doi: 10.1016/j.retrec.2017.08.004
+	78. 	
+Giordano A, Fischbeck P, Matthews HS (2017)
+Environmental and economic comparison of
+diesel and battery electric delivery vans to inform
+city logistics fl eet replacement strategies. Transp
+Res Part D 1–14 . doi: 10.1016/j.trd.2017.10.003
+	79. 	
+Menga P, Buccianti R, Bedogni M, Moroni S
+(2014) Promotion of freight mobility in Milan:
+Environmental, energy and economical aspects.
+2013 World Electr Veh Symp Exhib EVS 2014
+1–7 . doi: 10.1109/EVS.2013.6914715
+	80. 	
+Teoh T, Kunze O, Teo CC (2016) Methodology
+to Evaluate the Operational Suitability of
+Electromobility Systems for Urban Logistics
+Operations. In: Transportation Research
+Procedia. Elsevier B.V., pp 288–300
+	81. 	
+Ahani P, Arantes A, Melo S (2018) A portfolio
+approach for optimal fleet replacement toward
+sustainable urban freight transportation.
+Transp Res Part D 48:357–368 . doi: 10.1016/j.
+trd.2016.08.019
+	82. 	
+Löfstrand S, Hellgren J, Thulin N, et al (2013)
+Feasibility of Electrifying Urban Goods
+Distribution Trucks. SAE Int J Commer Veh
+6:2013-01–0504 . doi: 10.4271/2013-01-0504
+	83. 	
+Duin JHR Van, Tavasszy LA, Quak HJ (2013)
+Towards E ( lectric ) -urban freight : first
+promising steps in the electric vehicle revolution.
+Eur Transp - Trasp Eur 2013:1–19
+	84. 	Muñoz-Villamizar A, Montoya-Torres JR, Faulin
+J (2017) Impact of the use of electric vehicles in
+collaborative urban transport networks: A case
+study. Transp Res Part D Transp Environ 50:40–
+54 . doi: 10.1016/j.trd.2016.10.018
+	85. 	Khadraoui D, Aggoune-Mtalaa W, Ait Ouahmed
+A, Habbas Z (2015) Solving new urban freight
+distribution problems involving modular electric
+vehicles. IET Intell Transp Syst 9:654–661 . doi:
+10.1049/iet-its.2014.0212
+	86. 	
+Mirhedayatian SM, Yan S (2018) A framework
+to evaluate policy options for supporting electric
+vehicles in urban freight transport. Transp Res
+Part D 58:22–38 . doi: 10.1016/j.trd.2017.11.007
+	 87. 	Rezgui D, Aggoune-Mtalaa W, Bouziri H (2015)
+Towards the electrification of urban freight
+delivery using modular vehicles. In: 10th IEEE
+Int. Conf. on Service Operations and Logistics,
+and Informatics, SOLI 2015 - In conjunction with
+ICT4ALL 2015. pp 154–159
+	88. 	Zhenfeng G, Yang L, Xiaodan J, Sheng G (2017)
+The Electric Vehicle Routing Problem with Time
+Windows Using Genetic Algorithm. Electron
+Autom Control Conf 635–639
+	 89. 	Liakos P, Angelidis I, Delis A (2016) Cooperative
+Routing and Scheduling of an Electric Vehicle
+Fleet Managing Dynamic Customer Requests.
+the use of an urban consolidation centre and
+electric vehicles in central London. IATSS Res
+35:1–6 . doi: 10.1016/j.iatssr.2011.06.002
+	91. 	
+Leonardi J, Browne M, Allen J (2012) BeforeAfter Assessment of a Logistics Trial with Clean
+Urban Freight Vehicles: A Case Study in London.
+Procedia - Soc Behav Sci 39:146–157 . doi:
+10.1016/j.sbspro.2012.03.097
+	 	
+92. Daniela P, Paolo F, Gianfranco F, Graham P
+(2014) Reduced urban traffic and emissions
+within urban consolidation centre schemes : The
+case of Bristol. Transp Res Procedia 3:508–517 .
+doi: 10.1016/j.trpro.2014.10.032
+	 93. 	Foltyński M (2014) Electric Fleets in Urban
+Logistics. Procedia - Soc Behav Sci 151:48–59 .
+doi: 10.1016/j.sbspro.2014.10.007
+	 	
+94. Lebeau P, Macharis C, van Mierlo J, Maes
+G (2013) Implementing electric vehicles in
+urban distribution: A discrete event simulation.
+World Electr Veh J 6:38–47 . doi: 10.1109/
+EVS.2013.6914770
+	95. 	
+Kretzschmar J, Gebhardt K, Theiß C, Schau V
+(2016) Range Prediction Models for E-Vehicles
+in Urban Freight Logistics Based on Machine
+Learning. In: DMBD 2016. pp 175–184
+	96. 	Schau V, Rossak W, Hempel H, Spathe S (2015)
+Smart City Logistik Erfurt (SCL): ICT-support
+for managing fully electric vehicles in the domain
+of inner city freight traffic: A Look at an ongoing
+federal project in the City of Erfurt, Germany.
+IEOM 2015 - 5th Int Conf Ind Eng Oper Manag
+Proceeding. doi: 10.1109/IEOM.2015.7093862
+	 97. 	Deflorio F, Castello L (2017) Dynamic chargingwhile-driving systems for freight delivery
+services with electric vehicles : Traffic and
+energy modelling. Transp Res Part C 81:342–362
+. doi: 10.1016/j.trc.2017.04.004
+	98. 	Faccio M, Gamberi M (2015) New city logistics
+paradigm: From the “Last Mile” to the “Last 50
+Miles” sustainable distribution. Sustain 7:14873–
+14894 . doi: 10.3390/su71114873
+	99. 	Boussier JM, Cucu T, Ion L, et al (2009) Goods
+distribution with electric vans in cities: Towards
+an agent-based simulation. World Electr Veh J
+3:1–9
+
+19
+
+100. 	 aefi TT (2016) Viability of electric vehicles in
+T
+combined day and night delivery: A total cost of
+ownership example in Germany. Eur J Transp
+Infrastruct Res 16:512–553
+101. 	
+Andaloro L, Napoli G, Sergi F, et al (2015)
+Development of a new concept electric vehicle
+for last mile transportations. World Electr Veh J
+7:342–348
+102. 	 olfino R, Zoppi M, Muscolo GG, et al (2015)
+M
+An electro-mobility system for freight service in
+urban areas. Int J Electr Hybrid Veh 7:1–21 . doi:
+10.1504/IJEHV.2015.068932
+103. 	Clarembaux LG, Pérez J, Gonzalez D, Nashashibi
+F (2016) Perception and Control Strategies
+for Autonomous Docking for Electric Freight
+Vehicles. In: Transportation Research Procedia.
+Elsevier B.V., pp 1516–1522
+104. 	 ewis M, Hearn C, Feng X, et al (2017) Design
+L
+and modeling for hydrogen fuel cell conversion
+of parcel delivery trucks. In: 2017 IEEE
+Transportation and Electrification Conference
+and Expo, ITEC 2017. pp 674–678
+105. 	 ebeau P, Macharis C, Mierlo J Van (2015) The
+L
+choice of battery electric vehicles for urban
+logistics  a conjoint based choice analysis. In:
+:
+EVS28 International Electric Vehicle Symposium
+and Exhibition. pp 1–7
+106. 	 heng G, Liu C (2016) Research on business
+C
+operating model of new energy battery electric
+vehicles used as urban logistics cars. Int J
+Multimed Ubiquitous Eng 11:387–400 . doi:
+10.14257/ijmue.2016.11.5.36
+107. 	
+NREL Commercial Vehicle Technologies
+Transportation Research. https://www.nrel.gov/
+transportation/fleettest.html. Accessed 23 Apr
+2018
+108. 	 REVUE FREVUE Logistics. https://frevue.eu/
+F
+logistics-home/. Accessed 23 Apr 2018
+109. 	 REVUE FREVUE Vehicles. https://frevue.eu/
+F
+ECV – UFT combinations
+
+ECV – UFT combinations
+
+BEVs - Unspecified
+
+PHEVs - HoReCa
+
+BEVs - Retail
+
+PHEVs - (Retail, Express/post)
+
+BEVs - Express/post
+
+PHEVs - (Retail, HoReCa)
+
+BEVs - HoReCa
+
+FCEVs - Unspecified
+
+BEVs - Construction
+
+Unspecified - Unspecified
+
+BEVs - Waste
+
+Unspecified - Retail
+
+BEVs - (Retail, Express/post)
+
+Unspecified - Express/post
+
+BEVs - (Retail, HoReCa)
+
+Unspecified - HoReCa
+
+BEVs - (Retail, Construction)
+
+Unspecified - (Retail, Express/post)
+
+BEVs - (Retail, Waste)
+
+Unspecified - (Retail, HoReCa)
+
+BEVs - (Express/post, HoReCa)
+
+(BEVs, HEVs) - Unspecified
+
+BEVs - (Express/post, Construction)
+
+(BEVs, HEVs) - Retail
+
+BEVs - (Express/post, Waste)
+
+(BEVs, HEVs) - Express/post
+
+BEVs - (HoReCa, Construction)
+
+(BEVs, HEVs) - HoReCa
+
+BEVs - (HoReCa, Waste)
+
+(BEVs, HEVs) - (Retail, Express/post)
+
+BEVs - (Construction, Waste)
+
+(BEVs, HEVs) - (Retail, HoReCa)
+
+BEVs - (Retail, Express/post, HoReCa)
+
+(BEVs, PHEVs) - Unspecified
+
+BEVs - (Retail, Express/post, Construction)
+
+(BEVs, PHEVs) - Retail
+
+BEVs - (Retail, Express/post, Waste)
+
+(BEVs, PHEVs) - Express/post
+
+BEVs - (Retail, HoReCa, Construction)
+
+(BEVs, PHEVs) - HoReCa
+
+BEVs - (Retail, HoReCa, Waste)
+
+(BEVs, PHEVs) - (Retail, Express/post)
+
+BEVs - (Retail, Construction, Waste)
+
+(BEVs, PHEVs) - (Retail, HoReCa)
+
+BEVs - (Express/post, HoReCa, Construction)
+
+(BEVs, FCEVs) - Unspecified
+
+BEVs - (Express/post, HoReCa, Waste)
+
+(HEVs, PHEVs) - Unspecified
+
+BEVs - (Express/post, Construction, Waste)
+
+
+ECV – UFT combinations
+
+BEVs - (HoReCa, Construction, Waste)
+
+(HEVs, PHEVs) - Express/post
+
+BEVs - (Retail, Express/post, HoReCa, Construction)
+
+(HEVs, PHEVs) - HoReCa
+
+BEVs - (Retail, Express/post, HoReCa, Waste)
+
+(HEVs, PHEVs) - (Retail, Express/post)
+
+BEVs - (Retail, Express/post, Construction, Waste)
+
+(HEVs, PHEVs) - (Retail, HoReCa)
+
+BEVs - (Retail, HoReCa, Construction, Waste)
+
+(HEVs, FCEVs) - Unspecified
+
+BEVs - (Express/post, HoReCa, Construction, Waste)
+
+(PHEVs, FCEVs) - Unspecified
+
+BEVs - (Retail, Express/post, HoReCa, Construction,
+Waste)
+
+(BEVs, HEVs, PHEVs) - Retail
+
+HEVs - Unspecified
+
+(BEVs, HEVs, PHEVs) - Express/post
+
+HEVs - Express/post
+
+(BEVs, HEVs, PHEVs) - HoReCa
+
+HEVs - Retail
+
+(BEVs, HEVs, PHEVs) - (Retail, Express/post)
+
+HEVs - HoReCa
+
+(BEVs, HEVs, PHEVs) - (Retail, HoReCa)
+
+HEVs - (Retail, Express/post)
+
+(BEVs, HEVs, PHEVs) - Unspecified
+
+HEVs - (Retail, HoReCa)
+
+(BEVs, HEVs, FCEVs) - Unspecified
+
+PHEVs - Unspecified
+
+(BEVs, PHEVs, FCEVs) - Unspecified
+
+PHEVs - Retail
+
+(HEVs, PHEVs, FCEVs) - Unspecified
+
+PHEVs - Express/post
+
+(BEVs, HEVs, PHEVs, FCEVs) - Unspecified
+

@@ -1,0 +1,1139 @@
+
+
+1 Introduction: problem deﬁnition
+Megatrends like urbanization and individualization force
+logistic distributors to make their business more and more
+efﬁcient. They are forced to minimize the logistic costs but
+are facing an increasing volume of one item delivery. This
+is well known from the e-commerce business, and the
+nearly same important logistic challenge arises within the
+area of fast-moving consumer goods (FMCG) [1].
+Despite the efforts by logistic distributors to raise efﬁciency in their business, logistics across the planet is
+societal, environmental and economically unsustainable
+[2]. Focussing on those challenges, the Physical Internet
+(PI) Initiative tries to address them as an open global
+logistics system founded on physical, digital and operational interconnectivity through encapsulation, interfaces
+and protocols. The aim of the PI is to enable an efﬁcient
+and sustainable logistics web at the logistics hubs as well as
+at the end consumer, where current systems are not efﬁcient enough to address the outlined megatrends [2, 3].
+First steps in realizing the PI visions have been started in
+the project MODULUSHCA funded by the 7th Framework
+Programme of the European commission. Fifteen partners
+from research, logistics business, postal business and
+FMCG industry participate in this research project in close
+coordination with North American Partners and the international PI Initiative. This initiative represents the ﬁrst
+genuine contribution to the development of interconnected
+
+interconnected logistics system by 2030 [4]. More detailed
+information on the integrated work ﬁelds, the overall goals
+and the main beneﬁts can be seen in ‘‘Appendix’’
+(chapter 11).
+The earlier-mentioned FMCG are deﬁned as pharmaceutical, consumer electronic, personal care, household
+care, branded and packaged food, spirits and tobacco.
+Although the range of products is various, most of them
+share the same characteristics [5]: they are used directly by
+the end consumer, non-durable, sold in packaged form, are
+branded, at a low price with high volumes and used at least
+once a month (frequent purchase). The handling of FMCG
+in dedicated supply networks takes place in central and
+regional warehouses. The ﬁve main process steps within a
+logistics centre are the goods receipt, storing, consignment,
+storing again and goods issue [6]. The main tasks are
+supported by transportation, handling and packaging processes as well as administration processes [5].
+The Institute of Logistics Engineering of Graz University of Technology is part of the MODULUSHCA consortium and responsible to develop and realize in the
+context of the FMCG one of the key functions of the PI—
+the encapsulation of products. This encapsulation is physically realized by containers developed and designed to
+meet the requirements from the PI and is therefore one of
+the key components and enablers of the PI. The following
+chapters will deal especially with this development and
+engineering design work and will reveal the ﬁrst physical
+object of the PI: the MODULUSHCA-box (M-box). This
+M-box is considered as the PI container for FMCG and sets
+the ground for further developments in other logistics
+sectors.
+First results of the research work on the M-box were
+presented previously at the 7th International Scientiﬁc
+Symposium on Logistics (Cologne 2014) [7, 8]. In the
+following work, the authors focus on describing the engineering methods used in the methodological approach to
+engineering design the M-box and demonstrate the progress in designing the prototype
+
+2 Overall goals for PI containers
+The PI Initiative tries to address the challenges and
+demands of the outlined megatrends (see chapter 1) as an
+open global logistics system founded on physical, digital
+and operational interconnectivity. This interconnectivity
+will be realized through encapsulation, interfaces and
+protocols. With other words [3]:
+The Physical Internet is a global logistics system
+based on the interconnection of logistics network by a
+
+123
+
+Logist. Res. (2015) 8:8
+
+standardized set of collaboration protocols, modular
+containers and smart interfaces for increased efﬁciency and sustainability
+To underline the polemic statement that today’s logistics
+across the planet is societal, environmental and economically unsustainable, vivid symptoms for this unsustainability in logistics and therefore main challenges are
+provided by the PI Initiative. In order to meet this challenges, Montreuil is deﬁning the paradigm-breaking PI
+vision through 13 characteristics addressing head on the
+grand challenge of reverting the huge unsustainability of
+the current way we transport, handle, store, realize, supply
+and use physical objects around the world [2] (presented in
+Table 1).
+As far as the container design is concerned, four different Physical Internet Characteristics (number 1, 3, 4 and
+8 from Table 1) can be identiﬁed as main development
+goals to be transferred to design requirements. Ballot,
+Montreuil and Meller further state that the PI will not
+handle products directly but rather the containers in which
+those products are packed to be transported [3]. Therefore,
+those containers are one of the key components and
+enablers of the PI. Ballot et al. [3] point out some more
+detailed characteristics for the containers, which can be
+merged with the overall development goals to identify clear
+design requirements:
+•
+
+•
+•
+•
+•
+•
+
+Unique international identiﬁcation to ensure traceability, in the manner of the BIC code in the maritime
+sector.
+Physical protection of the content.
+Anonymization of the content.
+Standardized size.
+Standardized mechanical strength which then enables
+them to be handled and stacked.
+The possibility of handling and locking between
+containers using a standardized system, a suitable development of the twist-lock.
+
+In physical terms, main goal in designing PI containers
+is to make them easy to handle, store, transport, seal,
+interlock, couple, load, unload, construct and dismantle [9].
+In terms of the distribution system, main goals are to
+build unit loads out of modular containers which are then
+loaded on trucks in order to maximize the utilization in
+volume and weight [10, 11].
+Considering the current situation in FMCG logistics
+(described in chapter 1), the overall goals of PI for a future
+interconnected, open global network and the aims of
+MODULUSHCA (see ‘‘Appendix’’), there are three different layers of approach identiﬁed. Those three layers
+therefore mean three main research questions to answer in
+
+Table 1 Physical Internet addressing unsustainability symptoms ([2] Table 2; page 85)
+
+•
+
+•
+
+Sizing
+The inventors of the PI distinguish between three
+different sizes: large containers with a cross section of
+approximately 2.4 m by 2.4 m with a variable length,
+medium containers with a size around 1 m3 and small
+containers with a size approximately of 0.1 m3 [3]. To
+meet the demands of the FMCG logistics and a
+standardized system, the research work on the MODULUSHCA project concentrates on developing modular boxes in the magnitude of small- and medium-sized
+PI containers.
+Design
+Uniting the requirements of the PI, the FMCG and from
+pooling and logistics industry leads to the requirements
+for the physical PI containers. These requirements can
+then be realized by engineering design the PI containers
+with computer-aided design (CAD) and computer-aided
+engineering (CAE) techniques.
+
+•
+
+Loading
+Changing the way actual logistic systems work will
+change the way of loading trucks too. In the future PI
+scenario, the predominant transport will be in between
+PI hubs [9]. Therefore, a PI-loading process within the
+PI logistics has to be applied.
+
+Figure 3 highlights the difference between the situations in
+supply chain (SC) of FMCG today and in a future scenario of PI
+and assigns the three research questions in the different steps of
+the distribution process. Where today we pack the products in
+an almost inﬁnite range of different-sized cases made of carton,
+in a future PI scenario, we will pack the products to a ﬁnite
+range of modular PI containers. These PI containers will then be
+combined to unit loads and shipped in an interconnected, open
+and global point-to-point hub network.
+In the German language, the English term ‘‘container’’ is
+more commonly used to describe loading devices (see [6]).
+
+introduced here. The M-box describes a special PI container developed in the MODULUSHCA project for
+FMCG logistics and its engineering.
+
+3 State of the art
+The structure of the paper follows the three-layer approach
+described in chapter 2, by describing the treatment of the
+three different but on each other depending main research
+questions for developing the M-box individually.
+3.1 Current sizing methods
+During the last years, Meller has presented relevant work in
+deﬁning sizes for the PI containers [11, 12]. In this chapter,
+his former ﬁndings and research work as well as his ﬁndings as a member of the team from the Institute of Logistics
+Engineering for MODULUSHCA are presented.
+In the FMCG logistics, two different trends for assigning
+case/box sizes to goods in general can be observed. On the
+one hand, there is the pragmatic way of assigning the
+‘‘best-ﬁtting’’ case from a given pool to the goods. Reasons
+to use this pragmatic way are manifold and seem convincing at ﬁrst sight. There are, for example, cost savings
+through avoiding extensive calculations by the use of
+software and a high volume usage per case. In a recent
+paper, Meller and Kimberly presented a current scenario
+where the average utilization for carton boxes is 88.9 % for
+a company using 258 different packaging cartons for 494
+different products [13].
+On the other hand, there are scientiﬁc approaches with
+methods from operational research (OR) that try to assign
+the best-ﬁtting case to a given set of products. Meller states
+that ‘‘The problem in the literature most closely related to
+this approach is the container loading problem (CLP). The
+CLP is usually deﬁned as arranging rectangular items in
+cartons with the objective to minimize the total wasted
+space of the cartons, subject to loading constraints [14]. As
+surveyed by Dyckhoff [15], the CLP is classiﬁed as the
+three-dimensional (3D) rectangular packing problem in the
+general cutting and packing problem literature’’ [16].
+Meller states further that ‘‘There are a number of
+approaches for categorizing the CLP that have been discussed in the literature [17]. One approach to classify the
+CLP is based on carton quantity: whether packing a single
+carton or packing multiple cartons. Multiple cartons are
+necessary if a large quantity of goods need to be loaded
+completely [18]; on the other hand, if some goods can be
+left behind, only a single carton is involved in the problem
+[15]. The CLP can also be differentiated based on the types
+of items to be loaded: homogeneous items (where the items
+
+123
+
+Logist. Res. (2015) 8:8
+
+are all identical in terms of their dimensions and orientation) or heterogeneous items (where different dimensions
+of items are considered). Problems that fall in between
+these two extremes are often referred to as weakly
+heterogeneous cases [19]’’ [16].
+Several papers have already examined the three-dimensional container loading problem (3D-CLP). According to Meller ‘‘Although these formulations provide
+valuable insight on the CLP (see [20–25]), they assumed
+that both a set of cartons with known dimensions and the
+quantities of products are given. The models then select a
+number of cartons to pack a given set of products. However, in this paper a model is proposed that can be used to
+assign a set of standard modular containers to a variety of
+products. In addition, the optimal quantity of items of each
+product to be loaded in the associated modular container is
+determined in the model’’ [16].
+Meller’s research, which has been reported in [11, 12],
+presents a modular container selection model that extends
+the formulations proposed by Chen et al. [22]. The problem
+they address was summarized as follows: ‘‘Assume that
+different rectangular-shaped products in the current product line need to be packed and shipped. Each product has
+a speciﬁc length, width, and height. Each product is currently packed in a carton with a speciﬁc length, width and
+height with the carton containing a speciﬁc number of
+items. Because in this paper M-boxes are used as our
+handling containers, one can assume that products are of
+sufﬁcient structural integrity to allow any orientation of the
+items in a modular container and any packaging patterns
+(this is not the case with products today, which have to
+provide the structural integrity of the handling container
+today). The formulation developed and presented by Meller
+et al. [11, 12] assumes this as well’’ [16].
+3.2 Current box design
+Containers, boxes or more generally spoken loading devices and loading equipment are well treated in the literature
+and guidelines (see as an example [26, 27] or [28]).
+tenHompel [6] distinguishes, e.g. between three categories
+of loading equipment which are load supporting, enclosing
+or encapsulating.
+For the M-box in the context of the FMCG, one has to
+distinguish between two categories of containers: the ﬁrst
+category refers to ‘‘handling containers’’. Examples of
+handling containers today are cartons, cases, boxes and
+pallets. They are used to cover the product or to provide
+means to handle products together as a unit load. (Note that
+for most products today, the product itself provides the
+structural integrity of the handling containers, as opposed
+to the handling containers). The second category refers to
+train wagons and truck trailers used to transport handling
+containers. Unlike with handling containers, transportation
+containers must provide the structural integrity of the load
+and must be able to resist the elements [16].
+With the advent of the PI, its inventors assume that
+transportation containers will remain relatively unchanged.
+Perhaps, over time, their dimensions will be modiﬁed so as
+to synchronize them over a variety of modalities (e.g. ship,
+ISO container, rail, truck). However, it is an assumption
+that in a future vision with the PI, handling containers will
+be reduced to modular containers and unit loads that are
+built out of multiple modular containers [16]. Taking now a
+closer look on currently used handling containers in FMCG
+industries, one can observe many different sizes, features
+and characteristics. The following categorization resumes
+from a comprehensive policy and market analysis as part of
+the MODULUSHCA project [29] (see Fig. 1). The categorization especially regards small- and medium-sized
+boxes (following the distinction in chapter 2).
+Clustering the features and characteristics in groups of
+requirements linked/related together, functional groups are
+used to distinguish between the existing boxes. The boxes
+might have [29]:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Folding/collapsible capabilities
+Stacking capabilities
+Interlocking capabilities
+Product-box interacting capabilities
+Strength capabilities
+Durability capabilities
+Cleaning capabilities
+Identiﬁcation capabilities
+Handling capabilities
+
+The comprehensive policy and market analysis shows
+that there are already a lot of different transport boxes on
+
+Page 5 of 22 8
+
+the market meeting most of the essential requirements for
+the PI containers. Many boxes are modular, foldable,
+stackable, etc., but none of them has an interlocking system
+meeting the demands of the PI vision.
+3.3 Current methods for loading trucks
+For shipping goods, pallets, boxes or unit loads have to be
+positioned on trucks. Therefore, restrictions are speciﬁed
+by law and guidelines (e.g. VDI 2700 [30, 31] or the
+Austrian KFG § 4 Abs. 9a). These law and guidelines that
+vary from country to country describe, e.g. the maximum
+weight, the centre of mass, the axle load or bearing load.
+The technical restrictions mainly determine the maximum
+load a box has to withstand and the stability of the unit
+load. The stability of a unit load is according to BGR234 of
+2006 [32] deﬁned as the ratio between the moment of
+tilting which is generated by an applied force and the
+moment of stability. Besides further requirements result
+from the practical and pragmatic aspects of the packing,
+shipping and the loading process [33]. Examples are:
+•
+
+•
+
+The streets are slightly tilted to the left in order to
+facilitate the drain off water. Therefore, the centre of
+mass of the load has to be adjusted according to
+minimize the abrasion of tires.
+When facing icy or wet road conditions, the axle load
+of the driving axle should be sufﬁcient.
+
+As outlined before in chapter 3.1, multiple algorithms
+exist to solve the mixed-integer optimization problem and
+therefore the bin packing problem. Bin packing means
+assigning a given number of deﬁned items to load units by
+minimizing the number of these units and is considered as a
+combinatorial problem. For the PI-loading process within
+the PI logistics (see chapter 2), this would mean to pack a
+deﬁned number of unit loads on trucks in order the number
+
+Fig. 1 Clustering of the existing boxes [29]
+
+branch and bound algorithm [34]) and commercially
+available products like [35] are currently used. As a collateral market analysis in the MODULUSHCA project
+shows, there are no commercial (software) products which
+take the law, guidelines and technical restrictions altogether into account.
+
+4 Identiﬁed research gaps
+To realize the vision of the PI, the ﬁelds of investigation
+are manifold. Comparing the overall goals for the PI containers and the derived three main research questions (described in chapter 2) with the state of the art (described in
+chapter 3) leads to the following research gaps (summarized in Fig. 2):
+4.1 Sizing
+In today’s SC for FMCG, the diversity of brands and types
+of products with various sizes and weights leads to a nearly
+inﬁnite range of different sizes of carton boxes. Building
+unit loads with such a high variance of cases is rather
+complicated and leads to inefﬁcient space utilization at the
+pallet level and as a consequence also on a truck level.
+Therefore, the ﬁrst problem to solve can be stated
+accordingly: for the FMCG market, determine the set of
+modular container dimensions that would balance the
+desire to decrease the number of options, while at the same
+time not overly restrict options, because to do so will result
+in boxes that are less full than today. In doing so with the
+currently outlined methods in chapter 3.1, one has to
+consider that FMCG that are shipped today have speciﬁc
+item dimensions and are shipped in speciﬁc quantities of
+items per handling container.
+
+Logist. Res. (2015) 8:8
+
+4.2 Design
+After deﬁning the sizes for the M-box, the next step is to
+develop a clear functional speciﬁcation of logistics containers in FMCG logistics based on technical restrictions
+and box functions from SC demands. As already stated in
+chapter 3.2, none of the existing boxes meets the overall
+demands of the PI vision. Therefore, the developed functional speciﬁcation forms the starting point of a methodological approach to develop, engineering design and
+prototype the M-box.
+4.3 Loading
+In the future PI scenario, the predominant transport will be
+in between PI hubs. Therefore, a PI-loading process within
+the PI logistics has to be applied to position the unit loads
+built out of M- or PI-boxes so that the number of used
+trailers becomes a minimum. Furthermore, there are several restrictions which are speciﬁed by law and guidelines
+to consider as outlined in chapter 3.3. As stated before, no
+commercial (software) products which take the law,
+guidelines and technical restrictions altogether into account
+exist to support the PI-loading process.
+
+5 Methodological approach
+Before focusing on the different methods in the three layers, a general approach has to be developed to get an honest
+illustration of a future PI scenario. To transfer the current
+situation virtually to the PI scenario, the method outlined in
+Fig. 3 is used.
+1.
+
+2.
+3.
+
+4.
+
+5.
+Fig. 2 Summarizing the identiﬁed research gaps
+
+123
+
+Based on the shipment data of the MODULUSHCA
+project partner P&G, trailers are identiﬁed which ship
+goods now. This number of trailers is the reference to
+compare the M-box scenario with.
+The monthly shipped items in these trailers are
+identiﬁed.
+For each of these items, the best-ﬁtting M-box
+dimension out of the available sizes gets determined.
+The items in an M-box were ±25 % the number of
+items allowed in the current case. This process gets
+done with a computerized algorithm [11, 12].
+The number and type of the used M-boxes and also
+their speciﬁcations like weight and centre of mass are
+now known. Based on these data, the unit loads can be
+built.
+The stability of the unit loads is calculated to assure
+
+Fig. 3 V-model [8]
+
+6.
+
+Afterwards, these unit loads get distributed to trailers
+to calculate the number of necessary trailers. The last
+step of this is to place the unit loads on the trailers so
+that restrictions of law (e.g. maximum and minimum
+axle load) and ‘‘physics’’ (e.g. desired centre of mass
+on trailer) are respected.
+After this step, the trailers that are used in the current
+situation can be compared to the number of trailers in
+the future by using the M-boxes. Note that today
+trailers run from the plant to different locations. In the
+PI, the trailers would be shipped from the plant to a PI
+hub and then consolidation will be used along a pointto-point hub network.
+
+5.1 Used methods for sizing M-boxes
+One of the ﬁrst decisions to be made in specifying a set of
+modular containers is the ‘‘platform’’ for the set. That is, if
+one deﬁnes the platform’s width W, depth D and height H,
+then the possible dimensions of containers that are modular
+to the platform can be chosen. At the outset, one considers
+the European trailer dimensions and the current euro pallet
+dimension. As the dimensions of the euro pallet are 0.8 m
+by 1.2 m and the inside dimensions of the Euro trailer are
+2.44 m wide by 13.40 m deep by 2.5 m tall, the modular
+M-box platform can be 0.8 m (W) by 1.2 m (D) by 2.4 m
+(H). Note that it is also considered a platform of
+1.2 m 9 1.2 m 9 2.4 m and other platforms based on the
+international shipping container. However, such a footprint
+would not utilize the current European trailer as well as the
+rectangular 0.8 m 9 1.2 m footprint. To further reﬁne this,
+all three dimensions (0.8, 1.2 and 2.4 m) are divided by 1,
+
+2, 3, …, as long as the result was greater than or equal to
+0.1 m. These dimensions would be considered exterior
+dimension standards. Then, based on many discussions, all
+combinations of x, y, z that were not integer at the mm level
+(that is, eliminating an x value of 266.7 mm formed by
+dividing W by 3 because 266.7 is not an integer) were
+eliminated, including a few other values (e.g. y = 150 mm,
+and z = 160, 150 mm). The reduced set of modular container dimensions is presented in Fig. 4 [16].
+With this platform presented in Fig. 4, the total possible
+number of M-boxes would be 440. These 440 different
+sizes of boxes can be considered to be a platform for further development and as a starting point for the recommended set of pooled containers. They are recommended
+by the MODULUSHCA consortium to maintain container
+fullness as much as possible and to improve overall utilization at the unit load level. However, decisions around
+ﬁnal platform selection will be iterative, subject to cost,
+industry and retailer support and also subject to the future
+development of the products in the FMCG industry.
+Moreover, in addition to the beneﬁts of a modular platform,
+there are beneﬁts that can result if a small number of
+dimension combinations are in use in an asset pooling
+arrangement.
+5.2 Used methods for the M-box design
+To get aware of the relevant steps in the engineering
+design process of the M-box, it is necessary to introduce
+the methodology. For the M-box development and design
+process, the systematic approach of VDI 2221 [36] and
+VDI 2222 [37] is used. This systematic approach deals
+
+
+Fig. 4 Modular platform with
+440 different M-box dimensions
+[16]
+
+Fig. 5 Different phases of the VDI 2222 applied to the development process for the M-box design, oriented on [37]
+
+with the universal and non-sector-speciﬁc principles of
+the methodological engineering design and deﬁnes process steps after a common logic and practicality. Through
+a systematic and methodological approach, the often
+random outcomes of an engineering design process are
+
+123
+
+based on arguments and hence easy to compare, measure
+and lead to results more quickly. The process is divided
+in four different phases, and Fig. 5 shows the different
+phases applied on the development process for the M-box
+because the modular boxes are geometrically familiar. This
+enables, by less change management effort, an efﬁcient
+design of not only one M-box but the whole set of modular
+boxes up to the suggested 440 different sizes (Fig. 4).
+A key enabler of this work is to develop a functional
+speciﬁcation for the modular units. To do this requires a
+better understanding of cross-industry and sector views, of
+the type of functionality that is desirable. Insight into what
+traits are considered most important via appropriate
+stakeholder input enables identiﬁcation and prioritization
+of potential design features. In order to capture as many of
+stakeholder views as possible from which to deﬁne the
+suite of functionality requirements, an e-survey is used to
+solicit input. The survey is based on a map of ‘‘typical’’ SC
+interactions between manufacturing sites, distribution
+centres, co-packing sites and retail outlets. These SC
+interactions are based on scenarios provided by a storybook
+approach (a particular example is outlined in Fig. 6) which
+is a pragmatic way to bring experts in logistics and experts
+in engineering into line. This approach focuses on particular aspects of the SC and on ﬁve focus areas [16]:
+•
+•
+
+Reuse
+Repair
+
+Page 9 of 22 8
+
+•
+•
+•
+
+Recycle
+Reach (also beyond EU)
+Ergonomics
+
+The aim of this is to raise key questions around what the
+M-boxes should look like, how they may work and better
+understand how people should interact with them.
+5.3 Used methods for loading M-boxes
+Functions that are mainly inﬂuenced by the logistics processes (packing, loading and shipping) are identiﬁed by
+MODULUSHCA scenario simulations [39]. Therefore, two
+relevant ‘‘logistic processes’’ are identiﬁed which are
+important for the box functionality and mainly inﬂuenced
+by technical restriction:
+1.
+2.
+
+Building unit loads out of M-boxes.
+Allocation of the unit loads on the trailer.
+
+A limiting constraint for this ﬁrst realization is that each
+unit load is built out of M-boxes of the same size that are
+ﬁlled with the same product. This leads to the fact that for
+each type of M-box, the packing pattern for the unit load is
+previously ﬁxed. So it is necessary to control if the unit
+load fulﬁls all restrictions of law and if it fulﬁls all
+
+Fig. 6 Storybook to sketch SC interactions for the survey [16]
+
+
+Fig. 7 Process of packing,
+loading and shipping analysis
+[33]
+
+technical speciﬁcations to be shipped. To meet technical
+restrictions for the complete shipping process, a bin
+packing algorithm and an algorithm to position the different unit loads on a truck are used [16, 33].
+One of the major points for the unit load analysis (process
+step 1 in Fig. 7) is the stability of the unit load which is
+important for the M-box design. Therefore, the packing
+pattern of the unit load is analysed by taking into account the
+position of each M-box in the unit load, net weight of the
+
+123
+
+boxes, payload in the boxes, centre of mass of each box and a
+potential applied external force. The result of this calculation
+is a ratio S, which is built by the moment of stability divided
+by the tilting moment (see Fig. 8). Due to the fact that all
+M-boxes are interlocked, the unit load can be seen as one unit
+and the calculation guideline from BGR234 of 2006 [32] can
+be adapted to the equation described in Fig. 8. Additional
+loads from transportation dynamics, as outlined in [30], are
+
+Fig. 8 Forces on unit load and
+stability [8]
+
+To ship the unit loads, they have to be positioned on
+trailers. Based on the facts that the number of possibilities
+to position the n unit loads increases with n! and the
+problem is NP complete [34], the second logistic process
+‘‘Allocation of the unit loads on the trailer’’ was split up in
+two sub-processes (process step 2 and 3 in Fig. 7). The ﬁrst
+sub-process distributes the unit loads to trailers so that the
+number of trailers becomes a minimum. In literature, this is
+also known as ‘‘2D-vector packing’’. The second sub-process places the unit loads on the trailer on their precise
+position in a way that the common requirements (described
+in chapter 3.3) like maximum and minimum axle load or
+bearing load of the trailer are fulﬁlled.
+As pointed out in chapter 1, the main focus of this
+document is on the engineering design of the M-box. The
+detailed mathematical description behind the used methods
+for loading the M-boxes can be seen in [8, 33].
+
+6 Findings and results
+6.1 Results for sizing M-boxes
+A test scenario data set of 1186 different products, all
+currently shipped by the consortium member P&G, is used
+to calculate the optimum set of M-boxes for this particular
+data set. This diverse and representative portfolio is used to
+drive the optimization and efﬁcient trailer loading by
+considering mixed unit loads. In order to develop an
+affordable and effective solution for MODULUSHCA that
+can be implemented in the FMCG market and adequately
+leverage the beneﬁts of pooling, only ﬁve (5) different sizes
+of the M-box are presented as a ﬁrst step in Table 2 (shown
+as outer M-box dimensions). These ﬁve different sizes can
+be considered as a recommendation for a future build, still
+keeping in mind that engineering issues that will have an
+
+
+Table 2 Proposed outer
+dimensions for the M-box [8]
+
+impact on the sizes and shape of the M-box will be
+addressed and resolved in the design stage. Furthermore,
+the test runs with the prototypes within the scope of the
+MODULUSHCA project and the lessons learned from it
+will also have inﬂuence on the ﬁnal set of M-boxes (more
+than ﬁve sizes can be included).
+While this selection is not directly modular with each
+other, they are with the modular platform
+(1.2 m 9 0.8 m 9 2.4 m) presented in chapter 5.1
+(Fig. 4). Moreover, it is still possible to build loads as long
+as they are modular to the unit load level and additionally it
+is possible to build unit loads on a different unit load
+platform. The ﬁve sizes chosen are still compatible to the
+needs of a modern pooling business model. A future option
+is to build the boxes not as a rigid box but out of panels.
+This means that a panel can be used as a side panel, bottom
+panel or top panel and allows building many different box
+sizes out of less different panels (see chapter 7). For the
+MODULUSHCA project, the consortium decided to put
+
+123
+
+the focus on rigid boxes which are compatible with today’s
+SC systems. In order to show how a future scenario can
+look like the innovative idea of panels will be further
+developed.
+To identify the impact of a future PI scenario and to
+highlight the difference in performance to the current situation (using cardboards and pallets), the general approach
+which is described in chapter 5 (Fig. 3) is used. For each of
+the items in the test scenario, the best-ﬁtting M-box
+dimension out of the available sizes gets determined (note
+that not all available sizes have to be chosen for the given
+set of items). This process is done with a computerized
+algorithm from literature as described in chapter 3.1. The
+results of the test scenario are presented in Table 3.
+As the results of the test scenario show the truck fullness, M-box utilization depends strongly on the number of
+used box sizes. This leads to the fact that the number of
+used trailers signiﬁcantly decreases (about 22 %) with the
+
+different box sizes. Modelling the key performance indicators (KPI) and solutions for operational interconnectivity
+in FMCG logistics has shown that the whole SC must be
+taken into account and that handling costs are the major
+part of logistics costs. The use of M-boxes is then very
+useful for reducing handling costs and a more efﬁcient way
+to ship goods. The cost impacts, beneﬁts or on-costs of the
+M-box solutions will be driven not only by improvements
+enabled by better vehicle utilization, but also by
+improvements in unit, case and load handling efﬁciency
+and physical storage [39] (further information on cost–
+beneﬁts see [39]).
+
+Besides the impact of a future PI scenario, the results of
+the test scenario illustrate the dilemma in the current
+logistics system based on carton-based containments where
+the product is required to provide much of the structural
+integrity of the unit load. Actually, nearly full carton cases
+of products (above 85 % with nearly unlimited range of
+carton case sizes) lead to only 70 % full unit loads, because
+stacking carton boxes does not allow same maximum
+heights than M-boxes. This instance and the derived
+requirements of the SC lead to the results summarized in
+Table 3. These 81 % full unit loads, with a much smaller
+number of box sizes than actual carton case sizes, can be
+
+Table 3 Truck fullness results [29]
+Item utilization of the
+M-box’s volume (%)
+
+M-box utilization of the unit
+loads volume (%)
+
+Item utilization of the
+unit load (%)
+
+Number of
+trailers used
+
+Difference to the
+current situation (%)
+
+Five M-boxes
+
+56
+
+100
+
+56
+
+745
+
+5
+
+Nine M-boxes
+
+63
+
+100
+
+63
+
+652
+
+-8
+
+Full set (155
+out of 440)
+
+81
+
+100
+
+81
+
+549
+
+-22.5
+
+Fig. 9 Key functions of the
+M-box [8]
+
+idea, besides 22,5 % less trailers.
+6.2 Results for the M-box design
+A key enabler of this work is to develop a functional speciﬁcation for the modular units. The ﬁrst step of the presented
+methodology is the clariﬁcation of the task (see Fig. 5). As
+described in chapter 5.2, an e-survey based on scenarios
+provided by a storybook approach is used to identify and
+prioritize potential design features for the M-box. The result
+of the survey is to deﬁne ‘‘must have’’, ‘‘nice to have’’ and
+‘‘not required’’ functionality characteristic. The must have
+characteristics are then used to derive the main functions of
+the M-box and also requirements for the design. These
+functions for the M-box used in the PI vision are clustered to
+main functions and are listed below in Fig. 9.
+Following the different phases of the VDI 2222 [37] (as
+described in Fig. 5), the next development phase is
+
+Fig. 10 Different steps in the conceptual design: a ﬁnding solution
+principles; b assessment of the solution principles according to Pahl/
+Beitz [40]; c developing solutions through TRIZ and brainstorming;
+
+123
+
+Logist. Res. (2015) 8:8
+
+conceptual design. Since conceptual design uses the
+methodological approach of VDI 2221 [36], the starting
+point is to investigate different physical effects to ﬁnd
+possible solutions principles for each of the key functions.
+To further assess the different principles and to focus further developing work on the most promising solution, they
+are evaluated following the methodology of Pahl/Beitz [40]
+by different criteria:
+•
+•
+•
+•
+•
+•
+
+Compliance with the overall task
+Fulﬁls demand of the speciﬁcation
+Realizable in principles
+Within permissible costs
+Incorporates direct safety measures
+Preferred by designer’s company
+
+In the next steps, developing tools like the TRIZ method
+[41] and brainstorming in a larger team helped to ﬁnd more
+detailed solutions to realize the functions. The developed
+solutions for each of the key functions are then summarized
+
+d morphological box with different solution variations; e value beneﬁt
+box’’), and different solution variations for the M-box
+design are selected. Before deciding on the ﬁrst
+
+Fig. 11 Virtual development process and engineering tools [8]
+
+Page 15 of 22 8
+
+embodiment design to be realized, the selected solution
+variations are assessed with a value beneﬁt analysis and a
+failure mode and effect analysis (FMEA). The different
+steps of these design phases are brieﬂy shown in Fig. 10.
+More details can be seen in [16, 29].
+As outlined in chapter 3.2, there are already a lot of different transport boxes on the market meeting most of the
+essential requirements for the PI containers. Many boxes are
+modular, foldable, stackable, etc., but none of them has an
+interlocking system meeting the demands of the PI vision.
+Therefore, the MODULUSHCA consortium decided to
+further focus on the development of the interlocking mechanism to pave the way for the realization of the PI. For the
+innovative interlocking mechanism, a male/female system
+situated on top and at the bottom of each box is chosen, due to
+comprehensive and broad assessment results.
+Steps 3 and 4 of the methodology presented in Fig. 5 are
+embodiment design and detail design. Therefore, various
+virtual methods like CAD and CAE support the methodical
+engineering process (shown in Fig. 11).
+During this virtual development process, iteration take
+place after each important development step. Structural
+analysis with ﬁnite element methods (FEM and FEA) and
+multi-body dynamics (MBD) calculations is used to model
+and simulate the behaviour of the M-box virtually. After
+the ﬁrst development step, the structural strength of the
+M-box is proofed via FEA (see Fig. 12). This provides
+decisions about the material choices and other design
+details to guarantee the required stiffness and strength of
+the M-box. In engineering, the proposed 3D-printing
+material is roughly new and crucial FEA with CAE provides valuable insights and a more streamlined design
+
+Fig. 12 Results of M-box’s FEA [42]
+
+
+process than laboratory testing in this early stage. The
+presented results in Fig. 12 show the maximum principal
+stress and displacement of the M-box prototype in a virtual
+test scenario in which the lowest box of a unit load is
+charged. The force applied in FEA corresponds to average
+loading density of 500 kg/m3 (note that according to the
+BGR234 of 2006 [32], a safety factor of 2 has to be taken
+into account) and depicts that the material choices and
+design details are suitable to cope with the maximum load
+as required in the test scenario. Further details can be seen
+in [42].
+For the interlocking mechanism, multi-body dynamics
+analyses are carried out to calculate the load on speciﬁc
+components of the mechanism in different scenarios during
+its lifetime. This step is necessary to reach adequate
+dimensioning of the design parts according to the appearing loads. This leads to minimization of space, secure
+operation and reduction in wear.
+In order to proof the PI scenario (further described in
+chapter 7), the MODULUSHCA consortium decided to
+prototype several M-boxes in two different sizes (see KPIs
+in Table 4). After several iterations in the design process
+(see also [29]), the drafts are evolved to ﬁrst prototype
+design as seen in Fig. 13.
+To proof the PI scenario, the focus of the ﬁrst prototype
+is on how to combine the units with the interlocking
+mechanism. Therefore, it does not fulﬁl all the functions
+
+Table 4 KPIs of the M-box prototypes
+Small M-box
+
+Large M-box
+
+Outer dimensions (mm)
+
+300 9 400 9 300
+
+400 9 600 9 400
+
+Inner dimensions (mm)
+
+270 9 360 9 275
+
+370 9 560 9 375
+
+Volume usage (%)
+
+74.25
+
+80.94
+
+Weight (kg)
+
+2.9
+
+5.7
+
+Fig. 13 Small M-box prototype design in CAD
+
+123
+
+and requirements presented in Fig. 9. As already stated
+before, the innovative interlocking mechanism is realized
+with a male/female system situated on top and at the bottom of each box. To build a unit load, the different
+M-boxes have to be positioned on top of each other in a
+criss-cross packing pattern. To activate or deactivate the
+interlocking mechanism, the lever (see detail B in Fig. 14)
+that is positioned at the top of the M-box has to be turned.
+Turning this lever drives a sliding sheet positioned in the
+double ﬂoor of the M-box (see detail C in Fig. 14) via a
+rope/cable which operates in one of the side wall. The
+translational movement of the sliding plate is then converted to a rotational movement of rotating plates positioned underneath. If one M-box is positioned on top of
+another, the rotating plates then gear into the top panel of
+the M-box underneath. The rotating plates are positioned in
+a modular distance of 100 mm which allows the M-boxes
+to overlap, the building of unit loads with different-sized
+M-boxes and turning the M-boxes by 90°. Using a handle
+which is positioned at the top of the M-box to activate or
+deactivate the interlocking mechanism is on the one hand a
+matter of safety and on the other hand a matter of accessibility. If one M-box is positioned on top of another, the
+mechanism cannot be deactivated by accident and is selfsecured. As the FMEA points out, the accidentally
+unlocking of connected boxes is a severe injury risk.
+Therefore, the lever is either always covered by a box on
+top or can be ﬁxed if there is no box on top and thus always
+secured. On the other hand, if one M-box is positioned in
+the middle of the top layer of a unit load, it is still possible
+to access the handle in contrary if the handle would be
+positioned at the bottom of the M-box. Further details can
+be seen in [29].
+The developed mechanism and the current manual
+movement to interconnect the M-boxes can be seen as the
+basis for future developments to integrate the M-boxes in
+fully automated supply chains. For future use, the
+mechanical system ‘‘handle-rope-sliding plate’’ can be
+replaced by automated actuators which establish the
+interconnection by rotating the discs to interlock the units.
+With an appropriate energy supply and intelligence, the
+M-box will then be able to navigate autonomously through
+future PI-supply networks. A survey on ergonomics and
+handling capabilities which was part of the MODULUSHCA project revealed that a M-box without additional handles could cause problems. Lifting the box by
+grasping the structure on the side panels will lead to direct
+pressure on the nerves and/or blood vessels of the ﬁngertips. This increases the risk of discomfort and injury.
+Furthermore, the survey pointed out that positioning the
+handles on the long side of the box would be disadvantageous. In order to keep the centre of gravity closer to the
+
+Fig. 14 Interlocking mechanism of the M-box
+
+of the box (the one housing the interlocking mechanism).
+In order to solve these problems and assure a handling of
+the boxes which meets the demands of ergonomics, additional handles are proposed (see [42]). They can be positioned on top of the M-boxes (like any other M-box) and
+use the same principles to interlock as it was explained
+early in this section (rotating plates gear into the top panel
+of the M-box).
+In order to establish a starting point for functional tests
+and design evolution, the prototypes are produced with the
+3D printing technology stereolithography (STL) [43] (see
+Figs. 15, 16). The KPIs for the produced prototypes are
+described in Table 4.
+The next step in a future design process would be to
+improve the design according to functional test results. One
+major step is to increase the volume usage up to a range of
+80 % for the small M-box and 85 % for the large M-box.
+Furthermore, the design ought to include more functions
+like a possibility to identify the content, access to the
+products not only from the top but also from the nonfunctional side panels, ways to secure the M-box and better
+ergonomic handling which are core functions of the whole
+PI idea (see Fig. 9).
+6.3 Results for loading M-boxes
+The aim of the methodology described in chapter 5.3 is to
+allocate the unit loads built out of M-boxes on each single
+trailer on their speciﬁc position. Therefore, two relevant
+
+Fig. 15 Physical prototype of the small M-box
+
+‘‘logistic processes’’ in the PI packing are identiﬁed which
+are important for the box functionality and mainly inﬂuenced by technical restriction:
+1.
+2.
+
+Building unit loads out of M-boxes.
+Allocation of the unit loads on the trailer.
+
+These logistic processes are part of the general approach
+to identify the overall impact of a future PI scenario which
+is described in chapter 5 (Fig. 3). Therefore, the difference
+in performance to the current situation using cardboards
+and pallets can be seen in Sect. 6.1, Table 3.
+
+based on the ﬁndings in the sizing process (see chapter 6.1) are
+used. The restriction of law by the road trafﬁc act in Germany
+and further technical restrictions deﬁning the boundaries outlined
+in Sect. 3.3 are considered in this example. Figure 17 shows a
+signiﬁcant result of the algorithm and depicts the boundaries,
+centre of mass, axle load and bearing load. The different columns
+refer to the weight of a unit load placed on a speciﬁc position.
+
+7 Conclusion and outlook
+The PI aims to bring maximum ﬂexibility and interconnectivity to the SC, and the M-boxes are a key element of
+this intention. Starting the design process, it was obvious
+
+Logist. Res. (2015) 8:8
+
+that the gap between the SC in the PI vision and the SC
+system today will lead to two fundamentally different ways
+to build and design a modular box (see chapter 6.2):
+1.
+2.
+
+Panels mean modular panels which can be used as a top
+panel, bottom panel or side panel with no limitation to
+orientation. Using such modular panels will allow building
+many different boxes and using less different panels (an
+example is outlined in Fig. 18) and as a consequence will
+bring more ﬂexibility to the SC system.
+This future scenario, allowing many different rigid
+boxes or detachable boxes built out of panels in the SCs,
+can raise doubts about the efﬁciency and feasibility of
+pooling so many different boxes or parts and can lead to
+logistical and ﬁnancial problems and obstacles. Challenges
+to overcome will be:
+•
+•
+•
+•
+
+Fig. 16 Interlocked part of a unit load comprising small and large
+M-box prototypes
+
+Fig. 17 Balanced trailer loading [8]
+
+123
+
+Rigid boxes—as described in chapter 6.2
+Boxes built out of panels:
+
+In the complexities of the modern SC keeping components together will be a huge logistical challenge.
+As soon as a part of a product is detached, it is at a risk
+of being lost and also damaged.
+A successful pooling business is based on having the right
+product available at the right location at the right time.
+One way to overcome this would be to budget the
+additional costs in oversupplying the network to
+overcome the risk of component shortage.
+
+As the PI Initiative and the MODULUSHCA concept
+aim to change the whole SC and the way it works, the
+consortium strongly believes that these obstacles are
+manageable in the future. Therefore, a future task within
+the MODULUSHCA project will be to further develop the
+innovative concept of modular boxes built out of modular
+panels and to proof the overall assumptions of the PI with
+
+Fig. 18 M-box built out of modular panels [42]: a ﬁrst prototype design; b panel–panel-locking system actuation; c M-boxes built out of panels
+interlocked with additional connectors; d planar—locked panels in order to form a larger panel
+
+The ﬁrst ‘‘physical’’ test run of MODULUSHCA will
+take place in a closed inter-site SC of one of the consortium
+partner’s customization centre. In this ﬁrst logistics pilot,
+the developed M-boxes will replace pallets and cases that
+are currently used for the intra-/inter-site transportation.
+The aim is to scale this up to an open interconnected network beyond the company boundaries at later stage
+accomplishing the scope of this project. The pilot will
+consist on introducing some M-boxes into the current ﬂow
+of goods of a company evaluating and monitoring the
+impact that the new system will have on people’s safety,
+product security (decreased damage and traceability),
+processes and information ﬂows. The M-boxes will be
+assessed against the following KPIs:
+•
+•
+•
+•
+
+Ergonomics (weight, grip handle)
+Quality assurance (cleanability, package and product
+damage)
+Safety (ﬁre protection)
+Others
+
+and should demonstrate value creation capabilities. An
+inter-site transportation pilot will be performed in order to
+validate vehicle loading optimization, stackability, stability, 24’’ drop test, shaker table, inclined conveyor or even
+ISTA 3E standard for shipping of full product pallets.
+The second ‘‘physical’’ test run will use one of the
+consortium partner’s distribution networks. It will demonstrate the handling of the new information formats as well
+as analyse the handling M-boxes in the transhipment processes, together with testing the sensor system and communication device (not part of this article, see [4]) that will
+be developed. The demonstration will make an effort to
+integrate and test the algorithm about collaborative
+scheduling and routing for interconnected logistics. These
+tests use an existing physical and/or digital infrastructure of
+a logistics service provider. Special interest will be the
+operational fulﬁlment of the reversed logistics (empty
+packaging and returned goods) during normal deliveries.
+Optimizations in combining reversed logistics with operational deliveries could prove efﬁcient deployment of the
+
+validate the KPIs of handling, (un)loading, reversed
+logistics, traceability, utilization of truck capacity, stackability and robustness.
+Initially, the project group expects increased load efﬁciency thanks to the interconnectibility of the M-boxes,
+allowing better space utilization in storage and in transport.
+Once the M-boxes will become a standard, there will be
+even more efﬁciencies as the FMCG companies will naturally converge towards products and packages designs that
+maximize the weight and volume ﬁll of the boxes themselves. The main beneﬁts out of the test runs in a closed
+inter-site SC demonstration and in distribution networks are:
+•
+•
+•
+•
+•
+•
+•
+•
+
+Greatly reduced amount of carton versus what is in use
+today
+Increased load efﬁciency
+Improved both safety and security issues all along the
+SC
+Increase in load efﬁciency; use of available box/trailer
+capacity
+Overall decrease in the transport kilometres and
+reduction of CO2
+Improved handling during loading and unloading
+Reversed logistics versus operational deliveries
+Traceability
+
+Besides all necessary OR and logistic considerations
+within the PI idea, this work shows obviously that engineering design and ‘‘physical objects’’ are essential contributors to the overall goals identiﬁed.
+The methodological and creative development of 3Dprinted prototypes brought valuable insight in design,
+handling and identiﬁed further research questions. Besides
+the scientiﬁc approach in box design, the economic and
+cost-efﬁcient production in larger quantities is a major
+challenge for the loading device industry. Despite using
+completely different product methods in the future production of the M-boxes, the presented ﬁndings in engineering design regarding the different aspects (the three
+layers) can be reused efﬁciently.

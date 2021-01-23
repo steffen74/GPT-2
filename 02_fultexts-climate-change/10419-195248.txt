@@ -1,0 +1,1275 @@
+
+
+1 Introduction
+There is an old saying among economists, possibly apocryphal, and of unclear
+attribution: ‘‘throughout history there have been only four kinds of economies in the
+world: advanced, developing, Japan, and Argentina’’.
+This idea can be more concretely grasped by looking at evidence on the long run
+levels of income per capita in a broad range of countries over the last two centuries
+in Fig. 1. Material living standards have advanced across the entire world, but the
+Prepared for the conference ‘‘Exceptional Argentina’’ at Harvard University organized by Rafael Di
+Tella, Edward Glaeser, and Lucas Llach. I thank the organizers/editors, anonymous referees, and
+conference participants for useful comments and suggestions on this paper. All errors are mine.
+& Alan M. Taylor
+amtaylor@ucdavis.edu
+1
+
+
+Fig. 1 The great divergence and Argentina. Source: Maddison (2007)
+
+well-known Great Divergence is quite apparent. A few rich countries have become
+much richer; a larger group of poorer countries have grown more slowly average.
+Within each group are notable exceptions, with some very poor countries making
+little progress at all. However, most striking is those countries witnessing a reversal
+of fortune, moving from one group to the other.
+The set of once-poor countries that are now rich include Japan, where the
+transition began more than 100 years ago, and some other East Asian countries such
+as Korea and Taiwan, whose transition started only 50 years ago and is now almost
+complete. But going the other way there is only one notable case of a country that
+started life relatively rich and ended up comparatively poor: this is the great puzzle
+or paradox of Argentina. In the late nineteenth century, it was among the top ﬁve
+countries in income per capita, richer than all European countries except Britain and
+on a par with other rich settler societies such as the United States, Canada, and
+Australia. Its status among the richest economies reached a peak around 1913 when
+income convergence stopped. But even until 1929 it still clung on in this club, only
+to face a slow and widening relative decline thereafter. It is now close to the average
+country in the world given its level of income per capita, and its citizens enjoy only
+40% of the average income per capita of the 12 core countries of Western Europe.
+1.1 ‘‘MicroExplanations’’: trade and investment
+In a complementary chapter by Lucas Llach in this volume, written with a different
+focus, some important background is developed for the topics explored here. Llach
+discusses how the prosperity of Argentina in the circa 1913–1929 period was
+potentially fragile and thus vulnerable to reversal: the pre-1914 boom had been
+narrowly built on the physical capital of railways and the cereal lands of the pampas
+they made viable, but the potential for broader growth via industrial and human
+capital was constrained. On wider human development measures, including
+schooling and health, Argentina lagged its rich country rivals, and on a regional
+
+surrounding province. Such were the peculiar initial economic conditions in
+Argentina circa 1929.
+To complement those ﬁndings, this chapter looks elsewhere, and in two different
+directions: it looks back to some of the theories of historical ‘‘deep determinants’’
+and how they might relate to Argentina’s malaise; and it steps forward to look at the
+evolving story after the Great Depression with these initial conditions kept in mind.
+I explore some of the main contours of the Argentina ‘‘macropuzzle’’ as the great
+divergence in per capita incomes emerged and then widened after 1929, and look at
+some of the quantitative explanations that have been advanced for it, in particular,
+the central roles played by barriers to trade and investment.
+There are many of these (and other) distortions in Argentina—perhaps too many
+for the tastes of economists easily seduced by monocausal explanations tied to a toy
+model with a minimum of parameters. But we are in a country with an untidy
+economic history: in economic policy terms, it is a place where almost anything that
+could go wrong has, at some time, actually gone wrong. In this weirdest of historical
+laboratories, dozens of strange economic policy experiments have been run in the
+last 200 years, often for long periods, and not infrequently with lasting
+consequences. Still, in sum, a focus on some key ‘‘microexplanations’’ can help
+us to understand a lot of what went wrong at the nexus of public policy and
+economic performance.
+1.2 ‘‘Macropuzzles’’: elusive deep determinants?
+Yet beyond the search for immediate causes, of equal or greater concern to some
+economists has been the search for so-called ‘‘deep determinants’’ of economic
+outcomes, consisting of causally—and often temporally—distant factors that might
+be placed as primal or exogenous factors which ‘‘explain’’ the proximate cause and,
+hence, the ultimate outcome of economic underperformance. Among the most
+widely cited explanations are a country’s geography (including land/resource
+endowments as well as climate/disease environment), its colonial experience, and
+the origins of its legal system.
+We shall review each of these explanations as applied to the Argentine case, and
+ﬁnd that, in contrast to many other countries, most of these explanations do not ﬁt
+all that well. For example, Argentina is a predominantly temperate country, it has
+been dominated by European settlement, it has maintained high literacy despite the
+inequality, and its legal origins are a peculiar hybrid of common and civil law ideas.
+Thus, in the debate over the causes of economic success and failure, Argentina
+stands as an exception to many of the rules which seem to apply elsewhere,
+deepening the mystery.
+This contrast leaves us with the ‘‘macropuzzles’’: we have much work left to do
+to piece together a plausible story not only of what went wrong, but why it went
+wrong. What were the political economy mechanisms that derailed Argentina in the
+twentieth century? A century ago, despite some bumps in the road, the country was
+prosperous and literate, in a temperate zone, economically open, had reasonably
+
+liberal constitutional democracy. It was not so unlike the other settler countries.
+Today, a century later, it looks very different.
+1.3 The explicandum
+In the two main sections of the paper that follow we look at some commonly
+discussed proximate factors behind Argentina’s relative economic decline. We
+attempt to put these factors in some kind of empirical perspective and evaluate how
+much they might have contributed to Argentina’s economic slow down.
+To do so we will be primarily concerned with the steady-state impact of such
+effects on output. In all cases, the exact levels of these distortions have varied
+substantially over time, but given the slow convergence to steady state in any
+benchmark neoclassical model (empirically or theoretically), these factors will have
+a high degree of historical persistence across years and decades in any calibrated
+dynamic model.
+With the strong forces of inertia noted, it is worth keeping in mind the kind of
+income gaps we have to explain. The income per person level in Argentina today
+(about $8000) is about two-ﬁfths of that in the rich world Western Europe (about
+$20,000). Thus, we are looking for a factor, or set of factors, that when imposed on a
+rich country can cause income to fall by a factor of 2/5 (or drop 60%); or
+equivalently, factors which when removed from a poor economy could cause
+incomes to rise by a factor of 5/2 (or increase by 150%). Or, perhaps more cleanly,
+in log terms we seek to explain a change in relative income of just under 1.000 log
+points.
+
+2 Argentine trade in the twentieth century
+For most of the twentieth century, Argentina’s trade volumes (as a fraction of GDP)
+have been very low, whether relative to their initial levels in the 1900–14 period, or
+relative to the trade levels one might predict in a similar economy of comparable
+size and geographic remoteness.
+Figure 2 traces the evolution of the trade share over time in Argentina, measured
+by exports plus imports divided by GDP. From a high of 80% or more on the eve of
+World War One, this ratio fell to levels below 20% in the 1920s and 1930s and has
+remained there ever since (Berlinski 2003). Even with the push towards
+liberalization in the 1990s this ratio barely ticked up during that decade. This
+pattern constitutes the main empirical fact about trade in Argentina in the twentieth
+century.
+One question is how much of this trend is explicable in terms of (potentially
+changeable) trade policy frictions? And importantly, in addition, how much of those
+frictions reﬂected policies in Argentina as compared to the Rest of the World? From
+the 1930s to the 1960s, trade barriers were high almost everywhere in the global
+´
+economy. As Dıaz Alejandro and others have noted, Argentina’s policy decisions
+were, therefore, not that unusual, and, as in many other countries, the shift towards
+
+Fig. 2 Trade volumes. Source: Berlinski (2003)
+
+political economy dynamics: when the world’s rich, core economies chose autarky
+in the 1920s and especially 1930s—forces then ampliﬁed by wartime frictions—the
+countries of the periphery had to seek another economic strategy in the short term,
+and having been exposed to the downside risks of openness and specialization in the
+primary-product ‘‘lottery,’’ they were understandably wary of again placing large
+bets predicated on the assumption of a stable, globalized, liberal world order with
+open markets for trade. Argentina ﬁts this pattern.
+However, while Argentina’s stance was not that peculiar by the standard of
+developing countries, where inward-looking development strategies were the norm,
+it was unusual by the standard of the rich countries, the club to which ostensibly
+Argentina wished to belong, or rather remain. After 1945, the gradual progress of
+GATT (and in Europe of the EU project after 1957) carried trade integration rapidly
+forward. But until the Uruguay Round (circa 1990) of negotiations, Argentina, like
+most other developing countries, stood apart from this process, and policies
+remained strongly protectionist.
+Data on the distortionary impact of quotas are scant, but these barriers were often
+very signiﬁcant in the Argentine context, whether imposed directly or by the quota
+rationing of foreign exchange (as in the 1940s and early 1950s). Trade taxes are
+easier to document, and Fig. 3 shows what we know about average import and
+export taxes in the long run (Berlinski 2003). Import taxes were not trivial prior to
+World War One as they were a key revenue source, but export taxes were zero.
+Subsequently, in the 1920s and 1930s, average trade taxes began to climb. They
+abated during World War 2 and the early postwar exchange control epoch. Then
+import and export taxes climbed rapidly after 1960, to about a 15% level for each, or
+a 30% distortion total. Judging from the timing of two asymmetrical spikes in the
+1980s, export taxes tended to evaporate in hyperinﬂation episodes, while import
+taxes tended to rise in an offsetting fashion, but these ﬁgures may also reﬂect
+accounting problems. In the liberalization period of the 1990s, export taxes were
+lifted, but import taxes remained high, although trade policy becomes somewhat
+more liberal on other dimensions (e.g., quota removals for GATT/WTO compliance
+
+Fig. 3 Trade taxes. Source: Berlinski (2003)
+
+What would be the likely impact of these trade barriers on income levels? We
+cannot hazard a precise answer but we can use some simple impacts based on either
+calibrated models or econometric estimates. In this setting, I will neglect the
+standard dead-weight loss considerations since utility losses arising from static
+consumption and production distortions are typically an order of magnitude too
+small to be useful in discussions of the Great Divergence (usually 1–2% at most). I
+narrow the focus further by examining the impact of trade frictions on two of the
+most widely discussed channels through which protectionist policies might lower
+incomes.
+First, higher trade costs raise the costs of imported capital goods and intermediate
+inputs. These costs are nontrivial, and they matter all the more in countries that are
+both very open and have comparative disadvantage in these products. Argentina is a
+classic example of such a country, and the understanding of this type of drag on
+economic performance dates back to the classic analysis of postwar underperfor´
+mance by Dıaz-Alejandro (1970), who noted that many key imported capital inputs
+(e.g., farm or industrial machinery) bore domestic prices that were very high indeed
+compared to world prices.
+Let us now feed some numbers into a model, backed by econometric support, that
+can capture this effect. Suppose, as noted above, trade costs increase by 50% due to
+trade barriers (the rough magnitude of the trade tax burden since 1950). Also
+suppose that imports in the initially open economy would be 40% of GDP (the
+ﬁgure last seen in Argentina circa 1910, the last date when both it and the rest of the
+world were close to fully open). Let us assume that intermediate inputs account for
+50% of imports, and capital goods account for 25% the roughly stable ﬁgures seen
+in decades of historical data in Argentina (Berlinski 2003).
+Using the Estevadeordal and Taylor (2013) standard open-economy neoclassical
+model, we could conclude that the trade taxes would lower GDP by roughly 0.200
+log points or 20% in the long run steady state, given the import shares as above.
+Two-thirds of this would arise due to higher costs of intermediates (an effect
+analogous to a negative productivity shock) and one-third would arise from the
+
+These are quantitatively large effects when the full gap to be explained is 1.000 log
+points, since they explain one-ﬁfth of Argentina’s decline.
+A further place to look for an impact of trade frictions on output is in the process
+of technology transfer. Here there are plenty of candidate theoretical models, but no
+consensus on the structure and calibration that best ﬁts the data, nor is there solid
+statistical evidence for this channel. Accordingly let us rely on recent empirical
+estimates and, since the effects will turn out to be small anyway, allow ourselves to
+compute an upper bound for this effect. In recent work, Acharya and Keller (2008)
+examine the impact of expanded imports from the ‘‘technology leader’’ country on
+the TFP levels in follower countries, controlling for import levels and R&D
+intensity in the leader, and interactions between the two. For their analysis, based on
+mostly developed countries, and the US is the leader.
+Here, we consider how the same analysis might apply to Argentina as a follower,
+where the OECD might serve as the R&D source. One of the upper bound results in
+Acharya and Keller (2008, Table 8) suggests that a ‘‘high’’ estimate (the 95th
+percentile) for the elasticity of local TFP with respect to import volume is about
+0.06 for the case of R&D intensive sectors. (For many sectors the effect is small or
+negative, reﬂecting the possibility of countervailing forces where, say, import
+competition is destructive of an industry that cannot catch up.)
+Applying these estimates, if we apply the 0.06 elasticity to the post-1914 halving
+of Argentina’s trade volumes, then this implies a reduction of TFP due to weaker
+technology transfer of about only 3%. In steady state, given endogenous capital
+accumulation, the impact on income would be somewhat larger and might account
+for an overall income effect of 5% or just 0.050 log points. So technology transfer
+via imports would appear to be a very small part of the overall story: the statistical
+evidence for the channel is quite weak in aggregate, even if we make several
+calibration assumptions designed to make its impact as large as we dare. To sum up,
+in contrast to income losses due to inhibited technology transfer (about - 5% or
+- 0.05 log points of income) the bulk of the income losses due to trade policy
+frictions (about - 20% or - 0.200 log points of income) would seem to derive from
+the direct effect of increased input costs for capital and intermediates.
+
+3 Argentine investment in the twentieth century
+A second area we might examine as an explanation for Argentina’s low income is
+capital scarcity. By this we mean, in a standard neoclassical growth model, a
+suboptimal capital/labor ratio, denoted k = K/L. In the simplest model, output per
+worker y = Y/L is expressed as y = A ka, where A is productivity (total factor
+productivity or TFP) and a capital share of a = 1/3 is the typical exponent used in
+modern empirical work (Gollin 2002).
+The steady state of the model, at a per worker capital level k* and output level y*,
+can be solved by assumptions on capital accumulation, typically by either using a
+Solow or Ramsey growth model. In either of these models k* and y* rise
+endogenously in response to an increase in TFP, or A. Thus, in a ‘‘levels
+
+0) can be broken down into (1) a shortfall in TFP, that is A below A0; and (2) a
+friction preventing k from reaching it hypothetical optimal level k*, due to
+investment taxes or other distortions that create a wedge and keep the marginal
+product of capital MPK above its optimal level MPK*. Since the production
+function is Cobb–Douglas, MPK = a 9 APK is proportional to APK = Y/K;
+hence, these deviations can be written, following Hall and Jones (1999) as:
+y=y0 ¼ ½A=A0  Á ðMPK0 =MPKÞ½a=ð1ÀaÞ ;
+where, by proportionality, K/Y is replaced with a/MPK, additional human capital
+terms are omitted for simplicity, and where the exponent in this equation is , given
+that a = 1/3.
+As regards the Great Divergence in incomes between rich and poor countries, the
+consensus since Hall and Jones, has been that the A/A0 term above explains much
+more of the divergence than the MPK/MPK0 term (e.g., see Easterly and Levine
+2001; Gourinchas and Jeanne 2006; Caselli and Feyrer 2007, inter alia). Indeed, for
+Argentina, Hall and Jones used 1988 data to compute that the MPK term above
+explained about 5% of the income difference between Argentina the United States.
+Does this mean that the MPK explanation is dead?
+Not quite. Ideas from recent empirical research can provide us with an improved
+understanding of the evolution of the Argentine capital stock. Properly computed,
+MPK distortions make a signiﬁcant contribution to the income gap. For example,
+Fig. 4 plots the implied MPK for the United States and Argentina using the Hall–
+Jones method based on installed capital derived from a perpetual inventory method
+(PIM). Their estimates stopped in 1988 since that was the last year of PWT 5.6, their
+data source. But we now have PWT 6.2, with coverage until 2004, and we can see
+that 1988 was quite an unusual year.
+Argentina had over-borrowed and over-invested prior to the debt crisis, and then
+in 1988–90 output was depressed as the economy slumped into recession and
+
+0.3
+
+ArgenƟna with “high” depreciaƟon
+assumpƟon (δ=10%, local prices)
+
+ArgenƟna (Hall-Jones δ=6%, world prices)
+
+0.2
+Price barrier
+ArgenƟna (Hall-Jones δ=6%, local prices)
+Other barriers
+USA (δ=6%, world prices)
+
+0.1
+Hall-Jones (T=1988)
+
+0
+1960
+
+1970
+
+1980
+
+1990
+
+2000
+
+Fig. 4 The marginal product of capital. Source: Author’s calculations based on the method in Hall and
+
+hyperinﬂation, with installed capital suffering heavy underutilization. If one wanted
+to pick a moment to make Argentina’s APK, and hence MPK look as low as
+possible, that would have been the year to choose, suggesting a small MPK
+distortion in total, and none at all after a price adjustment, and hence minor capital
+scarcity problems. Mismeasurement is, therefore, a potentially serious issue for this
+calculation.
+And as we can see, for most of the last three decades the story has been very
+different. Using data back to 1960 and the Hall–Jones PIM standardized
+depreciation rate of 6%, the Argentine MPK level appears to be on average 50%
+higher than the US level, a considerable wedge. I would argue that the deviations
+from this pattern in the 1980s and in 2000–03 are easily understood and should be
+discounted: these were periods of severe economic downturn when measured
+installed capital is not the same as capital in use. Were it possible to further reﬁne
+Argentina’s measured capital input time series every year for capacity utilization
+levels—something no statistician has yet done—we would probably discover
+similar gaps even in the recession periods.
+Are these wedges entirely due to a factor we have already considered, the relative
+price of capital? If so, we must not double count, which necessitates evaluating
+MPK at local rather than world prices. The chart shows that this does make a small
+difference. Evaluated at local prices the gap is clearly not so large, but it is still
+signiﬁcant, and it matches up with other recent capital stock estimates using
+different methodologies. For example, Coremberg (2003) pegs the Argentine and
+US capital–output ratios in 1998 at 2.85 versus 1.95, respectively, translating into
+APK levels of 0.351 versus 0.513, and in turn (assuming a = 1/3) MPK levels of
+0.117 and 0.171.
+These independent country-speciﬁc estimates very closely match the rough
+estimates in Fig. 1 after applying the domestic price correction (where the 1998
+MPK levels are 0.129 and 0.180). These gaps have factored in the trade distortions
+considered above: these are, in other words, evidence of additional capital wedges,
+beyond barriers to trade in capital goods. And they still show MPK 50% higher in
+Argentina than in the United States.
+These data push back a little against the ‘‘it’s A not k’’ line of argument
+commonly applied to developing country underperformance. Even researchers
+working in traditions traditionally sympathetic to TFP-based explanations have had
+to concede that the large MPK gaps in the 1990s are clear evidence of ‘‘capital
+shallowing’’ in Argentina. That is, even in the most dramatic period of economic
+success in recent years, there was a pronounced failure of capital accumulation to
+keep pace with the path one might expect during a productivity boom (Kydland and
+Zarazaga 2002). These ﬁndings suggest that Argentina does have some difﬁculty in
+mobilizing adequate capital accumulation, even when proﬁtable conditions appear.
+Perhaps from the 1960s to the 1980s slow investment was the counterpart of
+decelerating productivity, and Argentina could coast along with a depreciating
+capital base and modest net capital stock additions, but then in the 1990s, the scope
+for TFP led growth appeared and capital was apparently not adequately mobilized.
+The income implications of these gaps are nontrivial. Suppose MPK in Argentina
+
+above estimates from the 1990s, from either the PWT or Coremberg. Then in the
+above expression for income differences, applying the exponent of , this capital
+accumulation friction or wedge explains 25% or 0.250 log points of the overall
+income difference between the two countries, and we have explained another onequarter of the Argentine puzzle.
+If capital is low, and MPK is high, compared to the neoclassical benchmark, this
+begs the question: why has Argentina under-invested to such an extent that the
+marginal product of capital has found itself, so often, stuck far above reference
+levels? What is the nature of the investment wedge? What underlying factors cause
+this distortion? I cannot quantify every possible channel, but I propose several
+candidate explanations which center on factors that either raise the cost of capital or
+the risk of investment, and all may warrant further scrutiny.
+First, there is the problem of risk due to macroeconomic rare events. As is well
+known, returns to risky investments often appear excessive given what seem like
+plausible models of risk aversion (Mehra and Prescott 1985). However, the
+possibility of rare ‘‘crash’’ states or valuation jumps, which wipe out signiﬁcant
+wealth through large capital losses, may well be sufﬁcient to resolve this puzzle
+(Rietz 1988; Barro 2005). And undoubtedly, Argentine history is ﬁlled with many
+examples of crashes that severely damaged many kinds of investment returns. High
+or hyperinﬂation events eroded nominal debts on several occasions. These and other
+major economic crises have often left the banking sector in ruins, causing credit
+crunches and broader losses on a wide range of ﬁnancial instruments. If, as a result,
+investment returns are more crash prone in Argentina then investors may demand a
+higher return as compensation for volatility and/or skew, implying a higher
+equilibrium MPK in aggregate. These risks may also be manifest in a repressed
+ﬁnancial system with lower money multipliers and leverage, further tightening
+credit.
+Second, there is the problem of default risk and property rights. In addition to
+rare events driven by market ﬂuctuations, possibly in response to macroeconomic
+policies, we also have to recognize that explicit conﬁscation or redistributions of
+wealth, or other failures of property rights, have often ﬁgured in Argentina’s history.
+Beyond the serial pattern of default (Reinhart and Rogoff 2004), we would include
+bank suspensions, forced debt conversions, speciﬁcations, and other expropriations.
+Although on occasion, ex post, these events were discriminatory as to locals versus
+foreigners, on most occasions, and in general ex ante, such differential treatment
+may not have been expected.
+If capital price distortions (e.g., trade policy) explain 0.250 log points of income
+difference, and capital accumulation frictions (high MPK) explain another 0.250 log
+points, we have explained one half of the 1.000 log point income difference. This is
+not trivial. A 50% increase in income per person would lift Argentina from the
+$8000 level to the $13,000 level (roughly on a par with Greece, Portugal, and
+approaching South Korea). And even in 1913, at its relative peak, Argentina’s
+income was at most 70–80% of US or UK levels, so were even half of today’s gap
+
+Still, can we explain any more of the OECD-Argentina gap? There is a reason to
+think that we can, for various reasons, given several empirically important factors
+we have not yet accounted for. Three such factors could be very important.
+First, there is the issue of investment quality. All calculations of MPK rely on
+calculations of capital stocks based on PIM or HV methods and many standardized
+assumptions. But capital ‘‘quality’’ may be generally lower in poorer countries.
+Public investments are often more dilapidated in poor countries with low quality of
+governance, and where large fractions of public investment spending are lost to
+bribery and corruption (Tanzi and Davoodi 1997). Firm data from some countries
+suggest that the same may be true of private sector investments (Bu 2006), perhaps
+due to private sector corruption; or due to high costs or barriers to technical
+maintenance; or due to capital complementarities with adversely maintained public
+capital, leading to premature discard or under maintenance. Capital is thus less
+productive and of lower capacity than its vintage alone would suggest and some
+correction for higher rates of depreciation is warranted. For example, the Hall–Jones
+method assumes a 6% depreciation rate on all capital. But these rates may be far too
+low for uniform application to rich and poor countries. Bu (2006) estimates ‘‘low’’
+median ﬁrm depreciation rates for all ﬁxed assets as 16% (Philippines) or 12%
+(South Korea) in the 1990s. In Indonesia and some African countries, the reported
+median depreciation rates are higher still, between 25 and 60%. This poses a
+profound problem for capital stock and MPK estimates because the results are
+highly sensitive to the depreciation parameter: increase this parameter by 1% and
+the implied PIM measure of the capital stock falls by 1%, and implied MPK rises by
+0.67% (if a = 1/3). If capital quality is lower and depreciation higher than typically
+assumed, Argentina could be even more capital scarce than has been commonly
+thought.
+Second, there is the problem of investment misallocation. The MPK calculations
+also rely on the assumption that capital is efﬁciently allocated within the economy,
+or that MPK is equalized across sectors. But a contrary view with a log tradition
+maintains that this is unlikely to be the case in developing countries. Instead,
+investment may be misallocated for a variety of reasons—such as corruption and
+inefﬁciency in the private ﬁnancial sector or the role of the state in allocating
+ﬁnance. Work by Hsieh and Klenow (2009) on China and India suggests that,
+compared to the US, an efﬁcient re-allocation of capital could be the equivalent of a
+50% or larger increase in TFP. It is quite plausible that similar misallocation
+problems, although perhaps not as grave, could affect Argentina and would go along
+way to explaining any remaining income gaps, over and above what we have
+measured so far. This is likely to be a productive area for future research, using
+industrial census data and other measurements.
+Third, and ﬁnally, there is the role of investment variety. Input price distortions
+were probably the main trade-related drag on Argentina’s growth in the twentieth
+century. After 1914, and particularly from the 1930s to the 1950s, this scenario
+could be ascribed in some large part to highly unfavorable global conditions for
+open trade; but once global trade started to boom thereafter, self-inﬂicted trade
+policy distortions would remain as the principal cause of the problem. The estimate
+
+focuses only on the so-called ‘‘intensive margin’’—the quantity of a given set of
+goods imported. But recent empirical research in the trade literature suggests that
+comparable economic costs may be inﬂicted by input tariffs on the ‘‘extensive
+margin’’—by limiting the variety of inputs that are imported. If these results carry
+over to intermediate and capital inputs, as they well might, then we would have
+identiﬁed yet another trade-related barrier to investment. Quantifying that impact
+for a broad range of countries, as well as for Argentina itself, remains an important
+goal of future research.
+These three additional factors—investment quality, allocation, and variety—
+represent additional barriers to efﬁcient investment which have also probably acted
+as a drag on Argentine economic performance, even if the magnitudes in question
+remain open frontiers for research.
+
+4 Concluding thoughts: deep determinants
+The discussion so far of likely ‘‘microexplanations’’ suggests that we know, within
+some approximate bounds, how various economic policies and institutional
+deﬁciencies in the Argentine economic environment might have contributed to
+economic underperformance. And indeed these contributions appear to be
+empirically large, sufﬁcient to explain much of the divergence witnessed. But this
+only pushes the question deeper: why have such choices been made and what can
+account for them?
+For all countries, not just Argentina, economists and historians have grappled
+with this question in a bid to explain the deep and exogenous origins of the Great
+Divergence. The problem, as I argue in this section of the paper, is that in the
+particular case of Argentina the explanations that have been proposed—and which
+may seem to work quite convincingly in many other countries—do not appear half
+as persuasive when applied to Argentine economic history.
+4.1 Geography and empire
+To set the stage let us consider a now conventional casual ordering in the levels
+accounting literature. As above we claim that policies causally affect outcomes,
+which we might write as ‘‘policies ? income per person’’ in simple notation. A
+problem that concerns some scholars is the potential for reverse causality from
+incomes to policies, suggesting we look for deeper determinants that explain
+policies. For example:
+X ! policies ! income per person:
+If X is an exogenous deep determinant, it may then be brandished as an
+instrumental variable to avert endogeneity problems when regressing incomes on
+either policies or institutions (e.g., see Acemogluet al. 2001; Rodrik et al. 2004).
+Candidates for X are numerous in the literature. Geographic determinists have
+
+direct effects on labor productivity (Gallup et al. 1999). Crops may affect
+production organization and subsequent institutions, such as slavery, and hence the
+path to democracy and capitalism (Engerman and Sokoloff 1997; Easterly and
+Levine 2003). Alternatively, the impact of disease and climate may have been more
+indirect, with European colonists less (more) likely to settle in the tropical
+(temperate) regions, and more (less) likely to construct ‘‘extractive’’ institutions
+there (Acemoglu et al. 2001).
+In those accounts where historical institutional choices matter (Engerman and
+Sokoloff 1997; Acemoglu et al. 2001), the key to a present-day impact is via a
+political economy persistence mechanism, whereby even after independence a high
+level of inequality preserves colonial extractive institutions, favoring elites, and
+leading to high inequality in incomes and education, and persistently low levels of
+economic development.
+It now starts to become apparent why some of these theories may be poorly
+equipped to explain the case of Argentina. Argentina is essentially in a temperate
+zone, not a tropical zone, and that is especially true of the economic heart of the
+country—the pampas and littoral regions. Those regions are also populated by a
+stock of people of European descent, and they are physically and culturally separate
+from the country’s colonial centers in the altiplano. Slavery existed, but was brief
+and localized. Most importantly, the country did not endure persistent underdevelopment: whatever its physical and political legacy at independence, by 1900 this
+was a rich country, a functioning democracy with expanding suffrage, and most
+importantly an economy equipped with a decent schooling system and, for its time,
+creditable levels of human capital (see the chapters by Llach and Campante and
+Glaeser for more discussion on the role of education and human capital).
+Argentina resembled Canada more than Cameroon in 1900. The problem to be
+explained is not that the country never developed—but that it had the potential for
+success, at one time it lived up to it, and then found ways to fall back into
+underdevelopment. It is, by construction, very difﬁcult for geographic and historical
+‘‘deep determinants’’ to explain this kind of reversal when they rely on persistence
+of institutions, inequality, and economic backwardness over time. And, by way of
+more direct refutation, a micro-level study of the proposed inequality-based
+transmission mechanism raises further doubts: recent research has shown that
+inequality was not purely a legacy of the colonial period (Arroyo Abad 2008): in
+fact from 1820 to 1914, many countries saw inequality rise and fall more due to
+external shocks (terms of trade, migration), and the inequality at independence thus
+turned out to be a poor predictor of their inequality in 1914.
+One way out of this conundrum is to keep the focus on exogenous factors, but to
+look either at alternative deep determinants (e.g., law) or else at the interaction of
+historical initial conditions with the powerful exogenous shocks coming from the
+rest of the global economy at key moments. I end with some speculations on these
+
+4.2 Legal origins
+Inﬂuential work by Glaeser and Shleifer (2002) argues that an alternative and
+plausible ‘‘deep determinant’’ of economic success is ‘‘legal origin’’—whether a
+country has a common law or civil code legal system. Empirically, legal origin is
+correlated with the colonizing power and, therefore, forms part of a broader
+argument that among all empires the British did more good than others by
+transmitting better institutions to the lands they conquered (Ferguson 2003).
+Common law obtains in the Anglosphere of rich settler countries such as the US,
+Canada, Australia, and New Zealand. The civil code prevails in continental
+European countries and their typically much poorer former colonies. In other former
+British colonies, say, the poorer regions of Africa and Asia, post-independence legal
+structures reﬂect a mixed system with common law elements and some civil code
+structures.
+Once again, for those seeking deep determinants, Argentina offers an interesting,
+unique, and somewhat perverse case that is not easily classiﬁed. It is commonly
+noted that either system, common or civil, has a tendency to become somewhat
+mixed over time, as jurisprudence asserts its power in civil law, and as legislatures
+construct codes in common law systems. But Argentina was a very unusual case in
+that it was a mixed system from the start.
+The early Argentine legal system was an outcome of a long political struggle
+from the period of independence (the failed Assembly of 1813 which tried to unite
+the provinces and establish government) until the country was ﬁnally uniﬁed (1859).
+Early efforts to write a constitution failed, not least given tension between
+centralists in Buenos Aires and opposing forces elsewhere. The other provinces,
+minus Buenos Aires province, promulgated the ﬁrst Constitution in 1853, under the
+intellectual inﬂuence of Alberdi, with clear inspiration from the US, Swiss, and
+other early constitutions. The Argentine civil code only came later, in 1869, after
+´
+´
+uniﬁcation, and was written by Velez Sarsﬁeld.
+How did these systems co-exist in practice and what economic effects did they
+have? Did one or other form take the upper hand at different times? Superﬁcially, it
+appears that the common law features, especially judicial review and other powers,
+were often exercised in the nineteenth century. But in the twentieth century, the
+pendulum has swung more toward purely civil law operation, under both democracy
+and dictatorship—to such an extent that in the last decade the country has often
+called on foreign experts to assist in rebuilding some of the key functions of
+jurisprudence that have long lain dormant. Most legal origin evidence is crosssectional in nature, but here is an odd example of within-country time series
+variation. The coincidence of economic decline and the withering of Argentina’s
+constitutional and common law traditions perhaps deserves further scrutiny for
+those interested in the applicability of the legal origin theory.
+4.3 Potential for trade
+Lastly, one important exogenous factor that is likely to have affected the path of
+
+the potential for international trade and capital ﬂows. Prior to 1914, a growth
+strategy based on openness to capital inﬂows, frontier expansion, and the strong
+pursuit of comparative advantage based on primary exports carried the country to
+very high levels of income per capita income.
+Was this strategy viable after 1914? Given the advent of the worldwide retreat to
+autarky that started then and lasts half a century, no. But what if the world economy
+had remained integrated? What would Argentina’s counterfactual economic history
+have looked like? Could it have maintained high living standard and growth without
+being diverted onto the track of economic isolationism? No doubt the
+inevitable closing of the frontier in the early twentieth century Argentina implied
+a gradual structural shift from agriculture to manufacturing and services anyway (Di
+Tella and Zymelman 1967). But that shift would not have quickly overwhelmed
+Argentina’s natural endowment-based comparative advantage. Argentina’s structural shift was, therefore, rapidly accelerated by an autarkic economic environment—one that was at ﬁrst imposed from abroad in the 1920s and 1930s, against the
+grain of domestic policy; but which was then reinforced by autarkic domestic
+policies which emerged in the 1940s and 1950s, and persisted over time to the
+present, long after the rest of the core economies of the world had dismantled
+barriers in trade and ﬁnance.
+What explains this shift? And why might it have mattered more in the case of
+Argentina than in other developing countries of the time that followed the import
+substitution doctrine? Taking the second question ﬁrst, I think the answer has
+something to do with the fact that Argentina had more to lose, on two levels. First, it
+had developed something like a modern economy, with adequately functioning
+market institutions, a hope of monetary stability (after 1891), and some semblance
+of democratic politics and rule of law as a foundation. Comparing Argentina to
+other recently industrialized emerging economies, we can say that none had
+advanced this far in 1914. Second, unlike many other such countries at the time,
+Argentina had more scope to achieve gains from trade—in both goods and capital
+markets. And these gains were at risk if the open trading environment broke down.
+Argentina had very high trade openness and relied on foreigners for almost half of
+the local capital stock and labor supply. For other countries with smaller trade
+shares and smaller ﬁnancial inﬂows, the end of the ﬁrst age of globalization entailed
+a fairly bothersome adjustment; for Argentina, it entailed a radical and painful
+reorientation, one delayed in the 1920s and 1930s by the unfulﬁlled hope that the
+pre-1914 liberal order might magically be restored.
+As to the second question—why the shift?—we should perhaps consider the
+important interaction between economic openness, vested interests, and internal
+political economy dynamics. For example, in a different era, it has been argued that
+the ‘‘shock’’ of Atlantic trade expansion empowered mercantile/capitalist interests
+in the Anglo-Saxon Northwest corner of Europe, allowing this region to embrace
+economic and political reforms that enhanced openness and competition in the Early
+Modern period (Acemoglu et al. 2005). In Argentina, we may have seen something
+of the same path dependence driven by trade shocks, only in reverse: the shock of
+global trade contraction discrediting and weakening the old outward-looking order,
+
+Argentina’s extreme comparative advantage would also play into this dynamic. Just
+as gains from trade would be larger in Argentina than in other countries, given the
+peculiar factor endowment, so for the same reasons the redistributive effects of
+autarky would be great too (for any trade distortion, when Harberger triangles are
+large, so too are the rectangles that measure redistribution of income, and thus
+power—see Rogowski 1989).
+These observations ﬁt with a broader theme in economic history which argues
+that economic and political competition are key complements via the forces
+unleashed in ‘‘open access’’ orders (North et al. 2009). Framed another way, one
+might say globalization and democracy go hand in hand, and, with empirical tests
+´
+based on plausible instruments, this proposition holds up reasonably well (Lopez´
+Cordova and Meissner 2008).
+Adverse external shocks, therefore, pose a danger to political institutions and, via
+path dependence, these events may have far-reaching consequences for economic
+policies. The case of Argentina is perhaps an extreme example: with the most to
+lose, the adverse global shocks in the mid-twentieth century were almost bound to
+cause the most damage here—a sobering thought since, as I write, the world tries to
+navigate its way out of another Great Depression.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original
+author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were
+made.
+
+Tanzi V, Davoodi HR (1997) Corruption, public investment, and growth. IMF Working Papers 97/139,
+Lat Am Econ Rev (2018) 27:3
+DOI 10.1007/s40503-017-0051-8
+
+The Argentina Paradox: microexplanations
+and macropuzzles
+Alan M. Taylor1
+
+Received: 8 September 2017 / Revised: 15 September 2017 / Accepted: 11 October 2017
+Ó The Author(s) 2017. This article is an open access publication
+
+Abstract The economic history of Argentina presents one of the most dramatic
+examples of divergence in the modern era. What happened and why? This paper
+reviews the wide range of competing explanations in the literature and argues that,
+setting aside deeper social and political determinants, the various economic
+mechanisms in play defy the idea of a monocausal explanation.
+Keywords Latin America Á Growth Á Trade Á Finance Á Institutions Á Policies Á
+Divergence
+JEL Classiﬁcation F43 Á N16 Á O11 Á O54 Á O57 Á P52
+
+1 Introduction
+There is an old saying among economists, possibly apocryphal, and of unclear
+attribution: ‘‘throughout history there have been only four kinds of economies in the
+world: advanced, developing, Japan, and Argentina’’.
+This idea can be more concretely grasped by looking at evidence on the long run
+levels of income per capita in a broad range of countries over the last two centuries
+in Fig. 1. Material living standards have advanced across the entire world, but the
+Prepared for the conference ‘‘Exceptional Argentina’’ at Harvard University organized by Rafael Di
+Tella, Edward Glaeser, and Lucas Llach. I thank the organizers/editors, anonymous referees, and
+conference participants for useful comments and suggestions on this paper. All errors are mine.
+& Alan M. Taylor
+amtaylor@ucdavis.edu
+1
+
+
+Fig. 1 The great divergence and Argentina. Source: Maddison (2007)
+
+well-known Great Divergence is quite apparent. A few rich countries have become
+much richer; a larger group of poorer countries have grown more slowly average.
+Within each group are notable exceptions, with some very poor countries making
+little progress at all. However, most striking is those countries witnessing a reversal
+of fortune, moving from one group to the other.
+The set of once-poor countries that are now rich include Japan, where the
+transition began more than 100 years ago, and some other East Asian countries such
+as Korea and Taiwan, whose transition started only 50 years ago and is now almost
+complete. But going the other way there is only one notable case of a country that
+started life relatively rich and ended up comparatively poor: this is the great puzzle
+or paradox of Argentina. In the late nineteenth century, it was among the top ﬁve
+countries in income per capita, richer than all European countries except Britain and
+on a par with other rich settler societies such as the United States, Canada, and
+Australia. Its status among the richest economies reached a peak around 1913 when
+income convergence stopped. But even until 1929 it still clung on in this club, only
+to face a slow and widening relative decline thereafter. It is now close to the average
+country in the world given its level of income per capita, and its citizens enjoy only
+40% of the average income per capita of the 12 core countries of Western Europe.
+1.1 ‘‘MicroExplanations’’: trade and investment
+In a complementary chapter by Lucas Llach in this volume, written with a different
+focus, some important background is developed for the topics explored here. Llach
+discusses how the prosperity of Argentina in the circa 1913–1929 period was
+potentially fragile and thus vulnerable to reversal: the pre-1914 boom had been
+narrowly built on the physical capital of railways and the cereal lands of the pampas
+they made viable, but the potential for broader growth via industrial and human
+capital was constrained. On wider human development measures, including
+schooling and health, Argentina lagged its rich country rivals, and on a regional
+
+surrounding province. Such were the peculiar initial economic conditions in
+Argentina circa 1929.
+To complement those ﬁndings, this chapter looks elsewhere, and in two different
+directions: it looks back to some of the theories of historical ‘‘deep determinants’’
+and how they might relate to Argentina’s malaise; and it steps forward to look at the
+evolving story after the Great Depression with these initial conditions kept in mind.
+I explore some of the main contours of the Argentina ‘‘macropuzzle’’ as the great
+divergence in per capita incomes emerged and then widened after 1929, and look at
+some of the quantitative explanations that have been advanced for it, in particular,
+the central roles played by barriers to trade and investment.
+There are many of these (and other) distortions in Argentina—perhaps too many
+for the tastes of economists easily seduced by monocausal explanations tied to a toy
+model with a minimum of parameters. But we are in a country with an untidy
+economic history: in economic policy terms, it is a place where almost anything that
+could go wrong has, at some time, actually gone wrong. In this weirdest of historical
+laboratories, dozens of strange economic policy experiments have been run in the
+last 200 years, often for long periods, and not infrequently with lasting
+consequences. Still, in sum, a focus on some key ‘‘microexplanations’’ can help
+us to understand a lot of what went wrong at the nexus of public policy and
+economic performance.
+1.2 ‘‘Macropuzzles’’: elusive deep determinants?
+Yet beyond the search for immediate causes, of equal or greater concern to some
+economists has been the search for so-called ‘‘deep determinants’’ of economic
+outcomes, consisting of causally—and often temporally—distant factors that might
+be placed as primal or exogenous factors which ‘‘explain’’ the proximate cause and,
+hence, the ultimate outcome of economic underperformance. Among the most
+widely cited explanations are a country’s geography (including land/resource
+endowments as well as climate/disease environment), its colonial experience, and
+the origins of its legal system.
+We shall review each of these explanations as applied to the Argentine case, and
+ﬁnd that, in contrast to many other countries, most of these explanations do not ﬁt
+all that well. For example, Argentina is a predominantly temperate country, it has
+been dominated by European settlement, it has maintained high literacy despite the
+inequality, and its legal origins are a peculiar hybrid of common and civil law ideas.
+Thus, in the debate over the causes of economic success and failure, Argentina
+stands as an exception to many of the rules which seem to apply elsewhere,
+deepening the mystery.
+This contrast leaves us with the ‘‘macropuzzles’’: we have much work left to do
+to piece together a plausible story not only of what went wrong, but why it went
+wrong. What were the political economy mechanisms that derailed Argentina in the
+twentieth century? A century ago, despite some bumps in the road, the country was
+prosperous and literate, in a temperate zone, economically open, had reasonably
+
+liberal constitutional democracy. It was not so unlike the other settler countries.
+Today, a century later, it looks very different.
+1.3 The explicandum
+In the two main sections of the paper that follow we look at some commonly
+discussed proximate factors behind Argentina’s relative economic decline. We
+attempt to put these factors in some kind of empirical perspective and evaluate how
+much they might have contributed to Argentina’s economic slow down.
+To do so we will be primarily concerned with the steady-state impact of such
+effects on output. In all cases, the exact levels of these distortions have varied
+substantially over time, but given the slow convergence to steady state in any
+benchmark neoclassical model (empirically or theoretically), these factors will have
+a high degree of historical persistence across years and decades in any calibrated
+dynamic model.
+With the strong forces of inertia noted, it is worth keeping in mind the kind of
+income gaps we have to explain. The income per person level in Argentina today
+(about $8000) is about two-ﬁfths of that in the rich world Western Europe (about
+$20,000). Thus, we are looking for a factor, or set of factors, that when imposed on a
+rich country can cause income to fall by a factor of 2/5 (or drop 60%); or
+equivalently, factors which when removed from a poor economy could cause
+incomes to rise by a factor of 5/2 (or increase by 150%). Or, perhaps more cleanly,
+in log terms we seek to explain a change in relative income of just under 1.000 log
+points.
+
+2 Argentine trade in the twentieth century
+For most of the twentieth century, Argentina’s trade volumes (as a fraction of GDP)
+have been very low, whether relative to their initial levels in the 1900–14 period, or
+relative to the trade levels one might predict in a similar economy of comparable
+size and geographic remoteness.
+Figure 2 traces the evolution of the trade share over time in Argentina, measured
+by exports plus imports divided by GDP. From a high of 80% or more on the eve of
+World War One, this ratio fell to levels below 20% in the 1920s and 1930s and has
+remained there ever since (Berlinski 2003). Even with the push towards
+liberalization in the 1990s this ratio barely ticked up during that decade. This
+pattern constitutes the main empirical fact about trade in Argentina in the twentieth
+century.
+One question is how much of this trend is explicable in terms of (potentially
+changeable) trade policy frictions? And importantly, in addition, how much of those
+frictions reﬂected policies in Argentina as compared to the Rest of the World? From
+the 1930s to the 1960s, trade barriers were high almost everywhere in the global
+´
+economy. As Dıaz Alejandro and others have noted, Argentina’s policy decisions
+were, therefore, not that unusual, and, as in many other countries, the shift towards
+
+Fig. 2 Trade volumes. Source: Berlinski (2003)
+
+political economy dynamics: when the world’s rich, core economies chose autarky
+in the 1920s and especially 1930s—forces then ampliﬁed by wartime frictions—the
+countries of the periphery had to seek another economic strategy in the short term,
+and having been exposed to the downside risks of openness and specialization in the
+primary-product ‘‘lottery,’’ they were understandably wary of again placing large
+bets predicated on the assumption of a stable, globalized, liberal world order with
+open markets for trade. Argentina ﬁts this pattern.
+However, while Argentina’s stance was not that peculiar by the standard of
+developing countries, where inward-looking development strategies were the norm,
+it was unusual by the standard of the rich countries, the club to which ostensibly
+Argentina wished to belong, or rather remain. After 1945, the gradual progress of
+GATT (and in Europe of the EU project after 1957) carried trade integration rapidly
+forward. But until the Uruguay Round (circa 1990) of negotiations, Argentina, like
+most other developing countries, stood apart from this process, and policies
+remained strongly protectionist.
+Data on the distortionary impact of quotas are scant, but these barriers were often
+very signiﬁcant in the Argentine context, whether imposed directly or by the quota
+rationing of foreign exchange (as in the 1940s and early 1950s). Trade taxes are
+easier to document, and Fig. 3 shows what we know about average import and
+export taxes in the long run (Berlinski 2003). Import taxes were not trivial prior to
+World War One as they were a key revenue source, but export taxes were zero.
+Subsequently, in the 1920s and 1930s, average trade taxes began to climb. They
+abated during World War 2 and the early postwar exchange control epoch. Then
+import and export taxes climbed rapidly after 1960, to about a 15% level for each, or
+a 30% distortion total. Judging from the timing of two asymmetrical spikes in the
+1980s, export taxes tended to evaporate in hyperinﬂation episodes, while import
+taxes tended to rise in an offsetting fashion, but these ﬁgures may also reﬂect
+accounting problems. In the liberalization period of the 1990s, export taxes were
+lifted, but import taxes remained high, although trade policy becomes somewhat
+more liberal on other dimensions (e.g., quota removals for GATT/WTO compliance
+
+Fig. 3 Trade taxes. Source: Berlinski (2003)
+
+What would be the likely impact of these trade barriers on income levels? We
+cannot hazard a precise answer but we can use some simple impacts based on either
+calibrated models or econometric estimates. In this setting, I will neglect the
+standard dead-weight loss considerations since utility losses arising from static
+consumption and production distortions are typically an order of magnitude too
+small to be useful in discussions of the Great Divergence (usually 1–2% at most). I
+narrow the focus further by examining the impact of trade frictions on two of the
+most widely discussed channels through which protectionist policies might lower
+incomes.
+First, higher trade costs raise the costs of imported capital goods and intermediate
+inputs. These costs are nontrivial, and they matter all the more in countries that are
+both very open and have comparative disadvantage in these products. Argentina is a
+classic example of such a country, and the understanding of this type of drag on
+economic performance dates back to the classic analysis of postwar underperfor´
+mance by Dıaz-Alejandro (1970), who noted that many key imported capital inputs
+(e.g., farm or industrial machinery) bore domestic prices that were very high indeed
+compared to world prices.
+Let us now feed some numbers into a model, backed by econometric support, that
+can capture this effect. Suppose, as noted above, trade costs increase by 50% due to
+trade barriers (the rough magnitude of the trade tax burden since 1950). Also
+suppose that imports in the initially open economy would be 40% of GDP (the
+ﬁgure last seen in Argentina circa 1910, the last date when both it and the rest of the
+world were close to fully open). Let us assume that intermediate inputs account for
+50% of imports, and capital goods account for 25% the roughly stable ﬁgures seen
+in decades of historical data in Argentina (Berlinski 2003).
+Using the Estevadeordal and Taylor (2013) standard open-economy neoclassical
+model, we could conclude that the trade taxes would lower GDP by roughly 0.200
+log points or 20% in the long run steady state, given the import shares as above.
+Two-thirds of this would arise due to higher costs of intermediates (an effect
+analogous to a negative productivity shock) and one-third would arise from the
+
+These are quantitatively large effects when the full gap to be explained is 1.000 log
+points, since they explain one-ﬁfth of Argentina’s decline.
+A further place to look for an impact of trade frictions on output is in the process
+of technology transfer. Here there are plenty of candidate theoretical models, but no
+consensus on the structure and calibration that best ﬁts the data, nor is there solid
+statistical evidence for this channel. Accordingly let us rely on recent empirical
+estimates and, since the effects will turn out to be small anyway, allow ourselves to
+compute an upper bound for this effect. In recent work, Acharya and Keller (2008)
+examine the impact of expanded imports from the ‘‘technology leader’’ country on
+the TFP levels in follower countries, controlling for import levels and R&D
+intensity in the leader, and interactions between the two. For their analysis, based on
+mostly developed countries, and the US is the leader.
+Here, we consider how the same analysis might apply to Argentina as a follower,
+where the OECD might serve as the R&D source. One of the upper bound results in
+Acharya and Keller (2008, Table 8) suggests that a ‘‘high’’ estimate (the 95th
+percentile) for the elasticity of local TFP with respect to import volume is about
+0.06 for the case of R&D intensive sectors. (For many sectors the effect is small or
+negative, reﬂecting the possibility of countervailing forces where, say, import
+competition is destructive of an industry that cannot catch up.)
+Applying these estimates, if we apply the 0.06 elasticity to the post-1914 halving
+of Argentina’s trade volumes, then this implies a reduction of TFP due to weaker
+technology transfer of about only 3%. In steady state, given endogenous capital
+accumulation, the impact on income would be somewhat larger and might account
+for an overall income effect of 5% or just 0.050 log points. So technology transfer
+via imports would appear to be a very small part of the overall story: the statistical
+evidence for the channel is quite weak in aggregate, even if we make several
+calibration assumptions designed to make its impact as large as we dare. To sum up,
+in contrast to income losses due to inhibited technology transfer (about - 5% or
+- 0.05 log points of income) the bulk of the income losses due to trade policy
+frictions (about - 20% or - 0.200 log points of income) would seem to derive from
+the direct effect of increased input costs for capital and intermediates.
+
+3 Argentine investment in the twentieth century
+A second area we might examine as an explanation for Argentina’s low income is
+capital scarcity. By this we mean, in a standard neoclassical growth model, a
+suboptimal capital/labor ratio, denoted k = K/L. In the simplest model, output per
+worker y = Y/L is expressed as y = A ka, where A is productivity (total factor
+productivity or TFP) and a capital share of a = 1/3 is the typical exponent used in
+modern empirical work (Gollin 2002).
+The steady state of the model, at a per worker capital level k* and output level y*,
+can be solved by assumptions on capital accumulation, typically by either using a
+Solow or Ramsey growth model. In either of these models k* and y* rise
+endogenously in response to an increase in TFP, or A. Thus, in a ‘‘levels
+
+0) can be broken down into (1) a shortfall in TFP, that is A below A0; and (2) a
+friction preventing k from reaching it hypothetical optimal level k*, due to
+investment taxes or other distortions that create a wedge and keep the marginal
+product of capital MPK above its optimal level MPK*. Since the production
+function is Cobb–Douglas, MPK = a 9 APK is proportional to APK = Y/K;
+hence, these deviations can be written, following Hall and Jones (1999) as:
+y=y0 ¼ ½A=A0  Á ðMPK0 =MPKÞ½a=ð1ÀaÞ ;
+where, by proportionality, K/Y is replaced with a/MPK, additional human capital
+terms are omitted for simplicity, and where the exponent in this equation is , given
+that a = 1/3.
+As regards the Great Divergence in incomes between rich and poor countries, the
+consensus since Hall and Jones, has been that the A/A0 term above explains much
+more of the divergence than the MPK/MPK0 term (e.g., see Easterly and Levine
+2001; Gourinchas and Jeanne 2006; Caselli and Feyrer 2007, inter alia). Indeed, for
+Argentina, Hall and Jones used 1988 data to compute that the MPK term above
+explained about 5% of the income difference between Argentina the United States.
+Does this mean that the MPK explanation is dead?
+Not quite. Ideas from recent empirical research can provide us with an improved
+understanding of the evolution of the Argentine capital stock. Properly computed,
+MPK distortions make a signiﬁcant contribution to the income gap. For example,
+Fig. 4 plots the implied MPK for the United States and Argentina using the Hall–
+Jones method based on installed capital derived from a perpetual inventory method
+(PIM). Their estimates stopped in 1988 since that was the last year of PWT 5.6, their
+data source. But we now have PWT 6.2, with coverage until 2004, and we can see
+that 1988 was quite an unusual year.
+Argentina had over-borrowed and over-invested prior to the debt crisis, and then
+in 1988–90 output was depressed as the economy slumped into recession and
+
+0.3
+
+ArgenƟna with “high” depreciaƟon
+assumpƟon (δ=10%, local prices)
+
+ArgenƟna (Hall-Jones δ=6%, world prices)
+
+0.2
+Price barrier
+ArgenƟna (Hall-Jones δ=6%, local prices)
+Other barriers
+USA (δ=6%, world prices)
+
+0.1
+Hall-Jones (T=1988)
+
+0
+1960
+
+1970
+
+1980
+
+1990
+
+2000
+
+Fig. 4 The marginal product of capital. Source: Author’s calculations based on the method in Hall and
+
+hyperinﬂation, with installed capital suffering heavy underutilization. If one wanted
+to pick a moment to make Argentina’s APK, and hence MPK look as low as
+possible, that would have been the year to choose, suggesting a small MPK
+distortion in total, and none at all after a price adjustment, and hence minor capital
+scarcity problems. Mismeasurement is, therefore, a potentially serious issue for this
+calculation.
+And as we can see, for most of the last three decades the story has been very
+different. Using data back to 1960 and the Hall–Jones PIM standardized
+depreciation rate of 6%, the Argentine MPK level appears to be on average 50%
+higher than the US level, a considerable wedge. I would argue that the deviations
+from this pattern in the 1980s and in 2000–03 are easily understood and should be
+discounted: these were periods of severe economic downturn when measured
+installed capital is not the same as capital in use. Were it possible to further reﬁne
+Argentina’s measured capital input time series every year for capacity utilization
+levels—something no statistician has yet done—we would probably discover
+similar gaps even in the recession periods.
+Are these wedges entirely due to a factor we have already considered, the relative
+price of capital? If so, we must not double count, which necessitates evaluating
+MPK at local rather than world prices. The chart shows that this does make a small
+difference. Evaluated at local prices the gap is clearly not so large, but it is still
+signiﬁcant, and it matches up with other recent capital stock estimates using
+different methodologies. For example, Coremberg (2003) pegs the Argentine and
+US capital–output ratios in 1998 at 2.85 versus 1.95, respectively, translating into
+APK levels of 0.351 versus 0.513, and in turn (assuming a = 1/3) MPK levels of
+0.117 and 0.171.
+These independent country-speciﬁc estimates very closely match the rough
+estimates in Fig. 1 after applying the domestic price correction (where the 1998
+MPK levels are 0.129 and 0.180). These gaps have factored in the trade distortions
+considered above: these are, in other words, evidence of additional capital wedges,
+beyond barriers to trade in capital goods. And they still show MPK 50% higher in
+Argentina than in the United States.
+These data push back a little against the ‘‘it’s A not k’’ line of argument
+commonly applied to developing country underperformance. Even researchers
+working in traditions traditionally sympathetic to TFP-based explanations have had
+to concede that the large MPK gaps in the 1990s are clear evidence of ‘‘capital
+shallowing’’ in Argentina. That is, even in the most dramatic period of economic
+success in recent years, there was a pronounced failure of capital accumulation to
+keep pace with the path one might expect during a productivity boom (Kydland and
+Zarazaga 2002). These ﬁndings suggest that Argentina does have some difﬁculty in
+mobilizing adequate capital accumulation, even when proﬁtable conditions appear.
+Perhaps from the 1960s to the 1980s slow investment was the counterpart of
+decelerating productivity, and Argentina could coast along with a depreciating
+capital base and modest net capital stock additions, but then in the 1990s, the scope
+for TFP led growth appeared and capital was apparently not adequately mobilized.
+The income implications of these gaps are nontrivial. Suppose MPK in Argentina
+
+above estimates from the 1990s, from either the PWT or Coremberg. Then in the
+above expression for income differences, applying the exponent of , this capital
+accumulation friction or wedge explains 25% or 0.250 log points of the overall
+income difference between the two countries, and we have explained another onequarter of the Argentine puzzle.
+If capital is low, and MPK is high, compared to the neoclassical benchmark, this
+begs the question: why has Argentina under-invested to such an extent that the
+marginal product of capital has found itself, so often, stuck far above reference
+levels? What is the nature of the investment wedge? What underlying factors cause
+this distortion? I cannot quantify every possible channel, but I propose several
+candidate explanations which center on factors that either raise the cost of capital or
+the risk of investment, and all may warrant further scrutiny.
+First, there is the problem of risk due to macroeconomic rare events. As is well
+known, returns to risky investments often appear excessive given what seem like
+plausible models of risk aversion (Mehra and Prescott 1985). However, the
+possibility of rare ‘‘crash’’ states or valuation jumps, which wipe out signiﬁcant
+wealth through large capital losses, may well be sufﬁcient to resolve this puzzle
+(Rietz 1988; Barro 2005). And undoubtedly, Argentine history is ﬁlled with many
+examples of crashes that severely damaged many kinds of investment returns. High
+or hyperinﬂation events eroded nominal debts on several occasions. These and other
+major economic crises have often left the banking sector in ruins, causing credit
+crunches and broader losses on a wide range of ﬁnancial instruments. If, as a result,
+investment returns are more crash prone in Argentina then investors may demand a
+higher return as compensation for volatility and/or skew, implying a higher
+equilibrium MPK in aggregate. These risks may also be manifest in a repressed
+ﬁnancial system with lower money multipliers and leverage, further tightening
+credit.
+Second, there is the problem of default risk and property rights. In addition to
+rare events driven by market ﬂuctuations, possibly in response to macroeconomic
+policies, we also have to recognize that explicit conﬁscation or redistributions of
+wealth, or other failures of property rights, have often ﬁgured in Argentina’s history.
+Beyond the serial pattern of default (Reinhart and Rogoff 2004), we would include
+bank suspensions, forced debt conversions, speciﬁcations, and other expropriations.
+Although on occasion, ex post, these events were discriminatory as to locals versus
+foreigners, on most occasions, and in general ex ante, such differential treatment
+may not have been expected.
+If capital price distortions (e.g., trade policy) explain 0.250 log points of income
+difference, and capital accumulation frictions (high MPK) explain another 0.250 log
+points, we have explained one half of the 1.000 log point income difference. This is
+not trivial. A 50% increase in income per person would lift Argentina from the
+$8000 level to the $13,000 level (roughly on a par with Greece, Portugal, and
+approaching South Korea). And even in 1913, at its relative peak, Argentina’s
+income was at most 70–80% of US or UK levels, so were even half of today’s gap
+
+Still, can we explain any more of the OECD-Argentina gap? There is a reason to
+think that we can, for various reasons, given several empirically important factors
+we have not yet accounted for. Three such factors could be very important.
+First, there is the issue of investment quality. All calculations of MPK rely on
+calculations of capital stocks based on PIM or HV methods and many standardized
+assumptions. But capital ‘‘quality’’ may be generally lower in poorer countries.
+Public investments are often more dilapidated in poor countries with low quality of
+governance, and where large fractions of public investment spending are lost to
+bribery and corruption (Tanzi and Davoodi 1997). Firm data from some countries
+suggest that the same may be true of private sector investments (Bu 2006), perhaps
+due to private sector corruption; or due to high costs or barriers to technical
+maintenance; or due to capital complementarities with adversely maintained public
+capital, leading to premature discard or under maintenance. Capital is thus less
+productive and of lower capacity than its vintage alone would suggest and some
+correction for higher rates of depreciation is warranted. For example, the Hall–Jones
+method assumes a 6% depreciation rate on all capital. But these rates may be far too
+low for uniform application to rich and poor countries. Bu (2006) estimates ‘‘low’’
+median ﬁrm depreciation rates for all ﬁxed assets as 16% (Philippines) or 12%
+(South Korea) in the 1990s. In Indonesia and some African countries, the reported
+median depreciation rates are higher still, between 25 and 60%. This poses a
+profound problem for capital stock and MPK estimates because the results are
+highly sensitive to the depreciation parameter: increase this parameter by 1% and
+the implied PIM measure of the capital stock falls by 1%, and implied MPK rises by
+0.67% (if a = 1/3). If capital quality is lower and depreciation higher than typically
+assumed, Argentina could be even more capital scarce than has been commonly
+thought.
+Second, there is the problem of investment misallocation. The MPK calculations
+also rely on the assumption that capital is efﬁciently allocated within the economy,
+or that MPK is equalized across sectors. But a contrary view with a log tradition
+maintains that this is unlikely to be the case in developing countries. Instead,
+investment may be misallocated for a variety of reasons—such as corruption and
+inefﬁciency in the private ﬁnancial sector or the role of the state in allocating
+ﬁnance. Work by Hsieh and Klenow (2009) on China and India suggests that,
+compared to the US, an efﬁcient re-allocation of capital could be the equivalent of a
+50% or larger increase in TFP. It is quite plausible that similar misallocation
+problems, although perhaps not as grave, could affect Argentina and would go along
+way to explaining any remaining income gaps, over and above what we have
+measured so far. This is likely to be a productive area for future research, using
+industrial census data and other measurements.
+Third, and ﬁnally, there is the role of investment variety. Input price distortions
+were probably the main trade-related drag on Argentina’s growth in the twentieth
+century. After 1914, and particularly from the 1930s to the 1950s, this scenario
+could be ascribed in some large part to highly unfavorable global conditions for
+open trade; but once global trade started to boom thereafter, self-inﬂicted trade
+policy distortions would remain as the principal cause of the problem. The estimate
+
+focuses only on the so-called ‘‘intensive margin’’—the quantity of a given set of
+goods imported. But recent empirical research in the trade literature suggests that
+comparable economic costs may be inﬂicted by input tariffs on the ‘‘extensive
+margin’’—by limiting the variety of inputs that are imported. If these results carry
+over to intermediate and capital inputs, as they well might, then we would have
+identiﬁed yet another trade-related barrier to investment. Quantifying that impact
+for a broad range of countries, as well as for Argentina itself, remains an important
+goal of future research.
+These three additional factors—investment quality, allocation, and variety—
+represent additional barriers to efﬁcient investment which have also probably acted
+as a drag on Argentine economic performance, even if the magnitudes in question
+remain open frontiers for research.
+
+4 Concluding thoughts: deep determinants
+The discussion so far of likely ‘‘microexplanations’’ suggests that we know, within
+some approximate bounds, how various economic policies and institutional
+deﬁciencies in the Argentine economic environment might have contributed to
+economic underperformance. And indeed these contributions appear to be
+empirically large, sufﬁcient to explain much of the divergence witnessed. But this
+only pushes the question deeper: why have such choices been made and what can
+account for them?
+For all countries, not just Argentina, economists and historians have grappled
+with this question in a bid to explain the deep and exogenous origins of the Great
+Divergence. The problem, as I argue in this section of the paper, is that in the
+particular case of Argentina the explanations that have been proposed—and which
+may seem to work quite convincingly in many other countries—do not appear half
+as persuasive when applied to Argentine economic history.
+4.1 Geography and empire
+To set the stage let us consider a now conventional casual ordering in the levels
+accounting literature. As above we claim that policies causally affect outcomes,
+which we might write as ‘‘policies ? income per person’’ in simple notation. A
+problem that concerns some scholars is the potential for reverse causality from
+incomes to policies, suggesting we look for deeper determinants that explain
+policies. For example:
+X ! policies ! income per person:
+If X is an exogenous deep determinant, it may then be brandished as an
+instrumental variable to avert endogeneity problems when regressing incomes on
+either policies or institutions (e.g., see Acemogluet al. 2001; Rodrik et al. 2004).
+Candidates for X are numerous in the literature. Geographic determinists have
+
+direct effects on labor productivity (Gallup et al. 1999). Crops may affect
+production organization and subsequent institutions, such as slavery, and hence the
+path to democracy and capitalism (Engerman and Sokoloff 1997; Easterly and
+Levine 2003). Alternatively, the impact of disease and climate may have been more
+indirect, with European colonists less (more) likely to settle in the tropical
+(temperate) regions, and more (less) likely to construct ‘‘extractive’’ institutions
+there (Acemoglu et al. 2001).
+In those accounts where historical institutional choices matter (Engerman and
+Sokoloff 1997; Acemoglu et al. 2001), the key to a present-day impact is via a
+political economy persistence mechanism, whereby even after independence a high
+level of inequality preserves colonial extractive institutions, favoring elites, and
+leading to high inequality in incomes and education, and persistently low levels of
+economic development.
+It now starts to become apparent why some of these theories may be poorly
+equipped to explain the case of Argentina. Argentina is essentially in a temperate
+zone, not a tropical zone, and that is especially true of the economic heart of the
+country—the pampas and littoral regions. Those regions are also populated by a
+stock of people of European descent, and they are physically and culturally separate
+from the country’s colonial centers in the altiplano. Slavery existed, but was brief
+and localized. Most importantly, the country did not endure persistent underdevelopment: whatever its physical and political legacy at independence, by 1900 this
+was a rich country, a functioning democracy with expanding suffrage, and most
+importantly an economy equipped with a decent schooling system and, for its time,
+creditable levels of human capital (see the chapters by Llach and Campante and
+Glaeser for more discussion on the role of education and human capital).
+Argentina resembled Canada more than Cameroon in 1900. The problem to be
+explained is not that the country never developed—but that it had the potential for
+success, at one time it lived up to it, and then found ways to fall back into
+underdevelopment. It is, by construction, very difﬁcult for geographic and historical
+‘‘deep determinants’’ to explain this kind of reversal when they rely on persistence
+of institutions, inequality, and economic backwardness over time. And, by way of
+more direct refutation, a micro-level study of the proposed inequality-based
+transmission mechanism raises further doubts: recent research has shown that
+inequality was not purely a legacy of the colonial period (Arroyo Abad 2008): in
+fact from 1820 to 1914, many countries saw inequality rise and fall more due to
+external shocks (terms of trade, migration), and the inequality at independence thus
+turned out to be a poor predictor of their inequality in 1914.
+One way out of this conundrum is to keep the focus on exogenous factors, but to
+look either at alternative deep determinants (e.g., law) or else at the interaction of
+historical initial conditions with the powerful exogenous shocks coming from the
+rest of the global economy at key moments. I end with some speculations on these
+
+4.2 Legal origins
+Inﬂuential work by Glaeser and Shleifer (2002) argues that an alternative and
+plausible ‘‘deep determinant’’ of economic success is ‘‘legal origin’’—whether a
+country has a common law or civil code legal system. Empirically, legal origin is
+correlated with the colonizing power and, therefore, forms part of a broader
+argument that among all empires the British did more good than others by
+transmitting better institutions to the lands they conquered (Ferguson 2003).
+Common law obtains in the Anglosphere of rich settler countries such as the US,
+Canada, Australia, and New Zealand. The civil code prevails in continental
+European countries and their typically much poorer former colonies. In other former
+British colonies, say, the poorer regions of Africa and Asia, post-independence legal
+structures reﬂect a mixed system with common law elements and some civil code
+structures.
+Once again, for those seeking deep determinants, Argentina offers an interesting,
+unique, and somewhat perverse case that is not easily classiﬁed. It is commonly
+noted that either system, common or civil, has a tendency to become somewhat
+mixed over time, as jurisprudence asserts its power in civil law, and as legislatures
+construct codes in common law systems. But Argentina was a very unusual case in
+that it was a mixed system from the start.
+The early Argentine legal system was an outcome of a long political struggle
+from the period of independence (the failed Assembly of 1813 which tried to unite
+the provinces and establish government) until the country was ﬁnally uniﬁed (1859).
+Early efforts to write a constitution failed, not least given tension between
+centralists in Buenos Aires and opposing forces elsewhere. The other provinces,
+minus Buenos Aires province, promulgated the ﬁrst Constitution in 1853, under the
+intellectual inﬂuence of Alberdi, with clear inspiration from the US, Swiss, and
+other early constitutions. The Argentine civil code only came later, in 1869, after
+´
+´
+uniﬁcation, and was written by Velez Sarsﬁeld.
+How did these systems co-exist in practice and what economic effects did they
+have? Did one or other form take the upper hand at different times? Superﬁcially, it
+appears that the common law features, especially judicial review and other powers,
+were often exercised in the nineteenth century. But in the twentieth century, the
+pendulum has swung more toward purely civil law operation, under both democracy
+and dictatorship—to such an extent that in the last decade the country has often
+called on foreign experts to assist in rebuilding some of the key functions of
+jurisprudence that have long lain dormant. Most legal origin evidence is crosssectional in nature, but here is an odd example of within-country time series
+variation. The coincidence of economic decline and the withering of Argentina’s
+constitutional and common law traditions perhaps deserves further scrutiny for
+those interested in the applicability of the legal origin theory.
+4.3 Potential for trade
+Lastly, one important exogenous factor that is likely to have affected the path of
+
+the potential for international trade and capital ﬂows. Prior to 1914, a growth
+strategy based on openness to capital inﬂows, frontier expansion, and the strong
+pursuit of comparative advantage based on primary exports carried the country to
+very high levels of income per capita income.
+Was this strategy viable after 1914? Given the advent of the worldwide retreat to
+autarky that started then and lasts half a century, no. But what if the world economy
+had remained integrated? What would Argentina’s counterfactual economic history
+have looked like? Could it have maintained high living standard and growth without
+being diverted onto the track of economic isolationism? No doubt the
+inevitable closing of the frontier in the early twentieth century Argentina implied
+a gradual structural shift from agriculture to manufacturing and services anyway (Di
+Tella and Zymelman 1967). But that shift would not have quickly overwhelmed
+Argentina’s natural endowment-based comparative advantage. Argentina’s structural shift was, therefore, rapidly accelerated by an autarkic economic environment—one that was at ﬁrst imposed from abroad in the 1920s and 1930s, against the
+grain of domestic policy; but which was then reinforced by autarkic domestic
+policies which emerged in the 1940s and 1950s, and persisted over time to the
+present, long after the rest of the core economies of the world had dismantled
+barriers in trade and ﬁnance.
+What explains this shift? And why might it have mattered more in the case of
+Argentina than in other developing countries of the time that followed the import
+substitution doctrine? Taking the second question ﬁrst, I think the answer has
+something to do with the fact that Argentina had more to lose, on two levels. First, it
+had developed something like a modern economy, with adequately functioning
+market institutions, a hope of monetary stability (after 1891), and some semblance
+of democratic politics and rule of law as a foundation. Comparing Argentina to
+other recently industrialized emerging economies, we can say that none had
+advanced this far in 1914. Second, unlike many other such countries at the time,
+Argentina had more scope to achieve gains from trade—in both goods and capital
+markets. And these gains were at risk if the open trading environment broke down.
+Argentina had very high trade openness and relied on foreigners for almost half of
+the local capital stock and labor supply. For other countries with smaller trade
+shares and smaller ﬁnancial inﬂows, the end of the ﬁrst age of globalization entailed
+a fairly bothersome adjustment; for Argentina, it entailed a radical and painful
+reorientation, one delayed in the 1920s and 1930s by the unfulﬁlled hope that the
+pre-1914 liberal order might magically be restored.
+As to the second question—why the shift?—we should perhaps consider the
+important interaction between economic openness, vested interests, and internal
+political economy dynamics. For example, in a different era, it has been argued that
+the ‘‘shock’’ of Atlantic trade expansion empowered mercantile/capitalist interests
+in the Anglo-Saxon Northwest corner of Europe, allowing this region to embrace
+economic and political reforms that enhanced openness and competition in the Early
+Modern period (Acemoglu et al. 2005). In Argentina, we may have seen something
+of the same path dependence driven by trade shocks, only in reverse: the shock of
+global trade contraction discrediting and weakening the old outward-looking order,
+
+Argentina’s extreme comparative advantage would also play into this dynamic. Just
+as gains from trade would be larger in Argentina than in other countries, given the
+peculiar factor endowment, so for the same reasons the redistributive effects of
+autarky would be great too (for any trade distortion, when Harberger triangles are
+large, so too are the rectangles that measure redistribution of income, and thus
+power—see Rogowski 1989).
+These observations ﬁt with a broader theme in economic history which argues
+that economic and political competition are key complements via the forces
+unleashed in ‘‘open access’’ orders (North et al. 2009). Framed another way, one
+might say globalization and democracy go hand in hand, and, with empirical tests
+´
+based on plausible instruments, this proposition holds up reasonably well (Lopez´
+Cordova and Meissner 2008).
+Adverse external shocks, therefore, pose a danger to political institutions and, via
+path dependence, these events may have far-reaching consequences for economic
+policies. The case of Argentina is perhaps an extreme example: with the most to
+lose, the adverse global shocks in the mid-twentieth century were almost bound to
+cause the most damage here—a sobering thought since, as I write, the world tries to
+navigate its way out of another Great Depression.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original
+author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were
+made.
+
+Tanzi V, Davoodi HR (1997) Corruption, public investment, and growth. IMF Working Papers 97/139,

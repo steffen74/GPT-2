@@ -1,0 +1,589 @@
+
+
+Introduction
+This paper reports the investigation of automotive manufacturers and suppliers have to face by
+meeting the requirements of End-of-Life Vehicle (ELV) legislation [1, 2]. ELV is the term
+when a vehicle comes to the end of its useful life, whether this is naturally due to wear and tear
+or prematurely (such as an accident) [3]. Mass production of cars is accountable for more than
+a million ELVs each year in the UK [4]. Production of cars has grown steadily over the past
+
+
+
+
+30 years to the point where in 2016 around 95 million were produced worldwide [5]. It had
+become necessary for legislation to put in place to ensure that automotive producers make their
+vehicles more sustainable [4]. The European Directive 2000/53/EC “ELV Directive” seeks to
+make dismantling and recycling of ELVs more environmentally friendly [1]. It is also used to
+regulate recycling procedure and the ratio of how much material should be recycled [6].
+With automotive components, it is generally believed that costs occur throughout production and the product’s life cycle. While manufacturers of course consider the costs of
+production, it is equally important that they consider the costs associated at End of Life
+(EoL), owing to ELV directive putting responsibility on the producer. Therefore, it is becoming
+increasingly important to consider the cost of disposal from the design stage to improve the
+efficiency in EoL. Xu et al. [7]; Cheung and Pachisia [8] state that a factor in the accomplishment of production and delivery of function need is cost. To be more competitive, manufacturers will need to consider many factors whilst also reducing costs.
+Disregarding EoL costs would make it easier to meet requirements specified by legislation,
+as it is possible to recycle virtually 100% of an ELV. Economically this would be unreasonable, as it could be unprofitable to the Original Equipment manufacturers (OEMs). EoL costs
+consist of creating, operating, maintaining, replacing, and then disposing of a product. The
+costs required to meet the ELV legislation will help the OEM to decide if a product is viable.
+The components of the ELV’s are usually recycled, reused, remanufactured, disposed or a
+combination of these attributes. Each of these methods has a cost associated with them,
+therefore these costs will need to be factored into new vehicles as the manufactures are
+required to be directly responsible for the environmental impacts of their products.
+Manufacturers have to take a more ethical approach to ensure components have been
+designed with the ability to be reused, recycled, recovered, and remanufactured. As part of this
+process it is essential to ensure that all vehicles can be easily de-polluted. The ELV legislation
+also requires that at the design stage, preventive measures are in place to reduce the use of
+hazardous substances to facilitate recycling [2]. Car manufacturers are under increasing
+pressure to accept responsibility for the complete life cycle of the vehicles they produced
+due to the implementation of government legislation. This requires a set of targets to be met for
+recycling, re-use and recovery. To confront with these targets, manufacturers have to prepare
+for EoL scenarios by considering them at the design stage. EoL is an important factor to be
+considered from the design stage as environmental impacts can be locked-in at this early stage.
+Therefore, this paper aims to demonstrate an approach to automotive manufacturers to estimate
+the end of life cost of a vehicle’s components. Two automotive parts are used to validate the
+approach and the method could allow OEM to select the most cost effective way of dealing
+with ELV. The remainder of this paper is organised as follows: “Literature review” section
+describes the background literature; “The proposed end-of-life cost prediction method for
+ELV” section presents the proposed method; “Case studies” section discusses the relevant case
+studies and finally the conclusion and future work are presented in “Conclusion and further
+work” section.
+
+Literature review
+
+99
+
+However, according to EU’s legislations [10] the consideration of end-of-life of a product is
+becoming very critical for OEMs in order to meet the target of reducing the amount of waste.
+Legislation for waste disposal was introduced due to an increased environmental awareness
+and the ever-decreasing lack of landfill space [1]. Anderson et al. [11] predict that growth of
+ELVs from 2005 to 2030 will have a significant increase of nearly 50%. Vermeulen et al. [12]
+describe how most developed countries have introduced legislation to make re-use, recovery,
+and recycling mandatory and that member states must establish a collection system for ELV’s.
+They state that the EU Directive aims to prevent vehicle waste by reducing hazardous
+substances, designing with disassembly, re-use and recycling in mind, and increasing the use
+of recyclable materials. The EU-Directive states that by 2006 [13], at least 85% reuse and
+recovery and 80% re-use and recycling must be achieved, and these targets were set to rise in
+2015 to 95% and 85% [12].
+It is reported that every year around 8–9 million tonnes of waste is generated due
+to ELV’s [2, 14]. The EU directive was established to encourage the reduction of
+waste. The directive aims to reduce the environmental impact of ELV by promoting
+re-use, recycling, and recovery. This initiative forces the automotive manufacturer to
+take responsibility for its product’s disposal and by doing so, encourages manufacturers to make their products more sustainable. The ELV directive states that no more
+than 5% of a vehicle can be sent to landfill, leaving the remainder to be recycled or
+re-used. Data from 2014 [15] revealed that waste sent to landfill was cut by a third in
+a year to achieve an all-time low.
+The Society of Motor Manufacturers and Traders (SMMT) [15] state that the EU
+recycling and recovery targets require 95% of ELV’s to be recycled and recovered. As
+a result, industries are developing better strategies for coping with the waste. Vehicle
+scrapping over the past 4 years has fallen from 2.1 million per year between 2003
+and 2009 to almost 1.85 million per year [15]. EoL treatment, recovery, and recycling
+are ultimately an OEM’s responsibility, therefore they need to design their products in
+a way that minimises or eliminates environmental impact or makes the product easier
+to recycle at end-of-life [16, 17]. Gonzalez and Adenso-Diaz [18] mentioned the five
+alternatives such as disposal, recycling, reuse, repair, or remanufacturing for a product
+at end-of-life. They state that reuse, remanufacturing and repair are the better options
+for their environmental impact. However, they are not necessarily the best options due
+to the high cost associated with them [18].
+Recycling would be a more viable option if disassembly cost was not so expensive. If
+products were designed with dismantling in mind then this would lower the EoL cost but this
+in turn may increase production costs. Das et al. [19] discussed that disassembly is gradually
+becoming more widespread and frequently used in industry. They suggest several reasons for
+this, including:
+
+&
+&
+&
+&
+&
+
+retrieving valuable and reusable vehicle parts,
+separation processes which allow for downstream material recovery,
+hazardous and toxic materials removed,
+remanufacturing to elongate lifespan, and
+to break up the proprietary components.
+
+
+
+Thierry et al. [20] declare that from the design stage, OEMs need to consider different
+materials, their value, their environmental impacts, and the way the components and materials
+are assembled [21]. To achieve a more sustainable automotive production, OEMs will need to
+consider design for sustainability which involves economical, social, and ecological aspects.
+Mcauley [22] states that automotive manufacturers need to consider the product’s entire life
+cycle and its overall environmental impact during the design stage. To reduce or remove the
+impact they can minimise materials of concern and integrate design for recycling, disassembly,
+and reuse. To ensure long term sustainability, energy consumption and environmental impact
+must be greatly reduced during the life cycle. Keoleian and Menerey [23] promote a systematic
+approach to reduce environmental impact using life cycle design. This method balances
+environmental impact with satisfying customer needs.
+Hatcher et al. [24] confirm that ‘remanufacturing’ can often be considered an
+environmentally sustainable product end-of-life solution. Remanufacturing means the
+life of a product is extended and the product does not end up in landfill too soon [25,
+26]. Reuse is considered environmentally friendly due to its goal of preserving
+resources and energy. Environmentally, repair and remanufacturing are a good option
+as they extend a product’s life. To ensure life-cycle longevity, OEMs should design
+their products to allow the user to be able to look after and maintain them. Design for
+disassembly means that vehicle’s parts can be easily removed to repair or replace
+which makes maintenance easier. Overall, cost is an important factor whilst designers
+have to comply with ELV legalisation, they should also consider the costs associated
+to a component once it has reached the end of its life at the design stage.
+
+The proposed end-of-life cost prediction method for ELV
+As suggested by Cheung et al. [9]‘s finding, most companies do not consider EoL costs in
+design. However the design stage is very crucial as a product’s impact is often ‘locked in’ at
+this stage. By developing a cost estimation method to predict products EoL costs at the design
+stage, this will help product designers to consider the economic aspect. The scope of this
+section therefore discusses the different EoL options in terms of cost.
+Reuse is often the first option manufacturers consider. Reuse would provide the most costeffective method due to no cost for additional processes. This is not always possible as EoL
+parts tend not to be in a usable condition without requiring rework. In accordance with the
+literature’s finding the main EoL options are (i) recycling; (ii) remanufacturing; (iii)
+refurbishing and (iv) disposal as illustrated in Fig. 1. The method is based on Gonzalez and
+Adenso-Diaz [18]‘s approach in “Product life cycle and end of life cycle”. The following
+sections examine how each of these cost options is formulated.
+
+Product end-of-life cost prediction
+With increasing environmental awareness within the EU, several directives such as Waste
+Electrical and Electronic Equipment (WEEE); Restriction of Hazardous Substances (RoHS)
+and the ELV have been implemented to reduce the quantity of waste and toxic materials and
+
+101
+Start
+
+Raw Materials
+
+Materials can be
+used aŌer recycled
+
+Manufacturing
+Products/Parts can be
+used aŌer refurbished
+
+Parts can be
+used aŌer
+remanufactured
+
+Use
+Products/Parts straight to
+the disposal stage
+End of Life
+
+Remanufacturing
+
+Refurbishing
+
+Recycling
+
+Disposal
+
+Reclaim material
+residual value
+
+Yes
+
+Treatment
+Recovery
+
+No
+
+End
+
+Fig. 1 The proposed method of processing ELV cost options (Adopted from Gonzalez and Adenso-Diaz [18])
+
+for a product to be easily dismantled at EoL and this will allow for ease of re-use, recycling,
+and remanufacture [27–30]. Disassembly allows components and materials to be broken down
+into individual parts. There are two types of disassembly [30]:
+(i) Non-destructive disassembly is the systematic process of removing parts from an assembly whilst ensuring that no damage occurs as a result of the process.
+(ii) Destructive disassembly involves separating materials for recycling.
+Bogue [27] mentions the factors that affect disassembly should be considered. Bogue
+concludes by saying that DFD allows manufacturers to comply with legislation and produce
+more cost-effective, environmentally friendly products. Disassembly is difficult to calculate as
+various factors can affect the result, such as; component complexity, fastening methods, part
+fragility, wear resistance, and ease of identification and handling. Disassembly depth factor
+
+
+
+For calculating the disassembly depth factor:
+f ¼
+
+Number ofassemblies to disassemble
+Total Number of Assemblies
+
+ð1Þ
+
+This is based on the following assumptions and details:
+
+&
+&
+&
+&
+
+each assembly can be disassembled in the same time,
+disassembly divides an assembly into fundamental components and low-level assemblies,
+the time for individual component separation equals the disassembly time for the whole
+assembly,
+model treats as a component when entire assembly is targeted.
+
+However, this is not a realistic assumption. For example, when considering a component
+fixed with 50 screws against one fixed with quick joints, and then quick joints will be easier
+and faster to disassemble. Situations like this make it difficult to devise a method for
+calculating disassembly which can be used across various components.
+
+Recycling
+Yan et al. [31] state that the process of recycling involves recovering used components and
+materials to use as raw materials. This definition is also supported by the ELV directive in that
+“recycling means reprocessing in a production process of the waste materials for the original
+purpose or for other purposes [32]”. The associated costs that need to be considered for recycling
+are: disassembly, cleaning, and recycling (material processing, manufacturing, packaging, and
+assembly). It is believed that 75% of ELV’s are made of metals [33] which is the material that is
+mostly recycled at EoL. Other materials such as plastics and rubber will have to be considered
+too. Sakai et al. [34] discussed how recycling of Automotive Shredder Residue (ASR) is difficult
+due to the complexity of separating the materials; in particular the hazardous waste. During the
+design stage, manufacturers should look to reduce the number of materials and consider the
+environmental impact to make EoL manageable. For recycling option the proposed method has
+adapted Dantec’s approach [35] of calculating recycling cost. In this cost model:
+(i) recycling cost is defined as the amount of money to invest to remove targeted parts;
+(ii) RVi represents the removal value of targeted parts; and
+(iii) RCi represents the removal cost of targeted parts.
+Recycling Cost ¼ ΣðRVi −RCi Þ
+
+ð2Þ
+
+RVi ¼ ΣððPartsi Â MVm −OCi Þ Â Wi Þ
+
+ð3Þ
+
+RCi ¼ ΣðRTi Â f Â LÞ
+
+ð4Þ
+
+Where:
+Partsi
+Wi
+
+MVm
+RTi
+L
+OCi
+f
+
+103
+
+the mass material value of parts (£/kg)
+the time necessary to remove one type i part (hr)
+the hourly wage (£/hr)
+opportunity cost (£/kg). The opportunity cost corresponds to the revenue the
+dismantler would make by selling the parts to the shredder [35].
+disassembly depth factor
+
+Remanufacturing
+Ijomah et al. [36] state that “remanufacturing is a process of returning a used product to at least
+the original equipment manufacturer (OEM) performance specification from the customers’
+perspective and giving the resultant product a warranty that is at least equal to that of a newly
+manufactured equivalent”. According to Ijomah et al. [37], remanufacturing can be both
+profitable and less harmful to the environment than conventional manufacturing as it reduces
+landfill and the levels of virgin material, energy and specialised labour used in production.
+Costs to be considered for remanufacturing are disassembly, cleaning, redesign and
+remanufacturing. Hatcher et al. [24] research shows that decisions made during the design
+process can greatly affect the remanufacturing process’s ‘efficiency and effectiveness’. To
+determine remanufacturing cost, the proposed method has adapted Shu et al. [38]‘s approach
+of predicting the expense of remanufacturing. This adapted remanufacturing cost model
+however is focused on disassembly and assembly of a part or component using riveting. Costs
+associated with restoring of parts or components are excluded in the model. Further explanation of each of the expressions in eq. (5) can be found in reference [38] under section 8.25:
+CRM ¼ ððTd þ Ta Þ Â L Â f Þ þ ðP f Â C f Þ þ
+
+ÀÀ
+À
+Á À
+ÁÁ
+Á
+Ppd þ P f Â Ppe − Ppd Â P f Â Pe Â Cp ð5Þ
+
+Where
+Crm
+Td
+Ta
+L
+f
+Pf
+Cf
+Ppd
+Ppe
+Cp
+
+remanufacture cost (£)
+disassembly time (hr)
+assembly time (hr)
+labour rate (£/hr)
+disassembly depth factor
+probability of fastener failure in disassembly and assembly
+cost of fastener failure (£)
+probability of part failure in disassembly and assembly
+probability of part failure in fastening method extraction
+cost of part failure (£)
+
+Refurbishing
+Refurbishing is an important part of the manufacturing process. It ensures that those re-usable
+components are as capable as new components. Whether the components have failed or not,
+
+
+
+likely cost to refurbish is according to component failure/degradation rate data [39]. In order to
+determine refurbishing cost, the proposed method has adapted Zhou et al. [39]‘s cost model as
+shown in eq. (6):
+
+
+−λt
+ð6Þ
+CRefurbish ¼ Σ Cgood e−λt þ Cfailure ð1−e Þ þ f Â L Â ðTd þ Ta Þ
+Where:
+Cgood
+Cfailure
+t
+Td
+Ta
+f
+L
+λ
+
+cost to refurbish a target part/component in good condition (£)
+cost to refurbish a target component has failed (£)
+expected lifetime of product (usually per million depends on degradation rate λ)
+time to completely disassembly product (hr)
+time to completely assembly product (hr)
+disassembly depth factor
+labour rate (£/hr)
+degradation rate (failure per million hr)
+
+Implementation
+Microsoft Visual Basic was used to develop the software program. A user interface has been
+created as shown in Fig. 2. and this will to allow a designer to incorporate ELV costing into the
+design process to compare EoL options to understand which the most economical option for
+
+105
+
+execute the software by selecting all options individually so that a comparison of EoL costs
+can be performed. The relevant source code of the software system is shown in Appendix A.
+
+Case studies
+Two case studies are used to validate the approach and the chosen vehicle components are (i) a
+registration plate lamp light and (ii) a brake pad. These two components are made of different
+materials and manufacturing methods.
+
+Registration plate lamp light
+Fig. 3 illustrates a ‘registration plate lamp light’, when it reaches the end of its life,
+the light can no longer illuminate the number plate or if the light becomes too dull.
+To ensure the light is bright enough, the upper polymer housing is made of polycarbonate. It also has a very high impact resistance which is an important factor when
+designing these components to be used on the external of a car. The lower housing of
+the light is made of polypropylene which only absorbs minimal water and has low
+permeability. There is also a rubber seal inside the housing to prevent water from
+entering. Once it has reached the end-of-its useful life, and evaluation of its EoL is
+represented by the flow chart as shown in Fig. 4.
+The registration plate lamp light consists of 5 components that require disassembly
+so the disassembly depth factor can be calculated as shown in Fig. A1 Appendix B.
+By taking the disassembly depth factor into account of, the following EoL costs can
+be determined.
+
+&
+
+EoL Option 1 - Remanufacturing cost
+
+The whole part can be remanufactured for reuse. The fasteners are snap-fits which can
+
+
+
+OEM product
+take-back
+Number plate
+lamp light
+disassembled
+
+EOL options
+
+Remanufacturing
+To the use
+stage as
+shown in
+Fig 1.
+
+Dispose of rubber
+seal
+
+Incinerate rubber
+seal
+
+Recycling
+
+Landfill rubber
+sealer
+
+To the raw
+materials
+stage as
+shown in Fig 1.
+
+Polymer housing
+and copper wires
+
+Fig. 4 EoL process of a vehicle’s registration plate lamp light
+
+of fastener failure is relatively high. Remanufacturing cost can be calculated as shown in
+Fig. A2 (Appendix B).
+
+&
+
+EoL Option 2 – Recycling cost
+
+As seen in Appendix B, Fig. A3, A4 and A5 illustrate recycling evaluations of three
+different sub-components and materials of the vehicle’s number lamp light. Recycling all the
+components would be a low cost for the OEM as each individual material has a low cost to
+compare with remanufacturing.
+
+&
+&
+&
+&
+
+Compare EoL costs of the registration plate lamp light (Fig. 5.):
+Option 1 represents remanufacturing of the whole part.
+Option 2 represents recycling the whole part.
+Option 3 was not calculated as this component cannot be refurbished.
+
+Fig. 5 shows that recycling is the optimum option for the EoL of the registration plate lamp
+light because it’s cheaper than remanufacturing.
+
+
+107
+
+Fig. 5 Registration Plate Lamp EoL cost comparison
+
+temperatures. Therefore they need a high resistance to heat and must be able to recover quickly
+from extreme heat application. The material needs to be smooth to provide even contact with
+the rotor. The brake pad is semi-metallic and is made of a mix of synthetics and flaked metals
+bonded together by various resins. These materials make it hard and resistant to wear. The
+shim is a thin layer of metal used to reduce brake noise caused by imperfections. The
+aluminium shim is riveted onto the steel base plate and an adhesive is used to join the pad
+to the plate. Once a brake pad becomes unsafe to continue using, then it can be considered at
+the end of its useful life. Fig 7 represents the EoL options of brake pads when they reached the
+end-of-their-useful life.
+The part is made up of 5 components; two rivets, steel base plate, aluminium shim, and
+semi-metallic brake pad, so the disassembly depth factor can be calculated as shown in
+Appendix B Fig. A6. By taking the disassembly depth factor into account of, the following
+brake pad’s EoL costs can be determined.
+
+&
+
+EoL Option 1 - Remanufacture
+
+The brake pad and rivets cannot be remanufactured so that remanufacturing cost of the
+metal plates can be estimated as shown in Fig. A7 (Appendix B). The probability of fastener
+Steel Plate
+
+Aluminium Shim
+
+Brake Pad
+
+
+
+OEM product
+take-back
+
+Brake pad
+disassembled
+
+EOL opƟons
+
+Remanufacturing
+aluminium shim
+and steel plate
+
+Refurbish
+aluminium shim
+and steel plate
+
+Recycling
+
+Semi-metallic brake pad
+and rivets
+
+To the raw
+materials
+stage as
+shown in Fig 1.
+
+Fig. 7 EoL options of a brake pad
+
+failure is 100% as the rivets must be drilled to disassemble the brake pad. The probability of
+part failure is low because the other components are strong and the number of fasteners is
+minimal.
+
+&
+
+EoL Option 2 - Refurbishing
+
+The brake pads and rivets cannot be refurbished but the metal plates can be reused. The
+degradation rate was obtained from Carnegie Mellon University [40]. This option looks
+already quite expensive for the OEM. The calculation of the refurbishing cost is shown in
+Fig. A8 (Appendix B).
+
+&
+
+Recycling for EoL Options 1 and 2
+
+The brake pad can be recycled for options 1 and 2, the cost of recycling for these two
+options are shown in Fig. A9 under Appendix B. This calculation shows that recycling the pad
+and rivets is least expensive.
+
+&
+
+EoL Option 3
+This option also gives a low recycling cost as shown in Fig. A10 (Appendix B)
+Compare EoL costs of the brake pad, as seen in Fig. 8:
+
+–
+–
+–
+
+
+109
+
+Fig. 8 A brake pad’s EoL cost comparison
+
+As seen in Fig. 8 that option 3 of recycling the whole component is an optimum solution as
+it works out significantly cheaper. It is also more ideal as it only requires one process whereas
+the other options require multiple processes.
+
+Conclusion and further work
+For the case study it would have been preferential to have had accurate and consistent data
+from one source to achieve a more reliable result for EoL costing analysis. However, as this
+was not possible, therefore assumptions were made based on different sources. This should
+give an approximate representation of the costs OEMs can expect to encounter at EoL.
+The average retail price of the registration plate lamp light is £9. Any of the EoL options
+chosen would mean that around 50% of the retail price would cover EoL recovery cost. This
+indicates that there may have been over estimated. The proposed approach is also used
+estimated data for material value and opportunity cost. This will have led to a degree of
+inaccuracy. This implies that there have been inaccuracies in the values inputted into the
+software. It is possible that the average time of dismantling the part is unrealistically high as it
+was not dismantled by a trained labourer.
+Due to cost, recycling appeared to be the optimum option for both parts. Realistically this
+might not be true as it is not necessarily the most economically-viable solution. Recycling adds
+no value to the product and its associated parts. Therefore it should only really be considered if
+the other options are not available. All of the EoL options point to disassembly being a major
+contributing factor to EoL cost. In the literature review, it was discovered that if disassembly
+was made easier then EoL costs could be reduced. To reduce costs, the following should be
+considered:
+–
+–
+
+–
+–
+
+
+
+Using fewer materials within components.
+Automate the disassembly process.
+
+These options should only be considered if they do not affect quality, safety and functionality of the product.
+To increase the accuracy of the estimations, a more comprehensive view of disassembly is
+needed. The disassembly depth factor in this study simplifies the time taken for disassembly
+and does not take into account the amount of fasteners or complexity of the fasteners.
+Therefore a new method for calculating disassembly is needed to ensure the cost estimations
+are more accurate.
+

@@ -1,0 +1,719 @@
+
+
+
+and so on. Lund [2] has identified 75 separate product types that are routinely remanufactured. Numerous driving forces encourage the use of remanufactured products, although
+the activity encounters numerous barriers as well [2-6]. Lund [2], for example, has proposed
+seven criteria useful for establishing the suitability of products for remanufacturing: (1) the
+product is a durable good, (2) the product fails functionally, (3) the product is standardized
+and the parts are interchangeable, (4) the remaining value added is high, (5) the cost to obtain the failed product is low compared to the remaining value added, (6) the product technology is stable, and (7) the consumer is aware that remanufactured products are available.
+Guide [7] focused on aspects of the remanufacturing requirements pertaining to production
+planning and control of remanufacturing: (1) the uncertain timing and quantity of returns,
+(2) the need to balance returns with demands, (3) the disassembly of returned products, (4)
+the uncertainty in materials recovered from returned items, (5) the requirement for a
+reverse logistics network, (6) the complication of material matching restrictions, and
+(7) the problems associated with stochastic routings for materials used in remanufacturing operations and highly variable processing times. The present study investigates
+the first and second requirements, namely, the uncertain timing and quality of returns
+and the need to balance returns with demands. Forecasting product returns and demands
+is one of the most crucial issues in inventory management [8]. In addition, forecasts can
+be applied to used-product acquisition management and capacity planning and are also
+required for various operational planning activities in remanufacturing [9].
+The current paper examines the demand forecasting of remanufactured products
+using time series analysis. Figure 1 illustrates the time distributions of new product
+sales and demand for remanufactured products in the case of auto parts. The new
+product sales shown in the figure are supplied as they are assembled into new automobiles. Over time, all new products reach their end-of-life. A proportion of the products
+that reach the end-of-life stage generate the demand for spare-parts. If the end-of-life
+of an auto part occurs earlier than the end-of-life of the automobile, there will be
+
+Figure 1 Time distributions of new product sales, end-of-life products, demand for spare parts, and
+
+demand for a spare-part to replace it. A proportion of this demand for spare-parts
+becomes the demand for remanufactured products. Other parts that reach the end-of-life
+stage become the demands for new products, reused products, or repairs. In the case of
+multiple remanufacturing companies, a proportion of the demand for remanufactured
+products manifests as the demand for remanufactured products from Company A where
+Company A is the subject company of this study. The section of the plot of demand for
+remanufactured products from Company A from t0 to tk is shown enlarged at the bottom
+of Figure 1. The demand forecasting that serves as the objective of this paper is to forecast
+the demand for remanufactured products from Company A.
+Most previous studies on demand forecasting in remanufacturing assume that the
+time distribution of new product sales are known, and the time distributions of product
+end-of-life and product return are calculated by adding the product use period to the
+time distribution of new product sales. The assumption that the time distribution is
+known for new product sales is largely a consequence of the assumption that the original equipment manufacturer (OEM) is the executor of remanufacturing operations.
+However, an independent remanufacturer (IR) may possess no accurate information of
+the time distribution of new product sales. In this case, an approach different to the
+one above is needed. Based on the above background, demand forecasting by time
+series analysis was employed. To examine the effectiveness of the proposed method,
+the time series data of the shipments of an actual auto parts IR for a total of 400 types
+of remanufactured alternators and starters over a period of 12 years was used. Thus far,
+few studies have investigated the precision of time series analysis demand forecasting
+using actual data for remanufactured products. In time series analysis, trends are
+extracted from past historical changes and forecasts are made by extension. The timing
+of new products sales or product end-of-life is not used, and therefore, the forecast precision obtained by the conventional method where such information is used cannot be
+expected. However, there are advantages to investigating the effectiveness of forecasting
+by time series analysis. First, in the case where information on the time distribution of
+new product sales is unavailable to the remanufacturing company, forecasting by time
+series analysis may be quite helpful. Second, in the case where partial information on
+new product sales is available, the combination of forecasts using the product end-of-life
+model and forecast by time series analysis will increase the accuracy of either method
+when used separately. However, to conduct such a combined forecast, it is necessary to
+first clarify the precision and characteristics of forecasting by time series analysis.
+The current paper is structured as follows. In the ‘Related work’ subsection, previous
+studies on forecasting product return and demand are outlined. In the ‘Methods’ section,
+the data, the forecasting method, and the evaluation method used in this study are described. The ‘Results and discussion’ section presents the results and discussion of this
+study. The ‘Conclusions’ section presents the conclusion, where the insights obtained and
+future issues are summarized.
+Related work
+
+Production planning and control in remanufacturing is more complex than those in
+traditional manufacturing. The complexities derive from the uncertainties in stochastic
+product returns and imbalances in product returns and demands [7]. Product returns
+
+balance product returns with demands for remanufactured products to avoid the excessive build-up of inventory or of the inability to meet customer demand where demand
+exceed returns.
+Companies can influence the reliability of product returns to some extent. The common
+means of reducing the uncertainty of product returns include legislation, incentive systems, contracts, and monitoring and forecasting [10]. Ostlin et al. [11] demonstrated that
+the ability of the remanufacturer to control product return is characterized according to
+the relationship between the remanufacturer and the end user. In auto parts remanufacturing, product returns are linked to the demands for remanufactured products. An auto
+parts remanufacturer supplies remanufactured products, and, in return, it receives used
+products from the end user. Based on the seven categories proposed by Ostlin et al. [11],
+the relationship corresponds to either the deposit-based relationship or the credit-based
+relationship.
+There are studies that forecast trends in the amount of product reaching the end-of-life
+stage over the entire country by building a quantitative model for the product use period.
+Studies have been conducted for automobiles [12], cathode ray tubes [13], and other diverse products [14]. For remanufacturing, a forecast is generally required for detailed
+product categories, but a common point is shared for modeling the time distribution of
+the use period and the product return forecast.
+Pioneering works in forecasting product return for remanufacturing include those
+of Kelle and Silver [15] and Goh and Varaprasad [16]. These researchers developed
+forecasting models for returns of reusable containers that are typically used in practice to sell or store liquids. Although in strict terms, the return of reusable containers
+is different from product returns in remanufacturing [7], their works are precursory
+attempts at product return forecasting. Researchers have sought to expand the
+model. For example, de Brito and van der Laan [17] investigated the performance of
+the forecasting methods proposed by Kelle and Silver [15] by considering the impact
+of imperfect information on inventory related costs.
+A case study for building a forecast model designed for specific products in remanufacturing was presented by Toktay et al. [18] who used actual data for returns of Kodak
+single-use cameras and developed a discrete-time distributed-lag model with dynamic
+information updates to estimate product returns. Marx-Gomez et al. [19] investigated
+forecasting models applicable to the remanufacturing of photocopiers. The authors
+developed a fuzzy reasoning and neuro-fuzzy model to predict the quantity and timing
+of photocopier returns to the OEM. A Weibullian distribution was employed to describe
+new product sales and product failure curves, and the return quota was assumed to be
+uniformly distributed. Umeda et al. [20] presented a model that describes the balance between product returns and demands for single-use cameras, photocopiers, and automatic
+teller machines based on empirical data. As mentioned previously, conventional forecast
+studies typically assume that the time distribution of new product sales are known, and
+the time distributions of product end-of-life and product returns are thereby calculated,
+which is reasonable when the OEM is the remanufacturer. The condition in which the
+OEM conducts remanufacturing is applicable to photocopiers, single-use cameras, and
+other various capital goods. However, IRs may possess no accurate information regarding
+
+Studies on demand forecasting by time series analysis have been conducted in other
+fields. They include demand forecasting for maintenance repair parts [8,21], tourism
+[22], electricity [23,24], food product sales [25], and some other products and services
+[26]. Ghobbar and Friend [8], for example, conducted demand forecasting for aircraft
+maintenance repair parts by time series analysis. Although the demand forecasts for
+maintenance repair parts and remanufactured products are similar in the objectives,
+they have different characteristics, where the demand for maintenance repair parts is
+characterized by its intermittent nature. The intermittent demand tends to be random
+in terms of time and quantity and has a large proportion of time when the demand is
+zero. The forecasting accuracies by time series analysis depend, at least partially, on the
+characteristics of time series of demand. High forecasting accuracies will be expected if
+the transition curves are stable and periodical, whereas high accuracies cannot be expected
+if the curves show highly irregular patterns. In this paper, the demand forecasting for auto
+parts remanufacturing is conducted based on real data, and the precision and characteristics
+are investigated.
+
+Methods
+Data
+
+This study examined the effectiveness of demand forecasting in auto parts remanufacturing. The auto parts remanufacturing industry is reportedly the world's largest remanufacturing sector, accounting for an estimated two-thirds of global remanufacturing activities
+[1]. Remanufactured auto parts are supplied for automotive after-sales markets. While the
+targets of auto parts remanufacturing cover a wide range, alternators and starters are the
+representative products. Among the Automotive Parts Remanufacturers Association
+(APRA) in the United States, the number of remanufacturers of alternators and starters is
+highest, representing about 300 companies [27]. The present study employed data obtained from an IR of auto parts that represent shipments of remanufactured alternators
+and starters.
+The authors used data obtained from Shin-Etsu Denso Co., Ltd., which is the largest
+IR in Japan for alternators and starters [28]. The company has engaged in remanufacturing since the 1960s, but, until the latter 1990s when sales for the Japanese domestic
+market began to expand, the remanufactured products were almost entirely for export
+to the United States and European countries. The history of auto parts remanufacturing
+in Japan is short compared to that of the United States and European countries. Sales
+of remanufactured alternators and starters for passenger cars in Japan were rare until
+the late 1990s. The exact figures for the size of the after-sales market for alternators
+and starters in Japan are not known, and the market scale of the remanufactured products
+is even more uncertain. The subject company shipped about 160,000 alternators and
+170,000 starters in 2013, and about 63,000 alternators and 82,000 starters were for Japanese
+domestic use, whereas the others were for export. The company remanufactures a combined total of over 7,000 types of alternators and starters. Data collected over a 12-year
+period reflecting the company's shipments of a total of 400 types of remanufactured products, including 200 types of alternators and starters each, was used in the present study.
+Demand for remanufactured alternators and starters has the following features. First,
+demand is seasonal. Alternators are likely to fail when the temperature is high, and
+
+when the temperature is low, so that demand for starters peaks in winter. Second, the
+periods of demand differ depending on the product. For some products, the periods are
+about 10 years, whereas, in other cases, demand may last for decades. This variety is
+the result of differences of the periods over which an OEM manufactures products.
+OEMs manufacture some types of alternators/starters for only a few years, whereas
+other types of products may be manufactured over periods greater than 20 years. Third,
+for IRs, at least in Japan, it is difficult to accurately determine the time distribution of
+new product sales for each type of alternator and starter or the number and period over
+which new products are supplied as they are assembled into new automobiles (i.e., the
+time distribution of new product sales is shown in Figure 1).a Therefore, a method of
+demand forecasting that does not rely on accurate information regarding the time
+distribution of new product sales is needed.
+If reliable demand forecasting can be realized, the forecasts can be utilized in production planning and control and would result in reduced production costs, product inventory costs, and core inventory costs. Shin-Etsu Denso warehouses a core stock of
+about 300,000. For each product type, cores representing several months of orders are
+stocked. In the case of domestic sales, newly returned cores are obtained from the customer at each shipment and returned to the stock. If the number of orders increases,
+the company increases core stock accordingly to adjust to the situation. The company
+monitors changes in the number of orders over the past years to determine the stock
+levels. Reliable demand forecasting could effectively reduce the IRs' core inventory costs.
+Demand forecasts, both for the long term, for example over the next year, and for the
+short term, for example over the next month, are helpful. This study focused on the former
+and examined the forecasts obtained by time series analysis of demands over a 1-year
+period.
+In this study, the company's shipments per month for a total of 400 types of remanufactured products over a period of 12 years were used. The company handles over 7,000
+types of alternators and starters, but only those types of alternators and starters having
+the highest shipment numbers for the domestic market in the most recent 1-year period
+were used. The 12-year period was from December 2001 to November 2013.
+Examples of the shipment data are shown in Figures 2 and 3. Figure 2 is the record
+of the number of shipments of a certain alternator (which will be called Alternator A).
+The number of shipments for this alternator demonstrates an increasing trend. Figure 3
+shows the record of the number of shipments of a certain starter (which will be called
+starter B). This starter reached a peak in its shipment around 2007 and exhibited a
+decreasing trend thereafter.
+To examine the effectiveness of yearly forecasts, the seasonal fluctuations shown in
+Figures 2 and 3 were eliminated by applying a 12-month moving average to the original
+time series data. If the original data set is given as xk (k = 1, 2, ⋯, 144), then the moving
+average time series yk (k = 13, 14, ⋯, 145) becomes yk = (xk − 12 + xk − 11 + ⋯ + xk − 1)/12.
+Therefore, Figures 4 and 5 show the 12-month moving averages of Figures 2 and 3, respectively, where, as an example, the value for December 2013 in Figure 4 is the average
+of the monthly values from December 2012 to November 2013 shown in Figure 2. In the
+absence of seasonal fluctuations, Figure 4 shows a relatively simple increasing trend
+whereas Figure 5 shows an increasing trend followed by a decreasing trend. Forecasts
+
+Page 7 of 20
+
+Figure 2 Trend of the monthly number of shipments of one type of alternator (Alternator A).
+
+Forecasting method
+
+This study used the double exponential smoothing method for demand forecasting. Exponential smoothing [26,29] and autoregressive integrated moving average (ARIMA)
+models [30] are the representative methods in time series analysis. In this study, exponential smoothing was used because exponential smoothing is known to be optimal for
+a broader class of state-space models than ARIMA models [26].b Exponential smoothing
+is a procedure for continually revising a forecast in the light of more recent experience. In
+the double exponential smoothing method, two components, namely level and slope,
+are updated each period. By estimating the level aT and slope bT using the observed
+data (x1, x2, ⋯, xT) up to period T, the forecast value sT+k at point T + k (k = 1, 2, …) is
+calculated by the following equation:
+sT þk ¼ aT þ bT Â k
+
+ð1Þ
+
+Holt's method [29] is a representative method of double exponential smoothing. In
+this method, the estimated values for level aT and slope bT are estimated by the following
+
+Page 8 of 20
+
+Figure 4 Trend given by the 12-month moving average of shipments of Alternator A shown in
+Figure 2.
+
+aT ¼ α Â xT þ ð1−αÞ Â ðaT −1 þ bT −1 Þ 0 < α < 1
+
+ð2Þ
+
+bT ¼ β Â ðaT −aT −1 Þ þ ð1−βÞ Â bT −1 0 < β < 1
+
+ð3Þ
+
+The value aT is estimated by averaging the actual value xT and the forecast value
+(aT − 1 + bT − 1) at ratio α : 1 − α. The value bT is estimated by averaging the forecast
+value (aT − aT − 1) after obtaining the information during period T and the forecast
+value bT − 1 according to information up to point T − 1 at ratio β: 1 − β. By supplying
+the actual value (x1, x2, ⋯, xT), initial values for aT and bT and values for α and β, aT
+and bT can be calculated and sT+k obtained. The following are generally used for the
+initial values for aT and bT.
+a2 ¼ x2 ; b2 ¼ x2 −x1
+
+ð4Þ
+
+The statistic tool R was used to calculate the forecast value by Holt's exponential
+smoothing. Using the Holt-Winters () function of R, the values for aT and bT are
+
+Page 9 of 20
+
+calculated from the actual value xT. The values for α and β are successively calculated
+by taking the least squares sum of the estimated error.
+Evaluation method
+
+Demand forecasting was examined using the 12-month moving average data
+(Figures 4 and 5). Of the 11-year data (from January 2002 to December 2013
+for Figures 4 and 5), data for the first 10 years was used (from January 2002 to
+December 2012), and the value for the last term (December 2013) was forecasted by applying the double exponential smoothing method. The precision of
+forecasting was evaluated by comparing the forecasted value and actual value
+for the final term (December 2013). Because of the 12-month moving average,
+this forecasting corresponds to forecasting the total number of shipments 1 year
+in the future (in this case, the total shipment occurring over the period December 2012
+and November 2013).
+Figures 6 and 7 are the results of conducting the forecast calculation for the
+data shown in Figures 4 and 5. The orange lines overlaying the actual data given
+by the blue curves in Figures 6 and 7 are the results of the forecast. Comparing
+the values for December 2013 in Figure 6, the forecasted value is 216.9 and the
+actual value is 201.3, while the forecast value is 93.2 and actual value is 100.4 in
+Figure 7.
+The error rate of the forecast value is defined by the following equation:
+Error ¼
+
+jActual value − Forecasted valuej
+Â 100 ð%Þ
+Actual value
+
+ð5Þ
+
+In Figure 6, the error rate is 7.7% (=|201.3 − 216.9|/201.3 × 100%), whereas, in
+Figure 7, it is 7.1% (=|100.4 − 93.2|/100.4 × 100%). In addition, as reference value,
+the difference between the actual value for December 2013 and the actual value
+for December 2012 is defined as the difference from the previous year as
+follows:
+
+Page 10 of 20
+
+Figure 7 Forecast of number of units of Starter B to be shipped over the final year based on the
+previous 11 years.
+
+Difference from the previous year ¼
+
+jActual value ðin Dec 2013Þ−Actual value in previous year ðin Dec 2012Þ j
+Actual value ðin Dec 2013Þ
+Â 100 ð%Þ
+
+ð6Þ
+Referencing the value from previous year is frequently done in the world of business
+and economics, and this corresponds to the forecast error when forecasting the value
+of a particular year based on the value of the previous year. In Figure 6, the difference
+from the previous year is 12.2% (=|201.3 − 176.8|/201.3 × 100%), and, in Figure 7, it is
+34.0% (=|134.5 − 100.4|/100.4 × 100%).
+
+Results and discussion
+Results
+
+The forecast calculations were conducted for 400 types of products, and the forecast
+error and difference from the previous year were calculated for each item. Table 1
+shows the average forecast error (total row). The average forecast errors were 24.6% for
+the 200 types of alternator, 29.9% for the 200 types of starter, and 27.2% for the 400
+total types of products. The average values of the difference from the previous year
+were 25.7% for the 200 types of alternator, 29.4% for the 200 types of starter, and 27.6%
+for the 400 total types of products.
+Figure 8 shows a scatter diagram of the forecast and actual values for each product.
+The line at the center of the diagram represents the condition where forecast = actual.
+The lines above and below indicate where the error rate is an average of 27.2%, and the
+region in between indicates an error rate less than 27.2%. The average forecast error
+value of 27.2% is large compared to the values of the forecast error shown in Figures 6
+and 7, and the average forecast error for starters is larger than the value of the difference from the previous year. Looking at the distribution of Figure 8, it is observed that
+
+Table 1 Average errors of the forecast for 200 types of alternators and 200 types of starters
+Alternator
+
+Starter
+
+Alternator and starter (total)
+
+Ratio (%)
+
+Average
+error (%)
+
+Average difference from
+the previous year (%)
+
+Ratio (%)
+
+Average error
+
+Average difference from
+the previous year (%)
+
+Ratio (%)
+
+Average
+error (%)
+
+Average difference from the
+previous year (%)
+
+Total
+
+100
+
+24.6
+
+25.7
+
+100
+
+29.9
+
+29.4
+
+100
+
+27.2
+
+27.6
+
+Category A
+
+42
+
+12.9
+
+29.2
+
+43.5
+
+12.6
+
+23.1
+
+42.8
+
+12.7
+
+26.1
+
+Category B
+
+14
+
+52.7
+
+37.1
+
+21
+
+73.3
+
+53.4
+
+17.5
+
+65.0
+
+46.9
+
+Category C
+
+44
+
+26.7
+
+18.9
+
+35.5
+
+25.5
+
+22.9
+
+39.8
+
+26.2
+
+
+Figure 8 Distribution of forecast and actual values for 200 types of alternators and 200 types of
+starters. The blue dots represent alternators, and the orange dots indicate starters. The distribution for 385
+total products are shown. Fifteen products lie outside of the diagram.
+
+Discussion (1): categorization of transition curves
+
+To address the means to use the proposed method effectively, it is useful to look into
+the features of the forecasting errors. An examination of the full collection of transition
+curves allows the curves to be categorized into the following three types.
+1. Category A: where the actual data used in the forecast (first 10 years) represents a
+simple curve with a trend that continues during the forecast period (the last year).
+2. Category B: where the actual data used in forecast (first 10 years) represents a
+simple curve, but the trend changes during the forecast period.
+3. Category C: where the transition curve is complex.
+A curve is simple if it is either a simple increase or a simple increase followed by a
+simple decrease. A curve is complex if it exhibits increases and decreases that are
+repeated.c
+Figure 9 shows the examples of Category A. The transition curves of Figures 6 and 7
+also fall into this category. The forecast errors of the transition curves in this category
+were small. The examples of Category B are shown in Figure 10. Starter I in the figure
+is a typical example, where it increases and then decreases during the forecast period,
+and the forecast reflects the increasing trend up to that time. The average forecast error
+surpassed 400%. There are also products where the exhibited trend diminished during
+the forecast period (Alternators F and G) and ones that grew stronger (Starters J and K).
+
+Figure 9 Selected examples of Category A: simple trends.
+
+the forecast. Figure 11 shows three examples representative of Category C. The forecast
+error exhibits values that may be low, as in the case of Alternator M, or may be high, as
+for Alternator L.
+Table 1 shows the proportions of products for each category. For the alternators, 42%
+were in Category A (84 products), 14% in Category B, and 44% in Category C, and the
+forecast errors were 12.9%, 52.7%, and 26.7%, respectively. For the starters, 43.5% were
+in Category A, 21% in Category B, and 35.5% in Category C, and the forecast errors
+were 12.6%, 73.3%, and 25.5%, respectively. Figures 12 and 13 show the forecast errors
+and the values of the difference from the previous year of the 400 transition curves
+reflecting the 200 alternators and starters, respectively.
+The following observations can be made from Table 1 and Figures 12 and 13. First,
+as seen in the examples of Figure 10, Category B exhibits a simple trend, but the forecast
+error of the transition curve degrades the overall average forecast error. Particularly, the
+percentage of transition curves representative of Category B is high for starters, which
+increases the average error of the starters. Second, for Category C, the overall average
+forecast error is 26.2%, but the average difference from the previous year is better.
+Category C curves, as can be seen in Figure 11, repeat increasing and decreasing
+trends non-periodically. Forecasting by time series analysis is generally not appropriate
+for such curves to an extent that depends on the frequency of the increase–decrease transitions. In this case, it is safer on average to use the previous year value as the forecast
+value rather than applying a time series analysis because, in many cases, Category C
+
+
+Figure 11 Selected examples of Category C: complex trends.
+
+products are long-selling products and the number of shipments throughout the year
+does not fluctuate to a large extent.
+
+Discussion (2): assessing the possibility of predicting the categories
+
+The results indicated that the forecasts were accurate for the Category A curves, and
+that the Category B curves increased the overall average error of the forecast. The
+effectiveness of the proposed method is ensured if Categories A and B could be distinguished without seeing the actual values during the forecast period. Trial investigations
+were conducted to determine the extent to which Categories A and B can be distinguished through human judgment. In the experiment, three students with no particular
+knowledge of the subject product or market were shown transition curves categorized
+as simple (i.e., either in Category A or Category B) during the period excluding the last
+year and were asked to predict whether the curves were representative of Category A
+or Category B. The curves for which two or more of the three test subjects estimated
+to be representative of Category A were categorized as ‘Guessed as Category A’ ,
+and those for which two or more test subjects estimated to be representative of
+Category B were categorized as ‘Guessed as Category B’. The agreements between
+Category A and ‘Guessed as Category A’ , and Category B and ‘Guessed as Category B’
+were observed.
+Table 2 shows the results. Of the 164 Guessed as Category A curves, 132 curves
+(80%) were correctly evaluated, whereas the other 32 curves (20%) were actually in
+Category B. On the other hand, of the 77 Guessed as Category B curves, 38 curves
+(49%) were correctly attributed to Category B, whereas the remaining 39 curves (51%)
+were actually in Category A. The percentage of correct answers was 71% (= (132 + 38)/
+(164 + 77) × 100%).
+Of these, the curves correctly ascribed to Category B were those where the proximal
+trend was a rapid increase or decrease, and the forecasts were extensions of such a
+trend. Alternator G and Starter I shown in Figure 10 fall into these categories. On the
+other hand, curves incorrectly ascribed to Category B were those that were forecasted
+to have what appeared to be a too rapid increase or decrease but where such rapid
+increase or decrease actually followed. For the curves incorrectly ascribed to
+Category A, the change could not be forecasted, even with the application of
+human judgment. It was not possible to forecast those curves where the trend
+moderated during the forecast period (e.g., Alternator F in Figure 10), those
+where the trend increased (e.g., Starter J and Starter K), or those where demand
+
+
+
+Page 17 of 20
+
+Table 2 Results of the trial to distinguish between Category A and Category B
+Total (alternator and starter)
+Guessed as Category A
+
+Category A
+
+Guessed as Category B
+
+Average
+error (%)
+
+Average difference from
+the previous year (%)
+
+Average
+error (%)
+
+Average difference from
+the previous year (%)
+
+12.6
+
+21.8
+
+13.0
+
+40.5
+
+132 types
+Category B
+
+62.8
+
+39 types
+49.6
+
+78.8
+
+32 types
+Total
+
+22.4
+
+66.9
+
+38 types
+27.2
+
+45.5
+
+164 types
+
+53.5
+
+77 types
+
+Based on this result, the following forecast method was applied. The forecast was
+conducted by the exponential smoothing method for categories placed in Guessed as
+Category A, whereas the forecast was based on the previous year value for those placed
+in Guessed as Category B just as is used for complex curves (Category C). The forecast
+precision of this method is listed in Table 3. For the alternators, the cover ratio (those
+curves assigned to Guessed as Category A and Category C) was 79% and the forecast
+error was 18.8%. For the starters, the cover ratio was 82.5% and the forecast error was
+24.3%. In total, the cover ratio was 80.0% and the forecast error was 21.5%. Compared
+with the average forecast error of 27.2% obtained when the exponential smoothing
+method was applied to all curves, the average forecast error of 21.5% shows an
+improvement.
+Those curves providing a forecast result with a large error (Category B) were predicted through human judgment. This indicates the possibility for effective use of time
+series analysis forecasting as a tool supporting human-based decisions for inventory
+management or for creating production plans.
+
+Conclusions
+The current study investigated the effectiveness of forecasting demands in an alternator/starter remanufacturing using time series analysis of actual shipment data from an
+IR of auto parts. The average error of the forecasts obtained for 400 products using
+Holt's exponential smoothing method was 27.2%. The result is expected to provide a
+benchmark for research targeting demand forecasting in auto parts remanufacturing.
+
+Table 3 Forecasts reflecting the distinction among Categories A, B, and C
+Alternator
+
+Starter
+
+Total
+
+Number ratio (%)
+
+35.0
+
+47.0
+
+41.0
+
+Average error (%)
+
+18.7
+
+25.3
+
+22.4
+
+Guessed as Category B
+
+Number ratio (%)
+
+21.0
+
+17.5
+
+19.3
+
+Category C
+
+Number ratio (%)
+
+44.0
+
+35.5
+
+39.8
+
+Difference from previous year (%)
+
+18.9
+
+22.9
+
+20.6
+
+Cover ratio (%)
+
+79.0
+
+82.5
+
+80.8
+
+Average error (%)
+
+18.8
+
+24.3
+
+21.5
+
+
+The results indicated that the forecasts were accurate for products whose demand
+trends were stable (Category A). Demand trends ascribed to Category A represented
+42% of the total, and the demands were forecasted with an average forecast error of
+12.7%. On the other hand, the forecasting errors for products whose shipment trends
+changed during the forecasting period (Category B) were high. Demand trends ascribed
+to Category B represented only about 18% of the total, but the average error was high
+at 65.0%, and this degraded the overall average forecasting error. The remaining 40%
+of the supply curves were those exhibiting complex trends (Category C). While the
+average forecast error of Category C was 26.2%, better results were obtained by
+referring to the previous year value. An investigation was conducted to determine
+the possibility of identifying Category B based on shipment data prior to the forecasting period by human judgment. The experiment indicated that a distinction
+could be made in part, and the percentage of correct answers for distinguishing between Categories A and B was 71%. As a result, the forecast value using this distinction was assigned to 80.8% of the products with an average forecast error of 21.5%,
+which showed improvement.
+Future steps regarding the present study is proposed as follows. First, the effects of
+other available information on improving the accuracy of forecasts are worth investigating. As described in the ‘Background’ and ‘Methods’ sections, IRs do not have accurate
+information on the time distribution of new product sales. However, some information
+is available to IRs in certain cases. For example, information on the number of years
+that new products were sold is readily available for IRs for some type products although, even in these cases, the number of products sold each year during the period is
+not available, and thus the time distribution of new product sales is not available. Using
+this new product sales period information together with data concerning the product
+lifespan time distribution, the long-term time distribution of demands may become
+forecastable. In business situations, various information including product-specific
+market information, word-to-mouth information, etc. are taken into account, in most
+cases intuitively, to project the trend of demands and to detect the change of the trend
+of demands. One of the next steps of the present work is to clarify the type of
+information that may improve the accuracy of forecasts, to develop methods to
+utilize such information, and to assess the effectiveness of the methods. Second,
+while this study focused on forecasting demands 1 year in the future, forecasting
+demands over shorter periods should also be investigated. Both yearly and monthly
+forecasts are useful for inventory management and production planning in
+remanufacturing. To conduct shorter-term demand forecasts, seasonal patterns of
+demands must be extracted. Investigation of monthly demand forecasting is another
+proposed direction for subsequent work. Third, investigating methods to reflect the
+forecast results effectively in inventory management and production planning is
+another significant next step. Depending on the available forecasting accuracy, the
+effective means of reflecting the results may differ. Also various factors that are
+specific to the processes such as a feature that underestimation of demands is
+more costly than overestimation must be taken into account. It is important to
+develop methods that can accurately reflect demand forecasting in process
+optimization in remanufacturing based on an understanding of the characteristics of
+
+Endnotes
+a
+IRs can obtain information on the number of sales of automobile types and can
+determine the alternator/starter installed in each automobile type. However, because
+the correspondences between the alternator/starter type and the automobile type is
+many-to-many, where one type of alternator/starter may be used in several automobile types, and multiple alternator/starter types may be used in a single automobile type according to the engine size and model, it is not feasible for IRs to
+estimate the time distribution of new alternator/starter product sales from the
+number of sales of a given automobile type.
+b
+In addition, the following are the reasons that exponential smoothing was chosen.
+First, exponential smoothing is simpler in its formulation, and thus it was expected to
+be easier to identify the causes when it created an unexpected result. Second, when test
+calculations were conducted for 30 type products prior to the calculations for 400 type
+products, Holt's exponential smoothing method outperformed ARIMA model in the
+average precision.
+c
+The categorization to the three categories was supported by human judgment because
+the intended differentiation was difficult to perform by any other means. For example,
+if a simple increase or decrease are defined as a monotonic increase or decrease, the
+definition is too strict and the intended differentiation between simple curves
+(Categories A and B) and complex curves (Category C) could not be obtained.
+Three students were asked to choose the appropriate categories for the curves. The
+categories of the curves were set according to the agreement by two or more students.
+

@@ -1,0 +1,1285 @@
+
+1 Introduction
+Early deﬁnitions of supply chain management (SCM)
+typically emphasised the management of activities and
+material ﬂows, whereas more recent SCM deﬁnitions have
+largely focused on managing the supply chain (SC) as one
+system with clear strategic goals [1]. Hence, there has
+been a shift towards managing SC members to gain
+mutual beneﬁts and a concentration on a SC-centric rather
+than an organisation-centric view. Within a SC, ﬁrms need
+to provide basic management resources, both internally
+and in relation to their SC partners, to develop main
+capabilities in relation to SCM execution [2]. Hence, there
+has been a change of focus from the process function to
+SC, which has been characterised by speciﬁc attention to
+partnerships, relationships, networks, value creation and
+value constellations [3]. Collaboration is known as a
+‘‘silver bullet’’ in many areas of SCM [4, p. 314], which
+illustrates the importance many ﬁrms place on it. Building
+relationships between companies rather than working
+
+in organisational performance improvement [5]. Regarding
+the importance of intra- and inter-organisational relationships, various researchers have recognised that the link
+between a ﬁrm and its SC members is one of the key
+issues to ensure business success and competitive advantage [6, 7]. Companies that have developed their internal
+business process with their suppliers and customers are in
+a better position to produce and distribute their products at
+a lower cost and satisfy service level requirements [8].
+Hence, ﬁrms and their SC members working collaboratively by opening communication and sharing resources,
+risks and rewards should enjoy mutual beneﬁts. For
+instance, Hsu et al. [6] studied the impact of SCM practices on operations capability and ﬁrm performance. The
+study illustrated the idea that SCM practices mediate the
+impact of operations capability on organisational performance. Flynn et al. [9] indicated that SC integration
+(supplier, internal and customer integration) is beneﬁcial
+to ﬁrm performance. Previous studies have also provided
+an illustration of the relationships between speciﬁc paradigms of internal practices [such as lean manufacturing
+and enterprise resource planning (ERP) systems] and the
+SC [10, 11]. However, there is a need for a comprehensive
+study of other aspects that link SC partners in their
+attempts to achieve competitive advantage and improve
+organisational performance.
+Regarding business process management (BPM) and
+supply chain collaboration (SCC), prior research has suggested that both BPM and SCC are important for improving performance and competitiveness [11–14]. For
+instance, Min et al. [13] developed a model of SCC to
+demonstrate the relationships between the antecedents of
+collaboration, collaboration itself and its consequences.
+The antecedents included strategic intent, internal alignment, relationship orientation, relationship-speciﬁc investment, a free ﬂow of information and heightened
+communication and formalisation. Collaboration was
+shown to have a moderating effect between the antecedents
+and the consequences (efﬁciency, effectiveness and profitability). Simatupang and Sridharan [14] highlighted that a
+ﬁrm that focuses on BPM practices should be able to
+support collaborative activities with its SC partners. There
+is a positive relationship between internal SCM resources
+and joint SCM resources, which in turn affect collaborative
+SCM processes and SCM execution [12]. However, the
+previous literature lacks empirical testing of the relationship between BPM and SCC, which are important for
+leveraged performance. The link between these two aspects
+needs to be identiﬁed to provide a better understanding of
+how intra-organisational development regarding BPM
+practice can help with collaborative activities and of the
+beneﬁts that can, thereby, be achieved.
+
+123
+
+
+
+The early stage of our research empirically tested the
+interrelationships between BPM, SCC, collaborative
+advantage and organisational performance [15]. It provides
+empirical evidence that there is a positive relationship
+between the relationships under investigation. Hence, it
+only indicated the results in terms of the signiﬁcance or
+non-signiﬁcance of each hypothesis [15]. However, prior
+research still lacks insights into the actual practices of BPM
+and SCC, especially in the manufacturing sector in a
+developing economy. Based on this research gap, we argue
+that there is a need to capture instances of practitioners’
+views of the relationships between BPM, SCC, collaborative advantage and organisational performance, and to
+develop an understanding of the underlying factors guiding
+these interrelationships. Therefore, this research aims to
+provide a detailed understanding of the meanings, actions
+and opinions of real-world practitioners in their speciﬁc
+contextual situations and their experiences of the use of
+BPM practices, collaboration with SC partners and beneﬁts
+achieved in terms of collaborative advantage and organisational performance. More speciﬁcally, this research
+focuses on the manufacturing sector in a developing
+economy, namely Thailand, an aspect which has mainly
+been neglected. The main research question that guided our
+research can be identiﬁed as: ‘‘How do BPM and SCC
+interrelate to drive collaborative advantage and organisational performance?’’. This can be broken down into three
+research sub-questions: (1) ‘‘How does BPM help to
+improve organisational performance?’’; (2) ‘‘How does
+BPM help in collaborative activities?’’; and (3) ‘‘How do
+contextual factors impact on the link between BPM and
+SCC and the relationship beneﬁts?’’.
+To answer these questions, a multi-case approach was
+adopted using four medium and large companies from the
+electronics and automotive industries in Thailand. Based
+on earlier research, BPM represents intra-organisational
+development, and we ascertained four elements of BPM,
+namely strategic alignment, information technology (IT),
+process orientation and improvement and people involvement [15]. We identiﬁed four elements of SCC, namely
+information sharing and communication, sharing common
+goals, joint activities and incentive alignment. These
+important elements of BPM and SCC were selected based
+on the most commonly used ones in previous research
+(based on the number of citations from Harzing’s ‘‘Publish
+or Perish’’ (23 July 2014). The beneﬁts were indicated in
+terms of collaborative advantage and organisational performance, and a framework was developed to explain these
+relationships. Next, a taxonomy was developed to identify
+different types of internal development (BPM) and external
+developments (SCC) and to illustrate how companies’
+performance can be improved. The taxonomy can help SC
+manage and improve their SC to achieve higher SC
+performance.
+To identify the role of BPM and SCC, and their beneﬁts
+in terms of collaborative advantage and organisational
+performance, terms such as business process management
+(BPM), supply chain management, supply chain collaboration (SCC), collaborative advantage, organisational
+performance and intra- and inter-organisation were used to
+identify relevant keywords in research papers. The following section provides the relevant literature on BPM,
+SCC and beneﬁts in terms of collaborative advantage and
+organisational performance. The research methodology is
+subsequently presented, followed by the case study analysis. Finally, the key research ﬁndings are summarised and
+discussed, and contributions and conclusions are
+highlighted.
+
+2 Literature review
+2.1 Business process management
+BPM has been explained by various authors [16, 17].
+According to Lindsay et al. [18], BPM strives to better
+understand the key mechanisms of a business to improve
+and in some cases to radically change the business performance by identifying opportunities for new business,
+outsourcing, improving business efﬁciency and using
+technology within different areas of the business to support
+business processes. Van der Aalst et al. [17] suggested that
+BPM was a ﬁeld of knowledge that covered the use of
+various methods, techniques and technologies to support
+business process changes, encouraging employees to
+become more involved. More recently, Chang [16] deﬁned
+BPM as a process-oriented organisational approach used to
+design, analyse and improve business processes to effectively manage and improve organisational performance. In
+summary, BPM utilises both incremental and radical
+methodologies, focusing on processes, technology and the
+involvement of people to ensure that customer satisfaction
+is achieved in an effective way.
+To capture the main elements of BPM, we deﬁne BPM
+by covering the four main elements most commonly
+highlighted by previous research [e.g. 16, 19]. The selection of these four elements was based on a number of
+citations from Harzing’s (23 July 2014) ‘‘Publish or Perish’’. These four elements are strategic alignment, IT,
+process orientation and improvement and people involvement. Strategic alignment refers to long-term goals, the
+consideration of customer requirements and the internal
+characteristics of organisations and involves developing
+speciﬁc strategies and plans that can be implemented to
+
+Page 3 of 20 6
+
+maximise the value from process redesign and improvement [19]. Additionally, joint decision-making with SC
+partners is necessary for intra-organisational operations and
+the development of long-term plans. For instance, a ﬁrm
+and its SC partners could make joint decisions about
+demand forecasting and jointly establish and share common goals along a SC. IT is not developed to be used only
+within organisational boundaries but can also involve
+external IT interfaces and SC engagements. Process orientation is central to BPM and includes key elements such
+as process view/documentation, value stream mapping,
+process ownership and process measurement. BPM represents a convergence of previous process improvement
+approaches, as it provides information and a process
+management infrastructure for improvement [16, 19]. Both
+top management and employee empowerment need to be
+involved in BPM practices. Top management needs to be
+committed and to communicate effectively, setting organisational values and developing a suitable management
+style to improve organisational performance [20]. Additionally, empowering employees allows them to participate
+actively and creatively in their work.
+Organisational performance is described as a multidimensional concept. It refers to how well an organisation
+fulﬁls both ﬁnancial and market-oriented goals [21].
+Financial goals are measured by ﬁgures such as sales
+growth, proﬁt margin on sales and return on investment
+[5, 9]. Non-ﬁnancial performance is measured, for
+example, by overall product quality, overall competitive
+position, overall customer service levels, core competences and capabilities [5, 9]. Non-ﬁnancial performance
+measures can help shift attention away from short-term
+ﬁnancial goals towards medium- and long-term goals
+[22].
+Several studies have revealed that BPM has a positive
+impact on organisational performance [23–26]. However,
+there is limited research on the link between some attributes of BPM and organisational performance. A number
+of studies [19, 24] focused on the ‘‘process’’ concepts of
+BPM, its attributes and the links between attributes and
+beneﬁts such as organisational performance and customer
+satisfaction. Smart et al. [19] empirically validated a BPM
+framework by considering the context of processes to
+characterise BPM. They identiﬁed ﬁve main dimensions of
+BPM, namely process strategy, process architecture, process measurement, process ownership and process
+improvement. Maddern et al. [24] examined the impact of
+BPM on service quality and customer satisfaction and
+highlighted that BPM is a critical factor in driving customer satisfaction. The relationship between process orientation and organisational performance was studied by
+Skirinjar et al. [26]. Their results showed that business
+process orientation leads to an improvement in both
+
+studies on BPM have mostly focused on some speciﬁc
+attributes of BPM. Hence, there is a lack of BPM research
+that includes all the main attributes covering the entire
+scope of BPM. Most studies of BPM have typically been
+narrowly deﬁned and have focused on aspects within the
+organisational boundaries rather than investigating the
+link between BPM and
+the inter-organisational
+relationship.
+2.2 Supply chain collaboration
+Several researchers have indicated an increasing interest
+in SCC [e.g. 27, 28]. SCC occurs when two or more ﬁrms
+in a SC work closely together in planning and delivering
+products to end customers to optimise proﬁts for the SC
+members and gain mutual beneﬁts [5]. It is necessary to
+develop closer relationships, integrating processes and
+sharing information with customers and suppliers.
+According to Barratt [29, p. 33], ‘‘Internal collaboration
+must be married with external collaboration’’. Thus, ﬁrms
+need to collaborate in order to gain access to combinations
+of resources or improved capabilities that allow them to
+achieve collaborative advantage and higher performance.
+Collaborative advantage refers to strategic beneﬁts
+achieved over competitors in the marketplace which could
+not have been achieved without working through the SC
+partnership [5, 30]. Therefore, these beneﬁts achieved
+should be more than those achievable by a ﬁrm working in
+isolation. Synthesising the literature, the important elements of SCC that have been commonly used in previous
+research [based on a number of citations from Harzing’s
+(23 July 2014) ‘‘Publish or Perish’’] are information
+sharing and communication, sharing common goals, joint
+activities and incentive alignment [5, 28, 31]. Information
+sharing and communication are described as important for
+effective collaboration to achieve a greater shared understanding within the SC partnership; therefore, an environment of innovative thinking will be encouraged and
+supported [5, 13, 29, 31]. Joint activities refer to joint
+decision-making and the sharing of resources between SC
+partners. A ﬁrm and its SC partners jointly performing
+activities could result in the development of a deeper
+understanding between partners, leading to more efﬁcient
+communication in a virtuous cycle. Sharing common goals
+is important for good relationships between ﬁrms, as they
+work for mutual beneﬁts. Incentive alignment refers to the
+degree to which participating SC members share costs,
+risks and beneﬁts [14]. It provides a system for repositioning the beneﬁts and problems that are encountered
+when process changes occur within the SC.
+A positive association between SC performance and
+organisational performance has been supported by previous
+
+123
+
+
+
+studies [6, 9, 21, 32], so achieving SC performance is
+critical for improving ﬁrm performance. Additionally,
+much of the previous SCM research asserts that ﬁrms that
+work collaboratively with their SC partners can improve
+their organisational performance [5, 32–34]. SCC assists
+ﬁrm performance in reducing ambiguity and identifying
+priorities which can speed up business operations, save
+time and ensure that the business runs smoothly. Research
+by Vereecke and Muylle [33] indicated that SCC had an
+impact on performance improvement (in terms of delivery,
+cost, quality, ﬂexibility, lead time and time to market).
+Thus, SC members who provide higher levels of collaboration practices (e.g. information sharing, joint activities
+and decision-making) were able to achieve better operational performance and innovative activities [14, 32, 34].
+Also, SCC can be utilised for transferring knowledge and
+new technological skills across the ﬁrms, which should
+result in better opportunities for enhancing their objectives
+[5] and can lead to improved performance and competitive
+advantage over time. Additionally, there is evidence suggesting that SC relationships are dependent on organisational, competitive and relationship-speciﬁc attributes [35–
+38]. The ﬁndings of Sila [35] showed that ﬁrm size did not
+have a great effect on the implementation of total quality
+management (TQM) practices. The empirical results produced by Hou [37] also showed ﬁrm size to have no signiﬁcant inﬂuence on ﬁrm performance. Lavastre et al. [38]
+indicated that longer relationships between ﬁrms and their
+SC partners should result in greater mutual beneﬁts, such as
+the sharing of mutual and private knowledge, and greater
+control over important processes through collaboration and
+joint learning. However, there is also a lack of empirical
+research elaborating on the impact of context-dependent
+factors on the interrelationship between the competitive
+and performance linkages, on both the individual operation
+and the SC.
+2.3 Intra- and inter-organisational management
+practice
+Unlike previous research, which has tended to focus on
+BPM and SCC separately [6, 11], this study summarises the
+link between BPM and SCC, as presented in Fig. 1. A
+framework has been developed based on a review of the
+relevant literature to identify the link between intra- and
+inter-ﬁrm management practices. In terms of internal collaboration, as represented by BPM, this ultimately incorporates four main attributes: strategic alignment, IT,
+process orientation and improvement and people
+involvement.
+SCC emphasises external collaboration, and this incorporates four main attributes, namely information sharing
+
+Fig. 1 Relationship between
+BPM, SCC and the performance
+outcomes
+
+Inter-organisation
+
+Intra-organisation
+•
+•
+•
+•
+
+•
+
+Strategic alignment
+Information technology
+Process orientation and
+improvement
+People involvement
+
+•
+•
+•
+
+BPM
+
+Information sharing and
+communication
+Joint activities
+Sharing common goals
+Incentive alignment
+
+SCC
+Collaborative
+Advantage
+
+Organisational
+Performance
+
+or customers, so the taxonomy consists of two dimensions:
+the level of internal development, represented by BPM, and
+the level of external development, as inﬂuenced by SCC. A
+combination of these two dimensions classiﬁes four types
+of relationships, and this interaction results in different
+levels of performance outcomes.
+The ‘‘Star performance’’ quadrant A represents the state
+where all ﬁrms within a SC emphasise high internal
+development (high BPM), as well as a high level of collaboration with their SC partners (high SCC). This state is
+achieved, typically, in an effort to effectively differentiate
+themselves from their rivals and/or reduce costs along the
+SC. High internal and external development can be
+achieved by integrating processes and sharing information
+with customers and suppliers. Companies collectively
+
+A
+
+Weakest link
+
+Star performance
+
+(Poor performance in a good supply
+chain)
+
+(Highly integrated,
+achieving supply chain performance)
+
+D
+
+B
+
+Clunker
+
+High
+
+C
+
+Low
+
+Fig. 2 Different styles of
+internal and external
+collaboration
+
+External development: Supply Chain
+Collaboration
+
+and incentive alignment. Effective internal development
+and working collaboratively with SC partners should result
+in superior performance, at both ﬁrm and SC levels. Firms
+that practice BPM and also collaborate with SC partners
+develop collaborative advantage, which cannot be achieved
+when they work individually. Collaborative advantage, in
+turn, leads to improved internal capabilities and organisational performance. Therefore, the presence of a virtuous
+cycle is suggested.
+Consequently, a taxonomy was developed (see Fig. 2) to
+map the links between BPM and SCC and beneﬁts
+achieved in terms of SC performance, which can lead to
+improved ﬁrm performance. Of the different SC levels, this
+research focuses exclusively on direct SC relationships in
+which a ﬁrm is working collaboratively with its suppliers
+
+Supply Chain
+Performance
+
+Silo
+
+(Functional organisation)
+
+(Good performance in a bad supply
+chain)
+
+Low
+
+High
+
+Internal development: Business Process Management
+
+holistic SCM. Therefore, ﬁrms in this quadrant need to
+closely monitor the effectiveness of internal and external
+development in order to justify relevant efforts and maintain their relative competitive positions [14, 29].
+The ‘‘Silo’’ situation B represents the state of a ﬁrm
+within a SC that demonstrates high BPM and low SCC. A
+high level of internal development is achieved when a ﬁrm
+completes integrated tasks across various internal boundaries, such as purchasing, manufacturing, logistics and
+marketing. This position can be achieved by using
+advanced technology and/or by using process improvement
+programmes such as TQM, just-in-time (JIT) and ERP to
+optimise the silo (i.e. the individual company) rather than
+optimising the whole SC. Nowadays, a narrow view that
+only focuses within an organisation is not considered
+adequate [39]. A ﬁrm that pays little attention to working
+collaboratively with its SC partners and does not align its
+business strategy to the SC strategy may experience a loss
+of opportunity to improve its performance [40]. Therefore,
+ﬁrms in this position need to collaborate with their SC
+members to achieve effective responses to customers’
+needs [41] by jointly forecasting and planning, otherwise,
+they may lose their relative competitive positions and fail
+to achieve the star performance.
+The ‘‘Weakest link’’ quadrant C represents the state of a
+ﬁrm within a SC that emphasises low BPM and high SCC.
+In many cases, close relationships between a ﬁrm and its
+SC partners exist, but often the ﬁrm is resistant to open
+information sharing [42]. Incomplete or insufﬁcient information sharing to support collaboration will probably
+reduce the opportunity for a high level of collaboration
+between a ﬁrm and its SC partners [42]. Additionally, this
+position can occur when a ﬁrm perceives some costs in
+contending with their partners’ threats [14]. Firms in this
+position need to improve their internal capabilities such as
+technology and innovation development and the use of
+process improvement techniques in order to collaborate
+with SC members effectively and to achieve better performance. Otherwise, their future membership in the SC
+may be in jeopardy.
+The ‘‘Clunker’’ quadrant D represents the state of a ﬁrm
+within a SC emphasising low BPM and low SCC. Here,
+companies exhibit low levels of internal and external
+integration, which are typical of a SC containing many
+functional organisations. It can be presented as a ‘‘traditional supply chain’’ [43, p. 172], whereby each level in the
+SC issues production orders and replaces stock without
+considering the situations of suppliers and customers in the
+SC. Therefore, the SC exhibits low formal collaboration
+between ﬁrms. Overall, ﬁrms in this position may lack a
+common SC perspective in terms of internal and external
+development.
+
+123
+
+
+
+In relation to the previous, resource-based view (RBV)
+and relational view (RV) are appropriate for the theoretical
+explanation of the relationships between intra- and interﬁrms and the outcomes that can be achieved from the
+relationships investigated [e.g. 5, 11, 27, 44]. RBV is
+concerned with how a single ﬁrm can generate competitive
+advantage results based upon resources and capabilities
+that are owned and controlled within a ﬁrm [45]. It is
+focused on the internal organisation, and it is a complement
+to both the traditional emphasis of strategy on industry
+structure and strategic positioning as keys to competitive
+advantage [46]. RBV can be used to provide a theoretical
+background for evaluating types of internal capabilities that
+offer a competitive advantage which can lead to
+improvements in ﬁnancial performance [47]. Ultimately,
+BPM resources (e.g. the use of IT, process orientation and
+improvement, people involvement and employee skills
+development) may form unique capabilities for competitive
+advantage. Hence, these resources can be utilised to contribute to the ﬁrm’s success in current and future markets.
+RV focuses on the dyad/network rather than on individual ﬁrms [11, 44, 45, 48]. Thus, RV explains the role of
+collaboration as a way to develop complementary capabilities in order to achieve competitive advantage [11, 44].
+RV indicates that organisational capabilities can be
+developed by spanning the boundary of ﬁrms through the
+combination of resources from different ﬁrms in the SC.
+SCC and collaborative advantage are based on the RV
+theory, which takes into account the dyad/network, instead
+of individual ﬁrms, as the unit of analysis. Thus, it provides
+the mechanism of joint value creation, such as inter-ﬁrm
+rent generation [11, 27].
+
+3 Methodology
+This study employed the case study approach as a followup to the large-scale survey [49, 50] to gain a deeper
+understanding of the empirical results. Regarding the case
+study selection, a multiple case design was adopted to
+further elaborate on the quantitative ﬁndings. This design is
+derived from diverse types of conditions and aims to have
+sub-groups of cases covering each type [49]. The case
+selection process was based on the criteria of size and
+industry: one medium- and one large-sized ﬁrm from the
+automotive and electronics industries. The size distinction
+was based on the ofﬁcial Thai deﬁnition: a medium-sized
+ﬁrm having 51–200 employees and a large-sized ﬁrm
+employing more than 200 people (The Ministry of Industry
+Thailand, 2013). This process allowed for some level of
+triangulation above the company level [49]. Overall, 15
+ﬁrms meeting these criteria, which contributed to the ﬁrst
+
+Electronics
+Automotive
+
+Industry Type
+
+and by phone. Finally, four cases were selected to participate in the interview process. The selected paradigmatic
+case studies allowed for a comparison of similarities and
+differences between ﬁrm size, industry type, relationship
+direction and relationship length. The identities of the
+companies have to remain anonymous because of conﬁdentiality agreements, and they are referred to as follows
+(see also Fig. 3): ELC (a large electronics company), ALC
+(a large automotive company), EMC (a medium-sized
+electronics company) and AMC (a medium-sized automotive company). Appendix 1 provides the backgrounds of
+the participating companies.
+An interview protocol was developed, based on the
+results of the large-scale survey, to ensure that all issues
+required were addressed. The interview questions were
+organised in a logical sequential order, with wording that
+was not too direct and too leading, resulting in clear and
+precise questions to ensure that the interview questions
+were effective [51]. Appendix 2 elaborates on the development of the interview questions. In relation to subquestion 1 (see Sect. 1), the interview questions asked
+participants to describe BPM and its practices, how BPM
+has helped to improve organisational performance, relationship difﬁculties and the solutions for dealing with
+challenges. In relation to our second research sub-question
+(see Sect. 1), the interview questions asked how BPM has
+helped collaborative activities, whether the ﬁrms had
+experienced relationship difﬁculties and what solutions have been implemented to address such challenges.
+In relation to our third research sub-question, the interview
+questions focused on relationship characteristics (i.e. the
+closeness of the relationship, the reasons for engaging the
+company in collaboration, relationship difﬁculties, solutions to the challenges and relationship length), as well as
+beneﬁts that the company has achieved from working
+collaboratively with its SC partner, challenges to achieving
+collaborative advantage and solutions implemented to
+address such challenges. Additionally, questions covered
+how collaborative advantage has helped to improve
+organisational performance and what would happen if a
+company operated without a collaborative relationship.
+
+Large
+
+Medium
+
+Firm Size
+
+Fig. 3 Case study selection
+
+After careful development, the interview protocol was
+translated into Thai. Then, the interview protocol was pilottested to assess whether it was workable and to identify any
+problems that might occur during the subsequent interview
+process.
+Semi-structured interviews were employed between
+February and mid-March 2014. From each of the four
+companies, the member of personnel who had completed
+the large-scale survey was contacted. Interview questions
+were sent to the practitioners 3–5 days in advance to allow
+them time to prepare their answers to the interview questions. The average duration of each interview was one and
+a half hours. All interviews were digitally recorded, and
+ﬁeld notes were also used to collect information during the
+interview. The voice recordings of the interviews were later
+transcribed into Thai and then translated into English. A
+case study database was developed and used for visualising
+the data and for developing tables and matrices containing
+various views used in the case study analysis.
+The case study data analysis followed ‘‘the data analysis
+spiral’’ suggested by Creswell [52, p. 150]. The processes
+move along with the analytical circles in a nonlinear
+approach, touching on several facets of analysis and circling
+around and around [52]. The analysis procedures include: (1)
+data managing; (2) reading and memoing; (3) describing,
+classifying and interpreting; and (4) representing and visualising. The ﬁrst task in the spiral begins with organising the
+data into an assessable format (‘‘data managing’’ procedure).
+Then, further notes were made to record the key ideas and
+concepts during the reading of the interview database
+(‘‘reading and memoing’’ procedure). After scanning
+through the database, ‘‘conceptually clustered matrices’’
+were developed (‘‘classiﬁcation’’ procedure). The development of conceptually clustered matrices is the most useful
+technique when: (1) a clear concept or theme has emerged
+from the initial analysis or (2) during early analysis, and after
+reading through the transcripts, the researcher ﬁnds that
+participants have given very similar or vastly different
+responses to questions and that unexpected variables, concepts, and themes have emerged [53]. In addition, rows and
+columns were created to bring research sub-topics, concepts
+and/or themes together, developing a summary documentation and analysis [53]. The conceptually clustered matrix
+ensures all the data ﬁt into a reasonable format. It also presents a set of themes with information of each case, which
+lends itself to cross-case analysis for multiple case studies
+[53]. In this study, the main themes developed based on the
+research questions were: (1) the link between BPM and
+organisational performance; (2) the link between BPM and
+SCC; and (3) the contextual factors and beneﬁts achieved
+from working collaboratively with SC partners. Additionally, some sub-themes (e.g. BPM regarding activities and
+solutions for short-term relationships) were identiﬁed at an
+
+similar explanations. The transcripts from the interviews
+were entered into the matrix based on speciﬁc themes and
+sub-themes that had been identiﬁed. The case study database
+is developed and an information summary of each case is
+shown in a table format (‘‘representing’’ procedure, the ﬁnal
+phase of the spiral) (see Appendix 3). This table displays all
+of the relevant responses of all cases and allows initial
+comparisons for the cross-case analysis.
+
+4 Case study analysis
+4.1 A summary of the within-case analysis
+A summary of the within-case analysis is shown in
+Appendix 3. The table covers the link between BPM and
+organisational performance, the link between BPM and
+SCC, the beneﬁts of working collaboratively with SC
+partners and organisational performance. Additionally, the
+table includes the contextual factors of relationship closeness and relationship length for each case company. A
+summary of the four cases aided the cross-case analysis
+that is presented in the following sections.
+4.2 Cross-case analysis
+4.2.1 The link between BPM and organisational
+performance
+We asked each respondent to describe BPM from a practitioner’s perspective. All cases provided four common
+characteristics of BPM practices, namely long-term planning, IT, process improvement, and top management support and employee involvement. Long-term planning needs
+to be based on customer requirements and should cover
+aspects of production planning, promotional events and
+supplier development. This plan has to be jointly developed
+with the SC partners. For instance, the Production Manager
+from ALC suggested that:
+The company has set a long-term policy, which is for
+three years. However, at the end of each year there is
+a review of the situation, and if necessary there is a
+change to or an improvement to the plan. The company has jointly developed production forecasts with
+its suppliers.
+These long-term plans have to be integrated into the
+companies’ operational processes. Additionally, the case
+study results indicated that joint decision-making with SC
+partners is necessary for intra-organisational operations and
+
+123
+
+
+
+the development of long-term plans, so that the latter are
+aligned with those of their SC partners. IT is important to
+accomplish the business plan and to improve operational
+processes, and IT is used to share information both within
+an organisation, from top management to employees, and
+with their SC partners. For instance, it was suggested that:
+The use of IT is very important to accomplish this
+plan, and information sharing includes both top
+management and all the employees. (ELC)
+All cases underlined the importance of IT being developed not only to be used within organisational boundaries
+but to also involve external IT interfaces and SC engagement. This allows information to be shared between different departments within the company to improve its products
+and processes, meaning that necessary information can be
+shared easily with SC partners, such as speciﬁc product
+requirements and demand forecasting. The four cases have
+used various process improvement techniques such as TQM,
+Lean Manufacturing and Kaizen to improve their business
+processes. The managers pointed out that their process
+improvement techniques were often the same techniques as
+their SC partners (ALC, EMC and AMC). The use of process improvement techniques also leads to more employee
+involvement; for instance, it was suggested that the use of
+Kaizen provides opportunities for employees to contribute
+any suggestions they may have for work improvements
+(ELC). The effective use of process improvement techniques
+is vital for optimising processes and maximising value for an
+organisation. Top management support is very important for
+successful BPM practices, as participants in all four cases
+suggested that their BPM practices were fully supported and
+led by top management. Additionally, good relationships
+between top management and employees have been developed. For instance, one company provides a ‘‘President box’’
+for employees to contact the president of the company
+directly (ELC). Additionally, employees are involved in
+decision-making; it was reported that:
+Top management has to set policies that should lead
+to improvements. However, before the policies have
+been set, there is an internal meeting, including
+managers of each department, where they discuss any
+problems. Also, employees can give any suggestions
+they have to their manager. (ALC)
+We have sent employees to train in Japan to learn
+new technology and innovations, so they can come
+back to improve our products. (ELC)
+both ﬁnancial and non-ﬁnancial. In terms of ﬁnancial
+performance, all four cases emphasised that sales growth
+and cost reduction were the most important dimensions.
+Sales growth and cost reduction referred to the improvement in production processes, the policies adopted to
+reduce costs and the reduction in waste. It was explained
+that:
+In terms of cost reductions, the company has set
+targets for cost reductions, improved sales growth
+and improved product quality in each department.
+(EMC)
+Regarding non-ﬁnancial performance, two cases focused
+on overall competitive position and core competences
+(ELC and ALC). For all cases, quality is an important
+issue. The four companies have continued to carry out
+quality improvement activities such as recording problems
+and the improvements and preventive measures in response
+to quality non-conformity and the monitoring of progress.
+Waste reduction was also important for all cases.
+4.2.2 The link between BPM and SCC
+From our investigation, BPM practices help various collaborative activities, which can be divided into four types:
+information sharing and communication, joint activities,
+sharing common goals and sharing costs, risks and beneﬁts.
+The analysis provided evidence of the importance of information sharing and communication within a ﬁrm and
+with SC partners. For instance, an ERP system is used to
+share information within the company and with its SC
+partners for a long period of time ([20 years for ELC and
+5–10 years for ALC). Technical and non-technical information is also shared with suppliers (ALC). In addition, all
+four managers explained that relevant knowledge regarding
+collaborative activities and process improvements is shared
+between a ﬁrm, suppliers and customers. For instance,
+knowledge regarding process improvement techniques and
+knowledge that can be used to reduce costs in the production process are being shared. The factory manager
+from AMC indicated that:
+A customer sent a team to our company so they could
+share their knowledge about some process improvement techniques, such as the TPS […], so now the
+ﬁrm and our customers are using the same techniques
+to mutually improve our businesses.
+Also, all cases indicated the importance of open and clear
+communication, both formal and informal, with suppliers
+and customers. For example, informal communication is
+used (ELC and ALC) in crucial situations when a manager is
+not in the ofﬁce to sign an ofﬁcial document. Staff can make
+
+Page 9 of 20 6
+
+telephone calls to order raw materials before using the more
+formal method of sending ofﬁcial documents (ELC). A
+specialised voice and messaging application is used for
+informal communication to update information between a
+ﬁrm and its suppliers (ALC). All cases have some form of
+joint activities with their SC partners, for instance, jointly
+planning demand forecasts, resolving forecast errors and
+jointly working out solutions to problems within a SC.
+Regular meetings with suppliers and customers are held to
+jointly plan and jointly solve problems and to update any
+changes and improvements in terms of production planning,
+process improvement and technology. For instance, case
+ALC has set up a team to work closely with its suppliers to
+improve and develop the relationships and grow together. It
+is important for working collaboratively with SC partners
+that mutual beneﬁts are highlighted (all cases). The Production Manager in case AMC stated that:
+If there is no agreement about goals and objectives
+from working collaboratively, this could create
+problems rather than beneﬁts within the chain.
+All of the managers also explained that a ﬁrm, suppliers
+and customers need to develop and grow together. A ﬁrm
+has also co-developed systems by setting and sharing key
+performance indicators (KPIs) together with its suppliers
+(ALC). Taking into account the joint activities and the
+sharing of mutual beneﬁts between a ﬁrm and its SC
+partners, the case studies results show that all cases have
+some form of sharing cost, risk and beneﬁt with their SC
+partners. For instance, ALC has systems which have been
+co-developed through jointly setting and sharing KPIs. The
+production plan also requires SC partners to be involved in
+terms of demand forecasts and promotions. The SC Manager made this point:
+This production plan also needs the SC partners to be
+involved. There has to be a sharing of costs, risks and
+beneﬁts because, if not, then it is not a concept of
+SCC. (ELC)
+The four cases illustrate that an intra-organisational
+focus (on BPM) is a prerequisite for inter-organisational
+activities (SCC). The managers in all cases suggested that
+working collaboratively with SC partners would be paid
+back to the company in terms of beneﬁts along the SC, and
+this can help to improve the ﬁrm performance. The Production Manager from case ALC suggested that:
+To collaborate successfully with SC partners, ﬁrstly,
+we have to improve and develop both human
+resources and technology. Secondly, we have to drive
+the growth of our suppliers at the same time as our
+company. Thirdly, we have to follow the ‘‘voice of
+the customer’’ as much as we can, in order to meet
+
+
+customer requirements and to achieve customer satisfaction. Finally, these three will be paid back to the
+company in terms of mutual beneﬁts along the SC,
+and this must help to improve our ﬁrm’s
+performance.
+
+relationship closeness, contributing to our cross-case
+analysis. Regarding collaborative advantage, the initial
+terms from the case studies are time to market, quality and
+meeting customers’ requirements. The Production Manager
+in ALC explained that:
+
+Overall, the case studies offer detailed explanations with
+regard to how the ﬁrms collaborate with their SC partners
+in terms of information sharing and communication, joint
+activities, sharing common goals and the sharing of costs,
+risks and beneﬁts.
+
+Time to market and quality are essential because we
+produce automotive parts, which means that if the car
+is sold, then we will automatically hit the market. The
+others are product variety, meeting customers’
+requirements, using technology and innovation
+effectively and sharing system controls with customers, which we can use in our own company.
+
+4.2.3 Contextual factors and the relationship beneﬁts
+The interview participants explained the mutually beneﬁcial outcomes of BPM practices and working jointly with
+SC partners in terms of collaborative advantage and
+organisational performance, as summarised in Fig. 4. This
+ﬁgure highlights similarities and differences between the
+contextual factors of ﬁrm size, industry type and
+
+The results from the case studies also illustrate that
+working collaboratively with SC partners improves both
+ﬁnancial (cost reduction, sales growth and return on
+investment) and non-ﬁnancial (quality, overall competitive
+positions and waste reduction) organisational performance
+(all cases). For instance, the SC Manager in ELC indicated
+that:
+
+Firm size
+Large
+
+Medium
+
+Collaborative Advantage
+Time to market
+Quality
+Customer satisfaction
+Meet customer requirements
+
+Supplier loyalty
+Product innovation
+
+Quality
+Meet customer requirements
+Customer satisfaction
+Time to market
+
+Collaborative Advantage
+
+Electronics
+
+ELC
+
+Financial
+Cost reduction
+Sales growth
+Return on
+investment
+
+Industry type
+
+Non-Financial
+Overall competitive
+position
+Core competences
+Quality
+Employee development
+
+Financial
+Cost reduction
+Sales growth
+
+Non-Financial
+Quality
+Waste reduction
+Improved production
+process
+Employee development
+
+ALC
+
+Automotive
+
+AMC
+Financial
+Cost reduction
+Sales growth
+Return on
+investment
+
+Non-Financial
+Overall competitive
+position
+Employee development
+Improved production
+process
+Quality, Waste reduction
+
+Time to market
+Quality
+Product variety
+Meet customer requirements
+The effective use of technology and innovation
+Sharing systems controls with customers and suppliers
+Collaborative Advantage
+
+Suppliers
+Fig. 4 Beneﬁts from working collaboratively with SC partner
+
+123
+
+EMC
+
+Financial
+Cost reduction
+Sales growth
+
+Non-Financial
+Quality
+Waste reduction
+Improved production
+process
+Employee development
+
+Meet customer requirements
+Product variety
+Quality
+Time to market
+Collaborative Advantage
+
+customers and suppliers. The collaboration has
+resulted in the suppliers knowing that they will
+receive orders from the company, as long as they
+maintain certain standards, and everyone beneﬁts
+from working collaboratively.
+Therefore, ﬁrms that focus on their internal development
+by practising BPM and that collaborate with their SC
+partners can achieve a collaborative advantage, which in
+turn leads to an improvement in organisational performance, both ﬁnancial and non-ﬁnancial. The results also
+indicate that large ﬁrms work more closely with suppliers,
+whereas the medium ﬁrms work more closely with their
+customers. The results show that regardless of ﬁrm size,
+similar collaborative advantage can be achieved. However,
+ﬁrm size is important when the priorities of collaborative
+advantage are taken into account. The two large ﬁrms focus
+more on time to market and quality, while the mediumsized ﬁrms concentrate more on quality and meeting customer requirements. The results indicate that product
+innovation and the effective use of technology are the main
+focus in the large ﬁrms and that they are actively improving
+their technology and their employees’ skills to facilitate
+these outcomes. All four companies suggested that the
+relationship direction is usually based on long-term
+partnerships.
+Additionally, whether the company is working closely
+with suppliers or customers, both need to work jointly; for
+example, it is important to have joint meetings to develop
+policy, joint decision-making, joint problem-solving, joint
+planning of demand forecasts and joint efforts to reduce
+lead time with suppliers. In relation to the importance of
+close relationships with SC partners, two practitioners
+explained that:
+The use of technology and joint activities such as
+forecasting with suppliers is vital. Also, the company
+visits suppliers and attempts to solve production
+problems together. (ELC)
+The activities with close suppliers cover developing
+policy and technology together, sharing information
+and sharing knowledge such as product design. (ALC)
+As regards industry type, the results show that the electronics and automotive industries are similar in the way they
+collaborate with SC partners. Both electronics and automotive industries provide similar results in terms of beneﬁts
+achieved from working collaboratively with their SC partners. However, the two automotive companies focus more on
+improving product variety. It was explained that:
+We need to develop technology to support the new
+automotive models […]. The company sees
+
+Page 11 of 20 6
+
+innovation as a way to improve our products so that
+they have a longer life […] we have to improve our
+employees’ skills so that we can use new skills to
+improve current products and to provide innovative
+products. (ALC)
+Regarding the relationship length, the results show that
+the four cases have been working collaboratively with their
+closest SC partners since they started the business, over a
+period of between 10 and 22 years. All participants suggested that long-term relationships incurred fewer problems,
+provided
+more
+ﬂexibility
+and
+allowed
+communication to be both formal and informal. In contrast,
+short-term relationships tend to be more complex, as they
+are more difﬁcult in terms of price negotiations and more
+time-consuming in terms of communication. For example,
+the Production Manager in AMC stated that:
+Communication is easier than when it’s a short-term
+relationship […] we rely on each other more.
+Dealing with short-term relationships is more complex.
+Although the results reveal that short-term SC relationships
+can create difﬁculties, they do not have an impact on the
+beneﬁts achieved from collaborative advantage and
+organisational performance. The managers highlighted
+that:
+Actually, the length of the relationship does not
+cause any problems in terms of beneﬁts, but shortterm relationships make the collaboration process
+more complicated than long-term relationships do.
+(ALC)
+Relationship length has not caused any problems
+because we are continuously improving our systems.
+However, it is not about relationship length, it is more
+about how to improve our business so that we are
+able to compete in the market better than our competitors. (EMC)
+
+5 Key ﬁndings and discussion
+Based on a speciﬁc context of Thailand manufacturing
+sectors, the results from the case studies have illustrated the
+key common characteristics of BPM, which are long-term
+planning, IT, process improvement, top management support and employee involvement. These common characteristics can assist a ﬁrm in improving organisational
+performance, both ﬁnancial (e.g. sales growth and cost
+reduction) and non-ﬁnancial (e.g. quality and waste
+reduction). This ﬁnding is in line with the vast majority of
+previous research in which a positive relationship between
+
+
+The case studies provided a greater understanding of
+how ﬁrms of different sizes, from both the electronics and
+automotive industries, have chosen to work closely with
+their SC partners in different ways. The larger ﬁrms are
+working more closely with their suppliers, while the closest
+relationships the medium-sized ﬁrms have are with their
+customers. The closest partnerships are characterised as
+being of a long-term nature, with ﬁrms working closely
+together in various activities such as planning, decisionmaking and sharing knowledge over time. As regards the
+length of the relationships, long-term relationships between
+a ﬁrm and its SC partners result in fewer problems,
+enhanced ﬂexibility and open communication. This is in
+line with previous research [36, 38]. Nevertheless, the case
+study analysis shows that short-term relationships can be
+difﬁcult (e.g. in terms of communication and the setting of
+policies and conditions) but do not have any impact on the
+beneﬁts achieved in terms of collaborative advantage and
+organisational performance. Hence, collaborative relationships, whether long or short term, result in mutual beneﬁts
+and improved organisational performance.
+Based on the above results, the practices of these four
+companies can be categorised into different scenarios in
+relation to the link between BPM and SCC. Employing the
+discussion in Sect. 2.3, we can now map all case studies
+according to the level of internal and external development,
+as presented in Fig. 5. The companies in the cases ELC and
+ALC can be identiﬁed as ‘‘Silo’’ cases because they
+have highly integrated tasks across different departments
+within their organisations. Additionally, advanced technology has been used to support their internal and external
+developments.
+
+High
+
+External development: SCC
+
+Weakest link
+-
+
+Case EMC, AMC
+Focus on cost reduction and
+sales growth.
+Low level of technology
+development and process
+improvement techniques.
+
+Star performance
+(Highly integrated, achieving supply
+chain performance)
+
+Clunker
+
+Silo
+
+(Functional organisation)
+
+- Case ELC, ALC
+- Focus on cost reduction, sales
+growth and competitive position.
+- High level of internal
+development, using advanced
+technology, process
+improvement programmes to
+optimise the individual
+companies.
+
+Low
+
+BPM and organisational performance has also been found
+[15, 23–26]. The results from the case studies offered
+explanations about how the ﬁrms practice BPM, as well as
+about the importance of BPM practices in improving
+organisational performance (see Sect. 4.2.1). This supports
+the RBV theory [45–47], according to which resources and
+practices that are developed within a company can contribute to a ﬁrm’s performance and are difﬁcult for competitors to imitate.
+It has been established that an intra-organisational focus
+(BPM) is essential for inter-organisational activities (SCC)
+in terms of information sharing and communication, joint
+activities, sharing common goals and sharing costs, risks
+and beneﬁts. A ﬁrm and its SC partners need to develop
+and grow together and work to enhance their mutual beneﬁts. The results reveal that BPM not only improves
+organisational performance directly, but also assists with
+collaborative activities that in turn help to improve internal
+capabilities. This ﬁnding is, to some extent, consistent with
+[6, 9, 13, 15], which highlight the importance of intra- and
+inter-organisational development for business success and
+competitive advantage. The results of this study make it
+more explicit in terms of how intra-organisational focus
+(BPM) is essential for inter-organisational activities (SCC)
+(see Sect. 4.2.2). The results support the RV theory [11,
+44], according to which ﬁrms need to consider leveraging
+their resources with their SC partners in order to gain more
+competitive advantage. Firms working together with their
+SC partners to share their knowledge and skills and combine their resources can create greater capabilities than
+ﬁrms working individually.
+The case studies illustrate that the beneﬁts of working
+with SC partners are related to collaborative advantage and
+organisational performance. Also, they illustrate the practices and approaches taken across diverse ﬁrm sizes and
+industry types and the effects of the closeness and length of
+relationships. Firms of different sizes can contribute proportional ﬁnancial and managerial resources to support
+their collaborative efforts; however, the ﬁrms were found
+to develop appropriate strategies with their SC partners
+based on common goals and the sharing of their, occasionally limited, resources in an effective way, thus
+achieving collaborative advantage and improving organisational performance. Additionally, they were found to
+apply different business strategies. For example, the medium-sized ﬁrms tended to focus only on cost reduction and
+sales growth, whereas the large ﬁrms additionally looked at
+their overall competitive position. This ﬁnding is, to some
+extent, consistent with [15, 35, 37]. Our research develops
+explicit knowledge linking BPM, SCC and the beneﬁts in
+medium ﬁrms compared to large ﬁrms (see Sect. 4.2.3).
+
+
+
+Low
+
+High
+
+Internal development: BPM
+and innovation, as these have been used to improve quality,
+safety and production processes. Also, ERP systems have
+been used by these two companies for a long period of time
+([20 years for ELC and 5–10 years for ALC) to share
+information both within the companies and with their SC
+partners. Various process improvement techniques have
+been used to improve their business processes, such as
+TQM, BPR, Lean, Six Sigma and Kaizen. The two companies have focused on cost reduction, sales growth and
+their competitive positions and consider the use of technology to be very important for new product development.
+Therefore, working closely with their SC partners to share
+knowledge, jointly develop and share KPIs, and align
+company strategies with SC strategies should result in a
+high level of integration and better SC performance.
+The other two companies (EMC and AMC) employ
+process improvement techniques but have used them for
+less time than the large ﬁrms (‘‘weakest link’’ cases). For
+instance, they have used TQM, Lean and Kaizen for
+between 5 and 10 years. Also, there is less focus on
+improving production technology (compared with the two
+large ﬁrms). For example, they provide their employees
+with initial basic skills, but tend not to provide them with
+more advanced knowledge of new technology. Additionally, these two companies are mainly focused on cost
+reduction and sales growth rather than improving their
+competitive position. Therefore, the internal capabilities of
+these two case companies could be developed through the
+improvement in their technology, innovation development
+and the use of process improvement techniques that would
+help them collaborate with their SC partners more effectively. This should result in enhanced performance;
+otherwise, they might not be able to continue to justify
+their membership in the SC to the other members.
+
+6 Contribution
+6.1 Theoretical contributions
+From a theoretical perspective, RBV and RV are foundations that expand understanding of the links between BPM,
+SCC, collaborative advantage and organisational performance. This study’s results provided support for both RBV
+and RV theories. Drawing upon RV, it was proposed that
+ﬁrms which collaborate with SC partners will achieve more
+beneﬁts than when they work in isolation. Indeed, previous
+research has suggested that both BPM and SCC are vital
+for performance improvements and competitiveness [11–
+14, 31]. However, these two approaches have been studied
+
+Page 13 of 20 6
+
+separately. The main contribution of this paper is to provide a deeper understanding of ‘‘How’’ and ‘‘Why’’ BPM
+and SCC interrelate to drive collaborative advantage and
+organisational performance. Also, the results from the case
+studies provide in-depth views that BPM contributes
+directly and indirectly to the improvement in organisational
+performance. A matrix is proposed based on a literature
+review to capture the different situations exhibited within
+SCs, considering internal and external development, and
+different types of relationships between BPM and SCC are
+identiﬁed within the conﬁgurations being distinguished.
+The study added to the limited empirical research concerning the impacts of contextual factors on the interrelationships between the competitive and performance
+linkages, at both internal company and SC levels. A
+number of previous studies have indicated the importance
+of contextual factors [12, 15, 35–39]. However, there is a
+lack of empirical research describing the impact of contextual factors on the links between BPM and SCC. In
+addition, this is the ﬁrst research of its kind that has studied
+the links between BPM, SCC and the beneﬁts which can be
+achieved from these links within the context of Thailand’s
+manufacturing industries. A detailed understanding of each
+contextual factor in terms of ﬁrm size, industry type,
+closeness and relationship length was gained. Also, the
+important manufacturing industries, namely the automotive
+and electronics industries in a developing economy, Thailand, were addressed in this study. Arguably, this study is
+vital for the future growth and development of Thailand’s
+manufacturing industries, and with some adjustments, it
+could be used in other countries whose manufacturing
+sectors share similar characteristics with Thailand.
+6.2 Practical contributions
+Based on the research ﬁndings, there are practical implications relevant to organisations wishing to extract further
+value from working collaboratively with their SC partners
+and from their BPM practices. Firstly, this research can
+assist management to be conscious of the importance of the
+intra- and inter-organisational development, given that the
+premise of BPM is to improve organisational performance
+and to support collaborative activities. Therefore, management should take into consideration that the internal
+development based on BPM practices does not only
+improve organisational performance, but also that BPM is
+crucial for collaborative activities between a ﬁrm and its
+SC partners. Similarly, this study can expand management’s awareness about the multi-dimensional nature of
+BPM, and the particular importance of its four key elements, namely strategic alignment, IT, process orientation
+
+managers should consider collaborating by sharing information (and communicating), performing joint activities
+and sharing common goals, costs, risks and beneﬁts, which
+will enable ﬁrms to effectively leverage their capabilities
+and to accomplish the desired beneﬁts.
+Secondly, the different scenarios of the link between
+BPM and SCC that were identiﬁed in a taxonomy presented as a 2 9 2 matrix (see Fig. 2) can also assist practitioners in mapping the portfolio of the various SCs in
+which they are embedded. The lessons drawn from the case
+studies incorporate practical mechanisms of BPM and SCC
+approaches that are critical to offering beneﬁts in terms of
+collaborative advantage and organisational performance.
+Collaboration with SC partners has to be regarded as vital
+for competing in the market due to the fact that improving
+the effectiveness of SC relationships enables the creation of
+rare and valuable capabilities, allowing higher performance
+levels than those that could be achieved when working
+individually. Therefore, management should not consider
+BPM and SCC as separate. Our research highlights how
+and why BPM and SCC have to be implemented together
+to achieve superior performance in the intra- and interorganisational relationship context.
+Thirdly, according to our results, managers should
+consider that the four contextual factors under investigation
+have a minor impact. This means that BPM practices based
+on the four common features of long-term planning, IT,
+process improvement and top management support and
+employee involvement and working collaboratively with
+SC partners can lead to beneﬁts in terms of collaborative
+advantage and organisational performance even when ﬁrms
+have different characteristics. Nevertheless, managers
+should consider allocating sufﬁcient efforts in terms of
+resources and employee skills to convince SC partners to
+implement more collaborative activities. Lastly, our results
+inform on practices in a developing economy context (that
+of Thailand); they should be of high relevance to companies’ management involved or aiming to be involved
+directly or indirectly in operations in such an economy
+context.
+
+123
+
+
+
+7 Conclusions and future research
+This paper provides a deeper understanding of the
+interrelationships between BPM, SCC, collaborative
+advantage and organisational performance. Four case
+studies were selected to participate in semi-structured
+interviews to offer a greater understanding about the
+relationships under study. Therefore, the reasons behind
+the results of the relationships between BPM, SCC,
+collaborative advantage and organisational performance
+are explained. The main issues of: (1) the link between
+BPM and organisational performance; (2) the link
+between BPM and SCC; and (3) the contextual factors
+and beneﬁts achieved from working collaboratively with
+SC partners were explored to understand the actual
+practices of BPM and SCC.
+It is acknowledged that there are limitations of the study.
+Firstly, the data collection was based on a few individual
+ﬁrms. Future research could consider extending this
+research by collecting and examining these relationships by
+using a wider sample to compare the differences and
+similarities to gain a comprehensive understanding within
+each industry type. Secondly, the data collection was based
+on one key respondent per company. Future research may
+consider using a broader range of respondents from different positions to achieve a greater understanding of the
+company’s BPM practice, its collaboration with SC partners and the beneﬁts achieved. Lastly, the study is scoped
+at speciﬁc industry types and limited on the considerations
+of the contextual factors. Therefore, future research could
+consider other industry sectors and other contextual factors
+(e.g. type of ownership) in order to identify the relationships between BPM, SCC, collaborative advantage and
+organisational performance.
+

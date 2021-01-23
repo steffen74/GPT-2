@@ -1,0 +1,4914 @@
+
+
+1 Introduction
+A number of developing countries have implemented social assistance programs
+with the purpose of beneﬁting the population located in the lower tail of the income
+distribution. Understanding the impact of these programs and how they compare to
+
+
+salient in Mexico, a country with a per capita income approximately one-third of the
+U.S. and a high degree of income inequality, characterised by being at the forefront
+in putting into effect large public assistance programs whose objective is to increase
+its population’s human development levels. Given that such policies are often
+overlaid on top of pre-existing private support networks, various studies have
+analysed whether public assistance programs displace or crowd-out private transfers
+´
+(e.g. Cox and Jimenez 1992; Rosenzweig and Wolpin 1994; Attanasio and RıosRull 2000; Jensen 2003). The present study contributes to this literature by
+examining whether the introduction of Seguro Popular, a free-of-charge publicly
+provided health insurance program for informal sector workers, crowded-out private
+transfers in Mexico.1
+Seguro Popular covers the costs of 284 unique health care interventions and more
+than 300 medicines comprising 95.0 % of Mexico’s total disease burden (King et al.
+2009). For more than 52 million people, Seguro Popular offers a generous means of
+support since it functions as a source of protection against catastrophic health
+expenditures, and provides a safety net to many of the country’s most vulnerable
+households. The program has been studied at length by researchers, who have
+mostly focused on its impact on health expenditures, health outcomes and sector of
+´
+employment (e.g. King et al. 2009; Barros 2009; Galarraga et al. 2010; Barofsky
+´
+2011; Sosa-Rubı et al. 2009; Azuara and Marinescu 2013). The reduction in health
+expenditures derived from being afﬁliated in Seguro Popular may be large enough
+to inﬂuence the receipt of private transfers.2
+If households receive private transfers to alleviate budget constraints, it might be
+expected that those enrolled in Seguro Popular receive fewer private transfers or
+stop receiving them altogether, since being afﬁliated to the program is likely to
+reduce health expenditures and help alleviate budget constraints by increasing
+disposable income. Alternatively, if private transfers are not a result of budget
+constraints or are used for other purposes unrelated to health expenditures, then
+private transfers might not be affected by enrolment in Seguro Popular. As a result,
+it is an empirical question whether and to what extent expenses not incurred in
+resulting from being afﬁliated to Seguro Popular affect the receipt of private
+transfers. If the program crowds-out private support, then the study is relevant for
+policy makers who must take into account this unintended effect of Seguro Popular,
+since some of the program’s goals might have been partially hampered.
+1
+
+An individual is considered uninsured or an informal sector worker if she or he is not registered with
+one of Mexico’s public social security institutions. According to census data, in 2010 the number of
+individuals eligible for Seguro Popular equalled 63.2 million or 56.5 % of Mexico’s population.
+
+2
+
+Among the studies that have examined the impact of Seguro Popular on health expenditures, King et al.
+(2009) using an intent to treat approach observe in treated localities a 23.0 % decrease in catastrophic
+health expenditures compared to a 8.4 % decrease in control localities. Barros (2009) ﬁnds that Seguro
+Popular reduces both the likelihood of having a positive expenditure on primary health care as well the
+´
+size of the primary health care expenditures households incur in. Galarraga et al. (2010) observe that
+households insured with Seguro Popular spent 171 pesos less on outpatient services and 360 pesos less on
+medicines per year relative to non-enrolled households. Finally, Barofsky (2011) ﬁnds that the
+introduction of Seguro Popular generated a 28.0 % reduction in out-of-pocket health spending among
+migrate due to a variety of reasons related to income maximisation, minimising
+risks to family income, or overcoming capital constraints, among others. Prior to the
+implementation of Seguro Popular, vulnerable households commonly encountered
+out-of-pocket and catastrophic health expenditures attributed to outpatient care and
+medication, constraining them to reduce expenses in food, shelter, or education
+´
+(Galarraga et al. 2010). Migrating and subsequently remitting represented a
+plausible alternative to overcome these difﬁculties.
+Although declining in recent years, international private transfers represent a
+signiﬁcant source of income for Mexican households, accounting for 1.8 % of
+Mexico’s gross domestic product (GDP) in 2012.3 According to information from
+the Mexican Migration Project (MMP) 143, Mexican migrants residing in the U.S.
+commonly claim that one of their main motives for remitting is to cover health
+expenditures in Mexico. Speciﬁcally, when asked to report up to ﬁve reasons why
+they send private transfers to family members left behind, 39.2 % of respondents
+state as one of their reasons that they send money to Mexico to cover health
+expenses. This category is only surpassed by food and maintenance, which is
+claimed to be one of the motives for remitting for 41.8 % of the U.S.-based
+remitters included in the MMP. On the contrary, education expenses are only
+reported as one of the reasons for remitting 12.1 % of the time. Consequently,
+various studies have analysed the relationship between private transfers and health
+expenditures, generally ﬁnding a positive correlation among the two variables (e.g.
+Airola 2007; Valero-Gil 2008; Amuedo-Dorantes and Pozo 2011).4
+Given the signiﬁcant segment of the population that Seguro Popular aimed to
+cover, the program was expanded gradually throughout Mexico. The variation in
+Seguro Popular’s availability and intensity over time and space allows to identify its
+causal effects, where differences between regions permit circumventing issues of
+selection into treatment among the uninsured population. While the expansion of
+Seguro Popular was not completely random, several studies have relied on the
+timing and rate of the program’s implementation to identify its impact on different
+outcomes (Bosch et al. 2012).
+To date, evidence on the impact of Seguro Popular on private transfers is nonexistent, as the literature on Mexico has focused on whether social assistance
+programs such as Prospera, previously called Progresa and Oportunidades, or 70 y
+´
+Mas, both of which include a cash transfer component, crowd-out private support
+´
+(e.g. Attanasio and Rıos-Rull 2000; Albarran and Attanasio 2003; AmuedoDorantes and Juarez 2015). The related international literature is limited to the study
+3
+
+At the household level, in 2000 the sum of domestic and international private transfers represented on
+average 5.0 % of total household income. Among households receiving a positive amount of private
+transfers, they accounted for 32.0 % of their total income.
+
+4
+
+Amuedo-Dorantes and Pozo (2011) ﬁnd that a 100 pesos increase in private transfer income is
+associated with a 6 pesos increase in health expenditures. In contrast, for other sources of income, a 100
+pesos increase is associated with a 2 pesos increase in health expenses. Valero-Gil (2008) estimates that
+approximately 10.0 % of private transfer income is spent on health care. Moreover, the author observes
+that while only 2.0 % of households covered by social security institutions receive private transfers,
+7.3 % of non-covered households receive private transfers. Finally, Airola (2007) observes that private
+were affected by the introduction of a nationwide health insurance scheme. The
+scholars observe that the policy affected the likelihood of making or receiving
+informal transfers and their monetary equivalents.
+The results show that among households eligible for the program, a 1.0 %
+increase in the Seguro Popular coverage rate reduced the probability of receiving
+private transfers by 0.0555 % points. This ﬁnding appears to be driven by domestic
+private transfers, since the program’s effect is statistically signiﬁcant for private
+transfers originating within Mexico, but is not signiﬁcant for private transfers sent
+by foreign-based migrants. Moreover, the results show that Seguro Popular had a
+weak and non-signiﬁcant negative effect on the amount of private transfers
+received. The study suggests that an unintended consequence of Seguro Popular is
+that the program partially crowds-out private transfers by reducing the likelihood of
+receiving them.
+The study proceeds as follows. Section 2 discusses the motives for remitting and
+how Seguro Popular may affect private transfers. Section 3 provides background
+information on the social security system in Mexico and Seguro Popular. Section 4
+describes the data. Section 5 presents the methodology. Section 6 discusses the
+main results. Section 7 tests the sensitivity of the results. Section 8 concludes.
+
+2 Conceptual framework
+When studying the motives for remitting, the theoretical literature has mainly
+focused on altruism (e.g. Barro 1974; Becker 1974) and exchange (e.g. Bernheim
+et al. 1985; Cox 1987). Altruistic private transfers take place because the donor
+cares about the utility of the recipient. Private transfers motivated by exchange
+compensate the recipient for providing services to the donor, such as providing
+informal care or obeying parental rules (Juarez 2009). These alternative motives for
+remitting can imply drastically different outcomes for public policies that reallocate
+income (Cox 1987).
+Under the altruistic framework, enrolling in Seguro Popular may crowd-out
+private support as recipients enjoy higher disposable incomes. Barro (1974) and
+Becker (1974) argue that if households are linked through extensive networks, then
+changes in private inter-household transfers could completely neutralise the effects
+of public income redistribution programs. This result arises because in the altruistic
+model, conditional on remitting, an increase in the recipient’s income together with
+an equal decrease in the donor’s income unambiguously causes a decrease in the
+same amount in the transfer paid to the recipient. Moreover, an increase in the
+recipient’s income keeping the donor’s income constant would also cause a decrease
+in private transfers but to a lesser degree (Juarez 2009).
+If private transfers are not motivated by altruism, but instead are part of an
+explicit exchange of services between recipients and donors, crowding-out may not
+occur. The reasoning is that an increase in the recipient’s income would decrease
+her or his supply of services and generate an upward movement along the donor’s
+of private transfers received depends on the elasticity of the donor’s demand for the
+services provided by the recipient. In the case where demand is inelastic, which may
+arise because the services provided are not easily substituted, the amount of private
+transfers received would increase along with income, reinforcing the effects of the
+policy (Bernheim et al. 1985; Cox 1987).
+Other motives for remitting include a longing to secure access to family
+resources such as an inheritance (see, e.g. Bernheim et al. 1985; Lucas and Stark
+1985), or the desire to invest in physical or ﬁnancial assets to self-insure or to earn
+higher economic returns (see, e.g. Durand et al. 1996). On the other hand, private
+transfers may also be a product of informal risk-sharing agreements between donors
+and recipients (see, e.g. Rosenzweig 1988). If private transfers are sent for risksharing purposes, enrolling in Seguro Popular might have an effect on them since
+the program provides protection against some of the ﬁnancial costs associated with
+ill health. Finally, people may remit simply because the mere act of giving provides
+them utility or to comply with social norms (Jensen 2003). Under some of these
+motives, private transfers might not be displaced by increases in the recipient’s
+disposable income.
+
+3 Background
+3.1 Social security system and health insurance in Mexico
+Among the events that helped shape Mexico’s health care system was the creation
+of the Instituto Mexicano del Seguro Social (IMSS, Mexican Social Security
+Institute) in 1943. The IMSS grouped together the pre-existing union-based and
+industry-based coverage schemes that offered health services for registered private
+sector workers (OECD 2005). Subsequently, the Instituto de Seguridad y Servicios
+Sociales de los Trabajadores del Estado (ISSSTE, Institute of Security and Social
+Services for State Workers) was created for registered public sector workers in
+´
+1960.5 While IMSS and ISSSTE were created for registered workers, the Secretarıa
+de Salubridad y Asistencia (SSA, Ministry of Health and Welfare) was created in
+1943 to serve the uninsured population outside of the formal sector. This system left
+workers without formal salaried contracts (i.e. the self-employed, urban informal
+sector workers, the rural population, the unemployed, and those out of the labour
+force) and their families generally without health insurance and dependent of the
+services provided by the SSA (OECD 2005).
+Consequently, access to health care in Mexico has been historically linked to
+work status. Formal sector workers and their families, through social security
+institutions such as IMSS or ISSSTE, have the right to health services and a range of
+prescription drugs, and are entitled to a spectrum of beneﬁts including day care,
+5
+
+A number of systems were also created to provide health insurance to speciﬁc industry groups such as
+workers of Mexico’s oil state enterprise PEMEX in 1942 or to armed and naval forces personnel, i.e.
+others.
+Since the role of the SSA was of social assistance, there was no explicit package
+of health beneﬁts that the uninsured population was entitled to. In practice, the
+services provided by the SSA were limited by health budget allocations and the
+´
+availability of health facilities and medical personnel (Bonilla-Chacın and Aguilera
+2013). As a result, the services provided by the SSA were described as limited,
+frequently unavailable, and often requiring out-of-pocket expenditures (Lakin
+2010).
+While the health insurance schemes provided by social security institutions were
+ﬁnanced by a tripartite arrangement derived from federal government, employer and
+employee contributions, the SSA was underfunded as it was ﬁnanced through a
+combination of federal and state resources.6 Due in part to the differences in their
+ﬁnancing schemes, public health expenditures for individuals covered by social
+security institutions were twice as high as the expenditures for the uninsured (OECD
+2005). These differences led to a lower quality in the health care services provided
+by the SSA compared to social security institutions.
+By 2000, according to census data, 33.0 % of Mexico’s 97 million residents were
+covered by IMSS, 6.0 % were covered by ISSSTE and 2.2 % were covered by
+another public or private health insurer. The remaining 57.8 % of the population did
+not have health coverage and were lacking social protection against the ﬁnancial
+consequences of ill health (Frenk et al. 2006).
+3.2 Reform and description of Seguro Popular
+In the early 2000s, Mexico implemented a reform to its health system with the intent
+of achieving universal basic health coverage. At the centre of this reform was
+Seguro Popular, which represented the most ambitious effort to expand basic health
+protection since the creation of IMSS (Parker et al. 2010). The program was aimed
+at uninsured families not covered by social security institutions or without access to
+any other mechanism of social health insurance.
+Seguro Popular was established with the objective of promoting the advanced
+payment of medical services, encouraging preventing care, and reducing catastrophic health expenses among vulnerable households (DOF 2003). The implementation of Seguro Popular was accompanied by an increase in public health
+expenditures. Between 2000 and 2010, the SSA budget increased 142.0 %, the
+budget of IMSS grew 42.0 %, and that of ISSSTE grew 103.0 %. In terms of per
+capita health expenses, this narrowed the gap between individuals covered by social
+security institutions and the uninsured population (Knaul et al. 2012).
+Funding for Seguro Popular is multilateral, as it is ﬁnanced by the federal
+government, state governments and beneﬁciary families. The provision of services
+included under Seguro Popular is responsibility of each state’s health service
+6
+
+The term ‘‘states’’ is used as shorthand to refer to Mexico’s 31 states and one Federal District, i.e.
+Mexico City. Each state is divided into municipios, i.e. municipalities. In 2010, there were 2456
+management of Seguro Popular resources, and they are free to choose the use of the
+transfers they receive (Barros 2009).
+Seguro Popular offers primary, secondary and more advanced medical interventions, as well as access to medications and laboratory clinical studies, all provided
+free-of-charge. These interventions are classiﬁed into six general groups (i.e. public
+health, general family health and specialty services, dentistry, emergencies,
+hospitalisation and general surgery) covering more than 90.0 % of all hospital
+interventions. The program also covers 58 interventions contained in the Fondo de
+´
+´
+Proteccion contra Gastos Catastroﬁcos (Protection Fund against Catastrophic
+Expenses), which includes treatment for prematurely born babies, childhood
+leukaemia, cervical cancer and HIV.
+To register, applicants must reside in Mexico, not be entitled to coverage from a
+social security institution, present a birth certiﬁcate or unique population
+registration code, and provide a utility bill. Enrolments are formalised at orientation
+modules located in health centres, clinics and hospitals. Afﬁliation is not
+conditioned on health status, pre-existing illness, or co-payments according to the
+type of health care.
+Seguro Popular has a progressive afﬁliation fee, which substitutes the payment of
+subsequent services. The program is free to families located at the bottom four
+deciles of the income distribution. Since the majority of families enrolled in the
+´
+program have low-income levels, according to data provided by the Comision
+´
+Nacional de Proteccion Social en Salud (CNPSS, National Commission on Social
+Protection in Health), during the fourth quarter of 2008 Seguro Popular was free to
+more than 99.0 % of its beneﬁciaries.7
+To determine whether families are required to pay the afﬁliation fee, they are
+subject to a socioeconomic evaluation. Before being handed an afﬁliation card, the
+state’s health service administration must conﬁrm that the applicant is not registered
+in any institution’s social security database (DOF 2002). In practice, however,
+applicants are simply asked whether they are afﬁliated to a social security
+institution, where at the time of enrolment this information is not veriﬁed (Parker
+et al. 2010).
+By 2010, the budget for Seguro Popular ascended to 48.8 billion pesos, i.e.
+3.9 billion U.S. dollars. At the end of 2002 the number of families enrolled in
+Seguro Popular stood at 295,513. By 2007, 7.3 million families and 21.8 million
+people were afﬁliated to the program. By 2012, the number of families and
+individuals enrolled in Seguro Popular ascended to 20.2 and 52.9 million,
+respectively, from a pool of approximately 60 million potential beneﬁciaries.
+
+7
+
+Nevertheless, Scott (2006) shows that in 2004 65.0 % of the households afﬁliated to Seguro Popular
+were non-poor. Lakin (2010) states that upon the introduction of Seguro Popular, applicants were
+unwilling to pay the program’s afﬁliation fee. Consequently, to increase participation rates and meet
+afﬁliation targets, state governments misclassiﬁed families who were subject to the contributory fee as
+being poor. States have high incentives to enrol a large segment of the population in Seguro Popular since
+their health service administrations receive federal funds in proportion to the number of families that are
+Given the substantial segment of the population that Seguro Popular aimed to reach,
+the program was rolled-out and expanded gradually. Seguro Popular was ﬁrst put
+into effect in 2002 as a pilot program in selected localities in ﬁve states, i.e.
+Aguascalientes, Campeche, Colima, Jalisco and Tabasco. These localities were
+selected based on their social security coverage, their capacity to provide the
+program’s services, their urban and semi-urban concentrations, and the existence of
+groups already enrolled in assistance programs provided by the federal government
+(DOF 2002).
+In the program’s initial rules of operation, it was stated that to implement Seguro
+Popular, the federal government would subscribe coordination agreements with
+participating states. Nevertheless, during 2002 and 2003 a number of states started
+implementing Seguro Popular without having signed a formal agreement. This was
+possible before 2004 if the municipal government agreed to offer the program
+´
+(Bosch and Campos-Vazquez 2014). Furthermore, the program’s rules of operation
+established that the future selection of states and regions into Seguro Popular would
+be based on their proportion and number of uninsured people in the bottom six
+deciles of the income distribution, the incidence and prevalence of diseases, the
+existence of the health facilities required to offer the services covered under Seguro
+Popular, the potential demand for the program’s health insurance scheme, and per
+capita federal contributions (DOF 2002).
+´
+In 2003, Seguro Popular was formally established as the Sistema de Proteccion
+Social en Salud (Social Protection System in Health). The program’s rules of
+operation were modiﬁed where it was stated that Seguro Popular would gradually
+expand throughout Mexico according to resource availability (DOF 2003).
+Furthermore, it was speciﬁed that the expansion of Seguro Popular would be
+prioritised in localities according to the set of criteria deﬁned in DOF (2002), while
+taking into account the explicit request of state authorities to enrol in the program
+(DOF 2003). At the end of 2004, 30 out of 32 states had signed the coordination
+agreement with the federal government formalising their participation in Seguro
+Popular. The remaining two states, i.e. Durango and Mexico City, signed the
+agreements in 2005.
+Additionally, a number of different factors played a role in Seguro Popular’s roll´
+out process. Dıaz-Cayeros et al. (2006) argue that political reasons were an
+important element during the expansion of Seguro Popular. Barros (2009) also
+shows that political factors affected the program’s expansion and claims that
+because of logistical and political factors that inﬂuenced the phase-in process, the
+size of the program supply was not related to initial levels of economic development
+´
+or health requirements across states. Bosch and Campos-Vazquez (2014) ﬁnd that
+municipalities with larger populations and those located in smaller states joined
+Seguro Popular at earlier stages. The authors also observe that the implementation
+date of Seguro Popular and the political afﬁliation of state governors in post-pilot
+municipalities are correlated. Nevertheless, in general the scholars do not ﬁnd
+evidence towards targeting of Seguro Popular in speciﬁc municipalities, since
+et al. (2011) and Azuara and Marinescu (2013) show that levels of informality in the
+labour market prior to Seguro Popular being introduced were not correlated with the
+program’s entry date. In general, these studies conclude that the introduction of
+Seguro Popular was close to random and rely on the variation in the program’s
+expansion or implementation date to identify its effects (Bosch et al. 2012).
+
+4 Data
+4.1 Encuesta Nacional de Ingresos y Gastos de los Hogares
+To study the effect of Seguro Popular on private transfers, the Encuesta Nacional de
+Ingresos y Gastos de los Hogares (ENIGH, National Household Income and
+Expenditure Survey) is used. The ENIGH is a nationally representative crosssectional household survey carried out by Mexico’s national statistical agency.
+The ENIGH captures individual-level information on each household member’s
+socioeconomic characteristics and different sources of income, including international and domestic private transfers. Nonetheless, the survey does not include
+information on the characteristics or locality of donors. All net income ﬂows
+received by the respondent over the previous 6 months are registered. At the
+household level, the ENIGH captures expenditure data for up to the previous
+6 months. All income and expenditure data are self-reported. The study uses the
+2000, 2004, 2005, 2006, 2008, 2010 and 2012 editions of the ENIGH, which allows
+examining the impact of Seguro Popular as the program grew larger.8 The sample
+used is limited to economically inactive households and the uninsured, i.e.
+households not covered by a social security institution and who are, therefore,
+eligible for Seguro Popular.
+4.2 Expansion of Seguro Popular
+To calculate the expansion of Seguro Popular, a similar strategy to the one put
+forward by Grogger et al. (2011) is used. First, administrative data provided by the
+CNPSS on the number of individuals afﬁliated to Seguro Popular by state and
+quarter were collected. Subsequently, this information was converted into coverage
+rates by dividing it by quarterly estimates of the number of individuals eligible for
+Seguro Popular in each state. Data on the number of eligible or uninsured
+individuals were drawn from the Encuesta Nacional de Empleo (ENE, National
+´
+Employment Survey) and from the Encuesta Nacional de Ocupacion y Empleo
+(ENOE, National Occupation and Employment Survey). Coverage rates were
+constructed for 2004, 2005, 2006, 2008, 2010 and 2012.
+8
+
+The 2002 edition of the ENIGH is excluded from the study since there is little information regarding
+Seguro Popular’s rules of operation and coverage during its pilot period (Barros 2009). Furthermore,
+administrative data on the program’s coverage was only provided for the fourth quarter of 2002 onwards.
+Thus, it is not clear what Seguro Popular’s coverage was when the ENIGH 2002 was collected between
+low, since at the end of 2003 the average coverage rate within each state stood at
+8.0 %. Nevertheless, Seguro Popular rapidly expanded in the following years, where
+the program’s coverage increased to 33.4 % in 2006, 57.5 % in 2009, and 82.5 % in
+2012. Additionally, states were introduced to Seguro Popular at different periods,
+where the program grew at different rates within each state. For example, while at
+the end of 2002 Colima had a coverage rate of 57.3 %, during the same period 12
+states had a coverage rate of zero. Finally, while in 2004 Nuevo Leon and Zacatecas
+had similar coverage rates of 6.7 and 7.1 %, respectively, by 2010 these ﬁgures had
+grown and diverged to 62.6 and 81.3 %, respectively.
+
+5 Methodology
+To examine whether Seguro Popular crowds-out private transfers among eligible
+households, the program’s expansion throughout Mexico is exploited. Seguro
+Popular was introduced at different points and with different coverage rates between
+states, as the program’s availability and the share of eligible individuals covered by
+Seguro Popular varied between regions.
+The variation in the expansion of Seguro Popular has been widely used (e.g.
+Barros 2009; Aterido et al. 2011; Grogger et al. 2011; Azuara and Marinescu 2013;
+´
+Bosch and Campos-Vazquez 2014). To make use of this variation over time and
+space, I put forward a strategy similar to Grogger et al. (2011) and estimate the
+following model:
+yhst ¼ cSPst þ Xhst b þ Wmt h þ Zst k þ dt þ ls þ 2hst
+
+ð1Þ
+
+where yhst denotes the amount of total, international or domestic private transfers
+received by household h in state s in year t; SPst represents the Seguro Popular
+coverage rate in state s in year t; Xhst denotes a vector of household level characteristics that may affect private transfer receipt; Wmt and Zst represent vectors of
+municipality and state-level variables, respectively; dt represents a time period
+dummy which helps control for national trends in private transfer receipt; ls denotes
+state ﬁxed effects that capture time-invariant characteristics which may affect private transfer receipt and the availability or scope of Seguro Popular coverage in the
+state; and 2hst is a random error term assumed to be uncorrelated with SPst , Xhst , Wmt
+and Zst .9
+To analyse the impact of Seguro Popular on the amount of private transfers
+received, i.e. the intensive margin, Eq. (1) is estimated using ordinary least squares
+(OLS). When studying the effect of Seguro Popular on the probability of receiving
+private transfers, i.e. the extensive margin, Eq. (1) is estimated using OLS as a
+linear probability model (LPM). In the latter case, yhst represents a binary variable
+that takes the value of one if household h receives a positive amount of private
+transfers or zero otherwise. Both models include as covariates the Seguro Popular
+9
+Various regressions presented in Sects. 6 and 7 include lm , which denotes municipality ﬁxed effects, in
+gender; the number of household members under age 12; the number of household
+members age 65 and older; indicator variables for low-quality roofs, ﬂoors, and
+walls in the household; a dichotomous variable denoting whether the household is
+located in a rural locality; and a set of state or municipality and year dummy
+variables. Municipality-level controls introduced in Eq. (1) include government
+revenue, number of housing credits granted and number of workers afﬁliated to
+IMSS. State-level variables include the state population and binary variables
+indicating the political afﬁliation of the Governor.10 Equation (1) also includes an
+indicator variable denoting whether any of the household’s members receives a
+scholarship or transfer from Prospera. Prospera is a poverty reduction cash transfer
+program with education and health components, where households receive transfers
+conditional on sending their children to school and visiting health clinics.11
+Equation (1) is estimated separately for total, international and domestic private
+transfers.12 Standard errors are clustered by state to account for possible correlation
+among households in some unknown way.13
+
+6 Results
+6.1 Descriptive statistics
+Table 1 displays the means of selected variables of the uninsured households
+included in the study. It can be seen that in 2000, 19.4 % of households received
+private transfers. By 2006 this ﬁgure had risen to 25.6 %, but by 2012 it had
+declined to 25.0 %. Disaggregating total private transfers, it can be seen that during
+these three periods the percentage of households receiving domestic private
+transfers increased from 14.1 % in 2000, to 18.1 % in 2006, and 19.7 % in 2012. On
+the other hand, the number of households receiving international private transfers
+increased from 6.2 % in 2000 to 8.9 % in 2006. Nonetheless, this ﬁgure dropped to
+6.6 % in 2012. Concerning the amount of private transfers received, a similar but
+10
+Information on the political afﬁliation of state Governors was taken from the CIDAC electoral data
+base. See http://www.cidac.org/eng/Electoral_Database.php.
+11
+
+Beneﬁciaries of Prospera are also eligible for Seguro Popular. The original Prospera program included
+a health component which covered 13 medical interventions. Frenk et al. (2006) argue that while Prospera
+proved to be a valuable instrument in reducing poverty and improving health levels, a signiﬁcant
+proportion of the cash transfers received by afﬁliated families were used to ﬁnance medical care not
+´
+included in the programs catalogue of interventions.
+12
+Distinguish between international and domestic private transfers is important since they may be
+crowded-out to different degrees as a result of differences in donor characteristics, motivation, or
+information about the program (Amuedo-Dorantes and Juarez 2015).
+13
+While some studies exploit the municipality level variation in the availability of Seguro Popular, this
+study mainly focuses on the program’s expansion at the state level. Obtaining the coverage ratio of
+Seguro Popular at the municipality level is problematic because information on the number of individuals
+eligible for Seguro Popular at the municipality level can only be obtained from either the 2000 and 2010
+censuses or the 2005 population count. Nevertheless, Sect. 7.3 exploits the municipality level variation of
+
+0.057
+
+9142
+
+0.136
+
+257.5
+
+10,052.6
+
+9764.3
+
+7.40
+
+0.782
+
+0.300
+
+289.8
+
+168.9
+
+458.7
+
+2004
+
+9984
+
+0.254
+
+224.9
+
+8909.1
+
+9109.7
+
+7.17
+
+0.783
+
+0.342
+
+265.0
+
+184.0
+
+449.1
+
+0.151
+
+0.068
+
+0.211
+
+2005
+
+8759
+
+0.334
+
+264.5
+
+9586.5
+
+9327.3
+
+7.21
+
+0.767
+
+0.349
+
+283.4
+
+286.1
+
+569.5
+
+0.181
+
+0.089
+
+0.256
+
+2006
+
+9850
+
+0.538
+
+175.9
+
+8105.4
+
+9251.5
+
+7.05
+
+0.791
+
+0.343
+
+178.9
+
+176.8
+
+355.7
+
+0.155
+
+0.077
+
+0.218
+
+2008
+
+8864
+
+0.759
+
+139.9
+
+7360.6
+
+7020.4
+
+7.05
+
+0.806
+
+0.345
+
+173.8
+
+137.6
+
+311.5
+
+0.155
+
+0.059
+
+0.205
+
+2010
+
+Source: Author’s elaboration based on the ENIGH. HH denotes households. Monetary ﬁgures are per month and in real 2006 Mexican pesos
+
+Observations
+
+0
+
+194.9
+
+Health expenditures
+
+Seguro Popular coverage by state (%)
+
+7534.1
+
+Total expenditures
+
+5.68
+
+HH head years of schooling
+7692.3
+
+0.823
+
+Total income
+
+0.435
+
+HH head male (%)
+
+247.3
+
+Domestic private transfers received
+
+Rural locality (%)
+
+140.6
+
+International private transfers received
+
+0.141
+387.9
+
+Received domestic private transfers (%)
+
+Private transfers received
+
+0.194
+0.062
+
+Received international private transfers (%)
+
+2000
+
+Received private transfers (%)
+
+Variable
+
+Table 1 Descriptive statistics
+
+3476
+
+0.825
+
+122.1
+
+6707.1
+
+6604.8
+
+6.41
+
+0.799
+
+0.530
+
+159.0
+
+105.2
+
+264.2
+
+0.197
+
+0.066
+
+0.250
+
+2012
+transfers received stood at 387.9 pesos per month. By 2006, this ﬁgure had
+increased to 569.5, but by 2012 it had declined to 264.2 pesos per month.
+Distinguishing between the amount of international and domestic private transfers
+received, it is observed that they both followed a similar pattern to that of total
+private transfers.
+With respect to other variables, it is observed that while household income
+increased by 21.3 % between 2000 and 2006, it encountered a sharp decline
+between 2006 and 2012 falling by 29.2 %. Household expenditures faced a similar
+pattern increasing by 27.2 % between 2000 and 2006, and subsequently declining
+by 30.0 % between 2006 and 2012. As a result, during the period of study, the
+average household included in the sample went from being a net saver to a net
+debtor. On the other hand, household health expenditures, which stood at 194.8
+pesos per month in 2000, increased to 264.5 in 2006, but decreased to 122.1 pesos
+per month in 2012. Nevertheless, looking at the raw data it is not possible to
+identify how much of this decline is due to a reduction in household income or is
+a result of the implementation of Seguro Popular. Concerning the sociodemographic variables included in the table, it is noteworthy to mention that
+the proportion of households located in rural areas varies signiﬁcantly between
+years. This variation in the sampling likely affects other variables such as the
+average years of schooling of the household head, and highlights the importance
+of controlling for additional factors when performing the econometric analysis.
+Finally, looking at the Seguro Popular coverage rate by state, in 2006 an average
+of 33.4 % of the households in each state were enrolled in the program. By 2012,
+the coverage rate had grown to 82.5 %.
+6.2 Does Seguro Popular crowd-out private transfers?
+Results of the effect of Seguro Popular on private transfers based on Eq. (1) are
+presented in Table 2.14 In all columns, the ﬁrst row shows the coefﬁcient of the
+Seguro Popular (SP) coverage rate at the state level. It can be seen in column (1)
+that Seguro Popular had a negative but not statistically signiﬁcant effect on the
+amount of private transfers received. Under the preferred speciﬁcation presented in
+column (2), which includes a full set of controls as well as municipality ﬁxed
+effects, it is estimated that Seguro Popular reduced on average the monthly amount
+of private transfers received by 50.86 pesos. While the coefﬁcients are negative,
+since they are not statistically signiﬁcant, it is not possible to state that the
+implementation of Seguro Popular affected the amount of private transfers
+received.15 Focusing on other variables, it is observed that male-headed households
+14
+The validity of the identiﬁcation strategy used in this study is examined in the Appendix, i.e. the
+exogeneity of Seguro Popular’s implementation across regions.
+15
+On the other hand, when Eq. (1) is estimated using health expenditures as the dependent variable, the
+effect of Seguro Popular is that the program reduced health expenditures by 92.03 pesos per month. This
+estimation includes a full set of controls as well as municipality ﬁxed effects and is statistically signiﬁcant
+at the 10.0 % level. Moreover, this result is always signiﬁcant and is relatively consistent across different
+
+Yes
+
+54,854
+
+State ﬁxed effects
+
+State-level controls
+
+Municipality ﬁxed effects
+
+Municipality-level controls
+
+Observations
+
+54,854
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+173.9*** (57.87)
+
+66.16*** (19.91)
+
+130.6*** (18.29)
+
+47.61** (22.73)
+
+13.50 (21.73)
+
+-16.32* (9.115)
+
+33.89*** (4.422)
+
+54,854
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+0.0511*** (0.0081)
+
+0.0341*** (0.0063)
+
+0.0196*** (0.0053)
+
+0.0130 (0.0110)
+
+0.0440*** (0.0070)
+
+-0.0032 (0.0020)
+
+-0.0112** (0.0048)
+
+-0.3220*** (0.0140)
+
+-0.0009* (0.0005)
+
+0.0012*** (0.0003)
+
+-0.0577* (0.0333)
+
+54,854
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+0.0446*** (0.0083)
+
+0.0241*** (0.0059)
+
+0.0158*** (0.00513)
+
+0.0183* (0.0099)
+
+0.0425*** (0.0069)
+
+-0.0031 (0.0020)
+
+-0.0160*** (0.0044)
+
+-0.3150*** (0.0137)
+
+-0.0005 (0.0006)
+
+0.0011*** (0.0003)
+
+-0.0555* (0.0297)
+
+(3)
+(4)
+LPM: probability of receiving private transfers
+
+* p \ 0.10, ** p \ 0.05, *** p \ 0.01
+
+Source: Author’s elaboration based on the ENIGH. State-level controls include the state population size and binary variables that indicate the political afﬁliation of the
+Governor. Municipality-level controls include government revenue, number of housing credits granted and number of workers afﬁliated to IMSS. Monetary ﬁgures are in
+real 2006 pesos. Standard errors are clustered at the state level
+
+Yes
+
+Yes
+
+Year ﬁxed effects
+
+95.42*** (18.55)
+
+166.9*** (31.57)
+
+141.8*** (17.12)
+
+Good quality roofs in the HH
+
+Rural locality
+
+35.38 (21.90)
+
+Good quality walls in the HH
+
+Good quality ﬂoors in the HH
+
+19.66 (19.79)
+
+HH members age 65 and older
+
+-0.0155 (17.18)
+
+-3.860 (17.67)
+
+-14.19 (9.195)
+
+HH enrolled in Prospera
+
+HH members under age 12
+
+-1041.5*** (73.60)
+
+34.18*** (4.657)
+
+-1058.5*** (74.22)
+
+HH head years of schooling
+
+HH head male
+
+-50.86 (128.8)
+-4.345*** (1.325)
+
+-118.6 (116.8)
+
+-4.128*** (1.260)
+
+SP coverage at the state level
+
+HH head age
+
+(1)
+(2)
+OLS: amount of private transfers received
+
+Variable
+
+Table 2 SP coverage and total private transfers
+Moreover, residing in a household located in a rural locality is positively and
+statistically signiﬁcantly associated with the amount of private transfers received.
+Additional variables which inﬂuence the amount of private transfers received
+include indicators of the quality of the household and the number of years of
+schooling of the household head, which are positively associated with the outcome
+of interest; and the age of the household head, which is negatively associated with
+the dependent variable.
+Table 2 also presents results where the relationship between Seguro Popular and
+the likelihood of receiving private transfers is analysed. It is observed in column (3)
+that the relationship between Seguro Popular and the probability of receiving private
+transfers is negative and statistically signiﬁcant. Column (4) shows that when a full
+set of controls are introduced, including municipality ﬁxed effects, the estimated
+effect of Seguro Popular is that a 1.0 % increase in its coverage rate reduced the
+probability of receiving private transfers by 0.0555 % points, where this coefﬁcient
+is signiﬁcant at the 10.0 % level. Additionally, since the crowding-out effect is only
+observed at the extensive margin, it is possible to quantify this estimate in pesos.
+This is done by multiplying the effect reported in column (4) by the mean amount of
+private transfers received by uninsured households prior to the program’s
+introduction. Since the mean amount of private transfers received by households
+in 2000 was 387.9 pesos per month, multiplying this amount by the estimated
+coefﬁcient of -0.0555 produces a reduction of 21.5 pesos per month, which is equal
+to 23.3 % of the estimated effect of Seguro Popular on health expenditures.
+Concerning the other variables, male-headed households have a lower probability of
+receiving private transfers than female-headed households. Moreover, households
+located in rural localities have a higher likelihood of receiving private transfers than
+those located in urban settings. Further variables which affect the probability of
+receiving private transfers include indicators of the quality of the household, the age
+of the household head, and the number of household residents over 65, all of which
+are positively associated with the probability of receiving private transfers; and
+being enrolled in Prospera, which is negatively associated with the dependent
+variable.16
+To study whether the previous ﬁndings are driven by private transfers originating
+from Mexico or abroad, Table 3 presents estimations where private transfers are
+classiﬁed as international or domestic according to the sender’s country of
+residence. It is observed that the introduction of Seguro Popular did not have a
+statistically signiﬁcant effect on either the amount of international private transfers
+received or on the probability of receiving them. In fact, when a full set of control
+are added the coefﬁcient becomes positive although not signiﬁcant. Focusing on
+domestic private transfers, it can be seen that under all the different speciﬁcations
+the relationship between Seguro Popular and the amount of domestic private
+transfers received is negative. When a full set of controls are introduced, including
+municipality ﬁxed effects, it is estimated that the program reduced the amount of
+16
+
+Table 10 in the Appendix allows for a more ﬂexible speciﬁcation of Eq. (1), where the program’s
+
+54,854
+
+Municipality-level controls
+
+Observations
+
+-0.0021 (0.0248)
+
+54,854
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+54,854
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-0.0540* (0.0313)
+
+-75.03 (114.0)
+
+54,854
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+-0.0625* (0.0321)
+
+-72.48 (115.4)
+
+(4)
+
+* p \ 0.10, ** p \ 0.05, *** p \ 0.01
+
+Source: Author’s elaboration based on the ENIGH. HH-level controls include the variables presented in Table 2. State-level controls include the state population size and
+binary variables that indicate the political afﬁliation of the Governor. Municipality-level controls include government revenue, number of housing credits granted and
+number of workers afﬁliated to IMSS. Monetary ﬁgures are in real 2006 pesos. Standard errors are clustered at the state level
+
+Yes
+
+No
+
+Municipality ﬁxed effects
+
+State ﬁxed effects
+
+State-level controls
+
+Yes
+
+Yes
+
+Year ﬁxed effects
+
+-0.0107 (0.0237)
+
+Yes
+
+SP coverage at the state level
+
+HH-level controls
+
+21.62 (71.12)
+
+(3)
+
+(1)
+
+(2)
+
+Domestic
+
+International
+
+LPM: probability of receiving private transfers
+
+SP coverage at the state level
+
+OLS: amount of private transfers received
+
+Variable
+
+Table 3 SP coverage and international and domestic private transfers
+coefﬁcient is not signiﬁcant. Turning our attention to the probability of receiving
+private transfers, when a full set of controls are included, the estimated effect of
+Seguro Popular is that it reduced the likelihood of receiving domestic private
+transfers by 6.25 percentage points, where this coefﬁcient is statistically signiﬁcant
+at the 10.0 % level. These results suggest that the ﬁndings presented in Table 2 are
+driven by domestic private transfers, since Seguro Popular does not have an effect
+on international private transfers at either the intensive or extensive margins. The
+previous ﬁndings may arise because most senders located within Mexico are aware
+of Seguro Popular and, therefore, changed their remitting behaviour upon the
+program’s introduction. This is likely to be case since the program was widely
+publicised by the federal government. On the other hand, a large number of senders
+located in foreign countries may not be aware of the program and consequently did
+not alter their remitting behaviour. Alternatively, domestic and international donors
+may have different motives for remitting and thus reacted differently upon the
+implementation of Seguro Popular.17
+
+7 Sensitivity checks
+7.1 Tobit and logit models
+This section examines the sensitivity of the results to the use of a tobit model when
+analysing the effect of Seguro Popular on the amount of private transfers received,
+and to the use of a logit speciﬁcation when studying its impact on the likelihood of
+receiving private transfers. Tobit estimations presented in Table 4 columns (1) and
+(2) show that Seguro Popular had a negative and statistically signiﬁcant negative
+effect on the amount of private transfers received. This ﬁnding differs from the OLS
+results, where although it was observed that the program had a negative impact on
+the amount of private transfers received, the effect was not statistically signiﬁcant.
+Focusing on the extensive margin, logit estimations presented in column (4) show
+that a 1.0 % increase in Seguro Popular’s coverage rate reduced the probability of
+receiving private transfers by 0.0654 % points. This coefﬁcient is statistically
+signiﬁcant at the 10.0 % level, and larger than the one obtained from the LPM
+estimations presented in Table 2.
+7.2 Different subsamples
+To further analyse the sensitivity of the results, Table 5 presents estimations of
+Eq. (1) when focusing on different population groups or when the ENIGH’s survey
+weights are used. Panel A presents the results obtained in Table 2, so that
+17
+
+This result is similar to that obtained by Amuedo-Dorantes and Juarez (2015), who analyse whether
+´
+the 70 y Mas program for the rural elderly in Mexico crowded-out private transfers. In their study, the
+scholars observe a crowding-out effect at the extensive margin but not at the intensive margin. Moreover,
+Yes
+
+No
+
+54,854
+
+Municipality ﬁxed effects
+
+Municipality-level controls
+
+Observations
+
+Yes
+
+54,854
+
+Yes
+
+No
+
+54,854
+
+No
+
+No
+
+No
+
+Yes
+
+0.0391*** (0.0059)
+
+54,854
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+0.0538*** (0.0079)
+
+0.0341*** (0.0061)
+
+0.0190*** (0.0053)
+
+0.0152 (0.0123)
+
+Source: Author’s elaboration based on the ENIGH. For the tobit, ﬁgures reported denote the unconditional marginal effects. HH denotes households. state-level controls
+include the state population size and binary variables that indicate the political afﬁliation of the Governor. Municipality-level controls include government revenue,
+number of housing credits granted and number of workers afﬁliated to IMSS. Monetary ﬁgures are in real 2006 pesos. Standard errors are clustered at the state level
+
+No
+
+No
+
+State-level controls
+
+Yes
+
+150.31*** (23.73)
+
+Rural locality
+
+Yes
+
+89.17*** (14.23)
+
+Good quality ﬂoors in the HH
+
+State ﬁxed effects
+
+77.97*** (12.97)
+
+Good quality roofs in the HH
+
+Year ﬁxed effects
+
+45.51 (29.37)
+
+Good quality walls in the HH
+
+-0.0035 (0.0022)
+
+-13.07** (5.812)
+84.34*** (15.09)
+
+HH members under age 12
+
+HH members age 65 and older
+
+-0.0099** (0.0048)
+
+-22.96* (12.63)
+
+HH enrolled in Prospera
+
+-0.0010* (0.0005)
+-0.3280*** (0.0083)
+
+9.817*** (1.973)
+-1100.8*** (61.87)
+
+0.0013*** (0.0003)
+
+HH head years of schooling
+
+Yes
+
+-0.0669* (0.0343)
+
+HH head male
+
+Yes
+
+168.0* (87.35)
+2.111*** (0.7987)
+
+-206.4** (102.2)
+
+(4)
+
+(3)
+
+(1)
+
+(2)
+
+Tobit: amount of private transfers received
+
+HH head age
+
+SP coverage at the state level
+
+Variable
+
+Table 4 SP coverage and total private transfers. Marginal effects
+
+-74.72* (38.18)
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+HH-level controls
+
+Year ﬁxed effects
+
+State ﬁxed effects
+
+State-level controls
+
+Municipality ﬁxed effects
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+126.1 (535.9)
+
+-38.66 (123.8)
+
+-99.26 (129.4)
+
+-100.9 (443.1)
+
+F. Weighted results
+
+G. Conditional on receiving a positive
+amount of private transfers
+
+145.1 (185.0)
+
+33.27 (156.3)
+
+Low
+
+-222.3* (122.4)
+
+-249.9** (113.3)
+
+-21.58 (234.8)
+
+-42.91 (42.02)
+
+-8.376 (202.1)
+
+-124.5 (166.4)
+
+-499.0 (471.0)
+
+High
+
+E. Low- and high-health expenditure households
+
+-110.3 (211.8)
+
+Low
+
+High
+
+D. Low- and high-income households
+
+-65.11 (173.4)
+
+Urban
+
+Rural
+
+C. Urban–rural
+
+-548.6 (430.7)
+
+Men
+
+0.1090 (104.4)
+
+-50.86 (128.8)
+
+-118.6 (116.8)
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+–
+
+-0.0236 (0.0440)
+
+-0.0458 (0.0365)
+
+-0.0628 (0.0432)
+
+-0.0592* (0.0345)
+
+-0.0516 (0.0437)
+
+-0.0759 (0.0509)
+
+-0.0488 (0.0334)
+
+-0.1160* (0.0623)
+
+-0.0474 (0.0334)
+
+-0.0577* (0.0333)
+
+(2)
+
+(1)
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+–
+
+-0.0285 (0.0332)
+
+-0.0273 (0.0370)
+
+-0.0762* (0.0383)
+
+-0.0457 (0.0341)
+
+-0.0677 (0.0436)
+
+-0.0776 (0.0512)
+
+-0.0444 (0.0347)
+
+-0.0892 (0.0662)
+
+-0.0506 (0.0347)
+
+-0.0555* (0.0297)
+
+(4)
+
+(3)
+
+OLS: amount of private transfers received
+
+Women
+
+B. Men–women
+
+A. Main
+
+Sample
+
+Table 5 SP coverage and private transfers. Subsamples
+
+Lat Am Econ Rev (2015) 24:7
+Yes
+
+Yes
+
+Yes
+
+(4)
+
+(1)
+
+(2)
+
+(3)
+
+OLS: amount of private transfers received
+
+* p \ 0.10, ** p \ 0.05, *** p \ 0.01
+
+Source: Author’s elaboration based on the ENIGH. Figures presented represent coefﬁcient estimates for SP coverage at the state level. HH-level controls include the
+variables presented in Table 2. Low- and high-income households refer to the households located above and below the median of the household income distribution,
+respectively. Low- and high-health expenditure households refer to the households located above and below the median of the household health expenditure distribution,
+respectively. State-level controls include the state population size and binary variables that indicate the political afﬁliation of the Governor. Municipality-level controls
+include government revenue, number of housing credits granted and number of workers afﬁliated to IMSS. Monetary ﬁgures are in real 2006 pesos. Standard errors are
+clustered at the state level
+
+Municipality-level controls
+
+Sample
+
+Table 5 continued
+report the different sensitivity checks.
+Panel B shows that Seguro Popular had different effects which varied according
+to the gender of the household head. The program had a stronger impact in femaleheaded households at both the intensive and extensive margins. Nonetheless, when a
+full set of controls are included, due to the large standard errors, the estimated
+coefﬁcients are generally not signiﬁcant. It is only in column (3), when estimating
+the program’s effect on the probability of receiving private transfers for women and
+when state ﬁxed effects are included, that a negative and signiﬁcant effect of 11.6 %
+points is observed.
+Panel C analyses the effect of Seguro Popular in urban and rural localities. These
+coefﬁcients are quite similar to one another and to the one displayed in Panel A.
+Moreover, even though the coefﬁcients are not statistically signiﬁcant, it can be seen
+in column (2) that when a full set of controls are added, the program’s effect is
+larger in urban settings. This result may be related to the ﬁnding presented in
+Grogger et al. (2011), where the authors state that the program’s impact is stronger
+in urban localities, since health centres and hospitals located in cities are better
+equipped and generally offer all of the interventions covered under Seguro Popular.
+On the other hand, health facilities located in rural localities are frequently limited
+in the amount of the services they provide. Consequently, the impact of Seguro
+Popular on health expenditures tends to be lower in rural localities. Nevertheless,
+column (4) shows that the program’s effect on the likelihood of receiving private
+transfers, although not signiﬁcant, is larger in absolute value in rural areas.
+Panel D differentiates between low- and high-income households. The program’s
+effect is relatively stable throughout the income distribution, where the effect of
+Seguro Popular at both the intensive and extensive margins is similar for both
+groups. Moreover, these effects closely resemble those presented in Panel A, where
+their weaker signiﬁcance is partly driven by their smaller sample sizes.18
+Panel E separates households according to whether they incur in high- or lowhealth expenditures. The program’s effect is much stronger in low-health
+expenditure households. When focusing on the effect of Seguro Popular on the
+amount of private transfers received, it is observed that the estimated coefﬁcients
+are negative and signiﬁcant in low-health expenditure households. Moreover, it can
+be seen in column (2) that when a full set of controls are included, the program’s
+effect rises to 222.3 pesos per month. For high-health expenditure households, the
+coefﬁcients are not signiﬁcant. Focusing on the extensive margin, column (4) shows
+that in low-health expenditure households the introduction of Seguro Popular
+reduced the likelihood of receiving private transfers by 7.62 percentage points,
+where this coefﬁcient is statistically signiﬁcant at the 10.0 % level. In high-health
+expenditure households, it is estimated that a 1.0 % increase in the program’s
+18
+Since the division of low and high-income households according to whether they are below or above
+the median may seem arbitrary, estimations were also performed where households were classiﬁed
+depending on whether they fall below or above the mean. Households were also grouped by quartiles,
+where a comparison was made between those located at the lowest and highest quartiles. The results
+points. Nonetheless, this coefﬁcient is not signiﬁcant.
+Panel F makes use of the household weights included in the ENIGH. The results
+show that, when household weights are used, the impact of Seguro Popular on the
+amount of private transfers received is generally negative and not statistically
+signiﬁcant. Concerning the program’s impact on the likelihood of receiving private
+transfers, it can be seen in columns (3) and (4) that when a full set of controls are
+included, although negative, neither of the coefﬁcients are signiﬁcant.
+Finally, Panel G focuses on households that report receiving a positive amount of
+private transfers. When state ﬁxed effects are used along with a full set of controls,
+it is estimated that Seguro Popular reduced private transfers by 100.9 pesos per
+month. When municipality ﬁxed effects are used, the effect of Seguro Popular is
+limited to an increase of private transfer income of 126.1 pesos per month.
+Nevertheless, neither of these two coefﬁcients are statistically signiﬁcant. These
+results offer additional evidence that the introduction of Seguro Popular did not
+affect the amount of private transfers received.19
+7.3 Municipality-level variation
+This section exploits the municipality-level variation in the availability of Seguro
+Popular. Deﬁning the availability of Seguro Popular in each municipality involves
+outlining an arbitrary threshold, since there is no ofﬁcial record of when the
+program’s services were initially offered in each municipality.20 In this study, a
+municipality is considered as having direct access to Seguro Popular when in its ﬁrst
+observed in any given period that ten or more of its households are afﬁliated to the
+program.
+Table 6 presents results of Eq. (1) at both the intensive and extensive margins,
+where the availability of Seguro Popular at the municipality level is introduced as a
+binary variable in place of the program’s coverage rate at the state level. Panel A
+19
+Since the introduction of Seguro Popular partially crowded-out private transfers and the program
+reduced health expenditures by an even larger amount, the matter of how households used their additional
+income derived from being afﬁliated to the program was also examined. Equation (1) was estimated with
+a full set of controls with the dependent variable being household savings or a variety of expenditure
+categories such as food, clothing, housing, transportation or education. In results not presented, the
+estimated equations show that the introduction of Seguro Popular did not affect household savings,
+suggesting that the additional resources were likely used for consumption purposes. The different
+expenditure categories were also unaffected by the program’s introduction. These results are likely to
+arise because health expenditures constitute a very small fraction of total household expenses. Thus, even
+if Seguro Popular reduced health expenditures, its effect may not be large enough to inﬂuence household
+expenses in other categories. Nonetheless, this result may also be a product of measurement error which is
+a common issue when working with expenditure data.
+20
+In each state where Seguro Popular was introduced, it was up to the local government to undertake the
+actions required to identify beneﬁciary groups, their afﬁliation and the programs diffusion within their
+state (DOF 2002). Thus, the decision of which municipalities were afﬁliated ﬁrst was based on
+agreements with local governments, where each state decided to implement Seguro Popular according to
+its own goals, while generally satisfying the rules of operation of the program (Bosch and Campos´
+Vazquez 2014). Moreover, the extent of Seguro Popular’s coverage within each municipality was decided
+by the municipal governments and was based on numerous factors including the availability of resources
+
+No
+
+Yes
+
+State ﬁxed effects
+
+State-level controls
+
+Municipality ﬁxed effects
+
+Municipality-level controls
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+5.351 (28.94)
+
+0.0004 (0.0137)
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-0.0031 (0.0143)
+
+-0.0190 (0.0130)
+
+-0.0145* (0.0084)
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+-0.0067 (0.0165)
+
+-0.00611 (0.0148)
+
+-0.0128 (0.0158)
+
+-0.0358** (0.0178)
+
+* p \ 0.10, ** p \ 0.05, *** p \ 0.01
+
+Source: Author’s elaboration based on the ENIGH. Figures presented represent coefﬁcient estimates for SP availability at the municipality level. HH-level controls include
+the variables presented in Table 2. State-level controls include the state population size and binary variables that indicate the political afﬁliation of the Governor.
+Municipality-level controls include government revenue, number of housing credits granted and number of workers afﬁliated to IMSS. Monetary ﬁgures are in real 2006
+pesos. Standard errors are clustered at the municipality level
+
+Full sample and divided by position in the income distribution
+
+Yes
+
+Yes
+
+Year ﬁxed effects
+
+83.41 (91.44)
+
+Yes
+
+E. Fourth quartile
+
+HH-level controls
+
+-53.92 (41.23)
+
+-14.72 (25.91)
+
+-64.15* (38.05)
+
+C. Second quartile
+
+D. Third quartile
+
+-0.0249* (0.0129)
+
+-0.0097 (0.0081)
+
+2.660 (36.43)
+-37.80** (18.54)
+
+-28.05 (28.56)
+
+-46.57*** (13.88)
+
+A. Full sample
+
+(2)
+
+(1)
+
+(4)
+
+(3)
+
+OLS: amount of private transfers received
+
+B. First quartile
+
+Sample
+
+Table 6 SP availability and private transfers. Municipality-level variation
+
+Lat Am Econ Rev (2015) 24:7
+quartiles according to the household’s position in the income distribution.21
+Column (1) of Panel A shows that when a full set of controls are introduced jointly
+with state ﬁxed effects, the negative effect of Seguro Popular on the amount of
+private transfers received stands at 28.05 pesos per month, where this effect is not
+statistically signiﬁcant. When municipality ﬁxed effects are used as in columns (2),
+this effect becomes positive but remains non-signiﬁcant. Focusing on the extensive
+margin, it is observed in column (4) that, when a full set of controls is included along
+with municipality ﬁxed effects, the program reduced the likelihood of receiving
+private transfers by 1.45 percentage points, where this result is statistically signiﬁcant
+at the 10.0 % level. Consequently, an analysis that uses the program’s availability at
+the municipality level provides further evidence that Seguro Popular did not crowdout private transfers at the intensive margin. On the other hand, it supports the ﬁnding
+that the program had weak but statistically signiﬁcant effect at the extensive margin.
+Focusing on households located at different parts of the income distribution,
+Panel B shows that the program’s effect was stronger among households located in
+the bottom quartile. Column (1) shows that at the intensive margin, when a full set
+of controls are introduced including state ﬁxed effects, it is estimated that Seguro
+Popular reduced the amount of private transfers received by 46.57 pesos per month,
+where this coefﬁcient is statistically signiﬁcant at the 1.0 % level. Moreover, when
+municipality ﬁxed effects are used, it is observed in column (2) that the program
+reduced private transfers by 37.80 pesos per month, where this coefﬁcient is
+signiﬁcant at the 5.0 % level. At the intensive margin, similar results are found.
+Column (3) shows that, when a full set of controls are used including state ﬁxed
+effects, it is estimated that the program reduced the likelihood of receiving private
+transfers by 2.49 % points. When municipality ﬁxed effects are incorporated, it can
+be seen in column (4) that Seguro Popular reduced the likelihood of receiving
+private transfers by 3.58 % points, where this coefﬁcient is signiﬁcant at the 5.0 %
+level. Finally, regarding the households located in the top three quartiles of the
+income distribution, Panels C, D and E show that in general Seguro Popular did not
+affect private transfers at either the intensive or extensive margins. The program’s
+effect might be larger among low-income households given that they are actually
+more likely to be enrolled in Seguro Popular relative to higher income households.
+Furthermore, the fact that the program crowds-out private support among lowincome households but not among those located higher in the income distribution
+may be a result of differences in the motives for remitting among donors depending
+on the receiving household’s level of income.
+
+21
+
+While generally consistent, when using Seguro Popular’s availability at the municipality level as the
+main explanatory variable, the magnitude of the estimated coefﬁcients is dependent on which threshold is
+used to denote when the program ﬁrst became available in each municipality. Furthermore, using the
+program’s availability instead of its coverage rate conceals substantial information, particularly
+considering that the study covers a period of both low and high Seguro Popular coverage. Due to these
+shortcomings, estimations when using the program’s state coverage rate instead of its municipality
+Since the ENIGH collects information on household expenditures, it is possible to
+focus on donors instead of recipients and examine the effect of Seguro Popular on
+the amount of private transfers sent and on the probability of remitting a positive
+amount.22 To calculate the effect of Seguro Popular on donors, Eq. (1) is again
+estimated where the dependent variable is either the monthly amount of private
+transfers sent or a dichotomous variable that takes the value of one if the household
+remitted a positive amount during the previous 6 months or zero otherwise.
+Additionally, to minimise unobserved heterogeneity that may affect remitting
+behaviour, households are classiﬁed according to whether they are eligible or
+ineligible for Seguro Popular.
+Table 7 shows that among households eligible for Seguro Popular, when a full set
+of controls are introduced along with state ﬁxed effects, it is estimated that the
+program increased the amount of private transfers sent by 10.92 pesos per month,
+where this effect is not statistically signiﬁcant. When municipality ﬁxed effects are
+included, the effect increases to 18.48 pesos per month but is once again nonsigniﬁcant. With respect to the program’s effect on the probability of remitting, a
+similar relationship is observed. Whether state- or municipality ﬁxed effects are
+included along with a full set of controls, it is estimated that Seguro Popular
+increased the probability of remitting, where this effect is never statistically
+signiﬁcant.
+Concerning how the introduction of Seguro Popular affected the remitting
+behaviour of households that were not eligible for the program, a different pattern is
+observed. Column (3) shows that, when state ﬁxed effects are used, it is estimated
+that Seguro Popular reduced the amount of private transfers sent by 149.7 pesos per
+month, where this coefﬁcient is signiﬁcant at the 10.0 % level. When municipality
+ﬁxed effects are incorporated jointly with a full set of controls, it is estimated that
+the program’s introduction reduced the amount of private transfers sent by 157.6
+pesos per month, where this effect is once again signiﬁcant at the 10.0 % level. With
+respect to the probability of remitting, it is observed that Seguro Popular reduced the
+probability of remitting among ineligible households between 2.93 and 4.38 %
+points. Nevertheless, these coefﬁcients are not statistically signiﬁcant.
+In summary, the results show that while the introduction of Seguro Popular did not
+affect the remitting behaviour of households that were eligible for the program, it did
+affect the remitting behaviour of households that were not eligible to enrol in Seguro
+Popular. This may be driven by the fact that households covered by social security
+institutions are much more likely to remit that those who are uninsured. Speciﬁcally,
+prior to the program’s introduction in 2000, approximately 18.2 % of insured
+households remitted compared to 10.5 % among uninsured households. Moreover,
+among households that remitted a positive amount, insured households donated on
+average 425.2 pesos per month compared to 281.4 among uninsured households. On
+22
+While it is likely that the majority of the private transfers sent by the donors included in the ENIGH
+are directed towards families residing within Mexico, the survey does not contain information on the
+
+Yes
+
+54,854
+
+Municipality-level controls
+
+Observations
+
+0.0301 (0.0251)
+
+54,854
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+55,478
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-0.0438 (0.0396)
+
+-149.7* (82.30)
+
+55,478
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+-0.0293 (0.0428)
+
+-157.6* (82.85)
+
+(4)
+
+* p \ 0.10, ** p \ 0.05, *** p \ 0.01
+
+Source: Author’s elaboration based on the ENIGH. HH-level controls include the variables presented in Table 2. State-level controls include the state population size and
+binary variables that indicate the political afﬁliation of the Governor. Municipality-level controls include government revenue, number of housing credits granted and
+number of workers afﬁliated to IMSS. Monetary ﬁgures are in real 2006 pesos. Standard errors are clustered at the state level
+
+Yes
+
+No
+
+Municipality ﬁxed effects
+
+State ﬁxed effects
+
+State-level controls
+
+Yes
+
+Yes
+
+Year ﬁxed effects
+
+Yes
+
+SP coverage at the state level
+
+18.48 (12.89)
+
+(3)
+
+(1)
+
+(2)
+
+SP ineligible HH
+
+SP eligible HH
+
+HH-level controls
+
+LPM: probability of sending private transfers
+
+SP coverage at the state level
+
+OLS: amount of private transfers sent
+
+Variable
+
+Table 7 SP coverage and total private transfers sent
+depending on whether they have access to a social security institution or not.
+
+8 Conclusions
+This study examined the empirical question of whether the implementation of
+Seguro Popular affected the amount of private transfers received and the likelihood
+of receiving private transfers among Mexico’s uninsured households. The effects of
+Seguro Popular were identiﬁed using the spatial variation in the program’s coverage
+induced by its sequential roll-out throughout Mexico.
+Based on multiple waves of the ENIGH, the results show that among households
+eligible for the program Seguro Popular had no effect on the amount of private
+transfers received. This may be due to the fact that prior to the program’s
+implementation in 2000, health expenditures only accounted for 2.6 % of total
+household expenditures. On the other hand, the implementation of Seguro Popular
+reduced on average a household’s probability of receiving private transfers by 5.55
+percentage points, a 28.6 % reduction with respect to the 0.194 probability that
+uninsured households had of receiving private transfers prior to the program’s
+introduction in 2000. This estimate is driven by domestic private transfers, since
+international private transfers were not affected by the program’s implementation at
+either the intensive or extensive margins. Seguro Popular’s negative effect on the
+likelihood of receiving private transfers is robust to the use of the program’s statelevel expansion or municipality-level availability.
+The fact that Seguro Popular had a clear social welfare improving effect has been
+well documented, since the program has provided millions of Mexicans access to
+health care. Nonetheless, the ﬁnding that an unintended consequence of Seguro
+Popular is that it partially crowds-out private support highlights the importance of
+looking at unexpected outcomes when analysing public policies, since the presence
+of crowding-out effects has important implications for the effectiveness of
+redistributive policies. The crowding-out effect suggests that the net effect of
+Seguro Popular is smaller than when just analysing its impact on health
+expenditures or health outcomes. Consequently, an evaluation of the effects of
+Seguro Popular should take into account possible changes in private behaviour.
+Failure to do so may overstate the program’s potential beneﬁts or distributional
+impacts.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original
+author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were
+Challenges to identiﬁcation
+This section examines if the identiﬁcation strategy used in this study is valid. The
+test is relevant because using the expansion and availability of Seguro Popular as a
+source of identiﬁcation assumes that these two factors are not correlated with the
+outcomes of interest. The endogeneity of Seguro Popular is examined by testing
+whether the program’s quarter and year of introduction and expansion rates in 2005
+and 2010 are predicted by pre-program municipality and state-level characteristics
+compiled from Mexico’s 2000 Census.23 The test is performed by estimating the
+following model by OLS:
+ym ¼ Xm b þ Zs d þ em
+
+ð2Þ
+
+where ym denotes either the quarter and year of introduction of Seguro Popular in
+municipality m, expressed as an index equal to one beginning in the fourth quarter
+of 2002 which increases by one unit each quarter, or is a continuous variable
+between zero and one that indicates the proportion of the eligible population
+enrolled in Seguro Popular in municipality m in 2005 or 2010. Xm and Zs are vectors
+of municipality- and state-level characteristics in 2000, respectively; and em is the
+error term.24 The municipality-level covariates included in Eq. (2) are population
+size, the share of insured population, the share of urban population, the median
+wage, the population’s average years of schooling, the unemployment rate, and
+demographic and industry composition shares. The state-level regressors are population size, the political party of the Governor, and state dummies. Equation (2)
+also includes the share of households that receive international and domestic private
+transfers, the median of international and domestic private transfers received, and
+the average number of international migrants per household. The estimations are
+performed for all municipalities and for those municipalities included in the
+ENIGH.
+The endogeneity analysis results are presented in Table 8. In column (1), the
+dependent variable is an index denoting the quarter and year of implementation of
+Seguro Popular. It can be seen that the municipality’s date of entry into Seguro
+Popular is negatively related with its population size and positively related with the
+state’s population size. Moreover, the date of entry is positively associated with the
+share of the population covered by a social security institution. Additionally, the
+23
+The analysis performed in this subsection is conducted at the municipality level and not the state level
+given that performing it at the state level limits the sample to 32 observations. The small sample size
+implies that the estimated regressions would be unlikely to have sufﬁcient power to adequately
+distinguish between zero and non-zero coefﬁcients. Nevertheless, the estimation of Eq. (2) was also
+performed at the state level, where for all years none of the estimated controls were statistically
+signiﬁcant; except for 2012, where the variable log median of domestic private transfers was signiﬁcant at
+the 10.0 % level. These results are available upon request.
+24
+
+´
+A similar analysis is conducted by Azuara and Marinescu (2013) and Bosch and Campos-Vazquez
+(2014), who investigate whether the implementation of Seguro Popular affected participation rates in the
+0.8010 (0.6360)
+0.0242 (0.0788)
+-0.4140*** (0.0674)
+0.0430 (0.2700)
+
+3.780*** (1.269)
+0.6660 (0.6540)
+0.8370 (0.5540)
+-10.81 (9.754)
+-3.074*** (0.8050)
+-0.7550 (1.469)
+
+Share of insured population
+
+Share of urban population
+
+Log median wage
+
+Unemployment rate
+
+PRI Governor
+
+PRD Governor
+
+0.0025 (0.0100)
+
+569
+
+0.9480 (0.7260)
+
+0.0104 (0.0080)
+
+0.0250 (0.1320)
+
+597
+
+-0.1160 (0.6840)
+
+-0.0737 (0.7310)
+
+0.0056 (0.0176)
+
+0.0030 (0.0055)
+
+0.1820 (0.1390)
+
+-0.8850 (0.5570)
+
+0.1700 (0.2400)
+
+-0.0826 (0.0600)
+
+-0.0096 (0.0593)
+
+1.022 (0.7590)
+
+-0.1380*** (0.0509)
+
+-0.0692 (0.0548)
+
+0.0371 (0.0819)
+
+-0.0075 (0.0208)
+
+-0.0064 (0.0093)
+
+Expansion 2010
+(3)
+
+*** p \ 0.01, ** p \ 0.05, * p \ 0.1
+
+Source: Author’s elaboration. In column (1) the dependent variable is an index beginning in the fourth quarter of 2002 that denotes the municipality’s date of entry into SP,
+and includes all the municipalities in the ENIGH. In columns (2) and (3) the dependent variable is the proportion of eligible individuals covered by SP at the municipality
+level in 2005 and 2010, respectively, and include all the municipalities in the ENIGH in those years. Data on the number of eligible individuals were taken from the 2005
+Population Count and the 2010 Census. Data on the number of individuals covered by SP were provided by the CNPSS. Explanatory variables are drawn from the 2000
+Census. The regressions also include variables denoting average years of schooling and share of male population in the municipality, state dummies, and industry share
+dummies by municipality. Robust standard errors are in parentheses
+
+1161
+
+Observations
+
+-1.048 (0.6900)
+
+-2.775 (9.886)
+12.75 (10.27)
+
+Log median domestic private transfers
+
+Share of pop. that receives int. private transfers
+
+0.0463 (0.0880)
+-0.1230 (0.2580)
+
+Log median international private transfers
+
+Share of pop. that receives dom. private transfers
+
+-0.0168 (0.0270)
+
+1.139 (1.962)
+
+Avg. number of international migrants per HH
+
+0.4290 (0.5520)
+
+-7.431* (4.222)
+-15.38* (8.597)
+
+Share of population under age 24
+
+Share of population between ages 24 and 40
+
+-0.1370 (0.0889)
+
+-0.0241 (0.0205)
+
+-1.303*** (0.1720)
+4.250*** (0.2960)
+
+Log population
+
+Date of entry
+(1)
+
+Log state population
+
+Variable
+
+Table 8 Determinants of SP date of entry and expansion by municipality
+
+Lat Am Econ Rev (2015) 24:7
+62,882
+
+Municipality ﬁxed effects
+
+Municipality-level controls
+
+Observations
+
+No
+
+62,882
+
+No
+
+No
+
+No
+
+62,882
+
+No
+
+Yes
+
+62,882
+
+Yes
+
+No
+
+Yes
+
+62,882
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+-9.466 (18.96)
+
+19.35 (11.43)
+
+52.96*** (8.486)
+
+5.388 (9.971)
+
+63.08*** (22.21)
+
+18.33*** (2.921)
+
+-50.33*** (8.693)
+
+30.76*** (10.81)
+
+23.46*** (3.381)
+
+5.116*** (0.5780)
+
+-92.03* (49.43)
+
+(5)
+
+Source: Author’s elaboration based on the ENIGH. HH denotes households. State-level controls include the state population size and binary variables that indicate the
+political afﬁliation of the Governor. Municipality-level controls include government revenue, number of housing credits granted and number of workers afﬁliated to IMSS.
+Monetary ﬁgures are in real 2006 pesos. Standard errors are clustered at the state level
+
+No
+
+No
+
+State-level controls
+
+Yes
+
+14.16 (8.581)
+
+Rural locality
+Yes
+
+38.83*** (12.55)
+
+Good quality ﬂoors in the HH
+
+No
+
+52.31*** (8.378)
+
+Good quality roofs in the HH
+
+Yes
+
+7.329 (9.164)
+
+Good quality walls in the HH
+
+Yes
+
+61.79*** (21.95)
+
+HH members age 65 and older
+
+No
+
+17.74*** (2.993)
+
+HH members under age 12
+
+No
+
+-58.78*** (8.528)
+
+HH enrolled in Prospera
+
+State ﬁxed effects
+
+28.50*** (10.32)
+
+Year ﬁxed effects
+
+23.52*** (3.633)
+
+-99.91* (49.13)
+
+HH head male
+
+-108.8** (51.25)
+
+(4)
+
+HH head years of schooling
+
+-105.5** (49.47)
+
+(3)
+
+5.107*** (0.6400)
+
+-116.6*** (16.31)
+
+SP coverage at the state level
+
+(2)
+
+HH head age
+
+(1)
+
+Variable
+
+Table 9 OLS: SP coverage and total health expenditures
+
+38.44 (161.1)
+
+54,854
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+75.19 (178.7)
+
+-264.5* (151.4)
+
+-240.5 (210.6)
+
+15.05 (144.2)
+
+43.41 (94.86)
+
+-0.0728 (0.0467)
+
+54,854
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+0.0008 (0.2000)
+
+-0.0240 (0.0505)
+
+-0.0452 (0.0591)
+
+-0.0530 (0.0405)
+
+-0.0736** (0.0315)
+
+-0.0691 (0.0429)
+
+54,854
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+0.0292 (0.2060)
+
+-0.0350 (0.0412)
+
+-0.0825 (0.0532)
+
+-0.0383 (0.0385)
+
+-0.0592** (0.0289)
+
+Source: Author’s elaboration based on the ENIGH. Figures presented represent coefﬁcient estimates for SP coverage at the state level. HH-level controls include the
+variables presented in Table 2. State-level controls include the state population size and binary variables that indicate the political afﬁliation of the Governor. Municipality-level controls include government revenue, number of housing credits granted and number of workers afﬁliated to IMSS. Monetary ﬁgures are in real 2006 pesos.
+Standard errors are clustered at the state level
+
+No
+
+Yes
+
+Municipality-level controls
+
+Yes
+
+State-level controls
+
+Municipality ﬁxed effects
+
+Yes
+
+Yes
+
+HH-level controls
+
+Yes
+
+159.8 (178.0)
+
+SP * 2012
+
+State ﬁxed effects
+
+-254.8 (153.7)
+
+SP * 2010
+
+Year ﬁxed effects
+
+-103.6 (140.3)
+
+-212.9 (215.0)
+
+SP * 2006
+
+SP * 2008
+
+-54.11 (176.7)
+
+-49.06 (91.21)
+
+SP * 2004
+
+(4)
+
+(3)
+
+(1)
+
+(2)
+
+OLS: amount of private transfers received
+
+SP * 2005
+
+Year
+
+Table 10 SP coverage and private transfers. Different effects by year
+
+Lat Am Econ Rev (2015) 24:7
+with demographic variables pertaining to the share of the population under the age
+of 24 and between the ages of 24 and 40. Above all, the municipality’s initial
+quarter and year of participation in Seguro Popular is not associated with any of the
+study’s main outcomes of interest.
+Columns (2) and (3) in Table 8 present regression results where the dependent
+variable is the proportion of eligible individuals covered by Seguro Popular at the
+municipality level in 2005 and 2010, respectively. It is observed that the expansion
+is not related to the municipality’s population size or to the state’s population size.
+Although not signiﬁcant, the negative signs of the state population variable are in
+´
+line with the arguments put forward by Dıaz-Cayeros et al. (2006) and Bosch and
+´
+Campos-Vazquez (2014). The scholars claim that prior to the 2006 presidential
+election, smaller states were given preference to achieve full coverage so that the
+federal government could declare that it had achieved universal coverage in these
+states. Municipalities with low median wages also had lower expansion rates in
+2010. It could be that poorer municipalities which have lower median wages have a
+scarcity of health facilities which are a requirement for implementing Seguro
+Popular. Furthermore, the expansion of Seguro Popular in 2005 was slower in states
+governed by the PRD left-wing party, the main opposition of the ruling right-wing
+PAN party. With respect to the variables of interest, as in column (1), the expansion
+of Seguro Popular in 2005 and 2010 is not correlated with the average number of
+international migrants per household, the log medians of international or domestic
+private transfers, or the shares of the population that receive international or
+domestic private transfers.
+While the implementation of Seguro Popular was not completely exogenous,
+Table 8 does not provide evidence suggesting that the program was targeted in
+speciﬁc municipalities in relation to the outcomes of interest, since they have no
+effect on the date of entry or on the expansion of Seguro Popular.25 In summary, the
+results support the identiﬁcation strategy used in this study. Nevertheless, the fact
+that there was no randomisation in the implementation of Seguro Popular implies
+that it is not possible to rule out the potential existence of other treats to the
+identiﬁcation of the program’s effects. This represents an important limitation of the
+study.
+
+Valero-Gil J (2008) Remittances and household’s expenditures on health. MPRA Paper 9572, Munich
+Lat Am Econ Rev (2015) 24:7
+DOI 10.1007/s40503-015-0021-y
+
+Does access to free health insurance crowd-out private
+transfers? Evidence from Mexico’s Seguro Popular
+Pedro P. Orraca-Romano1
+
+Received: 3 October 2014 / Revised: 15 July 2015 / Accepted: 8 September 2015 /
+Published online: 24 September 2015
+Ó The Author(s) 2015. This article is published with open access at Springerlink.com
+
+Abstract This study examines whether Seguro Popular, a free-of-charge publicly
+provided health insurance program for otherwise uninsured households, crowdedout private transfers in Mexico. Using data from the National Household Income
+and Expenditure Survey, the effects of Seguro Popular are identiﬁed using the
+spatial variation in the program’s coverage induced by its sequential roll-out
+throughout Mexico. The results show that Seguro Popular reduced on average a
+household’s probability of receiving private transfers by 5.55 % points. This ﬁnding
+appears to be driven by domestic private transfers, since the program’s effects are
+only statistically signiﬁcant for private transfers originating within Mexico. In
+addition, Seguro Popular had a weak and not statistically signiﬁcant negative effect
+on the amount of private transfers received. Failure to take into account possible
+changes in private behaviour induced by Seguro Popular may overstate the program’s potential beneﬁts or distributional impacts.
+Keywords Public health insurance Á Crowding-out Á Private transfers Á Mexico Á
+Seguro Popular
+JEL Classiﬁcation
+
+I13 Á I18 Á I38
+
+1 Introduction
+A number of developing countries have implemented social assistance programs
+with the purpose of beneﬁting the population located in the lower tail of the income
+distribution. Understanding the impact of these programs and how they compare to
+& Pedro P. Orraca-Romano
+p.orraca-romano@sussex.ac.uk
+1
+
+salient in Mexico, a country with a per capita income approximately one-third of the
+U.S. and a high degree of income inequality, characterised by being at the forefront
+in putting into effect large public assistance programs whose objective is to increase
+its population’s human development levels. Given that such policies are often
+overlaid on top of pre-existing private support networks, various studies have
+analysed whether public assistance programs displace or crowd-out private transfers
+´
+(e.g. Cox and Jimenez 1992; Rosenzweig and Wolpin 1994; Attanasio and RıosRull 2000; Jensen 2003). The present study contributes to this literature by
+examining whether the introduction of Seguro Popular, a free-of-charge publicly
+provided health insurance program for informal sector workers, crowded-out private
+transfers in Mexico.1
+Seguro Popular covers the costs of 284 unique health care interventions and more
+than 300 medicines comprising 95.0 % of Mexico’s total disease burden (King et al.
+2009). For more than 52 million people, Seguro Popular offers a generous means of
+support since it functions as a source of protection against catastrophic health
+expenditures, and provides a safety net to many of the country’s most vulnerable
+households. The program has been studied at length by researchers, who have
+mostly focused on its impact on health expenditures, health outcomes and sector of
+´
+employment (e.g. King et al. 2009; Barros 2009; Galarraga et al. 2010; Barofsky
+´
+2011; Sosa-Rubı et al. 2009; Azuara and Marinescu 2013). The reduction in health
+expenditures derived from being afﬁliated in Seguro Popular may be large enough
+to inﬂuence the receipt of private transfers.2
+If households receive private transfers to alleviate budget constraints, it might be
+expected that those enrolled in Seguro Popular receive fewer private transfers or
+stop receiving them altogether, since being afﬁliated to the program is likely to
+reduce health expenditures and help alleviate budget constraints by increasing
+disposable income. Alternatively, if private transfers are not a result of budget
+constraints or are used for other purposes unrelated to health expenditures, then
+private transfers might not be affected by enrolment in Seguro Popular. As a result,
+it is an empirical question whether and to what extent expenses not incurred in
+resulting from being afﬁliated to Seguro Popular affect the receipt of private
+transfers. If the program crowds-out private support, then the study is relevant for
+policy makers who must take into account this unintended effect of Seguro Popular,
+since some of the program’s goals might have been partially hampered.
+1
+
+An individual is considered uninsured or an informal sector worker if she or he is not registered with
+one of Mexico’s public social security institutions. According to census data, in 2010 the number of
+individuals eligible for Seguro Popular equalled 63.2 million or 56.5 % of Mexico’s population.
+
+2
+
+Among the studies that have examined the impact of Seguro Popular on health expenditures, King et al.
+(2009) using an intent to treat approach observe in treated localities a 23.0 % decrease in catastrophic
+health expenditures compared to a 8.4 % decrease in control localities. Barros (2009) ﬁnds that Seguro
+Popular reduces both the likelihood of having a positive expenditure on primary health care as well the
+´
+size of the primary health care expenditures households incur in. Galarraga et al. (2010) observe that
+households insured with Seguro Popular spent 171 pesos less on outpatient services and 360 pesos less on
+medicines per year relative to non-enrolled households. Finally, Barofsky (2011) ﬁnds that the
+introduction of Seguro Popular generated a 28.0 % reduction in out-of-pocket health spending among
+migrate due to a variety of reasons related to income maximisation, minimising
+risks to family income, or overcoming capital constraints, among others. Prior to the
+implementation of Seguro Popular, vulnerable households commonly encountered
+out-of-pocket and catastrophic health expenditures attributed to outpatient care and
+medication, constraining them to reduce expenses in food, shelter, or education
+´
+(Galarraga et al. 2010). Migrating and subsequently remitting represented a
+plausible alternative to overcome these difﬁculties.
+Although declining in recent years, international private transfers represent a
+signiﬁcant source of income for Mexican households, accounting for 1.8 % of
+Mexico’s gross domestic product (GDP) in 2012.3 According to information from
+the Mexican Migration Project (MMP) 143, Mexican migrants residing in the U.S.
+commonly claim that one of their main motives for remitting is to cover health
+expenditures in Mexico. Speciﬁcally, when asked to report up to ﬁve reasons why
+they send private transfers to family members left behind, 39.2 % of respondents
+state as one of their reasons that they send money to Mexico to cover health
+expenses. This category is only surpassed by food and maintenance, which is
+claimed to be one of the motives for remitting for 41.8 % of the U.S.-based
+remitters included in the MMP. On the contrary, education expenses are only
+reported as one of the reasons for remitting 12.1 % of the time. Consequently,
+various studies have analysed the relationship between private transfers and health
+expenditures, generally ﬁnding a positive correlation among the two variables (e.g.
+Airola 2007; Valero-Gil 2008; Amuedo-Dorantes and Pozo 2011).4
+Given the signiﬁcant segment of the population that Seguro Popular aimed to
+cover, the program was expanded gradually throughout Mexico. The variation in
+Seguro Popular’s availability and intensity over time and space allows to identify its
+causal effects, where differences between regions permit circumventing issues of
+selection into treatment among the uninsured population. While the expansion of
+Seguro Popular was not completely random, several studies have relied on the
+timing and rate of the program’s implementation to identify its impact on different
+outcomes (Bosch et al. 2012).
+To date, evidence on the impact of Seguro Popular on private transfers is nonexistent, as the literature on Mexico has focused on whether social assistance
+programs such as Prospera, previously called Progresa and Oportunidades, or 70 y
+´
+Mas, both of which include a cash transfer component, crowd-out private support
+´
+(e.g. Attanasio and Rıos-Rull 2000; Albarran and Attanasio 2003; AmuedoDorantes and Juarez 2015). The related international literature is limited to the study
+3
+
+At the household level, in 2000 the sum of domestic and international private transfers represented on
+average 5.0 % of total household income. Among households receiving a positive amount of private
+transfers, they accounted for 32.0 % of their total income.
+
+4
+
+Amuedo-Dorantes and Pozo (2011) ﬁnd that a 100 pesos increase in private transfer income is
+associated with a 6 pesos increase in health expenditures. In contrast, for other sources of income, a 100
+pesos increase is associated with a 2 pesos increase in health expenses. Valero-Gil (2008) estimates that
+approximately 10.0 % of private transfer income is spent on health care. Moreover, the author observes
+that while only 2.0 % of households covered by social security institutions receive private transfers,
+7.3 % of non-covered households receive private transfers. Finally, Airola (2007) observes that private
+were affected by the introduction of a nationwide health insurance scheme. The
+scholars observe that the policy affected the likelihood of making or receiving
+informal transfers and their monetary equivalents.
+The results show that among households eligible for the program, a 1.0 %
+increase in the Seguro Popular coverage rate reduced the probability of receiving
+private transfers by 0.0555 % points. This ﬁnding appears to be driven by domestic
+private transfers, since the program’s effect is statistically signiﬁcant for private
+transfers originating within Mexico, but is not signiﬁcant for private transfers sent
+by foreign-based migrants. Moreover, the results show that Seguro Popular had a
+weak and non-signiﬁcant negative effect on the amount of private transfers
+received. The study suggests that an unintended consequence of Seguro Popular is
+that the program partially crowds-out private transfers by reducing the likelihood of
+receiving them.
+The study proceeds as follows. Section 2 discusses the motives for remitting and
+how Seguro Popular may affect private transfers. Section 3 provides background
+information on the social security system in Mexico and Seguro Popular. Section 4
+describes the data. Section 5 presents the methodology. Section 6 discusses the
+main results. Section 7 tests the sensitivity of the results. Section 8 concludes.
+
+2 Conceptual framework
+When studying the motives for remitting, the theoretical literature has mainly
+focused on altruism (e.g. Barro 1974; Becker 1974) and exchange (e.g. Bernheim
+et al. 1985; Cox 1987). Altruistic private transfers take place because the donor
+cares about the utility of the recipient. Private transfers motivated by exchange
+compensate the recipient for providing services to the donor, such as providing
+informal care or obeying parental rules (Juarez 2009). These alternative motives for
+remitting can imply drastically different outcomes for public policies that reallocate
+income (Cox 1987).
+Under the altruistic framework, enrolling in Seguro Popular may crowd-out
+private support as recipients enjoy higher disposable incomes. Barro (1974) and
+Becker (1974) argue that if households are linked through extensive networks, then
+changes in private inter-household transfers could completely neutralise the effects
+of public income redistribution programs. This result arises because in the altruistic
+model, conditional on remitting, an increase in the recipient’s income together with
+an equal decrease in the donor’s income unambiguously causes a decrease in the
+same amount in the transfer paid to the recipient. Moreover, an increase in the
+recipient’s income keeping the donor’s income constant would also cause a decrease
+in private transfers but to a lesser degree (Juarez 2009).
+If private transfers are not motivated by altruism, but instead are part of an
+explicit exchange of services between recipients and donors, crowding-out may not
+occur. The reasoning is that an increase in the recipient’s income would decrease
+her or his supply of services and generate an upward movement along the donor’s
+of private transfers received depends on the elasticity of the donor’s demand for the
+services provided by the recipient. In the case where demand is inelastic, which may
+arise because the services provided are not easily substituted, the amount of private
+transfers received would increase along with income, reinforcing the effects of the
+policy (Bernheim et al. 1985; Cox 1987).
+Other motives for remitting include a longing to secure access to family
+resources such as an inheritance (see, e.g. Bernheim et al. 1985; Lucas and Stark
+1985), or the desire to invest in physical or ﬁnancial assets to self-insure or to earn
+higher economic returns (see, e.g. Durand et al. 1996). On the other hand, private
+transfers may also be a product of informal risk-sharing agreements between donors
+and recipients (see, e.g. Rosenzweig 1988). If private transfers are sent for risksharing purposes, enrolling in Seguro Popular might have an effect on them since
+the program provides protection against some of the ﬁnancial costs associated with
+ill health. Finally, people may remit simply because the mere act of giving provides
+them utility or to comply with social norms (Jensen 2003). Under some of these
+motives, private transfers might not be displaced by increases in the recipient’s
+disposable income.
+
+3 Background
+3.1 Social security system and health insurance in Mexico
+Among the events that helped shape Mexico’s health care system was the creation
+of the Instituto Mexicano del Seguro Social (IMSS, Mexican Social Security
+Institute) in 1943. The IMSS grouped together the pre-existing union-based and
+industry-based coverage schemes that offered health services for registered private
+sector workers (OECD 2005). Subsequently, the Instituto de Seguridad y Servicios
+Sociales de los Trabajadores del Estado (ISSSTE, Institute of Security and Social
+Services for State Workers) was created for registered public sector workers in
+´
+1960.5 While IMSS and ISSSTE were created for registered workers, the Secretarıa
+de Salubridad y Asistencia (SSA, Ministry of Health and Welfare) was created in
+1943 to serve the uninsured population outside of the formal sector. This system left
+workers without formal salaried contracts (i.e. the self-employed, urban informal
+sector workers, the rural population, the unemployed, and those out of the labour
+force) and their families generally without health insurance and dependent of the
+services provided by the SSA (OECD 2005).
+Consequently, access to health care in Mexico has been historically linked to
+work status. Formal sector workers and their families, through social security
+institutions such as IMSS or ISSSTE, have the right to health services and a range of
+prescription drugs, and are entitled to a spectrum of beneﬁts including day care,
+5
+
+A number of systems were also created to provide health insurance to speciﬁc industry groups such as
+workers of Mexico’s oil state enterprise PEMEX in 1942 or to armed and naval forces personnel, i.e.
+others.
+Since the role of the SSA was of social assistance, there was no explicit package
+of health beneﬁts that the uninsured population was entitled to. In practice, the
+services provided by the SSA were limited by health budget allocations and the
+´
+availability of health facilities and medical personnel (Bonilla-Chacın and Aguilera
+2013). As a result, the services provided by the SSA were described as limited,
+frequently unavailable, and often requiring out-of-pocket expenditures (Lakin
+2010).
+While the health insurance schemes provided by social security institutions were
+ﬁnanced by a tripartite arrangement derived from federal government, employer and
+employee contributions, the SSA was underfunded as it was ﬁnanced through a
+combination of federal and state resources.6 Due in part to the differences in their
+ﬁnancing schemes, public health expenditures for individuals covered by social
+security institutions were twice as high as the expenditures for the uninsured (OECD
+2005). These differences led to a lower quality in the health care services provided
+by the SSA compared to social security institutions.
+By 2000, according to census data, 33.0 % of Mexico’s 97 million residents were
+covered by IMSS, 6.0 % were covered by ISSSTE and 2.2 % were covered by
+another public or private health insurer. The remaining 57.8 % of the population did
+not have health coverage and were lacking social protection against the ﬁnancial
+consequences of ill health (Frenk et al. 2006).
+3.2 Reform and description of Seguro Popular
+In the early 2000s, Mexico implemented a reform to its health system with the intent
+of achieving universal basic health coverage. At the centre of this reform was
+Seguro Popular, which represented the most ambitious effort to expand basic health
+protection since the creation of IMSS (Parker et al. 2010). The program was aimed
+at uninsured families not covered by social security institutions or without access to
+any other mechanism of social health insurance.
+Seguro Popular was established with the objective of promoting the advanced
+payment of medical services, encouraging preventing care, and reducing catastrophic health expenses among vulnerable households (DOF 2003). The implementation of Seguro Popular was accompanied by an increase in public health
+expenditures. Between 2000 and 2010, the SSA budget increased 142.0 %, the
+budget of IMSS grew 42.0 %, and that of ISSSTE grew 103.0 %. In terms of per
+capita health expenses, this narrowed the gap between individuals covered by social
+security institutions and the uninsured population (Knaul et al. 2012).
+Funding for Seguro Popular is multilateral, as it is ﬁnanced by the federal
+government, state governments and beneﬁciary families. The provision of services
+included under Seguro Popular is responsibility of each state’s health service
+6
+
+The term ‘‘states’’ is used as shorthand to refer to Mexico’s 31 states and one Federal District, i.e.
+Mexico City. Each state is divided into municipios, i.e. municipalities. In 2010, there were 2456
+management of Seguro Popular resources, and they are free to choose the use of the
+transfers they receive (Barros 2009).
+Seguro Popular offers primary, secondary and more advanced medical interventions, as well as access to medications and laboratory clinical studies, all provided
+free-of-charge. These interventions are classiﬁed into six general groups (i.e. public
+health, general family health and specialty services, dentistry, emergencies,
+hospitalisation and general surgery) covering more than 90.0 % of all hospital
+interventions. The program also covers 58 interventions contained in the Fondo de
+´
+´
+Proteccion contra Gastos Catastroﬁcos (Protection Fund against Catastrophic
+Expenses), which includes treatment for prematurely born babies, childhood
+leukaemia, cervical cancer and HIV.
+To register, applicants must reside in Mexico, not be entitled to coverage from a
+social security institution, present a birth certiﬁcate or unique population
+registration code, and provide a utility bill. Enrolments are formalised at orientation
+modules located in health centres, clinics and hospitals. Afﬁliation is not
+conditioned on health status, pre-existing illness, or co-payments according to the
+type of health care.
+Seguro Popular has a progressive afﬁliation fee, which substitutes the payment of
+subsequent services. The program is free to families located at the bottom four
+deciles of the income distribution. Since the majority of families enrolled in the
+´
+program have low-income levels, according to data provided by the Comision
+´
+Nacional de Proteccion Social en Salud (CNPSS, National Commission on Social
+Protection in Health), during the fourth quarter of 2008 Seguro Popular was free to
+more than 99.0 % of its beneﬁciaries.7
+To determine whether families are required to pay the afﬁliation fee, they are
+subject to a socioeconomic evaluation. Before being handed an afﬁliation card, the
+state’s health service administration must conﬁrm that the applicant is not registered
+in any institution’s social security database (DOF 2002). In practice, however,
+applicants are simply asked whether they are afﬁliated to a social security
+institution, where at the time of enrolment this information is not veriﬁed (Parker
+et al. 2010).
+By 2010, the budget for Seguro Popular ascended to 48.8 billion pesos, i.e.
+3.9 billion U.S. dollars. At the end of 2002 the number of families enrolled in
+Seguro Popular stood at 295,513. By 2007, 7.3 million families and 21.8 million
+people were afﬁliated to the program. By 2012, the number of families and
+individuals enrolled in Seguro Popular ascended to 20.2 and 52.9 million,
+respectively, from a pool of approximately 60 million potential beneﬁciaries.
+
+7
+
+Nevertheless, Scott (2006) shows that in 2004 65.0 % of the households afﬁliated to Seguro Popular
+were non-poor. Lakin (2010) states that upon the introduction of Seguro Popular, applicants were
+unwilling to pay the program’s afﬁliation fee. Consequently, to increase participation rates and meet
+afﬁliation targets, state governments misclassiﬁed families who were subject to the contributory fee as
+being poor. States have high incentives to enrol a large segment of the population in Seguro Popular since
+their health service administrations receive federal funds in proportion to the number of families that are
+Given the substantial segment of the population that Seguro Popular aimed to reach,
+the program was rolled-out and expanded gradually. Seguro Popular was ﬁrst put
+into effect in 2002 as a pilot program in selected localities in ﬁve states, i.e.
+Aguascalientes, Campeche, Colima, Jalisco and Tabasco. These localities were
+selected based on their social security coverage, their capacity to provide the
+program’s services, their urban and semi-urban concentrations, and the existence of
+groups already enrolled in assistance programs provided by the federal government
+(DOF 2002).
+In the program’s initial rules of operation, it was stated that to implement Seguro
+Popular, the federal government would subscribe coordination agreements with
+participating states. Nevertheless, during 2002 and 2003 a number of states started
+implementing Seguro Popular without having signed a formal agreement. This was
+possible before 2004 if the municipal government agreed to offer the program
+´
+(Bosch and Campos-Vazquez 2014). Furthermore, the program’s rules of operation
+established that the future selection of states and regions into Seguro Popular would
+be based on their proportion and number of uninsured people in the bottom six
+deciles of the income distribution, the incidence and prevalence of diseases, the
+existence of the health facilities required to offer the services covered under Seguro
+Popular, the potential demand for the program’s health insurance scheme, and per
+capita federal contributions (DOF 2002).
+´
+In 2003, Seguro Popular was formally established as the Sistema de Proteccion
+Social en Salud (Social Protection System in Health). The program’s rules of
+operation were modiﬁed where it was stated that Seguro Popular would gradually
+expand throughout Mexico according to resource availability (DOF 2003).
+Furthermore, it was speciﬁed that the expansion of Seguro Popular would be
+prioritised in localities according to the set of criteria deﬁned in DOF (2002), while
+taking into account the explicit request of state authorities to enrol in the program
+(DOF 2003). At the end of 2004, 30 out of 32 states had signed the coordination
+agreement with the federal government formalising their participation in Seguro
+Popular. The remaining two states, i.e. Durango and Mexico City, signed the
+agreements in 2005.
+Additionally, a number of different factors played a role in Seguro Popular’s roll´
+out process. Dıaz-Cayeros et al. (2006) argue that political reasons were an
+important element during the expansion of Seguro Popular. Barros (2009) also
+shows that political factors affected the program’s expansion and claims that
+because of logistical and political factors that inﬂuenced the phase-in process, the
+size of the program supply was not related to initial levels of economic development
+´
+or health requirements across states. Bosch and Campos-Vazquez (2014) ﬁnd that
+municipalities with larger populations and those located in smaller states joined
+Seguro Popular at earlier stages. The authors also observe that the implementation
+date of Seguro Popular and the political afﬁliation of state governors in post-pilot
+municipalities are correlated. Nevertheless, in general the scholars do not ﬁnd
+evidence towards targeting of Seguro Popular in speciﬁc municipalities, since
+et al. (2011) and Azuara and Marinescu (2013) show that levels of informality in the
+labour market prior to Seguro Popular being introduced were not correlated with the
+program’s entry date. In general, these studies conclude that the introduction of
+Seguro Popular was close to random and rely on the variation in the program’s
+expansion or implementation date to identify its effects (Bosch et al. 2012).
+
+4 Data
+4.1 Encuesta Nacional de Ingresos y Gastos de los Hogares
+To study the effect of Seguro Popular on private transfers, the Encuesta Nacional de
+Ingresos y Gastos de los Hogares (ENIGH, National Household Income and
+Expenditure Survey) is used. The ENIGH is a nationally representative crosssectional household survey carried out by Mexico’s national statistical agency.
+The ENIGH captures individual-level information on each household member’s
+socioeconomic characteristics and different sources of income, including international and domestic private transfers. Nonetheless, the survey does not include
+information on the characteristics or locality of donors. All net income ﬂows
+received by the respondent over the previous 6 months are registered. At the
+household level, the ENIGH captures expenditure data for up to the previous
+6 months. All income and expenditure data are self-reported. The study uses the
+2000, 2004, 2005, 2006, 2008, 2010 and 2012 editions of the ENIGH, which allows
+examining the impact of Seguro Popular as the program grew larger.8 The sample
+used is limited to economically inactive households and the uninsured, i.e.
+households not covered by a social security institution and who are, therefore,
+eligible for Seguro Popular.
+4.2 Expansion of Seguro Popular
+To calculate the expansion of Seguro Popular, a similar strategy to the one put
+forward by Grogger et al. (2011) is used. First, administrative data provided by the
+CNPSS on the number of individuals afﬁliated to Seguro Popular by state and
+quarter were collected. Subsequently, this information was converted into coverage
+rates by dividing it by quarterly estimates of the number of individuals eligible for
+Seguro Popular in each state. Data on the number of eligible or uninsured
+individuals were drawn from the Encuesta Nacional de Empleo (ENE, National
+´
+Employment Survey) and from the Encuesta Nacional de Ocupacion y Empleo
+(ENOE, National Occupation and Employment Survey). Coverage rates were
+constructed for 2004, 2005, 2006, 2008, 2010 and 2012.
+8
+
+The 2002 edition of the ENIGH is excluded from the study since there is little information regarding
+Seguro Popular’s rules of operation and coverage during its pilot period (Barros 2009). Furthermore,
+administrative data on the program’s coverage was only provided for the fourth quarter of 2002 onwards.
+Thus, it is not clear what Seguro Popular’s coverage was when the ENIGH 2002 was collected between
+low, since at the end of 2003 the average coverage rate within each state stood at
+8.0 %. Nevertheless, Seguro Popular rapidly expanded in the following years, where
+the program’s coverage increased to 33.4 % in 2006, 57.5 % in 2009, and 82.5 % in
+2012. Additionally, states were introduced to Seguro Popular at different periods,
+where the program grew at different rates within each state. For example, while at
+the end of 2002 Colima had a coverage rate of 57.3 %, during the same period 12
+states had a coverage rate of zero. Finally, while in 2004 Nuevo Leon and Zacatecas
+had similar coverage rates of 6.7 and 7.1 %, respectively, by 2010 these ﬁgures had
+grown and diverged to 62.6 and 81.3 %, respectively.
+
+5 Methodology
+To examine whether Seguro Popular crowds-out private transfers among eligible
+households, the program’s expansion throughout Mexico is exploited. Seguro
+Popular was introduced at different points and with different coverage rates between
+states, as the program’s availability and the share of eligible individuals covered by
+Seguro Popular varied between regions.
+The variation in the expansion of Seguro Popular has been widely used (e.g.
+Barros 2009; Aterido et al. 2011; Grogger et al. 2011; Azuara and Marinescu 2013;
+´
+Bosch and Campos-Vazquez 2014). To make use of this variation over time and
+space, I put forward a strategy similar to Grogger et al. (2011) and estimate the
+following model:
+yhst ¼ cSPst þ Xhst b þ Wmt h þ Zst k þ dt þ ls þ 2hst
+
+ð1Þ
+
+where yhst denotes the amount of total, international or domestic private transfers
+received by household h in state s in year t; SPst represents the Seguro Popular
+coverage rate in state s in year t; Xhst denotes a vector of household level characteristics that may affect private transfer receipt; Wmt and Zst represent vectors of
+municipality and state-level variables, respectively; dt represents a time period
+dummy which helps control for national trends in private transfer receipt; ls denotes
+state ﬁxed effects that capture time-invariant characteristics which may affect private transfer receipt and the availability or scope of Seguro Popular coverage in the
+state; and 2hst is a random error term assumed to be uncorrelated with SPst , Xhst , Wmt
+and Zst .9
+To analyse the impact of Seguro Popular on the amount of private transfers
+received, i.e. the intensive margin, Eq. (1) is estimated using ordinary least squares
+(OLS). When studying the effect of Seguro Popular on the probability of receiving
+private transfers, i.e. the extensive margin, Eq. (1) is estimated using OLS as a
+linear probability model (LPM). In the latter case, yhst represents a binary variable
+that takes the value of one if household h receives a positive amount of private
+transfers or zero otherwise. Both models include as covariates the Seguro Popular
+9
+Various regressions presented in Sects. 6 and 7 include lm , which denotes municipality ﬁxed effects, in
+gender; the number of household members under age 12; the number of household
+members age 65 and older; indicator variables for low-quality roofs, ﬂoors, and
+walls in the household; a dichotomous variable denoting whether the household is
+located in a rural locality; and a set of state or municipality and year dummy
+variables. Municipality-level controls introduced in Eq. (1) include government
+revenue, number of housing credits granted and number of workers afﬁliated to
+IMSS. State-level variables include the state population and binary variables
+indicating the political afﬁliation of the Governor.10 Equation (1) also includes an
+indicator variable denoting whether any of the household’s members receives a
+scholarship or transfer from Prospera. Prospera is a poverty reduction cash transfer
+program with education and health components, where households receive transfers
+conditional on sending their children to school and visiting health clinics.11
+Equation (1) is estimated separately for total, international and domestic private
+transfers.12 Standard errors are clustered by state to account for possible correlation
+among households in some unknown way.13
+
+6 Results
+6.1 Descriptive statistics
+Table 1 displays the means of selected variables of the uninsured households
+included in the study. It can be seen that in 2000, 19.4 % of households received
+private transfers. By 2006 this ﬁgure had risen to 25.6 %, but by 2012 it had
+declined to 25.0 %. Disaggregating total private transfers, it can be seen that during
+these three periods the percentage of households receiving domestic private
+transfers increased from 14.1 % in 2000, to 18.1 % in 2006, and 19.7 % in 2012. On
+the other hand, the number of households receiving international private transfers
+increased from 6.2 % in 2000 to 8.9 % in 2006. Nonetheless, this ﬁgure dropped to
+6.6 % in 2012. Concerning the amount of private transfers received, a similar but
+10
+Information on the political afﬁliation of state Governors was taken from the CIDAC electoral data
+base. See http://www.cidac.org/eng/Electoral_Database.php.
+11
+
+Beneﬁciaries of Prospera are also eligible for Seguro Popular. The original Prospera program included
+a health component which covered 13 medical interventions. Frenk et al. (2006) argue that while Prospera
+proved to be a valuable instrument in reducing poverty and improving health levels, a signiﬁcant
+proportion of the cash transfers received by afﬁliated families were used to ﬁnance medical care not
+´
+included in the programs catalogue of interventions.
+12
+Distinguish between international and domestic private transfers is important since they may be
+crowded-out to different degrees as a result of differences in donor characteristics, motivation, or
+information about the program (Amuedo-Dorantes and Juarez 2015).
+13
+While some studies exploit the municipality level variation in the availability of Seguro Popular, this
+study mainly focuses on the program’s expansion at the state level. Obtaining the coverage ratio of
+Seguro Popular at the municipality level is problematic because information on the number of individuals
+eligible for Seguro Popular at the municipality level can only be obtained from either the 2000 and 2010
+censuses or the 2005 population count. Nevertheless, Sect. 7.3 exploits the municipality level variation of
+
+0.057
+
+9142
+
+0.136
+
+257.5
+
+10,052.6
+
+9764.3
+
+7.40
+
+0.782
+
+0.300
+
+289.8
+
+168.9
+
+458.7
+
+2004
+
+9984
+
+0.254
+
+224.9
+
+8909.1
+
+9109.7
+
+7.17
+
+0.783
+
+0.342
+
+265.0
+
+184.0
+
+449.1
+
+0.151
+
+0.068
+
+0.211
+
+2005
+
+8759
+
+0.334
+
+264.5
+
+9586.5
+
+9327.3
+
+7.21
+
+0.767
+
+0.349
+
+283.4
+
+286.1
+
+569.5
+
+0.181
+
+0.089
+
+0.256
+
+2006
+
+9850
+
+0.538
+
+175.9
+
+8105.4
+
+9251.5
+
+7.05
+
+0.791
+
+0.343
+
+178.9
+
+176.8
+
+355.7
+
+0.155
+
+0.077
+
+0.218
+
+2008
+
+8864
+
+0.759
+
+139.9
+
+7360.6
+
+7020.4
+
+7.05
+
+0.806
+
+0.345
+
+173.8
+
+137.6
+
+311.5
+
+0.155
+
+0.059
+
+0.205
+
+2010
+
+Source: Author’s elaboration based on the ENIGH. HH denotes households. Monetary ﬁgures are per month and in real 2006 Mexican pesos
+
+Observations
+
+0
+
+194.9
+
+Health expenditures
+
+Seguro Popular coverage by state (%)
+
+7534.1
+
+Total expenditures
+
+5.68
+
+HH head years of schooling
+7692.3
+
+0.823
+
+Total income
+
+0.435
+
+HH head male (%)
+
+247.3
+
+Domestic private transfers received
+
+Rural locality (%)
+
+140.6
+
+International private transfers received
+
+0.141
+387.9
+
+Received domestic private transfers (%)
+
+Private transfers received
+
+0.194
+0.062
+
+Received international private transfers (%)
+
+2000
+
+Received private transfers (%)
+
+Variable
+
+Table 1 Descriptive statistics
+
+3476
+
+0.825
+
+122.1
+
+6707.1
+
+6604.8
+
+6.41
+
+0.799
+
+0.530
+
+159.0
+
+105.2
+
+264.2
+
+0.197
+
+0.066
+
+0.250
+
+2012
+transfers received stood at 387.9 pesos per month. By 2006, this ﬁgure had
+increased to 569.5, but by 2012 it had declined to 264.2 pesos per month.
+Distinguishing between the amount of international and domestic private transfers
+received, it is observed that they both followed a similar pattern to that of total
+private transfers.
+With respect to other variables, it is observed that while household income
+increased by 21.3 % between 2000 and 2006, it encountered a sharp decline
+between 2006 and 2012 falling by 29.2 %. Household expenditures faced a similar
+pattern increasing by 27.2 % between 2000 and 2006, and subsequently declining
+by 30.0 % between 2006 and 2012. As a result, during the period of study, the
+average household included in the sample went from being a net saver to a net
+debtor. On the other hand, household health expenditures, which stood at 194.8
+pesos per month in 2000, increased to 264.5 in 2006, but decreased to 122.1 pesos
+per month in 2012. Nevertheless, looking at the raw data it is not possible to
+identify how much of this decline is due to a reduction in household income or is
+a result of the implementation of Seguro Popular. Concerning the sociodemographic variables included in the table, it is noteworthy to mention that
+the proportion of households located in rural areas varies signiﬁcantly between
+years. This variation in the sampling likely affects other variables such as the
+average years of schooling of the household head, and highlights the importance
+of controlling for additional factors when performing the econometric analysis.
+Finally, looking at the Seguro Popular coverage rate by state, in 2006 an average
+of 33.4 % of the households in each state were enrolled in the program. By 2012,
+the coverage rate had grown to 82.5 %.
+6.2 Does Seguro Popular crowd-out private transfers?
+Results of the effect of Seguro Popular on private transfers based on Eq. (1) are
+presented in Table 2.14 In all columns, the ﬁrst row shows the coefﬁcient of the
+Seguro Popular (SP) coverage rate at the state level. It can be seen in column (1)
+that Seguro Popular had a negative but not statistically signiﬁcant effect on the
+amount of private transfers received. Under the preferred speciﬁcation presented in
+column (2), which includes a full set of controls as well as municipality ﬁxed
+effects, it is estimated that Seguro Popular reduced on average the monthly amount
+of private transfers received by 50.86 pesos. While the coefﬁcients are negative,
+since they are not statistically signiﬁcant, it is not possible to state that the
+implementation of Seguro Popular affected the amount of private transfers
+received.15 Focusing on other variables, it is observed that male-headed households
+14
+The validity of the identiﬁcation strategy used in this study is examined in the Appendix, i.e. the
+exogeneity of Seguro Popular’s implementation across regions.
+15
+On the other hand, when Eq. (1) is estimated using health expenditures as the dependent variable, the
+effect of Seguro Popular is that the program reduced health expenditures by 92.03 pesos per month. This
+estimation includes a full set of controls as well as municipality ﬁxed effects and is statistically signiﬁcant
+at the 10.0 % level. Moreover, this result is always signiﬁcant and is relatively consistent across different
+
+Yes
+
+54,854
+
+State ﬁxed effects
+
+State-level controls
+
+Municipality ﬁxed effects
+
+Municipality-level controls
+
+Observations
+
+54,854
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+173.9*** (57.87)
+
+66.16*** (19.91)
+
+130.6*** (18.29)
+
+47.61** (22.73)
+
+13.50 (21.73)
+
+-16.32* (9.115)
+
+33.89*** (4.422)
+
+54,854
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+0.0511*** (0.0081)
+
+0.0341*** (0.0063)
+
+0.0196*** (0.0053)
+
+0.0130 (0.0110)
+
+0.0440*** (0.0070)
+
+-0.0032 (0.0020)
+
+-0.0112** (0.0048)
+
+-0.3220*** (0.0140)
+
+-0.0009* (0.0005)
+
+0.0012*** (0.0003)
+
+-0.0577* (0.0333)
+
+54,854
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+0.0446*** (0.0083)
+
+0.0241*** (0.0059)
+
+0.0158*** (0.00513)
+
+0.0183* (0.0099)
+
+0.0425*** (0.0069)
+
+-0.0031 (0.0020)
+
+-0.0160*** (0.0044)
+
+-0.3150*** (0.0137)
+
+-0.0005 (0.0006)
+
+0.0011*** (0.0003)
+
+-0.0555* (0.0297)
+
+(3)
+(4)
+LPM: probability of receiving private transfers
+
+* p \ 0.10, ** p \ 0.05, *** p \ 0.01
+
+Source: Author’s elaboration based on the ENIGH. State-level controls include the state population size and binary variables that indicate the political afﬁliation of the
+Governor. Municipality-level controls include government revenue, number of housing credits granted and number of workers afﬁliated to IMSS. Monetary ﬁgures are in
+real 2006 pesos. Standard errors are clustered at the state level
+
+Yes
+
+Yes
+
+Year ﬁxed effects
+
+95.42*** (18.55)
+
+166.9*** (31.57)
+
+141.8*** (17.12)
+
+Good quality roofs in the HH
+
+Rural locality
+
+35.38 (21.90)
+
+Good quality walls in the HH
+
+Good quality ﬂoors in the HH
+
+19.66 (19.79)
+
+HH members age 65 and older
+
+-0.0155 (17.18)
+
+-3.860 (17.67)
+
+-14.19 (9.195)
+
+HH enrolled in Prospera
+
+HH members under age 12
+
+-1041.5*** (73.60)
+
+34.18*** (4.657)
+
+-1058.5*** (74.22)
+
+HH head years of schooling
+
+HH head male
+
+-50.86 (128.8)
+-4.345*** (1.325)
+
+-118.6 (116.8)
+
+-4.128*** (1.260)
+
+SP coverage at the state level
+
+HH head age
+
+(1)
+(2)
+OLS: amount of private transfers received
+
+Variable
+
+Table 2 SP coverage and total private transfers
+Moreover, residing in a household located in a rural locality is positively and
+statistically signiﬁcantly associated with the amount of private transfers received.
+Additional variables which inﬂuence the amount of private transfers received
+include indicators of the quality of the household and the number of years of
+schooling of the household head, which are positively associated with the outcome
+of interest; and the age of the household head, which is negatively associated with
+the dependent variable.
+Table 2 also presents results where the relationship between Seguro Popular and
+the likelihood of receiving private transfers is analysed. It is observed in column (3)
+that the relationship between Seguro Popular and the probability of receiving private
+transfers is negative and statistically signiﬁcant. Column (4) shows that when a full
+set of controls are introduced, including municipality ﬁxed effects, the estimated
+effect of Seguro Popular is that a 1.0 % increase in its coverage rate reduced the
+probability of receiving private transfers by 0.0555 % points, where this coefﬁcient
+is signiﬁcant at the 10.0 % level. Additionally, since the crowding-out effect is only
+observed at the extensive margin, it is possible to quantify this estimate in pesos.
+This is done by multiplying the effect reported in column (4) by the mean amount of
+private transfers received by uninsured households prior to the program’s
+introduction. Since the mean amount of private transfers received by households
+in 2000 was 387.9 pesos per month, multiplying this amount by the estimated
+coefﬁcient of -0.0555 produces a reduction of 21.5 pesos per month, which is equal
+to 23.3 % of the estimated effect of Seguro Popular on health expenditures.
+Concerning the other variables, male-headed households have a lower probability of
+receiving private transfers than female-headed households. Moreover, households
+located in rural localities have a higher likelihood of receiving private transfers than
+those located in urban settings. Further variables which affect the probability of
+receiving private transfers include indicators of the quality of the household, the age
+of the household head, and the number of household residents over 65, all of which
+are positively associated with the probability of receiving private transfers; and
+being enrolled in Prospera, which is negatively associated with the dependent
+variable.16
+To study whether the previous ﬁndings are driven by private transfers originating
+from Mexico or abroad, Table 3 presents estimations where private transfers are
+classiﬁed as international or domestic according to the sender’s country of
+residence. It is observed that the introduction of Seguro Popular did not have a
+statistically signiﬁcant effect on either the amount of international private transfers
+received or on the probability of receiving them. In fact, when a full set of control
+are added the coefﬁcient becomes positive although not signiﬁcant. Focusing on
+domestic private transfers, it can be seen that under all the different speciﬁcations
+the relationship between Seguro Popular and the amount of domestic private
+transfers received is negative. When a full set of controls are introduced, including
+municipality ﬁxed effects, it is estimated that the program reduced the amount of
+16
+
+Table 10 in the Appendix allows for a more ﬂexible speciﬁcation of Eq. (1), where the program’s
+
+54,854
+
+Municipality-level controls
+
+Observations
+
+-0.0021 (0.0248)
+
+54,854
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+54,854
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-0.0540* (0.0313)
+
+-75.03 (114.0)
+
+54,854
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+-0.0625* (0.0321)
+
+-72.48 (115.4)
+
+(4)
+
+* p \ 0.10, ** p \ 0.05, *** p \ 0.01
+
+Source: Author’s elaboration based on the ENIGH. HH-level controls include the variables presented in Table 2. State-level controls include the state population size and
+binary variables that indicate the political afﬁliation of the Governor. Municipality-level controls include government revenue, number of housing credits granted and
+number of workers afﬁliated to IMSS. Monetary ﬁgures are in real 2006 pesos. Standard errors are clustered at the state level
+
+Yes
+
+No
+
+Municipality ﬁxed effects
+
+State ﬁxed effects
+
+State-level controls
+
+Yes
+
+Yes
+
+Year ﬁxed effects
+
+-0.0107 (0.0237)
+
+Yes
+
+SP coverage at the state level
+
+HH-level controls
+
+21.62 (71.12)
+
+(3)
+
+(1)
+
+(2)
+
+Domestic
+
+International
+
+LPM: probability of receiving private transfers
+
+SP coverage at the state level
+
+OLS: amount of private transfers received
+
+Variable
+
+Table 3 SP coverage and international and domestic private transfers
+coefﬁcient is not signiﬁcant. Turning our attention to the probability of receiving
+private transfers, when a full set of controls are included, the estimated effect of
+Seguro Popular is that it reduced the likelihood of receiving domestic private
+transfers by 6.25 percentage points, where this coefﬁcient is statistically signiﬁcant
+at the 10.0 % level. These results suggest that the ﬁndings presented in Table 2 are
+driven by domestic private transfers, since Seguro Popular does not have an effect
+on international private transfers at either the intensive or extensive margins. The
+previous ﬁndings may arise because most senders located within Mexico are aware
+of Seguro Popular and, therefore, changed their remitting behaviour upon the
+program’s introduction. This is likely to be case since the program was widely
+publicised by the federal government. On the other hand, a large number of senders
+located in foreign countries may not be aware of the program and consequently did
+not alter their remitting behaviour. Alternatively, domestic and international donors
+may have different motives for remitting and thus reacted differently upon the
+implementation of Seguro Popular.17
+
+7 Sensitivity checks
+7.1 Tobit and logit models
+This section examines the sensitivity of the results to the use of a tobit model when
+analysing the effect of Seguro Popular on the amount of private transfers received,
+and to the use of a logit speciﬁcation when studying its impact on the likelihood of
+receiving private transfers. Tobit estimations presented in Table 4 columns (1) and
+(2) show that Seguro Popular had a negative and statistically signiﬁcant negative
+effect on the amount of private transfers received. This ﬁnding differs from the OLS
+results, where although it was observed that the program had a negative impact on
+the amount of private transfers received, the effect was not statistically signiﬁcant.
+Focusing on the extensive margin, logit estimations presented in column (4) show
+that a 1.0 % increase in Seguro Popular’s coverage rate reduced the probability of
+receiving private transfers by 0.0654 % points. This coefﬁcient is statistically
+signiﬁcant at the 10.0 % level, and larger than the one obtained from the LPM
+estimations presented in Table 2.
+7.2 Different subsamples
+To further analyse the sensitivity of the results, Table 5 presents estimations of
+Eq. (1) when focusing on different population groups or when the ENIGH’s survey
+weights are used. Panel A presents the results obtained in Table 2, so that
+17
+
+This result is similar to that obtained by Amuedo-Dorantes and Juarez (2015), who analyse whether
+´
+the 70 y Mas program for the rural elderly in Mexico crowded-out private transfers. In their study, the
+scholars observe a crowding-out effect at the extensive margin but not at the intensive margin. Moreover,
+Yes
+
+No
+
+54,854
+
+Municipality ﬁxed effects
+
+Municipality-level controls
+
+Observations
+
+Yes
+
+54,854
+
+Yes
+
+No
+
+54,854
+
+No
+
+No
+
+No
+
+Yes
+
+0.0391*** (0.0059)
+
+54,854
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+0.0538*** (0.0079)
+
+0.0341*** (0.0061)
+
+0.0190*** (0.0053)
+
+0.0152 (0.0123)
+
+Source: Author’s elaboration based on the ENIGH. For the tobit, ﬁgures reported denote the unconditional marginal effects. HH denotes households. state-level controls
+include the state population size and binary variables that indicate the political afﬁliation of the Governor. Municipality-level controls include government revenue,
+number of housing credits granted and number of workers afﬁliated to IMSS. Monetary ﬁgures are in real 2006 pesos. Standard errors are clustered at the state level
+
+No
+
+No
+
+State-level controls
+
+Yes
+
+150.31*** (23.73)
+
+Rural locality
+
+Yes
+
+89.17*** (14.23)
+
+Good quality ﬂoors in the HH
+
+State ﬁxed effects
+
+77.97*** (12.97)
+
+Good quality roofs in the HH
+
+Year ﬁxed effects
+
+45.51 (29.37)
+
+Good quality walls in the HH
+
+-0.0035 (0.0022)
+
+-13.07** (5.812)
+84.34*** (15.09)
+
+HH members under age 12
+
+HH members age 65 and older
+
+-0.0099** (0.0048)
+
+-22.96* (12.63)
+
+HH enrolled in Prospera
+
+-0.0010* (0.0005)
+-0.3280*** (0.0083)
+
+9.817*** (1.973)
+-1100.8*** (61.87)
+
+0.0013*** (0.0003)
+
+HH head years of schooling
+
+Yes
+
+-0.0669* (0.0343)
+
+HH head male
+
+Yes
+
+168.0* (87.35)
+2.111*** (0.7987)
+
+-206.4** (102.2)
+
+(4)
+
+(3)
+
+(1)
+
+(2)
+
+Tobit: amount of private transfers received
+
+HH head age
+
+SP coverage at the state level
+
+Variable
+
+Table 4 SP coverage and total private transfers. Marginal effects
+
+-74.72* (38.18)
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+HH-level controls
+
+Year ﬁxed effects
+
+State ﬁxed effects
+
+State-level controls
+
+Municipality ﬁxed effects
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+126.1 (535.9)
+
+-38.66 (123.8)
+
+-99.26 (129.4)
+
+-100.9 (443.1)
+
+F. Weighted results
+
+G. Conditional on receiving a positive
+amount of private transfers
+
+145.1 (185.0)
+
+33.27 (156.3)
+
+Low
+
+-222.3* (122.4)
+
+-249.9** (113.3)
+
+-21.58 (234.8)
+
+-42.91 (42.02)
+
+-8.376 (202.1)
+
+-124.5 (166.4)
+
+-499.0 (471.0)
+
+High
+
+E. Low- and high-health expenditure households
+
+-110.3 (211.8)
+
+Low
+
+High
+
+D. Low- and high-income households
+
+-65.11 (173.4)
+
+Urban
+
+Rural
+
+C. Urban–rural
+
+-548.6 (430.7)
+
+Men
+
+0.1090 (104.4)
+
+-50.86 (128.8)
+
+-118.6 (116.8)
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+–
+
+-0.0236 (0.0440)
+
+-0.0458 (0.0365)
+
+-0.0628 (0.0432)
+
+-0.0592* (0.0345)
+
+-0.0516 (0.0437)
+
+-0.0759 (0.0509)
+
+-0.0488 (0.0334)
+
+-0.1160* (0.0623)
+
+-0.0474 (0.0334)
+
+-0.0577* (0.0333)
+
+(2)
+
+(1)
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+–
+
+-0.0285 (0.0332)
+
+-0.0273 (0.0370)
+
+-0.0762* (0.0383)
+
+-0.0457 (0.0341)
+
+-0.0677 (0.0436)
+
+-0.0776 (0.0512)
+
+-0.0444 (0.0347)
+
+-0.0892 (0.0662)
+
+-0.0506 (0.0347)
+
+-0.0555* (0.0297)
+
+(4)
+
+(3)
+
+OLS: amount of private transfers received
+
+Women
+
+B. Men–women
+
+A. Main
+
+Sample
+
+Table 5 SP coverage and private transfers. Subsamples
+
+Lat Am Econ Rev (2015) 24:7
+Yes
+
+Yes
+
+Yes
+
+(4)
+
+(1)
+
+(2)
+
+(3)
+
+OLS: amount of private transfers received
+
+* p \ 0.10, ** p \ 0.05, *** p \ 0.01
+
+Source: Author’s elaboration based on the ENIGH. Figures presented represent coefﬁcient estimates for SP coverage at the state level. HH-level controls include the
+variables presented in Table 2. Low- and high-income households refer to the households located above and below the median of the household income distribution,
+respectively. Low- and high-health expenditure households refer to the households located above and below the median of the household health expenditure distribution,
+respectively. State-level controls include the state population size and binary variables that indicate the political afﬁliation of the Governor. Municipality-level controls
+include government revenue, number of housing credits granted and number of workers afﬁliated to IMSS. Monetary ﬁgures are in real 2006 pesos. Standard errors are
+clustered at the state level
+
+Municipality-level controls
+
+Sample
+
+Table 5 continued
+report the different sensitivity checks.
+Panel B shows that Seguro Popular had different effects which varied according
+to the gender of the household head. The program had a stronger impact in femaleheaded households at both the intensive and extensive margins. Nonetheless, when a
+full set of controls are included, due to the large standard errors, the estimated
+coefﬁcients are generally not signiﬁcant. It is only in column (3), when estimating
+the program’s effect on the probability of receiving private transfers for women and
+when state ﬁxed effects are included, that a negative and signiﬁcant effect of 11.6 %
+points is observed.
+Panel C analyses the effect of Seguro Popular in urban and rural localities. These
+coefﬁcients are quite similar to one another and to the one displayed in Panel A.
+Moreover, even though the coefﬁcients are not statistically signiﬁcant, it can be seen
+in column (2) that when a full set of controls are added, the program’s effect is
+larger in urban settings. This result may be related to the ﬁnding presented in
+Grogger et al. (2011), where the authors state that the program’s impact is stronger
+in urban localities, since health centres and hospitals located in cities are better
+equipped and generally offer all of the interventions covered under Seguro Popular.
+On the other hand, health facilities located in rural localities are frequently limited
+in the amount of the services they provide. Consequently, the impact of Seguro
+Popular on health expenditures tends to be lower in rural localities. Nevertheless,
+column (4) shows that the program’s effect on the likelihood of receiving private
+transfers, although not signiﬁcant, is larger in absolute value in rural areas.
+Panel D differentiates between low- and high-income households. The program’s
+effect is relatively stable throughout the income distribution, where the effect of
+Seguro Popular at both the intensive and extensive margins is similar for both
+groups. Moreover, these effects closely resemble those presented in Panel A, where
+their weaker signiﬁcance is partly driven by their smaller sample sizes.18
+Panel E separates households according to whether they incur in high- or lowhealth expenditures. The program’s effect is much stronger in low-health
+expenditure households. When focusing on the effect of Seguro Popular on the
+amount of private transfers received, it is observed that the estimated coefﬁcients
+are negative and signiﬁcant in low-health expenditure households. Moreover, it can
+be seen in column (2) that when a full set of controls are included, the program’s
+effect rises to 222.3 pesos per month. For high-health expenditure households, the
+coefﬁcients are not signiﬁcant. Focusing on the extensive margin, column (4) shows
+that in low-health expenditure households the introduction of Seguro Popular
+reduced the likelihood of receiving private transfers by 7.62 percentage points,
+where this coefﬁcient is statistically signiﬁcant at the 10.0 % level. In high-health
+expenditure households, it is estimated that a 1.0 % increase in the program’s
+18
+Since the division of low and high-income households according to whether they are below or above
+the median may seem arbitrary, estimations were also performed where households were classiﬁed
+depending on whether they fall below or above the mean. Households were also grouped by quartiles,
+where a comparison was made between those located at the lowest and highest quartiles. The results
+points. Nonetheless, this coefﬁcient is not signiﬁcant.
+Panel F makes use of the household weights included in the ENIGH. The results
+show that, when household weights are used, the impact of Seguro Popular on the
+amount of private transfers received is generally negative and not statistically
+signiﬁcant. Concerning the program’s impact on the likelihood of receiving private
+transfers, it can be seen in columns (3) and (4) that when a full set of controls are
+included, although negative, neither of the coefﬁcients are signiﬁcant.
+Finally, Panel G focuses on households that report receiving a positive amount of
+private transfers. When state ﬁxed effects are used along with a full set of controls,
+it is estimated that Seguro Popular reduced private transfers by 100.9 pesos per
+month. When municipality ﬁxed effects are used, the effect of Seguro Popular is
+limited to an increase of private transfer income of 126.1 pesos per month.
+Nevertheless, neither of these two coefﬁcients are statistically signiﬁcant. These
+results offer additional evidence that the introduction of Seguro Popular did not
+affect the amount of private transfers received.19
+7.3 Municipality-level variation
+This section exploits the municipality-level variation in the availability of Seguro
+Popular. Deﬁning the availability of Seguro Popular in each municipality involves
+outlining an arbitrary threshold, since there is no ofﬁcial record of when the
+program’s services were initially offered in each municipality.20 In this study, a
+municipality is considered as having direct access to Seguro Popular when in its ﬁrst
+observed in any given period that ten or more of its households are afﬁliated to the
+program.
+Table 6 presents results of Eq. (1) at both the intensive and extensive margins,
+where the availability of Seguro Popular at the municipality level is introduced as a
+binary variable in place of the program’s coverage rate at the state level. Panel A
+19
+Since the introduction of Seguro Popular partially crowded-out private transfers and the program
+reduced health expenditures by an even larger amount, the matter of how households used their additional
+income derived from being afﬁliated to the program was also examined. Equation (1) was estimated with
+a full set of controls with the dependent variable being household savings or a variety of expenditure
+categories such as food, clothing, housing, transportation or education. In results not presented, the
+estimated equations show that the introduction of Seguro Popular did not affect household savings,
+suggesting that the additional resources were likely used for consumption purposes. The different
+expenditure categories were also unaffected by the program’s introduction. These results are likely to
+arise because health expenditures constitute a very small fraction of total household expenses. Thus, even
+if Seguro Popular reduced health expenditures, its effect may not be large enough to inﬂuence household
+expenses in other categories. Nonetheless, this result may also be a product of measurement error which is
+a common issue when working with expenditure data.
+20
+In each state where Seguro Popular was introduced, it was up to the local government to undertake the
+actions required to identify beneﬁciary groups, their afﬁliation and the programs diffusion within their
+state (DOF 2002). Thus, the decision of which municipalities were afﬁliated ﬁrst was based on
+agreements with local governments, where each state decided to implement Seguro Popular according to
+its own goals, while generally satisfying the rules of operation of the program (Bosch and Campos´
+Vazquez 2014). Moreover, the extent of Seguro Popular’s coverage within each municipality was decided
+by the municipal governments and was based on numerous factors including the availability of resources
+
+No
+
+Yes
+
+State ﬁxed effects
+
+State-level controls
+
+Municipality ﬁxed effects
+
+Municipality-level controls
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+5.351 (28.94)
+
+0.0004 (0.0137)
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-0.0031 (0.0143)
+
+-0.0190 (0.0130)
+
+-0.0145* (0.0084)
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+-0.0067 (0.0165)
+
+-0.00611 (0.0148)
+
+-0.0128 (0.0158)
+
+-0.0358** (0.0178)
+
+* p \ 0.10, ** p \ 0.05, *** p \ 0.01
+
+Source: Author’s elaboration based on the ENIGH. Figures presented represent coefﬁcient estimates for SP availability at the municipality level. HH-level controls include
+the variables presented in Table 2. State-level controls include the state population size and binary variables that indicate the political afﬁliation of the Governor.
+Municipality-level controls include government revenue, number of housing credits granted and number of workers afﬁliated to IMSS. Monetary ﬁgures are in real 2006
+pesos. Standard errors are clustered at the municipality level
+
+Full sample and divided by position in the income distribution
+
+Yes
+
+Yes
+
+Year ﬁxed effects
+
+83.41 (91.44)
+
+Yes
+
+E. Fourth quartile
+
+HH-level controls
+
+-53.92 (41.23)
+
+-14.72 (25.91)
+
+-64.15* (38.05)
+
+C. Second quartile
+
+D. Third quartile
+
+-0.0249* (0.0129)
+
+-0.0097 (0.0081)
+
+2.660 (36.43)
+-37.80** (18.54)
+
+-28.05 (28.56)
+
+-46.57*** (13.88)
+
+A. Full sample
+
+(2)
+
+(1)
+
+(4)
+
+(3)
+
+OLS: amount of private transfers received
+
+B. First quartile
+
+Sample
+
+Table 6 SP availability and private transfers. Municipality-level variation
+
+Lat Am Econ Rev (2015) 24:7
+quartiles according to the household’s position in the income distribution.21
+Column (1) of Panel A shows that when a full set of controls are introduced jointly
+with state ﬁxed effects, the negative effect of Seguro Popular on the amount of
+private transfers received stands at 28.05 pesos per month, where this effect is not
+statistically signiﬁcant. When municipality ﬁxed effects are used as in columns (2),
+this effect becomes positive but remains non-signiﬁcant. Focusing on the extensive
+margin, it is observed in column (4) that, when a full set of controls is included along
+with municipality ﬁxed effects, the program reduced the likelihood of receiving
+private transfers by 1.45 percentage points, where this result is statistically signiﬁcant
+at the 10.0 % level. Consequently, an analysis that uses the program’s availability at
+the municipality level provides further evidence that Seguro Popular did not crowdout private transfers at the intensive margin. On the other hand, it supports the ﬁnding
+that the program had weak but statistically signiﬁcant effect at the extensive margin.
+Focusing on households located at different parts of the income distribution,
+Panel B shows that the program’s effect was stronger among households located in
+the bottom quartile. Column (1) shows that at the intensive margin, when a full set
+of controls are introduced including state ﬁxed effects, it is estimated that Seguro
+Popular reduced the amount of private transfers received by 46.57 pesos per month,
+where this coefﬁcient is statistically signiﬁcant at the 1.0 % level. Moreover, when
+municipality ﬁxed effects are used, it is observed in column (2) that the program
+reduced private transfers by 37.80 pesos per month, where this coefﬁcient is
+signiﬁcant at the 5.0 % level. At the intensive margin, similar results are found.
+Column (3) shows that, when a full set of controls are used including state ﬁxed
+effects, it is estimated that the program reduced the likelihood of receiving private
+transfers by 2.49 % points. When municipality ﬁxed effects are incorporated, it can
+be seen in column (4) that Seguro Popular reduced the likelihood of receiving
+private transfers by 3.58 % points, where this coefﬁcient is signiﬁcant at the 5.0 %
+level. Finally, regarding the households located in the top three quartiles of the
+income distribution, Panels C, D and E show that in general Seguro Popular did not
+affect private transfers at either the intensive or extensive margins. The program’s
+effect might be larger among low-income households given that they are actually
+more likely to be enrolled in Seguro Popular relative to higher income households.
+Furthermore, the fact that the program crowds-out private support among lowincome households but not among those located higher in the income distribution
+may be a result of differences in the motives for remitting among donors depending
+on the receiving household’s level of income.
+
+21
+
+While generally consistent, when using Seguro Popular’s availability at the municipality level as the
+main explanatory variable, the magnitude of the estimated coefﬁcients is dependent on which threshold is
+used to denote when the program ﬁrst became available in each municipality. Furthermore, using the
+program’s availability instead of its coverage rate conceals substantial information, particularly
+considering that the study covers a period of both low and high Seguro Popular coverage. Due to these
+shortcomings, estimations when using the program’s state coverage rate instead of its municipality
+Since the ENIGH collects information on household expenditures, it is possible to
+focus on donors instead of recipients and examine the effect of Seguro Popular on
+the amount of private transfers sent and on the probability of remitting a positive
+amount.22 To calculate the effect of Seguro Popular on donors, Eq. (1) is again
+estimated where the dependent variable is either the monthly amount of private
+transfers sent or a dichotomous variable that takes the value of one if the household
+remitted a positive amount during the previous 6 months or zero otherwise.
+Additionally, to minimise unobserved heterogeneity that may affect remitting
+behaviour, households are classiﬁed according to whether they are eligible or
+ineligible for Seguro Popular.
+Table 7 shows that among households eligible for Seguro Popular, when a full set
+of controls are introduced along with state ﬁxed effects, it is estimated that the
+program increased the amount of private transfers sent by 10.92 pesos per month,
+where this effect is not statistically signiﬁcant. When municipality ﬁxed effects are
+included, the effect increases to 18.48 pesos per month but is once again nonsigniﬁcant. With respect to the program’s effect on the probability of remitting, a
+similar relationship is observed. Whether state- or municipality ﬁxed effects are
+included along with a full set of controls, it is estimated that Seguro Popular
+increased the probability of remitting, where this effect is never statistically
+signiﬁcant.
+Concerning how the introduction of Seguro Popular affected the remitting
+behaviour of households that were not eligible for the program, a different pattern is
+observed. Column (3) shows that, when state ﬁxed effects are used, it is estimated
+that Seguro Popular reduced the amount of private transfers sent by 149.7 pesos per
+month, where this coefﬁcient is signiﬁcant at the 10.0 % level. When municipality
+ﬁxed effects are incorporated jointly with a full set of controls, it is estimated that
+the program’s introduction reduced the amount of private transfers sent by 157.6
+pesos per month, where this effect is once again signiﬁcant at the 10.0 % level. With
+respect to the probability of remitting, it is observed that Seguro Popular reduced the
+probability of remitting among ineligible households between 2.93 and 4.38 %
+points. Nevertheless, these coefﬁcients are not statistically signiﬁcant.
+In summary, the results show that while the introduction of Seguro Popular did not
+affect the remitting behaviour of households that were eligible for the program, it did
+affect the remitting behaviour of households that were not eligible to enrol in Seguro
+Popular. This may be driven by the fact that households covered by social security
+institutions are much more likely to remit that those who are uninsured. Speciﬁcally,
+prior to the program’s introduction in 2000, approximately 18.2 % of insured
+households remitted compared to 10.5 % among uninsured households. Moreover,
+among households that remitted a positive amount, insured households donated on
+average 425.2 pesos per month compared to 281.4 among uninsured households. On
+22
+While it is likely that the majority of the private transfers sent by the donors included in the ENIGH
+are directed towards families residing within Mexico, the survey does not contain information on the
+
+Yes
+
+54,854
+
+Municipality-level controls
+
+Observations
+
+0.0301 (0.0251)
+
+54,854
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+55,478
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+-0.0438 (0.0396)
+
+-149.7* (82.30)
+
+55,478
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+-0.0293 (0.0428)
+
+-157.6* (82.85)
+
+(4)
+
+* p \ 0.10, ** p \ 0.05, *** p \ 0.01
+
+Source: Author’s elaboration based on the ENIGH. HH-level controls include the variables presented in Table 2. State-level controls include the state population size and
+binary variables that indicate the political afﬁliation of the Governor. Municipality-level controls include government revenue, number of housing credits granted and
+number of workers afﬁliated to IMSS. Monetary ﬁgures are in real 2006 pesos. Standard errors are clustered at the state level
+
+Yes
+
+No
+
+Municipality ﬁxed effects
+
+State ﬁxed effects
+
+State-level controls
+
+Yes
+
+Yes
+
+Year ﬁxed effects
+
+Yes
+
+SP coverage at the state level
+
+18.48 (12.89)
+
+(3)
+
+(1)
+
+(2)
+
+SP ineligible HH
+
+SP eligible HH
+
+HH-level controls
+
+LPM: probability of sending private transfers
+
+SP coverage at the state level
+
+OLS: amount of private transfers sent
+
+Variable
+
+Table 7 SP coverage and total private transfers sent
+depending on whether they have access to a social security institution or not.
+
+8 Conclusions
+This study examined the empirical question of whether the implementation of
+Seguro Popular affected the amount of private transfers received and the likelihood
+of receiving private transfers among Mexico’s uninsured households. The effects of
+Seguro Popular were identiﬁed using the spatial variation in the program’s coverage
+induced by its sequential roll-out throughout Mexico.
+Based on multiple waves of the ENIGH, the results show that among households
+eligible for the program Seguro Popular had no effect on the amount of private
+transfers received. This may be due to the fact that prior to the program’s
+implementation in 2000, health expenditures only accounted for 2.6 % of total
+household expenditures. On the other hand, the implementation of Seguro Popular
+reduced on average a household’s probability of receiving private transfers by 5.55
+percentage points, a 28.6 % reduction with respect to the 0.194 probability that
+uninsured households had of receiving private transfers prior to the program’s
+introduction in 2000. This estimate is driven by domestic private transfers, since
+international private transfers were not affected by the program’s implementation at
+either the intensive or extensive margins. Seguro Popular’s negative effect on the
+likelihood of receiving private transfers is robust to the use of the program’s statelevel expansion or municipality-level availability.
+The fact that Seguro Popular had a clear social welfare improving effect has been
+well documented, since the program has provided millions of Mexicans access to
+health care. Nonetheless, the ﬁnding that an unintended consequence of Seguro
+Popular is that it partially crowds-out private support highlights the importance of
+looking at unexpected outcomes when analysing public policies, since the presence
+of crowding-out effects has important implications for the effectiveness of
+redistributive policies. The crowding-out effect suggests that the net effect of
+Seguro Popular is smaller than when just analysing its impact on health
+expenditures or health outcomes. Consequently, an evaluation of the effects of
+Seguro Popular should take into account possible changes in private behaviour.
+Failure to do so may overstate the program’s potential beneﬁts or distributional
+impacts.
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original
+author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were
+Challenges to identiﬁcation
+This section examines if the identiﬁcation strategy used in this study is valid. The
+test is relevant because using the expansion and availability of Seguro Popular as a
+source of identiﬁcation assumes that these two factors are not correlated with the
+outcomes of interest. The endogeneity of Seguro Popular is examined by testing
+whether the program’s quarter and year of introduction and expansion rates in 2005
+and 2010 are predicted by pre-program municipality and state-level characteristics
+compiled from Mexico’s 2000 Census.23 The test is performed by estimating the
+following model by OLS:
+ym ¼ Xm b þ Zs d þ em
+
+ð2Þ
+
+where ym denotes either the quarter and year of introduction of Seguro Popular in
+municipality m, expressed as an index equal to one beginning in the fourth quarter
+of 2002 which increases by one unit each quarter, or is a continuous variable
+between zero and one that indicates the proportion of the eligible population
+enrolled in Seguro Popular in municipality m in 2005 or 2010. Xm and Zs are vectors
+of municipality- and state-level characteristics in 2000, respectively; and em is the
+error term.24 The municipality-level covariates included in Eq. (2) are population
+size, the share of insured population, the share of urban population, the median
+wage, the population’s average years of schooling, the unemployment rate, and
+demographic and industry composition shares. The state-level regressors are population size, the political party of the Governor, and state dummies. Equation (2)
+also includes the share of households that receive international and domestic private
+transfers, the median of international and domestic private transfers received, and
+the average number of international migrants per household. The estimations are
+performed for all municipalities and for those municipalities included in the
+ENIGH.
+The endogeneity analysis results are presented in Table 8. In column (1), the
+dependent variable is an index denoting the quarter and year of implementation of
+Seguro Popular. It can be seen that the municipality’s date of entry into Seguro
+Popular is negatively related with its population size and positively related with the
+state’s population size. Moreover, the date of entry is positively associated with the
+share of the population covered by a social security institution. Additionally, the
+23
+The analysis performed in this subsection is conducted at the municipality level and not the state level
+given that performing it at the state level limits the sample to 32 observations. The small sample size
+implies that the estimated regressions would be unlikely to have sufﬁcient power to adequately
+distinguish between zero and non-zero coefﬁcients. Nevertheless, the estimation of Eq. (2) was also
+performed at the state level, where for all years none of the estimated controls were statistically
+signiﬁcant; except for 2012, where the variable log median of domestic private transfers was signiﬁcant at
+the 10.0 % level. These results are available upon request.
+24
+
+´
+A similar analysis is conducted by Azuara and Marinescu (2013) and Bosch and Campos-Vazquez
+(2014), who investigate whether the implementation of Seguro Popular affected participation rates in the
+0.8010 (0.6360)
+0.0242 (0.0788)
+-0.4140*** (0.0674)
+0.0430 (0.2700)
+
+3.780*** (1.269)
+0.6660 (0.6540)
+0.8370 (0.5540)
+-10.81 (9.754)
+-3.074*** (0.8050)
+-0.7550 (1.469)
+
+Share of insured population
+
+Share of urban population
+
+Log median wage
+
+Unemployment rate
+
+PRI Governor
+
+PRD Governor
+
+0.0025 (0.0100)
+
+569
+
+0.9480 (0.7260)
+
+0.0104 (0.0080)
+
+0.0250 (0.1320)
+
+597
+
+-0.1160 (0.6840)
+
+-0.0737 (0.7310)
+
+0.0056 (0.0176)
+
+0.0030 (0.0055)
+
+0.1820 (0.1390)
+
+-0.8850 (0.5570)
+
+0.1700 (0.2400)
+
+-0.0826 (0.0600)
+
+-0.0096 (0.0593)
+
+1.022 (0.7590)
+
+-0.1380*** (0.0509)
+
+-0.0692 (0.0548)
+
+0.0371 (0.0819)
+
+-0.0075 (0.0208)
+
+-0.0064 (0.0093)
+
+Expansion 2010
+(3)
+
+*** p \ 0.01, ** p \ 0.05, * p \ 0.1
+
+Source: Author’s elaboration. In column (1) the dependent variable is an index beginning in the fourth quarter of 2002 that denotes the municipality’s date of entry into SP,
+and includes all the municipalities in the ENIGH. In columns (2) and (3) the dependent variable is the proportion of eligible individuals covered by SP at the municipality
+level in 2005 and 2010, respectively, and include all the municipalities in the ENIGH in those years. Data on the number of eligible individuals were taken from the 2005
+Population Count and the 2010 Census. Data on the number of individuals covered by SP were provided by the CNPSS. Explanatory variables are drawn from the 2000
+Census. The regressions also include variables denoting average years of schooling and share of male population in the municipality, state dummies, and industry share
+dummies by municipality. Robust standard errors are in parentheses
+
+1161
+
+Observations
+
+-1.048 (0.6900)
+
+-2.775 (9.886)
+12.75 (10.27)
+
+Log median domestic private transfers
+
+Share of pop. that receives int. private transfers
+
+0.0463 (0.0880)
+-0.1230 (0.2580)
+
+Log median international private transfers
+
+Share of pop. that receives dom. private transfers
+
+-0.0168 (0.0270)
+
+1.139 (1.962)
+
+Avg. number of international migrants per HH
+
+0.4290 (0.5520)
+
+-7.431* (4.222)
+-15.38* (8.597)
+
+Share of population under age 24
+
+Share of population between ages 24 and 40
+
+-0.1370 (0.0889)
+
+-0.0241 (0.0205)
+
+-1.303*** (0.1720)
+4.250*** (0.2960)
+
+Log population
+
+Date of entry
+(1)
+
+Log state population
+
+Variable
+
+Table 8 Determinants of SP date of entry and expansion by municipality
+
+Lat Am Econ Rev (2015) 24:7
+62,882
+
+Municipality ﬁxed effects
+
+Municipality-level controls
+
+Observations
+
+No
+
+62,882
+
+No
+
+No
+
+No
+
+62,882
+
+No
+
+Yes
+
+62,882
+
+Yes
+
+No
+
+Yes
+
+62,882
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+-9.466 (18.96)
+
+19.35 (11.43)
+
+52.96*** (8.486)
+
+5.388 (9.971)
+
+63.08*** (22.21)
+
+18.33*** (2.921)
+
+-50.33*** (8.693)
+
+30.76*** (10.81)
+
+23.46*** (3.381)
+
+5.116*** (0.5780)
+
+-92.03* (49.43)
+
+(5)
+
+Source: Author’s elaboration based on the ENIGH. HH denotes households. State-level controls include the state population size and binary variables that indicate the
+political afﬁliation of the Governor. Municipality-level controls include government revenue, number of housing credits granted and number of workers afﬁliated to IMSS.
+Monetary ﬁgures are in real 2006 pesos. Standard errors are clustered at the state level
+
+No
+
+No
+
+State-level controls
+
+Yes
+
+14.16 (8.581)
+
+Rural locality
+Yes
+
+38.83*** (12.55)
+
+Good quality ﬂoors in the HH
+
+No
+
+52.31*** (8.378)
+
+Good quality roofs in the HH
+
+Yes
+
+7.329 (9.164)
+
+Good quality walls in the HH
+
+Yes
+
+61.79*** (21.95)
+
+HH members age 65 and older
+
+No
+
+17.74*** (2.993)
+
+HH members under age 12
+
+No
+
+-58.78*** (8.528)
+
+HH enrolled in Prospera
+
+State ﬁxed effects
+
+28.50*** (10.32)
+
+Year ﬁxed effects
+
+23.52*** (3.633)
+
+-99.91* (49.13)
+
+HH head male
+
+-108.8** (51.25)
+
+(4)
+
+HH head years of schooling
+
+-105.5** (49.47)
+
+(3)
+
+5.107*** (0.6400)
+
+-116.6*** (16.31)
+
+SP coverage at the state level
+
+(2)
+
+HH head age
+
+(1)
+
+Variable
+
+Table 9 OLS: SP coverage and total health expenditures
+
+38.44 (161.1)
+
+54,854
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+75.19 (178.7)
+
+-264.5* (151.4)
+
+-240.5 (210.6)
+
+15.05 (144.2)
+
+43.41 (94.86)
+
+-0.0728 (0.0467)
+
+54,854
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+0.0008 (0.2000)
+
+-0.0240 (0.0505)
+
+-0.0452 (0.0591)
+
+-0.0530 (0.0405)
+
+-0.0736** (0.0315)
+
+-0.0691 (0.0429)
+
+54,854
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+0.0292 (0.2060)
+
+-0.0350 (0.0412)
+
+-0.0825 (0.0532)
+
+-0.0383 (0.0385)
+
+-0.0592** (0.0289)
+
+Source: Author’s elaboration based on the ENIGH. Figures presented represent coefﬁcient estimates for SP coverage at the state level. HH-level controls include the
+variables presented in Table 2. State-level controls include the state population size and binary variables that indicate the political afﬁliation of the Governor. Municipality-level controls include government revenue, number of housing credits granted and number of workers afﬁliated to IMSS. Monetary ﬁgures are in real 2006 pesos.
+Standard errors are clustered at the state level
+
+No
+
+Yes
+
+Municipality-level controls
+
+Yes
+
+State-level controls
+
+Municipality ﬁxed effects
+
+Yes
+
+Yes
+
+HH-level controls
+
+Yes
+
+159.8 (178.0)
+
+SP * 2012
+
+State ﬁxed effects
+
+-254.8 (153.7)
+
+SP * 2010
+
+Year ﬁxed effects
+
+-103.6 (140.3)
+
+-212.9 (215.0)
+
+SP * 2006
+
+SP * 2008
+
+-54.11 (176.7)
+
+-49.06 (91.21)
+
+SP * 2004
+
+(4)
+
+(3)
+
+(1)
+
+(2)
+
+OLS: amount of private transfers received
+
+SP * 2005
+
+Year
+
+Table 10 SP coverage and private transfers. Different effects by year
+
+Lat Am Econ Rev (2015) 24:7
+with demographic variables pertaining to the share of the population under the age
+of 24 and between the ages of 24 and 40. Above all, the municipality’s initial
+quarter and year of participation in Seguro Popular is not associated with any of the
+study’s main outcomes of interest.
+Columns (2) and (3) in Table 8 present regression results where the dependent
+variable is the proportion of eligible individuals covered by Seguro Popular at the
+municipality level in 2005 and 2010, respectively. It is observed that the expansion
+is not related to the municipality’s population size or to the state’s population size.
+Although not signiﬁcant, the negative signs of the state population variable are in
+´
+line with the arguments put forward by Dıaz-Cayeros et al. (2006) and Bosch and
+´
+Campos-Vazquez (2014). The scholars claim that prior to the 2006 presidential
+election, smaller states were given preference to achieve full coverage so that the
+federal government could declare that it had achieved universal coverage in these
+states. Municipalities with low median wages also had lower expansion rates in
+2010. It could be that poorer municipalities which have lower median wages have a
+scarcity of health facilities which are a requirement for implementing Seguro
+Popular. Furthermore, the expansion of Seguro Popular in 2005 was slower in states
+governed by the PRD left-wing party, the main opposition of the ruling right-wing
+PAN party. With respect to the variables of interest, as in column (1), the expansion
+of Seguro Popular in 2005 and 2010 is not correlated with the average number of
+international migrants per household, the log medians of international or domestic
+private transfers, or the shares of the population that receive international or
+domestic private transfers.
+While the implementation of Seguro Popular was not completely exogenous,
+Table 8 does not provide evidence suggesting that the program was targeted in
+speciﬁc municipalities in relation to the outcomes of interest, since they have no
+effect on the date of entry or on the expansion of Seguro Popular.25 In summary, the
+results support the identiﬁcation strategy used in this study. Nevertheless, the fact
+that there was no randomisation in the implementation of Seguro Popular implies
+that it is not possible to rule out the potential existence of other treats to the
+identiﬁcation of the program’s effects. This represents an important limitation of the
+study.
+
+Valero-Gil J (2008) Remittances and household’s expenditures on health. MPRA Paper 9572, Munich
