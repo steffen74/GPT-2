@@ -1,0 +1,3412 @@
+
+1 Introduction
+One way to keep track of the progress of logistics and
+supply chain management (SCM) discipline is to analyze
+the doctoral dissertations within the research area. By
+reviewing such dissertations, it will be possible to gain
+some interesting information regarding the development
+and direction of research within the discipline. Speciﬁcally,
+such a review will help us to understand the different
+approaches in relation to research framework, methodologies, theories applied and the empirical interpretations.
+Furthermore, the review could not only provide valuable
+insights into potential research gaps within the discipline,
+but also pave way for recognizing interesting topics for
+future research [13, 41]. Besides, given that PhD students
+are likely to form the next generation of established
+researchers, research conducted by them is important to the
+SCM discipline as it helps keeping the discipline on track
+with emerging topics as well as stimulate theory
+generation.
+The number of PhD students in the Nordic countries has
+increased signiﬁcantly during the last decades [24, 41].
+Based on the rise in the number of dissertations as well as
+their varying content, it is interesting to investigate the
+requirements that are part of completing a PhD dissertation.
+There has been an escalation in dissertations that are based
+on collections of articles instead of a monograph [41]. A
+reason for this might be an increasing pressure to publish at
+the universities [21], which might be driving PhD students
+to learn and master the craft of publishing from the very
+start of their career. No matter what, the culture of many
+research departments is characterized by a high focus on
+performance in terms of publications in ranked journals [2,
+20, 22, 27]. Therefore, by choosing an article-based dissertation, PhD students might have a better opportunity to
+work together with other PhD students and senior
+researchers; in doing so, they also learn how to ‘‘play the
+game.’’
+The ﬁrst two comprehensive digest of doctoral dissertations completed within the Nordic countries was
+
+what has been researched within the logistics and SCM
+area. These studies have also facilitated the comparison of
+Nordic dissertations themes to those in the USA (e.g.,
+compiled by Stock [31] and Nakhata et al. [25]). Prior
+research has demonstrated that much confusion exists
+concerning SCM deﬁnitions and its overlap with logistics
+[32]. This paper extends the work of Zachariassen and
+´
+Arlbjørn [41] that applies what Halldorsson et al. [14] call
+a relabeling approach between the terms of logistics and
+SCM. The purpose of this paper is to document the progress of doctoral work in logistics and SCM within the
+Nordic countries between 2009 and 2014. In all, 120 relevant dissertations were identiﬁed; however, we were
+unable to retrieve eight dissertations either in physical form
+or electronically; therefore, only 112 dissertations were
+reviewed. With a point of departure within the dimensions
+and classiﬁed categories of these two above-mentioned
+reviews, this paper provides two analyses:
+1.
+2.
+
+An analysis of identiﬁed Nordic dissertations from the
+year 2009–2014; and
+A longitudinal analysis that compares the above
+analysis with the result from Gubi et al. [13] and
+Zachariassen and Arlbjørn [41].
+
+Accordingly, the analyses within this paper will not only
+reveal several important insights, but also identify new,
+potential research areas within the logistics and SCM discipline. Based on these insights, it will be possible to
+coordinate future research efforts and avoid any unnecessary replication or duplication of previous work.
+The rest of the paper is organized as follows: Sect. 2
+provides a brief literature review of earlier contributions
+dealing with doctoral dissertation reviews. Section 3 discusses the methodology used in this study; it also outlines
+the limitations concerning the chosen methodology. Subsequently, Sect. 4 discusses the results obtained from
+analyzing the Nordic dissertations. Finally, Sect. 5 concludes with the overall purpose of the paper and some
+directions for future research activities.
+
+2 Extant literature on doctoral dissertations
+in logistics and supply chain management
+Several authors have analyzed and classiﬁed doctoral dissertations in logistics and SCM, both within the Nordic
+countries as well as the USA. In this section, nine prior
+studies—seven American studies and two Nordic studies—
+are brieﬂy mentioned so as to identify the trends in topical
+coverage through the years and to see whether there are any
+
+123
+
+
+
+similarities between the topics chosen by PhD students
+across the Atlantic.
+The ﬁrst study of compendiums of PhD research in
+logistics conducted by Stock back in 1987 [28] examined
+684 dissertations from the period 1970–1986 [29]. Subsequent reviews were conducted in (1) 1993 covering 422
+American dissertations that were completed in the period of
+1987–1991 [34] and (2) 2001 with an analysis of 317 PhD
+dissertations completed in the period of 1992–1998 [31]. In
+2006, Stock completed his fourth review of PhD dissertations together with Broadus [33]. This study showed a
+distinct increasing trend in the number of dissertations
+within SCM- and/or logistic-related areas in the period from
+1999 to 2004 when compared to the period covered by the
+2001 study. But surprisingly, the count between 1999 and
+2004 fell short of the overall levels of 1987–1991. A more
+interesting ﬁnding of the 2006 study was that the dissertations were more multifaceted due to the fact that they closely mirrored the cross-functional and boundary spanning
+nature of logistics; at the same time, their multifaceted
+nature made the classiﬁcation task more difﬁcult.
+Another American study was conducted by Das and
+Handﬁeld [8] wherein the authors investigated 117 PhD
+dissertations from the period 1987–1995 in order to evaluate the intellectual health of the purchasing discipline.
+The study was an extension of a previous research on
+purchasing dissertations conducted by Williams [39] to
+identify the key focus areas of research in the prior decade.
+In this study, Williams concluded that the key focus areas
+covered were supplier selection and development, information systems, organizational and measurement issues,
+negotiation and purchasing ethics.
+The most recent review covering US dissertations was
+conducted by Nakhata et al. [25]. In this study, the authors
+reviewed 609 doctoral dissertations completed between
+2005 and 2009. The number of identiﬁed dissertations in
+this study is signiﬁcantly larger than the four reviews
+conducted by Stock and colleagues and clearly reﬂects a
+signiﬁcant increase in colleges/universities graduating
+doctoral students within logistics- and supply chain-related
+areas. Nakhata et al. [25] also point out that a forthcoming
+retirement of academic ‘‘baby boomers’’ during the period
+2005–2020 may explain the increase in the PhD production. The most prominent research methodologies
+employed by doctoral students in the study of Nakhata
+et al. [25] are modeling, simulation and empirical quantitative methods.
+Two earlier studies of Nordic doctoral dissertations
+within logistics and SCM have been disseminated in academic journals. The ﬁrst was developed by Gubi et al. [13],
+who reviewed 71 Nordic dissertations published between
+1990 and 2001. Most of the dissertations were published as
+by Zachariassen and Arlbjørn [41] wherein the authors
+analyze the development in Nordic doctoral research in
+logistics and SCM from the years 2002–2008. As opposed
+to Gubi et al. [13], Zachariassen and Arlbjørn [41] found
+more dissertations based on a collection of articles, which
+was reﬂective of a response to increase publication pressure. In contrast to the Gubi et al.’s [13] study, the primarily entity of analysis of most dissertations was the
+manufacturing companies. While prior reviews showed a
+focal company perspective, the review of Zachariassen and
+Arlbjørn [41] documented a shift toward an inter-organizational perspective covering dyadic and supply chain units
+of analysis. Additionally, according to Zachariassen and
+Arlbjørn [41], there has also been a decreased focus on the
+philosophy of science, since most dissertations were being
+published as collections of articles.
+
+3 Method
+The method applied for identifying, collecting and
+reviewing the doctoral dissertations in this paper follows a
+three-step process. These steps are explained in the following subsections.
+3.1 Identifying and collecting Nordic doctoral
+dissertations
+The ﬁrst step consisted of sending e-mails to contact persons at different research institutions within the Nordic
+countries (i.e., Denmark, Finland, Iceland, Norway and
+Sweden) as outlined in [41]. Based on this e-mail contact,
+the list was further modiﬁed (e.g., adding University of
+¨
+Vaasa in Finland and Linnaeus University and Orebro
+University School of Business in Sweden). The ﬁnal list
+included 39 research institutions which are presented in
+‘‘Appendix 1.’’ A contact person at each of the 39 research
+institution was identiﬁed and was contacted by e-mail. The
+e-mail provided a clear statement of the research project
+and requested the list of completed doctoral dissertations
+within logistics and SCM within the analysis period. This
+process provided an initial list of 120 dissertations.
+Majority of these dissertations were accessible in electronic
+form (we either received them by e-mail or downloaded
+them from the corresponding institution’s Web site). The
+rest of the dissertations were available in hard copy form.
+3.2 Validating the initial list of doctoral
+dissertations
+The second step was concerned with the validation of the
+identiﬁed dissertations by senior researchers from each of
+
+Page 3 of 18 5
+
+the Nordic countries. This step was completed by e-mailing
+the initial list to these senior researchers and by attending
+the 27th annual NOFOMA conference in June 2015 at
+Molde University College. This process resulted in the
+inclusion of an additional 41 dissertations, thereby
+increasing the total count to 161.
+3.3 Reviewing the received dissertations
+In the third step, a detailed review of the 161 dissertations
+took place. During this process, three dissertations were
+excluded since they were judged as not being within the
+scope of the present analysis. Out of this net list of 158, it
+was possible to conduct reviews of 150 dissertations. As
+mentioned earlier, we were unable to retrieve eight dissertations as well as there was no response from the authors
+when we e-mailed them requesting for the copy of their
+dissertation. A complete list of the dissertations is included
+in ‘‘Appendix 2.’’ The detailed review took place against a
+review framework as described in [13, 41]. Our analysis
+covered additional review elements as the dissertations
+were mostly based on a collection of articles. These elements were: (1) number of articles, (2) type of article
+(journal publication, book chapter, conference paper,
+working paper or unpublished paper), (3) year of publication, (4) ranking of the journal, (5) number of authors on
+each article and (6) the doctoral candidate’s author number
+for the speciﬁc article.
+3.4 Limitations
+This dissertation review has some limitations that are
+worthwhile to mention. First, even though the gross list of
+dissertations was reviewed and validated by senior
+researchers within the Nordic countries, there is a possibility that some dissertations were not identiﬁed. Second,
+reviewer subjectivity could not be completely eliminated in
+the review of the 150 dissertations. However, in order to
+minimize subjectivity, an aligned interpretation of the
+review elements and their outcome was obtained by a
+common review of three different types of dissertations
+(one monograph and two article-based dissertations).
+Third, the list of dissertations that was composed and
+reviewed stems from the NOFOMA research community.
+Obviously, other Nordic researchers may produce doctoral
+dissertations that deal with topics under the scope of this
+review, but is outside the NOFOMA radar (e.g., researchers
+belonging to European Decision Sciences Institute (EDSI),
+European Logistics Association (ELA), European Operations Management (EurOMA), International Purchasing
+and Supply Education and Research Association (IPSERA)
+or Logistics Research Network (LRN) or Rencontres
+Internationales de Recherche en Logistique (RIRL)
+
+only based on the dissertations reviewed under the
+NOFOMA umbrella. Fourth, since the contact persons
+were not provided with a deﬁnition of logistics and SCM,
+they might have excluded some dissertation that could have
+fallen within the scope of this analysis. Moreover, the
+senior researchers whom we e-mailed for dissertations
+might not be from the department of logistics and SCM.
+Therefore, including deﬁnitions for logistics and SCM will
+have no impact.
+
+4 Analysis
+This section is concerned with speciﬁc analyses of the 150
+reviewed doctoral dissertations. For comparative purposes,
+the data from the present review are portrayed and analyzed with the categories that are similar to those used by
+Gubi et al. [13] and Zachariassen and Arlbjørn [41]. The
+results are displayed in tables and are followed with
+appropriate comments and interpretations.
+4.1 Number and type of dissertations ﬁnalized
+in the period 2009–2014
+Table 1 contains the PhD dissertations divided by country,
+year of publication and type of dissertation (monograph vs.
+a collection of articles). Compared with the earlier studies,
+these new ﬁgures show some interesting developments.
+First, the number of ﬁnalized dissertations in the period
+2009–2014 is 158, which represents an average of 26 dissertations per year. Compared with averages numbers of 10
+(from the period 2002–2008) and 6.25 (from the period
+1990–2001), this shows that there has been a strong increase
+in PhD production in this research area. A similar pattern is
+identiﬁed by Nakhata et al. [25] in their study of doctoral
+dissertations published by Dissertation Abstracts International in the period of 2005 and 2009. They explain that one
+reason for such an increase might be an increased level of
+retiring academicians toward 2020 which creates a stronger
+market for Assistant Professors. Another explanation could
+be that there is a drive from the governments to boost the
+number of annual PhD production in order to support
+national social, economic and environmental well-being as
+well as to address major global challenges [12]. The
+majority of the Nordic logistics and SCM PhDs come from
+the Finnish, Norwegian and Swedish research environments. In Denmark, the production is stable with 17 dissertations in the period of 2009–2014. Iceland has reported
+their ﬁrst PhD in this period of analysis. Twenty-ﬁve Nordic
+research institutions have produced within logistics and
+SCM in the period 2009–2014 (see ‘‘Appendix 2’’).
+
+123
+
+
+
+Another interesting ﬁnding in the current review is the
+increase in the share of dissertations that are based on a
+collection of articles. As given in Table 1, 92 out of the 150
+dissertations (61 %) are based on a collection of articles.
+Thus, there is a much higher focus on the craft to write
+academic articles when compared to the share of articlebased dissertations in previous periods (29 % in the period
+2002–2008 and 21 % in the period 1990–2001). This trend
+supports the predictions previously made by Zachariassen
+and Arlbjørn [41]. One plausible explanation for this
+development might be an increased amount of public and
+private resource allocation to research environments based
+on publications in internationally recognized peer-reviewed journals as well as measures such as impact indicators and H-index (see, e.g., [27]).
+4.2 Primary entity of analysis
+In Table 2, all 150 dissertations are classiﬁed according to
+their entity of analysis; the classiﬁcations are also compared to previous results reported in [13, 14]. The study of
+the primary entity of analysis in the dissertations shows
+strong differences. First, the category others has increased
+to about one-third of the dissertations in the last reported
+period. This group consists of a variety of dissertations
+without a speciﬁc supply chain actors’ perspective—such
+as fresh ﬁsh supply chains [26] and healthcare logistics
+[17]. Second, in absolute numbers, the manufacturer as the
+primary entity of analysis has increased when compared to
+the previous studies; but, if we measure the number as a
+percentage of the reviewed dissertations, there is a fall
+from 57 % in the dissertations from 2002 to 2008 to 33 %
+in the recent study.
+Thus, it shows the more classical actors such as
+wholesalers, retailers and inventory hotels have obtained
+lesser research focus. Additionally, a remarkably low
+number of dissertations have focused on retail SCM within
+the Nordic countries. This is intriguing given the fact that
+the retail sector is well known for supply chain innovations
+such as quick response systems, efﬁcient consumer
+response, distribution centers, reverse logistics, as well as
+collaborative planning, forecasting and replenishment [10].
+4.3 Level of analysis arranged according to year
+of publication
+Table 3 shows the analysis of the dissertations level of
+analysis arranged by the year of publication.
+An interesting development evidenced in the above
+table is an increased focus on functional themes within
+dissertations (in the present analysis, this is about 26 % of
+the dissertations compared with 11 and 10 % in previous
+
+Table 1 Number and type of PhD dissertations ﬁnalized in the period 2009–2014
+2009
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+Danish
+
+2
+
+1
+
+4
+
+3
+
+5
+
+2
+
+Finnish
+
+10
+
+9
+
+7
+
+8
+
+6
+
+8
+
+Icelandic
+
+–
+
+1
+
+–
+
+–
+
+–
+
+Norwegian
+
+6
+
+5
+
+–
+
+5
+
+6
+
+Swedish
+
+9
+
+10
+
+12
+
+13
+
+9
+
+Total
+
+27
+
+26
+
+23
+
+29
+
+26
+
+Monograph
+
+2
+
+–
+
+1
+
+1
+
+1
+
+0
+
+Collection of articles
+Total Danish
+
+–
+2
+
+1
+1
+
+3
+4
+
+2
+3
+
+4
+5
+
+2
+2
+
+2
+
+2
+
+5
+
+4
+
+2
+
+3
+
+Collection of articles
+
+8
+
+6
+
+2
+
+3
+
+4
+
+Total Finnish
+
+10
+
+8
+
+7
+
+7
+
+6
+
+Total (2009–2014)
+
+Total (2002–2008)
+
+Total (1990–2001)
+
+17
+
+11
+
+15
+
+48
+
+22
+
+20
+
+–
+
+1
+
+–
+
+–
+
+5
+
+27
+
+17
+
+12
+
+12
+
+65
+
+20
+
+28
+
+27
+
+158
+
+70
+
+75
+
+5
+
+9
+
+14
+
+12
+17
+
+2
+11
+
+1
+15
+
+18
+
+13
+
+14
+
+4
+
+27
+
+9
+
+3
+
+7
+
+45
+
+22
+
+17
+
+All identiﬁed dissertations
+
+Reviewed dissertations
+Danish reviewed
+
+Finnish reviewed
+Monograph
+
+Icelandic reviewed
+Monograph
+
+–
+
+1
+
+–
+
+–
+
+–
+
+–
+
+1
+
+–
+
+–
+
+Collection of articles
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+0
+
+–
+
+–
+
+Total Icelandic
+
+0
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+0
+
+0
+9
+
+Norwegian reviewed
+Monograph
+
+5
+
+1
+
+–
+
+1
+
+2
+
+2
+
+11
+
+9
+
+Collection of articles
+
+1
+
+4
+
+–
+
+4
+
+4
+
+3
+
+16
+
+8
+
+2
+
+Total Norwegian
+
+6
+
+5
+
+0
+
+5
+
+6
+
+5
+
+27
+
+17
+
+11
+
+Monograph
+
+2
+
+6
+
+4
+
+5
+
+1
+
+5
+
+23
+
+13
+
+19
+
+Collection of articles
+Total Swedish
+
+6
+8
+
+2
+8
+
+7
+11
+
+8
+13
+
+7
+8
+
+7
+12
+
+37
+60
+
+7
+20
+
+9
+28
+
+11
+
+10
+
+10
+
+11
+
+6
+
+10
+
+58
+
+44
+
+56
+
+Swedish reviewed
+
+Reviewed on total
+Monograph
+Collection of articles
+Total
+
+15
+
+13
+
+12
+
+17
+
+19
+
+16
+
+92
+
+26
+
+15
+
+26
+
+23
+
+22
+
+28
+
+25
+
+26
+
+150
+
+70
+
+71
+
+Comparable data are included from the period 1990–2001 (Gubi et al. [13]) and 2002–2008 (Zachariassen and Arlbjørn [41])
+
+dissertations and can indicate an emphasis on building
+stronger knowledge bases in certain sub-disciplines along
+the supply chain. Examples of such dissertations are [18,
+19]. Another interesting development is the reduced focus
+on ﬁrm-level analysis and a subsequent increased focus on
+the supply chain or the network as the level of analysis,
+with the network level experiencing the highest increase.
+This increase is strongly evident within Swedish
+dissertations.
+4.4 Research design, time frame and philosophy
+of science
+Table 4 shows the classiﬁcation of the dissertations
+according to research design, time frame and philosophy of
+
+science. The recent analysis reveals a decrease in share of
+dissertations that are purely theoretical in nature. Also, the
+share of dissertations founded on purely qualitative methods has also decreased compared with dissertations published in the period 2002–2008. The drop in share of these
+two categories has attributed to increases in shares of dissertations based on quantitative methods and on triangulations of qualitative and quantitative research methods.
+The increase in quantitative research methods can be
+explained by the increased pressure to publish, thereby
+favoring quantitative methods over time-consuming qualitative studies (see, e.g., [21]). While quantitative data
+collection can be automated, it is not possible for qualitative data collection. Qualitative data collection is, in general, more time-consuming and expensive when compared
+
+
+Table 2 Primary entity of
+analysis
+
+Danish
+A
+
+B
+
+Finnish
+C
+
+A
+
+Icelandic
+
+B
+
+C
+
+Norwegian
+
+Swedish
+
+A
+
+A
+
+A
+
+B
+
+C
+
+B
+
+C
+
+B
+
+Total
+C
+
+A
+
+B
+
+C
+
+Manufacture
+
+9
+
+9
+
+2
+
+11
+
+11
+
+20
+
+–
+
+–
+
+–
+
+6
+
+9
+
+8
+
+10
+
+11
+
+20
+
+36
+
+40
+
+50
+
+Carrier
+
+5
+
+1
+
+2
+
+3
+
+4
+
+5
+
+–
+
+–
+
+–
+
+3
+
+1
+
+14
+
+10
+
+3
+
+15
+
+21
+
+9
+
+36
+
+Wholesaler
+
+–
+
+–
+
+–
+
+–
+
+2
+
+–
+
+–
+
+–
+
+–
+
+–
+
+1
+
+1
+
+–
+
+–
+
+2
+
+0
+
+3
+
+3
+
+Retailer
+
+–
+
+–
+
+–
+
+–
+
+2
+
+3
+
+–
+
+–
+
+–
+
+–
+
+1
+
+1
+
+–
+
+1
+
+4
+
+0
+
+4
+
+8
+
+Inventory hotel
+
+–
+
+–
+
+–
+
+–
+
+–
+
+1
+
+–
+
+–
+
+–
+
+–
+
+–
+
+1
+
+1
+
+–
+
+3
+
+1
+
+0
+
+5
+
+Others
+
+1
+
+1
+
+13
+
+3
+
+3
+
+16
+
+–
+
+–
+
+1
+
+2
+
+5
+
+2
+
+7
+
+5
+
+16
+
+13
+
+14
+
+48
+
+Total
+
+15
+
+11
+
+17
+
+17
+
+22
+
+45
+
+0
+
+0
+
+1
+
+11
+
+17
+
+27
+
+28
+
+20
+
+60
+
+71
+
+70
+
+150
+
+A = time period 1999–2001 covered in Gubi et al. [13]
+B = time period 2002–2008 covered in Zachariassen and Arlbjørn [41]
+C = 2009–2014 covered in this paper
+Table 3 Level of analysis arranged according to year of publication
+2009
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+Total (2009–2014)
+
+Total (2002–2008)
+
+Total (1990–2001)
+
+Total
+Function
+
+6
+
+4
+
+4
+
+7
+
+11
+
+7
+
+39
+
+8
+
+7
+
+Firm
+
+1
+
+4
+
+1
+
+0
+
+4
+
+5
+
+15
+
+19
+
+33
+
+Dyad
+
+3
+
+3
+
+4
+
+3
+
+1
+
+2
+
+16
+
+16
+
+8
+
+Supply chain
+
+7
+
+4
+
+4
+
+9
+
+5
+
+8
+
+37
+
+15
+
+8
+
+Network
+
+5
+
+7
+
+7
+
+8
+
+5
+
+4
+
+36
+
+8
+
+5
+
+Others
+
+3
+
+1
+
+2
+
+1
+
+0
+
+0
+
+7
+
+4
+
+10
+
+Total
+
+25
+
+23
+
+22
+
+28
+
+26
+
+25
+
+150
+
+70
+
+71
+
+Table 4 Research design, time frame and philosophy of science
+Danish
+
+Finnish
+
+Icelandic
+
+Norwegian
+
+2
+
+–
+
+–
+
+Swedish
+
+Total
+(2009–2014)
+
+Total
+(2002–2008)
+
+Total
+(1990–2001)
+
+14
+
+21
+
+Research design
+Theoretical (desk research)
+
+6
+
+Empirical quantitative
+
+4
+
+9
+
+–
+
+Empirical qualitative
+
+4
+
+17
+
+1
+
+7
+
+15
+
+11
+
+1
+
+25
+
+9
+
+6
+
+10
+
+27
+
+59
+
+31
+
+27
+
+Empirical triangulation
+
+3
+
+17
+
+–
+
+6
+
+25
+
+51
+
+16
+
+17
+
+Research design total
+
+17
+
+45
+
+1
+
+27
+
+59
+
+150
+
+70
+
+71
+
+Time frame
+Snapshot
+
+8
+
+30
+
+1
+
+21
+
+16
+
+76
+
+39
+
+41
+
+Longitudinal
+
+1
+
+8
+
+–
+
+2
+
+22
+
+33
+
+11
+
+6
+
+Not speciﬁed
+
+2
+
+5
+
+–
+
+4
+
+15
+
+26
+
+6
+
+3
+
+Time frame total
+
+11
+
+43
+
+1
+
+27
+
+53
+
+135
+
+56
+
+50
+
+Yes
+
+9
+
+13
+
+–
+
+7
+
+11
+
+40
+
+20
+
+39
+
+No
+
+8
+
+32
+
+1
+
+21
+
+47
+
+110
+
+50
+
+32
+
+Total
+
+17
+
+45
+
+1
+
+28
+
+58
+
+150
+
+70
+
+71
+
+Containing philosophy
+
+to quantitative research studies. Thus, it might be more
+cost-effective to slice one questionnaire survey into a
+number of articles than doing the same number of articles
+based on qualitative methodologies. This trend will
+
+123
+
+undoubtedly improve numerical performance metrics. At
+the same time, this trend need not necessarily deliver new
+knowledge that could move the discipline signiﬁcantly
+
+more in-depth interaction of this issues and method
+considerations, (3) there is a lower prioritization of philosophy of science due to higher pressure from external
+funded projects that do not demand this theme, and (4)
+logistics and SCM are closely connected with industry
+that could lead to a perception that philosophy of science
+is less relevant. To this list, we add four more potential
+reasons. First, there are no requirements mentioned in
+Nordic countries’ ministerial orders granting degrees of
+PhD about unfolding philosophical of science perspectives. Second, few, if any, journals within logistics and
+SCM demand such discussions. Third, philosophy of
+science has disappeared from PhD candidates’ syllabi.
+Finally, only a few PhD advisors have the knowledge to
+join in such discussions with their PhD students; therefore, they do not send signals for offering such courses.
+Overall, this development is inexpedient if the discipline
+really has to move toward theory development [6, 30].
+
+the phenomenon of ‘‘salami-slicing’’ where the data from a
+particular project are disseminated in a number of articles
+that in fact are ‘‘sliced’’ so thinly that there might be
+overlap of the papers (e.g., text recycling in literature
+review sections, key ﬁndings and discussions ([9, 16]). We
+refer to the Committee on Publication Ethics (COPE) [7]
+for a discussion on different forms of text recycling.
+Table 4 also shows an increased share of dissertations
+that apply a longitudinal perspective. Additionally, the
+share of snapshot time frames has decreased and the
+share of the category time frame not speciﬁed has
+increased. Examples of dissertations without any speciﬁc
+time frame are by (1) Mortensen [23], who investigate
+the concept of attraction and explain its role in initiation
+and development of buyer–seller relations, and (2) Tyn¨¨
+jala [35], who conceptually examines the methods and
+tools for supply chain decision making during new product development. A ﬁnal remarkable ﬁnding from
+Table 4 is the continued decline of dissertations containing philosophy of science issues. The present analysis
+identiﬁes 73 % of the dissertations not including such
+philosophical considerations in comparison with 71 and
+45 % in the two previous periods of analysis. Twentynine percent of dissertations that are monographs do
+contain philosophy of science considerations, whereas
+25 % have this content among the article-based dissertations. Zachariassen and Arlbjørn [41] provided four
+possible reasons for this decline: (1) There are no
+mandatory requirements for PhD students to attend philosophy of science courses, (2) article-based dissertations
+do not rely on philosophy of science argumentations to
+the same degree as the monographs that typically require
+
+4.5 Dissertations distributed according to topic
+groups and country of origin
+Table 5 displays the dissertations according to topic groups
+based on a title analysis of the 158 identiﬁed dissertations.
+For comparison reasons, the topic groups identiﬁed in
+previous studies were used [13, 41] and further supplemented with two new groups risk management and
+humanitarian logistics. The table shows a continued decline
+in the share of dissertations related to system design/
+structure/effectiveness, organizational development/competencies and material handling. In contrast, topics related
+to
+system
+integration/integration
+enablers
+and
+
+Table 5 Division of dissertations according to topic groups and country of origin
+Danish
+A
+
+B
+
+Finnish
+C
+
+A
+
+B
+
+Icelandic
+C
+
+Norwegian
+
+Swedish
+
+A
+
+A
+
+A
+
+B
+
+C
+
+B
+
+C
+
+B
+
+Total
+C
+
+A
+
+B
+
+C
+
+System design/structure/effectiveness
+
+5
+
+4
+
+1
+
+10
+
+6
+
+7
+
+–
+
+–
+
+1
+
+5
+
+–
+
+6
+
+5
+
+2
+
+7
+
+25
+
+12
+
+22
+
+Distribution/route planning
+
+1
+
+–
+
+2
+
+3
+
+–
+
+2
+
+–
+
+–
+
+–
+
+2
+
+7
+
+6
+
+3
+
+1
+
+2
+
+9
+
+8
+
+12
+
+Organizational development/competencies
+
+3
+
+5
+
+1
+
+1
+
+1
+
+10
+
+–
+
+–
+
+–
+
+–
+
+2
+
+2
+
+3
+
+2
+
+7
+
+7
+
+10
+
+20
+
+System integration/integration enablers
+
+1
+
+–
+
+2
+
+1
+
+3
+
+4
+
+–
+
+–
+
+–
+
+1
+
+2
+
+3
+
+5
+
+1
+
+7
+
+8
+
+6
+
+16
+
+Environmental issues/CSR
+
+–
+
+1
+
+2
+
+–
+
+1
+
+1
+
+–
+
+–
+
+–
+
+–
+
+–
+
+1
+
+2
+
+1
+
+3
+
+2
+
+3
+
+7
+
+Inter-organizational collaboration/third-party logistics
+
+3
+
+1
+
+1
+
+3
+
+3
+
+12
+
+–
+
+–
+
+–
+
+2
+
+2
+
+–
+
+3
+
+4
+
+8
+
+11
+
+10
+
+21
+
+Material handling/material planning
+
+–
+
+–
+
+5
+
+–
+
+3
+
+–
+
+–
+
+–
+
+–
+
+–
+
+3
+
+3
+
+3
+
+8
+
+6
+
+3
+
+14
+
+14
+
+Transport/transport systems
+
+2
+
+–
+
+1
+
+2
+
+4
+
+5
+
+–
+
+–
+
+–
+
+2
+
+–
+
+5
+
+4
+
+1
+
+16
+
+10
+
+5
+
+27
+
+Risk management
+
+–
+
+–
+
+–
+
+–
+
+–
+
+2
+
+–
+
+–
+
+–
+
+–
+
+–
+
+1
+
+–
+
+–
+
+6
+
+0
+
+–
+
+9
+
+Humanitarian logistics
+
+–
+
+–
+
+–
+
+–
+
+–
+
+2
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+1
+
+0
+
+–
+
+3
+
+Others
+
+–
+
+–
+
+2
+
+–
+
+1
+
+3
+
+–
+
+–
+
+–
+
+–
+
+1
+
+–
+
+–
+
+–
+
+2
+
+0
+
+2
+
+7
+
+Total
+
+15
+
+11
+
+17
+
+20
+
+22
+
+48
+
+–
+
+–
+
+1
+
+12
+
+17
+
+27
+
+28
+
+20
+
+65
+
+75
+
+70
+
+158
+
+A = Time period of 1999–2001 covered in Gubi et al. [13]
+B = Time period of 2002–2008 covered in Zachariassen and Arlbjørn [41]
+C = Time period of 2009–2014 covered in this paper
+
+
+transport/transport systems have obtained increased
+awareness. The increase in these topics is primarily based
+on Swedish and Norwegian dissertations.
+Additionally, while the study by [41] found that topics
+related to humanitarian logistics and risk management were
+absent, the present review of dissertations has remedied
+this with dissertations on this topic from Finland and
+Sweden.
+4.6 Article-based dissertations
+The study reported in this paper reveals an increased
+amount of article-based dissertations. This development
+conﬁrms the expectations raised by Zachariassen and Arlbjørn [41]. However, an article-based dissertation can be
+composed in different ways—e.g., with respect to
+requirements regarding the type of articles, number of
+articles, co-author permission and the author order position
+among the co-authors in an article. The ministerial orders
+granting the degree of PhDs in the different countries do
+not provide any guidance and requirements concerning the
+format of a PhD. This opens up for various interpretations
+of the required workload to earn the PhD degree. Therefore, the increase in more article-based dissertations
+requires that we study how the practice of these types of
+dissertations is unfolded in the Nordic countries. This
+section takes a closer look at the 92 article-based dissertations and develops a measure to differentiate the various
+types of dissertations. The subsequent subsection proposes
+a measure for article-based dissertation; this measure is
+subsequently used in analyzing the identiﬁed Nordic article-based dissertations.
+
+Table 6 Authorship factor
+calculation
+
+4.6.1 Measure for dissertation score
+In order to develop a measure for an average article-based
+dissertation, we ﬁrst need to recognize the fact that a
+speciﬁc article that is part of the dissertation can take
+different forms. Hence, the ﬁrst element in this proposal for
+a dissertation measure is to differentiate between the different types of contributions that are part of the articlebased dissertation and then to allocate different scores for
+the different types. The present analysis distinguishes
+between ﬁve different types of articles with speciﬁc scores
+as follows:
+1.
+2.
+3.
+4.
+5.
+
+Peer-reviewed journal articles, score: 1
+Peer-reviewed articles in form of book chapters (e.g.,
+in an anthology), score: 0.8
+Peer-reviewed conference articles, score: 0.8
+Working papers, score: 0.5
+Non-published papers, score: 0.5
+
+The differences in scores are used to reﬂect different
+perceptions of workload as well as quality requirements.
+Thus, a peer-reviewed journal article obtains the highest
+score of 1 point followed by book chapters and conferences
+papers with scores of 0.8, and working papers and nonpublished manuscripts of 0.5 points.
+The next step in developing a dissertation score is to
+propose a measure that takes into account the number of
+authors as well as the order of the authors. Thus, a sole
+authored paper by a PhD candidate counts more than a coauthored paper. And, in the present measure, a ﬁrst-order
+author position counts more than a lower author position.
+Table 6 proposes scores for authorship indicators
+
+Author order position (AOP)
+
+Authorship factor
+
+NoA
+
+Score
+
+AOP
+
+Score
+
+NoA * AOP
+
+1
+2
+
+1
+0.9
+
+1
+1
+
+1
+1
+
+1
+0.9
+
+2
+
+0.9
+
+2
+
+0.9
+
+0.81
+
+3
+
+0.8
+
+1
+
+1
+
+0.8
+
+3
+
+0.8
+
+2
+
+0.9
+
+0.72
+
+3
+
+0.8
+
+3
+
+0.8
+
+0.64
+
+4
+
+0.7
+
+1
+
+1
+
+0.7
+
+4
+
+0.7
+
+2
+
+0.9
+
+0.63
+
+4
+
+0.7
+
+3
+
+0.8
+
+0.56
+
+4
+
+0.7
+
+4
+
+0.7
+
+0.49
+
+5
+
+0.6
+
+1
+
+1
+
+0.6
+
+5
+
+0.6
+
+2
+
+0.9
+
+0.54
+
+5
+
+0.6
+
+3
+
+0.8
+
+0.48
+
+5
+
+0.6
+
+4
+
+0.7
+
+0.42
+
+5
+
+123
+
+Number of authors (NoA)
+
+0.6
+
+5
+
+0.6
+
+various numbers of authors and author order positions.
+Based on the above proposals of different types of
+articles and measures for different authorship indicators,
+we can now develop an overall dissertation score based on
+Formula 1:
+Formula 1: overall dissertation score
+n
+X
+S¼
+Ti Ã Authorship factori
+i¼1
+
+where S = overall dissertation score, T = type of article
+and authorship factor = number of authors (NoA) * author
+order position (AOP).
+The overall dissertation score is composed of multiplying the scores of the individual articles by the authorship factor. The basic idea is that the highest score per
+article of 1 point is reduced based on the lower the level of
+the perceived status of various channels (e.g., journal
+rankings; journal articles versus book chapters; conference
+articles versus journal articles/book chapters) and the
+number of co-authors as well as the author order the PhD
+student has for the given article. A conference paper that is
+included in an article-based dissertation, which have been
+through a double-blind review process (e.g., at a
+NOFOMA, LRN or a EurOMA conference), is valued 0.8
+compared with an article that is published in a peer-reviewed journal. Thus, a conference article is considered as
+less mature when compared to an article that has been
+through perhaps several revisions in a journal before
+acceptance. However, we should avoid with the generalization of the different channels. The Danish Bibliometric
+Research Indicator, for example, value accepted conference articles as much as some journal papers, if they are
+accepted to be presented at some conferences (e.g.,
+EURAM and AOM) [36]. Also, contributions to books are
+valued differently according to which publisher the work is
+published with [37].
+The dissertation score is a measure for the PhD dissertation at hand—and thus, the status of it when it was judged
+and passed. Several article-based dissertations contain nonpublished papers, working papers and conference articles
+that ﬁnd its way to peer-reviewed journals after the degree
+of PhD has been awarded and further workload is invested
+in those articles. Other articles of this nature never end in
+publications for various reasons. Thus, the status of the
+papers after the PhD evaluation is not included in the
+dissertation score presented in this article.
+An article-based dissertation is evaluated not only on the
+enclosed articles, but also on the text (the frame) that bind
+the articles together. Also, herein there seems to be different practices—e.g., the scope and depths on positioning
+the thesis against extant research; the level and scope of
+
+Page 9 of 18 5
+
+methodological and philosophy of science discussions (see,
+e.g., [3]); independent literature reviews as well as discussions on the ‘‘red line’’ between the included articles.
+The overall purpose with the dissertation score is to
+propose a measure to be used for discussing the scope and
+content-type of a PhD dissertation. What is enough? And
+how much of a dissertation can be co-authored with others?
+Is one dissertation better than another because it includes
+articles that are published? It is our experience that there
+are differences in what is needed in an article-based dissertation both within a department at a research institution
+and between research institutions. The present dissertation
+score can help in discussing what is needed and also in
+developing department guidelines.
+The proposed overall dissertation score formula is not
+without limitations. First, the division of types of articles
+and their scores is subjective. The peer-reviewed journal
+category, for example, can be further divided into different
+scores by following speciﬁc journal ranking lists. Second,
+the scores for various numbers of authors and their author
+order position in the proposed authorship factor calculation are also subjective and can be altered. The order of
+authors of a paper does not necessarily display the true
+workload of different authors. The order of authors can be
+organized using different principles such as a simple
+alphabetical listing, organized after seniority (experience);
+listing the person ﬁrst who got the idea to the article as the
+ﬁrst author; or listing PhD students ﬁrst because they need
+the credit more than their senior co-authors. Third, the
+dissertation score does not include a time perspective (i.e.,
+the length of the PhD program)—a higher score can be
+obtained over a 5-year period when compared to a 3-year
+period. Fourth, the dissertation score does not take into
+consideration the extent of thesis frame (the text accompanying the articles such as scoping, positioning, methods,
+philosophy of science, contribution and implications).
+Fifth, the score of author order position decreases based on
+the position; this may not reﬂect the actual work load. In
+summary, as with any measures in general, this overall
+dissertation score also has its own shortcomings and these
+are important to be considered to ensure the practical use
+of the score. However, in spite of the sometime magical
+status of numbers—we should remember that ‘‘numbers
+are just number’’ and that they can be used to jump start
+discussions on how to compose an article-based
+dissertation.
+4.6.2 Dissertation scores
+This section provides an analysis of the 92 article-based
+dissertations using the dissertation score developed in the
+above subsection. This number is divided among 12
+
+
+Table 7 Contents of articlebased dissertations
+
+Art. 1
+
+Art. 3
+
+Art. 4
+
+Art. 5
+
+Art. 6
+
+Art. 7
+
+Art. 8
+
+Total
+
+Avg DS
+
+JA
+
+2
+
+2
+
+1
+
+–
+
+–
+
+–
+
+–
+
+–
+
+5
+
+1.53
+
+BC
+
+3 Articles
+
+Art. 2
+
+0
+
+0
+
+0
+
+–
+
+–
+
+–
+
+–
+
+–
+
+0
+
+CP
+
+0
+
+0
+
+–
+
+–
+
+–
+
+–
+
+–
+
+0
+
+0
+
+0
+
+0
+
+–
+
+–
+
+–
+
+–
+
+–
+
+0
+
+4
+
+4
+
+5
+
+–
+
+–
+
+–
+
+–
+
+–
+
+13
+
+JA
+
+21
+
+16
+
+18
+
+16
+
+–
+
+–
+
+–
+
+–
+
+71
+
+BC
+
+4 Articles
+
+0
+
+WP
+NP
+
+6
+
+1
+
+1
+
+1
+
+1
+
+–
+
+–
+
+–
+
+–
+
+4
+
+CP
+
+6
+
+7
+
+6
+
+5
+
+–
+
+–
+
+–
+
+–
+
+24
+
+WP
+
+1
+
+3
+
+2
+
+3
+
+–
+
+–
+
+–
+
+–
+
+9
+
+NP
+
+33
+
+4
+
+6
+
+6
+
+8
+
+–
+
+–
+
+–
+
+–
+
+24
+
+JA
+
+20
+
+15
+
+16
+
+17
+
+12
+
+–
+
+–
+
+–
+
+80
+
+BC
+
+5 Articles
+
+2.62
+
+0
+
+0
+
+1
+
+0
+
+1
+
+–
+
+–
+
+–
+
+2
+
+CP
+
+2
+
+6
+
+3
+
+4
+
+8
+
+–
+
+–
+
+–
+
+23
+
+26
+
+WP
+
+1
+
+1
+
+1
+
+2
+
+1
+
+–
+
+–
+
+–
+
+6
+
+6 Articles
+
+NP
+JA
+
+3
+21
+
+4
+18
+
+5
+17
+
+3
+16
+
+4
+16
+
+–
+11
+
+–
+–
+
+–
+–
+
+19
+99
+
+BC
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+–
+
+–
+
+0
+
+CP
+
+3
+
+5
+
+5
+
+5
+
+4
+
+5
+
+–
+
+–
+
+27
+
+24
+
+WP
+
+0
+
+1
+
+1
+
+2
+
+2
+
+6
+
+–
+
+–
+
+12
+
+NP
+
+0
+
+0
+
+1
+
+1
+
+2
+
+2
+
+–
+
+–
+
+6
+
+7 Articles
+
+JA
+
+1
+
+0
+
+1
+
+1
+
+2
+
+2
+
+1
+
+–
+
+8
+
+BC
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+–
+
+0
+
+CP
+
+1
+
+2
+
+1
+
+1
+
+0
+
+0
+
+1
+
+–
+
+6
+
+2
+
+WP
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+–
+
+0
+
+NP
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+–
+
+0
+
+8 Articles
+
+JA
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+0
+
+1
+
+3
+
+BC
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+CP
+
+0
+
+1
+
+1
+
+0
+
+1
+
+0
+
+0
+
+0
+
+3
+
+WP
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+3.49
+
+0
+
+1
+
+NP
+Total
+
+0
+
+0
+
+0
+
+1
+
+0
+
+0
+
+1
+
+0
+
+92
+
+92
+
+86
+
+53
+
+27
+
+3
+
+1
+
+446
+
+5.21
+
+5.38
+
+2
+
+92
+
+4.49
+
+3.34
+
+JA journal article, BC book chapter, CP conference paper, WP working papers, NP non-published paper
+
+Danish, 27 Finnish, 37 Swedish and 16 Norwegian dissertations. As given in Table 7, the dissertations vary in the
+number of included articles spanning from three to eight
+articles. The majority of the dissertations are composed of
+four to six articles. The average number of articles counts
+to 4.84. Table 7 also shows that the average dissertation
+score increases from 1.53 with three articles to 5.38 with
+eight articles. This is not surprising given the design of the
+formula.
+Furthermore, Table 7 shows that including journal articles is a well-established practice among the reviewed
+dissertations. The share of journal articles counts 54 %
+among dissertations with four articles (71/132); 62 %
+among dissertations with ﬁve articles (80/130); and 69 %
+among dissertations with six articles (99/144). After journal papers, conference papers and non-published papers are
+the second most typical types that are included in article-
+
+123
+
+based dissertations. Finally, Table 7 shows that including
+reviewed books chapters is not that prevalent among the
+dissertations reviewed.
+This review also shows that there are more PhD candidates at Chalmers University of Technology with highest
+number of contributions at 18 dissertations followed by
+Molde University College with 16 dissertations and Lund
+University with 11 dissertations (see Fig. 1). In all, the 92
+article-based dissertations contain 446 articles divided into
+the ﬁve types discussed in Sect. 4.6.1. Out of this, 266 are
+peer-reviewed journal articles of which 68 are from Chalmers University of Technology; 39 are from Molde
+University College; and 39 are from Lappeenranta
+University of Technology. In total, 83 articles are included
+as conference papers; 64 are included as non-published
+papers; 27 are included as working papers; and only six
+
+5.00
+
+5.02
+
+4.11
+
+4.00
+
+LU (S)
+
+USD (DK)
+
+3.93
+
+3.87
+
+JIBS (S)
+3.45
+
+TSE (F)
+
+SU (S)
+
+3.00
+
+4.28
+
+4.22
+
+3.83
+
+UO (F)
+
+CUT(S)
+
+LUT (F)
+
+TUD (DK)
+
+Average dissertaƟon scores
+
+Fig. 1 Average dissertation
+scores divided by research
+institution. AU Aalto
+University, ASB/AU Aarhus
+School of Business/Aarhus
+University, CUT Chalmers
+University of Technology, HSE
+Hanken School of Economics,
+¨ ¨
+JIBS Jonkoping International
+Business School, KI Karolinska
+¨
+Institutet, LiU Linkoping
+University, LU Lund University,
+LUT Lappeenranta University
+of Technology, MUC Molde
+University College, SU
+Stockholm University, TSE
+Turku School of Economics,
+TUD Technical University
+Denmark, UO University of
+Oulu, UV University of Vaasa,
+USD University of Southern
+Denmark
+
+Page 11 of 18 5
+
+AU (F)
+
+LiU (S)
+3.25
+
+3.22
+
+3.12
+
+3.03
+2.96
+
+KI (S)
+
+2.76
+
+MUC (N)
+
+HSE (F)
+
+2.47
+
+2.00
+ASB/AU (DK)
+1.47
+
+1.00
+
+0.00
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+Number of arƟcle-based dissertaƟons per insƟtuƟon
+
+Figure 1 demonstrates a relatively high variety among
+the dissertations across the different research institutions
+with respect to the average institutional dissertations
+(ranging from 1.47, 2.47, 2.76, 2.96, 3.03, 3.12, 3.22, 3.25,
+3.45, 3.83, 3.87, 3.93, 4.11, 4.22, 4.28, 5.02). Four of the
+six dissertations composed of three articles (see Table 7)
+are Danish dissertations from Aarhus School of Business/
+Aarhus University. In contrast, eight out of the 24 dissertations holding six articles are composed of 4–6 peer-reviewed journal articles. The dissertation score is here
+suggested as an instrument that can be used in discussions
+on what is required to earn the degree of PhD at the speciﬁc
+research institutions and, through benchmarks, facilitate
+alignment processes if needed. With the limitations in
+mind, a PhD student can discuss with her or his advisor(s) as of what type of articles are required; whether coauthored articles with advisors or other senior researchers
+or PhD students can be included; and how a PhD student
+documents her or his contribution in each article if they are
+co-authored. The dissertation score can also stimulate
+further discussions on what should be included in the
+binder of the dissertation—e.g., prioritizes theme to be
+discussed in the binder instead of adding another article.
+4.7 Potential topics for inclusion in the dissertations
+The review process of the 150 dissertations reveals that ﬁve
+research areas seem to be under-prioritized among Nordic
+scholars within logistics and SCM. The topics are as follows (not prioritized):
+(1)
+
+Cloud technology Although there is a focus on
+maximizing the effectiveness of shared resources [5],
+
+(2)
+
+(3)
+
+(4)
+
+the increased availability of high-capacity network,
+low-cost computers and storage devices as well as the
+widespread adoption of hardware virtualization,
+service-oriented architecture, and autonomic and
+utility computing have led to a growth in the use of
+cloud technology. In spite of its increased importance, it is distinct that this subject has not received
+more attention in the dissertations reviewed.
+Globalization of SC As mentioned previously, this
+topic was still largely ignored in the dissertation
+reviewed. With the natural outcome of expanding
+growing market and sustaining competitive advantage, companies have to make key decisions about
+managing costs and complexity through globalized
+supply chain (see, e.g., [11]).
+Supply chain innovation (SCI) The discipline of
+innovations has branched out into the supply chain
+context and should be regarded as an important topic.
+While ﬁrms are applying their assets, operating
+resources and capabilities to develop new ways of
+improve performance, they cannot ignore the importance of their supply chain partners in enabling product
+and process innovations (see, e.g., [1]). Accordingly,
+more attention needs to be paid to this topic.
+Security This topic was also mentioned in the
+previous study by Zachariassen and Arlbjørn [41].
+Yet, this topic has only received limited attention
+among the 112 dissertations published between 2009
+and 2014. Security is increasingly becoming a major
+concern to both private and public sector organizations. Security searches for cooperative arrangements between businesses as well as identiﬁes risks
+
+
+before the goods move. It is also concerned with
+controlling theft and reducing illegal import and
+export of stolen goods. There are many areas of
+research within the topic of security from formal
+aspects to empirical research (see, e.g., [4, 40]).
+Hence, it is essential that researchers start focusing
+on the different aspects of this topic in the future.
+This is one of the key topics of research within
+supply chain now as well as in the distant future.
+Big data This is currently drowning the world. The
+huge amount of data is an invaluable asset in the
+context of supply chains. The quality of the evidence
+extracted signiﬁcantly beneﬁts from the availability
+of broad datasets. On the one hand, extensive vision
+is more promising when extra data are available.
+And, on the other hand, it is a big challenge. The
+current approach is not appropriate to handle large
+data, and therefore, there is a need for new solutions
+to handle large datasets. This research ﬁeld is new
+and rapidly evolving [38], and there is also a leadtime issue before we see the ﬁrst dissertations within
+this area. As a result, any initial effort taken will be a
+strong contribution from both experimental and
+theoretical perspective (see, e.g., [15]).
+
+5 Conclusion
+This paper has set out to analyze the development of
+Nordic doctoral dissertations in logistics and SCM from the
+years 2009–2014. The paper identiﬁed 158 dissertations
+relevant for review; out of this, 150 dissertations were
+reviewed in depth based on different criteria. Compared
+with previous studies, this research found several important
+developments in Nordic doctoral research. First, there has
+been an increase in the average annual number of ﬁnalized
+dissertations when compared to previous Nordic studies.
+The results predominantly show the remarkable increase in
+dissertations between 2009 and 2014 (158 dissertations)
+wherein Sweden ranks highest followed by Finland, Norway, Denmark and Iceland, respectively. Second, there has
+been a decrease in dissertations that focus on classical
+entities of analysis such as carriers, wholesalers, retailers
+and inventories. Therefore, it is clear that the PhD dissertation’s focal point is still more on manufacturing ﬁrms
+(50/150) rather than on other entities. Third, there has been
+an increase in functional subject areas of logistics and SCM
+and the supply chain/network level. Fourth, the number of
+dissertations containing philosophy of science discussions
+is continuing to decline. As mentioned earlier, there is a
+signiﬁcant increase in article-based dissertations and these
+dissertations do not adopt philosophy of science; as a
+
+123
+
+
+
+result, there is an extreme decrease (110/150). Finally,
+there is clear shift toward disseminating doctoral research
+as an article-based dissertation (2009–2014: 92/150;
+2002–2008: 26/70; 1990–2001: 15/71, respectively).
+However, this piece of research has demonstrated that the
+content of the Nordic article-based dissertations varies
+along dimensions such as types of articles included, the
+number of articles included and the number of co-authors
+at the papers. A dissertation score has been suggested as a
+measure for initiating discussions about such dissertations
+at a single research institution and as a benchmark between
+different institutions. As discussed earlier, such a score is
+not without limitations and must not stand alone. Therefore, the next logical step might be to discuss how far
+should we go with the number and the type of contributions. What is enough in order to earn a PhD degree? The
+content of this paper can be used to match the expectations
+of PhD students and their supervisors so as to ﬁnd the right
+path to learn the craft of conducting and disseminating
+logistics and SCM research.

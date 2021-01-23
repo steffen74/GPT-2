@@ -1,0 +1,2335 @@
+
+INTRODUCTION
+
+We consider a real world problem of a steel producing
+company, namely, their steel coil distribution (dispatch
+and relocation of coils) and storage problem. The
+company’s primary problem is finding the best-fitting
+warehouse and doing as few coil relocations of coils
+as possible. Steel coils (also simply called “coils”) are
+finished steel products that are wrapped after rolling
+the metal in kilometer long strips. These coils are very
+heavy (up to 36 tons) and very large. As a result, many
+coils have to be dispatched by train or ship because
+they are too heavy and oversized for transport by
+truck due to legal restrictions. Handling the coils is
+also difficult, and most need to be moved by crane
+(within the warehouse) and then transported to other
+warehouses by special heavy trucks and trailers or
+forklifts that are able to transport coils.
+For the coil distribution and storage problem, we
+consider a medium-term time horizon (up to 87 days)
+in which we have to decide in advance which coils to
+relocate from one warehouse to another to minimize
+the number of subsequent relocations between
+different warehouses. In addition, each warehouse has
+a different total capacity available to store different coil
+dimensions. These dimensions are divided into width
+( ) and diameter ( ) of a coil and the number of possible
+storage locations. The warehouses in question are only
+a few hundred meters away from one another. Loading
+distance traveled.
+Coils can be stored on pallets if necessary or without
+any loading equipment. The coils without any loading
+equipment are stored on wedges, which are fixed in the
+ground and therefore hold the coils in place. Another
+possibility is to store coils on top of other coils. In this
+instance, at least two coils have to be stored together in
+the same shape to place a third coil on top of these (this is
+allowed only for coils without any loading equipment).
+Coils with and without any loading equipment can also
+be stored in high-bay racking warehouses if they are
+not too heavy (maximum weight must be considered).
+Relocations occur because each coil is distributed
+from a production plant to a directly connected
+warehouse. The incoming coils are stored or dispatched
+at the same day. Relocations must be performed when
+there is a lack of available capacity (see Figure 1; for
+two coils is only one capacity left, therefore a relocation
+of one must be made) or if a coil needs to be relocated
+to another warehouse (e.g., it is dispatched with
+other coils by train or ship from another warehouse).
+Internal relocations within the same warehouse are
+not considered in this work, because there is sufficient
+crane capacity in all the warehouses to facilitate
+intrawarehouse relocations.
+
+3
+
+1
+
+0
+
+1
+
+b2
+
+2
+
+0
+
+0
+
+0
+
+0
+
+4
+
+1
+1
+
+A
+
+2
+
+r
+
+3
+
+1
+
+3
+
+2
+
+b2
+
+0
+
+4
+
+1
+1
+
+2
+
+r
+
+0
+
+0
+
+0
+
+B
+
+1
+
+0
+
+3
+
+Figure 1: The two parts of the figure show coil
+dimensions and and the number of available
+storage slots. For example, there are four storage
+slots available for coils with dimensions
+and
+. A coil can be stored in a slot of its same
+dimensions (e.g., coil A with
+and
+) or
+in a slot with larger dimensions (
+and
+);
+this is shown as “gray area” for coil A. Considering
+only coil A, the problem is feasible because one
+storage slot is available (
+and
+). If coil B
+is also considered and there is only one storage slot
+available for coils A and B, then one of them must be
+relocated.
+The relocation of coils to other warehouses are
+mainly due to necessity or lack of capacity (we can only
+optimize the relocations due to a lack of capacity). In
+either case, coils must be relocated to facilitate a feasible
+solution to the problem. The numerical experiments
+(see Section 4) and, in more detail, a real world case
+study show that the relocations can be reduced relative
+
+to the real world relocations the company is making.
+In practice, the dispatcher is responsible for the
+relocations and dispatches made in real world. At the
+moment, the dispatcher has no decision support and
+therefore relocations and dispatches are made based on
+his/her expert knowledge.
+Step 1:
+Dispatch coils
+(heuris c, one
+part exact)
+
+Step 2:
+Iden fy relevant
+coil types
+(exact)
+
+Step 3:
+Relocate coils
+(heuris c)
+
+Figure 2: Overview of the solution approach.
+Figure 2 provides an overview of the solution
+approach. We offer a detailed description of each step
+in Section 3. First, we dispatch all available coils by
+considering the maximum dispatch capacity (heuristic,
+one part exact; see Section 2.2). The dispatch capacity
+is the maximum amount of coils that can be sent within
+a day. Second, we identify coil types (with dimensions
+and ) that need to be relocated due to a lack of capacity
+(exact; see Section 2.3). After identifying these coil
+types we relocate the best-fitting coils to create a
+feasible solution (heuristic). We detail this solution
+approach in Section 3. For Steps 1 and 2, we use the
+models presented in Sections 2.2 and 2.3. We divided
+the solution approach into three parts, because we were
+not able to obtain a feasible solution for the test cases
+with five periods using the integrated model presented
+in Section 2.1. Splitting the problem in these three parts
+makes it possible to handle some parts (of Step 1 and
+2) exact, while solving the last step (relocation of coils)
+with a heuristic. The models used for Step 1 and 2 are
+easy to solve and fit therefore well to the matheuristic
+solution approach.
+1.1
+Related work
+The problem we consider herein is related to the
+literature on intrawarehouse relocation as well as
+inventory models in lateral transshipment.
+The relocation of coils is the main topic of our work.
+Therefore, we first provide an overview of papers that
+deal with this topic. Zäpfel and Wasner [9] consider
+optimal scheduling at a single coil warehouse to
+ensure the proper handling of coils. They treat the
+actual sequencing, scheduling, and routing of the
+movement of goods. For this purpose they formulate
+the problem as a generalization of the classical jobshop sequencing problem and solve it by means of a
+local search algorithm. Xie et al. [8] extend their work
+and study a multicrane scheduling problem for coils
+that are mainly considered in single warehouses of steel
+companies. In order to properly treat the problem they
+consider the internal relocations including necessary
+moves and solved the problem with a greedy heuristic
+algorithm. Tang et al. [6] consider two different types
+of steel products for their shuffling problem, namely,
+integer linear program and they solve the problem
+using a tabu search metaheuristic.
+In addition, we take a closer look at papers that deal
+with the reshuffling problem in more detail. Pazour and
+Carlo [5] consider a general warehouse reshuffling (or
+the relocation of items) problem as part of their work
+and they solve it with several heuristics (simple heuristic
+reshuffling the closest load, general reshuffling
+heuristic, and a simulated-annealing-based heuristic;
+the general reshuffling heuristic performs best for
+medium and large instances). They provide a detailed
+literature overview on reshuffling problems. Our work
+considers the multilocation warehouse problem, which
+is part of the inventory models associated with lateral
+transshipment. Archibald et al. [1] consider a two-depot
+inventory problem with stock transfer. The transfer is
+triggered by demand, which cannot be fulfilled with
+the given stock of a depot, and therefore a transfer
+from another warehouse or an emergency order has
+to be made. A more detailed literature review of the
+multilocation warehouse problem can be found in
+Paterson et al. [4].
+Comparing this work to intrawarehouse relocations
+treated in the literature differs mainly by the
+consideration of different types of storage slots (i.e.,
+different dimensions and ), ensuring that the capacity
+of each warehouse is not exceeded, and that relocations
+between different warehouses are minimized.
+The main difference between the multilocation
+warehouse problems considered in related literature
+and the current work is that a transshipment is forced
+by products that are needed from a different warehouse.
+Our model is supposed to store coils as long as possible
+in the same warehouse until they are dispatched or until
+too many coils of the same type cannot be stored in the
+same warehouse anymore. Only if a lack of capacity
+or the necessity for a relocation occurs a relocation
+must be made. Therefore, we consider capacitated
+warehouses in which coils can be stored within given
+dimensions and .
+Other related topics are the loading, unloading,
+and pre-marshalling of blocks (e.g., containers and
+steel plates). The problem is also known as the block
+relocation problem (BRP). Lehnfeld and Knust [3]
+present a detailed overview of related work on these
+topics. In their work they focus on problems where the
+storage is organized in stacks and therefore the items
+can be put on top of each other. The items are defined
+to be cuboids, e.g., containers, wooden plates, or steel
+plates. In addition, they mention that problems dealing
+with the storage of round items (i.e., coils) require a
+different layout and stacking conditions and exclude
+them from their survey. Any problem that relates to to
+multi-warehouse relocation problems is not part of their
+survey. All mentioned papers consider at least a single
+yard, a single warehouse, a single container ship, or a
+single tram/bus depot.
+
+3
+
+Zehendner et al. [10] investigate the online
+container relocation problem, which is part of the
+BRP. This problem handles containers which have to
+be retrieved from a single bay in a container terminal
+by minimizing the number of relocations. The worst
+case and average performance of a leveling heuristic
+(relocates containers to the lowest empty position) is
+analyzed in more detail.
+Tricoire et al. [7] present new methods for the
+BRP. An unrestricted BRP is treated that yields more
+opportunities for optimization and they investigate
+very large instances for a single block. Several fast
+heuristics are integrated into a new metaheuristic
+construction framework. In addition, various factors
+influencing branch-and-bound algorithms for the BRP
+are investigated by the authors.
+1.2
+Problem description
+The contribution of our paper is twofold. First,
+methodologically, we create a mixed integer program
+that handles real-world aspects and develop a fast
+matheuristic approach that can solve very large real
+world test problems and improve real world relocations
+up to 11% for larger test cases (considering a time
+frame of at least 30 days; see Table 11). A heuristic
+solution approach is necessary due to long computation
+times solving the presented model to optimality (see
+Table 10). We consider different warehouses with
+different capacities for specific coil slots. In addition,
+the interaction (via the relocation of coils) between the
+warehouses is considered. We additionally consider
+different kinds of slots (with dimensions and )
+and the possibility to store coils in slots with larger
+dimensions. Second, to account for managerial impact,
+we evaluate the value of information with respect to
+capacity or dispatch information and its effect on
+subsequent periods.
+Before presenting the model formulation in more
+detail, we provide a brief verbal description of the
+problem. Our solution approaches minimize the
+number of coil relocations between warehouses,
+consider different slots (dimensions and ), and
+include different slot sizes for specific coil types.
+Each coil is distributed from a production plant to a
+specific warehouse. In this warehouse, a coil can be
+stored within its dimensions, and , or in a bigger
+slot. If a coil is moved to another warehouse within the
+considered time horizon, it is denoted as relocation.
+Also, if a coil is distributed from another warehouse
+it first has to be relocated. The distribution of a coil
+must be handled within a distribution time window
+if this time window is entirely outside the planning
+horizon, the coil may not be sent. If the planning
+horizon partially overlay this time window, the coil
+can be distributed (optionally). If the time window is
+entirely within the planning horizon, the coil must be
+distributed. The capacity of each warehouse and the
+maximum number of dispatches and relocations must
+warehouse.
+In our experiments, we test different scenarios
+with respect to the available degree of information
+(information about the production and distribution). In
+some cases, no information about the production and
+distribution during the planning horizon is available.
+In others, the information for a certain number of days,
+or even for the entire planning horizon, is available.
+The remainder of the paper is organized as follows:
+Section 2 provides an overview of the integrated model
+(Section 2.1), the subproblem in Section 2.2 used for
+Step 1 (Figure 2), and the subproblem (Section 2.3) used
+for Step 2 (Figure 2). Section 3 provides the detailed
+solution approach. Section 4 details the solutions of
+the comparison between the integrated model and the
+matheuristic solution approach, the real world test
+cases, the study on the value of information, and the
+comparison between a day-by-day approach and the
+matheuristic solution approach. Section 5 gives some
+conclusions and an outlook on future research on this
+topic.
+2
+
+2.1
+
+Integrated model
+
+Name
+
+Coil diameter
+Set of all coil widths
+Set of all coil diameters
+Set of coils with width and diameter
+Number of available storage slots for a
+coil type with width and diameter
+for each warehouse
+Set of possible warehouses of coil
+Maximum number of coil dispatches
+each day
+Maximum capacity of relocations
+between warehouses each period
+Earliest and latest dispatch period
+for coil
+First and last period in the planning
+horizon
+Period when coil enters first the
+warehouse, if
+coil is in stock
+at the initial time period
+Starting warehouse of coil
+
+PROBLEM FORMULATION
+
+First, we present a mixed-integer linear programming
+formulation for the integrated problem of real world
+coil relocation and distribution in Section 2.1. Second,
+we present two subproblem formulations in Sections
+2.2 of our matheuristic (Step 1; see Figure 2) and 2.3
+(Step 2; see Figure 2) of the integrated problem, which
+we then use in our matheuristic solution approach
+described in Section 3. By using the integrated model
+it is not possible to find optimal solutions, even for
+test instances with only a five day planning horizon,
+therefore we develop this matheuristic solution
+approach. Further details about the computational
+results can be found in Section 4, Table 10.
+
+Description
+Set of time periods
+Set of coils
+Set of coils already stored
+Set of warehouses
+Storage slots needed by coil
+in warehouse
+Coil width
+
+,
+,
+
+Table 1: Input data for the integrated
+coil relocation model.
+Name
+
+Description
+Indicator if coil is at warehouse
+at the end of the period
+Indicator if coil is dispatched to a
+customer from warehouse in period
+Indicator if coil is relocated from
+warehouse to warehouse in period
+Number of coils in period with
+dimensions and in warehouse
+assigned to the available slots with
+dimensions and (e.g., 3 coils of the
+dimensions
+and
+are stored
+in warehouse and period in slots with
+the dimensions
+and
+)
+
+Table 2: Decision variables for the integrated
+
+(1)
+subject to:
+(2)
+(3)
+(4)
+(5)
+(6)
+
+(7)
+
+(8)
+
+(9)
+(10)
+
+(11)
+
+(12)
+
+(13)
+(14)
+(15)
+(16)
+(17)
+(18)
+all coils are fixed to their initial warehouse if they are
+stored; this holds only for coils that are in stock at
+(Constraints (2)). Constraints (3) and (4) ensure that
+a relocation has to be made if a coil is stored in or
+dispatched from another warehouse. If coil is stored
+in warehouse
+in period and moves to another
+warehouse in period
+or is dispatched from
+warehouse in period
+, a relocation is required
+(Constraints (3)). If we force a relocation of coil
+(mandatory relocation) in period
+from warehouse
+to warehouse , we have to ensure that the coil is
+stored or dispatched in period
+(Constraints
+(4)). If a coil is stored in or dispatched from another
+warehouse during the period the coil enters first, a
+relocation must be considered (Constraints (5)). If the
+time window is entirely within the planning horizon,
+it must be dispatched (Constraints (6)). If the time
+windows exceeds the end of the planning horizon, the
+coil can optionally be dispatched (Constraints (7)).
+If the time window is entirely outside the planning
+horizon, the coil cannot be dispatched (Constraints
+(8)). Constraints (9) fulfill the requirement that a coil
+has to be stored or dispatched if the coil enters the
+first time, except for coils that are already stored at
+. If a coil is stored in a certain time period, it must
+be stored in or dispatched from a relevant warehouse
+(Constraints (10)). Constraints (11) and (12) ensure
+that the maximum storage available for each storage
+dimension and warehouse is met. Each stored coil in
+period and warehouse (with the number of storage
+slots needed) must be assigned to storage dimensions
+and (Constraints (11)). The maximum capacity
+of each storage dimensions and for warehouse
+must be met (Constraints (12)). The maximum capacity
+for relocations has to be considered (Constraints (13))
+as well as the maximum number of coil dispatches
+(Constraints (14)). Constraints (15) through (17) define
+the binary decision variables. Constraints (18) define
+the integral decision variables.
+The presented model (especially Constraints 11 and
+12) is a variant of the generalized assignment problem
+(GAP). According to Ceselli and Righini [2], the GAP
+is NP-hard, and even determining a feasible solution
+is NP-complete.
+Name
+
+Description
+Set of items and knapsack
+Costs assigning item to knapsack
+Weight of item if assigned to knapsack
+Capacity of knapsack
+Binary variable equals 1 if item is
+assigned to knapsack
+
+Table 3: Input data and decision variables
+of the GAP.
+
+(19)
+subject to:
+(20)
+(21)
+(22)
+The input data and the decision variables of the GAP
+are shown in Table 3. The GAP consists of the Objective
+(19), and the Constraints (20) to (22). Constraints (12)
+of our model relate to Constraints (20) of the GAP
+(ensuring that the maximum capacity restriction is
+met), while Constraints (11) of our model correspond
+to Constraints (21) of the GAP (each item/coil has to
+be assigned to a knapsack/storage slot). Because of
+the different objective functions (our model considers
+only the relocations between the warehouses; the GAP
+minimizes the total assignment costs) of the presented
+model compared to the GAP we conclude that our
+problem is at least NP-complete.
+The following model (Section 2.2) is part of the
+solution approach described in Section 3. It is used
+for Step 1 of the solution approach (see Figure 2) to
+determine the minimum total number of relocations
+for a specific warehouse and period and the coils
+dispatched for a specific warehouse and period. The
+goal here is to minimize the number of relocations
+because the model should primarily force coils to
+be dispatched (if possible) and not relocated (only if
+it is necessary). An overview of how it is used in the
+solution approach is given in Figure 3. Therefore, we
+use the model described in Section 2.2, to determine
+the coils to dispatch and forward this information to
+adjust the information about the actual storage position
+of each coil and warehouse (needed for Step 2). Only the
+information on the dispatched coils
+is forwarded.
+Information of the number of relocated coils
+and
+the number of coils assigned to specific dimension
+is needed to provide correct information on the
+dispatched coils
+. First, all coils that are determined
+by the model are dispatched. Second, the residual
+dispatch capacity is used to send additional coils to
+
+input data
+
+Model 1
+(dispatch coils)
+
+forward
+information: ybr
+
+sending coils Dt
+
+forward to
+Step 2
+
+(get the remaining
+coils St)
+
+repeat for
+each warehouse
+
+Figure 3: An overview of Step 1 (see Figure 2)
+2.2
+
+Step 1: Model to determine the minimum
+number of relocations and dispatches of
+coils
+
+Input
+
+Description
+Storage needed for all coils of dimensions
+and
+Number of available storage slots for a
+coil type with width and diameter
+Number of coils available to dispatch for
+a coil type with width and diameter
+(not all coils are available because of their
+dispatch time windows; already dispatched
+coils are excluded; we go through all coils
+that are available to be dispatched and
+count their amount for dimensions
+and )
+Set of all coil widths
+Set of all coil diameters
+Constants to balance the parts of the
+objective function
+
+Decision variable
+
+Description
+Number of coils to relocate
+with dimensions and
+Number of coils dispatched
+with dimensions and
+Number of assigned coils
+with dimensions and to
+the available slot of
+dimensions and
+
+Table 5: Decision variables for the model to get the
+minimum number of relocations and dispatches
+of coils for a specific period and warehouse.
+
+Table 4: Input data for the model to obtain the
+minimum number of relocations and dispatches
+of coils for a specific period and warehouse.
+
+(23)
+
+subject to:
+
+(24)
+
+(27)
+(28)
+(29)
+(30)
+Table 4 provides input data for the model to obtain
+the minimum number of relocations and dispatches of
+coils for a specific period and warehouse, and Table 5
+provides the decision variables. The decision variables
+(number of relocated coils) and
+(number of
+assigned coils to specific dimension) are needed to
+provide correct information of the dispatched coils
+and are not forwarded.
+The objective function (23) consists of two parts. The
+first aims to minimize the total number of relocations
+( is weighted highest to ensure this). The second
+aims to minimize the number of coils dispatched and is
+weighted less (with ) than the first part ( ) to ensure
+that coils are only dispatched if a relocation can be
+prevented. The models purpose is to dispatch coils and
+therefore prevent relocations (see Section 3).
+Constraints (24) and (25) ensure that the total number
+of stored coils in dimension and are stored in the
+warehouse, get relocated or dispatched (for Constraints
+(24)). The maximum available slots for each dimension
+guarantee that no more coils are stored than there is
+storage available for a specific dimension and
+(Constraints (26)). The maximum available coils
+to dispatch for each dimension and may not be
+exceeded (Constraints (27)). Constraints (28) through
+(30) define the integral decision variables.
+
+input data
+(with solutions
+of Step 1)
+
+Model 2
+(identify relevant
+coil types)
+
+The following model (Section 2.3) is part of the
+solution approach described in Section 3. It is used
+for Step 2 of the solution approach (see Figure 2) to
+determine the minimum total number of relocations
+for a specific warehouse and period. It also finds the
+free slots for a specific coil type in each warehouse
+and period, and the number of relocations of coil
+types and for a warehouse and period. A detailed
+information of how it is used in the solution approach
+is given in Figure 4. We use the model described in
+Section 2.3 to determine the number of relocations
+needed for dimensions and and period ( ).
+This information of
+is saved in and passed on
+to Step 3. Additionally, we use the information of
+assigned coils to storage slots (
+) and the number
+of available storage locations ( ) to determine the
+unused storage slots. This information is saved in
+and handed on to Step 3.
+
+forward
+b r
+information: mbr , zbr
+1 1
+
+get all Pt
+and Ut
+
+repeat for
+each warehouse
+
+Figure 4: An overview of Step 2 (see Figure 2).
+
+forward to
+
+2.3
+
+Step 2: Model to determine the minimum
+number of relocations for a specific
+warehouse and period
+
+Name
+
+Description
+Storage needed of all coils with
+dimensions and
+Number of available storage for a coil
+type with width and diameter
+Set of all coil widths
+Set of all coil diameters
+Constants to balance the parts of the
+objective function
+
+Table 6: Input data for the minimum relocation model
+of a specific time period and warehouse.
+
+Name
+
+Description
+Number of coils to relocate with
+dimensions and
+Number of assigned coils
+with dimensions and to the
+available slot of dimensions
+and
+
+Table 7: Decision variables for the minimum
+relocation model of a specific time period and
+warehouse.
+
+(31)
+subject to:
+(32)
+
+(33)
+
+(34)
+(35)
+Table 6 provides the input data for the model to
+obtain the minimum number of relocations for a
+specific warehouse and period, and Table 7 provides
+the decision variables.
+The objective function (31) consists of three parts. The
+first aims to minimize the total number of relocations
+( is weighted highest to ensure this). The second
+aims to relocate the smallest possible coil dimensions
+and ( is weighted less than ). The third ensures
+that coils are assigned to the smallest possible storage
+slot dimensions and (e.g., for dimension
+and
+it is preferred to store them in
+and
+
+, rather than in
+and
+). The third part
+makes it easier to find the best-fitting warehouse for
+the relocation process (a coil can be stored for several
+periods without additional relocation, see Section 3).
+Constraints (32) ensure that all stored coils of
+dimensions and are stored in the warehouse or get
+relocated (which affects the total number of relocations).
+Constraints (33) guarantee that no more coils are stored
+than storage is available for a specific dimension and
+. Constraints (34) and (35) define integral decision
+SOLUTION APPROACH
+
+Notation
+
+Description
+All considered periods
+Number of periods for which something
+is known about future
+Maximum capacity of relocations
+between warehouses each period
+Maximum dispatch capacity
+Set of coils preventing a relocation
+due to be dispatched
+Coils available to be dispatched
+in period
+Set of relocated coils in period
+Set of dispatched coils in period
+Set of stored coils in period
+Set of minimum number of potential
+relocation slots (with dimensions and )
+in period for a specific warehouse
+Set of unused storage
+
+Table 8: Notation for the used algorithms.
+Figure 2 provides an overview of the basic elements
+of the solution approach, and Algorithm 1 provides an
+outline of the solution approach. Table 8 explains the
+notation. Step 1 and 2 of Figure 2 are implemented using
+an exact model (Lines 6 and 7 of Algorithm 1). A more
+detailed description of Step 1 is shown in Algorithm
+2. Step 3 of Figure 2 is implemented as a greedy
+heuristic that relocates a coil with big dimensions to a
+free warehouse with the most capacity left (Line 8 in
+Algorithm 1). A more detailed description of Step 3 is
+given in Algorithm 3.
+
+First, we get the storage information of all coils
+for all periods without any dispatch information (the
+warehouse that each coil enters is used for each period;
+Lines 3 and 4 of Algorithm 1). This includes only the
+periods we know in advance ( to
+). Afterward, the
+dispatch information for each coil is used to determine
+which coils are dispatched within periods to
+(Line 6). For a detailed description see Algorithm 2.
+After determining the set of coils to be dispatched, we
+obtain the minimum number of coils relocated for each
+slot, warehouse, and period (Line 7). Therefore, we
+use the model of the subproblem described in Section
+2.3 (Step 2 in Figure 2; see Figure 4 for more details)
+and solve it to optimality. The objective function (31) of
+the subproblem described in Section 2.3 is essential to
+obtain the minimum number of relocations for a given
+warehouse and period . The smallest possible slots are
+needed to identify the best-fitting warehouse for each
+coil, especially to use coils with larger dimensions
+and (which replace the coils with smaller dimensions
+and keep the problem feasible) to relocate if no suitable
+coil is found. This situation can be caused when coils
+are not allowed to be relocated. We also forward
+information about unused storage, which is the third
+part of the objective function (31) of the subproblem
+described in Section 2.3. This information is needed
+to find the best-fitting warehouse for a coil.
+Step 1 is shown as a function in Algorithm 2 and
+is needed for the dispatch process. The information
+about whether a coil is dispatched within a period is
+determined by two cases. First, if enough dispatch
+capacity is available for all coils that are available
+to dispatch on a given day (dispatched coils are
+excluded), then all these coils are dispatched (Line 3
+and 4). Second, if there is not sufficient capacity (the
+number of available coils to dispatch is greater than the
+dispatch capacity ; Line 5 to 12), it is necessary to
+find the coils that should be dispatched first. Therefore,
+we use the subproblem defined in Section 2.2 (Step 1 in
+Figure 2; see Figure 3 for more details) and solve it to
+
+Algorithm 1 Overview of the solution approach
+1: Rt ← ∅, Dt ← ∅, St ← ∅, Pt ← ∅, Ut ← ∅
+2: for t = 1 . . . |T | do
+3:
+for t = t . . . t + m do
+4:
+St ← CoilsStoredWithoutDispatchInformation(t )
+5:
+for t = t . . . t + m do
+6:
+Dt ,St ← Step1DispatchCoils(t ,St ,Dt )
+7:
+Pt , Ut ← Step2GettingMinPotentialSlotsToRelocate(St ,Pt , Ut )
+8:
+Rt ,St ,Pt ,Ut ← Step3RelocateCoils(t,m,Rt ,St ,Pt ,Ut )
+
+Algorithm 2 Overview of the dispatch process
+1: function Step1DispatchCoils(t,St ,Dt )
+2:
+E ←∅
+3:
+if |At | D then
+4:
+Dt , St ← DispatchAllCoils(t,At )
+5:
+else
+6:
+E ← IdentifyCoilsPreventRelocationAllWarehouses(t,At )
+7:
+for each c ∈ E do
+8:
+if HighestDimensionsOfResidualCoils(c,E) & |Dt | < D then
+9:
+Dt ← DispatchCoil(t,c)
+10:
+for each c ∈ At do
+11:
+if HighestDimensionsOfResidualCoils & |Dt | < D then
+12:
+Dt ← DispatchCoil(t,c)
+13:
+St ← ActualizeStoredCoils(t,Dt )
+return Dt ,St
+
+optimality for each warehouse in period (Line 6). After
+identifying the set of coils preventing relocation, we
+dispatch all of these coils that are available to send first
+(Line 7 to 9) and then the residual coils are dispatched
+(Line 10 to 12) based on the largest dimensions first.
+As a result, we take into account that coils with smaller
+dimensions and have more storage slots available to
+them than larger ones. In Line 13, we update the stored
+coils in period .
+Step 3 is shown as a function in Algorithm 3 (Line
+8 in Algorithm 1). This Step is needed to find the bestfitting coil to relocate without restricting the maximum
+number of relocations allowed (Line 5 and 11). If
+enough relocation capacity is left in period (Line 5),
+we can look for the best-fitting coil in that period (Line
+6). If there is not sufficient relocation capacity (Line 8
+through 13), we have to find a period ( ) with enough
+relocation capacity left; this holds only if no relocation
+period and coil is found (Line 11). If we find a suitable
+period (Line 7 or 13) we update all subsequent periods’
+information (Lines 14 through 15).
+
+To find the best-fitting coil (Lines 6 and 12), we
+revisit all potential coils for relocation to identify
+specific dimensions and that match the restrictions
+of warehouse ( ). First, we try to find coils to relocate
+that have to be relocated anyway (e.g., a coil that has
+to be dispatched from another warehouse because it is
+dispatched together with others). Second, we observe
+coils with the same or larger dimensions and . The
+second step is only processed if no coil is found in the
+first step (coils that must be relocated anyway). Then,
+the possible coils are sorted according to their longest
+minimum possible stay in a warehouse. The longest
+minimum possible stay is influenced by the number of
+known periods of future production data ( ) and also
+by the residual capacity of a warehouse in upcoming
+periods. We select the coils with the highest values and
+sort the equal ones according to their average number
+of potential storage leftover and choose the coil with
+the longest average available storage time in a certain
+warehouse. Figure 5 demonstrates how to calculate the
+number of potential storage left. Potential storage left
+represents the amount of storage that would be leftover
+
+Algorithm 3 Detailed overview of Step 3 (relocate coils)
+1: function Step3RelocateCoils(t,m,Rt ,St ,Pt ,Ut )
+2:
+for p = 1 . . . |Pt | do
+3:
+repeat
+4:
+t ←0
+5:
+if |Rt | < M then
+6:
+Rt , Ut ← FindingBestFittingCoilsToRelocate(m,Pt ,Ut )
+7:
+t ←t
+8:
+else
+9:
+for t = 1 . . . t do
+10:
+tn ← t − t
+11:
+if |Rtn | < M & NoDayAndCoilFound then
+12:
+Rtn , Utn ← FindingBestFittingCoilsToRelocate(tn ,m,Pt ,Ut )
+13:
+t ← tn
+14:
+for t = t . . . t + m do
+15:
+Rt ,St ,Pt ,Ut ← GetNewInfoOfRelocatedCoils(t ,Rt ,St ,Pt ,Ut )
+16:
+until NoMoreRelocationsNeeded(Pt )
+
+3
+
+1
+
+2
+
+b2
+
+2
+
+2
+
+4
+
+3
+
+1
+1
+
+2
+
+r
+
+3
+
+A
+
+3
+
+1
+
+4
+
+b2
+
+2
+
+1
+
+2
+
+4
+
+1
+
+3
+
+1
+
+2
+
+4
+
+3
+
+B
+
+3
+
+1
+
+2
+
+r
+
+3
+
+Figure 5: The two parts of the figure show coil
+dimensions and for each slot and the available
+storage. For example, for dimensions
+and
+are four storage slots available. Calculating
+the free storage slots for coil A: Only the same
+dimensions or larger are considered (the “gray
+area”). There are six residual places left if the coil
+is stored in the warehouse; this includes the residual
+storage of
+(3) and
+(4), and
+storing coil A (1) (in total,
+). For coil B, 10
+residual storage slots are left.
+
+5
+5
+5
+15
+15
+15
+30
+30
+30
+45
+45
+45
+60
+60
+87
+
+COMPUTATIONAL EXPERIMENTS
+
+4.1
+Data description
+For the real world case study, we obtained data from a
+steel producing company. We were able to get several
+data sets representing different time periods (up to 87
+days), which enabled us to create the necessary input
+data. The data include a very large amount of coils
+(with up to 76,488 coils) to consider. Therefore, the
+test cases only differ with respect to the number of
+coils, the coil information (e.g., sizes, dispatch dates),
+the utilization of all warehouses, and the number of
+considered periods. For each coil, we have access to
+all relocation, storage, and dispatch data. The company
+also provided the capacity of the different warehouses
+(we consider nine different warehouses) to ensure
+a reasonable comparison between the real world
+relocations and the relocations of the solution approach
+described in Section 3.
+The considered coils, and therefore the real world
+relocations, can differ between the considered time
+horizons. The relocations are dependent on the
+utilization of the different warehouses. To account
+for these different scenarios, we created 15 test cases
+to determine how well our solution approach works.
+Comparison between the solutions generated by the
+solution approach and the real world scenario is only
+possible because we use the same dispatch information
+(therefore the same dispatch date) as occurred in the
+real world. Several relocations needed to be made, and
+these could differ if we did not use the same dispatch
+
+Number of Coils
+
+Test Pericase ods
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+4
+
+Incoming
+Initial
+13,486
+13,274
+15,468
+13,463
+14,382
+14,542
+13,193
+13,859
+13,355
+13,121
+13,993
+14,711
+13,106
+13,591
+13,097
+
+Total
+15,716
+16,067
+18,570
+20,248
+25,405
+24,711
+34,795
+34,179
+30,709
+46,323
+47,030
+45,905
+57,854
+57,016
+76,488
+
+Total
+2,230
+2,793
+3,102
+6,785
+11,023
+10,169
+21,602
+20,320
+17,354
+33,202
+33,037
+31,194
+44,748
+43,425
+63,391
+
+Average
+557.5
+698.3
+775.5
+484.6
+787.4
+726.4
+744.9
+700.7
+598.4
+754.6
+750.8
+709.0
+758.4
+736.0
+737.1
+
+Average
+utilization
+76.7%
+79.7%
+89.2%
+74.2%
+86.6%
+82.2%
+81.9%
+78.0%
+74.7%
+82.7%
+83.2%
+80.3%
+83.3%
+81.1%
+81.2%
+
+Table 9: Overview of the main part of the data experiments (data for the results of Table 14). Each test case
+has a different number of considered periods (ranging from 5 to 87 periods). The number of considered coils
+is divided into initial number of coils (initial stock), the number of all coils considered, and the coils that
+are incoming over all periods (total coils reduced by initial coils, and average coils incoming per day). In
+addition, the average utilization of all warehouses is shown in the last column. This value is calculated over all
+warehouses over all periods. Therefore, there are warehouses with a utilization of nearly 100%, whereas other
+
+information (e.g., if coils were not dispatched in
+the same period, the necessity of relocating the coil
+to another warehouse is not given). Therefore, the
+dispatch time window is fixed to the dispatch dates of
+the real world case.
+The parameters of objective function (23) are
+weighted with
+and
+, and the
+parameters of objective function (31) are weighted with
+,
+and
+. For all
+test cases,
+and
+. Therefore, we consider
+225 different types of coils. In addition, parameter
+(the maximum number of coils that can be
+handled in one period) and parameter
+(high
+number, because we have to dispatch all coils due to
+their real world dispatch dates). If no information is
+available,
+(see Algorithm 1 and data description
+Table 8), if full information is available
+(e.g.,
+test case 15 has 87 periods, therefore
+).
+Table 9 shows some detailed information for test
+cases 1 to 15. We consider six different time periods:
+three instances with five periods (test cases 1 to 3),
+three instances with 15 periods (test cases 4 to 6),
+three instances with 30 periods (test cases 7 to 9),
+three instances with 45 periods (test cases 10 to 12),
+two instances with 60 periods (test cases 13 and 14),
+and one instance with 87 periods (test case 15). In
+addition, we show the total number of initial, total,
+and incoming coils considered. The incoming coils
+are the ones produced during the considered time
+periods. The initial ones are the ones already stored
+at the beginning of the time horizon. E.g., for test case
+
+InPeristance ods
+S1
+S2
+S3
+S4
+S5
+S6
+S7
+S8
+S9
+S10
+S11
+S12
+S13
+S14
+S15
+
+2
+2
+2
+2
+2
+3
+3
+3
+3
+3
+4
+4
+4
+4
+4
+
+# reloc.
+M
+147
+100
+173
+158
+123
+360
+462
+403
+318
+445
+563
+582
+535
+279
+377
+
+IM
+147
+100
+173
+158
+123
+360+
+458*
+402
+317
+445+
+561
+577*
+532*
+272*
+367*
+
+1, at the beginning of the time horizon we have 13,486
+coils stored and each period on average 557.5 coils
+arrive from the production sites (in total 2,230 coils).
+Therefore, in total, we consider 15,716 coils for this
+test case. We also provide the average utilization of
+all considered warehouses for each test case, e.g., for
+test case 1 the average utilization of the warehouses
+is 76.7%.
+The computational experiments section is divided
+into four parts:
+– Comparison between the integrated model
+and the matheuristic solution approach
+(Section 4.2.1)
+– Comparison between the matheuristic solution
+approach (full information an no information
+available) and the real world situation (Section
+4.2.2)
+– The value of information for test case 15, with
+87 days considered (Section 4.2.3)
+– Computational results due to resetting the
+time windows (earliest and latest dispatch
+period) of coils (Section 4.2.4)
+– Comparison between a day-by-day exact
+approach and the matheuristic solution
+approach with no information available
+(Section 4.2.5)
+4.2
+Results
+For computational testing of the matheuristic solution
+approach, we used IBM ILOG CPLEX Optimization
+Studio (Version 12.7.1) and Microsoft Visual C#
+2013 for Windows x86-64. For the first part (the
+
+Gap
+LB
+147
+100
+173
+158
+123
+344
+455
+402
+317
+443
+561
+575
+529
+270
+362
+
+M to LB
+0.0%
+0.0%
+0.0%
+0.0%
+0.0%
+4.4%
+1.5%
+0.2%
+0.3%
+0.4%
+0.4%
+1.2%
+1.1%
+3.2%
+4.0%
+
+Runtime [sec.]
+IM to LB
+0.0%
+0.0%
+0.0%
+0.0%
+0.0%
+4.4%
+0.7%
+0.0%
+0.0%
+0.4%
+0.0%
+0.3%
+0.6%
+0.7%
+1.4%
+
+M
+0.21
+0.03
+0.05
+0.08
+0.08
+0.31
+0.64
+0.39
+0.17
+0.39
+0.84
+0.64
+0.42
+0.49
+0.49
+
+IM
+31
+13
+13
+14
+14
+259,200
+224,412
+440
+508
+259,200
+46,895
+164,448
+158,386
+132,616
+116,751
+
+Table 10: The table shows the computational results of a comparison between the matheuristic solution
+approach (M) and the integrated model solved by CPLEX (IM). The column “# reloc.” represents the total
+number of relocations needed. In addition, we provide the lower bound (LB) generated by CPLEX to compare
+the results. The column “Gap” shows all gaps to the LB. The last column, “Runtime [sec.]”, is the runtime
+of the matheuristic and the integrated model to find the provided solutions. We obtained two solutions of the
+integrated model (instance S6 and S10) where the runtime of 3 days is exceeded (shown as in column “#
+reloc” of IM). In addition, for five test instances we are not able to find an optimal solution due to a lack of
+high-performance computer with one node using two
+Intel Xeon E5-2650v2 (2.6GHz, 8 cores) and 256 GB
+of memory, with IBM ILOG CPLEX Optimization
+Studio (Version 12.7.1). All other calculations were
+performed using an Intel i7-4810MQ Processor (2.80
+GHz, 4 cores) and 32 GB of memory.
+4.2.1 Comparison of the integrated model and
+the matheuristic solution approach
+The results of Table 10 show the comparison
+between the matheuristic solution approach (with full
+information) and the integrated model. Test cases with
+two periods (S1 to S5) can be solved to optimality
+for both, the matheuristic solution approach and the
+integrated model solved by CPLEX. The test cases
+with three periods (S6 to S10) can only be solved to
+optimality for test cases S8 and S9 with the integrated
+model solved by CPLEX and the other test cases run
+out of memory (S7) or the time limit of three days was
+exceeded (test cases S6 and S10). The results of the
+matheuristic solution approach are slightly worse than
+the ones calculated by CPLEX. For test case S6 the gap
+to the lower bound is 4.4% and is therefore the same as
+for the one calculated by the integrated model solved
+by CPLEX. The other test cases vary between 0.2% and
+1.5% gap to the lower bound. For test cases S11 to S15,
+only for one test case (S11) the optimal solution was
+found. The gap for the matheuristic solution approach
+
+PeTest
+ricase
+ods
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+5
+5
+5
+15
+15
+15
+30
+30
+30
+45
+45
+45
+60
+60
+87
+
+is 0.4%. The other test cases (S11 to S15) run out of
+memory for the integrated model solved by CPLEX.
+The gaps vary between 0.3% to 1.4% for the integrated
+model and 0.4% to 4.0% for the matheuristic solution.
+The results show that the matheuristic solution
+approach seems to work well for small instances with
+fast computation times compared to the integrated
+model solved by CPLEX. In addition, we tested cases
+with more than four days planning horizon, but we
+cannot find a feasible solution within a reasonable time.
+4.2.2 Comparison of the matheuristic solution
+approach with full and no information
+Table 11 shows the results of all 15 test cases. The initial
+coils in stock and the incoming coils vary between
+the different scenarios as the result of different time
+horizons considered and the utilization of the different
+warehouses over time. The number of relocations made
+are divided into three main categories: the real world
+case, the results with complete information, and the
+results with no information.
+To compare the results in more detail, we consider
+the differences between the real world solutions and
+those generated by solution approach. This part is
+divided into the absolute (real world, full information,
+and no information) and relative (potential reduction
+if complete or no information is available) values.
+The results show it is possible to reduce the real
+world relocations even if no information is available
+about future production and dispatch dates. If more
+
+Diﬀerences
+
+Number of relocations
+Real world
+Total
+544
+1,050
+1,128
+3,216
+3,801
+3,093
+7,045
+6,603
+8,892
+11,184
+10,803
+9,858
+14,561
+14,224
+20,681
+
+Average
+136.0
+262.5
+282.0
+229.7
+271.5
+220.9
+242.9
+227.7
+306.6
+254.2
+245.5
+224.0
+246.8
+241.1
+240.5
+
+Full information
+Total
+369
+876
+931
+2,722
+3,458
+2,716
+6,331
+5,896
+8,152
+10,151
+9,634
+8,775
+13,136
+12,789
+18,663
+
+Average
+92.3
+219.0
+232.8
+194.4
+247.0
+194.0
+218.3
+203.3
+281.1
+230.7
+219.0
+199.4
+222.6
+216.8
+217.0
+
+No information
+Total
+369
+877
+934
+2,725
+3,466
+2,731
+6,409
+5,958
+8,200
+10,338
+9,794
+8,891
+13,506
+13,079
+19,186
+
+Average
+92.3
+219.3
+233.5
+194.6
+247.6
+195.1
+221.0
+205.4
+282.8
+235.0
+222.6
+202.1
+228.9
+221.7
+223.1
+
+Real world
+Full info
+175
+174
+197
+494
+343
+377
+714
+707
+740
+1,033
+1,169
+1,083
+1,425
+1,435
+2,018
+
+No info
+175
+173
+194
+491
+335
+362
+636
+645
+692
+846
+1,009
+967
+1,055
+1,145
+1,495
+
+Potential reduction
+Full info
+32.2%
+16.6%
+17.5%
+15.4%
+9.0%
+12.2%
+10.1%
+10.7%
+8.3%
+9.2%
+10.8%
+11.0%
+9.8%
+10.1%
+9.8%
+
+No info
+32.2%
+16.5%
+17.2%
+15.3%
+8.8%
+11.7%
+9.0%
+9.8%
+7.8%
+7.6%
+9.3%
+9.8%
+7.2%
+8.0%
+7.2%
+
+Table 11: Results for 15 different test cases. The table is split into two major parts: number of relocations
+and differences between the real world case and the optimized number of relocations with the matheuristic
+solution approach. The number of relocations made are divided into the relocations made in the
+real world, the relocations made if complete information is available, and the relocations made if no
+information is available. These columns are divided into total and average number of relocations (the
+average number of relocations made for the considered time horizon). The differences between full and
+no information are shown in the differences column. First, we compare the real world relocations with
+the relocations made with complete and no information. Second, we show the relative relationship of real
+
+information is available the relocations can be reduced,
+except for test case 1 (369 relocations with complete
+and no information, difference from real world = 175
+[32.2%] relocations). The reason for no reduction due
+to more information (test case 1) is the considered time
+horizon. If enough capacity is left and few relocations
+have to be made (because of few bottlenecks in
+capacity), the lack of information has no drawback and
+the result is still favorable.
+The more days we consider, the more the impact of
+information about production and dispatch increases.
+The impact for small test cases (up to 15 days) is
+small, whereas if we consider more than 15 days the
+importance of information increases. For test cases
+1 to 3, the differences in the reductions of the real
+world relocations are 0 (complete information 175,
+no information 175) for test case 1; 1 (174 complete
+information, 173 no information) for test case 2, for
+relative reduction of 0.1% (16.6% complete information,
+16.5% no information); and 3, for a relative reduction of
+0.3%. For test cases 4 to 6, the relative reductions vary
+between 0.1% and 0.5% (test case 6: relative reduction
+with complete information is 12.2%, and the relative
+reduction with no information is 11.7%). For test cases
+7 to 9, these values vary between 0.5% and 1.1%; for
+test cases 10 to 12, they vary between 1.2% and 1.7%;
+and test cases 13 to 15, the values vary between 2.0%
+and 2.5%. The highest reduction of all test cases with
+at least 30 days considered (test cases 7 to 15), and full
+information is test case 12 (reduction of 11.0%). The
+lowest is test case 9 (reduction of 8.3%). For the same
+test cases with no additional information available, the
+highest value is for test case 12 (with 9.8%), and the
+lowest is for test case 13 (with 7.2%).
+
+Days
+known
+
+4.2.3 Value of information
+The value of information differs between the considered
+time horizons. To provide a more detailed overview of
+the value of information, we consider more granular
+(varying the days known in advance) results for the
+largest test case (test case 15, with 87 days considered).
+For this test case, we consider a total of 76,488 coils,
+with 13,097 coils in stock in the first period considered.
+Therefore, an average of 737.1 coils are produced and
+stored over time. Table 12 and Figure 6 show the
+impact of known days in advance with information
+about the production and dispatch dates. The more
+information that is available, the more the total number
+of relocations can be reduced. This only holds for a
+specific amount of days known in advance. If more
+than 40 days of information is known, no further
+reductions can be made relative to knowing 40 days
+of production and dispatch data in advance. In other
+words, there is a diminishing return on the number of
+days information is known, with 40 being the optimal
+number (test case 15).
+We consider the real world relocations made for test
+case 15 (87 days considered) in greater detail. We split
+the relocations into two parts: mandatory relocations
+(fixed relocations) and relocations due to a lack of
+capacity or other undefined reasons (others). The fixed
+relocations contain 75% (15,489) of all relocations
+made (20,681; see Table 11). Thus the residual 5,192
+relocations (25 percent) are the relocations of coils that
+can be reduced by the model if possible. These other
+relocations can differ from the real world relocations if
+relocations are not necessary due to a lack of capacity
+or if a better-fitting coil can be relocated.
+
+# of relocations
+
+Diﬀerence
+to full info
+
+Diﬀerence
+[%]
+
+Diﬀerence
+to real world
+
+0
+1
+2
+5
+10
+15
+20
+30
+40
+87
+
+19,186
+19,133
+19,058
+18,941
+18,836
+18,778
+18,739
+18,694
+18,663
+18,663
+
+523
+470
+395
+278
+173
+115
+76
+31
+0
+0
+
+2.8%
+2.5%
+2.1%
+1.5%
+0.9%
+0.6%
+0.4%
+0.2%
+0.0%
+0.0%
+
+-1,495
+-1,548
+-1,623
+-1,740
+-1,845
+-1,903
+-1,942
+-1,987
+-2,018
+-2,018
+
+Real world
+
+20,681
+
+Table 12: The table shows a detailed overview of test case 15 (87 days considered). The column “days known”
+represents the information known in advance (production and dispatch information). For example, “0 days
+known” represents no information available only on same day as considered, “2 days known” represents the
+production and dispatch information of the first period and the next two days. Number of relocations (“# of
+relocations”) are the overall relocations required to obtain a feasible solution, “Difference to full info” is the
+absolute difference to the case of all information being available, and “Difference %” the relative ones. The
+
+600
+500
+400
+300
+200
+100
+0
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+Days known
+Figure 6: The values in Table 12 represent the slope and show the decrease in additional relocations that are
+necessary (relative to the case of complete information) as more production and dispatch information becomes
+available. This is a more detailed graphical overview of test case 15 (87 days considered).
+We also consider the solutions from the approach
+proposed in Section 3 if all or no information is
+available. Therefore, we consider only the relocations
+that are not mandatory (the mandatory ones cannot
+be changed). If complete information is available,
+we can reduce 39% (2,018 relocations) and therefore
+need only 3,174 relocations compared with 5,192. If
+no information is available, we can only reduce 29%
+(1,495). Therefore, we need 3,697 additional relocations
+relative to the mandatory ones to ensure a feasible
+solution.
+The relocations saved compared with all relocations
+made are the same as shown in Table 11. With complete
+
+Test Pecase riods
+1
+5
+2
+5
+3
+5
+4
+15
+5
+15
+6
+15
+7
+30
+8
+30
+9
+30
+10
+45
+11
+45
+12
+45
+13
+60
+14
+60
+15
+87
+
+information available, we can reduce 9.8% and with no
+information we can reduce 7.2%. In total, 523 additional
+relocations can be saved if complete information is
+available compared with no information.
+4.2.4 Increase of coils’ dispatch time windows
+In addition, we consider a resetting of the time window
+of coils (earliest
+and latest
+dispatch period of a
+coil). Therefore, we adjusted the real world data with
+respect to the information about the earliest and latest
+dispatch period. We increase the dispatch date of coils
+to be one day before and one day after the dispatch date
+of the original test cases. E.g., if the original dispatch
+
+Full information
+No sending TW
+369
+876
+931
+2,722
+3,458
+2,716
+6,331
+5,896
+8,152
+10,151
+9,634
+8,775
+13,136
+12,789
+18,663
+
+Sending
+TW
+314
+837
+865
+2,589
+3,355
+2,620
+6,250
+5,721
+7,996
+9,937
+9,322
+8,523
+12,864
+12,364
+18,494
+
+No information
+
+Diﬀerence
+14.9%
+4.5%
+7.1%
+4.9%
+3.0%
+3.5%
+1.3%
+3.0%
+1.9%
+2.1%
+3.2%
+2.9%
+2.1%
+3.3%
+0.9%
+
+No sending TW
+369
+877
+934
+2,725
+3,466
+2,731
+6,409
+5,958
+8,200
+10,338
+9,794
+8,891
+13,506
+13,079
+19,186
+
+Sending
+TW
+314
+837
+865
+2,591
+3,362
+2,624
+6,299
+5,757
+8,026
+10,066
+9,414
+8,569
+13,154
+12,596
+18,963
+
+Diﬀerence
+14.9%
+4.6%
+7.4%
+4.9%
+3.0%
+3.9%
+1.7%
+3.4%
+2.1%
+2.6%
+3.9%
+3.6%
+2.6%
+3.7%
+1.2%
+
+Table 13: The table shows how the relocations change if we extend the earliest and latest dispatch
+period of coils. We provide the solutions of both cases, with full and no information available. The
+columns “No sending TW” provide the results without this extension. Therefore the values are also
+given in Table 11 (for both, full and no information available). The columns “Sending TW” show
+
+date was day 5 we set
+to 4 and the
+to 6. The
+maximum number of coil dispatches each day ( ) is
+set to the maximum coil dispatches of all periods of
+each test case.
+The results of Table 13 show that the solutions of all
+test cases can be improved by extending the dispatch
+period. This can be observed for both, the case if we
+consider no information and full information. In general
+the improvement with no information is higher than the
+ones with full information available. The extension of
+the time windows for test case 15 reduce the relocations
+needed from 18,633 to 18,494 (reduction of 0.9%) with
+full information available, and the relocations needed
+from 19,186 to 18,963 (reduction of 1.2%) with no
+information available. Test cases with at least 30 days
+vary between 0.9% to 3.3% reduction gap with full
+information available, and vary between 1.2% to 3.9%
+reduction gap for no information available.
+4.2.5 Comparison of the matheuristic solution
+approach and the day-by-day approach
+Table 14 shows the comparison between an exact dayby-day approach (solving one day with the starting
+warehouses fixed to the results of the day before;
+model Section 2.1; Constraint 13 is not considered
+to generate feasible solutions), the solution approach
+(Section 3) with no additional information (so we have
+the same information available as the exact day-by-day
+approach), and the real world relocations. We observe
+that the exact day-by-day approach is always worse
+than the solution approach with no information (by at
+
+Test
+case
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+Day-by-day
+(exact)
+CT
+[sec.]
+123.8
+131.2
+143.5
+430.5
+694.6
+470.8
+952.0
+847.9
+850.6
+1,543.2
+1,440.6
+1,449.7
+2,109.2
+1,986.6
+3,119.3
+
+# reloc.
+386
+899
+943
+2,799
+3,809
+3,073
+7,251
+6,861
+8,761
+11,882
+11,277
+10,332
+15,682
+15,207
+23,192
+
+least 0.96%). It becomes even worse than the real world
+relocations if more periods are considered (with up to
+20.88% worse for test case 15).
+The main advantage of the matheuristic approach is
+that we can consider how many slots (free space in a
+warehouse) are available for a given coil (see Figure 5).
+The model stores coils within warehouses that may not
+have many slots left and therefore causes a relocation
+in subsequent periods.
+5
+
+Our results can be used to support practitioners by
+helping them minimize relocations of steel coils
+between warehouses. Our developed matheuristic
+(Section 3) can handle different kinds of information
+available about production and dispatch and can reveal
+the value of this information.
+The results of the test cases show that the solution
+approach offers a suitable representation of the
+real world scenario because we consider both, the
+mandatory relocations and the relocations necessary
+due to lack of capacity. The presented solutions offer
+substantial improvements when complete information
+is available (maximum 11.0%, minimum 8.3%, average
+10.0% for test cases with at least 30 days; see Table
+11). However, even if no information about future
+production and dispatch is available, the number of
+relocations can be reduced (maximum 9.8%, minimum
+7.2%, average 8.4% for test cases with at least 30 days;
+
+No information
+(solution approach)
+CT
+[sec.]
+2.1
+3.0
+3.9
+14.4
+27.3
+23.6
+71.2
+60.1
+50.7
+156.9
+135.9
+120.5
+261.0
+229.4
+562.3
+
+CONCLUSIONS AND OUTLOOK
+
+# reloc.
+369
+877
+934
+2,725
+3,466
+2,731
+6,409
+5,958
+8,200
+10,338
+9,794
+8,891
+13,506
+13,079
+19,186
+
+# of real
+world
+reloc.
+544
+1,050
+1,128
+3,216
+3,801
+3,093
+7,045
+6,603
+8,892
+11,184
+10,803
+9,858
+14,561
+14,224
+20,681
+
+Diﬀerences
+day-by-day
+to no info
+4.61%
+2.51%
+0.96%
+2.72%
+9.90%
+12.52%
+13.14%
+15.16%
+6.84%
+14.94%
+15.14%
+16.21%
+16.11%
+16.27%
+20.88%
+
+Table 14: The table shows a comparison between the day-by-day approach and the solution approach with no
+information (see Section 3). Therefore, we run the model (Section 2.1) for each day and consider the warehouse
+of each coil from the previous day (as starting warehouse). The results of the day-by-day exact approach and
+for the solution approach with no information are split in two parts: computation time in seconds (CT [sec.])
+and number of relocations (# reloc.). The number of relocations of the no information part are similar to the
+those in Table 11. This table also provides the number of real world relocations (# of real world reloc.) and the
+available.
+The solution approach shows the value of information.
+The more information (up to a specific number of
+known days) that is available, the better the solutions
+(less relocations) are for time horizons with more than
+five days. For practical applications the costs of more
+information and the savings due to the reduction of
+relocations must be taken into account. In addition,
+our results show that an increase of the earliest and
+latest dispatch periods can improve the results with
+no information and full information available. The
+impact on test cases with no information available is
+bigger. For test case 15, the reduction of relocations
+needed is 0.9% (a reduction of 169 coils relocated) if all
+information is available, and 1.2% (a reduction of 223
+coils relocated) if no information is available.
+Future work should focus on the integration of
+internal relocations. Because of the high utilizations of
+warehouses, internal relocations should get more focus
+if the solution approach is implemented. Therefore,
+internal relocations should also be minimized to reduce
+the internal warehouse costs. An integrated solution
+approach with internal and external relocations that
+considers the detailed costs of each internal or external
+relocation would be worthwhile. The implementation
+of the problem can be built on the presented
+matheuristic solution approach. First, the relocations
+between the warehouses could be minimized for all
+considered periods. Second, this information can be
+used to optimize internal relocations. This information
+can be passed to the first phase (relocations between
+the warehouses) and can be re-optimized with the
+additional information available. By repeating these
+two steps the quality of the overall solution may be
+improved.

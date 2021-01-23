@@ -1,0 +1,9394 @@
+
+1 Introduction
+Technology innovation, dynamic environmental conditions, changing customer requirements, market’s globalization and market uncertainty are trends that
+manufacturing companies cannot escape and that often lead
+to an increase in complexity [86, 177, 198]. Within the last
+decades, complexity has increased continuously in many
+industries [242]. This is one of the biggest challenges that
+manufacturing companies have to face today [71]. The
+reasons are internal and external sources of complexity socalled complexity drivers.
+The origin of the term complexity comes from the Latin
+word ‘‘complexus’’, which means ‘‘extensive, interrelated,
+confusing,
+entwined
+or
+twisted
+together’’
+[71, 88, 103, 199]. This is similar to the Oxford Dictionaries [182] deﬁnition of ‘‘complex’’: Something is
+complex if it is ‘‘consisting of many different and connected parts’’ and it is ‘‘not easy to analyze or understand’’. Complexity is directly connected with a system and
+his terminology [117, 203, 269]. In the literature, complexity is deﬁned as part of system’s property [154]. GellMann [85] and Luhmann [163] argue that the deﬁnition of
+complexity always needs a description of system’s level of
+
+
+detail. The approaches of the system theory provide an
+opportunity to divide a system in several subsystems and
+support the determination of system’s level of detail [260].
+The system theory can be attributed to the natural science,
+whereby control und adjustment operations are considered
+in a system’s context [15]. For the term system, several
+¨
+deﬁnitions are existing in the literature. Gopfert [93]
+deﬁnes a system as an unit, consisting of several parts.
+Ulrich [269] and Patzak [195] extend this deﬁnition and
+describe a system as an entity of elements, which are
+related to each other or concrete relation can be made
+through the elements. Ulrich [269] argues that the elements
+and their relations are signiﬁcant for system’s complexity,
+and in dynamic systems the system can suppose a high
+amount of different conditions. Thus, complexity would be
+described by an amount of variable or elements [103].
+In principle, a system is ever surrounded by an environment and can be isolated by the system boundary [260].
+However, the system and its complexity are inﬂuenced by
+the environment [269].
+Complexity and systems are consisting of the interaction
+between elements and relations [15, 163]. Thereby, the
+elements are representing the tangible parts of a system,
+whereas the connection between the elements is described
+by relations [260]. Consequently, a system’s complexity
+depends on the amount of existing parts or components, the
+connections between them and the diversity of these relations and elements [71, 163]. In this context, Patzak [195]
+and Meyer [174] describe elements’ diversity as variety
+and relations’ diversity as connectivity. Bronner [36]
+extends this deﬁnition by consideration of system’s dynamic and comprises the variation of system’s behavior
+over time.
+Complexity has been discussed in several ﬁelds of
+research such as physics, biology, chemistry, mathematics,
+computer science, economics, engineering and management as well as philosophy [30, 120]. Thus, in scientiﬁc
+literature, there are many different deﬁnitions for the term
+‘‘complexity’’ because the meaning is vague and ambiguous. There is no explicit, universal and widely accepted
+deﬁnition [39, 71, 215]. As a result, the term ‘‘complexity’’
+is often used synonymously with the term ‘‘complicated’’
+[88]. Meijer [172] argues that ‘‘complexity is in the eye of
+the beholder‘‘. Complexity is driven by the sensation or
+perspective of an individual. What is complex to someone
+might not be complex to another [103, 158].
+There are two types of complexity: good and bad. The
+good type of complexity is necessary. It helps a company
+to gain market share and is value adding. On the other side,
+bad complexity brings little value, reduces revenue and
+causes excessive costs [71, 120]. Colwell [55] deﬁnes
+thirty-two types of complexity in twelve different areas and
+disciplines such as structural, functional, technical,
+
+123
+
+Logist. Res. (2016) 9:25
+
+¨
+computational and operational complexity. Gotzfried [94]
+describes seventeen deﬁnitions of complexity in four different research ﬁelds such as systems theory, organizational theory, product design and operations management.
+In the literature, increasing complexity is often related to
+increasing costs [174]. Managing a system’s complexity
+requires an optimum ﬁt between internal and external
+complexity [240, 272]. The complexity management
+comprises the application of the mentioned complexity
+consideration with the aim of a target-oriented complexity
+design [174]. Schuh [240] argues further that the complexity management comprises four tasks: designing the
+necessary variety, handling variety-increasing factors,
+reducing variety and controlling complex systems [272].
+Generally, complexity is caused by internal and external
+factors [174]. Meyer [174] deﬁnes these factors as complexity drivers. According to the Business Dictionary [47],
+a driver causes a condition or decision or has an effect on
+elements or a system. Complexity drivers lead to an
+increased level of complexity in comparison with an initial
+situation [174]. Furthermore, complexity drivers can cause
+turbulences and new functional models in a system [150].
+For complexity’s operationalization, Schuh [240] argues
+that it can only be realized by several complexity factors,
+which interact with each other.
+Identifying, analyzing and understanding complexity
+drivers as main elements related to complexity are the ﬁrst
+step to develop and implement a clear strategy to handle
+complexity [177, 255]. Without an idea of complexity
+drivers, it would be difﬁcult to develop an effective complexity strategy [255]. Heydari and Dalili [116] argue that a
+research in complexity management needs to know what
+the key drivers of complexity in a system are. The management of complexity is a strategic issue for companies to
+be competitive [44, 177, 240]. In the study ‘‘Managing
+Complexity in Automotive Engineering’’. Erkayhan [72]
+concludes that the complexity drivers are the main
+adjusting levers for improvements of the company’s success. Thus, complexity drivers play a signiﬁcant role for
+complexity management, because they describe a system’s
+complexity and help to evaluate and handle it.
+Previous literature studies about complexity drivers
+have been done by Meyer [174], Serdarasan [255, 256] and
+Wildemann and Voigt [289] and comprise a time period of
+20 years (1991–2011). They cover complexity drivers on
+speciﬁc issues such as logistics, supply chains and general
+in manufacturing companies. In total, 99 literature sources
+such as articles, books and PhD theses in the research
+period between 1991 and 2011 form their research. Furthermore, 281 complexity drivers are identiﬁed in total.
+Although these literature studies cover a lot of literature
+sources and complexity drivers in the referred ﬁelds, a
+example, the authors in the previous literature studies have
+not described speciﬁc research questions, databases, search
+terms and synthesizing methods. In addition, not all authors
+provide a comparison between their ﬁndings and the ﬁndings of other literature sources. However, these are essential to determine the current state of knowledge about a
+particular research issue in a literature review. So they do
+not fulﬁll the requirements of a literature review in general.
+This paper’s purpose is a literature review of complexity
+drivers in manufacturing companies and along the value
+chain, including the ﬁelds product development, procurement/purchasing, logistics, production, order processing/
+distribution/sale, internal supply chain and remanufacturing, which fulﬁlls the mentioned requirements.
+The contribution of this review is to develop additional
+knowledge for science and practice by describing what is
+currently known on the issue of complexity drivers. From
+scientiﬁc perspective, this literature review presents a
+current state of the art about complexity drivers and gives
+the researcher a ﬁrst insight and general understanding
+about complexity drivers, before starting a research project
+in this ﬁeld. It closes a currently existing gap in scientiﬁc
+literature. The literature review can be used for a dissertation or research proposal to give an overview about the
+issue of complexity drivers and is helpful for researchers,
+who have no prior knowledge in this ﬁeld. Further, it helps
+the researcher to avoid time-wasting and research effort by
+‘‘reinventing the wheel’’. Within this research, the gaps for
+future research are pointed out. Based on this review,
+researchers can build new ideas and theories for their own
+research. The research methodology, including research
+questions, databases and synthesizing methods, is described in detail to increase transparency. This enables the
+researcher to reproduce the ﬁndings. The literature review
+provides a comprehensive survey of signiﬁcant literature
+(e.g., academic journal articles, books, essays, PhD theses,
+conference proceedings) and their results, based on analyzing, synthesizing and summarizing the existing literature. Furthermore, the different literature sources and the
+trends of complexity drivers in the literature and in the
+different ﬁelds (general in manufacturing companies and/or
+along the value chain) over the last 25 years are described.
+The trends show the researcher how essential the topic
+complexity drivers is in the literature and that it is thus
+interesting for future research. However, interesting topics
+for academic people do not have to be important for
+practice. To avoid this trade-off, we also include the
+practical perspective in our point of view. In addition,
+different deﬁnitions of complexity drivers are analyzed and
+described. A new overall deﬁnition of complexity drivers is
+
+Page 3 of 66
+
+25
+
+presented. Furthermore, the existing approaches for complexity driver’s identiﬁcation, operationalization and visualization are identiﬁed and speciﬁed according to their
+focus. The identiﬁed complexity drivers were clustered in
+aggregated complexity driver’s main categories according
+to their characteristics to provide a general classiﬁcation
+system without overlaps. From practical perspective, this
+literature review gives the practitioner a ﬁrst insight and
+understanding about the phenomena of complexity drivers
+and their importance. In several empirical studies, for
+example from Wildemann and Voigt [289], Gießmann [88]
+and Gießmann and Lasch [89], the issue complexity in
+companies and its drivers were analyzed. The result was
+that companies are aware of complexity and some of its
+causes but often do not know how to handle it, because of a
+lack of speciﬁc methods or tools for complexity driver’s
+identiﬁcation, operationalization or visualization. This
+study answers the following manager’s questions ‘‘What
+are complexity drivers?’’ ‘‘Why they are so important for
+me?’’ and ‘‘How can I identify, operationalize and visualize
+complexity drivers?’’ by providing an overall deﬁnition
+about complexity drivers and an overview about the
+existing approaches for complexity driver’s identiﬁcation,
+operationalization and visualization. Beyond, the practitioner gets an overall selection of different approaches and
+their focuses and can choose the right one for solving his
+task or problem. Furthermore, a list of theoretical existing
+complexity drivers, which were found in the literature, are
+described, so the management has a general overview
+about complexity drivers and can compare these ﬁndings
+with their own complexity drivers to identify communalities and differences as well as get a ﬁrst indication. This
+review collects existing approaches for complexity driver’s
+identiﬁcation, operationalization and visualization based on
+the literature. Therefore, it can be used as a basis to gain
+ﬁrst implications about complexity drivers, their identiﬁcation, operationalization and visualization. Further
+research will be needed to create helpful advice for practitioners to detect complexity issues as well as to present
+methodological support to detect causes of complexity and
+their effects.
+This literature review is structured as follows: In Sect. 2,
+the paper gives an overview about the research method.
+Some deﬁnitions of literature reviews are disclosed, and a
+framework for constructing a literature review is speciﬁed.
+Section 3 presents the literature review about complexity
+drivers with an overview about different deﬁnitions and
+approaches for identiﬁcation, operationalization and visualization. The most discussed complexity drivers in manufacturing companies and along the value chain are
+described. Section 4 concludes the paper and closes the
+research gap with implication for future research.
+
+
+Logist. Res. (2016) 9:25
+
+2 Research method
+2.1 Research methodology and boundary deﬁnition
+The aim of this study is a systematic, explicit and reproducible literature review about complexity drivers in manufacturing companies and along the value chain, which
+provides deﬁnitions of complexity drivers, and existing
+approaches for complexity driver’s identiﬁcation, operationalization and visualization. The existing literature was
+identiﬁed, evaluated and synthesized by using qualitative
+data analysis to point out the existing literature sources and
+their focuses as well as the trends and issues. The literature
+results are compared with each other. To provide a comprehensive literature review, we used the methodology of
+Fink [78] and structured our article according to him. Literature reviews have been used for many years in scientiﬁc
+research and scholar ﬁndings. They are a long-standing
+tradition, but the deﬁnitions are tight [43]. Fink [78] deﬁnes
+a literature review as a ‘‘systematic, explicit and reproducible method for identifying, evaluating, and synthesizing
+the existing body of completed and recorded work produced
+by researchers, scholars, and practitioners’’. Brewerton and
+Millward [34] describe a literature review as a content
+analysis that uses qualitative and quantitative techniques to
+ﬁnd structural and content criteria. According to Meredith
+[173], a literature review is a ‘‘summary of the existing literature by ﬁnding research focus, trends, and issues‘‘.
+Within this paper, we follow the deﬁnitions of Fink [78],
+Brewerton and Millward [34] and Meredith [173].
+Fink [78] divides a literature review into seven tasks.
+The ﬁrst step is selecting the research questions. Research
+questions are precisely stated questions, which guide the
+literature review. The next step is to select the required
+sources such as bibliographic or article databases, Web
+sites and other sources to determine relevant literature.
+Before starting the literature review, the researcher has to
+deﬁne the search terms. To review the databases and search
+terms, the researcher should ask experts or other
+researchers. The next steps are applying practical and
+methodological screening criteria to identify and select the
+relevant literature from the entity of found literature. To
+reject irrelevant articles, the researcher has to screen the
+literature by setting practical and methodological criteria.
+According to Fink [78], the ﬁrst step is to deﬁne the
+research questions. The beneﬁt of research questions is that
+they already contain the words the reviewer needs to search
+for online to ﬁnd relevant literature. These words or search
+terms are called key words, descriptors or identiﬁers [76].
+For this literature review, we determined the following
+research questions including the relevant key word ‘‘complexity driver’’:
+
+123
+
+Fig. 1 Paraphrases of the term complexity driver and their
+intersection
+
+RQ1: What are the different deﬁnitions of complexity
+drivers that currently exist in manufacturing companies
+and along the value chain?
+RQ2: What methods are applied in the literature for
+complexity driver’s identiﬁcation, operationalization and
+visualization?
+RQ3: What complexity drivers occur in manufacturing
+companies and along the value chain?
+Before conducting a literature research, it is necessary to
+deﬁne the right search terms and databases. The search
+terms are based on the words that frame the research
+questions. In the literature, several paraphrases for complexity driver exist. These paraphrases are usually a combination of the terms factor, indicator, source, parameter,
+variable, symptom, phenomenon, dimension, force and
+property and the term complexity driver (see Sect. 3.2).
+When comparing the meaning of these different word
+combinations, it can be seen that the lowest common
+denominator is complexity driver (see Fig. 1). Thus, we
+limited our literature research to the search term complexity driver.
+A researcher must use a ‘‘particular grammar and
+logic’’ to conduct a search that will acquire the appropriate
+publications [78]. One possibility is to combine the key
+words and other terms with Boolean operators such as
+AND, OR and NOT. Further, the operator NEAR can be
+used to identify the literature where the keywords have a
+close connection to each other. The application of Boolean
+operators depends on the speciﬁc database. To extend the
+amount of relevant literature, it is also necessary to search
+in different languages. In our research, we search in English- and German-language literature. This has two reasons:
+First, English is the global language and applied in the
+scientiﬁc world to provide research ﬁndings worldwide.
+Second, during our literature research we started with
+
+25
+
+Table 1 General framework of literature collection
+Focus
+
+Database
+
+Search terms
+
+Date
+
+Results
+
+■ General in manufacturing
+companies
+
+EBSCOhost
+
+('Komplexitätstreiber' OR (Treiber N3 Komplexität)) AND …
+('complexity driver*' OR (driver* N3 complexity)) AND …
+
+April &
+May ‘16
+
+401
+
+■ Product Development
+
+Emerald
+
+("Komplexitätstreiber" OR "Treiber d* Komplexität") AND …
+("complexity driver" OR "driver of complexity") AND …
+
+April &
+May ‘16
+
+44
+
+■ Procurement / Purchasing
+
+GENIOS /
+WISO
+
+("Komplexitätstreiber" OR (Treiber ndj3 Komplexität)) AND …
+("complexity driver*" OR (driver* ndj3 complexity)) AND …
+
+April &
+May ‘16
+
+1001
+
+■ Logistics
+
+Google Scholar ("Komplexitätstreiber" OR "Treiber d* Komplexität") AND …
+("complexity driver*" OR "driver* of complexity") AND …
+
+May ‘16
+
+3234
+
+■ Production
+
+IEEE Xplore
+
+("Komplexitätstreiber" OR (Treiber NEAR/3 Komplexität)) AND …
+(complexity NEAR/3 driver) AND …
+
+May ‘16
+
+2203
+
+■ Order Processing /
+Distribution / Sale
+
+JSTOR
+
+("Komplexitätstreiber" OR ("Treiber Komplexität"~5)) AND …
+("complexity driver" OR ("driver complexity"~5)) AND …
+
+May &
+June ‘16
+
+146
+
+■ Supply Chain
+
+ScienceDirect
+
+("Komplexitätstreiber*" OR (Treiber W/3 Komplexität)) AND …
+(complexity W/3 driver*) AND …
+
+May &
+June ‘16
+
+1726
+
+■ Remanufacturing
+
+SpringerLink
+
+(Komplexitätstreiber OR (Treiber NEAR/3 Komplexität)) AND …
+(Complexity NEAR/3 driver*) AND …
+
+May &
+June ‘16
+
+2670
+
+Total: 11425
+
+ces with references to German-language sources. This was
+another reason to extend the research in German-language
+literature.
+According to Saunders, Lewis and Thornhill [219] the
+ﬁnalized search terms are identiﬁed through an iterative
+cycle starting with one key word and adding more in the
+process of research in order to summarize all necessary and
+possible literature and results. Furthermore, the search
+terms are deﬁned in English and German and then formulated more general to extend the results and to prevent
+the elimination of important articles. We started our
+¨
+research by using the key words ‘‘Komplexitatstreiber’’ and
+‘‘complexity driver’’ and formulated the search term
+‘‘Komplexitatstreiber OR complexity driver’’. After
+¨
+reviewing the found literature, we found out that a lot of
+¨
+sources also used the term ‘‘Treiber der Komplexitat’’ or
+‘‘driver of complexity,’’ so we added these terms to our ﬁrst
+search term and received the new term ‘‘Komplexitatstreiber OR Treiber der Komplexitat OR complexity
+¨
+¨
+driver OR driver of complexity’’. During the following
+search process, it became clear that sometimes these keywords are separated by other words so we implemented the
+NEAR operator to cover all existing and relevant literature.
+The ﬁnalized search terms are described in Table 1.
+After deﬁning the right search terms, a researcher must
+examine all sources systematically by using online bibliographic or article databases. Databases are often specialized in a speciﬁc research area. The research for this paper
+was performed in English and German by using the following eight English and German databases: EBSCOhost,
+
+Emerald, GENIOS/WISO, Google Scholar, IEEE Xplore,
+JSTOR, ScienceDirect and SpringerLink.
+The used databases were also deﬁned through an iterative cycle. In our research, we started by using the databases EBSCOhost, JSTOR, GENIOS/WISO and Google
+Scholar. EBSCOhost and JSTOR are one of the biggest
+databases for academic research and connected with
+numerous other databases. During our research process on
+Google Scholar, some literature sources were found on
+other speciﬁc databases such as Emerald, IEEE Xplore,
+ScienceDirect and SpringerLink. Thus, these databases
+were also included in the research process.
+Table 1 shows the general framework of our literature
+collections including the research focus, applied databases
+and search terms. Furthermore, the framework contains
+the results and search dates at an aggregate level to
+provide ﬁrst insights. In our research, the time period was
+restricted between January 01, 1900, and December 31,
+2015. The different frameworks with all precise search
+terms, results and searching dates are shown in ‘‘Appendix’’ (Table 13).
+2.2 Research segmentation and overview
+The search resulted in 11,425 literature sources including
+research papers from journals, conference proceedings,
+working papers, books, essays and PhD theses. However,
+several literature sources are found repeatedly.
+According to Fink [78], literature research and analysis
+always accumulate many publications, but only a few are
+
+
+Logist. Res. (2016) 9:25
+
+Categories
+(combined with RQ)
+
+Identified literature sources with Author´s name(s)
+Source #1
+
+Source #2
+
+Source #3
+
+…
+
+Source #n
+
+Definition of complexity drivers (RQ1)
+… identification
+
+Methods for
+complexity
+drivers’ …
+(RQ2)
+
+… operationalization
+… visualization
+General
+Product development
+Procurement / Purchasing
+Value Chain
+
+Complexity
+drivers in
+manufacturing
+companies
+(RQ3)
+
+Logistics
+Production
+Order processing / Distribution / Sale
+Supply chain
+Remanufacturing
+
+Fig. 2 Synthesis matrix for literature’s synthesizing
+
+relevant. Consequently, it is necessary to screen and synthesize the results.
+In this paper, the researched literature was synthesized
+based on the qualitative content analysis and the aforementioned research questions. The content analysis is used
+to analyze the literature and to identify the occurrences of
+speciﬁed information systematically. Within the qualitative
+content analysis, the information is extracted, formatted
+and evaluated to answer the research questions. The most
+important aspect is the extraction of the information to gain
+the required information. Extraction means to read the text,
+separating the text in different parts, and to decide which of
+the given text parts contain information that is relevant for
+the researcher. The relevant information is then assigned to
+previously deﬁned categories [92]. In the qualitative content analysis, this assignment is called coding and is
+induced by a coding unit. The coding unit is a text passage,
+which is connected to a certain category or content. The
+assignment to the deﬁned categories is performed by the
+researcher, called coder [152]. However, the researcher and
+his understanding and interpretation inﬂuence the extraction and text interpretation [92, 152]. When the coding
+process is done by more than one researcher, a common
+understanding and interpretation is required [152]. The
+deﬁned categories are connected with the research questions and are not ﬁxed. During the extraction process, they
+can be altered and new categories can also be added. As a
+result of the extraction, a vast amount of data are collected
+
+123
+
+which can be used for information formatting and evaluation to answer the research questions. For information
+evaluation, the researcher compares the different literature
+sources to identify communalities and differences [92].
+For analyzing and synthesizing the literature in our
+research, we followed the approach of the qualitative
+content analysis and deﬁned in the ﬁrst step twelve categories based on our three research questions. The categories were implemented in a synthesis matrix (see
+Fig. 2). The synthesis matrix helps the researcher to
+organize the identiﬁed literature and their different contents on an issue.
+In the next step, we started the extraction process by
+screening the title and abstracts of the identiﬁed papers,
+books, etc. and eliminate sources without focus in manufacturing companies or the value chain. For example,
+papers focused on ﬁnancial, insurance or biological issues
+were eliminated. Furthermore, we excluded all papers that
+were found multiple times. Within this procedure, the total
+amount of found literature sources could be reduced
+signiﬁcantly.
+Then, we started our detailed literature analysis by
+searching for the key words ‘‘complexity driver’’ or ‘‘driver
+of […] complexity’’ and analyzed the content around the key
+words. The key words were highlighted in the text, and we
+made notes about our ﬁrst impressions and thoughts. Afterward, we read all data repeatedly to achieve an overview of
+
+Table 2 List of journals, books and papers published during the
+period 1991–2015
+Literature source
+
+Time horizon
+
+Journals
+
+1991–2015
+
+68
+
+Books
+
+1993–2015
+
+41
+
+Essay
+
+1991–2015
+
+41
+
+PhD theses
+
+1991–2015
+
+55
+
+Conference proceedings
+
+2010–2015
+
+13
+
+Working papers
+
+2000–2012
+
+11
+
+Newspaper
+Internet (Web sites)
+
+1994–2009
+2005–2014
+
+4
+2
+
+Total
+
+Number of publications
+
+235
+
+regarding their content. The parts with relevant information
+about complexity drivers were assigned to the previously
+deﬁned categories in our synthesis matrix. The assignment of
+a speciﬁc information to a certain category (coding) was
+induced by the particular text passage (coding unit). Parts
+without relevant information were ignored. As a result of our
+extraction process, a vast amount of data from 235 different
+literature sources were collected in a table to answer our
+research questions. For information evaluation, we compared the found information in each category to identify
+communalities or differences.
+The synthesizing process resulted ﬁnally in 235 relevant
+papers. These papers were published in journal articles
+(68), books (41), essays (41), PhD theses (55), conference
+proceedings (13), working papers (11), newspaper (4) and
+Web sites (2) in the ﬁeld of complexity drivers in the time
+period 1991–2015 (see Table 2).
+Before 1991, no relevant literature sources in regard to
+the issue complexity drivers were found in our research.
+One reason could be attributed to the development of the
+scientiﬁc research in the ﬁeld complexity management
+[90]. According to Gießmann and Lasch [90], complexity
+management’s development process can be separated in
+
+25
+
+three steps: variant management, complexity management
+in a narrower sense and integrated complexity management (see Fig. 3). These steps do not appear strictly in
+sequence but also parallel.
+Due to a change from seller’s to buyer’s market, the
+companies extend their product portfolio. In consequence,
+the product portfolio reached a volume that could hardly
+be managed by the companies [90]. Therefore, variant
+management was developed to handle product’s complexity. Variant management’s objective is to combine
+variant’s diversity and proﬁtability [82, 90]. Product’s
+amount and property was one complexity driver. Within
+the complexity management, the focus lays more and
+more upon the processes. Processes were identiﬁed as a
+further complexity driver. In the third step, the upstream
+and downstream processes and stages were integrated in
+the focus. Furthermore, the interdependencies between the
+determining factors, the initiated approaches and company’s subsystems were determined. The integrated
+complexity management provides a concept for an effective handling of complexity problems [90]. Therefore, it
+can be assumed that complexity drivers come more and
+more into scientiﬁc focus at the transition between variant
+management and complexity management in the early
+1990s of the last century.
+Another reason could be attributed to the deﬁnition and
+understanding of the term ‘‘complexity driver’’. In the literature, complexity drivers were deﬁned in many ways (see
+Sect. 3.2). For the authors, complexity drivers have an
+inﬂuence on something and are responsible for increasing
+complexity in a system. In our research, we found out that
+the ﬁrst deﬁnition about complexity drivers was speciﬁed
+by Schmidt [227] in the year 1992.
+In variant management, the sources, which were
+responsible for increasing variant diversity and complexity,
+were called ‘‘variant driver’’ [240]. Thus, it is an indication
+for us that the term complexity driver can be attributed to
+the term variant driver.
+
+Fig. 3 Complexity
+management’s evolution [85]
+
+
+3 Literature review about complexity drivers
+3.1 Overview about literature research results
+Table 2 presents an overview about the identiﬁed literature
+sources and the number of publications in the ﬁeld of
+complexity drivers in manufacturing companies and along
+the value chain (published between 1991 and 2015). More
+than 50% of the publications about complexity drivers
+were published in journals and PhD theses. Thus, complexity drivers have a high importance in scientiﬁc
+research. Complexity drivers are also mentioned in several
+books, essays, conference proceedings as well as working
+papers with a practical and/or scientiﬁc purpose. Working
+papers are publications from companies or universities
+with a practical and/or scientiﬁc purpose. In this research,
+most of the identiﬁed working papers are practically oriented. Newspapers and the Internet are also literature
+sources for complexity drivers. After analyzing the different literature sources and their focuses, we conclude that
+complexity drivers have a high relevance in practice as
+well as in scientiﬁc research.
+As already mentioned, in our research we identiﬁed 235
+papers about complexity drivers in the literature and clustered them according to their content in nineteen clusters
+(see Table 3). Building the nineteen clusters was an iterative process. We started by comparing the papers according
+to their content and generated the clusters based on their
+communalities and differences. One hundred and sixty
+papers (68%) are only focused on complexity drivers
+(Cluster #10), nineteen papers (8%) are focused on complexity drivers and complexity driver’s deﬁnition (Cluster
+#12), and twelve papers (5%) are focused only on complexity drivers and approaches for complexity driver’s
+identiﬁcation (Cluster #14). Furthermore, 169 papers
+(72%) are written in German and 66 (28%) in English.
+In addition, we discovered that 212 (90%) of the total
+amount of 235 papers describe speciﬁc complexity drivers
+in manufacturing companies and along the value chain
+(Cluster #10–#19). One hundred and ﬁfty-four papers
+(73%) are written in German and ﬁfty-eight (27%) in
+English. Twenty-three papers (Cluster #1–#9) comprise
+only general information about complexity drivers without
+the description of speciﬁc complexity drivers in manufacturing companies and along the value chain.
+For separating the literature into the two parts ‘‘manufacturing companies’’ and ‘‘along the value chain‘‘, we
+analyzed the 212 literature sources and the identiﬁed
+complexity drivers regarding their focus. We followed the
+complexity driver’s assignment to certain categories that
+the paper’s authors used. If they describe complexity drivers, which belong to different parts of the value chain, we
+
+123
+
+Logist. Res. (2016) 9:25
+
+followed their assignment and used this information in our
+study. We assumed complexity drivers, which are not
+assigned to a certain part of the value chain by the authors,
+to be general in manufacturing companies. This separation
+is important for the management in a company, because
+higher management (e.g., CEO or director) needs a vast
+overview of the whole company and the occurring complexity drivers, whereas managers of certain departments
+(e.g., senior manager, department manager, team leader)
+need an overview about complexity drivers in their speciﬁc
+ﬁelds of interest.
+Previous literature studies about complexity drivers
+have been done by four authors with different objectives:
+Meyer [174], Serdarasan [255, 256] and Wildemann and
+Voigt [289]. Principally, it can be distinguished between
+literature review and literature overview/survey. A literature overview/survey reviews the existing literature in a
+particular ﬁeld of interest on a surface level. However, a
+literature review analyzes and evaluates the existing literature more in detail as an overview/survey and gives the
+reader a better understanding of the research [258]. Serdarasan [255, 256] signiﬁes their literature studies as reviews and gives a detail overview of the ‘‘literature on
+supply chain complexity and its drivers’’. The literature
+studies of Meyer [174] and Wildemann and Voigt [289]
+refer to a literature research only on complexity drivers and
+can be assigned to the category literature overview/survey.
+In his PhD thesis, Meyer [174] describes the state of the
+art regarding speciﬁc complexity drivers and their inﬂuence on increasing complexity. Before reviewing the literature, Meyer [174] describes his understanding of the
+term complexity drivers and states that complexity drivers
+are factors, which inﬂuence the system’s complexity and
+are responsible for changing system’s complexity level
+[174]. The literature results are subdivided by Meyer [174]
+into two categories:
+Category #1: General complexity drivers and their
+inﬂuences on increasing complexity in a company.
+Category #2: Major complexity drivers and their inﬂuences regarding logistics.
+According to Meyer [174], the complexity drivers and
+their inﬂuences in category #1 are based on variant management. They concern mostly product complexity and
+product complexity’s area of inﬂuence. As a result of the
+literature research, Meyer [174] identiﬁes nineteen literature sources and describes 127 complexity drivers in
+fourteen driver categories. In summary, Meyer [174] offers
+a table, showing the identiﬁed complexity drivers, their
+appearances in the literature and their inﬂuences. However,
+he does not describe a comparison between the different
+
+•
+
+•
+•
+
+7
+
+2
+
+5
+
+Number of German
+literature sources
+
+Number of English
+literature sources
+
+8
+
+23
+
+31
+
+Total
+
+Cluster #18
+
+Cluster #19
+
+12
+
+24
+
+36
+
+5
+
+12
+
+17
+
+•
+
+•
+
+4
+
+14
+
+18
+
+•
+
+•
+•
+
+•
+
+Cluster #16
+Cluster #17
+•
+
+•
+
+•
+•
+
+Cluster #14
+
+Cluster #15
+
+58
+
+154
+
+212
+
+•
+
+•
+
+•
+•
+
+•
+•
+
+•
+
+•
+
+Cluster #13
+
+•
+•
+•
+
+3
+
+•
+
+235
+
+2
+
+2
+
+7
+2
+
+1
+
+12
+
+5
+
+19
+
+2
+
+160
+
+1
+
+•
+
+•
+
+Cluster #12
+
+Cluster #11
+
+Cluster #10
+
+Cluster #9
+
+Cluster #8
+
+•
+
+1
+
+•
+
+8
+•
+
+•
+
+Cluster #7
+
+•
+
+•
+
+Cluster #6
+
+1
+
+•
+
+•
+
+Cluster #5
+
+•
+
+1
+
+•
+
+•
+
+Cluster #4
+•
+
+3
+
+•
+
+Cluster #3
+
+1
+
+•
+
+•
+
+•
+
+Cluster #2
+
+Overview about
+complexity
+drivers
+
+Cluster #1
+
+Complexity
+driver’s
+operationalization
+
+Complexity
+driver’s
+identiﬁcation
+
+Deﬁnition of
+complexity
+drivers
+
+Total
+
+RQ2 approach for…
+
+RQ1
+
+General statement
+about complexity
+drivers
+
+RQ3
+
+Results
+
+Content of the literature source based on literature’s analysis
+
+4
+
+Paper’s classiﬁcation
+according to its
+content
+
+Table 3 Paper’s classiﬁcation according to their content
+
+100
+
+0.9
+
+0.9
+
+3.0
+0.9
+
+0.4
+
+5.1
+
+2.1
+
+8.1
+
+0.9
+
+68.1
+
+1.3
+
+0.4
+
+0.4
+
+3.4
+
+0.4
+
+0.4
+
+1.3
+
+0.4
+
+1.7
+
+%
+
+169
+
+2
+
+2
+
+5
+1
+
+0
+
+8
+
+2
+
+16
+
+0
+
+118
+
+3
+
+0
+
+1
+
+6
+
+1
+
+1
+
+1
+
+1
+
+1
+
+Number of
+German
+literature sources
+
+66
+
+0
+
+0
+
+2
+1
+
+1
+
+4
+
+3
+
+3
+
+2
+
+42
+
+0
+
+1
+
+0
+
+2
+
+0
+
+0
+
+2
+
+0
+
+3
+
+Number of
+English literature
+sources
+
+Logist. Res. (2016) 9:25
+Page 9 of 66
+25
+
+
+only on general complexity drivers and complexity drivers
+regarding logistics. Complexity drivers in other parts along
+the value chain are not described and compared with his
+ﬁndings. In addition, Meyer [174] does not describe
+speciﬁc approaches for complexity driver’s identiﬁcation,
+operationalization and visualization. No research questions,
+databases, search terms and synthesizing methods are
+determined.
+Serdarasan [255, 256] published two review papers
+concerning supply chain complexity drivers. The ﬁrst paper
+was published in the proceedings of the 41st International
+Conference on Computers & Industrial Engineering in
+2011. The second paper was published in the journal of
+Computers & Industrial Engineering in 2013. In her
+papers, Serdarasan [255, 256] reviews the ‘‘typical complexity drivers that are faced in different types of supply
+chain and presents the complexity driver and solution
+strategy pairings in the form of a matrix’’. The information
+was extracted from real-life supply chain situations and
+gathered from multiple existing sources such as interviews,
+observations, reports and archives.
+In the ﬁrst paper, Serdarasan [255] reviews the literature
+on supply chain complexity drivers, because in her opinion,
+this is the ﬁrst step in developing a clear strategy for
+complexity handling. Before reviewing the literature, Serdarasan [256] analyzed the three different types of supply
+chain complexity (static, dynamic and decision making)
+and describes her understanding of the term complexity
+drivers. In her understanding, ‘‘a supply chain complexity
+driver is any property of a supply chain that increases its
+complexity’’ and corresponds with the different types of
+supply chain complexity [255]. Furthermore, Serdarasan
+[255] classiﬁes the complexity drivers ‘‘according to their
+origin in internal, supply/demand interface, and external/
+environmental drivers’’. In total, twenty-three literature
+sources are identiﬁed and twenty-seven complexity drivers
+are described in the three driver categories internal, supply/
+demand interface and external. In addition, Serdarasan
+[255] gives an overview of twenty-seven different solution
+strategies for handling speciﬁc complexity drivers. However, the information about all references and the systematic review results are not described, because of ‘‘space
+restrictions’’ in the conference paper [255].
+In summary, in her ﬁrst paper Serdarasan [255] offers an
+overview, showing the identiﬁed complexity drivers and
+their overall origin categories, and describes some solution
+strategies for complexity driver’s handling. However, she
+does not describe a comparison between the different literature sources and their ﬁndings. Furthermore, she
+focused her research only on supply chain complexity
+drivers. Complexity drivers in other parts along the value
+chain are not described and compared with her ﬁndings.
+
+123
+
+Logist. Res. (2016) 9:25
+
+In the second paper, Serdarasan [256] enhances the content of her ﬁrst paper and reviews the ‘‘typical complexity
+drivers that are faced in different types of supply chains and
+present the complexity driver and solution strategy pairings
+based on good industry practices‘‘. Analogously to the ﬁrst
+paper, Serdarasan [256] distinguishes in the ﬁrst step the
+supply chain complexity in the already mentioned three
+types: static, dynamic and decision making. Then, she
+describes her understanding of the term complexity drivers
+and combines it with the different types of supply chain
+complexity and their origin (internal, supply/demand interface and external/environmental). In the next step, Serdarasan [256] analyzes the identiﬁed thirty-eight literature
+sources focused on supply chain complexity according to
+their type and origin. As a result of the analysis, Serdarasan
+[256] states that the related literature is mostly focused on
+internal and interface complexities. The number of studies
+dealing with external complexity drivers is smaller, because
+‘‘external drivers are outside the system boundary of the
+supply chain’’. According to the three types of supply chain
+complexity, the literature is mostly focused on static and
+dynamic types. Decision-making complexity is also much
+less in the focus of the literature. Based on her literature
+research, Serdarasan [256] developes a classiﬁcation of
+supply chain complexity drivers according to their type and
+origin. Thirty-two supply chain complexity drivers are
+described in nine complexity driver categories. For complexity drivers handling, Serdarasan [256] extends the
+overview of different solution strategies from twenty-seven
+in the ﬁrst paper to thirty-three in the journal paper.
+Summarizing the second paper, Serdarasan [256] presents a table, consisting of the identiﬁed complexity drivers, which were clustered according to their type and
+origin. Furthermore, she compares the different literature
+sources and their ﬁndings to identify communalities and
+differences. Analogously to the ﬁrst paper, Serdarasan
+[256] focuses her research only on supply chain complexity
+drivers. Complexity drivers in other parts along the value
+chain are not described and compared with her ﬁndings.
+In addition, Serdarasan [255, 256] does not describe
+speciﬁc approaches for complexity driver’s identiﬁcation,
+operationalization and visualization in her two papers.
+Beyond, no research questions, databases, search terms and
+synthesizing methods are determined.
+The objective of Wildemann and Voigt’s research [289]
+is to identify internal and external complexity drivers in
+manufacturing companies with the aim of quantifying
+company’s product portfolio, process and structure complexity. As a result, a company’s complexity proﬁle can be
+compared across other companies. The basis of Wildemann
+and Voigt’s [289] overview is a comprehensive literature
+Voigt [289] analyzed the term complexity extensively to
+develop their own deﬁnitions for internal and external
+complexity. According to Wildemann and Voigt [289],
+external complexity is the sum of all parameters in a
+company that cannot be inﬂuenced or can only be indirectly inﬂuenced. External complexity is constitutive traits
+for a company’s processes that product program and the
+company’s structure exhibit. Their dynamics are only
+predictable to some extent. Internal complexity is the sum
+of all material and immaterial units in a company and their
+static and dynamic links that express the external requirements within the company borders.
+For complexity driver’s understanding, Wildemann and
+Voigt [289] cite the deﬁnition of Piller that complexity
+drivers are a ‘‘phenomenon, which actuate a system to
+increase their own complexity’’.
+Based on this understanding, Wildemann and Voigt
+[289] perform a comprehensive literature research
+focused on complexity drivers and separate the identiﬁed
+complexity drivers according to their origin into internal
+and external categories. As a result of their literature
+research, Wildemann and Voigt [289] identify seventeen
+literature sources about complexity drivers and identify
+thirty-two external and sixty-three internal complexity
+drivers, which are allocated in eleven driver categories.
+Wildemann and Voigt [289] criticize that literature’s
+assignment of complexity drivers to different driver
+clusters show some contradictions. In addition to their
+literature research, Wildemann and Voigt [289] analyze
+twenty-seven case studies to extend literature’s results
+about complexity drivers with complexity drivers identiﬁed in practice. The case studies comprise different
+branches to provide a differentiated overview about
+external drivers and their internal impacts. In summary,
+115 different complexity drivers are identiﬁed and
+clustered according to nine main driver categories (three
+external and six internal). Then, the results are visualized in a ‘‘complexity driver tree’’ and evaluated in a
+further empirical study to identify the most relevant
+complexity drivers for practice. As a result, the total
+amount of complexity drivers is condensed to an amount
+of complexity drivers, which are easy to handle in
+practice. Based on expert interviews, Wildemann and
+Voigt [289] ﬁnally identify ten relevant external and
+twenty relevant internal complexity drivers. The concentrated complexity drivers are the basis for an additional empirical research by online questioning. Within
+the questioning, the trends of internal and external
+complexity drivers, their relevance and inﬂuences on
+company’s processes are investigated. The results from
+literature and empirical research are the inputs for the
+development of a complexity index [289].
+
+Page 11 of 66
+
+25
+
+In summary, Wildemann and Voigt [289] present in the
+ﬁrst step a literature overview about complexity drivers
+general in manufacturing companies. The identiﬁed drivers
+are clustered according to origin in internal and external
+drivers. The authors compare the different literature sources and their ﬁndings to identify communalities and differences. Then, they compare the literature results with the
+results from empirical research to extend the total amount
+of complexity drivers. The results are visualized in a
+complexity tree. The practical relevant drivers are identiﬁed through expert interviews. However, Wildemann and
+Voigt [289] focus their research only on general complexity drivers. Complexity drivers in other parts of the
+company and along the value chain are not described and
+compared with their ﬁndings. In addition, Wildemann and
+Voigt [289] do not describe speciﬁc approaches for complexity driver’s identiﬁcation and operationalization. Only
+one method for complexity driver’s visualization is
+described. For literature research, no research questions,
+databases, search terms and synthesizing methods are
+determined.
+Table 4 summarizes the results of our analysis according to the previous literature studies about complexity
+drivers. The table shows a list of existing reviews and
+overviews/surveys and gives an overview of their focus,
+research period and results about complexity drivers. Furthermore, the identiﬁed literature studies are analyzed and
+evaluated based on the requirements of a systematic,
+explicit and reproducible literature review, described by
+Fink [78].
+The evaluation is based on the following two criteria:
+fulﬁlled (??) and not fulﬁlled (-). Table 4 gives an
+overview about the determination of the two evaluation
+criteria in the following two categories:
+•
+•
+
+Determination of research questions, databases, search
+terms and synthesizing methods.
+Comparison of literature ﬁndings with other literature
+sources or empirical research data.
+
+As a result of Table 4 and the analysis of the previous
+literature studies, the existing studies cover complexity
+drivers on speciﬁc issues such as logistics, supply chains or
+general in manufacturing companies (see Table 4).
+A vast number of literature sources and complexity
+drivers in the referred ﬁeld are covered in these literature
+studies, although a systematic, explicit and reproducible
+method for identiﬁcation, evaluation and synthesizing the
+existing literature about complexity drivers is not described
+[78]. In the previous literature studies, no research questions, databases, search terms and synthesizing methods are
+described (see Table 4). Furthermore, the literature ﬁndings are only compared in two of the four studies to
+identify communalities and differences to improve reader’s
+
+
+Logist. Res. (2016) 9:25
+
+Table 4 List of existing reviews or overview about complexity drivers and their results
+Author(s)
+
+Meyer [174]
+
+Serdarasan [255]
+
+Wildemann and Voigt [289]
+
+Serdarasan [256]
+
+Type of literature study
+
+Overview
+
+Review
+
+Overview
+
+Review
+
+Publication’s language
+
+German
+
+English
+
+German
+
+English
+
+Focus
+General in manufacturing companies
+
+•
+
+•
+
+Product development
+Procurement/purchasing
+Logistics
+
+•
+
+Production
+Order processing/distribution/sale
+•
+
+Internal supply chain
+
+•
+
+Remanufacturing
+General in value chain
+Research period
+
+1992–2004
+
+1998–2011
+
+1991–2010
+
+1992–2011
+
+Identiﬁed literature sources
+
+19
+
+25
+
+17
+
+38
+
+Complexity driver’s deﬁnitions
+
+1
+
+1
+
+1
+
+1
+
+Described complexity drivers
+
+127
+
+27
+
+95
+
+32
+
+Complexity driver categories
+
+14
+
+3
+
+11
+
+9
+
+Research questions
+
+–
+
+–
+
+–
+
+–
+
+Databases
+
+–
+
+–
+
+–
+
+–
+
+Search terms
+
+–
+
+–
+
+–
+
+–
+
+Synthesizing methods
+
+–
+
+–
+
+–
+
+–
+
+Other literature sources
+
+–
+
+–
+
+??
+
+??
+
+Empirical research data
+
+–
+
+–
+
+??
+
+–
+
+Literature review’s results: amount of…
+
+Determination of … by the author(s)
+
+Literature ﬁndings’ comparison with…
+
+Evaluation criteria: fulﬁlled (??), precise research questions, databases, search terms and synthesizing methods, are described. The literature
+ﬁndings are compared with other literature sources or empirical research data; not fulﬁlled (-), precise research questions, databases, search
+terms and synthesizing methods are not described. The literature ﬁndings are not compared with other literature sources or empirical research
+data
+
+understanding in a particular ﬁeld of research. These are
+essential to determine the current state of knowledge about
+a particular research issue in a literature review according
+to Fink [78].
+The existing literature studies only describe complexity
+drivers in a speciﬁc ﬁeld of manufacturing companies. A
+more general overview about complexity drivers in manufacturing companies and along the value chain does not
+exist yet. Furthermore, no different deﬁnitions of complexity drivers are identiﬁed, compared and discussed in
+the previous literature studies. Meyer [174], Serdarasan
+[255, 256] and Wildemann and Voigt [289] provide only
+one deﬁnition for complexity drivers. In our opinion, a
+more extensive point of view is necessary to identify all
+characteristics of complexity drivers. Complexity driver’s
+understanding is the ﬁrst step in managing complexity (see
+Sect. 3.1).
+
+123
+
+In the existing studies, no approaches for complexity
+driver’s identiﬁcation or operationalization are described. A
+speciﬁc and target-oriented complexity management is
+based on identiﬁcation, operationalization and visualization
+of a system’s complexity drivers (see Sect. 3.2). For science
+and practice, it is important to know that different methods
+for complexity driver’s identiﬁcation, operationalization and
+visualization exist in the literature. Only Wildemann and
+Voigt [289] describe a method for complexity driver’s
+visualization in their research paper. However, this method is
+not applicable in all cases; thus, further methods for complexity driver’s visualization are required.
+In our research paper, we want to close the referred gaps
+by a systematic, explicit and reproducible literature review
+
+NI
+
+25
+
+Total amount of literature sources about
+complexity drivers between 1991 and 2015:
+NT: 235
+Amount of literature sources
+with information about complexity drivers in
+manufacturing companies and along the value chain:
+NI: 212
+Amount
+of literature parts focused on
+general in manufacturing
+companies:
+NG: 108
+
+NG ∩ VC:
+11
+
+Amount
+of literature parts focused on
+the value chain:
+NVC: 115
+
+Amount
+of literature sources
+with only general
+information about
+complexity drivers:
+NG: 23
+
+NG VC:
+223
+
+Fig. 4 Overview about literature analysis’ results
+
+According to the literature, the existing studies are
+only focused on speciﬁc issues such as logistics, supply
+chain or general in the company (see Table 4). One of
+this paper’s purposes is to present an overview about
+complexity drivers in all aspects along the value chain
+and in manufacturing companies in attempt to close this
+literature gap. Furthermore, the results are compared
+with each other to identify communalities and differences between complexity drivers general in manufacturing companies and along the value chain. In addition,
+we identify and analyze all existing deﬁnitions of complexity drivers and develop a new overall deﬁnition to
+increase the understanding of complexity drivers. Our
+objective is to fulﬁll all requirements of a literature
+review in general.
+To achieve this aim, the identiﬁed 235 literature sources
+(NT) were analyzed in detail (Fig. 4). Twenty-three papers
+are focused only on general information about complexity
+drivers. As already mentioned, 212 papers (NI) contain
+information about complexity drivers in manufacturing
+companies and along the value chain. Within these 212
+papers, 108 literature parts (NG) can be identiﬁed that deal
+with complexity divers general in manufacturing companies. Furthermore, 115 literature parts (NVC) are focused
+on complexity drivers along the value chain. Eleven papers
+describe both parts (NG\NVC).
+After identiﬁcation and segmentation of the researched
+literature, the next step was to analyze the overall trend of
+all literature regarding complexity drivers in manufacturing
+companies and along the value chain (Fig. 5). Further, the
+results were separated in German and English publications.
+
+Figure 5 presents the total amount of publications regarding complexity drivers published in the time period
+1991–2015.
+The represented trend shows an increased interest in
+complexity drivers throughout the last 10 years, because
+they are the basement of a target-oriented complexity
+management. It can be derived that complexity drivers
+attract more and more focus in scientiﬁc research.
+Another reason for the increase numbers of literature
+sources might be the increased amount of included literature sources in databases over time. For example, the
+database EBSCOhost enhanced their connection to other
+databases over the last years, and thus, it covers more
+and more books, journals and conference papers.
+Seventy-four percent of all publications were published
+between 2004 and 2015. Furthermore, 72% of all publications were published in German. However, the
+amount of English publications increased continuously in
+the last 6 years.
+As already mentioned, 212 papers (90% of all literature
+sources) describe speciﬁc complexity drivers in manufacturing companies and along the value chain. After analyzing and synthesizing these 212 papers, we identiﬁed 223
+different literature parts with complexity drivers in manufacturing companies and along the value chain (see Fig. 4
+and Table 14 in ‘‘Appendix’’). Thus, eleven authors have
+described more than one ﬁeld of complexity drivers in their
+publications (see Fig. 4). For example, Mayer [170], Meyer
+[174] and Lasch and Gießmann [155] describe in their
+publications complexity drivers general in manufacturing
+companies and drivers in the ﬁeld logistics.
+
+
+Logist. Res. (2016) 9:25
+
+Fig. 5 Trend of all literature
+sources about complexity
+drivers between 1991 and 2015
+
+Fig. 6 Trend of the literature
+about general complexity
+drivers in manufacturing
+companies and complexity
+drivers along the value chain in
+manufacturing companies
+between 1991 and 2015
+
+With regard to the existing literature, the data from
+Fig. 5 were separated in two categories to allow the
+researchers an overview about the different trends in the
+literature regarding complexity drivers (Fig. 6) and their
+increasing importance for manufacturing companies:
+•
+•
+
+General complexity drivers in manufacturing companies (108 parts).
+Complexity drivers along the value chain (115 parts).
+
+Furthermore, the different trends in the literature show
+the current research direction and give an implication for
+gaps and future research.
+Figure 6 shows these referred trends during the last
+25 years. One hundred and eight literature parts (48%)
+concern general complexity drivers in manufacturing
+companies. Most of these publications were published
+between the years 1998 and 2010 (70%). On the other side,
+
+123
+
+one hundred and ﬁfteen publications describe complexity
+drivers along the value chain. Eighty-three percent of the
+publications about complexity drivers along the value
+chain were published in the last 10 years. Thus, there is an
+increasing interest in complexity drivers along the value
+chain in scientiﬁc literature.
+Comparing the focus of publications in the early years
+with the focus of publications during more recent years
+shows that complexity drivers are now described more in
+detail regarding different parts along the value chain. This
+indicates that complexity drivers gain more and more
+importance in scientiﬁc research.
+¨
+According to Wildemann [288], Schonsleben [234],
+Blecker and Kersten [20] and Kaluza, Bliem and Winkler
+[126], we separated the value chain in seven different
+ﬁelds: product development (PD), procurement/purchasing
+remanufacturing (R).
+Furthermore, we extend this separation by introducing
+the ﬁeld general in value chain (VC), because in our
+research we found out that some authors described complexity drivers along the value chain in general.
+To allow an overview about the trend of the literature in
+the eight different ﬁelds of the value chain, the data from
+Fig. 5 in the category complexity drivers along the value
+chain were separated. Table 5 gives an overview about the
+amount of literature across the last 25 years in particular
+ﬁelds of the value chain. The table also shows that the
+amount of publications about complexity drivers in all eight
+different ﬁelds has increased. Thus, there is an increasing
+interest in complexity drivers in the last 10 years.
+The main focus is on internal supply chain (23%),
+production (22%), logistics (16%), product development
+(15%) and order processing/distribution (11%). Eightyseven percent of all publications are focused on these
+ﬁelds. This shows that these ﬁelds are identiﬁed by several
+researches as important sources of complexity in the
+company and were analyzed precisely within the last
+25 years. Other important sources of complexity are the
+ﬁelds procurement, remanufacturing and general in value
+chain, but only 13% of the publications are focused on
+these ﬁelds. With a percentage of 3.5%, the ﬁeld remanufacturing has the smallest proportion of all publications.
+The analysis shows that in the ﬁelds procurement, remanufacturing and general in value chain future research is
+necessary, because these ﬁelds are also important sources
+of complexity in manufacturing companies. Based on the
+systems theory, complexity occurs not only in speciﬁc parts
+of a system. Instead, handling complexity requires a consideration of all parts and their interdependencies in a
+system.
+3.2 Deﬁnition of complexity drivers
+Complexity management in the company requires identiﬁcation and controlling of the essential complexity drivers
+[44, 240], because ‘‘complexity drivers can yield in
+increasing complexity’’ [19]. Before identiﬁcation, it is
+necessary to understand what a complexity driver is
+[144, 174]. Lucae, Rebentisch and Oelmen [162] argue that
+it is important ‘‘to better understand the complexity drivers
+that are impeding reliable planning and common planning
+mistakes made in large-scale engineering programs’’. In
+the literature today, there is no universal understanding of
+the term ‘‘complexity driver’’ [174]. Buob [46] argues that
+the term ‘‘complexity driver’’ cannot be deﬁned
+extensively.
+Answering the ﬁrst research question, we analyzed the
+identiﬁed literature. Several different deﬁnitions exist in
+
+Page 15 of 66
+
+25
+
+the literature, but they all tend to the same content and
+seem alike and not different (Table 6).
+To describe the term complexity driver, the ﬁrst step is
+to understand what a driver is in general. In the Business
+Dictionary [47], three different deﬁnitions of the term
+‘‘driver’’ exist:
+1.
+
+2.
+3.
+
+Condition or decision that causes subsequent conditions or decisions to occur as a consequence of its own
+occurrence.
+Element of a system that has a major or critical effect
+on the associated elements or the entire system.
+Root cause of a condition or measurement.
+
+These three different deﬁnitions show that a driver is
+responsible for a situation or condition and has an impact
+on it. Table 6 presents several deﬁnitions about complexity
+drivers that exist in the literature and their authors. In total,
+thirty-six literature sources describe different deﬁnitions
+about complexity drivers. Twenty-six sources are written in
+German and ten in English. Generally, the deﬁnitions can
+be separated in ﬁve main categories: factors, indicators,
+sources, parameters/variables and symptoms/phenomenon,
+which inﬂuence a system’s complexity. The different
+complexity driver’s categories are ﬁlled with information
+from German- and English-written studies. Most of the
+different driver’s categories comprise information from
+both languages. Only the category ‘‘sources’’ are described
+only in German-written literature studies. Further, it can be
+seen that the English literature sources are concentrated on
+the categories ‘‘factors’’ and ‘‘indicators‘‘. For literature’s
+synthesizing, we analyzed the different statements or definitions of the authors and summarized them in a superior
+statement, which is described in Table 6.
+After analyzing and synthesizing the existing literature
+and the described different deﬁnitions of complexity drivers, we come to the conclusion that an overall deﬁnition is
+required to summarize all collected information in one
+deﬁnition.
+For the development of the new deﬁnition, we proceeded in the following way: In the ﬁrst step, we analyzed
+the characteristic of a deﬁnition itself. The ﬁrst common
+statement of a deﬁnition is by Aristoteles. He states that a
+deﬁnition is a ‘‘statement, which contains the essence of the
+object that is to be deﬁned’’ [66]. The Encyclopedia of
+Language and Linguistics describes a deﬁnition as a
+‘‘statement of the meaning of a word, term, or symbol’’
+[42]. The encyclopedias of BROCKHAUS [35] and DIE
+ZEIT [63] extend the mentioned deﬁnition and describe a
+deﬁnition as a ‘‘determination of a term by specifying the
+essential attributes’’ [35, 63]. According to the Encyclopedia of Language and Linguistics, a ‘‘traditional deﬁnition consists of a genus term and any of a number of
+differentia. The genus term answers the question, ‘What
+
+
+2005
+
+1991
+
+2
+
+L
+
+PR
+
+1
+
+1
+
+2006
+
+1
+
+1992
+
+2
+
+2
+
+1
+
+2009
+
+1
+
+1
+
+1
+
+2
+
+1
+
+1
+
+2010
+
+1996
+
+1
+
+7
+
+1
+
+5
+
+2
+
+1
+
+2011
+
+1997
+
+1
+
+1
+
+2
+
+1
+
+1
+
+3
+
+1
+
+4
+
+2012
+
+1998
+
+1
+
+1
+
+1
+
+1
+
+4
+
+1
+
+1
+
+2013
+
+1999
+
+1
+
+1
+
+1
+
+1
+
+5
+
+1
+
+1
+
+4
+
+2014
+
+2000
+
+2001
+
+1
+
+2
+
+1
+
+3
+
+1
+
+2
+
+2015
+
+2002
+
+115
+
+6
+
+4
+
+26
+
+13
+
+25
+
+18
+
+6
+
+17
+
+Total (row)
+
+1
+
+1
+
+2003
+
+100
+
+5.2
+
+3.5
+
+22.6
+
+11.3
+
+21.7
+
+15.7
+
+5.2
+
+14.8
+
+%
+
+2
+
+1
+
+1
+
+1
+
+2004
+
+Explanation to ﬁeld: PD product development, PC procurement/purchasing, L logistics, PR production, OPD order processing/distribution/sale, SC internal supply chain, R remanufacturing, VC
+general in value chain
+
+Total
+
+2
+1
+
+1
+
+2008
+
+2
+
+1995
+
+2
+
+2
+
+1
+
+1994
+
+VC
+
+SC
+
+1
+
+1
+
+2
+
+1
+
+1
+
+2007
+
+1993
+
+R
+
+2
+
+OPD
+
+2
+
+1
+
+2
+
+PC
+
+PD
+
+Field
+
+Total
+
+VC
+
+R
+
+SC
+
+OPD
+
+PR
+
+L
+
+PC
+
+PD
+
+Field
+
+Table 5 Overview about the amount of literature in particular ﬁelds of the value chain between 1991 and 2015
+
+25
+Page 16 of 66
+
+25
+
+Table 6 Deﬁnitions of complexity drivers in scientiﬁc literature
+Complexity driver’s
+category
+
+Author(s)
+
+Deﬁnition The author(s) describe(s) complexity drivers as…
+
+Factors
+
+¨
+Schmidt [227]1; Reiß [213]1; Fleck [79]1; Hoge [118]1;
+Bohne [26]1; Puhl [204]1; Berens and Schmitting [14]1;
+Fehling [76]1; Giannopoulos [87]2; Buob [46]1
+
+…factors, which inﬂuence a system’s complexity
+
+Piller and Waringer [202]1
+
+…factors, which increase a system’s complexity
+
+Hanenkamp [107]1; Meyer [174]1; Lammers [154]1
+
+…factors, which inﬂuence the system’s complexity and are
+responsible for changing system’s complexity level
+
+Schuh, Gartzen and Wagner [244]2
+
+…factors, which may create high complexity
+
+Christ [52]
+
+1
+
+…factors, which are responsible for resource wasting
+(‘Muda’) in the company
+
+Warnecke and Puhl [276]1; Puhl [204]1; Perona and
+Miragliotta [198]2; Giannopoulos [87]2; Leeuw,
+Grotenhuis and Goor [158]2
+
+…indicators, which inﬂuence a system’s complexity
+
+Payne and Payne [196]2
+
+…indicators for complexity, but they do not describe all
+characteristics of the phenomenon
+
+Rudzio, Apitz and Denkena [217]1
+
+…indicators, which indicate high complexity in the company
+
+Sources
+
+Wildemann [284]1
+Gießmann and Lasch [89]1
+
+…sources, which are responsible for a system’s complexity
+…sources, which inﬂuence the target achievement in the
+company
+
+Parameters/variables
+
+Biersack [17]1
+
+…parameters, indicators or factors, which help to deﬁne the
+characteristics and economic effects of a system’s
+complexity
+
+Schließmann [224]1; Gerschberger et al. [86]2
+
+…parameters, which are responsible for a system’s
+complexity
+
+Schwenk-Willi [252]1
+
+…variables, which depend on one another, without complete
+reduction to another one
+
+Symptoms/
+phenomenon
+
+¨
+Hoge [118]1
+
+…symptoms of a system’s complexity
+
+¨
+Dehnen [59]1; Gotzfried [94]2
+
+Others
+
+Dehnen [59]1
+
+…phenomenon, which actuate a system to increase own
+complexity
+…dimensions of complexity
+
+Indicators
+
+Moos [178]1
+
+…forces, which encourage a system’s complexity and are
+located on the interface between external and internal
+complexity
+
+Serdarasan [255, 256]2
+Language of literature source:
+
+1
+
+German (number: 26);
+
+…properties, which increase a system’s complexity
+2
+
+English (number: 10)
+
+sort of thing is it?’. The differentia distinguish it from
+members of related sets’’ [42]. The encyclopedias of DIE
+ZEIT [63] describe the genus term as the ‘‘generic term
+(genus proximum)’’. The differentia speciﬁes the differences in nature [63].
+Based on deﬁnition’s structure in the literature, in the
+next step, we analyzed the existing deﬁnitions and statements according to their structure. In all deﬁnitions or
+statements, the term ‘‘complexity driver’’ is the genus term.
+The terms ‘‘factor’’ or ‘‘indicator’’ or ‘‘source’’ or ‘‘parameter’’ etc. are the hypernym of a class. The differentia
+describes the characteristic and the essential attributes of
+the deﬁnition and ‘‘distinguish it from members of related
+sets’’ [42]. The statements ‘‘[…] which inﬂuence a system’s
+complexity’’ or ‘‘[…] which indicate high complexity in
+company’’ etc. are the identiﬁed differentia in our research.
+
+In the literature, several hypernyms for complexity
+drivers are presented: factor, indicator, source, parameter, variable, symptom, phenomenon, dimension, force
+and property. However, the meanings of these terms are
+different (see Table 7). Thus, we analyzed these terms
+and compared the meanings with the general understanding of a complexity driver, described in the literature. According to Schuh [240], Meyer [174] and
+Krizianits [150], complexity drivers are causing something or have an effect or inﬂuence on something. Then,
+we evaluated the existing meanings based on the following three evaluation criteria
+Fulﬁlled
+(??)
+
+Content covers the general understanding
+of a complexity driver in total and
+contains the two terms cause and inﬂuence
+
+
+Logist. Res. (2016) 9:25
+
+Table 7 Deﬁnitions of complexity driver’s hypernyms
+Complexity driver’s hypernyms
+
+Deﬁnition according to the Oxford Learner’s Dictionary
+
+Evaluation result
+
+Factor [184]
+
+‘‘One of several things that cause or inﬂuence something’’
+
+??
+
+Indicator [186]
+
+‘‘A sign that shows you what something is like or how a situation is changing’’
+
+–
+
+Source [190]
+
+‘‘A person or thing that causes something, especially a problem’’
+
+?
+
+Parameter [187]
+
+‘‘Something that decides or limits the way in which something can be done’’
+
+–
+
+Variable [192]
+
+‘‘Able to be changed’’
+
+–
+
+Symptom [191]
+
+‘‘A sign that something exists, especially something bad’’
+
+–
+
+Phenomenon [188]
+
+‘‘A fact or an event in nature or society, especially one that is not fully understood’’
+
+–
+
+Dimension [183]
+
+‘‘The size and extent of a situation’’
+
+–
+
+Force [185]
+
+‘‘The strong effect or inﬂuence of something’’
+
+?
+
+Property [189]
+
+‘‘A quality or characteristic that something has’’
+
+–
+
+Explanation for evaluation criteria: ??, fulﬁlled; ?, partial fulﬁlled; –, not fulﬁlled
+
+Partial
+fulﬁlled (?)
+Not fulﬁlled
+(-)
+
+Content covers the general understanding
+of a complexity driver partial and contains
+one of the two terms cause and inﬂuence
+Content covers not the general
+understanding of a complexity. The two
+terms cause and inﬂuence are not
+described
+
+The terms, which fulﬁll the general understanding of a
+complexity driver, are marked (see Table 7). The Oxford
+Learner’s Dictionary deﬁnes the different hypernyms presented in Table 7. As a result, only the term factor consists
+the attributes cause and inﬂuence. Thus, we come to the
+conclusion that the term factor is the suitable hypernym for
+complexity drivers.
+In the next step, we analyzed the identiﬁed differentia
+and compared them with each other to identify differences
+and communalities. Then, we clustered the differentia
+according to their content. In the literature, sixteen different differentiae are described. Some differentiae are used
+more often than others to describe complexity drivers.
+Table 8 presents the sixteen differentiae, their literature’s
+occurrence and the results of differentia’s clustering.
+In summary, the sixteen differentiae can be clustered in
+ﬁve groups. The ﬁrst group describes that complexity drivers have principally an inﬂuence on system’s complexity.
+Group #2 concretizes the statement of group #1 and concludes that complexity drivers have not only an inﬂuence
+on system’s complexity, but they are responsible for
+increasing the complexity level in a system. Group #3
+describes further that complexity drivers have a direct
+inﬂuence on company’s target achievement. Beyond,
+complexity drivers are inﬂuenced by one another, that is by
+internal or external drivers, and cannot be reduced completely to another one (see Group #4). Furthermore, complexity drivers help to deﬁne the characteristics or the
+phenomenon of a system’s complexity (see Group #5).
+
+123
+
+Based on the ﬁve differentia groups and the identiﬁed
+hypernym term ‘‘factor’’, we developed the following
+general complexity driver deﬁnition:
+Complexity drivers are factors, which inﬂuence a
+system’s complexity and company’s target achievement. They are responsible for increasing system’s
+complexity level and help to deﬁne the characteristics
+or the phenomenon of a system’s complexity. Complexity drivers are inﬂuenced by one another, that is
+by internal or external drivers, and cannot be
+reduced completely to another one.
+3.3 Approaches for identiﬁcation,
+operationalization and visualization
+of complexity drivers
+Complexity drivers have inﬂuence on companies and the
+total value chain [240]. A speciﬁc and target-oriented
+complexity management is based on identiﬁcation, operationalization and visualization of a system’s complexity
+drivers. Keuper [132] describes that handling a company’s
+complexity depends on the complexity drivers. Schmitt,
+¨
+Vorspel-Ruter and Wienholdt [230] explain that the identiﬁcation and classiﬁcation of measureable complexity
+drivers are the baseline for complexity reduction. Further
+Schwenk-Willi [252] and Sun and Rose [266] argue that
+complexity drivers are necessary for operationalization and
+quantiﬁcation of complexity. Greitemeyer, Meier and
+Ulrich [96] describe that complexity drivers are responsible
+for complexity costs. Moreover, they are necessary for the
+creation of complexity key performance indicators.
+Therefore, it is required to identify and evaluate the relevant drivers [96].
+According to the quote ‘‘If you can’t measure it you
+
+25
+
+Table 8 Overview of complexity driver’s differentia and their literature’s occurrence
+Type
+
+In the literature described complexity driver’s
+differentia
+
+Number of authors that
+use this differentia
+
+Clustering of the identiﬁed complexity driver’s differentia
+
+#1
+
+[…], which inﬂuence a system’s complexity
+
+18
+
+[…], which inﬂuence a system’s complexity
+
+#2
+
+[…], which are responsible for a system’s
+complexity
+
+3
+
+#3
+#4
+
+[…], which encourage a system’s complexity
+[…], symptoms of a system’s complexity
+
+1
+1
+
+#5
+
+[…], dimension of complexity
+
+1
+
+#6
+
+[…], are responsible for changing system’s
+complexity level
+
+3
+
+#7
+
+[…], which increase a system’s complexity
+
+3
+
+#8
+
+[…], which may create high complexity
+
+1
+
+#9
+
+[…], which indicate high complexity in the
+company
+
+1
+
+#10
+
+[…], which actuate a system to increase own
+complexity
+
+2
+
+#11
+
+[…], which are responsible for resource wasting
+in the company
+
+1
+
+#12
+
+[…], which inﬂuence the target achievement in
+the company
+
+1
+
+#13
+
+[…], which depend on one another, without
+complete reduction to another one
+
+1
+
+#14
+
+[…], located on the interface between external
+and internal complexity
+
+1
+
+#15
+
+[…], but they do not describe all characteristics of
+the phenomenon
+
+1
+
+#16
+
+[…], which help to deﬁne the characteristic and
+economic effects of a system’s complexity
+
+1
+
+holistic view [266]. For quantifying complexity drivers and
+their effects, it is necessary to identify theoretically possible complexity drivers ﬁrst. The next step is to identify
+practically relevant complexity drivers [109, 264], for
+example within an empirical research [289].
+To answer the second research question, we analyzed
+the identiﬁed literature sources according to general
+approaches for complexity driver’s identiﬁcation, operationalization and visualization. Parry, Purchase and Mills
+[194] argue that recognition and identiﬁcation of the
+complexity drivers ‘‘enable managers to realize value’’ and
+‘‘reducing complexity where possible‘‘. Ehrenmann [67]
+argues further that complexity driver’s analysis enables
+ﬁrst indications about the success of process’s changing.
+3.3.1 Identiﬁcation of complexity drivers
+As a result of literature analysis, thirty-seven authors
+describe in their papers twenty-one different approaches
+for complexity driver’s identiﬁcation. Most of the identiﬁed approaches are published in German-written studies
+(68%). More than 50% of the approaches are applied for
+
+[…], which are responsible for increasing system’s
+complexity level
+
+[…], which inﬂuence company’s target achievement
+
+[…], are inﬂuenced by one another (internal or external)
+and cannot be reduced completely to another one
+
+[…], help to deﬁne the characteristics or the phenomenon
+of a system’s complexity
+
+complexity driver’s identiﬁcation general in manufacturing
+companies. Based on the literature analysis, the most
+applied approaches are expert interviews, process analysis
+and system analysis. Table 9 presents an overview of the
+identiﬁed approaches found in the literature and the ﬁelds
+on which they are focused. Some authors combine different
+approaches to identify complexity drivers. Furthermore,
+the identiﬁed approaches are clustered into seven ﬁelds,
+based on their principle to increase transparency. An
+evaluation of the different approaches regarding their
+practical uses wasn’t conducted. This is a mere reﬂection
+of the approaches found in the literature. Such an evaluation can be an implication for further research.
+According to Table 9, fourteen different authors use
+approaches based on questioning for identiﬁcation and
+classiﬁcation of complexity drivers. These approaches are
+applied to gather the expert’s knowledge and experience.
+Further methods for identiﬁcation of complexity drivers are
+the process or situation observation, the process analysis and
+the activity-based costing. They are used by eleven different
+authors. During a process analysis, the process is divided
+into its parts to increase process’s understanding and to
+
+Schiffers
+[271]1
+Warnecke and
+Puhl [276]1
+Rosemann
+[216]1
+Puhl [204]1
+Meier and
+Hanenkamp
+[171]1
+Hanenkamp
+[107]1
+Giannopoulos
+[87]2
+¨
+¨
+Großler, Grubner
+and Milling
+[101]2
+Kohagen [143]1
+Krause, Franke
+and
+Gausemeier
+[149]1
+Greitemeyer,
+Meier and
+Ulrich [96]1
+Lasch and
+Gießmann
+[156]1
+Bayer [11]1
+Schließmann
+[224]1
+
+Author(s)
+
+•
+
+•
+
+•
+
+•
+
+Process
+analysis
+
+Questionnaire
+
+Expert
+interviews
+
+Workshops
+
+2
+
+1
+Process
+observation
+
+•
+
+Activitybased
+costing
+
+Situation
+observation
+
+•
+
+•
+
+•
+
+System
+analysis
+
+3
+Structure
+analysis
+
+G
+
+G
+
+G
+
+G
+
+G
+G
+
+G
+
+G
+
+G
+G
+
+G
+
+G
+
+•
+
+Failure
+mode
+and
+effect
+analysis
+
+•
+
+•
+
+Dependence
+analysis
+
+G
+G
+
+•
+
+Cause–
+effect
+analysis
+(Ishikawa)
+
+•
+
+Inﬂuence
+analysis
+
+4
+Variant
+mode
+and
+effect
+analysis
+
+Table 9 Overview about approaches for identiﬁcation of complexity drivers in particular ﬁelds
+Focus
+
+Page 20 of 66
+
+Approach(es) based on…
+(1) Questioning, (2) process and observation, (3) system, (4) inﬂuence and dependency, (5) documents and literature, (6) classiﬁcation and (7) others
+
+25
+and Wienholdt
+[230]1
+Schawel and
+Billing [222]1
+Collinson and
+Jay [54]2
+Steinhilper et al.
+[264]1
+Serdarasan
+[256]2
+Krumm and
+Schopf [151]1
+Bosch-Rekveldt
+et al. [28]2
+Wildemann
+[283]1
+Weber [278]1
+Lasch and
+Gießmann
+[155]1
+Kersten,
+Lammers and
+Skride [130]1
+Reuter, Prote and
+¨
+Stower [214]1
+Schott,
+Horstmann and
+Bodendorf
+[235]2
+Perona and
+Miragliotta
+[198]2
+Geimer [84]1
+
+Author(s)
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+2
+Process
+analysis
+
+Questionnaire
+
+Expert
+interviews
+
+Workshops
+
+1
+Process
+observation
+
+Activitybased
+costing
+
+•
+
+Situation
+observation
+
+•
+
+•
+
+•
+
+•
+
+System
+analysis
+
+3
+
+•
+
+Structure
+analysis
+
+Inﬂuence
+analysis
+
+4
+Cause–
+effect
+analysis
+(Ishikawa)
+Dependence
+analysis
+
+Failure
+mode
+and
+effect
+analysis
+
+(1) Questioning, (2) process and observation, (3) system, (4) inﬂuence and dependency, (5) documents and literature, (6) classiﬁcation and (7) others
+
+Approach(es) based on…
+
+Table 9 continued
+
+•
+
+Variant
+mode
+and
+effect
+analysis
+
+SC
+
+SC
+
+PR
+
+PR
+
+L
+
+L
+L
+
+PC
+
+PD
+
+PD
+
+G
+
+G
+
+G
+
+G
+
+G
+
+Focus
+
+Logist. Res. (2016) 9:25
+Page 21 of 66
+25
+
+
+•
+1
+
+Activitybased
+costing
+
+1
+
+Situation
+observation
+
+3
+
+1
+
+Structure
+analysis
+
+4
+
+2
+
+Inﬂuence
+analysis
+
+1
+
+Cause–
+effect
+analysis
+(Ishikawa)
+
+1
+
+Dependence
+analysis
+
+1
+
+Failure
+mode
+and
+effect
+analysis
+
+1
+
+SC
+SC
+SC
+
+SC
+
+1
+
+ABC
+analysis
+
+Literature
+research
+
+Analyzing of
+documents
+
+Complexity
+diaries
+
+6
+
+5
+
+•
+
+Factor
+analysis
+
+7
+
+•
+
+cost–beneﬁt
+analysis
+
+Creativity
+techniques
+
+Approach(es) based on…
+(1) Questioning, (2) process and observation, (3) system, (4) inﬂuence and dependency, (5) documents and literature, (6) classiﬁcation and
+(7) others
+
+9
+
+10
+
+3
+
+•
+
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+
+Focus
+
+VC
+
+VC
+
+•
+
+•
+
+R
+
+•
+
+R
+
+•
+
+8
+
+•
+
+System
+analysis
+
+•
+
+•
+
+•
+
+Process
+observation
+
+•
+
+•
+
+•
+
+2
+Process
+analysis
+
+Questionnaire
+
+Expert
+interviews
+
+Workshops
+
+1
+
+(1) Questioning, (2) process and observation, (3) system, (4) inﬂuence and dependency, (5) documents and literature, (6) classiﬁcation and (7) others
+
+Vizjak and Schiffers [271]1
+Warnecke and Puhl [276]1
+Rosemann [216]1
+Puhl [204]1
+Meier and Hanenkamp [171]1
+Hanenkamp [107]1
+Giannopoulos [87]2
+¨
+¨
+Großler, Grubner and Milling [101]2
+Kohagen [143]1
+Krause, Franke and Gausemeier [149]1
+Greitemeyer, Meier and Ulrich [96]1
+
+Author(s)
+
+Vickers and
+Kodarin [270]2
+Ballmer [10]1
+Kersten [127]1
+Leeuw,
+Grotenhius and
+Goor [158]2
+Haumann et al.
+[109]2
+Seifert et al.
+[254]2
+Brosch et al.
+[37]1
+Brosch et al.
+[40]2
+R
+
+Author(s)
+
+Variant
+mode
+and
+effect
+analysis
+
+Table 9 continued
+Focus
+
+Page 22 of 66
+
+Approach(es) based on…
+
+25
+1
+
+•
+
+3
+
+•
+•
+•
+
+1
+
+•
+
+ABC
+analysis
+
+Literature
+research
+
+Analyzing of
+documents
+
+Complexity
+diaries
+
+6
+
+5
+
+2
+
+•
+
+Factor
+analysis
+
+7
+
+1
+
+cost–beneﬁt
+analysis
+
+1
+
+•
+
+Creativity
+techniques
+
+Approach(es) based on…
+(1) Questioning, (2) process and observation, (3) system, (4) inﬂuence and dependency, (5) documents and literature, (6) classiﬁcation and
+(7) others
+
+G
+G
+G
+G
+PD
+PD
+PC
+L
+L
+L
+PR
+PR
+SC
+SC
+SC
+SC
+SC
+SC
+R
+R
+VC
+VC
+
+G
+G
+G
+G
+
+Focus
+
+Language of literature source:
+
+1
+
+German (number: 25);
+
+2
+
+English (number: 12)
+
+Explanation according to focus: G general in manufacturing companies, PD product development, PC procurement/purchasing, L logistics, PR production*, OPD order processing/distribution/
+sale*, SC internal supply chain, R remanufacturing, VC total value chain (* no approaches for identiﬁcation of complexity drivers were found in this ﬁeld)
+
+Lasch and Gießmann [156]1
+Bayer [11]1
+Schließmann [224]1
+¨
+Schmitt, Vorspel-Ruter and Wienholdt
+[230]1
+Schawel and Billing [222]1
+Collinson and Jay [54]2
+Steinhilper et al. [264]1
+Serdarasan [256]2
+Krumm and Schopf [151]1
+Bosch-Rekveldt et al. [28]2
+Wildemann [283]1
+Weber [278]1
+Lasch and Gießmann [155]1
+Kersten, Lammers and Skride [130]1
+¨
+Reuter, Prote and Stower [214]1
+Schott, Horstmann and Bodendorf [235]2
+Perona and Miragliotta [198]2
+Geimer [84]1
+Vickers and Kodarin [270]2
+Ballmer [10]1
+Kersten [127]1
+Leeuw, Grotenhius and Goor [158]2
+Haumann et al. [109]2
+Seifert et al. [254]2
+Brosch et al. [37]1
+Brosch et al. [40]2
+R
+
+Author(s)
+
+Table 9 continued
+
+Logist. Res. (2016) 9:25
+Page 23 of 66
+25
+
+
+identify the main parts as well as possible weaknesses. Activity-based costing is based on the process analysis. The
+costs are divided into direct and indirect costs to identify cost
+drivers and thus complexity drivers. Another possibility to
+identify complexity drivers is to analyze a company’s system
+or structure. During a system analysis, the system is divided
+into its parts with the objective of identiﬁcation and analyzing system’s behavior and the interdependency between
+the different parts [149]. The structure analysis is conducted
+in the same way as a system or a process analysis. To analyze
+the interdependency between the elements of processes,
+systems, parts or structures and to identify furthermore the
+speciﬁc complexity drivers, the following approaches are
+used in the literature: inﬂuence analysis, dependence analysis, cause–effect analysis, variant mode and effect analysis
+and failure mode and effect analysis. These approaches are
+based on a process, system or structure analysis. A further
+feasibility to get an overview about a company’s complexity
+and their drivers is to analyze the scientiﬁc literature or the
+existing documents in the company as well as complexity
+diaries. Complexity diaries are used by the management and
+employees to document all causes of complexity in the
+company [54]. In the existing literature, four authors use
+these approaches for identifying complexity drivers. ABC
+analysis is also applied for identiﬁcation of complexity drivers. Wildemann [283] uses ABC analysis in combination
+with a system analysis in the ﬁeld procurement and logistics.
+As a result of this analysis, the goods or components, which
+occur at any rate, but have the highest complexity in the
+system, are the complexity drivers. Other approaches for
+identiﬁcation of complexity drivers are the factor analysis,
+the cost–beneﬁt analysis and creativity techniques. The
+factor analysis is a multivariate statistical method used to
+describe variability based on an empirical research. The
+objective is to concentrate the high number of variables to a
+lower number, called factors. These factors are the main
+determining components in a system [41] and thus the
+complexity drivers. In the literature, the cost–beneﬁt analysis
+is also used to identify complexity drivers according to a
+company’s performance. As a result of a cost–beneﬁt analysis, the objects with the highest costs and lowest beneﬁt can
+be identiﬁed as the complexity drivers [271]. The creativity
+techniques in combination with other approaches are also
+used for complexity driver’s identiﬁcation, but no speciﬁc
+creativity method is referred to in the literature.
+3.3.2 Operationalization and visualization of complexity
+drivers
+After identiﬁcation of complexity drivers, the next step for
+a target-oriented complexity management is to operationalize and visualize the complexity drivers. Based on the
+literature analysis, seventeen authors and eight different
+
+123
+
+Logist. Res. (2016) 9:25
+
+approaches were identiﬁed for operationalization of complexity drivers. For visualization of complexity drivers,
+nineteen authors and eight approaches were found. The
+most applied approach in both areas is the classiﬁcation
+and driver matrixes. Table 10 presents an overview of the
+identiﬁed approaches and the ﬁelds. Some authors combine
+different approaches to operationalize complexity drivers.
+The identiﬁed approaches for operationalization and
+visualization were also clustered into seven ﬁelds based on
+their principle to increase transparency and understanding.
+Again, this is just a mere reﬂection of the approaches found
+in the literature without an evaluation of their application
+in practice. However, it can be seen that some approaches,
+like the classiﬁcation and driver matrixes and the cluster
+analysis, are used for both visualization and operationalization. Further research may include the evaluation of the
+application of different approaches in practice and their
+precise ﬁelds of application. Because some approaches are
+used for both visualization and operationalization, it is not
+clear how these approaches are used and clariﬁcation
+through further research is needed.
+The most applied approach in scientiﬁc literature for
+operationalization and visualization of complexity drivers
+is the classiﬁcation or driver matrix. Here, the complexity
+drivers are grouped and evaluated according to their
+inﬂuences, dependencies and effects. Based on the evaluation results, complexity drivers can be visualized in a
+portfolio diagram to identify critical complexity drivers.
+To identify and operationalize the inﬂuences, dependencies and effects of complexity drivers, some authors use
+an inﬂuence or system analysis. Based on an inﬂuence or
+system analysis, further methods for visualization of
+complexity drivers in the ﬁeld of classiﬁcation are the
+complexity vector and the cause–effect diagram, named
+Ishikawa diagram. Compared to Ishikawa, the complexity
+vector is more complex and difﬁcult. Generating complexity vectors, Kersten, Lammers and Skride [130] classify complexity drivers in the two dimensions micro and
+macro, based on their system’s inﬂuence and the results of
+a cluster analysis. In this case, the cluster analysis is
+applied to operationalize and classify the complexity drivers in related groups to increase transparency. Further
+methods for operationalization of complexity drivers are
+expert interviews, factor analysis, scoring methods and
+portfolio methods.
+Based on a system’s structure, three different approaches for visualization of complexity drivers are applied:
+descriptive model, variant tree and swimlane diagram. The
+descriptive model is used to describe a system’s complexity, whereby the drivers can be visualized. With variant
+trees and swimlane diagrams, the complexity drivers can be
+11
+
+Brosch et al. [38]1
+
+R
+
+1
+
+•
+
+Kersten [127]1
+4
+
+3
+
+•
+
+Kersten, Lammers and Skride
+[130]1
+
+4
+
+•
+
+Lasch and Gießmann [155]1
+•
+
+•
+
+Seifert et al. [254]2
+Wildemann and Voigt [289]1
+
+VC
+
+SC
+
+L
+
+L
+
+G, R
+G
+
+G
+
+G
+
+G, R
+
+G
+
+G
+
+G
+
+G
+
+G
+
+G
+
+G
+
+G
+
+G
+
+G, R
+
+1
+
+G
+G
+
+•
+
+1
+
+•
+
+Portfolio
+methods
+
+Aelker, Bauernhansl and Ehm
+[3]2
+
+1
+
+•
+
+Factor
+analysis
+
+7
+
+•
+
+•
+
+•
+
+•
+
+Scoring
+methods
+
+6
+
+Steinhilper et al. [264]1
+
+•
+
+•
+
+System
+analysis
+
+4
+
+•
+
+Haumann et al. [109]
+
+•
+
+Expert
+interviews
+
+3
+
+Focus
+
+Lammers [154]1
+
+•
+
+Schuh et al. [245]1
+
+1
+
+None approach referred
+
+Schuh et al. [238]1
+
+Krizanits [150]1
+
+None approach referred
+
+Schawel and Billing [222]1
+
+•
+
+•
+
+•
+
+Lasch and Gießmann [156]1
+
+•
+•
+
+None approach referred
+
+•
+
+•
+
+Inﬂuence
+analysis
+
+Classiﬁcation/driver
+matrix
+
+Cluster
+analysis
+
+2
+
+1
+
+Approaches for operationalization
+
+Approach(es) based on…
+(1) Classiﬁcation, (2) inﬂuence and dependency, (3) questioning, (4) system, (5) structure, (6) evaluation and (7) others
+
+Meyer [174]1
+¨
+Dalhofer [58]1
+
+Purle [205]1
+¨
+¨
+Großler, Grubner and Milling
+[101]2
+¨
+Schuh, Sauer and Doring [241]1
+
+Puhl [204]1
+
+Stark and Oman [261]2
+
+Author(s)
+
+Table 10 Overview of approaches for operationalization and visualization of complexity drivers in particular ﬁelds
+
+Logist. Res. (2016) 9:25
+Page 25 of 66
+25
+
+•
+
+•
+
+•
+
+1
+
+•
+
+•
+
+2
+
+1
+
+3
+
+3
+
+1
+
+2
+
+VC
+
+SC
+
+L
+
+L
+
+G
+
+G, R
+
+G
+
+G, R
+
+G, R
+G
+
+G
+
+G
+
+G
+
+G
+
+G
+
+Language of literature source:
+
+1
+
+German (number: 18);
+
+2
+
+English (number: 4)
+
+Explanation according to focus: G general in manufacturing companies, PD product development*, PC procurement/purchasing*, L logistics, PR production*, OPD order processing/
+distribution/sale*, SC internal supply chain, R remanufacturing, VC value chain (* no approaches for operationalization or visualization of complexity drivers were found in this ﬁeld)
+
+1
+
+6
+
+•
+
+•
+
+R
+
+•
+
+Kersten, Lammers and Skride
+[130]1
+Kersten [127]1
+
+•
+
+•
+
+Brosch et al. [38]1
+
+Lasch and Gießmann [155]1
+
+Wildemann and Voigt [289]1
+
+Seifert et al. [254]2
+
+Aelker, Bauernhansl and Ehm
+[3]2
+
+Steinhilper et al. [264]1
+
+Haumann et al. [109]
+Lammers [154]1
+
+1
+
+•
+
+•
+
+G
+
+None approach referred
+
+Schuh et al. [245]1
+
+Krizanits [150]1
+
+•
+
+G
+
+•
+
+Schuh et al. [238]1
+
+Schawel and Billing [222]1
+
+Lasch and Gießmann [156]
+
+Meyer [174]1
+¨
+Dalhofer [58]1
+
+G
+G
+
+G
+
+None approach referred
+
+•
+
+G
+G
+
+None approach referred
+
+•
+
+Radar
+chart
+
+Purle [205]1
+¨
+¨
+Großler, Grubner and Milling
+[101]2
+¨
+Schuh, Sauer and Doring
+[241]1
+•
+
+Descriptive
+model
+
+•
+
+Variant
+tree/complexity tree
+
+5
+
+Puhl [204]1
+
+Stark and Oman [261]2
+
+Cause–effect
+diagram
+
+Cluster
+analysis
+
+Classiﬁcation/driver
+matrix
+
+Complexity
+vector
+
+2
+
+1
+
+Approaches for visualization
+
+Swimlane
+diagram
+
+Author(s)
+
+6
+
+Table 10 continued
+Focus
+
+Page 26 of 66
+
+Approach(es) based on…
+(1) Classiﬁcation, (2) inﬂuence and dependency, (3) questioning, (4) system, (5) structure, (6) evaluation and (7) others
+
+25
+3.4 Complexity drivers in manufacturing companies
+and along the value chain
+As already mentioned, complexity drivers have inﬂuence
+on companies and the total value chain [240]. According to
+the origin, complexity can be separated in internal and
+external parts [21, 129, 292], called internal and external
+complexity drivers. Internal and external complexity drivers are connected directly and induce system’s complexity
+[12, 54, 94, 97, 101]. Consequently, internal and external
+complexity drivers cannot be separated selectively and
+operationalized [26, 94, 227, 239].
+Bliss [22, 23] follows the categorization of internal and
+external complexity drivers in principle, but he extends the
+idea and differentiates internal complexity drivers in correlated and autonomous complexity drivers. Correlated
+complexity drivers have a direct correlation to the external
+market’s complexity and are inﬂuenced by it. Autonomous
+complexity drivers are not inﬂuenced by external factors.
+They are determined by the company itself. In the literature, ﬁfteen authors apply the differentiation of Bliss in
+their publications (Appendix Table 14). Furthermore,
+¨
+Curran, Elliger and Rudiger [57] conclude that it is
+required to separate the complexity drivers in value-adding
+and non-value-adding drivers. Mahmood, Rosdi and
+Muhamed [165] argue that ‘‘in measuring cost of complexity, the decision is to ﬁnd the complexity driver that
+invested more cost but does not contribute much to customer’s buying decision’’.
+3.4.1 Internal complexity drivers
+Internal complexity drivers describe the company’s complexity and can be inﬂuenced actively by the company
+itself [3, 18, 23, 29, 127–129, 200, 205, 282]. They occur
+as a result of external complexity drivers or are induced by
+the company itself [54, 95, 107, 111, 154, 217, 279].
+¨
+Gotzfried [94] argues that internal complexity is a translation of external complexity, which is induced exclusively
+by the company. Wildemann [281] separates internal
+complexity drivers in three categories: structural, informational and individual complexity drivers.
+3.4.2 External complexity drivers
+External complexity drivers are factors, which inﬂuence
+the company’s complexity directly from outside
+[3, 18, 54, 90, 111, 118, 127–129, 140, 201, 205, 281, 282].
+Bohne [26] and Klepsch [140] describe that external
+
+Page 27 of 66
+
+25
+
+complexity produces internal complexity as a reaction.
+Piller [201] deﬁnes external complexity as a ‘‘mirror picture’’ of the market’s requirements. Normally, external
+complexity drivers are constant and cannot or nearly cannot be inﬂuenced by the company itself because they are
+not induced by the company [17, 18, 29, 90, 94, 127,
+129, 154, 200, 279].
+To handle external complexity, companies typically
+respond with an unwanted increase in internal and
+accordingly non-value-adding complexity [12, 54, 59, 95,
+¨
+¨
+96, 201, 284]. Großler, Grubner and Milling [101] argue
+that external complexity drivers force the company to build
+up internal complexity.
+3.4.3 Complexity driver’s classiﬁcation system
+Managing complexity in companies requires the identiﬁcation of complexity sources. Lasch and Gießmann [155]
+describe that the complexity sources and their effects are
+various. Thus, a complete list of all sources cannot be
+speciﬁed. In the literature, more than 480 different complexity drivers were found during our research in 223 literature parts concerning complexity drivers in
+manufacturing companies and along the value chain. For a
+¨
+better understanding and overview, Schottl, Herrmann,
+Maurer and Lindemann [236] suggest that complexity
+drivers ‘‘have to be aggregated to a small, abstract and
+well-deﬁned collection’’. To increase transparency, Klagge
+and Blank [137], Wildemann [282], Lasch and Gießmann
+[155, 156] and Gießmann [88] follow this approach and
+also separate their identiﬁed complexity drivers in different
+clusters according to their origin, characteristic and inﬂuences on other drivers. The framework for the classiﬁcation
+system used in this paper is based upon existing classiﬁcation systems in the literature provided by different
+authors. To create a superior classiﬁcation system without
+overlaps between the different complexity driver categories, we analyzed and synthesized the existing systems as
+follows:
+In their research, Bliss [22, 23], Kirchhof [134],
+Hasenpusch, Moos and Schwellbach [108], Keuper [132],
+Marti [168], Mayer [170], Lasch and Gießmann [155],
+¨
+Gießmann [88], Gießmann and Lasch [90], Schomann
+¨
+[232], Gotzfried [94], Schoeneberg [233], Grimm, Schuller
+and Wilhelmer [97] and Lammers [154] cluster complexity
+drivers according to their origin into external and internal
+drivers. Furthermore, they separate the internal drivers into
+internal correlated and internal autonomous complexity
+drivers. Schubert [237] argues that external complexity
+comprises complexity drivers from a market-based view
+and internal complexity comprises drivers from a resourcebased view.
+
+
+Logist. Res. (2016) 9:25
+
+Society complexity
+External
+complexity
+
+Market complexity
+General
+market-related
+complexity
+
+Demand
+complexity
+
+Competitive
+complexity
+
+Supply
+complexity
+
+Technological
+complexity
+(external)
+
+Internal correlated complexity
+Target
+complexity
+
+Customer
+complexity
+
+Product &
+product portfolio
+complexity
+
+Technological
+complexity
+(internal)
+
+Product development
+complexity
+
+Supply process
+complexity
+
+Service
+complexity
+
+Remanufacturing
+complexity
+
+Internal
+complexity
+
+Internal autonoums complexity
+Organizational
+complexity
+
+Process
+complexity
+
+Production
+complexity
+
+Resource
+complexity
+
+Logistics
+complexity
+
+Planning, control &
+information
+complexity
+
+Sales & distribution
+complexity
+
+General
+complexity
+Fig. 7 Complexity driver’s classiﬁcation system
+
+In our study, we followed the already mentioned classiﬁcation and divide our classiﬁcation system into the two
+main categories: internal and external complexity drivers.
+Further, we also divided the internal complexity drivers
+into internal correlated and internal autonomous complexity drivers (see Fig. 7).
+In the literature, Keuper [132], Marti [168], Lasch and
+Gießmann [155], Gießmann [88], Gießmann and Lasch
+[90], Schoeneberg [233], Grimm, Schuller and Wilhelmer
+[97] and Ruppert [218] subdivide external complexity into
+society complexity and market complexity. Society complexity is determined by cultural factors (language, working
+hours, habit, working method, education), ecological factors, legal factors, standards and regulations and political
+factors. The list with all identiﬁed complexity drivers in
+this and all other categories, which will be mentioned, is
+shown in ‘‘Appendix’’ (see Table 15). Asan [6] and Serdarasan [255] use the term geopolitical complexity synonymously for society complexity. However, in the
+literature most of the authors use the term society complexity, which is the reason why we followed this
+nomenclature. In the literature, market complexity is further
+subdivided into different subcategories. Keuper [132],
+Lasch and Gießmann [155], Gießmann [88], Gießmann and
+
+123
+
+Lasch [90], Schoeneberg [233], Grimm, Schuller and
+Wilhelmer [97] assign the subcategories demand complexity, competitive complexity and supply complexity to
+¨
+this subcategory. Bliss [22, 23], Marti [168], Schomann
+[232] and Blockus [24] follow this assignment and extend
+the subcategory by adding technological complexity (external). In the literature, we found several single marketrelated complexity drivers, which cannot be assigned to the
+previously mentioned categories. Thus, we introduced a
+new category called general market-related complexity.
+As already mentioned, in our research, we divided the
+main category internal complexity into the subcategories
+internal correlated and internal autonomous complexity.
+Bliss [23], Lasch and Gießmann [155], Gießmann [88],
+¨
+Gießmann and Lasch [90], Schomann [232] and Marti
+[168] assign the following complexity driver categories to
+the subcategory internal correlated complexity: target
+complexity, customer complexity as well as product and
+product portfolio complexity. Keuper [132], Schoeneberg
+[233] and Grimm, Schuller and Wilhelmer [97] follow this
+assignment and extend the subcategory by adding technological complexity (internal). Other authors have added
+further complexity driver categories to the subcategory
+became independent categories within the subcategory
+internal correlated complexity. Bayer [11], Dehnen [59],
+Kim and Wilemon [133] and Wildemann and Voigt [289]
+add the category product development complexity, and
+Bayer [11], Blockus [24] and Nurcahya [179] add the
+category supply process complexity to the mentioned subcategory. The subcategory internal correlated complexity is
+completed by adding the categories service complexity and
+remanufacturing complexity. Service complexity is added
+¨
+by Schmidt [228], Collinson and Jay [54] and Dalhofer
+[58]. Remanufacturing complexity is added by Bayer [11],
+Haumann et al. [109], Steinhilper et al. [264], Seifert et al.
+[254] and Butzer et al. [48]. In summary, the subcategory
+internal correlated complexity comprises eight complexity
+driver categories: target complexity, customer complexity,
+product and product portfolio complexity, technological
+complexity (internal), product development complexity,
+supply process complexity, service complexity and
+remanufacturing complexity.
+In the next step, the subcategory internal autonomous
+complexity is deﬁned. Lasch and Gießmann [155],
+Gießmann [88], Gießmann and Lasch [90], Schoeneberg
+¨
+[233], Grimm, Schuller and Wilhelmer [97] and Schomann
+[232] assign the categories organizational complexity and
+process complexity to the subcategory internal autonomous
+complexity. Lasch and Gießmann [155], Gießmann [88],
+Gießmann and Lasch [90] and Schoeneberg [233] extend
+the subcategory by the category structure complexity.
+However, several authors such as Asan [6], Serdarasan
+[255], Reiß [213], Blockus [24], Wildemann and Voigt
+¨
+[289], Hoge [118], Blecker, Kersten and Meyer [21],
+Kersten et al. [129], Schubert [237], Collinson and Jay
+¨
+[54], Schuh, Gartzen and Wagner [244], Gotzfried [94],
+Ruppert [218], Schulte [249], Lindemann, Maurer and
+¨
+¨
+Braun [160] and Großler, Grubner and Milling [101]
+include structural complexity drivers in the category
+organizational complexity. To avoid overlaps in our classiﬁcation system, we also assigned structural complexity
+drivers to the category organizational complexity. Other
+important categories, which are added to the subcategory
+internal autonomous complexity, are the production complexity and planning, control and information complexity.
+In the literature, production complexity is deﬁned by Bliss
+[22, 23], Bayer [11], Mayer [170], Keuper [132],
+Gießmann and Lasch [90], Lasch and Gießmann [155],
+¨
+Schomann [232], Blockus [24], Marti [168], Klepsch [140],
+Pepels [197], Ruppert [218], Gronau and Lindemann [98],
+¨
+¨
+Westphal [280], Jager et al. [123], Gotzfried [94], Schulte
+[248] and Schmidt [228]. The category planning, control
+and information complexity is deﬁned by Keuper [132],
+Mayer [170], Gießmann and Lasch [90], Lasch and
+¨
+Gießmann [155], Schomann [232], Schoeneberg [233],
+
+Page 29 of 66
+
+25
+
+¨
+Ruppert [218], Klagge and Blank [137], Jager et al. [123],
+Gullander et al. [105], Grimm, Schuller and Wilhelmer
+[97] and Hermann [115]. Furthermore, the categories re¨
+source complexity, deﬁned by Hoge [118], Reiners and
+Sasse [210] Bohne [26], logistics complexity, deﬁned by
+Klagge and Blank [137], and sales and distribution complexity, deﬁned by Bayer [11] and Klepsch [140], are added
+to the subcategory internal autonomous complexity. In
+total, the subcategory internal autonomous complexity
+comprises seven complexity driver categories: organizational complexity, process complexity, production complexity, planning, control and information complexity,
+resource complexity, logistics complexity and sales and
+distribution complexity.
+As already mentioned, complexity drivers are separated
+according to their origin into external and internal complexity drivers. In the literature, a further superior classiﬁcation system exists. Denk and Pfneissl [62] separate the
+complexity drivers in two main groups: general complexity
+drivers (e.g., transparency, uncertainty) and precise complexity drivers (e.g., organizational complexity, process
+complexity, technological complexity). General complexity drivers are also referred to by Mayer [170], Reiß
+[212, 213], Berens and Schmitting [14], Hermann [115],
+Gronau and Lindemann [98], Kolbusa [144, 145], Schmitt,
+¨
+Vorspel-Ruter and Wienholdt [230], Kersten et al. [129],
+Blecker, Kersten and Meyer [21], Bick and Drexl-Wittbecker [16] and Waldthausen [273]. Thus, we included a
+third main complexity category called general complexity
+in our classiﬁcation system. The total classiﬁcation system
+is shown in Fig. 7.
+After deﬁning the superior complexity driver classiﬁcation system, we assigned the complexity drivers found in
+the literature to these previously deﬁned main groups and
+categories. According to the literature, we clustered the
+identiﬁed complexity drivers (more than 480) into:
+•
+•
+
+•
+
+three main groups (external complexity, internal complexity and general complexity)
+four subcategories (society complexity, market complexity, internal correlated complexity and internal
+autonomous complexity) and
+twenty-two main complexity driver categories (society,
+demand, competitive, supply, technological external,
+target, customer, product and product portfolio, technological internal, product development, supply process, service, remanufacturing, organizational, process,
+production, planning, control and information, resource, logistics, sales and distribution, and general
+complexity) depending on their origin, characteristic
+and inﬂuences on other drivers. The subcategory
+society complexity and the main group general complexity are also added to the twenty-two main
+
+
+Logist. Res. (2016) 9:25
+
+Fig. 8 Overview about complexity driver’s clustering and their occurrence in the literature
+
+complexity driver categories, because they cannot be
+further subdivided into different driver categories.
+Thus, we added the identiﬁed single complexity drivers
+directly to these two categories.
+For complexity driver’s clustering, we analyzed all
+identiﬁed drivers and summarized them according to their
+context and similarities in a superior complexity driver
+category. As already mentioned, this framework is based
+on the literature. For example, in the category ‘‘Society
+complexity’’, we identiﬁed the following seven single
+complexity drivers and aggregated them to the mentioned
+superior category: social framework, social requirements,
+social change, social behavior, cultural framework, cultural
+factors (language, working hours, habit, working method,
+education) and cultural differences. In the category
+‘‘Technological complexity (external)‘‘, we identiﬁed the
+following nine single complexity drivers, which were also
+aggregated to the mentioned superior category: technological progress, technological change, different technological standards, technological innovations, technological
+intensity, technological dynamics, new technologies and
+materials, combination of different technologies and technology integration. In the main group ‘‘general complexity’’, we aggregated all complexity drivers, which cannot
+be assigned to the other two main groups and four subcategories. In the main group ‘‘general complexity’’, we
+assigned twenty-eight single complexity drivers such as
+
+123
+
+stability, instability, perception, time, costs, quality, ﬂexibility, cost effectiveness and transparency. For the other
+complexity driver categories, we performed the clustering
+process analogously. Figure 8 presents the clustered
+twenty-two main complexity driver categories and their
+occurrence in the literature in all ﬁelds (general in manufacturing companies and along the value chain). Table 15
+in ‘‘Appendix’’ shows the different complexity drivers in
+each category and group.
+To answer the third research question, we separated the
+data from Fig. 8 into the different ﬁelds general in manufacturing companies and along the value chain. As a result
+of Table 11, some ﬁelds are inﬂuenced by more complexity
+drivers than other ﬁelds. The amount of complexity drivers
+in a system reﬂects the level of difﬁculty in managing a
+system’s complexity, because complexity drivers have a
+high inﬂuence on a system’s complexity. Complexity drivers are strictly connected with their category. For a targetoriented complexity management, it is necessary to handle
+all complexity drivers in a certain category of a speciﬁc
+system. In an overall view, it can be summarized that
+system’s complexity is inﬂuenced by the complexity driver
+categories. For example, the ﬁeld production is inﬂuenced
+by ﬁfteen complexity driver categories, while remanufacturing is inﬂuenced by seven complexity driver categories.
+Thus, the implementation of a target-oriented complexity
+information complexity
+
+General complexity
+
+Inﬂuenced by … complexity driver categories
+
+486
+
+28
+
+40
+
+39
+
+Production complexity
+
+Sales and Distribution
+complexity
+
+25
+
+Process complexity
+
+9
+
+105
+
+Organizational complexity
+
+17
+
+2
+
+Remanufacturing complexity
+
+Logistics complexity
+
+3
+
+Service complexity
+
+Resource complexity
+
+7
+
+Supply process complexity
+
+15
+
+Technological complexity
+(internal)
+8
+
+43
+
+Product and product portfolio
+complexity
+
+Product development
+complexity
+
+10
+
+7
+
+9
+
+Customer complexity
+
+Target complexity
+
+Total amount of complexity driver’s literature
+occurrence
+
+General
+
+Internal
+autonomous
+complexity
+
+Internal
+correlated
+complexity
+
+Technological complexity
+(external)
+
+19
+
+9
+
+Supply complexity
+
+7
+
+Competitive complexity
+
+General market-related
+complexity
+
+Demand complexity
+
+25
+18
+
+Society complexity
+
+External
+complexity
+
+Number of
+speciﬁc
+complexity
+drivers
+
+Complexity driver
+category [N: 22]
+
+Origin
+
+22
+
+824
+
+48
+
+18
+
+2
+
+8
+
+38
+
+39
+
+39
+
+142
+
+5
+
+4
+
+3
+
+8
+
+15
+
+133
+
+50
+
+12
+
+26
+
+31
+
+35
+
+59
+
+53
+
+56
+
+General in
+manufacturing
+companies
+
+RQ3: Fields
+
+18
+
+94
+
+1
+
+3
+
+1
+
+1
+
+4
+
+4
+
+7
+
+17
+
+0
+
+0
+
+0
+
+4
+
+7
+
+18
+
+1
+
+3
+
+4
+
+0
+
+5
+
+3
+
+5
+
+6
+
+Product
+development
+
+Value chain
+
+15
+
+36
+
+4
+
+0
+
+1
+
+0
+
+0
+
+2
+
+3
+
+7
+
+0
+
+1
+
+1
+
+0
+
+1
+
+6
+
+1
+
+1
+
+0
+
+3
+
+0
+
+2
+
+2
+
+1
+
+Procurement/
+purchasing
+
+19
+
+147
+
+2
+
+3
+
+5
+
+1
+
+10
+
+8
+
+7
+
+22
+
+0
+
+0
+
+1
+
+0
+
+4
+
+21
+
+7
+
+4
+
+3
+
+9
+
+6
+
+12
+
+10
+
+12
+
+Logistics
+
+19
+
+140
+
+8
+
+1
+
+5
+
+1
+
+6
+
+19
+
+14
+
+27
+
+0
+
+0
+
+1
+
+4
+
+2
+
+26
+
+2
+
+0
+
+1
+
+4
+
+2
+
+6
+
+5
+
+6
+
+Production
+
+Table 11 Overview of the main complexity drivers in particular ﬁelds and complexity driver’s literature occurrence
+
+20
+
+124
+
+0
+
+9
+
+3
+
+1
+
+7
+
+3
+
+6
+
+32
+
+0
+
+1
+
+1
+
+1
+
+1
+
+14
+
+8
+
+1
+
+2
+
+4
+
+6
+
+7
+
+7
+
+10
+
+Order
+processing/
+distribution/
+sale
+
+18
+
+168
+
+7
+
+4
+
+9
+
+1
+
+7
+
+11
+
+9
+
+29
+
+0
+
+0
+
+2
+
+0
+
+2
+
+27
+
+8
+
+0
+
+3
+
+11
+
+5
+
+15
+
+9
+
+9
+
+Internal
+supply
+chain
+
+9
+
+32
+
+1
+
+0
+
+0
+
+0
+
+0
+
+1
+
+0
+
+6
+
+0
+
+0
+
+0
+
+0
+
+3
+
+8
+
+2
+
+0
+
+0
+
+3
+
+4
+
+4
+
+0
+
+0
+
+Remanufacturing
+
+10
+
+23
+
+1
+
+2
+
+0
+
+0
+
+0
+
+0
+
+1
+
+2
+
+0
+
+0
+
+0
+
+1
+
+0
+
+6
+
+0
+
+0
+
+1
+
+0
+
+0
+
+4
+
+4
+
+1
+
+General
+in value
+chain
+
+72
+
+40
+
+26
+
+13
+
+72
+
+87
+
+86
+
+284
+
+5
+
+6
+
+9
+
+18
+
+35
+
+259
+
+79
+
+21
+
+40
+
+65
+
+63
+
+112
+
+95
+
+101
+
+Total
+literature
+occurrence
+in all ﬁelds
+
+Logist. Res. (2016) 9:25
+Page 31 of 66
+25
+
+
+the ﬁeld remanufacturing, because more complexity sources must be considered. As also seen in Table 11, market
+complexity, product and product portfolio complexity and
+organizational complexity are complexity driver categories
+that inﬂuence all ﬁelds in manufacturing companies. Thus,
+these categories are the most important in the company and
+must be managed ﬁrst for a target-oriented complexity
+management. Another important category which has an
+inﬂuence on many ﬁelds in the company is society complexity. This category must also be managed for a targetoriented complexity management. Furthermore, all ﬁelds
+are inﬂuenced by internal and external complexity driver
+categories. However, the different ﬁelds are mostly inﬂuenced by internal driver categories, which can be inﬂuenced actively by the company itself. When further
+investigating the different ﬁelds, it can be seen that the
+ﬁelds general in manufacturing companies, logistics, production, order processing/distribution/sale and internal
+supply chain are mostly inﬂuenced by internal autonomous
+complexity driver categories. Internal autonomous complexity driver categories are not inﬂuenced by external
+factors and are determined by the company itself. In contrast, the ﬁeld remanufacturing is inﬂuenced mostly by
+internal correlated complexity driver categories. The
+internal correlated complexity driver categories have a
+direct correlation to company’s environment (e.g., market
+and society) and are inﬂuenced by it. The ﬁelds product
+development, procurement/purchasing and general in value
+chain are inﬂuenced almost to the same extend by internal
+correlated as well as internal autonomous complexity driver categories.
+In the next step, we tried to identify the main complexity
+driver categories in the referred ﬁelds. In the literature, the
+following approaches are applied to identify the most
+important factors among many factors: factor analysis
+[9, 41], factor screening [139], DoE—design of experiments [259] and Pareto-analysis [135].
+The factor analysis is a statistical method and used for
+data reduction in an empirical research or experiments. The
+aim is to get a small set of variables from a large set of
+variables to identify the most important factors [9, 41].
+Kleijnen [139] uses the factor screening method in simulation experiments to identify the most important factors:
+‘‘Factor screening […] means that the analysts are
+searching for the most important factors among the many
+factors that can be varied in their experiment’’ [139]. For
+screening, Kleijnen [139] uses different screening designs
+to treat the simulation model as a black box. Another
+method to identify variables, which have the most inﬂuence
+on other variables or parameters in an experiment, is the
+design of experiments (DoE). The DoE is normally used
+for the development and optimization of products and
+processes [259]. Another approach for identiﬁcation and
+
+123
+
+Logist. Res. (2016) 9:25
+
+separation of the most important factors among many
+factors is the Pareto-analysis. The Pareto-principle
+describes that 80% of the effects come from 20% of the
+causes [135]. All of the mentioned principles can be used
+to identify the most important factors, variables or inputs.
+However, none of these approaches were applicable to
+identify the main complexity driver categories in our
+opinion. The approaches factor analysis, factor screening
+and design of experiments are based on experiments,
+whereas the Pareto-principle can be used more generally
+without experiments. The Pareto-principle is based on
+effects and causes. Transferred to our research, the cause
+would be the number of a complexity driver’s categories
+appearance in the literature and the effect would be the
+importance of the speciﬁc category. Since it would be
+¨
+naıve to derive the importance of a speciﬁc complexity
+driver’s category from its number of appearances in the
+literature, this principle also wasn’t applicable. Further
+research is necessary to identify an approach for analyzing
+and identifying important complexity driver categories.
+
+4 Conclusion and outlook
+Before starting our research, we reviewed the literature and
+searched for existing literature studies about complexity
+drivers and gaps in the literature. As a result of our literature search, we identiﬁed four literature studies about
+complexity drivers, which have been done by Meyer [174],
+Serdarasan [255, 256] and Wildemann and Voigt [289].
+After identiﬁcation, the previous literature studies were
+analyzed and evaluated based on the following eleven
+criteria (see also Table 4): type of literature study, focus;
+research period; amount of identiﬁed literature sources,
+complexity driver’s deﬁnition, described complexity drivers and complexity driver’s categories; determination of
+research questions, databases, search terms and synthesizing methods; and comparison of literature ﬁndings’ with
+other literature sources or empirical research data.
+The existing studies comprise several literature sources
+in the period between 1991 and 2011. However, a systematic, explicit and reproducible method for literature’s
+identiﬁcation, evaluation and synthesizing is not described.
+To describe the current state of knowledge in a particular
+ﬁeld of research, it is essential to determine the research
+questions, databases, search terms, the synthesizing methods and to compare the ﬁndings with other literature
+sources. Only Wildemann and Voigt [289] and Serdarasan
+[256] compare their ﬁndings with the ﬁndings of other
+literature sources. Another important criteria for the scientiﬁc research are the speciﬁcation of the different literature sources about complexity drivers, the trends in the
+the previous literature studies. Furthermore, only the ﬁelds
+logistics, supply chain and general in manufacturing
+companies are described. In the literature, an overview
+regarding complexity drivers general in manufacturing
+companies and in all parts along the value chain does not
+exist so far. Another deﬁcit in the existing studies is that
+they present only one deﬁnition of complexity drivers. In
+our opinion, different deﬁnitions of complexity drivers
+should be analyzed, compared and discussed to identify all
+characteristics of complexity drivers. In the already mentioned studies, no approaches for identiﬁcation and operationalization are described. Only one method for
+complexity driver’s visualization is described by Wildemann and Voigt [289]. For the researcher, it is important to
+know that a complexity driver is and what approaches can
+be applied for complexity driver’s identiﬁcation, operationalization and visualization. Our purpose is to provide
+an overview about different deﬁnitions and methods for
+complexity driver’s identiﬁcation, operationalization and
+visualization for closing these research gaps. In addition,
+we develop a new overall deﬁnition of complexity drivers
+to summarize all characteristics.
+To provide this literature review and to fulﬁll the all
+requirements, we used the methodology of Fink [78]. The
+research method is described in Sect. 2. First, we started
+our research process by deﬁning our research questions,
+which guide the literature review. The search term was
+deﬁned by ﬁnding the lowest common denominator of the
+many different paraphrases of the term complexity driver
+that exist in the literature. Then, we deﬁned our databases.
+For our research, we deﬁned our search terms in English
+and German to extend the results and to prevent the
+elimination of important articles. The literature search was
+performed in eight English and German databases and
+resulted in 11.425 literature sources. For analyzing and
+synthesizing the literature, we followed the approach of the
+qualitative content analysis. The synthesizing process
+ﬁnally resulted in 235 relevant papers in the time period
+between 1991 and 2015. Before 1991, no relevant literature
+sources according to the issue complexity drivers were
+found in our research. The reasons could be attributed to
+complexity management’s evolution over the last 25 years
+and the principal deﬁnition and understanding of the term
+‘‘complexity driver’’. Analyzing the overall trend of the
+literature regarding complexity drivers in manufacturing
+companies and along the value chain shows an increased
+interest throughout the last 10 years (see Fig. 5). Seventyfour percent of all publications were published between
+2004 and 2015. More than 50% of all the publications
+about complexity drivers were published in journals and
+PhD theses. Thus, complexity drivers have a high importance in scientiﬁc research. In our research, we found out
+
+Page 33 of 66
+
+25
+
+that 212 papers described speciﬁc complexity drivers in
+manufacturing companies and along the value chain. After
+analyzing and synthesizing these papers, we identiﬁed 223
+different literature parts concerned with complexity drivers
+in the two categories manufacturing companies (108 parts)
+and along the value chain (115 parts). Eleven papers
+describe both parts. The trends of the two categories during
+the last 25 years show that there is an increasing interest in
+complexity drivers along the value chain in scientiﬁc literature in the last 10 years (see Fig. 6). However, the most
+publications general in manufacturing companies were
+published between the years 1998 and 2010. Comparing
+these trends shows that complexity drivers are now
+described more in detail regarding different parts along the
+value chain. This indicates that complexity drivers gain
+more and more importance for scientiﬁc research. In the
+next step, the data from the category complexity drivers
+along the value chain were separated in the following eight
+different ﬁelds and analyzed: product development (PD),
+procurement/purchasing (PC), logistics (L), production
+(PR), order processing/distribution/sale (OPD), internal
+supply chain (SC), remanufacturing (R) and general in
+value chain (VC). The analysis shows that the amount of
+publications about complexity drivers in all eight different
+ﬁelds has increased over the last 10 years.
+This paper describes a variety of deﬁnitions and methods for identiﬁcation, operationalization and visualization
+of complexity drivers. Within the last decades, complexity
+has increased continuously in many industries, caused by
+internal and external sources named complexity drivers.
+Identifying, analyzing and understanding complexity drivers are the ﬁrst steps in developing and implementing a
+clear strategy to handle complexity in the company. For an
+effective complexity management, it is necessary to know
+the key drivers of complexity in a system, because they are
+the main adjusting levers for company’s success. Furthermore, managing a system’s complexity requires an optimum ﬁt between internal and external complexity. Thus,
+complexity drivers play a signiﬁcant role for complexity
+management and are a strategic issue for companies to be
+competitive.
+For this literature review, we determined three research
+questions, which were answered as follows. Before identiﬁcation, it is necessary to understand what a complexity
+driver is [144, 174]. To answer the ﬁrst research question, the
+identiﬁed literature was analyzed and synthesized. The
+researched literature contains several different deﬁnitions of
+complexity drivers, deﬁned by thirty-six authors. Based on
+their content, the deﬁnitions can be assigned to ﬁve main
+categories: factors, indicators, sources, parameters/variables
+and symptoms/phenomenon. As a result, there is no universal
+understanding of the term ‘‘complexity driver‘‘, but the
+identiﬁed deﬁnitions tend toward similar deﬁnitions. To
+
+
+generate a general deﬁnition of complexity drivers, we
+analyzed the existing deﬁnitions by identifying their hypernyms and differentia. Several different hypernyms for the
+genus term complexity driver exist in the literature, but we
+came to the conclusion that only the term factor covers the
+general understanding of a complexity driver in total. Then,
+the existing differentia found in the literature were clustered
+into ﬁve groups based on their differences and commonalities. Based on the ﬁve groups of differentia and in combination with the hypernym term factor, we generated a more
+general deﬁnition of complexity driver.
+A speciﬁc and target-oriented complexity management is
+based on identiﬁcation, visualization and operationalization
+of system’s complexity drivers. In the literature, several
+different methods for identiﬁcation, operationalization and
+visualization of complexity drivers are applied (see
+Tables 9, 10). Based on this literature review and to answer
+the second research question, twenty-one different approaches were identiﬁed in the literature for complexity driver’s
+identiﬁcation, which were focused on different ﬁelds. The
+most applied approaches are expert interviews, process
+analysis and system analysis. We didn’t conduct an evaluation of all existing approaches regarding their practical uses.
+Our purpose was to reﬂect the different approaches found in
+the literature. We identiﬁed eight different approaches for
+operationalization and visualization of complexity drivers in
+the existing literature. However, a clear assignment of the
+different approaches to operationalize and visualize complexity drivers wasn’t possible in all cases. As a result, the
+most applied approach in both areas is the classiﬁcation and
+driver matrixes. Further research to eliminate this lack of
+deﬁnition is needed as well as an evaluation of the existing
+approaches’ practical application.
+Complexity drivers have a direct inﬂuence on the
+company and the value chain. Complexity drivers can be
+separated in internal and external drivers, depending on
+their origin. Internal complexity drivers can also be differentiated in correlated and autonomous complexity drivers. In the literature, more than 486 different internal and
+external complexity drivers were found during our research
+in 223 literature parts concerning complexity drivers in
+manufacturing companies and along the value chain. For
+clustering the 486 complexity drivers, we developed a
+superior classiﬁcation system without overlaps between the
+different complexity driver categories based upon existing
+classiﬁcation systems in the literature, provided by different authors. In summary, our new classiﬁcation system
+consists of three main groups (external complexity, internal
+complexity and general complexity), four subcategories
+(society complexity, market complexity, internal correlated
+complexity and internal autonomous complexity) and
+twenty-two main complexity driver categories depending
+on their origin, characteristic and inﬂuences on other
+
+123
+
+Logist. Res. (2016) 9:25
+
+drivers (see Fig. 7). The identiﬁed 486 complexity drivers
+were clustered into these complexity driver categories and
+groups. The assignment to the different categories and
+groups was done depending on the complexity driver’s
+origin, characteristic and inﬂuences on other drivers. Figure 8 presents an overview about the complexity driver
+categories and their occurrence in the literature. The third
+research question was answered by means of analyzing the
+identiﬁed literature and synthesizing the complexity driver
+categories in the referred ﬁelds (see Table 11). The basis
+for synthesizing the categories is shown in Fig. 8.
+In summary, our new literature review covers complexity drivers in manufacturing companies and along the
+value chain over a period of 25 years (1991–2015). It
+fulﬁlls all requirements in total (see Table 12) and closes
+the gap in the literature.
+In total, 235 literature sources are identiﬁed and more
+than 486 complexity drivers are described and clustered in
+39 categories. The research method, including the research
+questions, databases, search terms and synthesizing methods, and the results and the trends of complexity drivers in
+the literature and in the different ﬁelds over the last
+25 years are also described. We compare our results with
+the ﬁndings of previously published literature. Gaps for
+future research are pointed out.
+Furthermore, a new deﬁnition of the term ‘‘complexity
+driver’’ is speciﬁed, based on the existing deﬁnitions by
+identifying a general hypernym and clustering existing
+differentia. Different methods that are applied in the literature for complexity driver’s identiﬁcation, evaluation and
+visualization are described and give the reader a general
+overview. A new classiﬁcation system was developed, and
+the complexity driver categories and their complexity drivers general in manufacturing companies and along the
+value chain are pointed out (see Appendix Table 15).
+The review was focused only on the manufacturing
+industry. Future research may also include other sectors or
+industries such as ﬁnancing and/or insurance. It would also
+be interesting to compare the research results from other
+sectors with the results of this paper. In addition, the
+ﬁndings of this paper should be evaluated regarding their
+impact and relevance on practice by an empirical research
+analogously to the empirical research done by Wildemann
+and Voigt [289]. Further, the different approaches for
+complexity driver’s identiﬁcation, operationalization and
+visualization should be evaluated by the practice within an
+empirical research according to the following three categories: amount of work, data volume and level of difﬁculty.
+Also, the different approaches should be evaluated
+regarding their speciﬁc ﬁelds of application. This information could encourage the user to ﬁnd the right approach
+for his speciﬁc ﬁeld of interest. Further research may also
+
+25
+
+Table 12 Evaluation of our new literature review about complexity drivers in comparison with existing literature studies
+Author(s)
+
+Meyer [174]
+
+Serdarasan
+[255]
+
+Wildemann
+and Voigt [289]
+
+Serdarasan
+[256]
+
+New literature
+review
+
+Type of literature study
+
+Overview
+
+Review
+
+Overview
+
+Review
+
+Review
+
+Focus
+General in manufacturing companies
+
+•
+
+•
+
+•
+•
+
+Product development
+
+•
+
+Procurement/purchasing
+Logistics
+
+•
+
+•
+•
+•
+
+Production
+Order processing/distribution/sale
+•
+
+Internal supply chain
+
+•
+
+•
+
+Remanufacturing
+
+•
+
+General in value chain
+
+•
+
+Research period
+
+1992–2004
+
+1998–2011
+
+1991–2010
+
+1992–2011
+
+1991–2015
+
+Identiﬁed literature sources
+
+19
+
+25
+
+17
+
+38
+
+235
+
+Complexity driver’s deﬁnitions
+
+1
+
+1
+
+1
+
+1
+
+18 ? 1
+
+Described complexity drivers
+
+127
+
+27
+
+95
+
+32
+
+486
+
+Complexity driver categories
+
+14
+
+3
+
+11
+
+9
+
+22
+
+Literature review’s results: amount of…
+
+Determination of … by the author(s)
+Research questions
+
+–
+
+–
+
+–
+
+–
+
+??
+
+Databases
+
+–
+
+–
+
+–
+
+–
+
+??
+
+Search terms
+
+–
+
+–
+
+–
+
+–
+
+??
+
+–
+
+–
+
+–
+
+–
+
+??
+
+Synthesizing methods
+Literature ﬁndings’ comparison with…
+Other literature sources
+
+–
+
+–
+
+??
+
+??
+
+??
+
+Empirical research data
+
+–
+
+–
+
+??
+
+–
+
+Future research
+
+Evaluation criteria: fulﬁlled (??), precise research questions, databases, search terms and synthesizing methods, are described. The literature
+ﬁndings are compared with other literature sources or empirical research data; not fulﬁlled (-), precise research questions, databases, search
+terms and synthesizing methods are not described. The literature ﬁndings are not compared with other literature sources or empirical research
+data
+
+most important complexity driver’s categories. As already
+mentioned, further research will be needed to create helpful
+advice for practitioners to detect complexity issues and to
+present methodological support to detect complexity causes and their effects.
+Acknowledgements The authors would like to thank Professor
+Herbert Kotzab, the associate editor, and the anonymous reviewers for
+their detailed and constructive comments that signiﬁcantly improved
+this study.
+Compliance with ethical standards
+
+Open Access This article is distributed under the terms of the
+Creative Commons Attribution 4.0 International License (http://crea
+tivecommons.org/licenses/by/4.0/), which permits unrestricted use,
+distribution, and reproduction in any medium, provided you give
+appropriate credit to the original author(s) and the source, provide a
+link to the Creative Commons license, and indicate if changes were
+made.
+
+Appendix
+See Tables 13, 14 and 15.
+
+Conﬂict of interest The authors declare that they have no conﬂict of
+interest.
+
+Focus
+
+General in manufacturing companies
+
+Product development
+
+Table 13 Framework and results of literature collection during the period January 01, 1900–December 31, 2015
+
+‘‘complexity driver’’ OR ‘‘driver of complexity’’
+¨
+¨
+‘‘Komplexitatstreiber’’ OR (Treiber ndj3 Komplexitat)
+‘‘complexity driver*’’ OR (driver* ndj3 complexity)
+¨
+¨
+‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’
+‘‘complexity driver*’’ OR ‘‘driver* of complexity’’
+¨
+¨
+‘‘Komplexitatstreiber’’ OR (Treiber NEAR/3 Komplexitat)
+
+Emerald
+GENIOS/WISO
+Google Scholar
+IEEE Xplore
+
+0
+
+424
+3610
+
+16/05/23
+16/05/23
+Total
+
+Complexity NEAR/3 driver*
+
+SpringerLink
+
+16/05/23
+
+16/04/06
+
+16/05/06
+16/05/06
+16/06/06
+16/06/06
+
+16/06/06
+16/06/06
+
+(‘‘complexity driver’’ OR ‘‘driver of complexity’’) AND ‘‘product development’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (Treiber ndj3 Komplexitat)) AND ‘‘Produktentwicklung’’
+(‘‘complexity driver*’’ OR (driver* ndj3 complexity)) AND ‘‘product development’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’) AND ‘‘Produktentwicklung’’
+(‘‘complexity driver*’’ OR ‘‘driver* of complexity’’) AND ‘‘product development’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (Treiber NEAR/3 Komplexitat)) AND Produktentwicklung
+(complexity NEAR/3 driver) AND (product development)
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (‘‘Treiber Komplexitat’’*5)) AND ‘‘Produktentwicklung’’
+(‘‘complexity driver’’ OR (‘‘driver complexity’’*5)) AND ‘‘product development’’
+¨
+¨
+(‘‘Komplexitatstreiber*’’ OR (Treiber W/3 Komplexitat)) AND Produktentwicklung
+(complexity W/3 driver*) AND product development
+¨
+¨
+(Komplexitatstreiber OR (Treiber NEAR/3 Komplexitat)) AND Produktentwicklung
+(Complexity NEAR/3 driver*) AND ‘‘product development’’
+
+Emerald
+GENIOS/WISO
+Google Scholar
+IEEE Xplore
+JSTOR
+ScienceDirect
+SpringerLink
+
+Total
+
+16/06/06
+
+16/06/06
+
+16/05/06
+
+16/05/06
+
+16/04/06
+
+16/04/06
+
+16/04/06
+
+16/04/06
+
+16/04/06
+
+¨
+¨
+(‘Komplexitatstreiber’ OR (Treiber N3 Komplexitat)) AND ‘Produktentwicklung’
+(‘complexity driver*’ OR (driver* N3 complexity)) AND ‘product development’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’) AND ‘‘Produktentwicklung’’
+
+EBSCOhost
+
+16/05/23
+
+911
+
+75
+
+100
+
+206
+
+0
+
+4
+
+229
+0
+
+0
+
+77
+
+167
+
+5
+
+42
+
+2
+
+0
+
+4
+
+0
+
+294
+
+540
+
+0
+
+0
+11
+
+complexity W/3 driver*
+¨
+¨
+Komplexitatstreiber OR (Treiber NEAR/3 Komplexitat)
+
+16/05/23
+16/05/23
+
+887
+
+0
+
+261
+
+507
+
+38
+
+290
+
+12
+
+ScienceDirect
+
+JSTOR
+
+16/05/22
+
+0
+346
+
+complexity NEAR/3 driver
+¨
+¨
+‘‘Komplexitatstreiber’’ OR (‘‘Treiber Komplexitat’’*5)
+‘‘complexity driver’’ OR (‘‘driver complexity’’*5)
+¨
+¨
+‘‘Komplexitatstreiber*’’ OR (Treiber W/3 Komplexitat)
+
+16/05/22
+
+16/05/22
+
+16/05/22
+
+16/05/22
+
+16/05/22
+
+16/05/20
+
+16/05/20
+
+16/05/20
+16/05/20
+
+¨
+¨
+‘Komplexitatstreiber’ OR (Treiber N3 Komplexitat)
+‘complexity driver*’ OR (driver* N3 complexity)
+¨
+¨
+‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’
+
+EBSCOhost
+
+Search terms
+
+Results
+
+Page 36 of 66
+
+Date
+
+25
+
+117
+968
+
+16/05/06
+16/05/06
+16/05/06
+16/05/06
+
+16/06/06
+16/06/06
+Total
+
+(‘‘complexity driver’’ OR ‘‘driver of complexity’’) AND (‘‘procurement’’ OR ‘‘purchasing’’)
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (Treiber ndj3 Komplexitat)) AND (‘‘Beschaffung’’ OR ‘‘Einkauf’’)
+(‘‘complexity driver*’’ OR (driver* ndj3 complexity)) AND (‘‘procurement’’ OR ‘‘purchasing’’)
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’) AND (‘‘Beschaffung’’ OR ‘‘Einkauf’’)
+(‘‘complexity driver*’’ OR ‘‘driver* of complexity’’) AND (‘‘procurement’’ OR ‘‘purchasing’’)
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (Treiber NEAR/3 Komplexitat)) AND (Beschaffung OR Einkauf)
+(complexity NEAR/3 driver) AND (procurement OR purchasing)
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (‘‘Treiber Komplexitat’’*5)) AND (‘‘Beschaffung’’ OR ‘‘Einkauf’’)
+(‘‘complexity driver’’ OR (‘‘driver complexity’’*5)) AND (‘‘procurement’’ OR ‘‘purchasing’’)
+¨
+¨
+(‘‘Komplexitatstreiber*’’ OR (Treiber W/3 Komplexitat)) AND (Beschaffung OR Einkauf)
+(complexity W/3 driver*) AND (procurement OR purchasing)
+¨
+¨
+(Komplexitatstreiber OR (Treiber NEAR/3 Komplexitat)) AND (Beschaffung OR Einkauf)
+(Complexity NEAR/3 driver*) AND (procurement OR purchasing)
+
+GENIOS/WISO
+Google Scholar
+IEEE Xplore
+JSTOR
+ScienceDirect
+SpringerLink
+
+16/04/06
+
+16/04/06
+16/04/06
+16/05/06
+16/05/06
+
+16/06/06
+16/06/06
+
+(‘‘complexity driver’’ OR ‘‘driver of complexity’’) AND ‘‘logistics’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (Treiber ndj3 Komplexitat)) AND ‘‘Logistik’’
+(‘‘complexity driver*’’ OR (driver* ndj3 complexity)) AND ‘‘logistics’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’) AND ‘‘Logistik’’
+(‘‘complexity driver*’’ OR ‘‘driver* of complexity’’) AND ‘‘logistics’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (Treiber NEAR/3 Komplexitat)) AND (Logistik)
+(complexity NEAR/3 driver) AND (logistics)
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (‘‘Treiber Komplexitat’’*5)) AND ‘‘Logistik’’
+(‘‘complexity driver’’ OR (‘‘driver complexity’’*5)) AND ‘‘logistics’’
+¨
+¨
+(‘‘Komplexitatstreiber*’’ OR (Treiber W/3 Komplexitat)) AND Logistik
+(complexity W/3 driver*) AND logistics
+¨
+¨
+(Komplexitatstreiber OR (Treiber NEAR/3 Komplexitat)) AND Logistik
+(Complexity NEAR/3 driver*) AND logistics
+
+Emerald
+GENIOS/WISO
+Google Scholar
+IEEE Xplore
+JSTOR
+ScienceDirect
+SpringerLink
+
+Total
+
+16/06/06
+
+16/06/06
+
+16/06/06
+
+16/06/06
+
+16/05/06
+
+16/05/06
+
+16/04/06
+
+16/04/06
+
+16/04/06
+
+¨
+¨
+(‘Komplexitatstreiber’ OR (Treiber N3 Komplexitat)) AND ‘Logistik’
+(‘complexity driver*’ OR (driver* N3 complexity)) AND ‘logistics’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’) AND ‘‘Logistik’’
+
+EBSCOhost
+
+16/06/06
+
+16/06/06
+
+16/06/06
+
+16/06/06
+
+16/04/06
+
+16/04/06
+
+16/04/06
+
+16/04/06
+
+Emerald
+
+0
+
+837
+
+98
+
+143
+
+73
+
+0
+
+3
+
+2
+
+45
+
+0
+
+81
+
+8
+260
+
+110
+
+6
+
+0
+
+8
+
+0
+
+169
+
+108
+
+0
+
+11
+
+1
+
+54
+
+75
+0
+
+314
+
+13
+
+98
+
+3
+
+0
+
+5
+
+16/04/06
+16/04/06
+
+¨
+¨
+(‘Komplexitatstreiber’ OR (Treiber N3 Komplexitat)) AND (‘Beschaffung’ OR ‘Einkauf’)
+
+Results
+
+(‘complexity driver*’ OR (driver* N3 complexity)) AND (‘procurement’ OR ‘purchasing’)
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’) AND (‘‘Beschaffung’’ OR ‘‘Einkauf’’)
+
+Procurement/Purchasing
+
+Date
+
+Search terms
+
+EBSCOhost
+
+Focus
+
+Table 13 continued
+
+Logist. Res. (2016) 9:25
+Page 37 of 66
+25
+
+
+Order Processing
+
+Focus
+
+245
+1501
+
+16/05/06
+16/05/06
+16/05/06
+16/05/06
+
+16/06/06
+16/06/06
+Total
+
+(‘‘complexity driver’’ OR ‘‘driver of complexity’’) AND ‘‘production’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (Treiber ndj3 Komplexitat)) AND ‘‘Produktion’’
+(‘‘complexity driver*’’ OR (driver* ndj3 complexity)) AND ‘‘production’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’) AND ‘‘Produktion’’
+(‘‘complexity driver*’’ OR ‘‘driver* of complexity’’) AND ‘‘production’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (Treiber NEAR/3 Komplexitat)) AND (Produktion)
+(complexity NEAR/3 driver) AND (production)
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (‘‘Treiber Komplexitat’’*5)) AND ‘‘Produktion’’
+(‘‘complexity driver’’ OR (‘‘driver complexity’’*5)) AND ‘‘production’’
+¨
+¨
+(‘‘Komplexitatstreiber*’’ OR (Treiber W/3 Komplexitat)) AND Produktion
+(complexity W/3 driver*) AND production
+¨
+¨
+(Komplexitatstreiber OR (Treiber NEAR/3 Komplexitat)) AND Produktion
+(Complexity NEAR/3 driver*) AND production
+
+GENIOS/WISO
+Google Scholar
+IEEE Xplore
+JSTOR
+ScienceDirect
+SpringerLink
+
+16/04/06
+
+16/04/06
+16/04/06
+16/05/06
+16/05/06
+
+16/06/06
+16/06/06
+
+(‘complexity driver*’ OR (driver* N3 complexity)) AND ‘order processing’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’) AND Auftrags*
+(‘‘complexity driver’’ OR ‘‘driver of complexity’’) AND ‘‘order processing’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (Treiber ndj3 Komplexitat)) AND Auftrags*
+(‘‘complexity driver*’’ OR (driver* ndj3 complexity)) AND ‘‘order processing’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’) AND Auftrags*
+(‘‘complexity driver*’’ OR ‘‘driver* of complexity’’) AND ‘‘order processing’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (Treiber NEAR/3 Komplexitat)) AND (Auftrags*)
+(complexity NEAR/3 driver) AND (order processing)
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (‘‘Treiber Komplexitat’’*5)) AND Auftrags*
+(‘‘complexity driver’’ OR (‘‘driver complexity’’*5)) AND ‘‘order processing’’
+¨
+¨
+(‘‘Komplexitatstreiber*’’ OR (Treiber W/3 Komplexitat)) AND Auftrags*
+(complexity W/3 driver*) AND order processing
+¨
+¨
+(Komplexitatstreiber OR (Treiber NEAR/3 Komplexitat)) AND Auftrags*
+(Complexity NEAR/3 driver*) AND ‘‘order processing’’
+
+Emerald
+GENIOS/WISO
+Google Scholar
+IEEE Xplore
+JSTOR
+ScienceDirect
+SpringerLink
+
+Total
+
+16/06/06
+
+16/06/06
+
+16/06/06
+
+16/06/06
+
+16/05/06
+
+16/05/06
+
+16/04/06
+
+16/04/06
+
+16/04/06
+
+¨
+¨
+(‘Komplexitatstreiber’ OR (Treiber N3 Komplexitat)) AND Auftrags*
+
+EBSCOhost
+
+16/06/06
+
+16/06/06
+
+16/06/06
+
+16/06/06
+
+16/04/06
+
+16/04/06
+
+16/04/06
+
+16/04/06
+
+Emerald
+
+0
+
+16/04/06
+
+1257
+
+16
+
+146
+
+298
+
+0
+
+0
+
+3
+
+480
+
+0
+
+14
+
+0
+223
+
+75
+
+1
+
+0
+
+1
+
+0
+
+198
+
+176
+
+0
+
+46
+
+1
+
+161
+
+156
+0
+
+379
+
+0
+
+118
+
+7
+
+0
+
+14
+
+16/04/06
+
+¨
+¨
+(‘Komplexitatstreiber’ OR (Treiber N3 Komplexitat)) AND ‘Produktion’
+(‘complexity driver*’ OR (driver* N3 complexity)) AND ‘production’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’) AND ‘‘Produktion’’
+
+EBSCOhost
+
+Results
+
+Database
+
+Table 13 continued
+Date
+
+Page 38 of 66
+
+Search terms
+
+25
+
+306
+1619
+
+16/05/06
+16/05/06
+16/05/06
+16/05/06
+
+16/06/06
+16/06/06
+Total
+
+(‘‘complexity driver’’ OR ‘‘driver of complexity’’) AND (‘‘distribution’’ OR ‘‘sale’’)
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (Treiber ndj3 Komplexitat)) AND (‘‘Vertrieb’’ OR ‘‘Verkauf’’)
+(‘‘complexity driver*’’ OR (driver* ndj3 complexity)) AND (‘‘distribution’’ OR ‘‘sale’’)
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’) AND (‘‘Vertrieb’’ OR ‘‘Verkauf’’)
+(‘‘complexity driver*’’ OR ‘‘driver* of complexity’’) AND (‘‘distribution’’ OR ‘‘sale’’)
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (Treiber NEAR/3 Komplexitat)) AND (Vertrieb OR Verkauf)
+(complexity NEAR/3 driver) AND (distribution OR sale)
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (‘‘Treiber Komplexitat’’*5)) AND (‘‘Vertrieb’’ OR ‘‘Verkauf’’)
+(‘‘complexity driver’’ OR (‘‘driver complexity’’*5)) AND (‘‘distribution’’ OR ‘‘sale’’)
+¨
+¨
+(‘‘Komplexitatstreiber*’’ OR (Treiber W/3 Komplexitat)) AND (Vertrieb OR Verkauf)
+(complexity W/3 driver*) AND (distribution OR sale)
+¨
+¨
+(Komplexitatstreiber OR (Treiber NEAR/3 Komplexitat)) AND (Vertrieb OR Verkauf)
+(Complexity NEAR/3 driver*) AND (distribution OR sale)
+
+GENIOS/WISO
+Google Scholar
+IEEE Xplore
+JSTOR
+ScienceDirect
+SpringerLink
+
+16/04/06
+
+16/04/06
+16/04/06
+16/05/06
+16/05/06
+
+16/06/06
+16/06/06
+
+(‘complexity driver*’ OR (driver* N3 complexity)) AND ‘supply chain’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’) AND ‘‘Supply Chain’’
+(‘‘complexity driver’’ OR ‘‘driver of complexity’’) AND ‘‘supply chain’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (Treiber ndj3 Komplexitat)) AND ‘‘Supply Chain’’
+(‘‘complexity driver*’’ OR (driver* ndj3 complexity)) AND ‘‘supply chain’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’) AND ‘‘Supply Chain’’
+(‘‘complexity driver*’’ OR ‘‘driver* of complexity’’) AND ‘‘supply chain’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (Treiber NEAR/3 Komplexitat)) AND (Supply Chain)
+(complexity NEAR/3 driver) AND (supply chain)
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (‘‘Treiber Komplexitat’’*5)) AND ‘‘Supply Chain’’
+(‘‘complexity driver’’ OR (‘‘driver complexity’’*5)) AND ‘‘supply chain’’
+¨
+¨
+(‘‘Komplexitatstreiber*’’ OR (Treiber W/3 Komplexitat)) AND Supply Chain
+(complexity W/3 driver*) AND supply chain
+¨
+¨
+(Komplexitatstreiber OR (Treiber NEAR/3 Komplexitat)) AND ‘‘Supply Chain’’
+(Complexity NEAR/3 driver*) AND ‘‘supply chain’’
+
+Emerald
+GENIOS/WISO
+Google Scholar
+IEEE Xplore
+JSTOR
+ScienceDirect
+SpringerLink
+
+Total
+
+16/06/06
+
+16/06/06
+
+16/06/06
+
+16/06/06
+
+16/05/06
+
+16/05/06
+
+16/04/06
+
+16/04/06
+
+16/04/06
+
+¨
+¨
+(‘Komplexitatstreiber’ OR (Treiber N3 Komplexitat)) AND ‘Supply Chain’
+
+EBSCOhost
+
+16/06/06
+
+16/06/06
+
+16/06/06
+
+16/06/06
+
+16/04/06
+
+16/04/06
+
+16/04/06
+
+16/04/06
+
+Emerald
+
+0
+
+702
+
+97
+
+81
+
+96
+
+0
+
+3
+
+1
+
+64
+
+0
+
+87
+
+8
+170
+
+79
+
+7
+
+0
+
+9
+
+0
+
+152
+
+225
+
+0
+
+58
+
+2
+
+282
+
+163
+0
+
+296
+
+14
+
+101
+
+6
+
+0
+
+14
+
+16/04/06
+16/04/06
+
+¨
+¨
+(‘Komplexitatstreiber’ OR (Treiber N3 Komplexitat)) AND (‘Vertrieb’ OR ‘Verkauf’)
+
+Results
+
+(‘complexity driver*’ OR (driver* N3 complexity)) AND (‘distribution’ OR ‘sale’)
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’) AND (‘‘Vertrieb’’ OR ‘‘Verkauf’’)
+
+Distribution/Sale
+
+Date
+
+Search terms
+
+EBSCOhost
+
+Focus
+
+Table 13 continued
+
+Logist. Res. (2016) 9:25
+Page 39 of 66
+25
+
+
+123
+16/04/06
+
+16/05/06
+16/05/06
+16/05/06
+16/05/06
+
+16/06/06
+16/06/06
+
+(‘‘complexity driver’’ OR ‘‘driver of complexity’’) AND ‘‘remanufacturing’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (Treiber ndj3 Komplexitat)) AND ‘‘Refabrikation’’
+(‘‘complexity driver*’’ OR (driver* ndj3 complexity)) AND ‘‘remanufacturing’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’) AND ‘‘Refabrikation’’
+(‘‘complexity driver*’’ OR ‘‘driver* of complexity’’) AND ‘‘remanufacturing’’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (Treiber NEAR/3 Komplexitat)) AND (Refabrikation)
+(complexity NEAR/3 driver) AND (remanufacturing)
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR (‘‘Treiber Komplexitat’’*5)) AND ‘‘Refabrikation’’
+(‘‘complexity driver’’ OR (‘‘driver complexity’’*5)) AND ‘‘remanufacturing’’
+¨
+¨
+(‘‘Komplexitatstreiber*’’ OR (Treiber W/3 Komplexitat)) AND Refabrikation
+(complexity W/3 driver*) AND remanufacturing
+¨
+¨
+(Komplexitatstreiber OR (Treiber NEAR/3 Komplexitat)) AND ‘‘Refabrikation’’
+(Complexity NEAR/3 driver*) AND ‘‘remanufacturing’’
+
+Emerald
+GENIOS/WISO
+Google Scholar
+IEEE Xplore
+JSTOR
+ScienceDirect
+SpringerLink
+
+Total
+
+16/06/06
+
+16/06/06
+
+16/06/06
+
+16/06/06
+
+16/04/06
+
+16/04/06
+
+16/04/06
+
+16/04/06
+
+16/04/06
+
+¨
+¨
+(‘Komplexitatstreiber’ OR (Treiber N3 Komplexitat)) AND ‘Refabrikation’
+(‘complexity driver*’ OR (driver* N3 complexity)) AND ‘remanufacturing’
+¨
+¨
+(‘‘Komplexitatstreiber’’ OR ‘‘Treiber d* Komplexitat’’) AND ‘‘Refabrikation’’
+
+EBSCOhost
+
+20
+
+8
+
+1
+
+4
+
+0
+
+0
+
+0
+
+1
+
+3
+0
+
+1
+
+1
+
+1
+
+0
+
+0
+
+0
+
+0
+
+Results
+
+Database
+
+Table 13 continued
+Date
+
+Page 40 of 66
+
+Search terms
+
+25
+¨
+Schafer and
+Henning [221]1
+Reiß [211]1
+Schmidt [227]1
+Schulte [248]1
+Rathnow [217]1
+Reiß [212]1
+Reiß [213]1
+Rao and Young
+[207]2
+Weber [278]1
+Fleck [79]1
+Hadamitzky
+[106]1
+¨
+Hoge [118]1
+Kaiser [125]1
+Kestel [131]1
+¨
+Kuhl [153]1
+Schulte [249]1
+Stark and Oman
+[261]2
+Wildemann
+[281]1
+Vizjak and
+Schiffers
+[271]1
+Raufeisen [208]1
+Warnecke and
+Puhl [276]1
+Adam [1]1
+
+Authors
+
+General
+statement
+about
+complexity
+drivers
+RQ2
+Approach for…
+
+•
+
+•
+
+•
+
+Complexity
+driver’s
+visualization
+
+•
+•
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+•
+
+•
+
+•
+•
+
+•
+
+•
+•
+•
+•
+•
+
+•
+
+•
+
+•
+•
+•
+•
+•
+
+•
+•
+•
+•
+•
+•
+•
+
+•
+
+•
+
+General in
+manufacturing
+companies
+
+Fields
+
+•
+•
+•
+•
+
+Overview
+about
+complexitty
+drivers
+
+•
+
+PD
+
+PC
+
+•
+
+•
+
+•
+
+L
+
+Value chain
+
+RQ3
+Information about complexity drivers
+
+•
+•
+
+•
+
+•
+
+Deﬁnition
+of
+complexity
+drivers
+Complexity
+driver’s
+operationalization
+
+Complexity
+driver’s
+identiﬁcation
+
+RQ1
+
+Content of literature sources based on literature’s analysis
+
+Table 14 Results of literature analysis
+
+PR
+
+•
+
+•
+
+OPD
+
+SC
+
+R
+
+VC
+
+Using Bliss’
+classiﬁcation
+
+Logist. Res. (2016) 9:25
+Page 41 of 66
+25
+
+Schmitting
+[14]1
+Bliss [22]1
+Bohne [26]1
+Calinescu et al.
+[50]2
+Eversheim,
+Schenke and
+Warnke [73]1
+Komorek [146]1
+¨
+Koster [147]1
+Picot and
+Freudenberg
+[200]1
+Rosemann [216]1
+Wangenheim
+[275]1
+Wildemann
+[282]1
+Benett [13]1
+Flynn and Flynn
+[80]2
+Heina [111]1
+Piller and
+Waringer
+[202]1
+Puhl [204]1
+Raufeisen [209]1
+Reiners and
+Sasse [210]1
+Wildemann
+[283]1
+Wildemann
+[284]1
+Bliss [23]1
+
+General
+statement
+about
+complexity
+drivers
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+•
+•
+
+•
+•
+
+•
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+•
+
+•
+•
+
+•
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+•
+•
+
+General in
+manufacturing
+companies
+
+Fields
+
+•
+
+Overview
+about
+complexitty
+drivers
+•
+
+Complexity
+driver’s
+operationalization
+
+•
+
+Complexity
+driver’s
+identiﬁcation
+
+•
+
+•
+
+PD
+
+•
+
+PC
+
+•
+
+L
+
+Value chain
+
+Information about complexity drivers
+
+RQ2
+
+Approach for…
+
+•
+
+Deﬁnition of
+complexity
+drivers
+
+RQ1
+
+Content of literature sources based on literature’s analysis
+
+•
+
+•
+
+PR
+
+•
+
+OPD
+
+SC
+
+R
+
+VC
+
+Authors
+
+•
+
+•
+
+Using Bliss’
+classiﬁcation
+
+Table 14 continued
+
+Complexity
+driver’s
+visualization
+
+Page 42 of 66
+
+RQ3
+
+25
+Westphal [280]1
+Franke and
+Firchau [81]1
+Große Entrup
+[99]1
+Schuh and
+Schwenk
+[239]1
+Schwenk-Willi
+[252]1
+Biersack [17]1
+Fehling [76]1
+Deloitte [60]2
+Kim and
+Wilemon
+[133]2
+Kirchhof [134]1
+Klabunde [136]1
+Meier and
+Hanenkamp
+[171]1
+Pepels [197]1
+A.T. Kearney
+[7]2
+Dehnen [59]1
+Große-Heitmeyer
+and Wiendahl
+[100]1
+Hanenkamp
+[107]1
+
+Authors
+
+General
+statement
+about
+complexity
+drivers
+Complexity
+driver’s
+operationalization
+
+•
+
+•
+•
+•
+
+•
+•
+•
+•
+
+General in
+manufacturing
+companies
+
+Fields
+
+•
+
+Overview
+about
+complexitty
+drivers
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+•
+
+•
+•
+
+•
+•
+
+•
+•
+•
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+Complexity
+driver’s
+identiﬁcation
+
+•
+
+•
+
+PD
+
+PC
+
+•
+
+•
+
+L
+
+Value chain
+
+Information about complexity drivers
+Complexity
+driver’s
+visualization
+
+RQ3
+
+RQ2
+
+Approach for…
+
+•
+
+Deﬁnition of
+complexity
+drivers
+
+RQ1
+
+Content of literature sources based on literature’s analysis
+
+Table 14 continued
+
+•
+
+PR
+
+OPD
+
+SC
+
+R
+
+•
+
+VC
+
+•
+
+Using Bliss’
+classiﬁcation
+
+Logist. Res. (2016) 9:25
+Page 43 of 66
+25
+
+Moos and
+Schwellbach
+[108]1
+Klaus [138]1
+Keuper [132]1
+Klepsch [140]1
+Payne and Payne
+[196]2
+Perona and
+Miragliotta
+[198]2
+Purle [205]1
+Rall and
+¨
+Dalhofer
+[206]1
+Wegehaupt
+[279]1
+Blecker,
+Friedrich,
+Kaluza,
+Abdelkaﬁ,
+Kreuther [19]2
+Blecker, Kersten
+and Meyer
+[21]2
+Eichen et al.
+[69]1
+Geimer [84]1
+Greitemeyer and
+Ulrich [95]1
+Jania [122]1
+Krumm and
+Schopf [151]1
+Klinkner, Mayer
+and Thom
+[141]1
+
+•
+
+General
+statement
+about
+complexity
+drivers
+
+•
+
+•
+
+Deﬁnition of
+complexity
+drivers
+
+RQ1
+
+•
+
+•
+
+•
+
+Complexity
+driver’s
+identiﬁcation
+
+•
+
+Complexity
+driver’s
+operationalization
+
+•
+•
+
+•
+•
+
+•
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+General in
+manufacturing
+companies
+
+Fields
+
+•
+
+Overview
+about
+complexitty
+drivers
+PD
+
+PC
+
+•
+
+L
+
+Value chain
+
+Information about complexity drivers
+
+RQ2
+
+Approach for…
+
+Content of literature sources based on literature’s analysis
+
+•
+
+PR
+
+OPD
+
+•
+
+•
+
+•
+
+•
+
+SC
+
+R
+
+VC
+
+Authors
+
+•
+
+•
+
+Using Bliss’
+classiﬁcation
+
+Table 14 continued
+
+Complexity
+driver’s
+visualization
+
+Page 44 of 66
+
+RQ3
+
+25
+Schweiger [251]1
+Wildemann
+[285]1
+Anderson et al.
+[5]2
+Giannopoulos
+[87]2
+¨
+¨
+Großler, Grubner
+and Milling
+2
+[101]
+Kaluza, Bliem
+and Winkler
+[126]2
+Kersten et al.
+[129]2
+Mansour [167]1
+Piller [201]1
+Rudzio, Apitz
+and Denkena
+[217]1
+Schuh, Sauer and
+¨
+Doring [241]1
+Vickers and
+Kodarin [270]2
+Denk [61]1
+Hauptmann
+[110]1
+Krause, Franke
+and
+Gausemeier
+[149]1
+Kohagen [143]1
+¨
+Lubke [164]1
+
+Authors
+
+General
+statement
+about
+complexity
+drivers
+
+•
+
+•
+
+Deﬁnition of
+complexity
+drivers
+
+RQ1
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+•
+
+•
+
+•
+
+•
+
+Overview
+about
+complexitty
+drivers
+
+•
+•
+
+Complexity
+driver’s
+operationalization
+
+•
+
+Complexity
+driver’s
+identiﬁcation
+
+•
+
+•
+
+•
+•
+•
+
+•
+
+•
+
+•
+
+General in
+manufacturing
+companies
+
+Fields
+
+•
+
+•
+
+PD
+
+•
+
+•
+
+PC
+
+•
+
+•
+
+L
+
+Value chain
+
+Information about complexity drivers
+Complexity
+driver’s
+visualization
+
+RQ3
+
+RQ2
+
+Approach for…
+
+Content of literature sources based on literature’s analysis
+
+Table 14 continued
+
+•
+
+•
+
+PR
+
+•
+
+OPD
+
+•
+
+•
+
+SC
+
+R
+
+VC
+
+Using Bliss’
+classiﬁcation
+
+Logist. Res. (2016) 9:25
+Page 45 of 66
+25
+
+Mayer [170]1
+Meyer [174]1
+Meyer and
+Brunner [175]1
+Ruppert [218]1
+Steger, Amann
+and Maznevski
+[263]2
+Waldthausen
+[273]1
+Wildemann
+[286]1
+Aurich and
+Grzegorski [8]1
+Bick and DrexlWittbecker
+[16]1
+Curran, Elliger
+¨
+and Rudiger
+[57]1
+Feldhusen and
+Gebhardt [77]1
+Gabath [83]1
+Greitemeyer,
+Meier and
+Ulrich [96]1
+Scheiter, Scheel
+and Klink
+[223]1
+Schmidt,
+Wienholdt and
+¨
+Vorspel-Ruter
+[229]1
+Schubert [237]1
+Asan [6]2
+Ballmer [10]1
+
+General
+statement
+about
+complexity
+drivers
+
+•
+
+Deﬁnition of
+complexity
+drivers
+
+RQ1
+
+•
+
+•
+
+Complexity
+driver’s
+identiﬁcation
+
+•
+
+Complexity
+driver’s
+operationalization
+
+•
+
+•
+•
+•
+
+General in
+manufacturing
+companies
+
+Fields
+
+•
+•
+•
+
+•
+
+•
+•
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+•
+
+•
+
+•
+•
+
+•
+•
+•
+•
+
+Overview
+about
+complexitty
+drivers
+PD
+
+PC
+
+•
+•
+
+L
+
+Value chain
+
+Information about complexity drivers
+
+RQ2
+
+Approach for…
+
+Content of literature sources based on literature’s analysis
+
+•
+
+PR
+
+•
+
+OPD
+
+•
+
+•
+
+•
+
+SC
+
+R
+
+•
+
+VC
+
+Authors
+
+•
+•
+
+Using Bliss’
+classiﬁcation
+
+Table 14 continued
+
+Complexity
+driver’s
+visualization
+
+Page 46 of 66
+
+RQ3
+
+25
+Dalhofer [58]1
+Denk and
+Pfneissl [62]1
+Dombrowski
+et al. [64]1
+¨
+Dopke, Kress
+¨
+and Kuhl [65]1
+F.A.Z. – Institut
+Management
+[74]1
+Gronau and
+Lindemann
+[98]1
+Helfrich [112]1
+Lasch and
+Gießmann
+[155]1
+Lasch and
+Gießmann
+[156]1
+Lindemann and
+Gronau [159]1
+Lindemann,
+Maurer and
+Braun [160]2
+Moos [178]1
+Nurcahya [179]1
+Schmid [225]1
+Schmidt [228]1
+¨¨
+Tenhiala [267]2
+Wildemann
+[287]1
+Abdelkaﬁ,
+Blecker, Pero
+[2]2
+
+Authors
+
+General
+statement
+about
+complexity
+drivers
+
+•
+
+Deﬁnition of
+complexity
+drivers
+
+RQ1
+
+•
+
+•
+
+•
+
+•
+
+Complexity
+driver’s
+operationalization
+
+•
+
+Complexity
+driver’s
+identiﬁcation
+
+•
+
+•
+
+•
+•
+
+General in
+manufacturing
+companies
+
+Fields
+
+•
+
+•
+•
+
+•
+
+•
+•
+•
+•
+•
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+•
+•
+•
+•
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+Overview
+about
+complexitty
+drivers
+PD
+
+PC
+
+•
+
+L
+
+Value chain
+
+Information about complexity drivers
+Complexity
+driver’s
+visualization
+
+RQ3
+
+RQ2
+
+Approach for…
+
+Content of literature sources based on literature’s analysis
+
+Table 14 continued
+
+•
+
+•
+
+PR
+
+OPD
+
+•
+
+•
+
+SC
+
+R
+
+VC
+
+•
+
+Using Bliss’
+classiﬁcation
+
+Logist. Res. (2016) 9:25
+Page 47 of 66
+25
+
+Blockus [24]1
+Buob [46]1
+Gießmann [88]1
+Gießmann and
+Lasch [89]1
+Grussenmeyer
+and Blecker
+[104]2
+Herrmann [115]1
+Klug [142]1
+Schließmann
+[224]1
+Schmitt,
+¨
+Vorspel-Ruter
+and Wienholdt
+1
+[230]
+Schwandt and
+Franklin [250]2
+Servatius [257]1
+Amann, Nedopil
+and Steger [4]2
+Belz and Schmitz
+[12]1
+Brosch et al.
+[37]1
+Brosch et al.
+[38]1
+¨
+Fassberg et al.
+[75]2
+Gießmann and
+Lasch [90]1
+Gullander et al.
+[105]2
+Isik [121]2
+
+General
+statement
+about
+complexity
+drivers
+
+•
+
+•
+
+•
+
+Deﬁnition of
+complexity
+drivers
+
+RQ1
+
+•
+
+•
+
+•
+
+•
+
+Complexity
+driver’s
+identiﬁcation
+
+•
+
+Complexity
+driver’s
+operationalization
+
+•
+
+•
+
+•
+
+•
+•
+
+General in
+manufacturing
+companies
+
+Fields
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+•
+•
+•
+•
+
+Overview
+about
+complexitty
+drivers
+
+•
+
+PD
+
+•
+
+PC
+
+•
+
+•
+
+•
+
+L
+
+Value chain
+
+Information about complexity drivers
+
+RQ2
+
+Approach for…
+
+Content of literature sources based on literature’s analysis
+
+•
+
+•
+
+•
+
+PR
+
+•
+
+•
+
+OPD
+
+•
+
+•
+
+•
+
+SC
+
+R
+
+•
+
+•
+
+VC
+
+Authors
+
+•
+
+•
+
+Using Bliss’
+classiﬁcation
+
+Table 14 continued
+
+Complexity
+driver’s
+visualization
+
+Page 48 of 66
+
+RQ3
+
+25
+Manuj and Sahin
+[166]2
+Minhas,
+Lehmann and
+Berger [176]2
+Ortner, Hanusch
+and Schweiger
+[181]1
+Parry, Purchase
+and Mills
+[194]2
+Schawel and
+Billing [222]1
+Schuh et al.
+[238]1
+Scott, Lundgren
+and Thompson
+[253]2
+Serdarasan
+[255]2
+Stich et al. [265]1
+Wildemann and
+Voigt [289]1
+Brosch et al.
+[40]2
+Collinson and
+Jay [54]2
+Eigner, Anderl
+and Stark [70]1
+ElMaraghy et al.
+[71]2
+
+Authors
+
+•
+
+General
+statement
+about
+complexity
+drivers
+
+•
+
+Deﬁnition of
+complexity
+drivers
+
+RQ1
+
+•
+
+•
+
+•
+
+•
+
+Complexity
+driver’s
+identiﬁcation
+
+•
+
+•
+
+Complexity
+driver’s
+operationalization
+
+•
+
+•
+
+•
+
+PD
+
+•
+
+•
+
+•
+
+PC
+•
+
+L
+
+Value chain
+
+•
+
+•
+
+•
+
+General in
+manufacturing
+companies
+
+Fields
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+Overview
+about
+complexitty
+drivers
+
+Information about complexity drivers
+Complexity
+driver’s
+visualization
+
+RQ3
+
+RQ2
+
+Approach for…
+
+Content of literature sources based on literature’s analysis
+
+Table 14 continued
+
+•
+
+•
+
+•
+
+•
+
+PR
+
+OPD
+
+•
+
+•
+
+•
+
+•
+
+SC
+
+R
+
+VC
+
+Using Bliss’
+classiﬁcation
+
+Logist. Res. (2016) 9:25
+Page 49 of 66
+25
+
+et al. [86]2
+Haumann et al.
+[109]2
+Hering et al.
+[114]1
+Kersten,
+Lammers and
+Skride [130]1
+Klagge and
+Blank [137]1
+Lammers [154]1
+¨
+Schomann [232]1
+Steinhilper et al.
+[264]1
+Wildemann
+[290]1
+Zhang and Yang
+[293]2
+Aelker,
+Bauernhansl
+and Ehm [3]2
+Binckebanck and
+Lange [18]1
+Borowski and
+Henning [27]1
+Brandenburg
+[31]2
+Gille [91]1
+¨
+Gotzfried [94]2
+¨
+Jager et al. [123]1
+
+General
+statement
+about
+complexity
+drivers
+
+•
+
+•
+
+•
+
+Deﬁnition of
+complexity
+drivers
+
+RQ1
+
+•
+
+Complexity
+driver’s
+operationalization
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Complexity
+driver’s
+identiﬁcation
+
+•
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+Overview
+about
+complexitty
+drivers
+
+•
+•
+•
+
+•
+
+General in
+manufacturing
+companies
+
+Fields
+
+•
+
+•
+
+PD
+
+PC
+
+L
+
+Value chain
+
+Information about complexity drivers
+
+RQ2
+
+Approach for…
+
+Content of literature sources based on literature’s analysis
+
+•
+
+PR
+
+•
+
+•
+
+•
+
+•
+
+OPD
+
+•
+
+•
+
+•
+
+SC
+
+•
+
+•
+
+R
+
+VC
+
+Authors
+
+•
+
+•
+•
+
+Using Bliss’
+classiﬁcation
+
+Table 14 continued
+
+Complexity
+driver’s
+visualization
+
+Page 50 of 66
+
+RQ3
+
+25
+Grotenhuis and
+Goor [158]2
+Schuh, Krumm
+and Amann
+[243]1
+Seifert et al.
+[254]2
+Serdarasan
+[256]2
+Brandenburg
+et al. [32]2
+Budde and
+Golovatchev
+[45]1
+Butzer et al.
+[48]2
+Ehrlenspiel et al.
+[68]1
+Grimm, Schuller
+and Wilhelmer
+[97]1
+Henning and
+Borowski
+[113]1
+Huber [119]1
+Jensen, Bekdik
+and Thuesen
+[124]2
+Krah [148]1
+Link [161]1
+
+Authors
+
+General
+statement
+about
+complexity
+drivers
+
+•
+
+Deﬁnition of
+complexity
+drivers
+
+RQ1
+
+•
+
+•
+
+•
+
+Complexity
+driver’s
+identiﬁcation
+
+•
+
+Complexity
+driver’s
+operationalization
+
+•
+
+•
+
+PD
+
+PC
+
+L
+
+Value chain
+
+•
+
+PR
+
+OPD
+
+•
+
+SC
+
+•
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+General in
+manufacturing
+companies
+
+Fields
+
+•
+
+•
+
+•
+
+•
+•
+•
+
+Overview
+about
+complexitty
+drivers
+
+Information about complexity drivers
+Complexity
+driver’s
+visualization
+
+RQ3
+
+RQ2
+
+Approach for…
+
+Content of literature sources based on literature’s analysis
+
+Table 14 continued
+
+•
+
+•
+
+R
+
+•
+
+VC
+
+•
+
+Using Bliss’
+classiﬁcation
+
+Logist. Res. (2016) 9:25
+Page 51 of 66
+25
+
+Rebentisch and
+Oehmen [162]2
+Mahmood, Rosdi
+and Muhamed
+[165]2
+Sauter [220]1
+Schoeneberg
+[233]1
+¨
+Schottl et al.
+[236]2
+Schuh et al.
+[246]1
+Schuh et al.
+[247]2
+Schuh et al.
+[245]1
+Stauder et al.
+[262]2
+Thiebes and
+Plankert [268]1
+Wassmus [277]1
+Zimmermann
+and Fabisch
+[294]1
+Bode and
+Wagner [25]2
+Bosch-Rekveldt
+et al. [28]2
+Bretzke [33]1
+Christ [52]1
+Claeys et al.
+[53]2
+Ehrenmann [67]1
+
+•
+
+•
+
+•
+
+General
+statement
+about
+complexity
+drivers
+
+•
+
+Deﬁnition of
+complexity
+drivers
+
+RQ1
+
+•
+
+Complexity
+driver’s
+identiﬁcation
+
+Complexity
+driver’s
+operationalization
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+Overview
+about
+complexitty
+drivers
+
+•
+•
+
+General in
+manufacturing
+companies
+
+Fields
+
+•
+
+•
+
+•
+
+PD
+
+•
+
+PC
+
+•
+
+•
+
+L
+
+Value chain
+
+Information about complexity drivers
+
+RQ2
+
+Approach for…
+
+Content of literature sources based on literature’s analysis
+
+•
+
+•
+
+•
+
+•
+
+PR
+
+•
+
+OPD
+
+•
+
+SC
+
+R
+
+VC
+
+Authors
+
+•
+
+Using Bliss’
+classiﬁcation
+
+Table 14 continued
+
+Complexity
+driver’s
+visualization
+
+Page 52 of 66
+
+RQ3
+
+25
+
+•
+
+General
+statement
+about
+complexity
+drivers
+
+German;
+
+2
+
+English
+
+36
+
+•
+
+Complexity
+driver’s
+identiﬁcation
+
+17
+
+Complexity
+driver’s
+operationalization
+
+18
+
+•
+
+212
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+Overview
+about
+complexitty
+drivers
+
+108
+
+•
+
+General in
+manufacturing
+companies
+
+Fields
+
+6
+
+PC
+
+18
+
+L
+
+25
+
+•
+
+•
+
+PR
+
+13
+
+•
+
+OPD
+
+Total value chain: 115
+
+17
+
+•
+
+PD
+
+Value chain
+
+Information about complexity drivers
+Complexity
+driver’s
+visualization
+
+RQ3
+
+RQ2
+
+Approach for…
+
+26
+
+•
+
+SC
+
+4
+
+R
+
+6
+
+•
+
+VC
+
+15
+
+Using Bliss’
+classiﬁcation
+
+PD product development, PC procurement/purchasing, L logistics, PR production, OPD order processing/distribution/sale, SC internal supply chain, R remanufacturing, VC general in value
+chain
+
+1
+
+31
+
+•
+
+Deﬁnition of
+complexity
+drivers
+
+RQ1
+
+Content of literature sources based on literature’s analysis
+
+Language of literature source:
+
+Krizanits [150]1
+Oyama,
+Learmonth and
+Chao [193]1
+Reuter, Prote and
+¨
+Stower [214]1
+Schmidt [226]1
+Schmitz [231]1
+Schott,
+Horstmann and
+Bodendorf
+[235]2
+Schuh, Gartzen
+and Wagner
+[244]2
+Sun and Rose
+[266]2
+Wallner, Brunner
+and Zsifkovits
+[274]2
+Wulf, Redlich
+and Wulfsberg
+[291]1
+Total
+Amount of
+German
+Sources: 169
+English
+Sources: 66
+
+Authors
+
+Table 14 continued
+
+Logist. Res. (2016) 9:25
+Page 53 of 66
+25
+
+Social behavior
+Social requirements
+Change of company’s environment
+Environmental awareness
+Economical framework conditions
+Country-speciﬁc requirements
+Ecological conditions/factors
+Turbulences in company’s environment
+
+External complexity
+
+Market complexity
+General market-related complexity drivers
+Market framework conditions
+Markets requirements
+Markets size
+Markets uncertainty
+Saturation of the market
+Markets extensiveness
+Demand-related complexity drivers
+Globalization of the demand
+Individuality of customer demands
+Fluctuation in demand
+Competitive-related complexity drivers
+Number of competitors
+Competitive demands
+Competitive activities
+Supply-related complexity drivers
+Number of suppliers
+Suppliers reliability
+Suppliers change
+Heterogeneity of supplied objects
+Supply strategy
+Number of part deliveries
+Uncertainty of delivery quality
+Technological-related complexity drivers (external)
+Technological progress
+Technological innovations
+New technologies and materials
+
+Complexity driver category and their speciﬁc drivers
+
+Origin
+
+of different markets
+structure
+dynamics
+ﬂuctuations
+internationalization
+globalization
+
+Technological change
+Technological intensity
+Combination of different technologies
+
+Variety of suppliers
+Suppliers qualiﬁcation
+Suppliers relationship
+Dynamics in the buying market
+Globalization of the supply chain
+Number of different delivered parts
+
+Strength of competitors
+Competitive activities
+Competitive pressure
+
+Number of customers
+Heterogeneity of customer demands
+
+Number
+Markets
+Markets
+Markets
+Markets
+Markets
+
+:9
+Different technological standards
+Technological dynamics
+Technology integration
+
+P
+
+:9
+Increasing international competition
+Competitive dynamics
+Competitive differentiation
+P
+: 19
+Suppliers structure
+Suppliers network
+Number of supplied objects
+Source of supply
+Number of deliveries
+Uncertainty of delivery dates
+
+P
+
+P
+: 62
+P
+: 18
+Development of new markets
+Markets change
+Markets diversity
+Markets turbulences
+Markets deregulations
+Markets protectionism
+P
+:7
+Variety of customer demands
+Demand uncertainty
+
+Value change
+Political framework conditions
+Standards and regulations
+Language and cultural differences
+Internet
+Uncertainty in company’s environment
+
+: 25
+Cultural factors (language, working hours,
+habit, working method, education)
+
+Table 15 Overview about complexity driver categories and their speciﬁc drivers
+
+Social change
+Cultural framework
+Cultural differences
+Dynamic in company’s environment
+Legal factors
+Economical networking
+Geographical factors
+Exponential populations growth
+Interdependencies between different
+environmental factors
+
+Page 54 of 66
+
+P
+
+25
+
+Product structure/design
+Product size
+Product performance
+Product quality
+Conﬂicts between different standards
+Product technology
+Component type
+Variety of parts and modules
+Number of applied materials
+Number of raw materials in a product
+Availability of raw materials
+Technological complexity (internal)
+Technology complexity general
+Technological requirements
+Availability of technologies
+Effort for technology’s innovations
+Type of interfaces
+Product development complexity
+Development complexity general
+Product development’s length
+Applied methods or instruments
+
+Target complexity
+Amount of different targets
+Maturity of target achievement
+Ambiguity of targets
+Customer complexity
+Customer complexity general
+Customer’s diversity
+Customer’s participation
+Degree of customer’s dependency
+Product and product portfolio complexity
+Product variety
+Product range’s structure
+Product portfolio’s size
+Country-speciﬁc product portfolio
+Dynamics in product program change
+
+Origin
+
+Table 15 continued
+
+Development program’s complexity
+Number of development partners
+Product development’s depth
+
+Technology change/Innovations
+Number of different technologies
+Technological uncertainty
+Type of data medium
+Amount of interfaces
+
+Product type
+Product weight
+Product requirements
+Quality standards
+Product uncertainty
+Number of product technologies
+Component variety
+Modularity of parts and modules
+Variety of applied materials
+
+Product diversity
+Number of product modiﬁcations
+Product portfolio’s structure
+Number of different product lines
+Deﬁcits in coordination between the product
+development, marketing and sales department
+during the product portfolio deﬁnition process
+
+Customer structure
+Customer group’s heterogeneity
+Long-term customer loyalty
+
+Target’s diversity
+Missing target’s comparison
+
+: 15
+New technologies
+Technology/Innovation compulsion
+Technology life cycle
+Size of data medium
+Criteria of hardware/software tests
+P
+:8
+Product development’s dynamic
+Product development’s procedure
+
+P
+
+Product concept
+Product geometry
+Product function
+Engineer standards
+Product life cycle
+Product innovation
+Number of parts and modules
+Properties of the applied materials
+Heterogeneity of applied materials
+
+: 43
+Product range/portfolio
+Number of exotic product variants
+Customer-speciﬁc product portfolio
+Number of product launches
+
+P
+
+: 10
+Number of customers
+Customer requirements
+Diversity of customers relations
+
+P
+
+:7
+Dynamics of target adaption
+Conﬂict between different targets
+
+P
+
+Logist. Res. (2016) 9:25
+Page 55 of 66
+25
+
+
+Origin
+
+Supply process complexity
+Supply process complexity general
+Delivery of stocks
+Forecast uncertainty
+Service complexity
+Service complexity general
+Remanufacturing complexity
+Remanufacturing complexity general
+Organizational complexity
+Organization (general)
+Business segment/industrial sector
+Company’s locations
+Company’s strategy
+Company’s specialization
+Number of contractual partners
+Number of different nationalities in the company
+Number of joint ventures
+Number of different ﬁnancial sources
+Length of business relationship
+Multiplicity of company’s activities
+Pricing policy
+Number of tasks
+Dependencies between different tasks
+Number of cooperation partners
+Organization’s structure
+Deﬁcits in organization structure
+Number of organizational units
+Variety of hierarchical levels
+Employees (general)
+Employees qualiﬁcation
+Employees experience
+Employees workload
+Employees absence
+Employees striving for power
+Shifting of responsibilities
+Number of interfaces between other employees
+Company’s management
+Management’s behavior
+Value chain (general)
+Organization’s/company’s size
+Business culture
+Globalization of company’s locations
+Changes in company’s strategy
+Decision-making process (general)
+Conﬁdence in contractual partners
+Number of different languages in the company
+Structures of joint ventures
+Bureaucracy
+Avarice for money
+Variety of company’s activities
+Coordination effort
+Tasks’ variety
+Degree of centralization
+Cooperation intensity
+Organization structure’s variety
+Reorganization of organization’s structure
+Number of organizational levels
+Egoism of different departments
+Number of employees
+Employees’ language
+Employees behavior
+Working atmosphere
+Personnel decision
+Employees (negative) emotions
+Lack of professional competence
+Separation of task, responsibilities and experience
+Management’s responsibility
+Missing assignment of responsibilities
+Value chain structure
+
+Remanufacturing process
+
+Service variety
+
+Supply strategy
+Order’s heterogeneity
+
+Task coordination
+Degree of labor division
+Degree of cooperation
+Organization structure’s diversity
+Dependencies between organizational units
+Degree of centralization
+Number of supervisory authorities
+Requirement proﬁle and expectations
+Employees’ culture
+Employees turnover
+Uncertainty related to an employee
+Labor division and specialization
+Employees motivation
+Lack of social competence
+Lack of motivation and identiﬁcation with companies goals
+Management’s philosophy
+Unclear assignment of responsibilities
+Value chain’s length
+
+:3
+Service concept
+P
+:2
+Product’s structure
+P
+: 105
+Company’s legal status
+Number of subsidiaries
+Company’s business management
+Multibrand strategy
+Length of decision-making process
+Number of different time zones
+Handling of risks, uncertainty and incidence
+Cash ﬂow dynamics
+Business relationship
+Data security
+Coordination deﬁcits between different departments
+
+P
+
+:7
+Number of supply goods
+Demand’s ﬂuctuation
+
+Table 15 continued
+P
+
+Page 56 of 66
+
+Complexity driver category and their speciﬁc drivers
+
+25
+
+Value chain’s geographical position
+Depth of added value
+Lack of transparency (general)
+Lack in consistency of activities
+Lack in complexity management processes
+Deﬁcits in methods
+Process complexity
+Process complexity (general)
+Process type
+Length of process
+Process planning
+Process orientation
+Process uncertainty
+Process standardization
+Number of external interfaces
+Concentration of process interfaces
+Production complexity
+Production (general)
+Production program
+Production program’s heterogeneity
+Number of production locations
+Size of production area
+Production system’s variety
+Production strategy
+Number of production interfaces
+Variety of production steps
+Number of work stations
+Machine maintenance
+Type of work
+Degree of production automatization
+Material ﬂow’s dynamic
+Planning, control and information complexity
+Planning content
+Lack in strategic planning
+Project time
+Information variety
+Number of controlling authorities
+Control instruments
+
+Complexity driver category and their speciﬁc drivers
+
+Scheduling
+Number of internal projects
+Project’s control
+Information asynchrony
+Control systems (general)
+Control demand’s rate
+
+Production structure
+Production program’s structure
+Production program’s planning
+Production location’s structure
+Production system
+Size of production system
+Production type
+Design of production interfaces
+Manufacturing technology
+Uncertainties in production methods
+Breakdown of production machines
+Lead time
+Production scheduling
+
+Number of processes
+Process structure
+Process automatization
+Process innovations
+Process optimization
+Process stability
+Number of process interfaces
+Interfaces’ design
+
+Added value process
+Number of steps in value chain
+Lack of cost transparency
+Missing readiness for change
+Lack in complexity management instruments
+
+: 41
+Strategic planning
+Time pressure in project planning
+Number of information
+Documentation
+Control processes
+Control demand’s level of detail
+
+P
+
+Production organization
+Number of production processes
+Number of production steps
+Manufacturing performance
+Capacity uncertainty
+Production control system
+Queue time
+Material ﬂow
+
+: 39
+Production organization
+Production program’s volume
+Production program’s network
+Geographical position of production locations
+
+P
+
+: 25
+Variety of processes
+Number of process steps
+Process fragmentation
+Process dynamic
+Special processes
+Process connectivity
+Number of internal interfaces
+Interfaces’ heterogeneity
+
+P
+
+Added value network
+Number of non-value added processes
+Lack of cost understanding
+Subjective evaluation of situations
+Weaknesses in transformation of decisions
+
+Logist. Res. (2016) 9:25
+Page 57 of 66
+25
+
+Information systems
+Communication systems
+Information ﬂow
+Information and data overload
+Lack in communication systems
+Organization information technology systems
+Applied software
+Resource complexity
+Resource complexity (general)
+Resource availability
+Sequence of resource’s application
+Logistics complexity
+Logistic complexity (general)
+Logistic chain
+Heterogeneity of logistic process
+Supply chain general
+Supply chain process
+Number of supply chain partners
+Sales and distribution complexity
+Distribution system (general)
+Stock level in distribution system
+Distribution network
+Number of distribution stages
+Distribution innovations
+Restriction in storage spaces
+Order processing (general)
+Number of different orders
+Order’s heterogeneity
+Sales concept
+Deﬁnition of customer groups
+Number of sale tasks
+Sales’ cooperation with other departments
+
+123
+Innovations in distribution system
+Deﬁcits in distribution system
+Number of distribution partners
+Distribution channel
+Transportation route
+Number of pick stations
+Order processing’s variety
+Order structure
+Handling time
+Sales pressure
+Customer loyalty
+Diversity of sale tasks
+Marketing strategy
+Marketing instruments
+
+Logistic principle
+Logistic strategy
+Logistic network
+Supply chain structure
+Supply chain organization
+Supply chain synchronization
+
+Resource type
+Resource shortage
+Restricted ﬂexibility of resources
+
+P
+: 40
+Distribution system’s output
+Distribution process
+Number of distribution center
+Number of distribution channels
+Transportation source
+Distribution deadlines
+Order processing’s individualization
+Order’s size
+Sales structure
+Sales region
+Treaty structure
+Sales’ signiﬁcance in the company
+Marketing concepts
+
+P
+:9
+Number of different resources
+Application of resources
+Resource’s stocks
+P
+: 17
+Logistic structure
+Logistic process
+Logistic outsourcing
+Supply chain size
+Supply chain bottleneck
+
+Information and communication network
+Variety of information systems
+Communication structure
+Information deﬁcits
+Lack in information systems
+Data security
+Development of information technology systems
+
+Table 15 continued
+
+Information and communication technologies
+Number of information systems
+Number of communication systems
+Information asymmetry
+Information medium
+Company’s communication behavior
+Structure of information technology systems
+Software’s changing
+
+Page 58 of 66
+
+Complexity driver category and their speciﬁc drivers
+
+25
+
+25
+
+Complexity driver category and their speciﬁc drivers
+
+General complexity driver
+Variety
+Uncertainty
+Perception
+Cost effectiveness
+Transparency
+Interaction
+Inconsistency
+Speed
+Amount of actions between units
+Ambiguity
+General complexity
+
+Table 15 continued
+
+Origin
+
+Diversity
+Stability
+Time
+Quality
+Connectivity
+Interdependency
+Discontinuity
+Amount of units and elements
+Amount of relationships between units
+
+P
+: 28
+Dynamics
+Instability
+Costs
+Flexibility
+Dependency
+Degree of change
+Lack of structures
+Amount of actions and relationships
+Element’s system afﬁliation
+
+mit Dynamik, Unsicherheit und Komplexitat meistern. Springer

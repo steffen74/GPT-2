@@ -1,0 +1,1218 @@
+
+One key aspect of efficient transport is load factor:
+the load carried compared to the maximum load that
+could be carried in a load unit (e.g. a vehicle). The
+purpose of this study is to develop an approach that
+will clarify and describe ways in which shippers can
+measure load factor. Drawing on existing literature
+and understanding gained from empirical data the
+proposed approach uses the load factor model, which
+structures measurement of load factor overall and at
+several levels (packaging, shipping, vehicle, fleet) as
+the ratio of required to available capacity. Shipping
+level includes utilization of purchased capacity, which
+is of special interest to shippers. For applying the model
+in practice, calculation methods linked to availability
+of data are presented. Calculations of volumetric load
+factor from two cases illustrate the methods. This
+paper’s detailed descriptions of how shippers can
+measure load factor provide calculation structure
+as well as transparency. Measuring load factor is of
+interest to evaluate efficiency, particularly since load
+factor is related to transport costs and environmental
+performance.
+
+Various political entities have long-term targets for a
+considerable reduction of greenhouse gas emissions
+within the transport sector; in the European Union,
+for example, the goal is a 60 percent reduction of
+greenhouse gases by 2050 [1]. Having a more efficient
+transport system in place has been identified as one
+important strategy to meet such targets [1]. Several
+studies have found that increasing “load factor” is a
+promising way to reduce the environmental impact of
+transport-related activities through a more efficient
+use of transport resources [2-5]. McKinnon [6]
+states that “raising vehicle load factors is one of the
+most attractive sustainable distribution measures to
+companies because it yields substantial economic as
+well as environmental benefits” (p. 243). Load factor
+may be described as the load that is actually carried
+compared to the maximum load that could have been
+carried in a load unit, such as a vehicle [7-8].
+Measuring performance is generally known to be
+necessary for a company: for example, in order for
+the company to support decision-making [9] and to
+evaluate the progress of particular operations [10-12].
+In particular, load factor (which may be classified as
+an input/output measure) can be used to evaluate goal
+attainment in specific areas of logistics efficiency [13].
+Detailed descriptions of ways to measure load factor
+performance are currently limited, however. In the
+previous literature, load factor is often one of several
+aspects that are measured in a larger performancemeasurement system, such as the measuring of CO2
+emissions [3, 14], transport efficiency [7, 15], or
+overall vehicle effectiveness [16]. Because previous
+studies have generally covered load factor as only one
+among several aspects within transport operations,
+such studies have offered few details about measuring
+load factor.
+A standardized way to measure load factor is also
+currently lacking. Different interpretations of the
+load factor concept have been put forth regarding
+the dimension that is measured (measuring weight,
+deck area, or volume, for instance) as well as how to
+measure that dimension (whether the load unit should
+be included in the figure, for example). These differing
+interpretations make it difficult to compare results
+
+KEYWORDS: capacity · green logistics · load factor ·
+measurement · shipper · transport efficiency
+Vendela Santén (Corresponding author)
+vendela.santen@sspa.se
+Sara Rogerson
+sara.rogerson@sspa.se
+1
+
+SSPA Sweden AB, Gothenburg, Sweden
+and
+Chalmers University of Technology,
+Department of Technology Management
+and Economics, Gothenburg, Sweden
+
+are. Only measuring weight says nothing about the
+volume utilization, for example, while measuring deck
+area says nothing about the utilization of height. If a
+vehicle is fully loaded with boxes but those boxes are
+half empty, does that mean that the load factor is 100
+percent? These challenges will be further examined
+based on the previous literature in chapter 2 of this
+paper.
+Both transport providers and shippers have a major
+incentive to assess their load factor, since this factor
+is related to transport costs. For shippers, measuring
+load factor involves other challenges beyond simply
+measuring vehicle utilization, as has been done in
+the literature to date [e.g. 3, 5, 7]. When a shipper
+purchases transport services from a transport
+provider, it is important for the shipper to know that
+the purchased capacity will be utilized well; in other
+words, they should not purchase more space than
+they require. Shippers may contract different types
+of services from their transport providers, including
+dedicated service, truckload service, and less-thantruck-load service [17]. When a less-than-truck-load
+service is contracted, for example, it is important to
+know the load factor for that capacity.
+A structured way to describe the various components
+of load factor is needed. In particular, it is crucial to
+understand a shipper’s perspective, because shippers
+are generally interested in getting the most from their
+purchased capacity. As a step towards addressing the
+challenges associated with measuring load factor,
+this study thus aims to develop an approach that will
+describe ways in which shippers can measure load
+factor. This model will facilitate calculations and will
+lead to an increased understanding of shippers’ load
+factor performance.
+The remainder of this paper is structured as follows.
+Chapter 2 reviews the existing literature so that the
+challenges involved in load factor measurements may
+be described; chapter 3 then describes the study’s
+methodological choices. Chapter 4 presents the load
+factor model. Chapter 5 describes how to calculate
+load factor, and finally, chapters 6 and 7 discuss the
+results and conclude the study, respectively.
+2
+
+LITERATURE REVIEW OF LOAD
+FACTOR MEASUREMENTS
+
+In order to address the challenges involved in load
+factor measurement that were briefly mentioned in the
+introduction, this chapter will describe the challenges
+in more detail by drawing on the existing literature.
+While the term load factor that is used in this paper
+is commonly used in earlier studies, these studies also
+use other terminology for the same concept, including
+vehicle utilization, capacity utilization, fill rate, and
+vehicle fill.
+
+This paper describes the following three challenges
+related to load factor measurement: first, a standardized
+way to measure load factor is currently lacking;
+second, collecting load factor data often involves
+numerous uncertainties; and third, only measuring
+load factor at the vehicle level is insufficient for
+providing a comprehensive understanding of the
+utilization of space.
+2.1
+No standardized way to measure load factor
+Earlier studies have not consistently measured load
+factor performance, because they have interpreted
+the load factor concept in several ways and because a
+standardized way to measure load factor is currently
+lacking.
+Different dimensions are generally used to measure
+load factor – including weight, deck area, height,
+empty running, or volume – and each dimension
+has several definitions. Weight is the most common
+dimension for measuring load factor. Examples of
+load factor definitions related to weight from the
+literature include “the ratio of the actual weight of
+goods carried to the maximum weight that could have
+been carried on a laden trip” [5], “revenue tonne-km
+/ revenue tonne-km available” [18], “tonnes/vehicle”
+[19], “kg/day” [20], and “payload weight” [21]. For the
+dimension deck area, one previous study has defined
+load factor as the percentage of occupied floor space
+[22]. For the volume dimension, previous studies have
+defined load factor as the “volume of product actually
+despatched against the transport capacity deployed
+for the movement” [23] and as the “internal volume/
+external volume with lid” [24]. Other definitions
+for volume have been put forth, such as “unutilised
+capacity (number of units)” [25].
+What constitutes a load factor of 100 percent will
+be different depending on the dimension that is
+measured; as an example, the occupied floor space
+could result in a 100 percent load factor even if the
+pallets are empty [22]. In addition, a weight-based
+load factor might be high but not take the utilization of
+the deck area into account [26]. Measuring load factor
+in terms of payload weight, as shown in Pahlén and
+Börjesson’s study [21], makes it possible to achieve a
+load factor of more than 100 percent when in reality a
+great deal of unutilized space exists. Several studies
+have used more than one dimension to measure
+load factor, which provides a better picture of the
+utilization of the maximum capacity: McKinnon
+and Ge [7] measure weight, deck area, and height,
+for example, while Léonardi and Baumgartner [3]
+measure weight, volume, and empty running. Still,
+because previous studies have primarily used weightbased load factor measures, the volumetric measure
+of the load is often missing. This is problematic, since
+volumetric figures provide a better understanding of
+the space that is required for a given load [8]. Gudehus
+and Kotzab [27] take into account that capacity may
+for example – as stated by truck operators in national
+surveys [8] – measuring load factor in terms of volume
+is of interest.
+The lack of standards and the different interpretations
+made when calculating load factor means that it is
+difficult to understand the load factor figures or to
+compare results between studies. Before load factor
+figures may be interpreted, the details on dimensions
+and definitions must be transparent so that the meaning
+of the different figures will be clear. Considering
+both weight and volume provides a more complete
+picture of load factor in terms of the utilization of both
+maximum space and maximum weight.
+2.2
+Challenges in collecting load factor data
+Various challenges are also to be found in collecting
+data to measure load factor. Weight-based data may
+be reported in a company’s system, for instance, but
+the data may be incorrect, as Pahlén and Börjesson
+[21] found, or it may be inconsistent, as McKinnon [8]
+discussed. McKinnon [8] pointed out several problems
+involved in the compilation and interpretation of EU
+freight-transport statistics. As a result, the load factor
+figures that are available for the European Union
+and its individual countries must be interpreted with
+caution; for example, the data from different countries
+have not been measured in a consistent manner [8].
+Various inconsistencies in measuring the weight of
+the goods in freight-transport data exist: for example,
+whether or not the weight of the unit load device is
+included. Due to difficulties in collecting accurate
+load factor data based on weight, Giannouli et al. [28]
+utilized assumptions of load factor in their emissions
+calculations. Further, volumetric data on loads (which
+would be of interest for loads that are constrained by
+volume) are often unavailable in a company’s system;
+instead, volumetric data are often collected based on
+estimations or observations [21, 29]. Previous studies
+rarely describe how these estimates have been made,
+however. Increased transparency about what data are
+used and how the data are used would be useful for
+interpreting the results. In general, transparency is
+encouraged by providing details about a study’s datacollection methods; guidelines would be useful for
+achieving this kind of transparency, since previous
+studies have used different approaches to arrive at
+their load factor numbers.
+2.3
+
+Measuring load factor at the vehicle level
+only
+Load factor should be measured at several system
+levels to show the efficient use of transport resources.
+Many earlier studies have measured load factor at the
+vehicle level, such as those conducted by McKinnon
+and Ge [7], Kellner and Igl [30], and Leach, Savage,
+and Maden [31]. While measuring load factor in
+vehicles is useful for determining vehicle utilization,
+the measure does not reflect the efficient use of the
+
+3
+
+units that are transported inside the vehicles: for
+example, doing so does not show how fully loaded
+the containers on a ship or the boxes on a truck are.
+Gudehus and Kotzab [27], on the other hand, focus
+on load factor and packing strategies for one level at
+a time. In order to capture the efficient use of units
+inside units, Samuelsson and Tilanus [32] included
+lower levels than the vehicle level in their capacityefficiency measure, including floor occupancy, height
+utilization, pallet and box characteristics, net product,
+and loading-execution efficiency. Also, Santén [33]
+included lower level measures; packaging, loading
+and booking efficiency. Comparing load with a
+fleet’s capacity is another system-level approach that
+is previous research exemplified in the context of
+container liner shipping [34].
+For shippers, measuring load factor involves
+challenges beyond simply measuring vehicle
+utilization between terminals. The utilization of the
+purchased capacity is an important consideration for
+those shippers that purchase transport services from
+transport providers; as such, shippers should not
+purchase more space than is necessary. For shippers
+that send less-than-full truckloads, the efficient
+use of the purchased capacity may be more directly
+influenced than the utilization of the whole vehicle
+(which the transport provider fills with goods from
+other shippers). In such situations, it would be useful for
+shippers to measure their capacity utilization related to
+their purchased capacity [33]. As a result, measuring
+load factor has to account for more levels than simply
+the vehicle and take into account the perspective of
+the shipper. Shippers should also measure the efficient
+use of packaging, as shown in Pålsson, Finnsgård, and
+Wänström’s study [24]. From a shipper’s perspective,
+the efficient use of resources should thus encompass
+both packaging and the shipper’s purchased capacity.
+2.4
+
+Requirements on a structured way to
+measure load factor
+A clarification and description of how shippers can
+measure load factor is necessary because of the many
+problems described above. The challenges identified in
+previous studies, leads to the following requirements
+on a structured way to measure load factor:
+• enable shippers to measure load factor;
+• provide a transparent method of measuring;
+• allow historical comparisons to be made
+between transport flows and between
+companies;
+• be comprehensive (that is, be able to express
+load factor at several system levels so that
+situations may be avoided in which empty
+boxes in a vehicle result in a high load factor);
+• be able to handle both volume and weight,
+since both dimensions can restrict the
+• allow applications that are independent of
+the characteristics of the goods flow (for
+example, different load units).
+3.
+
+METHOD
+
+This study developed an approach for measuring load
+factor, in which the challenges mentioned above were
+considered so that ways in which shippers can measure
+their load factor performance could be clarified. The
+approach in this paper further details the load factor
+model briefly presented in Rogerson and Santén [41]
+and proposes methods for calculations when applying
+the load factor model in practice. New knowledge is
+generated by the development of small-scale theories
+[35], where the various components of measuring load
+factor is structured. A high level of practical relevance
+is aimed for and for that reason illustrations of load
+factor calculations are provided from two cases.
+The challenges involved in load factor measurements
+were derived from a structured literature review
+conducted during the initial phase of this study,
+described in part in Santén and Rogerson [36].
+Thereafter, the study progressed in three main steps.
+The first step built on the existing literature on
+logistics, transportation, and capacity management;
+during this step, a conceptual model was developed
+that outlined required versus available capacity as
+well as several load factor levels (see Fig. 1 in chapter
+3). In the second step, details were elaborated in the
+load factor model showing which aspects determine
+the volume and weight of the required and available
+capacity (see Fig. 2 in chapter 3). These insights were
+drawn from systematically combining empirical
+data from two cases with existing literature in line
+with Dubois and Gadde [37]. The two cases offered
+an excellent opportunity for depth of observation
+[38], and provided a deep and detailed understanding
+regarding measuring load factor and descriptions of
+ways in which load factor may be calculated. Finally,
+an approach for how to calculate the load factor was
+proposed, drawing on the practical problems involved
+when conducting load factor calculations in the two
+cases (see Fig. 3 in chapter 5).
+3.1
+Case selection
+The cases included two specific goods flows in
+two companies, which were selected according to
+purposeful sampling criteria; to feature the particular
+aspects of interest as a way of providing in-depth
+understanding and insight [39] about the shippers’
+load factor measurements. Case Food Distribution
+was a wholesaler that distributes frozen food, chilled
+food and groceries to Swedish supermarkets several
+times per week. Case Energy Equipment was a
+manufacturer of large, heavy energy equipment for
+international construction sites. The two cases showed
+
+key components of the load factor model in terms
+of several load factor levels, such as packaging and
+shipping, and the use of different load units (boxes vs.
+pallets). Selecting cases that represent the common
+situation that shippers purchase their transports from
+a third party [40], allowed measuring efficient use of
+purchased capacity.
+The cases were part of a larger research project
+focusing on load factor performance. That larger
+research project had a wider scope than measuring
+shippers’ load factor, also studying how shippers
+could improve their load factor. While this paper
+uses the cases to illustrate how load factor can
+be measured, Rogerson and Santén [41] structure
+shippers’ opportunities to increase load factor. The
+load factor figures stated in Rogerson and Santén [41]
+as the starting point before changes to improve load
+factor in case Energy Equipment are used in this paper.
+The specific case described for Food Distribution
+consists of data for a transport to different recipients
+and a different point in time compared to case Food
+Distribution in Rogerson and Santén [41]. The data
+collection and analysis described below focus on the
+method applied for the purpose of this paper.
+3.2
+Data collection
+The data were collected through semi-structured
+interviews, internal company documents, and
+observations of the packing and loading processes. For
+a summary of the data collected from the two cases
+see Appendix A.
+Over a period of one year several rounds of
+interviews were conducted with the respondents
+(Table 1). The interview guides included questions
+that were important for (1) the details in the load factor
+model (Fig. 2) and (2) calculating the load factor based
+on the load factor model (Fig. 1). The interviews were
+also used for presenting the ongoing work and give
+the respondents possibility to provide input from their
+practical experience on the applicability of the model
+and approach to measuring load factor.
+Table 1: Respondents in the two cases
+Case
+Food
+Distribution
+
+Energy
+Equipment
+
+Respondents
+Transport-planning manager,
+logistics manager, transport-order
+manager, transport-operating
+manager
+Project manager; supplier manager;
+transportation and logistics
+manager, Northern Europe; global
+packaging category manager;
+
+Further, internal company documents on the
+transport and load data were collected and observations
+also served a major role. In both cases, an initial
+observation provided an overview of the situation of
+the company’s packing and loading activities. For the
+Food Distribution case, a second observation showed
+more details and examined specific aspects that had
+been identified from interviews to determine required
+and available capacity for the specific goods flow to
+be measured. The investigators used an observation
+protocol and took photos of the activities that they
+examined in the study. In both cases load factor
+was measured at the point of departure of a specific
+outbound goods flow, for case Food Distribution from
+the central warehouse and in case Energy Equipment
+from the manufacturing site.
+3.3
+Data analysis
+To describe how load factor could be measured, those
+aspects that determine load factor were identified in
+an iterative process combining (1) calculations of load
+factor performance according to the structure in Fig.
+1, and (2) reflections on how to derive the load factor
+figures.
+The aspects were derived from the data collected in
+the two cases as well as previous literature, and were
+sorted according to whether the aspects determined
+required and available capacity resulting in the more
+detailed model (Fig. 2).
+The load factor was calculated in the two cases
+for two load factor levels (packaging and shipping)
+as well as the overall level (see Fig. 1). The required
+and available capacity were calculated in volumetric
+terms, since volume was identified as constraining
+the maximum load in both cases. Quantitative data
+based on internal documentation, interviews, and
+observations were used for the calculations. The
+applied methods for deriving required and available
+capacity in the two cases illustrate necessary
+estimations and simplifications when calculating load
+factor in practice.
+3.4
+Research quality
+Tables and figures showing the calculations, load factor
+performance, and the load factor model for each case
+were discussed with three respondents from each case
+for verification. The quantitative data as well as method
+used for calculating the load factor was also discussed
+on more than two occasions with the two respondents
+who had provided the quantitative data used for the
+calculations. The framework was presented at several
+workshops with industry participants, which allowed
+the researchers to acquire feedback on the usefulness
+
+of the model and the method for calculating load
+factor. The responses from these workshops indicated
+that the model was indeed transferable to contexts
+beyond the two cases that were examined in this study.
+4.
+
+THE LOAD FACTOR MODEL
+
+In response to the challenges addressed in chapter
+2, a first step is to be able to describe shippers’ load
+factor at several system levels in volume and weight.
+To do so, this chapter presents a load factor model
+(Fig. 1), drawing on a model briefly presented in
+Rogerson and Santén [41]. This chapter elaborates on
+the model, providing more details and also placing it
+in the context of logistics and transport systems. It
+further explains the details with regards to aspects
+determining required and available capacity (Fig.
+2). The model and its components are described
+in this chapter with the literature underpinning
+the descriptions. Illustrations of various aspects of
+measuring load factor in accordance with this model
+are provided from the studied cases (Table 2).
+The definition of load factor used in this paper,
+which builds on the definition of vehicle loading
+proposed by McKinnon and Ge [7], is the ratio of the
+load carried (required capacity) to the maximum load
+that could have been carried (available capacity). The
+model structures the load factor on different levels
+(packaging, shipping, vehicle and fleet) based on
+the balance between required and available capacity
+(see Fig. 1). The model’s logic focuses on balancing
+the capacity required for the goods to be transported
+with the capacity available to transport the goods.
+The model distinguishes between logistics and
+transportation systems, as described by Woxenius
+and Sjöstedt [42], such that the logistics system is the
+shipper’s system when outsourcing transport and the
+transport system concerns the shipper’s management
+of its own transport operations or those of transport
+providers. The scope of this paper is to translate the
+general definition of load factor into a definition from
+a shipper’s operational perspective when outsourcing
+transport, i.e. the logistics system in the model. Since
+all load factor levels will influence the efficiency of
+the transport operations as a whole it is also important
+for shippers to be aware of the load factor in the larger
+system levels, i.e. the transport system. Therefore,
+the logic of the different load factor levels in both the
+logistics and the transport system is described in this
+chapter, while the cases focus on shippers measuring
+their load factor (in the logistics system). A detailed
+approach regarding the transport system is addressed
+
+4.1
+Balancing required and available capacity
+Required and available capacity can be measured
+using volume and/or weight to calculate a ratio of
+how well the available capacity is utilised. Often,
+it is useful to measure the dimension (i.e. weight or
+volume) that constrains the maximum load [cf. 16].
+However, to achieve a perspective on the load factor
+that encompasses both weight and volume, the load
+factor model can be used to calculate both individually.
+A high load factor is achieved when the required and
+available capacities are balanced in terms of volume
+(length * width * height) and/or weight.
+The model can be used to compare both actual
+required capacity and available capacity in a specific
+time period and estimated required and available
+capacity for a future period. The period can be short
+(e.g. a particular delivery or deliveries during a day)
+or long (e.g. deliveries over the course of a month). It
+is important for the time period being measured to be
+clear.
+4.2
+The load factor levels
+A number of different load factor levels exist:
+packaging level (1, 2, …, n), shipping level, vehicle
+level and fleet level. To achieve a comprehensive
+understanding of the load factor performance, it is
+important to consider the balance between the required
+and the available capacity on all load factor levels. For
+example, measuring only the vehicle level could give
+an impression of high performance, even if the vehicle
+is loaded with nearly empty boxes. The number and
+types of levels that exist in a given shipper’s system
+may vary depending on the situation and the type of
+contract. For example, a manufacturing company will
+have different packaging levels than a distributor, and
+the shipping level can either be a share of a vehicle
+
+(if purchasing LTL) or one or several vehicles (if
+purchasing FTL).
+At a packaging level, the required capacity is the
+load to be packed, and the available capacity is the
+load unit into which the load will be packed. Several
+packaging levels are possible, which previous literature
+has described as primary, secondary and tertiary [43]
+or in terms of containers, roll cages, pallets, boxes
+and similar items. For example, Samuelsson and
+Tilanus [32] include a box load factor and a pallet load
+factor as partial-capacity efficiencies in a less-thantruckload (LTL) distribution system. In our model,
+we denote packaging levels using the numbers 1 to
+n; therefore, Samuelsson and Tilanus’ [32] example
+translates as products loaded in a box at packaging
+level 1 and boxes loaded at a pallet at packaging level
+2. Individual shippers can decide which load factor
+levels are relevant to measure in their systems. For
+example, if products are delivered to a shipper from
+their supplier in their primary packaging, and the
+packaging is never broken before packing the items
+on pallets to prepare for shipments to the shipper’s
+customers, level 1 packaging (products in their
+primary packaging) is outside the shipper’s own
+responsibility. Instead, the load factor at the second
+(and larger) packaging level(s) can be influenced more
+directly by that particular shipper, and thereby their
+primary focus.
+At the shipping level, the required capacity is the
+load to be shipped (i.e., goods leaving the shipper),
+and the available capacity is the purchased capacity
+for the load. The shipping level is more aggregated
+than the packaging levels. The load to ship is the sum
+of packaging level n and can also include the load
+resulting from other packaging levels. For example,
+
+Figure 2: Determining required and available capacity
+
+items comprising both products packed on pallets
+(level 2) and other (bigger) products packed in their
+own packaging (level 1) and loaded directly onto
+the purchased capacity. The purchased capacity is of
+interest to a shipper outsourcing freight transport. In
+the model, purchased capacity can be smaller than
+a vehicle (less than a truckload), a vehicle (a full
+truckload) or several vehicles, depending on what is
+purchased. Available capacity for shippers purchasing
+full truckload services is the capacity of the whole
+vehicle, while available capacity for shippers
+purchasing less than a truckload of services is the
+purchased share of the vehicle (e.g. a specific number
+of pallets). When purchasing less than a truckload of
+service, the shipper measures its share at the shipping
+level, not at the vehicle level. The load from one shipper
+may be consolidated with goods from other companies
+in the case of less than a truckload of services, and
+such consolidation is organised by the transport
+provider [44]. In such situations, the vehicle- and fleetlevel load factors are considered to fall outside the
+scope of the shipper’s load factor measurements.
+At the vehicle and fleet levels, the required capacity
+is the load to be shipped on one or several vehicles,
+and the available capacity is the vehicle(s) available for
+the load. This level is included in the shipper’s system
+if the shipper manages the transport (i.e. owns his or
+her own vehicle) or if the shipper coordinates its goods
+with goods from other shippers (i.e. without help from
+transport providers).
+4.3
+
+Determining required and available
+capacity
+This section describes the aspects that determine
+required capacity and available capacity, which
+must be considered when calculating load factor.
+See Fig. 2 for the aspects determining required and
+available capacity. The studied cases illustrate aspects
+determining required and available capacity (Table 2).
+4.3.1 Determining required capacity
+Required capacity is the volume or weight of the
+load at each load factor level (packaging levels 1 to
+n, shipping level, vehicle level, and fleet level). The
+
+volume and weight of the load are determined by order
+details, item characteristics, number of items, and
+possibilities for combining items (where an item is a
+product or packed load unit). The load (at each load
+factor level) comprises one or more items. An item at
+a higher load factor level can be a load unit used at
+a lower load factor level (e.g. a box). This unit is the
+available capacity at the packaging level, but an item
+to load at the next level.
+Items can be combined in different ways [e.g.
+45]. Which items can be combined is determined
+by the order details (e.g. order size, delivery time,
+delivery address, delivery frequency and shipment
+consolidation) [46], meaning for example that a
+specific load unit can only contain items to the same
+delivery address [27]. Further, how items can be
+combined depends on their characteristics in terms of
+shape [e.g. 45], sensitivity [e.g. 44], stackability (i.e.
+if items can be stacked on top of one another) [e.g.
+45, 47] and density [e.g. 48]. For examples, see case
+descriptions in Table 2.
+4.3.2 Determining available capacity
+Available capacity is the volume or weight available
+in load units (at each load factor level) for a given
+load. The available capacity in terms of volume is the
+inner dimensions of the load units at each load factor
+level (packaging, shipping, vehicle and fleet) for the
+number of load units. Similarly, the available capacity
+in terms of weight is the weight available for the load.
+The volume and weight available for a load unit are
+determined by the type of the load unit: which load
+unit is used (the size), what equipment exists in the
+load unit (e.g. cooling equipment), and the material
+of the load unit. The equipment may use up space
+or weight thus reducing the available capacity for
+packing or loading items and resulting in less available
+capacity. The material of the load unit may determine
+the weight it can carry. The material of the load unit
+protects the contents, for example, during packaging
+[49]. A protective packaging material may reduce
+the need to protect the product inside the packaging.
+In case Energy Equipment boxes were designed to
+capacity
+
+Available
+capacity
+
+Required
+capacity
+
+Available
+capacity
+
+Packaging level
+Food Distribution: 3,450 products to 3 shops were packed in layers on standardised EURpallets. Item characteristics of particular relevance for how the items could be positioned
+and oriented were shape and sensitivity to damage and temperature. Some products had
+irregular shapes, resulting in packing loss (air). Items sensitive to damage (e.g. crisps) could
+not support heavy products on top. Items were allocated to different pallets depending on
+temperature regimes (e.g. frozen food, chilled food and groceries).
+Energy Equipment: 530 items (18 large) were combined, taking into account sequence
+of unpacking, shape and risk of damage. The sequence of unpacking determined which
+products could be packed in which boxes. Many products had irregular shapes (e.g. legs
+protruding in one direction), resulting in packing loss (air). Risk of damage resulted in extra
+packaging material inside the boxes.
+Food Distribution: 69 standardised EUR-pallets were used. Volume possible to load was
+determined by the length, width and height of the pallets. The height limit (1.25 m excl.
+pallet) allowed double stacking and unloading at the recipients.
+Energy Equipment: 21 customized boxes were available for loading goods. The size of each
+customized box was adapted to the size of the items to be packed inside. The boxes were
+designed to protect the goods, i.e. through stiff and strong material, which also made it
+possible to double stack large boxes on the shipping level.
+Shipping level
+Food Distribution: 69 packed pallets were loaded onto a large truck combination (vehicle
+and trailer). Some pallets were easy to stack (level); other pallets were uneven and could not
+support stacking. To avoid products being crushed (e.g. crisps) certain pallets could only
+be loaded as a top layer. Pallets were allocated to different zones in the truck depending on
+temperature regimes (e.g. frozen food, chilled food and groceries).
+Energy Equipment: 21 boxes of varying size were loaded onto vehicles. Large boxes were not
+always possible to stack or position in one direction, e.g. if the height of two boxes stacked
+on top of one another was greater than the space available inside the vehicle.
+Food Distribution: A large truck and trailer combination with capacity for loading 96 double
+stacked pallets (48+48). The equipment in the vehicle (i.e. the cooling equipment, internal
+walls to separate different temperature zones and a fork lift for unloading goods) reduced the
+available capacity by 2 m3 to 94 pallets (135 m3).
+Energy Equipment: 8 vehicles were available, each capable of loading 65 m3 of goods.
+
+Different types of load units exist, and these have
+different available capacities in terms of load volume
+and weight (e.g. type of truck [50] or pallets [47]).
+Load units that are customised (specialised) to a
+specific purpose may be adjusted to the dimensions of
+the planned content (required capacity), in [27] called
+a dimension adjustment strategy. Standardised load
+units, on the other hand, can be used for many purposes
+and have specific dimensions. The number of load
+units is related to the type of load unit selected: one
+unit with a large capacity or several units with smaller
+individual capacities. The different type of load units
+and their respective capacity are exemplified in cases,
+see Table 2.
+
+4.4
+
+Interaction between various levels in the
+load factor model
+Load factor measurements must consider all levels.
+Measuring the load factor of only one level, says
+nothing about the load factors on the other levels
+and may, therefore, be misleading. For example, the
+box on the first packaging level may have a high load
+factor, while the next packaging level has a low load
+factor due to difficulties in combining units on the
+pallet. Furthermore, on the second packaging level,
+the pallet can be fully loaded with boxes, even if the
+boxes themselves have a low load factor (unoccupied
+capacity).
+The interactions among load factor levels reflect the
+connections among load factor levels and how available
+capacity at a lower level affects required capacity at
+a higher level. The packed load unit at a lower level
+on the outer dimensions of the packaging, rather than
+the inner volume of packaging that is the basis for the
+available capacity.
+Further, measuring load factor at each load factor
+level must be complemented with an overall measure
+of load factor. This overall measure compares the
+required capacity at the lowest load factor level
+with the available capacity at the highest load factor
+level. The overall measure indicates how much of the
+volume or weight is used by the smallest loading units
+(often products) and unused capacity refers to both the
+volume and weight of the load unit and the space left
+unused when packing and loading items on each level.
+In addition to the overall load factor measure and
+the measures at each load factor level mentioned
+above, a complementing measure is the ratio between
+the available capacity at one packaging level and
+the required capacity at one higher load factor level
+[cf 24]. This measure facilitates an understanding of
+how much of the packaging is available for packing/
+loading goods, such that a high number means that the
+packaging material takes up little space.
+5.
+
+APPROACH FOR CALCULATING THE
+LOAD FACTOR
+
+In this chapter, an approach for calculating load factors
+from the perspective of a shipper is presented. The
+approach is a stepwise guide for how to use the load
+factor model and the aspects determining required
+and available capacity when calculating load factor in
+practice. The calculation method needs to be adapted
+to the specific situation in the company, e.g. regarding
+availability of data, and thereby it is important to
+measure in a structured way and to be transparent
+about the basis of the calculations (so the load factor
+numbers are not misinterpreted). Calculating load
+factor in the two studied cases illustrates the use of the
+approach and the calculation methods proposed . The
+approach is summarised in Fig. 3.
+First, the system in which the load factor should
+be measured is defined. To facilitate a complete
+evaluation of the load factor, both weight and volume
+(or, alternatively, the dimension[s] constraining the
+load) are calculated. Furthermore, the time period for
+measuring the load factor is decided. For example, the
+load factor can be calculated for each departure, each
+day, each week or each month. Further, the load factor
+levels in the measured system must be identified.
+As a second step, for each load factor level, required
+and available capacity, respectively, are calculated.
+
+9
+
+Fig. 3 Approach for calculating load factors
+Calculation difficulties stem from what data is
+available. As pointed out in Gudehus and Kotzab [27]
+many companies do not register or update such data.
+Two different calculation methods for required and
+available capacity are described in Table 3.
+The two methods to calculate required capacity are:
+(a) summarising the weight or volume of all individual
+items and (b) measuring the weight or volume of
+the items after they have been combined. The most
+appropriate method depends on the availability of
+data. As explained earlier the required capacity is the
+volume or weight of the load to be packed/loaded.
+In an ideal world calculation of required capacity
+would involve summarising the weight or volume of
+individual items (method a). However, data regarding
+individual weight or volume may not be available in
+the company’s system. As the load to be packed/loaded
+may consist of various items, it could involve much
+work to measure each individual item. Simplifications
+may therefore be necessary. As an example, in case
+Energy Equipment odd-sized items at the packaging
+level were calculated as a box (the maximum width
+multiplied by the maximum length of each item)
+since this was the volume information available in
+the company’s systems. Further, when method a
+(summarising the weight or volume of all individual
+items) is used, volume calculations must consider how
+the items are combined. Item combinations may be
+limited by item characteristics, such as shape, size,
+weight, stackability and sensitivity. Odd-shaped items
+may be impossible to combine on a load unit without
+some air between the items. Simplifications may be
+necessary when there are difficulties obtaining data on
+
+Method
+
+Notes
+
+Required
+capacity
+
+(a) Summarise the
+weight or volume of
+individual items
+
+Possible simplification: Calculate odd-sized items as a box
+(maximum width multiplied by maximum length of the item).
+
+(b) Measure weight
+or volume after items
+have been combined
+
+Possible simplification: Subtract empty space
+after items have been packed/loaded
+
+(a) Use maximum
+weight/volume the
+load unit can carry
+
+Possible simplification: Regarding maximum packing height on
+pallets, use for example average height to which pallets are packed
+in the specific situation.
+
+(b) Use inner
+dimensions
+
+Note that weight/volume taken up by equipment has to be
+deducted.
+
+Available
+capacity
+
+If data on individual items are not available and
+difficult to obtain, an alternative method (method b) is
+to measure the weight or volume after items have been
+combined. For volume, required capacity is calculated
+using the outer dimensions (i.e. length, height and
+width). For weight, total required capacity is measured,
+meaning that everything that is loaded into the load
+unit at the load factor level must be measured. For
+example, when measuring load factor at the shipping
+level, a load unit (e.g. a pallet) at the packaging level
+must be included. However, at the packaging level, if
+measuring after the items have been combined, the
+load units (e.g. the pallet) weight or volume must be
+deducted, since the required capacity comprises the
+items to be put onto the pallet. When using method b,
+the unused space between the items on the load unit
+must be included in the required capacity. Further,
+it may be simpler to measure the volume not utilised
+inside a load unit. In case Food Distribution the
+required capacity at the shipping level was calculated
+by subtracting empty space in the truck after goods
+had been loaded inside the truck. Method b (measuring
+the weight or volume of the items after they have been
+combined) may also be necessary when data regarding
+packing and loading patterns are missing.
+To evaluate the results of the packing and loading
+operation (i.e., the amount of unused space), data on
+both individual items (method a) and combined items
+(method b) can be compared. To be even more detailed,
+it would be possible to specify the weight/volume of
+the load units as part of required capacity on each
+load factor level (except the first level, which consists
+only of products). Such details would allow evaluating
+how much of required capacity consist of load units in
+relation to unused space and loaded items.
+The two methods to calculate available capacity
+are: (a) use maximum weight or volume the load unit
+can carry and (b) use inner dimensions. The available
+capacity is the volume or weight that a load unit can
+carry. Volume can be calculated based on the inner
+
+dimensions (i.e. length, height and width) of, for
+example, a box (method b), or based on the volume
+(i.e. length, height and width) that can be put on, for
+example, a pallet (method a). For weight, the available
+capacity is the maximum weight that can be put on
+the load unit, excluding the weight of the load unit
+itself. For example, the maximum load of a pallet is
+commonly 1,200 kilograms (although some variations
+exist), and the maximum volume is the size of the
+base of the pallet (e.g. 0.8 by 1.2 meters) multiplied by
+the height to which the pallet can be loaded (e.g. 1.5
+meters, where the height may vary due to health and
+safety regulations). The maximum height of a closed
+load unit, such as a box, depends on its construction
+[27]. The maximum height to which a flat load unit
+can be packed or loaded is a design parameter, but
+restrictions regarding safety and stacking need to be
+considered [27]. Therefore data regarding the height
+to which a pallet can be loaded may differ between
+companies. It may also be difficult to obtain exact
+information regarding maximum pallet height. For
+example, the available capacity on a pallet in case
+Food Distribution was calculated based on the average
+height of the loaded pallets, excluding the height of
+the actual pallet. Further, the volume or weight of
+any equipment in the vehicle (e.g. bars for double
+stacking or walls for separating temperature regimes)
+reduces the available capacity and therefore needs
+to be deducted in the calculations. Such deductions
+should be transparent in order to be able to follow
+up space used by necessary equipment on board the
+vehicle. For example, for calculations in case Food
+Distribution the volume of inner walls in the vehicle
+separating temperature zones, and the volume of the
+fork-lift needed to unload the goods upon delivery,
+were deducted from available capacity in the truck.
+It is important to note that the load factor levels are
+connected. For example, at the packaging level, the
+inner dimension of a box is the available capacity. At
+
+Table 4: Calculating load factor, examples from two cases
+Case
+Food
+Distribution
+Case
+Energy
+Equipment
+Required
+capacity
+
+Available
+capacity
+
+Required
+capacity
+Available
+capacity
+
+Results of load factor calculations
+Overall: 52% (70 m /135 m3)
+Packaging level: 84% (70 m3/83 m3)
+Shipping level: 87% (117 m3/135 m3)
+Overall: 49% (256 m3/520 m3)
+Packaging level: 74% (256 m3/347 m3)
+Shipping level: 84% (435 m3/520 m3)
+Packaging level
+In case Food Distribution it was measured after the items had been combined on pallets. The
+number was calculated based on the number of pallets (69) needed for the packed items. The
+volume per pallet was based on the length (1.2 m) and width (0.8 m) of each pallet multiplied
+by the estimated average height of a packed pallet (1.05 m excl. pallet). The height to which
+pallets were packed was based on average figures from the shipper’s internal documentation
+and further validated with the transport planning manager and through on-site observations
+of the specific goods flow. Estimations of packed pallets were used since volume data were
+not available for individual items in the shipper’s database. In case Energy Equipment it
+was calculated by summarising the outer volumes of the 530 individual items. The volume
+data was the simplified calculation of the items as a square box (available in CAD from the
+shipper’s internal documentation).
+In case Food Distribution the maximum volume of the pallets was calculated based on the
+number of pallets (69), the dimensions of each pallet and the maximum allowed height of
+1.25 m (excl. pallet). In case Energy Equipment the volume of the boxes was calculated by
+summarizing the inner volume of all individual boxes.
+Shipping level
+In case Food Distribution it was calculated by subtracting empty space from the available
+capacity inside the truck after pallets were loaded. Empty space was estimated during
+observation. In case Energy Equipment it was calculated by summarising outer volumes of
+the boxes to load.
+In case Food Distribution the volume inside the truck was calculated by multiplying the
+inner dimensions of the vehicle and subtracting the volume taken up by equipment (internal
+walls and a fork lift for unloading goods). In case Energy Equipment the volume available for
+loading goods was calculated by multiplying the inner dimensions of the vehicle.
+3
+
+same box is the required capacity as the length, height
+and width of the item. In weight calculations, available
+capacity at the packaging level is the maximum weight
+that can be loaded onto the load unit. At the next load
+factor level, the actual weight of the load unit, including
+its load, is used to calculate the required capacity. For
+example, at the packaging level, the available capacity
+is the weight that can be put onto a pallet, excluding
+the weight of the pallet. Meanwhile, when calculating
+the required capacity on the shipping level, the weight
+of the pallet has to be included.
+As a third step, the load factor at each load factor
+level and the overall load factor are calculated. The
+load factor at each load factor level is calculated
+by dividing the required capacity by the available
+capacity. To calculate the overall load factor, the
+
+smallest required capacity is divided by the largest
+available capacity, resulting in a figure of how much
+weight/volume is occupied by the smallest items.
+For the overall load factor, unused capacity consists
+of both the volume/weight of the load units and air
+between items when combining them, which can be
+derived from detailed figures of required capacity.
+This unused capacity can be divided into necessary
+(e.g. load unit) or unnecessary (e.g. air), using detailed
+figures from the calculations.
+The result from the load factor calculations in the
+two cases as well as the details from the calculation
+DISCUSSION
+
+This paper focuses on load factor measurements from
+a shipper’s operational perspective. Previous research
+has described load factor measures in general terms,
+while this paper takes a detailed approach. Building
+on the load factor definition used by McKinnon and
+Ge [7], compared to previous research, the approach
+for measuring load factor presented in this paper uses
+a load factor model that includes several load factor
+levels. Using several levels broadens the load factor
+concept (which, in much of the previous research, has
+focused on vehicle utilisation [e.g. 5, 8, 51] or one level
+at a time [e.g. 27]). The main argument for measuring
+load factors at several levels is that measuring only
+one level can be misleading, since such an approach
+does not offer information on the performance of
+other levels. There are interactions between the
+levels, for example, how items are packed on the
+pallet (packaging level) influences the possibilities to
+stack them on the vehicle (shipping level). Thereby, in
+order to avoid sub optimisations, several load factor
+levels need to be taken into account. Compared to
+Samuelsson and Tilanus’ [32] capacity efficiency
+framework (including both pallet and box levels)
+and Santén’s [33] packaging, loading and booking
+efficiency, the load factor model in this paper can be
+adapted to different shippers’ systems with regards to
+how many levels to include, what constitutes required
+and available capacity at each load factor level and
+has a clear distinction between required and available
+capacity at each level. Further, the load factor model
+pinpoints which levels are included in the shipper’s
+system as well as the transport system. Further, an
+overall load factor measure is included in this paper,
+which facilitates an understanding of how much of the
+volume or weight is used by the smallest loaded units
+(often products) in relation to purchased capacity.
+The proposed approach to calculate load factor
+outlines specific steps for calculating load factor and,
+in particular, describes methods to calculate required
+and available capacity. The approach is valuable since
+a standardised method of measuring load factors is
+lacking, where earlier studies have followed different
+interpretations of what aspects should be included.
+The presented approach to calculate load factor
+provides additional suggestions regarding necessary
+simplifications and the need to account for equipment,
+compared to Gudehus and Kotzab [27]. Furthermore,
+where most previous literature tends to consider only
+weight (e.g. [5]) and, occasionally, volume (e.g. [24])
+in load factor measurements, our approach includes
+both.
+The two methods described for calculating required
+and available capacity clarify the required data,
+including decisions regarding the level of detail in the
+data. To avoid inconsistencies in the calculations, such
+as whether the load unit is included in the load or not
+[8], the proposed method for calculating the load factor
+
+provides details regarding how to conduct consistent
+calculations. In particular, this clarification is
+supported by the illustration of volumetric load factor
+calculations in the cases, since the volume of goods is
+generally more difficult to measure than their weight
+[8]. The level of detail depends on access to data and the
+time available to collect data, and estimations may be
+necessary. However, calculating load factors for many
+shipments may require greater simplifications than the
+examples provided in this paper. Such applications
+and simplifications should be studied in more detail.
+Furthermore, when interpreting the results, there
+should be an awareness of the potential uncertainties
+of the calculations (e.g. subjective judgements when
+estimating a load). Therefore, to achieve consistency
+in the measurement of load factors, details need to
+be transparent. Such consistency is necessary when
+evaluating current performance to identify potential
+for improvement, update the load factor after possible
+changes, and to benchmark.
+Several avenues for further research open up related
+to the load factor model. The model structures load
+factor from a shipper’s perspective, to be measured
+at the point of departure from the shipper. The cases
+show the use of the load factor model in two situations,
+which differed with regards to, for example, (a) type
+of products, (b) type of packaging and (c) purchased
+capacity. Further research could test the model in other
+situations, such as detailing measurement on smaller
+packaging levels and in different contract situations.
+Also, the application of the model to shippers using
+other modes of transport, such as sea, air and rail is
+relevant to study further.
+Moreover, in order to achieve macro-level goals (e.g.
+environmental performance) it is important to widen
+the scope of the measurement, so that suboptimal
+solutions are not identified. First, the applicability
+of the load factor model for transport providers is of
+interest in order to understand efficiencies with regards
+to vehicle and fleet levels (when these are managed
+by the transport provider). Second, in a distribution
+round, the load factor will vary at each delivery point
+[52]; thus, the order of delivery and the transport
+distance must be taken into account. Therefore, future
+research would benefit from broadening the scope to
+include a vehicle’s entire trip. Third, further studies
+into combining volumetric and weight-based load
+factor measures are of interest so that the most optimal
+load factor across fleets can be identified.
+Measuring load factor is a step towards making
+improvements, for example improving packing
+strategies, as detailed in Gudehus and Kotzab [27],
+and having calculated the load factor, areas that are
+relevant to change can be identified [41]. In Rogerson
+and Santén [41] the idea of balancing required and
+available capacities is used to structure means for
+shippers to improve load factor according to changes
+to aspects determining respective capacities. Further
+to evaluate how it could be used for following up on
+improvements.
+7.
+
+CONCLUSIONS
+
+This paper presents an approach for calculating load
+factor: (1) define the system in which load factor should
+be measured; (2) calculate required and available
+capacity for each load factor level; and (3) calculate
+the load factor on each load factor level as the ratio of
+required to available capacity.
+Taking a shipper’s perspective, measuring load
+factor includes several levels (e.g. packaging and
+shipping). Measuring load factor at only one load
+factor level, such as the vehicle level, can significantly
+overestimate capacity utilisation, particularly if the
+load factors at other levels are low. To fully understand
+load factor performance, therefore, it is important
+to calculate both the overall load factor and the
+constituent load factor levels.
+Methods for calculating required and available
+capacity are suggested, and offer guidance depending
+on what data that is available. Consistent and
+transparent calculations are important.
+By using the approach for calculating load factors
+shippers can measure their load factor, and understand
+imbalances that exist, including at which levels their
+required and available capacities are imbalanced.
+Disclosure of potential conflicts of interest
+Conflicts of interest: The authors declare that they
+have no conflicts of interest.

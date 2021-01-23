@@ -1,0 +1,1626 @@
+
+1 Introduction
+Agricultural products have an important role in the today’s
+world economy. In particular, products derived from crops
+serve various customer demands, e.g., food and biofuel.
+Furthermore, the supply chain of agricultural products has
+become a hot issue because the public is increasingly aware
+of and concerned about the availability and safety of the
+foods being consumed [21]. At present, the consumers of
+agricultural products demand to have more information not
+only on the availability of a product in supermarkets but
+also on its farming, marketing, distribution, transportation,
+and processing activities [1]. Besides, consumer behavior
+as such involves issues related to public health, which is
+inﬂuenced by existing cases on contaminated products [20,
+33]. For example, United States Centers for Disease Control and Prevention (US-CDC) has reported that Granny
+Smith and Gala apples have to be recalled due to bacterial
+contamination of Listeria monocytogenes at their packing
+facility. The phenomenon not only impacts one particular
+member of a supply chain, but also affects the entire supply
+chain reputation. Furthermore, if the increasing demand of
+an agriculture product is not supported by a good postharvest handling, agricultural waste would be a problem.
+Agricultural wastes are possible to produce from harvest
+wastes, i.e., stalks, straw, leaves, roots, and husks, and from
+perishable leftovers and unconsumed products. Those
+wastes might be potentially important resources if handled
+properly [34]. The wastes are convertible into heat, steam,
+charcoal, methanol, ethanol, or biodiesel. Coordination
+among supply chain members may utilize and reduce
+
+increasing farmers’ revenue. Production cost could be
+reduced by utilizing buyers’ resources (technical expertise
+transfer, specialized inputs, or credits to farmers). Therefore, interorganizational collaboration in a food supply
+chain should be increased due to: (1) the rise of food safety
+as a prominent societal issue; (2) raw materials in food
+distribution often closely resemble a ﬁnal product; and (3)
+agriculture products would always to varying degrees be
+perishable goods [8].
+The shifting behavior of agricultural consumers indicates that consumers have already known what they need
+and what value that they expect from a product they buy.
+Therefore, it is important for a ﬁrm to facilitate such a kind
+of value creation. Under certain circumstances, a ﬁrm has
+an opportunity to co-create values with its consumers. In a
+value co-creation, ﬁrm and consumers interact with each
+other, and they have opportunities to inﬂuence each other’s
+process. Besides, Ballantyne and Varey [5] have mentioned
+that ‘‘value co-creations are dialogical processes of ﬁrm
+and customer that merge into one integrated process of
+coordinated actions, where both parties are active, learn
+together from each other and may directly inﬂuence each
+other,’’ meaning that the coordination between actors in a
+supply chain, especially in an agricultural one, is the key if
+value co-creation is going to be implemented. The quality
+of interactions between actors in the value co-creation
+would affect overall supply chain performance [10, 30].
+To improve the overall performance of an agricultural
+supply chain, any actor in the supply chain should be able
+to orchestrate its own actions; hence, each party could get
+proper beneﬁts as the consequences of compromises made
+during the coordination [41, 42]. The term coordination
+refers to the ways of managing interdependencies between
+activities, which involve different entities working together
+toward a mutually deﬁned goal [26]. Its other terms, i.e.,
+cooperation, integration, and collaboration, also deal with
+the management of interdependencies between activities;
+however, in the context of supply chain, these alternative
+terms could be considered as an integral part of supply
+chain coordination [6].
+Supply chain coordination is a way to redesign rights to
+decide, decision workﬂow, and resources among members
+in a supply chain to achieve higher proﬁt margins, customer service performance improvement, and faster
+response time [24]. A supply chain that implements coordination is characterized by effective communication,
+information exchange, partnering, and performance monitoring [43]. In agriculture sector, coordination is critical
+because one characteristic feature of agri-chains is the
+dependency of value creation, particularly on features of
+seasonality, perishability, safety, and traceability factors
+throughout an end-to-end supply network [47, 51]. Bijman
+
+123
+
+
+
+et al. [8] have noted that an increased interorganizational
+collaboration in food supply possibly occur due to: (1) the
+rise of food safety as a prominent societal issue; (2) raw
+materials in food distribution often closely resemble a ﬁnal
+product; and (3) to varying degrees, foods would always be
+perishable goods.
+Still, research on coordination-related issues in an
+agricultural supply chain is in its early development. The
+research mainly focuses on the coordination of different
+function within a supply chain, but may not cover coordination of the whole supply chain. A review by Ahumada
+and Villalobos [1], for example, has only attempted to deal
+with the production and distribution planning of agri-foods.
+The review has concluded that the use of integrated planning models in an agricultural supply chain is considerably
+limited. In fact, it likely occurs because an integrated
+model is arguably much more complex, but may offer
+greater beneﬁts compared to its complexity. The study has
+mentioned that the development of production and distribution models for perishable crops is crucial for the beneﬁts of either industry or ﬁnal consumer. Moreover, a
+recent review by Shukla and Jharkharia [40] has only
+addressed major operational issues (e.g., demand forecasting, crop production planning, inventory management,
+and transportation-related issues) that may cause postharvest wastes in fruits, ﬂowers, and vegetables. Besides, it
+has concluded that only little attention is given to losses
+due to inefﬁcient harvesting. Tsolakis et al. [49], on the
+other hand, have discussed previous researches that have
+attempted to address issues related to decision-making in
+agri-food supply chains, for either crop- or non-crop-related chains, with a focus on mapping decision-making
+models into strategic, tactical and operational levels, and
+aim at indicating the lack of integrated supply chain design
+and planning. The review has mentioned that studies,
+which integrate production planning and inventory management or inventory with demand forecasting and transportation for agri-fresh produce, are considerably limited.
+There is virtually no review that has discussed a holistic
+view on agri-food supply chains with a particular attention
+to coordination-related issues. Therefore, the current
+review focuses on agri-food supply chain coordination.
+Vegetables and fruits are posited as the focus of review
+since these two agricultural products offer high value and
+require special attention in post-harvest handling and
+storage. In fact, highly perishable fruits and vegetables characteristics could increase the needs of famers and
+other members of a supply chain to coordinate harvest and
+delivery scheduling; hence, agricultural products would be
+received by consumers in as fresh as possible condition.
+The needs for post-harvest handling and storage must be
+implemented by all actors in the chain to obtain higher
+coordination is also critically required for being implemented, particularly to ﬁnd out any requirement for: (1)
+farmers to be able to have an efﬁcient production and (2)
+buyers to transfer their resources for helping farmers in
+fulﬁlling their production needs.
+The objective of these papers is to deﬁne the state-ofthe-art of supply chain coordination in agri-food chains and
+identify research gaps in this research area. This review
+aims at answering two questions: What kind of interdependencies has been developed in agri-food supply chain,
+and what kind of coordination mechanism has been taken
+to manage the interdependencies? These questions relate to
+such aspects as the coordination perspective might differ,
+which is affected by the background of each researcher,
+methodology taken in a research, difﬁculties and conﬂicts
+that usually appear in coordination, and coordination
+mechanism taken to counter the conﬂicts.
+These papers are organized as follows. The classiﬁcation
+of articles being reviewed is presented in Sect. 2. Section 3
+explains selection processes on the articles. In Sect. 4,
+ﬁndings from the articles being reviewed are presented.
+Finally, Sect. 5 provides discussions on the ﬁndings, and
+Sect. 6 presents concluding review and gaps identiﬁed
+among the literature under observation, all of which should
+be addressed in future researches.
+
+2 Papers classiﬁcation
+To discuss agri-food supply chain coordination, the basic
+concept of supply chain coordination and the speciﬁc
+characteristics of agriculture sector are combined. Selected
+literature is classiﬁed based on the particular content coverage and focus of each paper, i.e., the interdependencies in
+an agricultural supply chain, the coordination mechanism,
+and the methodology taken. Furthermore, interdependencies are analyzed by distinguishing interdependencies
+
+Page 3 of 15 5
+
+between activities and between actors. Coordination
+mechanisms taken to manage interdependencies are classiﬁed based on the scope of coordination mechanisms for a
+supply chain decision, i.e., strategic, tactical, and operational, including the effect of coordination mechanism on
+supply chain performance as shown in Fig. 1.
+2.1 Interdependencies
+The concept of interdependencies is critical in analyzing
+coordination. Malone and Crowston [26] have mentioned
+that coordination refers to managing interdependencies
+between activities. Besides, they have noted that when
+there are no interdependencies, there is nothing to coordinate. There are two perspectives of interdependencies taken
+in reviewing selected papers to investigate issues related to
+coordination, i.e., the perspective of interdependencies
+between activities and the perspective of interdependencies
+between actors.
+It should be noted that many agricultural issues are in
+fact a series of linked processes or activities that involve
+multiple actors, e.g., supplying agricultural inputs, cultivating, harvesting, post-harvest handling, transporting,
+processing, marketing, and distributing [2]. It is important
+to determine interdependencies between the activities and
+among actors involved in agricultural supply chain coordination; hence, it is possible to understand whether the
+coordination is only focused on different functions within a
+supply chain, or focused on the whole supply chain.
+2.2 Coordination mechanism
+The mechanism is deﬁned as a tool or way to manage
+interdependencies of activities between supply chain actors
+[3]. Supply chain performance is expected to improve
+through the implementation of coordination mechanisms.
+There are four different types of coordination mechanisms:
+
+Fig. 1 Overview of the classiﬁcation scheme
+
+
+•
+
+•
+
+•
+
+Supply chain contract: It is taken to manage supplier–
+buyer relationships and to manage risks in a supply
+chain. Several parameters are clearly speciﬁed in a
+contract, i.e., quantity, price, time, and quality, when a
+buyer places an order and when a supplier fulﬁlls the
+order [3]. Other parameters possibly speciﬁed in a
+supply chain contract include an incentive alignment.
+Each decision that is made by actors in a supply chain
+has its own implications. Rewards or penalties given to
+particular actors according to the results of their
+decision are stated as incentives. The incentive alignment itself refers to a way to resolve the conﬂict of
+interest among actors in a supply chain by offering
+incentive schemes that may direct their behavior to
+conform to customers’ focus and total proﬁt [24, 41].
+Auction, as an activity that facilitates sales of product
+between supplier and buyer, is possibly placed in a
+supply chain contract under ‘‘price discovery,’’ a
+mechanism that gives a supplier transparency over
+product price [48].
+Information sharing: Lee [24] has mentioned that actors
+or decision-makers in a supply chain may share their
+information to avoid any distortion in the chain. Actors
+in a supply chain coordinate one another by sharing
+information related to demand, orders, inventory, etc.
+Several studies have shown that information sharing,
+supported by information technology (IT), may
+improve the performance of a supply chain [11, 13,
+16]. In supply chain coordination, IT is taken to
+facilitate information sharing among actors in a supply
+chain. In other words, coordination might be achieved
+by utilizing IT [27, 35]. The utilization may help actors
+in supply chains to develop an effective communication
+and improve supply chain operations.
+Joint decision-making: It may help actors in a supply
+chain to improve their performance. It is possible
+because a decision made by each actor may affect other
+actors’ decisions, and a joint decision-making may
+avoid conﬂicts among the actors. For example, if an
+actor in a supply chain makes a decision related to a
+number of promotional activities, the decision may
+affect other actors’ decisions related to production and
+replenishment processes. Joint decision-making is possibly implemented in replenishment [17], inventory [9],
+collaborative planning [4], and logistic synchronization
+[41].
+Collective learning: It may solve the problem of
+knowledge gap across organizations [36]. Collective
+learning is required to extend the capability of partners
+in accomplishing a continuous improvement [41].
+
+In designing and managing an agri-food supply chain,
+the natural hierarchy of decision-making process is
+
+123
+
+
+
+distinguished into strategic, tactical, and operational [1].
+The coordination mechanism is one critical factor to consider in decision-making within a supply chain. Another
+important thing is the effect of the implementation of
+coordination mechanism to overall supply chain performance. It should be investigated to discover whether a
+mechanism taken is appropriate or not to manage interdependencies in agricultural supply chain coordination.
+Strategic supply chain coordination decisions are basically
+long term in terms of their scope and impact. Decisions
+deﬁne the direction of a supply chain. The strategic decisions involve all stakeholders who are willing to participate
+in agricultural supply chain networks.
+Tsolakis [49] has presented an inclusive hierarchical
+decision-making framework for agriculture sector that is
+useful to analyze the existing literature. Tsolakis [49] has
+mentioned that strategic decisions in an agricultural supply chain are related to: the selection of farming technologies (e.g., determining capital requirements and
+expenditure for any farming equipment, developing
+cooperative schemes in the utilization of farming
+machinery, and adopting innovative farming applications),
+the development of an investment portfolio (e.g., determining investments in pivotal resources and infrastructure
+and assessing alternative ﬁnancing options and optimization criteria), the fostering of supply chain partnering
+relationships (e.g., determining partners’ roles, determining integration level, and establishing collaborative
+schemes as well as contract types), the conﬁguration of
+supply chain networks (e.g., selecting optimum sourcing
+policies, developing efﬁcient procurement channels, allocating processing/production facilities, allocating intermediary warehouses, designing transportation networks,
+designing retailers’ networks, and selecting markets), the
+establishment of a performance measurement system (e.g.,
+determining key performance indicators (KPIs), developing data-handling processes and mechanisms, selecting
+and developing measuring methods, and establishing
+stakeholders’ collaboration structures), the assurance of
+sustainability (e.g., adopting CSR business practices,
+developing waste management policies, assessing system’s sustainability, establishing carbon and water footprint control systems, adopting green farming practices,
+and designing sustainable supply chain networks), and the
+adoption of quality management policies (determining
+quality management system scope and determining quality management system scale).
+Furthermore, the implementation of supply chain or ﬁrm
+strategy is related to tactical decision, while the day-to-day
+running of a business is related to operational decision.
+Besides, Tsolakis [49] has noted that the tactical and
+operational decisions in an agricultural supply chain are
+resource management), the planning of logistics operations
+(e.g., ﬂeet management, planning and scheduling of vehicle
+routing, identifying inventory management and control
+systems, and selecting packaging conditions as well as
+techniques), the support to food safety via transparency and
+traceability (e.g., promoting common governance mechanisms as well as organizational arrangements and adopting
+innovative tracking and tracing technologies).
+2.3 Methodology
+In this review, the selected literature is also distinguished
+based on particular methodology taken in each research.
+The methodologies are analyzed to conduct a measurement
+on the impact of coordination mechanisms on performance
+measures. The methodologies are categorized into mathematical modeling, statistical modeling, simulation, and
+case study. Mathematical modeling attempts to deal with
+mathematical concepts and language that may explain a
+system, including a study on the effects of different components, and to make predictions on behavioral issues. The
+second category, statistical modeling, usually refers to
+mathematical equations that relate one or more random
+variables and contains a set of assumptions based on
+observation data. Next, simulation attempts to imitate the
+operation of a real-world process or system over time.
+Then, case study is an in-depth investigation on an object
+of research. In a case study, every aspect of a research
+object is analyzed to seek the patterns and causes of
+behaviors. Methodologies taken in the literature being
+reviewed would be helpful to understand agricultural supply chain coordination from different perspectives of
+methodological point of view. It is to be highlighted that
+any methodology taken to solve a problem depends on the
+problem itself, data availability, computational resources,
+and the preferences of researcher in using the particular
+methodology [40].
+
+Page 5 of 15 5
+
+To cover journals in operations management, agriculture, and those in adjacent ﬁelds, the Web of Science
+(WOS) database is taken. Web of Science is a most used
+and widely standard tool for generating citation data for
+research assessment purposes. WOS database is taken as a
+multidisciplinary citation resource due to its consistency
+[39]; broad subject-centered coverage [22]; controlled
+vocabulary and authority [39]; extensive date range that
+spans 40 years [39]; guaranteed quality and accuracy [29];
+stability as the oldest resource [28]; and the ability for
+clients to personalize the services. Besides, it only includes
+refereed contents [28]. ‘‘Supply chain coordination in
+agriculture’’ is used as the primary key phrase to capture all
+literature related to the concept of coordination in agri-food
+supply chains. Date and journal ﬁlters are not applied.
+The current structured literature review is taken to select
+80 papers based on the topical relevance of each literature
+to supply chain coordination in agri-food, especially fruits
+and vegetables. Papers that do not contain the particular
+topic are therefore excluded. Based on title relevance and a
+fast screening on the papers’ abstracts, 39 among the 80
+papers are further selected because they contain speciﬁcally relevant topics. The other 41 papers are excluded,
+mainly because they focus on agricultural products other
+than fruits or vegetables. Next, the 39 papers are screened
+by reviewing the full papers. Then, forward and backward
+referencing of relevant and interesting papers is taken,
+which results in 16 papers to be further analyzed and
+classiﬁed.
+
+4 Findings
+Papers that meet the criteria of papers selection are analyzed and classiﬁed. As aforementioned, the selected 16
+papers are classiﬁed into three categories, i.e., interdependencies, coordination mechanisms, and methodology. The
+analysis of each classiﬁcation is explained as follows:
+4.1 Coordination based on its interdependencies
+
+3 Papers selections
+A structured literature review is applied in selecting the
+papers. It is a literature review method that is particularly
+focused on a research question(s) to identify, appraise,
+select, and synthesize all research evidence relevant to the
+question(s) [31]. First, the search for relevant literature is
+conducted by using databases and citation indexes. Next,
+articles being identiﬁed are brieﬂy scrutinized by checking
+the titles and abstracts against predetermined criteria for
+discovering their eligibility and relevance. The structured
+literature review in this study is focused on the topic of
+agri-food supply chain coordination.
+
+The low number of selected papers in Table 1 shows that
+studies on agri-food supply chain coordination are rarely
+conducted. Besides, the publishing dates of the papers
+indicate that the studies in this area are relatively new and
+have just gained attention in the last recent years. However,
+there is a growing interest in conducting research on this
+topic. The growing interest is apparent because the selected
+papers are dominated by recently published ones.
+Interdependencies among actors in agri-food supply
+chain based on their activities are affected by the ﬁnal
+product(s) offered by the chain to end customers. For fruits
+and vegetables, two kinds of ﬁnal products offered are
+
+networks with power
+
+Policy and program initiatives to scale
+up the production of urban agriculture
+
+CSR activities to empower farmers as
+supplier for modern retail
+
+Agricultural planning in determining
+the farm areas and seeding times for
+annual plants that maximize total
+proﬁt
+
+Coordination mechanism used for each
+agent in agri-food supply chain
+coordination in order to remove the
+chain of intermediaries between
+farmers and customers
+
+Adaptation of agriculture to climate
+change
+
+RFID application in agri-food supply
+chain
+
+Design a price-discount sharing
+mechanism with a compensation
+scheme to coordinate the producer
+and distributor, in a situation where
+the demand depends on the price and
+product freshness
+
+The role of futures markets regarding
+risk allocation in multistage
+marketing channels
+
+Integrative planning of agricultural
+production using internet data
+exchange language
+
+Supply chain characteristics impose
+different coordination costs in
+vegetable processors
+
+Examines contract practices between
+suppliers and retailers in the
+agricultural seed industry
+
+Authors
+
+Belaya and
+Hanf [7]
+
+MacRae
+et al. [25]
+
+Sutopo et al.
+[45]
+
+Tan and
+Comden
+[46]
+
+Usuga et al.
+[50]
+
+Villegas
+et al. [52]
+
+Zhang and
+Li [53]
+
+Cai et al.
+[14]
+
+Kuwornu
+et al. [23]
+
+Schmitz
+et al. [38]
+
+Stringer and
+Sang [44]
+
+Burer et al.
+[12]
+
+Table 1 Interdependencies in agri-food supply chain
+
+123
+–
+
+–
+
+Small-scale
+farmers,
+government,
+academician
+
+–
+
+Farmers
+
+–
+
+–
+
+–
+
+Cultivating
+
+Agro-input
+suppliers
+and
+retailers
+
+–
+
+–
+
+–
+
+Farmers
+
+–
+
+Supplier
+
+–
+
+–
+
+–
+
+–
+
+–
+
+Firm
+
+–
+
+Farmers
+cooperative
+
+–
+
+Agro-input
+
+Interdependencies
+
+–
+
+Farmers
+
+Farmers
+
+Farmers
+
+Farmers
+
+–
+
+Farmers
+
+Firm
+
+Smallscale
+farmers
+
+–
+
+–
+
+Harvesting
+
+–
+
+–
+
+–
+
+–
+
+Farmers and
+Distributor
+
+–
+
+–
+
+Farmers
+
+Firm
+
+–
+
+–
+
+–
+
+Post-harvest
+
+–
+
+–
+
+–
+
+Wholesalers
+
+Distributor
+
+Service
+providers
+
+–
+
+Service
+providers
+
+–
+
+Small-scale
+farmers
+
+–
+
+–
+
+Transporting
+
+–
+
+Processor
+
+Processor
+
+Wholesalers
+
+–
+
+Comanufacturer
+
+–
+
+–
+
+–
+
+–
+
+Processor
+
+Processor
+
+Processing
+
+–
+
+–
+
+–
+
+–
+
+–
+
+Broker
+
+–
+
+Marketing
+committee/facilitator
+
+–
+
+Farmers
+group/cooperative
+
+Third-party
+organization
+
+–
+
+Marketing
+
+–
+
+–
+
+–
+
+Retailers and
+wholesalers
+
+–
+
+–
+
+–
+
+Modern
+retailers
+and
+wholesalers
+
+Modern
+retail
+
+Modern
+retailer
+
+Retailer,
+restaurants
+
+–
+
+Distributing
+
+5 Page 6 of 15
+–
+–
+Farmers
+–
+The importance of vertical coordination
+in international food supply chains
+Folkerts and
+Koehorst
+[18]
+
+–
+
+–
+–
+Processor
+–
+Elevators
+Farmers
+–
+New types of products require new
+trading relationships
+Chambers
+and King
+[15]
+
+–
+
+–
+–
+Processor
+–
+–
+Smallscale
+farmers
+–
+The stability of contractual
+relationships
+Zylbersztajn
+and Miele
+[54]
+
+Processor
+
+Retailer,
+importer,
+exporter
+–
+–
+–
+–
+–
+–
+Model the effect of ready-to-eat
+positioning on the potential consumed
+revenues for each player in the chain
+Schepers and
+van Kooten
+[37]
+
+–
+
+Cultivating
+
+Issue
+
+Agro-input
+
+Page 7 of 15 5
+
+Authors
+
+Table 1 continued
+
+Interdependencies
+
+Harvesting
+
+Post-harvest
+
+Transporting
+
+Processing
+
+Marketing
+
+Distributing
+
+
+
+fresh produce and processed fruits and vegetables [18, 44].
+Activity that distinguishes one another is processing,
+where fresh produce does not have to go through the
+process. The consequence is the shorter deterioration time
+of fresh produce compared to products that have gone
+through processing stage. On the contrary, the presence of
+processing activity may add to the cost of supply chain and
+the numbers of actors involved, making supply chain
+coordination more complex. Furthermore, issues discussed
+in agri-food supply chain coordination are varied. The
+dominating issues are supply chain contract [12, 54] and
+price mechanism [14, 37]. Other issues related to coordination deal with climate change, the use of power to create
+coordination in an agri-food supply chain, coordination
+mechanisms to manage interdependencies, and activities or
+applications that require coordination.
+The papers being reviewed illustrate all of important
+activities that should be considered in an agri-food supply
+chain. Activities ranging from agri-input supply to distribution and sales to end customers are discussed in these
+papers. However, none gives a holistic view of supply
+chain coordination in agri-food. All of them partially discuss coordination in agri-food supply chains. They only
+discuss two or three parts of the chains that need to be
+coordinated and do not pay attention to the entire chains. In
+fact, issue as such is related to all actors involved in the
+whole chain. Maintaining the relationship or coordination
+between actors is hence complex, because each actor has
+its own objectives or goals. Due to their limited focus and
+coverage, the papers do not consider dynamic relationships
+among actors in their models.
+Another ﬁnding from the review is that coordination in
+agri-food supply chain is in fact dominated by the coordination between farmers and processors. It suggests that
+studies on the coordination of processed fruits and vegetables products have been more widely studied than the
+coordination of fresh produce. Coordination has become
+very important when fresh produce is associated with food
+safety. Since fresh produce does not require any further
+processing, it has a shorter deterioration time and is more
+easily contaminated. Furthermore, there is a need for
+researches on methods to help customers track and trace
+fresh produce being consumed, so that food safety is
+improved [53]. The survey suggests the use of radio frequency identiﬁcation (RFID) as a way to achieve more
+accurate product identiﬁcation. The technology helps
+actors in a supply chain share their data to one another.
+Furthermore, a larger number of the reviewed papers
+discuss modern channels in their supply chain than those
+discussing traditional channels. It indicates that supply
+chain associated with modern channels requires more
+coordination than those associated with traditional ones. It
+occurs because in modern channels a higher attention is
+
+sustainability [45]. To meet these requirements, modern
+channels require supply chain actors to coordinate with one
+another. In addition, a study conducted by Sutopo et al.
+[45] has attempted to investigate coordination between
+farmers and modern retailers in handling deteriorated
+products in corporate social responsibility (CSR) activities.
+The CSR activities of modern channels are aimed at educating farmers to enhance their business skills and to
+reduce the impact of deterioration. In modern channels,
+therefore, product speciﬁcations, delivery terms, and
+internal business requirements are possible to achieve.
+4.2 Coordination mechanism taken in managing
+interdependencies
+Agri-food supply chain coordination is achieved by
+applying coordination mechanisms. Supply chain contract
+is the most common coordination mechanism taken in agrifood supply chains. Contracts are taken to coordinate
+supply chain members to have better supplier and buyer
+relationship and risk management. The contracts specify
+parameters that need to be considered by farmers for fulﬁlling buyers’ demand, i.e., required area of farmland,
+required number of workers, the types of vegetables to
+grow, required agri-inputs such as fertilizer and seed,
+quality standards, delivery dates, ﬁnancial risk allocations,
+bonuses and penalties, incentive alignments, clear targets,
+and result expectations.
+A supply chain contract is commonly taken when
+coordination in agri-food supply chain only involves two
+actors. A study conducted by Kuwornu et al. [23] has
+examined contract supply arrangements among farmers,
+food processors, and retailers. The study attempts to assess
+interactions among farmers, food processors, and retailers
+by looking at contracts as well as assessing the impacts of
+incentives, coordination costs, and risk strategies on
+interaction. The study is conducted on the supply chain of
+Dutch potatoes. It indicates that the increase in incentives
+for producers and wholesalers would signiﬁcantly decrease
+coordination costs in the marketing channel.
+It is interesting to note that a research conducted by
+Chambers and King [15] has found that supply chain
+contract is not effective in maintaining the relationship
+between actors regarding new types of products. In contrast, other approaches, e.g., quality monitoring, certiﬁcation-making procedures, and reputation, are found to be
+highly important. The condition applies when quality
+uncertainty has been a key problem, and contract
+enforcement is difﬁcult due to expensive monitoring.
+Furthermore, the Belaya and Henrich’s [7] work also
+describes the use of power as a tool in managing supply chain
+coordination in agri-food. It is rather critical than other tools
+
+123
+
+
+
+such as information sharing, joint decision-making, supply
+chain contracts, and collective learning. In particular, the
+study is aimed at ﬁnding the role of power in managing supply
+chain networks and its effects on coordination. The authors
+attempts to categorize power into six types and applies semistructured in-depth expert interviews with processing companies under investigation to develop a special ranking system
+for the use of each type of power. Then, the study shows that
+behavioral aspect is also an important aspect for being considered in a coordination process.
+The other tools of coordination mechanism, i.e., information sharing, joint decision-making, and collective
+learning, are also taken to promote a harmonious relationship and to solve conﬂicts between actors in an agrifood supply chain, as discussed by Sutopo et al. [45],
+Usuga et al. [50], Villegas et al. [52], and Zylbersztajn and
+Miele [54].
+Several authors have identiﬁed that more than one type
+of coordination mechanism might be taken to maintain
+coordination within a supply chain of agri-foods [50, 54].
+The authors argue that more than one coordination mechanisms could be required because agri-food supply chain is
+a multistage activity and may act as enabling activities that
+involve more than two actors with different objectives and
+characteristics.
+The effects on supply chain performance, when a
+coordination mechanism is being implemented, are varied,
+e.g., cost reduction, proﬁt increase, quality improvement,
+higher productivity, food safety improvement, real
+knowledge basis construction, and long-term relationship
+maintenance. However, not all reviewed papers show how
+the effect is measured. Most of these papers only look at
+the effects of a coordination mechanism that has been
+successfully implemented in a particular case and assume
+that the same effects would occur if the same coordination
+mechanism is applied to another case.
+The implementation of decision-making level of coordination mechanism varies in strategic, tactical, and operational levels. As Table 2 shows coordination mechanism
+is dominated by the application of supply chain contracts,
+usually relating to tactical and operational decisions [12,
+23, 44, 46, 50, 54]. In contrast, the supply chain contract
+for a strategic level receives little attention. Only one paper
+utilizes supply chain contracts or agreements in their supply chain to maintain its long-term relationship [18]. The
+paper suggests that it is necessary to make agreements
+among supply chain members for gaining conﬁdence of
+other supply chain members and for having clear targets
+and expectation about the results of a long-term relationship. On the other hand, other coordination mechanisms are
+dominated by the implementation at operational level.
+
+Table 2 Coordination mechanism in an agri-food supply chain
+Authors, year
+
+Coordination mechanism
+
+Effect on SC performance
+
+Information
+sharing
+
+Joint
+decisionmaking
+
+Supply
+chain
+contracts
+
+Collective
+learning
+
+Other
+
+Belaya and
+Hanf [7]
+
+–
+
+–
+
+–
+
+–
+
+Power
+
+MacRae et al.
+[25]
+
+–
+
+Strategic
+
+–
+
+–
+
+Achieve a certain target of fresh
+vegetable production
+
+Sutopo et al.
+[45]
+
+–
+
+Strategic
+
+–
+
+–
+
+Quality improvement
+
+Tan and
+Comden
+[46]
+
+–
+
+–
+
+Tactical
+
+–
+
+Maximize ﬁrm’s total proﬁt
+
+Usuga et al.
+[50]
+
+Operational
+
+Operational
+
+Operational
+
+–
+
+Inventory cost reduction, cost
+saving, service level
+improvement, order cycle time
+reduction, increase customer
+service quality, promote quality
+of deliveries, reduce the risk of
+errors in the distribution
+
+Villegas et al.
+[52]
+
+Strategic
+
+–
+
+–
+
+–
+
+Adequate to produce a national
+adaptation pathway
+
+Zhang and Li
+[53]
+
+Tactical
+operational
+
+–
+
+–
+
+–
+
+–
+
+Cai et al. [14]
+
+–
+
+Tactical
+operational
+
+–
+
+–
+
+Optimize the total proﬁt of
+producer and distributor
+
+Kuwornu
+et al. [23]
+
+–
+
+–
+
+Tactical
+
+–
+
+Increase proﬁt
+
+Schmitz et al.
+[38]
+
+Operational
+
+–
+
+–
+
+–
+
+Build real knowledge bases
+
+Stringer and
+Sang [44]
+
+–
+
+–
+
+Operational
+
+–
+
+Reduce cost
+
+Burer et al.
+[12]
+
+–
+
+–
+
+Tactical
+
+–
+
+Increase proﬁt
+
+Schepers and
+van Kooten
+[37]
+
+–
+
+Tactical
+operational
+
+–
+
+–
+
+Optimize the chain proﬁt
+
+Zylbersztajn
+and Miele
+[54]
+
+–
+
+–
+
+Tactical
+operational
+
+–
+
+Maintain long-term relationship
+
+Chambers and
+King [15]
+
+–
+
+–
+
+–
+
+Tactical
+operational
+
+Folkerts and
+Koehorst
+[18]
+
+–
+
+–
+
+Strategic
+
+–
+
+4.3 Methodology taken in addressing
+interdependencies and assessing coordination
+mechanism
+The most common methodology taken to describe supply
+chain coordination in agri-food chains is the case study.
+Seven of 16 papers focus on particular case studies. In
+
+Quality monitoring,
+certiﬁcation procedures,
+and reputation
+
+–
+
+Product quality improvement,
+quality uncertainty reduction,
+transaction cost reduction
+–
+
+addition, case studies are often taken to describe the process of coordination that occurs in an agri-food supply
+chain. The approach may give an overview on the ﬁeld but
+may hardly provide alternative solutions applicable for
+agri-food supply chain coordination.
+In fact, researches on agri-food supply chain coordination are dominated by the use of mathematical modeling as
+
+
+Table 3 Methodology used in agri-food supply chain coordination
+Authors, Year
+
+Methodology
+Approach
+Mathematical
+
+Statistical
+
+Simulation
+
+Case study
+
+Belaya and Hanf [7]
+
+–
+
+Partial least squares
+
+–
+
+–
+
+MacRae et al. [25]
+
+–
+
+–
+
+–
+
+Case study
+
+Sutopo et al. [45]
+Tan and Comden [46]
+
+Mixed integer linear programming
+Mixed integer linear programming
+
+–
+–
+
+–
+–
+
+–
+–
+
+Usuga et al. [50]
+
+–
+
+–
+
+–
+
+Case study
+
+Villegas et al. [52]
+
+–
+
+–
+
+Global circulation models
+
+–
+
+Zhang and Li [53]
+
+–
+
+–
+
+–
+
+Case study
+
+Cai et al. [14]
+
+Analytical
+
+–
+
+–
+
+–
+
+Kuwornu et al. [23]
+
+–
+
+–
+
+Multiagent
+
+–
+
+Schmitz et al. [38]
+
+–
+
+–
+
+–
+
+Case study
+
+Stringer and Sang [44]
+
+–
+
+Conjoint analysis
+
+–
+
+–
+
+Burer et al. [12]
+
+Analytical
+
+–
+
+–
+
+–
+
+Schepers and van Kooten [37]
+
+–
+
+–
+
+System dynamic
+
+–
+
+Zylbersztajn and Miele [54]
+
+–
+
+Multiple regression
+
+–
+
+–
+
+Chambers and King [15]
+
+–
+
+–
+
+–
+
+Case study
+
+Folkerts and Koehorst [18]
+
+–
+
+–
+
+–
+
+Case study
+
+a methodology to address interdependencies and assess
+coordination mechanism. Most of these analytical approaches utilize deterministic variables and cannot accommodate the speciﬁc characteristics of agricultural products.
+The papers that contain an analytical approach investigate
+the coordination between two supply chain actors [12, 14].
+Then, simulation is a less preferred approach in agrifood supply chain coordination. There is only one work in
+which simulation approach is utilized [52]. Villegas et al.
+[52] have simulated and analyzed climate change impacts
+on agriculture and could ﬁnally propose a set of adaptation
+measures to be considered in determining the purpose of
+supply chain coordination in agri-food sector. However,
+simulation approach in the study is not taken to show the
+process of coordination that occurs between actors
+involved in the agri-food supply chain under investigation
+and do not provide an alternative coordination mechanism
+to manage supply chain coordination. The detail list of
+methodology taken in addressing interdependencies and
+assessing coordination mechanism is shown in Table 3.
+
+5 Discussion
+Interdependencies in agri-food supply chain require a clear
+deﬁnition to provide a complete description on the focus of
+coordination, including any actor involved in the coordination. The ﬁndings discovered in this literature review indicate
+
+123
+
+a research gap that is potential for being taken to identify
+future researches required for studying agricultural supply
+chain coordination. In particular, potential researches in
+agricultural supply chain coordination include investigations
+on consumer requirements, behavioral aspects, and a combination of hard and soft approach taken as the research
+methodology. From the ﬁndings related to interdependencies,
+several analyses could be derived. Based on the interdependencies, one may determine whether or not a study is focused
+on coordination that involves the whole or only several stages
+in a supply chain. Interdependencies between stages may also
+determine the purpose or focus of coordination.
+Furthermore, analyses on interdependencies from previous studies indicate actors who are involved and the role
+of each actor in the interdependencies within an agri-food
+supply chain. There are no papers that explain the characteristics of actors within agri-food supply chain in detail.
+Those characteristics are required to investigate any
+determining coordination mechanism taken in managing
+interdependencies. Folkerts and Koehorst [18] have shown
+that coordination between actors in agri-food supply chains
+varies and is highly dependent on historical and cultural
+aspects as well as on a regulatory environment. There is
+also clear evidence on opportunistic behavior, wherein
+individual actors would only work together as long as there
+are clear and tangible beneﬁts. Therefore, a study on
+coordination process, particularly to analyze coordination
+required since the characteristics of a supply chain and
+farmers’ behavior may make agri-food supply chain more
+complex. Moreover, as aforementioned in the ﬁndings
+section, studies on supply chain coordination in agri-food
+sector with a particular focus on small-scale farmers have
+not yet been well developed. Therefore, there is a lot of
+opportunities to conduct in-depth studies on agri-food
+supply chain coordination that involves small-scale farmers. For instance, a study may focus on values in coordination that should be delivered by small-scale farmers to
+fulﬁll consumer requirements, e.g., the quality and availability of agricultural products required by consumers.
+Furthermore, the ﬁndings indicate that studies in analyzing a coordination process in an agricultural supply
+chain still lag behind, particularly ones related to either
+operational level of modern marketing channel or smallscale farmers. The process of coordination requires a more
+insightful and more detailed description. The process itself
+is related to interdependencies between stages in an agricultural supply chain, e.g., the processing of agri-inputs,
+the distribution of agricultural products, and the delivery of
+products to customers. Either the behavior or the characteristics of each actor need to be considered when analyzing a coordination process. Besides, the speciﬁc
+characteristics of an agricultural product need to be considered in a coordination process to obtain a more realistic
+description on the real conditions and situation in agricultural supply chain coordination [40].
+The purpose of maintaining interdependencies or coordination between actors requires a further identiﬁcation. In
+today’s highly competitive era, the purpose should be
+based on consumer requirements. The ﬁndings have indicated that there is no study on agricultural supply chain
+coordination that has attempted to consider consumer
+requirements. The consumer’s role has already been shifted, e.g., from isolated to connected, from unaware to
+informed, and from passive to active [32]. As the consequence, in maintaining interdependencies, any activity
+performed by each actor should have values that may fulﬁll
+consumer requirements. It is achievable by adopting a
+value co-creation concept. In the concept, consumers act as
+key actors who have to be involved in the system to
+improve the overall performance of an agricultural supply
+chain.
+Prahalad and Ramaswamy [32] have noted that the
+collaboration between a ﬁrm and its customers in implementing value co-creation may improve efﬁciencies and
+increase proﬁts in a long run. The collaboration may begin
+with a market-based transaction, which requires a ﬁrm to
+work closely with its suppliers and key customers within a
+network. The next step in collaboration requires information sharing. In the step, a greater level of trust or incentive
+
+Page 11 of 15 5
+
+is needed. Next, tasks and modalities in the collaboration
+would be more complex in which they require a ﬁrm to
+assess collaborative capacities. Moreover, Bonney et al.
+[10] have suggested that a partnership between ﬁrms that
+develop co-innovation has more opportunities for innovation in process, product, or service through a continuous
+improvement in the activation of Research and Development (R&D) and New Product Development (NPD) divisions. Besides, the study concludes that the R&D and NPD
+of a ﬁrm should take consumer value into account rather
+than simply focus on what is feasible to implement by the
+ﬁrm.
+Moreover, looking at the analysis on interdependencies
+in previous studies, coordination mechanisms are suggested to manage interdependencies between stages and
+between actors in an agricultural supply chain. Coordination mechanism is chosen based on activities to be managed and the characteristics of actors involved in a
+coordination process. Then, a chosen coordination mechanism is analyzed to make sure that it is the most suitable coordination mechanism that may improve the overall
+performance of an agricultural supply chain. Choosing and
+implementing the coordination mechanism have to consider behavioral aspects. In a decision-making process,
+rational behavior is not always referred. Most decisionmakers use heuristics, which may lead to a biased decision,
+in their decision-making process, contributing to the poor
+performance of an agricultural supply chain [19]. The
+development of a coordination process in an agricultural
+supply chain model is an immediate need not only for the
+beneﬁt of the industry but also for the beneﬁt of end consumers. The use of a combination between soft and hard
+approaches is required to explain a coordination process in
+an agricultural supply chain.
+Methodologies taken in the papers being reviewed are
+dominated by the hard aspects of coordination, which focus
+on optimization and quantitative results. On the other hand,
+the soft aspect of coordination focusses on the details of
+coordination, e.g., what are the motivations of each member of an agricultural supply chain to coordinate with other
+members, what kind of interdependencies that occur
+between supply chain members so that a coordination is
+needed, how to analyze which coordination mechanism is
+suitable to the interdependencies, and what kind of conﬂicts that occur in the process of coordination. These soft
+aspects of coordination would result in a comprehensive
+qualitative result, which is important as a basis of knowledge before the hard aspects of coordination are analyzed.
+As aforementioned by Malone and Crowston [26], different types or levels of interdependencies are useful for
+identifying coordination mechanism. Besides, some of the
+papers being reviewed have mentioned that the use of a
+coordination mechanism also depends on the level of
+
+
+Fig. 2 Spectrum of
+coordination mechanism based
+on the interdependencies of
+actors in agri-food supply chain
+to fulﬁll customer quality
+requirements
+
+quality requirements demanded by customers. For example, Chambers and King’s [15] and Stringer and Sang’s
+[44] works have attempted to deﬁne different types of
+contracts based on the levels of product speciﬁcations.
+Looking at the explanation above, it is apparent that any
+coordination mechanism taken in agricultural supply chain
+coordination can be derived by considering two determinants, i.e., interdependencies and quality requirements. The
+level of interdependencies between actors indicates a different intensity of interaction and communication. The
+higher the interdependencies would indicate an increased
+level of communication. Besides, it indicates that an active
+interaction is required in the process of coordination within
+an agricultural supply chain. In addition, the level of
+interdependencies also shows how many actors in a supply
+chain need to integrate their agricultural activities, which
+span from agri-input, cultivation, harvesting, post-harvest,
+transportation, processing, and marketing, to distribution.
+Moreover, the level of quality requirement indicates the
+level of difﬁculties to achieve or fulﬁll customer requirements. A low level of quality requirement indicates willingness of customers to buy standard products. On the
+other hand, a high level of quality requirement indicates
+customers’ willingness to buy agricultural products with a
+speciﬁc set of requirements according to the appearance of
+agri products, e.g., size, color, freshness, traceability, and
+safety from product contamination.
+According to the level of interdependencies and the
+level of quality requirement, the papers can be mapped
+based on the coordination mechanism taken (see Fig. 2).
+Spectrum 1 shows the lowest level of interdependencies
+and the lowest level of quality requirement that do not need
+
+123
+
+any speciﬁc coordination mechanism. In fact, it only
+requires market mechanism. Market mechanism illustrates
+the simplest transaction between a supplier and a buyer:
+When there is product, there is money, meaning that any
+product produced and offered would surely be sold in the
+market. Next spectrum shows the higher level of quality
+requirement but does not need higher interdependencies or
+interactions between actors or activities in an agri-food
+supply chain. This spectrum is manageable by utilizing
+information sharing as the coordination mechanism.
+However, information sharing in this spectrum only applies
+for basic information possibly exchanged using electronic
+data interchange. Some other papers mention power as a
+coordination mechanism that can be used for low interdependencies and a higher-quality requirement. The coordination mechanism is useful to implement the action plan of
+coordination.
+Furthermore, the Spectrum 2 illustrates that for a higherquality requirement than the Spectrum 1 with low interdependencies, a simple contract can be used as the coordination mechanism. The simple contract usually applies
+orally or written, which only consists of quantity and
+quality demanded by a buyer, without any detailed
+requirement. In the same spectrum, a simple collective
+learning, i.e., counseling and training, can be implemented
+to deal with a higher-quality requirement and low interdependencies. A simple collective learning illustrates the
+need to fulﬁll certain quality requirements for a speciﬁc
+agricultural product with helps from others to bridge the
+knowledge gap of farmers in implementing good agricultural practices. Then, the Spectrum 3 illustrates the need for
+communication among actors in an agri-food supply chain;
+however, it may not always have to fulﬁll high-quality
+requirements for customers. The last spectrum, 4, shows
+high-quality requirements for being fulﬁlled by high
+interdependencies. Highly speciﬁc contract and information sharing for data integration can be used for condition
+as such. However, a higher speciﬁc quality requirement of
+agricultural products requires more interactions and interdependencies between actors in a supply chain, which can
+be accommodated by applying collective learning as a tool
+for value co-creation. After analyzing all selected papers,
+there are no papers that discuss the Spectrum 3, which
+implements value co-creation mechanism in agri-food
+supply chain coordination.
+
+6 Conclusions
+An assessment of the gaps in the existing literatures on
+agri-food supply chain coordination is presented in this
+paper. Previous studies on agriculture supply chain coordination have been surveyed and classiﬁed, and the needs
+for future researches have been identiﬁed. Studies analyzing coordination process in agri-food supply chains still lag
+behind, particularly when a supply chain is strongly associated with the operational level of modern marketing
+channels and small-scale farmers.
+A holistic view on coordination in agri-food supply
+chain is required, particularly when it is focused on the
+process of coordination. Besides, the process should be
+explained deeper and in detail. A coordination process
+itself is related to interdependencies between stages in an
+agri-food supply chain, e.g., agri-input activities, agriproduct distributions and ﬁnal delivery to end customers.
+Furthermore, the process should adopt value co-creation
+concept, and hence, any activity performed by actors in a
+supply chain would have values that meet the requirements
+of consumers. Then, actors and their characteristics need to
+be considered when analyzing a coordination process.
+On the other hand, the speciﬁc characteristics of an agriproduct also need to be considered in a coordination process
+to develop a more realistic description on the real condition
+and situation in an agri-food supply chain. Looking from the
+viewpoint of interdependency, coordination mechanisms
+are chosen to manage interdependencies between stages and
+between actors in an agri-food supply chain. A coordination
+mechanism is chosen based on activities to be managed and
+the characteristics of actors involved in a coordination
+process. Then, the mechanism is analyzed further to make
+sure that it is the most suitable coordination mechanism for
+improving the overall performance of an agri-food supply
+chain. The development of appropriate coordination
+
+processes in agri-food supply chain models is clearly
+required, by which the result would beneﬁt the industry and
+end consumers. Moreover, the spectrums of coordination
+mechanism may help practitioners in the agriculture sector
+to improve their supply chain performance by implementing a proper coordination.
+Then, the soft aspects of coordination are potential for
+being analyzed in future researches to capture the detailed
+process of coordination, to analyze conﬂicts and barriers that
+occur in the process of coordination, and to implement
+coordination mechanisms to improve the performance of the
+whole supply chain. Moreover, the current practices of
+agriculture strongly focus on products, meaning that a
+stronger focus on delivering products to customers is
+required. The innovative capability of different stakeholders
+(members in a supply chain) is clearly required to provide
+customers with multiple new offerings. The members are
+supposed to make their customers aware that an involvement
+in value co-creation can surely increase their beneﬁts.
+Open Access This article is distributed under the terms of the
+Creative Commons Attribution 4.0 International License (http://crea
+tivecommons.org/licenses/by/4.0/), which permits unrestricted use,
+distribution, and reproduction in any medium, provided you give
+appropriate credit to the original author(s) and the source, provide a
+link to the Creative Commons license, and indicate if changes were
+made.
+
+

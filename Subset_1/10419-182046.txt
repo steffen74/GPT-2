@@ -1,0 +1,1050 @@
+
+1 Necessity of the multibody simulation
+The dynamic stability plays a crucial role in the operation of a forklift. It is determined by the geometrical dimensions, the tire characteristics and the position of the
+overall center of gravity. The tire performance determines whether a vehicle tilts or slides into a sharp turn.
+To improve the dynamic stability and prevent forklifts
+from tilting active systems such as Toyota’s “SAS” and
+Jungheinrich’s “Curve Control” are used. In order to
+ensure that a forklift truck is suﬃciently safe to operate, it is very important to have exact knowledge of the
+dynamic properties of the tire.
+Many attempts have been carried out to describe
+the dynamic stability quantitatively (see [4], [15] and
+[16]). The standard DIN ISO 22915-2 describes simple
+tests for measuring the static and dynamic stabilities
+on a tilting platform. The data on the behavior of a
+vehicle in a bend can be deduced from the lateral tilt
+angle. The standard DIN EN 16203 has been developed
+to reach a deﬁnite conclusion regarding forklift dynamic
+stability and to assess the inﬂuence of the active stability systems. The standard describes a course in which
+an L-shaped sharp turn is made at full speed. The necessary width of the exit corridor for this maneuver is
+used as the benchmark.
+The conduct of an L-test poses many diﬃculties.
+A particular challenge is posed by the technical eﬀort
+needed to achieve reproducible results. To reduce the
+experimental eﬀort required for new forklift prototypes,
+multibody simulations in which dynamic stability is assessed are carried out. A tire model is needed for a
+multibody simulation to be meaningful. Many numerical tire models represent the behavior of pneumatic
+tires, for example, UA Tire Model [11] and Pacejka’s
+Highly Elastic
+Inner Layer
+
+Robust
+Sidewall
+
+Bead Wires
+Rim
+SIT Rubber Lip
+®
+
+Hard Rubber Base
+
+Fig. 1: Schematic structure of an SE-tire (Reference:
+Continental AG, Hanover)
+
+available in simulation software. All the models can be
+subdivided into mathematical, semi-physical and physical models, according to the approach taken. Mathematical models use a phenomenological approach and
+determine the tire behavior by mathematical approximation equations. Such models for agricultural machinery are described in [23] and [17]. Mathematical
+models are easy to use, quick or real time capable and
+oﬀer a high degree of precision. Eﬀects like vibration
+and interaction with obstacles, however, cannot be described and more intensive measurements are needed
+to determine all the model parameters. Semi-physical
+or physical models are used to make better predictions
+for ground-tire-interaction. It is often not easy to make
+strict distinctions. Some models use a mathematical approach for the tire combined with a physical approach
+in the contact area as in MF-Swift tire model [1]. Semiphysical models like [18] and [24] are built of strings
+or brushes and can predict pressure distribution in the
+ground. A further improvement can be achieved by using one or more interacting rigid or ﬂexible belt elements to describe the carcass of the tire. Such models
+can be used to describe comfort and vibration transmission in the tire (see CTire [12], FTire [13] and CDTire
+[10]). The approach that is most time consuming, but
+at the same time provides the most insight involves the
+use of the 3-dimensional FEM (ﬁnite element method)
+analysis as in [2] and [3].
+Super elastic tires (SE-tires) have their origin in
+pneumatic tires that are ﬁlled with soft rubber [21].
+Fig. 1 shows a schematic representation of a tire-rim
+combination. The tire can be made of several asymmetrical layers of rubber. Every rubber layer is specially designed to ensure low abrasion; low vibration
+transfer or uniform heat distribution. Standard models, however, are primarily designed for tires ﬁlled with
+air used in automotive applications. They are only partially applicable to super elastic forklift tires. This can
+be explained by diﬀerent operational conditions such
+
+as low speed combined with increased maneuverability
+(high slip angles) and construction diﬀerences.
+To obtain more understanding about forklift behavior tires were measured under various operating conditions. From the measurement data, an empirical tire
+model for static and dynamic behavior was developed.
+Model parameters for 5 diﬀerent tire types were estimated to be used in further multibody simulations.
+2 Measuring forklift tires
+To determine the behavior of tires used in later multibody s imulations, t he t ire t esting apparatus t hat had
+been built f or previous projects at t he Professorship of
+Machine Elements and Technical Logistics was used ( see
+Fig. 2). T t ire t esting apparatus w s peciﬁcally
+he
+as
+designed t o m
+easure a w r ange of s uper elastic f ork-lift
+ide
+tires. Sensors i n t he m
+easurement platform allow t o
+obtain 3 f orces and 3 t orques along each axis i n addition to t raveling s peed and s lip angle. T coordinate
+he
+system used i n t he apparatus i s depicted i n Fig. 3. T
+he
+following parameters can be s et:
+
+•
+•
+•
+•
+•
+
+Speed:
+Slip angle:
+Slip angle change rate:
+Wheel load:
+Tire diameter:
+
+0 . . . 25 km/h
+−90◦ · · · + 90◦
+0 . . . 90 ◦ /s
+0 . . . 35 kN
+80 . . . 850 mm
+
+A measurement program that allows a wide variety
+of operating conditions to be measured was developed.
+The variation of the slip angle and the wheel load is
+particularly interesting for determining the lateral behavior of a tire. The slip angle α is the angle between
+the intersection line of wheel plane and road plane and
+the vertical projection of the tire trajectory velocity
+vector on the road plane [9]; the slip rate α is thus the
+˙
+time derivative of the slip angle. The wheel load was
+increased up to the nominal load in 3 steps during the
+tire measurement. In each step, the slip angle was adjusted within a range of −45◦ to +45◦ while the speed
+and slip rate were also gradually increased. Due to a
+short measurement time, the temperature increase in
+a tire is low. The thesis by Busch [5] showed a small
+inﬂuence of temperature on the lateral force. In order
+to keep the inﬂuence of the momentum of the test apparatus as low as possible and emphasize the dynamic
+eﬀects in the tire, all the measurements were carried
+out at slip rates of between 15 ◦ /s and 30 ◦ /s and a
+speed of between 0.5 km/h and 25 km/h.
+The measured data includes noise in a relatively
+
+Fig. 2: Tire testing apparatus at the Professorship of Machine Elements and Technical Logistics
+shifting elimination was used. Raw data was used to
+estimate the model parameters.
+3 Static tire model
+3.1 Model requirements
+
+Fig. 3: Tire coordinate system
+
+eral causes. The tread pattern yields a ﬂuctuating load
+force proﬁle in the medium-frequency range. The tire
+testing drum has a 2-component polyurethane coating with quartz sand embedded (grain diameter 0,40,7 mm) to reproduce the tarmac friction characteristic. This coating leads to high-frequency noise. Small
+deviations in the centering of the tire that arise during
+assembly and the irregularity of the tire material cause
+severe low, tire-rotation-periodic oscillations. These are
+especially noticeable at low speeds. These parasitic side
+eﬀects can be almost eliminated by suitably ﬁltering the
+measured data. For visualization purposes a 2nd order
+Bessel ﬁlter with a limit frequency of 1 Hz with phase
+
+The thesis by Busch [5] provides a comprehensive insight into the lateral dynamic behavior of super elastic
+tires. In this study, a model using artiﬁcial neural networks has been built. This model provides physically
+correct values, but has disadvantages typical of neural
+networks.
+The creation of training data is in itself a complicated task and inopportunely selected data can lead to
+an over-adaptation of the network. It is compounded by
+the fact that the use of artiﬁcial neural networks allows
+only limited insight to be gained into the actual physics
+of the tire. In addition, several weighting matrices describe the network, which is cumbersome in practice.
+And ﬁnally, the insuﬃcient extrapolating ability of the
+neural network can lead to wrong predictions outside
+of the boundaries of training data set. This can cause
+problems when sharp cornering is modeled because the
+for the Super Elastic Tire Model (SUPREM). The
+SUPREM allows a high approximation quality to be
+achieved with a minimum of tests. At the same time,
+the model allows a deeper insight to be gained into
+the behavior of the tire. Unlike a theoretical model
+(for example involving the use of an FEM calculation)
+the amount of computational work required should stay
+low.
+The following objectives were pursued during the
+creation of the model:
+– The model must be valid for diﬀerent types of SEtires without the model structure being changed.
+– The model should be easy to implement.
+– The number of input variables and parameters should
+be kept low.
+– The model should be applicable to other types of
+tires.
+– The eﬀort required to parametrize the model using
+the measured data should be low.
+
+havior can be described as stationary and be approximated by a hyperbolic tangent function. It is originsymmetrical and runs for rising angles to +1 or −1.
+The argument of the hyperbolic tangent function describes the slope of the curve at the graph origin and
+hence the ”speed” at which the function reaches its ﬁnal
+value.
+The function argument is aﬀected by the slip angle
+and the wheel load. Larger slip angles lead to a higher
+lateral force that converges for high slip angle values. A
+higher wheel load causes higher maximum lateral forces,
+but reduces the inﬂuence of the slip angle on the overall
+lateral force. When the load on the wheels is higher, the
+stiﬀness of the materials used in such wheels increases,
+resulting in higher rotational stiﬀness. Increasing rotational stiﬀness leads to a deterioration in lateral force
+transmission at small slip angles. These observations
+lead to the following approach for describing the lateral force:
+FY,stat = FZ · µ · tanh
+
+α
+kα + kF 2 · FZ
+
+.
+
+(1)
+
+3.2 Static behavior of tires
+Fig. 5 shows the typical lateral force behavior of an
+SE-tire. The main factors are the slip angle α and the
+wheel load FZ which both have an impact on the lateral
+force. The lateral force increases with higher wheel load,
+while with higher slip angle the lateral force converges
+towards a constant value.
+
+Lateral Friction Coeﬃcient
+
+1
+
+0.9
+
+0.8
+
+0.7
+
+0.6
+
+2
+
+4
+
+6
+
+8
+
+10
+
+Wheel Load in kN
+
+Fig. 4: Quasi-static lateral friction coeﬃcient (Reference: [5]) (Tire: 18x7-8; α = 45◦ ; v = 12 km/h); rated
+load capacity 16180 N
+
+If the slip rate is low, no hysteresis should form and
+the graph passes through the graph origin. This be-
+
+FZ is the wheel load, µ is the coeﬃcient of lateral friction and kα and kF 2 are parameters available for the
+approximation of the model to the measured data. Parameters kα and kF 2 deﬁne load-independent and loaddependent parts of the normalization term and adjust
+the inﬂuence of the slip angle on the lateral force.
+Fig. 4 shows the quasi-static lateral friction coeﬃcient that was determined by measurement. The slip
+angle α is set at 45◦ . At this setup the maximum lateral force can be achieved. The wheel load was adjusted
+in 300 N steps up to 10 kN. Higher wheel loads could
+not be measured due to high heat development in the
+tire. When the loads are low, lateral friction coeﬃcient
+shows a nearly linear dependence. When the loads are
+higher, especially when they are above the rated load
+of the tire (rated wheel load of 18x7-8 tire is 16180 N),
+the linear approximation leads to incorrect results being
+obtained because the modeled friction tends to zero and
+can also become negative. This happens under forklift
+truck safety test conditions where the wheel load can
+exceed twice the rated wheel load.
+In further examinations, it was also determined that
+the lateral friction has a wheel load under proportional
+behavior. An approximation of the measured data by an
+exponential function with an estimated parameter kF 1
+leads to more accurate results being obtained. These
+observations lead to the following approach for describing the quasi-static friction coeﬃcient:
+µ = µB · exp −
+
+FZ
+.
+kF 1
+
+Lateral Force in kN
+15
+
+10
+Unﬁltered
+FZ = 4 kN
+FZ = 8 kN
+FZ = 16 kN
+
+−50
+
+−40
+
+−30
+
+−20
+
+5
+
+−10
+
+10
+
+20
+
+30
+
+40
+
+50
+Slip Angle in
+
+◦
+
+−5
+
+−10
+
+−15
+
+Fig. 5: Lateral force of an SE-tire (Tire: 18x7-8; v = 12 km/h; α = 25 ◦ /s)
+˙
+A standardized ﬂoor coating is used in the tire test apparatus. If a ride on another surface is to be simulated,
+the coeﬃcient of friction µB must be set accordingly.
+With this addition, the model can be interpreted as
+follows:
+FZ
+·
+kF 1
+α
+kα + kF 2 · FZ
+
+FY,stat = FZ · µB · exp −
+· tanh
+
+(3)
+
+4 Dynamic tire model
+Damping eﬀects arise during a dynamic force change
+in a wheel. They appear in the measured data as a
+hysteresis, which is approximately symmetrical to the
+graph origin and is aﬀected by the speed of the wheel
+and the temporary change of the lateral force. Such behavior can be explained theoretically using the string
+model (String-Type Tire Model) [19]. The tire contact
+patch is described as an interconnection of several prestressed strings connected to tread elements and having a certain stiﬀness. The deformation that takes place
+due to the load deﬁnes the transmission of lateral force.
+During a dynamic force change the transmission characteristics of the string model can be approximated by
+a PT1 transfer behavior. In [22], examinations were car-
+
+ried out on tractor tires and the results were found to
+be consistent with PT1 transfer function behavior.
+The entire tire model can be represented as a series
+connection of a static non-linearity and a linear transmission function. Models like these are called Hammerstein models and are a simpliﬁcation of the Volterra series [14]. The general equation for the dynamic model
+can thus be formulated as follows:
+˙
+FY,dyn + T · FY,dyn = FY,stat ,
+
+(4)
+
+where T is the time constant.
+Several measurements at diﬀerent slip rates (α =
+˙
+5 . . . 90 ◦ /s) and speeds (v = 0.5 . . . 25 km/h) were carried out to verify the assumptions and determine the
+time constant. As a benchmark, the value of the hysteresis was selected when α = 0◦ , because at this point
+the change of the lateral force is at its maximum and the
+slip rate is constant. This leads to the maximal value of
+the hysteresis. Test results can be seen in Figs. 6 and 7.
+When the slip rate rises, the width of the hysteresis increases. Increasing velocity at constant slip rate
+results in a narrower hysteresis. The linear relationship
+with the slip rate conﬁrmed a proportional transmission
+characteristic with a delay of the ﬁrst order. The time
+constant T , however, is only constant for a given vehicle
+
+6
+
+4
+
+2
+
+0
+
+0
+
+5
+
+10
+
+15
+
+20
+
+25
+
+Vehicle Speed in km/h
+
+Width of the Hysteresis in kN
+
+Fig. 6: Measured width of the hysteresis at α = 0◦ as a
+function of the vehicle speed (Tire: 18x7-8; FZ = 4 kN;
+α = 25 ◦ /s)
+˙
+8
+
+5 Deformation of the tire
+
+6
+
+4
+
+2
+
+0
+
+could result in instability during a numerical calculation. Especially the need for diﬀerentiation may cause
+a simulation to fail due to the occurrence of singularities. This can be prevented in many cases by adjusting the iteration step width. The static model provides
+good stability and accuracy but only by small temporary changes in the lateral force.
+An L-test with a complete MBS model was carried out to estimate the magnitude of the slip rate.
+Rapid counter steering results in slip rates of more than
+50 ◦ /s. As shown by a PT1 transfer behavior, the shear
+force comes only with a delay, which makes extended
+steering phases necessary. It can therefore be concluded
+that only the dynamic tire model should be used to realistically assess the dynamic stability.
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+◦
+
+Slip Rate in /s
+
+Fig. 7: Measured width of the hysteresis at α = 0◦ as
+a function of the slip rate (Tire: 18x7-8; FZ = 8 kN;
+v = 15 km/h)
+that the time constant can be described by the following equation:
+T = kd · (v · 1 h/km)
+
+−kv
+
+.
+
+(5)
+
+The parameters kd and kv are estimated from measured data. The parameter kv expresses the velocity dependence of the time constant. For just one measured
+velocity this parameter is set to 0, and only the constant
+part kd is taken into account. A borderline case of this
+function occurs at a very slow speed (v → 0). In that
+case, the equation 5 leads to a singularity. In the measurement at low velocities very high values of T could
+be calculated. This case is a limitation of the model. In
+the multibody simulation of the forklift, the tire model
+is only switched on after a short straight acceleration
+phase up to a velocity above 0,05 m/s.
+The dynamic tire model leads to a more complex
+calculation process in the multibody simulation and
+
+When lateral stress develops, a deformation arises and
+leads to a displacement of the contact patch (see Fig. 8).
+This displacement of the outer wheels increases the tendency of a counterbalanced truck to tilt laterally. This
+eﬀect can be described in the multibody simulation either by a displacement of the contact patch or by a
+tilting torque. The torque method was used to simplify the implementation. The torque is a product of
+the wheel load and the displacement in the y-direction
+(see Fig. 8). The torque is heavily dependent on the
+lateral force and is approximated linearly in the model:
+MX = FZ · ∆y ≈
+
+FY
+.
+kM
+
+(6)
+
+The parameter kM is estimated from measured data
+and describes this correlation. The torque is set at zero
+for the inner wheels. Although the contact patch is
+moved, the tilt edge of the vehicle as a whole is not
+aﬀected.
+
+6 Inﬂuences of rim geometry
+The model described has symmetrical lateral force properties. According to measurements, that is not always
+the case. The diﬀerences in the deformation of the tire,
+which are dependent on the direction of the slip, could
+be clearly observed during the measurements. The inner
+ﬂange of the rim supports the tire when lateral stress
+develops and reduces the deformation. As can be deduced from Fig. 8, signiﬁcant deformation of the tire
+can reduce the contact patch and reduce transmittable
+
+Fig. 8: Tire deformation under lateral force (tire type: 18x7-8)
+7 Estimation of tire parameters
+
+It maps the dependence of the force on direction:
+1
+kr
+
+kr (FY,dyn ) =
+
+for FY,dyn < 0
+for FY,dyn ≥ 0
+
+(7)
+
+This factor diﬀers greatly from 1 only in some types
+of tires and is a product of distinct asymmetry of the
+rim and the internal tire structure. Thus, the model
+is extended by an additional nonlinearity of the linear
+transfer function. The following function describes the
+lateral force in an SE-tire:
+FY = kr (FY,dyn ) · FY,dyn
+
+(8)
+
+and therefore:
+FZ
+˙
+kr T · FY,dyn + FY,dyn =FZ · µB · exp −
+kF 1
+α
+·tanh
+kα + kF 2 · FZ
+
+·
+(9)
+
+For time discrete systems with a step size of ∆t it leads
+to following equations:
+
+FY,dynn =
+
+FY,dynn =
+·tanh
+
+T
+∆t
+
+1
+1
+T
+FY,dynn +
+FY,dynn−1 ,
+∆t
++ 1 kr
+
+T
+∆t
+
+1
+1
+FZ,n
+FZ,n · µB · exp −
+kF 1
++ 1 kr
+
+αn
+kα + kF 2 · FZ,n
+
++
+
+T
+FY,dynn−1 .
+∆t
+
+(10)
+
+·
+(11)
+
+An optimization algorithm determines all six parameters of the model simultaneously from raw data. For
+every time step in the measurement ﬁle the tire model
+is evaluated. Deviations between model and measurement of every time step are used to calculate the Mean
+Square Error (MSE) which is used as an optimization
+function. The optimization is achieved with the Generalized Reduced Gradient (GRG), wherein the starting solution must be guessed. The solver minimizes this
+function to achieve its minimum. At the end of the optimization the model parameters are obtained at once.
+Numeric optimization does not always lead to a global
+minimum of the function and can stuck in one of local
+minima. A good guess of the starting solution (model
+parameters) can reduce calculation time needed. Although prior smoothing or ﬁltering reduces the value of
+the optimization function, the impact on the estimated
+parameters is negligible. A comparison of the measurement and simulation results can be seen in Fig. 9.
+The extrapolation ability of the model was also examined. The model was not conﬁgured with the complete data set, but only up to a wheel load corresponding to half the rated load. The subsequent extrapolation showed a deviation of less than 10 % in the lateral
+force. This ensures that even when short extreme loads
+are applied in dynamic simulations, extrapolation accuracy is suﬃcient. In order to assess the quality of the
+tire model, it was necessary to deﬁne a quality measure
+that corresponded to the coeﬃcient of determination
+and was above 99 % for the model described so that
+the model has a high accuracy. The model therefore is
+FZ = 16 kN
+10
+FZ = 8 kN
+
+Measurement
+Model
+
+FZ = 4 kN
+
+5
+
+−50
+
+−40
+
+−30
+
+−20
+
+−10
+
+10
+
+20
+
+30
+
+40
+
+50
+Slip Angle in
+
+◦
+
+−5
+
+−10
+
+−15
+
+Fig. 9: Comparison of the simulation results and the measured data (Tire: 18x7-8; v = 12 km/h; α = 25 ◦ /s;
+˙
+simulation at constant slip rate, measurement starts and stops at α = 0◦ )
+8 Tire parameters
+The lateral behavior of ﬁve tire types was measured.
+Three tires (200/50-10, 150/75-8 and 18x7-8) were examined according to their dynamic properties at diﬀerent speeds. The dynamic time constant of some tires
+that were measured earlier and recycled could only be
+estimated for a velocity of v = 12 km/h. Parameters of
+the static model could be estimated in all cases.
+Variations in the inner structure of the tires of different manufacturers, tire designs as well as ﬂuctuations
+in the temperature and rubber mixture during the production can lead to ﬂuctuations of the estimated parameters. One tire came from a diﬀerent manufacturer
+and resulted in a very diﬀerent lateral behavior (see tire
+18x7-8 Manufacturer 2 in Table 2). Apparently, this tire
+was made out of a ﬂexible rubber mixture. Curve ﬁtting algorithms can also lead to ﬂuctuations of calculated parameters. Model parameters presented in this
+paper may have their validity for a speciﬁc tire model
+of a speciﬁc manufacturer and give a rough correlation
+between geometrical dimensions and estimated parameters. A speciﬁc tire type of a given manufacturer used in
+a multibody simulation should be measured. A greater
+sample size is needed to account for diﬀerent tire models of the same type and make a rough prediction of the
+tire behavior possible.
+
+A wide range of tires was selected for the measurement in order to take account of diﬀerent outer diameters, rims, load capacities and widths. Tire types 5.008, 18x7-8 and 200/50-10 have nearly the same outer
+diameter, but diﬀerent widths. This helps to estimate
+the inﬂuence of the tire geometry on the lateral behavior. Dimensions of measured tires are summarized in
+Table 1 and estimated parameters in Table 2.
+The rubber layer of the tire transfers forces from the
+vehicle to the road. The deformation capability of this
+layer inﬂuences the tire behavior. To compare diﬀerent
+tires a cross-section-coeﬃcient was deﬁned as:
+Dout − Din
+CSC =
+.
+(12)
+2·W
+It takes the width W and the height of the rubber
+bondage into account (half of the diﬀerence between
+the tire diameter Dout and rim diameter Din ).
+The parameter kF 1 describes the amount of lateral
+force that can be transferred when a tire has a given
+load. Thin and high tires with higher cross-section-coefﬁcients permit greater deformation and can transfer
+merely lighter forces to the road. According to the measurement, a thin 5.00-8 tire can transfer nearly 50 % of
+the force compared to a wider 200/50-10 tire when they
+have a given load. As shown in Fig. 11a, tires with comparable cross-section-coeﬃcients tend to have a similar
+Width
+Diameter
+Rim diameter
+Tire height
+Cross-section
+coeﬃcient
+Load capacity
+(steer wheel)
+Load capacity
+(load wheel)
+
+9
+15x4.5-8
+
+5.00-8
+
+18x7-8
+
+3.00 D-8
+
+150/75-8
+16x6-8
+
+4.33 R-8
+
+200/50-10
+6.50 F-10
+
+mm
+mm
+mm
+mm
+
+110
+376
+203
+86.5
+
+126
+459
+203
+128
+
+176
+454
+203
+125.5
+
+156
+417
+203
+107
+
+196
+452
+254
+99
+
+-
+
+0.79
+
+1.02
+
+0.71
+
+0.69
+
+0.51
+
+kg
+
+800
+
+1090
+
+1650
+
+1150
+
+1900
+
+kg
+
+1040
+
+1415
+
+2145
+
+1455
+
+2470
+
+Table 1: Dimensions and load capacity of industrial tires (DIN 7811-1 [6], DIN 7811-2 [7], DIN 7852 [8])
+
+The two parameters kα and kF 2 are used to normalize the slip angle inside the hyperbolic tangent function.
+kα normalizes the value of the slip angle by a speciﬁc
+angle. kF 2 takes the stiﬀening eﬀects of the tire load
+into account. The maximal load capacity was chosen as
+the reference load for estimating the normalization contribution of this term. Measurements show a correlation
+between the normalization terms (see Fig. 10).
+Direction-dependent parameter kr has a value of approximately 1 for wide tires and is slightly higher for
+tires with high cross-section-coeﬃcient (see Fig. 12a).
+The displacement of the contact area and therefore
+torque along the x-axis is described by the linearized
+parameter kM . This parameter has a strong correlation
+with the cross-section-coeﬃcient (see Fig. 12b). A ﬂat
+and wide tire is less ﬂexible and therefore better for
+dynamic vehicle stability.
+kv and kd were able to be estimated for dynamic
+model parameters. The time constant T at a speed of
+v = 12 km/h was estimated for all the tires. As the
+cross-section-coeﬃcient lowers, the value of the time
+constant diminishes until it reaches a value near 0.11 s.
+Measurements for more diﬀerent tires are needed
+to make rough predictions about an unknown tire. No
+measurements and therefore no assumptions were able
+
+◦
+
+to be made for tires with load capacity above 3,5 t due
+to limitations in the measurement apparatus.
+
+Contribution of wheel load in
+
+The reaction of a tire to a slip angle is described by
+the parameter kα . A tire type with higher cross-sectioncoeﬃcients can be deformed more easily along the zaxis and therefore transfer less lateral force at a given
+slip angle. Higher values of the parameter kα lead to
+a smaller argument of the hyperbolic tangent function
+and therefore lower lateral force at the given slip angle.
+Weaker inﬂuence of the slip angle (higher values for kα )
+in tires with high cross-section-coeﬃcient can be seen
+in Fig. 11b. The value of this parameter for wide tires
+is between 8◦ and 10◦ .
+
+25
+20
+15
+10
+5
+
+8
+
+10
+
+12
+
+Parameter kα in
+
+14
+◦
+
+Fig. 10: Load-dependent-term (kF 2 · FZ,nominal ) as a
+function of the parameter kα in the normalization term
+
+9 Summary
+In this paper, a SUPREM model has been set up for
+simulating SE-tires. It describes the transverse dynamic
+behavior with high accuracy. The original model, based
+on artiﬁcial neural networks, can be replaced by the
+SUPREM model without any loss of quality in approximation, but with signiﬁcantly less complexity and with
+a potential for further adaptation. SUPREM model
+showed a better approximation quality especially for
+very high and very low lateral forces due to neural
+networks limitations. In the SUPREM model, a tire
+Unit
+
+15x4.5-8
+
+5.00-8
+
+18x7-8
+Manufacturer 2
+
+18x7-8
+Manufacturer 1
+
+150/75-8
+16x6-8
+
+200/50-10
+
+kF 1
+kα
+kr
+kF 2
+kM
+
+N
+
+-
+
+31451
+10.67
+1.015
+6.58 · 10−4
+13.45
+
+25363
+14.84
+1.095
+1.65 · 10−3
+22.09
+
+30522
+16.92
+1.16
+3.44 · 10−4
+14.84
+
+50917
+9.16
+1.007
+7.87 · 10−4
+11.91
+
+49241
+7.90
+1.024
+1.70 · 10−3
+11.79
+
+55168
+9.28
+1.007
+6.58 · 10−4
+12.90
+
+kv
+kd
+Tv=12 km/h
+
+s
+s
+
+0.13
+
+0.22
+
+0.22
+
+0.39
+0.28
+0.11
+
+0.43
+0.31
+0.11
+
+0.20
+0.19
+0.12
+
+◦
+
+◦
+
+/N
+
+14
+◦
+
+50
+Parameter kα in
+
+Parameter kF 1 in kN
+
+Table 2: Estimated tire parameters
+
+40
+
+12
+
+10
+
+30
+8
+0.5
+
+0.6
+
+0.7
+
+0.8
+
+0.9
+
+1
+
+Cross-section-coeﬃcient
+
+0.5
+
+0.6
+
+0.7
+
+0.8
+
+0.9
+
+1
+
+Cross-section-coeﬃcient
+
+(a)
+
+(b)
+
+Fig. 11: (a) Parameter kF 1 (b) Parameter kα
+clear structure, the model can be easily integrated into
+many kinds of multibody simulation software without
+the need for costly additional modules.
+When several comparable studies were conducted
+with the ﬁltered and unﬁltered data, it was found that
+the noise had a low impact on the estimated parameters.
+Further studies have shown that the dynamic behavior is aﬀected by high slip rates and must be taken
+into account during stability simulations. Multiple individual measurements must be carried out at diﬀerent
+speeds to parametrize the hysteresis. The correlation of
+the slip rate with the width of the hysteresis requires
+only one parameter, so that only one measurement is
+necessary. Only one measurement is necessary if a vehicle is examined in a simulation in which approximately
+constant speeds are used.
+Further studies must be conducted to ascertain
+whether the model is applicable to other types of tires
+such as portal stacker tires or polymer rollers. The inﬂuence of rubber and inner layer design used by diﬀer-
+
+ent manufacturers should be quantiﬁed. To validate the
+multibody simulation with this tire model additional
+
+1.1
+22
+1.08
+Parameter kM
+
+Parameter kr
+
+20
+1.06
+
+1.04
+
+18
+16
+14
+
+1.02
+12
+1
+0.5
+
+0.6
+
+0.7
+
+0.8
+
+0.9
+
+1
+
+Cross-section-coeﬃcient
+
+0.5
+
+0.6
+
+0.7
+
+0.8
+
+0.9
+
+1
+
+Cross-section-coeﬃcient
+
+(a)
+
+(b)
+
+Fig. 12: (a) Parameter kr (b) Parameter kM
+URL

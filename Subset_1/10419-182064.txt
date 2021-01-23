@@ -1,0 +1,9923 @@
+
+INTRODUCTION
+
+“I think the next (21st) century will be the century
+of complexity” [66]. This statement by Stephen W.
+Hawking [66] from the year 2000 describes the current
+situation in science and practice. Maguire, Allen
+and McKelvey [92] describe that “complexity is one
+of the fastest growing topics” in scientific research.
+In practice, the same situation can be observed.
+Complexity in manufacturing companies and especially
+in product development has continuously increased
+in many industries within the last years [44, 83, 89,
+149, 132]. The reasons are social, market-specific,
+technological and economical changes, such as more
+and more demanding customers, market’s globalization,
+dynamic market environment, technology innovation
+and uncertainty. Manufacturing companies have to
+face these trends and cannot escape [102, 103, 112,
+144]. Increasing global competition and customer´s
+individual needs force companies to offer a diversified
+product portfolio in the market, by developing different
+product variants [3, 32, 45, 65, 35]. A diversified
+product portfolio with many different product variants
+causes an increase in complexity [26], especially
+in products and in processes [8]. Other reasons for
+increasing complexity in product development are the
+increasing number of product launches in the market,
+development and innovation is an important key factor
+for business success. For company´s strategy, product
+development became a central importance [36, 39, 63].
+Increasing complexity is one of the biggest tasks that
+manufacturing companies have to face and to handle
+today [44]. According to Warnecke and Puhl [147],
+company´s complexity can only be managed if it is
+identified. Thus, complexity understanding becomes
+more and more important in manufacturing companies
+[69].
+According to Warnecke [146], complexity can be
+seen as a phenomenon and evolutionary process, which
+is challenging especially for science and engineering.
+Complexity is intensified through innovations in
+products and processes [146]. In scientific research,
+there is no general understanding as well as explicit,
+universal and widely accepted definition of the term
+complexity [26, 44, 118]. Complexity is “in the eye
+of the beholder” [100] and depends on individual´s
+experience and knowledge [41]. The origin of the term
+complexity comes from the Latin words “complexus”
+and “complecti”, which means “extensive, interrelated,
+confusing, entwined or twisted together” [44, 54, 60,
+113]. The term “complexity” is therefore often used
+synonymously with the term “complicated” [44, 54],
+but the terms have specific characteristics and different
+meanings.
+Within a company, product development is one of
+the most complex tasks and uncertain processes [12,
+39] and has the biggest influence on a company’s
+complexity [83]. For a new global economy’s success,
+product development is the core process according to
+Ragatz et al. [116]. Product development´s objective is
+“to translate an idea into a tangible physical asset”
+[39]. The time for product development of industrial
+goods has strongly reduced during the last years
+due to increasing globalization, customer’s behavior
+change and hardly predictable market fluctuations
+[83]. Product development process is often the longest
+part of bringing a product to market [57] and is
+confronted with several factors such as demand variety,
+uncertain objectives, dynamics, high time pressure
+and restricted resources [151]. Generally, complexity
+in product development comes from a variety of
+internal and external sources [40], called complexity
+drivers. Complexity drivers play a significant role for
+complexity management. They describe the complexity
+in a system and help to evaluate and handle it [142].
+For managing a system’s complexity, an optimum fit
+between internal and external complexity is needed
+[130, 141]. The management of complexity is a strategic
+issue for companies to be competitive [102]. For an
+effective and target oriented complexity management,
+information is needed [39].
+Based on scientific research, information can be
+gathered by conducting literature research or empirical
+studies. To verify existing knowledge or theories and
+
+to identify communalities and differences, the results
+from literature and the real world are compared.
+In literature, several empirical studies regarding
+complexity management in various fields of industries
+and regions/countries already exist. They are focused
+on different fields in the company and along the value
+chain and were conducted in the time period between
+1999 and 2015 (see chapter 2.3). There are also
+empirical studies regarding complexity management
+in the field product development and have been done by
+Li et al. [88], Kim and Wilemon [78], Newman [106],
+Chronéer and Bergquist [34], Kim and Wilemon [79]
+and Grussenmeyer and Blecker [62]. The data collection
+was conducted in China, United States of America,
+Sweden, Italy and Germany and in 14 different fields
+of industries (e.g. engineering, electrical, medical
+industry, chemical & pharmaceutical, clothing, etc.).
+Based on these studies, the impact of environmental
+complexity and the choice of management control
+systems and their effects on product development
+and their processes are investigated. Furthermore, the
+sources, which cause complexity and the consequences
+when complexity arises in new product development and
+especially in development projects, are identified and
+analyzed to increase transparency and understanding
+for an effective complexity management. In addition,
+the complexity level in new product development is
+analyzed and the question of how complexity can be
+reduced through standardization and modularization
+is discussed.
+For an effective complexity management, it is
+necessary to identify the complexity sources, called
+complexity drivers, and their effects first [142]. None
+of the previous empirical studies regarding complexity
+management in product development is concerned with
+the identification and analysis of complexity drivers
+and their effects. Furthermore, no comparison between
+the empirical findings and literature has been done in
+the previous empirical studies.
+The purpose of this paper is to close this research
+gap by an empirical research regarding complexity
+drivers and their effects to verify scientific findings
+and to compare the literature and the empirical results
+to identify similarities and differences. The perception
+between science and practice and their discrepancy is
+described and processed. A further contribution of this
+empirical study is to develop additional knowledge
+(scientific based – practice driven) according to
+complexity in product development for science and
+practice within a systematical and target-oriented
+data collection and the succeeding comparison of the
+literature with the empirical results.
+From scientific perspective, this empirical research
+establishes a connection between scientific research
+and the real world by answering the research questions
+(see chapter 2) within the systematical gained empirical
+data. It closes a currently existing gap in scientific
+literature by comparing the literature and empirical
+between the theoretical and the empirical results, the
+theoretical findings can also be confirmed, advanced
+or progressed within this empirical research. This
+study presents a theoretical overview about complexity
+drivers in product development and the existing
+empirical researches and gives the researcher an
+overview about what is already known in practice
+about these issues and practice´s tendencies (empirical
+findings). Furthermore, the researcher gains some detail
+information about the research and data collection
+methodology, the objectives and the sample description
+to increase transparency. This enables the researcher to
+reproduce the findings. Based on this study, researchers
+can build new ideas, theories and hypotheses for their
+own research. Within this research, the gaps for future
+research are pointed out.
+From practical perspective, this empirical study
+gives the practitioner an overview about complexity
+perception in product development by other practitioners.
+Furthermore, the practitioner receives a differentiated
+overview of complexity in product development,
+which is perceived in different fields of industries.
+This study also answers the following manager´s
+questions “What complexity sources (drivers) have a
+high influence on product development´s complexity
+and thus are relevant for the company?” and “What
+effects do high complexity within the company have
+on product development?”, by providing an overview
+about the main and relevant complexity drivers, which
+were assigned by the respondents with a strong or very
+strong influence on product development´s complexity.
+Beyond, the practitioner gets an overview about the
+main topics and properties in product development with
+high complexity, which have a strong or very strong
+influence on product development’s performance as
+said so by the respondents. This overview can increase
+transparency for the practitioner.
+As already mentioned, different complexity drivers,
+focused on product development, are described in
+literature by several authors. To compare literature´s
+findings with the practice, this empirical research was
+conducted. This research paper is structured as follows:
+In section 2, the paper gives a literature overview about
+the complexity drivers in product development and
+their effects on company´s complexity. Furthermore,
+an overview of existing empirical research in the field
+of complexity management is described. The research
+methodology and objectives, questionnaires´ design as
+well as the data collection methodology and sample
+description are presented in section 3. The empirical
+findings are described in section 4. Furthermore,
+the results are compared with literature to identify
+commonalities and differences. Section 5 concludes
+the paper with implications for future research and
+presents this research´s limitations.
+
+2
+
+3
+
+LITERATURE REVIEW
+
+2.1
+
+Research methodology and boundary
+definition
+This paper´s purpose is to compare literature´s
+findings regarding specific complexity drivers and
+their effects on company´s complexity, especially in
+product development, with the real world to increase
+transparency and knowledge for science and practice by
+identifying similarities and differences. Furthermore,
+an overview about existing empirical studies in the field
+complexity management is presented. The empirical
+study was conducted in the manufacturing industry of
+Germany.
+Before starting an empirical research, the existing
+literature regarding the complexity drivers and their
+effects as well as the previous empirical studies must
+be reviewed. The following chapter presents a literature
+review in these 3 issues. For this literature review,
+we used the methodology of Fink [48] and defined 2
+research questions:
+RQ1: What complexity drivers currently occur in the
+field product development in manufacturing
+companies in scientific literature? What effects
+do complexity drivers generally have on
+company´s complexity?
+RQ2: What empirical studies in the field complexity
+management currently exist in scientific
+literature? What objectives do they have and
+what research methodologies are applied?
+What empirical studies concern with specific
+complexity drivers and their effects?
+Next, we defined the search terms and databases by
+following the methodology of Vogel and Lasch [142]
+and Vogel [143]. The search terms are formulated
+based on the research questions. For search terms´
+formulation, we used a particular grammar and logic,
+and combined the key words with specific Boolean
+operators (AND, OR and NEAR) analogously. The
+finalized search terms are created through an iterative
+process in order to identify all important literature
+sources. To extend the amount of relevant literature,
+the literature search was performed in English- and
+German-language literature and 8 different databases,
+which are specialized in science and economics:
+EBSCOhost, Emerald, GENIOS/WISO, Google
+Scholar, IEEE Xplore, JSTOR, ScienceDirect and
+SpringerLink. Most of the databases are connected with
+other databases. For example, EBSCOhost and Google
+Scholar are connected with the databases Emerald,
+IEEE Xplore, ScienceDirect and SpringerLink. Since
+we want to compare our empirical findings with the
+existing literature in the same time period, the time
+period of our literature research was restricted between
+1900/01/01 and 2015/12/31, because our empirical
+study was performed in the years 2015 and 2016.
+the field complexity management: 26,699 literature
+sources) and comprises research papers from journals,
+conference proceedings, books, essays and PhD theses.
+Several literature sources were found more than once.
+Answering the first and second research question,
+the existing literature was analyzed, evaluated and
+synthesized based on the research questions by using
+qualitative data analysis techniques to identify the
+relevant literature sources. Literature research always
+accumulates many publications, but only a few are
+relevant for scientific research [48]. Synthesizing the
+results of the literature research is therefore necessary
+to identify the relevant literature sources. For the
+qualitative data analysis, we used the methodology of
+Vogel and Lasch [142], which is described in detail in
+their publication. In the following subchapters 2.2 and
+2.3, the results of our literature research are described.
+2.2
+
+Complexity drivers in product development
+and their effects on company´s complexity
+The result of our literature research is a systematic,
+explicit and reproducible literature review about
+complexity drivers in manufacturing companies and
+along the value chain, published by Vogel and Lasch.
+In their literature review, Vogel and Lasch identified
+different definitions about complexity drivers and
+generated a more general definition of complexity
+drivers [142]. Further, they described a variety
+of methods for complexity driver´s identification,
+operationalization, and visualization and presented
+several different complexity drivers, which occur in
+manufacturing companies and along the value chain,
+including the field product development. Based on
+literature, complexity drivers have a direct influence
+on the company and the total value chain [130]. The
+knowledge about complexity drivers is necessary
+to develop an effective complexity strategy [135].
+As already mentioned, product development has the
+biggest influence on a company’s complexity [83].
+The first step in developing and implementing a
+target oriented complexity management in a company
+and finally in product development is to identify the
+corresponding complexity drivers [49, 53, 112]. Keuper
+[76] followed this argumentation and described that
+the handling of company´s complexity depends on
+the complexity drivers. In their literature review,
+Vogel and Lasch [142] defined complexity drivers as
+“factors, which influence a system´s complexity and
+company´s target achievement. They are responsible
+for increasing system´s complexity level and help to
+define the characteristics or the phenomenon of a
+system´s complexity. Complexity drivers are influenced
+by one another that is by internal or external drivers,
+and cannot be reduced completely to another one”.
+According to their origin, complexity drivers can
+be separated in internal and external drivers [13, 74,
+154]. Furthermore, internal complexity drivers can be
+
+differentiated in correlated and autonomous complexity
+drivers [15]. Correlated complexity drivers have a direct
+correlation to external complexity and are influenced by
+it. Autonomous complexity drivers are not influenced
+by external factors and the company itself determines
+them. Internal and external complexity drivers are
+connected directly and induce system´s complexity [9,
+38, 56, 58, 59]. They cannot be separated selectively
+and they cannot be operationalized [18, 56, 123, 129].
+In the literature review from Vogel and Lasch [142],
+17 publications regarding complexity drivers in product
+development were found between 1998 and 2015. No
+publications are found before 1998. Sixty-five percent
+of the publications were published between 2010 and
+2015. This trend shows an increased interest throughout
+the last years and it can be derived that complexity
+drivers in product development become more and more
+important in scientific research.
+Furthermore, 107 different complexity drivers in
+product development were found in the literature
+review from Vogel and Lasch [142]. The identified
+complexity drivers were clustered in different
+main complexity driver categories depending on
+their origin, characteristics and influence on other
+drivers. The classification system consists of 3 main
+groups (external complexity, internal complexity
+and general complexity), 4 subcategories (society
+complexity, market complexity, internal correlated
+complexity and internal autonomous complexity) and
+22 main complexity driver categories (society, demand,
+competitive, supply, technological external, target,
+customer, product & product portfolio, technological
+internal, product development, supply process, service,
+remanufacturing, organizational, process, production,
+planning, control & information, resource, logistics,
+sales & distribution, general complexity). As a result
+of complexity drivers´ clustering, 28 external (26%), 30
+internal correlated (28%) and 49 internal autonomous
+complexity drivers (46%) were found and identified in
+literature. Most of the identified complexity drivers
+were assigned to the main group internal complexity.
+Thus, this group is mostly influenced by complexity
+and must be handled first [142].
+Table 1 presents the identified complexity drivers
+in the field product development and their literature
+occurrence. The most referred complexity drivers
+are organizational complexity (N: 6), process
+complexity (N: 5) and product structure/ design (N:
+5). As also seen in Table 1, some authors appointed
+more complexity drivers than other authors in the
+field product development. The amount of complexity
+drivers in a system, especially in product development,
+reflects the level of difficulty in managing a system`s
+complexity, because complexity drivers have a high
+influence on a system´s complexity. The number of
+identified complexity drivers in product development
+ranges from 2 up to 38 (see Table 1) and depends
+on the situation and the eye of the beholder. In the
+
+supply process complexity, service complexity and
+remanufacturing complexity, no specific complexity
+drivers were appointed by the authors. It seems
+that these categories are not so relevant for product
+development from literature’s point of view. Based on
+these results, in practice, the same or other complexity
+drivers can occur from our point of view. For example,
+the category remanufacturing complexity could
+be relevant for product development´s complexity,
+because in product development, product’s structure,
+materials and functions are defined and these are
+relevant for product´s remanufacturing. Thus, an
+empirical research must be performed to identify new
+complexity drivers or to confirm the existing drivers.
+
+In the end, the empirical results are compared with the
+results from literature to identify communalities and
+differences. For designing the questionnaire of our
+empirial research, only the literature sources, which
+were published before 2015 were considered, because
+the empirical research started already in 2014 with the
+pretest. After the pretest, the final questionnaire started
+at the beginning of the year 2015. The publications from
+Bosch-Rekveldt et al. [19] and Oyama, Learmonth
+and Chao [109] were not yet published at the time the
+questionnaire started and thus their findings were not
+implemented in questionnaire’s design.
+
+External
+complexity
+
+General market-related complexity
+Market complexity (general)
+Market´s change
+Market´s globalization
+Market´s dynamics
+Market´s protectionism
+Demand complexity
+Demand complexity (general)
+Individuality of customer demands
+Competitive complexity
+Market
+complexity
+Competitive complexity (general)
+Number and strength of competitors
+Competitive pressure
+Supply complexity
+Technological complexity (external)
+External technological complexity (general)
+Technological progress
+Technological innovations & availability
+New technologies and materials
+
+●
+●
+●
+
+●
+
+●
+●
+
+●
+●
+●
+
+●
+●
+
+●
+●
+●
+●
+
+●
+
+●
+
+●
+●
+
+●
+
+●
+●
+●
+
+●
+●
+●
+
+●
+●
+●
+●
+
+Literature occurrence (Total)
+
+2
+1
+
+●
+●
+
+1
+1
+3
+1
+1
+1
+2
+1
+1
+1
+1
+1
+2
+
+3
+1
+1
+1
+1
+
+●
+●
+
+●
+
+Oyama, Learmonth and Chao [109]
+
+Bosch-Rekveldt et al. [19]
+
+Thiebes and Plankert [139]
+
+Jensen, Bekdik and Thuesen [72]
+
+Lucae, Rebentisch and Oehmen [90]
+
+Budde and Golovatchev [28]
+
+Zhang and Yang [155]
+
+Schömann [127]
+
+Eigner, Anderl and Stark [43]
+
+ElMaraghy et al. [44]
+
+Grussenmeyer and Blecker [61]
+
+Giannopoulos [53]
+
+Dehnen [40]
+
+Wangenheim [145]
+
+Complexity driver category and its drivers
+Social framework *
+Value change & value awareness
+Environmental complexity (general)
+Dynamic & change of company´s environment *
+Ecological conditions / factors
+Legal factors
+Society
+Political framework conditions
+complexity
+Country-specific requirements *
+Change of populations structure
+Standards and regulations
+Turbulences in company´s environment
+Uncertainty in company´s environment *
+Interdependencies between environmental factors
+
+Kim and Wilemon [77]
+
+Origin
+
+Komorek [82]
+
+Explanation:
+* Complexity drivers, which are out of focus according to
+questionnaire´s design, because they were published after
+the year 2014 (Focus for questionaire´s design: complexity
+drivers, which were published between 1998 – 2014)
+
+Krause, Franke and Gausemeier [83]
+
+Table 1: Overview of the main complexity drivers in the field product development
+and their literature occurrence
+
+●
+
+●
+
+2
+2
+1
+
+1
+2
+1
+
+●
+
+Literature occurrence (Total)
+
+Oyama, Learmonth and Chao [109]
+
+Bosch-Rekveldt et al. [19]
+
+Thiebes and Plankert [139]
+
+Lucae, Rebentisch and Oehmen [90]
+
+Jensen, Bekdik and Thuesen [72]
+
+Budde and Golovatchev [28]
+
+Zhang and Yang [155]
+
+Schömann [127]
+
+ElMaraghy et al. [44]
+
+Eigner, Anderl and Stark [43]
+
+Grussenmeyer and Blecker [61]
+
+Giannopoulos [53]
+
+Dehnen [40]
+
+Wangenheim [145]
+
+Complexity driver category and its drivers
+Target complexity
+
+Kim and Wilemon [77]
+
+Origin
+
+Komorek [82]
+
+Explanation:
+* Complexity drivers, which are out of focus according to
+questionnaire´s design, because they were published after
+the year 2014 (Focus for questionaire´s design: complexity
+drivers, which were published between 1998 – 2014)
+
+Krause, Franke and Gausemeier [83]
+
+6
+
+2
+
+Amount of different targets *
+
+●
+
+1
+
+Conflict between different targets *
+
+●
+
+1
+
+Ambiguity of targets *
+
+●
+
+1
+
+Customer complexity
+●
+
+Customer structure
+
+1
+
+Product & product portfolio complexity
+●
+
+Product complexity (general)
+
+●
+
+●
+
+●
+
+●
+
+Product portfolio complexity (general)
+
+4
+
+●
+
+2
+
+Product variety
+
+●
+
+●
+
+●
+
+●
+
+Product range / portfolio
+
+●
+
+●
+
+●
+
+●
+
+Product structure / design
+
+●
+
+Product technology
+
+●
+
+●
+
+●
+
+4
+4
+
+●
+
+5
+
+●
+
+1
+●
+
+Component type
+Variety and property of parts and modules
+
+●
+
+Variety and property of the applied materials
+
+●
+
+1
+
+●
+
+●
+
+●
+
+4
+1
+
+Quality standards *
+Internal
+correlated
+complexity
+
+1
+
+Conflicts between different standards *
+Internal
+complexity
+(Part I)
+
+●
+●
+
+1
+
+Technological complexity (internal)
+●
+
+Technology complexity (general)
+
+●
+
+●
+
+4
+1
+●
+
+1
+
+●
+
+New technologies *
+Number of different applied technologies
+
+●
+
+●
+
+Technology change / innovation
+
+1
+
+●
+
+1
+
+Technological uncertainty *
+Hardware and software complexity (general)
+
+●
+
+1
+
+Type of data medium
+
+●
+
+1
+
+Size of data medium
+
+●
+
+1
+
+Type of interfaces
+
+●
+
+1
+
+Amount of interfaces
+
+●
+
+1
+
+Criteria of hardware and software tests
+
+●
+
+1
+
+Product development complexity
+Development complexity (general)
+Development program´s complexity
+Applied methods or instruments
+Supply process complexity
+Service complexity
+Remanufacturing complexity
+
+●
+
+●
+●
+
+2
+1
+
+●
+
+complexity
+(Part II)
+
+●
+
+●
+●
+●
+●
+●
+●
+●
+●
+
+●
+
+●
+
+●
+●
+●
+
+●
+
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+●
+●
+●
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+●
+●
+
+●
+●
+●
+
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+6
+2
+1
+1
+1
+1
+1
+3
+2
+1
+1
+2
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+5
+1
+1
+2
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+●
+●
+
+Literature occurrence (Total)
+
+Oyama, Learmonth and Chao [109]
+
+Bosch-Rekveldt et al. [19]
+
+Thiebes and Plankert [139]
+
+●
+
+Lucae, Rebentisch and Oehmen [90]
+
+Jensen, Bekdik and Thuesen [72]
+
+Zhang and Yang [155]
+
+●
+
+Budde and Golovatchev [28]
+
+Schömann [127]
+
+Eigner, Anderl and Stark [43]
+
+Grussenmeyer and Blecker [61]
+
+●
+
+●
+
+ElMaraghy et al. [44]
+
+●
+●
+
+Giannopoulos [53]
+
+Dehnen [40]
+
+Wangenheim [145]
+
+Complexity driver category and its drivers
+Organizational complexity
+Organizational complexity (general)
+Organization´s structure
+Deficits in organization structure *
+Organization´s / Company´s size
+Company´s location *
+Company´s management *
+Business segment / industrial sector
+Company´s strategy (strategical complexity)
+Complexity between cooperation partners
+Force within the company *
+Handling of risks, uncertainty and incidence *
+Employee complexity (general)
+Employee experience *
+Employee qualification *
+Employee behavior *
+Number of tasks *
+Task´s variety *
+Dependencies between different tasks *
+Number of different languages in the company *
+Number of different nationalities in the company *
+Number of different time zones *
+Number of joint-ventures *
+Number of contractual partner *
+Number of different financial sources *
+Confidence in contractual partners *
+Internal
+Lack of transparency (general)
+autonomous
+Lack of cost transparency
+complexity
+Lack in consistency of activities
+Process complexity
+Process complexity (general)
+Variety of processes
+Number of process interfaces *
+Production complexity
+Production complexity (general)
+Production structure
+Number of production locations *
+Manufacturing technology
+Uncertainties in production methods *
+Maintenance complexity (general)
+Planning, control and information complexity
+Planning, control and information complexity (general)
+Project time *
+Time pressure in project planning *
+Project team *
+Lack in strategic planning
+Organization´s information technology systems
+Resource complexity
+Resources shortage *
+Logistics complexity
+Supply chain complexity (general)
+Sales & distribution complexity
+Distribution complexity (general)
+Marketing complexity (general)
+
+Kim and Wilemon [77]
+
+Origin
+
+Komorek [82]
+
+Explanation:
+* Complexity drivers, which are out of focus according to
+questionnaire´s design, because they were published after
+the year 2014 (Focus for questionaire´s design: complexity
+drivers, which were published between 1998 – 2014)
+
+Krause, Franke and Gausemeier [83]
+
+Complexity drivers in product development: A comparison between literature and empirical research
+
+1
+2
+
+●
+
+1
+
+General complexity
+
+●
+●
+
+Variety / Multiplicity
+Dynamics
+Total amount of complexity drivers cited in literature source: 7
+
+5
+
+6
+
+8
+
+8 25 7
+
+4
+
+4 10 13 2
+
+1
+1
+2
+
+7
+
+and its origin within the company [73]. In literature,
+the authors describe several effects of high complexity.
+Furthermore, effects of high complexity are divided in
+different categories, although the differentiation in 2
+categories is preferred in literature.
+For example, Meyer [101] divides the effects of
+high complexity in 2 categories: general effects and
+effects on company´s cost level. Keuper [76] specifies
+the effects into cost effects and divides them also
+in 2 categories: direct costs (e.g. costs for product
+development or prototype testing) and time-delayed
+costs (e.g. cost for employees or data processing).
+Schuh and Schwenk [129], Schuh [130] and Thiebes
+and Plankert [139] divide the effects of high complexity
+also in the 2 categories direct effects (e.g. costs for
+product and product development process or quality
+management) and indirect effects (e.g. product
+cannibalization or distributions system´s effectiveness).
+However, the divisions made by the already mentioned
+authors are fairly equal to Keuper´s classification. In
+contrast, Gießmann [54] divides the effects of high
+complexity into 4 main categories: time (e.g. time for
+quality checks or process time), quality (e.g. process
+balance or adherence to deadlines), costs (e.g. direct
+costs or indirect costs), and flexibility (e.g. design
+flexibility or process flexibility). Furthermore, Meyer
+[101] divides the effects of high complexity into 11 main
+categories: procurement (e.g. inventory or resource
+planning), research and development (e.g. development
+process of new products or product tests), costs (e.g.
+development costs or coordination costs), logistic (e.g.
+inventory or amount of required resources), marketing
+(e.g. pricing or product reclamation), product (e.g.
+product design), production (e.g. amount of required
+tools or controlling effort), process (e.g. process
+planning and controlling or coordination effort), total
+company (e.g. quality or efficiency), management
+and controlling (e.g. calculation effort or economy)
+and other parts (e.g. delivery time or supplied goods
+or resource variety). Wildemann [151], Benett [10],
+Schuh and Schwenk [129] and Schuh [130] assign the
+complexity effects based on variety to the specific parts
+of the value chain and describe therefore 7 categories:
+supplier (e.g. outsourcing complexity), research and
+
+development (e.g. effort for product development or
+product tests), procurement and logistics (e.g. stocks
+or material staging), production (e.g. quality or
+preproduction costs), distribution (e.g. marketing costs
+or coordination effort), distribution channel (e.g. costs
+for product handling or forecast´s accuracy) and aftersales service (e.g. stockpiling of spare parts or training
+for staff members).
+For effect´s classification, we analyzed the specific
+effects from different authors and created intersections
+between the mentioned complexity effects. In general,
+we found out that most of the mentioned complexity
+effects can be aggregated in 4 main categories. Keuper
+[76], Schuh and Schwenk [129], Thiebes and Plankert
+[139], Gießmann [54], Meyer [101], Wildemann [151],
+Benett [10] and Schuh [130] assigned complexity
+effects under the categories time, quality and costs.
+Gießmann [54] extended the main categories by adding
+the category flexibility. In our general framework, we
+defined 4 main categories for the complexity effects,
+based on literature: time, quality, costs and flexibility.
+Based on the already mentioned categories from
+different parts of the value chain, which were found
+in literature, we defined a more general framework
+for identification, analyzing and evaluation of the
+complexity effects along the value chain. In general, the
+value chain is separated in 7 different fields, according
+to Vogel and Lasch [142]: product development,
+procurement/purchasing, logistics, production, order
+processing/distribution/sale, internal supply chain and
+remanufacturing (see Fig. 1).
+This framework is the basis for identification,
+analysis and evaluation of the complexity effects in
+product development within our empirical study,
+because the field product development is also a part of
+the value chain.
+2.3
+Overview of existing empirical researches
+For a researcher, it is important to review existing
+empirical studies in the same or a similar scientific
+area before starting an empirical research, because it
+allows him to get an overview about their objectives,
+research methodologies and findings [91]. Theories and
+statements in literature and practice can change over
+time, so it is important to determine and to review the
+practical side by an empirical research [71].
+
+Complexity effect´s main categories
+Time
+Product
+Development
+
+Procurement /
+Purchasing
+
+Quality
+
+Logistics
+
+Costs
+
+Production
+
+Order Processing /
+Distribution / Sale
+
+Flexibility
+Internal
+Supply Chain
+
+Remanufacturing
+
+Figure 1: General framework for identification, analysis and evaluation of the complexity effects
+performed analogously to the literature research about
+complexity drivers and their effects (see chapter 2.2).
+The objective was to identify all existing empirical
+researches concerning complexity management
+in manufacturing companies and focusing on
+complexity drivers and their effects on company´s
+complexity during the last years. The literature
+research resulted in 72 different empirical studies in
+the time period between 1999 and 2015, which are
+focused on complexity management. These studies
+were analyzed and synthesized regarding their content,
+research objectives, focus, field of industry, region/
+country, research period and applied data collection
+methodology.
+The conducted empirical researches analyzed
+company’s complexity with different objectives, data
+collection methodologies and focuses. Table 2 presents
+the results of our literature analysis.
+The empirical studies are focused on 8 different
+fields: general in manufacturing companies (N: 32;
+44%), product development (N: 6; 8%), production
+(N: 3; 4%), logistics (N: 5; 7%), order processing /
+distribution / sale (N: 4; 6%), internal supply chain (N:
+16; 22%), remanufacturing (N: 2; 3%) and other fields
+(N: 4; 6%) (see Table 2). Most of the empirical studies
+are focused on the fields general in manufacturing
+industries and internal supply chain. The most applied
+data collection methodologies are questionnaires (N:
+37) and expert interviews (N: 41).
+During our literature analysis, we identified
+13 different empirical studies, which are focused
+on complexity drivers, in the fields general in
+manufacturing companies (N: 3), production (N:
+2), logistics (N: 2), order processing, distribution
+and sale (N: 2), internal supply chain (N: 2) and
+remanufacturing (N: 2). However, no empirical study
+regarding complexity drivers and their effects in
+product development exists in literature.
+Table 2 shows that previous empirical studies
+regarding product development have been done by the
+following 6 authors: Li et al. [88], Kim and Wilemon
+[78, 79], Newman [106], Chronéer and Bergquist [34]
+and Grussenmeyer and Blecker [62]. The empirical
+studies were conducted in different countries and fields
+of industries between the time period 2005 and 2013.
+In these studies, the authors pursued also different
+objectives.
+In their empirical study, Li et al. [88] analyzed the
+impact of environmental complexity on the choice
+of management control systems and their effects on
+product development and process decisions. The study
+was conducted in China in the year 2002 by using
+questionnaires and comprises 9 different fields of
+industries: Engineering, electrical, metal & materials,
+chemical & pharmaceutical, food, clothing & textile,
+telecommunication, commercial products and other
+fields of industries.
+
+9
+
+Kim and Wilemon [78, 79] published 2 papers with
+results from their empirical researches. In their first
+study, they identified and analyzed the conditions,
+which cause complexity in new product development
+to increase the understanding of an effective
+complexity management. Furthermore, they identified
+and analyzed methods for complexity handling. The
+second study was done with the objective to increase
+the understanding of the consequences in new product
+development projects when complexity arises and
+the competitive advantages for companies, which
+manage complexity effectively. The 2 studies were
+conducted in the USA, especially in the states of
+New York and Connecticut and comprised 5 different
+fields of industries: Engineering, electrical, industrial
+photographic paper, medical industry, heating and
+ventilating as well as air conditioning industry. In their
+empirical studies, the methodology expert interviews
+was used for data collection. None information
+regarding the research period was mentioned in the
+publications and no complexity drivers were identified.
+Newman [106] analyzed the complexity of a global
+new product development process and discussed the
+question how complexity can be reduced through
+component´s standardization and modularization. The
+study was done by using expert interviews. Regarding
+research period, field of industries and region, no
+information was given.
+Chronéer and Bergquist [34] identified and analyzed
+the complexity regarding research and development
+projects. The study was conducted in Sweden and
+comprised 6 different fields of industries: Metal, rubber
+& plastics, chemical, papers, mining and food & dairy.
+For data collection, they combined the 3 methodologies
+expert interviews, case studies and observations.
+None information regarding the research period was
+mentioned in literature.
+Another empirical study in the field of product
+development was done by Grussenmeyer and Blecker
+[62]. The study was conducted in Germany and Italy
+in the year 2011. The objective of their study was the
+analysis of project´s complexity level in new product
+development and the evaluation of a specific complexity
+management in product development. In their research,
+Grussenmeyer and Blecker [62] used questionnaires for
+data collection. Regarding the fields of industries, none
+information was mentioned in literature.
+Table 3 summarizes the results of our analysis
+according to the previous empirical researches
+regarding complexity management in the field product
+development. The table shows a list of current existing
+empirical studies and gives an overview of their
+specific research period, region, field of industries and
+applied data collection methodologies. Furthermore,
+the existing empirical studies are analyzed and
+evaluated in comparison with the objectives of our
+empirical study regarding complexity management in
+product development. The evaluation is based on the
+following 3 criteria: fulfilled (+ +), partial fulfilled (+)
+
+Identification of management´s complexity
+perception in the company.
+Analysis of the question how much complexity really
+costs.
+Analysis of complexity in the automotive industry.
+
+Identification and analysis of the significant
+dimensions of product portfolio complexity.
+
+PricewaterhouseCoopers
+(2006) [cited in 127]
+Scheiter, Scheel and Klink
+[121]
+Schuh et al. [131]
+
+Closs et al. [37]
+
+Analysis of capitalizing based on complexity, its
+increase and effective handling.
+
+Schoenherr et al. [125]
+
+Identification and analysis of enterprise systems
+complexity.
+Identification of the elements, which contribute to
+Bosch-Rekveldt et al. [20]
+project complexity.
+
+Palmisano [110]
+
+Identification and analysis of project managers´
+Maylor, Vidgen and Carver
+perceptions regarding managerial complexity and
+[98]
+what makes a project complex to manage.
+Identification of complexity factors and their
+Bayer [7]
+influences in different company divisions during new
+product development.
+Analysis of company’s complexity and
+Gießmann and Lasch [55]
+demonstration of the relevance for organizations.
+
+Analysis of complexity in the company.
+
+Eichen et al. [42]
+
+Novak and Eppinger [108]
+
+Analysis of the connection between product
+complexity and vertical integration.
+Identification and analysis of the aspects of
+Chapman and Hyland [33] complexity regarding product, process, technological
+and customer interface.
+Identification of the influences on complexity and
+Purle [114]
+resources induced by company growth.
+
+G
+
+Identification of product complexity’s influence on
+customer´s benefit.
+
+Beutin [11]
+
+Automotive
+
+Automotive / Engineering
+
+Engineering / Electrical / Metal / Petroleum
+& Plastics / Chemical / Leather, Glas,
+Ceramic, Pit & Quarry / Transport
+
+Medical Industry
+
+Field of industry
+
+G
+
+Germany
+Worldwide
+(in 60 countries)
+
+----Engineering
+33 Industries in the sectors: public,
+communications, industrial, distribution,
+financial services
+
+G
+G
+G
+
+Engineering
+Process Engineering
+
+G
+
+G
+
+G
+
+Automotive
+Automotive / Engineering / Optics /
+Computer Industry / Telecommunication /
+Aircraft
+
+G
+
+G
+
+---
+
+09/2009 –
+01/2010
+
+---
+
+---
+
+---
+
+2005 - 2006
+
+---
+
+---
+
+---
+
+---
+
+12/2001 12/2002
+
+---
+
+---
+
+---
+
+03/1998 07/1998
+
+1990
+
+Research´s
+period
+(mm/yyyy)
+
+---
+
+Germany
+
+Germany
+
+---
+
+USA
+
+---
+
+---
+
+---
+
+G
+
+Worldwide
+
+---
+
+---
+
+Germany
+
+USA, Europe,
+Japan
+Sweden, Ireland,
+Italy, Netherlands,
+UK and Australia
+
+Germany
+
+USA,
+Germany
+
+State of Texas,
+USA
+
+Region / Country
+
+G
+
+---
+
+Information Technology / Biotechnology /
+Material Industry
+
+G
+
+G
+
+---
+
+G
+
+G
+
+G
+
+Identification of organizational responses to
+environmental complexity.
+
+Focus
+
+Ashmos, Duchon and
+McDaniel [5]
+
+(N: 32)
+(N: 6)
+(N: 3)
+(N: 5)
+(N: 4)
+(N: 16)
+(N: 2)
+(N: 4)
+
+Research objectives
+
+General in manufacturing companies
+Product Development
+Production
+Logistics
+Order Processing / Distribution / Sale
+Supply Chain internal
+Remanufacturing
+Other Field
+
+Author(s)
+
+G
+PD
+PR
+L
+OPD
+SC
+R
+OF
+
+Explanation according to field of industry, region/country, research´s period and
+sample size:
+--None information referred
+X
+Applied, but no sample size referred
+XX
+No data collection method and sample size referred
+
+Europe, Asia,
+Middle-America
+
+Applied data collection method, sample size and amount of received data
+
+Questionnaire
+
+1,496
+(back 236)
+
+125
+(back 107)
+
+128
+(back - - -)
+
+70
+(back - - -)
+
+1,300
+(back 126)
+
+4,800
+(back 981)
+
+710
+(back 164)
+
+Expert interviews
+
+18
+
+More than
+36
+
+1,541
+
+63
+
+X
+
+More than
+50
+
+20
+
+More than
+1,000
+
+Workshop(s)
+
+1
+
+70
+
+Case study
+
+18
+
+6
+
+3
+
+70
+
+8
+
+Observation
+
+6
+
+2
+
+XX
+
+XX
+
+Not specified
+
+Documentary analysis
+
+Explanation according to focus and occurrence in literature:
+
+10
+
+Identification of complexity drivers and their
+influences on company’s performance.
+Identification and analysis of management´s
+perception regarding complexity in their company.
+Identification and analysis of complexity perception
+in the automotive industry.
+Analysis of the complexity perception in the
+company.
+Analysis and evaluation of company´s complexity
+induced by product variety.
+
+Identification and analysis of complexity in cooperations.
+
+Analysis of the nature of complexity and the factors
+that arise in high value contracts between large
+organizations.
+Identification of complexity drivers, their influences
+and approaches for complexity management in
+manufacturing companies.
+
+(N: 32)
+(N: 6)
+(N: 3)
+(N: 5)
+(N: 4)
+(N: 16)
+(N: 2)
+(N: 4)
+
+Analysis of management´s perception regarding
+complexity in company´s processes.
+Identification and analysis regarding complexity in
+Jäger et al. [70]
+value networks.
+Schatz, Schöllhammer and Analysis of management´s perception regarding
+Jäger [120]
+complexity in their company.
+Identification and analysis of company´s complexity
+Schöllhammer, Jäger and level, the complexity perception in the company and
+the current applied strategies and approaches for
+Bauernhansl [126]
+complexity handling.
+Analysis of different kinds of complexity and the
+Wölfling [152]
+application of complexity management strategies and
+approaches.
+
+Schuh, Froitzheim and
+Sommer [133]
+
+Hanisch and Wald [64]
+
+Götzfried [56]
+
+VDI (2012) [In 22]
+
+Schömann [127]
+
+Schey and Roesgen [122]
+
+Collinson and Jay [38]
+
+Brexendorf [25]
+
+Wildemann and Voigt
+[150]
+
+Parry, Purchase and Mills
+[111]
+
+Research objectives
+
+General in manufacturing companies
+Product Development
+Production
+Logistics
+Order Processing / Distribution / Sale
+Supply Chain internal
+Remanufacturing
+Other Field
+
+Author(s)
+
+G
+PD
+PR
+L
+OPD
+SC
+R
+OF
+
+G
+
+Automotive / Engineering / Electrical /
+Others
+Automotive / Engineering / Electrical /
+Plastics / Chemical / Food / Printing /
+Aircraft / Information Technology / Service
+/ Consumer Goods / Packaging Industry
+Engineering / Electrical / Petroleum & Gas /
+Chemical / Automation / Energy / Traffic &
+Infrastructure / Telecommunication / Others
+
+---
+
+G
+
+G
+
+Germany
+
+---
+
+Germany
+
+Germany
+
+Germany
+
+---
+
+---
+
+Automotive / Engineering / Consumer
+--Goods
+Automotive / Engineering / Electrical /
+Chemical & Pharmaceutical / Information Germany, Austria,
+Technology / Telecommunicaton / Puplic
+Switzerland
+Administration / Finance / Provider
+
+---
+
+Automotive
+
+Europe
+
+Chemical & Pharmaceutical / Consumer
+Goods
+
+Applied data collection method, sample size and amount of received data
+
+200
+(back - - -)
+
+X
+(back 218)
+
+175
+(back - - -)
+
+n.n.
+
+405
+(back 60)
+
+2,132
+(back 248)
+
+Questionnaire
+
+65
+(back 41)
+
+07/2014 –
+10/2014
+---
+
+192
+(back - - -)
+
+Spring 2013
+
+---
+
+---
+
+---
+
+---
+
+05/2012
+
+---
+
+---
+
+2005 - 2010
+
+06/2006 09/2006
+
+Germany,
+Switzerland,
+Luxembourg,
+Netherlands,
+Hungary
+Worldwide
+
+---
+
+G
+
+2010-2011
+
+2008
+
+Research´s
+period
+(mm/yyyy)
+
+Germany
+
+---
+
+Region / Country
+
+Pharmaceutical / Banking / Insurance
+
+Automotive / Engineering / Electrical /
+Chemical & Pharmaceutical / Others
+
+Automotive / Engineering / Metal / Plastics /
+Medical Industry
+
+Engineering Service Industry
+
+Field of industry
+
+G
+
+G
+
+G
+
+G
+
+G
+
+G
+
+G
+
+G
+
+G
+
+G
+
+Focus
+
+Explanation according to field of industry, region/country, research´s period and
+sample size:
+--None information referred
+X
+Applied, but no sample size referred
+XX
+No data collection method and sample size referred
+Expert interviews
+
+190
+
+49
+
+X
+
+200
+
+26
+
+28
+
+Workshop(s)
+
+190
+
+21
+
+200
+
+4
+
+Case study
+
+17
+
+200
+
+27
+
+Documentary analysis
+
+200
+
+228
+
+XX
+
+XX
+
+Not specified
+Observation
+
+Explanation according to focus and occurrence in literature:
+
+Complexity drivers in product development: A comparison between literature and empirical research
+
+(N: 5)
+(N: 4)
+(N: 16)
+(N: 2)
+(N: 4)
+
+Meyer [101]
+
+Mayer [96]
+
+Westphal [148]
+
+Fässberg et al. [46]
+
+Grübner [60]
+
+Größler, Grübner and
+Milling [59]
+
+Tresselt [140]
+
+Identification of complexity drivers and applied
+management methods in logistics.
+Analysis of logistics’ complexity, identification of
+complexity drivers and their influences.
+
+Analysis of complexity in manufacturing logistics.
+
+Identification of complexity drivers and their
+influences in production in the metal and electrical
+industry.
+Identification and analysis of production complexity
+from the perspective of different functions or roles
+within the production system.
+
+Identification of complexity drivers in production.
+
+Investigation of the question how current standards
+of project management address complexity, and how
+complex products can be handled adequately.
+Analysis of the impact of environmental complexity
+on the choice of management control systems and
+Li et al. [88]
+their effects on product development and process
+decisions.
+Identification and analysis of the conditions, which
+cause complexity in new product development to
+Kim and Wilemon [78]
+increase the understanding of an effective complexity
+management and methods for complexity handling.
+Analysis of the complexity of global new product
+development and discussion of the question how
+Newman [106]
+complexity can be reduced through standardization
+and component modularization.
+Chronéer and Bergquist
+Identification and analysis of complexity regarding
+[34]
+R&D projects.
+Increasing the understanding of the consequences in
+new product development projects when complexity
+Kim and Wilemon [79]
+arises and the competitive advantages for companies
+that effectively manage complexity.
+Analysis of project’s complexity level in the new
+Grussenmeyer and Blecker
+product development and evaluation of a specific
+[62]
+complexity management.
+
+Research objectives
+
+General in manufacturing companies
+Product Development
+Production
+Logistics
+Order Processing / Distribution / Sale
+Supply Chain internal
+Remanufacturing
+Other Field
+
+Author(s)
+
+G
+PD
+PR
+L
+OPD
+SC
+R
+OF
+
+L
+
+L
+
+L
+
+PR
+
+PR
+
+PR
+
+PD
+
+PD
+
+PD
+
+PD
+
+PD
+
+PD
+
+G
+
+Focus
+
+Germany
+
+Region / Country
+
+Automotive / Engineering / Furniture /
+Safety
+Automotive / Medical Industry / Logistics
+Service Industry
+
+Engineering / Metal
+
+Automotive / Electrical
+
+Engineering / Electrical & Optics / Metal
+
+Engineering
+
+---
+
+Metal / Rubber & Plastics / Chemical /
+Papers / Mining / Food & Dairy
+Engineering / Electrical / Industrial
+Photographic Paper / Medical Industry /
+Heating, Ventilating & Air Conditioning
+Industry
+
+-----
+
+---
+
+---
+
+11/2002
+
+09/2013 06/2014
+
+Research´s
+period
+(mm/yyyy)
+
+---
+
+Germany
+
+Germany
+
+Sweden
+
+Worldwide
+
+Europe, South
+America, Asian
+Pacific Area
+
+Applied data collection method, sample size and amount of received data
+
+Questionnaire
+
+380
+(back 66)
+
+558
+(back - - -)
+
+558
+(back - - -)
+
+23
+(back - - -)
+
+850
+(back 607)
+
+4,900
+(back 176)
+
+X
+
+32
+
+71
+
+16
+
+32
+
+36
+
+Expert interviews
+
+8
+
+11/2005 04/2006
+
+22
+(back - - -)
+
+---
+
+1995 - 1997
+
+5
+
+09/2010 12/2010
+
+2003
+
+2002
+
+01/2011 06/2011
+
+States of New
+York and
+Conneticut, USA
+Germany, Italy
+
+---
+
+Sweden
+
+---
+
+Engineering / Electrical / Metal & Materials
+/ Chemical & Pharmaceutical / Food /
+China
+Clothing & Textile / Telecommunication /
+Commercial Products / Others
+Engineering / Electrical / Industrial
+States of New
+Photographic Paper / Medical Industry /
+York and
+Heating, Ventilating & Air Conditioning
+Conneticut, USA
+Industry
+
+---
+
+Field of industry
+
+Explanation according to field of industry, region/country, research´s period and
+sample size:
+--None information referred
+X
+Applied, but no sample size referred
+XX
+No data collection method and sample size referred
+
+Workshop(s)
+
+25
+
+X
+
+Case study
+
+50
+
+Observation
+
+5
+
+3
+
+50
+
+Documentary analysis
+
+X
+
+Not specified
+
+Explanation according to focus and occurrence in literature:
+
+management and its handling in the field of logistics.
+Evaluation of complexity in the field order
+processing.
+Analysis and evaluation of order processing
+complexity.
+Analysis of complexity perception in the field of
+distribution, identification of complexity drivers and
+development of approaches for complexity
+improvement.
+Analysis of complexity perception in the field of
+distribution, identification of complexity drivers and
+development of approaches for complexity
+improvement.
+Analysis of supply chain complexity in the Italian
+household appliance industry.
+Investigation of the question how complexity can
+affect manufacturing company’s performances and
+its supply chain.
+
+Evaluation of supply chain complexity by measuring
+a set of supply chain features.
+Analysis of the question how innovations affect
+supply chain management decisions and supply chain
+complexity.
+
+Carbonara and
+Giannoccaro [31]
+
+Caridi, Pero and Sianesi
+[32]
+
+Analysis and evaluation of supply chain complexity.
+
+Bozarth et al. [21]
+
+Wu, Frizelle and Efstathiou Identification and analysis of the relationship
+[153]
+between costs and supply chain complexity indices.
+Analysis of supply chain complexity and
+Abdelkafi [1]
+identification of the main influencing variables.
+
+Geimer [51]
+
+Perona and Miragliotta
+[112]
+
+Miragliotta, Perona and
+Portioli-Staudacher [102]
+
+Lammers [85]
+
+Kersten, Lammers and
+Skirde [75]
+
+Buob [29]
+
+Raufeisen [117]
+
+BVL [30]
+
+Analysis of complexity and its perception in
+procurement logistics.
+
+Gießmann [54]
+
+(N: 32)
+(N: 6)
+(N: 3)
+(N: 5)
+(N: 4)
+(N: 16)
+(N: 2)
+(N: 4)
+
+Research objectives
+
+General in manufacturing companies
+Product Development
+Production
+Logistics
+Order Processing / Distribution / Sale
+Supply Chain internal
+Remanufacturing
+Other Field
+
+Author(s)
+
+G
+PD
+PR
+L
+OPD
+SC
+R
+OF
+
+Germany
+
+Switzerland
+
+---
+
+Germany
+
+Germany
+
+Region / Country
+
+Italy
+
+Italy
+
+Chemical / Medical Industry / Safety
+Equipment / Wholesale / Service Industry /
+Transport / Maritime Industry
+Household Appliance Industry
+
+Germany
+
+---
+
+Insurance
+
+Engineering / Metal
+
+Automotive / Engineering / Electrical /
+Metal / Plastics / Chemical &
+Pharmaceutical / Glas, Ceramic, Pit &
+Quarry / Food / Lumber, Papers &
+Furniture / Clothing & Textile / Aircraft /
+Others
+Manufacturing Industry / Trading / Logistics
+Service Industry
+
+Field of industry
+
+Medical Industry
+
+SC
+
+SC
+
+SC
+
+---
+
+---
+
+06/2004 10/2004
+
+---
+
+---
+
+06/2010 10/2011
+
+06/2010 10/2011
+
+---
+
+---
+
+Summer
+2014
+
+2008
+
+Research´s
+period
+(mm/yyyy)
+
+Applied data collection method, sample size and amount of received data
+
+45
+(back - - -)
+
+X
+
+2,680
+(back 341)
+
+104
+(back - - -)
+
+1,496
+(back 236)
+
+Questionnaire
+
+Italy
+Italy
+
+Automotive / Furniture Industry / Tractor /
+Household Appliances / Aircraft / Medical
+Industry
+
+---
+
+---
+
+X
+
+X
+
+Austria, Finland,
+Japan, Germany,
+4,807
+2005 - 2007
+Sweden, USA,
+(back - - -)
+South Korea
+
+Germany
+
+Furniture Industry / Clothing & Textile
+
+Engineering / Electrical / Transport
+
+Engineering / Chemical
+
+SC
+
+SC
+
+Automotive / Engineering / Electrical /
+Chemical / Telecommunication / Life
+Sciences / Consumer Goods
+
+SC
+
+UK
+
+Europe
+
+Household Appliance Industry
+
+SC
+
+SC
+
+OPD
+
+OPD
+
+OPD
+
+OPD
+
+L
+
+L
+
+Focus
+
+Explanation according to field of industry, region/country, research´s period and
+sample size:
+--None information referred
+X
+Applied, but no sample size referred
+XX
+No data collection method and sample size referred
+Expert interviews
+
+X
+
+X
+
+X
+
+X
+
+45
+
+X
+
+X
+
+8
+
+8
+
+17
+
+X
+
+Workshop(s)
+
+3
+
+3
+
+Case study
+
+20
+
+2
+
+1
+
+2
+
+14
+
+13
+
+8
+
+8
+
+3
+
+Observation
+
+X
+
+X
+
+Documentary analysis
+
+X
+
+X
+
+X
+
+Not specified
+
+Explanation according to focus and occurrence in literature:
+
+Complexity drivers in product development: A comparison between literature and empirical research
+
+(N: 5)
+(N: 4)
+(N: 16)
+(N: 2)
+(N: 4)
+
+Maturity [94]
+
+Klagge and Blank [81]
+
+Analysis of management´s perception regarding
+information technology complexity.
+
+Analysis of supply chain complexity and
+identification of the complexity drivers.
+Analysis of the supply chain and the supply chain
+Manuj and Sahin [93]
+decision-making complexity.
+Investigation of the question how companies can
+manage complexity´s challenges through effective
+Alflayyeh [2]
+network practices and how supply chain complexity
+can be measured.
+Analysis of the development of supply chain
+Gerschberger and
+complexity within the 4 perspectives market,
+Hohensinn [52]
+process, product, and organization.
+Leeuw, Grotenhuis and
+Identification of complexity drivers in the supply
+Goor [87]
+chain.
+Analysis of supply chain complexity and
+Subramanian and Rahman
+development of appropriate supply chain strategies
+[137]
+based on material flow and contractual relationships.
+Brandon-Jones, Squire and Analysis of the dimensions regarding supply base
+Rossenberg [23]
+complexity, the effects and its management.
+Identification of tangible and intangible factors
+Subramanian, Rahman and regarding sourcing complexity and investigation of
+Abdulrahman [138]
+the question how well the companies currently
+handle those elements.
+Identification and evaluation of complexity drivers
+Haumann et al. [65]
+and their influences in the field of remanufacturing.
+Identification and evaluation of complexity drivers
+Seifert et al. [134]
+and their influences in the field remanufacturing.
+Blockus [16]
+Analysis of complexity in the service industry.
+Evaluation of project complexity by identifying the
+He et al. [67]
+key factors.
+Examination of an effective model based on internal
+Braun [24]
+service complexity.
+
+Research objectives
+
+General in manufacturing companies
+Product Development
+Production
+Logistics
+Order Processing / Distribution / Sale
+Supply Chain internal
+Remanufacturing
+Other Field
+
+Author(s)
+
+G
+PD
+PR
+L
+OPD
+SC
+R
+OF
+
+China
+
+Germany
+
+Europe
+
+Engineering
+Wholesale
+Automotive
+Engineering
+Automotive / Electrical / Metal / Plastics /
+Papers / Textile
+----Banking / Insurance / Telecommunication
+----Automotive / Engineering / Electrical /
+Chemical & Pharmaceutical / Food /
+Finance & Insurance / Building Industry /
+Biotechnology / Medical Industry /
+Information Technology / Consumer Goods
+/ Transport & Logistics / Administration &
+Civil Service
+
+SC
+SC
+SC
+SC
+SC
+R
+R
+OF
+OF
+OF
+
+OF
+
+UK
+
+Engineering / Service Industry
+
+SC
+
+---
+
+Switzerland
+
+---
+
+---
+
+Worldwide
+
+Netherlands
+
+Austria
+
+USA
+
+---
+
+---
+
+SC
+
+Germany
+
+Region / Country
+
+---
+
+Field of industry
+
+SC
+
+Focus
+
+Applied data collection method, sample size and amount of received data
+
+X
+
+X
+
+600
+(back 101)
+
+1,200
+(back 264)
+
+X
+
+1,500
+(back 193)
+
+Questionnaire
+
+May 2015
+
+946
+(back 710)
+
+--Summer
+2014
+
+---
+
+---
+
+---
+
+10/2011 05/2012
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+2011
+
+Research´s
+period
+(mm/yyyy)
+
+Explanation according to field of industry, region/country, research´s period and
+sample size:
+--None information referred
+X
+Applied, but no sample size referred
+XX
+No data collection method and sample size referred
+Expert interviews
+
+X
+
+21
+
+X
+
+X
+
+X
+
+24
+
+11
+
+40
+
+Workshop(s)
+
+X
+
+1
+
+Case study
+
+6
+
+1
+
+5
+
+1
+
+Documentary analysis
+
+X
+
+XX
+
+Not specified
+Observation
+
+Explanation according to focus and occurrence in literature:
+
+
+Table 3: List of existing empirical researches focused on product development and their content
+Author(s)
+
+Li et al.
+[88]
+
+Research period
+
+2002
+
+Kim and
+Wilemon
+[78]
+---
+
+Region / Country
+
+China
+
+USA
+
+Newman
+[106]
+---
+
+Chronéer and
+Bergquist
+[34]
+---
+
+Kim and
+Wilemon
+[79]
+---
+
+Grussenmeyer
+and Blecker
+[62]
+2011
+
+---
+
+Sweden
+
+USA
+
+Germany, Italy
+
+Automotive
+Engineering
+
+●
+
+●
+
+●
+
+Electrical & Optics
+
+●
+
+●
+
+●
+
+Metal
+
+●
+
+●
+●
+
+Petroleum & Plastics
+Field of
+Industries
+
+Chemical & Pharmaceutical
+
+●
+
+●
+●
+
+Glas, Ceramic, Pit & Quarry
+Food, Forage & Tobacco
+
+●
+
+Lumber, Papers, Printing &
+Furniture
+
+●
+●
+
+Clothing & Textile
+
+●
+
+Questionnaire
+
+●
+
+●
+
+Others
+
+●
+
+●
+
+●
+●
+
+●
+
+Expert interviews
+Data
+collection
+methodology
+
+●
+●
+
+●
+
+●
+
+Workshop(s)
+
+●
+
+Case study
+
+●
+
+Observation
+
+●
+
+Documentary analysis
+Complexity driver´s
+identification and analysis
+Identification and analysis of
+complexity driver´s effects
+Evaluation criteria:
+Main
+research
+objectives
+
+-
+
++
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+fulfilled
+
+(+ +)
+
+Specific complexity drivers and their effects are described in detail.
+
+partial fulfilled
+
+(+)
+
+Complexity drivers and their effects are only mentioned but not described in detail.
+
+not fulfilled
+
+(-)
+
+No information regarding complexity drivers and their effects is referred to.
+
+Analyzing the existing empirical studies regarding
+complexity in product development (see Table 3) as
+well as other fields (e.g. general in manufacturing
+companies, production, logistics, etc.), we come to
+the conclusion that no empirical research focusing on
+complexity management in product development in
+manufacturing companies in Germany, including the
+
+identification and analysis of complexity drivers and
+their effects exists yet. By presenting a systematic,
+explicit and reproducible empirical research regarding
+product development in manufacturing companies
+in Germany, we want to close the aforementioned
+II
+
+III
+
+Establish the
+
+Select a
+
+Select a
+
+theoretical
+foundation
+
+research
+design
+
+data collection
+method
+
+IV
+
+Implementation
+
+V
+
+VI
+
+Data Analysis
+
+Publication
+
+Figure 2: Six stage systematic approach for empirical research
+3
+
+EMPIRICAL RESEARCH
+
+3.1
+Research methodology and objectives
+In this empirical research, we followed the methodology
+of Flynn et al. [50]. Based on social sciences, Flynn et
+al. [50] developed a 6 stage systematic approach for
+conducting an empirical research (see Fig. 2). This
+helps the researcher describing what happens in the real
+world [105]. The approach starts with the determination
+of the theoretical foundation (stage I) and the research
+design, which is applied to the research problem and
+the theoretical foundation (stage II). In stage III, the
+data collection method is selected. Data collection
+is an important part of an empirical research [71].
+Several methods are described in literature and can be
+combined for better results [50, 71]. The data collection
+method, which is mostly used, is the questionnaire. It is
+a useful technique for single and multiple case studies
+as well as panel studies and focus groups. Next, the
+data collection methods and sample description for
+research´s implementation are selected in stage IV.
+Before preparing the research report for publication
+(stage VI), the collected data is processed and analyzed
+in stage V [50].
+The first step in performing an empirical research
+is to define the research questions and objectives.
+Empirical research can be used to document the
+state-of-the-art in different fields of research [50].
+In this paper, we use an empirical research to
+document the current state in practice regarding the
+complexity drivers and their effects in the field of
+product development in the manufacturing industry of
+Germany. A further objective is to compare literature
+findings with the results from our empirical research to
+identify commonalities and differences. Based on our
+introduction, the literature review and the identified
+research gap, we determined 4 further research
+questions, focused on our empiricism (called empirical
+research question) to close the research gap:
+RQ 3: How is the product development of the
+participating companies characterized regarding
+product and variant range; length of product life
+cycle and product development process; amount
+of applied components, materials, technologies
+and processes; the height of the own value
+
+adding percentage as well as organization´s
+influence on product development´s complexity?
+RQ 4: What are the main complexity drivers in product
+development and what interdependencies exist
+between them? Can the complexity drivers be
+aggregated to factors?
+RQ 5: What influences have high complexity and
+especially the complexity drivers on product
+development’s complexity?
+RQ 6: What are the significant differences and
+commonalities between the literature and
+practical (empirical) results?
+Regarding the limitations of our research approach,
+we decided to limit the scope of our empirical research
+by analyzing only the German manufacturing industry,
+because the German manufacturing industry and
+its product development is one of the most leading
+industries in the world compared to other countries and/
+or field of industries. Furthermore, by our limitation
+we want to ensure that this research is manageable.
+In addition, we had only data from the German
+manufacturing industry available for our empirical
+research. Data from other countries and/or field of
+industries was not available at the time our research
+was conducted.
+3.2
+
+Questionnaire´s design, data collection
+methodology, sample description and
+statistical analysis
+The implementation of an empirical research starts
+with the selection of the data collection method and
+the sample description [50]. For data collection, a
+standardized questionnaire with 15 questions and a
+fixed response possibility was applied in this research,
+because the questionnaire is the most used data
+collection method in scientific research and provides
+the best results regarding reliability, validity and
+generalization [50].
+The data was collected from a stratified random
+sample. The sample was taken out of a given population
+of 17,862 manufacturing companies, located in
+Germany with more than 50 employees. The research
+was conducted in 2015 and 2016. At the beginning
+of our empirical study in 2015, the population of
+17,862 manufacturing companies was determined
+based on the Amadeus database. In the Amadeus
+companies with more than 50 employees, because the
+complexity phenomenon primarily occurs in bigger
+companies rather than in smaller.
+As already mentioned, we used a standardized
+questionnaire for data collection. The questionnaire
+was sent in 2 stages by e-mail to 3,086 companies,
+exclusive of service and printing companies. According
+to Mayer [97], we use a 2 stage empirical research
+to increase the amount of responded questionnaires
+and thus the research´s quality. To increase answer´s
+significance, the companies were asked in the cover
+letter to send the questionnaire to an experienced
+employee from the product development department.
+However, this is no guarantee that the questionnaire
+is send to the right person within the company and/
+or product development department. In this research,
+we assume that the responded questionnaires were
+answered by the right persons. All participants were
+assured that only aggregated data would be presented.
+The stratified random sample size (n = 1,565) is
+calculated based on the methodology of Mayer [97] and
+Raab, Poost and Eichhorn [115]. The input parameters
+are the population (N = 17,862); a safety factor (t =
+2); the proportion of the elements within the random
+sample, which fulfills the feature characteristic (p =
+0.5); and the sampling error (d = 0.05). The population
+comprises the amount of documented companies in the
+Amadeus database and the safety factor depends on
+respondents´ level of significance.
+For questionnaire´s design, the questions with
+the same focus are clustered in main categories to
+increase understanding and transparency [84]. The
+questionnaire in this study was structured in 3 main
+parts: general information regarding the respondents
+(company size, field of industry and respondent´s
+position in the company); general information about
+product developments characteristics (dimension of
+product and variant range; length of product life cycle
+and product development process; amount of applied
+components, materials, technologies and processes; as
+well as the height of the own value adding percentage)
+and information about the complexity drivers and their
+effects.
+The questions were formulated based on the research
+questions. To ensure representative results, the
+questions must be formulated explicit and easily [84].
+In the questionnaire, the scale items were designed
+as statements and the interviewees were asked about
+their assessment. For measurement, we used nominal
+scales (yes / no) and ordinal scales (1 – no influence;
+2 – small influence; …; 5 – strong influence; 6 – very
+strong influence) to increase reliability, validity and
+comparability. Other scale items such as interval or
+rational are not used in this research, because these
+scales have another focus and are not applicable in this
+research.
+Before starting the empirical research, a first version
+of the questionnaire was pretested to identify and
+
+17
+
+remove systematic gaps and inconsistencies [68]. In
+2014, our questionnaire was pretested by 40 experts
+from the potential target group. The objective was
+to check and refine the wording, understanding,
+relevance as well as the measurement instrument.
+Furthermore, the questionnaire length and the time
+for questionnaire´s responding was checked. Based
+on pretest´s results and comments from the experts,
+the questionnaire was revised and checked again by a
+smaller group of experts.
+According to Flynn et al. [50] and Moody [105], a
+questionnaire has to be analyzed by using statistical
+methods. Several data analysis techniques or statistical
+tests for statistical analysis exist in scientific literature
+and can be used by a researcher, although there is
+no general rule to select a particular approach [91].
+Montoya-Weiss and Calantone [104] classified the
+data analysis techniques into 4 groups: descriptive
+statistics (e.g. means, frequencies and proportions);
+tests of differences or similarities (e.g. t-test); measures
+of dimensionalities (e.g. factor analysis) and statistical
+interpretation of parametes (e.g. correlation analysis).
+For answering the empirical research questions, we
+analyzed the empirical findings by using several
+different data analysis techniques without a limitation.
+However, some of the results were not significant.
+In summary, we used the data analysis techniques
+from the groups descriptive statistics, measures
+of dimensionalities and statistical interpretation
+of parameters. The group tests of differences or
+similarities was not applied in this research, because
+the data analysis techniques from these group are
+used for testing hypotheses. Since we did not propose
+hypotheses or did an experiment in our research, we
+did not use these data analysis techniques.
+4
+
+ANALYSIS OF EMPIRICAL RESEARCH
+AND FINDINGS
+
+4.1
+Sample results and data validation
+For data collection, 3,086 manufacturing companies
+with more than 50 employees, located in Germany,
+were questioned. The questionnaire was sent by e-mail
+to them. The Amadeus-Database lists mostly general
+email-addresses of companies. Therefore, the inquiry
+emails sent to those addresses, included the request to
+forward the email to an experienced employee in the
+department of product development.
+Next, the net sample size was calculated by reducing
+the total sample size based on the amount of e-mails that
+were undeliverable or rejected by the companies. The
+net sample size is needed for response rate’s counting
+[54]. In our research, the final sample size consisted
+of 2,817 companies. In total, 295 questionnaires were
+answered completely and resulted in a response rate
+of 10.5 percent, which is an acceptable response rate
+Database
+
+N = 295
+(100%)
+Automotive
+Technical
+Industry
+N = 174 (59.0%)
+
+Engineering
+Electrical & Optics
+
+90
+
+20.6%
+
+30.5%
+
+31 10.5%
+
+14.1%
+
+14 4.7%
+
+6.7%
+
+Chemical & Pharmaceutical
+
+24
+
+7.9%
+
+Glas, Ceramic, Pit & Quarry
+
+Resource
+Industry
+N = 51 (17.3%)
+
+13 4.4%
+
+Food, Forage & Tabacco
+
+Consumer goods
+Industry
+N = 56 (19.0%)
+
+63.5%
+
+12.0%
+
+9.8%
+
+29
+
+Metal
+Petroleum & Plastics
+
+16.9%
+
+24 8.1%
+
+Lumber, Papers, Printing & Furniture
+
+8.1%
+
+17.3%
+
+2.7%
+
+17 5.8%
+
+8.8%
+
+26
+
+6.4%
+
+8.8%
+
+Clothing & Textile
+
+13 4.4%
+
+1.8%
+
+Others
+
+14 4.7%
+
+16.9%
+
+2.2%
+
+Figure 3: Frequency of received questionnaires according to industry and comparison
+of results and database’s percentage
+11 different fields of industry. According to their
+characteristics, the identified industry branches were
+clustered in 4 industry clusters: Technical industries,
+resource industries, consumer goods industry and
+others. The technical industry is the largest industry
+cluster and comprises about 60 percent of the
+respondents: engineering (30.5%), metal (10.5%),
+electrical and optics (9.8%), automotive (8.1%) (see
+Fig. 3). Based on the Amadeus database, the technical
+industry is traditionally Germany’s major field of
+industry with a percentage of 63.5 percent. For result’s
+validation, the percentage of the empirical research
+was compared with the percentage of the database
+to identify differences and communalities. In our
+research, the percentage of empirical research and
+database are very close in all industry clusters. The
+empirical findings are therefore representative and can
+be generalized.
+
+Number of employees
+
+In the next step, the number of employees and the
+position profile of the respondents were analyzed
+(see Fig. 4). With 61.8 percent, the small and middlesized companies formed the biggest group in our
+empirical research. Larger companies with more than
+250 employees represent 38.2 percent. Based on these
+results, it can be concluded that small and middle-sized
+companies are highly interested in empirical studies
+regarding complexity management and especially in
+product development.
+The analysis of the respondent’s position profile
+shows that 80 percent of the respondents can be
+assigned to the category upper management (see Fig.
+4). This category comprises the following 3 groups:
+Presidents, CEOs and COOs (18.0%); directors and
+division managers (26.1%); senior managers and
+department managers (35.9%). This result shows that
+complexity in product development is an important
+issue for company´s management.
+Position profile
+
+N = 295
+
+N = 295
+
+51≤ 100
+-
+
+97
+
+101 - 250
+
+85
+
+251 - 500
+
+51
+
+501 - 1,000
+
+26
+
+8.8%
+
+1,001 - 5,000
+
+24
+
+8.1%
+
+5,001 - 10,000 6 2.0%
+> 10,000 6 2.0%
+
+17.3%
+
+32.9%
+
+28.9%
+
+Cumulative
+Empirical
+Research
+61.8%
+
+President / CEO / COO
+
+53
+
+Director / Division Manager
+
+77
+
+Senior Manager / Department
+Manager
+Manager / Team Leader
+
+18.0%
+26.1%
+106
+
+22 7.5%
+
+Assistant 6 2.0%
+Clerk
+
+21 7.1%
+
+Other 10 3.4%
+
+Figure 4: Overview about the number of employees and the position profile of the respondents
+
+development characteristic in general of the
+participating companies, we requested the following
+properties in 10 different questions (Q4 – Q13):
+Dimensions of product range and variant range;
+length of product life cycle and product development
+process; amount of applied components, materials,
+technologies and process; height of the own value
+adding percentage and organization´s influence on
+product development´s complexity. The results are
+described in Figure 5. Approximately 75 percent of
+the companies are characterized by a medium and
+big product (Q4) and variant range (Q5). Based on the
+analysis of questions 6 and 7, more than 50 percent of
+the developed products have a life cycle length of more
+than 72 months (Q6), but approximately 70 percent of
+the respondents specified that the length of product
+development process is less than 25 months (Q7).
+Furthermore, the majority of companies indicate that
+their products consist of many different components
+(Q8), materials (Q9) as well as technologies (Q10) and
+the product development process consists of many
+different processes (Q11). Furthermore, the percentage
+of the own value adding activity in product development
+was analyzed. However, there was no explicit tendency
+recognizable (Q12). In literature, organizational
+complexity and value added complexity are general
+complexity drivers in the company [142]. To analyze
+organization’s influence on product development´s
+complexity, the respondents were questioned about their
+evaluation. More than 75 percent of the respondents
+specified that the organization has no negative
+influence on product development´s complexity
+(Q13). Comparing this result with literature, there is
+a discrepancy, especially regarding the complexity
+drivers in product development, which are described
+in chapter 2.2. In literature, 9 authors described 28
+different organizational complexity drivers, which
+are responsible for increasing complexity in the
+company and especially in product development. It
+would be interesting to investigate the reasons for this
+discrepancy wihin a further empirical research (e.g.
+investigation through expert interviews).
+4.2
+
+Complexity drivers and their effects on
+company´s complexity
+We started our pretest by using the complexity
+drivers in product development which are already
+mentioned in literature and published before 2015
+(N: 72) (see chapter 2.2). Furthermore, we added
+additional complexity drivers from other fields along
+the value chain to extend the amount of complexity
+drivers in total, because product development has an
+influence on all parts of the value chain (N: 44). The
+complexity drivers originate in the following fields:
+General in manufacturing companies [14, 15, 124],
+procurement and purchasing [55], logistics [54, 86],
+production [44, 128], order processing, distribution
+and sales [29] as well as internal supply chain [135]
+
+19
+
+and remanufacturing [65]. In total, the collection of
+the complexity drivers used in our pretest comprises
+116 different complexity drivers. One of the objectives
+of doing the pretest was to ask the experts about the
+relevance of the different complexity drivers, because
+we wanted to reduce the number of drivers for the
+final questionnaire to the truly relevant drivers. As
+a result of our pretest, from the expert´s view, only
+59 complexity drivers of the total amount of 116 are
+relevant and should be used in the final questionnaire
+and empirical research. Furthermore, they mentioned
+additional important and relevant complexity drivers
+that we added to our questionnaire (N: 5). The final
+questionnaire comprises 64 complexity drivers in
+total. Another surprising result is that the internal
+complexity drivers product complexity (general),
+product portfolio complexity (general), technological
+complexity (general) and development complexity
+(general) are not relevant from expert´s view, although
+these drivers are fundamentally connected to the
+product development process (see Table 4). One reason
+is that these drivers are general drivers and are already
+known and handled by the experts. Another reason is
+that the experts want to have some further information
+about specific complexity drivers, which are important
+for complexity management in product development.
+Thus, these general drivers do not need further analysis.
+Table 4 presents an overview about the different
+complexity drivers, which are mentioned in literature
+in product development and the other fields along the
+value chain as well as the results of expert´s evaluation
+regarding the relevance of the different drivers.
+Answering the forth research question, we used
+different statistical methods for analyzing the
+questionnaire results. The main complexity drivers
+in product development in each driver category
+were identified by using the descriptive statistics. In
+this research, 64 different complexity drivers were
+evaluated by the respondents within an ordinal scale (1no influence; 2-small influence;…; 5-strong influence;
+6-very strong influence) according to their influence
+on product development´s complexity. The complexity
+drivers, which are evaluated by more than 50 percent of
+the respondents with a strong or very strong influence
+on product development’s complexity are identified as
+the main complexity drivers. As already mentioned, 64
+complexity drivers were included in the questionnaire,
+but only 30 drivers were regarded by the respondents
+in different fields of industry as drivers that have a
+strong or very strong influence in principle (see Table
+4, reference No. 4 in the field explanation). Table 4
+presents the identified main complexity drivers in
+product development in the different fields of industry,
+which are identified in our empirical research. As a
+result of our research, some industries are influenced
+by more complexity drivers than other industries.
+For example, the following fields of industries are
+chemical & pharmaceutical industry are influenced by
+only 6 drivers.
+A further result of our empirical research is that
+some complexity drivers are more important than other
+drivers, because these drivers occur in most fields of
+industries. These include the following complexity
+drivers: Market´s economic factors, individuality
+of customer demands, number and strength of
+competitors, product range/portfolio and amount of
+simultaneous projects. The driver variety of customer
+requirements influence every field of industry
+(see Table 4). Furthermore, product development’s
+complexity is influenced to the same extend by
+external as well as internal complexity drivers (14
+external drivers vs. 16 internal drivers). Comparing
+this result with literature (see chapter 2.2), most of
+the described complexity drivers in literature belong
+to the main category internal complexity drivers (28
+external drivers vs. 79 internal drivers). Thus, there
+is also a discrepancy between literature and practice.
+These results draw to the conclusion that internal
+complexity drivers can be handled by the company
+itself so they are not considered as problems whereas
+external complexity drivers cannot be handled easily
+and are therefore regarded more as problems. Thus,
+less internal complexity drivers are described by the
+respondents in our research as drivers with a high
+influence than it would be expected when looking at
+the findings in literature.
+As also seen in Table 4, the different fields of industries
+are influenced by individual main complexity drivers.
+The technical industries are characterized by 6 main
+complexity drivers: Market´s economic factors, variety
+of customer requirements, individuality of customer
+demands, number and strength of competitors, product
+range/portfolio and amount of simultaneous projects.
+The resource industries and the consumer goods
+industry are also characterized by variety of customer
+requirement and individuality of customer demands.
+Furthermore, the resource industries are influenced by
+the 3 complexity drivers political framework conditions,
+demand´s dynamics as well as technological progress
+and the consumer goods industry is characterized by
+market´s economic factors, number and strength of
+competitors as well as product range/portfolio.
+In summary, the external complexity driver categories
+general market-related complexity, demand complexity
+and competitive complexity and their specific drivers are
+most important for complexity management in product
+development. In contrast, the complexity drivers
+from the categories society complexity, technological
+complexity (external and internal), supply complexity,
+target complexity, customer complexity, product and
+product portfolio complexity, product development
+complexity, organizational complexity, production
+complexity, process complexity, planning, control and
+information complexity as well as logistics complexity,
+
+sales and distribution complexity and the general
+complexity drivers have mostly no strong or very
+strong influence on product development´s complexity
+and do not seem to be so important for complexity
+management in product development.
+It was surprising that the complexity driver
+categories technological complexity (external and
+internal), product and product portfolio complexity
+as well as product development complexity and their
+specific drivers did not have a strong or very strong
+influence on product development´s complexity in
+total, although product development is characterized
+by these categories.
+The comparison between literature´s complexity
+drivers and the complexity drivers identified in this
+empirical research is shown in chapter 4.3.
+Next, a correlations analysis was conducted to
+test the bivariate relationships and interdependences
+between the 64 different complexity drivers. The
+results are documented in the appendix (Table 9 Part
+A – C). Based on the correlations analysis, 29 strong
+(correlation coefficient 0.6 < x ≤ 0.8) and 3 very
+strong correlations (correlation coefficient 0.8 < x ≤
+1.0) were identified and clustered according to their
+origin and the literature’s main complexity driver
+categories (see Table 5). Strong correlations between
+different complexity drivers occur in the following
+categories: Society complexity, demand complexity,
+general market-related complexity, technological
+complexity (external and internal), supply complexity,
+target complexity, customer complexity, product and
+product portfolio complexity, product development
+complexity, production complexity, process complexity
+as well as planning, control and information
+complexity and organizational complexity. Beyond,
+in the 2 categories process complexity and planning,
+control and information complexity, very strong
+correlations occur between the different complexity
+drivers process degree of cross-linking and amount of
+process interfaces, information flow’s dynamics and
+variety as well as company’s control level of detail
+and requirements of company’s control. Overall, the
+correlations analysis provides 2,080 correlations,
+however 88.9 percent are weak correlations (correlation
+coefficient 0.2 < x ≤ 0.4). Only 6.5 percent are about
+medium correlations (correlation coefficient 0.4 < x ≤
+0.6) and 1.4 percent strong correlations.
+Based on the correlation analysis, a factor analysis
+with varimax rotation was applied for complexity
+driver’s aggregation. We used the statistic software
+SPSS 21 to perform the factor analysis and to list the
+eigenvalues associated with each linear component
+(factor) before extraction, after extraction and after
+rotation (see Table 10 appendix). Before extraction, 64
+linear components (factors) are identified within the
+data set. In this case, the amount of eigenvectors are the
+same as variables and so there will be as many factors
+as variables. The eigenvalues are associated with each
+
+by that particular linear component [47]. In our study,
+factor 1 explains 25,276 percent of total variance. To
+identify the relevant amount of factors, which explains
+cumulative more than 50 percent, we extract only
+factors with eigenvalues greater than 2. All factors with
+eigenvalues of 2 and less are ignored. For optimizing
+the factor structure, we used the varimax rotation. As
+a result of our factor analysis, we identified 7 factors,
+reflecting the complexity drivers. The identified factors
+clarify 51 percent of the 64 complexity drivers, thus
+
+Q4:
+
+Dimension of product range
+
+these factors are important for a company´s complexity
+management. The first factor describes a company`s
+complexity. Product and technology complexity load
+onto the second factor. The third and fourth factor
+reflects the customer complexity and the market
+complexity. Supply complexity loads onto the fifth
+factor. The sixth factor describes environmental and
+society and the seventh factor describes company`s
+target complexity. Table 6 presents an overview about
+the identified factors und their factor load’s ranges.
+
+Q5:
+
+14.2%
+Small
+
+11.2%
+
+42
+
+17.3%
+Small
+
+33
+
+Medium
+Big
+
+34.6%
+
+102
+
+118
+
+40.0%
+
+Q8:
+
+Big
+
+51 24
+
+Q7:
+
+161
+
+25 8.5%
+22
+
+7.5%
+
+N = 295
+
+Products consist of many different components
+
+112
+
+No
+
+32.5%
+
+Q9:
+
+0.7% 1.7%
+3.1%
+2.4% 5
+8,5% 7 2 9
+25
+13.9%
+
+41
+
+199
+
+Not specified
+
+No
+
+67.5%
+N = 295
+
+Q10: Products consist of many different technologies
+
+Yes
+No
+
+102
+
+Not specified
+
+No
+
+63.4%
+N = 295
+
+Q12: Own value adding percentage in product development
+12.5%
+< 25
+26 - 50
+51 - 75
+76 - 100
+Not specified
+
+37
+20.3%
+
+22.7%
+
+41.0%
+
+121
+
+173
+
+58.6%
+N = 295
+
+1.7%
+5
+39.0%
+
+115
+
+175
+
+59.3%
+N = 295
+
+Q13: Organization´s negative influence on development´s complexity
+3.7%
+11
+Yes
+
+67
+64
+
+0.3%
+1
+
+Not specified
+
+22.7%
+
+60
+67
+
+N = 295
+
+34.6%
+
+Not specified
+
+Yes
+
+107
+187
+
+35.3%
+
+Q11: Products development consist of many different processes
+
+0.3%
+1
+36.3%
+
+104
+
+Products consist of many different materials
+
+Yes
+
+96
+
+36.6%
+N = 295
+
+0.0%
+Yes
+
+108
+
+Length of product development process in months
+< 12
+12 - 24
+25 - 36
+37 - 48
+49 - 60
+61 - 72
+> 72
+Not specified
+
+5.8% 6.1%
+17 18 17 5.8%
+4.1%
+12
+23 7.8%
+54.6%
+
+38.0%
+
+Huge
+
+N = 295
+
+Length of product life cycle in months
+< 12
+12 - 24
+25 - 36
+37 - 48
+49 - 60
+61 - 72
+> 72
+Not specified
+
+8.1%
+
+Medium
+
+Huge
+
+Q6:
+
+Dimension of variant range
+
+18.3%
+54
+
+No
+21.7%
+
+N = 295
+
+Not specified
+
+230
+N = 295
+78.0%
+
+
+External
+complexity
+
+●
+
+●
+
+●
+●
+●
+●
+
+●
+●
+
+●
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+●
+●
+
+1
+
+●
+
+●
+
+●
+
+●
+
+●
+
+4
+
+4
+
+●
+●
+
+●
+
+8
+
+●
+
+4
+
+●
+●
+
+●
+
+●
+●
+
+●
+
+7
+11
+3
+5
+
+●
+●
+
+●
+●
+
+9
+5
+
+●
+
+●
+
+●
+●
+●
+●
+
+●
+●
+
+8
+3
+
+●
+●
+
+●
+
+●
+
+●
+
+5
+
+●
+
+●
+●
+
+2
+3
+
+5
+1
+
+●
+
+●
+
+●
+●
+
+●
+
+7
+
+●
+●
+
+Total
+
+Others
+
+Clothing & Textile
+
+Lumber, Papers, Printing & Furniture
+
+Food, Forage & Tobacco
+
+Glas, Ceramic, Pit & Quarry
+
+Chemical & Pharmaceutical
+
+Metal
+
+Electrical & Optics
+
+Engineering
+
+Specific complexity drivers in each category
+RfQ
+Society complexity
+Environmental complexity (general) 1
+Value change & value awareness 1, 4
+R
+Environmental awareness in population 2
+R
+Ecological conditions / factors 1
+R
+Political framework conditions 1, 4
+R
+Legal factors 1, 4
+R
+Change of populations structure 1
+Standards and regulations 1
+Turbulences in company´s environment 1
+Interdependencies between environmental factors 1
+General market-related complexity
+Market complexity (general) 1
+Market´s infrastructure 3
+R
+Market´s economic factors 2, 4
+R
+Variety of customer requirements 2, 4
+R
+Market´s change 1, 4
+R
+Market´s globalization 1, 4
+R
+Market´s dynamics 1
+Market´s protectionism 1
+Demand complexity
+Demand complexity (general) 1
+Individuality of customer demands 1, 4
+R
+Demand´s dynamics 2, 4
+R
+Competitive complexity
+Competitive complexity (general) 1
+Number and strength of competitors 1, 4
+R
+Competitor´s dynamics 2, 4
+R
+Competitive pressure 1
+Technological complexity (external)
+External technological complexity (general) 1
+Technological progress 1, 4
+R
+Technological innovations & availability 1, 4
+R
+New technologies and materials 1
+Supply complexity
+Variety of supplied goods 2
+R
+Amount of suppliers 2
+R
+Supply strategy or concept 2, 4
+R
+Quality uncertainty of delivered goods 2
+R
+Uncertainty of delivery date 2
+R
+Total:
+
+Automotive
+
+Origin
+
+Field of Industries
+Resource
+Consumer goods
+Industry
+Industry
+
+Technical
+Industries
+
+Petroleum & Plastics
+
+Explanation:
+1
+Complexity drivers, which are documented in the literature
+review, focused on product development (see chapter 2.2) (N: 72)
+2
+Complexity drivers, which are documented in literature in other
+fields along the value chain and general in manufacturing
+companies (N: 44)
+3
+Additional complexity drivers, mentioned by the practice during
+expert interviews (N: 5)
+4
+Complexity drivers, which were regarded by the respondents as
+drivers that have a strong or very strong influence (N: 30)
+RfQ Relevant (R) for questionnaire based on the results of our pretest
+and several expert interviews (N: 64)
+
+1
+
+●
+
+6
+
+6
+
+3
+
+7
+
+●
+
+
+Others
+
+Total
+
+Clothing & Textile
+
+Lumber, Papers, Printing & Furniture
+
+Food, Forage & Tobacco
+
+Glas, Ceramic, Pit & Quarry
+
+Chemical & Pharmaceutical
+
+Metal
+
+Electrical & Optics
+
+RfQ
+
+Engineering
+
+Specific complexity drivers in each category
+Target complexity
+Target complexity (general) 1
+Amount of different targets 1
+Business objective´s change frequency 2
+Business objective´s time pattern 2
+Customer complexity
+Customer´s amount 2, 4
+Customer structure 1, 4
+Customer´s participation 2, 4
+Product & product portfolio complexity
+Product complexity (general) 1
+Product portfolio complexity (general) 1
+Product variety 1, 2, 4
+Product range / portfolio 1, 4
+Product portfolio change frequency 2
+New product launch´s frequency 2
+Product life cycle length 2
+Product structure / design 1
+Product technology 1, 2
+Component type 1
+Variety of parts and modules 1
+Variety of the applied materials 1
+Internal Variance in product design 2
+correlated
+Availability of materials or components 3
+complexity
+Properties of modules or materials 1, 4
+Product´s degree of innovation 2, 4
+Product life cycle length 2, 4
+Technological complexity (internal)
+Technology complexity (general) 1
+Technology change / innovation 1
+Number of different applied technologies 1
+Hardware and software complexity (general) 1
+Type of data medium 1
+Size of data medium 1
+Type of interfaces 1
+Amount of interfaces 1
+Criteria of hardware and software tests 1
+Technology´s complicacy 3
+Technology´s combination 2
+Technology life cycle length 2
+Product development complexity
+Development complexity (general) 1
+Development program´s complexity 1
+Applied methods or instruments 1
+Product software 2, 4
+Data processing system 2
+
+Automotive
+
+Origin
+
+Field of Industries
+Resource
+Consumer goods
+Industry
+Industry
+
+Technical
+Industries
+
+Petroleum & Plastics
+
+Explanation:
+1
+Complexity drivers, which are documented in the literature
+review, focused on product development (see chapter 2.2) (N: 72)
+2
+Complexity drivers, which are documented in literature in other
+fields along the value chain and general in manufacturing
+companies (N: 44)
+3
+Additional complexity drivers, mentioned by the practice during
+expert interviews (N: 5)
+4
+Complexity drivers, which were regarded by the respondents as
+drivers that have a strong or very strong influence (N: 30)
+RfQ Relevant (R) for questionnaire based on the results of our pretest
+and several expert interviews (N: 64)
+
+●
+●
+
+1
+2
+2
+
+●
+
+2
+6
+
+R
+R
+R
+R
+R
+R
+
+R
+R
+R
+R
+R
+R
+
+R
+R
+R
+R
+R
+R
+R
+
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+●
+
+●
+
+●
+
+●
+●
+
+●
+
+2
+3
+1
+
+R
+R
+
+R
+R
+R
+
+R
+R
+Total:
+
+●
+4
+
+2
+
+1
+1
+
+1
+
+3
+
+1
+
+1
+
+3
+
+1
+
+0
+
+
+●
+
+6
+
+●
+
+Metal
+
+Others
+
+Clothing & Textile
+
+Lumber, Papers, Printing & Furniture
+
+●
+
+Food, Forage & Tobacco
+
+●
+
+Glas, Ceramic, Pit & Quarry
+
+●
+
+Chemical & Pharmaceutical
+
+Electrical & Optics
+
+RfQ
+
+Engineering
+
+Specific complexity drivers in each category
+Organizational complexity
+Organizational complexity (general) 1
+Organization´s structure 1
+Organization´s / Company´s size 1
+Amount of hierarchical levels 2
+Degree of centralization 2
+Business segment / industrial sector 1
+Company´s strategy (strategical complexity) 1, 2
+Complexity between cooperation partners 1
+Employee complexity (general) 1
+Amount of employees 2
+Lack of transparency (general) 1
+Lack of cost transparency 1
+Lack in consistency of activities 1
+Amount of simultaneous projects 3, 4
+Amount of simultaneous processes 3
+Production complexity
+Production complexity (general) 1
+Vertical range of manufacture 2
+Production system 2, 4
+1
+Internal Production structure
+autonomous Manufacturing technology 1
+complexity Maintenance complexity (general) 1
+Process complexity
+Process complexity (general) 1
+Variety of processes 1, 2, 4
+Amount of process interfaces 2
+Process degree of cross-linking 2, 4
+Process standardization 2, 4
+Planning, control and information complexity
+Planning, control & information complexity 1, 2
+Lack in strategic planning 1
+Organization´s information technology systems 1
+Information flow´s variety 2, 4
+Information flow´s dynamic 2, 4
+Requirements of company´s control 2
+Company´s control level of detail 2
+Company´s communication system 2
+Logistics complexity
+Supply chain complexity (general) 1, 2
+Sales & distribution complexity
+Distribution complexity (general) 1
+Marketing complexity (general) 1
+1
+General Variety / Multiplicity
+1
+complexity Dynamics
+
+Automotive
+
+Origin
+
+Field of Industries
+Resource
+Consumer goods
+Industry
+Industry
+
+Technical
+Industries
+
+Petroleum & Plastics
+
+Explanation:
+1
+Complexity drivers, which are documented in the literature
+review, focused on product development (see chapter 2.2) (N: 72)
+2
+Complexity drivers, which are documented in literature in other
+fields along the value chain and general in manufacturing
+companies (N: 44)
+3
+Additional complexity drivers, mentioned by the practice during
+expert interviews (N: 5)
+4
+Complexity drivers, which were regarded by the respondents as
+drivers that have a strong or very strong influence (N: 30)
+RfQ Relevant (R) for questionnaire based on the results of our pretest
+and several expert interviews (N: 64)
+
+1
+
+R
+R
+R
+
+R
+
+R
+R
+
+●
+
+●
+
+R
+R
+
+R
+R
+R
+R
+
+●
+●
+●
+
+R
+R
+R
+R
+R
+
+Total:
+
+1
+
+1
+
+1
+
+1
+
+0
+
+1
+
+●
+
+●
+●
+
+●
+
+1
+
+1
+
+3
+
+0
+
+0
+
+1
+1
+
+2
+2
+
+The factor loadings are described in detail in the
+appendix (Table 11).
+For a target oriented complexity management, the
+complexity drivers and their influences have to be
+identified. In literature, complexity drivers have a
+direct influence on the company and the total value
+chain [130] and are responsible for high complexity
+in the company. Furthermore, they have an influence
+on a company’s performance, especially on product
+development. To respond to RQ5, we developed a
+framework for identification, analysis and evaluation
+of the complexity effects in product development in our
+empirical research. The framework is developed based
+on the general framework, presented in Fig. 1, and the
+different examples, which are described in literature
+(see chapter 2.2). In this research, 18 different effects
+on product development, which are clustered in the
+4 categories time, quality, costs and flexibility, were
+evaluated by the respondents with an ordinal scale
+
+25
+
+(1-no effect; 2-small effect;…; 5-strong effect; 6-very
+strong effect). The effects, which are evaluated by more
+than 50 percent of the respondents with a strong or very
+strong impact on product development’s performance,
+were identified as the main effects.
+Table 7 presents the identified main effects in
+product development, the amount of respondents in
+the different fields of industry (Nresp) and the amount
+of respondents of our survey that evaluated these
+effects as strong or very strong in the different fields of
+industry (N). As a result of our empirical research and
+based on the evaluation results in the different fields
+of industries, high complexity has mostly a strong or
+very strong effect on the following 4 attributes (see
+Table 7): product development time (N: 155; 53%),
+adherence to deadlines in product development (N:
+128; 43%), product quality (N: 95; 32%) and product
+development’s costs in general (N: 123; 42%). High
+complexity has a strong effect on the development
+time in nearly all industry branches. Furthermore,
+
+Table 5: Overview about the strong and very strong correlations between different complexity drivers
+Correlations between the specific complexity drivers
+Ecological conditions / factors
+Individuality of customer demands
+
+Main complexity driver categories
+
+↔ Environmental awareness in population
+
+strong
+
+Society complexity
+
+↔
+
+strong
+
+Demand complexity & General market-related complexity
+
+Technological innovations & availability ↔
+Amount of suppliers
+
+Correlation
+
+↔
+
+Variety of customer requirements
+Technological progress
+
+strong
+
+Technological complexity (external)
+
+Variety of supplied goods
+
+strong
+
+Supply complexity
+
+Supply strategy or concept
+
+↔
+
+Amount of suppliers
+
+strong
+
+Supply complexity
+
+Uncertainty of delivery date
+
+↔
+
+Quality uncertainty of delivered goods
+
+strong
+
+Supply complexity
+
+Business objective’s change frequency
+
+↔
+
+Amount of different targets
+
+strong
+
+Target complexity
+
+Customer structure
+
+↔
+
+Customer’s amount
+
+strong
+
+Customer complexity
+Product & product portfolio complexity
+
+Product variety
+
+↔
+
+Product range / Portfolio
+
+strong
+
+New product launch’s frequency
+
+↔
+
+Product portfolio change frequency
+
+strong
+
+Product & product portfolio complexity
+
+Variety of parts and modules
+
+↔
+
+Product structure / design
+
+strong
+
+Product & product portfolio complexity
+
+Variety of the applied materials
+
+↔
+
+Variety of parts and modules
+
+strong
+
+Product & product portfolio complexity
+
+Properties of modules and materials
+
+↔ Availability of materials or components
+
+strong
+
+Product & product portfolio complexity
+
+Technology’s complicacy
+
+↔ Number of different applied technologies
+
+strong
+
+Technological complexity (internal)
+
+Technology’s combination
+
+↔ Number of different applied technologies
+
+strong
+
+Technological complexity (internal)
+
+Technology’s combination
+
+↔
+
+Technology’s complicacy
+
+strong
+
+Technological complexity (internal)
+
+Technology life cycle length
+
+↔
+
+Technology’s combination
+
+strong
+
+Technological complexity (internal)
+
+Data processing system
+
+↔
+
+Product software
+
+strong
+
+Product development complexity
+
+Production system
+
+↔
+
+Vertical range of manufacture
+
+strong
+
+Production complexity
+
+Amount of process interfaces
+
+↔
+
+Variety of processes
+
+strong
+
+Process complexity
+Process complexity
+
+Process degree of cross-linking
+
+↔
+
+Variety of processes
+
+strong
+
+Process standardization
+
+↔
+
+Process degree of cross-linking
+
+strong
+
+Process complexity
+
+Information flow’s variety
+
+↔
+
+Process degree of cross-linking
+
+strong
+
+Planning, control, information complexity & Process complexity
+
+Information flow’s variety
+
+↔
+
+Process’ standardization
+
+strong
+
+Planning, control, information complexity & Process complexity
+Planning, control, information complexity & Process complexity
+
+Process degree of cross-linking
+
+strong
+
+Organization´s / Company´s size
+
+Information flow’s dynamics
+↔
+
+Amount of hierarchical levels
+
+strong
+
+Organizational complexity
+
+Amount of simultaneous processes
+
+↔
+
+Amount of simultaneous projects
+
+strong
+
+Organizational complexity
+
+Process degree of cross-linking
+
+↔
+
+Amount of process interfaces
+
+very strong
+
+Process complexity
+
+Information flow’s dynamics
+
+↔
+
+Information flow’s variety
+
+very strong
+
+Planning, control and information complexity
+
+Company’s control level of detail
+
+↔
+
+Requirements of company’s control
+
+very strong
+
+Factor Reflecting complexity driver
+
+% of Variance
+(Initial Eigenvalues)
+
+Factor load’s range
+
+Amount of aggregated complexity drivers
+
+#1
+
+Company’s complexity
+
+25.276
+
+0.76 – 0.54
+
+15
+
+#2
+
+Product and technology complexity
+
+6.021
+
+0.67 – 0.42
+
+16
+
+#3
+
+Customer’s complexity
+
+4.809
+
+0.71 – 0.44
+
+8
+
+#4
+
+Market complexity
+
+4.375
+
+0.69 – 0.35
+
+9
+
+#5
+
+Supply complexity
+
+3.718
+
+0.75 – 0.66
+
+5
+
+#6
+
+Environmental and society complexity
+
+3.438
+
+0.84 – 0.37
+
+6
+
+#7
+
+Target complexity
+
+3.397
+
+0.69 – 0.45
+
+5
+
+Total:
+
+51.034
+
+high complexity has more effects in technical
+industries than in other fields of industry. The most
+important attributes in technical industries are product
+development time, adherence to deadlines in product
+development, product quality, product development’s
+direct costs and product development’s costs in
+general. In the resource industries, high complexity
+has a strong or very strong effect on the attributes
+product development time and adherence to deadlines
+in product development and thus these attributes are
+most important for complexity management. In the
+consumer goods industries, only 1 attribute is highly
+influenced by complexity and important for complexity
+management: product development time.
+To answer the fifth research question, a correlation
+analysis between the complexity drivers and the
+effects was conducted. Based on the results, only weak
+correlations were identified. Thus, the results were not
+taken into account.
+4.3
+
+Comparison of literature results with
+empirical results
+Answering the sixth research question, the empirical
+findings about complexity drivers in product
+development are compared with the literature findings
+to identify differences and commonalities. The
+objective is to confirm or to refine existing scientific
+knowledge or theories and to identify further research
+gaps.
+In literature, 108 different complexity drivers in
+product development are described in total between 1998
+and 2015 (NLit. T) (see Fig. 6 and Table 1). In our research,
+only the complexity drivers, published before 2015,
+were considered (NLit. 1998-2014), because the empirical
+research started already in 2014. For comparing the
+literature and empirical results, the complexity drivers,
+published in 2015 (NLit. 2015), were also considered. For
+the pretest (NPretest T), we used the complexity drivers,
+which were already mentioned in literature before 2015
+and added additional drivers from other fields along the
+
+64
+
+value chain (NVC). Our pretest resulted in 59 complexity
+drivers, which were considered truly relevant by the
+pretesters (Nrel.). Furthermore, the experts mentioned
+5 additional important and relevant complexity drivers
+(NExperts). Thus, our final questionnaire comprised 64
+complexity drivers in total (NQuestionnaire T). As a result
+of our empirical research, the respondents regarded 30
+different complexity drivers as drives that have a strong
+or very strong influence in principle (Neval.). Based on
+these drivers, different main complexity drivers in the
+different fields of industry are identified (see Table 4).
+Furthermore, some industries are influenced by more
+complexity drivers than other industries.
+In summary, 108 different complexity drivers
+are described in literature (see Fig. 6). In contrast,
+30 complexity drivers with a strong or very strong
+influence on product development were mentioned by
+experts. These drivers can be separated in 14 external,
+9 internal correlated and 7 internal autonomous
+drivers. Furthermore, 6 main complexity drivers
+were identified. No further complexity drivers were
+mentioned in our final empirical research. The different
+complexity drivers, which were mentioned by the
+experts are described in Table 4 (see chapter 4.2).
+In literature, the main complexity drivers are mostly
+related to internal complexity (see Table 1). Thus,
+the origin of complexity is seen mainly inside the
+company itself. In contrast, the identified complexity
+drivers from the empirical research are mostly related
+to external complexity. In practice, complexity is
+regarded as a condition, which is mostly influenced
+from outside. The reason may be that companies can
+influence and handle internal complexity actively, thus
+we come to the conclustion that the companies are
+aware of it. Contrary to internal complexity, external
+complexity cannot or nearly cannot be influenced by
+the company itself and is often unknown. Thus, the
+respondents consider the complexity phenomenon
+
+Table 7: Overview of the identified main complexity effects in product development
+and in different fields of industry
+
+Food, Forage &
+Tobacco
+
+%
+
+N
+
+%
+
+N
+
+%
+
+N
+
+%
+
+61%
+
+14
+
+58%
+
+9
+
+69%
+
+9
+
+53%
+
+15
+
+58%
+
+61%
+
+12
+
+50%
+
+8
+
+62%
+
+Others
+
+Glas, Ceramic,
+Pit & Quarry
+
+N
+
+Clothing &
+Textile
+
+Chemical &
+Pharmaceutical
+
+Lumber, Papers,
+Printing &
+Furniture
+
+Consumer Goods
+Industries
+
+N
+
+Metal
+
+Electrical &
+Optics
+
+Resource
+Industries
+Petroleum &
+Plastics
+
+High complexity in product
+development has a strong or very
+strong effect on...
+product development
+Time
+time
+adherence to deadlines in
+product development
+delivery time of supplied
+goods
+time for product’s
+validation
+
+Engineering
+
+Automotive
+
+Technical
+Industries
+
+Total
+Nresp: 24 Nresp: 90 Nresp: 29 Nresp: 31 Nresp: 14 Nresp: 24 Nresp: 13 Nresp: 17 Nresp: 26 Nresp: 13 Nresp: 14 NT: 295
+N
+
+%
+
+155
+
+53%
+
+128
+
+43%
+
+50%
+
+12
+
+4%
+
+13
+
+54%
+
+13
+
+4%
+
+14
+
+58%
+
+94
+
+32%
+
+15
+
+63%
+
+69
+
+23%
+
+12
+
+50%
+
+19
+
+6%
+
+18
+
+75%
+
+123
+
+42%
+
+product costs
+
+12
+
+50%
+
+48
+
+16%
+
+coordination costs
+
+12
+
+50%
+
+12
+
+4%
+
+inventory costs
+
+15
+
+63%
+
+15
+
+5%
+
+12
+
+4%
+
+13
+
+4%
+
+7
+
+2%
+
+Quality product quality
+
+N
+
+%
+
+N
+
+%
+
+N
+
+%
+
+N
+
+%
+
+15
+
+63%
+
+53
+
+59%
+
+21
+
+72%
+
+19
+
+13
+
+54%
+
+57
+
+63%
+
+19
+
+66%
+
+19
+
+12
+
+45
+
+16
+
+55%
+
+15
+
+50%
+
+52%
+
+%
+
+8
+
+62%
+
+11
+
+N
+
+%
+
+N
+
+%
+
+65%
+
+process’ balance
+
+Costs
+
+Flexibility
+
+process planning and
+controlling
+process size for quality
+check
+product development’s
+direct costs
+product development’s
+indirect costs
+product development’s
+costs in general
+
+17
+
+55%
+
+8
+
+14
+
+57%
+
+7
+55
+
+54%
+
+23
+
+79%
+
+10
+
+71%
+
+8
+
+62%
+
+15
+
+61%
+
+54%
+
+52%
+
+7
+
+50%
+
+7
+
+9
+
+54%
+
+7
+
+64%
+
+54%
+
+product design flexibility
+
+product development
+12 50%
+process flexibility
+temporal flexibility on
+product development
+13 54%
+content
+resource management’s
+flexibility
+Total amount of effects based on
+13
+complexity:
+
+7
+4
+
+6
+
+3
+
+information regarding external complexity drivers to
+increase their knowledge.
+There were some major differences between our
+research and literature regarding specific complexity
+drivers as well as driver categories and their influence
+on company’s complexity. In literature, organizational
+complexity is described as an important driver for
+company´s complexity (see Table 1, chapter 2.2). In our
+empirical research we found out that the organization
+and its complexity does not have a major influence on
+company´s complexity (see Fig. 5, chapter 4.1). The
+same could be found regarding the complexity driver
+categories technological complexity (external and
+internal), product and product portfolio complexity
+as well as product development complexity and
+
+3
+
+2
+
+6
+
+2
+
+2
+
+54%
+
+2
+
+1
+
+14
+
+their specific drivers (see Table 1, chapter 2.2). In
+literature, these categories and their specific drivers
+are also described as important sources for company´s
+complexity. However, in our research, the respondents
+classified these categories and their specific drivers
+not as important and relevant sources for managing
+company’s complexity (see Table 4, chapter 4.2).
+From scientific perspective, this comparison allows
+a concentration on the most important complexity
+drivers (see Table 4). Futhermore, the differences
+between literature and practice regarding specific
+drivers and driver categories are pointed out. From
+practical perspective, this comparison allows not only
+an insight about the drivers known in literature but
+according to complexity drivers in product development
+
+Empirical research
+according to complexity drivers in product development
+Total amount of
+complexity drivers used for pretest
+N Pretest T = NLit. 1998 - 2014 ∪ NVC = 116
+Amount of
+Amount
+identified complexity of relevant
+drivers between
+drivers
+1998 and 2014
+Nrel.: 59
+NLit. 1998 - 2014: 72
+
+Amount of identified
+complexity drivers between
+1998 and 2014
+NLit. 1998 - 2014: 72
+
+Amount of identified
+complexity drivers in
+2015
+NLit. 2015: 36
+
+Comparison
+
+Total amount of identified
+complexity drivers between 1998 and 2015
+NLit. T = NLit. 1998 - 2014 ∪ NLit. 2015 = 108
+
+Amount of
+complexity drivers
+from other fields
+along the value chain
+NVC: 44
+
+Total amount of
+complexity drivers used for Questionnaire
+N Questionnaire T = Nrel. ∪ NExperts = 64
+Amount of
+Amount of
+Amount of
+relevant complexity drivers with further complexity
+drivers mentioned strong influence drivers mentioned
+by the experts
+by the experts
+Neval.: 30
+Nrel.: 59
+NExperts: 5
+
+Figure 6: Comparison of literature findings versus empirical findings regarding complexity drivers
+in product development
+other practitioners from other fields of industry. This
+overview increases transparency for the practitioner.
+Further research should analyze the differences
+between theory and practice more in detail and
+the empirical findings should be used for further
+discussions und evaluations in literature. In addition,
+the companies should compare and evaluate their
+complexity drivers with those described in literature
+to question their own identified complexity drivers.
+5
+
+CONCLUSION, OUTLOOK AND
+LIMITATIONS
+
+The objective of this empirical research paper is to
+develop additional knowledge for science and practice
+by identifying and analyzing existing complexity
+drivers in science and practice in the field of product
+development. Furthermore, the results are compared to
+identify communalities and differences and to identify
+further research gaps.
+In the first step before starting our empirical study,
+we reviewed the literature regarding complexity drivers
+and their effects (see chapter 2.2). Next, we searched
+for previously existing empirical studies regarding
+complexity management and gaps in literature (see
+chapter 2.3). Our literature search resulted in 72
+empirical studies regarding complexity management.
+As a result of analyzing all previous empirical studies,
+
+only 6 studies are focused on product development.
+Furthermore, we found out that an empirical research
+in the field product development in manufacturing
+companies in Germany, including the identification and
+analysis of complexity drivers and their effects does
+not exist yet. In this paper, we want to close this gap.
+For our empirical research, we used the methodology
+of Flynn et al. [50]. In the third chapter, the research
+methodology, the objectives, the sample description
+and the methods for statistical analysis are described.
+For data collection, a standardized questionnaire
+consisting of 15 questions and a fixed response
+possibility was sent in 2 stages by e-mail to 3,086
+companies in 2015 and 2016. Only companies with
+more than 50 employees and located in Germany are
+selected. In total, 295 questionnaires were completed.
+The response rate resulted in 10.5 percent. Industry´s
+range contained 11 different fields of industry. For
+this empirical research, we determined 4 research
+questions, which were answered as follows.
+Answering the first empirical research question
+(RQ3), product development´s characteristics of the
+participating companies are analyzed regarding
+product and variant range; length of product life cycle
+and product development process; amount of applied
+components, materials, technologies and processes;
+the height of the own value adding percentage as well
+chapter 4.1.
+For answering the second empirical research question
+(RQ4), the empirical data regarding complexity drivers
+was analyzed and evaluated. Complexity drivers have
+an influence on a company’s complexity and are the
+basis for a target oriented complexity management.
+Based on the statistical analysis, some industries are
+influenced by more complexity drivers than other
+industries. For example, the automotive industry is
+influenced by 12 complexity drivers. In contrast, the
+chemical & pharmaceutical industry is influenced
+by only 6 drivers. Furthermore, some complexity
+drivers are more important than other drivers, because
+these drivers occur in most fields of industries. These
+include the complexity drivers market´s economic
+factors, variety of customer requirements, individuality
+of customer demands, number and strength of
+competitors, product range/portfolio and amount of
+simultaneous projects (see Table 4).
+As a further result, complexity in product development
+is mostly influenced by external complexity drivers.
+We also found out that different fields of industries are
+influenced by individual main complexity drivers. For
+example, the technical industries are characterized
+by the 6 main complexity drivers market´s economic
+factors, variety of customer requirements, individuality
+of customer demands, number and strength of
+competitors, product range/portfolio and amount
+of simultaneous projects. In contrast, the resource
+industries are influenced by the 5 complexity drivers:
+variety of customer requirements, individuality of
+customer demands, political framework conditions,
+demand´s dynamics as well as technological progress. It
+was surprising that the respondents did not evaluate the
+complexity driver categories technological complexity
+(external and internal), product and product portfolio
+complexity as well as product development complexity
+and their specific drivers with a strong or very strong
+influence on product development´s complexity,
+although product development is characterized by
+these categories.
+To identify the relationships and interdependences
+between the different complexity drivers, a correlation
+analysis was conducted. As a result of this analysis,
+strong correlations between different complexity
+drivers occur in the categories society complexity,
+demand complexity, general market-related complexity,
+technological complexity (external and internal), supply
+complexity, target complexity, customer complexity,
+product and product portfolio complexity, product
+development complexity, production complexity,
+process complexity as well as planning, control and
+information complexity and organizational complexity.
+Beyond, very strong correlations occur between the 2
+categories process complexity and planning, control
+and information complexity. Based on the correlation
+analysis, a factor analysis with varimax rotation was
+used for complexity driver’s aggregation. The factor
+
+29
+
+analysis was performed by the statistic software SPSS
+21. As a result of the factor analysis, 7 factors were
+identified, reflecting the complexity drivers: Company´s
+complexity, product and technology complexity,
+customer´s complexity, market complexity, supply
+complexity, environmental and society complexity as
+well as target complexity.
+Next, complexity driver’s influences on product
+development´s complexity in the 4 categories time,
+quality, costs and flexibility were analyzed (see Table
+7) to answer the third empirical research question
+(RQ5). As a result of our empirical research, high
+complexity has mostly a strong or very strong effect on
+the 4 attributes product development time, adherence
+to deadlines in product development, product quality
+and product development’s costs in general. Also, high
+complexity has a strong effect on the development
+time in nearly all industry branches. Furthermore,
+high complexity has a higher effect in technical
+industries than in others. In the technical industries
+(e.g. automotive or engineering), the most important
+attributes are product development time, adherence
+to deadlines in product development, product quality,
+product development’s direct costs and product
+development’s costs in general. In the resource
+industries (e.g. petroleum & plastics or glas, ceramic, pit
+& quarry), high complexity has a strong or very strong
+effect on the attributes product development time and
+adherence to deadlines in product development and
+is thus most important for complexity management.
+In the consumer goods industries (e.g. food, forage &
+tobacoo or clothing & textile), only 1 attribute is highly
+influenced by complexity and important for complexity
+management: product development time.
+Answering the last empirical research question
+(RQ6), the empirical findings about the complexity
+drivers are compared with the literature findings to
+identify the significant differences and commonalities
+(see chapter 4.3). In literature, 108 different complexity
+drivers are described in total without prioritization by
+the authors. In contrast, in our empirical study only
+30 complexity drivers with a strong or very strong
+influence on product development are mentioned and
+prioritized by experts.
+Summarizing the results of our empirical research,
+we developed some additional knowledge regarding
+complexity management as well as its drivers and
+effects in product development for science and practice.
+From scientific perspective, we connected
+scientific research with the real world by conducting
+a transparent, systematic, explicit and reproducible
+empirical research. Further, we compared the empirical
+results with the literature to identify communalities
+and differences and to close a currently existing gap
+in scientific literature, since no empirical research
+regarding complexity drivers and their effects in
+product development exists yet. In our empirical
+research we found out that 30 complexity drivers with a
+effects are described without priorization. Further, the
+experts stated that complexity in product development
+is mostly influenced by external complexity drivers.
+In literature, the complexity in product development
+is mostly influenced by internal drivers. This draws to
+the conclusion that internal drivers are not considered
+as problems, because these drivers can be handled
+by the company itself, whereas external complexity
+drivers cannot be influenced by the company itself
+and are therefore regarded more as problems. Thus,
+the practitioners need more and specific information
+about these drivers. Regarding organization`s influence
+on product development´s complexity, the authors in
+literature came to the conclusion that organization has
+a direct influence. In our research, the respondents
+specified that the organization has no negative influence
+on product development´s complexity. Based on these
+results, the researcher receive an overview about
+what is already known in practice and can confirm
+theoretical findings or can develop new ideas, theories
+or hypotheseses.
+From practical perspective, the practioners receive
+an overview about complexity perception in product
+development by other practitioners and from other fields
+of industries. In our research we found out that product
+development´s characteristics in the different fields of
+the German manufacturing industry are characterized
+by a medium and big product and variant range with
+a product life cycle length of more than 72 months.
+In contrast, the length of product development process
+is less than 25 months. The products predominantly
+consist of many different components, materials and
+technologies and the product development process
+consists of many different processes. Relating to
+company´s own value adding percentage in product
+development, there was no explicit recognizable
+tendency.
+Regarding the complexity drivers in product
+development we found out that some industries are
+influenced by more complexity drivers than other
+industries. For example, the industries automotive,
+petroleum & plastics and food, forage & tobacco
+are influenced by 12 different complexity drivers.
+In contrast, the electrical & optics industry or the
+chemical & pharmaceutical industry are influenced by
+only 6 drivers. Furthermore, the following drivers are
+identified as important drivers for product development´s
+complexity in most fields of industries: market´s
+economic factors, variety of customer requirements,
+individuality of customer demands, number and
+strength of competitors, product range/portfolio and
+amount of simultaneous projects. Seperating the
+results according to the different fields of industries
+it can be seen that the different industry clusters
+are characterized by a specific amount of important
+complexity drivers: Technical industries (N: 6),
+resource industry (N: 5) and consumer goods industry
+
+(N: 5). Based on a factor analysis, the complexity
+drivers were aggregated to 7 factors, which reflect the
+complexity drivers: Company´s complexity, product
+and technology complexity, customer´s complexity,
+market complexity, supply complexity, environmental
+and society complexity as well as target complexity.
+This aggregation helps the practitioner to focus their
+activities regarding complexity management in product
+development on this specific complexity sources within
+the company. Another purpose of this research was
+to analyze the effects of high complexity on product
+development, to give the practice a specific indication.
+In our research we identified 4 different effects in the
+categories time, quality and costs and over all fields
+of industries: product development time, adherence
+to deadlines in product development, product quality
+and product development´s costs in general. Within
+the different field of industries, the results can deviate.
+This overview increases transparency and helps the
+practioner to answer the questions “What complexity
+drivers have a high influence on product development´s
+complexity and are thus relevant for the company?” and
+“What effects do high complexity within the company
+have on product development?”.
+As already mentioned, further research is needed
+to analyze and explain the differences between
+literature and practice. Based on our empirical
+findings, further discussions und evaluations can be
+performed in literature. Our research was focused
+on the manufacturing industry in Germany in 2015
+and 2016. Future research may also include other
+countries and sectors as well as companies with less
+than 50 employees. It would be interesting to compare
+the empirical results from our study with the results
+from a further study, which is conducted in other
+field of industry or country / region. Furthermore,
+the development of complexity drivers and their
+importance for a company over time would also be
+interesting. Therefore, the same empirical research
+should be repeated in the future (i.e. 5 to 10 years) to
+identify differences and commonalities of complexity
+driver’s perception between now and the future.
+ACKNOWLEDGEMENT:
+The authors would like to thank Professor Herbert
+Kotzab, the associate editor, and the anonymous
+reviewers for their detailed and constructive comments
+that significantly improved this study. Furthermore,
+the authors would like to thank all participants in
+this research and the experts for their openness and
+excellent cooperation during the research process.
+CONFLICT OF INTEREST:
+The authors declare that they have no conflict of
+1. Abdelkafi N (2008) Variety-Induced Complexity
+in Mass Customization: Concepts and
+Management. Erich Schmidt, Berlin
+2. Alflayyeh S (2013) Supply Chain Complexity,
+Integrative Network and Competence Practices
+for Effective Performance Outcomes: Research
+Model and Empirical Test. Dissertation,
+University of Toledo. http://utdr.utoledo.edu/cgi/
+viewcontent.cgi?article=2653&context=thesesdissertations. Accessed 08 January 2017
+3. Anderson C (2006) The long tail: Why the future
+of business is selling less or more. Hyperion,
+New York
+4. Ashkenas R, Siegal W, Spiegel M (2013)
+Mastering Organizational Complexity: A Core
+Competence for 21st Century Leaders. Res. in
+Organ. Change and Development 21:29-58. doi:
+10.1108/S0897-3016(2013)0000021005
+5. Ashmos D, Duchon D, McDaniel R (2000)
+Organizational responses to complexity: the
+effect on organizational performance. J. of
+Organ. Chang. Management 13(6):577-594. doi:
+10.1108/09534810010378597
+6. Augusto Cauchick Miguel P (2007) Innovative
+new product development: a study of selected
+QFD case studies. The TQM Mag. 19(6):617-625.
+doi: 10.1108/09544780710828458
+7. BayerT(2010)IntegriertesVariantenmanagement:
+Variantenkostenbewertung mit faktoranalytischen Komplexitätstreibern. Rainer Hampp,
+München
+8. Beinhocker E (2007) Managing in a complex
+world. The McKinsey Q. 5(2):4-5
+9. Belz C, Schmitz C (2011) Verkaufskomplexität:
+Leistungsfähigkeit des Unternehmens in die
+Interaktion mit dem Kunden übertragen. In:
+Homburg C, Wiesecke J (eds) Handbuch Vertriebsmanagement: Strategie, Führung, Informationsmanagement, CRM. Gabler, Wiesbaden,
+pp 181-206
+10. Benett S (1999) Komplexitätsmanagement in der
+Investitionsgüterindustrie. Difo, Bamberg
+11. Beutin N (2000) Kundennutzen in industriellen
+Geschäftsbeziehungen. Deutscher UniversitätsVerlag, Wiesbaden
+12. Bick W, Drexl-Wittbecker S (2008) Komplexität
+reduzieren: Konzept, Methode, Praxis. LOG_X,
+Stuttgart
+13. Blecker T, Kersten W, Meyer C (2005)
+Development of an Approach for Analyzing
+Supply Chain Complexity. Hamburg University
+of Technology. http://mpra.ub.uni-muenchen.
+de/5284/1/MPRA_paper_5284.pdf. Accessed 20
+May 2015
+14. Bliss C (1998) Komplexitätsreduktion und
+Komplexitätsbeherrschung bei der SchmitzAnhänger Fahrzeugbau-Gesellschaft mbH. In:
+
+15.
+
+16.
+
+17.
+18.
+
+19.
+
+20.
+
+21.
+
+22.
+23.
+
+24.
+
+25.
+
+26.
+
+31
+
+Adam D (ed) Komplexitätsmanagement. Gabler,
+Wiesbaden, pp 145-168
+Bliss C (2000) Management von Komplexität –
+Ein integrierter, systemtheoretischer Ansatz zur
+Komplexitätsreduktion. Betriebswirtschaftlicher
+Verlag, Wiesbaden
+Blockus M-O (2010) Komplexität in Dienstleistungsunternehmen: Komplexitätsformen, Kosten- und Nutzenwirkungen, empirische Befunde
+und Managementimplikationen. Gabler, Wiesbaden
+Bloech J, Bogaschewsky R, Götze U, Roland F
+(1998) Einführung in die Produktion, 3rd edn.
+Springer, Heidelberg
+Bohne F (1998) Komplexitätskostenmanagement
+in der Automobilindustrie: Identifizierung und
+Gestaltung vielfaltsinduzierter Kosten. Gabler,
+Wiesbaden
+Bosch-Rekveldt M, Bakker H, Hertogh M, Mooi
+H (2015) Drivers of Complexity in Engineering
+Projects. In: Schwindt C, Zimmermann J
+(eds) Handbook on Project Management and
+Scheduling Vol. 2. Springer, Cham, pp 10791104. doi: 10.1007/978-3-319-05915-0_18
+Bosch-Rekveldt M, Jongkind Y, Mooi H,
+Bakker H, Verbraeck A (2011) Grasping project
+complexity in large engineering projects: The TOE
+(Technical, Organizational and Environmental)
+framework. Intern. J. of Proj. Management.
+29:728-739. doi: 10.1016/j.ijproman.2010.07.008
+Bozarth C, Warsing D, Flynn B, Flynn J
+(2009) The impact of supply chain complexity
+on manufacturing plant performance. J. of
+Oper. Management 27:78-93. doi: 10.1016/j.
+jom.2008.07.003
+Brandes D, Brandes N (2014) Einfach managen:
+Komplexität vermeiden, reduzieren und
+beherrschen. Redline, München
+Brandon-Jones E, Squire B, Rossenberg
+Y van (2015) The impact of supply base
+complexity on disruptions and performance:
+the moderating effects of slack and visibility.
+Intern. J. of Prod. Res. 53(22):6903-6918. doi:
+10.1080/00207543.2014.986296
+Braun C (2015) Komplexität interner Dienstleistungen: Konzeptualisierung, Messung und Integration in ein Wirkungsmodell. Springer Gabler,
+Wiesbaden
+Brexendorf J (2012) Komplexität in Kooperationen: Eine empirisch basierte Analyse unter der
+Anwendung des Sensitivitätsmodells. Logos,
+Berlin
+Brosch M, Krause D (2011) Design for Supply
+Chain Requirements: An Approach to Detect the
+Capabilities to Postpone. In: Proceedings of the
+ASME 2011 International Design Engineering
+Technical Conferences & Computers and
+Information in Engineering Conference IDETC/
+(eds) Ganzheitliche Unternehmensführung in
+dynamischen Märkten. Gabler, Wiesbaden, pp
+27-47
+28. Budde O, Golovatchev J (2014) Produkte des
+intelligenten Markts. In: Aichele C, Doleski O
+(eds) Smart Market. Springer, Wiesbaden, pp
+593-620. doi: 10.1007/978-3-658-02778-0_22
+29. Buob M (2010) Verkaufskomplexität im
+Außendienst: Konzeption – Erfolgswirkungen –
+Möglichkeiten im Umgang. Gabler, Wiesbaden
+30. BVL – Bundesvereinigung Logistik (2014)
+Logistik wird zum Impulsgeber für den Wandel
+hin zur Industrie 4.0. ZWF Z. Wirtsch. Fabrikbetr.
+109(11):866
+31. Carbonara N, Giannoccaro I (2009) Managing the
+complexity of the supply chain. In: Proceedings of
+the IEEE International Conference on Industrial
+Engineering and Engineering Management.
+Hong Kong, IEEE, pp 553-557. doi: 10.1109/
+IEEM.2009.5373280
+32. Caridi M, Pero M, Sianesi A (2009) The impact
+of NPD projects on supply chain complexity:
+an empirical research. Intern. J. of Design Eng.
+2(4):380-397. doi: 10.1504/IJDE.2009.030819
+33. Chapman R, Hyland P (2004) Complexity
+and learning behaviors in product innovation.
+Technovation 24:553-561. doi: 10.1016/S01664972(02)00121-9
+34. Chronéer D, Bergquist B (2012) Managerial
+Complexity in Process Industrial R&D Projects:
+A Swedish Study. Proj. Manag. J. 43(2):21-36.
+doi: 10.1002/pmj.21257
+35. Cimatti B, Tani G (2009) New Methodologies to
+Measure Product Technological Complexity for
+Manufacturing Optimization. In: Proceedings
+of the International Conference on Industrial
+Engineering and Engineering Management,
+Hong Kong, IEEE, pp. 1229-1233. doi: 10.1109/
+IEEM.2009.5372996
+36. Clark K, Fujimoto T (1991) Product Development
+Performance: Strategy, Organization, and
+Management in the World Auto Industry. Harvard
+Business School, Boston
+37. Closs D, Jacobs M, Swink M, Webb S (2008)
+Toward a theory of competencies for the
+management of product complexity: Six case
+studies. J for Oper Management 26:590-610. doi:
+10.1016/j.jom.2007.10.003
+38. Collinson S, Jay M (2012) From Complexity
+to Simplicity: Unleash Your Organizations´s
+Potential. Palgrave Macmillan, New York
+39. Davila T (2000) An empirical study on the drivers
+of management control systems´ design in new
+product development. Account., Organ. and Soc.
+25:383-409. doi: 10.1016/S0361-3682(99)00034-3
+
+40. Dehnen K (2004) Strategisches Komplexitätsmanagement in der Produktentwicklung. Dr. Kovac,
+Hamburg
+41. Dörner D (2001) Die Logik des Mißlingens:
+Strategisches Denken in komplexen Situationen,
+14th edn. Rowohlt, Reinbek bei Hamburg
+42. Eichen S v d, Stahl H, Odenthal S, Vollrath C
+(2005) Steuern – statt reduzieren. Harv. Bus.
+Manager 27(12):114-123
+43. Eigner M, Anderl R, Stark R (2012)
+Interdisziplinäre
+Produktentstehung.
+In:
+Anderl R, Eigner M, Sendler U, Stark R
+(eds) Smart Engineering: Interdisziplinäre
+Produktentstehung. Springer, Berlin, pp 7-16
+44. ElMaraghy W, ElMaraghy H, Tomiyama T,
+Monostori L (2012) Complexity in engineering
+design and manufacturing. CIRP Annals –
+Manuf. Technol. 61:793-814. doi: 10.1016/j.
+cirp.2012.05.001
+45. ElMaraghy H, ElMaraghy W (2014) Variety,
+Complexity and Value Creation. In: Zaeh M (ed)
+Enabling Manufacturing Competitiveness and
+Economic Sustainability: Proceedings of the 5th
+International Conference on Changeable, Agile,
+Reconfigurable and Virtual Production (CARV
+2013) in Munich October 6 – 9. Springer, Cham,
+pp 1-7
+46. Fässberg T, Harlin U, Garmer K, Gullander
+P, Fasth A, Mattsson S, Dencker K, Davidsson
+A, Stahre J (2011) An empirical study towards
+a definition of production complexity. In:
+Proceedings of the 21st International Conference
+on Production Research. Stuttgart, pp 1-6
+47. Field A P (2005) Discovering statistics using
+SPSS, 2nd edn. Sage, London
+48. Fink A (2014) Conducting Research Literature
+Reviews: From the Internet to Paper. Sage, Los
+Angeles
+49. Fleck A (1995) Hybride Wettbewerbsstrategien:
+Zur Synthese von Kosten- und Differenzierungsvorteilen. Gabler, Wiesbaden
+50. Flynn B, Sakakibara S, Schroeder R, Bates K,
+Flynn E (1990) Empirical Research Methods in
+Operations Management. J.of Oper. Management
+9(2):250-284. doi: 10.1016/0272-6963(90)90098X
+51. Geimer H (2005) Komplexitätsmanagement
+globaler Supply Chains. HMD – Prax.
+Wirtschaftsinform. 42:38-46
+52. Gerschberger M, Hohensinn R (2013) Supply
+Chain Complexity: A view from different
+perspectives. In: Proceedings of the POM 2013
+– Twenty Fourth Annual Conference, Denver,
+United States of America, pp 1-7
+53. Giannopoulos N (2006) Estimating the Design
+and Development Cost of Electronic Items.
+Dissertation, University of Cranfield
+54. Gießmann M (2010) Komplexitätsmanagement in
+
+56.
+
+57.
+58.
+
+59.
+
+60.
+
+61.
+
+62.
+
+63.
+
+64.
+
+65.
+
+zum Einfluss der Beschaffungskomplexität auf
+den Logistikerfolg. Josef Eul, Lohmar
+Gießmann M, Lasch R (2010) Der Einfluss der
+Beschaffungskomplexität auf den Logistikerfolg:
+Eine kausalanalytische Untersuchung unter
+Verwendung des Partial-Least-Squares (PLS) –
+Ansatzes. In: Bogaschewsky R, Eßig M, Lasch R,
+Stölzle W (eds) Supply Management Research:
+Aktuelle Forschungsergebnisse 2010. Gabler,
+Wiesbaden, pp 149-196
+Götzfried M (2013) Managing Complexity
+Induced by Product-Variety in Manufacturing
+Companies: Complexity Evaluation and
+Integration in Decision-Making. Difo, Bamberg
+Govil M, Proth J-M (2002) Supply Chain
+Design and Management: Strategic and Tactical
+Perspectives. Academic Press, San Diego
+Grimm R, Schuller M, Wilhelmer R (2014)
+Portfoliomanagement in Unternehmen: Leitfaden
+für Manager und Investoren. Springer Gabler,
+Wiesbaden
+Größler A, Grübner A, Milling P (2006)
+Organisational adaption processes to external
+complexity. Intern. J. Oper. & Prod. Management
+26(3):254-281. doi: 10.1108/01443570610646193
+Grübner A (2007) Bewältigung markinduzierter
+Komplexität in der industriellen Fertigung:
+Theoretische Ansätze und empirische Ergebnisse
+des International Manufacturing Strategy Survey.
+Peter Lang, Frankfurt am Main.
+Grussenmeyer R, Blecker T (2010) Requirements
+for the Design of a Complexity Management in
+New Product Development. In: Blecker T (ed)
+GIC-Prodesc Proceedings of the German-Italian
+Conference on the Interdependencies bet ween
+New Product Development and Supply Chain
+Management. TuTech Innovation, Hamburg, pp
+52-61
+Grussenmeyer R, Blecker T (2013) Requirements
+for the design of a complexity management
+method in new product development of integral
+and modular products. Intern. J. of Eng., Sci. and
+Technol. 5(2):132-149
+Gupta A, Wilemon D (1990) Accelerating
+the development of technology-based new
+products. Calif. Management Rev. 32:24-44. doi:
+10.2307/41166603
+Hanisch B, Wald A (2013) Erfolgreich mit Komplexität in (Beratungs-)Projekten umgehen. In:
+Gleich R, Klein A (ed) Komplexitätscontrolling:
+Komplexität verstehen und beherrschen. Haufe,
+Freiburg, pp 95-110
+Haumann M, Westermann H-H, Seifert S,
+Butzer S (2012) Managing complexity – A
+methodology, exemplified by the industrial
+sector of remanufacturing. In: Björkman M (ed)
+Proceedings of the 5th International Swedish
+Production Symposium SPS 12. Linköping,
+Swedish Production Academy, pp 107-114
+
+33
+
+66. Hawking S W (2000) Unified Theory Is Getting
+Closer: Hawking Predicts’. Mercury News, 23
+January, 29A
+67. He Q-H, Luo L, Wang J, Li Y-K, Zhao L (2012)
+Using Analytic Network Process to Analyze
+Influencing Factors of Project Complexity. In:
+Proceedings of the International Conference on
+Management Science and Engineering (ICMSE).
+Dallas, United States of America, IEEE, pp 17811786. doi: 10.1109/ICMSE.2012.6414413
+68. Hug T, Poscheschnik G (2010) Empirisch
+Forschen: Über die Planung und Umsetzung von
+Projekten im Studium. UVK Verlagsgesellschaft,
+Konstanz
+69. Isik F (2010) An Entropy-Based Approach
+for Measuring Complexity in Supply Chains.
+Intern. J. Prod. Res. 48(12):3681- 3696. doi:
+10.1080/00207540902810593
+70. Jäger J, Kluth A, Schatz A, Bauernhansl T (2014)
+Complexity patterns in the advanced Complexity
+Management of value networks. Procedia CIRP
+17:645-650. doi: 10.1016/j.procir.2014.01.070
+71. Jasti N, Kodali R (2014) A literature review
+of empirical research methodology in lean
+manufacturing. Intern. J.of Oper. & Prod.
+Management 34(8):1080-1122. doi: 10.1108/
+IJOPM-04-2012-0169
+72. Jensen T C, Bekdik B, Thuesen C (2014)
+Understanding Complex Construction Systems
+Through Modularity. In: Brunoe T D, Nielsen K,
+Joergensen K A, Taps S B (eds) Proceedings of the
+7th World Conference on Mass Customization,
+Personalization, and Co-Creation (MCPC 2014):
+Twenty Years of Mass Customization – Towards
+New Frontiers. Springer, Cham, pp 541-556. doi:
+10.1007/978-3-319-04271-8_45
+73. Kersten W, Koppenhagen F, Meyer C (2004)
+Strategisches Komplexitätsmanagement durch
+Modularisierung in der Produktentwicklung. In:
+Spath D (ed) Forschungs- und Technologiemanagement: Potenziale nutzen – Zukunft gestalten.
+Carl Hanser, München, pp 211-218
+74. Kersten W, Rall K, Meyer C, Dalhöfer J (2006)
+Complexity Management in Logistics and ETOSupply Chains. In: Blecker Th, Kersten W (eds)
+Complexity Management in Supply Chains:
+Concepts, Tools and Methods. Erich Schmidt,
+Berlin, pp 325-342
+75. Kersten W, Lammers T, Skirde H (2012)
+Komplexitätsanalyse von Distributionssystemen.
+TechnicalUniversityofHamburg-Harburg.https://
+www.bvl.de/files/441/481/Sachbericht_16164.pdf.
+Accessed 04 January 2017
+76. Keuper F (2004) Kybernetische Simultaneitätsstrategie: Systemtheoretisch-kybernetische Navigation im Effektivitäts- Effizienz-Dilemma.
+Logos, Berlin
+77. Kim J, Wilemon D (2003) Sources and
+
+79.
+
+80.
+
+81.
+
+82.
+
+83.
+84.
+
+85.
+86.
+
+87.
+
+88.
+
+89.
+
+R&D Management 33(1):15-30. doi: 10.1111/14679310.00278
+Kim J, Wilemon D (2009) An empirical
+investigation of complexity and its management
+in new product development. Technol.
+Anal. & Strateg. Manag. 21(4):547-564. doi:
+10.1080/09537320902819296
+Kim J, Wilemon D (2012) Complexity and the
+multiple impacts of new product development:
+Results from a field study. Intern. J. of Innov.
+and Technol. Manag. 9(6):25. doi: 10.1142/
+S0219877012500435
+Klabunde S (2003) Wissensmanagement in der
+integrierten Produkt- und Prozessgestaltung:
+Best-Practice-Modelle zum Management von
+Meta-Wissen. Deutscher Universitäts-Verlag,
+Wiesbaden
+Klagge C, Blank J (2012) Komplexität als
+Chance nutzen. Wassermann AG http://www.
+wassermann.de/fileadmin/user_upload/deutsch/
+dokumente/pdf/WAG_Broschueren/White_
+Paper_2012_Kompl exitaetsmanagement.pdf.
+Accessed 20 May 2015
+Komorek
+C
+(1998)
+Integrierte
+Produktentwicklung: Der Entwicklungsprozess
+in
+mittelständischen
+Unternehmen
+der
+metallverarbeitenden Serienfertigung. Steuerund Wirtschaftsverlag, Berlin
+Krause F-L, Franke H-J, Gausemeier J (2007)
+InnovationspotenzialeinderProduktentwicklung.
+Carl Hanser, München
+Kromrey H (2009) Empirische Sozialforschung:
+Modelle und Methoden der standardisierten
+Datenerhebung und Datenauswertung, 12th edn.
+Lucius & Lucius, Stuttgart
+Lammers T (2012) Komplexitätsmanagement für
+Distributionssysteme. Josef Eul, Lohmar
+Lasch R, Gießmann M (2009a) Ganzheitliche
+Ansätze zum Komplexitätsmanagement – eine
+kritische Würdigung aus Sicht der Beschaffungslogistik. In: Bogaschewsky R, Eßig M, Lasch R,
+Stölzle W (eds) Supply Management Research:
+Aktuelle Forschungsergebnisse 2008. Gabler,
+Wiesbaden, pp 194-231
+Leeuw S de, Grotenhuis R, Goor R van (2013)
+Assessing complexity of supply chains:
+evidence from wholesalers. Intern. J. Oper. &
+Prod. Management 33(8):960-980. doi: 10.1108/
+IJOPM-07-2012-0258
+Li Y, Li L, Liu Y, Wang L (2005) Linking
+management control system with product
+development and process decisions to
+cope with environment complexity. Intern.
+J. of Prod. Res. 43(12):2577-2591. doi:
+10.1080/00207540500045634
+Lübke E (2007) Lebenszyklusorientiertes Produktstrukturmanagement: Eine theoretische und
+empirische Untersuchung. Transfer-Centrum,
+München
+
+90. Lucae S, Rebentisch E, Oehmen J (2014)
+Understanding the Front-end of Large-Scale
+Engineering Programs. Proc Comp Sci 28:653662. doi:10.1016/j.procs.2014.03.079
+91. Madu CN (1998) An empirical assessment of
+quality: research considerations. Intern. J. of
+Qual. Sci. 3(4):348-355. doi: 10.1108/135985398
+10243630
+92. Maguire S, Allen P, McKelvey B (2011)
+Complexity and Managemetn: Introducing
+the SAGE Handbook. In: Allen P, Maguire
+S, McKelvey B (eds) The SAGE Handbook
+of Complexity and Management. SAGE, Los
+Angeles, pp 1-26
+93. Manuj I, Sahin F (2011) A model of supply chain
+and supply chain decision-making complexity. Int
+J Phys Distrib & Logist Management 41(5):511549. doi: 10.1108/09600031111138844
+94. Maturity (2015) IT-Komplexität 2015. Maturity
+GmbH. http://www.maturity.com/files/maturity/
+cont e nt /news/pd f / Mat u r it y-Um f r age _ I TKomplexitaet-2015.pdf. Accessed 04 January
+2017
+95. Maune G (2001) Möglichkeiten des Komplexitätsmanagements für Automobilhersteller auf
+Basis IT-gestützter durchgängiger Systeme. Dissertation, University of Paderborn
+96. Mayer A (2007) Modularisierung der Logistik:
+Ein Gestaltungsmodell zum Management von
+Komplexität in der industriellen Logistik.
+Universitätsverlag der Technischen Universität
+Berlin, Berlin
+97. Mayer H (2013) Interview und schriftliche Befragung: Grundlagen und Methoden empirischer
+Sozialforschung, 6th edn. Oldenbourg Wissenschaftsverlag, München
+98. Maylor H, Vidgen R, Carver S (2008) Managerial
+Complexity in Project-Based Operations: A
+Grounded Model and Its Implications for Practice.
+Proj. Manag. J. 39:15-26. doi: 10.1002/pmj.20057
+99. Meffert H (1992) Marketingforschung und
+Käuferverhalten, 2nd edn. Gabler, Wiesbaden
+100. Meijer B (2006) Organization structures for
+dealing with complexity. Dissertation, Technical
+University of Delft, Delft
+101. Meyer C (2007) Integration des Komplexitätsmanagements in den strategischen Führungsprozess
+der Logistik. Haupt, Bern
+102. Miragliotta G, Perona M, Portioli-Staudacher
+A (2002) Complexity Management in the
+Supply Chain: Theoretical Model and Empirical
+Investigation in the Italian Household Appliance
+Industry. In: Seuring S (ed) Cost Management in
+Supply Chains. Springer, Berlin, pp 381-397
+103. Mohr J, Sengupta S, Slater S (2010) Marketing
+of high-technology products and innovations.
+Pearson, Upper Saddle River
+104. Montoya-Weiss M, Calantone R (1994)
+Management 11(5):397-417
+105. Moody D (2002) Empirical Research Methods.
+http://folk.uio.no/patrickr/refdoc/methods.pdf.
+Accessed 11 August 2015
+106. Newman J (2009) Complexity Reduction:
+Managing the complexity of global product
+development to enable component reuse.
+Lund
+University.
+http://lup.lub.lu.se/luur/
+download?func=downloadFile&recordOId=
+1482388&fileOId= 1482389. Accessed 11 August
+2015
+107. Nicolis G, Prigogine I (1987) Die Erforschung
+des Komplexen: Auf dem Weg zu einem neuen
+Verständnis der Naturwissenschaften. Piper,
+München
+108. Novak S, Eppinger S (2001) Sourcing By Design:
+Product Complexity and the Supply Chain.
+Management Sci. 47(1):189-204. doi: 10.1287/
+mnsc.47.1.189.10662
+109. Oyama K, Learmonth G, Chao R (2015) Applying
+complexity science to new product development:
+Modeling considerations, extensions, and
+implications. J Eng Technol Management 35:1-24.
+doi: 10.1016/j.jengtecman.2014.07.003
+110. Palmisano S (2010) Capitalizing on Complexity:
+Insights from the Global Chief Executive Officer
+Study. The IBM Corporation. http://www-01.
+ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=
+GBE03297 USE N& appna me = w w wsea rch.
+Accessed 21 December 2016
+111. Parry G, Purchase V, Mills J (2011) Complexity
+Management. In: Ng I, Parry G, Wild P, McFarlane
+D, Tasker P (eds) Complex Engineering Service
+Systems: Concepts and Research. Springer,
+London, pp 67-86. doi:10.1007/978-0-85729-1899_4
+112. Perona M, Miragliotta G (2004) Complexity
+management and supply chain performance
+assessment: A field study and a conceptual
+framework. Intern. J. Prod. Econ. 90:103-115. doi:
+10.1016/S0925-5273(02)00482-6
+113. Pfeifer W et al (1989) Etymologisches Wörterbuch
+des Deutschen. Akademie-Verlag, Berlin
+114. Purle E (2004) Management von Komplexität
+in jungen Wachstumsunternehmen: Eine
+fallstudiengestützte Analyse. Josef Eul, Lohmar
+115. Raab A, Poost A, Eichhorn S (2009) Marketingforschung: Ein praxisorientierter Leitfaden,
+Kohlhammer, Stuttgart
+116. Ragatz G, Handfield R, Petersen K (2002)
+Benefits associated with supplier integration into
+new product development under conditions of
+technology uncertainty. J. of Bus. Res. 55:389400. doi: 10.1016/S0148-2963(00)00158-2
+117. Raufeisen M (1999) Konzept zur Komplexitätsmessung des Auftragsabwicklungsprozesses:
+Eine empirische Untersuchung. Transfer-Centrum, München
+
+35
+
+118. Riedl R (2000) Strukturen der Komplexität:
+Eine Morphologie des Erkennens und Erklärens.
+Springer, Berlin
+119. Schaefer S (1999) Product design partitions
+with complementary components. J. of Econ.
+Behav. & Organ. 38:311-330. doi: 10.1016/S01672681(99)00012-8
+120. Schatz A, Schöllhammer O, Jäger J (2014) Ansatz
+zum Umgang mit Komplexität in Unternehmen:
+Risiken aufdecken, Chancen erkennen und Potenziale heben. Controlling – Zeitschrift für erfolgsorientierte Unternehmenssteuerung. 26(12):686693. doi: 10.15358/0935-0381_2014_12_686
+121. Scheiter S, Scheel O, Klink G (2007) How
+Much Does Complexity Really Cost?.
+A.T.
+Kearney.
+https://www.atkearney.com/
+documents/10192/178350/complexity _secure.
+pdf/cd044988-91e9-4331-8afe-d72265c745e3.
+Accessed 6 January 2017
+122. Schey V, Roesgen R (2012) Mastering Complexity:
+Focus Topic Paper. Camelot Management
+Consultants.
+http://www.chemanager-online.
+com/file/track/18649/1. Accessed 20 December
+2016
+123. Schmidt D (1992) Strategisches Management
+komplexer Systeme: Die Potentiale computergestützter Simulationsmodelle als Instrumente
+eines ganzheitlichen Managements – dargestellt
+am Beispiel der Planung und Gestaltung komplexer Instandhaltungssysteme. Peter Lang, Frankfurt am Main
+124. Schoeneberg K-P (2014a) Komplexität – Einführung in die Komplexitätsforschung und Herausforderung für die Praxis. In: Schoeneberg K-P
+(ed) Komplexitätsmanagement in Unternehmen:
+Herausforderungen im Umgang mit Dynamik,
+Unsicherheit und Komplexität meistern. Springer
+Gabler, Wiesbaden, pp 13-28
+125. Schoenherr T, Hilpert D, Soni A, Venkataramanan
+M.A., Mabert V (2010) Enterprise systems
+complexity and its antecedents: a grounded-theory
+approach. Intern. J. of Oper. & Prod. Management.
+30(6):639-668. doi: 10.1108/01443571011046058
+126. Schöllhammer O, Jäger J, Bauernhansl T (2014)
+Studie
+Komplexitätsbewirtschaftung
+2014.
+Fraunhofer IPA. http://www.ipa.fraunhofer.de/
+fileadmin/user_upload/Leitthemen/Komplexi
+taetsbewirtschaftung/Studie_Komplexitaetsbewi
+rtschaftung_2014.pdf. Accessed 21 December
+2016
+127. Schömann S. (2012) Produktentwicklung in der
+Automobilindustrie: Managementkonzepte vor
+dem Hintergrund gewandelter Herausforderungen, Gabler, Wiesbaden
+128. Schöttl F, Herrmann N, Maurer M, Lindemann
+U (2014) Systematic Procedure for Handling
+Complexity in the Automotive Prodution. In: Zaeh
+M (ed) Enabling Manufacturing Competitiveness
+(CARV 2013). Springer, Munich, pp 255-260
+129. Schuh G, Schwenk U (2001) Produktkomplexität
+managen – Strategien, Methoden, Tools. Carl
+Hanser, München
+130. Schuh G (2005) Produktkomplexität managen
+– Strategien, Methoden, Tools, 2nd edn. Carl
+Hanser, München
+131. Schuh G, Deger R, Jung M, Meier J, Schöning
+S (2007b) Managing Complexity in Automotive
+Engineering. University of Aachen. http://www.
+lean-innovation.de/de/managing_complexity/
+Brosch%C3%BCre_LS_PS_rz.pdf. Accessed 20
+May 2015
+132. Schuh G, Arnoscht J, Rudolf S (2010) Integrated
+Development of Modular Product Platforms.
+In: Kocaoglu D F, Anderson T R, Daim T
+(eds) Proceedings of International Center for
+Management of Engineering and Technology
+PICMET. Portland, IEEE, pp 1928-1940
+133. Schuh G, Froitzheim T, Sommer M (2013) Komplexität beherrschen – Produktivitätssteigerungen realisieren: Navigation für Führungskräfte.
+Industrieanzeiger. http://industrieanzeiger.industrie.de/management /navigation-fuer-fuehrungskraefte/. Accessed 4 January 2017
+134. Seifert S, Butzer S, Westermann H-H,
+Steinhilper R (2013) Managing Complexity in
+Remanufacturing. In: Proceedings of the World
+Congress on Engineering 2013 Vol. I WCE 2013.
+London, pp 647-652
+135. Serdarasan S (2011) A review of supply chain
+complexity drivers. In: Proceedings of the 41st
+International Conference on Computers &
+Industrial Engineering. Los Angeles, pp 792-797.
+136. Simon H (1962) The architecture of complexity.
+Proc. of the Am. Ph. Soc. 106(6):467-482
+137. Subramanian N, Rahman S (2014) Supply Chain
+Complexity and Strategy. In: Ramanathan U,
+Ramanathan R (eds) Supply Chain Strategies,
+Issues and Models. Springer, London, pp 1-27.
+doi: 10.1007/978-1-4471-5352-8_1
+138. Subramanian N, Rahman S, Abdulrahman M
+(2015) Sourcing complexity in the Chinese
+manufacturing sector: An assessment of
+intangible factors and contractual relationship
+strategies. Intern. J. of Prod. Econ. 166:269-284.
+doi: 10.1016/j.ijpe.2015.03.012
+139. Thiebes F, Plankert N (2014) Umgang mit
+Komplexität in der Produktentwicklung
+–
+Komplexitätsbeherrschung
+durch
+Variantenmanagement. In: Schoeneberg K-P
+(ed) Komplexitätsmanagement in Unternehmen:
+Herausforderungen im Umgang mit Dynamik,
+Unsicherheit und Komplexität meistern. Springer
+Gabler, Wiesbaden, pp 165-186
+140. Tresselt C (2015) The management of complexity
+in project management – a qualitative and
+
+quantitative case study of certified project
+managers in Germany. Dissertation, University of
+Gloucestershire. http://eprints.glos.ac.uk/2924/1/
+Christian%20Tresselt%20DBA%20thesis%20
+2015%20redacted%20for%20signature%20
+and%202%20images.pdf. Accessed 08 January
+2017
+141. Vogel W, Lasch R (2015) Approach for
+Complexity Management in Variant-rich Product
+Development. In: Blecker T, Kersten W, Ringle
+C M (eds) Operational Excellence in Logistics
+and Supply Chains: Proceedings of the Hamburg
+International Conference of Logistics (HICL).
+Hamburg, pp 97-140
+142. Vogel W, Lasch R (2016) Complexity drivers in
+manufacturing companies: a literature review.
+Log. Res. 9:25. doi: 10.1007/s12159-016-0152-9
+143. Vogel W (2017) Complexity Management
+Approach for Resource Planning in Variantrich Product Development. In: Bode Ch,
+Bogaschewsky R, Eßig M, Lasch R, Stölzle W
+(eds) Supply Managemetn Research: Aktuelle
+Forschungsergebnisse 2017. Springer Gabler,
+Wiesbaden, pp 83-128
+144. Voigt K-I, Baccarella C, Wassmus A, Meißner
+O (2011) The Effects of Customer Orientation
+on the Product Performance of Technological
+Innovations: A Comparison between SMEs
+and Large Companies. In: Proceedings of
+the International Conference on Technology
+Management in the Energy-Smart World
+(PICMET). IEEE, Portland, pp 1-11
+145. Wangenheim S von (1998b) Planung und
+Steuerung des Serienanlaufs komplexer Produkte:
+Dargestellt am Beispiel der Automobilindustrie.
+Europäischer Verlag der Wissenschaften,
+Frankfurt am Main
+146. Warnecke G (2010) Komplexität: mit Kompetenz
+bewältigen, mit Technik beherrschen. ZWF Z.
+Wirtsch. Fabrikbetr. 105(7-8):639-641
+147. Warnecke G, Puhl H (1997) Komplexitätsmanagement – Mit Systemdenken zur Beherrschung
+der Komplexität. wt Werkstatttech. 87:359-363
+148. Westphal J (2001) Komplexitätsmanagement
+in der Produktionslogistik: Entwicklung eines
+Ansatzes zur flußorientierten Gestaltung und
+Lenkung von heterogenen Produktionssystemen.
+Dissertation, Technische Universität Dresden
+149. Wildemann H (2005) Teure Vielfalt: Wie
+Komplexitätsmanagement auch Qualitätskosten
+reduziert. QZ 50(11):33-36
+150. Wildemann H, Voigt K-I (2011) Komplexitätsindex-Tool: Entscheidungsgrundlagen für die Produktprogrammgestaltung bei KMU. TransferCentrum, München
+151. Wildemann H (2012) Komplexitätsmanagement
+in Vertrieb, Beschaffung, Produkt, Entwicklung
+und Produktion, 13th edn. Transfer-Centrum,
+
+152. Wölfling C (2014) Komplexität im Anlagenbau.
+http://www.gfse.de/Dokumente_Mitglieder/
+studienpreis/sp _2014/P9900_Studienpreis_
+Komplexitaet_TdSE_2014_CW_R00_140921.
+pdf. Accessed 04 January 2017
+153. Wu Y, Frizelle G, Efstathiou J (2007) A study on
+the cost of operational complexity in customersupplier systems. Intern. J. of Prod. Econ.
+106:217-229. doi: 10.1016/j.ijpe.2006.06.004
+154. Zahn E, Kapmeier F, Tilebein M (2006)
+Formierung und Evolution von Netzwerken –
+
+ausgewählte Erklärungsansätze. In: Wojda F,
+Barth A (eds) Innovative Kooperationsnetzwerke,
+Gabler, Wiesbaden, pp 129-150
+155. Zhang Y-L, Yang N-D (2012) Research on
+the Evolutionary Mechanism of NPD Project
+Complexity Based on the CAS Theory. In:
+Lan H, Yang Y-H (eds) Proceedings of the
+19th International Conference on Management
+Science & Engineering. Dallas, University of
+Texas & Harbin Institute of Technology, IEEE,
+pp 230-235. doi: 10.1109/ICMSE.2012.6414188
+
+APPENDIX
+Table 8 General framework of literature collection, focused on empirical research
+in the field complexity management
+Database
+
+Search terms
+
+Date
+
+Results
+
+EBSCOhost
+
+(Komplexität N10 Management) AND
+(Studie OR Untersuchung OR Empir* OR Befrag* OR Interview)
+(complexity N10 management) AND
+(study OR survey OR empir* OR questioning OR interview)
+
+17/04/23
+
+3
+
+17/04/23
+
+750
+
+"Komplexität?" AND
+(Studie OR Untersuchung OR Empir? OR Befrag? OR Interview)
+("complexity management" OR "management of complexity") AND
+(study OR survey OR empir? OR questioning OR interview)
+
+17/03/24
+
+4
+
+17/03/30
+
+148
+
+Komplexität* ndj5 (Studie OR Untersuchung OR Empir* OR Befrag* OR Interview)
+complexity ndj5 (study OR survey OR empir* OR questioning OR interview)
+
+17/03/02
+17/03/04
+
+600
+790
+
+17/03/09
+
+4,200
+
+17/03/12
+
+14,910
+
+Komplexität* NEAR/2
+(Studie OR Untersuchung OR Empir* OR Befrag* OR Interview)
+complexity NEAR/2
+(study OR survey OR empir* OR questioning OR interview)
+
+17/03/18
+
+4
+
+17/03/16
+
+1,232
+
+("Komplexität Management"~5) AND
+(Studie OR Untersuchung OR Empir* OR Befrag* OR Interview)
+("complexity management"~5) AND
+(study OR survey OR empir* OR questioning OR interview)
+
+17/04/17
+
+27
+
+17/04/23
+
+2,462
+
+ScienceDirect
+
+Komplexität* AND (Studie OR Untersuchung OR Empir* OR Befrag* OR Interview)
+complexity AND (study OR survey OR empir* OR questioning OR interview)
+
+17/03/19
+17/03/22
+
+112
+282
+
+SpringerLink
+
+(Komplexität NEAR/5 Management) AND
+(Studie OR Untersuchung OR Empir* OR Befrag* OR Interview)
+(complexity NEAR/5 management) AND
+(study OR survey OR empir* OR questioning OR interview)
+
+17/04/06
+
+728
+
+17/04/12
+
+447
+
+Emerald
+
+GENIOS /
+WISO
+
+Google Scholar "Komplexität*" AND
+("Studie" OR "Untersuchung" OR "Empir*" OR "Befrag*" OR "Interview")
+"complexity" AND
+("study" OR "survey" OR "empir*" OR "questioning" OR "interview")
+IEEE Xplore
+
+JSTOR
+
+Medium correlations
+
+Complexity drivers
+Value change & value awareness
+Environmental awareness in population
+Ecological conditions / factors
+Political framework conditions
+Legal factors
+Market’s infrastructure
+Market’s economic factors
+Variety of customer requirements
+Individuality of customer demands
+Demand’s dynamics
+Number & strength of competitors
+Market’s change
+Competitor’s dynamics
+Market´s globalization
+Technological progress
+Technological innovations & availability
+Variety of supplied goods
+Amount of suppliers
+Supply strategy or concept
+Quality uncertainty of delivered goods
+Uncertainty of delivery date
+Amount of different targets
+Business objective’s change frequency
+Business objective’s time pattern
+Customer’s amount
+Customer structure
+Customer’s participation
+Product variety
+Product range / Portfolio
+Product portfolio change frequency
+New product launch’s frequency
+Product life cycle length
+Note:
+**= significant at the 0.01 level
+* = significant at the 0.05 level
+N = 295 companies
+
+ID
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+
+1
+1
+.59**
+.42**
+.25**
+.28**
+.18**
+.15**
+.05
+.12*
+.23**
+-.01
+.13*
+.14*
+.07
+.03
+.08
+.17**
+.08
+.06
+.12*
+.08
+.23**
+.21**
+.06
+.02
+.03
+-.05
+.13*
+.03
+.13*
+.22**
+.09
+
+3
+
+1
+.42**
+.32**
+.27**
+.21**
+.13*
+.17**
+.21**
+.19**
+.25**
+.20**
+.15*
+.07
+.07
+.17**
+.09
+.10
+.08
+.07
+.11
+.09
+.80
+.06
+.06
+.11
+.14*
+.13*
+.11
+.22**
+.05
+
+2
+
+1
+.78**
+.37**
+.32**
+.26**
+.14*
+.10
+.10
+.25**
+.14*
+.19**
+.17**
+.14*
+.06
+.06
+.16**
+.12*
+.12*
+.11
+.10
+.15**
+.13*
+.10
+.05
+.03
+.03
+.09
+.03
+.16**
+.23**
+.04
+1
+.36**
+.32**
+.18**
+.02
+-.05
+.13*
+.14*
+.19**
+.17**
+.20**
+.12*
+.09
+.19**
+.23**
+.16**
+.07
+.09
+.06
+.10
+-.01
+.04
+.06
+.12*
+.14*
+.17**
+.15*
+.12*
+.12*
+
+4
+
+1
+.28**
+.12*
+.10
+.03
+.04
+-.03
+.14*
+.09
+.07
+.17**
+.13*
+.18**
+.14*
+.10
+.13*
+.06
+.19**
+.24**
+.15*
+.09
+.08
+.01
+.04
+.04
+.15*
+.21**
+.12*
+
+5
+
+1
+.32**
+.15*
+.16**
+.24**
+.14*
+.23**
+.20**
+.30**
+.27**
+.24**
+.22**
+.18**
+.20**
+.19**
+.23**
+.18**
+.17**
+.13*
+.12*
+.08
+.13*
+.06
+.03
+.18**
+.21**
+.21**
+
+6
+
+1
+.36**
+.33**
+.35**
+.26**
+.31**
+.29**
+.30**
+.24**
+.25**
+.22**
+.13*
+.11
+.16**
+.14*
+.04
+.01
+.12*
+.14*
+.18**
+.14*
+.19**
+.08
+.18**
+.14*
+.09
+
+7
+
+1
+.64**
+.35**
+.13*
+.28**
+.23**
+.15*
+.21**
+.17**
+.08
+.05
+.05
+.05
+.10
+.12*
+.06
+.14*
+.32**
+.37**
+.24**
+.24**
+.19**
+.13*
+.19**
+.11
+
+8
+
+1
+.50**
+.18**
+.28**
+.22**
+.13*
+.14*
+.15*
+.05
+.02
+.05
+.03
+.05
+.14*
+.01
+.06
+.25**
+.26**
+.21**
+.23**
+.20**
+.05
+.17**
+.06
+
+9
+
+1
+.31**
+.35**
+.32**
+.22**
+.17**
+.18**
+.22**
+.19**
+.15*
+.13*
+.16**
+.21**
+.08
+.01
+.28**
+.28**
+.15*
+.25**
+.19**
+.12*
+.19**
+.12*
+
+10
+
+1
+.42**
+.55**
+.34**
+.27**
+.24**
+.12*
+.14*
+.12*
+.07
+.07
+.13*
+.08
+.08
+.18**
+.14*
+.10
+.17**
+.16**
+.12*
+.14*
+.04
+
+11
+
+1
+.43**
+.54**
+.37**
+.29**
+.22**
+.18**
+.21**
+.13*
+.17**
+.10
+.09
+.17**
+.26**
+.27**
+.20**
+.19**
+.21**
+.18**
+.20**
+.18**
+
+12
+
+1
+.42**
+.43**
+.41**
+.32**
+.27**
+.24**
+.17**
+.17**
+.16**
+.14*
+.25**
+.28**
+.27**
+.22**
+.33**
+.28**
+.38**
+.36**
+.22**
+
+13
+
+1
+.41**
+.31**
+.17**
+.24**
+.21**
+.20**
+.21**
+.10
+.06
+.14*
+.24**
+.27**
+.24**
+.19**
+.16**
+.20**
+.17**
+.22**
+
+14
+
+1
+.73**
+.19**
+.21**
+.19**
+.23**
+.20**
+.18**
+.21**
+.24**
+.33**
+.28**
+.23**
+.20**
+.18**
+.26**
+.25**
+.23**
+
+15
+
+1
+.27**
+.23**
+.25**
+.18**
+.13*
+.17**
+.21**
+.20**
+.22**
+.17**
+.17**
+.18**
+.14*
+.26**
+.21**
+.18**
+
+16
+
+1
+.67**
+.53**
+.38**
+.33**
+.13*
+.15**
+.18**
+.20**
+.18**
+.20**
+.28**
+.24**
+.34**
+.30**
+.10
+
+17
+
+1
+.67**
+.40*
+.39**
+.03
+.10
+.14*
+.21**
+.22**
+.22**
+.22**
+.22**
+.31**
+.24**
+.10
+
+18
+
+1
+.53**
+.47**
+.13*
+.21**
+.17**
+.24**
+.19**
+.16**
+.14*
+.16**
+.22**
+.26**
+.14*
+
+19
+
+1
+.73**
+.14*
+.15**
+.10
+.20**
+.15**
+.12*
+.07
+.09
+.17**
+.19**
+.17**
+
+20
+
+1
+.13*
+.17**
+.10
+.18**
+.15**
+.18**
+.11
+.07
+.19**
+.21**
+.18**
+
+21
+
+1
+.61**
+.41**
+.16**
+.13*
+-.06
+.18**
+.18**
+.14*
+.28**
+.10
+
+22
+
+1
+.50**
+.14*
+.06
+-.03
+.14*
+.14*
+.28**
+.27**
+.19**
+
+23
+
+1
+.18**
+.12*
+.07
+.11
+.13*
+.27**
+.31**
+.24**
+
+24
+
+1
+.75**
+.43**
+.43**
+.37**
+.25**
+.25**
+.26**
+
+25
+
+1
+.46**
+.47**
+.45**
+.24**
+.23**
+.23**
+
+26
+
+1
+.34**
+.38**
+.23**
+.16**
+.15**
+
+27
+
+29
+
+30
+
+31
+
+1
+.68** 1
+.43** .39** 1
+.39** .32** .64** 1
+.29** .25** .32** .39**
+
+28
+
+1
+
+32
+
+38
+Medium correlations
+
+Complexity drivers
+Product structure / design
+Variety of parts and modules
+Variety of the applied materials
+Variance in product design
+Availability of materials or components
+Properties of modules and materials
+Product’s degree of innovation
+Product life cycle length
+Technology change / innovation
+Number of different applied technologies
+Technology’s complicacy
+Technology’s combination
+Technology life cycle length
+Product software
+Data processing system
+Vertical range of manufacture
+Production system
+Variety of processes
+Amount of process interfaces
+Process degree of cross-linking
+Process standardization
+Information flow’s variety
+Information flow’s dynamics
+Amount of hierarchical levels
+Organization´s / Company´s size
+Degree of centralization
+Amount of simultaneous projects
+Amount of simultaneous processes
+Amount of employees
+Requirements for company’s control
+Company’s control level of detail
+Company’s communication system
+Note:
+**= significant at the 0.01 level
+* = significant at the 0.05 level
+N = 295 companies
+
+ID
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+
+1
+.03
+.15**
+.17**
+.13*
+.13*
+.17**
+.24**
+.13*
+.09
+.08
+.07
+.10
+.04
+.07
+.09
+.11
+.03
+.11
+.12*
+.15**
+.12*
+.12*
+.16**
+.20**
+.23**
+.22**
+.08
+.10
+.05
+.09
+.12*
+.09
+
+2
+.12*
+.14*
+.18**
+.13*
+.15**
+.25**
+.29**
+.09
+.16**
+.17**
+.17*
+.18**
+.09
+.06
+.11
+.16**
+.13*
+.14*
+.20**
+.16**
+.19**
+.14*
+.16**
+.22**
+.21**
+.14*
+.11
+.10
+.083
+.08
+.12*
+.01
+
+3
+.15*
+.16**
+.24**
+.08
+.14*
+.20**
+.21**
+.04
+.10
+.17**
+.16**
+.20**
+.11
+.03
+.10
+.13*
+.15*
+.16**
+.20**
+.16**
+.25**
+.14*
+.14*
+.17**
+.22**
+.11
+.11
+.10
+.10
+.14*
+.15*
+.02
+
+4
+.13*
+.16**
+.11
+.05
+.07
+.14*
+.13*
+.07
+.07
+.19**
+.16**
+.21**
+.18**
+.13*
+.16**
+.06
+.07
+.14*
+.20**
+.19**
+.20**
+.21**
+.23**
+.15*
+.18**
+.13*
+.15*
+.15**
+.06
+.16**
+.18**
+.16**
+
+5
+.13*
+.16**
+.18**
+.06
+.15*
+.15**
+.19**
+.14*
+.13*
+.27**
+.16**
+.20**
+.13*
+.12*
+.15**
+.13*
+.15**
+.19**
+.19**
+.20**
+.21**
+.17**
+.18**
+.20**
+.20**
+.22**
+.24**
+.24**
+.13*
+.16**
+.12*
+.11
+
+6
+.18**
+.13*
+.20**
+.22**
+.22**
+.23**
+.23**
+.16**
+.25**
+.26**
+.26**
+.27**
+.23**
+.18**
+.20**
+.15**
+.15**
+.18**
+.21**
+.19**
+.11
+.20**
+.26**
+.24**
+.26**
+.14*
+.14*
+.19**
+.20**
+.13*
+.14*
+.15**
+
+7
+.12*
+.10
+.11
+.11*
+.13*
+.13*
+.17**
+.21**
+.22**
+.20**
+.19**
+.15**
+.07
+.12*
+.19**
+.09
+.13*
+.21**
+.22**
+.24**
+.12*
+.17**
+.17**
+.18**
+.18**
+.14*
+.09
+.16**
+.18**
+.04
+.07
+.13*
+
+8
+.16**
+.17**
+.11
+.18**
+.09
+-.10
+.18**
+.23**
+.20**
+.17**
+.15**
+.15*
+.20**
+.09
+.040
+.20**
+.19**
+.23**
+.25**
+.19**
+.19**
+.16**
+.18**
+.09
+.08
+.11
+.15**
+.18**
+.13*
+.06
+.11
+.05
+
+9
+.03
+.07
+.06
+.21**
+.01
+-.04
+.06
+.15**
+.12*
+.09
+.08
+.04
+.09
+.04
+-.01
+.15*
+.12*
+.14*
+.16**
+.14*
+.08
+.11
+.12*
+.03
+.04
+.06
+.06
+.11
+.12*
+.03
+.10
+.06
+
+10
+.10
+.16**
+.13*
+.14*
+.10
+.06
+.09
+.17**
+.12*
+.12*
+.17**
+.11
+.13*
+.17**
+.13*
+.16**
+.12*
+.16**
+.18**
+.25**
+.15**
+.20**
+.20**
+.16**
+.18**
+.18**
+.09
+.14*
+.10
+.10
+.13*
+.13*
+
+11
+.16**
+.08
+.09
+.09
+.03
+.02
+.15*
+.09
+.13*
+.08
+.13*
+.09
+.06
+.07
+.04
+.05
+.06
+.12*
+.13*
+.17**
+.10
+.17**
+.13*
+.21**
+.20**
+.11
+.17**
+.14*
+.19**
+.15*
+.14*
+.07
+
+12
+.23**
+.18**
+.08
+.15*
+.12*
+.07
+.14*
+.22**
+.26**
+.26**
+.23**
+.24**
+.26**
+.22**
+.26**
+.18**
+.18**
+.22**
+.19**
+.26**
+.23**
+.24**
+.24**
+.29**
+.30**
+.26**
+.16**
+.20**
+.15**
+.14*
+.14*
+.08
+
+13
+.28**
+.20**
+.20**
+.20**
+.11
+.12*
+.22**
+.25**
+.24**
+.16**
+.20**
+.17**
+.22**
+.22**
+.17**
+.09
+.08
+.14*
+.13*
+.17**
+.14*
+.15*
+.19**
+.18**
+.20**
+.08
+.14*
+.11
+.16**
+.13*
+.10
+.13*
+
+14
+.18**
+.16**
+.14*
+.16**
+.09
+.14*
+.20**
+.19**
+.26**
+.27**
+.27**
+.26**
+.23**
+.22**
+.28**
+.21**
+.25**
+.26**
+.28**
+.29**
+.20**
+.21**
+.19**
+.24**
+.27**
+.20**
+.10
+.13*
+.17**
+.15**
+.16**
+.17**
+
+15
+.15**
+.22**
+.20**
+.21**
+.22**
+.17**
+.28**
+.30**
+.42**
+.39**
+.39**
+.34**
+.33**
+.30**
+.30**
+.13*
+.21**
+.23**
+.25**
+.29**
+.22**
+.30**
+.29**
+.20**
+.23**
+.15*
+.17**
+.23**
+.21**
+.15**
+.13*
+.12*
+
+16
+.12*
+.20**
+.20**
+.23**
+.20**
+.12*
+.28**
+.26**
+.41**
+.37**
+.32**
+.28**
+.29**
+.25**
+.20**
+.10
+.17**
+.12*
+.17**
+.19**
+.13*
+.18**
+.19**
+.10
+.16**
+.03
+.14*
+.18**
+.15**
+.08
+.08
+.14*
+
+17
+.27**
+.32**
+.37**
+.26**
+.29**
+.22**
+.16**
+.18**
+.19**
+.26**
+.20**
+.20**
+.21**
+.24**
+.23**
+.09
+.13*
+.11
+.12*
+.12*
+.10
+.21**
+.25**
+.20**
+.15**
+.06
+.08
+.16**
+.12*
+.14*
+.13*
+.17**
+
+18
+.30**
+.35**
+.39**
+.27**
+.32**
+.30**
+.17**
+.16**
+.21**
+.28**
+.24**
+.19**
+.16**
+.19**
+.23**
+.12*
+.16**
+.16**
+.15*
+.13*
+.12*
+.18**
+.22**
+.24**
+.17**
+.05
+.14*
+.22**
+.18**
+.16**
+.15*
+.17**
+
+19
+.26**
+.29**
+.32**
+.26**
+.27**
+.27**
+.15**
+.17**
+.26**
+.31**
+.32**
+.24**
+.25**
+.26**
+.27**
+.14*
+.18**
+.19**
+.20**
+.24**
+.19**
+.33**
+.33**
+.29**
+.23**
+.12*
+.21**
+.23**
+.27**
+.27**
+.25**
+.25**
+
+20
+.22**
+.21**
+.34**
+.17**
+.37**
+.44**
+.18**
+.22**
+.28**
+.28**
+.22**
+.18**
+.18**
+.17**
+.24**
+.16**
+.19**
+.18**
+.09
+.12*
+.15**
+.15*
+.17**
+.23**
+.17**
+.20**
+.11
+.15*
+.15**
+.17**
+.13*
+.15**
+
+21
+.18**
+.22**
+.27**
+.16**
+.35**
+.31**
+.18**
+.16**
+.23**
+.20**
+.20**
+.20**
+.15*
+.15**
+.24**
+.20**
+.20**
+.17**
+.10
+.11
+.14*
+.16**
+.17**
+.25**
+.20**
+.21**
+.12*
+.17**
+.15**
+.21**
+.17**
+.22**
+
+22
+.16**
+.12*
+.18**
+.19**
+.13*
+.15*
+.27**
+.16**
+.23**
+.21**
+.18**
+.20**
+.20**
+.14*
+.11
+.24**
+.20**
+.28**
+.30**
+.30**
+.19**
+.23**
+.23**
+.29**
+.31**
+.24**
+.38**
+.38**
+.24**
+.26**
+.25**
+.30**
+
+23
+.17**
+.20**
+.21**
+.20**
+.13*
+.08
+.33**
+.15*
+.18**
+.23**
+.14*
+.16**
+.19**
+.16**
+.16**
+.04
+.05
+.17**
+.21**
+.20**
+.14*
+.24**
+.26**
+.34**
+.34**
+.30**
+.34**
+.32**
+.24**
+.32**
+.32**
+.24**
+
+24
+.25**
+.20**
+.19**
+.23**
+.21**
+.16**
+.29**
+.21**
+.26**
+.23**
+.26**
+.18**
+.21**
+.09
+.17**
+.17**
+.19**
+.23**
+.23**
+.23**
+.19**
+.21**
+.26**
+.27**
+.31**
+.20**
+.32**
+.31**
+.29**
+.22**
+.20**
+.13*
+
+25
+.21**
+.22**
+.22**
+.15**
+.15*
+.14*
+.19**
+.25**
+.22**
+.21**
+.22**
+.20**
+.23**
+.18**
+.12*
+.20**
+.24**
+.22**
+.23**
+.18**
+.24**
+.20**
+.22**
+.23**
+.22**
+.29**
+.24**
+.23**
+.25**
+.25**
+.24**
+.17**
+
+26
+.21**
+.22**
+.18**
+.14*
+.04
+.08
+.17**
+.23**
+.20**
+.16**
+.20**
+.15**
+.23**
+.20**
+.16**
+.14*
+.22**
+.24**
+.24**
+.18**
+.21**
+.19**
+.20**
+.17**
+.18**
+.25**
+.20**
+.21**
+.18**
+.17**
+.13*
+.14*
+
+27
+.29**
+.23**
+.16**
+.15*
+.16**
+.19**
+.10
+.21**
+.16**
+.22**
+.23**
+.17**
+.19**
+.24**
+.20**
+.20**
+.27**
+.15*
+.15**
+.08
+.14*
+.14*
+.16**
+.19**
+.14*
+.16**
+.02
+.04
+.15**
+.09
+.09
+.11
+
+28
+.26**
+.30**
+.23**
+.21**
+.11
+.07
+.21**
+.32**
+.21**
+.22**
+.23**
+.17**
+.21**
+.25**
+.17**
+.22**
+.26**
+.26**
+.28**
+.20**
+.19**
+.20**
+.21**
+.21**
+.25**
+.20**
+.17**
+.19**
+.16**
+.16**
+.16**
+.14*
+
+29
+.31**
+.33**
+.20**
+.13*
+.13*
+.08
+.13*
+.21**
+.18**
+.22**
+.16**
+.17**
+.18**
+.24**
+.19**
+.21**
+.24**
+.25**
+.27**
+.19**
+.20**
+.19**
+.21**
+.19**
+.22**
+.23**
+.18**
+.17**
+.13*
+.23**
+.22**
+.15*
+
+30
+.36**
+.35**
+.26**
+.29**
+.15**
+.16**
+.30**
+.25**
+.32**
+.36**
+.29**
+.30**
+.32**
+.28**
+.26**
+.15*
+.18**
+.19**
+.20**
+.17**
+.13*
+.19**
+.26**
+.29**
+.30**
+.21**
+.18**
+.21**
+.23**
+.31**
+.31**
+.29**
+
+31
+.40**
+.33**
+.32**
+.39**
+.21**
+.26**
+.39**
+.33**
+.35**
+.41**
+.37**
+.35**
+.35**
+.27**
+.23**
+.19**
+.25**
+.20**
+.24**
+.27**
+.23**
+.27**
+.33**
+.25**
+.29**
+.28**
+.27**
+.31**
+.26**
+.29**
+.32**
+.24**
+
+32
+.42**
+.40**
+.33**
+.28**
+.30**
+.26**
+.31**
+.58**
+.33**
+.35**
+.33**
+.30**
+.46**
+.24**
+.18**
+.20**
+.19**
+.26**
+.24**
+.25**
+.18**
+.19**
+.20**
+.25**
+.33**
+.29**
+.19**
+.23**
+.21**
+.23**
+.22**
+.21**
+
+Complexity drivers in product development: A comparison between literature and empirical research
+
+39
+
+Medium correlations
+
+Complexity drivers
+Product structure / design
+Variety of parts and modules
+Variety of the applied materials
+Variance in product design
+Availability of materials or components
+Properties of modules and materials
+Product’s degree of innovation
+Product life cycle length
+Technology change / innovation
+Number of different applied technologies
+Technology’s complicacy
+Technology’s combination
+Technology life cycle length
+Product software
+Data processing system
+Vertical range of manufacture
+Production system
+Variety of processes
+Amount of process interfaces
+Process degree of cross-linking
+Process standardization
+Information flow’s variety
+Information flow’s dynamics
+Amount of hierarchical levels
+Organization´s / Company´s size
+Degree of centralization
+Amount of simultaneous projects
+Amount of simultaneous processes
+Amount of employees
+Requirements for company’s control
+Company’s control level of detail
+Company’s communication system
+Note:
+**= significant at the 0.01 level
+* = significant at the 0.05 level
+N = 295 companies
+
+ID
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+
+33
+1
+.67**
+.57**
+.38**
+.38**
+.32**
+.37**
+.44**
+.35**
+.47**
+.42**
+.40**
+.38**
+.32**
+.28**
+.27**
+.36**
+.32**
+.38**
+.33**
+.28**
+.26**
+.27**
+.35**
+.32**
+.26**
+.24**
+.25**
+.25**
+.27**
+.27**
+.29**
+
+35
+
+1
+.33**
+.47**
+.45**
+.41**
+.41**
+.31**
+.42**
+.38**
+.36**
+.34**
+.19**
+.22**
+.30**
+.34**
+.39**
+.35**
+.32**
+.25**
+.21**
+.25**
+.35**
+.34**
+.30**
+.24**
+.26**
+.24**
+.25**
+.27**
+.28**
+
+34
+
+1
+.66**
+.35**
+.34**
+.28**
+.36**
+.41**
+.25**
+.46**
+.44**
+.40**
+.35**
+.38**
+.26**
+.26**
+.32**
+.38**
+.39**
+.34**
+.31**
+.28**
+.29**
+.31**
+.30**
+.28**
+.26**
+.30**
+.21**
+.29**
+.29**
+.31**
+1
+.34**
+.32**
+.34**
+.34**
+.23**
+.37**
+.39**
+.33**
+.23**
+.24**
+.18**
+.24**
+.24**
+.24**
+.25**
+.24**
+.14*
+.24**
+.29**
+.27**
+.30**
+.15**
+.21**
+.25**
+.24**
+.26**
+.30**
+.29**
+
+36
+
+1
+.65**
+.33**
+.33**
+.31**
+.40**
+.33**
+.34**
+.27**
+.22**
+.28**
+.33**
+.27**
+.31**
+.27**
+.24**
+.24**
+.17**
+.27**
+.30**
+.27**
+.26**
+.15**
+.28**
+.16**
+.17**
+.17**
+.20**
+
+37
+
+1
+.34**
+.28**
+.27**
+.37**
+.31**
+.30**
+.28**
+.15*
+.23**
+.30**
+.32**
+.31**
+.27**
+.26**
+.27**
+.15*
+.20**
+.26**
+.22**
+.27**
+.14*
+.26**
+.15*
+.14*
+.13*
+.16**
+
+38
+
+1
+.37**
+.43**
+.42**
+.42**
+.38**
+.24**
+.22**
+.15**
+.25**
+.24**
+.30**
+.31**
+.32**
+.20**
+.27**
+.32**
+.23**
+.31**
+.20**
+.34**
+.33**
+.26**
+.20**
+.24**
+.28**
+
+39
+
+1
+.45**
+.44**
+.39**
+.35**
+.41**
+.34**
+.33**
+.28**
+.27**
+.32**
+.30**
+.30**
+.21**
+.18**
+.22**
+.32**
+.30**
+.22**
+.23**
+.29**
+.20**
+.22**
+.23**
+.26**
+
+40
+
+1
+.60**
+.52**
+.40**
+.40**
+.29**
+.31**
+.32**
+.37**
+.30**
+.30**
+.32**
+.24**
+.27**
+.27**
+.29**
+.31**
+.25**
+.32**
+.36**
+.31**
+.26**
+.25**
+.30**
+
+41
+
+1
+.77**
+.61**
+.53**
+.38**
+.38**
+.35**
+.45**
+.37**
+.42**
+.41**
+.37**
+.46**
+.41**
+.36**
+.37**
+.30**
+.31**
+.45**
+.30**
+.33**
+.31**
+.35**
+
+42
+
+1
+.62**
+.47**
+.39**
+.35**
+.33**
+.43**
+.35**
+.44**
+.41**
+.33**
+.42**
+.40**
+.33**
+.36**
+.25**
+.36**
+.42**
+.33**
+.32**
+.30**
+.32**
+
+43
+
+1
+.63**
+.41**
+.33**
+.37**
+.37**
+.37**
+.47**
+.46**
+.42**
+.46**
+.48**
+.35**
+.35**
+.33**
+.27**
+.33**
+.28**
+.38**
+.39**
+.35**
+
+44
+
+1
+.49**
+.38**
+.27**
+.29**
+.36**
+.43**
+.39**
+.34**
+.37**
+.38**
+.31**
+.31**
+.30**
+.18**
+.24**
+.16**
+.31**
+.27**
+.35**
+
+45
+
+1
+.66**
+.07
+.16**
+.18**
+.29**
+.30**
+.26**
+.41**
+.39**
+.28**
+.27**
+.27**
+.21**
+.22**
+.17**
+.25**
+.21**
+.28**
+
+46
+
+1
+.12*
+.20**
+.25**
+.34**
+.36**
+.26**
+.38**
+.39**
+.35**
+.33**
+.27**
+.21**
+.25**
+.17**
+.24**
+.21**
+.31**
+
+47
+
+1
+.78**
+.57**
+.45**
+.38**
+.31**
+.29**
+.30**
+.29**
+.27**
+.31**
+.22**
+.25**
+.26**
+.30**
+.29**
+.36**
+
+48
+
+1
+.58**
+.50**
+.43**
+.35**
+.31**
+.30**
+.32**
+.32**
+.30**
+.27**
+.30**
+.27**
+.28**
+.27**
+.33**
+
+49
+
+1
+.78**
+.68**
+.52**
+.46**
+.46**
+.40**
+.41**
+.34**
+.33**
+.48**
+.35**
+.38**
+.35**
+.41**
+
+50
+
+1
+.82**
+.58**
+.60**
+.58**
+.47**
+.51**
+.34**
+.37**
+.49**
+.38**
+.42**
+.44**
+.43**
+
+51
+
+1
+.67**
+.65**
+.61**
+.41**
+.49**
+.37**
+.33**
+.46**
+.36**
+.43**
+.44**
+.43**
+
+52
+
+1
+.64**
+.56**
+.34**
+.35**
+.36**
+.32**
+.39**
+.27**
+.37**
+.38**
+.30**
+
+53
+
+1
+.86**
+.45**
+.47**
+.37**
+.42**
+.47**
+.37**
+.51**
+.52**
+.43**
+
+54
+
+1
+.45**
+.48**
+.36**
+.49**
+.52**
+.34**
+.52**
+.56**
+.48**
+
+55
+
+1
+.80**
+.49**
+.38**
+.42**
+.42**
+.48**
+.50**
+.41**
+
+56
+
+1
+.57**
+.46**
+.48**
+.48**
+.49**
+.51**
+.39**
+
+57
+
+1
+.32**
+.37**
+.37**
+.50**
+.50**
+.45**
+
+58
+
+1
+.76**
+.42**
+.43**
+.42**
+.37**
+
+59
+
+61
+
+62
+
+63
+
+1
+.46** 1
+.47** .54** 1
+.40** .46** .87** 1
+.41** .42** .59** .60**
+
+60
+
+1
+
+64
+
+40
+
+Table 10: Total variance explained
+
+Component
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+
+Total
+16.177
+3.853
+3.078
+2.800
+2.379
+2.200
+2.174
+1.912
+1.513
+1.439
+1.421
+1.295
+1.196
+1.071
+1.025
+.980
+.970
+.937
+.877
+.831
+.809
+.765
+.732
+.728
+.660
+.638
+.611
+.588
+.568
+.546
+.527
+.504
+.455
+.452
+.428
+.412
+.407
+.386
+.371
+.357
+.349
+.340
+.316
+.299
+.294
+.274
+.267
+.255
+.251
+.231
+.211
+.204
+.193
+.186
+.169
+.162
+.156
+.144
+.130
+.116
+.106
+.098
+.093
+.080
+
+Initial Eigenvalues
+% of Variance Cumulative %
+25.276
+6.021
+4.809
+4.375
+3.718
+3.438
+3.397
+2.988
+2.364
+2.248
+2.220
+2.023
+1.869
+1.674
+1.602
+1.532
+1.516
+1.464
+1.371
+1.299
+1.264
+1.196
+1.143
+1.137
+1.032
+.997
+.955
+.919
+.888
+.852
+.824
+.787
+.712
+.706
+.669
+.644
+.636
+.602
+.579
+.557
+.546
+.532
+.494
+.467
+.460
+.427
+.417
+.398
+.392
+.361
+.330
+.319
+.302
+.291
+.264
+.254
+.244
+.225
+.203
+.182
+.166
+.153
+.146
+.124
+
+Extraction Method: Principal Component Analysis
+
+25.276
+31.297
+36.106
+40.481
+44.199
+47.637
+51.034
+54.021
+56.386
+58.633
+60.854
+62.877
+64.746
+66.419
+68.021
+69.553
+71.069
+72.533
+73.904
+75.203
+76.467
+77.662
+78.806
+79.943
+80.975
+81.972
+82.927
+83.846
+84.734
+85.586
+86.410
+87.197
+87.909
+88.615
+89.284
+89.927
+90.563
+91.166
+91.745
+92.302
+92.848
+93.380
+93.874
+94.341
+94.801
+95.229
+95.646
+96.044
+96.437
+96.797
+97.127
+97.446
+97.748
+98.039
+98.303
+98.556
+98.801
+99.025
+99.228
+99.410
+99.576
+99.730
+99.876
+100.000
+
+Total Variance Explained
+Extraction Sums of Squared Loadings
+Total
+% of Variance Cumulative %
+16.177
+3.853
+3.078
+2.800
+2.379
+2.200
+2.174
+
+25.276
+6.021
+4.809
+4.375
+3.718
+3.438
+3.397
+
+25.276
+31.297
+36.106
+40.481
+44.199
+47.637
+51.034
+
+Rotation Sums of Squared Loadings
+Total
+% of Variance Cumulative %
+8.154
+6.600
+4.034
+3.947
+3.692
+3.314
+2.920
+
+12.741
+10.312
+6.303
+6.168
+5.769
+5.178
+4.563
+
+12.741
+23.053
+29.356
+35.524
+41.293
+46.471
+
+ID
+
+First
+factor
+
+Information flow’s variety
+Information flow’s dynamics
+Requirements for company’s control
+Company’s control level of detail
+Process degree of cross-linking
+Amount of process interfaces
+Company’s communication system
+Process standardization
+Organization´s / Company´s size
+Variety of processes
+Amount of simultaneous processes
+Amount of hierarchical levels
+Amount of simultaneous projects
+Degree of centralization
+Amount of employees
+Number of different applied technologies
+Product structure / design
+Product life cycle length
+Technology’s complicacy
+Variety of parts and modules
+Variety of the applied materials
+Technology’s combination
+Technology life cycle length
+Product life cycle length
+Availability of materials or components
+Technology change / innovation
+Properties of modules and materials
+Product’s degree of innovation
+Production system
+Vertical range of manufacture
+Variance in product design
+Customer structure
+Product variety
+Customer’s amount
+Product range / Portfolio
+Individuality of customer demands
+Variety of customer requirements
+Customer’s participation
+Demand’s dynamics
+Technological progress
+Technological innovations & availability
+Market’s change
+Market´s globalization
+Competitor’s dynamics
+Number & strength of competitors
+Market’s economic factors
+Product software
+Data processing system
+Amount of suppliers
+Supply strategy or concept
+Quality uncertainty of delivered goods
+Uncertainty of delivery date
+Variety of supplied goods
+Environmental awareness in population
+Ecological conditions / factors
+Value change & value awareness
+Political framework conditions
+Legal factors
+Market’s infrastructure
+Business objective’s change frequency
+Business objective’s time pattern
+Amount of different targets
+Product portfolio change frequency
+New product launch´s frequency
+
+54
+55
+62
+63
+52
+51
+64
+53
+57
+50
+60
+56
+59
+58
+61
+42
+33
+40
+43
+34
+35
+44
+45
+32
+37
+41
+38
+39
+49
+48
+36
+26
+28
+25
+29
+9
+8
+27
+10
+15
+16
+12
+14
+13
+11
+7
+46
+47
+18
+19
+20
+21
+17
+2
+3
+1
+4
+5
+6
+23
+24
+22
+30
+31
+
+0.76
+0.73
+0.73
+0.72
+0.71
+0.71
+0.63
+0.63
+0.62
+0.62
+0.60
+0.59
+0.56
+0.56
+0.54
+
+0.40
+
+0.42
+0.41
+
+Second
+factor
+
+Third
+factor
+
+Forth
+factor
+
+Fifth
+factor
+
+Sixth
+factor
+
+Seventh
+factor
+
+0.35
+
+0.38
+
+0.39
+
+0.67
+0.62
+0.61
+0.61
+0.59
+0.58
+0.56
+0.55
+0.55
+0.55
+0.53
+0.53
+0.51
+0.48
+0.43
+0.42
+
+0.37
+0.36
+0.37
+
+0.71
+0.68
+0.65
+0.64
+0.55
+0.54
+0.54
+0.44
+
+0.36
+
+0.34
+
+0.69
+0.65
+0.58
+0.56
+0.53
+0.47
+0.45
+0.36
+0.35
+0.75
+0.73
+0.71
+0.67
+0.66
+
+0.36
+
+0.40
+
+0.84
+0.80
+0.68
+0.48
+0.46
+0.37
+0.69
+0.51
+0.50
+0.45

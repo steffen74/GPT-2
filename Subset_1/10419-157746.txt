@@ -1,0 +1,1645 @@
+
+1 Introduction
+Greenhouse gas (GHG) emissions make a signiﬁcant contribution to atmospheric changes and climate disruptions,
+which are harmful to the natural and built environments
+and which pose a threat to human health and welfare.
+Different anthropogenic GHG contribute to global warming; however, in the transport sector, they are dominated by
+CO2 emissions from burning fossil fuels [1].
+As almost all CO2 emissions from freight transport
+operations are energy related, the most accurate way of
+calculating these emissions is to record energy consumption, e.g., in terms of liters of fuel, and to employ standard
+emission factors to convert energy values into CO2 [2]. The
+amount of fuel consumed by a vehicle, in turn, depends on
+a variety of vehicle-, environment-, operations-, and trafﬁcrelated parameters, such as vehicle characteristics, length
+of haul, travel speed, payload, road gradient, driving
+behavior, trafﬁc conditions, ﬂeet size, ﬂeet mix, and empty
+running [3–5]. While some of these factors, such as
+transportation technologies and fuels, have improved over
+the years, trafﬁc congestion has not diminished, but is
+forecast to further increase in many countries, such as
+France, Germany, the UK, and the USA [6, 7].
+This article is concerned with distribution logistics. It
+studies the impact that trafﬁc congestion has on the CO2
+emissions of a whole distribution network covering the
+factories, the distribution centers (DCs), transshipment
+points (TSPs), and the retailers. The starting point of this
+research is the idea that, if GHG emission targets are set, it
+is important to understand the effects of all GHG determining factors of freight transportation. Studying the
+impact of trafﬁc congestion on the CO2 emissions of a
+major logistic system, such as a distribution network, is
+particularly motivating because this allows an area-wide
+
+
+assessment and comparison of congestion effects on different types of transport activities.
+The focus of this study is on ‘regular trafﬁc congestion,’
+which means that there are periodically trafﬁc conditions
+on the various road segments that differ from those in the
+free-ﬂow situation, i.e., there are periodically higher
+numbers of vehicles and other impediments, such as trafﬁc
+light circuits, which causes lower average travel speeds
+and, eventually, changed itineraries for given origin–destination pairs caused by re-routing decisions. The goal is to
+get insights into the ‘average,’ typical exposure of a
+logistics network to trafﬁc congestion and the related
+effects on CO2 emissions. Unusual events, such as accidents and road works, are neglected.
+To gain insights into the effect of regular road trafﬁc
+congestion on the volume of CO2 emissions of a distribution network, this research analyzes the distribution network of an existing manufacturer of fast-moving consumer
+goods (FMCG). In doing so, it contributes to the literature
+by presenting a comprehensive approach to determine the
+CO2 footprint of a given distribution network. The presented approach allows for an accurate estimation of CO2
+emissions as all relevant transportation ﬂows are represented in a detailed manner. Furthermore, concerning the
+approximation of the CO2 volumes emitted during the
+transport operations and in contrast to several previous
+studies, the number of factors that determine vehicle fuel
+consumption and that are taken into account is extensive; it
+includes the ﬂeet mix, vehicle characteristics, length of
+haul, load factors, empty running, travel speed, and trafﬁc
+conditions. In addition, this research shows that online
+navigation services are a valuable source of trafﬁc information, which may be used in lots of forthcoming research
+projects analyzing CO2 sensitivities and GHG cutting
+opportunities in logistics networks. Recent research recommended further work on the provision of reliable and
+detailed speed data as travel speed is a highly determining
+factor for CO2 emissions and as most effort is usually
+dedicated to the measurement and modelling of GHG
+emissions, while the quality of the necessary trafﬁc data is
+rarely considered [4, 8]. This paper presents a valuable data
+source. Finally, this research provides insights into the
+extent to which regular trafﬁc congestion affects the
+transport-related CO2 emissions of a distribution network
+and it investigates to what extent the CO2 volume caused
+by trafﬁc congestion changes when the network structure,
+in terms of the number and the geographical locations of
+the DCs, is modiﬁed.
+The results are beneﬁcial for the designers and the
+operators of logistics networks who require an understanding of trafﬁc congestion impacts on logistics operations, for instance, when searching for the reasons behind
+differences in the CO2 efﬁciency of different transport
+
+123
+
+Logist. Res. (2016) 9:21
+
+activities in different geographical areas. Furthermore, the
+designers of the system need to accurately quantify the
+problem in order to assess the effectiveness of measures
+intended to relieve impairments of trafﬁc congestion; for
+instance, on a strategic level, when deciding whether to
+install additional logistics facilities, or, on a tactical level,
+when deciding to postpone certain transport operations.
+The approach presented supports better decision making as
+it allows evaluating a priori the extent to which trafﬁc
+congestion will affect road freight transport operations in
+alternative network conﬁgurations. And, as will be shown,
+it is important to consider the trafﬁc congestion effect on
+GHG emissions as it contributes to a signiﬁcant percentage
+of the total emissions in a distribution network. Finally, the
+network model and the data source may be combined in
+future research in order to study additional GHG sensitivities of logistics networks (e.g., ﬂeet mix, load factors,
+travel time variability, postponement of departure times).
+
+2 Literature review
+Demir et al. [4] give an overview of recent research on
+green road freight transportation. They review factors
+affecting fuel consumption and conclude that vehicle speed
+is most important. This ﬁnding is in line with research
+outcomes presented by Boulter and McCrae [8], which
+highlights the importance of considering the effect of
+congestion on the CO2 emissions in logistics networks
+because trafﬁc congestion affects travel speed [9]. van
+Woensel et al. [10] show that neglecting the congestion
+effect leads to an underestimation of trafﬁc ﬂow GHG
+emissions as the latter depend largely on the number of
+vehicles and the speed of these vehicles.
+2.1 Effects of trafﬁc congestion on road freight
+transport operations
+Trafﬁc congestion affects freight transport operations as it
+increases the average travel time and the transit time
+variability [11, 12]. Prior research focused on one of these
+aspects or studied the consequences of both effects by
+explicitly differentiating between ‘recurring daily trafﬁc
+delay’ or ‘regular congestion’ and ‘non-recurring trafﬁc
+delay’ or ‘major congestion incidents.’ Regular congestion
+occurs as vehicle speeds are reduced due to a high volume/capacity ratio on speciﬁc corridors at speciﬁc times.
+Non-recurring trafﬁc delays occur when there are incidents
+such as collisions, medical emergencies, and vehicle
+breakdowns [12, 13]. The focus of this study is on regular
+congestion, i.e., the typical road-, weekday-, and time of
+to assess the impact of congestion-related unreliability on
+logistics activities across many industry sectors. Among
+others, they performed trafﬁc data analyses that conﬁrmed
+the view expressed by the logistics managers surveyed that
+most congestion is regular and predictable. Falcocchio and
+Levinson [13] report research results indicating that
+recurring bottlenecks are the most common cause of
+recurring trafﬁc delays, besides poor trafﬁc signal timing.
+This research reports the effects of trafﬁc congestion on
+the CO2 emissions of the analyzed distribution network that
+are due to weekday- and time of day-typical changes in
+travel speeds on the various road segments travelled
+throughout the distribution network. In addition, it considers the fact that the vehicle drivers may change the
+itinerary to avoid congested roads. Golob and Regan [15],
+for instance, report results from a study that indicates that
+carriers place a high value on real-time trafﬁc information
+to minimize the impact of trafﬁc congestion on their
+transport operations. And McKinnon et al. [14] present
+interview ﬁndings conﬁrming that commercial vehicle
+drivers engaged in delivery operations build up a detailed
+awareness of trafﬁc conditions and routing options because
+they visit the same region regularly. Both effects, changes
+in travel speeds and re-routing decisions, will affect the
+characteristics of the transport operations (e.g., average
+travel speeds, kilometers travelled, load factors, and the
+number of transport operations), which, in turn, change the
+CO2 emissions of the distribution network.
+2.2 Trafﬁc congestion and green road freight
+transportation
+Maden et al. [16] present empirical research using realworld trafﬁc data to quantify the effect of trafﬁc congestion
+on CO2 emissions from freight transport operations. In
+their case study, they analyze the CO2 effects of using
+trafﬁc information (time-varying travel speeds) compared
+with routing and scheduling where this information is not
+available. They use the factor speed in a fuel consumption
+model similar to the one used in this research. However,
+the level of detail of their CO2 analysis is limited as, for
+instance, no attempt has been made to modify the functions
+for the weight of goods carried at each stage of the routes
+or to consider different vehicle types. The inﬂuence of the
+vehicle load weight factor and the vehicle class on the CO2
+efﬁciency of road freight transportations is, however,
+important and should be considered in GHG analyses, as
+research showed [17, 18]. The same is for the research
+presented by Figliozzi [19], who used travel time data from
+an archive of freeway sensors and time-dependent vehicle
+routing algorithms to analyze CO2 emissions for different
+levels of congestion and time-deﬁnitive customer demands
+
+Page 3 of 15
+
+21
+
+in urban freight distribution networks. Vehicle loading or
+different types of vehicles are not considered in his
+research. Barth and Boriboonsomsin [20] examined the
+impact of congestion on CO2 emissions by evaluating
+typical trafﬁc conditions in a trafﬁc corridor in Southern
+California. And Schrank et al. [21] present research about
+the extent to which urban congestion has an impact on
+wasted fuel and CO2 emissions. While their trafﬁc data
+source corresponds to that used in this study, they concentrate on the urban area level and their observations are
+therefore limited to vehicle movements in some urban
+corridors.
+This research advances the understanding of the effect
+of trafﬁc congestion on the CO2 emissions from road
+freight transportation as it is not limited to only a fraction
+of the transport operations executed to move the ﬁnished
+goods from the factories to the customers. It explicitly
+allows for the comparison of the congestion effect on CO2
+emissions of different transport activities and geographical
+areas. Furthermore, in this research, the number of factors
+determining fuel consumption that is taken into account is
+extensive and the analyses are based on a trafﬁc data source
+that allows for an area-wide observation of representative
+trip characteristics.
+2.3 Road trafﬁc data sources
+Boulter and McCrae [8] review scientiﬁc studies that highlight the crucial role of the provision of accurate, reliable,
+and detailed speed data as an accurate and detailed knowledge of actual driving speeds is fundamental for emission
+estimations. They recommend further work on the provision
+of reliable and detailed speed data as most effort is usually
+dedicated to the measurement and modelling of emissions,
+while the quality of the necessary trafﬁc data is rarely considered. And McKinnon and Piecyk [22] present experiences
+in the UK that highlight the difﬁculty of compiling an
+accurate and consistent set of emissions data for trucking.
+This research contributes to overcome that problem.
+2.3.1 Conventional data sources
+The ‘conventional’ road trafﬁc data sources used for
+logistics system analyses are interviews/surveys [23],
+trafﬁc information provided by private and/or public
+authorities using ‘in situ’ technologies, such as detectors
+located along the roadside or vehicle counts [24], and
+ﬂoating car data/ﬂeet management systems [25]. In the
+latter case, GPS or mobile phone devices are inside the
+moving vehicles recording spatially and temporally the
+itinerary. Recently, Kellner [26] listed problems that will
+arise when measuring congestion effects in large-scale
+logistics systems, such as a distribution network, by means
+
+
+of the conventional data sources: Concerning in situ technologies, trafﬁc sensors are expensive to install and
+maintain and they are therefore not widespread [25]. A
+nationwide observation of trafﬁc conditions and CO2
+emissions, covering the whole distribution network, is not
+possible when relying only on trafﬁc information collected
+by the means of in situ technologies. The typical concerns
+arising from interviews/surveys and ﬂoating car data are a
+lack of consistency in the measurements and a lack in
+representativeness of the processed data. Consistency in the
+measurements is a concern in logistics systems consisting
+of several parties, such as shippers and carriers [23]. All of
+them have to collect trip/trafﬁc information in a consistent,
+complete, correct, and unbiased way. The risk of processing erroneous or biased numbers is particularly high when
+the trip/trafﬁc information is collected by the parties
+themselves and/or when the study is based on rough estimates. Furthermore, the use of GPS devices to collect trip
+data is typically limited to one company, for technological
+and behavioral reasons [27]. The representativeness of the
+gathered and processed information becomes a concern
+when the number of trafﬁc observations on the different
+trip segments is low. Boulter and McCrae [8] recommend
+that the use of short-term trafﬁc data, observed in trafﬁc
+studies over 2 or 3 days/weeks, should be avoided where
+possible when analyzing GHG emissions in transport networks as it may reﬂect speciﬁc and/or exceptional trafﬁc
+conditions.
+2.3.2 Navigation service data
+To overcome these problems, this study makes use of
+trafﬁc data provided by an online navigation and trafﬁc
+information service, such as Bing Maps, Google Maps,
+Inrix, Here, and TomTom. The trafﬁc information offered
+by these services is valuable for at least four reasons [26]:
+(1) As there are concerns about the accuracy of installed
+detectors and ﬂoating car data [25, 28], some navigation
+service providers use complementary solutions combining
+different data sources in order to improve the reliability and
+accuracy of the delivered trip/trafﬁc information (e.g.,
+historic data records, GPS measurements, local experts’
+knowledge, camera imagery, road sensors) [29, 30]. (2) In
+contrast to in situ technologies, navigation data allow for
+an area-wide observation of trafﬁc conditions as it processes data from in situ technologies and ﬂoating car data.
+(3) While the consistency in the measurements is a concern
+when using interviews/surveys and ﬂoating car data, data
+provided by navigation services are gathered in an objective and consistent way. The trip/trafﬁc data collection
+method is the same across all parties involved, and there
+are no possibilities for the parties to report erroneous or
+biased numbers. Navigation services allow the retrieval of
+
+123
+
+Logist. Res. (2016) 9:21
+
+anonymized and unbiased information with no limitation to
+a certain institution or regional area. (4) In general, the
+trafﬁc data retrieved from online navigation services will
+have a higher level of representativeness than the trafﬁc
+information collected by means of interviews/surveys and
+ﬂoating car studies. This is true as some online navigation
+services allow the retrieval of averaged/smoothed trip
+information, i.e., time-typical travel times and delays, for a
+given moment in time. Such data have been prepared using
+different trafﬁc observation technologies and a large data
+history of ﬂoating car data [29, 30]. Fleischmann et al. [31]
+explain statistical techniques used by navigation service
+providers to estimate time-typical trip data (trip length,
+travel time, speed) with high accuracy. In addition, it is
+possible to capture the fact that the vehicle drivers occasionally use alternate routes to avoid congested road sections as the time-minimal route changes depending on the
+trafﬁc conditions.
+
+3 Methodology
+To explore the impact of regular road trafﬁc congestion on
+the CO2 emissions of a distribution network, the totality of
+transport operations for one calendar year of a real-world
+distribution network is observed under two conditions, the
+‘free-ﬂow’ and the ‘normal’ trafﬁc situation. This approach
+allows isolating the impact of trafﬁc congestion on GHG
+emissions. To avoid the results of this study being excessively company speciﬁc due to the locations of the facilities
+and to understand how a reconﬁguration of the logistics
+network affects the CO2 impact of trafﬁc congestion on the
+transportation ﬂows, the number of DCs is experimentally
+increased from one to four.
+The case company, the dataset, and the distribution
+network model that are used in this research have recently
+been introduced by Kellner [26], who analyzed the effects
+of trafﬁc congestion on distribution network characteristics
+in terms of transit times, delays, kilometers travelled,
+vehicle operating costs, stock-in-transit, cost per customer,
+and the number of transport operations by the means of
+navigation service data. This research extends the network
+analyses of Kellner [26] by studying the effects of trafﬁc
+congestion on the CO2 emissions from transportation. In
+detail, it makes use of the network model and the trip data
+that have been requested by Kellner [26] from an online
+navigation service and combines them with the COPERT
+functions [32] to evaluate all transport operations with CO2
+emissions. The following sections summarize the network
+model and the trafﬁc data acquisition with focus on the
+aspects that are relevant for the GHG network analysis.
+Furthermore, they explain the translation of the freight
+
+3.1 Case company
+The case company is a major German manufacturer of
+FMCG/groceries, classiﬁed in Standard Industrial Classiﬁcation (SIC) Group 20 ‘Food and Kindred Products.’ The
+FMCG/grocery industry is a useful case because these
+products are convenience goods and distributed nationwide. Therefore, the analysis is not restricted to a certain
+geographical area.
+The focal company operates six factories. These factories are located in Germany and process the products
+destined for the German market. The ﬁnished products are
+moved by trucks from the factories to one DC and then
+onward to the company’s customers, i.e., food/FMCG
+retailers, mainly supermarket chains. The food and kindred
+products are distributed palletized to supply virtually any
+store/supermarket in Germany. Customer locations are
+either points-of-sale or retailer DCs.
+This company provided a comprehensive dataset with
+information on its real-world distribution activities over
+one calendar year. The shipment dataset alone contains
+details about 20,000 DC inbound and 105,000 DC outbound shipments, with information about the delivery days,
+the origin–destination pairs, shipment sizes, and cost
+information. A total of 4640 distinct customer locations
+have been supplied with a total of 340,000 tons of FMCG.
+This dataset has been used to set up a distribution network
+model that reﬂects all transportation ﬂows for the calendar
+year being considered.
+
+by the case company. The analysis considers the exact
+calendar day when the single shipments have been moved
+because the typical trafﬁc conditions vary according to the
+weekday and the number of shipments is not the same on
+each day. In addition, the exact tonnages and the number of
+low-volume shipments determine the transport operations
+on a daily basis, i.e., the number of consolidated shipments
+and the delivery trips. The transport operations have been
+classiﬁed into four transportation ﬂows: production ﬂows
+(DC inbound shipments), DC-direct shipments, DC-consol
+shipments, and delivery trips (Fig. 1).
+1.
+
+2.
+
+3.
+
+3.2 Distribution network model
+In the distribution network model, all transport operations
+are modelled on a daily basis, all locations are on street
+number level, and the network ﬂows are those experienced
+
+21
+
+4.
+
+Production ﬂows: These are high-volume shipments
+with 17 tons per shipment on average. The production
+ﬂows are transported directly from the six factories to
+the DC (DC inbound).
+DC-direct shipments: These are DC outbound shipments with a tonnage above 5000 kg. DC-direct
+shipments are transported directly from the DC to the
+customers, i.e., there is no transshipment in between.
+DC-consol shipments: DC outbound shipments with a
+tonnage below 5000 kg are consolidated at the DC and
+forwarded as consolidated shipments via transshipment
+points. The TSP locations correspond to the 29 TSP
+sites operated by a major German logistics service
+provider specializing in the FMCG segment. The
+shipments are always transported to the TSP that is
+nearest to the customer destination. The consolidation
+is modelled taking into consideration exact shipment
+days and TSP locations. The typical vehicle capacity
+utilization of the DC-consol shipments is 14 tons. In
+the distribution network model, this tonnage is
+assumed for all DC-consol shipments.
+Delivery trips: The goods that are transported with DCconsol shipments to the transshipment points are
+
+Factories (6)
+
+(1) Production flows (DC inbound)
+(1)
+
+(2) DC-direct shipments
+
+Distribution center (1)
+
+(3) DC-consol shipments
+(3)
+(4) Delivery trips
+
+Transshipment points (29)
+High-volume shipments
+
+(2)
+(4)
+Customers (4640)
+
+(4)
+1
+
+(Consolidated) Low-volume shipments
+
+Fig. 1 Distribution network model
+
+
+Logist. Res. (2016) 9:21
+
+forwarded in delivery trips to the retailers. The spatial
+allocations of demand points to transshipment points
+make up the TSP service areas.
+For the modelling and the analysis of the trafﬁc effect on
+the transport operations, the four transportation ﬂows are
+classiﬁed into two trip types, namely line haul shipments
+and round trips.
+3.2.1 Line haul shipments
+Line haul shipments consist of one trip segment, from the
+origin to the destination location. The production ﬂows, the
+DC-direct shipments, and the DC-consol shipments are in
+this class. The trip information that is needed to environmentally evaluate these shipments is requested from the
+navigation service by indicating the trips’ starting and ending
+points. Typically, articulated heavy goods vehicles (HGVs)
+with a maximum payload capacity of 25 tons are used to
+move the line haul shipments (Articulated 34–40 tons).
+
+consideration the average tonnage per pallet for DC outbound shipments and comes with a weight-based load
+factor of 55 %. tn is the average tonnage demanded by
+customers taking part in the considered round trip. This
+parameter is determined individually for each round trip
+and takes into account all shipments that are delivered to
+the customers served on a certain delivery day and in a
+certain delivery zone. H is the number of daily working
+hours spent on the delivery trips, which is 8.5. s is the
+average unloading time at the customers, which is 15 min.
+dA is the distance of the approach from the TSP to the ﬁrst
+customer, dR is the distance of the return leg from the last
+customer back to the TSP, and dL is the local, average
+distance between the customers. vA, vR, and vL are the
+average travelling speeds on the corresponding legs.
+Once the number of customers in a tour is known,
+Eqs. (2)–(3) can be used to determine the length l and the
+travel time t of the round trip.
+l ¼ dA þ d R þ ð n À 1 Þ Â d L
+dA dR
+dL
+þ þ n Â s þ ð n À 1Þ Â
+vA vR
+vL
+
+ð2Þ
+ð3Þ
+
+3.2.2 Round trips
+
+t¼
+
+Round trips consist of several trip segments linking the ﬁrst
+and the last tour stop with the TSP and linking the single
+tour stops with each other. The delivery trips are in this
+class.
+In the network model of Kellner [26], a two-step
+methodology is used to model the round/delivery trips.
+First, the TSP service areas are clustered into subregions,
+called ‘delivery zones.’ This makes sure that the delivery
+trips created are realistic as they serve a separate group of
+customer destinations lying relatively close to each other.
+Simultaneously, a centroid is determined for each delivery
+zone. The centroids serve to identify ‘reference customers.’
+The reference customer of a delivery zone is the customer
+that is located nearest to the centroid. Second, Fleischmann’s ‘ring model’ [33] is used to approximate on a
+daily basis the delivery trips that supply the customers. The
+ring model assumes that the distances between customers
+in a certain round trip and the TSP are the same and that all
+customers are supplied with the same tonnage on average.
+This allows the estimation of the number of customers in a
+certain round trip (n), which is the minimum of the number
+of customers that can be served due to vehicle capacity
+restrictions, and the number of customers that can be
+served due to time restrictions:
+
+
+8
+9
+<Capa H À dA þ dR þ dL =
+vA
+vR
+vL
+n ¼ min
+;
+ð1Þ
+: tn
+;
+s þ dL
+v
+
+For the CO2 analysis, it is important to consider the type
+of vehicle that is used to carry out the delivery trips as the
+volume of CO2 emissions per kilometer may differ considerably for short-distance round trip vehicles (see below).
+Typically, two vehicle types are available: a ‘Rigid
+7.5–12 tons’ with a maximum payload capacity of 6 tons
+(Capa = 3.3 tons) and a ‘Rigid 20–26 tons’ with a maximum payload capacity of 12 tons (Capa = 6.6 tons). In
+order to determine the vehicle that has carried out the
+round trip, ﬁrst, the round trip is estimated for the ‘Rigid
+20–26 tons.’ If the same round trip could also be run with a
+‘Rigid 7.5–12 tons,’ then the ‘Rigid 7.5–12 tons’ is used,
+otherwise the ‘Rigid 20–26 tons.’
+
+L
+
+In Eq. (1), Capa is the maximum weight-based vehicle
+capacity utilization. It is determined by taking into
+
+123
+
+3.2.3 Changing the number of distribution centers
+The number of DCs is changed by determining the costminimal 1-, 2-, 3-, and 4-DC conﬁgurations. A p-median
+model is used to locate the DCs and to allocate the customers in such a way that the overall transportation costs
+are minimized. Once the locations of the DCs are identiﬁed, it is possible to request trip data for all origin–destination pairs that are run in the hypothetic networks [26].
+3.3 Translating freight transport operations
+into CO2 emissions
+As stated above, the most accurate way of calculating
+emissions from freight transport operations is to record fuel
+
+21
+
+Table 1 Fuel consumption model: regression parameters [32]
+Vehicle type
+
+Rigid 7.5–12 tons (Euro VI) (max.
+payload: 6 tons)
+
+Rigid 20–26 tons (Euro VI) (max.
+payload: 12 tons)
+
+Articulated 34–40 tons (Euro VI) (max.
+payload: 25 tons)
+
+Load factor
+
+0%
+
+0%
+
+0%
+
+50 %
+
+100 %
+
+50 %
+
+100 %
+
+50 %
+
+100 %
+
+a
+
+912.81
+
+884.21
+
+892.07
+
+318.82
+
+-465.38
+
+-1580.66
+
+-56.05
+
+-2077.80
+
+-221.75
+
+b
+
+11.62
+
+10.87
+
+10.46
+
+26.87
+
+155.18
+
+440.59
+
+85.84
+
+593.30
+
+67.97
+
+c
+d
+
+-0.17
+-439.58
+
+-0.17
+-459.96
+
+-0.17
+-514.30
+
+2.16
+1103.88
+
+5.93
+1888.82
+
+12.59
+3097.33
+
+3.49
+1637.92
+
+14.73
+3781.48
+
+1.17
+262.81
+
+e
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+0
+
+f
+
+0.32
+
+0.26
+
+0.23
+
+-0.09
+
+-0.22
+
+-0.28
+
+-0.15
+
+-0.28
+
+-0.00
+
+g
+
+-0.00
+
+-0.00
+
+-0.00
+
+0.02
+
+0.05
+
+0.09
+
+0.03
+
+0.10
+
+0.01
+
+convert the amount of combusted fuel into CO2. When
+energy values are not available—for instance, when planning or evaluating future/alternative transport scenarios—
+fuel consumption models may be used, which estimate fuel
+consumption of transport operations based on a variety of
+vehicle-, environment-, and trafﬁc-related parameters, such
+as vehicle speed, load factors, road gradients, and acceleration [3, 4, 34]. This research adopts the fuel consumption model ‘COPERT 4,’ as described by the European
+Environment Agency (EEA) [32]. COPERT has been
+chosen because it is a European-wide accepted methodology to calculate fuel consumption and GHG emissions
+from road freight transport. It integrates methods and
+results from other accepted scientiﬁc projects (e.g.,
+ARTEMIS, COST 319, HBEFA, and MEET), and the
+methodology proposed by COPERT is used in other
+emission models [4, 8, 35]. Furthermore, COPERT has
+been widely used in different studies and proved its adequacy in research on green road freight transportation
+[4, 35].
+COPERT uses regression functions to estimate the fuel
+consumption of HGVs. The independent variable is the
+average travel speed on the trip. There are speciﬁc functions depending on the vehicle type, the European emission
+standard, road slope, and vehicle load, resulting in almost
+12,000 regression models [32]. The various regression
+functions have been derived from large-scale real-life
+experiments [3, 8]. Equation (4) is the generic function,
+which is the same across all combinations of vehicle types,
+emission standards, road slopes, and load factors that are
+relevant in this research.
+À
+Á À
+Á
+FC ¼ a þ b Â v þ c Â v2 þ d=v = e þ f Â v þ g Â v2
+ð4Þ
+FC is the diesel fuel consumption in g/km, and v is the
+average travel speed in km/h. Table 1 summarizes the
+regression coefﬁcients a, b, c, d, e, f, and g.
+It should be noted that EEA [32] presents regression
+functions for three load factors: 0, 50, and 100 %. Because
+
+the effect of vehicle loading on CO2 emissions is linear
+with load according to the ARTEMIS data, fuel consumption can be linearly interpolated between the relevant
+functions [36]. Furthermore, the functions used in this
+research come with a road slope of 0 % as no data were
+available for the road gradient. Once the fuel consumption
+of the transport operation is known, CO2 emissions may be
+calculated by multiplying the fuel consumption FC with an
+emission conversion factor. DEFRA [37] proposes
+3.1643 (g CO2)/(g diesel), and it is this emission conversion factor that is used.
+Figure 2 shows the effect of travel speed on CO2
+emissions for the three vehicle types and three load factors.
+For low speed values, fuel consumption is high because of
+inefﬁciencies in the usage of fuel that decrease as speed
+
+400
+CO2 emissions
+[kg/100km]
+
+350
+Rigid 7.5-12tons (LF: 0%)
+Rigid 7.5-12tons (LF: 50%)
+Rigid 7.5-12tons (LF: 100%)
+
+300
+
+Rigid 20-26tons (LF: 0%)
+Rigid 20-26tons (LF: 50%)
+Rigid 20-26tons (LF: 100%)
+
+250
+
+Articulated 34-40tons (LF: 0%)
+Articulated 34-40tons (LF: 50%)
+Articulated 34-40tons (LF: 100%)
+
+200
+
+150
+
+100
+
+50
+
+0
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+Speed [km/h]
+
+Fig. 2 Vehicle speed and CO2 emissions
+
+
+increases [3, 20, 38]. For the ‘Rigid 7.5–12 tons’ vehicle,
+there is a CO2 minimal speed at about 65 km/h. Higher
+speed raises CO2 emissions per kilometer due to the
+aerodynamic drag. According to Eq. (4), for the mediumand high-volume vehicles, the inefﬁciencies in the usage of
+fuel that result from low speeds remain constantly more
+important than the inefﬁciencies of a higher aerodynamic
+drag at higher speeds. Note that the shapes of the CO2
+emission curves depend on the fuel consumption model
+used and the vehicle characteristics assumed. Hill et al.
+[39], for example, show truck speed–fuel efﬁciency curves
+that differ (at the higher speeds) from those presented in
+Fig. 2. While the curves presented by Hill et al. [39] are
+similar to the COPERT curves up to 60 km/h, they start
+climbing on a rising scale at about 60 km/h to reach their
+maximum at 120 km/h. Certainly, the replacement of the
+COPERT model by the fuel consumption model used by
+Hill et al. [39] will affect the numeric results of the
+example case presented below. However, the differences in
+the results should be minor because the very high speeds do
+not represent the typical daily usage of heavy goods
+vehicles, for instance, because of speed limits. This has
+been stated by Hill et al. [39] and is in line with the ﬁndings
+of this research.
+Equation (4) is used to evaluate all transport operations
+with CO2 emissions. The latter depend on the vehicle type,
+the average travel speed, trip length, and the load factor.
+Therefore, the fact is taken into account that different
+vehicle types are used for the different transportation ﬂows.
+The trip lengths and average travel speeds are requested/
+derived from the data delivered by the navigation service
+for each trip segment run in the distribution network. Note
+that there is one trip segment for the line haul shipments
+and (n ? 1) trip segments for the round trips. The load
+factors of the production ﬂows and DC-consol shipments
+are 68 and 56 %, respectively. The load factors of the DCdirect shipments vary depending on the shipment size (the
+average is 48 %). The load factors on the trips connecting
+the TSPs and the reference customer are (n 9 tn)/(vehicle
+payload capacity) (on average 42 %), the load factors on
+the trips connecting the customers in the round trips are
+((n 9 tn)/2)/(vehicle payload capacity) (on average 21 %),
+and the load factors on the trips connecting the reference
+customers and the TSPs are 0 %. Concerning the delivery
+trips, the total CO2 emissions of a certain tour are allocated
+equally among all shipments that are part of this tour. This
+is plausible as the shipments are homogenous in terms of
+the distance to the transshipment point and the tonnage.
+Clearly, the fact that COPERT bases its CO2 estimations
+on the average speed travelled on the single legs may be
+seen as a rough estimation of the impact of vehicle speed
+on CO2 emissions, especially in the case of stop-and-go
+situations [20]. A more precise estimation may be realized
+
+123
+
+Logist. Res. (2016) 9:21
+
+when the exact speed proﬁles, i.e., the speed or energy
+consumption per second, of the vehicles that have carried
+out the single transport operations are known. In that case,
+micro-level emission models may be used, which are based
+on instantaneous vehicle kinematic variables, such as speed
+and acceleration, or on more aggregated modal variables,
+such as time spent in each trafﬁc mode, cruise, and
+acceleration [4]. However, such detailed information is
+hard to procure for an ex post analysis of several thousand
+transport operations and not available ex ante, when evaluating alternative/future transport scenarios. Therefore,
+macro-level average-speed emission models have been
+developed, which are important tools in a wide-area
+emission assessment and which are often used in green
+supply chain management studies [4]. According to Barlow
+and Boulter [34], who present research that determined the
+accuracy of the predictions of different fuel consumption
+models, average-speed approaches provide in many scenarios a reasonably accurate characterization of total
+emissions from road transport.
+3.4 Trafﬁc data acquisition
+The trip and trafﬁc information, in terms of tour lengths
+and travel times, that is needed as an input for the COPERT
+models is retrieved from one of the above-mentioned
+online navigation service providers via the available
+application programming interface.1 Some online navigation service providers offer the possibility to retrieve trip
+information for the desired origin–destination pairs for the
+moment of the request or, alternatively, for a speciﬁc
+weekday and time of day. In the latter case, the response
+contains averaged/smoothed data corresponding to the
+typical situation for the selected weekday and time of day,
+without exceptional conditions. In order to ensure the
+representativeness of the delivered day- and time-typical
+travel information, navigation service providers use different statistical techniques [31]. All analyses presented in
+this paper are based on day- and time-typical trip information as this is in line with this research’s understanding
+of regular trafﬁc congestion.
+3.4.1 Free-ﬂow situation
+As the selected navigation service provider does not offer
+free-ﬂow information, the typical situation for a departure
+at 10:30 p.m. is used. This departure time led to the minimum travel time over the day in almost each case in a
+sample of 2000 randomly requested origin–destination
+pairs. Palmer and Piecyk [40] also found that typically, the
+1
+
+The trafﬁc data used in this study are the same as Kellner [26] used
+
+best start times for delivery operations occur just before
+midnight or during the early hours of the morning, when
+the goal is to minimize the travel time.
+3.4.2 Normal trafﬁc situation
+The travel time and trip distance information for the normal trafﬁc situation is requested from the online navigation
+service for the weekday when the shipment was actually
+moved and for the departure time when the different
+transport operations typically start.
+Concerning the production ﬂows and DC-direct shipments, a great share of these transport operations starts with
+vehicle loading activities in the morning. Then, the trips
+start. For each transport operation, the assumed departure
+time is 8:00 a.m.
+Concerning the DC-consol shipments, the normal trafﬁc
+situation corresponds to a departure time of 5:00 p.m.
+because less-than-truckload shipments are consolidated for
+a certain delivery region and typically collected by the
+carrier in the late afternoon or early evening hours. In
+overnight trunking operations, the consolidated cargo is
+moved to the respective transshipment points. There, the
+single shipments are prepared for the delivery trips, which
+start in the morning hours.
+Concerning the delivery trips, ﬁrst, the number of customers and the average tonnage per customer are determined for each calendar day and delivery zone. Then the
+trip lengths and the travel times are requested for a
+departure time of 8:00 a.m. for the legs between the TSPs
+and the reference customers. In doing so, the actual
+weekday is considered. The same values are requested for a
+departure time of 4:00 p.m. for the return legs from the
+reference customers to the TSPs. Concerning the local
+trips, trip lengths and travel times are requested for a
+sample of customer–customer trips in the considered
+delivery zone and on the considered weekday for a
+departure time between 10:00 a.m. and 2:00 p.m. and,
+then, the average is established. This is also done for the
+same legs for a departure time of 10:30 p.m. (free-ﬂow).
+Finally, Eqs. (1)–(3) are used to create the delivery trips for
+the normal and the hypothetic free-ﬂow situation.
+
+21
+
+4 Understanding the effect of regular trafﬁc
+congestion on CO2 emissions
+Regular trafﬁc congestion means that there are periodically, depending on the weekday and the time of day,
+different trafﬁc conditions on the various segments of the
+road network to that of the free-ﬂow situation. This affects
+average travel speeds and, eventually, causes altered routes
+connecting the origin–destination pairs as the time-minimal
+itinerary changes. Figure 3 shows the effect on the CO2
+emissions of the line haul shipments and the round trips
+when the average travel speed is increased from the normal
+to the free-ﬂow situation.
+The following subsections explain the development of
+CO2 relevant characteristics of the line haul shipments and
+round trips with increasing/decreasing average travel
+speeds. These explanations are generally applicable; however, the orders of magnitude of the effects (cf. vertical axis
+in Fig. 3) depend on the speciﬁc trip parameters. In the
+interests of simpliﬁcation, the following explanations
+ignore the fact that the routes/trip distances may change
+due to bypasses of congested regions.
+4.1 Effects of average travel speed changes
+on the line haul shipments
+Figure 3a shows that within a reasonable range of speed
+increases (decreases), CO2 emissions from line haul shipments decrease (increase) approximately linearly. The lines
+reproducing the CO2 emissions of an articulated HGV
+34–40 tons in Fig. 2 support this ﬁnding: If, for any load
+factor and trip length, any (free-ﬂow) speed is reduced
+within a reasonable range, then the effect on CO2 emissions
+is approximately linear. Even if the average free-ﬂow speed
+on a trip is reduced from 85 to 28 km/h (reduction factor
+3), the curve in Fig. 2 comes still with an R2 value of 0.91.
+This ﬁnding suggests that the overall effect of travel time
+increases due to trafﬁc congestion on the CO2 emissions of
+the distribution network may be linearly extrapolated (see
+below).
+4.2 Effects of average travel speed changes
+on the round trips
+
+3.4.3 Estimating HGV travel times
+As the selected navigation service provider only offers trip
+information for passenger cars but not for HGVs, HGV
+travel times tHGV (in seconds) are approximated using trip
+length l (in meters) and passenger car travel time tCar (in
+seconds), as proposed by Kellner [26]:
+tHGV ¼ 54:57ðsÞ þ 0:02 Â l þ 1:09 Â tCar
+
+ð5Þ
+
+Figure 3b shows CO2 relevant effects of changing average
+travel speeds for the round trips. In the round trip case,
+three situations may occur [26]:
+1.
+
+Under free-ﬂow and normal conditions, the number of
+customers is determined by the vehicle capacity. This
+case can be observed when there are mainly highvolume shipments or when the customers served are
+
+
+Logist. Res. (2016) 9:21
+25%
+
+Development of tour characteristics with increasing average travel speed
+
+Development of tour characteristics with increasing average travel speed
+
+35%
+
+30%
+
+25%
+
+20%
+
+15%
+
+10%
+
+5%
+
+20%
+
+15%
+
+10%
+
+5%
+
+0%
+normal
+
+90%
+
+80%
+
+normal
+
+90%
+
+80%
+
+70%
+
+60%
+
+50%
+
+40%
+
+30%
+
+20%
+
+10%
+
+60%
+
+50%
+
+40%
+
+30%
+
+20%
+
+10%
+
+free-flow
+
+-5%
+
+-10%
+
+-15%
+
+0%
+
+70%
+
+Average travel speed
+
+free-flow
+
+Average travel speed
+Number of stops
+CO2 emissions per shipment
+
+Tour length
+
+CO2 per tour
+
+Travel time
+
+CO2 per shipment
+
+a Line haul shipments
+
+Travel time
+
+b Round trips
+
+Fig. 3 Effects of average travel speed changes on the line haul shipments and the round trips
+
+2.
+
+located near to each other, like in city regions. In this
+case, the number of tour stops and the itinerary (tour
+length) are independent of travel time. Trafﬁc congestion increases the tour travel time and decreases the
+average travel speed, as in the case of the line haul
+shipments. This development corresponds in Fig. 3b to
+the section between ‘60 %’ and ‘free-ﬂow’ and is
+equivalent to the development in the line haul
+shipment case.
+Under free-ﬂow and normal conditions, the number of
+tour stops is determined by the time restriction. This
+case can be observed when there are mainly lowvolume shipments and/or when the delivery zones are
+broad, like in rural regions. The development of the
+characteristics of these tours is reproduced in Fig. 3b,
+section between ‘normal’ and ‘60 %.’
+Three effects are relevant for the volume of CO2
+emissions when the number of tour stops is determined
+by the time restriction: (A) On the one hand, there will be a
+reduction of the CO2 emissions on the single tour legs
+when the average travel speed increases as the emissions
+per kilometer decrease (cf. Fig. 2). (B) On the other hand,
+when the travel times on the single legs are reduced as a
+result of average travel speed increases and the number of
+customers served in the trip is still determined by the time
+constraint, more customers will be inserted in the trip.
+When the number of customers increases due to travel
+
+123
+
+3.
+
+time decreases, the tour length will also increase (cf.
+Eq. 2). This will boost the volume of CO2 emissions of
+the tour. (C) When there are more customers served per
+tour, the load factor is increased, which will also increase
+the CO2 emission of the round trip. When these three
+effects are combined, the volume of CO2 per trip may rise
+or fall when the average travel speed increases.
+However, when there are more customers in a delivery
+round, less delivery trips are necessary to serve all
+customers and the average CO2 emissions per tour stop
+will drop. Various parameter conﬁgurations for Capa, tn,
+s, dA, dR, dL, vA, vR, vL, and the vehicle type have been
+tested to ﬁnd situations where the volume of CO2 per
+customer does not decrease with rising average travel
+speeds. There are very few instances with extreme
+parameter conﬁgurations that lead to an increase in the
+CO2 per tour stop when the average travel speed
+increases. Most of them are less relevant for the following
+analyses as they do not represent the ‘typical’ round trip.
+Thus, for the major part of the round trips, CO2 emissions
+per customer will drop when travel speed increases, as it is
+shown in Fig. 3b.
+Due to trafﬁc congestion, the number of tour stops is
+no longer limited by vehicle capacity, but the time
+restriction becomes decisive. Figure 3b visualizes this
+situation (starting from the 60 % mark, the travel time
+
+5 Results for the example case
+5.1 Overall results of the company case study
+For each transport operation, the CO2 emissions and other
+indicators have been calculated for the normal and the freeﬂow trafﬁc situation, to be ﬁnally aggregated. Table 2
+shows the increase in CO2 emissions and in distance
+travelled and the changes in the average travel speed for
+the normal compared to the free-ﬂow situation for the
+whole distribution network.
+The CO2 emissions that arise for the distribution of the
+340,000 tons of FMCG are for the normal trafﬁc situation
+between 10,566 and 12,535 tons, depending on the number
+of DCs. The CO2 volume decreases with a rising number of
+DCs as the sum of all kilometers travelled to distribute the
+goods decreases [41], here from 15.7 to 13.2 mio
+kilometers.
+In the networks with more than one distribution center,
+regular trafﬁc congestion increases the total CO2 emissions
+by about 2.5 %, regardless of the number and locations of
+DCs. This indicates a stable effect. This, in turn, implicates
+that the absolute effect is lower in a multi-DC structure
+compared to a single-DC network as CO2 emissions are
+typically lower when there are more DCs [42]. The high
+increase in CO2 emissions and distance travelled for the
+production ﬂows in the 1-DC network stems from the fact
+that the transport operations originating at the factory with
+
+21
+
+the highest output take relatively long detours in the
+morning hours to avoid congested roads. This also explains
+why the average travel speed is even higher in the normal
+than in the free-ﬂow situation: More kilometers are travelled to avoid the congested areas, and these detours allow
+higher average speeds compared to the free-ﬂow trip. In
+light of this, the impact of trafﬁc congestion on the CO2
+emissions is relatively homogenous. The CO2 increase is
+highest for the delivery trips (?4.2 %), which takes into
+account detours of congested roads, the reduction of customers served per tour, and additional delivery trips needed. This observation may be explained by the fact that the
+delivery trips experience with a minus of six percent the
+highest decrease in average travel speed. This, in turn, is
+plausible as there are many customer–customer legs in city
+regions, where trafﬁc congestion is especially hurting the
+efﬁciency of the transport operations, whereas the longdistance line haul operations often use motorways and
+primary roads. Note that, in the case of the delivery trips,
+the CO2 increase is the same for all network conﬁgurations
+because changing the number of DCs only changes the
+production ﬂows, the DC-direct shipments, and the DCconsol shipments; however, this does not alter the delivery
+trips [26]. Even if there are some TSPs that are supplied by
+more than one distribution center because the different
+retailers in these TSP service areas are assigned to different
+DCs, the delivery trips will not alter because each customer
+is supplied on a given delivery day via the nearest TSP.
+
+Table 2 Aggregated effects of regular trafﬁc congestion on the CO2 emissions, on the kilometers travelled, and on the average travel speed of
+the transportation ﬂows
+Indicator
+CO2 emissions
+
+Transportation ﬂows
+
+1 DC
+
+2 DCs
+
+3 DCs
+
+4 DCs
+
+Production ﬂows (%)
+
+13.1
+
+3.2
+
+2.5
+
+2.4
+
+DC-direct shipments (%)
+
+2.0
+
+2.1
+
+2.0
+
+2.0
+
+DC-consol shipments (%)
+
+1.3
+
+1.5
+
+1.4
+
+1.5
+
+Delivery trips (%)
+
+4.2
+
+4.2
+
+4.2
+
+4.2
+
+Total (%)
+
+4.5
+
+2.6
+
+2.4
+
+2.4
+
+Total: normal situation (tons)
+Km travelled
+
+12,535
+
+11,395
+
+10,719
+
+10,566
+
+Increase free-ﬂow to normal (tons)
+Production ﬂows (%)
+
+535
+15.2
+
+288
+0.7
+
+253
+0.2
+
+248
+0.3
+
+DC-direct shipments (%)
+
+0.0
+
+0.1
+
+0.1
+
+0.1
+
+DC-consol shipments (%)
+
+0.0
+
+0.1
+
+0.1
+
+0.1
+
+Delivery trips (%)
+
+2.4
+
+2.4
+
+2.4
+
+2.4
+
+Total (%)
+
+3.2
+
+0.7
+
+0.7
+
+0.7
+
+Total: normal situation (km)
+
+15.7 9 106
+
+Increase free-ﬂow to normal (km)
+Avg. travel speed
+
+488 9 10
+
+3
+
+14.3 9 106
+99 9 10
+
+3
+
+13.4 9 106
+3
+
+13.2 9 106
+
+87 9 10
+
+85 9 103
+
+Production ﬂows (%)
+
+7.3
+
+-5.8
+
+-5.1
+
+-4.9
+
+DC-direct shipments (%)
+
+-4.9
+
+-5.4
+
+-4.8
+
+-5.0
+
+DC-consol shipments (%)
+
+-3.4
+
+-4.0
+
+-3.6
+
+-4.0
+
+Delivery trips (%)
+
+-6.0
+
+-6.0
+
+-6.0
+
+-6.0
+
+
+5.2 Delivery trips
+The relatively high impact of trafﬁc congestion on the CO2
+efﬁciency of the delivery trips may also be explained with
+the trafﬁc effect on the total kilometers travelled. On the
+one hand, trafﬁc congestion causes additional kilometers
+travelled because of detours avoiding congested regions.
+On the other hand, additional delivery trips are occasionally needed to supply the customers (76 extra tours are only
+due to trafﬁc congestion). The average number of customers served per trip is 6.73 in the free-ﬂow and 6.45 in
+the normal situation (-4.2 %). And the share of the
+delivery tours limited by the time constraint increases from
+51.2 to 53.3 % [26].
+The change in CO2 emissions on a single shipment basis
+is between -37.8 and ?54.8 %. The average is ?4.2 %.
+For 1.85 % of the round trip shipments, trafﬁc congestion
+leads to a reduction of the CO2 volume emitted and for
+98.15 % to an increase. CO2 reductions of about 30 % are
+observed when a ‘Rigid 20–26 tons’ vehicle is used in the
+free-ﬂow situation with a low load factor and, due to a
+reduction of the number of customers in the round trip as a
+consequence of travel time increases, a ‘Rigid 7.5–12 tons’
+vehicle is used under normal conditions. This observation
+indicates the major importance of choosing the right
+vehicle to move the shipments. Moreover, there are slight
+CO2 reductions (below 1 %) for about 0.13 % of all
+delivery shipments because for these shipments the itinerary is shorter in the normal situation where congested roads
+are avoided than in the free-ﬂow case.
+5.3 Line haul shipments
+For the line haul shipments, the CO2 increase on a single
+shipment basis is for the 1-, 2-, 3-, and 4-DC conﬁgurations
+at maximum 43.4, 23.4, 41.4, and 41.4 %. The average is
+about 2.5 %. For about 0.5 % of all line haul shipments,
+the CO2 emissions are reduced as a result of trafﬁc congestion. These are shipments for which the routes have
+been changed to avoid the congested roads and the changed
+itinerary is shorter than the one in the free-ﬂow situation.
+The emissions are reduced when the CO2 savings that
+come with saved distance travelled are greater than the
+CO2 emissions caused by the travel speed reductions.
+Overall, the effect of trafﬁc congestion on distance
+travelled is relatively low in percentage values (Table 2).
+Bypassing congested roads causes a slight increase in
+kilometers travelled [26].
+Furthermore, the results prove that the time of departure
+of the transport operations signiﬁcantly affects the average
+travel speed and the CO2 volume.2 DC-consol shipments
+are less affected by trafﬁc congestion because these
+transport operations are carried out during the nighttime.
+
+123
+
+Logist. Res. (2016) 9:21
+
+The CO2 increase that is due to regular trafﬁc congestion is
+about 50 % higher in the case of the production ﬂows and
+the DC-direct shipments when compared to the DC-consol
+operations. This means that the amount of CO2 of the
+distribution network may be reduced when transport
+operations are shifted to the nighttime hours. Whereas this
+measure is difﬁcult to implement for the DC-direct shipments—these deliveries depend on the opening hours of
+the retailers—shifting (at least a share of) the production
+ﬂows from the day- to the nighttime is less problematical.
+5.4 Effects of further travel time increases
+This section summarizes the results of a linear regression
+analysis intended to extrapolate the impact of further
+increases of trafﬁc delays on the CO2 emissions from
+transportation. In this analysis, it is assumed that the effect
+of increasing/decreasing trafﬁc delays on the CO2 emissions of the distribution networks is (approximately) linear.
+Trafﬁc delays are deﬁned as the normal travel time minus
+the free-ﬂow time.
+The trafﬁc delays have been separately measured on the
+different tour segments that are driven throughout the
+distribution network because there are different levels of
+trafﬁc congestion on the single transport legs. Then, for all
+tour segments, the individual delays are increased by a
+constant factor d from 1.0 up to 3.0 with step size 0.1. This
+is done for the 1-, 2-, 3-, and 4-DC conﬁguration, which
+leads to 84 observations. These 84 observations serve as
+the data input for the regression analysis: The CO2 emissions are the dependent variable, and the values for d and
+the (inverted) number of DCs are the independent variables. Equation (6) presents the model. Total CO2 are the
+total CO2 emissions (in tons), d is the factor by which the
+delays are increased, and (1/Number of DCs) is the
+inverted number of DCs.
+Total CO2 ¼ 9600ðtonsÞ þ 260 Â d þ 2770
+1
+Â
+Number of DCs
+
+ð6Þ
+
+The regression analysis indicates that the total CO2
+volume may be explained to a good extent by the linear
+model: R2 = 98.7 %, MAPE = 0.7 %, the maximum
+deviation of the estimated from the observed CO2 emissions is 1.3 %, and all coefﬁcients have p values below
+0.001. According to Eq. (6), a doubling of the delays on the
+single legs will boost the CO2 emissions by 260 tons—
+regardless of the number of DCs. This means that the CO2
+increase in percentage values is higher in networks with
+more distribution centers and that the CO2 advantage of a
+2
+
+This ﬁnding is in line with the research results presented by Palmer
+with rising delays. On average, a doubling of the delays on
+all legs increases the total CO2 emissions by about 2.3 %.
+This effect may be linearly extrapolated, which means that
+an increase of the delays by 20 % will boost the total CO2
+emissions by 0.46 %, for instance.
+5.5 CO2 mitigating opportunities
+Apart from observing the effect of a rising number of DCs
+on the CO2 emissions from trafﬁc congestion, the presented
+network model and data source enable the designers and
+the operators of the logistics network to evaluate additional
+strategies aimed at reducing the CO2 intensity of the distribution activities. In an analogous manner to the analysis
+of the effect of rising numbers of DCs, the effects of
+changing the network structure by altering the number of
+TSPs could be analyzed.
+For the actual 1-DC conﬁguration, two sensitivities are
+studied: First, the effect of shifting 30 % of the shipments
+starting at the factory with the highest output to 10:30 p.m.
+departure times is observed. Second, the effect of only
+using ‘Rigid 20–26 tons’ vehicles—instead of a mix of
+‘Rigid 7.5–12 tons’ and ‘Rigid 20–26 tons’—for carrying
+out the delivery trips is calculated. The ﬁrst option leads to
+a reduction of 2.9 % of CO2 emissions for the production
+ﬂows. The second option leads to a plus of 10.2 % in CO2
+emissions of the delivery shipments, indicating the major
+importance of selecting the right vehicle to carry out the
+round trips.
+
+6 Conclusion
+6.1 Summary of the ﬁndings
+This research presented an approach to quantify the effect
+of regular trafﬁc congestion on the CO2 emissions of a
+typical FMCG distribution network. In the example case,
+regular trafﬁc congestion causes about 2.5 % of the total
+CO2 emissions. The number of DCs affects this percentage
+to a minor degree. However, the trafﬁc effect on CO2
+volumes in absolute values declines when the number of
+DCs increases. The outcomes of the regression analysis
+indicate that within a certain range, the impact of
+increasing trafﬁc delays on total CO2 emissions may be
+approximated with a linear model. That means that when
+all trafﬁc delays will rise by 10 %, the CO2 emissions are
+expected to rise by 0.25 %. For some line haul shipments
+and round trip shipments, CO2 increases of more than 40
+and 50 % have been observed. However, the average
+increases are below 5 %. Whereas the effect of trafﬁc
+congestion on the CO2 emissions of the line haul shipments
+
+Page 13 of 15
+
+21
+
+are—apart from some detour kilometers—essentially due
+to lower average travel speeds, which cause inefﬁciencies
+in the usage of fuel, the characteristics of the round trips—
+in terms of kilometers travelled, number of customers
+served, total trips needed, load factors—may change
+completely due to lower average travel speeds, which
+affects the CO2 footprint of the distribution network. The
+volume of CO2 emissions may be reduced, for instance, by
+shifting transport operations to the nighttime hours or by
+choosing the right vehicle for carrying out the delivery
+trips.
+This study demonstrates that using trafﬁc data provided
+by online navigation services allows monitoring the effect
+of regular trafﬁc congestion on the CO2 performance of a
+whole distribution network. Independent of the GHG
+aspect, this article shows that using this data source allows
+basing logistics system analyses on area-wide representative trip data, taking time-typical trafﬁc conditions and
+their consequences (travel time changes, re-routing decisions) into account. Considering the discussion of the different road trafﬁc data sources in Sect. 2.3, it becomes
+obvious that the use of one of the conventional trafﬁc data
+sources would have posed problems in the ﬁelds of representativeness, area-wide geographical coverage, and/or in
+the consistency and completeness of measurements.
+6.2 Generalizability of the results
+Of course, the generalizability of the results requires conﬁrmation through the analysis of more cases because the
+example case certainly does not represent the situation of
+all SIC-20 manufacturers. The fact alone that the positions
+of the different facilities affect the degree to which the ﬁrm
+is exposed to trafﬁc congestion causes generalizability
+concerns.
+Concerning the case company, however, it is recognized
+as a representative SIC-20 ﬁrm in terms of the customers
+served, its product portfolio, the shipment sizes and
+delivery frequencies, and the ﬂow of materials. Generally,
+the studied case allows for a good representation of FMCG
+distribution in Germany because the analyzed shipment
+data include a great share of the German retailer locations;
+this allows for a nationwide observation of trafﬁc conditions. In addition, the impact of trafﬁc congestion has been
+observed for the cost-minimal 1-, 2-, 3-, and 4-DC conﬁgurations. Thus, in principle, four distinct network
+structures have been investigated. And, as has been
+demonstrated, the impact of trafﬁc congestion did not differ
+a lot in relative values across the four networks. Moreover,
+the results for the delivery trips do not depend on the
+facility locations of the manufacturer, but on the positions
+of the TSPs and the retailers. Both are independent of the
+manufacturer and part of many supply chains [26].
+
+
+Logist. Res. (2016) 9:21
+
+6.3 Further research
+Future research may analyze more logistics networks in
+order to generalize the results. Furthermore, the network
+model and the data source may be combined to observe the
+effects of travel time variability and/or for a continuous
+monitoring of the transport system in order to learn how
+GHG emissions develop over a longer period. In addition,
+future research may use navigation service data to analyze
+additional CO2 cutting opportunities more in detail. These
+might include green route planning taking time-typical
+travel times into account, the analysis of the CO2 effect of
+postponing vehicle departure times, changing the delivery
+day, or the analysis of region-speciﬁc differences in travel
+times and CO2 emissions.
+
+11.
+
+12.
+
+13.
+14.
+
+15.
+
+16.
+18.
+
+

@@ -1,0 +1,3019 @@
+
+1 Introduction
+The speciﬁc problem, which will be discussed in this paper,
+is a variant of the capacitated vehicle routing problem and
+occurs in the context of fuel distribution. More precisely,
+the paper deals with the daily replenishment-planning
+problem that the biggest Algerian petroleum company is
+facing. The company is faced with a particular problem
+which is demonstrated by the following procedures in
+operations. (a) The company has to deliver different fuel
+types ordered by a set of petrol stations during the next
+working day. (b) These stations order one or more fuel
+types each time and specify the quantity to be delivered for
+each product ordered. (c) The products are incompatible
+and must be transported in independent vehicle compartments. In addition, petrol stations specify time windows
+during which they must be served. The company delivers
+products from one or more depots. (d) Each depot is
+responsible for the demand of stations located in the same
+district as the depot. The company assigns a ﬂeet of
+vehicles to each depot. (e) These vehicles are compartmentalized and do not have ﬂow metres. This implies that
+the contents of a compartment cannot be used to replenish
+more than one underground reservoir. Consequently, each
+compartment of the delivery vehicle must be ﬁlled with one
+of the products to be delivered on its route. In this context,
+the company prepares a replenishment plan for their petrol
+stations for the next day. This plan requires a number of
+simultaneous and interrelated decisions to be made. To
+prepare such a plan, the company must determine the
+routes for the delivery of all the demanded products, assign
+
+delivered by each route, and load these quantities to the
+compartments. On this point, it should be noted that, in
+2013, an Agreement was concluded between the company
+and the petrol station managers. According to this Agreement, the quantities loaded in the compartments can be
+adjusted up to a given threshold. This particular situation
+occurs quite frequently when the demands of petrol stations
+are high in winter. The objective of the replenishment plan
+is to determine a set of routes satisfying all customer orders
+at a minimal routing and service cost.
+Our real-life application can be viewed as a combination
+of two variants of the vehicle routing problem (VRP): a
+VRP with multiple compartments (MCVRP) and VRP with
+time windows (VRPTW). For clarity of exposition, this
+problem will be called the multi-compartment vehicle
+routing problem with time windows (MCVRPTW). However, it is different from the problems previously discussed
+in the literature with respect to the following properties:
+1.
+
+2.
+
+3.
+
+Besides the common constraints of heterogeneous
+ﬂeets, multiple compartments and time windows, we
+incur a penalty cost in connection with the use of
+private vehicles. This constraint originates from the
+fact that the company managers would like to promote
+the use of their own vehicles.
+Since restrictions on the accessibility of vehicles (see
+constraints 2 in the problem formulation) are imposed,
+some vehicles cannot visit some petrol stations, e.g.,
+the petrol stations managed by the army cannot be
+delivered to by private vehicles.
+The quantities loaded in the compartments can be
+adjusted according to an Agreement concluded
+between the company and the petrol station managers.
+
+Consequently, not only do the vehicle routes have to be
+determined, but how to maximize the quantities to be
+delivered also has to be decided for each day.
+The problem is NP-hard since it is a combination of the
+MCVRP and VRPTW, which are known to be NP-hard
+problems [34]. Furthermore, the MCVRPTW is more
+complicated than the MCVRP and VRPTW considering
+that it needs to tackle compartments and time windows
+constraints simultaneously. Because the practical largescale MCVRPTW instances are difﬁcult, if not impossible,
+to tackle efﬁciently within a reasonable amount of computing time, even by using the most powerful MIP solvers
+such as CPLEX (see Sect. 5), the purpose of this paper is to
+propose an effective metaheuristic for the MCVRPTW. To
+make the implementation simpler, we employ a tabu search
+as the algorithm framework. Different structural neighbourhood methods are used in the improving phase of the
+tabu search to broaden the exploration of the search space.
+Meanwhile, a Kolmogorov–Smirnov statistic (KSS) is
+
+123
+
+Logist. Res. (2016) 9:6
+
+incorporated into the framework of the tabu search to
+manage the neighbourhood size. The main idea of the KSS
+is that a neighbourhood size is determined according to a
+probability model that minimizes the distance criterion and
+decides whether two customers are neighbours or not.
+
+2 Literature review
+Several versions of the petrol station replenishment problem have attracted interest over the last three decades. In
+this section, we present a brief review of the published
+literature dealing with these versions of the petrol station
+replenishment problem in a chronological order.
+One of the ﬁrst articles was published by Brown and
+Graves [6], who developed an automated real-time dispatch
+system for the distribution of petroleum products for a
+major US oil company. Each order includes several gasoline products, jointly constituting a full truckload. Brown
+and Graves proposed a model to assign orders to trucks.
+The objective was to minimize the sum of travel costs and
+establish a penalty for trucks that exceed the allowable
+working hours per day, as well as those that had less than
+the required minimum working hours.
+Brown et al. [7] developed a computerized assisted
+dispatch system for Mobil Oil Corporation in the United
+States. The dispatching procedure used by the system was
+an extension of the one presented by Brown and Graves [6]
+and allowed visiting more than one customer per trip.
+Franz and Woodmanse [17] developed a rule-based
+semi-automated decision support system for a regional oil
+company to determine the daily schedule of the drivers and
+the dispatching of the tank trucks.
+Ronen [27] studied the dispatching problem. The main
+concern was to set up a timely and economic delivery of
+petroleum products and/or liquid chemicals by a ﬂeet of
+vehicles. He presented three models, the set partitioning
+model, the elastic set partitioning model and the set
+packing model, and showed how they could be used in a
+petrol product distribution system. Bausch et al. [2] proposed an elastic set partitioning technique to solve the same
+problem. The candidate schedules are obtained by generating trips using the sweep algorithm. Also, in 1995, Van
+der Bruggen et al. [36] solved the single period version of
+the problem as part of a broader study aimed at optimizing
+the distribution network of a large oil company operating in
+the Netherlands. They suggested some simple models to
+assign customers to depots, to determine the ﬂeet size and
+composition and to restructure the depot network.
+Nussbaum and Sepulveda [24] addressed the distribution
+problem for the biggest fuel company in Chile. The delivery
+plans are obtained using a heuristic approach and a planning,
+interface, which mimics the mental model of the user.
+Several greedy heuristics followed by simple improvement procedures for the multi-period problem were proposed by Taqa allah et al. [33]. They proposed two
+heuristics for constructing petrol station replenishment
+plans for the case in which there is only one depot, an
+unlimited homogeneous tank truck ﬂeet, and no time
+windows. In 2002, Ben Abdelaziz et al. [3] presented a
+real-life routing problem in which a variable neighbourhood search heuristic was applied to solve a single period
+petroleum products delivery problem using a heteroge´
+neous ﬂeet of compartmented tank trucks. Malepart et al.
+[21] generalized this problem by allowing delivery to more
+than one station in the same trip. The authors proposed four
+heuristics for constructing replenishment plans over a
+horizon of several working days. Their heuristics were
+tested using some real-life problems obtained from a
+transport company in Eastern Canada.
+Avella et al. [1] studied a petrol replenishment network
+involving one depot, a heterogeneous tank truck ﬂeet and
+no time windows. They proposed a heuristic and an exact
+algorithm based on a route generation scheme and a
+branch-and-price algorithm. To test the performance of
+their approach, they used real-world data consisting of 25
+customers and six tank trucks of three different types.
+Ng et al. [23] studied two small petrol distribution networks in Hong Kong: the Hong Kong Island network and the
+network for the Kowloon Peninsula and the New Territories.
+They proposed a model for simultaneously assigning trips to
+trucks and stations. For this case, station’ inventories were
+managed by the vendor who decided when to replenish each
+station and what quantities to deliver.
+Cornillier et al. [11] tackled the petrol station replenishment problem (PSRP) with one depot. They developed
+an exact algorithm to solve the single period case with
+unlimited heterogeneous truck ﬂeet but without time windows. Cornillier et al. [12] extended the PSRP to a multiperiod setting and developed a multi-phase heuristic with
+look-back and look-ahead procedures. Basically, the
+heuristic ﬁrst determines the stations to be serviced in each
+period. Then, the problem reduces to solving multiple
+PSRPs where the exact algorithm of Cornillier et al. [11] is
+utilized. Cornillier et al. [13] addressed the PSRP with time
+windows. They developed two heuristics based on the
+mixed integer linear programming formulation of the
+problem. In a different setting, Day et al. [15] implemented
+a three-phase heuristic for the cyclical inventory routing
+problem encountered at a carbon dioxide gas distributer in
+Indiana. Their heuristic determines regular routes for each
+of three available delivery vehicles over a 12-day delivery
+horizon while improving delivery labour cost, stockouts,
+delivery regularity and driver-customer familiarity.
+
+Page 3 of 18 6
+
+Cornillier et al. [14] published a paper, which was different from the previous ones as it dealt with the multidepot version of the problem. In addition to the proposed
+formulation, the authors developed a heuristic, which
+requires generating trips, not routes as in the previous
+papers, and trips are generated in a different way. In fact,
+they suggested a restricted set of promising feasible trips to
+solve the trip selection model. They used a two-phase
+procedure in which they ﬁrst constructed an initial set of
+trips and then selected a subset of this set to obtain the
+required set.
+´
+Popovic et al. [25] developed a variable neighbourhood
+search (VNS) heuristic model for solving a multi-period
+multi-product IRP (Inventory Routing Problem) in fuel
+delivery with multi-compartment homogenous vehicles and
+deterministic consumption that varies with each petrol station and each fuel type. The stochastic VNS heuristic is
+compared to a mixed integer linear programming (MILP)
+model and the deterministic ‘‘compartment transfer’’ (CT)
+´
+heuristic. For the same problem, Vidovic et al. [38] presented
+two solution approaches: the MIP model and the heuristics
+approach. The MIP model is formulated as the problem of
+petrol station assignment to individual routes with consideration of the daily inventory costs. The proposed heuristic
+includes a relaxed MIP model for obtaining the initial solution, ideas for transferring deliveries over one or more time
+periods earlier, assignment of petrol stations to a vehicle in
+the same route (represented through the utilities calculation)
+and a variable neighbourhood descent (VND) search.
+Our aim is to improve the fuel distribution operations of
+Naftal company using OR techniques. The problem seems
+similar to that of Cornillier et al. [13] since both attack a petrol
+station replenishment problem with time windows using
+multi-compartment vehicles. However, there are some key
+differences. Firstly, Cornillier et al. [13] consider a case where
+trucks can visit up to four stations per route, which is justiﬁed
+by the fact that most trucks have from four to six compartments, while stations generally require two or three products,
+one of which frequently requires two compartments. Moreover, the time windows for servicing stations are very wide. In
+addition, their aim is to maximize the total proﬁt equal to the
+sales revenue, minus the sum of routing costs and of regular
+and overtime costs, whereas, in our case, since restrictions on
+the accessibility of vehicles (see constraints 2 in the problem
+formulation) are imposed, a vehicle cannot visit some petrol
+stations, e.g., the petrol stations managed by the army cannot
+be delivered to by the private vehicles.
+The remainder of this paper is organized as follows.
+Section 3 describes and formulates the problem. Section 4
+describes the details of the proposed approach. The
+instances used and the results obtained are discussed in
+Sect. 5. Section 6 presents the conclusion and some suggestions for future work.
+
+
+Subject to
+
+3 Problem description and formulation
+The MCVRPTW is deﬁned on a complete undirected network
+graph G ¼ ðV; EÞ where V ¼ f0; 1; 2; . . .; ng is a vertex set,
+and E ¼ fði; jÞ 2 V Â V; 0 i; j n; i 6¼ jg is an edge set.
+Vertex 0 represents the depot while the remaining vertices
+N ¼ f1; 2; . . .; ng correspond to the customers. The depot
+stores p types of products. There are two types of vehicles. The
+number of vehicles for each type is limited. Let P, K1 and K2
+represent the sets of the p types of products and the two types
+of vehicles (National company and Private companies vehicles), respectively. Each vehicle k has capacity Ck with the set
+of Q1 or Q2 compartments. Each compartment q is dedicated
+to product p and has a known capacity cq . Furthermore, a
+k
+penalty cost f2 is incurred for each use of vehicle k 2 K2 in the
+routes. The travelling cost of each edge (i, j) 2 E is cij . For
+each customer i 2 N, we have a positive demand dip and a
+time window ½ai ; bi . Each demand has to be delivered in total.
+However, this demand may be adjusted according to the
+Agreement that was concluded between the company and the
+petrol station managers. Hence, the resulting new demand
+may be up to kip % less than the ordered demand dip , i.e.,
+0
+dip ¼ ð1 À kip Þ Â dip , where kip 2 ½0; 0:10. This particular
+problem, called the MCVRPTW-AD (MCVRPTW with
+adjustment), occurs quite frequently when the demands of
+petrol stations are high in winter.
+The time window at the depot ½a0 ; b0  corresponds to the
+feasible scheduling horizon for each vehicle route. Associated with each arc (i, j) 2 E, tij represents the travel time
+along that arc. Note that the service time at customer i must
+start within the associated time window and the vehicle
+must stop for a ti time. To take into account the restrictions
+imposed on the accessibility of vehicles (see constraint 2 in
+the problem formulation), we deﬁne f0; 1g matrix A ¼
+ðaik Þ; which equals 1 if and only if customer i can be served
+by vehicle k and which equals 0 otherwise.
+The MCVRPTW requires the following three types of
+variables:
+
+1 if i precedes j in the route of vehicle k:
+• xijk ¼
+0 otherwise:
+
+
+1
+
+if customer i receives product p from vehicle k:
+
+0
+
+otherwise.
+
+•
+
+yipk ¼
+
+•
+
+sik speciﬁes the arrival time at i when serviced by vehicle k.
+In case of vehicle k does not service i, sik has no meaning
+and consequently its value is considered irrelevant.
+
+Given all the parameters and variables deﬁned above, the
+MCVRPTW can be formulated as follows:
+Minimize
+
+X XX
+
+k2K1 i2V j2V
+
+123
+
+cij xijk þ
+
+X XX
+
+k2K2 i2V j2V
+
+ðcij þ f2 Þxijk
+
+ð1Þ
+
+yipk aik ; i 2 N; k 2 fK1 [ K2 g; p 2 P
+X
+X
+xihk À
+xhjk ¼ 0; h 2 N; k 2 fK1 [ K2 g
+i2V
+
+j2V
+
+xijk þ xjik 1; i; j 2 N; i 6¼ j; k 2 fK1 [ K2 g
+X
+x0jk 1; k 2 fK1 [ K2 g
+j2N
+
+X
+
+xi0k
+
+k 2 fK1 [ K2 g
+
+1;
+
+cq ; k 2 fK1 [ K2 g;
+k
+
+dip yipk
+
+ð3Þ
+ð4Þ
+ð5Þ
+ð6Þ
+
+i2N
+
+X
+
+ð2Þ
+
+q 2 fQ1 [ Q2 g; p 2 P
+
+i2N
+
+ð7Þ
+
+X
+
+yipk ¼ 1;
+
+i 2 N;
+
+p2P
+
+ð8Þ
+
+k2fK1 [K2 g
+
+yipk
+
+X
+
+i 2 N;
+
+xjik ;
+
+k 2 fK1 [ K2 g;
+
+p2P
+
+j2V
+
+sik þ ti þ tij À Mð1 À xijk Þ
+
+sjk ;
+
+i; j 2 V;
+
+ð9Þ
+
+k 2 fK1 [ K2 g
+
+ð10Þ
+ai
+
+sik
+
+bi ;
+
+i 2 V;
+
+xijk 2 f0; 1g;
+
+i; j 2 V;
+
+yipk 2 f0; 1g;
+
+i 2 N;
+
+sik ! 0;
+
+i 2 N;
+
+k 2 fK1 [ K2 g
+
+ð11Þ
+
+k 2 fK1 [ K2 g
+k 2 fK1 [ K2 g;
+
+k 2 fK1 [ K2 g
+
+ð12Þ
+p2P
+
+ð13Þ
+ð14Þ
+
+Objective (1) is to minimize the total cost, which
+consists of the travelling costs and penalty costs of private company vehicles used for service. Constraint (2)
+considers the accessibility restrictions, where some
+vehicles cannot serve some customers. Constraints (3)–
+(4) guarantee that one vehicle arrives at each customer,
+leaves it and does not return to the previous customer.
+Constraints (5)–(6) impose that the start and end of the
+route for each vehicle must be the depot. Constraint (7)
+ensures that the compartment capacity is not exceeded.
+In constraint (8), each product ordered by the customer
+is brought by one single vehicle. Constraint (9) sets yikp
+to zero for each product p if customer i is not visited by
+vehicle k. Constraint (10) represents the relationship
+between the starting time of the service to one customer
+and the departure time from its predecessor. In constraint
+(10), parameter M is an arbitrarily large value. Constraint (11) ensures that the service takes place at each
+customer with respect to the time window. Constraints
+(12)–(14) deﬁne the decision variables, which are all
+To solve the problem modelled above, we describe our
+approach from its general structure to its main components.
+
+obtained. This solution is then used to generate the initial
+routes in the routing phase. The details of these two phases
+are explained as follows:
+1.
+
+4.1 General structure
+The detailed steps of this approach are completely described as follows:
+•
+
+Step 1. Initialization
+1.
+
+2.
+•
+
+•
+
+•
+
+•
+
+•
+
+Generate one initial feasible solution by combining
+the loading aspect with the modiﬁed Solomon
+heuristic [28] as described in Sect. 4.2.
+Initialize parameters.
+
+Step 2. Local search
+2-opt*, relocate and swap operators are applied to explore
+the search space. In fact, the search process is restricted to
+a set of elite neighbouring solutions, and the criterion used
+to select them is based on the Kolmogorov–Smirnov
+statistic. At each iteration, one of these three operators is
+randomly chosen and applied to the current solution S.
+Step 3. Penalty component
+In order to enlarge the search space by visiting
+infeasible solutions, the capacity and time constraints
+are relaxed, i.e., the capacity and time violations are
+penalized by two coefﬁcients, and the penalized term is
+added to the objective function.
+Step 4. Tabu list
+The tabu list is implemented as an upper triangular matrix
+where each element contains a set of attributes able to
+characterize the solution and records the iteration in
+which an arc is moved from one route to another. The size
+of the tabu list is updated according to the quality of the
+solutions obtained during the recent moves.
+Step 5. Diversiﬁcation and intensiﬁcation strategies
+Four mechanisms are used for diversifying and intensifying the search (see Sect. 4.7 for more details).
+Step 6. Termination
+The process can be stopped if the termination conditions are completed; otherwise go to step 2 and
+continue the search.
+
+4.2 Route construction heuristic
+Usually, the methods used to generate an initial solution
+are simple and fast to compute because it is assumed that
+the task of producing a good solution is mainly handled by
+the tabu search algorithm [28]. In our work, the search
+process for the initial solution includes two main phases. In
+the ﬁrst phase, called loading, an initial loading solution is
+
+In the loading phase, our aim is to determine the subsets
+of orders that will be loaded into the same vehicle. More
+precisely, one must determine which of the products is
+assigned to a certain compartment. The compartments of
+each vehicle are loaded so that none of the routing
+constraints is considered. This can be done by solving
+the following compartment-loading problem (CLP):
+X
+X X
+Minimize
+zpqk
+ð15Þ
+k2fK1 [K2 g q2fQ1 [Q2 g p2P
+
+subject to
+dip
+
+X
+
+cq zpqk ;
+k
+
+k 2 fK1 [ K2 g;
+
+i 2 N;
+
+p2P
+
+q2fQ1 [Q2 g
+
+ð16Þ
+X
+
+zpqk
+
+1;
+
+k 2 fK1 [ K2 g;
+
+q 2 fQ1 [ Q2 g
+
+p2P
+
+ð17Þ
+
+2.
+
+Binary variable zpqk indicates whether product p is
+assigned to compartment q in vehicle k. The objective
+function in (15) expresses the fact that we wish to
+minimize the number of loaded compartments. Constraint (16) states that the quantities to load for one
+product must not exceed the sum of the capacity of
+compartments assigned to that product. Constraint (17)
+imposes that each compartment is dedicated at most to
+one product per route.
+In the above initial loading solution, each vehicle has a
+list of customers to visit. For each list, we apply the
+modiﬁed nearest neighbour heuristic proposed by
+Solomon [28] to generate our initial routes. As graphically described in Fig. 1, our heuristic constructs the
+routes by ﬁrst visiting the customer closest to the depot,
+where only temporal closeness is taken into account. At
+each iteration, a vehicle with its subset of customers is
+selected. The route starts with the customer who has the
+earliest time ai . The next customer to be visited in the
+route will be the one that is (1) not yet visited and (2)
+closest to the last customer in the current route. This
+process is repeated until there is no customer to visit in
+the current route. When this happens, the whole process
+is repeated until all the customers are visited.
+
+4.3 Neighbourhood structure
+In the tabu search algorithm, it will take a long time to
+compute the values of all moves that allow one to pass
+
+
+(a)
+
+(c)
+
+(b)
+
+(d)
+
+Fig. 1 Route construction heuristic: a Spatial location of the depot and customers. b Customers’ time windows and visiting order. c Customers
+visited by one vehicle. d Initial solution
+
+from one solution to a neighbouring one. One of the reasons for these large computing-time requirements is that
+the mechanisms of generating candidate solutions normally
+need to perform several thousand iterations to obtain highquality solutions [34]. Therefore, the strategy of selecting
+the nearest neighbours was adopted to improve the convergence speed in this paper. Within the general structure
+of the neighbourhood, this strategy may be seen as an
+implementation of a candidate list. In fact, the search is
+restricted to a set of elite neighbouring solutions, and the
+criterion used to select them is ﬁxed in advance. The size of
+the candidate list will be determined in the following
+sections by applying the Kolmogorov–Smirnov statistic.
+The introduction of this statistic is an advance over existing
+work in which most of the relevant algorithms tend to use
+classical moves. To improve the clarity of exposition, in
+Sect. 4.4, we describe in detail the Kolmogorov–Smirnov
+statistic by applying it to a given instance of Solomon. As
+is shown in Fig. 4, with 100 customers, the size of the
+candidate list is restricted to a value of 21. Our approach
+employs three move types; each explores a restricted
+search space by embedding these lists in the search process.
+At each iteration, the algorithm randomly chooses one
+
+123
+
+operator from these three operators and applies it to the
+current solution S. The details of these operators are listed
+and described below.
+a.
+
+b.
+
+c.
+
+2-opt*: Two customers, i 2 Rk and j 2 Rk0 , are chosen.
+Then, the edges connecting i to i þ 1 and j to j þ 1 are
+removed. Two new edges are added adjoining i with
+j þ 1 and j with i þ 1. See Fig. 2a.
+Relocate: Two customers, i 2 Rk and j 2 Rk0 , are
+selected and i is removed from its original route Rk
+and inserted following j in the second route Rk0 . The
+relocate operator may reduce the number of vehicle
+routes. See Fig. 2b.
+Swap: Two customers, i 2 Rk and j 2 Rk0 , are chosen
+and exchanged between two routes. See Fig. 2c.
+
+4.4 Neighbourhood size
+The tabu search can be very time consuming due to the
+large size to the neighbourhood N(S) and also to the cost
+functions that must be constantly reevaluated. Thus, we
+propose a neighbour reduction strategy designed to reduce
+Page 7 of 18 6
+
+(a)
+
+(b)
+
+(c)
+
+search, this strategy may be seen as an implementation of
+candidate list [19]. In fact, the search is restricted to a set of
+elite neighbouring solutions, and the criterion used to select
+them is ﬁxed in advance. Similar ideas have been used by
+various authors to speed up local-search algorithms [35].
+The most widely used strategy, called Random, involves
+randomly selecting some neighbours from N(S) for evaluation, thus allowing only a predeﬁned proportion of the
+total neighbourhood to be considered. By forcing a
+decrease in the number of neighbours, the strategy is able
+to decrease the time needed to ﬁnd a solution. However,
+because the strategy does not necessarily select the best
+neighbour, it could lead to a different, and maybe worse,
+solution. Another frequently used strategy, called Distance,
+relies on taking the problem conﬁguration into account
+[26]. The idea is simple: a given neighbour is evaluated
+only if the customer under consideration is within a ﬁxed
+distance from the nearest customer on the route into which
+it will be inserted. For example, in [26], the ﬁxed distance
+is predeﬁned as being equal to a fraction of the longest
+distance on the geographical map. Apart from the mentioned strategies, the candidate list is also restricted to a
+fraction of the total number of customers [8].
+By analysing these strategies, some drawbacks can be
+underlined. In fact, their way of ﬁxing the number of candidates does not take into account the instance’s density and
+consequently no guarantee is provided regarding the compromise between solution quality and the time to ﬁnd it. This
+means that if the customer under consideration is located in a
+remote location, the algorithm can evaluate some unpromising moves; or if it is in a cluster, it might still result in too many
+
+moves to be evaluated. In order to overcome these drawbacks,
+our paper attends to additional aspects which, according to the
+best of our knowledge, have not been considered in the literature before. These aspects include (1) the analysis of the
+instance conﬁguration, (2) the introduction of the Kolmogorov–Smirnov distance criterion, and (3) the implementation of candidate list for each customer. The second aspect
+deﬁnes a new feature with which we suggest a heuristic (Algorithm 1) for the neighbourhood size.
+The purpose of introducing the Kolmogorov–Smirnov
+statistic (KSS) is to ﬁnd the preferable customers to visit
+(when moving from one solution to a neighbouring one),
+taking into to account their geographical positions in the
+instance. The idea is simple: (1) select the model that
+minimizes the distance criterion, (2) deduce its parameters
+and (3) decide whether two customers are neighbours or
+not. The customers are considered neighbours of a given
+customer i, if and only if the distance between them is less
+or equal to a given parameter Ai . This parameter is calculated by using the pth quantile formula, which depends
+on the probability distribution of its distance sample Li .
+The use of such a probability aspect in computing Ai is
+justiﬁed by the aim of checking whether one of the known
+distributions can be suited to each distance sample. In fact,
+the KSS ﬁts the distance sample by selecting a list of
+candidate distributions, estimating their parameters and
+giving their ranking. Once the best statistical model is
+identiﬁed, the parameter Ai is deﬁned as follows:
+FðAi Þ ¼ PrðLi Ai Þ ¼ p ) Ai ¼ F À1 ðpÞ:
+The whole procedure of ﬁt is brieﬂy explained in
+Algorithm 1.
+
+
+Algorithm 1 Procedure of ﬁt.
+Step 1.
+for each customer i = 1, ..., n do
+(a)
+Calculate lij = (xi − xj )2 + (yi − yj )2 , j ∈ N
+(b)
+Build the set Li = {lij , j ∈ N }
+end for
+Step 2.
+Over the candidate distributions do:
+(a)
+(b)
+(c)
+(d)
+
+Fit the distributions to the sample (Li ).
+Calculate the Kolmogorov-Smirnov statistics, give their ranking and parameters.
+Choose the best distribution that minimizes the distance criterion.
+Use the parameters of the best distribution to determine Ai = F −1 (p).
+
+Step 3.
+Repeat steps 2 for each sample Li .
+
+To improve the clarity of exposition, we give an illustrative application in which we show how to apply the
+Kolmogorov–Smirnov statistic on a given instance. Let
+R101, i ¼ 26 and L26 represent the instance of Solomon
+(Fig. 4), the selected customer and its distance sample,
+respectively. With this sample design, we test the following
+set of distributions: Normal, Exponential, Weibull, GEV,
+´
+Gamma, Frechet and Pareto. Table 1 summarizes the
+goodness of ﬁt for this example and shows that the GEV
+model is the best. This result is conﬁrmed when the GEV
+quantile-quantile plot of the L26 variable is displayed as in
+Fig. 3. As can be seen in this ﬁgure, our distribution is very
+closely related to the empirical cumulative distribution
+function. Hence, the L26 variable seems to follow a GEV
+distribution which is deﬁned as follows:
+8
+> PðLi Ai Þ ¼ FðAi ; li ; ri ; ni Þ
+<
+( 
+)
+
+
+ð18Þ
+Ai À li À1=ni
+> PðLi Ai Þ ¼ exp À 1 þ ni
+:
+ri
+where F is the Cumulative Distribution Function (CDF),
+li 2 R is the location parameter, ri [ 0 is the scale
+parameter and ni 2 RÃ is the shape parameter. By inverting
+(18), we compute the parameter GEV Ai as follows:
+
+Table 1 Goodness of ﬁt-synthesis
+Distribution
+
+Kolmogorov–
+Smirnov
+Statistic
+
+GEV
+
+Rank
+
+0.0372
+
+1
+
+Corresponding parameters
+
+l ¼ 22:697; r ¼ 10:923; n ¼ À0:1901
+
+Weibull
+
+0.0530
+
+2
+
+a ¼ 2:6739; b ¼ 30:999
+
+Gamma
+
+0.0567
+
+3
+
+a ¼ 5:4814; b ¼ 5:0205
+
+Normal
+´
+Frechet
+
+0.0602
+
+4
+
+l ¼ 27:244; r ¼ 11:471
+
+0.1327
+
+5
+
+a ¼ 1:9407; b ¼ 19:648
+
+Exponential
+
+0.2949
+
+6
+
+k ¼ 0:0367
+
+Pareto II
+
+0.3141
+
+7
+
+No ﬁt
+
+8
+
+No ﬁt
+
+FðAi ; li ; ri ; ni Þ ¼ p ) Ai ¼
+
+1
+À
+ln p
+
+#
+
+ni
+À1
+
+ri
+þ li :
+ni
+ð19Þ
+
+With ðl26 ; r26 ; n26 Þ ¼ ð22:697; 10:923; À0:1901Þ and
+p ¼ 25 % for example, we get A26 ¼ 19:016. Hence, the set
+of nearest neighbours of the 26th customer will be noted by
+V(26) and Fig. 4 offers its representation. Vð26Þ ¼ fj 2
+Njlð26; jÞ 19:016g. This set, considered as the restricted
+neighbourhood of the current solution, will be used by the
+three operators to evaluate the neighbourhood N(26).
+
+4.5 Penalty component
+To develop the approach for the MCVRPTW, possible violations of both capacity and time window constraints need to
+be addressed. Let S be an infeasible solution that violates
+capacity constraints and/or time window constraints. The
+penalized cost function F 0 ðSÞ of solution S is deﬁned in
+Eq. (20). It consists of the total travel distance F(S) and the
+penalty terms C(S) and T(S) for the violations of the capacity
+and time window constraints multiplied by the penalty
+coefﬁcients a and b respectively. Initially set equal to 1, these
+coefﬁcients are periodically divided by 1 þ q ðq 20; 1½Þ
+after each block of / feasible solutions and multiplied by
+1 þ q after each block of / infeasible solutions. This way of
+proceeding produces a mix of feasible and infeasible solutions, which acts as a diversiﬁcation strategy.
+F 0 ðSÞ ¼ FðSÞ þ aCðSÞ þ bTðSÞ:
+
+ð20Þ
+
+C(S) is straightforwardly deﬁned in Eq. (21) as the sum of
+the total demand excess in all routes [35].
+(
+)
+X
+XX
+CðSÞ ¼
+max
+dip yipk À Ck ; 0
+ð21Þ
+
+a ¼ 197:26; b ¼ 5048:2
+
+Pareto I
+
+"
+
+123
+
+k2fK1 [K2 g
+
+p2P i2N
+
+
+Fig. 3 GEV Quantile–Quantile plot
+
+Fig. 4 An example of candidate
+list
+
+employed in Berger and Barkaoui [4]. We suggest the
+deﬁnition of Nagata et al. [22] for the time window penalty
+structure deﬁned in Eq. (23) whose change can be computed in O(1) time for most traditional neighbourhood
+operators. Moreover, this penalty measures the amount of
+
+the time window violation more appropriately as described
+below.
+Given a solution S, the extended earliest departure time
+at a depot e0k , the extended earliest start time of service at a
+s
+customer i, eik are deﬁned recursively in Eq. (22) and the
+s
+
+T(S), is deﬁned in Eq. (23).
+8
+> s0 0k ¼ e0k ¼ a0
+s
+>e
+>
+>e
+< s0 ¼ e
+s iÀ1;k þ tik þ tiÀ1;i
+ik
+ð22Þ
+e
+e
+> eik ¼ maxð s0 ik ; ai Þ
+if s0 ik bi
+>s
+>
+>
+:
+e
+eik ¼ bi
+if s0 ik [ bi
+s
+XX
+e
+TðSÞ ¼
+maxð s0 ik À bi ; 0g
+ð23Þ
+k2K i2V
+
+Note that eik is equal to sik if the route of vehicle k is feasible
+s
+e
+with respect to the time window constraint. s0 ik refers to the
+extended earliest arrival time of vehicle k at customer i, and
+e
+the time window constraint is violated at customer i if bi \ s0 ik .
+In this case, we assume that the vehicle can travel back in time
+to bi to start the service of customer i without delay, but at the
+e
+expense of paying a penalty ð s0 ik À bi Þ. Therefore, in this case,
+eik is set to bi . The total time window violation in solution S,
+s
+T(S), is deﬁned by the sum of the penalties that the vehicles
+must pay in all the routes to service all customers and to arrive
+at the depot without delay.
+4.6 Tabu list
+The tabu list is implemented as an upper triangular matrix
+L of K Â K dimensions where each element
+0
+0
+0
+Lðk; k Þ; ðk; k ¼ 1; :::; K; k\k Þ is associated with the pair
+0
+of routes Rk and Rk0 . Each element Lðk; k Þ contains a set of
+attributes able to characterize the solution and also records
+the iteration in which the arc (i, j) has been moved from
+0
+route Rk to route Rk0 . The element Lðk; k Þ has the structure:
+ðRk ; Rk0 ; i; position i; j; position j; FðSÞ; tÞ:
+where Rk and Rk0 are the two routes under operation, i is a
+customer from Rk and position i is the service order of i in Rk .
+The case is likewise for j and position j. F(S) is the solution
+value, and t is the iteration in which the arc (i, j) has been
+moved from route Rk to route Rk0 . An arc moved at iteration t
+cannot be reinserted in the solution before iteration t þ h.
+This notion provides a guideline to avoid making similar
+moves in the near future. Such representation does not
+uniquely describe a move, because a full description is very
+complicated and its use increases the computation
+tremendously. Therefore, when an exchange between
+routes Rk and Rk0 is accepted, we just update the infor0
+mation corresponding to line k and column k . Thus, we
+avoid calculating information above the other pairs of
+routes, which do not contain either Rk or Rk0 . The size of
+tabu list h takes its values in ½hmin ; hmax  starting from hinit .
+Parameter h is updated according to the quality of the
+solutions obtained during the recent moves. After each
+improvement of the current objective function, h is updated
+
+123
+
+Logist. Res. (2016) 9:6
+
+as h ¼ maxðh À 1; hmin Þ with the aim of intensifying the
+search around this solution. Otherwise, after /LT consecutive moves deteriorating the value of the visited solutions,
+the size of the tabu list is updated as h ¼ minðh þ 1; hmax Þ:
+4.7 Diversiﬁcation and intensiﬁcation
+There are two diversiﬁcation strategies for the proposed
+algorithm to guide the search into less explored regions. (1)
+A neighbourhood is randomly selected from the moves
+described in Sect. 4.3. (2) The idea of passing through
+infeasible regions is introduced and deﬁned in Sect. 4.5.
+The intensiﬁcation is mainly achieved by using the
+following two strategies. (1) The search is accentuated
+around the best-known solution by increasing or decreasing
+the size of the tabu list as explained in Sect. 4.6. (2) The
+full search proceeds starting from the most promising
+solution. In fact, the tabu search restarts the exploration of
+the solution space from the best feasible solution evaluated,
+but not visited S. To update S at each iteration, the algo0
+00
+rithm generates two solutions, S and S , from the neigh0
+bourhood N(S) of the incumbent solution S. S represents
+the best non-tabu solution in N(S), and it is used to continue
+00
+the search process, while S represents the best non-tabu
+0
+0
+feasible solution obtained in NðSÞnS . Note that S can be
+infeasible, since the solutions visited may violate capacity
+or time constraints. After cmax iterations without improving
+the best feasible solution found so far or after mmax iterations since the last restart, the search process ‘‘jumps’’ to S
+and restarts with an empty tabu list. The maximal number
+of restarts is ﬁxed as gmax , but this process can be stopped if
+after gmax restarts the best solution is not improved.
+4.8 Algorithm overview
+Algorithm 2 gives the skeleton of the proposed tabu search.
+Before describing its general structure, we ﬁrst give some
+notations as follows:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+g: Number of restarts.
+g: Number of restarts without improvement.
+c: Number of iterations without improvement.
+cS : Number of iterations without improvement the
+incumbent solution.
+m: Total number of iterations.
+v: Number of consecutive feasible solutions.
+v: Number of consecutive infeasible solutions.
+v ¼ vc þ vt .
+vc : Number of consecutive infeasible solutions that
+violate capacity constraint.
+vt : Number of consecutive infeasible solutions that
+
+Algorithm 2 Procedure Search
+(1) Generate one initial solution S0 by combining the loading aspect with the modiﬁed
+nearest neighbor heuristic as described in Section 4.2.
+(2) Set S := S0 , S ∗ := S0
+(3) initialize the parameters: θ = θinit , η = η = γ = ν = χ = χ = γS = 0.
+repeat
+η =η+1
+while ν ≤ νmax and γ ≤ γmax do
+Randomly choose an operator from the set of three operators and apply it to the
+current solution S. Two solutions S and S are generated from N (S):
+S : the best non-tabu solution in N (S).
+S : the best feasible non-tabu solution in N (S) \ S .
+Set S = argmin(F (S ), F (S ))
+if F (S ) < F (S) then
+Update the size of the tabu list. Set θ := max(θ − 1, θmin )
+Set γS := 0
+else
+Update γS := γS + 1
+end if
+if γS = φLT then
+Update the size of the tabu list. Set θ := min(θ + 1, θmax )
+Set γS := 0
+end if
+if F (S ) < F (S ∗ ) and S is feasible then
+Set S ∗ := S , γ := 0, χ := χ + 1.
+else
+γ := γ + 1
+end if
+S := S
+Update the tabu list
+if S is infeasible then
+χ := χ + 1. Update χc , χt .
+else
+χ := 0. Update χc , χt .
+end if
+check the variables corresponding to the number of consecutive feasible and non
+feasible solutions and update the penalization parameters.
+if χ = φ then
+Set α := α/(1 + ρ), β := β/(1 + ρ).
+end if
+if χ = φ then
+Set ρc := χc /φ, ρt := χt /φ.
+Update α := α ∗ (1 + ρc ), β := β ∗ (1 + ρt ).
+end if
+end while
+if S ∗ is updated then
+η := 0
+else
+η := η + 1
+end if
+S=S
+until (η = ηmax ) or (η = ηmax )
+Return S ∗ .
+
+5 Computational results
+5.1 Overview
+Because the problem under study is a new problem in the
+literature, there is still a lack of benchmark instances to test
+the behaviour of the algorithm. As a result and with the aim
+of avoiding indirect or limited comparisons, we performed
+
+our computational experiments on the well-known data sets
+given by Solomon [28]. These instances (http://www.neo.
+lcc.uma.es/vrp/vrp-instances/), developed for the classical
+VRPTW, are transformed to ﬁt our problem. There are, in
+total, 56 different instances, which can be classiﬁed into six
+categories. In sets R1 and R2, the customer locations are
+randomly generated. Problem sets C1 and C2 have clustered distributions of customers. Sets RC1 and RC2 are
+semi-clustered with a mix of randomly distributed and
+
+route horizon compared with those of sets R2, C2 and RC2,
+which have longer scheduling horizons. In order to
+accommodate these instances to the MCVRPTW with two
+products and two compartments, we adopted the idea
+proposed by El Fallahi et al. [16] to derive the MCVRP
+instances from the VRP data sets. More precisely, we split
+each customer demand into two parts. The demands of
+customer i for the two types of products are di1 ¼ ½di =x
+and di2 ¼ di À di1 respectively where x is a random integer
+in [2, 3], [x] stands for the integer part of x and di indicates
+the demand of customer i in Solomon instances. The
+capacity of compartments is set as cq1 ¼ ðC Â d1 Þ=ðd1 þ
+d2 Þ; cq2 ¼ ðC Â d2 Þ=ðd1 þ d2 Þ where d1 , d2 and C are the
+average demand for the ﬁrst product, the average demand
+for the second product and the vehicle capacity in the
+original VRPTW, respectively.
+Although our implementation handles more compartments, we took the case of two compartments for testing
+because a) the problem is already difﬁcult enough with two
+compartments, and b) the demands obtained by splitting the
+original demands into three or more demands would be too
+small.
+To further assess the performance of the algorithm, we
+solve a real case where the company managers provided us
+with daily data for a period of 15 days.
+All instances can be downloaded from the VRP-REP
+website (http://www.vrp-rep.org/).
+The algorithm proposed in our solution procedure is
+coded in C??, and the mathematical model is solved by
+using IBM ILOG CPLEX 12.6 for a 7200s CPU. All
+experiments are conducted on a laptop computer with an
+Intel Core i7 2.9 GHz processor with 8 GB RAM and
+operating with Windowsr 7 Professional edition.
+5.2 Parameters
+After some preliminary experiments, the parameter conﬁgurations for the tabu search algorithm have been set to
+the values reported in Table 2. a, b and q are three penalty
+factors. / and /LT have been set to the same value and,
+respectively, count the number of consecutive moves
+updating or deteriorating the value of the visited solutions.
+The size of the tabu list is updated in the interval
+½hmin ; hmax  starting from hinit . The maximum number of
+moves without improving the best feasible solution in each
+restart is cmax . mmax is the number of iterations of each
+restart. gmax ﬁxes the maximal number of restarts while
+gmax is the maximal number of restarts without improvement. kip is the threshold used as an adjustment parameter
+in Eq. (24). p is the pth GEV quantile used to ﬁnd the
+neighbourhood size.
+
+123
+
+Logist. Res. (2016) 9:6
+Table 2 Parameters used in
+tabu search algorithm
+
+Parameter
+
+Value
+
+a
+
+1
+
+b
+
+1
+
+q
+
+0.3
+
+/ ¼ /LT
+
+15
+
+hinit
+
+10
+
+hmin
+
+5
+
+hmax
+
+15
+
+cmax
+
+700
+
+mmax
+
+2500
+
+gmax
+
+100
+
+gmax
+
+5
+
+kip
+
+0.04
+
+p
+
+0.25
+
+5.3 Results
+5.3.1 Results for the MCVRPTW instances
+We started by comparing the MCVRPTW with what we
+call the MCVRPTW-AD (MCVRPTW with adjustment) in
+which the quantities loaded in the compartments can be
+adjusted up to a given threshold (see Sect. 3). To handle
+this MCVRPTW-AD, we simply modiﬁed the tabu search
+algorithm to get two versions in which constraint (7) is
+replaced by constraint (24):
+X
+ðdip À kip Þyipk cq ; k 2 fK1 [ K2 g;
+k
+i2N
+
+q 2 fQ1 [ Q2 g;
+
+p2P
+ð24Þ
+
+Table 3 provides the solutions obtained by the tabu
+search algorithm for each instance. In Table 3, we report
+the total distance (TD), the number of vehicles used for the
+service (NV), the CPU times in seconds (CPU) and the
+ﬁnal gain in percentage (Gain %) when the adjustment
+option is permitted. Solutions in this table indicate that, in
+all problem instances, the adjustment option proves to be
+favourable, both in terms of the total distance (7 %) and the
+number of vehicles used (10 %). Another interesting thing
+we have found is that the tabu search converges much
+faster for the MCVRPTW than for the MCVRPTW-AD.
+This may be explained by the fact that, in the MCVRPTWAD, we have the possibility of moving customers among
+the routes without violating any capacity constraint. Conversely, when excluding the adjustment option, the set of
+feasible solutions for the MCVRPTW becomes very
+restricted, resulting in a rapid search.
+We then tried to solve the formulation (1)–(14) directly
+within CPLEX 12.6. CPLEX failed to solve any of the
+
+Page 13 of 18 6
+
+Data
+
+MCVRPTW
+
+MCVRPTW-AD
+
+Gain (%)
+
+NV
+
+TD
+
+CPU (s)
+
+NV
+
+TD
+
+CPU (s)
+
+NV
+
+TD
+
+C1
+
+13
+
+1131.39
+
+432
+
+12
+
+1030.74
+
+541
+
+9
+
+10
+
+C2
+
+7
+
+1056.80
+
+359
+
+6
+
+986.31
+
+491
+
+13
+
+7
+
+R1
+
+17
+
+1496.71
+
+543
+
+16
+
+1422.73
+
+731
+
+7
+
+5
+
+R2
+
+6
+
+1163.03
+
+459
+
+5
+
+1102.62
+
+601
+
+11
+
+5
+
+RC1
+
+16
+
+1728.05
+
+364
+
+15
+
+1588.31
+
+541
+
+9
+
+9
+
+RC2
+
+7
+
+1356.80
+
+295
+
+7
+
+1302.41
+
+441
+
+9
+
+4
+
+Avg.
+
+11
+
+1322.67
+
+825
+
+10
+
+1240.97
+
+1069
+
+10
+
+7
+
+memory error after about 16,000s of computation time.
+Because of this, we compared the solutions obtained for the
+small-sized instances by our algorithm to those obtained by
+CPLEX 12.6. We conducted a set of experiments by randomly selecting 15 customers from each MCVRPTW
+instance. These instances are denoted as in the following
+example. C101-15 corresponds to the instance of class
+‘‘C1’’ where only 15 customers are considered. In our
+solution, each of the generated instances is resolved in the
+same way, as for the instances with 100 customers considered above. For CPLEX, a maximum CPU of 7200s is
+imposed on the solution time. Table 4 shows the solutions
+obtained by our algorithm and the optimal solutions
+obtained by CPLEX. For completeness, the ﬁnal optimality
+gap in percentage (Gapf (%)) is also provided.
+Results in this table indicate that our algorithm provides
+the optimal solutions to C102-15, R101-15 and RC102-15
+instances with a substantially lower computation time.
+Furthermore, CPLEX cannot provide a feasible solution
+(within the time limit) to six problem instances (C104-15,
+R103-15, R104-15, R107-15, R108-15 and RC107-15).
+These results conﬁrm that the solutions obtained by our
+algorithm are better than those obtained by CPLEX.
+Moreover, the average computation time required by our
+solution procedure to solve these instances is much less
+than that required by CPLEX.
+5.3.2 Results for the VRPTW instances
+For a more meaningful comparison of results, we interpreted the classical VRPTW instances as MCVRPTW
+instances with one product and one compartment. To this
+end, we compared our results with nine other metaheuristic approaches proposed by Taillard et al. [29]
+(TBGGP), Chiang and Russell [9] (CR), Gambardella et al.
+[18] (GTA), Tan et al. [30, 31] (TLO), Cordeau et al. [10]
+(CLM), Braysy and Gendreau [5] (BG), Lau et al. [20]
+(LST), Tan et al. [32] (TCL) and Vidal et al. [37] (VCGP).
+The comparison of the results of each approach is shown in
+Table 5. The ﬁrst row gives the name of the authors of the
+study. Rows C1, C2, R1, R2, RC1 and RC2 present the
+
+Table 4 Comparison between our solutions and optimal solutions
+obtained by CPLEX
+Data
+
+Our solutions
+NV
+
+TD
+
+Gapf ð%Þ
+
+CPLEX solutions
+CPU
+
+NV
+
+TD
+
+CPU
+
+C101-15
+
+3
+
+222.61
+
+13
+
+3
+
+220.92
+
+7200
+
+C102-15
+
+2
+
+207.84
+
+24
+
+2
+
+207.84
+
+2593
+
+70.34
+
+C103-15
+
+3
+
+227.68
+
+32
+
+3
+
+233.68
+
+7200
+
+84.04
+
+C104-15
+
+3
+
+220.62
+
+48
+
+C105-15
+
+3
+
+229.88
+
+15
+
+3
+
+229.88
+
+7200
+
+51.32
+
+C106-15
+
+3
+
+239.02
+
+19
+
+3
+
+239.02
+
+7200
+
+45.35
+
+C107-15
+C108-15
+
+2
+3
+
+198.08
+270.96
+
+23
+22
+
+2
+3
+
+194.95
+273.78
+
+7200
+7200
+
+86.79
+84.16
+
+C109-15
+
+3
+
+233.44
+
+31
+
+3
+
+243.21
+
+7200
+
+87.33
+
+R101-15
+
+4
+
+359.66
+
+39
+
+4
+
+359.66
+
+6025
+
+R102-15
+
+4
+
+338.06
+
+47
+
+4
+
+353.11
+
+7200
+
+78.12
+
+R103-15
+
+3
+
+278.88
+
+90
+
+R104-15
+
+3
+
+280.54
+
+43
+
+R105-15
+
+3
+
+298.92
+
+32
+
+4
+
+295.77
+
+7200
+
+72.86
+
+R106-15
+
+3
+
+305.41
+
+37
+
+3
+
+322.19
+
+7200
+
+78.37
+
+R107-15
+
+3
+
+297.50
+
+57
+
+R108-15
+
+3
+
+284.22
+
+45
+
+R109-15
+
+3
+
+299.71
+
+36
+
+4
+
+318.44
+
+7200
+
+69.95
+
+R110-15
+
+3
+
+271.52
+
+41
+
+3
+
+311.28
+
+7200
+
+88.15
+
+R111-15
+
+3
+
+300.46
+
+42
+
+4
+
+329.57
+
+7200
+
+75.43
+
+R112-15
+
+3
+
+270.25
+
+42
+
+3
+
+428.92
+
+7200
+
+82.03
+
+RC101-15
+RC102-15
+
+4
+3
+
+370.26
+367.34
+
+26
+26
+
+4
+3
+
+370.26
+367.34
+
+7200
+791
+
+80.10
+
+RC103-15
+
+3
+
+319.78
+
+34
+
+3
+
+324.55
+
+7200
+
+89.76
+
+RC104-15
+
+3
+
+326.87
+
+53
+
+3
+
+398.20
+
+7200
+
+79.92
+
+RC105-15
+
+3
+
+393.84
+
+41
+
+3
+
+400.41
+
+7200
+
+88.17
+
+RC106-15
+
+3
+
+319.56
+
+33
+
+3
+
+320.80
+
+7200
+
+90.12
+
+RC107-15
+
+3
+
+339.49
+
+26
+
+RC108-15
+
+3
+
+322.23
+
+38
+
+3
+
+323.92
+
+7200
+
+89.77
+
+Avg.
+
+3
+
+289
+
+36
+
+3
+
+307
+
+6670
+
+78.60
+
+NO SOL
+
+NO SOL
+NO SOL
+
+NO SOL
+NO SOL
+
+NO SOL
+
+Bold indicates optimal solutions
+
+average number of vehicles (NV) and average total distance (TD) with respect to the six groups of problem
+instances, respectively. The performance of our algorithm
+
+
+Table 5 Comparison among different heuristics
+Data set
+
+CLM
+[10]
+
+10
+
+10
+
+10
+
+10
+
+10
+
+828.45
+
+828.38
+
+828.38
+
+828.74
+
+828.38
+
+3
+
+3
+
+3
+
+3
+
+3
+
+TD
+
+590.30
+
+591.42
+
+589.86
+
+590.69
+
+589.86
+
+NV
+
+12.25
+
+12.17
+
+12
+
+12.92
+
+12.08
+
+TD
+R2
+
+TLO
+[30, 31]
+
+NV
+
+R1
+
+GTA
+[18]
+
+TD
+C2
+
+CR
+[9]
+
+NV
+
+C1
+
+TBGGP
+[29]
+
+1216.70
+
+1204.19
+
+1217.73
+
+1187.35
+
+1210.14
+
+NV
+
+RC1
+
+3
+
+2.73
+
+2.73
+
+3.51
+
+2.73
+
+TD
+
+995.38
+
+986.32
+
+967.75
+
+960.83
+
+969.58
+11.50
+
+NV
+
+11.88
+
+11.63
+
+12.74
+
+1367.51
+
+1397.44
+
+1382.42
+
+1355.37
+
+1389.78
+
+NV
+TD
+
+RC2
+
+11.88
+
+TD
+
+3.38
+1165.62
+
+3.25
+1229.54
+
+3.25
+1129.19
+
+4.25
+1068.26
+
+3.25
+1134.51
+
+BG
+[5]
+
+LST
+[20]
+
+TCL
+[32]
+
+VCGP
+[37]
+
+Our solution
+
+C1
+
+NV
+
+10
+
+10
+
+10
+
+10
+
+10
+
+C2
+
+TD
+NV
+
+828.38
+3
+
+832.13
+3
+
+828.38
+3
+
+828.38
+3
+
+828.38
+3
+
+TD
+
+589.86
+
+589.86
+
+589.86
+
+589.86
+
+589.86
+
+R1
+R2
+
+NV
+
+11.92
+
+12.16
+
+12
+
+11.92
+
+12.08
+
+TD
+
+1222.12
+
+1211.55
+
+1217.73
+
+1210.69
+
+1197.97
+
+RC1
+
+NV
+
+2.73
+
+3
+
+2.73
+
+2.73
+
+2.73
+
+TD
+
+975.12
+
+1001.12
+
+967.75
+
+951.51
+
+952.17
+
+RC2
+
+NV
+
+11.50
+
+12.25
+
+11.63
+
+11.50
+
+11.50
+
+TD
+
+1389.58
+
+1418.77
+
+1382.42
+
+1384.17
+
+1355.97
+
+NV
+
+3.25
+
+3.37
+
+3.25
+
+3.25
+
+3.25
+
+TD
+
+1128.38
+
+1170.93
+
+1129.19
+
+1119.24
+
+1116.38
+
+appears satisfactory, considering that all approaches in the
+literature were tailored for the VRPTW, most of them
+actually aiming ﬁrst to reduce the travelled distance.
+5.3.3 Results for the real-life instances
+To further prove the feasibility and effectiveness of the
+presented algorithm under real situations, we collected and
+investigated the real data of the NAFTAL petroleum company. This company is responsible for delivering various
+kinds of fuel (gasoline, premium gasoline, aviation gasoline,
+kerosene and diesel fuel) from 70 depots, serving more than
+3500 petrol stations and using around 1500 tank trucks. In
+this experiment, we used instances that we obtained from the
+regional depot of petroleum products, Caroubier depot, in the
+city of Algiers in Algeria. For this depot, the company provided us with daily data for a period of 15 days.
+The data consist of the cities where the customers are
+located and the associated distance matrix, the order
+
+123
+
+quantities with their time windows and tank truck related
+information, such as the number of tanks and their capacities. The ﬂeet dedicated to the replenishment of petrol
+stations consists of 20 tank trucks, ﬁve of which are owned
+by private companies. The travel time in minutes between
+each pair of petrol stations is calculated by multiplying the
+travel distance in kilometres by a deﬁnite constant 1.200
+based on the average travel speed, 50 km per hour or 0.833
+km per minute. The travel cost between each pair of petrol
+stations is calculated by multiplying the travel distance by
+a deﬁnite constant 0.685 given by the company. As mentioned earlier, the private trucks are hired with a penalty
+cost. This cost is calculated by multiplying the travel distance between each pair of petrol stations by a deﬁnite
+constant f2 ¼ 0:497 based on the average rental price of
+private vehicles. In Table 6, the instances are denoted by a
+name that allows one to identify their customers per day. In
+particular, the names have the form D À n where D is the
+working day and n is the number of customers. For
+example the instance ‘‘1–41’’ denotes the 41 customers to
+be delivered to on the ﬁrst working day.
+In the ﬁrst place, we tried to solve these 15 instances
+using CPLEX 12.6. Unfortunately, it failed to ﬁnd the
+optimal solution for most of these trials and sometimes
+produced an out of memory error. Because of this, we
+completed our assessment by comparing our solutions with
+those provided by the company. For CPLEX, a maximum
+of a 7200s CPU is imposed on the solution time, and the
+ﬁnal optimality gap in percentage (Gapf (%)) is provided.
+Table 6 shows the solutions obtained by our algorithm,
+the optimal solutions obtained by CPLEX and the solutions
+extracted from the company plans over a testing period of
+15 days. In this table, we report the number of vehicles
+used for the service (NV), the total distance (TD), the cost
+(u), the CPU times in seconds (CPU), and the ﬁnal optimality gap in percentage (Gapf (%)) when CPLEX 12.6 is
+used. Results in this table indicate that our algorithm provides the optimal solutions to instances 3–25, 6–32 and
+8–27 with a substantially lower computation time. Furthermore, CPLEX cannot provide a feasible solution
+(within the time limit of 7200 seconds) to seven instances
+(4–62, 5–83, 7–89, 10–79, 12–71, 14–61 and 15–83).
+As a comparison with the solutions extracted by the company, we may conclude that our algorithm has a better performance on every measure. The main reason that the
+company system does not calculate the CPU times is because
+it develops the daily delivery plans manually using MS Excel.
+5.4 Sensitivity analysis of the adjustment option
+on a real case
+We have noted earlier that threshold parameter kip is an
+
+Page 15 of 18 6
+
+Day
+1–41
+
+Method
+
+NV
+
+DT
+
+Cost ðÂ102 Þ
+
+CPU (s)
+
+Gapf ð%Þ
+82.17
+
+4
+
+536
+
+47,570
+
+7200
+
+6
+
+610
+
+56,390
+
+/
+
+Our solution
+2–46
+
+Cplex
+Company
+
+4
+
+527
+
+47,292
+
+315.43
+
+Cplex
+
+6
+
+881
+
+121,766
+
+7200
+
+Company
+3–25
+
+8
+
+991
+
+151,494
+
+/
+
+Our solution
+
+6
+
+881
+
+121,766
+
+243.12
+
+Cplex
+
+3
+
+379
+
+23,694
+
+6578
+
+Company
+
+4
+
+443
+
+36,512
+
+/
+
+Our solution
+4–62
+
+3
+
+379
+
+23,694
+
+317.82
+
+Cplex
+
+NO SOL
+
+Company
+
+1014
+
+107,938
+
+/
+
+7
+
+918
+
+90,747
+
+403.82
+
+Cplex
+Company
+
+NO SOL
+11
+
+1475
+
+11,382
+
+Our solution
+6–32
+
+9
+
+Our solution
+5–83
+
+9
+
+1323
+
+101,745
+
+515.39
+
+488
+
+29,178
+
+4915
+
+510
+
+40,129
+
+/
+
+3
+
+488
+
+29,178
+
+182.25
+
+Cplex
+
+NO SOL
+
+Company
+
+15
+
+1577
+
+151,436
+
+/
+
+Our solution
+
+12
+
+1479
+
+129,305
+
+398.76
+
+Cplex
+
+3
+
+283
+
+25,886
+
+3755
+
+Company
+
+5
+
+356
+
+31,500
+
+/
+
+Our solution
+9–40
+
+3
+4
+
+Our solution
+
+8–27
+
+Cplex
+Company
+
+7–89
+
+3
+
+283
+
+25,886
+
+143.29
+
+Cplex
+
+6
+
+853
+
+55,350
+
+7200
+
+Company
+
+1030
+
+77,892
+
+841
+
+52,773
+
+204.74
+
+Cplex
+Company
+
+NO SOL
+11
+
+1692
+
+213,915
+
+/
+
+9
+
+1537
+
+174,676
+
+479.38
+
+Cplex
+
+6
+
+911
+
+79,000
+
+7200
+
+Company
+
+7
+
+1112
+
+91,503
+
+6
+
+913
+
+79,023
+
+207.19
+
+Cplex
+
+NO SOL
+
+Company
+
+9
+
+1233
+
+147,419
+
+/
+
+Our solution
+13–33
+
+8
+
+1129
+
+130,771
+
+210.16
+
+7
+
+1014
+
+95,310
+
+7200
+
+9
+
+1084
+
+99,459
+
+/
+
+Our solution
+
+7
+
+1003
+
+95,163
+
+309.80
+
+Cplex
+
+NO SOL
+
+Company
+
+10
+
+1305
+
+90,417
+
+/
+
+Our solution
+
+8
+
+1091
+
+71,460
+
+92.01
+
+Cplex
+
+NO SOL
+
+Company
+Our solution
+
+15–83
+
+Cplex
+Company
+
+14–61
+
+89.12
+
+/
+
+Our solution
+12–71
+
+79.12
+
+/
+
+6
+
+Our solution
+11–28
+
+8
+
+Our solution
+10–79
+
+86.24
+
+13
+10
+
+1567
+1387
+
+128,979
+110,388
+
+69.23
+
+/
+429.52
+
+Bold indicates optimal solutions
+
+costs
+
+Logist. Res. (2016) 9:6
+
+kip
+
+Total
+
+Quantity ðm3 Þ
+
+(%)
+
+Cost ðÂ102 Þ
+
+Requested
+
+Delivered
+
+0
+
+129,305
+
+975
+
+975
+
+0.00
+
+9
+
+3
+
+12
+
+1
+
+129,191
+
+975
+
+972.25
+
+À0:28
+
+9
+
+3
+
+12
+
+2
+
+128,609
+
+975
+
+969.75
+
+À0:54
+
+9
+
+2
+
+11
+
+NV
+Gap (%)
+
+Company
+
+Private
+
+Total
+
+3
+
+128,005
+
+975
+
+962.5
+
+À1:28
+
+9
+
+2
+
+11
+
+4
+
+127,319
+
+975
+
+955
+
+À2:05
+
+8
+
+2
+
+10
+
+5
+
+126,903
+
+975
+
+951.25
+
+À2:44
+
+8
+
+2
+
+10
+
+6
+7
+
+126,180
+125,813
+
+975
+975
+
+944.75
+939.25
+
+À3:10
+À3:67
+
+8
+8
+
+2
+2
+
+10
+10
+
+8
+
+124,298
+
+975
+
+918
+
+À5:85
+
+8
+
+1
+
+9
+
+9
+
+123,677
+
+975
+
+898.25
+
+À7:87
+
+8
+
+1
+
+9
+
+10
+
+121,963
+
+975
+
+890.5
+
+À8:67
+
+8
+
+0
+
+8
+
+performance of the adjustment option in the MCVRPTW.
+To observe its role in the solution’s quality, we perform a
+sensitivity analysis by solving the problem on the daily
+data for varying values of kip between 0 and 10 %. Note
+that we did not perform the algorithm to better observe the
+effect of kip values. With these values, we implemented the
+plan of the seventh day only and resolved the problem
+when excluding and including the adjustment option. In
+Table 7, we report the daily results obtained and we show
+the effect of threshold parameter kip on (a) the total cost
+ﬁgures, (b) the quantities delivered and (c) the vehicles
+used. The results show that the solution quality is very
+sensitive to the threshold parameter. This is indeed an
+expected result since the adjustment option attempts to
+assign the demands taking more account of the capacity
+constraints. From this table, the following three points can
+be observed. (1) All the total costs decrease when customer
+quantities are adjusted, and this decrease is inversely proportional to the increase of the adjustment rate. (2) The
+total delivered quantity and the vehicles used decrease
+when kip values become increasingly large. (3) Overall, the
+solution quality varies in different ratios, indicating that the
+solution quality is very sensitive to travelled distance,
+quantities delivered and even to the type of vehicle used.
+
+6 Conclusion
+The speciﬁc problem we tackled in this paper, called the
+multi-compartment vehicle routing problem with time
+windows (MCVRPTW), originated from a real-life application concerning the distribution of fuel. In this problem,
+we focused on the daily replenishment-planning problem
+that the biggest Algerian petroleum company is facing. In
+particular, the vehicles have multiple compartments and
+customers require to be served during a given time
+
+123
+
+window. Because of the loading aspect, an additional
+question arises concerning the assignment of product types
+to vehicles.
+The main contributions of this paper include (1) a
+description and formulation of the problem inspired by a
+real-life application, and (2) the development of an effective heuristic solution procedure, which combines the
+loading and the routing problems. This is an advance over
+existing work, in which most researchers take a two-stage
+framework where the routing problem acts as the main
+problem and iteratively calls for speciﬁc procedures to deal
+with the loading sub-problem. (3) The introduction of a
+Kolmogorov–Smirnov statistic in order to explore the
+solutions space is used, unlike most of the relevant
+approaches, which tend to use the classical moves. (4) The
+conduct of a series of numerical experiments on benchmark
+instances and an analysis of a real case in fuel distribution
+to demonstrate the effectiveness of the proposed approach
+are adopted.
+Concerning the experiments on benchmark instances,
+Solomon’s 56 VRPTW 100-customer instances have been
+modiﬁed in a way that reﬂects real-life situations. For this
+purpose, a comparison is made between the real
+MCVRPTW and what we call the MCVRPTW-AD
+(MCVRPTW with adjustment) in which the quantities
+loaded in the compartments can be adjusted up to a given
+threshold. This particular problem occurs quite frequently
+when the demands of petrol stations are high in winter.
+Under this scenario, we conducted experiments on how the
+algorithm performs when excluding and including the
+adjustment option. We demonstrated how the number of
+vehicles and the total distance can be reduced when the
+adjustment option is allowed and how this reduction
+depends on the ﬁxed threshold.
+Our solutions are also compared to CPLEX and to the
+highly effective for the MCVRPTW instances. As for the
+realistic instances, we solved a real case where petrol stations need to be replenished over a planning horizon of 15
+days. The comparative analysis shows that our results are
+better than those produced by the dispatcher on every
+measure in terms of total travel distance and number of
+vehicles.
+As for prospects, we envision producing more efﬁcient
+solutions by adapting known metaheuristics, such as Particle Swarm Optimization (PSO), a Genetic Algorithm
+(GA) or Simulated Annealing (SA), to the problem and by
+adjusting the parameters of the algorithm because, often, in
+a metaheuristic, the selection of good parameter values
+signiﬁcantly affects the quality of solutions. A hybridization of clever heuristics with complex search methods and
+an examination of penalty functions are also on the agenda.

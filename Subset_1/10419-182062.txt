@@ -1,0 +1,3004 @@
+
+Enterprises affected by supply chain disruptions have
+reported adverse consequences and dramatic financial
+losses. Within the research area of supply chain risk
+management, researchers use simulation models
+and algorithms to analyze disruption risks and their
+potential effects on the supply chain. Supply chain
+disruption risk models focus on ways to quantify
+and assess disruption risks, study interdependencies
+between them, and explore the dynamic behavior of
+risks as they propagate through the network. So far, no
+review has covered and evaluated quantitative decision
+models which focus on these specific network-related
+risk characteristics. This paper derives a definition
+for supply chain disruption risk models and analyzes
+existing approaches on the basis of requirements
+derived from the literature. Its aims are to structure
+existing approaches, reveal their shortcomings, and
+guide future research efforts to improve prospective
+models systematically. This analysis reveals potential
+improvements regarding the simultaneous integration
+of dynamic and interdependent aspects of disruption
+risks in the supply chain model as well as their
+propagation through the network. More process steps
+of a supply chain risk management framework should
+be supported and more mitigation strategies should be
+incorporated to expand the scope and usefulness of the
+models.
+
+Supply chain disruptions are considered to be a
+combination of an unforeseen triggering event and the
+resulting consequences which jeopardize the flow of
+material and normal business activities significantly
+[138]. Disruptive triggers can be categorized into
+natural (earthquake, floods, fire, etc.) and man-made
+(terrorist attacks, accidents, supplier bankruptcy, etc.)
+triggers [27]. Well documented disruption triggers have
+been for example the 09/11 terrorist attacks, Hurricane
+Mitch, and the Taiwan earthquake of 1999. The
+resulting consequences of a disruption can be dramatic.
+In 2015, a series of explosions at a container warehouse
+for toxic chemicals at the Port of Tianjin caused heavy
+environmental damage (e.g. water cyanide levels 277
+times the acceptable levels), destroyed 8,000 newly
+produced cars (causing a direct damage of an estimated
+625 million USD), and provoked a shut-down of two
+manufacturing plants of Toyota for multiple days
+[39,68]. In 2017, Hurricane Harvey, with an estimated
+damage of over 125 billion USD the costliest tropical
+cyclone on record, not only knocked out 11% of US
+oil refining capacity and 25% of oil production from
+the US Gulf of Mexico, but also shut down 90% of the
+country’s capacity to produce and ship base plastics
+[24, 109]. Among the many companies which had to
+close production plants were, for example, American
+Acryl, Braskem, Celanese, Covestro, Exxon Mobile,
+and Chevron Phillips Chemical [21].
+These examples display the dramatic consequences
+and dependencies between supply chain entities and
+their vulnerability to disruptive triggers. The risk of
+supply chain disruptions has increased over the last
+decade due to the progress of globalization as well as
+outsourcing and an intensified focus on efficiency and
+lean management [114]. According to the 2017 Supply
+Chain Resilience Report from the Business Continuity
+Institute, which surveyed over 400 companies from 65
+countries, 65% of the participants had experienced at
+least one supply chain disruption that year [1].
+Companies are not defenseless against disruptions
+and can notably reduce the impact of a disruptive
+event with the right mitigation strategies. In 2000,
+Nokia and Ericsson were both affected by a fire in
+a supplier’s semiconductor production facility, but
+
+KEYWORDS: supply chain disruption · supply chain
+risk management · simulation · risk management · risk
+analysis · modeling
+Niels Bugert 1, (Corresponding Author)
+niels.bugert@tu-dresden.de
+Rainer Lasch1
+rainer.lasch@tu-dresden.de
+Department of Business Management and Economics,
+Chair of Business Management, esp. Logistics,
+Dresden University of Technology,
+Mommsenstr. 13, 01062 Dresden, Germany
+Tel. +49-351-46333140
+Fax +49-351-37779
+1
+
+backup suppliers swiftly. Nokia even profited from
+the disruption and was able to steal market share from
+Ericsson due to their agility [57, 122].
+Since the risk of experiencing supply chain
+disruptions has increased over the last decade and
+potential strategies are capable of decreasing risks,
+supply chain risk management (SCRM) has become
+a popular research area with a growing number
+of publications and an increasing interest from
+practitioners [16]. 41% of the organizations interviewed
+for the BCI Resilience Report acknowledged strong
+top management commitment regarding supply chain
+disruption risks in 2017. In contrast, only 37% of
+the companies use technology to analyze, track, or
+monitor supply chain risks with 41% thereof using
+
+Microsoft Excel. Integrated decision support models
+for identifying and analyzing disruption risks as well
+as for mitigation planning and risk control on a supply
+network-level should be provided by this field of
+research to assist practitioners.
+Table 1 presents the methodologies and scopes of
+twelve review papers on SCRM which we were able to
+identify by using the scientific databases ScienceDirect,
+Emerald Insight, and Google Scholar. We have
+analyzed if quantitative models are presented, if the
+process steps of a standard SCRM framework, namely
+risk identification, risk assessment, risk mitigation, and
+control of risks, are considered to classify articles, if
+models are included that cover a network perspective,
+if the presented models consider multiple risks and at
+least three supply chain entities, and if the models are
+not just presented but also evaluated based on derived
+
+Fahimnia et
+al. 2015 [27]
+Ho et al.
+2015 [38]
+Snyder et al.
+2016 [110]
+Rajagopal et
+al. 2017 [90]
+Prakash
+et al.
+2017 [84]
+This review
+
+2005
+
+- LR
+
+2016
+
+- SLR
+- CNA
+
+2014
+
+- SLR
+
+2018
+
+- SLR
+
+LR: Literature Review
+SLR: Systematic Literature Review
+
+CNA: Citation Network Analysis
+GT: Grounded Theory
+
+Table 1: Overview of literature reviews in SCRM
+
+based on requirements
+
+Model evaluation
+
+propagation of risks
+
+Interdependencies and
+
+- SLR
+
+2014
+
+multiple risks
+
+- LR
+- CNA
+
+2013
+
+Models concerning
+
+- LR
+- SV
+
+2013
+
+Network-level view
+
+- SLR
+- CNA
+
+2010
+
+perspective
+
+- LR
+- CNA
+
+2010
+
+SCRM framework
+
+- LR
+
+2008
+
+least three entities
+
+- LR
+- GT
+
+2008
+
+Only models with at
+
+- LR
+
+2007
+
+Quantitative models
+
+- LR
+
+2005
+
+Conceptual content
+
+Methodology
+
+Publication
+Tang 2006
+[122]
+Khan /
+Burnes
+2007 [50]
+Manuj/
+Mentzer
+2008 [67]
+Rao/
+Goldsby
+2009 [92]
+Tang/ Musa
+2011 [124]
+Colicchia/
+Strozzi
+2012 [18]
+Sodhi et al.
+2012 [111]
+
+Including models up to
+
+approaches and sorts the literature regarding the broad
+aspects supply, demand, product, and information
+management. The author further classifies these fields of
+interest in single supply chain planning problems under
+uncertainties like supplier selection, the construction
+of supply chain designs on a network-level, supplier
+contracting, etc. and gives an overview of insights of
+research areas that deal with management strategies
+like product substitution, postponement, and so on.
+Khan and Burnes [50] present general literature on
+risk definition as well as risk management frameworks
+before discussing risk and general risk mitigation in
+the context of supply chain management. Manuj and
+Mentzer [67] conduct a literature review combined
+with a grounded theory methodology to adapt the
+concept of risk and risk management strategies to the
+case of global supply chains. Rao and Goldsby [92] use
+the classification of business and organizational risks
+by Ritchie and Marshall [94], synthesize the SCRM
+literature accordingly, and develop risk factors for each
+risk group. Tang and Musa [124] review 138 research
+papers, summarize qualitative as well as quantitative
+mitigation strategies according to risks regarding
+the dimensions material flow, financial flow, and
+information flow, and use a keywords co-occurrence
+analysis to study research clusters in SCRM.
+Colicchia and Strozzi [18] use the systematic literature
+methodology of Denyer and Tranfield [23] combined
+with a citation network analysis to display the dynamic
+evolution of the SCRM literature. Sodhi et al. [111]
+choose a research field study to analyze the diversity of
+scope and research tools in the researcher’s perception
+of SCRM. Fahimnia et al. [27] conduct a bibliometric
+analysis on 489 publications to define research clusters
+and top contributing organizations and authors of
+quantitative SCRM models. Ho et al. [38] undertake a
+systematic literature review and provide an overview
+of supply chain risk definitions, risk types, and risk
+factors as well as process steps of a standard SCRM
+framework by analyzing 224 research articles between
+2003 and 2013. Quantitative approaches have been
+structured by the supported process steps of the SCRM
+framework and by defined risk types like demand risk,
+supply risk, etc. Models which cover more than two
+risks simulatenously have not been considered by the
+authors. Snyder et al. [110] give an overview of 180
+quantitative models up until 2014 that deal with supply
+chain disruptions. The authors structure the literature
+by mitigation strategies and use the four sub-categories
+inventory, sourcing and demand flexibility, facility
+location, and interaction with external stakeholders.
+While the presented models on inventory management
+are for the most part variations of the economic order
+quantity (EOQ) model with a single supplier, the cited
+models for facility location problems deal with the
+construction of supply chain networks considering the
+risk of disruption or intentional attacks. The mitigation
+of disruptions through interaction with external
+
+3
+partners deals with contracting. Prakash et al. [84]
+conduct a citation network analysis on 126 publications
+from 2005 to 2016 to identify research clusters,
+prominent articles, mitigation strategies, discussed
+risks, and modeling techniques used. Rajagopal et al.
+[90] identify 343 publications between 2004 and 2014
+through a systematic literature search and classify the
+articles by general criteria like geographic locations,
+top contributing journals, etc. and more specific
+criteria like the research design, types of risks, and
+risk factors considered. Although both reviews do not
+cover network-level models, models with numerous
+risks are included.
+The identified literature reviews differ in scope
+and methodology. Five reviews offer an emphasis
+on conceptual issues, while three solely focus on
+quantitative approaches. Citation network analysis has
+been used by five reviews to identify research clusters
+or identify the evolutionary aspects of the field of study.
+Other reviews aim to give a broad overview and classify
+the articles. Tang [123], Ho et al. [38], and Snyder et al.
+[110] contain a great amount of quantitative models,
+but the large majority of the models deal with specific
+planning problems under uncertainty and date back
+to 2014. All reviews consider also dyadic models that
+include only two entities which we do not consider to be
+a supply chain yet ( [45, 69]). A number of the identified
+reviews ( [18, 38, 84, 124]) express the need for more
+holistic and integrated decision models that deal with
+dynamic as well as interdependent and propagative risk
+behavior, but we find that the existing research efforts
+have been largely overlooked in existing reviews so
+far and have only been presented marginally. Only
+Snyder et al. [110] present a handful of models of a
+given supply network which aim to evaluate the
+impact of disruptions, but the authors do not consider
+interrelations between risks, risk propagation in
+networks, and the dynamic modeling of multiple risks.
+In this paper, we aim to identify and present modeling
+approaches which possibly identify and analyze
+numerous disruption risks, consider their dynamic
+and interdependent behavior on a supply chain network
+level, and potentially integrate mitigating or risk control
+possibilities. We want to evaluate the usefulness of the
+identified models from the viewpoint of professional
+SCRM managers of an already operating supply
+network and assess how integrated and holistic these
+models are, what modeling techniques are used, and
+which process steps of a standard SCRM framework
+are supported. Therefore, we not only present, classify,
+and condense the literature like previous reviews, but
+derive requirements from the literature to critically
+assess the identified models to guide future research
+efforts by presenting what modeling aspects have been
+neglected so far and which modeling techniques could
+be combined to better cater to holistic, system level
+decision support. Although the term supply chain has
+been discussed in a multifaceted way by researchers, a
+at least three supply chain entities and assume that a
+supply chain structure is already given. We exclude
+models which do not aim at specifically supporting
+the SCRM framework processes like, for example,
+quantitative models regarding supply chain design
+and facility location planning, models which focus on
+supplier selection, one or two-stage inventory models,
+and the research area of risk-related contracting.
+The rest of this paper is structured as follows. Section
+2 develops a first definition of supply chain disruption
+risk models as the foundation of subsequent sections.
+Section 3 describes the paper’s research methodology
+by specifying the parameters of the conducted literature
+search and defining the criteria of the subsequent
+analysis. Section 4 presents the identified publications
+according to the modeling technique used and evaluates
+the models with the help of the described criteria. After
+interpreting the results of the evaluation and framing a
+future research guideline, the last section summarizes
+the findings and offers a general look at future research
+in this field of study.
+2
+
+DEFINITION OF SUPPLY CHAIN
+DISRUPTION RISK MODELS
+
+Supply chain risk is predominantly defined in the
+literature as an event-oriented concept in which risk
+strongly relates to the probability and consequence
+of a potentially harmful event (e.g. [73, 124, 149]).
+Heckmann et al. [35] broaden this traditional risk
+perception and also consider characteristics which
+influence supply chain risks like supply chain goals,
+risk exposure, and risk attitude. Risk exposure is
+further segmented into the triggering event, timebased characteristics, and features of the supply
+chain like vulnerability and resilience. Heckmann
+et al. [35] define supply chain risk as “the potential
+loss for a supply chain in terms of its target values
+of efficiency and effectiveness evoked by uncertain
+developments of supply chain characteristics whose
+changes were caused by the occurrence of triggeringevents”. The potential loss of a supply chain can be
+categorized according to its magnitude. A disturbance
+is seen as a deviation from normal business activities
+which deteriorates the accomplishments of goals [118].
+A disruption is considered to be more severe than a
+disturbance, but a clear distinction between these two
+concepts is missing.
+The literature offers no consensual definition of
+SCRM, although there has been plenty of conceptual
+research in this area [27]. Jüttner et al. [46] define
+SCRM as “the identification and management of risks
+for the supply chain, through a co-ordinated approach
+amongst supply chain members, to reduce supply chain
+vulnerability as a whole”. The concept of vulnerability
+is regarded as the susceptibility of the supply chain to
+
+specific or unspecific risk events [35]. Ceryno et al.
+[16] combine several definitions and describe SCRM
+as “the identification and management of risks for
+the supply chain through a coordinated approach
+amongst supply chain members to reduce supply chain
+vulnerability as a whole, to increase resilience”. SCRM
+aims to minimize, monitor, and control the probability
+and impact of uncertain disruptive events and
+therefore guarantees high performance, profitability,
+and continuity [16]. The notion of resilience describes
+the system’s ability to return to a stable state after
+experiencing disturbances [18].
+The differentiation between supply chain risk and
+supply chain disruption risk (SCDR) is necessary
+since supply chains, in general, encompass plenty of
+companies dispersed across the globe and only risks
+which jeopardize normal business activities crucially
+are relevant. Following the definition of Heckmann
+et al. [35], SCDRs can be defined as the subset of
+all supply chain risks with potential consequences
+that impede the supply chain at least temporarily of
+achieving its operational goals and/or jeopardize the
+existence of one or more supply chain partners.
+Conceptual models, in general, represent a real system
+which may or may not currently exist. A model is created
+through the process of abstraction in which specific
+features of a real system are embedded in the model
+depending on its purpose [96]. Therefore, conceptual
+models can be classified according to their objectives.
+Different quantitative models exist which deal with
+supply chain risk either explicitly or implicitly. Models
+which consider risks implicitly focus on specific supply
+chain decision problems, and the concept of risk is part
+of the problem. Risk is embedded in these models, for
+example, by using the variance or standard deviation
+of variables and different value-at-risk concepts [35].
+Typical supply chain decision problems focus on the
+supply chain network design and facility location,
+supplier and vendor selection, pricing and contracting
+as well as concepts of information sharing regarding,
+for example, the bullwhip effect as well as collaborative
+planning, forecasting, and replenishment [27]. Models
+which consider supply chain risk explicitly focus
+on the analysis of various supply chain risks, their
+interdependencies, and propagation in the supply chain
+and therefore support the objectives of SCRM and risk
+analysis in particular (e.g. [30, 53, 121]). The aim is to
+understand the dynamic behavior of the supply chain
+facing risks of supply chain disruptions. These models
+are therefore not problem-specific and more abstract,
+but insights from supply chain disruption modeling
+can show vulnerabilities of supply chains and shift the
+attention to specific supply chain decision problems
+like considering the supply chain design as part of a
+mitigation strategy to optimize the supply chain.
+Based on the previously mentioned definitions
+regarding SC risks, SCDR, SCRM, and conceptual
+models as well as the distinction between
+models as:
+A SCDR model represents a supply chain and
+all relevant potential triggering events which can
+potentially impede the supply chain from achieving
+its operational goals and/or jeopardize the existence
+of one or more supply chain entities and includes all
+necessary static and dynamic features to describe
+potential losses for all supply chain partners in terms of
+the supply chain’s target values in order to support the
+coordinated approach amongst supply chain entities to
+reduce supply chain vulnerability and to increase the
+supply chain’s predicted ability to return to a stable
+state after experiencing disruptions in the real system.
+3
+
+RESEARCH METHODOLOGY
+
+To attain this paper’s objectives, it is necessary to
+conduct a critical review on SCDR models. A review
+is not based on new scientific insights primarily, but
+rather digests, classifies, and synthesizes already
+publicized research results to compare, integrate,
+and evaluate prior findings and give suggestions for
+future research activities [66]. A critical review aims
+to synthesize existing research articles and to evaluate
+them against criteria [20]. Its strength is the ability to
+constructively highlight discrepancies in the literature
+and stengthen new insights by giving a direction for
+further improvement [76]. Critical reviews focus on
+specific sections of a research area and rarely include
+an exhaustive look at a complete field of study [51]. Our
+literature search is based on the framework of Fink [28],
+who described seven steps aimed to ensure a systematic,
+explicit, and reproducible literature review. The first
+step of this framework (1) consists of formulating
+research questions to specify the target of the study.
+The next four steps design the literature search by (2)
+selecting relevant bibliographic databases, (3) defining
+appropriate search terms, and (4) applying practical as
+well as methodological screening criteria (5) in the form
+of exclusion and inclusion criteria. Practical screening
+criteria include factors like the articles’ language and
+time-aspects, while methodological screening criteria
+cover the papers’ scientific quality and adequacy for the
+purpose of the review. After abstracting information
+from the articles (6), the findings are synthesized
+descriptively and/or statistically (7).
+The following research questions (RQ) specify the
+goals of this review:
+RQ 1: What risk-specific modeling characteristics and
+evaluation criteria can be defined?
+RQ 2: Which modeling techniques are used for supply
+chain disruption modeling?
+RQ 3: How well do the identified models and modeling
+techniques take the identified risk-specific
+modeling characteristics into account?
+
+5
+RQ 4: What process steps of a standard SCRM
+framework are supported by the models?
+RQ 5: What potential improvements can be formulated
+for prospective models and modeling
+techniques?
+3.1
+Literature search
+An extensive literature search is the foundation of a
+review and aims to locate an exhaustive and problemspecific set of publications on the topic of interest [20]. A
+literature search should focus, according to vom Brocke
+et al. [137], on peer-reviewed articles to ensure credible
+and reliable information sources. The search should
+not be limited to a specific research method, a small
+number of journals, or a prearranged geographic region
+[142]. Our search therefore considers multiple scientific
+databases, namely ScienceDirect, Emerald Insight,
+Google Scholar, Inderscience, and Taylor & Francis.
+The mandatory keywords used for data collection are
+chosen to be “Supply Chain” or “Supply Network”
+as well as at least one of the following keywords
+in the publications’ title, abstract, and keywords,
+combined with “OR” operators: “Risk”, “Disruption”,
+“Disturbance”, “Simulation”, “Interdependence”,
+“Propagation”, “Quantitative”, “Optimization”,
+“Optimisation”, “Crisis”, “Catastrophe”, “Terror”.
+The literature search includes published and not yet
+published but accepted papers from 2001 to early 2018.
+The year 2001 has been chosen since the 9/11 terrorist
+attacks dramatically shifted attention to the field of risk
+management. Tang and Musa [124] state that between
+2000 and 2003, the number of articles in SCRM
+slowly started to increase, but the content was mainly
+qualitative. Since the topic of interest is focused on the
+concept of supply chain and risk and since our search
+string is relatively open, we concluded that relevant
+keywords would be part of the publications’ titles,
+abstract, and keywords. We therefore could reduce
+the number of search results to a modest amount. The
+abstracts were used to evaluate the papers’ relevance.
+Since we put ourselves in the shoes of SCRM managers
+of functioning supply networks facing a large variety
+of disruption risks simultaneously and suitable to the
+scope and aim of this review, exclusion criteria were
+determined to be:
+– No risk mentioned,
+– Approaches with a focus on contracting issues,
+supplier selection, inventory management
+(EOQ) models, and the construction of a supply
+chain design (facility location problems),
+– Less than three supply chain entities considered,
+– Review papers,
+– Pure risk identification or risk ranking if there
+is no focus on risk interdependencies.
+The identified publications were used as an input for a
+One crucial aspect of this analysis, which has not been
+considered by any other of the prior reviews in the field
+of SCRM, is the formulation of evaluation criteria.
+These criteria should preferably include all critical
+evaluation dimensions and be clearly delimited from
+each other. In our case, main evaluation criteria are
+taken from the literature on conceptual modeling in
+operational research and business process modeling
+and are specified according to our definition of SCDR
+models as well as related statements of authors in the
+field of risk modeling.
+According to Pritsker [85], the modeling process
+is difficult since there are no quantitative criteria for
+evaluating the value of a model. Teeuw and van den
+Berg [128] build an evaluation framework for business
+process models and introduce three external quality
+criteria for conceptual models which are used to
+evaluate the value of the model for the user or client:
+“completeness” (all essential aspects are integrated),
+“inherence” (the model focuses on essential aspects),
+and “clarity” (the model is comprehensible by the
+user and as objective as possible). Robinson et al.
+[95] summarize the quite manageable number of
+publications in the operational research field and
+identify four main requirements for an effective model:
+“validity”, “credibility”, “utility”, and “feasibility”.
+While the criteria “validity” is defined by Robinson
+et al. [95] as the perception of the modeler that the
+model is sufficiently accurate for the purpose at hand,
+the criteria “credibility” measures the same aspect but
+from the possibly different viewpoint of the client or
+user of the model. “Utility” describes the usefulness of
+the model and includes subcriteria like “ease-of-use”,
+“flexibility”, “visual display”, and so on. The fourth
+criteria, “feasibility”, refers to the amount of resources
+(time, data, etc.) necessary to build the corresponding
+computer model.
+We focus, according to our first research question (RQ
+1), on evaluation criteria specific to SCDR models. We
+therefore subdivide the content-specific main criteria
+“credibility” and “completeness”, “inherence”, and
+“clarity” by applying our definition of SCDR models
+and leave out risk-unrelated main criteria like the
+general “usefulness” and “feasibility” of the models.
+Measurable indicators for each subcriteria are defined
+so that criteria can be either not satisfied (denoted by
+), partially satisfied (denoted by ), or completely
+satisfied (denoted by ).
+According to our definition, a SCDR model should
+focus on relevant disruption risks. A focus on disruption
+risk is indicated by including at least one explicit
+disruption risk into the model ( ). If no disruption
+risk is incorporated, this criteria is not satisfied ( ).
+Relevant operational risks can be incorporated
+additionally into the models but should not be the
+complete focus. Various SCDRs can be distinguished.
+They can be classified according to the risk sources as
+external or internal risks. External risks, which emerge
+
+from outside the supply chain, are for example natural
+disasters like floods, earthquakes, or epidemics as
+well as political instability like wars, terrorism, and
+market uncertainty, which can come from price and
+exchange fluctuations as well as economic downturns.
+Internal risks can be caused by risks regarding the
+internal operations, such as quality issues or forecast
+inaccuracy, as well as risks regarding the information
+system and the available capacity, when for example a
+supplier files for bankruptcy [74]. Approaches which
+contain at least one and up to three risks satisfy this
+analysis criteria partially ( ), while approaches with
+more than three disruptions risks satisfy this criteria
+fully ( ).
+According to our definition of SCDR models, the
+anticipated losses due to SCDR need to be quantified.
+One possible way to quantify the losses consists of an
+integration of risks into model parameters by using
+standard deviations or value-at-risk concepts which
+statistically measure the maximum possible loss at
+specific percentiles [16]. Similarly, Spekman and Davis
+[112] define risk as the probability of variance in an
+expected outcome. A different, standard approach is
+the explicit risk quantification using the likelihood of
+occurrence multiplied with the expected impact of the
+risk event to obtain the expected loss [3]. To quantify
+the probability and impact of risk events, models can
+use historical data and/or expert knowledge. Knight
+[54] distinguished in his definition of risk between
+certainty, “measurable” uncertainty (quantitative),
+and “unmeasurable” uncertainty with no or partial
+knowledge of outcomes in the form of beliefs. According
+to this notion, Klibi and Martel [53] define three types
+of uncertainty. Randomness describes a business-asusual fluctuation of random variables, while hazard is
+categorized by unusual situations with low probability
+and high impact. Deep uncertainty consists of a total
+lack of any information regarding the likelihood and
+outcome of future events. The latter two categories are
+relevant for disruption risks so that models should be
+able to handle uncertainty in the form of hazard and
+deep uncertainty. Models which use historical data as
+well as expert interviews to quantify risk fully satisfy
+this criteria ( ), while models which use only expert
+knowledge or only historical data partially satisfy this
+criteria ( ).
+Since a supply chain by definition is a system of
+multiple entities which are connected via material,
+monetary, and information flows, supply chain partners
+are influenced by connected companies and associated
+risks [5]. These interdependencies have increased due to
+trends such as outsourcing and globalization [22, 113].
+Qazi et al. [86] identify holistic methods for capturing
+interdependencies between risk factors across the
+entire supply network as one important issue for future
+research in the field of SCRM. Modeling approaches
+should therefore take these interdependencies into
+account. This criteria is fully satisfied ( ) if a model
+
+strengths of risk interdependencies. Partial satisfaction
+is present if a model takes risk interdependencies into
+account but does not consider their strength and does
+not use a systematic methodology to identify the
+interdependencies ( ).
+Risk propagation is a consequence of existing risk
+interdependencies. It can be classified in upstream and
+downstream risk propagation. The propagation speed
+is dependent on the frequency of the information,
+material, and cash exchange in the supply chain. The
+impact of propagation can decrease along the network
+as buffers in the supply chain dampen the effect [121].
+It is possible that overdependence of supply chain
+partners leads to an amplification of disruptions [119].
+Understanding the propagation of disruptions helps to
+design mitigation strategies and reduce the impact of
+risks [145]. Several authors agree that there is a lack of
+quantitative models that compute propagation effects
+of disruptions at multiple stages of the supply chain
+[31, 82, 127, 134, 136]. Qazi et al. [86] also stress the
+importance of future research on risk propagation.
+Models which partially satisfy this criteria merely
+model the propagation of the risk impact ( ), while
+a complete satisfaction of this criteria is given if
+different propagation measures are used to quantify
+the propagation itself and if the likelihood as well as
+impact of propagation is modeled ( ).
+A system, in general, consists of an organized and
+an ordered finite set of variables and elements which
+interact with each other [29]. Strong interactions
+between a system’s variables, time dependency, a
+complex causal structure, and delayed behavioral
+reactions characterize a dynamic system [6]. Therefore,
+supply chains can be regarded as dynamic systems.
+Evaluation
+criteria
+
+Indicator of fulﬁllment
+
+Focus on
+disruption risks
+Number of
+considered risks
+Data basis of risk
+concept
+Consideration of
+risk
+interdependencies
+Risk propagation
+Dynamic
+modeling of risks
+Prediction of
+risks
+Risk
+optimization
+
+Since supply chains interact with their environment,
+they can also be viewed as open systems. External
+as well as internal risks are dynamic by nature and
+influence these systems [108]. To understand the
+temporal characteristics of risks, dynamic models are
+appropriate to describe the behavior of supply chains
+under the influence of risks. Elangovan et al. [25] as
+well as Colicchia and Strozzi [18] point out that more
+dynamic models are needed in risk management. This
+criteria can either be satisfied in the case of a dynamic
+model ( ) or not satisfied in the case of a static model
+( ).
+According to our definition, SCDR models should
+support the objective of SCRM by helping to reduce
+supply chain vulnerability and increase supply
+chain resilience. Supply chain vulnerability and
+resilience can be optimized by appropriate strategies
+if the future risk situation of the supply chain can be
+predicted well. Helbing et al. [36] state that due to
+the increased complexity of modern supply chains,
+it has become hard and even impossible to predict
+impacts of any events. Ghadge et al. [31] describe
+the behavior of supply chain risks as unpredictable
+and chaotic. Discrete events of low likelihood are
+often hard to be estimated due to lack of data. Some
+supply chain disruption triggers like hurricanes in
+the Gulf of Mexico or heavy snowstorms in the Alps
+can be estimated relatively well [132]. SCDR models
+should therefore not only predict the triggering event
+but also potential consequences of the supply chain
+( ). If probabilities cannot be quantified, the impact of
+disruptive events can be assessed as one important part
+of risk analysis ( ).
+
+: Only operational risk / risks included
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+
+Considering at least one disruption risk
+Model contains one risk
+Model contains more than one and up to three risks
+More than three risks considered
+No data basis used
+Expert knowledge or historical data includable
+Expert knowledge and historical data includable
+No risk interdependencies
+Model assumes speciﬁc risk interdependencies without analysis
+Risk interdependencies systematically derived
+Risk propagation not considered
+Propagation of consequences considered
+Propagation of risks considered
+Static model
+
+:
+:
+:
+:
+:
+:
+:
+
+Dynamic model
+No prediction included
+Prediction of risk consequences
+Prediction of risks included
+No risk mitigation included
+Mitigation strategies included, but not systematically chosen
+Numerous strategies considered, systematically chosen
+
+impact and likelihood of disruptions singlehandedly.
+Mitigation strategies are calculated actions taken by a
+firm to lessen the risks of a disruption. These actions
+are proactive and are taken before a potential disruption
+occurs. Contingency plans are reactive and are
+implemented once a disruption has taken place [130].
+Zsidisin and Ritchie [150] divided mitigation strategies
+into four categories: (1) eliminate the risk, (2) reduce
+the frequency and consequences of the risk, (3) transfer
+the risk by means of insurance and sharing, and (4)
+accept the risk. The specific actions taken by managers
+depend on the nature of risk, company’s resources, their
+business strategy, and many more factors. Contingency
+plans are short-term measures taken like demand
+shifting to other not impacted products or increasing
+production at alternative suppliers [130]. In general,
+mitigation strategies come at the cost of less operational
+efficiency, but visibility across the supply chain is one
+example of a mitigation strategy that is believed to also
+boost efficiency, according to Stecke and Kumar [114].
+Since there are so many potential disruptive triggers
+inside and outside the supply chain, the planning
+of a mitigation strategy is difficult and more than a
+single strategy needs to be implemented. Qazi et al.
+[86] emphasize the need for evaluating combinations
+of mitigation strategies. This criteria is fully satisfied
+if the SCDR model analyzes mitigation strategies and
+their expected consequences and comprehensively
+chooses the most effective strategy / strategies ( ). The
+criteria is partially satisfied if the model incorporates
+mitigation strategies without a systematic selection
+procedure ( ).
+This paper focuses on risk-related criteria and
+leaves out general criteria like the flexibility of the
+modeling approaches and the modeling complexity.
+Table 2 shows distinct and measurable indicators of
+the analysis criteria.
+
+4
+
+EVALUATION OF IDENTIFIED SUPPLY
+CHAIN DISRUPTION MODELS
+
+With the previously described literature search, 57
+papers were identified. Fig. 1 gives an overview of the
+temporal development of this field of research. It can be
+seen that in recent years publications have increased in
+general and it can be expected that prospective research
+output will further expand in the future. The identified
+literature contributions can be categorized according
+to the modeling techniques used. Table 3 shows that
+Petri Nets, System Dynamics, and Discrete-Event
+Simulation are the top three most popular modeling
+techniques in this field of study. Together these three
+modeling techniques make up a little more than 50%
+of all approaches. Bayesian Belief Networks are used
+in six publications, Agent-based Modeling in five,
+and Interpretive Structural Modeling, Monte Carlo
+Simulation, and Input-Output Modeling are applied
+three times each. Around 11% of all papers consist of
+approaches that have been utilized once so far (RQ 2).
+Since different modeling approaches have
+characteristic features as well as advantages and
+drawbacks, it is useful to organize the following
+subsections according to the techniques applied. Each
+modeling approach is briefly introduced and each
+publication is presented. All papers of each group will
+be analyzed according to the criteria conceived above
+(RQ 3), and it will be shown which process steps of a
+standard SCRM are supported by the paper’s models
+(RQ 4).
+4.1
+Petri Nets
+Petri Nets (PN) are a graphical and mathematical
+modeling technique for describing and analyzing
+Discrete Event Systems [79]. A PN is a bipartite graph
+which consists of a set of places, a set of transitions,
+directed arcs that connect a place with a transition
+and vice-versa, and so-called tokens. Places represent
+
+
+Modeling techniques used
+Petri Net
+System Dynamics
+Discrete-Event Simulation
+Bayesian Belief Network
+Agent-based Modeling
+Interpretive Structural Modeling
+Monte Carlo Simulation
+Input-Output Modeling
+Other approaches
+
+No. of instances
+12
+11
+8
+6
+5
+3
+3
+3
+6
+57
+
+Quota
+21%
+19%
+14%
+11%
+9%
+5%
+5%
+5%
+11%
+100%
+
+Table 3: Quantity of modeling techniques used
+possible states or conditions of a system, whereas
+transitions visualize actions or events and display
+how states can potentially be transformed. The actual
+system state at a certain time is visualized by tokens.
+Tokens are depicted as small filled circles inside places
+and show if a condition is met to perform a transition
+in the system [14]. The main feature of a PN is that
+its state is a vector of nonnegative integers. PNs have
+been shown to be an effective modeling technique due
+to their ability to visualize parallelism, concurrency,
+synchronization, etc. [10]. E-commerce systems, agentoriented manufacturing systems, production systems
+as well as enterprise resource planning systems have
+been modeled by PNs [55, 60, 146].
+Blackhurst et al. [8] use a PN approach to model
+operative uncertainties in a four-tier supply chain. The
+authors develop a so-called Probability-based TransNet which symbolizes the manufacturing process
+of the finished process, subassembly parts, and raw
+material and incorporates historic data. The total
+costs of production and shipping as well as the lead
+time are used to assess supply chain activities. Four
+different probability-based transition functions are
+developed of which three are used for the case study.
+Two methods can be used for the total cost attribute
+of the Trans-Net, while the last method is helpful for
+the lead time attribute since the maximum lead time
+will be a constraint for the system. The Trans-Net is
+helpful when analyzing the supply chain with respect
+to specific attributes under the influence of uncertainty.
+Wu et al. [145] apply a PN to a four-tier supply chain
+and model the propagation of disruptions. The authors
+model production processes on an operative level and
+consider the cost and lead time increase of a disruption.
+The reachability set provides insight into the affected
+nodes of a disruption and simplifies the analysis since
+the affected subgraph of the so-called Disruption
+Analysis Network (DA NET) can be significantly
+smaller. A decision-making logic is incorporated into
+the model so that the initial order quantity affects where
+the parts are routed, the lead time of the orders, and the
+cost to run the order. The network is able to analyze
+different policies or different supply chain designs with
+respect to the lead time and cost effects.
+Liu et al. [64] use a time colored PN to model
+cause and effect relationships of expected events
+
+and unexpected events (exceptions) and their effect
+on the system. A group of simple events occurring
+simultaneously may cause potential problems so that
+their interconnectedness needs to be studied. The
+authors display ways to model several event patterns
+in a PN connected by logic connectives as building
+blocks and ways to create new user-defined patterns
+by combining the patterns to exhibit more complex
+interactions. Dependency graphs are presented to
+be able to condense the cause and effect relationship
+between events and identify important exceptions.
+Reachability analyzing techniques for time colored
+PN are not feasible for large problems due to the
+complexity of the interrelationships between events.
+The authors simulate the operative processes of a twotier supply chain with two alternative suppliers. The
+inter-arrival times of customer orders, the occurrence
+of production delays, as well as their resolution times
+are modeled stochastically. The effect of two mitigation
+strategies (reducing resolution time of production
+delays and increasing probability of finding alternative
+sourcing) on the base case performance measures are
+studied. The most important performance measures
+considered are the customer order fill rate and the
+average replenishment time of rush supply orders.
+Blackhurst et al. [7] present a methodology
+which analyzes supply chain processes via PNs and
+systematically detects possible conflicts in the system
+as a source of supply chain disruptions. The authors
+dissipate the supply chain system in multiple so-called
+single system modules which are each modeled by a
+PN and subsequently synthesized into an integrated
+system using the synthesizing module. The single
+system module consists of multiple predefined
+components which can be linked together to enable
+easy customization of the model to individual needs.
+The single system modules are linked via AND and
+OR operators. More complex dependency types can be
+constructed through these simple operators. After each
+synthesizing process, conflict detection is conducted
+in order to cope with the size of the problem. Conflict
+detection is performed with the system conflict detection
+module, which uses matrix equations to detect possible
+conflicts. The model assumes that conflicts arise if final
+states of the system cannot be reached by the model’s
+manufacturer in Turkey and its business partners. The
+authors use the Failure Mode, Effects and Criticality
+Analysis (FMECA) for risk identification. The data
+basis consists of expert interviews, brainstorming,
+crossfunctional teams, as well as historical statistical
+data. By ranking the possible disruption factors by
+their risk priority number, the model incorporates the
+three top-valued risks (quality failure of the supplier,
+transportation failure risk, system failure risk of the
+manufacturer) as well as corresponding mitigation
+strategies (decrease of risk occurrence probability).
+Nine different scenarios are simulated. For each risk the
+exposure level can be high (no mitigation), moderate, or
+low. If a mitigation strategy is implemented, a specific
+fixed cost is taken account of. Process times, customer
+order inter-arrival times, transportation times, etc. are
+incorporated as stochastic parameters. Performance
+measures like the total revenue, customer order fill rate,
+and percentage of orders fulfilled on time, delayed, and
+canceled are recorded.
+Zegordi and Davarzani [148] extend the model of Wu
+et al. [145] by incorporating multiple disruption risks
+and considering the interdependencies of their risk
+impacts. The authors study the effects of sanctions on a
+five-tier supply chain situated in Iran with foreign subsuppliers. A sanction changes supply chain processes
+and payment procedures depending on the specific case
+so that the procurement costs and lead times increase.
+In addition to a sanction, the model considers supplier
+financial inability, inflation, and fluctuation of exchange
+rate and their interdependencies. Experts’ knowledge
+and experience are used to define the parameters.
+John and Prasad [43] extend the model of Blackhurst
+et al. [7] and use a colored PN for conflict detection.
+Kano et al. [47] use a PN to dynamically model the
+recovery of a supply chain after a disruption occurred.
+The authors consider a three-tier supply chain with
+safety stock and globally dispersed entities and assume
+that, after the material flow stops from the supplier to
+the manufacturer, the manufacturer looks for a new
+supplier and is able to start production with the new
+supplier after a certain time. The simulation consists
+of two scenarios (one without a disruption and one with
+a disruption of the supplier). To measure the impact of
+the disruption, the accumulated productivity regarding
+the simulation time span is analyzed.
+Blos and Miyagi [10] combine Inoperability Inputoutput Modeling (IOM) with PN Modeling. IOM
+originally stems from Leontief ’s Input-output Model
+[58], which is a useful tool to study consumption
+shocks on interdependent economic systems [99].
+IOM attempts to foresee the resulting economic losses
+and inoperability suffered by different interdependent
+industry sectors [34, 100]. Wei et al. [143] use IOM
+to model the propagation and interdependencies of
+disruptions in supply chains, which will be discussed
+in section 3.6. Blos and Miyagi [10] formulate the
+
+model of Wei et al. [143] with the PN technique. Socalled Encapsulated PNs (EPNs), which consist of a
+place node and a transition node, substitute the nodes
+in IOM modeling. Each EPN represents a function or
+supply chain entity and is combined with directed arcs
+that visualize the point of disruption, the transmissions
+of a disruption, and the recovery to a normal operating
+mode.
+Zhang [147] models stock-outs occurring in a threeentity supply chain with two competitive products
+(with two different product sizes for each brand) with
+a high-level PN. The author analyzes the effect of five
+different customer behaviors and the effectiveness of
+information sharing on the inventory level, the backlog,
+and the bullwhip effect, quantified in this model by
+taking the variations of production and demand rate
+into account. Switching the store and delaying their
+purchase has a significant negative effect on the
+performance measures. Information sharing can have
+a positive impact but depends on the pattern of the
+customers’ behavior.
+Blackhurst et al. [9] combine a PN with a
+Triangularization Clustering Algorithm to identify
+the propagation path of disruptions and to find critical
+nodes in complex supply networks. After constructing
+a PN of the supply network, the structure of the PN
+is transferred to a Node Dependency Matrix, which
+contains the dependencies of places and transitions
+with a binary digit. The nodes and transitions are
+sorted by their strengths of dependency to define
+levels, and loops are identified to define cycles. If a
+disruption occurs at a node in a specific level, only
+subsequent levels will experience material outages.
+Cycles are vulnerable parts of the network and need to
+be monitored closely, according to the authors.
+Liu et al. [63] use a colored PN to model the information
+and material flow of perishable products in a linear,
+five-entity supply chain and to control product quality
+risk based on sensor data. Environmental parameters,
+e.g. time-temperature data, processing parameters, e.g.
+the type of processing step, and quality parameters
+like the decay rate and quality grade of inspection are
+registered on sensors and transferred along the entities
+of the supply chain. A complex PN of all operating and
+information processes is built and analyzed together
+with the time-series data for risk identification, impact
+assessment, and risk control. Five risk grades range
+from perfect quality to inedible quality. Table 4 gives
+an overview of the modeling approaches with respect
+to the derived analysis criteria. The PN-based models
+generally focus on the impact of possible risk events in
+the form of what-if analyses. Liu et al. [64], Tuncel and
+Alpan [133], and Zhang [147] incorporate more than
+one and up to three risks in their models. Liu et al. [64]
+concentrate on the interdependencies of operative risk
+events, while Tuncel and Alpan [133] focus on the effect
+of mitigation strategies in the face of multiple disruption
+risks. Zhang [147] analyzes different possible customer
+Risk assessment
+Mitigation of risks
+Control of risks
+
+Petri Nets
+Blackhurst et al. 2004 [8]
+Wu et al. 2007 [145]
+Liu et al. 2007 [64]
+Blackhurst et al. 2008 [7]
+Tuncel / Alpan 2010 [133]
+Zegordi / Davarzani 2012 [148]
+John / Prasad 2012 [43]
+Kano et al. 2013 [47]
+Blos / Miyagi 2015 [10]
+Zhang 2016 [147]
+Blackhurst et al. 2017 [9]
+Liu et al. 2017 [63]
+
+Focus on disruption risks
+Number of risks
+Data basis of risk concept
+Risk interdependencies
+Risk propagation
+Dynamic modeling of risks
+Prediction of risks
+Risk optimization
+
+Supply Chain Disruption Models: A Critical Review
+
+Table 4: Comparison of Petri Net approaches to model supply chain disruption risks
+John and Prasad [43] as well as Blackhurst et al. [7] aim
+to detect conflicts as a possible source of a disruption
+by using a PN technique. The model therefore does
+not use historical data or expert knowledge to quantify
+risks. Tuncel and Alpan [133] integrate historical
+data and expert knowledge simultaneously for risk
+identification, while other PN approaches use expert
+knowledge as a sole source of information. Some
+approaches model the interdependencies in the system
+dynamically but concentrate on the impact of risks and
+not on the risk interdependencies themselves. Kano et
+al. [47] focus on the recovery process after a disruption
+occurs and therefore model the risk propagation without
+considering interdependencies.
+Four approaches in Table 4 use simulation studies
+to analyze the supply network dynamically. Basic risk
+prediction is mainly incorporated into the models since
+most approaches carry out what-if analysis, which
+helps to understand possible consequences. Proper
+risk prediction is not part of these studies. Liu et al.
+use sensor-based time series data to manually assess
+and partially predict quality risks of the considered
+products. This approach also supports risk control
+through sensor information. Liu et al. [64] as well
+as Tuncel and Alpan [133] partially optimize the
+risk situation of the considered supply chain. Both
+approaches test the mitigation strategies’ effectiveness
+with respect to performance measures, but do not
+optimize risk itself.
+The right part of Table 4 gives an overview of the
+supported framework steps of the articles. Most articles
+focus on risk assessment. The approaches of Blackhurst
+
+et al. [7] and John and Prasad [43] concentrate on risk
+identification and risk control since these approaches
+aim to detect conflicts in the supply chain which can
+lead to serious damage.
+4.2
+System Dynamics
+System Dynamics (SD) is a modeling approach which
+aims to analyze complex and dynamic systems. In
+its essence, SD explains the dynamic behavior of a
+system as a consequence of the system’s structure [93].
+According to this approach, the structure of a system
+consists of elements that interact with each other
+through delayed cause-and-effect relationships and
+information feedback [116]. A model includes multiple
+causal loops which can either balance or reinforce
+fluctuations of variables. The relationship between
+elements is described with equations [52]. SD has been
+applied to various research areas such as supply chain
+management, biological and medical modeling, theory
+development in the natural and social science, and so
+on [2]. Nine models have been identified which use SD
+as the modeling technique of choice.
+Wilson [144] uses SD to examine the effects of
+transportation disruptions on a five-echelon supply
+chain with fixed transit times. The author compares a
+traditional supply chain and a supply chain coordinated
+by a vendor managed inventory system (VMI). In the
+conventional arrangement only downstream demand
+information of the direct partners are known. In the
+VMI structure the retailer and the first-tier supplier
+levels, and maximum goods in transit are studied. All
+four possible disruption locations are considered.
+In a similar approach, Sidola et al. [108] compare the
+effects of two transportation disruptions on a regular and
+a so-called visible four-tier supply chain. In case of the
+visible supply chain, all demand information is shared
+between the supply chain partners. The performance
+is measured by the number of stockouts of the retailer,
+the inventory variability, and average demand among
+all supply chain entities. Two consecutive disruptions
+are simulated in each of the two systems between the
+warehouse and the retailer.
+Ghadge et al. [31] develop a SCRM framework
+which is supported by SD modeling. Qualitative and
+quantitative data of internal product development
+projects were used as a representation of a global
+supply chain. For risk classification, the “Process,
+Organisation and Location, Data, Applications and
+Technology” (POLDAT) model is used, which was
+originally applied for process improvement purposes
+in companies. Qualitative risk data is incorporated
+by using the Delphi method, while quantitative data
+is collected with the help of historic risk data. The
+average impact of the identified risk events on the
+performance measures (cost and duration) and their
+average probability of occurrence were analyzed
+with respect to the risk classification categories of
+the POLDAT model. It is therefore possible to define
+upper and lower limits for each risk attribute and gain
+understanding of the risk behavior. The risk modeling
+step itself starts with defining a risk as a set of
+attributes according to the POLDAT classification and
+initial parameters such as initial risk impact on time
+and costs as well as expected probability of occurrence.
+Subsequently, statistical modeling was conducted
+to find the best probability distribution for the set of
+data. The SD model considers the combination of these
+risk attributes and their behavioral pattern to simulate
+the overall impact within 200 iterations based on SD
+equations not explicitly shown. A sensitivity analysis
+of the two models is conducted to further analyze the
+system.
+Bueno-Solano et al. [13] simulate the impact of
+a border shutdown on the inventory levels and total
+inventory costs of a four-tier supply chain due to a
+terrorist attack. The raw material supplier and supplier
+are located in Mexico, whereas the warehouse and
+manufacturer are situated in the US. Random border
+crossing times are used. Disruptions of different
+time spans are studied before, during, and after the
+disruption with respect to the performance indicators
+such as inventory level and service level.
+Cedillo-Campos et al. [15] use the same SD model to
+simulate the impact of criminal acts on the inventory
+performance and total costs of the same fourtier supply
+chain used in the approach before, with a safety stock
+level of five days. The supplier is either located in
+
+Mexico or Brazil, resulting in different lead times. The
+consequences of a cargo robbery on the inventory level
+are similar to the findings of Bueno-Solano et al. [13].
+Wang et al. [139] analyze a two-tier supply chain with
+one retailer and two independent suppliers. The authors
+use a SD approach to evaluate the risk mitigation
+strategy of having a more reliable but more expensive
+backup supplier in the form of a contingent supplier
+or standby supplier. If and only if a disruption occurs,
+the retailer will begin to place orders at the contingent
+supplier which then starts to produce and deliver the
+products. In case of using a standby supplier, the
+retailer reserves some products at the supplier and
+gets paid a specific ratio of the price per product by
+the retailer. If a disruption occurs, the retailer buys
+these products at the major supplier’s regular price. If
+the order is higher than the standby quantity, a higher
+price needs to be paid by the retailer. Inventory levels,
+unsatisfied demand, and the retailer’s total profit are
+used as performance measures.
+Based on the basic four-tier manufacturing supply
+chain SD model of Sterman, Schuh et al. [104] develop
+and validate a SD model capable of assessing different
+disturbances in a supply chain. The basic model with
+its continuous replenishment was enhanced by defining
+reorder point variables for all material inventories
+to create discrete event points which describe real
+supply chain activities more accurately. The original
+time-based safety stock coverage variable has been
+changed into a target service level degree based on
+safety stock calculations. Furthermore, economic
+order quantity and lot size calculations are integrated
+based on cost parameters. Included cost parameters
+are material unit prices for each inventory level,
+stock holding cost per material unit, and fixed costs
+per material order as well as production setup. The
+disturbances are integrated by considering stochastic
+deviations. Disturbance parameters include customer
+demand, replenishment time, production lead time, and
+production output quantity. The authors also develop
+adjustment parameters to dampen the effect of the
+deviations. These mitigation strategies consist of the
+adjustment of the economic lot size or economic order
+quantity as well as the adjustment of reorder points and
+the safety stock level. The logistics costs, the supply
+service level, and the capital lockup are considered
+to evaluate the performance and usefulness of the
+adjustment strategies.
+Guertler and Spinler [33] build an SD model to
+capture the internal dynamics of operational risks
+of an enterprise under the influence of supply risks.
+The authors define 14 operational risks and 10 risk
+categories to be able to compare different scales of
+original risk-related data. The data set includes data
+of two case companies, of over 3000 suppliers, expert
+interviews, and secondary data. The interrelationship
+between the modeled risks are quantified using in depth
+expert interviews via cross-impact analysis. The causal
+
+Control of risks
+
+Mitigation of risks
+
+Risk identiﬁcation
+Risk assessment
+
+Risk optimization
+
+Prediction of risks
+
+Risk interdependencies
+Risk propagation
+Dynamic modeling of risks
+
+Data basis of risk concept
+
+System Dynamics
+Wilson 2007 [144]
+Sidola et al. 2011 [108]
+Ghadge et al. 2013 [31]
+Bueno-Solano et al. 2014 [13]
+Cedillo-Campos et al. 2014 [15]
+Wang et al. 2014 [139]
+Schuh et al. 2015 [104]
+Guertler / Spinler 2015 [33]
+Li et al. 2016 [59]
+Keilhacker / Minner 2017 [48]
+Shukla / Naim 2017 [107]
+
+suggest risk mitigation methods. The performance
+of the system is evaluated by four measures, namely
+the transportation capacity, the transportation time,
+the inventory level, and the order fulfillment rate.
+Keilhacker and Minner [48] analyze five mitigation
+strategies (product substitution, recycling, increase
+of research and development, and mix of the previous
+four strategies) to cope with supply shortages of the
+critical commodity of rare earth elements due to export
+restrictions. With an extensive use of empirical data,
+an end-to-end supply chain model (including eight
+different supply chains) is developed, consisting of a
+great number of mining companies and raw material
+processors (modeled on country level), semi-finished
+goods and finished goods manufacturers, research and
+development labs (modeled on supply chain level),
+and consumers (modeled on industry level). The
+authors compare the model’s output price of rare earth
+elements with the empirical price of Neodymium and
+the supply unavailability avoidance as performance
+values. Product substitution (especially for finished
+goods manufacturers) mitigates supply unavailability
+best. Recycling can be effective if the infrastructure
+and recycling technology is already present.
+Shukla and Naim [107] build an SD model of the well
+known four-echelon supply chain of Sterman’s Beer
+Game [115] and apply a cluster-based spectral analysis
+on time series profiles (amount of shipped goods and net
+inventory level) to detect disturbances due to capacity
+restrictions. In their first simulation scenarios, the
+mean customer demand per period is doubled halfway
+through the simulation run and the shipping capacity
+of one entity per scenario is designated to be the
+bottleneck of the system. The subsequent simulation
+
+Focus on disruption risks
+Number of risks
+
+it is assumed that a risk increase does not lead to an
+improvement of the situation. The model is designed
+to consider disruptive shocks, but it also incorporates a
+degree of self-stabilization. The magnitude of a risk is
+therefore affected by the magnitude of interrelated risks
+(deviation from the equilibrium state), the presence of
+a disruptive shock, a random factor with a set standard
+deviation, and a stabilizing factor which is calculated
+as a constant flow towards the initial equilibrium of the
+system. Each simulation run consists of 500 iterations
+and is embedded in a Monte Carlo simulation to retrieve
+stable results from a sequence of 1000 simulation runs.
+Guertler and Spinler [33] follow a design of experiments
+approach with two independent experiments (a single
+factor and a multiple factor analysis). The single factor
+analysis studies the high impact occurrence of one
+operational risk and the multiple factor analysis studies
+the occurrence of multiple lowimpact operational risks.
+Li et al. [59] study the effect of 13 risk events, which are
+identified from existing literature, and two mitigation
+strategies (increasing transportation equipment
+capacity and increasing amount of transport vehicles)
+on the performance of a chemical supply chain
+transportation system. Risk is modeled by using four
+risk characteristics, namely the occurrence probability
+of a risk event, the probability that a risk event
+influences a variable, the likelihood of a consequence,
+and the severity of the consequence. The model focuses
+on one focal enterprise and consists of the inventory
+system and the dynamic capacity of the transportation
+system. The transportation time is dynamic and
+dependent on the infrastructure’s capacity and the
+current volume of the products being transported.
+Expert opinion is used to generate input values and
+
+In both simulation experiments the entity which limits
+the shipping capacity could be detected.
+Table 5 provides an overview of the approaches with
+respect to the described requirements. The modeling
+approaches, for the most part, focus on disruption
+risks. Ghadge et al. [31] study risk in general and
+use project risk data as a representation of supply
+chain risks, while Schuh et al. [104] and Guertler and
+Spinler [33] focus on operative risks. It is debatable
+if project risk data can be used as a representative of
+supply chain risk data since multiple projects can be
+classified in different, recurring phases and supply
+chain activities are continuous. Shukla and Naim
+[107] study disturbances during which production
+capacity is limited but still available. Only four models
+incorporate more than one risk. Most SD approaches
+apply a what-if analysis where one specific risk is set as
+true and the consequences and behavior of the system
+are analyzed. The models therefore include only the
+impact as part of the risk concept, but are able to display
+interdependencies and propagation of the impact well.
+Guertler and Spinler [33] as well as Ghadge et al.
+[31] model risk explicitly and use qualitative as well
+as quantitative data so that these two models display
+a risk related modeling output. A few authors partly
+consider risk optimization. Wilson [144], Sidola et al.
+[108], and Wang et al. [139] compare different supply
+chain organization strategies (VMI, backup supplier)
+and therefore evaluate their usefulness. Schuh et al.
+[104] and Li et al. [59] change model parameters to
+study the effects of mitigation strategies, but only
+consider some mitigation strategies. The approach of
+Keilhacker and Minner [48] is an exception that solely
+concentrates on mitigation strategies to find ways to
+deal with scarce resources.
+The right-hand side of Table 5 gives an overview of
+the supported process steps of each modeling approach.
+Although only the models of Ghadge et al. [31] as
+well as Guertler and Spinler [33] fully consider risk
+assessment, risk assessment with a concentration on
+the dynamic impact of risk events is the focus of the
+identified SD models. The only two approaches that
+considered systematic methods for risk identification
+were the models of Ghadge et al. [31] and Guertler and
+Spinler [33]. The data-driven monitoring approach of
+Shukla and Naim [107] integrates the control of risk
+indicators.
+4.3
+Discrete-Event Simulation
+Discrete-Event Simulation (DES) models the system’s
+dynamic behavior as a discrete sequence of events
+in time [40]. A wide range of supply chain planning
+problems have been modeled with DES models, such
+as supply chain design, inventory planning, production
+scheduling, and supplier selection [120]. Five models
+have been identified which use DES as the modeling
+technique of choice. Petrovic et al. [80] develop a DES
+
+tool to analyze uncertainty in a multitier, serial supply
+chain. Order-up-to-levels for all inventory stages are
+determined by using fuzzy sets regarding the customer
+demand, lead time, and supplier reliability. The
+control of the inventory levels is either decentralized
+or partially coordinated, which takes the uncertainty
+of the immediate predecessor into account. The fuzzy
+sets are used to calculate probability distributions of
+the SC parameters. The simulation analyzes various
+performance measures (total costs, holding costs,
+and fill rate) achieved by the SC under the specific
+parameters.
+Schmitt and Singh [101, 102] study DES to analyze
+the performance of a three-tier supply chain with
+two products (low-volume and high-volume), two
+raw material suppliers, three distribution centers,
+as well as predefined mitigation strategies. Monte
+Carlo Simulation is used to determine an aggregated
+distribution of the frequency and duration of disruptions
+per location. The data basis of the Monte Carlo
+simulation consists of historical disruption data and
+expert knowledge of future possible risk events. For
+each location a mitigation strategy (backup capacity at
+different locations) is defined which comes into effect
+after a set duration of a disruption. The authors analyze
+the effect of several inventory levels on the service level
+of the supply chain, in case of no disruption occurring
+and in case of disruptions occurring, and perform a
+stress test for various disruption scenarios.
+Hishamuddin et al. [37] compare the impact of two
+different types of disruptions (supply disruption and
+transportation disruption) on the total recovery costs
+of a three-tier supply chain with three suppliers, one
+manufacturer, and one retailer. The total recovery
+costs include machine setup cost, inventory holding
+cost, penalty costs for late recovery, and shortage
+costs due to stock-outs. The supply disruption is
+analyzed at each location, whereas the transportation
+disruption is examined at each link of the supply
+chain. For simplicity, only one disruption can occur
+simultaneously. The authors compare the resulting
+eight different disruption scenarios.
+Aqlan and Lam [4] combine a goal programming
+and a simulation model to find the best mitigation
+strategies, inventory levels, and production quantities
+under budget constraints in a high-end server
+manufacturing supply chain with four suppliers. The
+optimizing model determines the parameters (response
+strategy, production quantities, and inventory levels)
+for the subsequent simulation. It simultaneously
+maximizes total profit as well as total risk reduction
+and minimizes the total cycle time. The DES considers
+the parameters calculated by the goal programming
+approach and analyzes the performance values under
+stochastic features. The output of the simulation serves
+as input of the optimizing model and the deviation is
+calculated. This process is continued until convergence
+
+Mitigation of risks
+
+Risk identiﬁcation
+Risk assessment
+
+Risk optimization
+
+Prediction of risks
+
+Risk interdependencies
+Risk propagation
+Dynamic modeling of risks
+
+Data basis of risk concept
+
+Discrete-Event Simulation
+Petrovic 2001 [80]
+Schmitt / Singh 2009 [101]
+Schmitt / Singh 2012 [102]
+Hishamuddin et al. 2015 [37]
+Aqlan / Lam 2016 [4]
+Ivanov 2017 [41]
+Schmitt et al. 2017 [109]
+Wang et al. 2018 [140]
+
+Focus on disruption risks
+Number of risks
+
+Supply Chain Disruption Models: A Critical Review
+
+Table 6: Comparison of Discrete-Event Simulation to model supply chain disruption risks
+Ivanov [41] builds a DES model of a four-echelon
+supply chain consisting of one manufacturer, one
+central distribution center (CDC), two regional
+distribution centers (RDCs), and ten customers in order
+to quantify the effects of two disruptive scenarios ((1)
+total disruption of CDC, (2) 50% capacity disruption at
+RDC and a full disruption of CDC) and corresponding
+recovery processes. Lead times and demand are
+modeled with a triangular distribution. Sales price,
+holding costs, fix facility costs, production time and
+costs, and transportation costs are defined to make
+monetary effects investigatable. Real transportation
+distances are used for the modeling of material flow
+and an order-up-to policy controls replenishment
+processes. Total revenue, cost, and profit as well as the
+customer service level and inventory holding costs are
+used for performance evaluation. The model shows
+that both disruption scenarios impact the performance
+values significantly, not every disruption leads to
+a propagative effects (ripple effect), and recovery
+processes can significantly alleviate the disruptive
+impact.
+Schmitt et al. [109] implement a four-echelon supply
+chain (stage 3 and 4 containing two entities each) into
+a DES model to test the impact of 20-day disruptions
+((1) close to the customer and (2) on the most upstream
+echelon) on the total supply chain inventory level and
+customer fill rate to evaluate the effect of expediting
+as well as dynamic cost-based ordering policies.
+Expediting is implemented by switching to airplane
+delivery in certain lowstock situations, which reduces
+lead times significantly. The simulations show that
+expediting increases the variability in order quantity
+and frequency, leads to significantly higher total
+inventory in the system, and reduces shortages slightly.
+A downstream disruption is shown to be more severe
+than an upstream disruption. Holding, backorder, lost
+
+sales, and transportation costs are subsequently added
+to find cost-based order-up-to levels across multiple
+echelons under the influence of the disruption. The
+authors vary the order-up-to levels of the first and
+second echelon, calculate the resulting total supply
+chain costs, and find highly volatile cost behavior. A
+genetic algorithm is designed and could outperform a
+regular line search algorithm.
+Wang et al. [140] consider a two-echelon realworld precast supply chain in their DES approach
+to systematically analyze the uncertainty due to
+disturbances and the effects of precaution strategies
+on various operational (e.g. waiting time, lead time,
+etc.) and economic level measures (e.g. maintenance
+costs, inventory costs, etc.). The production and
+delivery process of ten different prefabricated molds
+is modeled with triangular distributions gained by onsite data collection. Possible disturbances are inserted
+in a database together with possible countermeasures.
+Cost attributes, the probability values of different
+disturbances, and the decrease in probability due to the
+countermeasures (low, medium, and high mitigation)
+are assessed by expert interviews. Four risks and their
+corresponding countermeasures are integrated into
+the model. By simulating 11 scenarios and subsequent
+sensitivity analysis, the authors conclude that machine
+breakdown is the most critical and risk countermeasures
+can significantly reduce lead times and total cost. By
+also considering cost variables for implementing the
+countermeasures, the optimal intensity of mitigation
+strategy can be defined.
+Table 6 shows that the identified DES models
+predominantly incorporate a number of risks and have
+a strong focus on SC disruptions. Only the models of
+Petrovic [80] and Wang et al. [140] deal with general
+uncertainty and disturbances. A number of risks are
+analysis on two different types of disruptions (supply
+and transportation disruption) so that this model is able
+to incorporate deep uncertainty without considering
+quantified likelihoods. Petrovic [80] analyzes
+uncertainty in general without any focus on disruption
+risk, but is able to incorporate linguistic and fuzzy
+data into the model. Wang et al. [140] rely on expert
+interviews and measured, quantified parameters.
+Schmitt and Singh [101, 102] incorporate historical
+disruption data and expert knowledge of future possible
+risk events. The main focus of these models is the
+dynamic description of the system’s behavior. Schmitt
+and Singh [101, 102], Aqlan and Lam [4], Schmitt et
+al. [109], and Wang et al. [140] have a clear focus on
+risk optimization. Aqlan and Lam [4] aim to find the
+best mix of mitigation strategies to optimize the supply
+chain’s risks with respect to different constraints.
+Schmitt and Singh [101, 102] focus on the optimal
+inventory level to face supply chain disruptions as
+well as the right backup supply strategy to cope with
+disruptions. Schmitt et al. [109] evaluate expediting
+and cost-based order-up-to policies. Wang et al. [140]
+analyze the effect of four mitigation strategies on
+the system’s performance and aim to asses the most
+cost-efficient countermeasures. The DES models of
+Hishamuddin et al. [37], Wang et al. [140], and Schmitt
+and Singh [101, 102] display the relationship between
+disruption and potential consequences so that risk
+prediction is partially included. The only approaches
+which focus on risk propagation across the supply
+chain are the approaches of Schmitt and Singh [101,
+102], since they study the time-aspects of disruptions
+regarding performance measures, and Ivanov [41],
+who analyzes the so-called ripple effect but without
+considering direct quantitative measures of this effect.
+The right-hand side of Table 6 gives an overview of
+the supported process steps of each modeling approach.
+The models of Schmitt and Singh [101, 102] and Wang
+et al. [140] support risk identification, risk assessment,
+and mitigation of risks. Petrovic [80], Hishamuddin
+[37], Ivanov [41], and Schmitt et al. [109] focus mainly
+on risk assessment. The two latter approaches also
+partly consider risk mitigation. Aqlan and Lam [4] aim
+to optimize mitigation strategies. The control of risk is
+not included in the identified DES models.
+4.4
+Bayesian Belief Networks
+A Bayesian Belief Network (BN) is a graphical
+model in the form of a directed acyclic graph which
+represents random variables and their conditional
+dependencies. It enables the computation of a joint
+probability distribution over a set of random variables
+[83]. It is widely used in statistics, machine learning,
+and artificial intelligence [49, 70]. Three applications
+of BNs have been identified, which will be outlined in
+the following.
+
+Badurdeen et al. [5] use a BN to model risk
+interdependencies of an aerospace industry supply
+chain with 11 suppliers, one focal OEM, and 20
+customers. The research group uses the risk taxonomy
+of Rao and Goldsby [92] and expands it to 94 risk
+drivers and 11 supply chain performance measures with
+the help of a literature search and expert knowledge.
+A risk network matrix was developed to identify risk
+interdependencies. An Excel-based prototype software
+tool transformed the matrix into a risk network map
+which visualizes how the identified risk drivers
+influence the performance measure. Data collection
+sheets were used to gather information regarding
+conditional probabilities, and a group of experts then
+estimated conditional probabilities used for the BN.
+Joint probabilities can be calculated and visualized for
+each producing entity of the supply chain by applying
+Bayesian theory. Further analyses are conducted by
+changing specific risks to 0% or 100% and studying
+the impact on other risks and performance metrics.
+Garvey et al. [30] model the propagation of disruption
+risks in a supply chain. The authors identify multiple
+potential risk events at various nodes and arcs of the
+supply chain. These risk events are considered to be
+nodes of a so-called risk graph. A procedure based
+on a probability dependency model is developed to
+capture causal relationships between the occurrences
+of the identified risks without creating directed cycles.
+Due to this procedure, the arcs of the risk graph can
+be implemented. The BN is established by assessing
+conditional probabilities between these risk events. The
+impact of each potential risk event needs to be estimated
+and is captured by defining a cost function for each
+risk. Scenarios which cover all possible outcomes and
+corresponding probabilities of occurrence are assigned.
+The authors develop measures to study propagation
+effects of the considered risk events.
+Qazi et al. [86] incorporate mitigation strategies
+into their BN approach and model the mitigating
+effects on the system. The conditional probabilities
+of each risk event can be reduced by implementing
+mitigation strategies, which results in extra mitigation
+costs. The authors define an objective function that
+rewards the saving of costs with respect to the costs
+of implementing all mitigation strategies and the
+reduction of expected loss in relation to implementing
+no mitigation strategies. The maximum weighted sum
+of these two normalized utility factors is considered
+to be the optimal combination of mitigation strategies.
+Similar to Badurdeen et al. [5], Sharma and
+Sharma [106] develop a BN model to assess risk
+interdependencies of eight risks and 23 risk factors in
+an Indian textile supply chain to calculate the impact
+on three performance measures, namely cost, time, and
+quality. The structure and the conditional probability
+tables of the BN have been created with the help of six
+supply chain experts, historical supply chain data, and
+corresponding SCRM literature. To keep computing
+
+Mitigation of risks
+
+Risk identiﬁcation
+Risk assessment
+
+Risk optimization
+
+Prediction of risks
+
+Risk interdependencies
+Risk propagation
+Dynamic modeling of risks
+
+Data basis of risk concept
+
+Bayesian Belief Network
+Badurdeen et al. 2014 [5]
+Garvey et al. 2015 [30]
+Qazi et al. 2015 [86]
+Sharma/Sharma 2015 [106]
+Qazi et al. 2017 [87]
+Qazi et al. 2018 [88]
+
+Focus on disruption risks
+Number of risks
+
+Supply Chain Disruption Models: A Critical Review
+
+Table 7: Comparison of Bayesian Belief Network approaches to model supply chain disruption risks
+risks, and performance measures can either be “high”
+or “low”. The Delphi method has been adopted to
+reach a consensus between experts. After calculating
+the state probabilities of the performance nodes, the
+probability of risk factors are individually set to 100%
+to identify the most critical risk factors as part of the
+sensitivity analysis.
+Qazi et al. [87] combine a FMECA approach with
+a BN model in a Turkish supply chain, considering
+all immediate suppliers of a manufacturer of
+supplementary parts in the home appliance industry,
+to identify risk factors, risks, and possible losses and
+to assess the interdependencies between them. FMECA
+is used for the identification of risks, direct losses, and
+possible mitigation strategies. The BN calculates the
+resulting probabilities. The authors develop measures
+to assess the contribution of risks to the overall losses
+in case of a risk-neutral and risk-averse decision maker.
+Risk mitigation is also considered by prioritizing
+risk mitigation strategies based on the impact on the
+developed risk measures under a budget or a resource
+constraint. If no mitigation cost can be assigned,
+the budget is split fairly by considering the Shapley
+Value, a concept in Game Theory, and calculating the
+marginal contribution of each mitigation strategy.
+In a similar approach, Qazi et al. [88] use Fault Tree
+Analysis (FTA), BN, and Expected Utility Theory
+to model 29 risks of a component manufacturing
+supply chain in the aerospace industry and their
+effect on the following performance values: quality,
+timeliness, market share, profit, and sustainability.
+FTA (conducted and validated by focus group
+sessions of experts) is used as a top-down way to
+identify the performance measures’ potential risks
+as well as their underlying causal risk factors and to
+therefore determine the hierarchical structure of the
+BN. The experts subsequently determine the strength
+of interdependency between the risks by assessing
+conditional probabilities. After identifying potential
+
+risk mitigation strategies and estimating their costs
+and the overall budget constraint, the mitigation
+strategies and their effect on the risks are built into the
+BN. All possible combinations of mitigation strategies
+are analyzed by running the BN and calculating the
+performance values for each scenario. The final
+step is the selection of strategies that maximize the
+decision maker’s overall expected utility and therefore
+considering their risk attitude.
+Table 7 compares the six approaches with the
+requirements derived above. All six models focus on
+a number of SCDR and concentrate on modeling the
+interdependencies between them. Since conditional
+probabilities need to be defined, the models incorporate
+the risk categories “randomness” and “hazard”. Deep
+uncertain risks are not considered. Four modeling
+approaches quantify risks by using experts without
+using historical data. Sharma and Sharma [106] and Qazi
+[87] also integrate historical data into their approach.
+Risk propagation is mainly studied by Garvey et al.
+[30] and Qazi et al. [86], who both develop propagation
+measures. Badurdeen et al. [5] briefly mention that risk
+propagation can be explored by setting specific risks
+as true and analyzing the impact. Qazi et al. [86–88]
+concentrate on risk optimization. The prediction of
+risks is considered in all approaches. Badurdeen et al.
+[5] only predict the probability of occurrence, while the
+other five models predict the probability of occurrence
+and the impact of risks. None of the approaches include
+dynamic aspects into their models.
+The right-hand part of Table 7 shows which steps
+of the standard SCRM framework are modeled and
+supported by the publications. While the control
+of risks is not supported, all approaches cover risk
+assessment. On top of that, Badurdeen et al. [5], Sharma
+and Sharma [106], as well as Qazi [87, 88] extensively
+cover risk identification, and Qazi et al. [86–88] find
+ways of mitigating risks. The control of risk is missing
+
+Risk identiﬁcation
+
+Dynamic modeling of risks
+Prediction of risks
+Risk optimization
+
+Risk interdependencies
+Risk propagation
+
+Number of risks
+Data basis of risk concept
+
+Agent-based Modeling
+Park 2014 [77]
+Blos et al. 2015 [11]
+Seck et al. 2015 [105]
+Otto et al. 2017 [75]
+Ledwoch et al. 2018 [56]
+
+Focus on disruption risks
+
+18
+
+Table 8: Comparison of other modeling approaches to model supply chain disruption risks
+4.5
+Agent-based Modeling
+Agent-based Modeling (ABM) is a modeling and
+simulation method in which multi-agent systems
+represent social, economic, and ecological systems,
+etc. [97]. Each system consists of a set of agents, a set
+of relationships, and the agents’ environment in the
+boundaries of an overarching system. An agent is an
+autonomous, self-directed, individual entity which can
+function independently from other agents. It interacts
+with and reacts to other agents and their environment
+by having either a simple collection of if-then-else rules
+or complex artificial intelligence techniques integrated
+in their behavior [125]. ABM is particularly interesting
+because of its ability to represent self-organizing
+systems in which entities interact, influence each other,
+and are able to learn from their experience to be better
+adapted to their environment [65].
+Park [77] combines ABM as well as SD modeling to
+study the behavior of a three-tier supply chain with two
+manufacturers of two different products, two retailers,
+and a customer. The customer chooses between the
+two products and waits a given time before consuming
+again. The customer’s behavior is modeled by SD,
+whereas the production processes are described by
+ABM. The service level of the supply chain is used as
+a performance metric.
+Blos et al. [11] describe a simulation-based
+methodology to assess and mitigate identified risk
+scenarios with a supply chain risk event database and
+ABM of the supply chain. Scenarios are generated by
+expert-based probabilistic description or by known
+historical risk events, and an SCRM specialist generates
+possible mitigation strategies. Simulation models of all
+scenarios need to be developed before the performance
+and effectiveness of the strategies can be quantitatively
+assessed. The authors adopted their methodology to a
+global supply chain of a manufacturing firm within the
+electronic industry in Taiwan but do not describe their
+simulation models in detail.
+
+Seck et al. [105] present an ABM approach to study
+the effect of different risk scenarios on the fill rate of
+the supply chain system. The authors analyze a threetier supply chain with two suppliers and two subsuppliers. The first risk scenario consists of a perfect
+demand forecast with a planning horizon larger than the
+cumulative lead time and a capacity superior or equal to
+the demand. As expected, the fill rate is 100%. A minor
+forecasting error with no safety stocks results in a fill
+rate below 100%. The authors test a major forecasting
+error with enough safety stock to maintain a perfect fill
+rate. The last scenario consists of a disruption of one of
+the sub-suppliers with a set duration and a set time to
+recovery. This scenario shows the delayed drop of the
+fill rate and the slow replenishment of the safety stock.
+Otto et al. [75] propose the ABM approach
+“acclimate” to assess the propagation of losses in
+global supply networks due to natural disasters of
+different sizes using the example of the Japanese
+automotive manufacturing industry. The authors
+consider the economic monetary input-output data
+table of 27 sectors and a large number of contributing
+countries including consumer demand in the form of
+household consumption, governmental spending, and
+private investments. The producing agents are capable
+of adjusting their production capacity, assessing future
+demand, receiving price-offerings of suppliers, and
+setting the ordering quantity to locally maximize
+their profit. During simulated disruptions of different
+time lengths (0 to 19 days) the production capacity
+of a specific regional sector is reduced by a certain
+variable degree. The authors find that indirect losses
+strongly depend on the duration and magnitude of the
+disruptions and can rise well after the disruption has
+ceased. The exogenous variable of buffer inventory
+serves as a mitigating component and is recommended
+to be increased due to the increase in the number of
+expected natural disasters.
+Ledwoch et al. [56] build an ABM to quantitatively
+and inventory holding costs of random and scale-free
+network topologies with a single original equipment
+manufacturer and 102 supplier nodes. In case of a
+random topology, a set number of links is randomly
+attached to a set of nodes. Scale-free networks consist of
+hub nodes with a large number of immediate suppliers.
+Producing agents can receive orders, forecast demand,
+ship product, and order supply, whereas logistics
+provider agents perform transportation between nodes.
+A specific random number of producing agents can
+perform two mitigation strategies. Contingent rerouting
+lets the agent transfer their orders from a disrupted
+node to one or more operational suppliers, while
+inventory mitigation increases the buffer inventory as a
+robust strategy. Simulation experiments with different
+risk and mitigation scenarios show that scale-free
+networks have higher disruption tolerance than random
+networks, inventory mitigation improves fill rates more
+effective than contingent rerouting regardless of the
+network topology, and inventory mitigation is cost
+effective only for frequent disruptions.
+Table 8 shows that all ABM approaches focus on
+disruption risks and incorporate dynamic modeling.
+The identified models do not have a strong data basis
+for their modeled risk concepts and do not integrate
+risk interdependencies, risk propagation, and risk
+prediction. Blos et al. [11] is the only approach which
+considers numerous risks and focuses on historical
+data and expert opinion. Otto et al. [75] use historical
+data and study the interdependencies and propagative
+characteristic regarding the losses due to disruptions.
+Risk optimization has been slightly touched by the
+authors and only a single mitigation strategy has been
+tested. Otto et al. [75] and Ledwoch et al. [56] use
+buffer inventory for mitigation, while Blos et al. [11]
+conceptually integrates mitigation strategies but does
+not show numerical results.
+A clear focus on risk assessment is visible in the
+approaches. Systematic risk identification methods
+have not been incorporated. Blos et al. [11] mention risk
+identification but do not go into detail. Risk mitigation
+has been partly integrated but not systematically
+supported. Seck et al. [105] indirectly show that nodes
+with backup supply or safety stock are less affected and
+accurate forecasting is beneficial. Approaches which
+emphasize the control of risks are still missing.
+4.6
+Interpretive Structural Modeling
+Interpretive Structural Modeling (ISM) is a
+methodology which is used to transform unstructured
+graphical representations of a complex system into
+a well-structured directed graph with a hierarchy
+and relationships between elements [98, 141]. The
+basic procedure is as follows. The elements of the
+models need to be defined first. The structural
+self-interaction matrix (SSIM) contains the direct
+relationships between the elements. The relationships
+
+19
+are determined by pairwise comparison of the risks.
+The SSIM, which includes four symbols to describe
+the interdependencies, is transformed into a binary
+reachability matrix. The final reachability matrix
+contains indirect relationships between the elements
+which are connected by intermediate elements. The
+elements are then put in a hierarchical order by level
+partitioning. The left part of Table 9 compares the
+ISM approaches. All of the models integrate a number
+of different SCDRs and have a high focus on risk
+interdependencies.
+Pfohl et al. [81] as well as Vekantesh et al. [135]
+incorporate a fuzzy MICMAC analysis and are therefore
+able to evaluate the strengths of the interdependencies.
+ISM is suitable for all risk categories with the
+premise that it is possible to at least understand the
+consequences of deeply uncertain risk events on other
+risks and vice versa. The data basis of the described
+models stems from expert knowledge and literature
+reviews. Dynamic effects, the prediction of risks, risk
+propagation, and a risk-related optimization of the
+supply chain is missing.
+The right-hand side of Table 9 shows which steps
+of the standard SCRM framework are modeled and
+supported by the publications.
+Pfohl et al. [81] use ISM to identify interdependencies
+among supply chain risks and apply a MICMAC
+analysis to classify the risks according to their
+driving and dependence power. The authors study a
+supply chain consisting of a first-tier supplier, a focal
+company, and a third-party logistics provider which
+transports goods to the focal company as well as to the
+customer. 21 external and internal disruption risks are
+incorporated. A group of experts is suggested who then
+construct the structural self-interaction matrix (SSIM).
+After constructing the ISM-based model, the MICMAC
+analysis consists of calculating the sum along the rows
+and the columns of the final reachability matrix as an
+indicator for the driving power and dependence of each
+risk. Four groups of risks are defined (autonomous,
+dependent, linkage, and independent). A Fuzzy
+MICMAC analysis is applied to consider the strength
+of relationships on a scale from 0 to 1. The values are
+superimposed on the initial reachability matrix.
+Vekantesh et al. [135] use the ISM approach to
+model the interdependencies of supply chain risks
+associated with the Indian apparel retail industry. The
+authors identified 12 risks with the help of experts
+through a Delphi study and a literature review. The
+Delphi methodology is an empirical tool to reach a
+consensus among a group of experts [61]. An expertbased fuzzy MICMAC analysis is used to describe
+the strength of relationships between the risks. A new
+risk prioritization number (RPN) is developed which
+replaces the occurrence probability in the classical
+formula (RPN = Occurrence x Severity x Detection)
+with the ratio of the driving power to the dependence
+
+Risk identiﬁcation
+Risk assessment
+
+Risk optimization
+
+Prediction of risks
+
+Risk interdependencies
+Risk propagation
+Dynamic modeling of risks
+
+Data basis of risk concept
+
+Interpretive Structural Modeling
+Pfohl et al. 2011 [81]
+Vekantesh et al. 2015 [135]
+Srivastava et al. 2015 [113]
+
+Focus on disruption risks
+Number of risks
+
+20
+
+Table 9: Comparison of Interpretive Structural Modeling approaches to model supply chain disruption risks
+Srivastava et al. [113] focus on the Indian food retail
+industry and identify 24 supply chain risks with the
+help of experts. The authors also use a MICMAC
+analysis but do not apply a fuzzy-based evaluation of
+the strengths of the relationships.
+Risk identification as well as the selection of elements
+to be examined are part of the ISM methodology. It
+is, however, not methodically supported. Literature or
+expert knowledge are named as the source of relevant
+risks. Interdependencies and the driving power of risks
+are one aspect of risk assessment. The quantification
+of risks is not considered in the ISM framework. Other
+process steps like the mitigation and the control of risks
+are not supported.
+4.7
+Monte Carlo Simulation
+Monte Carlo Simulation (MCS) is a simulation method
+based on repeated random sampling and statistical
+analysis to compute the simulation results. MCS usually
+considers a large number of stochastic parameters
+with known or assumed statistical distributions and
+generally depends on a great number of simulation
+iterations in order to be able to assess the detailed
+stastical features of the output parameters. MCS is
+used in a wide variety of application areas including
+Mathematics, Statistical Physics, Engineering, and
+Social Sciences [89].
+Deleris and Erhun [22] combine MCS with a so-called
+flow model which calculates the loss of volume due to
+destroyed supply chain nodes to obtain the probability
+density function of the losses in the network. The
+likelihoods of the considered scenarios are estimated
+by experts.
+Klibi et al. [53] use MCS to model the impact of
+random business-as-usual risk events as well as extreme
+events on the capacity of SC entities and on the demand
+of products. The authors propose a three-step modeling
+approach which consists of the definition of so-called
+multi-hazards (summary of different hazards with
+generic impact to improve quantification), geographic
+hazard zones, associated vulnerability sources (SC
+
+entities as well as infrastructure), and their exposure
+levels with respect to the defined multihazards.
+A stochastic process models the time and space
+characteristics of the risk events’ occurrences as well
+as their intensity and the time for recovery regarding
+production capacity and demand of different product
+markets. It is recommended to use historical data and
+expert opinions to establish these parameters. The
+Monte Carlo Simulation creates a number of scenarios
+and calculates the number of hits and the number of
+unserved products within the planning horizon.
+Mizgier et al. [71] quantify the direct and propagated
+losses due to both idiosyncratic (one node is directly
+impacted) and systemic (all nodes are directly impacted)
+disruptions of a two-stage converging network with a
+Monte Carlo simulation approach. The resulting loss
+distribution of the central manufacturer is considered
+by its mean, its value-at-risk (maximum possible loss
+up to a predefined quantile), and its expected shortfall
+(mean losses exceeding the predefined quantile). The
+disruption and recovery of nodes are modeled as a
+Renewal-reward process, in which hazard events
+disrupt the node according to a Poisson process with
+different intensities and the subsequent recovery time
+is identically distributed. Two idiosyncratic hazards
+per node and one systemic hazard, threatening all
+entities, are considered. The indirect losses are
+calculated based on a weighted adjacency matrix
+which contains the relative purchasing volume with
+respect to each direct customer. The nth power of
+the matrix describes the relative impact on the nth
+stage of the network. Indirect losses are immediately
+distributed and no buffer inventory is considered. The
+conducted simulation experiments quantify the effect
+of diversification as a mitigation strategy on the loss
+distribution of the manufacturer by adding one supplier
+in each simulation run to the network (starting with just
+a single supplier) and changing the intensity parameter
+of the hazards. In this model, the variance of the loss
+distribution is reduced with an increasing number of
+same-stage suppliers. This positive effect is diminished
+
+Mitigation of risks
+
+Risk identiﬁcation
+Risk assessment
+
+Risk optimization
+
+Dynamic modeling of risks
+Prediction of risks
+
+Risk propagation
+
+Data basis of risk concept
+Risk interdependencies
+
+Monte Carlo Simulation
+Deleris / Erhun 2005 [22]
+Klibi et al. 2012 [53]
+Mizgier et al. 2015 [71]
+
+Focus on disruption risks
+Number of risks
+
+Supply Chain Disruption Models: A Critical Review
+
+Table 10: Comparison of Monte Carlo Simulation approaches to model supply chain disruption risks
+
+Control of risks
+
+Risk assessment
+Mitigation of risks
+
+Risk identiﬁcation
+
+Dynamic modeling of risks
+Prediction of risks
+Risk optimization
+
+Risk interdependencies
+Risk propagation
+
+Input-Output Modeling
+Wei et al. 2010 [143]
+Niknejad / Petrovic 2017 [72]
+Brosas et al. 2017 [12]
+
+Focus on disruption risks
+
+4.8
+Input-Output Modeling
+Input-Output Modeling (IOM) originally stems from
+Leontief ’s Input-output Model [58], which is a useful
+tool to study consumption shocks on interdependent
+economic systems [99]. IOM attempts to foresee the
+resulting economic losses and inoperability suffered
+by different interdependent industry sectors [34, 100].
+Wei et al. [143] use IOM to model the propagation
+and interdependencies of supply chain disruptions
+
+in a five-tier supply network with 11 members. The
+inoperability vector consists of continuous variables
+with values ranging from 0 to 1 which indicate the
+extent of inability of the system’s member to perform
+its functions (perfect operable state is represented
+by 0). A so-called interdependency matrix displays
+the interdependencies between supply chain entities.
+Total inoperability is calculated by summing up the
+propagated inoperability passed on by dependent supply
+chain nodes and the direct inoperability of the node
+(direct effect of a disruption). The interdependency
+matrix can be calculated based on Ordered Weighted
+Averaging. The interdependency can be measured
+by determining multiple factors like trading volume,
+buffer capacity, and substitutability, etc. for each
+directly connected relationship to a node. Niknejad
+and Petrovic [72] combine Fuzzy Set Theory with a
+Dynamic IOM (DIOM) to measure the propagative
+effects of two disruptive scenarios in a supply chain
+with two suppliers, one manufacturer, and customers.
+Experts’ knowledge is used to specify triangular fuzzy
+set numbers (TFSNs) of each entity’s planned revenue
+and resilience as well as the dependencies between
+each partner. The disruption itself is also modeled
+with a TFSN. The exogenous disruption lasts for ten
+Number of risks
+Data basis of risk concept
+
+Table 10 compares the three MCS approaches
+regarding the fulfillment of the requirements derived
+above. All three MCS approaches focus on disruptions
+and incorporate numerous risks into their methodology.
+Historical data as well as expert opinions are used to
+assess the risk values, except in the methodology of
+Mizgier et al. [71], who have a more theoretic approach
+to risk modeling. Mizgier et al. [71] focus partly on risk
+propagation and aim at risk mitigation by a diversified
+sourcing strategy.
+Systematic risk identification and the control of risks
+are not considered in the identified models. A strong
+focus on risk assessment is detectable, and all three
+models support this process step.
+
+MIP
+GT
+TBS
+NN
+GT
+
+Niknejad and Petrovic [72] use a dynamic IOM and
+can therefore also provide temporal insights.
+Risk identification as the first step of a standard
+SCRM framework is not supported by the IOM models.
+The control of risk has also not been incorporated so
+far. A clear focus lies on the easy assessment of risk
+impact.
+
+GT: Graph Theory
+MIP: Mixed-Integer Programming
+SS: Static Simulation
+TBS: Time-based Simulation
+
+Control of risks
+
+Risk identiﬁcation
+
+Risk assessment
+Mitigation of risks
+
+Risk optimization
+
+Dynamic modeling of risks
+Prediction of risks
+
+Risk interdependencies
+Risk propagation
+
+4.9
+Other approaches
+Six approaches have been identified which could not
+be numbered alongside the simulation techniques
+described above. These approaches include Timebased Simulation, Static Simulation, Neural Networks,
+and models based on Graph Theory.
+Thiagarajan et al. [126] develop a simulation-based
+risk analysis technique for large-scale military logistics
+planning. Simulation is used to evaluate the impact of
+unavailability of transport vehicles on the sequence of
+activities which form the logistics plan. The logistics
+plan contains the structural information about the
+available fleet of vehicles, required capacities, and
+time spans that the vehicles are needed. Some activities
+need to be fulfilled by specific transport vehicles so that
+unavailability can either cause the whole logistics plan
+to fail or has no effect. The static simulation calculates
+conflicts in the plan. The authors develop a simple
+so-called failure threshold and consequence metric to
+measure the relative criticality of transport vehicles
+observed in simulation and to enable large plans to be
+analyzed quickly. A risk matrix is used to combine the
+consequences with the likelihood of an unavailability,
+which needs to be assessed by experts, and to derive
+mitigation strategies.
+Aqlan and Lam [3] develop a multi-objective mixedinteger linear programming model which looks for the
+best combination of different interdependent mitigation
+
+Number of risks
+Data basis of risk concept
+
+Miscellaneous Approaches
+Thiagarajan et al. 2011
+Aqlan / Lam 2015 [3]
+Rajesh et al. 2015 [91]
+Tan et al. 2015 [121]
+Liu et al. 2016 [62]
+Tang et al. 2016 [123]
+
+Focus on disruption risks
+
+time units, in which the disrupted entity is partially
+functional. The DIOM calculates the propagative
+effects for each time frame (50 time units in total)
+with respect to the dependencies between each partner
+and the resilience of each entity. The mean resulting
+inoperability is multiplied with the planned fuzzy
+revenue to calculate the fuzzy financial losses. A
+sensitivity analysis tests the impact of each input’s
+value on the estimated fuzzy financial losses and on
+its ambiguity (a measure of uncertainty of TFSNs). The
+most critical input values should be reanalyzed more
+thoroughly until decision makers feel confident.
+Brosas et al. [12] use a fuzzy supply-side IOM to
+assess the impact of price changes due to an occurring
+disruption. A Philippine herbal food supplement supply
+network which is exposed to devastating typhoons,
+consisting of five suppliers, two manufacturers, and
+three distributing pharmacies, is modeled. Unlike the
+standard IOM, the supply-side IOM models supply-side
+price perturbations. A typhoon is assumed to increase
+the prices of one supplier by 10%. The interdependency
+matrix consists of fuzzy supply costs in the form of
+TSFNs. The price increases are calculated for each
+partner to see the most affected nodes.
+Table 11 compares the IOM approaches to the derived
+requirements. Although the approaches consider one
+generic disruptive event as a risk factor and do not have
+a strong focus on how to gather the input parameters,
+IOM is helpful for swiftly calculating the propagative
+effects with the help of the interdependency matrix.
+All approaches here partly fulfill the requirements of
+risk propagation and risk interdependencies because
+they focus on the impact of risks on the performance
+values. Risk mitigation is partly incorporated by one
+model. Wei et al. [143] increase the number of suppliers
+and evaluate the effects on the performance values.
+
+NN: Neural Network
+
+cost and to maximize risk reduction under budget
+constraints and a minimum risk reduction constraint.
+Bow-Tie analysis is used to aggregate the likelihood
+and impact of multiple risk factors to form a single risk.
+To evaluate the interdependencies between different
+risk mitigation strategies, the authors use expert
+opinion and develop a so-called risk mitigation matrix
+which displays the effect of each mitigation strategy on
+the incorporated risks.
+Rajesh et al. [91] combine Grey Theory with a Graph
+Theory Matrix Approach (GTMA) to find the most
+effective mitigation strategies with respect to various
+supply chain risks including the risk of disruption. Grey
+Theory is used to quantify the relative importance of
+risks as well as the positive and negative influence of
+each risk mitigation strategy over each risk by using
+linguistic expression of experts. The grey scales are
+converted into crisp values and the GTMA calculates
+the positive impact of each mitigation strategy in
+total as well as the negative impact of each mitigation
+strategy over all risks. The difference of these two
+values of each mitigation strategy forms the net
+positive influence value and enables the ranking of the
+strategies according to their effectiveness. 12 supply
+chain risk categories and 21 mitigation strategies with
+a focus on electronics manufacturing supply chains are
+considered.
+Liu et al. [62] combine a grey prediction model
+with a Neural Network to predict the demand after
+the occurrence of a transportation disruption. Grey
+Prediction Modeling (GM) is based on Grey System
+Theory, which describes systems with partially
+unknown parameters. GM requires only a limited
+amount of data to estimate behavior of an unknown
+system compared to conventional statistical models and
+uses a so-called grey differential equation to explain
+and predict dependent variables [44]. Neural Networks
+are designed to estimate functions to explain large-scale
+nonlinear systems and predict their behavior based on
+a relatively large amount of training data [42]. The
+authors study the demand of one single supply chain
+enterprise which experienced transportation disruption
+after a snow disaster and could predict the demand with
+less error than the standard GM.
+Tang et al. [123] analyze the dynamic effects of
+risk propagation in a supply network with 1000
+nodes consisting of a physical-layer (material flow,
+directed graph) and a cyber-layer (information flow,
+undirected graph). Each node is given a specific
+initial load, a maximum capacity, and a maximum
+permitted propagable failed load. A proportion of
+nodes fail at the beginning of each simulation run, and
+the corresponding linkages of the affected nodes are
+removed. The initial loads of the affected nodes are
+distributed through a socalled priority redistribution
+strategy to the neighboring nodes and added to their
+load. If a node’s maximum capacity is exceeded, the
+node fails and the propagated load as well as the load of
+
+23
+the newly failed node are forwarded to the neighbors but
+are not allowed to top the maximum permitted failed
+load. The physical-layer and cyber-layer are linked by
+some nodes. The probability that the surviving network
+still belongs to the giant component of the graphs
+serves as a measure of robustness. The authors test the
+effect of a single-node disruption versus a multi-node
+disruption and vary input parameters regarding the
+maximum capacity and initial loads.
+Table 12 compares the remaining modeling
+approaches and shows their corresponding modeling
+techniques. All approaches except the model of Rajesh
+et al. [91] focus on disruption risks, but only two of
+the models incorporate multiple risks. The variety
+between the models is relatively high, since different
+simulation techniques are used. Each technique has its
+own field of attention. The Neural Network approach
+of Liu et al. [62] emphasizes risk prediction based on
+historical data, while the multi-objective optimization
+model of Aqlan and Lam [3] and the Grey Theory
+approach of Rajesh et al. [91] aim to minimize risks
+with an adequate risk mitigation mix. The time-based
+simulation approach of Tan et al. [121] gives insight
+into the dynamic nature of risk propagation. Table 12
+shows that all models contain a form of risk assessment
+except Rajesh et al. [91], which focus solely on risk
+mitigation.
+The models of Rajesh et al. [91] as well as Aqlan
+and Lam [3] consider the process step risk mitigation
+explicitly, while Thiagarajan et al. [126] and Tan et al.
+[121] suggest risk mitigation strategies and indirectly
+show that nodes with backup supply or safety stock
+are less affected and accurate forecasting is beneficial.
+4.10 Interpretation of results
+The previous subsections have presented the 57
+approaches with the corresponding modeling
+techniques which are used to model SCDR on a networklevel. Each of these simulation techniques as well as
+specific approaches possess different characteristics.
+This section compares the eight techniques regarding
+the previously derived requirements and displays
+the strengths and weaknesses of these methods. The
+analysis of the requirements regarding the data basis
+and the risks integrated into the model can be conducted
+independently from the simulation techniques used.
+Regardless of the simulation techniques used, most of
+the identified models focus on disruption risks. Fig. 2a
+displays that more than 80% of all contributions have a
+direct focus on disruption risks, while ten publications
+consider disruption risks among general supply chain
+risks. Fig. 2b presents the fact that around half of the
+models incorporate only one risk, while 24 models
+(around 40%) include more than three various risks
+simultaneously. This indicates that a good proportion
+of researchers have recognized the importance of
+analyzing disruptions and have developed extensive
+
+(b) Number of risks
+
+(c) Data basis of risk concept
+
+Fig. 2: Overview of papers with respect to the focus on disruption risk, the number of risks considered,
+and the data basis of risk concept
+One important aspect of risk modeling is the data
+basis of the approach. Fig. 2c shows that more than
+three-quarters of the identified SCDR models consider
+the potential losses of the risk without integrating the
+probability of occurrence to their risk concept. This
+is suitable for considering deep uncertainty where
+events happen rarely and have a high impact. Only 12
+models (around 20%) have risks quantified with their
+probability of occurrence by historical data and expert
+knowledge. The approach of Klibi et al. [53] is the
+
+only one which considers hazardous as well as deeply
+uncertain events explicitly. This aspect indicates that
+more extensive work on the data basis of the developed
+models could be done.
+The types of disruptions modeled by the identified
+models can be seen in Fig. 3. Disruptions have been
+modeled by 29 publications, modeled in a generic way
+by impairing entities and/or links between supply chain
+partners independently of the risk cause. While 20
+models create disruptions by letting nodes fail, seven
+
+
+Fig. 4: Mitigation strategies incorporated by models
+models focus on generic transportation disruptions.
+Two of the models consider both transportation and
+node disruption. The most frequent specific disruption
+risks included by the 18 approaches are natural
+disasters, machine breakdowns, political risk, strikes,
+material shortages, financial instabilities, alignment
+conflicts, criminal activities, and IT breakdowns.
+Fig. 4 shows the proportion of each risk mitigation
+strategy with respect to the models which include some
+kind of risk mitigation. The largest portion of the risk
+mitigation strategies (nearly 30%) concern the supply
+base in the form of establishing backup supply. Around
+20% reduce risks by lowering their value in an abstract
+way without integrating the cause-effect relationship
+of strategies in the model itself. Increasing visibility
+and information sharing have been considered by
+around 15% of the models which have some kind of
+risk mitigation implemented. The same ratio of papers
+have various mitigation strategies implemented in their
+approach. Buffer inventory in the form of strategic
+stocking has been tested by around 10% of the models.
+Increasing transportation capacity has been used
+by around 7% and agility in the form of expediting
+deliveries has been implemented by 3% of the models.
+The risk behavior of the identified models
+is characterized by the evaluation criteria
+“interdependency”, “propagation”, as well as
+“dynamic modeling”. The output and the aim of the
+model, respectively, are defined by the criteria “risk
+prediction” and “risk optimization”. We study how the
+eight identified techniques satisfy each of these criteria
+independently before regarding how the criteria are
+satisfied jointly to learn more about the strengths and
+weaknesses of the techniques (RQ 3). Other approaches
+are not considered at this point since their quantity
+is too low to give insight into their characteristic
+features. Fig. 5 shows the proportion of instances of
+each technique and their fulfillment of the evaluation
+criteria.
+PN approaches have a focus on interdependent and
+propagative characteristics. Around 90% of the models
+include propagative aspects. The structure of this
+simulation technique, namely the alternating behavior
+
+of place and transition nodes, helps to model propagative
+effects. The approaches measure the propagation of the
+effects of a disruptive event or, in the case of stochastic
+and dynamic models, calculate the effects of risks.
+Interdependencies of different risk events are included
+in around 75% of the publications. No PN approach
+considers the propagation and the interdependencies of
+risks itself. Only around 30% of PN approaches display
+a dynamic model with stochastic features regarding, for
+example, process time or demand. 70% of the models
+are static and deterministic. The presence of risk
+prediction is twofold: PN and its reachability matrix
+can be either used to discover inconsistencies in intra
+and cross-company processes and is therefore able to
+detect the risk of coordination problems early on or the
+PN can be applied to better understand the system and
+the effects of SCDR. The prediction of risks itself is
+partly considered by 75% of the identified PN models
+but the effects of the supply chain system are measured
+by analyzing lead time and total disruption cost of the
+system. As part of risk optimization, around 25% of
+PN models are used to test the effects of individual
+mitigation strategies on the performance of the system.
+In comparison to PN, SD captures the dynamic
+behavior of its systems very well. All models integrate
+dynamic risk behavior. This factor can be ascribed to
+the equation structure of SD modeling as well as the use
+of causal loop diagrams. Closely linked to the aspect
+of dynamic modeling is the risk propagation behavior.
+It focuses on the transfer of risks to upstream and
+downstream supply chain entities. Around 60% of the
+instances exhibit either the propagation of detrimental
+consequences of risks and do not model the risk
+propagation itself or model risks explicitly but only focus
+on the direct supply chain partner. Around 90% of all
+models implement some form of interdependency since
+the cause-effect relationship expands over more than
+one supply chain entity. 60% of the SD models merely
+consider the interdependency of resulting potential
+losses of a risk, while the approaches of Guertler and
+Spinler [33] as well as Ghadge et al. [31] address risk
+interdependencies explicitly. Risk prediction is part of
+al. [31] predicts risk explicitly by using project risk data
+as a representation of supply chain risk which is hard
+to transfer to general supply chain activities. Around
+50% of the approaches partially aim to optimize the
+risk situation of the system. The authors compare the
+effects of one mitigation strategy on the performance
+indicators of the system in case of a disruption, but
+do not systematically optimize the system with
+various mitigation strategies at hand. The approach
+of Keilhacker and Minner [48] is an exception that
+completely focuses on risk mitigation.
+Discrete-Event Simulation as a dynamic and
+simulative modeling approach is mostly concentrated
+on risk optimization of the supply chain system. All
+models display dynamic charateristics. More than
+60% of the models incorporate a number of mitigation
+strategies and quantify their effect on the system’s
+performance. The approach of Ivanov [41] considers
+recovery processes as an abstract way of risk mitigation.
+Risk interdependencies have not been the focus of the
+identified studies so far. Only around 25% include a
+consideration of interdependencies. Aqlan and Lam
+[4] use a goal programming approach to find the best
+mitigation strategies and test their effects with DES.
+The optimizing model takes risk interdependencies
+into consideration and makes sure that mitigation
+strategies do not increase correlated risks. Petrovic
+[80] tests the effect of various uncertainties on the
+performance of the system, so the model partially
+satisfies the interdependency criteria. Risk propagation
+itself is not fully considered, but the propagation of
+the effects of SCDR is integrated similarly to SD and
+PN models. Over 30% take propagative features of
+disruptive events into account. The prediction of risks
+is so far only considered indirectly by the models of
+Schmitt and Singh [101, 102], Hishamuddin et al. [37],
+and Wang et al. [140] in the form of a basic analysis
+of cause-effect relationships regarding the potential
+impact of disruptive events.
+Bayesian Belief Networks by nature model
+risks explicitly and are predestined to calculate
+interdependencies between risks. All of the six
+identified SCDR models manage to display risk
+interdependencies. The definition of conditional
+probabilities is mandatory for this modeling technique,
+so it is difficult to use for deeply uncertain risk events
+which can only be studied in a what-if analysis. Due
+to its directed graph representation, it is suitable to
+model propagative system behavior. Two out of six
+models address the spread of different risks through the
+supply chain network and develop specific propagation
+measures. The model of Badurdeen et al. [5] partly
+measures risk propagation because it sets risks as
+true and analyzes the impact as a form of sensitivity
+analysis but does not consider the propagation through
+the network. In opposition to DES, the BN models
+concentrate less on risk optimization and more on
+
+27
+risk prediction. Risk prediction is fully considered by
+five approaches, while the approach of Badurdeen et
+al. [5] considers the probability of occurrence without
+estimating the impact. Risk mitigation strategies can be
+integrated by reducing the probability of occurrence of
+a specific risk or risks and capture the difference on the
+overall risk situation. None of the BN models display
+dynamic effects.
+Due to the nature of ABM modeling, every approach
+displays dynamic features of risk assessment. Other
+risk characteristics have not been thoroughly captured
+yet. Only one out of five models, namely the model of
+Otto et al. [75], analyze the direct and indirect effects
+of the disruptions and models the interdependent and
+propagative aspects of the resulting losses. 60% include
+some kind of risk optimization. Buffer inventory is used
+by Otto et al. [75] as well as Ledwoch et al. [56], who
+also incorporate contingent rerouting as a mitigation
+strategy. Bloss [10] discusses various strategies but
+does not present a detailed, concrete inclusion.
+Interpretive Structural Modeling is used to cover
+interdependencies between risks, and two out of three
+models are combined with a fuzzy MICMAC analysis
+to capture the strengths of the interdependencies. This
+modeling technique does not integrate any other risk
+behavior aspects, so that the field of application is more
+narrow than the other described techniques but can be
+easily combined with other techniques.
+The emphasis of MCS approaches lies in risk
+prediction. All three models incorporate risk prediction
+since they calculate the loss distribution due to various
+disruptive scenarios of different probabilities. Two
+out of three models include temporal aspects of the
+disruptive scenarios, while the model of Deleris and
+Erhun [22] calculates the losses by summing up the
+volume loss of each disruption. Risk optimization has
+not been modeled thoroughly yet. One of the three
+models, namely the one of Mizgier et al. [71], tests risk
+diversification through a multi-sourcing approach. The
+interdependencies of risks have not been considered by
+MCS approaches yet.
+IOM have a strong emphasis on loss interdependencies
+and loss propagation. All three models integrate the
+propagative and interdependent features through
+the interdependency matrix. The matrix is used to
+calculate the effects of the inoperability so that all
+models also incorporate the prediction of losses. IOM
+lacks a consideration of probabilities so far, so that it
+can only be used for deep uncertain risk events in the
+form of swift what-if analysis. The model of Niknejad
+and Petrovic [72] uses a dynamic IOM approach so that
+temporal aspects can be analyzed as well. The only
+model that considers one mitigation strategy is the
+model of Wei et al. [143], which focuses on redundant
+supply as a countermeasure for disruptive events.
+Fig. 6 displays the supported process steps of
+each simulation technique of a standard SCRM
+framework (RQ 4). BN models show a high focus
+another 50% also fully including risk mitigation.
+DES displays a slightly higher concentration on risk
+mitigation with 50% completely fulfilling this criteria
+and another 25% of the approaches partially fulfilling
+it. The control of risks is only completely present in
+one PN and one SD model. Two further PN approaches,
+namely the approaches of Blackhurst et al. [7] as well
+as John and Prasad [43], partially consider control
+of risk, since they address the detection of process
+related risks in the system. ISM is primarily used for
+risk identification and risk assessment. It does not
+support the risk identification itself, but identifies
+risk interdependencies and therefore supports risk
+
+assessment partially, too. ABM models concentrate on
+assessing the consequences of disruptive events and
+80% of the models support risk mitigation partially.
+With their specific design, MCSs have a strong focus
+on risk assessment and all approaches completely
+support this SCRM process. Only a third of the MCS
+models also consider risk mitigation. IOM approaches
+demonstrate a swift way to assess the consequences of
+disruptive scenarios. The IOM models lack a focus on
+risk identification and quantification, which decrease
+their usefulness. One of the three IOM models partially
+
+Fig. 7: Comparison of identified simulation techniques
+After analyzing the evaluation criteria separately,
+we now shift the attention towards the simultaneous
+satisfaction of the requirements. Fig. 7 displays
+the simulation techniques with respect to risk
+interdependencies, risk propagation, and dynamic
+risk modeling. The previously discussed features of
+the identified modeling techniques can be seen in the
+illustration. Only two models which use Bayesian
+Nets for modeling fulfill risk interdependencies
+and risk propagation requirements completely, but
+do not consider dynamic aspects. The majority of
+PN approaches and all IOM models consider risk
+propagation and risk interdependencies partially. The
+majority of SD approaches also cover these two aspects
+partially, with the exception of two SD models that fully
+cover risk interdepedencies. All ISM, DES, MCS, and
+the majority of ABM models only consider either risk
+propagation or risk interdependency. It is discernible
+that no approach covers all three important risk behavior
+characteristics totally. Since we now have analyzed the
+characteristics of the identified models and have also
+extended the view of the characteristics of the modeling
+techniques, we now want to focus on identifying
+possible improvements for prospective models (RQ
+5). The prior analysis displayed that the identified
+models lack the simultaneous consideration of the
+three important features of risk behavior on a networklevel: risk propagation, risk interdependencies, and
+dynamic behavior. We also revealed that not all SCRM
+processes are supported yet. The inherent strength of
+the BN modeling technique is the consideration of risk
+interdependencies and the possibilities to also take
+risk propagation into account. It lacks the portrayal
+of dynamic features. To accomplish modeling this
+aspect, BN models can be combined with dynamic
+
+techniques like SD, PN, ABM, or DES. The BN model
+could focus on calculating probabilities of occurrences
+for risk events and consider their interdependencies.
+The dynamic simulation techniques can be used to
+assess the consequences and losses of the networks,
+and the effect of mitigation strategies. The identified
+BN approaches have considered risk mitigation mainly
+by reducing the risk in an abstract way. Therefore, a
+combination with other simulation techniques could
+provide more valid insights.
+The strength of MCS consists in the inclusion of a
+large number of potential scenarios with stochastic
+distributions, so that the output of MCS models
+not only calculate a crisp value but develop a more
+differentiated stochastic view of potential damages.
+So far, the MCS approaches lack considering risk
+propagation and interdependencies. Since MCS
+consists of a large number of experiments and
+combining it with computation-intensive techniques
+would be impractical, they can be greatly combined
+with an IOM model to swiftly calculate risk impact on
+a network level.
+The ABM approaches have not yet lived up to their full
+inherent potential yet. ABM is useful for mimicking the
+complex behavior of entities and integrating rule-based
+or complex decision making into the independently
+acting agents. The identified models do not display
+decision making of the agents. In the context of SCRM,
+agents could be equipped with multiple mitigation
+possibilities and even complex ways of anticipating the
+consequences of risk countermeasures for the network.
+With other techniques like SD or PN this behavioral
+logic would be very complex and time-consuming to
+integrate, but ABM models allow a compact way of
+level. We therefore point out that prospective ABM
+models in SCRM should concentrate on more complex
+risk mitigation behavior.
+ISM can be easily combined with different modeling
+techniques and is useful in structuring information
+in the face of a large and complex system such as a
+supply network. None of the identified BN models have
+integrated ISM into their methdology even though it
+addresses risk interdependencies and can be used to
+build the structure of a BN systematically. ISM can
+also be combined to a great extent with IOM, since the
+interdependency matrix of the IOM approach is often
+not derived in a systematic way.
+As Fig. 4 has shown, a number of mitigation strategies
+have been implemented and around 15% of the models
+that include some form of risk mitigation have used
+various of mitigation strategies simultaneously. Still,
+there are plenty of further risk reduction techniques that
+could be modeled on a network-level. The strategies
+could be more thoroughly tested on their effectiveness.
+The mitigation strategies implemented are for the main
+part proactive strategies.
+Reactive strategies like responsive pricing, revenue
+management, or shifting demand over time have not
+been implemented by the identified models yet but can
+also be useful, as seen in the case of Nokia [57, 122].
+The interdependencies between multiple mitigation
+strategies could be analyzed in prospective models
+and optimal mixes of proactive and reactive strategies
+would be helpful for practitioners.
+The effects of disruptive events have been mainly
+captured with measures like inventory stock,
+customer fill rate, and cost measures like lost sales,
+etc. Some approaches have developed more riskspecific measures which take propagative aspects
+into account. What is still missing in the identified
+models is the perspective of measuring the resilience
+and robustness of the considered system. It would be
+interesting to analyze how long entities or the total
+network need to get back into balance. Therefore we
+want to motivate researchers to define specific metrics
+to measure disruption propagation as well as the degree
+of robustness and resilience of the system.
+Regarding the process steps of supported SCRM,
+it can be summarized that no approach supports all
+SCRM processes to date. Risk identification can be
+integrated by using specific systematic tools and
+techniques which also increases the validty of the
+whole risk assessment process. Risk assessment is the
+main focus of the majority of the identified models, also
+considering risk mitigation partly. The control of risks
+is only supported by a few models so far. Considering
+the recent trend in digitization and sensor-based data
+capture, processing, and intelligent behavior of cyberphysical systems, prospective decision making models
+need to capture this aspect more thoroughly. A key
+contribution would be to aggregate measurable risk
+
+indicators that can be tracked by modern sensors for
+a multitude of risks and integrate the data with the
+decision making models. The new trend in digitization
+could lead to a stronger symbiosis between SCRM and
+supply chain event management system.
+5
+
+CONCLUSION
+
+This review has identified 57 SCDR models and the
+corresponding modeling techniques between 2001
+and early 2018. Unlike prior reviews, we have not
+only presented the corresponding literature but also
+have derived relevant risk-specific criteria from the
+literature and from our introduced definition of SCDR
+models. All models have been evaluated based on these
+requirements. Subsequently, modeling techniques have
+also been analyzed. Our analysis indicates that the
+modeling approaches fulfill a great number of important
+risk-specific requirements, but still a lot of progress
+needs to be made. Especially on the main network
+level, risk characteristics, namely risk propagation, risk
+interdependency, and dynamic risk behavior, should be
+given more emphasis by future research efforts. Also
+the data basis of the approaches could be given a more
+central role to increase the models’ validity. We could
+also detect the individual strengths and weaknesses of
+the modeling techniques and proposed numerous ways
+of combining and expanding the techniques to cover
+more risk characteristics synchronously. In addition to
+that, prospective models should put more emphasis on
+resilience and risk control. The trend of sensor-based
+digitization will connect prospective decision models
+to real-time information more and increase their
+consideration. We therefore expect the research field
+of SCRM to further grow, expand, and play a more
+decisive role for academics and practitioners.
