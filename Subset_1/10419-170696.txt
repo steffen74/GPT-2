@@ -1,0 +1,423 @@
+1. Introduction
+Debate persists about the effectiveness and sustainability of international microfinance
+initiatives to alleviate poverty (Chliova, Brinckmann and Rosenbusch, 2015; Khavul,
+Chavez and Bruton, 2013). Data and statistical methods are questioned (see e.g.
+the 15-years-and-ongoing dispute in Pitt, 2014; Pitt and Khandker, 1998; Roodman
+and Morduch, 2014), and some studies even suggest a lack of any significant effect
+(Nghiem, Coelli and Rao, 2012). Other studies find that microfinance is effective but
+that the poorest borrowers benefit less than less-poor borrowers (Islam, Nguyen
+and Smyth, 2015), particularly when longer time periods are taken into account
+(Banerjee, Breza, Duflo and Kinnan, 2015). Hence, our understanding of the effects
+of microfinance remains incomplete.
+Why, for example, can moneylenders still thrive in countries where low-interest
+microfinance is widely available? Many studies of international microfinance appear
+to occur in a vacuum, assess the effectiveness of specific initiatives in isolation and
+ignore competition from informal sources of lending or other phenomena not easily
+quantified (Arp and Ardisa, 2016a). There are “important gaps in data availability,
+especially in developing countries, as well as for informal and rural sectors” (United
+Nations Inter-agency Task Force on Financing for Development, 2016: 20). But
+if formal microfinance were effective, one would expect an obvious impact on its
+informal competitors. Competition theory suggests that products or services with
+inherent advantages for customers will expand their share of competitive markets
+and potentially even achieve monopoly status (Sharkey, 1982). Formal, low-interest
+microfinance offers inherent advantages to poor borrowers, who often start their
+microventures through credit from informal lenders (Banerjee et al., 2015; Tsai,
+2004; Turvey and Kong, 2010). Hence, low-interest, formal microfinance could be
+expected to achieve monopoly status. At the very least, the effectiveness of formal
+microcredit should be noticeable – if not precisely enumerable – from its impact on
+informal competitors.
+Monopolistic competition theory (Chamberlin, 1947) describes imperfect markets
+in which competitors coexist without impact on each other. This is undesirable,
+as inefficient markets create social costs that burden the international community:
+Lenders can charge prices exceeding marginal costs, operate with excess capacity
+and spend too much on publicity rather than reduce the price of their product (see
+e.g. Krugman, Obstfeld and Melitz, 2015). This risk of social burden leads us to a
+discussion of microfinance policy and suggestions for future research with reference
+to the first and foremost United Nations (UN) Sustainable Development Goal (SDG)
+of ending poverty “in all its forms everywhere” (United Nations, 2017) as well as more
+specific considerations (United Nations IATF on Financing for Development, 2016).
+In the next section, a review of the literature and a summary of our research project
+to date provide the basis for that discussion.
+2. Literature review
+Microfinance initiatives for low-income households are deemed by many to have a
+positive effect on the lives of people in poor countries (Baye, 2013; Ghalib, Malki and
+Imai, 2015; Imai, Arun and Annim, 2010; Imai et al., 2012; Imai and Azam, 2012). Not
+only taxpayer-funded donations support these initiatives; in addition, transnational
+corporations (TNCs) and the international business community are deeply involved.
+The food giant Mars, for example, supports microfinance initiatives in 15 cocoagrowing communities in countries such as Côte d’Ivoire and Indonesia. Seeking to
+empower female entrepreneurs, it provides loans and microgrants to fund inputs
+within its supply chain (Mars, 2015). The banking giant Citibank invests in microfinance
+initiatives through a range of programmes. It maintains a partnership with the U.S.
+Government’s Overseas Private Investment Corporation, which funds microfinance
+initiatives in developing markets around the world and has provided more than
+US$417.4 million in financing to 46 microfinance institutions in 24 countries. It also
+partners with the Philippines-based Asian Development Bank (ADB) to facilitate local
+currency loans of up to US$100 million to microfinance institutions in the Asia Pacific
+region (Citibank, 2016: 80). TNCs Pearson, Hewlett-Packard, Google and MetLife
+are among the funding partners of the transnational initiative Kiva, which provides
+US$979.9 million in microfinancing for poverty alleviation in 83 countries (Kiva.org,
+2016). Indeed, the World Bank’s 2016 Cross-Border Funder Survey estimates that
+US$9.4 billion (28%) of the US$34 billion of funding for financial inclusion comes from
+private sources, with more than two thirds of overall funding used to finance lending
+portfolios (Soursourian, Dashi and Dokle, 2016). Hence, TNCs and the international
+business community are important stakeholders in the debate about microfinance
+effectiveness.
+There appears to be a growing consensus that poverty alleviation requires asset
+accumulation through entrepreneurial activities (Swain, Nguyen and Vo, 2008). Loans
+to micro-entrepreneurs help people accumulate assets, whereas non-productive
+loans merely help people consume more (Banerjee et al., 2015; Bruton, Ketchen
+and Ireland, 2013; Usman et al., 2015). Therefore, research typically focuses on
+micro-entrepreneurs (Bruton, Khavul and Chavez, 2011), and we follow this agenda.
+For micro-entrepreneurs in poor regions, informal as well as formal microfinance
+plays an important role (Banerjee et al., 2015). In China, for example, more than
+67% of farm households borrow from friends and relatives (Turvey and Kong,
+2010), as these informal lenders are accessible “at no cost” (Gine, 2011) other
+than maintaining a social network (Banerjee et al., 2015). Other sources of informal
+credit are moneylenders, trade credit, and rotating savings and credit associations
+(ROSCAs; see e.g. Tsai, 2004). For example, ROSCAs are seen as increasing
+venture opportunities, especially for women, even in less-poor regions such as urban
+Malaysia (Ghazali, 2003).
+In addition, loan officers in formal microfinance organizations play an important role.
+In Zambia, for example, they are found to act more like “debt collectors” although
+they were originally recruited to empower the poor (Siwale and Ritchie, 2012). In
+Nigeria, complex application processes and loan officers demanding collateral lead
+to informal over formal borrowing, and the majority of micro-entrepreneurs in a study
+of Western Kenya choose informal lenders for the same reasons (Alila, 1998). Many
+micro-entrepreneurs start their ventures using informal microcredit without collateral
+and with little or no documentation. Informal lenders provide access to convenient
+and quickly disbursed loans, are available at any time of day and night, blend with
+the community, know borrowers at a personal level and cater to specific needs of
+rural residents (Jones, 2008).
+Unfortunately, informal lending also involves loan sharks charging high interest rates
+and collecting debt through coercive methods. Many studies identify the limited
+supply of formal credit as the reason for their persistence (e.g. Tsai, 2004). However,
+the continued existence of informal lending cannot anymore be explained everywhere
+by a gap between supply and demand. Formal microcredit has become widely
+available in many countries, and multiple operational problems have been addressed
+(the cost of processing many small loans, lack of borrower credit histories, lack of
+collateral and income seasonality of many ventures). Both monitoring and transaction
+costs, for example, can be reduced by gleaning information from social networks of
+local communities (Khavul et al., 2013). Therefore, the question remains why informal
+lending still thrives when formal microfinance is widely available. We explore that
+question with the following methods.
+
+3. Methods
+Roodman and Morduch (2014: 599) warn that exclusive reliance on one type of
+microfinance study “is not optimal” because validity can be problematic and results
+can disappear after dropping statistical outliers and assumptions critical for the
+analysis. They argue that researchers, reviewers and journal editors should “take
+steps to prevent methodological complexity from obscuring fundamental issues”
+(Roodman and Morduch, 2014: 601). In our research, we avoid methodological
+complexity through an inductive approach (Corbin and Strauss, 2008). Assessing the
+effectiveness of microfinance through its effect on competitors, we interview market
+participants and triangulate the perspectives of borrowers with those of formal and
+informal lenders. Importantly, this includes current and past borrowing from formal
+and informal sources, prompting participants to draw comparisons.
+Our choice of Indonesia as the research setting is justified by that country often being
+held up, along with Bangladesh, as an example of widely available microfinance.
+Indonesia has more than 7,000 microfinance outlets offering low interest rates, loans
+not requiring collateral and repayment options that account for income seasonality
+(Bank Rakyat Indonesia, 2015). They are supported by the Government through
+Bank Rakyat Indonesia (BRI), an arrangement which, according to UNESCO’s and
+its own assessment, has proved to be successful, sustainable and profitable (Bank
+Rakyat Indonesia, 2015a; Robinson, 1997). The international business community
+and TNCs hold significant stakes in the effectiveness of microfinance initiatives in
+Indonesia: Citibank, Mars and Kiva.org, for example, are active. The insurance
+giant Allianz, through a public-private partnership with the German development
+organization GIZ and Indonesian microfinance outlets, developed a modular creditinsurance product (payung keluarga: family umbrella) with an average premium
+of US$1.30 per year that has reached the milestone of one million active insured
+people. Crucially, it is local loan officers that decide which modules to apply, and the
+chosen package is compulsory for microfinance borrowers (Prasetyo, 2013).
+Aiming to answer “why” questions, we chose semi-structured interviews to gain
+in-depth insight into the phenomena under investigation, establish meaning and
+construct theories based on the data collected. Rigidly structured interviews
+or quantitative methods such as surveys would not permit unknown themes to
+surface (Creswell, 2007). We conducted interviews in suburban Yogyakarta and its
+surrounding rural areas from 6 June to 5 July 2015 and from 14 June to 20 July 2016.
+Our fieldwork in 2015 on competition between formal and informal lending (Arp and
+Ardisa, 2016a, 2016b) included the observation of informal intermediation. Therefore,
+we returned in 2016 to further explore this phenomenon. We conducted interviews
+with 47 participants, of whom 24 are borrowers (farmers, cottage industry and smallstore operators), 5 are representatives of formal microfinance organizations and 18
+are a purposive sample of informal intermediaries. Access to participants was difficult
+but was gained through one interviewee in 2015 and further personal approaches
+in 2016. This was combined with the snowball method of asking initial participants
+(borrowers and intermediaries) for additional introductions.
+The approach worked well with borrowers and informal intermediaries once
+trust had been built, but not so well for representatives of formal microfinance
+initiatives once they understood that we wanted to discuss the topic of informal
+intermediation. Eleven informal intermediaries borrow from BRI outlets and three
+from Bank Pembangunan Daerah (BPD), Bank Perkreditan Rakyat (BPR), and a
+formal cooperative (Koperasi). Their loans are obtained through the governmentsupported, low-interest, collateral-free Kredit Usaha Rakyat (KUR) programme (loan
+amounts Rp 1–25 million) or commercial programmes that offer loan amounts up
+to Rp 200 million. The Government allocated Rp 10.5 trillion to subsidize the low
+interest rate, expand access to cheap loans and motivate entrepreneurship (Bank
+Rakyat Indonesia, 2016).
+We were concerned, perhaps excessively, about the sensitivity of the informal
+intermediation topic. Our strategy therefore was to have the 2016 interviews
+conducted by a youngish, innocent-and-naïvely-interested-looking researcher (we
+do not mean to suggest that age or looks are cognate with naïvety). This strategy
+is based on the notion that the appearance of researcher naïvety can help make
+interviewees feel secure and comfortable to volunteer information (Davidson, 2003).
+Specifically, this strategy helped “encourage participants to elaborate spontaneously
+on their own answers in fleshing out the details of their story” (Davidson, 2003: 82).
+To further enhance the “no risk” impression, all interview questions were asked
+in standard Bahasa Indonesia typical for a naïve, young, big-city academic from
+Jakarta. Some participants responded in Bahasa Indonesia and some in Javanese.
+Data were analysed with the aid of a second coder and spreadsheets containing
+participant numbers and texts. We first coded the transcribed interview segments
+for the key themes that had emerged early and then categorized subthemes. We
+then held discussions to establish a common understanding of difficult-to-translate
+interview segments, the meaning intended by participants, which first-tier themes
+the various subthemes belong to and the relative importance of themes. The
+rudimentary knowledge of Indonesian of the second coder helped in that regard.
+We had to, for example, consider the conceptual equivalence of “to give money”
+and “to lend money” in some of the interview terminology, and discuss the most
+appropriate translation of Indonesian terms such as bank besar and bank bulanan
+(literally: big bank and monthly bank, indicating the interest payment frequency of
+formal microfinance), versus lintah darat and rentenir (leech or blood sucker and loan
+shark), and pedagang, pengepul and tengkulak (trader, collector or hoarder, and
+middleman).
+
+4. Findings
+We found that poor human resource management and informal intermediation
+diminish the effectiveness of formal microfinance. In addition, key characteristics
+of some informal lending are insufficiently recognized. Our 2015 study found two
+distinct types of informal microcredit competing successfully with formal microfinance
+organizations: moneylenders and trader-financiers (Arp and Ardisa, 2016b). We
+also found in 2015 that borrowers referred to some informal lenders as tengkulak
+(middlemen). This caused us to collect additional data in 2016 showing that many
+moneylenders intermediate between formal microfinance organizations and microentrepreneurs by splitting loans obtained from formal microfinance into smaller credits
+to extend to borrowers. In aggregate, our findings help explain why the poorest
+borrowers benefit less from formal microfinance than do less-poor borrowers.
+4.1. Why moneylending can still thrive
+Our findings on this aspect are congruent with other studies. All interviewees
+who borrow from moneylenders view the ease of obtaining loans as the greatest
+advantage of this source of funding. The need for formal microfinance initiatives to
+improve ease of access is emphasized by our finding that some micro-entrepreneurs
+who borrowed from formal microfinance in the past have returned to moneylenders.
+They report being angry about having to close their store, queue at crowded
+microfinance offices and provide documentation such as land or birth certificates.
+Some of the poorest in Indonesia have neither birth certificates nor any other
+form of official documents. Moneylenders offer small, short-term loans without
+documentation that are available quickly, e.g. when borrowers suddenly need to
+order stock from distant cities.
+More important, borrowers complain that loan officers at formal microfinance
+organizations ask for collateral despite the Government advertising collateral-free
+microfinance (KUR). Moneylenders take advantage of the fact that human resource
+management practices at formal microfinance organizations incentivize loan officers
+to achieve low ratios of non-performing loans (NPLs) rather than to extend credit to
+the right borrowers. A typical remark of a moneylender:
+I know that [this formal lender] gives loans up to [Rp] 20 million without
+collateral, yes I know it. Actually, if [my borrower] is offered a loan without
+collateral from a bank, she will want it. But the constraints are the
+procedures.
+
+The procedures discourage poor borrowers in multiple ways. What borrowers need
+are small, collateral-free loans without documentation and bureaucratic procedures,
+quickly disbursed, and available as and when business opportunities arise:
+I will receive the money right away. I like it fast because, for business, once
+I get the loan, I can quickly start earning!
+
+Borrowers perceive the short loan periods and small loans of moneylenders as
+“finishing” loans faster in order to borrow anew. They fear not being able to make
+large monthly payments to formal microfinance organizations, perceived as “more
+expensive” than the “cheaper” small daily payments to moneylenders. More financially
+literate borrowers see the high cost of daily payments but, owing to demands for
+collateral from loan officers, see no alternative to moneylenders. Daily payments are
+particularly problematic for cottage industry operators who can collect revenue only
+after production processes are completed. Their lack of daily cash flow mirrors the
+income seasonality of poor farmers in rural areas and helps explain the existence of
+the second form of informal lending we found.
+4.2. Why trade finance can successfully compete with formal microfinance
+Trader-financiers provide microcredit, collaborate closely with borrowers, and
+connect producers and markets. Among their clients we again found entrepreneurs
+who had previously borrowed from formal microfinance. Comparisons drawn by
+these interviewees emphasize the need for formal microfinance organizations to
+improve their competitive offers.
+Microcredit from trader-financiers typically takes the form of productive goods
+rather than cash. For example, trader-financiers supply seeds, tools, plastic sheets,
+fertilizers or pesticides that are valued so that borrowers owe fixed amounts. Loan
+amounts are often significantly larger than those from moneylenders, and borrowers
+are obliged to repay by selling their outputs to trader-financiers below the market
+prices in the surrounding areas. Trader-financiers distribute outputs to urban markets
+where prices (e.g. for fresh produce) are higher than in remote areas. Hence, traderfinanciers generate multiple-source revenue from upstream, downstream and
+arbitrage opportunities between rural village and distant town markets that borrowers
+are unable to reach. Another important characteristic is the implicit interest of trade
+finance, causing many borrowers to not perceive it as lending:
+I asked him and he bought me plastics and seeds. I did not borrow any
+money.
+There is no interest rate. There is no interest, unlike loans from neighbours
+or banks.
+
+In addition, trader-financiers ensure the sale of perishable produce; are extremely
+flexible with payments, debt rollovers and additional loans, e.g. when crops fail; and
+provide practical help with harvesting. Although some borrowers recognize that
+larger loans are available through formal microfinance, they prefer trader-financiers
+because of their integration in rural communities. For example, substantial trust is
+involved during the harvesting, transportation and weighing processes, with farmers
+and trader-financiers trusting each other to weigh produce correctly without both
+parties present. Borrowers view trader-financiers as genuinely supportive.
+
+4.3. Why informal intermediation can occur
+Informal intermediation is common. Intermediaries typically borrow small amounts
+offered through the KUR programme or other poverty alleviation initiatives, and then
+lend on a fraction or the entire loan to other borrowers (“I read it as an opportunity
+for additional income”). Thus, the availability of formal, low-interest microfinance
+creates intermediation opportunities for entrepreneurs, often developing from casual
+intermediation into systematic deception for further loans (professional intermediation).
+An example of casual deception is when market stall operators apply for unnecessarily
+large formal loans, claiming to purchase additional inventory not actually needed.
+Such casual intermediaries lend to poorer borrowers on an opportunistic basis. An
+example of systematic deception are small repair shops that obtain loans to use for
+the shop’s operation when, in reality, the loans are used for complex arrangements
+such as providing credits to the poor for the purchase of motor scooters while renting
+the same motor scooters on a time-share basis to others.
+Poor human resource management at formal microfinance organizations permits –
+indeed, even fosters – informal intermediation and diminishes the effectiveness of
+formal microfinance. We found that loan officers at formal microfinance organizations
+are incentivized to focus on quantitative outcomes such as low NPL ratios, the
+number of loans and rollovers of “safe” loans, rather than on the poorest borrowers.
+Well aware of informal intermediation activities and deceptions, they deliberately
+ignore this information and extend loans to those borrowers they deem safest. We
+also found collusion between intermediaries and loan officers, as well as former loan
+officers becoming moneylending entrepreneurs:
+If I had to sell noodles or operate a small grocery store, it would be hard.
+[...] It’s nice to do this kind of business. It is easy to do.
+I worked at the Klaten office of a koperasi from 2005 to 2009. Then
+I realised that I will not make much if I kept working in the koperasi.
+A. established an additional cooperative in Wonosari, while I and my
+friends established here, in Klaten and Solo. A. has a license, I don’t
+have license.
+The people do not care whether we have licenses or not. What they need is a
+quick loan.
+
+Some of the businesses owned by intermediaries are genuine while others purely
+serve as a front to obtain funding from formal microfinance lenders. Different informal
+intermediation business models can be distinguished, with those at the professional
+loan shark end of the spectrum benefiting most from the availability of formal
+microfinance. Some of these businesses conduct complex operations that provide
+them with multiple revenue streams. Formal lenders do not thoroughly check the
+businesses of informal intermediaries and disburse loans without regard to poverty
+alleviation objectives. Intermediaries we interviewed told us that, as long as they
+pay instalments on time, loan officers do not care what the loans are used for.
+Provided that informal intermediaries have good credit scores, they can easily obtain
+additional loans.
+5. Discussion and implications
+Examining microfinance effectiveness through the impact it has on competitors
+provides a useful lens, helping to identify weaknesses. Microfinance initiatives may
+well be successful, profitable and sustainable if examined in isolation, but that does
+not mean they are effective in alleviating poverty and meeting the UN SDGs. Limited
+effectiveness would be a concern for both public sector supporters and private
+sector TNCs, with their US$9.4 billion stake.
+Grounded in the reality of market participants, our findings hold implications for
+international microfinance practice, policy and further research. The first and
+foremost UN SDG is to end “poverty in all its forms everywhere” (United Nations,
+2017). Within this SDG, the highest priority is given to the eradication of extreme
+poverty (SDG 1.1), closely followed by “ensuring…access to…financial services,
+including microfinance” (SDG 1.4). Our findings help explain a lack of sustainable
+effect on extreme poverty. Prior studies report that the poorest borrowers benefit
+less from formal microfinance than less-poor borrowers (Islam et al., 2015). Banerjee
+et al. (2015), taking a period of six years into account, report that this effect persists
+two years after formal microfinance is withdrawn. Persistent benefits to the poorest
+entrepreneurs without prior businesses are “generally indistinguishable from
+zero” (Banerjee et al., 2015). Our finding of informal intermediation helps explain
+this conundrum. An unintended consequence of formal microfinance can be that
+it provides informal intermediation opportunities to entrepreneurial individuals,
+particularly those who have extant businesses or who are able to portray themselves
+as businesses. The poorest of the poor entrepreneurs benefit less than the less-poor
+do. Hence, informal intermediation appears to be an important but neglected variable
+in assessments of the effectiveness of microfinance initiatives. We propose to the
+international business community to include this variable in large-scale, quantitative
+assessments of microfinance effectiveness. In aggregate, the propositions suggest
+that the larger the extent of informal intermediation, the lower the effectiveness of
+microfinance initiatives to alleviate poverty among the poorest of the poor (Arp,
+2017). Although further qualitative research on unintended consequences of formal
+microfinance seems advisable, the various propositions contribute to the quantitative
+evaluation toolbox of measurable characteristics.
+The UN stresses “the importance of designing regulatory and policy frameworks
+across all financial intermediation” (United Nations IATF on Financing for
+Development, 2016: 52). Our research findings on informal intermediation highlight
+that key characteristics of informal lending are insufficiently recognized. Similarly, our
+findings about the implicit interest of trade finance, which causes borrowers not to
+perceive it as lending, deserve the attention of policymakers and comprehensive
+further research. So do the other services of trader-financiers: The UN recognizes
+that “institutions may require a more qualitative analysis that highlights examples
+where different financial intermediaries have helped advance the financial inclusion
+agenda” (ibid, page 58). Our approach illustrates that poverty alleviation requires
+more than “ensuring access to microfinance” (SDG 1.4) and quantitatively assessing
+financial effectiveness in isolation. Poor entrepreneurs need operational help: help to
+be productive (tools, fertilizer, seeds and the like), help with transport and logistics
+(bringing rural and cottage industry products to distant markets) or help during
+harvest (when perishable produce quickly spoils). At a minimum, they need help to
+operate without the disruption of queuing at offices for cumbersome processes.
+Our findings of intermediaries’ multiple-source revenue models jives with ideas for
+“microcredit-plus programmes” explored by some TNCs such as Allianz and Mars, to
+provide practical and social support to clients in addition to capital. Their international
+microfinance initiatives may benefit from examining closely what trader-financiers do
+as those individuals live and work in the community, provide operational help and
+cooperate well with the poorest of the poor (cf. Jones, 2008). Providing logistics,
+distribution, assured sale of perishable products and price arbitrage between distant
+markets (perhaps through mutually owned cooperatives) may be starting points for
+TNCs and the international business community. Addressing other operational needs
+of the poorest may lead to new forms of microcredit initiatives over time. Some traderfinanciers can perhaps be coopted and their entrepreneurship harnessed. Policies
+could also formalize, support and lightly regulate existing trader-financier networks
+in line with UN SDG 8.3 “to integrate the informal sector into the formal economy”
+(United Nations Inter-agency Task Force on Financing for Development, 2016: 19).
+Our findings emphasize that the research agenda must also include human
+resource management practices. Methods to examine the crucial role of loan
+officer incentives deserve particular attention as “monitoring capacity for costeffective credit evaluation would require qualitative work” (United Nations Interagency Task Force on Financing for Development, 2016: 58). Collaborative research
+involving TNCs holds particular promise, as private sector international expertise
+on incentives and appropriate human resource management may be applicable to
+domestic government-supported initiatives. The US$9.4 billion stakeholder role of
+the international business community demands that TNCs examine the interface
+between loan officers’ incentives for correct evaluation and the types of credit offered.
+To better compete with moneylenders, formal microfinance initiatives should also offer
+smaller loans, shorter loan periods, daily or weekly payments, quicker disbursement,
+simpler procedures and draw-down facilities for multiple, irregular, credit withdrawals
+(e.g. inventory purchases available at temporarily low prices). We suggest further
+research, including quantitative and mixed methods, on the effectiveness of each of
+these characteristics.
+We do not advocate more regulation. In our view, regulations and their enforcement
+should solely target coercive intermediation practices at the extreme, loan-shark
+end of the informal lender spectrum. What constitutes usury, for example, has been
+debated since biblical times at least and will perhaps be debated forever. Instead
+of targeting usury, we advocate three groups of measures: first, learning from,
+cooperating with and potentially coopting informal lenders in line with UN SDG 8.3;
+second, improving human resource management in microfinance organizations
+and providing appropriate incentives to loan officers; third, ensuring ubiquitous
+basic financial literacy so that the poorest can evaluate whether operational
+services provided by informal lenders such as trader-financiers make up for the
+cost of their loans, which is higher more than that of formal microfinance. Enabling
+micro-entrepreneurs to make educated decisions about formal versus informal
+lenders may be as important as ensuring access to multiple microfinance market
+participants. Financial literacy initiatives could build on the reflexivity and worries
+of micro-entrepreneurs about self-discipline (Arp and Ardisa, 2016a: 16) and must
+include those that are otherwise entirely illiterate. We deem insufficient the UN’s
+assessment of financial literacy through student modules in the Gallup Global
+Financial Literacy Survey (United Nations IATF on Financing for Development,
+2016: 59).
+
+6. Conclusion
+This article’s main purpose is to help set an agenda for further research and discussion.
+It makes two interrelated contributions. First is the identification and characterization
+of informal microcredit beyond formal lenders that has been examined in prior
+research (e.g. Bos and Millone, 2015). Clearly, lending is heterogeneous and the
+competition to formal microfinance does not only comprise usurious moneylending
+by loan sharks.
+The second and main contribution of this article is the identification of informal
+intermediation as a significant (current) problem but also a potential (future) element
+of sustainable solutions. Microfinance organizations need fewer inappropriately
+incentivized loan officers and more entrepreneurial individuals with a trader-financier
+mindset designing multiple-source revenue models. Our contribution to theory,
+that the availability of formal low-interest microfinance can create unintended
+entrepreneurship opportunities (informal intermediation), needs to be considered in
+research and microfinance practice.
+Our research contributes to the understanding of lending to the poorest of poor
+micro-entrepreneurs through its grounded approach and focus on competitive
+impact. The debate on microfinance effectiveness has persisted because of a
+lack of focus on the fundamental question of competition. This article deepens
+understanding of formal microcredit by detailing why moneylending still thrives when
+low-interest microfinance is widely available. Neither formal microfinance nor research
+on its effectiveness operates in a competitive vacuum: Other forms of lending (and
+alternative approaches to research) exist. Learning from other market participants
+can be useful.
