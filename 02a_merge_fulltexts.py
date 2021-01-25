@@ -3,7 +3,7 @@
 import re
 import os
 
-dir = "02_fultexts-climate-change"
+dir = "02_fulltexts-climate-change"
 papers = []
 
 with open("full_texts_merged.txt", "w") as out_file:
