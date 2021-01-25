@@ -15,7 +15,7 @@ For our work we have decided to use a subset of papers related to the topic of c
 The notebook [00_import_econstor_data.ipynb](./00_import_econstor_data.ipynb) handles downloading the dataset and saving it to Google drive.
 
 [02_prepare_fulltext.ipynb](./02_prepare_fulltext.ipynb) handles initial pre-processing of full text papers. Further processing was required to handle journal-specific formatting.
-The results from this are stored in `02_fultexts_climate-change`, which contains 276 papers in total.
+The results from this are stored in `02_fulltexts_climate-change`, which contains 276 papers in total.
 
 
 The script [02a_merge_fulltexts.py](./02a_merge_fulltexts.py) can be used to merge all paper texts into a single file.
