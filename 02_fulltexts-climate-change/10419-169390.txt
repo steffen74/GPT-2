@@ -1,0 +1,320 @@
+Introduction
+
+The UN’s Sustainable Development Goals (SDGs) consider a collection of 17 major
+goals and their embedded 169 targets. They cover environmental (including resources
+and climate change), economic and social sustainability, the complex interplay between which creates synergies as well as trade-offs. According to cognitive studies
+(Halford, 2005), when we are faced with a complex challenge we need the help of
+tools to grasp the interplay of four or more factors. To understand how we can transition towards a sustainable world community is a challenge for which we need to consider far more than four factors. Nevertheless, much research is still limited to certain
+perspectives, generating prescriptions as to what needs to happen but with little explanation as to why something is not happening and what could thus be a lever for
+change. This paper features a qualitative cause and effect model that connects the
+(sub-)targets of the SDGs in order to grasp the interplay of these targets, identify the
+levers for effective measures and their obstacles, and to serve as a tool for concrete
+application for regions and nations. Its simplicity is an advantage compared to quantitative approaches and yet it goes beyond other qualitative approaches.
+The 17 SDGs (https://sustainabledevelopment.un.org/?menu=1300) and their (sub)targets have not yet been officially connected nor systemically analyzed in a both
+general and comprehensive manner. However, a quantitative simulation model called
+iSDG has been created by the Millennium Institute (www.millennium-institute.org)
+and it has been applied in some contexts, e.g. on policy coherence (Collste, 2017).
+Qualitatively there is a visualization of the interconnections between the SDG targets
+made with the software Kumu (http://blog.kumu.io/a-toolkit-for-mappingrelationships-among-the-sustainable-development-goals-sdgs) and a qualitative approach with some similarities to the one introduced in the paper by the International
+Council
+for
+Science
+(https://www.icsu.org/cms/2017/05/SDGs-Guide-toInteractions.pdf) and the Stockholm Environment Institute (Nilsson, 2017).
+The iSDG actually is an older world model (T21, http://www.millenniuminstitute.org/resources/elibrary/papers/T21Overview.pdf) that is adopted to fit the
+SDGs. It nicely shows interconnections through simulation over time. However, it is
+too complicated to be applied by decision makers and stakeholders, and it does not
+allow for qualitative exploration of the actual measures and obstacles that are often
+soft factors such as social, cultural, psychological or political which are difficult to
+quantify yet crucial for a successful transition.
+The Kumu model as well as the ICSU model provide insight but are fairly complicated to edit and the features for analysis are outdated (Sailer, 2012) compared to the
+Insight Matrix analysis (Neumann, 2015) of the iMODELER software, the tool used
+for the model we present in this paper.
+The ICSU approach is only partly systemic as it merely looks at interconnections
+between pairs of SDGs, but not the whole network. However, the input for their approach coming from a variety of experts is profound and meaningful.
+In order to ensure the utility of our analysis regarding findings from previous research, a literature search using Web of Science was conducted in an effort to reveal
+other studies which have used a systems approach to address the achievement of the
+SDGs. Studies from 2014-2017 were included to capture those conducted during negotiations before the SDGs were released in 2015 and afterwards. The search criteria
+of “SDG OR Sustainable Development Goal(s)” appearing in the title and “system(s)
+dynamic(s) OR system(s) analysis/analyses OR system(s) approach” as general keywords revealed only eight studies.
+Of these eight, only one study conducted by Obersteiner et al. (2016) used a truly
+systems approach in which the complexity of differing fields of inquiry and spatial/temporal dynamics are considered. Results of their research reveal that policies
+centered around goal 12 (Sustainable Consumption and Production) are the most effective at minimizing trade-offs in terms of environmental conservation initiatives and
+food prices (Obersteiner et al., 2016) and can thus be seen as a crucial leverage point
+for successful implementation. Although this study demonstrates the utility of a systems approach for revealing trade-offs between goals, the model used was created for
+a specific means and is not designed for easy manipulation in other contexts using a
+freeware software like iMODELER.
+Along with this study, five other publications returned in the search used systematic
+approaches concentrated on statistical methods or validation of progress or recommendations (Norheim et al., 2015; Anand and Roy, 2016; Lim, 2016; Liu, 2016; He et
+al., 2017). One other study focused on indicator identification for health-related SDGs
+(Murray, 2015), while another simply provided empirically based discussion and
+critique of health-based indicators (Buse and Hawkes, 2015). Although useful, the
+complexity of the social, political and environmental spheres in which the SDGs are
+to be applied calls for a systems approach for informed policy (Obersteiner et al.,
+2016).
+Apart from the relevant literature, there are numerous perspectives from which to
+approach the SDGs in terms of stakeholders crucial for their achievement. For example, by analyzing contributions by the private sector, the business perspective is partially captured by the global quality assurance and risk management company DNV
+GL (https://www.dnvgl.com/technology-innovation/spaceship-earth/). Findings from
+the gamut of such studies can be used to inform analyses more suitable for capturing
+the inherent complexity of the SDGs.
+Collste (Collste, 2017) argues for an application of the iSDG model on a national or
+sub-national level quantifying connections from the qualitative ICSU approach which
+he considers too vague. He also emphasizes the need to integrate stakeholders in order
+to achieve the SDGs. Despite these intentions, there remains a gap between qualitative modeling with little analysis and quantitative modeling with the need for sophisticated formulas and tools. This paper and the explorative qualitative cause and effect
+iMODELER model presented strikes a balance between these existing approaches as
+the model can easily be intuitively handled and applied. This allows for the explorative identification of actual levers and hindrances within a concrete region or nation
+through participatory stakeholder modeling and subsequent powerful analysis with
+Insight Matrices.
+Method: participatory, explorative, qualitative modeling
+
+Qualitative cause and effect modeling allows for a direct visual translation of otherwise spoken or thought arguments such as “more of something leads directly to either
+more or less of something else.” This is depicted by an arrow between two factors,
+either denoted with a plus or a minus.
+
+Fig. 1. View of the model within which a user can navigate interactively by changing perspectives and using filters
+
+Figure 1 depicts the form of the overall model. It cannot be read as a single picture as
+it already contains more than 200 factors with over 450 connections, forming more
+than 12 million feedback loops. Therefore there is a direct link to the model through
+which one has full access and the ability to import it into a freeware version of
+iMODELER:
+https://www.know-why.net/model/CaLIsTKbVf7Yg5bm8yRXGyg
+The model is best read by changing the perspective from which it is seen by means of
+placing specific factors as center points. The following screenshots from the model’s
+factors and connections show different perspectives of only the first one or two levels
+of eight total as figure 5 shows the model from the perspective of the factor “limited
+agricultural production is exported” with two levels of connections.
+As a starting point for the model we inserted a factor named “Well-being in the
+world”. A central target is necessary as it allows for the analysis of the model with its
+Insight Matrix in order to identify and evaluate potential measures which eventually
+lead to varying degrees of increase or decrease over time. Only the SDGs “End poverty”, “End hunger”, “Health for everybody”, “Sustainable cities and communities”
+(as it contains housing), “Peace, justice and strong institutions” (as they contain safety), “Gender equality” and “Reduced inequality” are directly connected to the overall
+target. Although subjective, this selection is widely in synch with Layard’s seven
+causes of happiness (Layard, 2011). The other SDGs serve these SDGs and each other, and are thus included when we analyze the Insight Matrix of the overall target of
+well-being in the world.
+
+Fig. 2. The Insight Matrix from the factor “Well-being in the world” shows on its horizontal
+axis the effectiveness of other factors either as increasing the “Well being in the world” or
+decreasing it. The vertical axis indicates the change of impact over time from short to medium
+to long term. The diameter of the factors indicate a further attribute, e.g. the current state of a
+measure, a target, or an obstacle. Note: this matrix should not yet be interpreted,, as the connections of the model are not weighted to fit a concrete region or nation.
+
+Figure 2 shows how to read and interpret the Insight Matrix of a factor. Of course,
+one can look at any other factor’s (including each SDG) Insight Matrix to see what
+factors serve as a lever or a hindrance. Also, users of the model may alter the connections in order to directly connect more or less factors to the overall target of wellbeing in the world. An alternative view on the results from the Insight Matrix would
+be a Tornado chart, as figure 11 later shows.
+The major benefit of this ‘open source’ model is its potential to continue reflecting on
+important factors that define the achievement of the different targets. Through explorative modeling one can ask for each factor four “know-why questions” (Neumann,
+2013):
+What leads directly to more of the factor?
+
+•
+
+What leads directly to less of a factor?
+
+•
+
+What may lead directly to more of a factor in the future?
+
+•
+
+What may lead to less of a factor in the future?
+
+Inclusion of factors from varying disciplines helps ensure a more robust and realistic
+model and for example technical, organizational, economic, social, cultural, psychological and political fields should be considered. Figure 3 shows an example of additional factors.
+
+Fig. 3. An example of additional factors included by exploratively asking for a wide range of
+relevant influences. In this case there are three factors that define the willingness of richer
+countries to supply financial aid: international and domestic political pressure including that
+which stems from lobbyists and media and national budgets (not shown). With the properties of
+the connection from the “Partnership of the goals,” the figure shows how a weighting can
+change from short term to medium and long term.
+
+In its first generalized draft the connections between the factors of the model are not
+yet qualitatively weighted. Qualitative weighting allows the user to define whether
+one factor’s impact onto another is weak or strong compared with other impacts, and
+whether this impact changes from short term to medium term or long term (which is
+defined in the model’s properties, Menu…Model properties).
+Figure 4 shows an example of a qualitative weighting. Note that only incoming connections are compared and that it makes most sense to first collect all relevant connections and then start the weighting. One method for weighting is to first determine
+the strongest impact and then continue with the second strongest and so forth. To keep
+the sum of weights below or equal 100 is also advisable as it helps maintain con-
+sistency and can be more easily interpreted as percentage values for the impacts of
+each factor.
+
+Fig. 4. An example the qualitative weighting of connections.
+
+Only after all the connections are weighted should one successively analyze Insight
+Matrices (see figure 2) starting with the overall target and then continuing to look at
+the Insight Matrices of the most important levers and obstacles in order to see which
+factors are synergistic (serving several targets) and which have trade-offs or are ambivalent (positive to one goal, negative to another).
+Qualitative models as a visualization of arguments from stakeholders and experts
+allow for inclusion of potentially relevant factors in order to gain a better understanding of a complex system. Reductionist approaches from separate disciplines can
+struggle to capture this inherent complexity and the necessary multi-dimensional consideration for successful interventions. The conclusions from these models are logically sound (based on abductive logic) and yet they depend on the accuracy of the
+single arguments and inclusion of all relevant factors. Thus, unless a qualitative model is falsified its insights are relevant. In this first draft of a model most connections
+represent arguments from the authors of the paper, based on their acquired knowledge
+and commonly accepted relations. The model provides a template which requires
+adjustment for use within specific contexts. Literature, expert interviews, workshops,
+focus groups and a wide range of other research methods can be implemented to further customize and legitimize the model for this purpose.
+Selected views with first insights from the model
+
+The original SDGs are generalized to consider four regions (developed countries,
+developing countries, least developed countries and small island states), and leave
+significant room for interpretation and therefore potential weakening of efforts. this
+language can be seen for example in target 12.7 “Promote public procurement practices that are sustainable, in accordance with national policies and priorities” or target
+9.4 “… with all countries taking action in accordance with their respective capabilities”.
+What follows are a number of selected excerpts from the model that need further examination and a proper weighting in order to fit a concrete region and reveal whether
+they imply ambivalent or synergetic effects.
+Figure 5 suggests that there might be a trade-off from more trading and export of
+agricultural products and the local supply of food.
+
+Fig. 5. The prevention of trade restrictions has the potential to end hunger yet by adding another plausible factor (depending on circumstances), it could also mean that scarce biomass production is exported despite it being needed for local food supply. On the other hand, this would
+be less of a problem with successful achievement of target 2.3, implying a sufficient increase in
+agricultural production.
+
+Figure 6 shows a dialog from iMODELER to select feedback loops. Highlighted are
+three examples of reinforcing and one example of a balancing feedback loop. The
+reinforcing loops show how more “Decent work and economic growth” leads to less
+“Lobby from powerful companies,” as they profit from the increased demand. With
+less lobbying there is more willingness to help developing countries which leads to
+more investments, finally leading to more “Decent work and economic growth”. The
+balancing feedback loop describes a situation in which more investments lead to more
+productivity which might lead to less jobs and thus less demand. Behind this is the
+assumption that at a certain point individual’s income is no longer consumed and
+instead floating to the decoupled finance industry (Crouch, 2011).
+
+Fig. 6. Reinforcing and balancing loops that involve “richer country’s willingness for financial
+aid”
+
+Figure 7 points to the myth that a decoupling of growth from the use of resources
+(Jackson, 2009) is possible. Growth alone would imply increased demand and it takes
+unprecedented technological developments (e.g. towards a circular economy) to compensate for that otherwise increased need for resources (Meadows; Randers, 1992).
+Fig. 7. Excerpt from the model that shows that “8.1 sustain per capita economic growth” could
+contradict “12.2 sustainable management and use of natural resources” as markets are driven by
+demand
+
+Figure 8 shows a very similar effect as an increase of productivity might contradict
+the target of full employment that could foster a reinforcing feedback loop of economic activity, income and demand that leads again to economic activity.
+
+Fig. 8. Excerpt from the model that shows that “8.1 sustain per capita economic growth” could
+contradict “8.5 full and productive employment”
+Behind the assumption that productivity is beneficial is a rather classic paradigm of
+economic growth (Beinhocker, 2007; Jackson, 2009; Crouch, 2011) that suggests that
+there is an endless increase of more persons consuming more service units (SchmidtBleek, 2000). Instead we have to consider that more people asking for more service
+units (e.g. energy production, whether from renewables or fossil fuels) can sooner or
+later increase resource prices. Although this increase means economic activity on one
+hand, the accompanying automation and digitization can also lead to a reduction in
+jobs and “decent work”. . There is little left for the victims of this disruptive prospect
+of increased productivity and the most vulnerable are disproportionately impacted.
+The specialists who profit from these developments will not spend all their money
+fostering labor intensive services – instead larger portions of money will vanish in the
+financial industry (Crouch, 2011). Although neither the model provided nor the SDGs
+feature these likely social tensions explicitly, such dynamics are important considerations for model specification and indeed practitioners generally interesting in effectuating the SDGs.
+Initial findings from a forthcoming quantitative model created by the authors and
+based on participatory stakeholder modeling workshops shows how for developing
+countries an increase of productivity in the agricultural sector can lead to a decrease
+in employment which cannot be compensated by any other domestic industry as a
+result of competition with developed countries. Therefore, a gain in productivity
+could only selectively increase income, which is often subsequently spent on imported goods thus leaving less money for the domestic economy.
+The application of the model to fit a concrete region or nation should cover these
+systemic potentials and pitfalls and consider improving productivity without sacrificing gainful employment and the strength of the domestic economy of developing
+countries, thereby limiting the outflow of money and resources to developed countries. This potentiality needs a more differentiated modeling with additional factors
+and appropriate weighting of connections to fit a concrete region or nation.
+It should also be noted that adding new factors which represent policy interventions
+into regionally adjusted models could also provide first insight into their effectiveness. A pertinent current example which could conceivably support the successful
+achievement of the SDGs is that of a universal basic income, an idea also being proposed at the global level (www.globalincome.org). This is a relevant example as such
+an intervention would surely have unanticipated systemic effects, whether they be
+positive or negative, well beyond the obvious or immediate purpose particularly in
+our globalized world (Van Parijs, 2015).
+However, the SDGs yet do not
+(www.globalincome.org) or similar.
+
+consider
+
+11
+
+a
+
+global
+
+universal
+
+income
+Application
+
+As an application for this model and the method of explorative qualitative - and in this
+case also collaborative – modeling, we have combined the SDG model with the
+branch of a cause and effect model based on (collaborative) output from a workshop
+conducted by the authors in Ghana with participants representing farmers, researchers, and private entities.
+Figure 9 shows an extracted model from the original created in the workshop. This
+branch focuses on “Quality and quantity of water in rivers”.
+
+Fig. 9. Model describing influences on quality and quantity of water in rivers in Ghanaian
+context.
+The
+link
+to
+the
+model:
+https://www.know-
+
+why.net/model/CJsA612RuvvYz2wZCB2NVJw
+Although the model was restricted by limited time for the workshop, it already points
+at some major problems. The added value connecting it to the overall model of SDGs
+(figure 10) and their targets is that core roots to some of the challenges or synergies as
+by means of support from other targets and their measures might be revealed.
+Whether one connects a separated model to the SDG model afterwards or works directly within the SDG model should depend on various aspects. For example, if expert
+workshops are used as a research method, time limitations could inhibit adequate
+explanation to participants. There may also be instances in which an individual target
+from the SDG model is taken as a starting point for model development or, such as in
+this case, a quite specific aspect is reflected on and expanded.
+12
+
+In any case the use of the explorative questioning technique of the aforementioned
+know-why questions helps elicit potentially relevant technical, financial, cultural,
+political, legal, psychological, (or otherwise)aspects. One should refrain from just
+descriptively picking existing factors from the SDG model and instead repeat the
+process of first exploratively asking for context specific influencing factors. When
+necessary and relevant, factors in the model provided can be used as a baseline or
+initiate brainstorming for differentiated use These can be easily found using the textbased search for existing factors.
+
+Fig. 10. Integration of the Ghana model into the SDG model. The model can be accessed
+through the link: http://www.imodeler.info/ro?key=CPFrzJ4XdToSe7rwU1H8nNw
+
+Figure 11 shows the Tornado chart of the Insight Matrix for the factor “Quality and
+quantity of water in rivers”. It already shows numerous targets from the SDGs that
+also influence the quality and quantity of water in rivers in Ghana. Many of the negatively influencing factors on the left of the tornado chart might surprise but an analysis of the cause trees (iMODELER offers a “Show why” button for this) shows that
+they are influenced by an increase of industrial activity that potentially reduces the
+quantity and possibly diminishes the quality of river water. However, with more time
+and depth, the factors related to industry could be differentiated in order to distinguish
+between different kind of industries and their effects, not just on the availability of
+water.
+Fig. 11. Tornado chart of the Insight Matrix of the factor “Quantity and quality of water in
+rivers” showing also the impact from the SDGs and their targets.
+
+6
+
+Summary
+
+It is very tempting for the authors to continue with the explorative modeling and adding of specific arguments despite the attempt at a rather generalized world model. The
+strength of this model, however, is that everybody can use it to include her or his
+arguments and thereby explore the interconnections and case-specific outputs. Creating generalized world models can nevertheless be the final objective in some cases, of
+which there are numerous such models on the iMODELER sharing platform
+www.know-why.net. If someone needs ideas for potentially relevant factors while
+modeling she or he can ask (figure 12) for suggestion for connections from this repository of models and connections:
+Fig. 12. Once you click on the button next to the editing field of a new connection you will get
+some proposals for influencing factors from other models from know-why.net that are connected to similar factors
+
+The best application of this model, however, is to use it in a kind of social lab with
+stakeholders and experts, possibly in a collaborative modeling workshop where everybody can use her or his computer, tablet or smartphone to edit the same model and
+build it together. Formats such as world café sessions using the four know-why questions to add crucial factors and adopt the weighting of connections to the concrete
+region or nation featured with the model would be well-suited for application of this
+tool. Points which emerge during discussion can be immediately captured and the sum
+of arguments can be analyzed in order to come up with concrete actions relevant to
+achieving the SDGs.
+Whether it is for only one, several specific SDGs at hand or the whole set of SDGs;
+modeling will provide useful insights, allow for the discovery of potential synergies
+and trade-offs or ambivalences, and create ownership (Barrington-Leigh, 2017) of the
+transition towards sustainability. Figure 13 shows an artwork that depicts as part of a
+good life for everyone a group of people looking at interconnections to develop new
+ideas.
+Fig. 13. A picture from Konzeptwerk Neue Ökonomie (www.konzeptwerk-neueoekonomie.org) depicting a group of people reflecting on interconnections in order to come up
+with ideas as part of a ‘good life’.
