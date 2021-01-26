@@ -1,4 +1,4 @@
-#TL;DR Generation for Scientific Texts with GTP-2
+# TL;DR Generation for Scientific Texts with GTP-2
 Notebook to generate To-Long;Didn't-Read (TL;DRs) summaries for abstracts or papers using GTP-2. 
 Data: Abstracts and fulltexts of 148 papers on climate change from econstor.
 Sources for code and notebooks:  
