@@ -43,3 +43,10 @@ from model training, allowing users to tokenize datasets ahead of time, even on 
 However as of early 2021, this library still suffers from some a couple [known issues](https://github.com/minimaxir/aitextgen#known-issues).
 Namely finetuning larger models is broken (and using FP16 failed for us as well), and we had to pin some dependencies to older versions
 as recent updates had broken the notebook ([issue](https://github.com/minimaxir/aitextgen/issues/78)).
+
+### [GPT-3 api](https://openai.com/blog/openai-api/)
+Generative Pre-trained Transformer 3 (GPT-3) is an autoregressive language model that uses deep learning to produce human-like text. It is the third-generation language prediction model in the GPT-n series (and the successor to GPT-2) created by OpenAI, a San Francisco-based artificial intelligence research laboratory.
+
+You need to request the access in order to use the OpenAI API. Steffen Brandt has the access to the API. So, we used the GPT-3 OpenAI API to generate the short answers for the climate change economics related questions and to generate the TL;DR for the abstract from the journals related to climate change economics.
+
+The script [04a_GPT_3_QA.ipynb](./04a_GPT_3_QA.ipynb) is used to generate short answers for the climate change economics related questions and the script [04b_GPT_3_TLDR.ipynb](./04_GPT_3_TLDR.ipynb) is used to generate the TL;DR for the abstract from the journals related to climate change economics. 
