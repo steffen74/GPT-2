@@ -24,11 +24,11 @@ For each model and each approach five TL;DRs were generated. The generated TL;DR
 Figure 1 and Figure 2 provide a summary of the results on the ROUGE score and on the quality according to the human ratings.
 (I would propose to include the tables as screenshots from Excel and refer to the Excel in the GitHub for details.)
 
-Figure 1
+Figure 1  
 ![Results of the ROUGE Score](03_tldr/figure1_ROUGE-score.png)
 
 
-Figure 2
+Figure 2  
 ![Results of the Human Ratings](03_tldr/figure2_human-ratings.png)
 
 
