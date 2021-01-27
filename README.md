@@ -24,9 +24,7 @@ For each model and each approach five TL;DRs were generated. The generated TL;DR
 The following two tables provide a summary of the results on the ROUGE score and on the quality according to the human ratings.
 (I would propose to include the tables as screenshots from Excel and refer to the Excel in the GitHub for details.)
 
-TABLE 1
-
-TABLE 2
+![Results of the Human Ratings](03_tldr/figure1_human-ratings.png)
 
 
 ### Answering of (Cimate Cange) Eonomic Specific Questions
