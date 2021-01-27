@@ -1,5 +1,4 @@
-# GPT-2
-Fine-Tuning the GPT-2 with EconStor Data
+# Fine-Tuning the GPT-2 with Abstract and Full Papers from the EconStor Database
 
 ## Dataset
 [EconStor](https://www.econstor.eu/) is a repository of open access
