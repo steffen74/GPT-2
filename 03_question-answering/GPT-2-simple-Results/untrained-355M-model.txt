@@ -1,0 +1,286 @@
+Data for Fine-Tuning:	none (no fine-tuning)
+Data-format:		---
+Steps trained:		---
+Model:			355M
+Approach:		few shot (prompt as follows...)
+
+
+<<<Start of prompt >>>
+
+[QUESTION]:What is the difference between climate change and global warming? 
+[ANSWER]:Global warming refers to the long-term warming of the planet. Climate change encompasses global warming, but refers to the broader range of changes that are happening to our planet, including rising sea levels; shrinking mountain glaciers; accelerating ice melt in Greenland, Antarctica and the Arctic; and shifts in flower/plant blooming times.
+
+[QUESTION]:What is the greenhouse effect? 
+[ANSWER]:The greenhouse effect is the way in which heat is trapped close to the surface of the Earth by greenhouse gases.
+
+<<<End of prompt >>>
+
+################################################################################################################
+
+[QUESTION]:How much does nuclear power affect world climate change? 
+[ANSWER]:Nuclear power, when installed, raises the average global temperature by about 0.3 degrees C, due to atmospheric and oceanic warming, and increases the amount of greenhouse gases released into the atmosphere. In Canada, nuclear power has been a huge contributor to our global warming.
+
+====================
+
+
+[QUESTION]:How much does nuclear power affect world climate change? 
+[ANSWER]:To some degree, because it is not an energy source as commonly thought. But some of the world's fastest growing sources of energy – wind, solar, hydroelectric power, biomass, geothermal – are doing significant climate change, so nuclear power is contributing as well.
+
+====================
+
+
+[QUESTION]:How much does nuclear power affect world climate change? 
+[ANSWER]:Of the 7.4 billion people on Earth, all but 700 million live in countries that lack electric power. They rely on coal, gas and oil for a substantial portion of their energy needs. Nuclear power is a relatively new technology and it is far from perfect. However, there are many promising technologies in development that would significantly reduce the use of nuclear energy. To date, there have been only 3 nuclear power plants operating in the United States.
+
+====================
+
+
+[QUESTION]:How much does nuclear power affect world climate change? 
+[ANSWER]:It is estimated that nuclear power will release up to five times more heat into the atmosphere as compared to a coal-fired power station, resulting in a warming of the atmosphere by about 20 times by 2050.
+
+====================
+
+
+[QUESTION]:How much does nuclear power affect world climate change? 
+[ANSWER]:The amount of heat that can be stored in nuclear power plants depends on two factors: the length of the process needed to create nuclear fuel and the amount of heat stored in the reactor.
+
+====================
+
+
+[QUESTION]:How much does nuclear power affect world climate change? 
+[ANSWER]:A new study showed that the amount of heat radiated by the sun from nuclear power plants was about half what the amount from natural sources.
+
+====================
+
+
+[QUESTION]:How much does nuclear power affect world climate change? 
+[ANSWER]:There are several potential causes of climate change. The first is heat flux into the atmosphere from changing energy-rich materials, such as carbon dioxide, water vapor, and methane. Some scientists have suggested that these changes may lead to climate change. Some climate scientists have suggested that nuclear power could slow the climate change by reducing the amount of these materials and thus the temperature increase.
+
+====================
+
+
+[QUESTION]:How much does nuclear power affect world climate change? 
+[ANSWER]:Falling water tables, more frequent droughts and other impacts have contributed to global warming.
+
+====================
+
+
+[QUESTION]:How much does nuclear power affect world climate change? 
+[ANSWER]:The larger your plant, the more electricity generated.
+====================
+
+
+[QUESTION]:How much does nuclear power affect world climate change? 
+[ANSWER]:In nuclear power, the first "reactor" started generating electricity at nuclear power plants in 1945. From 1940 through 1960, the cost of electricity from nuclear power plants rose by 1,800% per year. By the end of the 20th century, more than three-quarters of the world's nuclear power plants had reached peak capacity. As of 2005, more than 20% of the world's nuclear power plants had reached their capacity limit. Approximately 80% of nuclear power plants worldwide were 50 years
+====================
+
+
+################################################################################################################
+
+
+
+[QUESTION]:What will be th economic effects of climate Change? 
+[ANSWER]:Climate change is changing how the economy works. It has the potential to cause people to feel and live differently, which could cause them to feel less secure in their jobs, their opportunities to do something that they enjoy, and, in turn, affect the quality of the lives of everyone involved. There are also risks to the environment and to the economy from rapid climate change.
+
+====================
+
+
+[QUESTION]:What will be th economic effects of climate Change? 
+[ANSWER]:The economic effects of climate change include:
+
+The melting of ice caps, changing weather patterns and changes in the atmospheric pressure
+
+The disintegration of Antarctic ice sheets and sea ice
+
+Increased risk of heavy rainfall and droughts in large parts of Asia and parts of Africa
+
+Lower air temperature and increasing rates of heat stress
+
+Increased risk of extreme weather events and other consequences of extreme weather
+
+Increased risks of climate-related diseases and casualties and the spreading of disease through exposure
+====================
+
+
+[QUESTION]:What will be th economic effects of climate Change? 
+[ANSWER]:The effects of climate change will be negative for the United States and global economies will be weakened as a result.
+
+====================
+
+
+[QUESTION]:What will be th economic effects of climate Change? 
+[ANSWER]:The economic effects of climate Change are likely to be significant.
+
+====================
+
+
+[QUESTION]:What will be th economic effects of climate Change? 
+[ANSWER]:Climate change will impact individual economies by triggering changes in weather patterns, consumption patterns and technologies.
+
+
+====================
+
+
+[QUESTION]:What will be th economic effects of climate Change? 
+[ANSWER]:At this time, there is no evidence that global warming will lead to a drop in GDP (gross domestic product). That's because the impact of climate change on economic activity is not as well-established as that of other causes, such as population growth. However, the impacts of climate change can impact society at multiple levels: from human economic costs to the temperature effect on the environment, to public health threats.
+
+====================
+
+
+[QUESTION]:What will be th economic effects of climate Change? 
+[ANSWER]:The climate change impacts are much more than just economic. As climate change will lead to more severe droughts and heat waves and storms, more homes and buildings and other infrastructure will be lost, damage will be done to many natural resources, and food production will suffer. Climate change will also lead to higher rates of violence and terrorism, including death and destruction. There is no way to reduce or avoid the damages, and people will either need to make sacrifices or create huge new problems in order to stop
+====================
+
+
+[QUESTION]:What will be th economic effects of climate Change? 
+[ANSWER]:If global warming is good for business, it will raise corporate profits and raise productivity. If global warming is bad for business, it will increase economic costs and reduce productivity.
+
+
+====================
+
+
+[QUESTION]:What will be th economic effects of climate Change? 
+[ANSWER]:Wages will go up. Even after the destruction of global civilization, people will have a higher standard of living and increased access to basic needs such as food and shelter.
+
+ 
+====================
+
+
+[QUESTION]:What will be th economic effects of climate Change? 
+[ANSWER]:Current economic data shows that global economic growth is due to the rise of resource extraction, low-skill manufacturing, increased energy use and increasing carbon dioxide emissions. Businesses will be forced to adapt to less sustainable business models in order to survive. Many of these alternatives exist today, but many of these may not survive. Therefore, the economic consequences of climate change are unpredictable.
+====================
+
+
+################################################################################################################
+
+
+
+
+
+[QUESTION]:What are some problems with using renewable energy? 
+[ANSWER]:We must make it as clean and affordable as possible and not allow our weather systems to become ever more dependent on fossil fuels. We must also make sure that our energy sources are safe and efficient and efficient even at the expense of the environment. A little engineering can go a long way.
+
+====================
+
+
+[QUESTION]:What are some problems with using renewable energy? 
+[ANSWER]:Reckless use of renewables is harmful to society because they introduce carbon dioxide into the atmosphere, generate power and operate on top of fossil fuels, creating an additional greenhouse effect. A direct result of irresponsible use of renewables is an increase in the number of harmful greenhouse gases that are emitted into the atmosphere.
+
+
+====================
+
+
+[QUESTION]:What are some problems with using renewable energy? 
+[ANSWER]:Without a renewable energy source such as wind, the energy is not available for use or stored.
+
+
+====================
+
+
+[QUESTION]:What are some problems with using renewable energy? 
+[ANSWER]:Renewable energy sources use heat energy from the sun to generate electricity. They also convert this heat to useful products such as electricity. Some of these products are not directly usable but can be used to fuel cars and light industrial machinery.
+
+====================
+
+
+[QUESTION]:What are some problems with using renewable energy? 
+[ANSWER]:Our current energy system will always be based on fossil fuels, such as oil, coal, natural gas and nuclear. We need to re-evaluate our energy system to bring it closer to renewable energy.
+
+
+====================
+
+
+[QUESTION]:What are some problems with using renewable energy? 
+[ANSWER]:The atmosphere is quite unstable. If it is dampened, it could become very unstable and require a great deal of energy to keep it stable. Solar energy would be the most suitable source of energy for a steady surface.
+
+====================
+
+
+[QUESTION]:What are some problems with using renewable energy? 
+[ANSWER]:One of the biggest problems is that many of the world's coal plants cannot be "fired". This can lead to some of the hottest days, especially for summer.
+
+====================
+
+
+[QUESTION]:What are some problems with using renewable energy? 
+[ANSWER]:There are many problems with using renewable energy. First of all, there is no such thing as a renewable energy base, so using renewable energy depends on the total amount of renewable energy used.
+
+====================
+
+
+[QUESTION]:What are some problems with using renewable energy? 
+[ANSWER]:It is important to understand that renewable energy is only a small part of the energy mix in the world. The world consumes almost 40% of its energy from the fossil fuel sector. However, a strong solar base or molten salt in a facility can help us meet our needs as renewable energy. When we know exactly what's needed, it's easier to choose renewable energy. The world is set up to conserve resources through a much bigger energy share than in the past, and the trend is expected to continue
+====================
+
+
+[QUESTION]:What are some problems with using renewable energy? 
+[ANSWER]:The number one problem is cost. They charge you. I think the reason is because the cost of living is too high. There is no way to get the money back with renewable energy. You have to pay a lot of taxes to pay for it. You pay people to build it.
+
+====================
+
+
+################################################################################################################
+
+
+
+
+
+[QUESTION]:What is the advantage and disadvantage of renewable energy? 
+[ANSWER]:Renewable energy is a cleaner, cheaper, more efficient, reliable, more affordable and more sustainable way to generate electricity than nuclear power, coal-based power generation, and fossil fuels.
+
+====================
+
+
+[QUESTION]:What is the advantage and disadvantage of renewable energy? 
+[ANSWER]:Renewable energy projects are located throughout the world. For instance, wind turbines generate electricity, and solar panels generate heat. However, because renewables are limited to certain regions and locations, they do not produce much of an economic benefit.
+
+====================
+
+
+[QUESTION]:What is the advantage and disadvantage of renewable energy? 
+[ANSWER]:Some of the advantages are that we are using less fossil fuels and natural gas, and that we are paying less for energy than with coal and nuclear. There are also the economic benefits of more renewable energy.
+
+====================
+
+
+[QUESTION]:What is the advantage and disadvantage of renewable energy? 
+[ANSWER]:Renewables are sources of energy that are better able to replace fossil fuels. They are very low-carbon and less expensive, and are known to generate considerable amounts of electricity. The level of electrical output from renewables has doubled since 1970 and is expected to double again by 2050. Renewable energy sources are also more efficient at producing electricity in a shorter period of time. They require fewer resources and are not dependent on fossil fuels.
+
+====================
+
+
+[QUESTION]:What is the advantage and disadvantage of renewable energy? 
+[ANSWER]:Renewable energy systems generate a lot of electricity, which is more efficient than a coal or gas-fired plant, which must operate at high energy costs.
+
+====================
+
+
+[QUESTION]:What is the advantage and disadvantage of renewable energy? 
+[ANSWER]:The advantage is that renewable energy sources will continue to meet our current energy needs; the disadvantage is that they are expensive.
+
+====================
+
+
+[QUESTION]:What is the advantage and disadvantage of renewable energy? 
+[ANSWER]:Renewable energy has the advantage of being a proven, low-cost, and reliable energy source. However, costs depend on several factors including, which end-user pays for your energy, the location of the energy, and the cost of the electricity.
+
+
+====================
+
+
+[QUESTION]:What is the advantage and disadvantage of renewable energy? 
+[ANSWER]:Utility-scale renewables are meant to solve some of the environmental problems with the electrical grid. This is because they're smaller and hence they require less power. However, since the renewables often contain multiple intermittent sources of energy, they need to be kept on the grid for long periods of time. This is complicated by the intermittency of wind and solar, and some non-renewable energy sources, like the oil, natural gas, nuclear power or solar panels.
+
+====================
+
+
+[QUESTION]:What is the advantage and disadvantage of renewable energy? 
+[ANSWER]:Renewable energy produces almost no CO2 emissions, but requires an additional source of heat to operate.
+
+====================
+
+
+[QUESTION]:What is the advantage and disadvantage of renewable energy? 
+[ANSWER]:Renewables such as wind, solar and hydro can generate a larger amount of electricity than fossil fuels.
+
+====================
