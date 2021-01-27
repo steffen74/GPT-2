@@ -29,6 +29,19 @@ TABLE 1
 
 TABLE 2
 
+
+### Answering of (Cimate Cange) Eonomic Specific Questions
+
+
+#### Data
+We used 148 open source papers with a focus on climate change from the EconStor database for fine-tuning the GPT-2 (including those used for validation).
+
+#### Method
+
+
+#### Results
+
+
 ## Details
 
 ### Dataset
