@@ -48,8 +48,24 @@ For preprocessing we tried three different methods of merging the full-text pape
 The different preprocessing scripts are documented in [merge_full_texts_3_approaches](./03_question-answering/merge_full_texts_3_approaches.py).
 
 #### Results
-Our results were of mixed quality, with perhaps 10% being somewhat usable. As we weren't working in the domain of any known scoring system,
+Our results were of mixed quality, with perhaps 10% being somewhat usable. As we weren't working in the domain of any known (to us) scoring system,
 we could only evaluate them manually.
+
+
+Following are some example results from the aitextgen approach:
+
+**Q:** How much does nuclear power affect world climate change?
+
+**A:** Nuclear power is generally considered as a cleaner energy option, but there are limits to its use for power generation and consumption. Heat is a basic element of any system’s operation. Heat is also generally expected to be an inert greenhouse gas.
+Specific CO2 emissions are important for determining whether there is a change in temperature. For example, if greenhouse gas is 1.0% of the total energy mix, and temperature changes are not important (for example, if the temperature of a city is set at room temperature), it is not important
+
+**Q:** What are some problems with using renewable energy?
+
+**A:** Numerous problems with using renewable energy. First, the problems with using renewable energy are not new. For example, in the early '90s, the energy density of the sun was about 1,500 times more than the Earth’s surface. Today, the problem is much more severe. In fact, the Earth’s surface temperature is currently reaching 1,450 times more than the surface temperature of the sun in the next 100 years. According to the Intergovernmental Panel on Climate Change (IPCC), the sun’s energy density
+
+**Q:** How much does coal power affect world climate change?
+
+**A:** According to the World Coal Organization, total US$238 billion is burned by coal-based power plants. At current prices, coal-based power plants add approximately 20% of the total US electricity consumption. According to the International Energy Agency (IEA), coal-based power plants add approximately 20% of total US electricity consumption. In fact, according to the IEA, coal-based power plants are the largest-dichotically-generated source of greenhouse gas in the world, accounting for almost 90% of the total US electricity consumption.
 
 The full results for different setups can be found in the respective model subfolders in [03_question-answering](./03_question-answering).
 
