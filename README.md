@@ -21,10 +21,15 @@ Further, we compared two different prompt approaches:
 For each model and each approach five TL;DRs were generated. The generated TL;DRs were than compared using the [ROUGE score](https://en.wikipedia.org/wiki/ROUGE_(metric)) and four independent human ratings. The categories for the human ratings were defined to vary from 0 ("really bad") to 3 ("quite ok or better").
 
 #### Results
-The following two tables provide a summary of the results on the ROUGE score and on the quality according to the human ratings.
+Table 1 and Table 2 provide a summary of the results on the ROUGE score and on the quality according to the human ratings.
 (I would propose to include the tables as screenshots from Excel and refer to the Excel in the GitHub for details.)
 
-![Results of the Human Ratings](03_tldr/figure1_human-ratings.png)
+Table 1
+![Results of the ROUGE Score](03_tldr/figure1_ROUGE-score.png)
+
+
+Table 2
+![Results of the Human Ratings](03_tldr/figure2_human-ratings.png)
 
 
 ### Answering of (Cimate Cange) Eonomic Specific Questions
