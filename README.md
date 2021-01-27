@@ -32,14 +32,14 @@ Figure 1: Results of the ROUGE Scores
 Figure 2: Results of the Human Ratings
   
 
-### Answering of (Cimate Cange) Eonomic Specific Questions
-In this project ...
+### Answering of (Climate Cange) Economic Specific Questions
+In this project we wanted to explore whether GPT-2 could be used to answer domain-specific questions after having been trained on scientific papers.
 
 #### Data
 We used 148 open source papers with a focus on climate change from the EconStor database for fine-tuning the GPT-2 (including those used for validation).
 
 #### Method
-For the question answering subproject, we attempted to fine-tune GPT-2 models on scientific papers and abstracts and then used few-shot prompts to ask the trained models specific questions relevant to the area of expertise covered by the papers.
+We tried fine-tuning GPT-2 models on scientific papers and abstracts and then used few-shot prompts to ask the trained models specific questions relevant to the area of expertise covered by the papers.
 
 We used two main approaches here, one using gpt-2-simple, as documented in [this notebook](./03_question-answering/gpt-2-simple.ipynb) and another using aitextgen, documented in [this notebook](./03_question-answering/aitextgen.ipynb).
 
