@@ -39,10 +39,19 @@ In this project ...
 We used 148 open source papers with a focus on climate change from the EconStor database for fine-tuning the GPT-2 (including those used for validation).
 
 #### Method
+For the question answering subproject, we attempted to fine-tune GPT-2 models on scientific papers and abstracts and then used few-shot prompts to ask the trained models specific questions relevant to the area of expertise covered by the papers.
 
+We used two main approaches here, one using gpt-2-simple, as documented in [this notebook](./03_question-answering/gpt-2-simple.ipynb) and another using aitextgen, documented in [this notebook](./03_question-answering/aitextgen.ipynb).
+
+For preprocessing we tried three different methods of merging the full-text papers. For the first one we simply joined all the text files into a single one. For the next one we attempted to remove new lines within paragraphs, as those appeared often as an artefact of the previous pdf format. For the last method we also removed short lines (>50 chars) that didn't appear to be part of any paragraph but instead headlines, tables or sources, all of which would have only polluted the dataset.
+
+The different preprocessing scripts are documented in [merge_full_texts_3_approaches](./03_question-answering/merge_full_texts_3_approaches.py).
 
 #### Results
+Our results were of mixed quality, with perhaps 10% being somewhat usable. As we weren't working in the domain of any known scoring system,
+we could only evaluate them manually.
 
+The full results for different setups can be found in the respective model subfolders in [03_question-answering](./03_question-answering).
 
 ## Details
 
@@ -61,9 +70,6 @@ The notebook [00_import_econstor_data.ipynb](./00_import_econstor_data.ipynb) ha
 
 [02_prepare_fulltext.ipynb](./02_prepare_fulltext.ipynb) handles initial pre-processing of full text papers. Further processing was required to handle journal-specific formatting.
 The results from this are stored in `02_fulltexts_climate-change`, which contains 276 papers in total.
-
-
-The script [02a_merge_fulltexts.py](./02a_merge_fulltexts.py) can be used to merge all paper texts into a single file.
 
 ### Approaches for fine-tuning GPT-2
 We looked into different approaches for fine-tuning GPT-2 on Google Colab and ended up working with two different libraries,
