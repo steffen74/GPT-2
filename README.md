@@ -25,7 +25,7 @@ Figure 1 and Figure 2 provide a summary of the results on the ROUGE score and on
 (I would propose to include the tables as screenshots from Excel and refer to the Excel in the GitHub for details.)
 
 Figure 1  
-![Results of the ROUGE Score](03_tldr/04_figure1_ROUGE-score.png)
+![Results of the ROUGE Score](03_tldr/04_figure1_ROUGE-scores.png)
 
 
 Figure 2  
