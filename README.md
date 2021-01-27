@@ -1,4 +1,34 @@
-# Fine-Tuning the GPT-2 with Abstract and Full Papers from the EconStor Database
+# Fine-Tuning the GPT-2
+# with Abstracts and Full Papers from the EconStor Database
+
+## Summary
+The overall goal of the two projects documented in this repository are the comparison of different fine-tuned GPT-2 models and the GPT-3 model without fine-tuning. The results might thereby give a hint to what extent fine-tuning is still a very worthwhile thing to do, or it might be more to focus on the integration of larger models and the design of the prompts for these models.  
+This question will be even more pressing when estimated models comparable to GPT-3 or even better get fully open source, which is very probable looking at initiatives such as [EleutherAI](https://www.eleuther.ai/).
+
+We compared the abilities of the different approaches via the following two projects.
+
+### Abstract-Based Generation of TL;DRs
+In this project, we provided the GPT models with the abstract of a fulltext paper and asked it to generate a Too-Long;Didn't-Read (TL;DR) summary of it, that is a one sentence summary of the corresponding full text paper.
+#### Data
+We used 148 open source papers with a focus on climate change from the EconStor database for fine-tuning the GPT-2 (including those used for validation) and five abstracts from papers on climate change that were not included in this database and served as test data.
+#### Method
+We compared three different models:
+- a GPT-2 fine-tuned only with the abatracts of the papers
+- a GPT-2 fine-tuned with the full texts of the papers (with title page and bibliography excluded)
+- an untrained GPT-3
+Further, we compared two different prompt approaches:
+- a one-ohot approach, with only one example abstract and TL;DR provided
+- a few-shot approach, with two example abstracts and TL;DRs provided
+For each model and each approach five TL;DRs were generated. The generated TL;DRs were than compared using the [ROUGE score](https://en.wikipedia.org/wiki/ROUGE_(metric)) and four independent human ratings. The categories for the human ratings were defined to vary from 0 ("really bad") to 3 ("quite ok or better").
+
+#### Results
+The following two tables provide a summary of the results on the ROUGE score and on the quality according to the human ratings.
+(I would propose to include the tables as screenshots from Excel and refer to the Excel in the GitHub for details.)
+
+TABLE 1
+
+TABLE 2
+
 
 ## Dataset
 [EconStor](https://www.econstor.eu/) is a repository of open access
