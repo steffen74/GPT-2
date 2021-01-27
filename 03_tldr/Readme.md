@@ -1,5 +1,7 @@
-# TL;DR Generation for Scientific Texts with GTP-2
-Notebook to generate Too-Long;Didn't-Read (TL;DR) summaries for abstracts or papers using GTP-2. 
+# TL;DR Generation with GTP-2
+This folder contains the Python notebooks used to prepare data and fine-tune the GPT-2 as well as the results.  
+
+As des
 Data: Abstracts and fulltexts of 148 papers on climate change from econstor.
 Sources for code and notebooks:  
 [Huggingface Transformers](https://github.com/huggingface/transformers)
