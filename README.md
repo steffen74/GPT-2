@@ -1,5 +1,4 @@
-# Fine-Tuning the GPT-2
-# with Abstracts and Full Papers from the EconStor Database
+# Fine-Tuning the GPT-2 with Abstracts and Full Papers from the EconStor Database
 
 ## Summary
 The overall goal of the two projects documented in this repository are the comparison of different fine-tuned GPT-2 models and the GPT-3 model without fine-tuning. The results might thereby give a hint to what extent fine-tuning is still a very worthwhile thing to do, or it might be more to focus on the integration of larger models and the design of the prompts for these models.  
