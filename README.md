@@ -74,9 +74,11 @@ Here are also some examples generated with the GPT-2-Simple approach:
 **A:** It is not yet clear what the economic effects of climate change will be. However, likely the main result will be disruption to the existing global financial markets. Ecological disasters, droughts, drought, floods, etc. have already started, and will continue to have a major impact on economies worldwide. It is also expected that the effects will be felt most heavily on the poorest and least developed countries.
 
 **Q:** How much does nuclear power affect world climate change? 
+
 **A:** Nuclear power releases a lot of greenhouse gases into the atmosphere, as most of the electricity we use comes from fossil-fuel-generated energy industry. Nuclear energy also releases large amounts of heat-trapping gas into the atmosphere, such as methane and carbon dioxide (CO2)
 
 **Q:** How much does global warming affect wildlife tourism? 
+
 **A:** Climate change and tourism are two very different things, but climate change is more than just bad for tourism. Climate change can cause significant declines in the abundance of natural habitats, disrupt migration patterns of some species, lead to new epidemics (the West Nile virus, Ebola and yellow fever). Tourism, on the other hand, can be very good for a lot of species of migratory birds, butterflies, moths, and other species.
 
 The full results for different setups can be found in the respective model subfolders in [03_question-answering](./03_question-answering).
