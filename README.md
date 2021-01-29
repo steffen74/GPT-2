@@ -24,12 +24,13 @@ For each model and each approach five TL;DRs were generated. The generated TL;DR
 Figure 1 and Figure 2 provide a summary of the results on the ROUGE score and on the quality according to the human ratings.
 (I would propose to include the tables as screenshots from Excel and refer to the Excel in the GitHub for details.)
   
-![Results of the ROUGE Score](03_tldr/04_figure1_ROUGE-scores.png)
-Figure 1: Results of the ROUGE Scores
+![Results of the Human Ratings](03_tldr/04_figure_human-ratings.png)
+Figure 1: Results of the Human Ratings
   
+
+![Results of the ROUGE Score](03_tldr/04_figure_ROUGE-scores.png)
+Figure 2: Results of the ROUGE Scores
   
-![Results of the Human Ratings](03_tldr/04_figure2_human-ratings.png)
-Figure 2: Results of the Human Ratings
   
 
 ### Answering of (Climate Cange) Economic Specific Questions
@@ -101,7 +102,7 @@ The notebook [00_import_econstor_data.ipynb](./00_import_econstor_data.ipynb) ha
 [02_prepare_fulltext.ipynb](./02_prepare_fulltext.ipynb) handles initial pre-processing of full text papers. Further processing was required to handle journal-specific formatting.
 The results from this are stored in `02_fulltexts_climate-change`, which contains 276 papers in total.
 
-### Approaches for fine-tuning GPT-2
+### Approaches for Fine-Tuning GPT-2
 We looked into different approaches for fine-tuning GPT-2 on Google Colab and ended up working with two different libraries,
 both by the talented Max Woolf.
 
@@ -125,9 +126,12 @@ However as of early 2021, this library still suffers from some a couple [known i
 Namely finetuning larger models is broken (and using FP16 failed for us as well), and we had to pin some dependencies to older versions
 as recent updates had broken the notebook ([issue](https://github.com/minimaxir/aitextgen/issues/78)).
 
-#### [GPT-3 api](https://openai.com/blog/openai-api/)
-Generative Pre-trained Transformer 3 (GPT-3) is an autoregressive language model that uses deep learning to produce human-like text. It is the third-generation language prediction model in the GPT-n series (and the successor to GPT-2) created by OpenAI, a San Francisco-based artificial intelligence research laboratory.
+#### [Hugging Face Transformer Library](https://huggingface.co/transformers/)
+The Huggingface Transformers library provides general-purpose architectures for Natural Language Understanding (NLU) and Natural Language Generation (NLG) with over 32+ pretrained models in 100+ languages and deep interoperability between TensorFlow 2.0 and PyTorch.
+The fine-tuning based on this approach is, for eexample, described [here](https://towardsdatascience.com/fine-tuning-gpt2-for-text-generation-using-pytorch-2ee61a4f1ba7), which was adapted for our purposes to fine-tune the model for the TL;DR generation; see [this notebook](https://github.com/steffen74/GPT-2/blob/main/03_tldr/01_GPT-2_with_abstracts.ipynb) for the fine-tuning based non journal abstracts and [this notebook](https://github.com/steffen74/GPT-2/blob/main/03_tldr/01_GPT-2_with_full_texts.ipynb) for the fine-tuning of the full text journals.
 
-You need to request the access in order to use the OpenAI API. opencampus.sh has an access to the API. So, we used the GPT-3 OpenAI API to generate the short answers for the climate change economics related questions and to generate the TL;DR for the abstract from the journals related to climate change economics.
+### The [GPT-3 API](https://openai.com/blog/openai-api/)
+GPT-3 is the third-generation language prediction model in the GPT-n series (and the successor to GPT-2) created by OpenAI and is based on the same structure for the architecture just in a much bigger form and trained with much more data.
+In contrast to GPT-2 the model weights are not published and there is currently no camparable (trained) model publicly available. In order to use the model, you have to have access to the GPT-3 OpenAI API. For our projects we used the access of opencampus.sh to generate the short answers for the climate change economics related questions and to generate the TL;DRsfor the abstractsfrom the journals related to climate change economics.
 
 The script [04a_GPT_3_QA.ipynb](./04a_GPT_3_QA.ipynb) is used to generate short answers for the climate change economics related questions and the script [04b_GPT_3_TLDR.ipynb](./04_GPT_3_TLDR.ipynb) is used to generate the TL;DR for the abstract from the journals related to climate change economics. 
