@@ -42,7 +42,7 @@ The results in Figure 3 additionally show that when comparing the ROUGE-1 score,
 ![Results of the ROUGE Score](03_tldr/04_figure_recall_ROUGE-scores.png)
 Figure 3: Results of the Recall for Different ROUGE Scores
   
-Notes:
+Notes:  
 **ROUGE-n**: Overlap of n-grams between the abstracts and the summaries  
 **ROUGE-L**: Longest Common Subsequences. Takes sentence level structure similarity naturally into account and identifies longest co-occurring in sequence n-grams automatically  
 **Precision**: Proportion of the n-grams in the generated summary that are also present in the abstract (i.e. a rouge-1 precision of 0.21 means that 21% percent of unigrams in the generated summary are also present in the abstract).  
