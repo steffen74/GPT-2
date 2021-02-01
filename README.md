@@ -21,17 +21,36 @@ Further, we compared two different prompt approaches:
 For each model and each approach five TL;DRs were generated. The generated TL;DRs were than compared using the [ROUGE score](https://en.wikipedia.org/wiki/ROUGE_(metric)) and four independent human ratings. The categories for the human ratings were defined to vary from 0 ("really bad") to 3 ("quite ok or better").
 
 #### Results
-Figure 1 and Figure 2 provide a summary of the results on the ROUGE score and on the quality according to the human ratings.
+Figure 1, Figure 2, and Figure 3 provide a summary of the results on the ROUGE scores and on the quality according to the human ratings.
 (I would propose to include the tables as screenshots from Excel and refer to the Excel in the GitHub for details.)
   
+The human ratings show that:
+(1) Few shot (here 2-shot) learning already works notably better then on-shot learning,
+(2) For the given case fine-tuning on abstracts yields better results then our fine-tuning on the full texts, and
+(3) GPT-3 yield notably better results without fine-tuning than the two fine-tuning approaches we used for GPT-2.
+
 ![Results of the Human Ratings](03_tldr/04_figure_human-ratings.png)
 Figure 1: Results of the Human Ratings
   
+The results in Figure 2 show that the recall score is the best score in order to differentiate the models' results. The results for the ROUNGE-2 score are also very much in accordance with the human ratings.
 
-![Results of the ROUGE Score](03_tldr/04_figure_ROUGE-scores.png)
-Figure 2: Results of the ROUGE Scores
+![Results of the ROUGE Score](03_tldr/04_figure_ROUGE-2-scores.png)
+Figure 2: Results of the ROUGE-2 Scores
   
+The results in Figure 3 additionally show that when comparing the ROUGE-1 score, the ROUGE-2 score, and the ROUGE-L score, all ROUGE scores yield similar results but the ROUGE-2 score seems to make differences between the models most transparent.
   
+![Results of the ROUGE Score](03_tldr/04_figure_recall_ROUGE-scores.png)
+Figure 3: Results of the Recall for Different ROUGE Scores
+  
+Notes:
+**ROUGE-n**: Overlap of n-grams between the abstracts and the summaries
+**ROUGE-L**: Longest Common Subsequences. Takes sentence level structure similarity naturally into account and identifies longest co-occurring in sequence n-grams automatically
+**Precision**: Proportion of the n-grams in the generated summary that are also present in the abstract (i.e. a rouge-1 precision of 0.21 means that 21% percent of unigrams in the generated summary are also present in the abstract).
+**Recall**: Proportion of the n-grams in the abstract that are also present in the summary (i.e. a rouge-1 recall of 0.45 means that 45% of the unigrams in the abstract are also present in the summary).
+**F-score**: Measure of robustness and precision. Harmonic mean of your precision and recall. Greatest when precision and recall are equal.
+
+#### Remarks
+When fine-tuning the GPT-2 we noticed the importance of the text preprocessing for the full papers. Since the texts of the papers were based on scanned PDFs, they included a lot of "unclean" texts, like page breaks, references, and tables. We tried to remove big part by automatic text preprocessing and by manually removing it but we, for example, did not remove tables. A better approach for the future might be to only include the introduction and conclusion of each paper - also considering the purpose of the task.
 
 ### Answering of (Climate Cange) Economic Specific Questions
 In this project we wanted to explore whether GPT-2 could be used to answer domain-specific questions after having been trained on scientific papers.
