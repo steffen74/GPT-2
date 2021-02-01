@@ -47,7 +47,7 @@ Notes:
 **ROUGE-L**: Longest Common Subsequences. Takes sentence level structure similarity naturally into account and identifies longest co-occurring in sequence n-grams automatically  
 **Precision**: Proportion of the n-grams in the generated summary that are also present in the abstract (i.e. a rouge-1 precision of 0.21 means that 21% percent of unigrams in the generated summary are also present in the abstract).  
 **Recall**: Proportion of the n-grams in the abstract that are also present in the summary (i.e. a rouge-1 recall of 0.45 means that 45% of the unigrams in the abstract are also present in the summary).  
-**F-score**: Measure of robustness and precision. Harmonic mean of your precision and recall. Greatest when precision and recall are equal.  
+**F-Score**: Measure of robustness and precision. Harmonic mean of your precision and recall. Greatest when precision and recall are equal.  
 
 #### Final Remarks
 When fine-tuning the GPT-2 we noticed the importance of the text preprocessing for the full papers. Since the texts of the papers were based on scanned PDFs, they included a lot of "unclean" texts, like page breaks, references, and tables. We tried to remove big part by automatic text preprocessing and by manually removing it but we, for example, did not remove tables. A better approach for the future might be to only include the introduction and conclusion of each paper - also considering the purpose of the task.
