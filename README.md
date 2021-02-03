@@ -17,8 +17,9 @@ We used 148 open source papers with a focus on climate change from the EconStor 
 We compared three different models:
 - a GPT-2 fine-tuned only with the abatracts of the papers
 - a GPT-2 fine-tuned with the full texts of the papers (with title page and bibliography excluded)
-- an untrained GPT-3  
-Further, we compared two different prompt approaches:  
+- an untrained GPT-3
+  
+Further, we compared two different prompt approaches for each model:  
 - a one-ohot approach, with only one example abstract and TL;DR provided
 - a few-shot approach, with two example abstracts and TL;DRs provided
 For each model and each approach five TL;DRs were generated. The generated TL;DRs were than compared using the [ROUGE score](https://en.wikipedia.org/wiki/ROUGE_(metric)) and four independent human ratings. The categories for the human ratings were defined to vary from 0 ("really bad") to 3 ("quite ok or better").
