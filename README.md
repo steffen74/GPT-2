@@ -1,5 +1,8 @@
 # Comparing GPT-3 With Fine-Tuned GPT-2 Models Trained on Abstracts and Full Papers from the EconStor Database
 
+Authors:  
+Atul Kumar Yadav, Jonas Peltner, Nicolas Steen, Philipp Seeler, Stefan Pohle, Steffen Brandt
+
 ## Summary
 The overall goal of the two projects documented in this repository are the comparison of different fine-tuned GPT-2 models and the GPT-3 model without fine-tuning. The results might thereby give a hint to what extent fine-tuning is still a very worthwhile thing to do, or it might be more to focus on the integration of larger models and the design of the prompts for these models.  
 This question will be even more pressing when estimated models comparable to GPT-3 or even better get fully open source, which is very probable looking at initiatives such as [EleutherAI](https://www.eleuther.ai/).
