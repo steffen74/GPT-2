@@ -15,9 +15,9 @@ In this project, we provided the GPT models with the abstract of a fulltext pape
 We used 148 open source papers with a focus on climate change from the EconStor database for fine-tuning the GPT-2 (including those used for validation) and five abstracts from papers on climate change that were not included in this database and served as test data.
 #### Method
 We compared three different models:
-- a GPT-2 fine-tuned only with the abatracts of the papers
-- a GPT-2 fine-tuned with the full texts of the papers (with title page and bibliography excluded)
-- an untrained GPT-3
+- a GPT-2 (small model with 117M parameters) fine-tuned only with the abatracts of the papers
+- a GPT-2 (small model with 117M parameters) fine-tuned with the full texts of the papers (with title page and bibliography excluded)
+- an untrained GPT-3 (ada model by openAI)
   
 Further, we compared two different prompt approaches for each model:  
 - a one-ohot approach, with only one example abstract and TL;DR provided
